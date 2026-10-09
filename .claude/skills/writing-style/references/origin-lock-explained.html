@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Origin lock in pictures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Hanken+Grotesk:wght@400;600;800&family=Spline+Sans+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f1e8; --card:#fcfbf6; --ink:#16150f; --muted:#59574f; --rule:#c9c4b7;
+  --stamp:#f2892a; --stamp-soft:#fde3c6; --no:#d6362a; --no-soft:#f9d6d1;
+  --gate:#3b7dd8; --gate-soft:#d6e5f8; --ok:#2e9a5b; --ok-soft:#d3eedc;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:linear-gradient(rgba(201,196,183,.35) 1px,transparent 1px),linear-gradient(90deg,rgba(201,196,183,.35) 1px,transparent 1px);
+  background-size:30px 30px;
+  font:400 1.075rem/1.6 "Hanken Grotesk",system-ui,sans-serif;
+}
+.binding{position:fixed; top:0; bottom:0; left:0; width:56px; background-color:#e7e1d1; border-right:1.5px solid var(--ink);
+  background-image:radial-gradient(circle at 28px 22px,var(--paper) 0 7px,var(--ink) 7px 8.5px,transparent 8.5px);
+  background-size:56px 44px}
+main{max-width:800px; margin:0 auto; padding:40px 24px 64px 88px}
+@media (max-width:700px){.binding{display:none} main{padding:24px 16px 48px}}
+h1{font-weight:800; font-size:clamp(2.1rem,6vw,3.2rem); line-height:1.05; letter-spacing:-.02em; margin:0 0 .4em}
+h2{font-weight:800; font-size:1.55rem; line-height:1.2; margin:0 0 .5em; letter-spacing:-.01em}
+.lede{font-size:1.2rem; max-width:36em; margin:0 0 .4em}
+.hand{font-family:Caveat,cursive; font-weight:600; font-size:1.6rem; color:#c8661a; line-height:1.2; margin:0}
+section{background:var(--card); border:1.5px solid var(--ink); border-radius:6px; box-shadow:3px 3px 0 var(--ink);
+  padding:24px; margin:32px 0}
+@media (max-width:520px){section{padding:18px 16px}}
+p{margin:0 0 .8em; max-width:38em}
+figure{margin:16px 0 0}
+.draw{overflow-x:auto; border:1.5px solid var(--ink); border-radius:4px; background:var(--paper)}
+.draw svg{display:block; width:100%; min-width:540px; height:auto}
+.draw.small svg{min-width:460px}
+figcaption{margin-top:10px; color:var(--muted); font-size:1rem; max-width:40em}
+figcaption b{color:var(--ink)}
+code{font-family:"Spline Sans Mono",ui-monospace,monospace; font-size:.86em; background:var(--paper);
+  border:1px solid var(--rule); border-radius:4px; padding:.05em .35em; overflow-wrap:anywhere}
+svg text{font-family:"Hanken Grotesk",system-ui,sans-serif; fill:var(--ink)}
+svg .lbl{font-size:15px; font-weight:600}
+svg .sm{font-size:13px; fill:var(--muted)}
+svg .hw{font-family:Caveat,cursive; font-size:22px; font-weight:600}
+.safe{list-style:none; padding:0; margin:0}
+.safe li{display:grid; grid-template-columns:44px 1fr; gap:14px; align-items:start; padding:12px 0; border-bottom:1px dashed var(--rule)}
+.safe li:last-child{border-bottom:0}
+.safe svg{width:44px; height:44px}
+.safe b{display:block}
+.warn{margin-top:18px; border:1.5px solid var(--no); background:var(--no-soft); border-radius:6px; padding:16px 18px;
+  box-shadow:3px 3px 0 var(--no)}
+.warn p{margin:0}
+.warn strong{color:var(--no)}
+ol.steps{list-style:none; counter-reset:s; padding:0; margin:0}
+ol.steps>li{counter-increment:s; position:relative; padding:0 0 22px 56px}
+ol.steps>li::before{content:counter(s); position:absolute; left:0; top:-4px; width:38px; height:38px; border:1.5px solid var(--ink);
+  border-radius:50%; background:var(--stamp); box-shadow:2px 2px 0 var(--ink); font-weight:800; font-size:1.15rem;
+  display:grid; place-items:center}
+@media (max-width:520px){ol.steps>li{padding-left:50px}}
+ol.steps ul{margin:.4em 0 0; padding-left:1.1em}
+ol.steps ul li{margin:.2em 0}
+code.cmd{display:block; margin:.5em 0; padding:10px 12px; background:var(--ink); color:var(--card); border:0; border-radius:4px;
+  overflow-x:auto; white-space:nowrap; overflow-wrap:normal}
+.after{border-top:1.5px solid var(--ink); padding-top:14px; margin-top:4px}
+.after p{margin:0}
+dl.gloss{display:grid; grid-template-columns:max-content 1fr; gap:6px 18px; margin:0}
+dl.gloss dt{font-weight:800}
+dl.gloss dd{margin:0; color:var(--muted)}
+@media (max-width:520px){dl.gloss{grid-template-columns:1fr; gap:0} dl.gloss dd{margin-bottom:10px}}
+footer{color:var(--muted); font-size:.95rem}
+</style>
+</head>
+<body>
+<div class="binding" aria-hidden="true"></div>
+
+<!-- Shared drawing parts: a person, a checker with a cap, the stamp, brick and crowd patterns, an arrowhead. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="p" viewBox="0 0 20 40"><circle cx="10" cy="7" r="6" stroke="#16150f" stroke-width="1.5"/><path d="M2 39V23a8 8 0 0 1 16 0v16z" stroke="#16150f" stroke-width="1.5"/></symbol>
+    <symbol id="cap" viewBox="0 0 20 40"><circle cx="10" cy="7" r="6" fill="#f4d7b5" stroke="#16150f" stroke-width="1.5"/><path d="M3 5a7 6 0 0 1 14 0z" fill="#3b7dd8" stroke="#16150f" stroke-width="1.2"/><path d="M2 39V23a8 8 0 0 1 16 0v16z" stroke="#16150f" stroke-width="1.5"/></symbol>
+    <symbol id="star" viewBox="0 0 20 20"><circle cx="10" cy="10" r="9.5" fill="#f2892a" opacity=".35"/><path d="M10 3l2 5 5 .5-4 3.5 1.3 5L10 14l-4.3 3 1.3-5-4-3.5 5-.5z" fill="#f2892a" stroke="#16150f" stroke-width="1"/></symbol>
+    <pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#efe2c9"/><path d="M0 12h24M12 0v6M0 6h24M0 6v6M24 6v6" stroke="#ddcdb0" stroke-width="1"/></pattern>
+    <pattern id="crowd" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="4" fill="#3b7dd8" stroke="#16150f" stroke-width="1"/></pattern>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#16150f"/></marker>
+  </defs>
+</svg>
+
+<main>
+<header>
+  <h1>The origin lock, in pictures</h1>
+  <p class="lede">Right now people can reach rockpaperprint.com through a back door that skips Cloudflare. The origin lock shuts that door, so only visitors Cloudflare has checked get in.</p>
+  <p class="hand">Think of the website as a concert venue.</p>
+</header>
+
+<section aria-labelledby="h-today">
+  <h2 id="h-today">Today: a front gate, and an open back door</h2>
+  <p>The website lives on a server we rent from BigRock, in a building shared with other sites. That server is the <b>venue</b>.</p>
+  <p>In front of it stands <b>Cloudflare</b>, the front gate with ticket checkers. They check every visitor: they stop bad bots, hold back floods, and hand out ready copies of popular pages so the venue stays calm.</p>
+  <p>The trouble: the venue also has a back door. Anyone who knows the server's street address, or an old alias name for it, can walk straight in.</p>
+  <figure>
+    <div class="draw">
+    <svg viewBox="0 0 680 320" role="img" aria-labelledby="t1">
+      <title id="t1">Visitors go through the Cloudflare gate into the venue, while a sneak follows a dotted path to an open back door</title>
+      <rect x="0" y="270" width="680" height="50" fill="#e3dccb"/>
+      <line x1="0" y1="270" x2="680" y2="270" stroke="#16150f" stroke-width="1.5"/>
+      <path d="M300 110l130-60 130 60z" fill="#f2892a" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="300" y="110" width="260" height="160" fill="url(#brick)" stroke="#16150f" stroke-width="1.5"/>
+      <text x="430" y="150" text-anchor="middle" class="lbl">The venue</text>
+      <text x="430" y="170" text-anchor="middle" class="sm">your server at BigRock</text>
+      <rect x="300" y="200" width="12" height="70" fill="#16150f"/>
+      <rect x="532" y="205" width="28" height="65" fill="#16150f"/>
+      <path d="M560 205l22 8v62l-22-5z" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="200" y="160" width="10" height="110" fill="#3b7dd8" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="252" y="160" width="10" height="110" fill="#3b7dd8" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="192" y="140" width="78" height="26" rx="4" fill="#d6e5f8" stroke="#16150f" stroke-width="1.5"/>
+      <text x="231" y="158" text-anchor="middle" class="lbl">Cloudflare</text>
+      <use href="#cap" x="214" y="228" width="16" height="32" fill="#3b7dd8"/>
+      <use href="#cap" x="234" y="228" width="16" height="32" fill="#3b7dd8"/>
+      <text x="231" y="292" text-anchor="middle" class="sm">ticket checkers</text>
+      <use href="#p" x="30" y="226" width="20" height="40" fill="#9fc3ef"/>
+      <use href="#p" x="58" y="222" width="20" height="40" fill="#f6c36b"/>
+      <use href="#p" x="86" y="228" width="20" height="40" fill="#b9e0c4"/>
+      <use href="#p" x="114" y="224" width="20" height="40" fill="#f3b3a8"/>
+      <use href="#p" x="142" y="228" width="20" height="40" fill="#d8c3ef"/>
+      <text x="96" y="210" text-anchor="middle" class="hw">visitors</text>
+      <path d="M168 248h22M272 248h22" stroke="#16150f" stroke-width="1.5" marker-end="url(#ar)"/>
+      <use href="#p" x="630" y="96" width="22" height="44" fill="#59574f"/>
+      <path d="M640 146c0 40-20 60-50 90" fill="none" stroke="#16150f" stroke-width="2" stroke-dasharray="5 6" marker-end="url(#ar)"/>
+      <text x="676" y="24" text-anchor="end" class="lbl">back door:</text>
+      <text x="676" y="44" text-anchor="end" class="sm">server address 162.241.85.65</text>
+      <text x="676" y="62" text-anchor="end" class="sm">or the old alias name</text>
+      <text x="612" y="302" text-anchor="middle" class="hw">wide open</text>
+    </svg>
+    </div>
+    <figcaption><b>What the sneak skips:</b> every check at the front gate. No bot filter, no flood shield, no ready copies. They can also lie about who they are, because nobody checked them on the way in.</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="h-after">
+  <h2 id="h-after">After the lock: a stamp, and a guard at the back</h2>
+  <p>Now the checkers press an invisible-ink stamp on every hand they check. The stamp is a long secret code that only Cloudflare and the venue know. Visitors never see it.</p>
+  <p>The back door gets a guard. The guard opens only for a hand with the right stamp. The sneak has none, so the guard says no. On the web that answer is called <b>403 Forbidden</b>.</p>
+  <p>The old street sign that pointed down the back alley (the alias name) now says “go round to the front gate”. That answer is called a <b>301 redirect</b>.</p>
+  <figure>
+    <div class="draw">
+    <svg viewBox="0 0 680 320" role="img" aria-labelledby="t2">
+      <title id="t2">Stamped visitors pass the gate, a guard under a stamp-only sign blocks the sneak with a 403, and the old street sign points to the front gate</title>
+      <rect x="0" y="270" width="680" height="50" fill="#e3dccb"/>
+      <line x1="0" y1="270" x2="680" y2="270" stroke="#16150f" stroke-width="1.5"/>
+      <path d="M300 110l130-60 130 60z" fill="#f2892a" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="300" y="110" width="260" height="160" fill="url(#brick)" stroke="#16150f" stroke-width="1.5"/>
+      <text x="430" y="150" text-anchor="middle" class="lbl">The venue</text>
+      <rect x="300" y="200" width="12" height="70" fill="#16150f"/>
+      <rect x="532" y="205" width="28" height="65" fill="#7a5a3a" stroke="#16150f" stroke-width="1.5"/>
+      <circle cx="538" cy="240" r="2.5" fill="#f6c36b"/>
+      <use href="#p" x="566" y="226" width="20" height="40" fill="#16150f"/>
+      <rect x="474" y="174" width="86" height="24" rx="3" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <text x="517" y="191" text-anchor="middle" class="lbl">stamp only</text>
+      <rect x="200" y="160" width="10" height="110" fill="#3b7dd8" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="252" y="160" width="10" height="110" fill="#3b7dd8" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="192" y="140" width="78" height="26" rx="4" fill="#d6e5f8" stroke="#16150f" stroke-width="1.5"/>
+      <text x="231" y="158" text-anchor="middle" class="lbl">Cloudflare</text>
+      <use href="#cap" x="214" y="228" width="16" height="32" fill="#3b7dd8"/>
+      <use href="#cap" x="234" y="228" width="16" height="32" fill="#3b7dd8"/>
+      <use href="#p" x="72" y="226" width="20" height="40" fill="#9fc3ef"/>
+      <use href="#p" x="104" y="222" width="20" height="40" fill="#f6c36b"/>
+      <use href="#p" x="136" y="228" width="20" height="40" fill="#b9e0c4"/>
+      <use href="#p" x="272" y="226" width="20" height="40" fill="#f3b3a8"/>
+      <use href="#star" x="276" y="240" width="16" height="16"/>
+      <use href="#star" x="218" y="182" width="26" height="26"/>
+      <text x="290" y="200" class="hw" style="fill:#c8661a">stamped</text>
+      <path d="M164 248h24" stroke="#16150f" stroke-width="1.5" marker-end="url(#ar)"/>
+      <use href="#p" x="630" y="196" width="22" height="44" fill="#59574f"/>
+      <rect x="600" y="140" width="70" height="40" rx="4" fill="#d6362a" stroke="#16150f" stroke-width="1.5"/>
+      <text x="635" y="167" text-anchor="middle" style="font-size:22px;font-weight:800;fill:#fcfbf6">403</text>
+      <text x="676" y="302" text-anchor="end" class="hw" style="fill:#d6362a">no stamp, no entry</text>
+      <line x1="40" y1="40" x2="40" y2="210" stroke="#16150f" stroke-width="3"/>
+      <path d="M48 40h146l18 18-18 18H48z" fill="#2e9a5b" stroke="#16150f" stroke-width="1.5"/>
+      <text x="58" y="63" class="lbl" style="fill:#fcfbf6">to the front gate</text>
+      <text x="50" y="100" class="sm">the old alias name</text>
+      <text x="50" y="118" class="sm">now sends you round (301)</text>
+      <path d="M212 70q22 30 18 64" fill="none" stroke="#16150f" stroke-width="1.5" stroke-dasharray="4 5" marker-end="url(#ar)"/>
+    </svg>
+    </div>
+    <figcaption><b>In real life:</b> Cloudflare adds a hidden line, <code>X-RPP-Edge: &lt;secret&gt;</code>, to every request it passes on to the server. The server's gate file, <code>.htaccess</code>, reads that line. Right code: come in. Wrong code or none: Forbidden. The old alias name is sent to <code>https://rockpaperprint.com</code>.</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="h-keys">
+  <h2 id="h-keys">Who still gets in without a stamp</h2>
+  <p>Two callers never pass the front gate, so they could never get a stamp. They have their own keys instead.</p>
+  <figure>
+    <div class="draw">
+    <svg viewBox="0 0 680 300" role="img" aria-labelledby="t3">
+      <title id="t3">A mail carrier brings a certificate renewal letter to a side hatch marked /.well-known/, and a janitor works inside the venue, labelled scheduled jobs (cron)</title>
+      <rect x="0" y="250" width="680" height="50" fill="#e3dccb"/>
+      <line x1="0" y1="250" x2="680" y2="250" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="220" y="60" width="400" height="190" fill="url(#brick)" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="380" y="92" width="220" height="148" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <text x="490" y="84" text-anchor="middle" class="sm">inside the venue</text>
+      <use href="#p" x="440" y="172" width="28" height="56" fill="#2e9a5b"/>
+      <line x1="474" y1="160" x2="490" y2="232" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M478 232h24l-4 7h-16z" fill="#f6c36b" stroke="#16150f" stroke-width="1.2"/>
+      <text x="490" y="122" text-anchor="middle" class="lbl">janitor</text>
+      <text x="490" y="142" text-anchor="middle" class="sm">scheduled jobs (cron)</text>
+      <rect x="220" y="150" width="40" height="34" fill="#16150f"/>
+      <rect x="206" y="118" width="104" height="24" rx="3" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <text x="258" y="135" text-anchor="middle" class="lbl">/.well-known/</text>
+      <use href="#p" x="110" y="168" width="30" height="60" fill="#3b7dd8"/>
+      <path d="M110 170h30l-4-8h-22z" fill="#16150f"/>
+      <rect x="150" y="156" width="54" height="34" rx="2" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <path d="M150 156l27 18 27-18" fill="none" stroke="#16150f" stroke-width="1.5"/>
+      <text x="125" y="274" text-anchor="middle" class="lbl">mail carrier</text>
+      <text x="125" y="292" text-anchor="middle" class="sm">Let's Encrypt</text>
+      <text x="24" y="58" class="hw" style="fill:#c8661a">certificate renewal</text>
+      <path d="M110 68q40 30 62 82" fill="none" stroke="#16150f" stroke-width="1.5" marker-end="url(#ar)"/>
+    </svg>
+    </div>
+    <figcaption><b>The mail carrier</b> (Let's Encrypt) brings the venue's licence renewal: the security certificate. It must come to the server directly, never through Cloudflare. Block it and the certificate runs out, and then Cloudflare refuses to talk to the server too. So the little hatch at <code>/.well-known/</code> always stays open, and it only takes these letters.<br><br>
+    <b>The janitor</b> (cron) already works inside the building. Scheduled jobs, like publishing a post at 6 a.m., start on the server itself. Calls from inside the building are always let through.</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="h-count">
+  <h2 id="h-count">Counting people properly</h2>
+  <p>The venue limits how many drinks one person can order in a minute. That is a <b>rate limit</b>. It stops bots from hammering the search box or the login page.</p>
+  <p>The checkers also write each visitor's real name on the stamp (their real internet address). The website now trusts that name, because the stamp proves a real checker wrote it.</p>
+  <figure>
+    <div class="draw small">
+    <svg viewBox="0 0 640 230" role="img" aria-labelledby="t4">
+      <title id="t4">Before: one big bucket labelled gate 3 holding 40 people, with a too-many warning. After: one small bucket per person, all fine</title>
+      <text x="150" y="28" text-anchor="middle" class="lbl">Before</text>
+      <text x="470" y="28" text-anchor="middle" class="lbl">After</text>
+      <line x1="320" y1="14" x2="320" y2="216" stroke="#c9c4b7" stroke-width="1.5" stroke-dasharray="4 5"/>
+      <path d="M70 60h160l-18 130H88z" fill="url(#crowd)" stroke="#16150f" stroke-width="1.5"/>
+      <rect x="100" y="104" width="100" height="28" rx="3" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/>
+      <text x="150" y="123" text-anchor="middle" class="lbl">gate 3: 40</text>
+      <rect x="192" y="40" width="84" height="30" rx="4" fill="#d6362a" stroke="#16150f" stroke-width="1.5"/>
+      <text x="234" y="61" text-anchor="middle" style="font-size:15px;font-weight:800;fill:#fcfbf6">too many!</text>
+      <text x="150" y="214" text-anchor="middle" class="sm">everyone counted as one person</text>
+      <g fill="#3b7dd8" stroke="#16150f" stroke-width="1.5">
+        <path d="M352 90h44l-6 50h-32z" fill="#fcfbf6"/><path d="M412 90h44l-6 50h-32z" fill="#fcfbf6"/><path d="M472 90h44l-6 50h-32z" fill="#fcfbf6"/><path d="M532 90h44l-6 50h-32z" fill="#fcfbf6"/>
+        <circle cx="374" cy="128" r="4"/><circle cx="428" cy="128" r="4"/><circle cx="440" cy="128" r="4"/><circle cx="494" cy="128" r="4"/><circle cx="548" cy="128" r="4"/><circle cx="560" cy="128" r="4"/><circle cx="554" cy="118" r="4"/>
+      </g>
+      <text x="374" y="162" text-anchor="middle" class="sm">Ana</text><text x="434" y="162" text-anchor="middle" class="sm">Ben</text>
+      <text x="494" y="162" text-anchor="middle" class="sm">Cleo</text><text x="554" y="162" text-anchor="middle" class="sm">Dev</text>
+      <text x="470" y="72" text-anchor="middle" class="hw" style="fill:#2e9a5b">all fine</text>
+      <text x="470" y="214" text-anchor="middle" class="sm">each person has their own count</text>
+    </svg>
+    </div>
+    <figcaption><b>Before:</b> Cloudflare has many gates, and lots of visitors arrive through the same one. If the venue counts “gate 3” as one person, 40 teachers searching at once look like one greedy visitor, and real people could get a “too many requests” error. <b>After:</b> each person has their own count, so only a real troublemaker hits the limit.</figcaption>
+  </figure>
+</section>
+
+<section aria-labelledby="h-safe">
+  <h2 id="h-safe">Why it is safe to switch on</h2>
+  <ul class="safe">
+    <li><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="10" y="4" width="28" height="34" rx="3" fill="#d6e5f8" stroke="#16150f" stroke-width="1.5"/><rect x="5" y="9" width="28" height="31" rx="3" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/><path d="M11 19h16M11 25h16M11 31h10" stroke="#16150f" stroke-width="1.5"/></svg>
+      <div><b>A backup comes first.</b> Before it changes anything, the script copies the gate file and the WordPress settings file to a safe folder on the server.</div></li>
+    <li><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="#fde3c6" stroke="#16150f" stroke-width="1.5"/><path d="M27 27l12 12" stroke="#16150f" stroke-width="3.5" stroke-linecap="round"/><use href="#star" x="10" y="10" width="16" height="16"/></svg>
+      <div><b>It won't lock until it sees the stamp.</b> It sends one visitor through Cloudflare and asks WordPress: did that request carry the right stamp? No stamp, no lock. The door stays as it is today.</div></li>
+    <li><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="6" y="6" width="32" height="32" rx="4" fill="#d3eedc" stroke="#16150f" stroke-width="1.5"/><path d="M13 22l6 6 12-13" fill="none" stroke="#2e9a5b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><b>It tests itself.</b> Right after locking it knocks four ways. Through Cloudflare: must open. Straight to the server: must be refused. The old alias: must be sent to the front. The certificate hatch: must not be blocked.</div></li>
+    <li><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M12 13a14 14 0 1 1-3 17" fill="none" stroke="#16150f" stroke-width="2.5" stroke-linecap="round"/><path d="M5 6l9 8 2-10z" fill="#f2892a" stroke="#16150f" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      <div><b>It undoes itself.</b> If the site does not open through Cloudflare, or the certificate hatch gets blocked, it puts the old file back on its own, checks the site opens again, and tells you why.</div></li>
+    <li><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="4" y="13" width="36" height="20" rx="10" fill="#e3dccb" stroke="#16150f" stroke-width="1.5"/><circle cx="14" cy="23" r="7" fill="#fcfbf6" stroke="#16150f" stroke-width="1.5"/></svg>
+      <div><b><code>--off</code> works any time.</b> One command removes the lock and leaves the site exactly as open as it is today.</div></li>
+  </ul>
+  <div class="warn" role="note">
+    <p><strong>The one rule.</strong> If Cloudflare is paused, or the stamp rule is deleted, nobody gets stamped any more, so every visitor sees “Forbidden” until you run <code>--off</code>. Before you pause Cloudflare, switch the domain to “DNS only”, move it away, or change that rule: run <code>--off</code> first.</p>
+  </div>
+</section>
+
+<section aria-labelledby="h-clicks">
+  <h2 id="h-clicks">Your three clicks</h2>
+  <p>Open Git Bash in the project folder, <code>C:\xampp\htdocs\Printables</code>.</p>
+  <ol class="steps">
+    <li><b>Run the script the first time.</b>
+      <code class="cmd">bash production/deploy/apply-origin-lock.sh --go</code>
+      It makes a backup, creates the secret stamp, tells WordPress about it, and then stops on purpose, because Cloudflare is not stamping yet. At the end it prints the secret. Copy it.</li>
+    <li><b>Teach the checkers the stamp, in Cloudflare.</b>
+      <ul>
+        <li>Open rockpaperprint.com, then <b>Rules</b>, <b>Transform Rules</b>, <b>Modify Request Header</b>, <b>Create rule</b>.</li>
+        <li>Name it <code>RPP edge header</code>. Match: <b>All incoming requests</b>.</li>
+        <li>Choose <b>Set static</b>. Header name <code>X-RPP-Edge</code>. Value: the secret.</li>
+        <li>Click <b>Deploy</b>, then wait a minute.</li>
+      </ul></li>
+    <li><b>Run the same command again.</b>
+      <code class="cmd">bash production/deploy/apply-origin-lock.sh --go</code>
+      This time it sees the stamp arriving, locks the back door, runs its four tests, and tells you it is done.</li>
+  </ol>
+  <div class="after">
+    <p><b>Later:</b> <code>--check</code> runs the four tests any time. <code>--off</code> removes the lock. Lost the secret? <code>ssh bigrock cat ~/.rpp-edge-secret</code> shows it again.</p>
+  </div>
+</section>
+
+<section aria-labelledby="h-gloss">
+  <h2 id="h-gloss">Little glossary</h2>
+  <dl class="gloss">
+    <dt>Origin</dt><dd>The real server where the website lives. The venue.</dd>
+    <dt>Cloudflare</dt><dd>The service in front of the server that checks and speeds up every visit. The front gate.</dd>
+    <dt>Header</dt><dd>A short labelled note attached to every web request. The stamp is one.</dd>
+    <dt>.htaccess</dt><dd>A small rules file the server reads before every request. The guard's instructions.</dd>
+    <dt>Certificate</dt><dd>The file behind the padlock and https. It has to be renewed every few months.</dd>
+    <dt>Cron</dt><dd>The server's alarm clock for jobs that run on a schedule. The janitor.</dd>
+    <dt>403</dt><dd>The server's answer for “Forbidden: you may not come in.”</dd>
+    <dt>301</dt><dd>The server's answer for “This has moved for good, go here instead.”</dd>
+  </dl>
+</section>
+
+<footer><p>Full technical notes: <code>production/deploy/origin-lock.md</code>. Written 5 October 2026.</p></footer>
+</main>
+</body>
+</html>
