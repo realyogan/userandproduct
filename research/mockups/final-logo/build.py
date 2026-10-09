@@ -370,17 +370,27 @@ def centred(lock, w, h, lh, cx=None):
     return nest(lock, cx - lw / 2, h / 2 - lh / 2, lh)[0]
 
 
-GRAD_FROM, GRAD_TO = '#2B46A0', '#1B2E6E'    # social backgrounds only, never on the site
+# The slate-to-warm dark gradient from the brand sheet's preview panel:
+# CSS linear-gradient(135deg, #3B4A5C, #1E2733 55%, #4A3B33). Social backgrounds only, never on the site.
+GRAD_ANGLE = 135
+GRAD_STOPS = [(0.0, '#3B4A5C'), (0.55, '#1E2733'), (1.0, '#4A3B33')]
+GRAD_CSS = 'linear-gradient(135deg, #3B4A5C, #1E2733 55%, #4A3B33)'
 
 
 def gradient(w, h):
-    """A diagonal gradient (top left to bottom right) as an RGB image, w x h, dithered against banding."""
+    """GRAD_STOPS laid out as CSS does for a w x h box at GRAD_ANGLE, dithered against banding."""
+    import math
     import numpy as np
-    a = np.array([int(GRAD_FROM[i:i + 2], 16) for i in (1, 3, 5)], dtype=np.float64)
-    b = np.array([int(GRAD_TO[i:i + 2], 16) for i in (1, 3, 5)], dtype=np.float64)
+    rad = math.radians(GRAD_ANGLE)
+    dx, dy = math.sin(rad), -math.cos(rad)                 # CSS: 0deg points up, 90deg right; y runs down
+    length = abs(w * math.sin(rad)) + abs(h * math.cos(rad))
     ys, xs = np.mgrid[0:h, 0:w].astype(np.float64)
-    t = ((xs + 0.5) * w + (ys + 0.5) * h) / (w * w + h * h)       # projection on the diagonal, 0..1
-    img = a + (b - a) * t[..., None]
+    t = ((xs + 0.5 - w / 2) * dx + (ys + 0.5 - h / 2) * dy) / length + 0.5
+    pos = np.array([p for p, _ in GRAD_STOPS])
+    img = np.empty((h, w, 3))
+    for c in range(3):
+        vals = np.array([int(col[1 + 2 * c:3 + 2 * c], 16) for _, col in GRAD_STOPS], dtype=np.float64)
+        img[..., c] = np.interp(t, pos, vals)
     img += np.random.RandomState(7).uniform(-0.5, 0.5, img.shape)  # fixed seed: the build stays repeatable
     return Image.fromarray(np.clip(np.round(img), 0, 255).astype(np.uint8), 'RGB')
 
@@ -646,8 +656,9 @@ blue in dark browser themes; the PNG and ICO files sit on a white tile so they r
 <div class="shots">{mono}</div>
 
 <h2>Gradient social</h2>
-<p>The all-white mark and lockup on a quiet signal-blue gradient ({GRAD_FROM} top left to {GRAD_TO} bottom
-right), JPEG with an sRGB profile. For social posts and profiles only, never on the site itself.</p>
+<p>The all-white mark and lockup on the slate-to-warm dark gradient from the preview panel
+(<code>{GRAD_CSS}</code>), JPEG with an sRGB profile. For social posts and profiles only, never on the site
+itself.</p>
 <div class="shots">{grad}</div>
 
 <h2>Colour</h2>
@@ -694,8 +705,8 @@ of the mark's height). Keep at least x empty on every side. At a 30 pixel tall l
 <li>Outline it, or add shadows, glows, gradients or other effects.</li>
 <li>Colour the tiles in more than one colour.</li>
 <li>Retype the name in another font or in capitals.</li>
-<li>Use the blue gradient anywhere but social backgrounds; never on the site itself.</li>
-<li>Put the blue mark on the gradient; use the all-white files there.</li>
+<li>Use the gradient anywhere but social backgrounds; never on the site itself.</li>
+<li>Put the coloured mark on the gradient; use the all-white files there.</li>
 </ul></div>
 </div>
 
@@ -739,8 +750,9 @@ Open the brand sheet: http://localhost/user-and-product/research/mockups/final-l
   `site.webmanifest` and `head-snippet.html` with the tags for the theme.
 - `social/`: Open Graph images (light, dark), LinkedIn banners (light, dark), avatars (light, dark),
   an X header, and the site header strip (light, dark).
-- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on a signal-blue gradient
-  (#2B46A0 top left to #1B2E6E bottom right; social backgrounds only, never on the site):
+- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on the slate-to-warm dark
+  gradient from the preview panel (`linear-gradient(135deg, #3B4A5C, #1E2733 55%, #4A3B33)`, scaled to each
+  canvas; social backgrounds only, never on the site):
   `instagram-square-1080.jpg`, `lockup-square-1080.jpg`, `instagram-portrait-1080x1350.jpg`,
   `lockup-portrait-1080x1350.jpg`, `instagram-story-1080x1920.jpg`, `instagram-profile-320.jpg`,
   `linkedin-banner-gradient-1128x191.jpg`, `og-gradient-1200x630.jpg`, `x-header-gradient-1500x500.jpg`.

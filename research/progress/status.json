@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "run_id": "mockup-article-header",
-  "title": "Variant A: Tiger Data structure",
-  "state": "finished",
-  "started": "2026-10-09T19:07+05:30",
-  "updated": "2026-10-09T19:07+05:30",
-  "note": "Two rows and the gradient rule added to the sheet; README index updated; all SVG/PNG/ICO/JPEG open, JPEGs RGB with sRGB profile; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
+  "run_id": "mockup-article-rail",
+  "title": "Variant A: wider column, single rail unit",
+  "state": "running",
+  "started": "2026-10-09T19:08+05:30",
+  "updated": "2026-10-09T19:09+05:30",
+  "note": "Max in view 2 at 1280x720, 1280x800, 1366x768, 1440x900; 1 at 1100 and 768; 2 at 375; rail unit starts 400px below the leaderboard",
   "steps": [
     {
       "n": 1,
-      "title": "Top block",
+      "title": "Column widths and rail unit",
       "status": "done",
-      "note": "6 flattened monochrome PNGs",
-      "time": "19:07"
+      "note": "Centre column 720px at 1280, 1366, 1440; 240px left rail; rail unit 160x600 (1200 to 1439) or 300x600 (1440 up); 300x250 between H2 3 and 4",
+      "time": "19:09"
     },
     {
       "n": 2,
-      "title": "Three columns",
+      "title": "Ads in view",
       "status": "done",
-      "note": "9 gradient JPEGs (q90, sRGB, 2x then downsampled, dithered)",
-      "time": "19:07"
+      "note": "Max in view 2 at 1280x720, 1280x800, 1366x768, 1440x900; 1 at 1100 and 768; 2 at 375; rail unit starts 400px below the leaderboard",
+      "time": "19:09"
     },
     {
       "n": 3,
-      "title": "Ads re-measured and checks",
-      "status": "done",
-      "note": "Two rows and the gradient rule added to the sheet; README index updated; all SVG/PNG/ICO/JPEG open, JPEGs RGB with sRGB profile; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
-      "time": "19:07"
+      "title": "Overlap test and chooser",
+      "status": "pending",
+      "note": "",
+      "time": ""
     }
   ]
 }

@@ -27,8 +27,9 @@ Open the brand sheet: http://localhost/user-and-product/research/mockups/final-l
   `site.webmanifest` and `head-snippet.html` with the tags for the theme.
 - `social/`: Open Graph images (light, dark), LinkedIn banners (light, dark), avatars (light, dark),
   an X header, and the site header strip (light, dark).
-- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on a signal-blue gradient
-  (#2B46A0 top left to #1B2E6E bottom right; social backgrounds only, never on the site):
+- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on the slate-to-warm dark
+  gradient from the preview panel (`linear-gradient(135deg, #3B4A5C, #1E2733 55%, #4A3B33)`, scaled to each
+  canvas; social backgrounds only, never on the site):
   `instagram-square-1080.jpg`, `lockup-square-1080.jpg`, `instagram-portrait-1080x1350.jpg`,
   `lockup-portrait-1080x1350.jpg`, `instagram-story-1080x1920.jpg`, `instagram-profile-320.jpg`,
   `linkedin-banner-gradient-1128x191.jpg`, `og-gradient-1200x630.jpg`, `x-header-gradient-1500x500.jpg`.
