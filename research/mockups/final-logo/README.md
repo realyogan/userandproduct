@@ -3,6 +3,11 @@
 The final logo for userandproduct.com, decided 2026-10-09: the Signal mark (four filled tiles of two sizes,
 rotated 45 degrees) with the name "userandproduct" in Inter Display Bold, lowercase, tracking -25.
 
+Lockup geometry: the mark is 1.4 cap heights tall, centred midway between the cap band and the x-height
+band (mark centre 31.08 units above the baseline at 100 units per em; cap height 72.75, x-height 51.56),
+with a gap of 0.40 of the mark height (40.74 units). Both set on 9 Oct 2026 after the comparison in
+`alignment.html`; `python build.py --align cap|xheight|mid --gap <fraction>` rebuilds other variants.
+
 Open the brand sheet: http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html
 
 ## Contents

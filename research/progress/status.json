@@ -1,53 +1,25 @@
 {
   "version": 1,
-  "run_id": "final-logo",
-  "title": "Final logo pack (T08 Signal) and exploration archive",
+  "run_id": "logo-final-regen",
+  "title": "Final logo pack regenerated: alignment C, gap 0.40",
   "state": "finished",
-  "started": "2026-10-09T17:50+05:30",
-  "updated": "2026-10-09T17:57+05:30",
-  "note": "skipped: owner commits first (zip verified; nothing deleted; mockups README rewritten for the post-cleanup state)",
+  "started": "2026-10-09T18:06+05:30",
+  "updated": "2026-10-09T18:07+05:30",
+  "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; brand sheet shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
   "steps": [
     {
       "n": 1,
-      "title": "Masters and SVGs",
+      "title": "Regenerate",
       "status": "done",
-      "note": "13 SVGs written; lockup and mark byte-identical to the board's T08 files",
-      "time": "17:53"
+      "note": "Defaults now --align mid, --gap 0.40; 63 pack files plus brand sheet and README regenerated",
+      "time": "18:07"
     },
     {
       "n": 2,
-      "title": "PNG and favicon sets",
+      "title": "Checks",
       "status": "done",
-      "note": "30 PNGs, 11 favicon files; ICO holds 16, 32, 48",
-      "time": "17:53"
-    },
-    {
-      "n": 3,
-      "title": "Social set",
-      "status": "done",
-      "note": "9 social images",
-      "time": "17:53"
-    },
-    {
-      "n": 4,
-      "title": "Brand sheet and checks",
-      "status": "done",
-      "note": "Brand sheet written; 13 SVG parse, 37 PNG and 1 ICO open, ICO has 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
-      "time": "17:56"
-    },
-    {
-      "n": 5,
-      "title": "Archive zip",
-      "status": "done",
-      "note": "Zip written and tested: 1509 entries, 18.9 MB (feeling-board screenshots included)",
-      "time": "17:57"
-    },
-    {
-      "n": 6,
-      "title": "Cleanup and rebuild test",
-      "status": "skipped",
-      "note": "skipped: owner commits first (zip verified; nothing deleted; mockups README rewritten for the post-cleanup state)",
-      "time": "17:57"
+      "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; brand sheet shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
+      "time": "18:07"
     }
   ]
 }

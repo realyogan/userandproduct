@@ -361,3 +361,7 @@ tools, the Tiger Data reference, tooling notes.
 
 Git: first commit 53f7f7a (everything incl. the archive zip) and the cleanup commit pushed to
 git@github-realyogan:realyogan/userandproduct.git (owner created the repo; identity as Printables).
+
+Final lockup refinement (owner, 9 Oct): mark centred midway between the cap band and the x-height (+5.30 SVG units,
+alignment C) and the mark-to-word gap widened to 0.40 of the mark height (40.74 units, about 116px at 2400). These are
+now the build.py defaults; pack regenerated and committed. research/mockups/final-logo/alignment.html kept as the record.

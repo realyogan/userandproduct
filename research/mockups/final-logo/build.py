@@ -42,7 +42,7 @@ BLACK_MONO, WHITE_MONO = '#0B0B0C', '#FFFFFF'
 # ------------------------------------------------------------------ geometry
 TRACK = -25          # 1/1000 em
 H_CAP = 1.4          # mark height in cap heights (side lockup)
-GAP_CAP = 0.38       # gap between mark and name, in cap heights
+GAP_CAP = 0.38       # the original P8 gap, in cap heights (0.27 of the mark height); kept for the record
 STACK_H_CAP = 3.0    # mark height in the stacked lockup
 STACK_GAP_CAP = 0.76
 
@@ -116,7 +116,8 @@ def word():
 
 WORD_D, WB = word()
 
-# side lockup (P8 geometry): mark 1.4 cap heights tall, centred on half the cap height
+# side lockup: mark 1.4 cap heights tall; since 9 Oct 2026 centred midway between the cap band and the
+# x-height band, gap 0.40 of the mark height (owner decision; see alignment.html)
 _mx0, _my0, _mx1, _my1 = bounds(MARK_D)
 S_SIDE = CAP * H_CAP / (_my1 - _my0)
 MARK_W_SIDE = (_mx1 - _mx0) * S_SIDE
@@ -124,8 +125,34 @@ _t = bounds(SMALL_TILE_D)
 SMALL_TILE_FRAC = (_t[3] - _t[1]) / (_my1 - _my0)    # small tile height / mark height
 
 
-def lockup(mark_c, word_c):
-    H, yc, gap = CAP * H_CAP, -CAP / 2, CAP * GAP_CAP
+XH = _FONT.tt['OS/2'].sxHeight * 100 / _FONT.upem
+ALIGN = 'mid'        # set by --align: mid (decided), cap (the original P8) or xheight
+
+
+def mark_centre(align=None):
+    """The y of the mark's centre in the side lockup (baseline 0, y down)."""
+    align = align or ALIGN
+    if align == 'cap':
+        return -CAP / 2                      # centred on the cap band (the decided lockup)
+    if align == 'xheight':
+        return -XH / 2                       # centred on the x-height band
+    if align == 'mid':
+        return -(CAP + XH) / 4               # halfway between the two
+    raise ValueError(align)
+
+
+GAP = 0.40           # set by --gap: gap as a fraction of the mark height (decided 0.40; None: the original 0.38 cap heights)
+
+
+def gap_units(gap=None):
+    gap = GAP if gap is None else gap
+    if gap == 'original':
+        gap = None
+    return CAP * GAP_CAP if gap is None else CAP * H_CAP * gap
+
+
+def lockup(mark_c, word_c, align=None, gap=None):
+    H, yc, gap = CAP * H_CAP, mark_centre(align), gap_units(gap)
     dx, dy = -_mx0 * S_SIDE, yc - H / 2 - _my0 * S_SIDE
     body = P(shift(MARK_D, dx, dy, S_SIDE), mark_c) + P(shift(WORD_D, MARK_W_SIDE + gap, 0), word_c)
     top, bot = min(yc - H / 2, WB[1]), max(yc + H / 2, WB[3])
@@ -302,9 +329,18 @@ HEADER_LINE = {'light': '#E6E4DF', 'dark': '#2A2A2A'}
 
 
 def header_png(mode):
-    lock = SV['lockup-' + mode]
     bg = WHITE if mode == 'light' else NEAR
-    logo, _ = nest(lock, 40, 21, 30)
+    return canvas_png(1280, 72, bg, header_art(mode, SV['lockup-' + mode]))
+
+
+def header_art(mode, lock, ref=None):
+    """Header drawing. With ref (the cap-aligned lockup), lock is placed at ref's scale and baseline."""
+    if ref is None:
+        logo, _ = nest(lock, 40, 21, 30)
+    else:
+        rvb, vb = vbox(ref), vbox(lock)
+        sc = 30 / rvb[3]
+        logo, _ = nest(lock, 40, 21 + (vb[1] - rvb[1]) * sc, vb[3] * sc)
     tt = TTFont(FONT_R)
     cap = tt['OS/2'].sCapHeight * 15 / tt['head'].unitsPerEm
     base = 36 + cap / 2
@@ -314,8 +350,7 @@ def header_png(mode):
         d, _ = BA.text_path(FONT_R, wd, 15, xr - width, base)
         words.append(P(d, NAV_GREY[mode]))
         xr -= width + 32
-    art = f'<rect y="71" width="1280" height="1" fill="{HEADER_LINE[mode]}"/>' + logo + ''.join(words)
-    return canvas_png(1280, 72, bg, art)
+    return f'<rect y="71" width="1280" height="1" fill="{HEADER_LINE[mode]}"/>' + logo + ''.join(words)
 
 
 def centred(lock, w, h, lh, cx=None):
@@ -539,7 +574,7 @@ blue in dark browser themes; the PNG and ICO files sit on a white tile so they r
 <dt>Weight</dt><dd>Bold (700)</dd>
 <dt>Case</dt><dd>All lowercase, one word: userandproduct</dd>
 <dt>Tracking</dt><dd>{geo['track']} (thousandths of an em), set with the font's kerning</dd>
-<dt>Lockup</dt><dd>Mark 1.4 cap heights tall, centred on half the cap height; gap 0.38 cap heights</dd>
+<dt>Lockup</dt><dd>Mark 1.4 cap heights tall, centred midway between the cap band and the x-height; gap 0.40 of the mark height</dd>
 <dt>Files</dt><dd>Outlined as paths; no live text, so nothing depends on a font loading</dd>
 <dt>Licence</dt><dd>Inter is under the SIL Open Font License 1.1. The OFL allows logos made from its outlines;
 no credit is required. The outlines are not exclusive: anyone can set the same word in the same face.</dd>
@@ -587,6 +622,11 @@ def readme(tk, rt, decided):
 
 The final logo for userandproduct.com, decided {decided}: the Signal mark (four filled tiles of two sizes,
 rotated 45 degrees) with the name "userandproduct" in Inter Display Bold, lowercase, tracking -25.
+
+Lockup geometry: the mark is 1.4 cap heights tall, centred midway between the cap band and the x-height
+band (mark centre 31.08 units above the baseline at 100 units per em; cap height 72.75, x-height 51.56),
+with a gap of 0.40 of the mark height (40.74 units). Both set on 9 Oct 2026 after the comparison in
+`alignment.html`; `python build.py --align cap|xheight|mid --gap <fraction>` rebuilds other variants.
 
 Open the brand sheet: http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html
 
@@ -668,8 +708,173 @@ def validate():
     return counts
 
 
+# ------------------------------------------------------------------ alignment comparison (owner review)
+ALIGN_CSS = """
+:root{--bg:#FFFFFF;--fg:#0B0B0C;--sub:#5C5C5F;--line:#E6E4DF;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0B0C;--fg:#F1EEE7;--sub:#A8A59F;--line:#2A2A2A}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1312px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:clamp(26px,5vw,40px);line-height:1.1;margin:0 0 8px;letter-spacing:-.02em}
+h2{font-size:22px;margin:48px 0 6px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:15px;margin:24px 0 8px;color:var(--sub);font-weight:600}
+p{margin:0 0 12px;max-width:72ch}
+.lede{color:var(--sub);font-size:18px}
+.key{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px;color:var(--sub)}
+.key span::before{content:"";display:inline-block;width:28px;height:0;border-top:2px dashed;margin-right:8px;vertical-align:middle}
+.key .m::before{border-color:#E0372B}.key .x::before{border-color:#14A37F}
+.pair{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,600px),1fr))}
+.panel{border:1px solid var(--line);border-radius:10px;padding:28px 20px;display:flex;align-items:center;justify-content:center}
+.on-light{background:#FFFFFF}.on-dark{background:#0B0B0C;border-color:#2A2A2A}
+.big{display:block;width:560px;max-width:100%;height:auto}
+.strip{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:6px}
+.mins{display:flex;flex-wrap:wrap;gap:16px}
+.mins .panel{padding:20px 24px}
+.min{display:block;width:120px;height:auto}
+.note{font-size:14px;color:var(--sub);margin-top:8px}
+.note code{font:13px ui-monospace,Consolas,monospace}
+.cmp{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.cmp .panel{flex-direction:column;gap:10px}
+.cmp b{font-size:14px;color:#0B0B0C}.cmp .on-dark b{color:#F1EEE7}
+"""
+
+VARIANTS = [('A', 'cap', 'Current: mark centred on the cap band'),
+            ('B', 'xheight', 'X-height: mark centred on the x-height band'),
+            ('C', 'mid', 'Halfway: mark centred between the cap band and the x-height band')]
+
+
+def guided(lock, align):
+    """The lockup with dashed guides through the mark's centre (red) and the x-height centre (green)."""
+    vx, vy, vw, vh = vbox(lock)
+    sw = vw / 560 * 1.2
+    dash = f'{fmt(vw / 560 * 6)} {fmt(vw / 560 * 4)}'
+    lines = ''.join(f'<path d="M{fmt(vx)} {fmt(y)}H{fmt(vx + vw)}" stroke="{c}" stroke-width="{fmt(sw)}" '
+                    f'stroke-dasharray="{dash}" fill="none"/>'
+                    for y, c in ((mark_centre(align), '#E0372B'), (-XH / 2, '#14A37F')))
+    return lock.replace('</svg>', lines + '</svg>')
+
+
+def cls(svg_text, c):
+    return svg_text.replace('<svg ', f'<svg class="{c}" ', 1)
+
+
+GAPS = [('Current gap', 'original'), ('Gap 0.33', 0.33), ('Gap 0.40', 0.40)]
+
+
+def gap_section():
+    H = CAP * H_CAP
+    rows = ['<h2 id="gap">Gap comparison, at alignment C</h2>'
+            '<p>The owner chose C (halfway). These three differ only in the space between the mark and the name, '
+            'given as a fraction of the mark height.</p>']
+    side = []
+    for title, g in GAPS:
+        L, D = lockup(BLUE_L, INK, 'mid', g), lockup(BLUE_D, OFF, 'mid', g)
+        gu = gap_units(g)
+        px = gu * 2400 / vbox(L)[2]
+        flag = f'--gap {g:.2f}' if g != 'original' else '--gap 0.2714'
+        note = (f'Gap <code>{gu:.2f}</code> SVG units = {gu / H:.2f} of the mark height ({H:.2f}); about '
+                f'{px:.0f} px on the 2400 px render. Build with <code>python build.py --align mid {flag}</code>.')
+        side.append(f'<div class="panel on-light"><b>{title}</b>{cls(L, "big")}</div>')
+        strips = ''.join(
+            f'<svg class="strip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" role="img" '
+            f'aria-label="Site header, {m}"><title>Site header, {m}</title>'
+            f'<rect width="1280" height="72" fill="{WHITE if m == "light" else NEAR}"/>'
+            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original"))}</svg>'
+            for m, lk in (('light', L), ('dark', D)))
+        rows.append(f"""
+<h3>{title}{f' ({gu / H:.2f})' if g == 'original' else ''}</h3>
+<p class="note">{note}</p>
+<div class="pair">
+<div class="panel on-light">{cls(guided(L, 'mid'), 'big')}</div>
+<div class="panel on-dark">{cls(guided(D, 'mid'), 'big')}</div>
+</div>
+<div class="pair" style="margin-top:12px">{strips}</div>
+<div class="mins" style="margin-top:12px">
+<div class="panel on-light">{cls(L, 'min')}</div>
+<div class="panel on-dark">{cls(D, 'min')}</div>
+</div>""")
+    rows.insert(1, f'<h3>Side by side, no guides</h3><div class="cmp">{"".join(side)}</div>')
+    return ''.join(rows)
+
+
+def alignment_page():
+    base = mark_centre('cap')
+    out = []
+    for key, align, title in VARIANTS:
+        off = mark_centre(align) - base
+        L, D = lockup(BLUE_L, INK, align, 'original'), lockup(BLUE_D, OFF, align, 'original')
+        note = (f'Mark centre at y = <code>{mark_centre(align):.2f}</code> (baseline 0, cap height '
+                f'{CAP:.2f}, x-height {XH:.2f}); offset from A: <code>{off:+.2f}</code> SVG units '
+                f'(about {off * 2400 / vbox(L)[2]:+.0f} px on the 2400 px render). Build with '
+                f'<code>python build.py --align {align} --gap 0.2714</code> (the gap at the time).')
+        strips = ''.join(
+            f'<svg class="strip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" role="img" '
+            f'aria-label="Site header, {m}"><title>Site header, {m}</title>'
+            f'<rect width="1280" height="72" fill="{WHITE if m == "light" else NEAR}"/>'
+            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original"))}</svg>'
+            for m, lk in (('light', L), ('dark', D)))
+        out.append(f"""
+<h2>{key}. {title}</h2>
+<p class="note">{note}</p>
+<h3>560 px, with guides</h3>
+<div class="pair">
+<div class="panel on-light">{cls(guided(L, align), 'big')}</div>
+<div class="panel on-dark">{cls(guided(D, align), 'big')}</div>
+</div>
+<h3>Site header, 1280 x 72</h3>
+<div class="pair">{strips}</div>
+<h3>Minimum size, 120 px wide</h3>
+<div class="mins">
+<div class="panel on-light">{cls(L, 'min')}</div>
+<div class="panel on-dark">{cls(D, 'min')}</div>
+</div>""")
+    out.append(gap_section())
+    side = ''.join(f'<div class="panel on-light"><b>{k}</b>{cls(lockup(BLUE_L, INK, a, "original"), "big")}</div>'
+                   for k, a, _ in VARIANTS)
+    side_d = ''.join(f'<div class="panel on-dark"><b>{k}</b>{cls(lockup(BLUE_D, OFF, a, "original"), "big")}</div>'
+                     for k, a, _ in VARIANTS)
+    return f"""<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lockup alignment</title>
+<style>{ALIGN_CSS}</style>
+</head>
+<body>
+<main>
+<h1>Lockup alignment</h1>
+<p class="lede">Where the mark should sit next to the name. A is the lockup as decided; B and C move only the mark
+down. Nothing else changes: same mark size, gap, colours and wordmark.</p>
+<div class="key"><span class="m">Mark centre</span><span class="x">X-height centre</span></div>
+<h3>Side by side, no guides</h3>
+<div class="cmp">{side}</div>
+<div class="cmp" style="margin-top:16px">{side_d}</div>
+{''.join(out)}
+</main>
+</body>
+</html>
+"""
+
+
 def main():
-    steps = sys.argv[1:] or ['all']
+    global ALIGN, GAP
+    args = sys.argv[1:]
+    if '--align' in args:
+        i = args.index('--align')
+        ALIGN = args[i + 1]
+        mark_centre(ALIGN)          # raises on an unknown value
+        del args[i:i + 2]
+    if '--gap' in args:
+        i = args.index('--gap')
+        GAP = float(args[i + 1])
+        del args[i:i + 2]
+    if '--alignment-page' in args:  # writes alignment.html only; leaves the pack alone
+        write_text('alignment.html', alignment_page())
+        print('wrote alignment.html')
+        return
+    steps = args or ['all']
     build_svgs()
     if 'all' in steps or 'png' in steps:
         build_pngs()
