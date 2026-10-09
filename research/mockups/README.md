@@ -9,10 +9,18 @@ http://localhost/user-and-product/research/mockups/ (index to come).
   favicons and web manifest, social images, and the brand sheet:
   http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html. Rebuild everything with
   `python build.py` in that folder (it uses only `tools/` and `fonts/inter/`).
-- `fonts/`: OFL fonts with their licence files (Inter Display is the logo face).
+- `fonts/`: OFL fonts with their licence files (Inter Display is the logo face). Added 9 Oct for the page
+  mockups: Inter text cuts (Regular, Italic, Medium, SemiBold, from the same Inter 4.1 release) and Fraunces 9pt
+  (Regular, Italic, SemiBold, from the same Fraunces 1.000 release), plus Latin-subset `.woff2` files for the web.
 - `tools/`: `wordmark.py` (text to SVG paths), `render.py` (SVG to PNG), `brand_assets.py` (favicons, app icons,
   social and LinkedIn images), `build_typeboard.py` (builder for the archived type board; it writes into
   `logos/typeboard/`, so it only runs against an unpacked archive).
+- `mockup.css` and `mockup.js`: shared tokens (light, dark via `prefers-color-scheme`, and a `data-theme`
+  override), the type scale, spacing, components, placeholder ad slots, the theme toggle (remembered in
+  localStorage), the contents highlight and the copy button. Every page mockup links these two files.
+- `article/`: page 2, the single article page in three variants (A Sidebar, B Magazine, C Reader) with the ad
+  rules they follow: http://localhost/user-and-product/research/mockups/article/. `article/build.py` writes the
+  three pages from one copy of the sample article; `article/shots/` holds the 375px thumbnails.
 - `references/tigerdata/`: screenshots and notes on the Tiger Data article page the owner likes for the single
   article layout: [references/tigerdata/notes.md](references/tigerdata/notes.md).
 - Tooling notes: [tooling-research-2026-10-09.md](tooling-research-2026-10-09.md) (what was considered) and
@@ -44,6 +52,8 @@ masthead.
 
 1. Home: masthead, three domains as entry points, latest pieces, author strip, Start here path.
 2. Article page: typography, reading width, the template-plus-interview block, author box, related.
+   Done 9 Oct 2026, three variants to choose from: [article/index.html](article/index.html)
+   (http://localhost/user-and-product/research/mockups/article/).
 3. Category page (UX research): reading-order groups as headings.
 4. Domain hub (Design).
 5. Useful links: directory listing with filters that do not create URLs.

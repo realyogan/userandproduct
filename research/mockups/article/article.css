@@ -1,0 +1,204 @@
+/* Article page mockup: the three layouts. Shared tokens and components are in ../mockup.css. */
+
+/* phones step the scale down */
+@media (max-width:599px){
+  :root{--fs-body:17px;--fs-h2:25px;--fs-h3:19px;--fs-lead:18px}
+}
+
+.page{margin:0 auto;padding:0 var(--gutter)}
+.cat-link{display:inline-block;font:600 var(--fs-ui)/1.3 var(--font-ui);color:var(--signal);text-decoration:none}
+.cat-link:hover{text-decoration:underline}
+.deck{font:400 var(--fs-lead)/1.5 var(--font-ui);color:var(--ink-2);text-wrap:pretty}
+.hero h1{font-size:var(--fs-h1);line-height:1.06;letter-spacing:-.03em}
+.hero>*+*{margin-top:var(--s4)}
+/* running text keeps a 65 to 75 character measure; figures, table and template use the full column */
+.prose>p,.prose>ul,.prose>ol,.prose>h2,.prose>h3,.prose>.pull{max-width:35em}
+.hero .crumbs+*{margin-top:var(--s6)}
+.hero .byline{margin-top:var(--s5)}
+
+/* table of contents (sidebar and inline) */
+.toc h2{font:600 var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s3)}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li a{position:relative;display:block;padding:7px 0 7px 22px;color:var(--ink-3);text-decoration:none;font:400 var(--fs-ui)/1.35 var(--font-ui)}
+.toc li a:hover{color:var(--ink)}
+.toc li a::before{content:"";position:absolute;left:4px;top:13px;width:7px;height:7px;border-radius:1px;transform:rotate(45deg);background:var(--rule)}
+.toc li a[aria-current]{color:var(--ink);font-weight:600}
+.toc li a[aria-current]::before{background:var(--signal);width:9px;height:9px;left:3px;top:12px}
+
+.toc-m{margin:var(--s5) 0 0;border:1px solid var(--rule);border-radius:var(--radius);font-family:var(--font-ui)}
+.toc-m summary{cursor:pointer;padding:12px 16px;font:600 var(--fs-ui)/1.3 var(--font-ui)}
+.toc-m ol{list-style:none;margin:0;padding:0 16px 12px}
+.toc-m a{display:block;padding:7px 0;color:var(--ink-2);text-decoration:none;font:400 var(--fs-ui)/1.35 var(--font-ui);border-top:1px solid var(--rule)}
+
+/* =========================================================
+   A: Sidebar, on the Tiger Data structure. Full-width top block, hairline rule,
+   then three columns from 1200px: 260px sticky tools and contents, the reading
+   column, a 300px ad rail. Both rails live in .layout, so they stop at the body end.
+   ========================================================= */
+.va{--frame:1280px;--mono:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,Menlo,monospace}
+.va .page{max-width:1280px}
+.va .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
+.va .top{padding-top:var(--s6)}
+@media (min-width:1024px){.va .top{padding-top:var(--s7)}}
+.va .top>*+*{margin-top:var(--s4)}
+.va .top .crumbs+*{margin-top:var(--s5)}
+/* 34px on phones, about 44px at 768, 60px from 1200; two lines like the Tiger Data headline */
+.va .top h1{font-size:clamp(34px,calc(15.6px + 3.7vw),60px);line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
+.chip{display:inline-block;font:500 12px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
+a.chip:hover{color:var(--signal);border-color:var(--signal)}
+.chip--cat{color:var(--signal);border-color:var(--signal)}
+.byrow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--s4) var(--s5);margin-top:var(--s6)!important}
+.by{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2) var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);color:var(--ink)}
+.by .avatar{width:48px;height:48px}
+.by a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:.2em}
+.by a:hover{color:var(--signal);text-decoration-color:currentColor}
+.by .dot{width:4px;height:4px;border-radius:50%;background:var(--ink-3)}
+.by .rt{display:inline-flex;align-items:center;gap:6px;font:500 14px/1 var(--mono);letter-spacing:.02em;text-transform:uppercase}
+.by .rt .ico{width:16px;height:16px}
+.by .updated{font-size:var(--fs-meta);color:var(--ink-3)}
+.share{position:relative;display:flex;align-items:center;gap:var(--s2)}
+/* copy confirmation: positioned below the row, so it never moves anything */
+.share-toast{position:absolute;right:0;top:calc(100% + 6px);font:500 13px/1.3 var(--font-ui);color:var(--signal);white-space:nowrap;pointer-events:none}
+.share-toast:empty{display:none}
+.share__label{font:500 14px/1 var(--mono);text-transform:uppercase;letter-spacing:.02em;color:var(--ink-2);margin-right:var(--s1)}
+.icon-btn{display:inline-grid;place-items:center;width:36px;height:36px;border:1px solid var(--rule);border-radius:4px;background:transparent;color:var(--ink);cursor:pointer;padding:0}
+.icon-btn svg{width:20px;height:20px}
+.icon-btn:hover{color:var(--signal);border-color:var(--signal)}
+.va .top-rule{height:1px;border:0;background:var(--rule-strong);margin:var(--s5) 0 0}
+
+.va .layout{display:grid;grid-template-columns:minmax(0,1fr)}
+.va .side,.va .rail{display:none}
+.va .main{min-width:0;max-width:720px;padding-top:var(--s5)}
+.va .main .hero-fig{margin-top:0}
+.va .main>.deck{margin-top:var(--s5);font-size:19px;line-height:1.55}
+.va .m-only{margin-top:var(--s5)}
+.chips{display:flex;flex-wrap:wrap;gap:var(--s2);list-style:none;margin:0;padding:0}
+.chips a{display:inline-block;font:500 12px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
+.chips a:hover{color:var(--signal);border-color:var(--signal)}
+.util-btn{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:8px 14px;border:1px solid var(--ad-line);border-radius:4px;
+  background:transparent;color:var(--ink);font:500 var(--fs-ui)/1 var(--font-ui);cursor:pointer}
+.util-btn svg{width:18px;height:18px}
+.util-btn:hover{border-color:var(--signal);color:var(--signal)}
+.toc--num h2{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.toc--num li a{display:grid;grid-template-columns:2.2em 1fr;padding:7px 0;line-height:1.35}
+.toc--num li a::before{display:none}
+.toc--num .n{font:500 13px/1.6 var(--mono);color:inherit}
+.toc--num li a[aria-current]{color:var(--ink);font-weight:600}
+.toc--num li a[aria-current] .n{color:var(--signal)}
+
+/* in-body units: two 336x280 below 1024px; from 1024px one 300x250 between the third and fourth H2 */
+.va [data-ad="in-body-300x250"]{display:none}
+.ad--sky .ad__box{--w:160px;--h:600px}
+@media (min-width:1024px){
+  .va [data-ad="in-article-1"],.va [data-ad="in-article-2"]{display:none}
+  .va [data-ad="in-body-300x250"]{display:block}
+  .va .layout{grid-template-columns:240px minmax(0,720px);column-gap:32px}
+  .va .side{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s6);position:sticky;top:24px;align-self:start;
+    max-height:calc(100vh - 48px);overflow:auto;padding-top:var(--s6);grid-column:1;grid-row:1}
+  .va .main{grid-column:2;grid-row:1;padding-top:var(--s6)}
+  .va .m-only,.va .toc-m{display:none}
+}
+/* one rail unit: 160x600 from 1200 to 1439px, 300x600 from 1440px; sticky inside .layout so it stops at the body end */
+@media (min-width:1200px){
+  .va .layout{grid-template-columns:240px minmax(0,720px) 160px}
+  .va .rail{display:block;grid-column:3;grid-row:1;padding-top:var(--s6)}
+  .va .rail .ad{margin:0}
+  .va .rail__sticky{position:sticky;top:24px}
+}
+@media (min-width:1360px){
+  .va{--frame:1440px}
+  .va .page{max-width:1440px}
+}
+@media (min-width:1440px){
+  .va .layout{grid-template-columns:240px minmax(0,720px) 300px;column-gap:40px}
+  .ad--sky .ad__box{--w:300px}
+  .ad--sky .sz-0{display:none}
+  .ad--sky .sz-1{display:block}
+}
+.va .after>.tpl{margin-top:var(--s8)}
+/* Related, Tiger Data style: label on a hairline, three large cards, thumbnail, chips, title */
+.rel2{margin-top:var(--s8)}
+.rel2__h{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);padding-bottom:var(--s3);border-bottom:1px solid var(--rule-strong)}
+.rel2 ul{list-style:none;margin:var(--s5) 0 0;padding:0;display:grid;gap:var(--s6);grid-template-columns:1fr}
+@media (min-width:760px){.rel2 ul{grid-template-columns:repeat(3,1fr)}}
+.rel2 a{display:flex;flex-direction:column;gap:var(--s3);color:var(--ink);text-decoration:none}
+.rel2 img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:6px}
+.rel2 .chips{display:flex;flex-wrap:wrap;gap:var(--s2)}
+.rel2 .chips span{font:500 12px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px}
+.rel2 h3{font-size:24px;line-height:1.2;letter-spacing:-.015em}
+@media (max-width:599px){.rel2 h3{font-size:21px}}
+.rel2 a:hover h3{color:var(--signal);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.15em}
+.rel2 a:focus-visible{outline:2px solid var(--focus);outline-offset:4px;border-radius:6px}
+.va .after>.news{margin-top:var(--s8)}
+
+/* =========================================================
+   B: Magazine. One centred 760px column, display headline,
+   Fraunces body, figures out to 1000px, pull quote into the margin.
+   ========================================================= */
+.vb{--frame:1280px;--font-body:var(--font-serif);--fs-body:20px;--lh-body:1.65}
+@media (max-width:599px){.vb{--fs-body:18px}}
+.vb .site-head{border-bottom:2px solid var(--rule-strong)}
+.vb .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
+.vb .hero{max-width:calc(1000px + 2 * var(--gutter));margin:0 auto;padding:var(--s7) var(--gutter) 0}
+.vb .hero h1{font-size:clamp(40px,8vw,84px);line-height:.98;letter-spacing:-.04em;text-wrap:balance}
+.vb .hero .deck{font:400 23px/1.45 var(--font-serif);color:var(--ink-2);max-width:760px;margin-top:var(--s5)}
+@media (max-width:599px){.vb .hero .deck{font-size:19px}}
+.vb .hero .byline{padding-top:var(--s4);border-top:1px solid var(--rule);max-width:760px}
+.vb .col{max-width:calc(760px + 2 * var(--gutter));margin:0 auto;padding:0 var(--gutter)}
+.vb .intoc{margin-top:var(--s7);padding:var(--s4) 0;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule)}
+.vb .intoc h2{font:600 var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s2)}
+.vb .intoc ol{margin:0;padding-left:1.4em;columns:2 280px;column-gap:var(--s6);font:400 var(--fs-ui)/1.5 var(--font-ui)}
+.vb .intoc li{padding:3px 0;break-inside:avoid}
+.vb .intoc li::marker{color:var(--signal);font-weight:600}
+.vb .intoc a{color:var(--ink);text-decoration:none}
+.vb .intoc a:hover{color:var(--signal);text-decoration:underline}
+.vb .prose{margin-top:var(--s7)}
+.vb .prose h2{font-size:34px;margin-top:2em}
+@media (max-width:599px){.vb .prose h2{font-size:26px}}
+.vb .qtable,.vb .excerpt{font-family:var(--font-ui)}
+.vb .fig .frame{padding:var(--s6) var(--s5)}
+@media (min-width:1080px){
+  .vb .fig,.vb .tpl{margin-left:-120px;margin-right:-120px}
+  .vb .fig figcaption{padding:0 120px}
+  .vb .fig svg{max-width:560px}
+  .vb .pull{margin-left:-180px;margin-right:0;padding-right:120px}
+  .vb .pull p{font-size:40px;line-height:1.14}
+}
+.vb .tpl{padding:var(--s7) var(--s6)}
+@media (max-width:599px){.vb .tpl{padding:var(--s6) var(--s4)}}
+
+/* =========================================================
+   C: Reader. 680px column, slim bar, nothing else on the page.
+   ========================================================= */
+.vc{--frame:1280px;--fs-h1:44px}
+@media (max-width:599px){.vc{--fs-h1:32px}}
+.vc .site-head__in{min-height:56px;max-width:none}
+@media (min-width:768px){.vc .site-head__in{min-height:72px}}
+.vc .bar-right{margin-left:auto;display:flex;align-items:center;gap:var(--s3)}
+.vc .bar-right .sub{font:600 var(--fs-ui)/1 var(--font-ui);color:var(--signal);text-decoration:none;padding:10px 4px}
+.vc .bar-right .sub:hover{text-decoration:underline}
+.vc .col{max-width:calc(680px + 2 * var(--gutter));margin:0 auto;padding:0 var(--gutter)}
+.vc .hero{padding-top:var(--s7)}
+.vc .hero h1{line-height:1.1;letter-spacing:-.025em;text-wrap:balance}
+.vc .hero .crumbs+*{margin-top:var(--s5)}
+.vc .prose{margin-top:var(--s5)}
+.vc .tpl{padding:var(--s6) var(--s4)}
+@media (max-width:999px){.vc .tpl__grid{grid-template-columns:1fr}}
+@media (min-width:1000px){.vc .tpl{margin-left:-140px;margin-right:-140px;padding:var(--s6) var(--s5)}}
+.vc .related ul{grid-template-columns:1fr}
+.vc .related li{border-bottom:1px solid var(--rule)}
+.vc .site-foot{margin-top:var(--s8)}
+
+/* featured image: 16:9, size reserved by width/height and aspect-ratio */
+.hero-fig{margin:var(--s6) 0 0}
+.hero-fig img,.rel-thumb img{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel)}
+.hero-fig figcaption{margin-top:var(--s3);font:400 var(--fs-meta)/1.5 var(--font-ui);color:var(--ink-3)}
+.vb .hero-fig{margin-top:var(--s6)}
+.rel-thumb{display:block;margin-bottom:var(--s3);line-height:0}
+.vc .related li{display:grid;grid-template-columns:minmax(0,180px) 1fr;gap:var(--s4);align-items:start}
+.vc .rel-thumb{margin:4px 0 0}
+@media (max-width:479px){.vc .related li{grid-template-columns:1fr}}
+.util-btn.is-done,.icon-btn.is-done{border-color:var(--signal);color:var(--signal)}
+@media (max-width:599px){.by .dot--2{display:none}.by .updated{flex-basis:100%;padding-left:60px;margin-top:-6px}}

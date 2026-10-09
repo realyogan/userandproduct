@@ -1,32 +1,39 @@
 {
   "version": 1,
-  "run_id": "mockup-article-rail",
-  "title": "Variant A: wider column, single rail unit",
-  "state": "running",
-  "started": "2026-10-09T19:08+05:30",
-  "updated": "2026-10-09T19:09+05:30",
-  "note": "Max in view 2 at 1280x720, 1280x800, 1366x768, 1440x900; 1 at 1100 and 768; 2 at 375; rail unit starts 400px below the leaderboard",
+  "run_id": "mockup-explainers-tints",
+  "title": "Explainers on Printables tints",
+  "state": "finished",
+  "started": "2026-10-09T20:20+05:30",
+  "updated": "2026-10-09T20:27+05:30",
+  "note": "illustration-rules.md rewritten; references/printables-tints.md written; no sideways scroll, alt text on all images, no overlaps",
   "steps": [
     {
       "n": 1,
-      "title": "Column widths and rail unit",
+      "title": "Palette from Printables",
       "status": "done",
-      "note": "Centre column 720px at 1280, 1366, 1440; 240px left rail; rail unit 160x600 (1200 to 1439) or 300x600 (1440 up); 300x250 between H2 3 and 4",
-      "time": "19:09"
+      "note": "Eight tints from main.css 72-79, tint classes 170-177; dot grid main.css 1015 (.12, 1px/1.4px, 14px) and kit.css 15 (.13, 1px/1.5px, 12px); ink #1d1b16, muted #5f5b52, card #fdfcf8; rotation printables_tints() teal, yellow, pink, blue, green, purple; peach and slate reserved",
+      "time": "20:20"
     },
     {
       "n": 2,
-      "title": "Ads in view",
+      "title": "Generator and rotation",
       "status": "done",
-      "note": "Max in view 2 at 1280x720, 1280x800, 1366x768, 1440x900; 1 at 1100 and 768; 2 at 375; rail unit starts 400px below the leaderboard",
-      "time": "19:09"
+      "note": "Generator takes one of the eight tints; tint_for_article(slug, index) mirrors printables_tint_class, hash fallback, override needs a reason",
+      "time": "20:22"
     },
     {
       "n": 3,
-      "title": "Overlap test and chooser",
-      "status": "pending",
-      "note": "",
-      "time": ""
+      "title": "A and gallery rebuild",
+      "status": "done",
+      "note": "A: both figures teal; Related thumbnails yellow, pink, blue; gallery: twelve types across eight tints plus a swatch row",
+      "time": "20:27"
+    },
+    {
+      "n": 4,
+      "title": "Rules and checks",
+      "status": "done",
+      "note": "illustration-rules.md rewritten; references/printables-tints.md written; no sideways scroll, alt text on all images, no overlaps",
+      "time": "20:27"
     }
   ]
 }

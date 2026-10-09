@@ -1,0 +1,26 @@
+<svg width="1195" height="623" viewBox="0 0 1195 623" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Tiger Data article illustration frame, saved 9 Oct 2026 from the file the owner shared. Text glyph paths removed; the card geometry, dot pattern, border and the diagram styles are kept exactly. Internal reference only. -->
+<g clip-path="url(#clip0)">
+<!-- the notched card -->
+<path id="card" d="M9.81543 0.75H1185.06C1185.47 0.75 1185.86 0.904931 1186.13 1.16797L1193.41 8.06738C1193.68 8.32912 1193.83 8.67791 1193.83 9.03223V210.893C1193.83 211.247 1193.68 211.596 1193.41 211.857L1184.92 219.913L1184.34 220.457L1184.92 221.002L1193.41 229.059C1193.68 229.322 1193.83 229.665 1193.83 230.018V230.02L1194.13 410.337C1194.13 410.697 1193.98 411.045 1193.7 411.306L1185.88 418.733C1185.6 418.996 1185.21 419.151 1184.8 419.151V420.651H1184.81C1185.22 420.651 1185.61 420.806 1185.89 421.068L1193.15 427.968C1193.43 428.23 1193.57 428.578 1193.57 428.933V614.313C1193.57 614.668 1193.43 615.017 1193.15 615.278L1185.81 622.25H9.06738L1.72559 615.278C1.44994 615.017 1.30187 614.668 1.30176 614.313V428.933C1.30178 428.578 1.4499 428.23 1.72559 427.968L8.99023 421.068C9.26712 420.806 9.65311 420.651 10.0625 420.651H10.0742V419.151C9.66401 419.151 9.27719 418.996 9 418.733L1.17383 411.306C0.900069 411.046 0.750408 410.693 0.75 410.337L1.04785 230.02V230.018C1.04794 229.665 1.19451 229.322 1.47168 229.059L9.96094 221.002L10.5342 220.457L9.96094 219.913L1.47168 211.857C1.1961 211.596 1.04798 211.247 1.04785 210.893V9.03223C1.04789 8.67787 1.19595 8.32911 1.47168 8.06738L8.74121 1.16797C8.98377 0.937774 9.31036 0.789995 9.66309 0.756836L9.81543 0.75Z" fill="white"/>
+<use href="#card" fill="url(#dots)" fill-opacity="0.14"/>
+<use href="#card" stroke="#CCCCD5" stroke-width="1.5"/>
+<!-- diagram boxes: default, highlighted blue, highlighted red, highlighted yellow -->
+<rect x="185" y="152" width="217" height="43" rx="3" fill="#F4F4F5" stroke="#3F3F46" stroke-width="2"/>
+<rect x="404" y="207" width="217" height="43" rx="3" fill="#F4F4F5" stroke="#3F3F46" stroke-width="2"/>
+<rect x="623" y="268" width="217" height="43" rx="3" fill="#F4F4F5" stroke="#3F3F46" stroke-width="2"/>
+<rect x="841" y="334" width="217" height="43" rx="3" fill="#B7CAFF" stroke="#2D4A99" stroke-width="2"/>
+<rect x="186" y="391" width="435" height="43" rx="3" fill="#FFDED9" stroke="#CC4636" stroke-width="2"/>
+<rect x="672" y="487" width="217" height="43" rx="3" fill="#F9FFBE" stroke="#C1CC4A" stroke-width="2"/>
+<rect x="623" y="436" width="41" height="43" rx="3" fill="#F9FFBE" stroke="#C1CC4A" stroke-width="2"/>
+<!-- vertical timeline rules -->
+<path d="M184 136V545.5M403 136V545.5M622 136V545.5M840 136V545.5M1059 136V545.5" stroke="#0A0A0C" stroke-width="2"/>
+<!-- title at top-left (about 34px heavy sans), brand mark at top-right (about 62px), monospace labels in the boxes and along the bottom row at y about 560 to 575 -->
+</g>
+<defs>
+<clipPath id="clip0"><rect width="1195" height="623" fill="white"/></clipPath>
+<pattern id="dots" patternUnits="userSpaceOnUse" patternTransform="matrix(9.6 0 0 9.6 0 0)" preserveAspectRatio="none" viewBox="0 0 12 12" width="1" height="1">
+<rect x="5" y="5" width="2" height="2" fill="black"/>
+</pattern>
+</defs>
+</svg>

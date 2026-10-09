@@ -1,0 +1,26 @@
+{
+  "skill_name": "writing-style",
+  "evals": [
+    {
+      "id": 1,
+      "name": "intro-usability-test-five-people",
+      "prompt": "Draft the intro for the article \"How to run a usability test with five people\". Just the opening, before the first step: promise, the problem, and what to skip.",
+      "expected_output": "A promise in two or three short lines that answers the title; the problem told as a short story; a what-to-skip line; plain words; no banned phrases; no invented first-hand case (a marked [OWNER] gap instead); US English; no exclamation marks.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "rewrite-machine-paragraph-personas",
+      "prompt": "Rewrite this paragraph for the site, it reads like AI: \"In today's fast-paced digital landscape, user personas are a crucial tool for product teams. It's important to note that well-crafted personas not only foster empathy but also empower teams to make data-driven decisions. Whether you're a seasoned designer or just starting out, leveraging personas can be a game-changer for creating seamless, intuitive, and delightful user experiences. Let's dive into how to create personas that truly resonate!\"",
+      "expected_output": "Same content in the house voice: no banned words or structural tells, the term given a plain meaning, a stated position with its reason, concrete nouns, short declaratives, and a flagged gap rather than an invented specific.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "outline-judgment-roadmap-wrong-tool",
+      "prompt": "Outline a piece called \"When a roadmap is the wrong tool\". I want the headings and a line under each on what goes there.",
+      "expected_output": "A judgment-body outline on the six-part spine (promise, problem, what to skip, body, usable thing, way on); headings that tell the argument when read alone; sections as claims or real questions, not numbered steps; three to five planned takeaways; [OWNER] markers where first-hand material is needed; pictures and Rule boxes suggested where they do work; ends on a usable thing.",
+      "files": []
+    }
+  ]
+}

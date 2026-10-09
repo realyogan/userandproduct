@@ -388,3 +388,51 @@ removable element. Header logo 236px wide on desktop (owner tried it in the insp
 Owner additions to the logo pack: monochrome black-on-white and white-on-black PNGs (flattened), and a gradient
 social set (white mark and lockup on a signal-blue gradient) as JPEGs in Instagram, LinkedIn, OG and X sizes; the
 gradient is for social backgrounds only, never the site. Building through build.py; commit after.
+
+Owner asks (9 Oct, article mockup): a code block component in the Tiger Data style (dark card, three dots, language
+label, copy button, light syntax colours) applied automatically to every code block; built as shared CSS plus a tiny
+vanilla highlighter, mapping to the WordPress core code block via the theme. Owner also wants, later, a writing
+rules skill: article tone, format and structure; to be briefed by the owner; the skill-creator skill is available
+for it and for the PRD interview skill from the council verdict.
+Owner (article A): after the body, switch to full container width: the template block, then "// RELATED" with three
+large illustration cards (tag chips, bold title), newsletter, footer; remove the author box (byline carries it).
+Code block built (dark card, dots, language label, copy, built-in highlighter). Illustration frame generator in
+progress with three light/dark treatments to choose from; spec to become a rule once confirmed.
+Owner on the illustration frame: illustrations will often be plain PNGs, so the frame cannot rely on CSS theming
+inside the SVG; it must be a fixed image design that works on both the white and the near-black page. Candidates to
+compare as PNGs on both backgrounds: a dark card always (as Tiger Data thumbnails), a neutral mid card (cool and warm),
+the light card as control. Do not copy the Tiger Data frame; keep the dot-grid idea, design our own background and
+edge. Rule to be written once the owner picks.
+Owner: no illustration frame at all (no card, notches, rules or chrome). An illustration is just the image: a flat
+neutral background that sits on both white and near-black (candidates: muted slate, warm stone, cool mid, soft
+cool-light), a subtle dot grid, the diagram, a small quiet mark in one corner. Same PNG in both themes. To be
+written as research/mockups/illustration-rules.md and later a skill.
+Owner: illustration backgrounds are a palette, bright colours allowed, not one grey: six approved backgrounds (signal
+blue, cool mid slate, red-orange, mustard, deep green, ink), each with its own ink, muted, dot and tint colours tested
+on both page colours; one background per illustration, chosen for meaning or variety; same PNG in both themes.
+illustration-rules.md being rewritten with the palette table.
+Owner: illustration backgrounds are open, any colour except black-ish and white-ish; the generator derives ink,
+muted, dots and tints from the background and checks contrast; the six-colour table and the "ink" preset go; an
+explainer gallery of twelve diagram types on twelve hues is being built at research/mockups/article/explainers.html.
+
+Owner (9 Oct, evening): FORGET the earlier illustration palette rules. Foundation is the Printables site
+(rockpaperprint.com, code in c:\xampp\htdocs\Printables): eight pastel tile tints with a dark dot grid (main.css
+--tint-blue #dbe8fb, green #dcefd8, pink #fbe0e6, purple #e8e0f7, yellow #fff3c4, teal #d7f0ee, peach #fde3d0,
+slate #e0e6ee; dots rgba(29,27,22,.13) 1px on a 12-14px tile; assignment by printables_tint_class(index)). Rules:
+one tint per article (all its explainers share it), chosen by rotation so articles differ; related thumbnails use
+their own article tint; same PNG in both themes. Generator, gallery, article A and illustration-rules.md being
+rebuilt on this.
+
+Writing style (owner, 9 Oct): the house voice is an experienced teacher explaining calmly from experience; simple
+enough for a 10-year-old without losing the hard part; a guide with guardrails, not a template (judgment pieces stay
+judgment pieces; steps only when the reader performs steps); written for both the reader and the scanner (headings
+tell the story, one idea per section, pictures where they do the work, landing spots, density per screen). Analysis
+of the owner references in research/discussion/references/writing-style/analysis-2026-10-09.md; skill being written
+at .claude/skills/writing-style/ with the skill-creator skill.
+Owner: the Printables origin-lock explainer is THE bar (analogy that anyone grasps, then an exact "in real life"
+mapping, one picture per idea). Added to the skill as a named device. Series idea logged: "technical things for
+non-technical people", numbered, one concept, one analogy, one picture, one mapping each, long run (a hundred days).
+Owner showed the explainers to a friend: "this is interactive, I can learn things like this". Added to the skill
+as the goal: a static piece should feel interactive because the reader does something on every screen. Mockup
+backlog: a series page that reads like a course index (numbered, with progress), as in the lesson sidebar the owner
+shared.

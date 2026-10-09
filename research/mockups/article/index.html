@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Article Page Variants | userandproduct</title>
+<meta name="description" content="Three layouts of the single article page, same content, with the ad rules they follow.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2B46A0">
+<link rel="icon" href="../final-logo/favicon/favicon.ico" sizes="48x48">
+<link rel="icon" href="../final-logo/favicon/favicon.svg" type="image/svg+xml">
+<script>try{var t=localStorage.getItem("uap-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}</script>
+<link rel="preload" href="../fonts/inter/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/inter/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../mockup.css">
+<script src="../mockup.js" defer></script>
+<style>
+  .wrap{max-width:calc(1120px + 2 * var(--gutter));margin:0 auto;padding:0 var(--gutter)}
+  .intro{padding:var(--s7) 0 var(--s5)}
+  .intro h1{font-size:clamp(34px,5vw,52px);line-height:1.06;letter-spacing:-.03em;max-width:16ch}
+  .intro p{margin-top:var(--s4);max-width:62ch;font:400 var(--fs-body)/1.6 var(--font-ui);color:var(--ink-2)}
+  .cards{list-style:none;margin:var(--s6) 0 0;padding:0;display:grid;gap:var(--s6);grid-template-columns:1fr}
+  @media (min-width:980px){.cards{grid-template-columns:repeat(3,1fr)}}
+  .card{display:flex;flex-direction:column;gap:var(--s4);min-width:0}
+  .thumb{display:block;border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:var(--panel);line-height:0;max-width:300px}
+  .thumb img{width:100%;height:auto;aspect-ratio:375/740}
+  .thumb .l-light{display:var(--logo-light)} .thumb .l-dark{display:var(--logo-dark)}
+  .card h2{font-size:26px;letter-spacing:-.02em}
+  .card h2 a{color:var(--ink);text-decoration:none}
+  .card h2 a:hover{color:var(--signal);text-decoration:underline}
+  .card .note{font:400 16px/1.55 var(--font-ui);color:var(--ink-2)}
+  .facts{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:0;font:400 var(--fs-ui)/1.45 var(--font-ui);padding-top:var(--s3);border-top:1px solid var(--rule)}
+  .facts dt{color:var(--ink-3)} .facts dd{margin:0;color:var(--ink);font-variant-numeric:tabular-nums}
+  .rules{margin-top:var(--s9);padding-top:var(--s5);border-top:1px solid var(--rule-strong);font:400 16px/1.6 var(--font-ui)}
+  .rules>h2{font-size:var(--fs-h2);letter-spacing:-.02em}
+  .rules>p{margin-top:var(--s3);max-width:68ch;color:var(--ink-2)}
+  .rules ol{margin:var(--s5) 0 0;padding-left:1.4em;max-width:76ch}
+  .rules ol>li{padding-left:4px}
+  .rules ol>li+li{margin-top:var(--s4)}
+  .rules li::marker{color:var(--signal);font-weight:600}
+  .rules strong{font-weight:600;color:var(--ink)}
+  .rules q{font-style:italic;color:var(--ink)}
+  .rules .src{display:block;margin-top:2px;font-size:var(--fs-meta);color:var(--ink-3);overflow-wrap:anywhere}
+  .rules .src a{color:var(--ink-3)}
+  .rules h3{margin-top:var(--s7);font-size:21px;letter-spacing:-.01em}
+  .method{margin-top:var(--s3);max-width:68ch;color:var(--ink-2)}
+.frames{list-style:none;margin:var(--s5) 0 0;padding:0;display:grid;gap:var(--s6);grid-template-columns:1fr}
+  @media (min-width:1000px){.frames{grid-template-columns:repeat(3,1fr)}}
+  .frames li{min-width:0}
+  .frames__pair{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+  .frames__pair>div{padding:12px}
+  .frames__pair img{display:block;width:100%;height:auto}
+  .on-white{background:#FFFFFF} .on-black{background:#0B0B0C}
+  .frames__rec .frames__pair{outline:2px solid var(--signal);outline-offset:3px}
+  .frames h3{margin-top:var(--s3);font-size:18px}
+  .frames p{margin-top:var(--s1);font-size:var(--fs-ui);color:var(--ink-2)}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to the variants</a>
+<header class="site-head">
+  <div class="site-head__in">
+    <a class="logo" href="../" aria-label="userandproduct mockups">
+      <img class="l-light" src="../final-logo/svg/lockup-light.svg" alt="userandproduct" width="236" height="30">
+      <img class="l-dark" src="../final-logo/svg/lockup-dark.svg" alt="userandproduct" width="236" height="30">
+    </a>
+    <span style="margin-left:auto;font:500 var(--fs-ui)/1 var(--font-ui);color:var(--ink-3)">Mockups, page 2 of 9</span>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 14.6A8.5 8.5 0 0 1 9.4 3.7a8.5 8.5 0 1 0 10.9 10.9Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg></button>
+  </div>
+</header>
+
+<main id="content" class="wrap">
+  <section class="intro" aria-labelledby="page-h">
+    <h1 id="page-h">The article page, three ways</h1>
+    <p>Same article in all three: "How to Write a PRD That Engineers Actually Read", about 1,400 words with two figures, a table, a pull quote, the template block with the PRD interview, the author box, related pieces and a one-line newsletter signup. Pick by eye. The 16:9 featured image under the byline (1200&times;675, light and dark versions, in <code>img/</code>) doubles as the source for the Open Graph image, and the Related cards carry 600&times;338 thumbnails. Each page has light and dark themes (the moon button), works at phone width, and carries placeholder ad slots that follow the rules listed at the bottom of this page.</p>
+  </section>
+
+  <ul class="cards">
+    <li class="card">
+      <a class="thumb" href="article-a.html" aria-label="Open variant A, Sidebar">
+        <img class="l-light" src="shots/article-a-375.png" alt="Variant A at phone width: headline, deck and byline" width="375" height="740" loading="lazy">
+        <img class="l-dark" src="shots/article-a-375-dark.png" alt="Variant A at phone width, dark theme" width="375" height="740" loading="lazy">
+      </a>
+      <h2><a href="article-a.html">A. Sidebar</a></h2>
+      <p class="note">The Tiger Data structure. A full-width top block: breadcrumb, category chip, a 60px headline on two lines, a byline row (48px avatar, author link, read time, "Updated Oct 2026") with Share buttons on the right, then a hairline rule. Below it: a sticky 240px left rail with a Copy link button, tag chips and a numbered table of contents (the section you are reading is highlighted); a 720px centre column (720px at 1280, 1366 and 1440) with the hero image, the body (running text about 71 characters a line); and from 1200px one sticky rail unit, a 160&times;600 skyscraper up to 1439px and a 300&times;600 half page from 1440px. Both rails stop where the body ends; after the body the page uses the full container for the template block (three cards in a row), a Related row in the Tiger Data style (a // RELATED label on a hairline rule, three large cards with an illustration thumbnail, tag chips and a 24px title) and the newsletter line. No author box: the byline carries the author. From 1024px a 300&times;250 sits in the body between the third and fourth H2. On phones the contents fold into a disclosure, two 336&times;280 units sit between sections, and a collapsible 320&times;50 anchor shows only while you read the body (demonstration only). Leaderboard under the header; container up to 1360px. Body type: Inter 18px, headings Inter Display Bold.</p>
+      <dl class="facts">
+        <dt>Ad units</dt><dd>3 from 1200px (leaderboard, rail unit, 300&times;250 in the body); 2 at 1024 to 1199; 4 at 375 (320&times;100 leaderboard, 2 in-article, anchor)</dd>
+        <dt>Max in view</dt><dd>2 at 1280&times;720, 1280&times;800, 1366&times;768 and 1440&times;900; 1 at 1100 and 768; 2 at 375</dd>
+        <dt>Mobile density</dt><dd>6.2% of the article, 5.8% of the page</dd>
+      </dl>
+    </li>
+    <li class="card">
+      <a class="thumb" href="article-b.html" aria-label="Open variant B, Magazine">
+        <img class="l-light" src="shots/article-b-375.png" alt="Variant B at phone width: leaderboard, large headline and serif deck" width="375" height="740" loading="lazy">
+        <img class="l-dark" src="shots/article-b-375-dark.png" alt="Variant B at phone width, dark theme" width="375" height="740" loading="lazy">
+      </a>
+      <h2><a href="article-b.html">B. Magazine</a></h2>
+      <p class="note">The Smashing layout. One centred 760px column with wide margins, an 84px display headline, an inline numbered contents list, figures and the template block out to 1000px, and a pull quote that steps 180px into the left margin. Body type: Fraunces 20px (the 9pt text cut) for the editorial feel, with Inter for UI, tables and the excerpt, and Inter Display Bold headings. Ads: a responsive leaderboard under the header (970&times;90, 728&times;90 on tablets, 320&times;100 on phones) and three 336&times;280 units after sections 1, 3 and 5.</p>
+      <dl class="facts">
+        <dt>Ad units</dt><dd>4 (leaderboard + 3 in-article), at every width</dd>
+        <dt>Max in view</dt><dd>1 at 1280, 1 at 375</dd>
+        <dt>Mobile density</dt><dd>7.3% of the article, 6.9% of the page</dd>
+      </dl>
+    </li>
+    <li class="card">
+      <a class="thumb" href="article-c.html" aria-label="Open variant C, Reader">
+        <img class="l-light" src="shots/article-c-375.png" alt="Variant C at phone width: slim bar, headline and deck" width="375" height="740" loading="lazy">
+        <img class="l-dark" src="shots/article-c-375-dark.png" alt="Variant C at phone width, dark theme" width="375" height="740" loading="lazy">
+      </a>
+      <h2><a href="article-c.html">C. Reader</a></h2>
+      <p class="note">The Substack layout. A slim top bar (logo, Subscribe, theme), then a 680px centred column and nothing else on the page but the article; running text about 72 characters a line, and the template block widens to 960px on desktop so its three parts sit side by side. Body type: Inter 18px, headings Inter Display Bold. Ads: one 336&times;280 after the deck and one after section 3, both labelled.</p>
+      <dl class="facts">
+        <dt>Ad units</dt><dd>2 (after the deck + 1 in-article)</dd>
+        <dt>Max in view</dt><dd>1 at 1280, 1 at 375</dd>
+        <dt>Mobile density</dt><dd>4.7% of the article, 4.5% of the page</dd>
+      </dl>
+    </li>
+  </ul>
+
+  <section class="rules" aria-labelledby="frame-h" style="margin-top:var(--s8)">
+    <h2 id="frame-h">Illustrations</h2>
+    <p>Explainers sit on the eight pastel tints from the Printables site, with its dark dot grid and dark ink; nothing else. One tint per article: every explainer in an article shares it, chosen by publish order like the Printables tiles, so neighbouring articles differ. Related thumbnails use their own article's tint. This article is teal (both figures); its Related cards are yellow, pink and blue. The same PNG goes on the white page and the near-black page. Rules in <a href="../illustration-rules.md">illustration-rules.md</a>; source in <a href="../references/printables-tints.md">printables-tints.md</a>. The article's hero image (<code>img/hero-prd-light.png</code>) doubles as the source for the Open Graph image.</p>
+    <!-- frames:start --><p><a href="explainers.html">Open the explainer gallery</a>: twelve diagram types, each on a different background from the curated twelve, each shown on the white page and on the near-black page.</p><!-- frames:end -->
+  </section>
+
+  <section class="rules" aria-labelledby="code-h" style="margin-top:var(--s8)">
+    <h2 id="code-h">Code blocks</h2>
+    <p>All three pages share one code block component (in <code>mockup.css</code> and <code>mockup.js</code>): a dark card in both themes with three dots, a language label, an optional file name or caption, and a copy button that confirms with "Copied". The card scrolls sideways on narrow screens; the page does not. A small built-in highlighter covers SQL, JavaScript, JSON, Bash and HTML, and other languages show as plain text. Inline <code>code</code> in body text gets a quiet chip. In WordPress this maps to the core code block and inline code through the theme stylesheet and one enqueued script; no plugin needed. The article shows three examples: JSON front matter, the SQL success measure and a Bash one-liner.</p>
+  </section>
+
+  <section class="rules" aria-labelledby="rules-h">
+    <h2 id="rules-h">Ad rules we follow</h2>
+    <p>Checked on 9 Oct 2026 against Google's publisher policies and the Better Ads Standards. Quotes are from the pages linked under each rule.</p>
+    <ol>
+      <li><strong>No fixed number of ads per page.</strong> Google dropped the old limit of three ad units per page in 2016 (not 2019, as we had noted) and now looks at the balance of content and ads instead.
+        <span class="src">Source: <a href="https://martech.org/google-removes-adsense-3-ads-per-page-limit-focuses-content-ad-balance/">martech.org, Google removes AdSense 3-ads-per-page limit</a>; <a href="https://www.searchenginejournal.com/google-removes-adsense-ad-limit-policy-reasons-behind-change/171597/">Search Engine Journal</a></span></li>
+      <li><strong>Ads never outweigh content.</strong> <q>Advertising and other paid promotional material added to your pages should not exceed publisher-content.</q> Publisher-content does not include <q>whitespace, header or footer content, or links to other content on the site</q>, so we count only the article itself.
+        <span class="src">Source: <a href="https://support.google.com/publisherpolicies/answer/11169917">Google Publisher Policies, More ads or paid promotional material than publisher-content</a></span></li>
+      <li><strong>Ads look like ads.</strong> Publishers may not <q>format ads so that they become indistinguishable from other content on that page</q>, <q>place misleading labels above Google ad units</q>, or <q>place ads in a way that might be mistaken for menu, navigation or download links</q>. Ads may not sit in a floating box script or in pop-ups. Our slots have a dashed outline, a grey fill and a label, and sit apart from the contents, buttons and template downloads.
+        <span class="src">Source: <a href="https://support.google.com/publisherpolicies/answer/48182">AdSense Program policies</a></span></li>
+      <li><strong>The label is "Advertisements".</strong> <q>Publishers may only label Google ads with either "Advertisements" or "Sponsored Links".</q> The slots use "Advertisements" (Google's wording) rather than the singular.
+        <span class="src">Source: <a href="https://support.google.com/adsense/answer/1346295">AdSense ad placement policies</a></span></li>
+      <li><strong>Better Ads Standards on phones.</strong> No pop-ups or prestitials, no ads taking up <q>more than 30% of the vertical height of the main content portion of the page</q>, no flashing animated ads, no auto-playing video with sound, no postitials with a countdown, no full-screen scrollovers, and no large sticky ads (a sticky ad that <q>takes up more than 30% of the screen's real estate</q>). On desktop: no pop-ups, no auto-playing video with sound, no prestitials with a countdown, no large sticky ads.
+        <span class="src">Source: <a href="https://support.google.com/webtools/answer/7073774">Google, About mobile ad experiences</a>; <a href="https://support.google.com/webtools/answer/7129127">Desktop ad experiences</a>; <a href="https://www.betteradsstandards.com/standards/">Coalition for Better Ads, the standards</a></span></li>
+      <li><strong>Anchors stay small and out of the way.</strong> The one anchor (variant A, phones only) is 320&times;50 plus its label, about 10% of a 812px screen. It appears only after the first screen, leaves before the template block, collapses with one tap, and the page reserves its height at the bottom so it never hides the end of the article. Google's own anchor units are collapsible and dismissible.
+        <span class="src">Source: <a href="https://support.google.com/adsense/answer/7478225">AdSense, anchor ads in Auto ads</a></span></li>
+      <li><strong>Our own rules on top.</strong> Never more than three ad units in the viewport at once (variant A now keeps it to two); in-article units only between H2 sections, never two in a row, with at least 400px of content between them (the closest pair here is more than 2,000px apart); every slot reserves its height, so nothing shifts when an ad loads.</li>
+    </ol>
+    <h3>How the numbers were measured</h3>
+    <p class="method">Each page was loaded in headless Edge at 1280&times;800 and 375&times;812 (and 768 and 1440 for checking), then scrolled top to bottom in 40px steps. At each step we counted the ad slots whose box crosses the viewport and kept the highest count. Mobile density is the summed height of the ad slots, labels included, divided by the height of the article (the Better Ads method), with the share of the whole page height alongside it. No page scrolls sideways at 375px. A second sweep in 20px steps at 1280, 1440 and 375 checks that no sticky or fixed element crosses the template, author, related or newsletter blocks: zero overlaps on all three pages.</p>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="site-foot__in">
+    <div class="legal"><span>userandproduct mockups</span><a href="../">All mockups</a><a href="../final-logo/brand-sheet.html">Brand sheet</a></div>
+  </div>
+</footer>
+</body>
+</html>

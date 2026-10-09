@@ -17,11 +17,11 @@
 /wp-content/plugins/*
 /wp-content/uploads/
 
-# Local secrets, logs, OS junk, assistant config
+# Local secrets, logs, OS junk, machine-local assistant settings
 /.local/
-/.claude/
-/CLAUDE.md
 *.log
 Thumbs.db
 .DS_Store
 __pycache__/
+/.claude/settings.local.json
+/.claude/**/evals/outputs/

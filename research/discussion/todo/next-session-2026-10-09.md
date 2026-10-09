@@ -58,6 +58,21 @@ rows, budget guard; credentials in `.local/dataforseo.env`, git-ignored), `harve
   launch set is live. Candidate list in context.md (9 Oct, council 2 entry). Verdict in
   `research/discussion/council/verdict-ai-skills-2026-10-09.md`.
 
+
+## Queued by the owner (9 Oct, evening)
+
+- Writing rules skill: article tone, format and structure, to be briefed by the owner; build with the
+  skill-creator skill and test it on the PRD article draft.
+- PRD interview skill (council 2 verdict): write the question set and quality bar as a skill, then the
+  blind test against the plain prompt before it ships on the PRD page.
+- Series idea (owner, 9 Oct): "technical things for non-technical people", a numbered run (a hundred days),
+  one concept, one analogy, one picture, one real-life mapping each; fits Design and Product; the
+  origin-lock explainer is the model; plan it as a recurring format once the launch set is live.
+- Mockup backlog: a series page that reads like a course index (numbered lessons, progress), as in the
+  lesson sidebar the owner shared; the numbered series is a candidate signature format.
+- Article mockup A is the chosen layout (Tiger Data structure); pending the owner's remaining changes,
+  then the Impeccable and Taste polish pass, then the home page.
+
 ## Lessons recorded this session (so they are not repeated)
 
 - DataForSEO `keyword_ideas` sorted by volume returns category-wide noise; use `keyword_suggestions`
