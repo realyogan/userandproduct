@@ -358,3 +358,6 @@ Asset pack to research/mockups/final-logo/ (SVG masters, monochrome black and wh
 LinkedIn, header strips, brand sheet). Exploration (rounds 1-7, shortlist, type board, hub, colour board, feeling
 board, owner sketches) archived to one zip under research/archive/ and the working folders removed; kept: fonts,
 tools, the Tiger Data reference, tooling notes.
+
+Git: first commit 53f7f7a (everything incl. the archive zip) and the cleanup commit pushed to
+git@github-realyogan:realyogan/userandproduct.git (owner created the repo; identity as Printables).
