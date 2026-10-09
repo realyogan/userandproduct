@@ -1,0 +1,570 @@
+{
+  "id": "10081545-2633-0066-0000-f301b44a4d02",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Product Led Growth: What is it, Benefits and Strategy](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:4)\n**Product-Led Growth (PLG)** is `a go-to-market strategy that puts the software product itself at the center of customer acquisition, activation, retention, and expansion`.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.pendo.io/glossary/product-led-growth/)[[3]](https://www.reddit.com/r/SaaS/comments/12w5023/is_productled_growth_for_you_just_a_buzzword_or/)\n\n### Core Principles\n\n- **Try before you buy:** Users experience the product first through freemium tiers or self-serve free trials before spending money.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n- **Fast Time-to-Value (TTV):** The product is designed so users quickly experience its core benefit (the \"aha!\" moment) without needing a sales call.[[1]](https://online.hbs.edu/blog/post/product-led-growth)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n- **End-user adoption:** Software is adopted bottom-up by individual team members who then advocate for organization-wide upgrades.\n- **Product-Qualified Leads (PQLs):** Sales and customer success teams use actual product usage data—rather than just form fills—to identify when a user is ready to buy.[[1]](https://www.atlassian.com/agile/product-management/product-led-growth)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n\n### PLG vs. Sales-Led Growth\n\n- **Product-Led Growth:** Experience drives the journey; the user learns the product by using it, lowering Customer Acquisition Costs (CAC).\n- **Sales-Led Growth:** People and sales reps drive the journey, guiding buyers through demos, custom quotes, and long evaluation cycles.[[1]](https://amplitude.com/blog/product-led-growth)[[2]](https://www.salesforce.com/sales/revenue-lifecycle-management/product-led-growth/)\n\n### Key Metrics\n\n- **Activation Rate:** The percentage of new users who reach core product value.\n- **Time-to-Value (TTV):** How fast a user realizes the benefit of the product.\n- **Free-to-Paid Conversion Rate:** How many trial or freemium users convert to paid plans.\n- **Net Revenue Churn & Expansion:** Measuring upgrades and account growth from existing users.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.atlassian.com/agile/product-management/product-led-growth)\n\n### Notable Examples\n\n- **Slack** \n- **Calendly** \n- **Notion** \n- **Dropbox** [[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.atlassian.com/agile/product-management/product-led-growth)[[3]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n\nFor a deeper dive into implementation frameworks, you can explore the [ProductLed Definition Guide](https://productled.com/blog/product-led-growth-definition) or the [Harvard Business School PLG Overview](https://online.hbs.edu/blog/post/product-led-growth).[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://online.hbs.edu/blog/post/product-led-growth)Are you looking to **implement PLG for a specific product** , or do you need help **transitioning from a sales-led model**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Product-Led Growth (PLG) is a go-to-market strategy that puts the software product itself at the center of customer acquisition, activation, retention, and expansion.",
+          "markdown": "![Product Led Growth: What is it, Benefits and Strategy](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:2)\n**Product-Led Growth (PLG)** is `a go-to-market strategy that puts the software product itself at the center of customer acquisition, activation, retention, and expansion`.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.pendo.io/glossary/product-led-growth/)[[3]](https://www.reddit.com/r/SaaS/comments/12w5023/is_productled_growth_for_you_just_a_buzzword_or/)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Product Led Growth: What is it, Benefits and Strategy",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+              "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Pendo",
+              "domain": "www.pendo.io",
+              "url": "https://www.pendo.io/glossary/product-led-growth/",
+              "title": "What is Product-Led Growth? Definitions, examples | Pendo.io",
+              "text": "Definition: Product-led growth (PLG) places software at the center of the buying journey and customer experience, utilizing the pr..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/SaaS/comments/12w5023/is_productled_growth_for_you_just_a_buzzword_or/",
+              "title": "Is product-led growth for you just a buzzword or reality? : r/SaaS - Reddit",
+              "text": "Defining PLG: Product-led growth (PLG) is a go-to-market strategy centered on the product as the main driver for attracting, conve..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Principles",
+          "text": "Try before you buy: Users experience the product first through freemium tiers or self-serve free trials before spending money. Fast Time-to-Value (TTV): The product is designed so users quickly experience its core benefit (the \"aha!\" moment) without needing a sales call. End-user adoption: Software is adopted bottom-up by individual team members who then advocate for organization-wide upgrades. Product-Qualified Leads (PQLs): Sales and customer success teams use actual product usage data—rather than just form fills—to identify when a user is ready to buy.",
+          "markdown": "- **Try before you buy:** Users experience the product first through freemium tiers or self-serve free trials before spending money.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n- **Fast Time-to-Value (TTV):** The product is designed so users quickly experience its core benefit (the \"aha!\" moment) without needing a sales call.[[1]](https://online.hbs.edu/blog/post/product-led-growth)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)\n- **End-user adoption:** Software is adopted bottom-up by individual team members who then advocate for organization-wide upgrades.\n- **Product-Qualified Leads (PQLs):** Sales and customer success teams use actual product usage data—rather than just form fills—to identify when a user is ready to buy.[[1]](https://www.atlassian.com/agile/product-management/product-led-growth)[[2]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+              "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Leadfeeder",
+              "domain": "www.leadfeeder.com",
+              "url": "https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/",
+              "title": "Understanding Product-Led Growth - Leadfeeder",
+              "text": "60-Second Summary. Product-led growth (PLG) makes the product itself the primary engine for acquisition, retention, and expansion,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/product-led-growth",
+              "title": "How to Achieve a Product-Led Growth Strategy",
+              "text": "Definition: Product-led growth (PLG) uses product usage, seamless experiences, and immediate value to drive customer acquisition, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-led-growth",
+              "title": "What Is Product-Led Growth? | Atlassian",
+              "text": "PLG strategy: product drives acquisition, activation, retention, expansion. Examples: Slack, Dropbox. Phases: 1. Discovery (organi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "PLG vs. Sales-Led Growth",
+          "text": "Product-Led Growth: Experience drives the journey; the user learns the product by using it, lowering Customer Acquisition Costs (CAC). Sales-Led Growth: People and sales reps drive the journey, guiding buyers through demos, custom quotes, and long evaluation cycles.",
+          "markdown": "- **Product-Led Growth:** Experience drives the journey; the user learns the product by using it, lowering Customer Acquisition Costs (CAC).\n- **Sales-Led Growth:** People and sales reps drive the journey, guiding buyers through demos, custom quotes, and long evaluation cycles.[[1]](https://amplitude.com/blog/product-led-growth)[[2]](https://www.salesforce.com/sales/revenue-lifecycle-management/product-led-growth/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/product-led-growth",
+              "title": "What Is Product-Led Growth? Strategy, Metrics, & Examples",
+              "text": "Definition: Product-led growth (PLG) positions the product as the main driver of customer acquisition, activation, satisfaction, r..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/sales/revenue-lifecycle-management/product-led-growth/",
+              "title": "Product",
+              "text": "What is product-led growth (PLG)? PLG vs. sales-led growth The difference between product-led growth and sales-led growth is how c..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Metrics",
+          "text": "Activation Rate: The percentage of new users who reach core product value. Time-to-Value (TTV): How fast a user realizes the benefit of the product. Free-to-Paid Conversion Rate: How many trial or freemium users convert to paid plans. Net Revenue Churn & Expansion: Measuring upgrades and account growth from existing users.",
+          "markdown": "- **Activation Rate:** The percentage of new users who reach core product value.\n- **Time-to-Value (TTV):** How fast a user realizes the benefit of the product.\n- **Free-to-Paid Conversion Rate:** How many trial or freemium users convert to paid plans.\n- **Net Revenue Churn & Expansion:** Measuring upgrades and account growth from existing users.[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.atlassian.com/agile/product-management/product-led-growth)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+              "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-led-growth",
+              "title": "What Is Product-Led Growth? | Atlassian",
+              "text": "PLG strategy: product drives acquisition, activation, retention, expansion. Examples: Slack, Dropbox. Phases: 1. Discovery (organi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Notable Examples",
+          "text": "Slack Calendly Notion Dropbox",
+          "markdown": "- **Slack** \n- **Calendly** \n- **Notion** \n- **Dropbox** [[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://www.atlassian.com/agile/product-management/product-led-growth)[[3]](https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+              "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-led-growth",
+              "title": "What Is Product-Led Growth? | Atlassian",
+              "text": "PLG strategy: product drives acquisition, activation, retention, expansion. Examples: Slack, Dropbox. Phases: 1. Discovery (organi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Leadfeeder",
+              "domain": "www.leadfeeder.com",
+              "url": "https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/",
+              "title": "Understanding Product-Led Growth - Leadfeeder",
+              "text": "60-Second Summary. Product-led growth (PLG) makes the product itself the primary engine for acquisition, retention, and expansion,"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "For a deeper dive into implementation frameworks, you can explore the ProductLed Definition Guide or the Harvard Business School PLG Overview.",
+          "markdown": "For a deeper dive into implementation frameworks, you can explore the [ProductLed Definition Guide](https://productled.com/blog/product-led-growth-definition) or the [Harvard Business School PLG Overview](https://online.hbs.edu/blog/post/product-led-growth).[[1]](https://productled.com/blog/product-led-growth-definition)[[2]](https://online.hbs.edu/blog/post/product-led-growth)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "ProductLed Definition Guide",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "domain": "productled.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Harvard Business School PLG Overview",
+              "url": "https://online.hbs.edu/blog/post/product-led-growth",
+              "domain": "online.hbs.edu"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/product-led-growth-definition",
+              "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+              "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/product-led-growth",
+              "title": "How to Achieve a Product-Led Growth Strategy",
+              "text": "Definition: Product-led growth (PLG) uses product usage, seamless experiences, and immediate value to drive customer acquisition, ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking to implement PLG for a specific product, or do you need help transitioning from a sales-led model ?",
+          "markdown": "Are you looking to **implement PLG for a specific product** , or do you need help **transitioning from a sales-led model**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Productled",
+          "domain": "productled.com",
+          "url": "https://productled.com/blog/product-led-growth-definition",
+          "title": "Product-Led Growth (PLG): What it means, examples, and why it's taking off | ProductLed",
+          "text": "Definition: Product-led growth (PLG) uses the product to acquire, activate, retain, and expand customers via freemium or free tria..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/SaaS/comments/12w5023/is_productled_growth_for_you_just_a_buzzword_or/",
+          "title": "Is product-led growth for you just a buzzword or reality? : r/SaaS - Reddit",
+          "text": "Defining PLG: Product-led growth (PLG) is a go-to-market strategy centered on the product as the main driver for attracting, conve..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Harvard Business School Online",
+          "domain": "online.hbs.edu",
+          "url": "https://online.hbs.edu/blog/post/product-led-growth",
+          "title": "How to Achieve a Product-Led Growth Strategy",
+          "text": "Definition: Product-led growth (PLG) uses product usage, seamless experiences, and immediate value to drive customer acquisition, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/agile/product-management/product-led-growth",
+          "title": "What Is Product-Led Growth? | Atlassian",
+          "text": "PLG strategy: product drives acquisition, activation, retention, expansion. Examples: Slack, Dropbox. Phases: 1. Discovery (organi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Pendo",
+          "domain": "www.pendo.io",
+          "url": "https://www.pendo.io/glossary/product-led-growth/",
+          "title": "What is Product-Led Growth? Definitions, examples | Pendo.io",
+          "text": "Definition: Product-led growth (PLG) places software at the center of the buying journey and customer experience, utilizing the pr..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Amplitude",
+          "domain": "amplitude.com",
+          "url": "https://amplitude.com/blog/product-led-growth",
+          "title": "What Is Product-Led Growth? Strategy, Metrics, & Examples",
+          "text": "Definition: Product-led growth (PLG) positions the product as the main driver of customer acquisition, activation, satisfaction, r..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Salesforce",
+          "domain": "www.salesforce.com",
+          "url": "https://www.salesforce.com/sales/revenue-lifecycle-management/product-led-growth/",
+          "title": "Product",
+          "text": "What is product-led growth (PLG)? PLG vs. sales-led growth The difference between product-led growth and sales-led growth is how c..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Leadfeeder",
+          "domain": "www.leadfeeder.com",
+          "url": "https://www.leadfeeder.com/blog/marketing-strategy/plg-principles/",
+          "title": "Understanding Product-Led Growth - Leadfeeder",
+          "text": "60-Second Summary. Product-led growth (PLG) makes the product itself the primary engine for acquisition, retention, and expansion,"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns33gIYb4e-zKfR5BdGbJOU9jznbg:1791474396943&q=product+led+growth&udm=2&source=univ&fir=Mit-eTBeaC4VIM%252CFfCWP4FIHgIdhM%252C_%253BoTaUtBawT5ltqM%252Ckz8_P7FqagB2aM%252C_%253BiBvmtHo8qc28XM%252CNo_MplpfYlbDIM%252C_%253Bv-mMhiiw1LLObM%252Cg_9RVyBB58IUKM%252C_%253B3YjmUYj-Jo2UqM%252CWu80S1l2o8KVEM%252C_%253B0Qah_7stmJ9SSM%252C0_LewofhLhClwM%252C_%253Bi9PcYEWxaJl7mM%252Cg_9RVyBB58IUKM%252C_%253BQa79tEeLoo9YHM%252Cj1DbJKIqNpnBxM%252C_%253BrL5aEeRq0pDBVM%252CuBouUojzsFKv6M%252C_&usg=AI4_-kTtImi2mXwLMQ5a9r-MR4yqqKaJbg&sa=X&ved=2ahUKEwjWwLaY4qqXAxX9gWEGHf-yGfYQ7Al6BAgjEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Product-Led Growth: From Product to Profit",
+          "url": "https://insight7.io/product-led-growth-from-product-to-profit/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product-Led Growth: How to Build a Product That Sells Itself ...",
+          "url": "https://www.amazon.com/Product-Led-Growth-Build-Product-Itself/dp/1798434520",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product-Led Growth Strategy for Product Managers",
+          "url": "https://productschool.com/blog/product-strategy/product-led-growth-strategy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f301b44a4d02:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product-Led Growth (PLG): What it means, examples, and why ...",
+          "url": "https://productled.com/blog/product-led-growth-definition",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHP2yTOLzEcitbiySoCxE98sESo91ze07hj_ezOWARKCrBGGA-J7IB-dI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Led Growth: What is it, Benefits and Strategy",
+          "url": "https://mobivery.com/en/product-led-growth/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKzX30aOtXqUpLnic3yZf_n8dtEiryua9UBwv2ybLnRFrPn75VBW8Nas&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The Complete Guide To Product Led Growth | LDG",
+          "url": "https://www.leandiscoverygroup.com/post/what-is-product-led-growth-and-how-to-implement-it-today",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsn8Hlmz9qaa__CD_lUlPVMkuXte8Oa-ejKbyAMspRZrNO7b3h20lR24&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product-Led Growth (PLG): What it means, examples, and why ...",
+          "url": "https://productled.com/blog/product-led-growth-definition",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyz0RT075PGvhqXEM5mZipFkX6WUYDr5e3W7zZ31QAAUxkjfjdXsAgSp8&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "A product-led growth strategy for legal tech, explained (197 ...",
+          "url": "https://www.legalevolution.org/2020/08/a-product-led-growth-strategy-for-legal-tech-explained-197/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpSFSSK1BI2AgS1BFGtnXaBOpKRX230GA1r0aKjQ3UupiapHle4vOYvEo&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Build Your Product-Led Growth Playbook | Info-Tech Research ...",
+          "url": "https://www.infotech.com/research/ss/build-your-product-led-growth-playbook",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQt2gh2QkxsWHS-AJVYMDh0BUW3rU1YCI1T6Pf_cv4lpxIbFN8VF8pwc8N5A&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is product-led growth?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are examples of product-led growth?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is product-led growth vs sales led growth?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 3-3-3 rule for marketing?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "nogood.io",
+      "title": "A Complete Guide to Product-Led Growth Strategy",
+      "url": "https://nogood.io/blog/product-led-growth-strategy/",
+      "breadcrumb": "https://nogood.io › Blog",
+      "website_name": "NoGood™: Growth Marketing Agency",
+      "description": "Jun 19, 2025 — Best Practices for a Successful Product-Led Growth Strategy · 1. Make Sign-Up Frictionless · 2. Personalize Onboarding · 3. Prioritize Core ... Read more",
+      "pre_snippet": "06/19/2025 00:00:00",
+      "highlighted": [
+        "1. Make Sign-Up Frictionless"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://nogood.io/blog/product-led-growth-strategy/#:~:text=Best%20Practices%20for%20a%20Successful,Product-Led%20Growth%20Strategy&text=1.%20Make%20Sign-Up%20Frictionless&text=2.%20Personalize%20Onboarding&text=3.%20Prioritize%20Core%20Feature%20Adoption",
+          "domain": "nogood.io"
+        }
+      ],
+      "timestamp": "2025-06-19 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.statsig.com",
+      "title": "What is product-led growth (PLG)?",
+      "url": "https://www.statsig.com/perspectives/what-is-product-led-growth-(plg)",
+      "breadcrumb": "https://www.statsig.com › perspectives › what-is-produc...",
+      "website_name": "Statsig",
+      "description": "Feb 15, 2024 — Product-led growth (PLG) is a business methodology that places the product at the forefront of the company's growth strategy.",
+      "pre_snippet": "02/15/2024 00:00:00",
+      "highlighted": [
+        "Product-led growth (PLG"
+      ],
+      "timestamp": "2024-02-15 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.featurebase.app",
+      "title": "What Is Product-Led Growth? PLG Strategy, Metrics...",
+      "url": "https://www.featurebase.app/blog/product-led-growth",
+      "breadcrumb": "https://www.featurebase.app › blog › product-led-growth",
+      "website_name": "Featurebase",
+      "description": "Product-led growth is a go-to-market strategy where the product drives acquisition, activation, retention, and expansion.",
+      "highlighted": [
+        "Product-led growth is a go-to-market strategy"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "adamfard.com",
+      "title": "Product Led Growth Examples: How Top Companies Win ...",
+      "url": "https://adamfard.com/blog/product-led-growth-examples",
+      "breadcrumb": "https://adamfard.com › Blog",
+      "website_name": "Adam Fard UX Studio",
+      "description": "Product-led growth is a strategy where the product itself drives user acquisition, conversion, and retention.",
+      "highlighted": [
+        "Product-led growth"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.mailmodo.com",
+      "title": "PLG vs SLG: Which One Is Better for Your SaaS",
+      "url": "https://www.mailmodo.com/guides/plg-vs-slg/",
+      "breadcrumb": "https://www.mailmodo.com › guides",
+      "website_name": "Mailmodo",
+      "description": "Mar 10, 2025 — Product-led growth, or PLG, is a growth strategy where the product drives acquisition, retention, and growth by letting users experience its ... Read more",
+      "pre_snippet": "03/10/2025 00:00:00",
+      "highlighted": [
+        "Product-led growth, or PLG"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.mailmodo.com/guides/plg-vs-slg/#:~:text=Product-led%20growth%2C%20or%20PLG%2C%20is,users%20experience%20its%20value%20firsthand.",
+          "domain": "www.mailmodo.com"
+        }
+      ],
+      "timestamp": "2025-03-10 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.chameleon.io",
+      "title": "11 Product-Led Growth Metrics to Measure Your PLG ...",
+      "url": "https://www.chameleon.io/blog/product-led-growth-metrics",
+      "breadcrumb": "https://www.chameleon.io › blog › product-led-growth-...",
+      "website_name": "Chameleon.io",
+      "description": "Product-led growth metrics can accurately measure your progress, reveal areas of improvement, and maximize your SaaS growth.",
+      "highlighted": [
+        "Product-led growth metrics"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.upsilonit.com",
+      "title": "Product-Led Growth: Definition, Strategy and Examples",
+      "url": "https://www.upsilonit.com/blog/what-is-product-led-growth-strategy-and-examples",
+      "breadcrumb": "https://www.upsilonit.com › blog › what-is-product-led...",
+      "website_name": "UpsilonIT",
+      "description": "Mar 13, 2025 — The product-led growth definition implies a go-to-market strategy that revolves around reshaping the business to make the delivered product ...",
+      "pre_snippet": "03/13/2025 00:00:00",
+      "highlighted": [
+        "a go-to-market strategy"
+      ],
+      "timestamp": "2025-03-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "amplitude.com",
+      "title": "3 Perspectives on How to Benefit from Product-Led Growth",
+      "url": "https://amplitude.com/blog/3-perspectives-on-plg",
+      "breadcrumb": "https://amplitude.com › blog › 3-perspectives-on-plg",
+      "website_name": "Amplitude",
+      "description": "Jan 18, 2023 — For many people, implementing PLG means switching your business model from marketing or sales-led motions to product-led motions. When you have ... Read more",
+      "pre_snippet": "01/18/2023 00:00:00",
+      "highlighted": [
+        "switching your business model from marketing or sales-led motions to product-led motions"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "2. Plg As A Motion And Model",
+          "url": "https://amplitude.com/blog/3-perspectives-on-plg#:~:text=2.%20PLG%20as%20a%20motion%20and%20model",
+          "domain": "amplitude.com"
+        },
+        {
+          "type": "link_element",
+          "title": "3. Plg As A Mindset And...",
+          "url": "https://amplitude.com/blog/3-perspectives-on-plg#:~:text=3.%20PLG%20as%20a%20mindset%20and%20culture%20shift",
+          "domain": "amplitude.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Craft Your Plg Strategy",
+          "url": "https://amplitude.com/blog/3-perspectives-on-plg#:~:text=Craft%20your%20PLG%20strategy",
+          "domain": "amplitude.com"
+        }
+      ],
+      "timestamp": "2023-01-18 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Product led growth example",
+        "Product led growth strategy"
+      ]
+    }
+  ]
+}

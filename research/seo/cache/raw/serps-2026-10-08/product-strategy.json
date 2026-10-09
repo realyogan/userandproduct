@@ -1,0 +1,606 @@
+{
+  "id": "10081545-2633-0066-0000-6a0ca9d76d10",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![10 Product Strategy Examples You Need To Know | Amoeboids](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:4)\nA product strategy is `a high-level plan that defines a product's vision, target audience, and key business goals to guide development and market success`.[[1]](https://www.productplan.com/glossary/product-strategy)[[2]](https://en.wikipedia.org/wiki/Product_strategy)[[3]](https://www.romanpichler.com/blog/elements-definition-product-strategy/)\n\n### Core Components\n\n- **Vision:** The long-term mission and ultimate direction of where the product is headed.\n- **Target Market:** The ideal customer profiles and specific personas the product serves.\n- **Customer Needs:** The core problems the product solves and the specific value it delivers.\n- **Differentiation:** The unique selling proposition or \"secret sauce\" that makes the product stand out from competitors.\n- **Business Goals:** Measurable targets like revenue objectives, adoption metrics, and company growth alignment.[[1]](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/)[[2]](https://www.productplan.com/glossary/product-strategy)[[3]](https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429)[[4]](https://www.romanpichler.com/blog/elements-definition-product-strategy/)[[5]](https://www.entrepreneur.com/building-a-business/marketing/what-is-a-product-strategy)\n\n### Strategy vs. Roadmap\n\n- **Product Strategy:** Acts as the blueprint; it answers the **\"why\"** and **\"what\"** of the product lifecycle.\n- **Product Roadmap:** Acts as the construction plan; it outlines the **\"how\"** and **\"when\"** features will be built and released.[[1]](https://www.tempo.io/glossary/product-strategy)\n\n### Common Types of Strategies\n\n- **Differentiation:** Competing on unique design, speed, or capabilities that rivals cannot easily match.\n- **Cost/Price:** Offering essential features efficiently at a lower price point.\n- **Focus/Niche:** Targeting a tightly defined audience segment overlooked by broad-market competitors.\n- **Quality:** Emphasizing high performance, superior user experience, and reliable support.[[1]](https://www.glassbox.com/blog/product-strategy-framework/)\n\nMost users on [r/ProductManagement](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/) agree that building a systematic strategy requires baseline research, a 5-to-7 year vision, and actionable steps bridging the gap between current realities and future goals.[[1]](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "A product strategy is a high-level plan that defines a product's vision, target audience, and key business goals to guide development and market success.",
+          "markdown": "![10 Product Strategy Examples You Need To Know | Amoeboids](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:2)\nA product strategy is `a high-level plan that defines a product's vision, target audience, and key business goals to guide development and market success`.[[1]](https://www.productplan.com/glossary/product-strategy)[[2]](https://en.wikipedia.org/wiki/Product_strategy)[[3]](https://www.romanpichler.com/blog/elements-definition-product-strategy/)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "10 Product Strategy Examples You Need To Know | Amoeboids",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/glossary/product-strategy",
+              "title": "Product Strategy | Glossary | ProductPlan",
+              "text": "Definition: High-level plan detailing business objectives, target personas, benefits, and lifecycle goals. Importance: Provides co..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Wikipedia",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Product_strategy",
+              "title": "Product strategy - Wikipedia",
+              "text": "Product strategy defines the high-level plan for developing and marketing a product, how the product supports the business strateg..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Roman Pichler",
+              "domain": "www.romanpichler.com",
+              "url": "https://www.romanpichler.com/blog/elements-definition-product-strategy/",
+              "title": "Elements of an Effective Product Strategy | Roman Pichler",
+              "text": "Elements: Product strategy is a high-level plan realizing a vision, comprising target market (customers/users), customer needs (pr..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Components",
+          "text": "Vision: The long-term mission and ultimate direction of where the product is headed. Target Market: The ideal customer profiles and specific personas the product serves. Customer Needs: The core problems the product solves and the specific value it delivers. Differentiation: The unique selling proposition or \"secret sauce\" that makes the product stand out from competitors. Business Goals: Measurable targets like revenue objectives, adoption metrics, and company growth alignment.",
+          "markdown": "- **Vision:** The long-term mission and ultimate direction of where the product is headed.\n- **Target Market:** The ideal customer profiles and specific personas the product serves.\n- **Customer Needs:** The core problems the product solves and the specific value it delivers.\n- **Differentiation:** The unique selling proposition or \"secret sauce\" that makes the product stand out from competitors.\n- **Business Goals:** Measurable targets like revenue objectives, adoption metrics, and company growth alignment.[[1]](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/)[[2]](https://www.productplan.com/glossary/product-strategy)[[3]](https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429)[[4]](https://www.romanpichler.com/blog/elements-definition-product-strategy/)[[5]](https://www.entrepreneur.com/building-a-business/marketing/what-is-a-product-strategy)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/",
+              "title": "How do you define “product strategy”? : r/ProductManagement",
+              "text": "Systematic Strategy Building: A systematic approach to product strategy involves three steps: first, identify the current baseline..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/glossary/product-strategy",
+              "title": "Product Strategy | Glossary | ProductPlan",
+              "text": "Definition: High-level plan detailing business objectives, target personas, benefits, and lifecycle goals. Importance: Provides co..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "medium.com",
+              "url": "https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429",
+              "title": "What is Good Product Strategy?. “What is your Product Strategy? YOU… | by Melissa Perri | Medium",
+              "text": "Product Strategy: System of achievable goals and visions aligning teams around outcomes rather than static output plans. Core Comp..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Roman Pichler",
+              "domain": "www.romanpichler.com",
+              "url": "https://www.romanpichler.com/blog/elements-definition-product-strategy/",
+              "title": "Elements of an Effective Product Strategy | Roman Pichler",
+              "text": "Elements: Product strategy is a high-level plan realizing a vision, comprising target market (customers/users), customer needs (pr..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "www.entrepreneur.com",
+              "domain": "www.entrepreneur.com",
+              "url": "https://www.entrepreneur.com/building-a-business/marketing/what-is-a-product-strategy",
+              "title": "What Is a Product Strategy?",
+              "text": "A product strategy involves making decisions on the following critical factors: * Differentiation: Here, a product strategy outlin..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Strategy vs. Roadmap",
+          "text": "Product Strategy: Acts as the blueprint; it answers the \"why\" and \"what\" of the product lifecycle. Product Roadmap: Acts as the construction plan; it outlines the \"how\" and \"when\" features will be built and released.",
+          "markdown": "- **Product Strategy:** Acts as the blueprint; it answers the **\"why\"** and **\"what\"** of the product lifecycle.\n- **Product Roadmap:** Acts as the construction plan; it outlines the **\"how\"** and **\"when\"** features will be built and released.[[1]](https://www.tempo.io/glossary/product-strategy)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Tempo.io",
+              "domain": "www.tempo.io",
+              "url": "https://www.tempo.io/glossary/product-strategy",
+              "title": "Product strategy",
+              "text": "product roadmap The product strategy is the “why” and “what”: why the product exists and what it aims to achieve. The product road..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Common Types of Strategies",
+          "text": "Differentiation: Competing on unique design, speed, or capabilities that rivals cannot easily match. Cost/Price: Offering essential features efficiently at a lower price point. Focus/Niche: Targeting a tightly defined audience segment overlooked by broad-market competitors. Quality: Emphasizing high performance, superior user experience, and reliable support.",
+          "markdown": "- **Differentiation:** Competing on unique design, speed, or capabilities that rivals cannot easily match.\n- **Cost/Price:** Offering essential features efficiently at a lower price point.\n- **Focus/Niche:** Targeting a tightly defined audience segment overlooked by broad-market competitors.\n- **Quality:** Emphasizing high performance, superior user experience, and reliable support.[[1]](https://www.glassbox.com/blog/product-strategy-framework/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Glassbox",
+              "domain": "www.glassbox.com",
+              "url": "https://www.glassbox.com/blog/product-strategy-framework/",
+              "title": "10 Key Elements of a Product Strategy Framework",
+              "text": "5 Common Types Of Product Strategies These strategy types give product leaders a starting point for defining how the product will ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Most users on r/ProductManagement agree that building a systematic strategy requires baseline research, a 5-to-7 year vision, and actionable steps bridging the gap between current realities and future goals.",
+          "markdown": "Most users on [r/ProductManagement](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/) agree that building a systematic strategy requires baseline research, a 5-to-7 year vision, and actionable steps bridging the gap between current realities and future goals.[[1]](https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "r/ProductManagement",
+              "url": "https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/",
+              "domain": "www.reddit.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/",
+              "title": "How do you define “product strategy”? : r/ProductManagement",
+              "text": "Systematic Strategy Building: A systematic approach to product strategy involves three steps: first, identify the current baseline..."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "ProductPlan",
+          "domain": "www.productplan.com",
+          "url": "https://www.productplan.com/glossary/product-strategy",
+          "title": "Product Strategy | Glossary | ProductPlan",
+          "text": "Definition: High-level plan detailing business objectives, target personas, benefits, and lifecycle goals. Importance: Provides co..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/",
+          "title": "How do you define “product strategy”? : r/ProductManagement",
+          "text": "Systematic Strategy Building: A systematic approach to product strategy involves three steps: first, identify the current baseline..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Medium",
+          "domain": "medium.com",
+          "url": "https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429",
+          "title": "What is Good Product Strategy?. “What is your Product Strategy? YOU… | by Melissa Perri | Medium",
+          "text": "Product Strategy: System of achievable goals and visions aligning teams around outcomes rather than static output plans. Core Comp..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Roman Pichler",
+          "domain": "www.romanpichler.com",
+          "url": "https://www.romanpichler.com/blog/elements-definition-product-strategy/",
+          "title": "Elements of an Effective Product Strategy | Roman Pichler",
+          "text": "Elements: Product strategy is a high-level plan realizing a vision, comprising target market (customers/users), customer needs (pr..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Product_strategy",
+          "title": "Product strategy - Wikipedia",
+          "text": "Product strategy defines the high-level plan for developing and marketing a product, how the product supports the business strateg..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Glassbox",
+          "domain": "www.glassbox.com",
+          "url": "https://www.glassbox.com/blog/product-strategy-framework/",
+          "title": "10 Key Elements of a Product Strategy Framework",
+          "text": "5 Common Types Of Product Strategies These strategy types give product leaders a starting point for defining how the product will ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.entrepreneur.com",
+          "domain": "www.entrepreneur.com",
+          "url": "https://www.entrepreneur.com/building-a-business/marketing/what-is-a-product-strategy",
+          "title": "What Is a Product Strategy?",
+          "text": "A product strategy involves making decisions on the following critical factors: * Differentiation: Here, a product strategy outlin..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Tempo.io",
+          "domain": "www.tempo.io",
+          "url": "https://www.tempo.io/glossary/product-strategy",
+          "title": "Product strategy",
+          "text": "product roadmap The product strategy is the “why” and “what”: why the product exists and what it aims to achieve. The product road..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "What is a Product Strategy? [+How to Build One]",
+      "url": "https://www.atlassian.com/agile/product-management/product-strategy",
+      "breadcrumb": "https://www.atlassian.com › Agile › Product Management",
+      "website_name": "Atlassian",
+      "description": "Key Takeaways. A product strategy defines vision, goals, and initiatives, aligning teams and stakeholders for successful development. Read more",
+      "highlighted": [
+        "defines vision, goals, and initiatives"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.atlassian.com/agile/product-management/product-strategy#:~:text=Key%20Takeaways,and%20stakeholders%20for%20successful%20development.",
+          "domain": "www.atlassian.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the four types of product strategies?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the four major elements of a product strategy?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 P's of product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I create a product strategy?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.productplan.com",
+      "title": "Product Strategy | Glossary",
+      "url": "https://www.productplan.com/glossary/product-strategy",
+      "breadcrumb": "https://www.productplan.com › ... › Product Strategy",
+      "website_name": "ProductPlan",
+      "description": "A product strategy is a high-level plan describing what a business hopes to accomplish with its product and how it plans to do so.",
+      "highlighted": [
+        "product strategy",
+        "product"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsVG4JZA94nb5sCYJcZ-mwuWkg2fA:1791474340532&q=product+strategy&udm=2&source=univ&fir=B0sa2VmH3NuZzM%252Cb9wxMKJzNRfIiM%252C_%253Bg3T7tfuBBc-HjM%252CIqTXKE9YuBIDxM%252C_%253BMjUkNEmUV_EJZM%252CMlJ2fmVS-JvY5M%252C_%253BnLLCLgMqa403OM%252CIqTXKE9YuBIDxM%252C_%253BHK4wUv8jGRrLxM%252CCJ0I9wTQvT64hM%252C_%253B4qxRXwVN61Vc6M%252CPDZpXWPBq3mc0M%252C_%253BkBeU4yi7ma604M%252CBQpoDA_7Su8pEM%252C_%253BUX1k1hPFLpAJ_M%252CR0vv0WVmYsmuNM%252C_%253BeiDt8bfpDqsvkM%252Cw-cKn3-BZ3XQjM%252C_&usg=AI4_-kRXtDrrCSWDAIzvNkiTUWPh1Kaztg&sa=X&ved=2ahUKEwimh8P94aqXAxWkr1YBHWxvENwQ7Al6BAhQEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Listen: The operator's guide to product strategy",
+          "url": "https://www.lennysnewsletter.com/p/the-operators-guide-to-product-strategy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "10 Product Strategy Examples You Need To Know | Amoeboids",
+          "url": "https://amoeboids.com/blog/product-strategy-guide-examples/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Strategy | Product Management Framework | Infinity",
+          "url": "https://startinfinity.com/product-management-framework/product-strategy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-6a0ca9d76d10:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "10 Product Strategy Examples You Need To Know | Amoeboids",
+          "url": "https://amoeboids.com/blog/product-strategy-guide-examples/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduTRyADJ9uoSY21_hZrLy7eVBlxkXaUQ4L16BFmQ8xqAsfZlOiMvtgd8&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Vision vs. Product Strategy: What's the Difference ...",
+          "url": "https://herbig.co/product-vision-vs-product-strategy/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Nof4z4h6-jwH1aoQPpBM9AIeqMqrJyBfCeM6lkvNGLb2qdL2iYRe_ZI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Strategy as a System | Roman Pichler",
+          "url": "https://www.romanpichler.com/blog/product-strategy-system/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2TCGs77sThwbGMLYQ6U6f8Vkfsx2BaCcuDZMBzBzvuvEM1imIOyTnwI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Strategy: How a Clear One Leads to Success",
+          "url": "https://www.aha.io/roadmapping/guide/product-strategy",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWppHZq6CF3E82BYaikdmgcTb7kIKdT1ANplgkY2HEyIyVP5Q6Zw1D4V0&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What Exactly is a Product Strategy? | Roman Pichler",
+          "url": "https://www.romanpichler.com/blog/what-is-a-product-strategy/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqzqmEc5WZz3iy4Xm89x3LPIPNL6YQSl8ZXxhdEWhqZA4-b6VIOb1T-I&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Strategy",
+          "url": "https://www.linkedin.com/pulse/product-strategy-fayokemi-haruna",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmx8MrX4SrKssJ-jCFNxZFymh6mZIOh3aHOM9aTb2J7RGceZvJqmNz1Oo&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.svpg.com",
+      "title": "Product Strategy - Overview",
+      "url": "https://www.svpg.com/product-strategy-overview/",
+      "breadcrumb": "https://www.svpg.com › Articles",
+      "website_name": "Silicon Valley Product Group",
+      "description": "Feb 17, 2020 — In terms of product teams, product strategy helps us decide what problems to solve; product discovery helps us figure out the tactics that can ... Read more",
+      "pre_snippet": "02/17/2020 00:00:00",
+      "highlighted": [
+        "product strategy helps us decide what problems to solve"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.svpg.com/product-strategy-overview/#:~:text=In%20terms%20of%20product%20teams%2C,can%20bring%20it%20to%20market.",
+          "domain": "www.svpg.com"
+        }
+      ],
+      "timestamp": "2020-02-17 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "What is Good Product Strategy?",
+      "url": "https://medium.com/@melissaperri/what-is-good-product-strategy-8d5587cb7429",
+      "breadcrumb": "2.9K+ likes  ·  10 years ago",
+      "website_name": "Medium · Melissa Perri",
+      "description": "Product Strategy is a system of achievable goals and visions that work together to align the team around desirable outcomes for both the ...",
+      "highlighted": [
+        "Product Strategy"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "How do you define “product strategy”?",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1goweqw/how_do_you_define_product_strategy/",
+      "breadcrumb": "70+ comments  ·  1 year ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "Product strategy is the overarching plan that defines a product's vision, goals, and roadmap for achieving those goals.",
+      "highlighted": [
+        "Product strategy is"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "How do you approach product strategy? The struggle is ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1g73akq/how_do_you_approach_product_strategy_the_struggle/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Help me truly grasp \"Product strategy\" because I just ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1t606he/help_me_truly_grasp_product_strategy_because_i/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=product+strategy+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsVG4JZA94nb5sCYJcZ-mwuWkg2fA:1791474340532&sa=X&ved=2ahUKEwimh8P94aqXAxWkr1YBHWxvENwQrQIoAnoECEEQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.aha.io",
+      "title": "Product Strategy: How a Clear One Leads to Success",
+      "url": "https://www.aha.io/roadmapping/guide/product-strategy",
+      "breadcrumb": "https://www.aha.io › roadmapping › guide › product-stra...",
+      "website_name": "Aha! software",
+      "description": "Product strategy outlines how a product will support company strategy and business goals. Product strategy serves as a guide for the team planning, developing, ... Read more",
+      "highlighted": [
+        "Product strategy outlines how a product will support company strategy and business goals"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.aha.io/roadmapping/guide/product-strategy#:~:text=Product%20strategy%20outlines%20how%20a,concept%20through%20to%20market%20release.",
+          "domain": "www.aha.io"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.romanpichler.com",
+      "title": "Elements of an Effective Product Strategy",
+      "url": "https://www.romanpichler.com/blog/elements-definition-product-strategy/",
+      "breadcrumb": "https://www.romanpichler.com › blog › elements-defini...",
+      "website_name": "Roman Pichler",
+      "description": "May 19, 2015 — Product strategy is about imagining the future of your product: What offering will it become? Who will it benefit? How will it create value? Read more",
+      "pre_snippet": "05/19/2015 00:00:00",
+      "highlighted": [
+        "imagining the future of your product"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.romanpichler.com/blog/elements-definition-product-strategy/#:~:text=Product%20strategy%20is%20about%20imagining,How%20will%20it%20create%20value%3F",
+          "domain": "www.romanpichler.com"
+        }
+      ],
+      "timestamp": "2015-05-19 00:00:00 +00:00"
+    },
+    {
+      "type": "short_videos",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "title": "Short videos",
+      "items": [
+        {
+          "type": "short_videos_element",
+          "title": "What is a product strategy? A product ...",
+          "url": "https://www.linkedin.com/posts/edbiden_what-is-a-product-strategy-a-product-strategy-activity-7306237715820269568-i7v2",
+          "domain": "google.com",
+          "source": "Ed Biden"
+        },
+        {
+          "type": "short_videos_element",
+          "title": "Product Strategy is a key concept to master when breaking into ...",
+          "url": "https://www.linkedin.com/posts/davewang001_product-strategy-is-a-key-concept-to-master-activity-7261852291832426496-MvpQ",
+          "domain": "google.com",
+          "source": "David Wang"
+        },
+        {
+          "type": "short_videos_element",
+          "title": "What is a Product Strategy. #shortsfeed #productmanagement",
+          "url": "https://www.youtube.com/shorts/ufg6vGlnvm8?xstg=CAMSBhUD-7L2Hw%3D%3D",
+          "domain": "google.com",
+          "source": "Everything Product"
+        },
+        {
+          "type": "short_videos_element",
+          "title": "How to Build a Strategy That Actually Works #productstrategy",
+          "url": "https://www.youtube.com/shorts/HwPaQjX6g9Q?xstg=CAMSBhUD-7L2Hw%3D%3D",
+          "domain": "google.com",
+          "source": "OKR Quickstart"
+        },
+        {
+          "type": "short_videos_element",
+          "title": "Product strategy must meet market demand",
+          "url": "https://www.youtube.com/shorts/gicAppDBAJ8?xstg=CAMSBhUD-7L2Hw%3D%3D",
+          "domain": "google.com",
+          "source": "Arunansu Pattanayak"
+        }
+      ]
+    },
+    {
+      "type": "product_considerations",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "title": "Things to know",
+      "items": [
+        {
+          "type": "product_considerations_element",
+          "title": "How to create a product strategy?",
+          "consideration_category": "Creation Process"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "What are the different types of product strategies?",
+          "consideration_category": "Types"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "What is the role of a product strategy in product development?",
+          "consideration_category": "Role in Development"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "What are the benefits of having a product strategy?",
+          "consideration_category": "Benefits"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "How to measure the success of a product strategy?",
+          "consideration_category": "Success Measurement"
+        }
+      ]
+    },
+    {
+      "type": "paid",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "title": "Product Strategy Framework - 8 Free PM Strategy Tools",
+      "domain": "productside.com",
+      "website_name": "Productside",
+      "breadcrumb": "https://www.productside.com",
+      "url": "https://productside.com/strategic-planning-for-product-managers-pack/",
+      "extra": {
+        "ad_aclk": "DChsSEwidpsr94aqXAxUm4xYFHeplJcUYACICCAIQABoCdGw"
+      },
+      "description": "Product Strategy Framework - 8 Free PM Strategy Tools"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 14,
+      "page": 1,
+      "items": [
+        "Product strategy template",
+        "Product strategy example",
+        "Product strategy in marketing",
+        "Product strategy framework",
+        "Product Strategy jobs",
+        "Product strategy book",
+        "Product strategy pdf",
+        "Product strategy vs product management"
+      ]
+    }
+  ]
+}

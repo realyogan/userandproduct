@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Phase 0 findings</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#1b1c1f; --ink-2:#4f5157; --muted:#73757c; --rule:#dfe1e6;
+  --blue:#2a78d6; --blue-tint:#e5effb; --orange:#eb6834; --orange-tint:#fdece4; --aqua:#1baf7a; --aqua-tint:#e1f5ed;
+  --shelf:#8a8f99; --dot-off:#d4d6dc; --focus:#2a78d6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+    --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+    --shelf:#6b6e75; --dot-off:#3c3c39; --focus:#3987e5;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+  --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+  --shelf:#6b6e75; --dot-off:#3c3c39; --focus:#3987e5;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:44rem;margin:0 auto;padding:0 16px}
+header.top{padding:56px 0 24px}
+h1,h2,h3{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;
+  line-height:1.15;letter-spacing:-0.01em;color:var(--ink)}
+h1{font-size:clamp(2rem,6vw,2.9rem);font-weight:800;margin:0 0 16px}
+h2{font-size:clamp(1.45rem,4vw,1.8rem);font-weight:750;margin:0 0 12px}
+h3{font-size:1.1rem;font-weight:700;margin:28px 0 6px}
+p{margin:0 0 14px;max-width:38rem}
+.lede{font-size:1.15rem;color:var(--ink-2)}
+.date{color:var(--muted);font-size:.95rem;margin:0 0 20px}
+a{color:var(--blue);text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:2px}
+nav.toc{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 20px;margin:8px 0}
+nav.toc h2{font-size:1rem;margin:0 0 6px}
+nav.toc ol{margin:0;padding-left:1.4em;columns:2 15rem;column-gap:24px;font-size:.98rem}
+nav.toc li{margin:2px 0;break-inside:avoid}
+main section{padding:40px 0 8px;border-top:1px solid var(--rule)}
+main section:first-of-type{border-top:0}
+.chapter{color:var(--muted);font-size:.95rem;margin:0 0 4px;font-weight:600}
+figure{margin:20px 0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px}
+figure h3{margin:0 0 2px;font-size:1.02rem}
+figure svg{display:block;width:100%;height:auto;margin:10px 0 6px;overflow:visible}
+figcaption{font-size:.92rem;color:var(--ink-2);line-height:1.5}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--ink-2);margin:6px 0 0;padding:0;list-style:none}
+.legend li{display:flex;align-items:center;gap:6px}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;flex:none}
+.sw.blue{background:var(--blue)} .sw.orange{background:var(--orange)}
+.sw.ring{background:transparent;border:2px solid var(--blue);border-radius:50%}
+.sw.dotb{background:var(--blue);border-radius:50%} .sw.doto{background:var(--orange);border-radius:50%}
+.sw.off{background:var(--dot-off);border-radius:50%}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:10px;margin:16px 0}
+.tile{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.tile b{display:block;font-size:1.7rem;line-height:1.1;font-weight:800;font-variant-numeric:tabular-nums}
+.tile span{display:block;font-size:.9rem;color:var(--ink-2);line-height:1.35;margin-top:4px}
+.callout{background:var(--blue-tint);border-radius:10px;padding:14px 16px;margin:16px 0}
+.callout p:last-child{margin-bottom:0}
+details{margin-top:8px;font-size:.9rem}
+summary{cursor:pointer;color:var(--ink-2)}
+table{border-collapse:collapse;width:100%;margin-top:8px;font-size:.88rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--rule)}
+th{color:var(--ink-2);font-weight:600}
+td.n,th.n{text-align:right}
+ul.plain{padding-left:1.2em} ul.plain li{margin:6px 0}
+ol.steps{padding-left:1.4em} ol.steps li{margin:10px 0}
+ol.check{list-style:none;padding:0;margin:16px 0;counter-reset:ck}
+ol.check li{counter-increment:ck;position:relative;background:var(--surface);border:1px solid var(--rule);
+  border-radius:10px;padding:14px 16px 14px 52px;margin:0 0 10px}
+ol.check li::before{content:"";position:absolute;left:16px;top:17px;width:20px;height:20px;border:2px solid var(--ink-2);border-radius:5px}
+ol.check li.later::before{border-style:dashed;border-color:var(--muted)}
+ol.check h3{margin:0 0 4px;font-size:1.02rem}
+ol.check h3 .num{color:var(--muted);font-weight:600}
+ol.check p{margin:0 0 8px;font-size:.98rem}
+ol.check p:last-child{margin-bottom:0}
+.why{color:var(--ink-2)}
+pre.envfile{background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:8px 10px;font-size:.85rem;
+  overflow-x:auto;margin:0 0 8px;max-width:100%}
+code{font-size:.9em;overflow-wrap:anywhere}
+footer{border-top:1px solid var(--rule);margin-top:40px;padding:24px 0 56px;font-size:.92rem;color:var(--ink-2)}
+footer code{font-size:.85rem}
+svg text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.t1{fill:var(--ink)} .t2{fill:var(--ink-2)} .tm{fill:var(--muted)}
+.fb{fill:var(--blue)} .fo{fill:var(--orange)} .fa{fill:var(--aqua)} .fbt{fill:var(--blue-tint)} .fot{fill:var(--orange-tint)}
+.fat{fill:var(--aqua-tint)} .fs{fill:var(--surface)} .fr{fill:var(--rule)} .foff{fill:var(--dot-off)}
+.sb{stroke:var(--blue)} .so{stroke:var(--orange)} .sa{stroke:var(--aqua)} .sr{stroke:var(--rule)} .sm{stroke:var(--muted)}
+.ssh{stroke:var(--shelf)} .fsh{fill:var(--shelf)}
+@media (max-width:520px){ body{font-size:17px} figure{padding:12px} ol.check li{padding-left:46px} ol.check li::before{left:13px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<h1>What Google showed us: Phase 0</h1>
+<p class="date">Research from October 8, 2026</p>
+<p class="lede">We asked Google 78 questions and wrote down who it showed first. This page tells you what we found, in plain words, and what we will do next.</p>
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#what-we-did">What we did</a></li>
+<li><a href="#the-page">What a results page looks like</a></li>
+<li><a href="#who">Who holds the shelf today</a></li>
+<li><a href="#answer-box">Google's own answer box</a></li>
+<li><a href="#soft">Soft shelves</a></li>
+<li><a href="#surprises">Surprises worth remembering</a></li>
+<li><a href="#spent">What we spent</a></li>
+<li><a href="#next">What happens next</a></li>
+<li><a href="#phase1">Phase 1: what it is and what we need from you</a></li>
+</ol>
+</nav>
+</header>
+<main>
+
+<section id="what-we-did">
+<p class="chapter">Part 1</p>
+<h2>What we did</h2>
+<p>Our site will have five sections: Articles, Useful links, Books, Tools and Templates.</p>
+<p>For each section, we wrote down questions people really type into Google. Things like "best product management books" or "prd template". We ended up with 78 questions: Articles (24), Useful links (16), Books (12), Tools (12), Templates (14).</p>
+<p>Then we asked Google each question and wrote down every website on the first page. That gave us 647 entries to study.</p>
+<p>We also did two free things. We read the sitemaps of 51 competitor websites. A sitemap is a website's own table of contents: a list of every page it has.</p>
+<p>And we read 12 lists of design and product tools that people keep on GitHub, a website where people share code and lists.</p>
+<div class="tiles">
+<div class="tile"><b>78</b><span>questions asked</span></div>
+<div class="tile"><b>647</b><span>first-page entries written down</span></div>
+<div class="tile"><b>51</b><span>competitor tables of contents read</span></div>
+<div class="tile"><b>12</b><span>community tool lists read</span></div>
+</div>
+</section>
+
+<section id="the-page">
+<p class="chapter">Part 2</p>
+<h2>What a results page looks like</h2>
+<p>Think of Google's first page as a shelf with ten spots. Everyone wants a spot on that shelf, because most people never look past it.</p>
+<p>On our questions, the shelf held between 6 and 10 websites, about 8 on average. Google fills the rest of the page with its own boxes.</p>
+<p>The biggest box sits at the very top. It is called the AI Overview. Google reads other websites and writes a short answer itself. When that answer is good enough, people stop there and never click a link.</p>
+<p>Below it you often see "People also ask": a few related questions that open when you tap them. Some pages also show videos, pictures, or, for books, a row of book covers you can buy.</p>
+<figure>
+<h3>A results page, drawn simply</h3>
+<svg viewBox="0 0 400 410" role="img" aria-labelledby="st sd">
+<title id="st">A Google results page, drawn simply</title>
+<desc id="sd">At the top a search box, then Google’s own answer box, then a few People also ask questions, then the shelf: ten numbered spots for websites.</desc>
+<rect x="0" y="0" width="400" height="34" rx="17" class="fs sm" stroke-width="1.5"/>
+<circle cx="22" cy="17" r="6" fill="none" class="sm" stroke-width="2"/><line x1="26.5" y1="21.5" x2="31" y2="26" class="sm" stroke-width="2" stroke-linecap="round"/>
+<text x="42" y="22" font-size="14" class="t1">best product management books</text>
+<rect x="0" y="48" width="400" height="92" rx="8" class="fbt"/>
+<text x="14" y="72" font-size="14" class="t1" font-weight="700">AI Overview</text>
+<text x="120" y="72" font-size="12.5" class="t2">Google writes the answer itself</text>
+<rect x="14" y="84" width="360" height="6" rx="3" class="fb" opacity=".35"/>
+<rect x="14" y="96" width="330" height="6" rx="3" class="fb" opacity=".35"/>
+<rect x="14" y="108" width="345" height="6" rx="3" class="fb" opacity=".35"/>
+<rect x="14" y="120" width="220" height="6" rx="3" class="fb" opacity=".35"/>
+<text x="0" y="166" font-size="13" class="t1" font-weight="700">People also ask</text>
+<rect x="0" y="176" width="400" height="18" rx="4" class="fs sr" stroke-width="1"/>
+<rect x="10" y="182" width="200" height="6" rx="3" class="fr"/>
+<rect x="0" y="198" width="400" height="18" rx="4" class="fs sr" stroke-width="1"/>
+<rect x="10" y="204" width="240" height="6" rx="3" class="fr"/>
+<rect x="0" y="220" width="400" height="18" rx="4" class="fs sr" stroke-width="1"/>
+<rect x="10" y="226" width="170" height="6" rx="3" class="fr"/>
+<text x="0" y="262" font-size="13" class="t1" font-weight="700">The shelf: ten spots for websites</text>
+<rect x="6" y="288" width="34" height="92" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="23.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">1</text>
+<rect x="45" y="296" width="34" height="84" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="62.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">2</text>
+<rect x="84" y="304" width="34" height="76" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="101.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">3</text>
+<rect x="123" y="288" width="34" height="92" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="140.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">4</text>
+<rect x="162" y="296" width="34" height="84" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="179.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">5</text>
+<rect x="201" y="304" width="34" height="76" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="218.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">6</text>
+<rect x="240" y="288" width="34" height="92" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="257.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">7</text>
+<rect x="279" y="296" width="34" height="84" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="296.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">8</text>
+<rect x="318" y="304" width="34" height="76" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="335.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">9</text>
+<rect x="357" y="288" width="34" height="92" rx="3" class="fs ssh" stroke-width="1.5"/>
+<text x="374.0" y="370" font-size="13" class="t1" text-anchor="middle" font-weight="700">10</text>
+<rect x="0" y="380" width="400" height="8" rx="2" class="fsh"/>
+<text x="0" y="404" font-size="12" class="t2">Spot 1 is the top link. Most people never look past this shelf.</text>
+</svg>
+<figcaption>What this shows: the parts of a results page, top to bottom. Our site competes for the ten spots on the shelf.</figcaption>
+</figure>
+</section>
+
+<section id="who">
+<p class="chapter">Part 3</p>
+<h2>Who holds the shelf today</h2>
+<p>For each section, we counted how many spots each website holds. Then we gave each website a short label for what kind of site it is.</p>
+<p>The big surprise: forums and social sites hold more spots than any magazine. Reddit, a forum where people chat, is on 37 of our 78 shelves. LinkedIn is on 10.</p>
+<p>The design and product magazines we expected to fight are mostly missing. Smashing Magazine is on 0 shelves. UX Collective is on 0. Nielsen Norman Group is on just 4.</p>
+<ul class="legend"><li><span class="sw blue"></span>Websites with their own content</li><li><span class="sw orange"></span>Forums, social sites, video and file sharing</li></ul>
+<figure>
+<h3>Articles: the top 8 websites on the shelf</h3>
+<svg viewBox="0 0 400 364" role="img" aria-labelledby="bt-articles bd-articles">
+<title id="bt-articles">Who is on the shelf for Articles</title>
+<desc id="bd-articles">reddit.com: 9 spots; linkedin.com: 9 spots; productplan.com: 8 spots; atlassian.com: 5 spots; medium.com: 5 spots; en.wikipedia.org: 4 spots; youtube.com: 4 spots; quora.com: 4 spots</desc>
+<line x1="0.0" y1="4" x2="0.0" y2="344" class="sr" stroke-width="1"/>
+<text x="0.0" y="358" font-size="11" class="tm" text-anchor="middle">0</text>
+<line x1="66.0" y1="4" x2="66.0" y2="344" class="sr" stroke-width="1"/>
+<text x="66.0" y="358" font-size="11" class="tm" text-anchor="middle">2</text>
+<line x1="132.0" y1="4" x2="132.0" y2="344" class="sr" stroke-width="1"/>
+<text x="132.0" y="358" font-size="11" class="tm" text-anchor="middle">4</text>
+<line x1="198.0" y1="4" x2="198.0" y2="344" class="sr" stroke-width="1"/>
+<text x="198.0" y="358" font-size="11" class="tm" text-anchor="middle">6</text>
+<line x1="264.0" y1="4" x2="264.0" y2="344" class="sr" stroke-width="1"/>
+<text x="264.0" y="358" font-size="11" class="tm" text-anchor="middle">8</text>
+<line x1="330.0" y1="4" x2="330.0" y2="344" class="sr" stroke-width="1"/>
+<text x="330.0" y="358" font-size="11" class="tm" text-anchor="middle">10</text>
+<text x="330.0" y="374" font-size="11" class="tm" text-anchor="end">first-page spots</text>
+<g><title>reddit.com: 9 first-page spots (forum)</title>
+<rect x="0" y="4" width="400" height="42" fill="transparent"/>
+<text x="0" y="18" font-size="14" class="t1" font-weight="600">reddit.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">forum</tspan></text>
+<path d="M0 24 H293.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="303.0" y="35" font-size="13" class="t1" font-weight="700">9</text></g>
+<g><title>linkedin.com: 9 first-page spots (social network)</title>
+<rect x="0" y="46" width="400" height="42" fill="transparent"/>
+<text x="0" y="60" font-size="14" class="t1" font-weight="600">linkedin.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">social network</tspan></text>
+<path d="M0 66 H293.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="303.0" y="77" font-size="13" class="t1" font-weight="700">9</text></g>
+<g><title>productplan.com: 8 first-page spots (software company)</title>
+<rect x="0" y="88" width="400" height="42" fill="transparent"/>
+<text x="0" y="102" font-size="14" class="t1" font-weight="600">productplan.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 108 H260.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="270.0" y="119" font-size="13" class="t1" font-weight="700">8</text></g>
+<g><title>atlassian.com: 5 first-page spots (software company)</title>
+<rect x="0" y="130" width="400" height="42" fill="transparent"/>
+<text x="0" y="144" font-size="14" class="t1" font-weight="600">atlassian.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 150 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="171.0" y="161" font-size="13" class="t1" font-weight="700">5</text></g>
+<g><title>medium.com: 5 first-page spots (blog platform)</title>
+<rect x="0" y="172" width="400" height="42" fill="transparent"/>
+<text x="0" y="186" font-size="14" class="t1" font-weight="600">medium.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">blog platform</tspan></text>
+<path d="M0 192 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="171.0" y="203" font-size="13" class="t1" font-weight="700">5</text></g>
+<g><title>en.wikipedia.org: 4 first-page spots (encyclopedia)</title>
+<rect x="0" y="214" width="400" height="42" fill="transparent"/>
+<text x="0" y="228" font-size="14" class="t1" font-weight="600">en.wikipedia.org<tspan class="t2" font-weight="400" font-size="12.5" dx="8">encyclopedia</tspan></text>
+<path d="M0 234 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="138.0" y="245" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>youtube.com: 4 first-page spots (video site)</title>
+<rect x="0" y="256" width="400" height="42" fill="transparent"/>
+<text x="0" y="270" font-size="14" class="t1" font-weight="600">youtube.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">video site</tspan></text>
+<path d="M0 276 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="138.0" y="287" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>quora.com: 4 first-page spots (question forum)</title>
+<rect x="0" y="298" width="400" height="42" fill="transparent"/>
+<text x="0" y="312" font-size="14" class="t1" font-weight="600">quora.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">question forum</tspan></text>
+<path d="M0 318 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="138.0" y="329" font-size="13" class="t1" font-weight="700">4</text></g>
+</svg>
+<details><summary>Show as a table</summary><table><thead><tr><th>Website</th><th>Kind</th><th class="n">Spots</th><th class="n">Avg. spot</th></tr></thead><tbody><tr><td>reddit.com</td><td>forum</td><td class="n">9</td><td class="n">3.3</td></tr><tr><td>linkedin.com</td><td>social network</td><td class="n">9</td><td class="n">4.3</td></tr><tr><td>productplan.com</td><td>software company</td><td class="n">8</td><td class="n">4.0</td></tr><tr><td>atlassian.com</td><td>software company</td><td class="n">5</td><td class="n">1.6</td></tr><tr><td>medium.com</td><td>blog platform</td><td class="n">5</td><td class="n">5.0</td></tr><tr><td>en.wikipedia.org</td><td>encyclopedia</td><td class="n">4</td><td class="n">2.5</td></tr><tr><td>youtube.com</td><td>video site</td><td class="n">4</td><td class="n">5.8</td></tr><tr><td>quora.com</td><td>question forum</td><td class="n">4</td><td class="n">6.0</td></tr></tbody></table></details>
+<figcaption>What this shows: how many first-page spots each website holds across our 24 articles questions. Reddit and LinkedIn each hold more spots than any magazine. Software companies like ProductPlan and Atlassian come next.</figcaption>
+</figure>
+<figure>
+<h3>Useful links: the top 8 websites on the shelf</h3>
+<svg viewBox="0 0 400 364" role="img" aria-labelledby="bt-links bd-links">
+<title id="bt-links">Who is on the shelf for Useful links</title>
+<desc id="bd-links">reddit.com: 13 spots; youtube.com: 3 spots; toools.design: 2 spots; cufonfonts.com: 2 spots; figma.com: 2 spots; atlassian.com: 2 spots; medium.com: 2 spots; freedesignresources.net: 2 spots</desc>
+<line x1="0.0" y1="4" x2="0.0" y2="344" class="sr" stroke-width="1"/>
+<text x="0.0" y="358" font-size="11" class="tm" text-anchor="middle">0</text>
+<line x1="47.1" y1="4" x2="47.1" y2="344" class="sr" stroke-width="1"/>
+<text x="47.1" y="358" font-size="11" class="tm" text-anchor="middle">2</text>
+<line x1="94.3" y1="4" x2="94.3" y2="344" class="sr" stroke-width="1"/>
+<text x="94.3" y="358" font-size="11" class="tm" text-anchor="middle">4</text>
+<line x1="141.4" y1="4" x2="141.4" y2="344" class="sr" stroke-width="1"/>
+<text x="141.4" y="358" font-size="11" class="tm" text-anchor="middle">6</text>
+<line x1="188.6" y1="4" x2="188.6" y2="344" class="sr" stroke-width="1"/>
+<text x="188.6" y="358" font-size="11" class="tm" text-anchor="middle">8</text>
+<line x1="235.7" y1="4" x2="235.7" y2="344" class="sr" stroke-width="1"/>
+<text x="235.7" y="358" font-size="11" class="tm" text-anchor="middle">10</text>
+<line x1="282.9" y1="4" x2="282.9" y2="344" class="sr" stroke-width="1"/>
+<text x="282.9" y="358" font-size="11" class="tm" text-anchor="middle">12</text>
+<line x1="330.0" y1="4" x2="330.0" y2="344" class="sr" stroke-width="1"/>
+<text x="330.0" y="358" font-size="11" class="tm" text-anchor="middle">14</text>
+<text x="330.0" y="374" font-size="11" class="tm" text-anchor="end">first-page spots</text>
+<g><title>reddit.com: 13 first-page spots (forum)</title>
+<rect x="0" y="4" width="400" height="42" fill="transparent"/>
+<text x="0" y="18" font-size="14" class="t1" font-weight="600">reddit.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">forum</tspan></text>
+<path d="M0 24 H302.4 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="312.4" y="35" font-size="13" class="t1" font-weight="700">13</text></g>
+<g><title>youtube.com: 3 first-page spots (video site)</title>
+<rect x="0" y="46" width="400" height="42" fill="transparent"/>
+<text x="0" y="60" font-size="14" class="t1" font-weight="600">youtube.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">video site</tspan></text>
+<path d="M0 66 H66.7 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="76.7" y="77" font-size="13" class="t1" font-weight="700">3</text></g>
+<g><title>toools.design: 2 first-page spots (link directory)</title>
+<rect x="0" y="88" width="400" height="42" fill="transparent"/>
+<text x="0" y="102" font-size="14" class="t1" font-weight="600">toools.design<tspan class="t2" font-weight="400" font-size="12.5" dx="8">link directory</tspan></text>
+<path d="M0 108 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="53.1" y="119" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>cufonfonts.com: 2 first-page spots (font directory)</title>
+<rect x="0" y="130" width="400" height="42" fill="transparent"/>
+<text x="0" y="144" font-size="14" class="t1" font-weight="600">cufonfonts.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">font directory</tspan></text>
+<path d="M0 150 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="53.1" y="161" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>figma.com: 2 first-page spots (software company)</title>
+<rect x="0" y="172" width="400" height="42" fill="transparent"/>
+<text x="0" y="186" font-size="14" class="t1" font-weight="600">figma.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 192 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="53.1" y="203" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>atlassian.com: 2 first-page spots (software company)</title>
+<rect x="0" y="214" width="400" height="42" fill="transparent"/>
+<text x="0" y="228" font-size="14" class="t1" font-weight="600">atlassian.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 234 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="53.1" y="245" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>medium.com: 2 first-page spots (blog platform)</title>
+<rect x="0" y="256" width="400" height="42" fill="transparent"/>
+<text x="0" y="270" font-size="14" class="t1" font-weight="600">medium.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">blog platform</tspan></text>
+<path d="M0 276 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="53.1" y="287" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>freedesignresources.net: 2 first-page spots (link directory)</title>
+<rect x="0" y="298" width="400" height="42" fill="transparent"/>
+<text x="0" y="312" font-size="14" class="t1" font-weight="600">freedesignresources.net<tspan class="t2" font-weight="400" font-size="12.5" dx="8">link directory</tspan></text>
+<path d="M0 318 H43.1 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="53.1" y="329" font-size="13" class="t1" font-weight="700">2</text></g>
+</svg>
+<details><summary>Show as a table</summary><table><thead><tr><th>Website</th><th>Kind</th><th class="n">Spots</th><th class="n">Avg. spot</th></tr></thead><tbody><tr><td>reddit.com</td><td>forum</td><td class="n">13</td><td class="n">3.6</td></tr><tr><td>youtube.com</td><td>video site</td><td class="n">3</td><td class="n">7.3</td></tr><tr><td>toools.design</td><td>link directory</td><td class="n">2</td><td class="n">2.5</td></tr><tr><td>cufonfonts.com</td><td>font directory</td><td class="n">2</td><td class="n">3.0</td></tr><tr><td>figma.com</td><td>software company</td><td class="n">2</td><td class="n">3.5</td></tr><tr><td>atlassian.com</td><td>software company</td><td class="n">2</td><td class="n">4.0</td></tr><tr><td>medium.com</td><td>blog platform</td><td class="n">2</td><td class="n">4.5</td></tr><tr><td>freedesignresources.net</td><td>link directory</td><td class="n">2</td><td class="n">5.0</td></tr></tbody></table></details>
+<figcaption>What this shows: how many first-page spots each website holds across our 16 useful links questions. Reddit is on 13 of the 16 shelves. After that, no one holds more than a few spots.</figcaption>
+</figure>
+<figure>
+<h3>Books: the top 8 websites on the shelf</h3>
+<svg viewBox="0 0 400 364" role="img" aria-labelledby="bt-books bd-books">
+<title id="bt-books">Who is on the shelf for Books</title>
+<desc id="bd-books">reddit.com: 11 spots; amazon.com: 11 spots; productplan.com: 4 spots; quora.com: 4 spots; bringthedonuts.com: 3 spots; rysullivan.medium.com: 3 spots; userflow.com: 3 spots; goodreads.com: 3 spots</desc>
+<line x1="0.0" y1="4" x2="0.0" y2="344" class="sr" stroke-width="1"/>
+<text x="0.0" y="358" font-size="11" class="tm" text-anchor="middle">0</text>
+<line x1="55.0" y1="4" x2="55.0" y2="344" class="sr" stroke-width="1"/>
+<text x="55.0" y="358" font-size="11" class="tm" text-anchor="middle">2</text>
+<line x1="110.0" y1="4" x2="110.0" y2="344" class="sr" stroke-width="1"/>
+<text x="110.0" y="358" font-size="11" class="tm" text-anchor="middle">4</text>
+<line x1="165.0" y1="4" x2="165.0" y2="344" class="sr" stroke-width="1"/>
+<text x="165.0" y="358" font-size="11" class="tm" text-anchor="middle">6</text>
+<line x1="220.0" y1="4" x2="220.0" y2="344" class="sr" stroke-width="1"/>
+<text x="220.0" y="358" font-size="11" class="tm" text-anchor="middle">8</text>
+<line x1="275.0" y1="4" x2="275.0" y2="344" class="sr" stroke-width="1"/>
+<text x="275.0" y="358" font-size="11" class="tm" text-anchor="middle">10</text>
+<line x1="330.0" y1="4" x2="330.0" y2="344" class="sr" stroke-width="1"/>
+<text x="330.0" y="358" font-size="11" class="tm" text-anchor="middle">12</text>
+<text x="330.0" y="374" font-size="11" class="tm" text-anchor="end">first-page spots</text>
+<g><title>reddit.com: 11 first-page spots (forum)</title>
+<rect x="0" y="4" width="400" height="42" fill="transparent"/>
+<text x="0" y="18" font-size="14" class="t1" font-weight="600">reddit.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">forum</tspan></text>
+<path d="M0 24 H298.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="308.5" y="35" font-size="13" class="t1" font-weight="700">11</text></g>
+<g><title>amazon.com: 11 first-page spots (store)</title>
+<rect x="0" y="46" width="400" height="42" fill="transparent"/>
+<text x="0" y="60" font-size="14" class="t1" font-weight="600">amazon.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">store</tspan></text>
+<path d="M0 66 H298.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="308.5" y="77" font-size="13" class="t1" font-weight="700">11</text></g>
+<g><title>productplan.com: 4 first-page spots (software company)</title>
+<rect x="0" y="88" width="400" height="42" fill="transparent"/>
+<text x="0" y="102" font-size="14" class="t1" font-weight="600">productplan.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 108 H106.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="116.0" y="119" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>quora.com: 4 first-page spots (question forum)</title>
+<rect x="0" y="130" width="400" height="42" fill="transparent"/>
+<text x="0" y="144" font-size="14" class="t1" font-weight="600">quora.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">question forum</tspan></text>
+<path d="M0 150 H106.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="116.0" y="161" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>bringthedonuts.com: 3 first-page spots (personal book list)</title>
+<rect x="0" y="172" width="400" height="42" fill="transparent"/>
+<text x="0" y="186" font-size="14" class="t1" font-weight="600">bringthedonuts.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">personal book list</tspan></text>
+<path d="M0 192 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="203" font-size="13" class="t1" font-weight="700">3</text></g>
+<g><title>rysullivan.medium.com: 3 first-page spots (one person’s blog on Medium)</title>
+<rect x="0" y="214" width="400" height="42" fill="transparent"/>
+<text x="0" y="228" font-size="14" class="t1" font-weight="600">rysullivan.medium.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">one person’s blog on Medium</tspan></text>
+<path d="M0 234 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="88.5" y="245" font-size="13" class="t1" font-weight="700">3</text></g>
+<g><title>userflow.com: 3 first-page spots (software company)</title>
+<rect x="0" y="256" width="400" height="42" fill="transparent"/>
+<text x="0" y="270" font-size="14" class="t1" font-weight="600">userflow.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 276 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="287" font-size="13" class="t1" font-weight="700">3</text></g>
+<g><title>goodreads.com: 3 first-page spots (book catalog)</title>
+<rect x="0" y="298" width="400" height="42" fill="transparent"/>
+<text x="0" y="312" font-size="14" class="t1" font-weight="600">goodreads.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">book catalog</tspan></text>
+<path d="M0 318 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="329" font-size="13" class="t1" font-weight="700">3</text></g>
+</svg>
+<details><summary>Show as a table</summary><table><thead><tr><th>Website</th><th>Kind</th><th class="n">Spots</th><th class="n">Avg. spot</th></tr></thead><tbody><tr><td>reddit.com</td><td>forum</td><td class="n">11</td><td class="n">1.9</td></tr><tr><td>amazon.com</td><td>store</td><td class="n">11</td><td class="n">6.1</td></tr><tr><td>productplan.com</td><td>software company</td><td class="n">4</td><td class="n">6.8</td></tr><tr><td>quora.com</td><td>question forum</td><td class="n">4</td><td class="n">7.0</td></tr><tr><td>bringthedonuts.com</td><td>personal book list</td><td class="n">3</td><td class="n">1.7</td></tr><tr><td>rysullivan.medium.com</td><td>one person’s blog on Medium</td><td class="n">3</td><td class="n">3.0</td></tr><tr><td>userflow.com</td><td>software company</td><td class="n">3</td><td class="n">4.7</td></tr><tr><td>goodreads.com</td><td>book catalog</td><td class="n">3</td><td class="n">6.0</td></tr></tbody></table></details>
+<figcaption>What this shows: how many first-page spots each website holds across our 12 books questions. Reddit and Amazon are each on 11 of the 12 shelves. A personal reading list (bringthedonuts.com) is close behind.</figcaption>
+</figure>
+<figure>
+<h3>Tools: the top 8 websites on the shelf</h3>
+<svg viewBox="0 0 400 364" role="img" aria-labelledby="bt-tools bd-tools">
+<title id="bt-tools">Who is on the shelf for Tools</title>
+<desc id="bd-tools">youtube.com: 4 spots; behindthecmo.com: 2 spots; wallstreetprep.com: 2 spots; reddit.com: 2 spots; omnicalculator.com: 2 spots; nngroup.com: 1 spots; optimizely.com: 1 spots; amplitude.com: 1 spots</desc>
+<line x1="0.0" y1="4" x2="0.0" y2="344" class="sr" stroke-width="1"/>
+<text x="0.0" y="358" font-size="11" class="tm" text-anchor="middle">0</text>
+<line x1="165.0" y1="4" x2="165.0" y2="344" class="sr" stroke-width="1"/>
+<text x="165.0" y="358" font-size="11" class="tm" text-anchor="middle">2</text>
+<line x1="330.0" y1="4" x2="330.0" y2="344" class="sr" stroke-width="1"/>
+<text x="330.0" y="358" font-size="11" class="tm" text-anchor="middle">4</text>
+<text x="330.0" y="374" font-size="11" class="tm" text-anchor="end">first-page spots</text>
+<g><title>youtube.com: 4 first-page spots (video site)</title>
+<rect x="0" y="4" width="400" height="42" fill="transparent"/>
+<text x="0" y="18" font-size="14" class="t1" font-weight="600">youtube.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">video site</tspan></text>
+<path d="M0 24 H326.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="336.0" y="35" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>behindthecmo.com: 2 first-page spots (calculator site)</title>
+<rect x="0" y="46" width="400" height="42" fill="transparent"/>
+<text x="0" y="60" font-size="14" class="t1" font-weight="600">behindthecmo.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">calculator site</tspan></text>
+<path d="M0 66 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="171.0" y="77" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>wallstreetprep.com: 2 first-page spots (training school)</title>
+<rect x="0" y="88" width="400" height="42" fill="transparent"/>
+<text x="0" y="102" font-size="14" class="t1" font-weight="600">wallstreetprep.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">training school</tspan></text>
+<path d="M0 108 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="171.0" y="119" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>reddit.com: 2 first-page spots (forum)</title>
+<rect x="0" y="130" width="400" height="42" fill="transparent"/>
+<text x="0" y="144" font-size="14" class="t1" font-weight="600">reddit.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">forum</tspan></text>
+<path d="M0 150 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="171.0" y="161" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>omnicalculator.com: 2 first-page spots (calculator site)</title>
+<rect x="0" y="172" width="400" height="42" fill="transparent"/>
+<text x="0" y="186" font-size="14" class="t1" font-weight="600">omnicalculator.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">calculator site</tspan></text>
+<path d="M0 192 H161.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="171.0" y="203" font-size="13" class="t1" font-weight="700">2</text></g>
+<g><title>nngroup.com: 1 first-page spot (research firm)</title>
+<rect x="0" y="214" width="400" height="42" fill="transparent"/>
+<text x="0" y="228" font-size="14" class="t1" font-weight="600">nngroup.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">research firm</tspan></text>
+<path d="M0 234 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="245" font-size="13" class="t1" font-weight="700">1</text></g>
+<g><title>optimizely.com: 1 first-page spot (software company)</title>
+<rect x="0" y="256" width="400" height="42" fill="transparent"/>
+<text x="0" y="270" font-size="14" class="t1" font-weight="600">optimizely.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 276 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="287" font-size="13" class="t1" font-weight="700">1</text></g>
+<g><title>amplitude.com: 1 first-page spot (software company)</title>
+<rect x="0" y="298" width="400" height="42" fill="transparent"/>
+<text x="0" y="312" font-size="14" class="t1" font-weight="600">amplitude.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 318 H78.5 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="88.5" y="329" font-size="13" class="t1" font-weight="700">1</text></g>
+</svg>
+<details><summary>Show as a table</summary><table><thead><tr><th>Website</th><th>Kind</th><th class="n">Spots</th><th class="n">Avg. spot</th></tr></thead><tbody><tr><td>youtube.com</td><td>video site</td><td class="n">4</td><td class="n">7.0</td></tr><tr><td>behindthecmo.com</td><td>calculator site</td><td class="n">2</td><td class="n">3.0</td></tr><tr><td>wallstreetprep.com</td><td>training school</td><td class="n">2</td><td class="n">4.0</td></tr><tr><td>reddit.com</td><td>forum</td><td class="n">2</td><td class="n">4.5</td></tr><tr><td>omnicalculator.com</td><td>calculator site</td><td class="n">2</td><td class="n">5.0</td></tr><tr><td>nngroup.com</td><td>research firm</td><td class="n">1</td><td class="n">1.0</td></tr><tr><td>optimizely.com</td><td>software company</td><td class="n">1</td><td class="n">1.0</td></tr><tr><td>amplitude.com</td><td>software company</td><td class="n">1</td><td class="n">2.0</td></tr></tbody></table></details>
+<figcaption>What this shows: how many first-page spots each website holds across our 12 tools questions. No one owns this shelf. Small calculator sites and YouTube hold the most spots, and even they hold only a few.</figcaption>
+</figure>
+<figure>
+<h3>Templates: the top 8 websites on the shelf</h3>
+<svg viewBox="0 0 400 364" role="img" aria-labelledby="bt-templates bd-templates">
+<title id="bt-templates">Who is on the shelf for Templates</title>
+<desc id="bd-templates">notion.com: 9 spots; figma.com: 4 spots; atlassian.com: 4 spots; clickup.com: 4 spots; scribd.com: 4 spots; pinterest.com: 4 spots; youtube.com: 3 spots; creately.com: 3 spots</desc>
+<line x1="0.0" y1="4" x2="0.0" y2="344" class="sr" stroke-width="1"/>
+<text x="0.0" y="358" font-size="11" class="tm" text-anchor="middle">0</text>
+<line x1="66.0" y1="4" x2="66.0" y2="344" class="sr" stroke-width="1"/>
+<text x="66.0" y="358" font-size="11" class="tm" text-anchor="middle">2</text>
+<line x1="132.0" y1="4" x2="132.0" y2="344" class="sr" stroke-width="1"/>
+<text x="132.0" y="358" font-size="11" class="tm" text-anchor="middle">4</text>
+<line x1="198.0" y1="4" x2="198.0" y2="344" class="sr" stroke-width="1"/>
+<text x="198.0" y="358" font-size="11" class="tm" text-anchor="middle">6</text>
+<line x1="264.0" y1="4" x2="264.0" y2="344" class="sr" stroke-width="1"/>
+<text x="264.0" y="358" font-size="11" class="tm" text-anchor="middle">8</text>
+<line x1="330.0" y1="4" x2="330.0" y2="344" class="sr" stroke-width="1"/>
+<text x="330.0" y="358" font-size="11" class="tm" text-anchor="middle">10</text>
+<text x="330.0" y="374" font-size="11" class="tm" text-anchor="end">first-page spots</text>
+<g><title>notion.com: 9 first-page spots (software company)</title>
+<rect x="0" y="4" width="400" height="42" fill="transparent"/>
+<text x="0" y="18" font-size="14" class="t1" font-weight="600">notion.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 24 H293.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="303.0" y="35" font-size="13" class="t1" font-weight="700">9</text></g>
+<g><title>figma.com: 4 first-page spots (software company)</title>
+<rect x="0" y="46" width="400" height="42" fill="transparent"/>
+<text x="0" y="60" font-size="14" class="t1" font-weight="600">figma.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 66 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="138.0" y="77" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>atlassian.com: 4 first-page spots (software company)</title>
+<rect x="0" y="88" width="400" height="42" fill="transparent"/>
+<text x="0" y="102" font-size="14" class="t1" font-weight="600">atlassian.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 108 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="138.0" y="119" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>clickup.com: 4 first-page spots (software company)</title>
+<rect x="0" y="130" width="400" height="42" fill="transparent"/>
+<text x="0" y="144" font-size="14" class="t1" font-weight="600">clickup.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 150 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="138.0" y="161" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>scribd.com: 4 first-page spots (file sharing)</title>
+<rect x="0" y="172" width="400" height="42" fill="transparent"/>
+<text x="0" y="186" font-size="14" class="t1" font-weight="600">scribd.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">file sharing</tspan></text>
+<path d="M0 192 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="138.0" y="203" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>pinterest.com: 4 first-page spots (picture board)</title>
+<rect x="0" y="214" width="400" height="42" fill="transparent"/>
+<text x="0" y="228" font-size="14" class="t1" font-weight="600">pinterest.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">picture board</tspan></text>
+<path d="M0 234 H128.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="138.0" y="245" font-size="13" class="t1" font-weight="700">4</text></g>
+<g><title>youtube.com: 3 first-page spots (video site)</title>
+<rect x="0" y="256" width="400" height="42" fill="transparent"/>
+<text x="0" y="270" font-size="14" class="t1" font-weight="600">youtube.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">video site</tspan></text>
+<path d="M0 276 H95.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fo"/>
+<text x="105.0" y="287" font-size="13" class="t1" font-weight="700">3</text></g>
+<g><title>creately.com: 3 first-page spots (software company)</title>
+<rect x="0" y="298" width="400" height="42" fill="transparent"/>
+<text x="0" y="312" font-size="14" class="t1" font-weight="600">creately.com<tspan class="t2" font-weight="400" font-size="12.5" dx="8">software company</tspan></text>
+<path d="M0 318 H95.0 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H0 Z" class="fb"/>
+<text x="105.0" y="329" font-size="13" class="t1" font-weight="700">3</text></g>
+</svg>
+<details><summary>Show as a table</summary><table><thead><tr><th>Website</th><th>Kind</th><th class="n">Spots</th><th class="n">Avg. spot</th></tr></thead><tbody><tr><td>notion.com</td><td>software company</td><td class="n">9</td><td class="n">2.1</td></tr><tr><td>figma.com</td><td>software company</td><td class="n">4</td><td class="n">2.5</td></tr><tr><td>atlassian.com</td><td>software company</td><td class="n">4</td><td class="n">3.2</td></tr><tr><td>clickup.com</td><td>software company</td><td class="n">4</td><td class="n">5.2</td></tr><tr><td>scribd.com</td><td>file sharing</td><td class="n">4</td><td class="n">5.8</td></tr><tr><td>pinterest.com</td><td>picture board</td><td class="n">4</td><td class="n">6.8</td></tr><tr><td>youtube.com</td><td>video site</td><td class="n">3</td><td class="n">5.7</td></tr><tr><td>creately.com</td><td>software company</td><td class="n">3</td><td class="n">7.0</td></tr></tbody></table></details>
+<figcaption>What this shows: how many first-page spots each website holds across our 14 templates questions. Notion is on 9 of the 14 shelves and first on 5. Figma, Atlassian, ClickUp, Scribd and Pinterest follow.</figcaption>
+</figure>
+
+<h3>Tools: four questions mean something else</h3>
+<p>Four of our 12 tools questions mostly bring up pages about other things. Google thinks "rice calculator" is about cooking rice. It thinks "ice score" is a medical score, "ltv" is about mortgages, and "nps" is a pension plan in India.</p>
+<p>That is fine. It just means we need to ask with clearer words, like "customer lifetime value calculator".</p>
+</section>
+
+<section id="answer-box">
+<p class="chapter">Part 4</p>
+<h2>Google's own answer box</h2>
+<p>The AI Overview showed up on 75 of our 78 questions. That is almost all of them.</p>
+<p>On 12 of those, the box was an empty placeholder: Google made room for an answer but did not fill it.</p>
+<div class="tiles"><div class="tile"><b>24 of 24</b><span>Articles questions with the answer box (0 empty)</span></div><div class="tile"><b>15 of 16</b><span>Useful links questions with the answer box (2 empty)</span></div><div class="tile"><b>12 of 12</b><span>Books questions with the answer box (4 empty)</span></div><div class="tile"><b>12 of 12</b><span>Tools questions with the answer box (2 empty)</span></div><div class="tile"><b>12 of 14</b><span>Templates questions with the answer box (4 empty)</span></div></div>
+<figure>
+<h3>Every question, one dot each</h3>
+<svg viewBox="0 0 400 160" role="img" aria-labelledby="dt-aio dd-aio">
+<title id="dt-aio">Which questions get Google’s own answer box</title>
+<desc id="dd-aio">Articles: 24 of 24 have the box, 0 of them empty; Useful links: 15 of 16 have the box, 2 of them empty; Books: 12 of 12 have the box, 4 of them empty; Tools: 12 of 12 have the box, 2 of them empty; Templates: 12 of 14 have the box, 4 of them empty</desc>
+<text x="0" y="22" font-size="13" class="t1" font-weight="600">Articles</text>
+<g><title>what is product management: answer box with a written answer</title><rect x="85.0" y="10" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="18" r="5" class="fb"/></g>
+<g><title>product manager vs product owner: answer box with a written answer</title><rect x="96.4" y="10" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="18" r="5" class="fb"/></g>
+<g><title>how to write a prd: answer box with a written answer</title><rect x="107.8" y="10" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="18" r="5" class="fb"/></g>
+<g><title>product roadmap: answer box with a written answer</title><rect x="119.2" y="10" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="18" r="5" class="fb"/></g>
+<g><title>user research methods: answer box with a written answer</title><rect x="130.6" y="10" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="18" r="5" class="fb"/></g>
+<g><title>usability testing: answer box with a written answer</title><rect x="142.0" y="10" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="18" r="5" class="fb"/></g>
+<g><title>ux metrics: answer box with a written answer</title><rect x="153.4" y="10" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="18" r="5" class="fb"/></g>
+<g><title>design system: answer box with a written answer</title><rect x="164.8" y="10" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="18" r="5" class="fb"/></g>
+<g><title>web accessibility guidelines: answer box with a written answer</title><rect x="176.2" y="10" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="18" r="5" class="fb"/></g>
+<g><title>heuristic evaluation: answer box with a written answer</title><rect x="187.6" y="10" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="18" r="5" class="fb"/></g>
+<g><title>product metrics: answer box with a written answer</title><rect x="199.0" y="10" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="18" r="5" class="fb"/></g>
+<g><title>north star metric: answer box with a written answer</title><rect x="210.4" y="10" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="18" r="5" class="fb"/></g>
+<g><title>retention rate: answer box with a written answer</title><rect x="221.8" y="10" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="18" r="5" class="fb"/></g>
+<g><title>a/b testing: answer box with a written answer</title><rect x="233.2" y="10" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="18" r="5" class="fb"/></g>
+<g><title>okr examples: answer box with a written answer</title><rect x="244.6" y="10" width="12" height="16" fill="transparent"/><circle cx="250.6" cy="18" r="5" class="fb"/></g>
+<g><title>rice prioritization: answer box with a written answer</title><rect x="256.0" y="10" width="12" height="16" fill="transparent"/><circle cx="262.0" cy="18" r="5" class="fb"/></g>
+<g><title>jobs to be done: answer box with a written answer</title><rect x="267.4" y="10" width="12" height="16" fill="transparent"/><circle cx="273.4" cy="18" r="5" class="fb"/></g>
+<g><title>product discovery: answer box with a written answer</title><rect x="278.8" y="10" width="12" height="16" fill="transparent"/><circle cx="284.8" cy="18" r="5" class="fb"/></g>
+<g><title>agile vs scrum: answer box with a written answer</title><rect x="290.2" y="10" width="12" height="16" fill="transparent"/><circle cx="296.2" cy="18" r="5" class="fb"/></g>
+<g><title>customer journey map: answer box with a written answer</title><rect x="301.6" y="10" width="12" height="16" fill="transparent"/><circle cx="307.6" cy="18" r="5" class="fb"/></g>
+<g><title>product strategy: answer box with a written answer</title><rect x="313.0" y="10" width="12" height="16" fill="transparent"/><circle cx="319.0" cy="18" r="5" class="fb"/></g>
+<g><title>saas pricing strategy: answer box with a written answer</title><rect x="324.4" y="10" width="12" height="16" fill="transparent"/><circle cx="330.4" cy="18" r="5" class="fb"/></g>
+<g><title>go to market strategy: answer box with a written answer</title><rect x="335.8" y="10" width="12" height="16" fill="transparent"/><circle cx="341.8" cy="18" r="5" class="fb"/></g>
+<g><title>product led growth: answer box with a written answer</title><rect x="347.2" y="10" width="12" height="16" fill="transparent"/><circle cx="353.2" cy="18" r="5" class="fb"/></g>
+<text x="363.6" y="22" font-size="12.5" class="t2">24/24</text>
+<text x="0" y="52" font-size="13" class="t1" font-weight="600">Useful links</text>
+<g><title>ux tools: answer box with a written answer</title><rect x="85.0" y="40" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="48" r="5" class="fb"/></g>
+<g><title>best ux design tools: answer box with a written answer</title><rect x="96.4" y="40" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="48" r="5" class="fb"/></g>
+<g><title>ux research tools: answer box with a written answer</title><rect x="107.8" y="40" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="48" r="5" class="fb"/></g>
+<g><title>best product management software: answer box with a written answer</title><rect x="119.2" y="40" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="48" r="5" class="fb"/></g>
+<g><title>roadmap tools: answer box with a written answer</title><rect x="130.6" y="40" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="48" r="5" class="fb"/></g>
+<g><title>prototyping tools: answer box with a written answer</title><rect x="142.0" y="40" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="48" r="5" class="fb"/></g>
+<g><title>design resources: answer box with a written answer</title><rect x="153.4" y="40" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="48" r="5" class="fb"/></g>
+<g><title>ux resources: answer box with a written answer</title><rect x="164.8" y="40" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="48" r="5" class="fb"/></g>
+<g><title>free design resources: answer box with a written answer</title><rect x="176.2" y="40" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="48" r="5" class="fb"/></g>
+<g><title>ai tools for product managers: answer box with a written answer</title><rect x="187.6" y="40" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="48" r="5" class="fb"/></g>
+<g><title>ai tools for designers: answer box with a written answer</title><rect x="199.0" y="40" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="48" r="5" class="fb"/></g>
+<g><title>design inspiration websites: answer box with a written answer</title><rect x="210.4" y="40" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="48" r="5" class="fb"/></g>
+<g><title>free fonts websites: answer box with a written answer</title><rect x="221.8" y="40" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="48" r="5" class="fb"/></g>
+<g><title>product management tools: answer box, but empty</title><rect x="233.2" y="40" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="48" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>product analytics tools: answer box, but empty</title><rect x="244.6" y="40" width="12" height="16" fill="transparent"/><circle cx="250.6" cy="48" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>icon libraries: no answer box</title><rect x="256.0" y="40" width="12" height="16" fill="transparent"/><circle cx="262.0" cy="48" r="3" class="foff"/></g>
+<text x="272.4" y="52" font-size="12.5" class="t2">15/16</text>
+<text x="0" y="82" font-size="13" class="t1" font-weight="600">Books</text>
+<g><title>ux books: answer box with a written answer</title><rect x="85.0" y="70" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="78" r="5" class="fb"/></g>
+<g><title>product management books: answer box with a written answer</title><rect x="96.4" y="70" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="78" r="5" class="fb"/></g>
+<g><title>best product management books: answer box with a written answer</title><rect x="107.8" y="70" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="78" r="5" class="fb"/></g>
+<g><title>books for product managers: answer box with a written answer</title><rect x="119.2" y="70" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="78" r="5" class="fb"/></g>
+<g><title>ux research books: answer box with a written answer</title><rect x="130.6" y="70" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="78" r="5" class="fb"/></g>
+<g><title>design books: answer box with a written answer</title><rect x="142.0" y="70" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="78" r="5" class="fb"/></g>
+<g><title>business books for product managers: answer box with a written answer</title><rect x="153.4" y="70" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="78" r="5" class="fb"/></g>
+<g><title>agile books: answer box with a written answer</title><rect x="164.8" y="70" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="78" r="5" class="fb"/></g>
+<g><title>best ux design books: answer box, but empty</title><rect x="176.2" y="70" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="78" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>behavioral psychology books for designers: answer box, but empty</title><rect x="187.6" y="70" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="78" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>product strategy books: answer box, but empty</title><rect x="199.0" y="70" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="78" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>leadership books for product managers: answer box, but empty</title><rect x="210.4" y="70" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="78" r="4" class="fs sb" stroke-width="2"/></g>
+<text x="226.8" y="82" font-size="12.5" class="t2">12/12</text>
+<text x="0" y="112" font-size="13" class="t1" font-weight="600">Tools</text>
+<g><title>rice calculator: answer box with a written answer</title><rect x="85.0" y="100" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="108" r="5" class="fb"/></g>
+<g><title>sample size calculator ab test: answer box with a written answer</title><rect x="96.4" y="100" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="108" r="5" class="fb"/></g>
+<g><title>ab test significance calculator: answer box with a written answer</title><rect x="107.8" y="100" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="108" r="5" class="fb"/></g>
+<g><title>sus score calculator: answer box with a written answer</title><rect x="119.2" y="100" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="108" r="5" class="fb"/></g>
+<g><title>nps calculator: answer box with a written answer</title><rect x="130.6" y="100" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="108" r="5" class="fb"/></g>
+<g><title>churn rate calculator: answer box with a written answer</title><rect x="142.0" y="100" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="108" r="5" class="fb"/></g>
+<g><title>ltv calculator: answer box with a written answer</title><rect x="153.4" y="100" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="108" r="5" class="fb"/></g>
+<g><title>cac calculator: answer box with a written answer</title><rect x="164.8" y="100" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="108" r="5" class="fb"/></g>
+<g><title>ice score calculator: answer box with a written answer</title><rect x="176.2" y="100" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="108" r="5" class="fb"/></g>
+<g><title>retention rate calculator: answer box with a written answer</title><rect x="187.6" y="100" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="108" r="5" class="fb"/></g>
+<g><title>sprint velocity calculator: answer box, but empty</title><rect x="199.0" y="100" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="108" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>priority matrix tool: answer box, but empty</title><rect x="210.4" y="100" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="108" r="4" class="fs sb" stroke-width="2"/></g>
+<text x="226.8" y="112" font-size="12.5" class="t2">12/12</text>
+<text x="0" y="142" font-size="13" class="t1" font-weight="600">Templates</text>
+<g><title>prd template: answer box with a written answer</title><rect x="85.0" y="130" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="138" r="5" class="fb"/></g>
+<g><title>product requirements document template: answer box with a written answer</title><rect x="96.4" y="130" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="138" r="5" class="fb"/></g>
+<g><title>user persona template: answer box with a written answer</title><rect x="107.8" y="130" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="138" r="5" class="fb"/></g>
+<g><title>product roadmap template: answer box with a written answer</title><rect x="119.2" y="130" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="138" r="5" class="fb"/></g>
+<g><title>okr template: answer box with a written answer</title><rect x="130.6" y="130" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="138" r="5" class="fb"/></g>
+<g><title>user story template: answer box with a written answer</title><rect x="142.0" y="130" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="138" r="5" class="fb"/></g>
+<g><title>competitive analysis template: answer box with a written answer</title><rect x="153.4" y="130" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="138" r="5" class="fb"/></g>
+<g><title>prioritization matrix template: answer box with a written answer</title><rect x="164.8" y="130" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="138" r="5" class="fb"/></g>
+<g><title>user interview script template: answer box, but empty</title><rect x="176.2" y="130" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="138" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>usability test plan template: answer box, but empty</title><rect x="187.6" y="130" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="138" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>lean canvas template: answer box, but empty</title><rect x="199.0" y="130" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="138" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>ux research plan template: answer box, but empty</title><rect x="210.4" y="130" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="138" r="4" class="fs sb" stroke-width="2"/></g>
+<g><title>customer journey map template: no answer box</title><rect x="221.8" y="130" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="138" r="3" class="foff"/></g>
+<g><title>sprint retrospective template: no answer box</title><rect x="233.2" y="130" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="138" r="3" class="foff"/></g>
+<text x="249.6" y="142" font-size="12.5" class="t2">12/14</text>
+</svg>
+<ul class="legend"><li><span class="sw dotb"></span>Answer box with a written answer</li><li><span class="sw ring"></span>Answer box, but empty</li><li><span class="sw off"></span>No answer box</li></ul>
+<figcaption>What this shows: each dot is one question; nearly every dot is blue, so Google writes its own answer almost everywhere.</figcaption>
+</figure>
+<div class="callout">
+<p><strong>Why this matters.</strong> If someone asks "what is a product roadmap", Google's box answers in three lines. Most people read that and leave. A short "what is X" article will lose its readers to the box.</p>
+<p>So we will favor questions where people need more than a quick answer: a real decision, a tool they can use, a template they can copy, or a list they can trust. The box cannot do those things.</p>
+</div>
+</section>
+
+<section id="soft">
+<p class="chapter">Part 5</p>
+<h2>Soft shelves</h2>
+<p>Some shelves are easier to get onto than others. We call a shelf <strong>soft</strong> when 3 or more of its spots are held by weak pages.</p>
+<p>Weak pages are things like forum threads, social media posts, videos, and thin glossary pages that software companies write to get noticed. A careful, well-written page can usually take one of those spots.</p>
+<figure>
+<h3>Firm shelf and soft shelf</h3>
+<svg viewBox="0 0 400 214" role="img" aria-labelledby="sst ssd">
+<title id="sst">A firm shelf and a soft shelf</title>
+<desc id="ssd">Top shelf: ten spots all held by solid pages. Bottom shelf: three of the ten spots held by a forum thread, a social post and a thin glossary page.</desc>
+<text x="0" y="14" font-size="13" class="t1" font-weight="700">Firm shelf: every spot holds a solid page</text>
+<rect x="6" y="30" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="45" y="36" width="34" height="60" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="84" y="42" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="123" y="30" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="162" y="36" width="34" height="60" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="201" y="42" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="240" y="30" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="279" y="36" width="34" height="60" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="318" y="42" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="357" y="30" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="0" y="96" width="400" height="6" rx="2" class="fsh"/>
+<text x="0" y="122" font-size="13" class="t1" font-weight="700">Soft shelf: 3 or more spots are easy to beat</text>
+<rect x="6" y="138" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="45" y="144" width="34" height="60" rx="3" class="fot so" stroke-width="1.5"/>
+<text x="62.0" y="178.0" font-size="10" class="t1" text-anchor="middle">forum</text>
+<rect x="84" y="150" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="123" y="138" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="162" y="144" width="34" height="60" rx="3" class="fot so" stroke-width="1.5"/>
+<text x="179.0" y="178.0" font-size="10" class="t1" text-anchor="middle">post</text>
+<rect x="201" y="150" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="240" y="138" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="279" y="144" width="34" height="60" rx="3" class="fot so" stroke-width="1.5"/>
+<text x="296.0" y="178.0" font-size="10" class="t1" text-anchor="middle">thin</text>
+<rect x="318" y="150" width="34" height="54" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="357" y="138" width="34" height="66" rx="3" class="fs ssh" stroke-width="1.5"/>
+<rect x="0" y="204" width="400" height="6" rx="2" class="fsh"/>
+</svg>
+<figcaption>What this shows: a soft shelf has at least three weak spots (orange) that a better page could take over.</figcaption>
+</figure>
+<p>19 of our 78 shelves are soft. Books is the softest by far: 7 of 12.</p>
+<div class="tiles"><div class="tile"><b>8 of 24</b><span>Articles shelves that are soft</span></div><div class="tile"><b>3 of 16</b><span>Useful links shelves that are soft</span></div><div class="tile"><b>7 of 12</b><span>Books shelves that are soft</span></div><div class="tile"><b>0 of 12</b><span>Tools shelves that are soft</span></div><div class="tile"><b>1 of 14</b><span>Templates shelves that are soft</span></div></div>
+<figure>
+<h3>Soft shelves by section</h3>
+<svg viewBox="0 0 400 160" role="img" aria-labelledby="dt-soft dd-soft">
+<title id="dt-soft">Which shelves are soft</title>
+<desc id="dd-soft">Articles: 8 of 24 soft; Useful links: 3 of 16 soft; Books: 7 of 12 soft; Tools: 0 of 12 soft; Templates: 1 of 14 soft</desc>
+<text x="0" y="22" font-size="13" class="t1" font-weight="600">Articles</text>
+<g><title>product discovery: soft shelf (6 weak spots)</title><rect x="85.0" y="10" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="18" r="5" class="fo"/></g>
+<g><title>how to write a prd: soft shelf (5 weak spots)</title><rect x="96.4" y="10" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="18" r="5" class="fo"/></g>
+<g><title>rice prioritization: soft shelf (4 weak spots)</title><rect x="107.8" y="10" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="18" r="5" class="fo"/></g>
+<g><title>product manager vs product owner: soft shelf (3 weak spots)</title><rect x="119.2" y="10" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="18" r="5" class="fo"/></g>
+<g><title>product roadmap: soft shelf (3 weak spots)</title><rect x="130.6" y="10" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="18" r="5" class="fo"/></g>
+<g><title>ux metrics: soft shelf (3 weak spots)</title><rect x="142.0" y="10" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="18" r="5" class="fo"/></g>
+<g><title>product strategy: soft shelf (3 weak spots)</title><rect x="153.4" y="10" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="18" r="5" class="fo"/></g>
+<g><title>saas pricing strategy: soft shelf (3 weak spots)</title><rect x="164.8" y="10" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="18" r="5" class="fo"/></g>
+<g><title>what is product management: not soft (2 weak spots)</title><rect x="176.2" y="10" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="18" r="3" class="foff"/></g>
+<g><title>user research methods: not soft (2 weak spots)</title><rect x="187.6" y="10" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="18" r="3" class="foff"/></g>
+<g><title>product metrics: not soft (2 weak spots)</title><rect x="199.0" y="10" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="18" r="3" class="foff"/></g>
+<g><title>okr examples: not soft (2 weak spots)</title><rect x="210.4" y="10" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="18" r="3" class="foff"/></g>
+<g><title>design system: not soft (1 weak spot)</title><rect x="221.8" y="10" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="18" r="3" class="foff"/></g>
+<g><title>heuristic evaluation: not soft (1 weak spot)</title><rect x="233.2" y="10" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="18" r="3" class="foff"/></g>
+<g><title>north star metric: not soft (1 weak spot)</title><rect x="244.6" y="10" width="12" height="16" fill="transparent"/><circle cx="250.6" cy="18" r="3" class="foff"/></g>
+<g><title>retention rate: not soft (1 weak spot)</title><rect x="256.0" y="10" width="12" height="16" fill="transparent"/><circle cx="262.0" cy="18" r="3" class="foff"/></g>
+<g><title>a/b testing: not soft (1 weak spot)</title><rect x="267.4" y="10" width="12" height="16" fill="transparent"/><circle cx="273.4" cy="18" r="3" class="foff"/></g>
+<g><title>jobs to be done: not soft (1 weak spot)</title><rect x="278.8" y="10" width="12" height="16" fill="transparent"/><circle cx="284.8" cy="18" r="3" class="foff"/></g>
+<g><title>agile vs scrum: not soft (1 weak spot)</title><rect x="290.2" y="10" width="12" height="16" fill="transparent"/><circle cx="296.2" cy="18" r="3" class="foff"/></g>
+<g><title>go to market strategy: not soft (1 weak spot)</title><rect x="301.6" y="10" width="12" height="16" fill="transparent"/><circle cx="307.6" cy="18" r="3" class="foff"/></g>
+<g><title>product led growth: not soft (1 weak spot)</title><rect x="313.0" y="10" width="12" height="16" fill="transparent"/><circle cx="319.0" cy="18" r="3" class="foff"/></g>
+<g><title>usability testing: not soft (0 weak spots)</title><rect x="324.4" y="10" width="12" height="16" fill="transparent"/><circle cx="330.4" cy="18" r="3" class="foff"/></g>
+<g><title>web accessibility guidelines: not soft (0 weak spots)</title><rect x="335.8" y="10" width="12" height="16" fill="transparent"/><circle cx="341.8" cy="18" r="3" class="foff"/></g>
+<g><title>customer journey map: not soft (0 weak spots)</title><rect x="347.2" y="10" width="12" height="16" fill="transparent"/><circle cx="353.2" cy="18" r="3" class="foff"/></g>
+<text x="363.6" y="22" font-size="12.5" class="t2">8/24</text>
+<text x="0" y="52" font-size="13" class="t1" font-weight="600">Useful links</text>
+<g><title>best ux design tools: soft shelf (3 weak spots)</title><rect x="85.0" y="40" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="48" r="5" class="fo"/></g>
+<g><title>ux resources: soft shelf (3 weak spots)</title><rect x="96.4" y="40" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="48" r="5" class="fo"/></g>
+<g><title>ai tools for product managers: soft shelf (3 weak spots)</title><rect x="107.8" y="40" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="48" r="5" class="fo"/></g>
+<g><title>product analytics tools: not soft (2 weak spots)</title><rect x="119.2" y="40" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="48" r="3" class="foff"/></g>
+<g><title>prototyping tools: not soft (2 weak spots)</title><rect x="130.6" y="40" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="48" r="3" class="foff"/></g>
+<g><title>design resources: not soft (2 weak spots)</title><rect x="142.0" y="40" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="48" r="3" class="foff"/></g>
+<g><title>ai tools for designers: not soft (2 weak spots)</title><rect x="153.4" y="40" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="48" r="3" class="foff"/></g>
+<g><title>design inspiration websites: not soft (2 weak spots)</title><rect x="164.8" y="40" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="48" r="3" class="foff"/></g>
+<g><title>free fonts websites: not soft (2 weak spots)</title><rect x="176.2" y="40" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="48" r="3" class="foff"/></g>
+<g><title>ux tools: not soft (1 weak spot)</title><rect x="187.6" y="40" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="48" r="3" class="foff"/></g>
+<g><title>product management tools: not soft (1 weak spot)</title><rect x="199.0" y="40" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="48" r="3" class="foff"/></g>
+<g><title>best product management software: not soft (1 weak spot)</title><rect x="210.4" y="40" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="48" r="3" class="foff"/></g>
+<g><title>roadmap tools: not soft (1 weak spot)</title><rect x="221.8" y="40" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="48" r="3" class="foff"/></g>
+<g><title>icon libraries: not soft (1 weak spot)</title><rect x="233.2" y="40" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="48" r="3" class="foff"/></g>
+<g><title>ux research tools: not soft (0 weak spots)</title><rect x="244.6" y="40" width="12" height="16" fill="transparent"/><circle cx="250.6" cy="48" r="3" class="foff"/></g>
+<g><title>free design resources: not soft (0 weak spots)</title><rect x="256.0" y="40" width="12" height="16" fill="transparent"/><circle cx="262.0" cy="48" r="3" class="foff"/></g>
+<text x="272.4" y="52" font-size="12.5" class="t2">3/16</text>
+<text x="0" y="82" font-size="13" class="t1" font-weight="600">Books</text>
+<g><title>best ux design books: soft shelf (4 weak spots)</title><rect x="85.0" y="70" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="78" r="5" class="fo"/></g>
+<g><title>leadership books for product managers: soft shelf (4 weak spots)</title><rect x="96.4" y="70" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="78" r="5" class="fo"/></g>
+<g><title>product management books: soft shelf (3 weak spots)</title><rect x="107.8" y="70" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="78" r="5" class="fo"/></g>
+<g><title>best product management books: soft shelf (3 weak spots)</title><rect x="119.2" y="70" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="78" r="5" class="fo"/></g>
+<g><title>books for product managers: soft shelf (3 weak spots)</title><rect x="130.6" y="70" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="78" r="5" class="fo"/></g>
+<g><title>design books: soft shelf (3 weak spots)</title><rect x="142.0" y="70" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="78" r="5" class="fo"/></g>
+<g><title>behavioral psychology books for designers: soft shelf (3 weak spots)</title><rect x="153.4" y="70" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="78" r="5" class="fo"/></g>
+<g><title>ux books: not soft (2 weak spots)</title><rect x="164.8" y="70" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="78" r="3" class="foff"/></g>
+<g><title>business books for product managers: not soft (2 weak spots)</title><rect x="176.2" y="70" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="78" r="3" class="foff"/></g>
+<g><title>product strategy books: not soft (2 weak spots)</title><rect x="187.6" y="70" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="78" r="3" class="foff"/></g>
+<g><title>ux research books: not soft (1 weak spot)</title><rect x="199.0" y="70" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="78" r="3" class="foff"/></g>
+<g><title>agile books: not soft (1 weak spot)</title><rect x="210.4" y="70" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="78" r="3" class="foff"/></g>
+<text x="226.8" y="82" font-size="12.5" class="t2">7/12</text>
+<text x="0" y="112" font-size="13" class="t1" font-weight="600">Tools</text>
+<g><title>priority matrix tool: not soft (2 weak spots)</title><rect x="85.0" y="100" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="108" r="3" class="foff"/></g>
+<g><title>sample size calculator ab test: not soft (1 weak spot)</title><rect x="96.4" y="100" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="108" r="3" class="foff"/></g>
+<g><title>sus score calculator: not soft (1 weak spot)</title><rect x="107.8" y="100" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="108" r="3" class="foff"/></g>
+<g><title>churn rate calculator: not soft (1 weak spot)</title><rect x="119.2" y="100" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="108" r="3" class="foff"/></g>
+<g><title>sprint velocity calculator: not soft (1 weak spot)</title><rect x="130.6" y="100" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="108" r="3" class="foff"/></g>
+<g><title>ice score calculator: not soft (1 weak spot)</title><rect x="142.0" y="100" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="108" r="3" class="foff"/></g>
+<g><title>retention rate calculator: not soft (1 weak spot)</title><rect x="153.4" y="100" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="108" r="3" class="foff"/></g>
+<g><title>rice calculator: not soft (0 weak spots)</title><rect x="164.8" y="100" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="108" r="3" class="foff"/></g>
+<g><title>ab test significance calculator: not soft (0 weak spots)</title><rect x="176.2" y="100" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="108" r="3" class="foff"/></g>
+<g><title>nps calculator: not soft (0 weak spots)</title><rect x="187.6" y="100" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="108" r="3" class="foff"/></g>
+<g><title>ltv calculator: not soft (0 weak spots)</title><rect x="199.0" y="100" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="108" r="3" class="foff"/></g>
+<g><title>cac calculator: not soft (0 weak spots)</title><rect x="210.4" y="100" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="108" r="3" class="foff"/></g>
+<text x="226.8" y="112" font-size="12.5" class="t2">0/12</text>
+<text x="0" y="142" font-size="13" class="t1" font-weight="600">Templates</text>
+<g><title>prd template: soft shelf (3 weak spots)</title><rect x="85.0" y="130" width="12" height="16" fill="transparent"/><circle cx="91.0" cy="138" r="5" class="fo"/></g>
+<g><title>product requirements document template: not soft (2 weak spots)</title><rect x="96.4" y="130" width="12" height="16" fill="transparent"/><circle cx="102.4" cy="138" r="3" class="foff"/></g>
+<g><title>product roadmap template: not soft (2 weak spots)</title><rect x="107.8" y="130" width="12" height="16" fill="transparent"/><circle cx="113.8" cy="138" r="3" class="foff"/></g>
+<g><title>user story template: not soft (2 weak spots)</title><rect x="119.2" y="130" width="12" height="16" fill="transparent"/><circle cx="125.2" cy="138" r="3" class="foff"/></g>
+<g><title>competitive analysis template: not soft (2 weak spots)</title><rect x="130.6" y="130" width="12" height="16" fill="transparent"/><circle cx="136.6" cy="138" r="3" class="foff"/></g>
+<g><title>prioritization matrix template: not soft (2 weak spots)</title><rect x="142.0" y="130" width="12" height="16" fill="transparent"/><circle cx="148.0" cy="138" r="3" class="foff"/></g>
+<g><title>customer journey map template: not soft (1 weak spot)</title><rect x="153.4" y="130" width="12" height="16" fill="transparent"/><circle cx="159.4" cy="138" r="3" class="foff"/></g>
+<g><title>usability test plan template: not soft (1 weak spot)</title><rect x="164.8" y="130" width="12" height="16" fill="transparent"/><circle cx="170.8" cy="138" r="3" class="foff"/></g>
+<g><title>lean canvas template: not soft (1 weak spot)</title><rect x="176.2" y="130" width="12" height="16" fill="transparent"/><circle cx="182.2" cy="138" r="3" class="foff"/></g>
+<g><title>ux research plan template: not soft (1 weak spot)</title><rect x="187.6" y="130" width="12" height="16" fill="transparent"/><circle cx="193.6" cy="138" r="3" class="foff"/></g>
+<g><title>user persona template: not soft (0 weak spots)</title><rect x="199.0" y="130" width="12" height="16" fill="transparent"/><circle cx="205.0" cy="138" r="3" class="foff"/></g>
+<g><title>user interview script template: not soft (0 weak spots)</title><rect x="210.4" y="130" width="12" height="16" fill="transparent"/><circle cx="216.4" cy="138" r="3" class="foff"/></g>
+<g><title>okr template: not soft (0 weak spots)</title><rect x="221.8" y="130" width="12" height="16" fill="transparent"/><circle cx="227.8" cy="138" r="3" class="foff"/></g>
+<g><title>sprint retrospective template: not soft (0 weak spots)</title><rect x="233.2" y="130" width="12" height="16" fill="transparent"/><circle cx="239.2" cy="138" r="3" class="foff"/></g>
+<text x="249.6" y="142" font-size="12.5" class="t2">1/14</text>
+</svg>
+<ul class="legend"><li><span class="sw doto"></span>Soft shelf (3 or more weak spots)</li><li><span class="sw off"></span>Not soft</li></ul>
+<figcaption>What this shows: each dot is one question, and orange dots are soft shelves; Books has the most and Tools has none.</figcaption>
+</figure>
+<p>Tools has no soft shelves, but that does not mean it is closed. Its spots are held by small, independent calculator sites, not by giants. That is a different kind of opening: a better calculator can beat a small one.</p>
+</section>
+
+<section id="surprises">
+<p class="chapter">Part 6</p>
+<h2>Surprises worth remembering</h2>
+<ul class="plain">
+<li><strong>The magazines are not our competition here.</strong> For these questions, we are up against forums, stores and software companies, not Smashing Magazine.</li>
+<li><strong>Personal book lists win.</strong> Ken Norton's reading list on bringthedonuts.com is on 3 book shelves, near the very top each time. Johannes Ippen's UX book list is on 2. One practitioner's honest list beats every publication.</li>
+<li><strong>Two websites moved.</strong> notion.so is now notion.com. interaction-design.org is now ixdf.org. We have updated our lists.</li>
+<li><strong>New names showed up.</strong> usertesting.com (3 shelves) and airfocus.com (2) on article topics. behindthecmo.com (2) on calculators. bringthedonuts.com on books. We will study them next.</li>
+<li><strong>No featured snippets at all.</strong> The old quote box that used to sit at the top of the page appeared on 0 of 78 pages. The AI Overview has taken its place.</li>
+</ul>
+</section>
+
+<section id="spent">
+<p class="chapter">Part 7</p>
+<h2>What we spent</h2>
+<p>We set a budget of $5 for this round of research. So far we have spent less than 6 cents: $0.059.</p>
+<p>Reading the sitemaps and the GitHub lists was free.</p>
+<figure>
+<h3>Spent so far, against the $5 budget</h3>
+<svg viewBox="0 0 400 84" role="img" aria-labelledby="bgt bgd">
+<title id="bgt">Money spent so far against the budget</title>
+<desc id="bgd">$0.059 spent of a $5 budget, about 1.2 percent.</desc>
+<rect x="0" y="30" width="400" height="26" rx="6" class="fs sm" stroke-width="1.5"/>
+<path d="M1 31 H4.7 V55 H1 Z" class="fb"/>
+<text x="0" y="18" font-size="13" class="t1" font-weight="700">Spent: $0.059</text>
+<text x="400" y="18" font-size="13" class="t2" text-anchor="end">Budget: $5.00</text>
+<text x="6.0" y="76" font-size="11" class="tm" text-anchor="middle">$0</text>
+<text x="80.0" y="76" font-size="11" class="tm" text-anchor="middle">$1</text>
+<text x="160.0" y="76" font-size="11" class="tm" text-anchor="middle">$2</text>
+<text x="240.0" y="76" font-size="11" class="tm" text-anchor="middle">$3</text>
+<text x="320.0" y="76" font-size="11" class="tm" text-anchor="middle">$4</text>
+<text x="394.0" y="76" font-size="11" class="tm" text-anchor="middle">$5</text>
+</svg>
+<figcaption>What this shows: the thin blue sliver is what we spent, about 1.2% of the budget. The research account still holds $23.68.</figcaption>
+</figure>
+</section>
+
+<section id="next">
+<p class="chapter">Part 8</p>
+<h2>What happens next</h2>
+<p>Phase 0 told us who is on the shelf. The next four phases tell us which shelves to go after.</p>
+<figure>
+<h3>Four steps to our first topics</h3>
+<svg viewBox="0 0 400 290" role="img" aria-labelledby="pt pd">
+<title id="pt">The path from here</title>
+<desc id="pd">Phase 1: Collect thousands of search phrases and sort them into topics; Phase 2: Measure how big each competitor really is; Phase 3: Do the same for tools, book lists, calculators and templates; Phase 4: Score everything and pick four to six topics to launch</desc>
+<circle cx="22" cy="28" r="18" class="fb"/>
+<text x="22" y="33" font-size="15" text-anchor="middle" font-weight="800" fill="#ffffff">1</text>
+<line x1="22" y1="50" x2="22" y2="82" class="sm" stroke-width="2" stroke-dasharray="3 4"/>
+<text x="54" y="20" font-size="12.5" class="t2" font-weight="600">Phase 1</text>
+<text x="54" y="38" font-size="14.5" class="t1" font-weight="700">Collect thousands of search phrases</text>
+<text x="54" y="56" font-size="14.5" class="t1" font-weight="700">and sort them into topics</text>
+<circle cx="22" cy="102" r="18" class="fb"/>
+<text x="22" y="107" font-size="15" text-anchor="middle" font-weight="800" fill="#ffffff">2</text>
+<line x1="22" y1="124" x2="22" y2="156" class="sm" stroke-width="2" stroke-dasharray="3 4"/>
+<text x="54" y="94" font-size="12.5" class="t2" font-weight="600">Phase 2</text>
+<text x="54" y="112" font-size="14.5" class="t1" font-weight="700">Measure how big each</text>
+<text x="54" y="130" font-size="14.5" class="t1" font-weight="700">competitor really is</text>
+<circle cx="22" cy="176" r="18" class="fb"/>
+<text x="22" y="181" font-size="15" text-anchor="middle" font-weight="800" fill="#ffffff">3</text>
+<line x1="22" y1="198" x2="22" y2="230" class="sm" stroke-width="2" stroke-dasharray="3 4"/>
+<text x="54" y="168" font-size="12.5" class="t2" font-weight="600">Phase 3</text>
+<text x="54" y="186" font-size="14.5" class="t1" font-weight="700">Do the same for tools, book lists,</text>
+<text x="54" y="204" font-size="14.5" class="t1" font-weight="700">calculators and templates</text>
+<circle cx="22" cy="250" r="18" class="fo"/>
+<text x="22" y="255" font-size="15" text-anchor="middle" font-weight="800" fill="#ffffff">4</text>
+<text x="54" y="242" font-size="12.5" class="t2" font-weight="600">Phase 4</text>
+<text x="54" y="260" font-size="14.5" class="t1" font-weight="700">Score everything and pick</text>
+<text x="54" y="278" font-size="14.5" class="t1" font-weight="700">four to six topics to launch</text>
+</svg>
+<figcaption>What this shows: the four phases in order; the last one picks the topics we launch with.</figcaption>
+</figure>
+<ol class="steps">
+<li><strong>Collect and sort.</strong> Gather thousands of related search phrases and group them into topics. Our topic tree will come from this data, not from guessing.</li>
+<li><strong>Measure the competitors.</strong> Find out how big each competing website really is.</li>
+<li><strong>Do the same for the sections.</strong> Learn which kinds of tools, book lists, calculators and templates people search for most.</li>
+<li><strong>Score and pick.</strong> Give every topic a score: how many people search, how hard the shelf is, whether interest is growing, whether the answer box takes the clicks, whether the shelf is soft, how many competitors there are, and how much the owner's own experience helps. Then pick the four to six topics to launch with.</li>
+</ol>
+</section>
+
+<section id="phase1">
+<p class="chapter">Part 9</p>
+<h2>Phase 1: what it is and what we need from you</h2>
+<h3>What Phase 1 is</h3>
+<p>Phase 1 is a harvest. We gather search phrases for the Articles section, the way a farmer gathers a crop.</p>
+<p>We start with about 30 starting phrases. We call them seeds, because each one grows into many more.</p>
+<p>The seeds are spread across the three areas we think the site covers: design; product and delivery; and business and growth.</p>
+<p>We also add a few seeds on purpose from outside that map: service design, growth marketing, data for product managers, AI in product work, product operations, no-code, and startups. If people search a lot there, we want to know.</p>
+<p>For each seed, we ask DataForSEO for the 300 most-searched related phrases. We use filters: at least 100 searches a month in the US, no brand names, and no job postings.</p>
+<p>That gives us roughly 9,000 phrases. Each one comes with how many people search it every month, and twelve months of history, so we can see if interest is growing.</p>
+<p>We add a second source too: the article titles from the 51 competitor sitemaps we already read.</p>
+<p>Then we sort everything into groups, like sorting a big pile of mixed buttons by color. Each group is a topic.</p>
+<p>A topic only counts if the data backs it up: 20 or more phrases that people really search, or 15 or more competitor articles about it. The topic tree comes out of this step, not out of anyone's head.</p>
+<p>The cost is about $1.50 of the $5 budget. Everything is saved exactly as it arrives, so we never pay for the same data twice.</p>
+<figure>
+<h3>From seeds to a topic tree</h3>
+<svg viewBox="0 0 400 236" role="img" aria-labelledby="ht hd">
+<title id="ht">How Phase 1 turns seed phrases into a topic tree</title>
+<desc id="hd">About 30 seed phrases go in. Each one brings back up to 300 related phrases, a pile of about 9,000. The phrases are grouped into labeled clusters. The clusters with enough real searches become the topic tree.</desc>
+<circle cx="14" cy="40" r="6" class="fb"/>
+<circle cx="36" cy="40" r="6" class="fb"/>
+<circle cx="58" cy="40" r="6" class="fb"/>
+<circle cx="14" cy="70" r="6" class="fb"/>
+<circle cx="36" cy="70" r="6" class="fb"/>
+<circle cx="58" cy="70" r="6" class="fb"/>
+<circle cx="14" cy="100" r="6" class="fb"/>
+<circle cx="36" cy="100" r="6" class="fb"/>
+<circle cx="58" cy="100" r="6" class="fb"/>
+<circle cx="14" cy="130" r="6" class="fb"/>
+<circle cx="36" cy="130" r="6" class="fb"/>
+<circle cx="58" cy="130" r="6" class="fb"/>
+<circle cx="133.4" cy="48.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="155.0" cy="38.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="147.4" cy="73.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="115.8" cy="90.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="114.5" cy="82.0" r="2.4" class="fb" opacity=".55"/>
+<circle cx="116.6" cy="40.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="140.0" cy="129.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="120.2" cy="56.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="153.4" cy="143.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="150.1" cy="77.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="176.4" cy="35.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="168.7" cy="64.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="121.5" cy="44.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="132.4" cy="127.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="123.9" cy="99.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="154.2" cy="74.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="148.2" cy="37.5" r="2.4" class="fb" opacity=".55"/>
+<circle cx="115.9" cy="54.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="156.9" cy="81.3" r="2.4" class="fb" opacity=".55"/>
+<circle cx="132.7" cy="100.3" r="2.4" class="fb" opacity=".55"/>
+<circle cx="141.9" cy="66.0" r="2.4" class="fb" opacity=".55"/>
+<circle cx="164.4" cy="113.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="128.1" cy="98.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="146.7" cy="135.0" r="2.4" class="fb" opacity=".55"/>
+<circle cx="160.1" cy="64.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="176.7" cy="44.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="139.6" cy="120.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="122.0" cy="88.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="114.6" cy="110.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="162.5" cy="98.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="169.8" cy="67.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="157.9" cy="101.3" r="2.4" class="fb" opacity=".55"/>
+<circle cx="150.3" cy="84.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="167.4" cy="143.4" r="2.4" class="fb" opacity=".55"/>
+<circle cx="143.3" cy="109.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="116.0" cy="114.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="154.7" cy="149.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="166.2" cy="64.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="137.5" cy="110.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="113.5" cy="85.4" r="2.4" class="fb" opacity=".55"/>
+<circle cx="123.1" cy="44.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="115.9" cy="122.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="120.5" cy="59.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="137.8" cy="134.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="117.3" cy="83.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="148.3" cy="136.0" r="2.4" class="fb" opacity=".55"/>
+<circle cx="166.1" cy="133.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="130.4" cy="79.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="135.7" cy="136.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="175.2" cy="48.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="123.6" cy="57.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="127.4" cy="88.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="150.9" cy="61.5" r="2.4" class="fb" opacity=".55"/>
+<circle cx="112.3" cy="80.3" r="2.4" class="fb" opacity=".55"/>
+<circle cx="136.4" cy="98.0" r="2.4" class="fb" opacity=".55"/>
+<circle cx="174.9" cy="112.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="146.0" cy="104.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="156.6" cy="36.5" r="2.4" class="fb" opacity=".55"/>
+<circle cx="171.4" cy="123.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="169.7" cy="125.7" r="2.4" class="fb" opacity=".55"/>
+<circle cx="137.9" cy="77.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="118.8" cy="106.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="116.1" cy="38.1" r="2.4" class="fb" opacity=".55"/>
+<circle cx="125.8" cy="49.5" r="2.4" class="fb" opacity=".55"/>
+<circle cx="134.4" cy="36.3" r="2.4" class="fb" opacity=".55"/>
+<circle cx="112.0" cy="48.2" r="2.4" class="fb" opacity=".55"/>
+<circle cx="118.7" cy="73.6" r="2.4" class="fb" opacity=".55"/>
+<circle cx="113.7" cy="134.9" r="2.4" class="fb" opacity=".55"/>
+<circle cx="152.5" cy="47.8" r="2.4" class="fb" opacity=".55"/>
+<circle cx="128.6" cy="71.7" r="2.4" class="fb" opacity=".55"/>
+<rect x="206" y="24" width="76" height="28" rx="5" class="fat sa" stroke-width="1.5"/>
+<circle cx="214" cy="44" r="2" class="fa"/>
+<circle cx="221" cy="44" r="2" class="fa"/>
+<circle cx="228" cy="44" r="2" class="fa"/>
+<circle cx="235" cy="44" r="2" class="fa"/>
+<circle cx="242" cy="44" r="2" class="fa"/>
+<text x="252" y="37" font-size="10.5" class="t1" text-anchor="middle">topic A</text>
+<rect x="206" y="58" width="76" height="28" rx="5" class="fat sa" stroke-width="1.5"/>
+<circle cx="214" cy="78" r="2" class="fa"/>
+<circle cx="221" cy="78" r="2" class="fa"/>
+<circle cx="228" cy="78" r="2" class="fa"/>
+<circle cx="235" cy="78" r="2" class="fa"/>
+<circle cx="242" cy="78" r="2" class="fa"/>
+<text x="252" y="71" font-size="10.5" class="t1" text-anchor="middle">topic B</text>
+<rect x="206" y="92" width="76" height="28" rx="5" class="fat sa" stroke-width="1.5"/>
+<circle cx="214" cy="112" r="2" class="fa"/>
+<circle cx="221" cy="112" r="2" class="fa"/>
+<circle cx="228" cy="112" r="2" class="fa"/>
+<circle cx="235" cy="112" r="2" class="fa"/>
+<circle cx="242" cy="112" r="2" class="fa"/>
+<text x="252" y="105" font-size="10.5" class="t1" text-anchor="middle">topic C</text>
+<rect x="206" y="126" width="76" height="28" rx="5" class="fat sa" stroke-width="1.5"/>
+<circle cx="214" cy="146" r="2" class="fa"/>
+<circle cx="221" cy="146" r="2" class="fa"/>
+<circle cx="228" cy="146" r="2" class="fa"/>
+<circle cx="235" cy="146" r="2" class="fa"/>
+<circle cx="242" cy="146" r="2" class="fa"/>
+<text x="252" y="139" font-size="10.5" class="t1" text-anchor="middle">topic D</text>
+<circle cx="350" cy="36" r="8" class="fa"/>
+<path d="M350 44 V64 M320 64 H380 M320 64 V84 M350 64 V84 M380 64 V84" fill="none" class="sa" stroke-width="2"/>
+<circle cx="320" cy="90" r="6" class="fa"/>
+<circle cx="350" cy="90" r="6" class="fa"/>
+<circle cx="380" cy="90" r="6" class="fa"/>
+<path d="M320 96 V112 M308 112 H332 M308 112 V124 M332 112 V124 M380 96 V124" fill="none" class="sa" stroke-width="1.5"/>
+<circle cx="308" cy="128" r="4" class="fa"/>
+<circle cx="332" cy="128" r="4" class="fa"/>
+<circle cx="380" cy="128" r="4" class="fa"/>
+<path d="M84 90 h14 m-5 -5 l5 5 l-5 5" fill="none" class="sm" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186 90 h14 m-5 -5 l5 5 l-5 5" fill="none" class="sm" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M290 90 h14 m-5 -5 l5 5 l-5 5" fill="none" class="sm" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="186" font-size="13" class="t1" font-weight="700" text-anchor="middle">Seeds</text>
+<text x="36" y="204" font-size="11" class="t2" text-anchor="middle">about 30</text>
+<text x="145" y="186" font-size="13" class="t1" font-weight="700" text-anchor="middle">Harvest</text>
+<text x="145" y="204" font-size="11" class="t2" text-anchor="middle">about 9,000 phrases</text>
+<text x="244" y="186" font-size="13" class="t1" font-weight="700" text-anchor="middle">Clusters</text>
+<text x="244" y="204" font-size="11" class="t2" text-anchor="middle">phrases grouped</text>
+<text x="350" y="186" font-size="13" class="t1" font-weight="700" text-anchor="middle">Topic tree</text>
+<text x="350" y="204" font-size="11" class="t2" text-anchor="middle">only if data backs it</text>
+</svg>
+<figcaption>What this shows: a few seeds grow into a big pile of phrases, the pile is sorted into groups, and only the groups the data supports become the topic tree.</figcaption>
+</figure>
+
+<h3>What we need from you</h3>
+<ol class="check">
+<li>
+<h3><span class="num">1.</span> API access for a script</h3>
+<p class="why">Why: Phase 1 brings back about 9,000 rows, too many to copy by hand.</p>
+<p>The connection we used today drops each result into a chat window. Then a helper has to copy it into a file by hand. That worked for 78 small results, but one group stalled and one typo had to be fixed.</p>
+<p>The clean way is a small script that talks to DataForSEO directly and saves the files itself. For that we need the API login and password. You find them at app.dataforseo.com, under "API Access".</p>
+<p>Please save them in a file named <code>.local/dataforseo.env</code> with these two lines:</p>
+<pre class="envfile">DATAFORSEO_LOGIN=...
+DATAFORSEO_PASSWORD=...</pre>
+<p>The <code>.local</code> folder is never saved to git. It is the same account, the same balance and the same $5 cap.</p>
+<p>If you would rather not, just say "use the connector" and we will run Phase 1 in smaller batches through it.</p>
+</li>
+<li>
+<h3><span class="num">2.</span> Seed phrases from your own experience (optional)</h3>
+<p class="why">Why: five to ten real phrases make the harvest reflect the real site, not just our guess.</p>
+<p>What do people ask you at work? What did you search for yourself when you were learning? For example: "how to say no to a stakeholder" or "what metrics to show in a product review".</p>
+</li>
+<li>
+<h3><span class="num">3.</span> Confirm: United States only</h3>
+<p class="why">Why: one country keeps the harvest clean and cheap; the UK and Canada come later, only for the final shortlist.</p>
+</li>
+<li>
+<h3><span class="num">4.</span> Confirm: the $5 cap covers Phases 1 to 4 together</h3>
+<p class="why">Why: the plan for all four phases adds up to about $4.30, so we want to be sure the cap still stands.</p>
+</li>
+<li class="later">
+<h3><span class="num">5.</span> Coming in Phase 4: rate your own experience</h3>
+<p class="why">Why: it is the one score only you can give; everything else comes from data.</p>
+<p>Not needed yet. In Phase 4 you will rate each candidate topic from 1 to 3 for your own first-hand experience.</p>
+</li>
+</ol>
+</section>
+</main>
+
+<footer>
+<h2>Where the data lives</h2>
+<p>Every number on this page comes from these files in the project folder:</p>
+<ul class="plain">
+<li><code>research/seo/serps/phase0-queries-2026-10-08.csv</code>: the 78 questions, by section</li>
+<li><code>research/seo/serps/features-2026-10-08.csv</code>: one row per question (answer box, empty box, weak spots)</li>
+<li><code>research/seo/serps/page-one-2026-10-08.csv</code>: one row per first-page result (647 rows)</li>
+<li><code>research/seo/competitors/articles-competitors.csv</code>, <code>links-competitors.csv</code>, <code>books-competitors.csv</code>, <code>tools-competitors.csv</code>, <code>templates-competitors.csv</code>: spots per website</li>
+<li><code>research/seo/competitors/phase0-competitors-2026-10-08.md</code>: written findings, discoveries and confusing questions</li>
+<li><code>research/seo/competitors/sitemaps-summary-2026-10-08.md</code>: the free sitemap reads</li>
+<li><code>research/seo/competitors/inventory-links-github-summary.md</code>: the free GitHub list reads</li>
+<li><code>research/seo/ledger.md</code>: money spent</li>
+<li><code>research/seo/analysis-plan-2026-10-08.md</code>: the full plan for Phases 1 to 4</li>
+</ul>
+<p>Search results: Google US, desktop, collected through DataForSEO.</p>
+</footer>
+</div>
+</body>
+</html>

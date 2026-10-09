@@ -1,0 +1,23 @@
+domain,section,page_one_count,keywords,avg_position,type,how_found,in_seed_list,organic_etv,tier
+reddit.com,books,11,ux books;best ux design books;product management books;best product management books;books for product managers;ux research books;business books for product managers;behavioral psychology books for designers;agile books;product strategy books;leadership books for product managers,1.9,forum,serp,no,,
+amazon.com,books,11,ux books;best ux design books;product management books;best product management books;books for product managers;design books;business books for product managers;behavioral psychology books for designers;agile books;product strategy books;leadership books for product managers,6.1,retailer,serp,no,,
+productplan.com,books,4,product management books;books for product managers;business books for product managers;leadership books for product managers,6.8,saas,serp,yes,20541,C
+quora.com,books,4,best product management books;design books;product strategy books;leadership books for product managers,7.0,forum,serp,no,,
+bringthedonuts.com,books,3,product management books;business books for product managers;leadership books for product managers,1.7,expert,serp,no,586,D
+rysullivan.medium.com,books,3,product management books;business books for product managers;leadership books for product managers,3.0,platform,serp,no,,
+userflow.com,books,3,product management books;business books for product managers;leadership books for product managers,4.7,saas,serp,no,1854,D
+goodreads.com,books,3,ux books;product management books;agile books,6.0,catalog,serp,yes,10251469,A
+youtube.com,books,3,best ux design books;product management books;behavioral psychology books for designers,7.0,video,serp,no,,
+linkedin.com,books,2,best product management books;books for product managers,1.5,platform,serp,no,,
+johannesippen.com,books,2,ux books;best ux design books,2.0,expert,serp,no,72,D
+medium.com,books,2,best ux design books;design books,4.0,platform,serp,no,,
+uxplanet.org,books,2,ux books;best ux design books,4.0,publication,serp,yes,13291,C
+blog.uxfol.io,books,2,ux books;best ux design books,5.0,saas,serp,no,685,D
+productmanagementexercises.com,books,2,best product management books;books for product managers,6.0,education,serp,no,332,D
+nextleap.app,books,2,product management books;business books for product managers,6.5,education,serp,no,3947,D
+maze.co,books,1,ux research books,1.0,saas,serp,yes,6654,D
+amplitude.com,books,1,leadership books for product managers,6.0,saas,serp,yes,25299,C
+mindtheproduct.com,books,1,business books for product managers,6.0,publication,serp,yes,1357,D
+productschool.com,books,1,leadership books for product managers,7.0,education,serp,yes,7453,D
+scrum.org,books,1,product strategy books,7.0,education,serp,yes,17058,C
+mountaingoatsoftware.com,books,1,agile books,8.0,expert,serp,yes,9692,D

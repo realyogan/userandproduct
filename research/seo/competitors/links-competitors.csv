@@ -1,0 +1,20 @@
+domain,section,page_one_count,keywords,avg_position,type,how_found,in_seed_list,organic_etv,tier
+reddit.com,links,13,ux tools;best ux design tools;product management tools;best product management software;product analytics tools;roadmap tools;prototyping tools;design resources;ux resources;ai tools for product managers;design inspiration websites;icon libraries;free fonts websites,3.6,forum,serp,no,,
+youtube.com,links,3,best ux design tools;ai tools for product managers;ai tools for designers,7.3,video,serp,no,,
+toools.design,links,2,design resources;icon libraries,2.5,directory,serp,yes,1080,D
+cufonfonts.com,links,2,free fonts websites,3.0,directory,serp,no,30640,C
+figma.com,links,2,best ux design tools;ai tools for product managers,3.5,saas,serp,yes,1436611,A
+atlassian.com,links,2,roadmap tools;ai tools for product managers,4.0,saas,serp,yes,420717,B
+medium.com,links,2,prototyping tools;design resources,4.5,platform,serp,no,,
+freedesignresources.net,links,2,design resources;free design resources,5.0,directory,serp,no,3588,D
+maze.co,links,2,best ux design tools;ux research tools,5.0,saas,serp,yes,6654,D
+fontawesome.com,links,2,icon libraries;free fonts websites,5.5,saas,serp,no,111339,B
+designresourc.es,links,1,design resources,1.0,directory,serp,yes,225,D
+uxplanet.org,links,1,ux resources,1.0,publication,serp,yes,13291,C
+productschool.com,links,1,ai tools for product managers,2.0,education,serp,yes,7453,D
+miro.com,links,1,roadmap tools,4.0,saas,serp,yes,163746,B
+userpilot.com,links,1,product analytics tools,5.0,saas,serp,yes,9854,D
+amplitude.com,links,1,product analytics tools,6.0,saas,serp,yes,25299,C
+productplan.com,links,1,roadmap tools,7.0,saas,serp,yes,20541,C
+dovetail.com,links,1,ux research tools,8.0,saas,serp,yes,27468,C
+pendo.io,links,1,product analytics tools,9.0,saas,serp,yes,12259,C

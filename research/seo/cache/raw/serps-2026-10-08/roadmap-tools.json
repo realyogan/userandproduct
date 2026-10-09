@@ -1,0 +1,548 @@
+{
+  "id": "10081545-2633-0066-0000-f49bb2fc7a16",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Software Roadmap Template for PowerPoint and Google Slides ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:4)\nRoadmap tools are `digital platforms used to plan, visualize, and share strategic goals, product timelines, and project milestones across teams`.[[1]](https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools)[[2]](https://www.itonics-innovation.com/blog/roadmap-tools)\n\n### Top Roadmap Software and Their Best Uses\n\n- **[ProductPlan](https://www.productplan.com/)** : Best for cross-functional alignment and connecting strategy or OKRs with drag-and-drop visual roadmaps.[[1]](https://www.productplan.com/)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)[[3]](https://www.gartner.com/reviews/market/product-roadmapping-tools-for-software-engineering)\n- **[Jira](https://www.atlassian.com/agile/project-management/roadmap-tools)** (by Atlassian): Best overall for tracking daily agile tasks and deep engineering execution.[[1]](https://www.atlassian.com/agile/project-management/roadmap-tools)\n- **Productboard** : Best for centralizing customer feedback and prioritizing product features based on user needs.[[1]](https://www.youtube.com/watch?v=zLhDoQPJaQE)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)\n- **Tempo Roadmaps** (formerly Roadmunk): Best for building boardroom-ready timelines, swimlanes, and portfolio views with Jira integration.[[1]](https://www.tempo.io/products/roadmaps)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)\n- **Aha! Roadmaps** : Best for comprehensive enterprise product management, spanning strategy, idea portals, and scoring.[[1]](https://www.aha.io/roadmapping/guide/product-roadmap/how-do-product-roadmap-tools-work)[[2]](https://www.youtube.com/watch?v=zLhDoQPJaQE)\n- **Miro** : Best for collaborative, visual, and AI-assisted brainstorming with flexible timelines and whiteboards.[[1]](https://miro.com/products/roadmaps/)[[2]](https://www.youtube.com/watch?v=rQa9wqhXqcU)\n\nIf you'd like help choosing the right option, tell me:\n\n- What is your **team size and role** (e.g., product manager, engineering lead, marketing)?\n- Which **tools** (like Jira, GitHub, or Slack) do you already use?\n- Do you need **simple visual timelines** or an **advanced feedback backlog**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Roadmap tools are digital platforms used to plan, visualize, and share strategic goals, product timelines, and project milestones across teams.",
+          "markdown": "![Software Roadmap Template for PowerPoint and Google Slides ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:2)\nRoadmap tools are `digital platforms used to plan, visualize, and share strategic goals, product timelines, and project milestones across teams`.[[1]](https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools)[[2]](https://www.itonics-innovation.com/blog/roadmap-tools)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Software Roadmap Template for PowerPoint and Google Slides ...",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Gartner",
+              "domain": "www.gartner.com",
+              "url": "https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools",
+              "title": "Best Strategy and Innovation Roadmapping Tools Reviews 2026",
+              "text": "Roadmunk is a software designed to facilitate product roadmapping and planning for teams and organizations. It enables users to cr..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ITONICS",
+              "domain": "www.itonics-innovation.com",
+              "url": "https://www.itonics-innovation.com/blog/roadmap-tools",
+              "title": "How Shared Roadmaps Boost Product Development Success",
+              "text": "What are roadmap tools, and why are they important? Roadmap tools are digital platforms that help organizations create, visualize,"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Top Roadmap Software and Their Best Uses",
+          "text": "ProductPlan : Best for cross-functional alignment and connecting strategy or OKRs with drag-and-drop visual roadmaps. Jira (by Atlassian): Best overall for tracking daily agile tasks and deep engineering execution. Productboard : Best for centralizing customer feedback and prioritizing product features based on user needs. Tempo Roadmaps (formerly Roadmunk): Best for building boardroom-ready timelines, swimlanes, and portfolio views with Jira integration. Aha! Roadmaps : Best for comprehensive enterprise product management, spanning strategy, idea portals, and scoring. Miro : Best for collaborative, visual, and AI-assisted brainstorming with flexible timelines and whiteboards.",
+          "markdown": "- **[ProductPlan](https://www.productplan.com/)** : Best for cross-functional alignment and connecting strategy or OKRs with drag-and-drop visual roadmaps.[[1]](https://www.productplan.com/)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)[[3]](https://www.gartner.com/reviews/market/product-roadmapping-tools-for-software-engineering)\n- **[Jira](https://www.atlassian.com/agile/project-management/roadmap-tools)** (by Atlassian): Best overall for tracking daily agile tasks and deep engineering execution.[[1]](https://www.atlassian.com/agile/project-management/roadmap-tools)\n- **Productboard** : Best for centralizing customer feedback and prioritizing product features based on user needs.[[1]](https://www.youtube.com/watch?v=zLhDoQPJaQE)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)\n- **Tempo Roadmaps** (formerly Roadmunk): Best for building boardroom-ready timelines, swimlanes, and portfolio views with Jira integration.[[1]](https://www.tempo.io/products/roadmaps)[[2]](https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15)\n- **Aha! Roadmaps** : Best for comprehensive enterprise product management, spanning strategy, idea portals, and scoring.[[1]](https://www.aha.io/roadmapping/guide/product-roadmap/how-do-product-roadmap-tools-work)[[2]](https://www.youtube.com/watch?v=zLhDoQPJaQE)\n- **Miro** : Best for collaborative, visual, and AI-assisted brainstorming with flexible timelines and whiteboards.[[1]](https://miro.com/products/roadmaps/)[[2]](https://www.youtube.com/watch?v=rQa9wqhXqcU)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "ProductPlan",
+              "url": "https://www.productplan.com/",
+              "domain": "www.productplan.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Jira",
+              "url": "https://www.atlassian.com/agile/project-management/roadmap-tools",
+              "domain": "www.atlassian.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/",
+              "title": "ProductPlan",
+              "text": "Frequently Asked Questions * Does ProductPlan integrate with Jira? Yes. ProductPlan integrates natively with Jira so engineering t..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15",
+              "title": "Top ProductBoard Alternatives | Best Roadmap Tools for Product Teams",
+              "text": "Top ProductBoard Alternatives | Best Roadmap Tools for Product Teams and it makes it much easier to communicate with your goal you..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Gartner",
+              "domain": "www.gartner.com",
+              "url": "https://www.gartner.com/reviews/market/product-roadmapping-tools-for-software-engineering",
+              "title": "Best Product Roadmapping Tools for Software Engineering Reviews 2026 | Gartner Peer Insights",
+              "text": "Product Roadmapping & Project Management Tools: Jira (4.4, issue tracking); Asana (4.3, AI work graph); Wrike (4.3, AI work delive..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/project-management/roadmap-tools",
+              "title": "Top 7 Roadmap Tools for Agile Teams | Atlassian",
+              "text": "Roadmap Tools Features: Kanban boards, interactive timelines, dashboards, preconfigured reports, and templates for visualization, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=zLhDoQPJaQE",
+              "title": "Which roadmap tool Is best for your project?",
+              "text": "🚀 Featured Best Roadmap Tools: GanttPRO - Intuitive Gantt-based project roadmap software with auto-scheduling, real-time collabor..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Tempo.io",
+              "domain": "www.tempo.io",
+              "url": "https://www.tempo.io/products/roadmaps",
+              "title": "Roadmapping Software | Formerly Roadmunk | Tempo",
+              "text": "* Trusted by: 30k+ global companies. * Key features: Idea Manager, timeline/swimlane/table/portfolio views, dependency tracking, i..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Aha! software",
+              "domain": "www.aha.io",
+              "url": "https://www.aha.io/roadmapping/guide/product-roadmap/how-do-product-roadmap-tools-work",
+              "title": "Roadmap Software: How To Choose the Best Offering",
+              "text": "What to look for in a product roadmap tool Roadmapping software is an obvious improvement over disjointed documents and slide deck..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Miro",
+              "domain": "miro.com",
+              "url": "https://miro.com/products/roadmaps/",
+              "title": "Online Roadmap Maker | Create Your Own Roadmap | Miro",
+              "text": "Features: AI Roadmap Strategist Sidekick for ideas, automated weekly update Flows, two-way Jira and Azure DevOps integrations, KPI..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rQa9wqhXqcU",
+              "title": "YouTube",
+              "text": "choose a spreadsheet if your team already uses them for lots of work. and if you have a strong need for organizing. lots of types ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like help choosing the right option, tell me:What is your team size and role (e.g., product manager, engineering lead, marketing)?\nWhich tools (like Jira, GitHub, or Slack) do you already use?\nDo you need simple visual timelines or an advanced feedback backlog ?",
+          "markdown": "If you'd like help choosing the right option, tell me:\n\n- What is your **team size and role** (e.g., product manager, engineering lead, marketing)?\n- Which **tools** (like Jira, GitHub, or Slack) do you already use?\n- Do you need **simple visual timelines** or an **advanced feedback backlog**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/agile/project-management/roadmap-tools",
+          "title": "Top 7 Roadmap Tools for Agile Teams | Atlassian",
+          "text": "Roadmap Tools Features: Kanban boards, interactive timelines, dashboards, preconfigured reports, and templates for visualization, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ProductPlan",
+          "domain": "www.productplan.com",
+          "url": "https://www.productplan.com/",
+          "title": "ProductPlan",
+          "text": "Frequently Asked Questions * Does ProductPlan integrate with Jira? Yes. ProductPlan integrates natively with Jira so engineering t..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Miro",
+          "domain": "miro.com",
+          "url": "https://miro.com/products/roadmaps/",
+          "title": "Online Roadmap Maker | Create Your Own Roadmap | Miro",
+          "text": "Features: AI Roadmap Strategist Sidekick for ideas, automated weekly update Flows, two-way Jira and Azure DevOps integrations, KPI..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=zLhDoQPJaQE",
+          "title": "Which roadmap tool Is best for your project?",
+          "text": "🚀 Featured Best Roadmap Tools: GanttPRO - Intuitive Gantt-based project roadmap software with auto-scheduling, real-time collabor..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Gartner",
+          "domain": "www.gartner.com",
+          "url": "https://www.gartner.com/reviews/market/product-roadmapping-tools-for-software-engineering",
+          "title": "Best Product Roadmapping Tools for Software Engineering Reviews 2026 | Gartner Peer Insights",
+          "text": "Product Roadmapping & Project Management Tools: Jira (4.4, issue tracking); Asana (4.3, AI work graph); Wrike (4.3, AI work delive..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Tempo.io",
+          "domain": "www.tempo.io",
+          "url": "https://www.tempo.io/products/roadmaps",
+          "title": "Roadmapping Software | Formerly Roadmunk | Tempo",
+          "text": "* Trusted by: 30k+ global companies. * Key features: Idea Manager, timeline/swimlane/table/portfolio views, dependency tracking, i..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Aha! software",
+          "domain": "www.aha.io",
+          "url": "https://www.aha.io/roadmapping/guide/product-roadmap/how-do-product-roadmap-tools-work",
+          "title": "Roadmap Software: How To Choose the Best Offering",
+          "text": "What to look for in a product roadmap tool Roadmapping software is an obvious improvement over disjointed documents and slide deck..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Gartner",
+          "domain": "www.gartner.com",
+          "url": "https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools",
+          "title": "Best Strategy and Innovation Roadmapping Tools Reviews 2026",
+          "text": "Roadmunk is a software designed to facilitate product roadmapping and planning for teams and organizations. It enables users to cr..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=6JQ_7wxLrmo&t=15",
+          "title": "Top ProductBoard Alternatives | Best Roadmap Tools for Product Teams",
+          "text": "Top ProductBoard Alternatives | Best Roadmap Tools for Product Teams and it makes it much easier to communicate with your goal you..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=rQa9wqhXqcU",
+          "title": "YouTube",
+          "text": "choose a spreadsheet if your team already uses them for lots of work. and if you have a strong need for organizing. lots of types ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ITONICS",
+          "domain": "www.itonics-innovation.com",
+          "url": "https://www.itonics-innovation.com/blog/roadmap-tools",
+          "title": "How Shared Roadmaps Boost Product Development Success",
+          "text": "What are roadmap tools, and why are they important? Roadmap tools are digital platforms that help organizations create, visualize,"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "Top 7 Roadmap Tools for Agile Teams",
+      "url": "https://www.atlassian.com/agile/project-management/roadmap-tools",
+      "breadcrumb": "https://www.atlassian.com › Agile › Project Management",
+      "website_name": "Atlassian",
+      "description": "Align your team with a project roadmap template to strategically define milestones, connect with business goals, and achieve project success. Read more",
+      "highlighted": [
+        "project roadmap template"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.atlassian.com/agile/project-management/roadmap-tools#:~:text=Align%20your%20team%20with%20a,goals%2C%20and%20achieve%20project%20success.",
+          "domain": "www.atlassian.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "support.microsoft.com",
+      "title": "Welcome to Roadmap",
+      "url": "https://support.microsoft.com/en-us/project/welcome-to-roadmap",
+      "breadcrumb": "https://support.microsoft.com › en-us › project › welco...",
+      "website_name": "Microsoft Support",
+      "description": "Overview. Use Roadmap to: Create a view of your organization's projects and drive them together to achieve your business goals. Connect directly to projects ... Read more",
+      "highlighted": [
+        "Create a view of your organization's projects"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://support.microsoft.com/en-us/project/welcome-to-roadmap#:~:text=Overview,that%20fit%20their%20work%20style.",
+          "domain": "support.microsoft.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns-7Mij1CRLpbDUU47QbTflJvRcWA:1791474345890&q=roadmap+tools&udm=2&source=univ&fir=5wORhaZT1JsFTM%252CmUArpKU5CCYe-M%252C_%253BQdm3ApUngOTiGM%252COKbESpb5RgUtEM%252C_%253BoGUsMZQC7MP1lM%252CoymKAq6zhHUC7M%252C_%253BBBAWjtU38hE0uM%252COKbESpb5RgUtEM%252C_%253BZ0y57_Gcls248M%252CALDSsctcHHwEIM%252C_%253BPACtKBmKHHKV0M%252CZSxU8twsEQj9-M%252C_%253By4F99VlIT-Oh3M%252CoymKAq6zhHUC7M%252C_%253BSp7tvsn0B8BoFM%252C7LKoRIHcdO2wxM%252C_%253BmpeNCyPqGA0teM%252C2Bt221FnIovcLM%252C_&usg=AI4_-kQgwLVGkoWbp82HOhqmcAmRQPU7YA&sa=X&ved=2ahUKEwi44YqA4qqXAxWIpZUCHVEeIhwQ7Al6BAgcEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "7 Best Roadmap Software Tools for Planning and Product ...",
+          "url": "https://www.itonics-innovation.com/blog/7-best-roadmap-software-tools",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "15 Best Product Roadmap Tools (2026): Free and Paid Compared",
+          "url": "https://www.appcues.com/blog/the-15-best-product-roadmap-tools-to-keep-your-plans-on-track",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "7 Best Product Roadmap Tools in 2024 | ProdPad",
+          "url": "https://www.prodpad.com/blog/best-product-roadmap-tools/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-f49bb2fc7a16:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "15 Best Product Roadmap Tools (2026): Free and Paid Compared",
+          "url": "https://www.appcues.com/blog/the-15-best-product-roadmap-tools-to-keep-your-plans-on-track",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdY-ayDOhDciyUYM1_4WaZtWRgiaLFL-aUBZfroRb3sRG0vl8ZZhXRQyQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Software Roadmap Template",
+          "url": "https://www.slidekit.com/software-roadmap-template/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiRyi5877K3NEAc13xcFc3rYIIpzMaRBdm1LC68eLzh-xZj8cAh9nTShY&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "16 Best Product Roadmap Tools and Software [Free + Premium ...",
+          "url": "https://contentsquare.com/guides/product-roadmaps/tools/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS99DAOGmrx1uH3E3ymV5q3KMpCUYyKSp6oKVKOXJLVRHpAM4LrQ_MLnME&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "7 Best Product Roadmap Tools in 2024 | ProdPad",
+          "url": "https://www.prodpad.com/blog/best-product-roadmap-tools/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyJLye49ri6czQ3OyZxzBeVTe4exGbBZ4QFJlAK3KFfODkmhzj5z6C_BM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is Product Roadmap Software? Select Best Product ...",
+          "url": "https://www.planview.com/resources/articles/what-is-product-roadmap-software/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeWlY9ltgJv643hw8z2S-JtdyD92Aan-MsRhrGgdVl8GTMKvdrozNHMo&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "9 simple but mighty product roadmap tools | MindManager Blog",
+          "url": "https://blog.mindmanager.com/product-roadmap-tools/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf682VPaVMdGlQQuQJF7ShbdcGt_n_Ytgt7u8E44BaAyXIzd7RlpT5XI8&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What software do you use to manage your roadmap and ...",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1pnzm0o/what_software_do_you_use_to_manage_your_roadmap/",
+      "breadcrumb": "40+ comments  ·  9 months ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "I’m a commercial PM (a mix of tech elements and product strategy , not just tech) and we don’t use jira\n\nI’m starting to use asana but a lot of ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Best tool for roadmap visualisation? : r ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/11lc4tq/best_tool_for_roadmap_visualisation/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "What software tool do you use to visualize your ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1o76ybv/what_software_tool_do_you_use_to_visualize_your/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=roadmap+tools+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns-7Mij1CRLpbDUU47QbTflJvRcWA:1791474345890&sa=X&ved=2ahUKEwi44YqA4qqXAxWIpZUCHVEeIhwQrQIoAnoECEYQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a good roadmap tool?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Can Chatgpt create a roadmap?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best free tool to create a roadmap?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Does Microsoft have a roadmap tool?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "miro.com",
+      "title": "Online Roadmap Maker | Create Your Own Roadmap",
+      "url": "https://miro.com/products/roadmaps/",
+      "breadcrumb": "https://miro.com › products › roadmaps",
+      "website_name": "Miro",
+      "description": "Build living roadmaps that evolve with your business priorities. Speed up team collaboration with AI, connect dev tools, and keep everyone aligned.",
+      "highlighted": [
+        "tools"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "canny.io",
+      "title": "13 best product roadmap tools (with key features and pricing)",
+      "url": "https://canny.io/blog/best-product-roadmap-tools/",
+      "breadcrumb": "https://canny.io › Home › Product Management",
+      "website_name": "Canny",
+      "description": "Mar 19, 2025 — Compare 13 product roadmap tools on roadmapping, feedback integration, prioritization, and pricing. Find the right fit for your team.",
+      "pre_snippet": "03/19/2025 00:00:00",
+      "highlighted": [
+        "13 product roadmap tools"
+      ],
+      "timestamp": "2025-03-19 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.gartner.com",
+      "title": "Best Strategy and Innovation Roadmapping Tools Reviews ...",
+      "url": "https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools",
+      "breadcrumb": "https://www.gartner.com › ... › Data and Analytics",
+      "website_name": "Gartner",
+      "description": "ProductPlan is a software designed to assist organizations with roadmapping and product planning. It enables users to create, visualize, and share product ... Read more",
+      "highlighted": [
+        "ProductPlan"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.gartner.com/reviews/market/strategy-and-innovation-roadmapping-tools#:~:text=ProductPlan%20is%20a%20software%20designed,organize%20features%2C%20ideas%2C%20and%20initiatives",
+          "domain": "www.gartner.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.productplan.com",
+      "title": "ProductPlan: Product Roadmap Software + Intelligence Platform",
+      "url": "https://www.productplan.com/",
+      "breadcrumb": "https://www.productplan.com",
+      "website_name": "ProductPlan",
+      "description": "Product roadmap software that connects to your customer intelligence so every priority is grounded in evidence and every launch moves the business forward.",
+      "highlighted": [
+        "Product roadmap software"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "thedigitalprojectmanager.com",
+      "title": "10 Best Project Roadmap Software For Strategizing in 2026",
+      "url": "https://thedigitalprojectmanager.com/tools/project-roadmap-software/",
+      "breadcrumb": "https://thedigitalprojectmanager.com › Tools",
+      "website_name": "The Digital Project Manager",
+      "description": "Sep 30, 2026 — Shortlist the best project roadmap software for your team. Compare features, pros + cons, pricing, and more in my complete guide.",
+      "pre_snippet": "09/30/2026 00:00:00",
+      "highlighted": [
+        "best project roadmap software"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "How to Choose",
+          "url": "https://thedigitalprojectmanager.com/tools/project-roadmap-software/#h-how-to-choose-project-roadmap-software",
+          "domain": "thedigitalprojectmanager.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Trends",
+          "url": "https://thedigitalprojectmanager.com/tools/project-roadmap-software/#trends",
+          "domain": "thedigitalprojectmanager.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Features",
+          "url": "https://thedigitalprojectmanager.com/tools/project-roadmap-software/#h-features-of-project-roadmap-software",
+          "domain": "thedigitalprojectmanager.com"
+        }
+      ],
+      "timestamp": "2026-09-30 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Roadmap tools free",
+        "Best roadmap tools",
+        "Roadmap tool Microsoft",
+        "Create a roadmap online free",
+        "Roadmap visualization tool",
+        "Roadmap template",
+        "Roadmap Planner",
+        "Roadmap builder"
+      ]
+    }
+  ]
+}

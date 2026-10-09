@@ -1,0 +1,586 @@
+{
+  "id": "10081545-2633-0066-0000-fff5521d1ead",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Customer retention rate + formula: A guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-fff5521d1ead:4)\nA **retention rate** is `the percentage of people, customers, or employees who stay with a group or business over a specific period of time`.[[1]](https://en.wikipedia.org/wiki/Retention_rate)[[2]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)\n\n### Common Retention Formulas\n\n### Customer Retention Rate (CRR)\n\nMeasures the percentage of customers a business keeps over a set timeframe. New customers acquired during the period are excluded from the starting total.[[1]](https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/)[[2]](https://productive.io/blog/customer-retention-rate/)\n\n- **Formula:** `[(End Period Customers - New Customers) ÷ Start Period Customers] × 100` \n- **Example:** If you start with 100 customers, add 20 new ones, and finish with 110 customers: `[(110 - 20) ÷ 100] × 100 = 90%`.[[1]](https://www.salesforce.com/service/digital-customer-engagement-platform/customer-retention-rate/)[[2]](https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/)[[3]](https://productive.io/blog/customer-retention-rate/)\n\n### Employee Retention Rate\n\nMeasures the percentage of workers who remain employed by a company over a given timeframe (such as a quarter or a year).[[1]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)\n\n- **Formula:** `(Employees at end or retained ÷ Starting workforce headcount) × 100` \n- **Example:** If you start with 200 employees and 20 leave: `[(200 - 20) ÷ 200] × 100 = 90%`.[[1]](https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx)[[2]](https://www.personio.com/hr-lexicon/increasing-employee-retention-rates/)[[3]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)\n\n### Student / First-Year College Retention Rate\nMeasures the proportion of full-time, first-time bachelor-seeking students who return to campus for their sophomore year.[[1]](https://www.businessinsider.com/college-highest-first-year-retention-rate-every-state-2026-9)\n\n- **National Average:** Approximately 79.4% at four-year public universities.[[1]](https://www.inquirer.com/education/colleges-universities-philadelphia-retention-rates-dropouts-20261005.html)\n\n\n---\n\n### General Benchmarks\n\n- **Employee Retention:** A rate **above 90%** is considered excellent, **85%–90%** is healthy, and **below 80%** often signals underlying management or cultural issues.\n- **Customer Retention:** Varies widely by industry; media and professional services hover around **84%** , while subscription-based SaaS businesses often face higher churn.[[1]](https://productive.io/blog/customer-retention-rate/)[[2]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)\n\nIf you'd like to calculate a specific rate, tell me:\n\n- Are you looking at **customers, employees, or students**?\n- What are your **starting numbers, ending numbers, and new additions**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "A retention rate is the percentage of people, customers, or employees who stay with a group or business over a specific period of time.",
+          "markdown": "![Customer retention rate + formula: A guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-fff5521d1ead:2)\nA **retention rate** is `the percentage of people, customers, or employees who stay with a group or business over a specific period of time`.[[1]](https://en.wikipedia.org/wiki/Retention_rate)[[2]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Customer retention rate + formula: A guide for 2026",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-fff5521d1ead:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Wikipedia",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Retention_rate",
+              "title": "Retention rate - Wikipedia",
+              "text": "For the financial measure of profits reinvested in a corporation, see retention ratio. Retention rate is a statistical measurement..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Paychex",
+              "domain": "www.paychex.com",
+              "url": "https://www.paychex.com/articles/human-resources/what-is-employee-retention",
+              "title": "What Is Employee Retention? + How to Calculate",
+              "text": "Key Takeaways * Your employee retention rate measures the percentage of employees who stay with your company over a given period a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Common Retention Formulas",
+          "markdown": "### Common Retention Formulas"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Customer Retention Rate (CRR)",
+          "text": "Measures the percentage of customers a business keeps over a set timeframe. New customers acquired during the period are excluded from the starting total.",
+          "markdown": "Measures the percentage of customers a business keeps over a set timeframe. New customers acquired during the period are excluded from the starting total.[[1]](https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/)[[2]](https://productive.io/blog/customer-retention-rate/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Zendesk",
+              "domain": "www.zendesk.com",
+              "url": "https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/",
+              "title": "Customer retention rate + formula: A guide for 2026",
+              "text": "Customer Retention Rate: Percentage of retained customers over a timeframe; formula is [(E - N) ÷ S] x 100, where E is ending cust..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productive",
+              "domain": "productive.io",
+              "url": "https://productive.io/blog/customer-retention-rate/",
+              "title": "What Is Customer Retention Rate and How To Calculate Yours?",
+              "text": "Key Takeaways The formula for calculating the customer retention rate is ((End Period Customers – New Customers)/Start Period Cust..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Formula: [(End Period Customers - New Customers) ÷ Start Period Customers] × 100 Example: If you start with 100 customers, add 20 new ones, and finish with 110 customers: [(110 - 20) ÷ 100] × 100 = 90%.",
+          "markdown": "- **Formula:** `[(End Period Customers - New Customers) ÷ Start Period Customers] × 100` \n- **Example:** If you start with 100 customers, add 20 new ones, and finish with 110 customers: `[(110 - 20) ÷ 100] × 100 = 90%`.[[1]](https://www.salesforce.com/service/digital-customer-engagement-platform/customer-retention-rate/)[[2]](https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/)[[3]](https://productive.io/blog/customer-retention-rate/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/service/digital-customer-engagement-platform/customer-retention-rate/",
+              "title": "Customer retention rate: formula & improvement tips",
+              "text": "Calculate your customer retention rate Then divide that number by the customers you started with. For example, if you start a mont..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Zendesk",
+              "domain": "www.zendesk.com",
+              "url": "https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/",
+              "title": "Customer retention rate + formula: A guide for 2026",
+              "text": "Customer Retention Rate: Percentage of retained customers over a timeframe; formula is [(E - N) ÷ S] x 100, where E is ending cust..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productive",
+              "domain": "productive.io",
+              "url": "https://productive.io/blog/customer-retention-rate/",
+              "title": "What Is Customer Retention Rate and How To Calculate Yours?",
+              "text": "Key Takeaways The formula for calculating the customer retention rate is ((End Period Customers – New Customers)/Start Period Cust..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Employee Retention Rate",
+          "text": "Measures the percentage of workers who remain employed by a company over a given timeframe (such as a quarter or a year).",
+          "markdown": "Measures the percentage of workers who remain employed by a company over a given timeframe (such as a quarter or a year).[[1]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Paychex",
+              "domain": "www.paychex.com",
+              "url": "https://www.paychex.com/articles/human-resources/what-is-employee-retention",
+              "title": "What Is Employee Retention? + How to Calculate",
+              "text": "Key Takeaways * Your employee retention rate measures the percentage of employees who stay with your company over a given period a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Formula: (Employees at end or retained ÷ Starting workforce headcount) × 100 Example: If you start with 200 employees and 20 leave: [(200 - 20) ÷ 200] × 100 = 90%.",
+          "markdown": "- **Formula:** `(Employees at end or retained ÷ Starting workforce headcount) × 100` \n- **Example:** If you start with 200 employees and 20 leave: `[(200 - 20) ÷ 200] × 100 = 90%`.[[1]](https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx)[[2]](https://www.personio.com/hr-lexicon/increasing-employee-retention-rates/)[[3]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ADP",
+              "domain": "www.adp.com",
+              "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx",
+              "title": "Retention Rate | How to Calculate & Examples | ADP",
+              "text": "Definition: Retention rate measures an organization's ability to retain its workforce, acting as the inverse of employee turnover."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "www.personio.com",
+              "domain": "www.personio.com",
+              "url": "https://www.personio.com/hr-lexicon/increasing-employee-retention-rates/",
+              "title": "Calculating Employee Retention Rates",
+              "text": "What Is An Employee Retention Rate? How Do You Calculate Employee Retention Rates? Retention rates are typically measured by a per..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Paychex",
+              "domain": "www.paychex.com",
+              "url": "https://www.paychex.com/articles/human-resources/what-is-employee-retention",
+              "title": "What Is Employee Retention? + How to Calculate",
+              "text": "Key Takeaways * Your employee retention rate measures the percentage of employees who stay with your company over a given period a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Student / First-Year College Retention Rate",
+          "text": "Measures the proportion of full-time, first-time bachelor-seeking students who return to campus for their sophomore year.",
+          "markdown": "Measures the proportion of full-time, first-time bachelor-seeking students who return to campus for their sophomore year.[[1]](https://www.businessinsider.com/college-highest-first-year-retention-rate-every-state-2026-9)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Business Insider",
+              "domain": "www.businessinsider.com",
+              "url": "https://www.businessinsider.com/college-highest-first-year-retention-rate-every-state-2026-9",
+              "title": "The College With the Highest First",
+              "text": "The college with the highest first-year retention rate in every state Save Saved 0 Getting a student to choose a college is one th..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "National Average: Approximately 79.4% at four-year public universities.",
+          "markdown": "- **National Average:** Approximately 79.4% at four-year public universities.[[1]](https://www.inquirer.com/education/colleges-universities-philadelphia-retention-rates-dropouts-20261005.html)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Inquirer.com",
+              "domain": "www.inquirer.com",
+              "url": "https://www.inquirer.com/education/colleges-universities-philadelphia-retention-rates-dropouts-20261005.html",
+              "title": "Temple enrolled a record number of first-year students in 2025. But it lost nearly a quarter of them",
+              "text": "Temple's Enrollment Down 26% from High in 2017 Temple University's total U.S. enrollment peaked at 39,937 and last sat at 29,503 i..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "General Benchmarks",
+          "text": "Employee Retention: A rate above 90% is considered excellent, 85%–90% is healthy, and below 80% often signals underlying management or cultural issues. Customer Retention: Varies widely by industry; media and professional services hover around 84%, while subscription-based SaaS businesses often face higher churn.",
+          "markdown": "- **Employee Retention:** A rate **above 90%** is considered excellent, **85%–90%** is healthy, and **below 80%** often signals underlying management or cultural issues.\n- **Customer Retention:** Varies widely by industry; media and professional services hover around **84%** , while subscription-based SaaS businesses often face higher churn.[[1]](https://productive.io/blog/customer-retention-rate/)[[2]](https://www.paychex.com/articles/human-resources/what-is-employee-retention)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Productive",
+              "domain": "productive.io",
+              "url": "https://productive.io/blog/customer-retention-rate/",
+              "title": "What Is Customer Retention Rate and How To Calculate Yours?",
+              "text": "Key Takeaways The formula for calculating the customer retention rate is ((End Period Customers – New Customers)/Start Period Cust..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Paychex",
+              "domain": "www.paychex.com",
+              "url": "https://www.paychex.com/articles/human-resources/what-is-employee-retention",
+              "title": "What Is Employee Retention? + How to Calculate",
+              "text": "Key Takeaways * Your employee retention rate measures the percentage of employees who stay with your company over a given period a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like to calculate a specific rate, tell me:Are you looking at customers, employees, or students ?\nWhat are your starting numbers, ending numbers, and new additions ?",
+          "markdown": "If you'd like to calculate a specific rate, tell me:\n\n- Are you looking at **customers, employees, or students**?\n- What are your **starting numbers, ending numbers, and new additions**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Retention_rate",
+          "title": "Retention rate - Wikipedia",
+          "text": "For the financial measure of profits reinvested in a corporation, see retention ratio. Retention rate is a statistical measurement..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Zendesk",
+          "domain": "www.zendesk.com",
+          "url": "https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/",
+          "title": "Customer retention rate + formula: A guide for 2026",
+          "text": "Customer Retention Rate: Percentage of retained customers over a timeframe; formula is [(E - N) ÷ S] x 100, where E is ending cust..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Salesforce",
+          "domain": "www.salesforce.com",
+          "url": "https://www.salesforce.com/service/digital-customer-engagement-platform/customer-retention-rate/",
+          "title": "Customer retention rate: formula & improvement tips",
+          "text": "Calculate your customer retention rate Then divide that number by the customers you started with. For example, if you start a mont..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ADP",
+          "domain": "www.adp.com",
+          "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx",
+          "title": "Retention Rate | How to Calculate & Examples | ADP",
+          "text": "Definition: Retention rate measures an organization's ability to retain its workforce, acting as the inverse of employee turnover."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.personio.com",
+          "domain": "www.personio.com",
+          "url": "https://www.personio.com/hr-lexicon/increasing-employee-retention-rates/",
+          "title": "Calculating Employee Retention Rates",
+          "text": "What Is An Employee Retention Rate? How Do You Calculate Employee Retention Rates? Retention rates are typically measured by a per..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Paychex",
+          "domain": "www.paychex.com",
+          "url": "https://www.paychex.com/articles/human-resources/what-is-employee-retention",
+          "title": "What Is Employee Retention? + How to Calculate",
+          "text": "Key Takeaways * Your employee retention rate measures the percentage of employees who stay with your company over a given period a..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Productive",
+          "domain": "productive.io",
+          "url": "https://productive.io/blog/customer-retention-rate/",
+          "title": "What Is Customer Retention Rate and How To Calculate Yours?",
+          "text": "Key Takeaways The formula for calculating the customer retention rate is ((End Period Customers – New Customers)/Start Period Cust..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Business Insider",
+          "domain": "www.businessinsider.com",
+          "url": "https://www.businessinsider.com/college-highest-first-year-retention-rate-every-state-2026-9",
+          "title": "The College With the Highest First",
+          "text": "The college with the highest first-year retention rate in every state Save Saved 0 Getting a student to choose a college is one th..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Inquirer.com",
+          "domain": "www.inquirer.com",
+          "url": "https://www.inquirer.com/education/colleges-universities-philadelphia-retention-rates-dropouts-20261005.html",
+          "title": "Temple enrolled a record number of first-year students in 2025. But it lost nearly a quarter of them",
+          "text": "Temple's Enrollment Down 26% from High in 2017 Temple University's total U.S. enrollment peaked at 39,937 and last sat at 29,503 i..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "en.wikipedia.org",
+      "title": "Retention rate",
+      "url": "https://en.wikipedia.org/wiki/Retention_rate",
+      "breadcrumb": "https://en.wikipedia.org › wiki › Retention_rate",
+      "website_name": "Wikipedia",
+      "description": "Retention rate is a statistical measurement of the proportion of people that remain involved with a group from one time period to another. Read more",
+      "highlighted": [
+        "proportion of people that remain involved with a group"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://en.wikipedia.org/wiki/Retention_rate#:~:text=Retention%20rate%20is%20a%20statistical,one%20time%20period%20to%20another.",
+          "domain": "en.wikipedia.org"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What does retention rate mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a good employee retention rate?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does 80% retention rate mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I calculate retention rate?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.zendesk.com",
+      "title": "Customer retention rate + formula: A guide for 2026",
+      "url": "https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/",
+      "breadcrumb": "https://www.zendesk.com › ... › Customer retention",
+      "website_name": "Zendesk",
+      "description": "Jan 13, 2026 — Customer retention rate is the percentage of customers a company retains over a given period of time. For example, if your business starts the ... Read more",
+      "pre_snippet": "01/13/2026 00:00:00",
+      "highlighted": [
+        "Customer retention rate"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.zendesk.com/blog/customer-experience/retention/calculate-customer-retention-rate/#:~:text=Customer%20retention%20rate%20is%20the,retention%20rate%20is%2080%20percent.",
+          "domain": "www.zendesk.com"
+        }
+      ],
+      "timestamp": "2026-01-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "academicaffairs.uams.edu",
+      "title": "Retention Rate and Student Success",
+      "url": "https://academicaffairs.uams.edu/irpa/office-of-institutional-studies/student-outcomes/student-success/",
+      "breadcrumb": "https://academicaffairs.uams.edu › student-outcomes › s...",
+      "website_name": "University of Arkansas for Medical Sciences (UAMS)",
+      "description": "Retention is defined as the percentage of students returning (out of a defined cohort group of students) to continue their education at UAMS from a specified ... Read more",
+      "highlighted": [
+        "the percentage of students returning"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://academicaffairs.uams.edu/irpa/office-of-institutional-studies/student-outcomes/student-success/#:~:text=Retention%20is%20defined%20as%20the,to%20a%20specified%20time%20period.",
+          "domain": "academicaffairs.uams.edu"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.adp.com",
+      "title": "Retention Rate | How to Calculate & Examples",
+      "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx",
+      "breadcrumb": "https://www.adp.com › articles-and-insights › articles",
+      "website_name": "ADP",
+      "description": "Retention rate measures a company's ability to retain its workforce. It's the inverse of turnover, which is the rate at which employees leave their jobs. Like ... Read more",
+      "highlighted": [
+        "measures a company's ability to retain its workforce"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Retention rate definition",
+          "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx#p1",
+          "domain": "www.adp.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How to calculate retention rate",
+          "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx#p3",
+          "domain": "www.adp.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.stellic.com",
+      "title": "Student Retention Rate: How to Calculate It (and What \" ...",
+      "url": "https://www.stellic.com/resources/student-retention-rate",
+      "breadcrumb": "https://www.stellic.com › Resources",
+      "website_name": "Stellic",
+      "description": "Student retention rate is the share of first-time, full-time students who return the next fall. Learn the formula, the IPEDS definition, and what a good ...",
+      "highlighted": [
+        "retention rate"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.productplan.com",
+      "title": "Retention Rate | Glossary",
+      "url": "https://www.productplan.com/glossary/retention-rate",
+      "breadcrumb": "https://www.productplan.com › Glossary › Retention Rate",
+      "website_name": "ProductPlan",
+      "description": "In marketing and product management, retention rate refers to the percentage of customers who continue paying for a product over a given timeframe. This is a ... Read more",
+      "highlighted": [
+        "retention rate"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.productplan.com/glossary/retention-rate#:~:text=In%20marketing%20and%20product%20management%2C,given%20timeframe.%20This%20is%20a",
+          "domain": "www.productplan.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.wallstreetprep.com",
+      "title": "Retention Rate | Formula + Calculator",
+      "url": "https://www.wallstreetprep.com/knowledge/retention-rate/",
+      "breadcrumb": "https://www.wallstreetprep.com › knowledge › retentio...",
+      "website_name": "Wall Street Prep",
+      "description": "Retention Rate is the percentage of customers who continue to use a company's products or services across a specified period.",
+      "highlighted": [
+        "Retention Rate"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.tcsisupport.gov.au",
+      "title": "Retention rate",
+      "url": "https://www.tcsisupport.gov.au/glossary/glossaryterm/retention-rate",
+      "breadcrumb": "https://www.tcsisupport.gov.au › glossary › glossaryterm",
+      "website_name": "TCSI Support",
+      "description": "Retention rate is a measure of the proportion of students who continue their studies after their first year. The department publishes two types of retention ... Read more",
+      "highlighted": [
+        "Retention rate"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.tcsisupport.gov.au/glossary/glossaryterm/retention-rate#:~:text=Retention%20rate%20is%20a%20measure,retention%20rates%2C%20Normal%20and%20Adjusted%3A",
+          "domain": "www.tcsisupport.gov.au"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.15five.com",
+      "title": "What is a good retention rate?",
+      "url": "https://www.15five.com/blog/what-is-a-good-retention-rate",
+      "breadcrumb": "https://www.15five.com › blog › what-is-a-good-retentio...",
+      "website_name": "15Five",
+      "description": "Jan 29, 2024 — Retention rate measures the number of people employed during a specific time period and helps businesses with workforce planning, recruitment, ... Read more",
+      "pre_snippet": "01/29/2024 00:00:00",
+      "highlighted": [
+        "Retention rate measures the number of people employed during a specific time period"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.15five.com/blog/what-is-a-good-retention-rate#:~:text=Retention%20rate%20measures%20the%20number,and%20understanding%20potential%20labor%20shortages.",
+          "domain": "www.15five.com"
+        }
+      ],
+      "timestamp": "2024-01-29 00:00:00 +00:00"
+    },
+    {
+      "type": "product_considerations",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "title": "Things to know",
+      "items": [
+        {
+          "type": "product_considerations_element",
+          "title": "What is the formula for calculating retention rate?",
+          "consideration_category": "Formula"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "What are the benefits of a high retention rate?",
+          "consideration_category": "Benefits"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "How to improve retention rate?",
+          "consideration_category": "Improvement Strategies"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "How is retention rate used in healthcare?",
+          "consideration_category": "Healthcare Applications"
+        },
+        {
+          "type": "product_considerations_element",
+          "title": "What are the different types of retention rate?",
+          "consideration_category": "Types"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Employee retention rate",
+        "Retention rate formula",
+        "Retention rate finance",
+        "What is a retention rate in college",
+        "Retention rate HR",
+        "How to calculate employee retention rate",
+        "Retention rate meaning in studying",
+        "Retention rate dividend"
+      ]
+    }
+  ]
+}

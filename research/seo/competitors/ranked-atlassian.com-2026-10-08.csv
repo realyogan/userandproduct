@@ -1,0 +1,501 @@
+keyword,volume,difficulty,position,url,intent
+a.i,5000000,100,74,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+ai's,5000000,96,47,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+whys,823000,33,25,https://www.atlassian.com/blog/teamwork/5-whys-analysis,informational
+conversational ai chatbot,550000,58,30,https://www.atlassian.com/blog/artificial-intelligence/conversation-ai,commercial
+how do i screenshot on a mac,550000,35,29,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+how do you screen capture on mac,550000,30,19,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+how to screen capture in mac,550000,44,17,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to screenshot on mac,550000,28,24,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+1:1's,450000,9,17,https://www.atlassian.com/blog/teamwork/1-on-1-meeting-tips,informational
+atlas,450000,63,19,https://www.atlassian.com/blog/announcements/introducing-atlas-teamwork-directory,informational
+how screenshot on windows,368000,24,28,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to capture a screenshot on windows,368000,35,27,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to capture screen on windows,368000,21,25,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to capture screenshot on windows,368000,22,16,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to make screenshot on windows,368000,34,37,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screen capture on windows,368000,26,25,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screenshot in windows,368000,28,39,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screenshot on windows,368000,45,36,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screenshot using windows,368000,36,33,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screenshot with windows,368000,22,26,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to take screenshot on windows,368000,34,38,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to take screenshots on windows,368000,21,27,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+milestone trend analysis,368000,0,7,https://community.atlassian.com/forums/Confluence-questions/Milestone-Trend-Analysis/qaq-p/2263987,informational
+windows how to take a screenshot,368000,22,39,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+artificial intelligence,301000,100,58,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+screen shot on a mac,301000,26,28,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+6 9's,246000,8,22,https://www.atlassian.com/blog/statuspage/high-availability,informational
+6 9s,246000,11,30,https://www.atlassian.com/blog/statuspage/high-availability,informational
+common table expression,246000,21,6,https://www.atlassian.com/data/sql/using-common-table-expressions,informational
+ctes,246000,7,13,https://www.atlassian.com/data/sql/using-common-table-expressions,informational
+general availability,246000,0,25,https://community.atlassian.com/forums/Program-Management-Professionals/PgM-Guide-for-a-Successful-General-Availability-Launch/ba-p/2883888,informational
+getimage,246000,24,68,https://community.atlassian.com/forums/Jira-questions/How-to-get-image-embedded-on-issue-description-from-REST-API/qaq-p/1118940,navigational
+loom,246000,61,4,https://www.atlassian.com/software/loom,informational
+service,246000,39,32,https://www.atlassian.com/software/jira/service-management,informational
+trello,246000,82,10,https://www.atlassian.com/software/trello,navigational
+artificial intelligence ask,201000,53,20,https://www.atlassian.com/blog/artificial-intelligence/ask-ai,informational
+conversational ai,201000,36,28,https://www.atlassian.com/blog/artificial-intelligence/conversation-ai,commercial
+goals and smart objectives,201000,51,6,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+goals smart principle,201000,49,4,https://www.atlassian.com/blog/teamwork/how-to-write-smart-goals,informational
+jira,201000,39,1,https://www.atlassian.com/software/jira,informational
+obss,201000,41,7,https://marketplace.atlassian.com/vendors/616898/obss,informational
+s m a r t goals,201000,63,6,https://www.atlassian.com/blog/teamwork/how-to-write-smart-goals,informational
+smart criteria for goals,201000,49,6,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smart criteria for objectives,201000,49,5,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smart goal,201000,62,5,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smart goal objectives,201000,51,5,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smart goals,201000,65,9,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smart method goals,201000,62,5,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+smarter goals,201000,23,13,https://www.atlassian.com/blog/productivity/how-to-write-smart-goals,informational
+1:1,165000,10,26,https://www.atlassian.com/blog/inside-atlassian/1-on-1-meeting-tips,informational
+confluence,165000,32,1,https://www.atlassian.com/software/confluence,informational
+conversational ai assistant,165000,21,52,https://www.atlassian.com/blog/ai-at-work/conversation-ai,commercial
+dashboards,165000,34,40,https://www.atlassian.com/work-management/project-management/dashboard-reporting,informational
+define dunning-kruger effect,165000,29,11,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+dunning and kruger,165000,38,11,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+dunning and kruger effect,165000,58,17,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+dunning kruger effect,165000,58,18,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+dunning-kruger effect,165000,64,19,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+gantt chart,165000,48,10,https://www.atlassian.com/agile/project-management/gantt-chart,informational
+gantt charts,165000,53,5,https://www.atlassian.com/agile/project-management/gantt-chart,informational
+gantt table,165000,46,17,https://www.atlassian.com/agile/project-management/gantt-chart,transactional
+histogram,165000,17,9,https://www.atlassian.com/data/charts/histogram-complete-guide,informational
+histograms,165000,16,17,https://www.atlassian.com/data/charts/histogram-complete-guide,informational
+how to screen capture,165000,50,26,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+hubris,165000,22,15,https://www.atlassian.com/blog/leadership/hubris-syndrome,informational
+hubrisness,165000,17,17,https://www.atlassian.com/blog/leadership/hubris-syndrome,informational
+hubristic,165000,2,28,https://www.atlassian.com/blog/leadership/hubris-syndrome,informational
+it project manager software,165000,51,18,https://www.atlassian.com/project-management-software,commercial
+kruger dunning effect,165000,58,13,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+program for project management,165000,59,13,https://www.atlassian.com/agile/project-management/program-management,informational
+program management software,165000,44,7,https://www.atlassian.com/agile/project-management/program-management,commercial
+project administration software,165000,60,15,https://www.atlassian.com/project-management-software,commercial
+project administrator software,165000,51,19,https://www.atlassian.com/project-management-software,commercial
+project management and software,165000,37,13,https://www.atlassian.com/work-management/project-management,informational
+project management software,165000,51,22,https://www.atlassian.com/project-management-software,commercial
+project management software projects,165000,56,20,https://www.atlassian.com/project-management-software,commercial
+project planning software,165000,40,27,https://www.atlassian.com/project-management-software,commercial
+project tracking software,165000,56,21,https://www.atlassian.com/agile/project-management/task-management-tools,commercial
+reddit.com,165000,92,77,https://www.atlassian.com/,navigational
+screenshot on windows,165000,21,37,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screenshot screen windows,165000,24,21,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+slack login,165000,42,31,https://admin.atlassian.com/,navigational
+take screenshot windows,165000,22,32,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+taking screenshot windows,165000,38,29,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+tier lists,165000,24,17,https://www.atlassian.com/software/confluence/templates/tier-list,informational
+agile approach,135000,47,4,https://www.atlassian.com/agile,informational
+agile implementation,135000,27,4,https://www.atlassian.com/agile,informational
+agile methodologies,135000,31,2,https://www.atlassian.com/agile,informational
+agile methodology,135000,44,4,https://www.atlassian.com/agile,informational
+agile systems development,135000,27,3,https://www.atlassian.com/agile,informational
+agile techniques,135000,56,5,https://www.atlassian.com/agile,informational
+bar chart,135000,33,34,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+bar charts,135000,29,5,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+cloud and cloud computing,135000,62,28,https://www.atlassian.com/microservices/cloud-computing,informational
+cloud computing,135000,70,34,https://www.atlassian.com/microservices/cloud-computing,commercial
+cloud technology computing,135000,70,39,https://www.atlassian.com/microservices/cloud-computing,commercial
+how do i clear cache,135000,49,17,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how do i clear my cache,135000,43,32,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how do i take a screenshot on windows,135000,24,41,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how do you clear cache,135000,49,16,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how do you record screen on iphone,135000,9,40,https://www.atlassian.com/blog/loom/how-to-record-your-screen-on-iphone,informational
+how do you screen record on a mac,135000,21,10,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how many hour are in a week,135000,5,27,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hour in a week,135000,9,28,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours a week,135000,11,8,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours are in a week,135000,1,15,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours in a week,135000,4,16,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours in a weeks,135000,0,27,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours in the week,135000,2,16,https://www.atlassian.com/blog/innovation/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours is a week,135000,0,19,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hours is in a week,135000,1,22,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hr in a week,135000,0,15,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how many hrs in a week,135000,9,14,https://www.atlassian.com/blog/productivity/this-is-how-many-hours-you-should-really-be-working,informational
+how to clear cache,135000,53,13,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to film screen on mac,135000,11,11,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to make a screenshot on windows,135000,27,36,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to record computer screen on mac,135000,13,10,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to record screen mac,135000,17,10,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to screen record for macbook,135000,13,7,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to screen record on mac,135000,17,10,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+how to take a screenshot on windows,135000,24,31,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to take screenshot in windows,135000,25,32,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to take screenshot on windows computer,135000,26,35,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to take screenshots on windows computer,135000,22,35,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to video screen on mac,135000,13,9,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+manage projects,135000,42,2,https://www.atlassian.com/work-management/project-management,informational
+manager project,135000,43,8,https://www.atlassian.com/work-management/project-management/project-manager,informational
+manager projects,135000,30,5,https://www.atlassian.com/work-management/project-management/project-manager,informational
+managing project managers,135000,20,9,https://www.atlassian.com/work-management/project-management/project-manager,informational
+managing projects,135000,37,2,https://www.atlassian.com/work-management/project-management,informational
+project and management,135000,56,10,https://www.atlassian.com/work-management/project-management,informational
+project management,135000,80,11,https://www.atlassian.com/work-management/project-management,informational
+projectmanagement,135000,87,13,https://www.atlassian.com/work-management/project-management,informational
+swiftly,135000,47,49,https://marketplace.atlassian.com/apps/1220590/swiftly,informational
+2 9s,110000,11,17,https://www.atlassian.com/blog/statuspage/high-availability,informational
+cache cleanup,110000,49,36,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+ci,110000,69,8,https://www.atlassian.com/continuous-delivery/continuous-integration,informational
+clear cache,110000,71,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clear out cache,110000,71,16,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clear the cache,110000,71,18,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clearing cache,110000,71,13,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+container software docker,110000,49,18,https://www.atlassian.com/microservices/microservices-architecture/docker,transactional
+containerization and docker,110000,52,16,https://www.atlassian.com/microservices/microservices-architecture/docker,informational
+continuous integration,110000,64,4,https://www.atlassian.com/continuous-delivery/continuous-integration,informational
+diagrams,110000,52,30,https://www.atlassian.com/software/confluence/use-cases/diagram-maker,informational
+discr,110000,9,57,https://community.atlassian.com/forums/Jira-questions/No-HyperLink-to-OneNote-Page-from-JIRA-Issue-Discription/qaq-p/2517986,informational
+docker and containers,110000,48,42,https://www.atlassian.com/microservices/microservices-architecture/docker,informational
+docker containerization,110000,56,15,https://www.atlassian.com/microservices/microservices-architecture/docker,informational
+git,110000,100,5,https://www.atlassian.com/git/tutorials/what-is-git,informational
+implement implementation,110000,5,31,https://www.atlassian.com/work-management/strategic-planning/implementation-plan,informational
+implementation,110000,15,16,https://www.atlassian.com/work-management/strategic-planning/implementation-plan,informational
+infrastructure,110000,43,29,https://www.atlassian.com/itsm/it-operations-management/it-infrastructure,informational
+infrastructures,110000,37,22,https://www.atlassian.com/itsm/it-operations-management/it-infrastructure,informational
+lean,110000,39,20,https://www.atlassian.com/agile/project-management/lean-methodology,informational
+manage time management,110000,50,6,https://www.atlassian.com/work-management/project-management/time-management,informational
+managing time management,110000,61,8,https://www.atlassian.com/work-management/project-management/time-management,informational
+microservice,110000,73,16,https://www.atlassian.com/microservices,informational
+microservices,110000,73,21,https://www.atlassian.com/microservices,informational
+mp4 into gif,110000,30,23,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+ms teams,110000,99,28,https://support.atlassian.com/statuspage/docs/set-up-microsoft-teams-integration/,navigational
+operational level agreement,110000,0,25,https://community.atlassian.com/forums/App-Central-articles/OLA-and-SLA-in-Jira-how-to-simplify-implementation-with/ba-p/1871471,informational
+overview of artificial intelligence,110000,59,42,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+teamwork,110000,57,18,https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork,informational
+time management,110000,50,21,https://www.atlassian.com/blog/productivity/time-management-strategies,informational
+video a gif,110000,26,4,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video en gif,110000,36,9,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video gif,110000,37,10,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video into a gif,110000,31,7,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video into gif,110000,30,8,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video to animated gif,110000,34,13,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+video to gif,110000,26,12,https://www.atlassian.com/blog/loom/how-to-create-a-gif-from-a-video,informational
+what is ai,110000,65,47,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+4 9's,90500,21,5,https://www.atlassian.com/blog/statuspage/high-availability,informational
+4 9s,90500,22,10,https://www.atlassian.com/blog/statuspage/high-availability,informational
+atlassian,90500,84,1,https://www.atlassian.com/,informational
+bar chart graph,90500,21,26,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+bar chart graphics,90500,20,17,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+bar graph,90500,29,20,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+bar graphs,90500,30,18,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+chart bar,90500,36,14,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+charts bar,90500,22,7,https://www.atlassian.com/data/charts/bar-chart-complete-guide,informational
+concurre,90500,0,20,https://community.atlassian.com/forums/Jira-questions/Using-a-next-gen-project-and-want-to-have-concurrent-sprints-how/qaq-p/897828,informational
+defining kpis,90500,46,14,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+distributed switch architecture,90500,8,68,https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture,informational
+do'n,90500,0,80,https://community.atlassian.com/forums/Jira-questions/I-need-to-bulk-upload-100s-of-tickets-but-I-do-not-want-to-get/qaq-p/2285452,informational
+draw io,90500,50,12,https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-uml-bpmn-aws-erd-flowcharts,informational
+git tutorial,90500,46,4,https://www.atlassian.com/git/tutorials,informational
+iterative,90500,21,9,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+joins,90500,34,19,https://www.atlassian.com/data/sql/joins,informational
+kpi,90500,70,11,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+kpis,90500,48,15,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+kpis meaning,90500,43,14,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+line graph,90500,19,19,https://www.atlassian.com/data/charts/line-chart-complete-guide,informational
+mvp,90500,58,11,https://www.atlassian.com/agile/product-management/minimum-viable-product,informational
+mvps,90500,58,5,https://www.atlassian.com/agile/product-management/minimum-viable-product,informational
+neuroplasticity,90500,58,47,https://www.atlassian.com/blog/productivity/neuroplasticity-train-your-brain,informational
+planning plan,90500,2,57,https://www.atlassian.com/blog/teamwork/write-an-effective-project-plan,informational
+productivity tips,90500,17,49,https://www.atlassian.com/blog/productivity/simple-ways-to-be-productive-at-work,informational
+sorry incorrect the correct answer is,90500,0,22,https://www.atlassian.com/blog/teamwork/apologize-for-mistakes-professionally-remotely,informational
+sorry incorrect...the correct answer is,90500,0,19,https://www.atlassian.com/blog/teamwork/apologize-for-mistakes-professionally-remotely,informational
+sow,90500,4,45,https://www.atlassian.com/work-management/knowledge-sharing/documentation/what-is-statement-of-work,informational
+swot analysis,90500,57,51,https://www.atlassian.com/work-management/strategic-planning/swot-analysis,informational
+swot analysis.com,90500,55,33,https://www.atlassian.com/work-management/strategic-planning/swot-analysis,navigational
+swot assessment,90500,46,53,https://www.atlassian.com/work-management/strategic-planning/swot-analysis,informational
+swot test,90500,49,29,https://www.atlassian.com/work-management/strategic-planning/swot-analysis,informational
+task management,90500,39,15,https://www.atlassian.com/agile/project-management/task-management-tools,informational
+time blocking,90500,30,31,https://www.atlassian.com/blog/productivity/how-to-use-time-blocking,informational
+3 9s,74000,19,14,https://www.atlassian.com/blog/statuspage/high-availability,informational
+cherry pick,74000,26,5,https://www.atlassian.com/git/tutorials/cherry-pick,informational
+encouragement quotes for workers,74000,19,5,https://www.atlassian.com/blog/inside-atlassian/good-teamwork-quotes-youll-like,informational
+encouragement quotes for workplace,74000,7,6,https://www.atlassian.com/blog/inside-atlassian/good-teamwork-quotes-youll-like,informational
+encouraging quotes for work,74000,10,6,https://www.atlassian.com/blog/inside-atlassian/good-teamwork-quotes-youll-like,informational
+enterprise resources,74000,40,12,https://www.atlassian.com/work-management/project-management/enterprise-resource-management,informational
+how do i clear cache in chrome,74000,25,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how do i clear my cache in chrome,74000,11,24,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how do i clear the cache in chrome,74000,24,13,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear browser cache chrome,74000,18,17,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear browser cache chromebook,74000,14,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear browser cache in chrome,74000,18,17,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear cache in chrome,74000,20,19,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear chrome browser cache,74000,31,8,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear the cache in chrome,74000,24,14,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to delete browser cache in chrome,74000,24,13,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to delete chrome cache,74000,23,24,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to screen capture mac,74000,28,17,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+how to screen capture macbook,74000,39,17,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+how to screen capture on a macbook,74000,42,29,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+ice breaker questions,74000,7,27,https://www.atlassian.com/blog/teamwork/icebreaker-questions,informational
+icebreaker questions,74000,9,31,https://www.atlassian.com/blog/teamwork/icebreaker-questions,informational
+icebreakers,74000,8,11,https://www.atlassian.com/blog/teamwork/icebreaker-questions,informational
+inspirational quote for workers,74000,19,11,https://www.atlassian.com/blog/inside-atlassian/good-teamwork-quotes-youll-like,informational
+introduction,74000,33,21,https://www.atlassian.com/blog/loom/how-to-introduce-yourself,informational
+motivational quotes for workplace,74000,3,4,https://www.atlassian.com/blog/inside-atlassian/good-teamwork-quotes-youll-like,informational
+multi resource scheduling,74000,0,25,https://www.atlassian.com/work-management/project-management/resource-scheduling,informational
+retrospective games,74000,0,15,https://www.atlassian.com/blog/teamwork/revitalize-retrospectives-fresh-techniques,informational
+sop,74000,6,66,https://www.atlassian.com/blog/loom/how-to-write-an-sop,informational
+stock quotes free,74000,84,18,https://marketplace.atlassian.com/apps/1235849/stock-quote-free,informational
+5 9s,60500,15,35,https://www.atlassian.com/blog/statuspage/high-availability,informational
+ac id,60500,0,27,https://community.atlassian.com/forums/Confluence-questions/What-is-the-ac-local-id-parameter-from-a-macro-used-for/qaq-p/3133903,navigational
+al low,60500,49,43,https://support.atlassian.com/jira-cloud-administration/docs/allow-dashboards-and-filters-in-your-site-to-be-shared-publicly/,informational
+automations,60500,34,33,https://www.atlassian.com/agile/project-management/workflow-automation,informational
+box and whisker,60500,14,28,https://www.atlassian.com/data/charts/box-plot-complete-guide,transactional
+box and whisker diagram,60500,17,25,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+box and whisker plot,60500,16,22,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+box and whisker plots,60500,19,15,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+box plot,60500,16,27,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+box plots,60500,22,7,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+box whisker plot,60500,19,29,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+boxplot,60500,20,30,https://www.atlassian.com/data/charts/box-plot-complete-guide,informational
+clockify,60500,22,14,https://marketplace.atlassian.com/apps/1222624/clockify-time-tracking-timesheet,navigational
+cloud based productivity apps,60500,0,36,https://www.atlassian.com/blog/productivity/best-productivity-apps-roundup,commercial
+cloud computing platform,60500,70,60,https://www.atlassian.com/microservices/cloud-computing,commercial
+composio,60500,41,21,https://marketplace.atlassian.com/apps/1237207/composio,informational
+escalations,60500,3,5,https://www.atlassian.com/team-playbook/plays/clean-escalations,informational
+flowchart,60500,45,21,https://www.atlassian.com/work-management/project-management/flowchart,informational
+flowcharts,60500,30,26,https://www.atlassian.com/work-management/project-management/flowchart,informational
+harness,60500,53,35,https://marketplace.atlassian.com/vendors/1221408/harness-inc,transactional
+how do you screen capture on a pc,60500,29,47,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how do you screenshot on pc,60500,37,53,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screen capture on pc,60500,50,47,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to screen record on windows,60500,55,16,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+how to screen shot on pc,60500,24,63,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+i'm p,60500,1,104,https://community.atlassian.com/forums/New-to-Jira-articles/I-m-fascinated-to-learn-more-about-this-tool/ba-p/1829191,informational
+ice breaker,60500,27,15,https://www.atlassian.com/blog/teamwork/icebreaker-questions,informational
+ice breakers,60500,31,6,https://www.atlassian.com/blog/teamwork/icebreaker-questions,informational
+mcp server,60500,34,20,https://www.atlassian.com/platform/rovo-mcp,navigational
+meeting,60500,50,31,https://www.atlassian.com/blog/teamwork/types-of-meetings,informational
+meetings,60500,81,21,https://www.atlassian.com/blog/teamwork/types-of-meetings,informational
+mind map,60500,69,46,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+mind mapping,60500,56,43,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+mind maps,60500,78,40,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+mindmap,60500,81,42,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+optimizely,60500,63,12,https://marketplace.atlassian.com/vendors/1216203/optimizely,informational
+productivity,60500,60,30,https://www.atlassian.com/blog/productivity/7-productivity-methods,informational
+scatter chart,60500,31,20,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scatter graph,60500,24,12,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scatter graphs,60500,20,9,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scatter plot,60500,21,11,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scatter plots,60500,20,2,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scattergraph,60500,3,22,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+scatterplot,60500,11,27,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+sla,60500,50,6,https://www.atlassian.com/itsm/service-request-management/slas,informational
+thought map,60500,78,48,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+thought mapping,60500,56,51,https://www.atlassian.com/work-management/project-management/mind-mapping,informational
+what do pmo mean,60500,15,19,https://www.atlassian.com/agile/project-management/pmo,informational
+what do pmo means,60500,22,21,https://www.atlassian.com/agile/project-management/pmo,informational
+what does mean pmo,60500,16,9,https://www.atlassian.com/agile/project-management/pmo,informational
+what does pmo mean,60500,13,16,https://www.atlassian.com/agile/project-management/pmo,informational
+what does pmo means,60500,16,14,https://www.atlassian.com/agile/project-management/pmo,informational
+agile,49500,58,4,https://www.atlassian.com/agile,informational
+checklist,49500,43,14,https://www.atlassian.com/software/confluence/resources/guides/how-to/checklist,informational
+cloud computing and cloud services,49500,51,68,https://www.atlassian.com/microservices/cloud-computing,commercial
+cloud computing services,49500,59,71,https://www.atlassian.com/microservices/cloud-computing,commercial
+define infrastructure,49500,28,18,https://www.atlassian.com/itsm/it-operations-management/it-infrastructure,informational
+define iterative,49500,20,6,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+define iteratively,49500,21,13,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+defining principles,49500,18,27,https://www.atlassian.com/blog/leadership/research-backed-leadership-principles,informational
+definition iterative,49500,20,11,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+definition of iterative,49500,22,13,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+evrone,49500,86,45,https://marketplace.atlassian.com/vendors/1227332/nevron-software-llc,informational
+firehydrant,49500,32,23,https://marketplace.atlassian.com/vendors/1221116/firehydrant,transactional
+graph pie chart,49500,25,11,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+graphic pie chart,49500,44,16,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+how can you screen shot on a computer,49500,15,38,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+how to clear browser cache,49500,38,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear cache on website,49500,53,16,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear web browser cache,49500,61,27,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+how to clear website cache,49500,55,27,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+infrastructure meaning,49500,33,29,https://www.atlassian.com/itsm/it-operations-management/it-infrastructure,informational
+iterative definition,49500,21,14,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+iteratively definition,49500,10,21,https://www.atlassian.com/work-management/project-management/iterative-process,informational
+objectives meaning,49500,13,26,https://www.atlassian.com/work-management/project-management/project-objectives,informational
+pie chart,49500,27,7,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+pie charts,49500,23,31,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+pie diagram,49500,24,31,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+pie graphics,49500,29,10,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+remote software engineer jobs,49500,0,62,https://www.atlassian.com/company/careers/all-jobs,informational
+7 9s,40500,12,11,https://www.atlassian.com/blog/statuspage/high-availability,informational
+atlassian corp stock,40500,19,21,https://investors.atlassian.com/stock-information/default.aspx,informational
+atlassian corporation stock,40500,19,18,https://investors.atlassian.com/stock-information/default.aspx,informational
+atlassian share,40500,33,16,https://investors.atlassian.com/,informational
+atlassian shares,40500,16,16,https://investors.atlassian.com/,commercial
+atlassian stock,40500,16,23,https://investors.atlassian.com/stock-information/default.aspx,informational
+atlassian stocks,40500,24,15,https://investors.atlassian.com/stock-information/default.aspx,informational
+aws service status,40500,52,17,https://www.atlassian.com/blog/statuspage/aws-status-complete-guide-monitoring-status-webs-largest-cloud-provider,informational
+aws services status,40500,53,24,https://www.atlassian.com/blog/archives/aws-status-complete-guide-monitoring-status-webs-largest-cloud-provider,informational
+aws status,40500,52,9,https://www.atlassian.com/blog/statuspage/aws-status-complete-guide-monitoring-status-webs-largest-cloud-provider,informational
+concept map,40500,45,17,https://www.atlassian.com/work-management/project-management/concept-mapping,informational
+concept mapping,40500,26,11,https://www.atlassian.com/work-management/project-management/concept-mapping,informational
+concept maps,40500,28,16,https://www.atlassian.com/work-management/project-management/concept-mapping,informational
+conceptual map,40500,50,16,https://www.atlassian.com/work-management/project-management/concept-mapping,informational
+dunning kruger,40500,58,18,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+dunning-kruger,40500,29,15,https://www.atlassian.com/blog/productivity/dunning-kruger-effect,informational
+how to screen record,40500,36,22,https://www.atlassian.com/blog/loom/how-to-do-a-screen-recording,informational
+kanban,40500,57,2,https://www.atlassian.com/agile/kanban,informational
+percy,40500,32,20,https://marketplace.atlassian.com/vendors/1216964/percy,informational
+pmo,40500,29,5,https://www.atlassian.com/agile/project-management/pmo,informational
+proposal request,40500,7,11,https://www.atlassian.com/software/confluence/resources/guides/how-to/request-proposal,informational
+screen capture on windows,40500,11,29,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screen capture windows,40500,33,38,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screenshot in windows,40500,33,38,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screenshot of window,40500,42,51,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screenshot windows,40500,38,33,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screenshot with windows,40500,23,30,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+scrum,40500,76,5,https://www.atlassian.com/agile/scrum,informational
+stakeholder,40500,32,17,https://www.atlassian.com/teams/marketing/guide/stakeholder-management,informational
+take screenshot on windows,40500,24,26,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+taking screenshot on windows,40500,20,33,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+trunk based development,40500,26,3,https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development,informational
+trunk-based development,40500,21,3,https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development,informational
+windows screen capture,40500,25,17,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+activities to build teamwork,33100,15,79,https://www.atlassian.com/blog/development/team-building-without-games,informational
+ai video editors,33100,47,46,https://www.atlassian.com/blog/loom/ai-video-editor,transactional
+bitbucket,33100,60,3,https://www.atlassian.com/software/bitbucket,navigational
+black duck,33100,30,13,https://marketplace.atlassian.com/vendors/1211315/black-duck-software,informational
+black duck software,33100,42,22,https://marketplace.atlassian.com/vendors/1211315/black-duck-software,navigational
+blackduck,33100,87,26,https://marketplace.atlassian.com/vendors/1211315/black-duck-software,informational
+brainstorming,33100,37,18,https://www.atlassian.com/work-management/project-collaboration/brainstorming,informational
+browserstack,33100,25,16,https://marketplace.atlassian.com/vendors/1214106/browserstack,navigational
+build trigger in jenkins,33100,0,7,https://support.atlassian.com/automation/kb/trigger-the-jenkins-build-from-jira-automation/,informational
+build trigger jenkins,33100,0,8,https://community.atlassian.com/forums/Bitbucket-questions/Manually-trigger-build-on-local-jenkins-server-adding-in-query/qaq-p/2191830,navigational
+build triggers in jenkins,33100,0,24,https://support.atlassian.com/automation/kb/trigger-the-jenkins-build-from-jira-automation/,informational
+build triggers jenkins,33100,0,19,https://support.atlassian.com/automation/kb/trigger-the-jenkins-build-from-jira-automation/,informational
+burn down chart,33100,13,4,https://www.atlassian.com/agile/tutorials/burndown-charts,informational
+burndown chart,33100,26,2,https://www.atlassian.com/agile/tutorials/burndown-charts,informational
+burndown graph,33100,26,4,https://www.atlassian.com/agile/tutorials/burndown-charts,informational
+chart organization,33100,31,19,https://www.atlassian.com/blog/teamwork/9-common-org-charts-demystified,informational
+chrome cache clear,33100,15,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+chrome clear browser cache,33100,30,8,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+chrome delete cache,33100,21,17,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clear browser cache chrome,33100,19,16,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clear cache chrome,33100,33,18,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+clear cache chromebook,33100,13,48,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+defined variables,33100,26,29,https://community.atlassian.com/forums/Bitbucket-questions/How-to-define-variables-at-the-pipeline-or-step-level/qaq-p/2563140,informational
+delete cache chrome,33100,27,15,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+documentation,33100,29,6,https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation,informational
+epics definition,33100,21,4,https://www.atlassian.com/agile/project-management/epics,informational
+epics means,33100,13,5,https://www.atlassian.com/agile/project-management/epics,informational
+i can't s,33100,14,102,https://community.atlassian.com/forums/Jira-questions/Updating-custom-fields-with-scriptrunner-can-t-see-where-I-m/qaq-p/1091036,informational
+it support,33100,48,21,https://www.atlassian.com/itsm/service-request-management/it-support,informational
+j.ai,33100,42,82,https://www.atlassian.com/software/jira,informational
+jenkins build triggers,33100,0,28,https://support.atlassian.com/automation/kb/trigger-the-jenkins-build-from-jira-automation/,informational
+kanban board,33100,41,4,https://www.atlassian.com/agile/kanban/boards,informational
+kanban boards,33100,41,4,https://www.atlassian.com/agile/kanban/boards,informational
+leader quotes,33100,15,4,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+leadership and quotes,33100,5,7,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+leadership is quotes,33100,7,7,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+leadership qualities quotes,33100,15,4,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+leadership quotes,33100,15,7,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+left brain vs right brain,33100,27,16,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+left side brain vs right side brain,33100,38,19,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+left versus right brain,33100,29,17,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+left vs right brain,33100,24,19,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+left vs right brain functions,33100,38,19,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+login era,33100,47,15,https://www.atlassian.com/software/jira,navigational
+make pie graph,33100,23,21,https://www.atlassian.com/data/charts/pie-chart-complete-guide,informational
+naming and branding,33100,1,12,https://www.atlassian.com/blog/strategy/brand-naming,informational
+okr,33100,49,9,https://www.atlassian.com/agile/agile-at-scale/okr,informational
+okrs,33100,25,3,https://www.atlassian.com/agile/agile-at-scale/okr,informational
+org chart,33100,35,14,https://www.atlassian.com/software/confluence/templates/org-chart,informational
+organizational chart,33100,35,15,https://www.atlassian.com/blog/teamwork/9-common-org-charts-demystified,informational
+organizational hierarchy chart,33100,30,18,https://www.atlassian.com/blog/teamwork/9-common-org-charts-demystified,informational
+parallel ci,33100,9,39,https://support.atlassian.com/bitbucket-cloud/docs/parallel-step-options/,informational
+pc screen capture,33100,55,45,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+pivot reports,33100,17,4,https://marketplace.atlassian.com/apps/1215414/pivot-report-roll-up-epic-issues-worklogs-time-in-status,informational
+prudential regulation authority,33100,39,28,https://www.atlassian.com/trust/compliance/resources/ukpra,navigational
+quotation about leadership,33100,4,3,https://www.atlassian.com/blog/leadership/leadership-quotes,informational
+quotations about leader,33100,5,4,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+quotes about leadership,33100,15,4,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+quotes on leadership by leaders,33100,15,3,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+quotes on leadership qualities,33100,5,4,https://www.atlassian.com/blog/teamwork/leadership-quotes,informational
+raci,33100,34,8,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+raci diagram,33100,26,2,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+raci document,33100,46,3,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+raci framework,33100,48,4,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+raci matrix,33100,48,7,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+raci model,33100,29,2,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+rasci matrix,33100,7,48,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+record screen windows,33100,35,14,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+remove chrome cache,33100,23,13,https://support.atlassian.com/bitbucket-cloud/kb/how-to-clear-browser-cache-for-chrome-edge-firefox-and-safari/,informational
+responsibility matrix,33100,13,25,https://www.atlassian.com/work-management/project-management/raci-chart,informational
+right brain vs left brain,33100,41,17,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+right versus left brain,33100,19,20,https://www.atlassian.com/blog/innovation/left-brain-vs-right-brain,informational
+right vs left brain,33100,31,17,https://www.atlassian.com/blog/productivity/left-brain-vs-right-brain,informational
+screen capture on pc,33100,30,39,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screen capture recorder windows,33100,55,29,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screen record on mac,33100,13,9,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+screen record on windows,33100,54,16,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screen record windows,33100,42,26,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screen recorder windows,33100,54,31,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,transactional
+screen recording on mac,33100,11,10,https://www.atlassian.com/blog/loom/how-to-screen-record-mac,informational
+screen recording tool windows,33100,58,26,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screen recording windows,33100,54,16,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screen shot on a pc,33100,11,54,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+screen video recorder windows,33100,58,32,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+screenshot on pc,33100,26,38,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+scrum master,33100,52,7,https://www.atlassian.com/agile/scrum/scrum-master,informational
+servant leader,33100,31,22,https://www.atlassian.com/blog/leadership/you-got-served-redefining-what-it-means-to-be-a-leader,informational
+servant leader leadership,33100,40,37,https://www.atlassian.com/blog/leadership/you-got-served-redefining-what-it-means-to-be-a-leader,informational
+servant leadership,33100,47,36,https://www.atlassian.com/blog/leadership/you-got-served-redefining-what-it-means-to-be-a-leader,informational
+shower thoughts,33100,5,39,https://community.atlassian.com/forums/Watercooler-discussions/Friday-Fun-Share-your-most-random-shower-thoughts/td-p/2498368,informational
+strikethrough key shortcut,33100,0,73,https://support.atlassian.com/trello/docs/how-to-format-your-text-in-trello/,informational
+team building activities for teams,33100,17,17,https://www.atlassian.com/blog/teamwork/5-minute-team-building-activities-for-virtual-teams,informational
+team meeting,33100,56,4,https://www.atlassian.com/work-management/project-collaboration/team-meetings,informational
+using ai,33100,27,23,https://www.atlassian.com/blog/ai-at-work/artificial-intelligence-101-the-basics-of-ai,informational
+using artificial intelligence,33100,51,32,https://www.atlassian.com/blog/artificial-intelligence/artificial-intelligence-101-the-basics-of-ai,informational
+what are kpis,33100,46,10,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+what is cloud,33100,56,25,https://www.atlassian.com/microservices/cloud-computing,informational
+what is it cloud,33100,56,52,https://www.atlassian.com/microservices/cloud-computing,informational
+what is kpi,33100,36,9,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+what is kpis,33100,68,11,https://www.atlassian.com/work-management/project-management/project-planning/kpi,informational
+which of the following is not included in the group,33100,0,22,https://community.atlassian.com/forums/Jira-questions/It-s-possible-to-include-one-group-in-inside-in-another-group/qaq-p/1662704,informational
+wikigames,33100,47,42,https://community.atlassian.com/forums/Confluence-articles/The-Wikipedia-Game-amp-an-Essential-Confluence-Shortcut/ba-p/1276482,informational
+windows program to record screen,33100,47,25,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+windows screen capture keyboard shortcut,33100,20,29,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+windows screen capture shortcut,33100,17,22,https://www.atlassian.com/blog/loom/screen-capture-windows,informational
+windows screen record,33100,35,14,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+windows screen recorder tool,33100,23,14,https://www.atlassian.com/blog/loom/best-screen-recorder,transactional
+windows screen recording,33100,55,24,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+windows video screen recording,33100,55,30,https://www.atlassian.com/blog/loom/how-to-screen-record-windows-pc,informational
+active listening,27100,51,32,https://www.atlassian.com/blog/communication/active-listening,informational
+define pmo,27100,14,5,https://www.atlassian.com/agile/project-management/pmo,informational
+define service level agreement,27100,50,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+define service level agreements,27100,50,4,https://www.atlassian.com/itsm/service-request-management/slas,informational
+define sla,27100,52,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+define slas,27100,51,4,https://www.atlassian.com/itsm/service-request-management/slas,informational
+definition of a service level agreement,27100,50,6,https://www.atlassian.com/itsm/service-request-management/slas,informational
+definition of pmo,27100,14,5,https://www.atlassian.com/agile/project-management/pmo,informational
+definition of service level agreement,27100,50,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+definition of service level agreements,27100,50,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+definition of sla,27100,52,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+definition pmo,27100,15,2,https://www.atlassian.com/agile/project-management/pmo,informational
+definition service level agreement,27100,50,5,https://www.atlassian.com/itsm/service-request-management/slas,informational
+devop meaning,27100,53,10,https://www.atlassian.com/devops,informational
+devops,27100,86,15,https://www.atlassian.com/devops,informational
+draw a scatter diagram that might represent each relation,27100,0,40,https://www.atlassian.com/data/charts/what-is-a-scatter-plot,informational
+era meaning,27100,2,46,https://www.atlassian.com/software/jira,informational
+erd,27100,26,21,https://www.atlassian.com/work-management/project-management/entity-relationship-diagram,informational
+flow chart maker,27100,42,49,https://www.atlassian.com/work-management/project-management/flowchart,transactional
+flow map maker,27100,42,51,https://www.atlassian.com/work-management/project-management/flowchart,transactional
+heap maps,27100,16,14,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+heat chart,27100,21,17,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+heat charts,27100,18,9,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+heat map,27100,48,14,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+heat maps,27100,27,6,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+heatmap,27100,77,39,https://www.atlassian.com/data/charts/heatmap-complete-guide,informational
+help desk,27100,34,6,https://www.atlassian.com/itsm/service-request-management/help-desk,navigational
+helpdesk,27100,75,10,https://www.atlassian.com/itsm/service-request-management/help-desk,navigational
+how to block a number,27100,30,43,https://support.atlassian.com/jira-service-management-cloud/docs/blocking-a-phone-number-in-a-call-routing/,informational
+how to screenshot on a mac,27100,30,30,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+ishikawa fishbone,27100,27,15,https://www.atlassian.com/software/confluence/templates/fishbone-diagram,informational
+ishikawa fishbone diagram,27100,33,42,https://www.atlassian.com/software/confluence/templates/fishbone-diagram,informational
+jac,27100,27,21,https://community.atlassian.com/forums/Jira-articles/What-is-JAC-and-how-to-use-it/ba-p/1763554,informational
+loom define,27100,12,14,https://support.atlassian.com/loom/docs/what-is-loom/,informational
+loom screen recorder,27100,52,13,https://www.atlassian.com/blog/loom/pc-screen-recorder,transactional
+loom screen recording,27100,46,8,https://www.atlassian.com/blog/loom/how-to-do-a-screen-recording,informational
+macbook screen capture shortcut,27100,32,21,https://www.atlassian.com/blog/loom/mac-screen-capture,informational
+meaning of pmo,27100,21,16,https://www.atlassian.com/agile/project-management/pmo,informational
+meaning of sla,27100,50,4,https://www.atlassian.com/itsm/service-request-management/slas,informational
+meaning pmo,27100,14,18,https://www.atlassian.com/agile/project-management/pmo,informational

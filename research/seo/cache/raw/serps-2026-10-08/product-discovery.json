@@ -1,0 +1,541 @@
+{
+  "id": "10081545-2633-0066-0000-d67a50aff1cc",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Product Discovery Framework - Product Discovery - Aktia Solutions](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:4)\n[Product discovery](https://www.atlassian.com/agile/product-management/discovery) is `the ongoing process of understanding user needs, exploring problems, and validating ideas before writing code or building solutions`.[[1]](https://www.atlassian.com/agile/product-management/discovery)[[2]](https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0)\n\n### Core Purpose\n\n- **Reduce risk** : Lower the chances of building features that users do not want or need.\n- **Define problem space** : Focus on real customer pain points before jumping to solutions.\n- **Validate assumptions** : Test desirability, feasibility, and viability early through rapid experiments.[[1]](https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0)[[2]](https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/)[[3]](https://www.productplan.com/glossary/product-discovery)[[4]](https://herbig.co/product-discovery/)[[5]](https://www.producttalk.org/product-discovery/)\n\n### Key Steps\n\n- **Understand users** : Conduct interviews, surveys, and data analysis to build empathy.\n- **Define opportunities** : Map customer needs to clear business outcomes using frameworks like [Opportunity Solution Trees](https://www.producttalk.org/product-discovery/).\n- **Explore solutions** : Brainstorm, prototype, and test concepts with real users.[[1]](https://www.reddit.com/r/ProductManagement/comments/y1fa7d/how_to_start_doing_product_discovery/)[[2]](https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/)[[3]](https://www.productplan.com/glossary/product-discovery)[[4]](https://amplitude.com/blog/product-discovery-benefits)[[5]](https://www.youtube.com/watch?v=XkdwTRPVrqk&t=9)[[6]](https://www.producttalk.org/product-discovery/)\n\nIf you want to dive deeper, let me know:\n\n- Are you looking for specific **frameworks** (like Double Diamond or Design Sprints)?\n- Do you need help with **interview techniques** or **prototyping tools**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Product discovery is the ongoing process of understanding user needs, exploring problems, and validating ideas before writing code or building solutions.",
+          "markdown": "![Product Discovery Framework - Product Discovery - Aktia Solutions](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:2)\n[Product discovery](https://www.atlassian.com/agile/product-management/discovery) is `the ongoing process of understanding user needs, exploring problems, and validating ideas before writing code or building solutions`.[[1]](https://www.atlassian.com/agile/product-management/discovery)[[2]](https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Product discovery",
+              "url": "https://www.atlassian.com/agile/product-management/discovery",
+              "domain": "www.atlassian.com"
+            }
+          ],
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Product Discovery Framework - Product Discovery - Aktia Solutions",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/discovery",
+              "title": "Product discovery | Atlassian",
+              "text": "Product Discovery: Process of understanding customer needs and validating ideas before building solutions by answering four questi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "antmurphy.medium.com",
+              "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0",
+              "title": "Medium",
+              "text": "Core Definition: Product discovery is an ongoing or phased process of reducing risk, uncertainty, and waste through learning and r..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Purpose",
+          "text": "Reduce risk : Lower the chances of building features that users do not want or need. Define problem space : Focus on real customer pain points before jumping to solutions. Validate assumptions : Test desirability, feasibility, and viability early through rapid experiments.",
+          "markdown": "- **Reduce risk** : Lower the chances of building features that users do not want or need.\n- **Define problem space** : Focus on real customer pain points before jumping to solutions.\n- **Validate assumptions** : Test desirability, feasibility, and viability early through rapid experiments.[[1]](https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0)[[2]](https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/)[[3]](https://www.productplan.com/glossary/product-discovery)[[4]](https://herbig.co/product-discovery/)[[5]](https://www.producttalk.org/product-discovery/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "antmurphy.medium.com",
+              "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0",
+              "title": "Medium",
+              "text": "Core Definition: Product discovery is an ongoing or phased process of reducing risk, uncertainty, and waste through learning and r..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productboard",
+              "domain": "www.productboard.com",
+              "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/",
+              "title": "Guide: Product Discovery Process & Techniques | Productboard",
+              "text": "Product Discovery: Precedes delivery to reduce value, usability, feasibility, and business viability risks by validating user need..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/glossary/product-discovery",
+              "title": "Product Discovery | Glossary | ProductPlan",
+              "text": "Definition: Product discovery involves understanding customers and using that knowledge to build vital products, prioritizing feat..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Tim Herbig",
+              "domain": "herbig.co",
+              "url": "https://herbig.co/product-discovery/",
+              "title": "Product Discovery: A Practical Guide for Product Teams",
+              "text": "Definition: Evidence-informed process of reducing uncertainty to find problems worth solving and solutions worth building. Problem..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product Talk",
+              "domain": "www.producttalk.org",
+              "url": "https://www.producttalk.org/product-discovery/",
+              "title": "Product Discovery Basics: Everything You Need to Know",
+              "text": "Definition: Product discovery involves deciding what to build by including customers in decisions; product delivery is building an..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Steps",
+          "text": "Understand users : Conduct interviews, surveys, and data analysis to build empathy. Define opportunities : Map customer needs to clear business outcomes using frameworks like Opportunity Solution Trees. Explore solutions : Brainstorm, prototype, and test concepts with real users.",
+          "markdown": "- **Understand users** : Conduct interviews, surveys, and data analysis to build empathy.\n- **Define opportunities** : Map customer needs to clear business outcomes using frameworks like [Opportunity Solution Trees](https://www.producttalk.org/product-discovery/).\n- **Explore solutions** : Brainstorm, prototype, and test concepts with real users.[[1]](https://www.reddit.com/r/ProductManagement/comments/y1fa7d/how_to_start_doing_product_discovery/)[[2]](https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/)[[3]](https://www.productplan.com/glossary/product-discovery)[[4]](https://amplitude.com/blog/product-discovery-benefits)[[5]](https://www.youtube.com/watch?v=XkdwTRPVrqk&t=9)[[6]](https://www.producttalk.org/product-discovery/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Opportunity Solution Trees",
+              "url": "https://www.producttalk.org/product-discovery/",
+              "domain": "www.producttalk.org"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ProductManagement/comments/y1fa7d/how_to_start_doing_product_discovery/",
+              "title": "How to start doing product discovery? : r/ProductManagement - Reddit",
+              "text": "Exploration and Validation: Product discovery encompasses two key phases: exploration, which involves researching problems and ide..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productboard",
+              "domain": "www.productboard.com",
+              "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/",
+              "title": "Guide: Product Discovery Process & Techniques | Productboard",
+              "text": "Product Discovery: Precedes delivery to reduce value, usability, feasibility, and business viability risks by validating user need..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/glossary/product-discovery",
+              "title": "Product Discovery | Glossary | ProductPlan",
+              "text": "Definition: Product discovery involves understanding customers and using that knowledge to build vital products, prioritizing feat..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/product-discovery-benefits",
+              "title": "Product Discovery: Definition, Benefits, and Techniques - Amplitude",
+              "text": "Product discovery is all about understanding customer needs and validating potential solutions before investing resources into pro..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=XkdwTRPVrqk&t=9",
+              "title": "Product Strategy and Product Discovery",
+              "text": "Product Strategy and Product Discovery but as important as it is it's not enough i'm product management expert Roman Pisa. and in ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product Talk",
+              "domain": "www.producttalk.org",
+              "url": "https://www.producttalk.org/product-discovery/",
+              "title": "Product Discovery Basics: Everything You Need to Know",
+              "text": "Definition: Product discovery involves deciding what to build by including customers in decisions; product delivery is building an..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you want to dive deeper, let me know:Are you looking for specific frameworks (like Double Diamond or Design Sprints)?\nDo you need help with interview techniques or prototyping tools ?",
+          "markdown": "If you want to dive deeper, let me know:\n\n- Are you looking for specific **frameworks** (like Double Diamond or Design Sprints)?\n- Do you need help with **interview techniques** or **prototyping tools**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/agile/product-management/discovery",
+          "title": "Product discovery | Atlassian",
+          "text": "Product Discovery: Process of understanding customer needs and validating ideas before building solutions by answering four questi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/y1fa7d/how_to_start_doing_product_discovery/",
+          "title": "How to start doing product discovery? : r/ProductManagement - Reddit",
+          "text": "Exploration and Validation: Product discovery encompasses two key phases: exploration, which involves researching problems and ide..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Medium",
+          "domain": "antmurphy.medium.com",
+          "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0",
+          "title": "Medium",
+          "text": "Core Definition: Product discovery is an ongoing or phased process of reducing risk, uncertainty, and waste through learning and r..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Tim Herbig",
+          "domain": "herbig.co",
+          "url": "https://herbig.co/product-discovery/",
+          "title": "Product Discovery: A Practical Guide for Product Teams",
+          "text": "Definition: Evidence-informed process of reducing uncertainty to find problems worth solving and solutions worth building. Problem..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Productboard",
+          "domain": "www.productboard.com",
+          "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/",
+          "title": "Guide: Product Discovery Process & Techniques | Productboard",
+          "text": "Product Discovery: Precedes delivery to reduce value, usability, feasibility, and business viability risks by validating user need..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Product Talk",
+          "domain": "www.producttalk.org",
+          "url": "https://www.producttalk.org/product-discovery/",
+          "title": "Product Discovery Basics: Everything You Need to Know",
+          "text": "Definition: Product discovery involves deciding what to build by including customers in decisions; product delivery is building an..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ProductPlan",
+          "domain": "www.productplan.com",
+          "url": "https://www.productplan.com/glossary/product-discovery",
+          "title": "Product Discovery | Glossary | ProductPlan",
+          "text": "Definition: Product discovery involves understanding customers and using that knowledge to build vital products, prioritizing feat..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Amplitude",
+          "domain": "amplitude.com",
+          "url": "https://amplitude.com/blog/product-discovery-benefits",
+          "title": "Product Discovery: Definition, Benefits, and Techniques - Amplitude",
+          "text": "Product discovery is all about understanding customer needs and validating potential solutions before investing resources into pro..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=XkdwTRPVrqk&t=9",
+          "title": "Product Strategy and Product Discovery",
+          "text": "Product Strategy and Product Discovery but as important as it is it's not enough i'm product management expert Roman Pisa. and in ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "Product discovery",
+      "url": "https://www.atlassian.com/agile/product-management/discovery",
+      "breadcrumb": "https://www.atlassian.com › Agile › Product Management",
+      "website_name": "Atlassian",
+      "description": "Product discovery is the process of understanding customer needs and validating ideas before building solutions.",
+      "highlighted": [
+        "Product discovery"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is product discovery?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the stages of product discovery?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What's the difference between Jira and Jira product discovery?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does discovery mean in business?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvenYV0neOKOO4qO2xqYHIb-_CqnA:1791474343017&q=product+discovery&udm=2&source=univ&fir=ys4lZkCLyWdnRM%252CkiB_D2YxrAMmHM%252C_%253BSjf-ULY7s9ewiM%252Cf5xSoL4oXxPNBM%252C_%253BUNsZt6NOM4DYoM%252CGW5nAzdyMBl4BM%252C_%253BJ_XIokTYOnGQ_M%252CBB5rXuhtr18pcM%252C_%253B1qPGRxQYdmhzlM%252CmK3_IXzp7if0QM%252C_%253BgRZ1F3E_2s5e8M%252CkiB_D2YxrAMmHM%252C_%253B0m4d-bmnUKQnlM%252C7GoMqIi-boMH_M%252C_%253Brse_4GiCx6m_DM%252C5Vs7RlaJzWNE9M%252C_%253BvGQDUJ6f4afBDM%252C5aAopA3HpjBn8M%252C_&usg=AI4_-kRNhJw71y-x3I7QnOV2-GL5PdqZuQ&sa=X&ved=2ahUKEwj35tn-4aqXAxWzCBAIHWwIEnkQ7Al6BAgoEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Product Discovery Guide: 4 Stages to Understanding Users | Maze",
+          "url": "https://maze.co/guides/product-discovery/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Discovery Framework - Product Discovery - Aktia ...",
+          "url": "https://aktiasolutions.com/product-discovery-framework/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Discovery Process: How we guide our clients from ...",
+          "url": "https://www.netvor.co/blog/product-discovery-process-how-we-guide-our-clients-from-idea-to-tangible-product-specification",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d67a50aff1cc:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "Guide: Product Discovery Process & Techniques | Productboard",
+          "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpsHHBFArqHc5qxD8-7Efrses5itbZ2As3C7I7P2OW5KSxNUrZnbqnRjk&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is Product Discovery? The Ultimate Guide Step-by-Step",
+          "url": "https://www.productcompass.pm/p/what-exactly-is-product-discovery",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9jsXUO2EsDgpR5LqLM4q81A1rKlh-lbaMFBSM3JuRAuA_HwkinLUC1Z4&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Discovery Guide: 4 Stages to Understanding Users | Maze",
+          "url": "https://maze.co/guides/product-discovery/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bRyhGImRR70vsLJF88yWaNjfGDU_OZvN5veYaKCTFJWmMC_lmEOKBdw&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Discovery: A Practical Guide for Product Teams",
+          "url": "https://herbig.co/product-discovery/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7R32j0khc4FgdhlONKXsd0u3Gb60bsJDCDFVfSygXRLqBKhCVLkj2vDs&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is Product Discovery? [Process, Methods, and Benefits]",
+          "url": "https://www.thefountaininstitute.com/blog/what-is-product-discovery",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUPchi9ZnI_-keSHqU57_d8jxmy_NUX9wPMBjJyfs_XLSHGFeQk4atPnU&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "An Actionable Guide to Product Discovery: the Workflow I've ...",
+          "url": "https://www.sebastienphlix.com/essays/guide-to-product-discovery",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzY99avKpP9CQVxRfB5nLVvZ9rWFx0Fuv77zoP_1ZqgGztj8BEK_7xBBQ&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "antmurphy.medium.com",
+      "title": "I asked 40 product leaders 'What is Product Discovery?'",
+      "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0",
+      "breadcrumb": "1 year ago",
+      "website_name": "Medium · Ant Murphy",
+      "description": "Product Discovery is the process of understanding user needs, validating problems, and testing solutions before building the product. Getting to ... Read more",
+      "highlighted": [
+        "Product Discovery"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0#:~:text=Product%20Discovery%20is%20the%20process,Getting%20to",
+          "domain": "antmurphy.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.productboard.com",
+      "title": "Guide: Product Discovery Process & Techniques",
+      "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/",
+      "breadcrumb": "https://www.productboard.com › blog › step-by-step-fr...",
+      "website_name": "Productboard",
+      "description": "Mar 19, 2025 — In short, product discovery is a process that helps product teams refine their ideas by deeply understanding real user problems and then landing ... Read more",
+      "pre_snippet": "03/19/2025 00:00:00",
+      "highlighted": [
+        "product discovery"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/#:~:text=In%20short%2C%20product%20discovery%20is,best%20way%20to%20solve%20them.",
+          "domain": "www.productboard.com"
+        }
+      ],
+      "timestamp": "2025-03-19 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "productschool.com",
+      "title": "The Definitive Guide to Product Discovery and Frameworks",
+      "url": "https://productschool.com/blog/product-fundamentals/what-is-product-discovery",
+      "breadcrumb": "https://productschool.com › Blog › Product Fundamentals",
+      "website_name": "Product School",
+      "description": "Jan 22, 2026 — Product discovery is the process of finding and validating product opportunities. It's a critical early step in the Product Management process. ...",
+      "pre_snippet": "01/22/2026 00:00:00",
+      "highlighted": [
+        "Product discovery is the process of finding and validating product opportunities"
+      ],
+      "timestamp": "2026-01-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "amplitude.com",
+      "title": "Product Discovery: Definition, Benefits, and Techniques",
+      "url": "https://amplitude.com/blog/product-discovery-benefits",
+      "breadcrumb": "https://amplitude.com › blog › product-discovery-benef...",
+      "website_name": "Amplitude",
+      "description": "Apr 5, 2024 — Product discovery is a process that helps you decide what products and features to prioritize and build.",
+      "pre_snippet": "04/05/2024 00:00:00",
+      "highlighted": [
+        "Product discovery"
+      ],
+      "timestamp": "2024-04-05 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Experienced PMs, how do you actually do product discovery?",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1ru1kcr/experienced_pms_how_do_you_actually_do_product/",
+      "breadcrumb": "100+ comments  ·  6 months ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "Hi, I have a question for more experienced PMs here.\n\nHow do you handle product discovery? What does your process look like from start to finish?\n\nWhat ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "104 answers",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1ru1kcr/experienced_pms_how_do_you_actually_do_product/oai6bet/",
+          "domain": "www.reddit.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "A Step-by-Step Guide to Better Product Discovery",
+      "url": "https://www.youtube.com/watch?v=ZCXYj59bTBA",
+      "breadcrumb": "25K+ views  ·  3 years ago",
+      "website_name": "YouTube · Productboard",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2023-03-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.pendo.io",
+      "title": "What is Product Discovery? 2025 ...",
+      "url": "https://www.pendo.io/glossary/product-discovery/",
+      "breadcrumb": "https://www.pendo.io › Glossary Pages",
+      "website_name": "Pendo",
+      "description": "Product discovery is the iterative process in product management of understanding your target audience's needs, challenges, and desires to inform the ... Read more",
+      "highlighted": [
+        "Product discovery"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Product Discovery Vs...",
+          "url": "https://www.pendo.io/glossary/product-discovery/#:~:text=Product%20discovery%20vs.%20product%20development%3A%20Key%20differences",
+          "domain": "www.pendo.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Platform",
+          "url": "https://www.pendo.io/glossary/product-discovery/#:~:text=Platform,-Analytics",
+          "domain": "www.pendo.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Solutions",
+          "url": "https://www.pendo.io/glossary/product-discovery/#:~:text=Solutions,-Pendo%20for%20Product",
+          "domain": "www.pendo.io"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Product Discovery Jira",
+        "Product discovery process",
+        "Product discovery book",
+        "Product discovery examples",
+        "Product discovery frameworks",
+        "Product discovery course",
+        "Product Discovery pricing",
+        "Product discovery AI"
+      ]
+    }
+  ]
+}

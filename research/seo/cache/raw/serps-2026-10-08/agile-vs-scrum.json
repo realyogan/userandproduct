@@ -1,0 +1,427 @@
+{
+  "id": "10081545-2633-0066-0000-40861af1e003",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Agile vs Scrum: Understanding the Dynamics of Modern Project ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:4)\n`Agile is a broad project management philosophy, while Scrum is a specific, structured framework used to put Agile principles into practice`.[[1]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[2]](https://business.adobe.com/blog/basics/agile-vs-scrum-project-management)\n\n### What is Agile?\n\n- **Definition:** A mindset and set of values centered on flexibility, continuous iteration, and customer collaboration.\n- **Core Principles:** Rooted in the Agile Manifesto , prioritizing individuals, working solutions, and responding to change over strict processes.\n- **Flexibility:** Does not mandate specific rules, mandatory meetings, or predefined roles.\n- **Alternatives:** Can be implemented through various frameworks like Scrum or Kanban.[[1]](https://www.atlassian.com/agile/scrum/agile-vs-scrum)[[2]](https://miro.com/agile/scrum-vs-agile-methodology/)[[3]](https://www.coursera.org/articles/agile-vs-scrum)[[4]](https://www.youtube.com/watch?v=bqi0EOlAmtU&t=13)[[5]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[6]](https://www.agilesherpas.com/blog/agile-vs-scrum)\n\n### What is Scrum?\n\n- **Definition:** A prescriptive framework designed to execute Agile values through defined cycles.\n- **Structure:** Organizes work into fixed-length **Sprints** (usually 1 to 4 weeks long).\n- **Defined Roles:** Assigns specific responsibilities, including the Product Owner, Scrum Master, and Developers.\n- **Ceremonies:** Requires specific events like daily standups, sprint planning, and retrospectives.[[1]](https://slack.com/blog/collaboration/agile-vs-scrum)[[2]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[3]](https://miro.com/agile/scrum-vs-agile-methodology/)[[4]](https://www.atlassian.com/agile/scrum/agile-vs-scrum)[[5]](https://www.youtube.com/watch?v=ls2F3y4kSFA&vl=en&t=95)\n\n### Key Differences\n| Feature | Agile | Scrum |\n|---|---|---|\n| **Type** | Philosophy and mindset | Actionable framework |\n| **Rules** | Open-ended and adaptable | Prescriptive with strict rules |\n| **Roles** | Not explicitly defined | Product Owner, Scrum Master, Team |\n| **Workflow** | Continuous delivery or flow | Time-boxed Sprints |\n\nIf you'd like, let me know:\n\n- What **kind of project or team** you are working with\n- Whether you prefer **strict structure** or **continuous flow** \n\nI can help you decide if Scrum or another Agile approach fits best.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Agile is a broad project management philosophy, while Scrum is a specific, structured framework used to put Agile principles into practice.",
+          "markdown": "![Agile vs Scrum: Understanding the Dynamics of Modern Project ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:2)\n`Agile is a broad project management philosophy, while Scrum is a specific, structured framework used to put Agile principles into practice`.[[1]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[2]](https://business.adobe.com/blog/basics/agile-vs-scrum-project-management)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Agile vs Scrum: Understanding the Dynamics of Modern Project ...",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Project Management Academy",
+              "domain": "projectmanagementacademy.net",
+              "url": "https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/",
+              "title": "Agile vs Scrum: Key Differences, Benefits, and Certifications",
+              "text": "What is the Difference Between Agile and Scrum? Agile is a broad philosophy—a mindset based on values like collaboration, adaptabi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Adobe for Business",
+              "domain": "business.adobe.com",
+              "url": "https://business.adobe.com/blog/basics/agile-vs-scrum-project-management",
+              "title": "Difference between Agile and Scrum in project management",
+              "text": "The primary difference between Agile and Scrum is that Agile is a broad project management methodology, whereas Scrum is a specifi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "What is Agile?",
+          "text": "Definition: A mindset and set of values centered on flexibility, continuous iteration, and customer collaboration. Core Principles: Rooted in the Agile Manifesto, prioritizing individuals, working solutions, and responding to change over strict processes. Flexibility: Does not mandate specific rules, mandatory meetings, or predefined roles. Alternatives: Can be implemented through various frameworks like Scrum or Kanban.",
+          "markdown": "- **Definition:** A mindset and set of values centered on flexibility, continuous iteration, and customer collaboration.\n- **Core Principles:** Rooted in the Agile Manifesto , prioritizing individuals, working solutions, and responding to change over strict processes.\n- **Flexibility:** Does not mandate specific rules, mandatory meetings, or predefined roles.\n- **Alternatives:** Can be implemented through various frameworks like Scrum or Kanban.[[1]](https://www.atlassian.com/agile/scrum/agile-vs-scrum)[[2]](https://miro.com/agile/scrum-vs-agile-methodology/)[[3]](https://www.coursera.org/articles/agile-vs-scrum)[[4]](https://www.youtube.com/watch?v=bqi0EOlAmtU&t=13)[[5]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[6]](https://www.agilesherpas.com/blog/agile-vs-scrum)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/scrum/agile-vs-scrum",
+              "title": "What is Scrum in Agile? | Atlassian",
+              "text": "Agile: Project management philosophy emphasizing adaptability, customer collaboration, and flexible scope with fixed time and reso..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Miro",
+              "domain": "miro.com",
+              "url": "https://miro.com/agile/scrum-vs-agile-methodology/",
+              "title": "Agile vs Scrum: Key Differences and How to Choose - Miro",
+              "text": "Summary. In this guide, you will learn: Agile is a philosophy, Scrum is a specific Agile framework. Agile emphasizes flexibility, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Coursera",
+              "domain": "www.coursera.org",
+              "url": "https://www.coursera.org/articles/agile-vs-scrum",
+              "title": "Agile vs. Scrum: Key Differences + How to Choose | Coursera",
+              "text": "Agile: Project management philosophy based on the Agile Manifesto (individuals over processes, working software, customer collabor..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=bqi0EOlAmtU&t=13",
+              "title": "Agile Vs. Scrum: How to Choose The Best Methodology for Your Team",
+              "text": "Agile Vs. Scrum: How to Choose The Best Methodology for Your Team and I'm going to break it down from what agile and scrum actuall..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Agile Sherpas",
+              "domain": "www.agilesherpas.com",
+              "url": "https://www.agilesherpas.com/blog/agile-vs-scrum",
+              "title": "Agile vs Scrum: Everything You Need to Know",
+              "text": "For example, the Agile Manifesto is just 68 words while the latest Scrum Guide comes out to over 3,800. So while working in an Agi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "What is Scrum?",
+          "text": "Definition: A prescriptive framework designed to execute Agile values through defined cycles. Structure: Organizes work into fixed-length Sprints (usually 1 to 4 weeks long). Defined Roles: Assigns specific responsibilities, including the Product Owner, Scrum Master, and Developers. Ceremonies: Requires specific events like daily standups, sprint planning, and retrospectives.",
+          "markdown": "- **Definition:** A prescriptive framework designed to execute Agile values through defined cycles.\n- **Structure:** Organizes work into fixed-length **Sprints** (usually 1 to 4 weeks long).\n- **Defined Roles:** Assigns specific responsibilities, including the Product Owner, Scrum Master, and Developers.\n- **Ceremonies:** Requires specific events like daily standups, sprint planning, and retrospectives.[[1]](https://slack.com/blog/collaboration/agile-vs-scrum)[[2]](https://projectmanagementacademy.net/resources/blog/agile-vs-scrum-what-you-need-to-know/)[[3]](https://miro.com/agile/scrum-vs-agile-methodology/)[[4]](https://www.atlassian.com/agile/scrum/agile-vs-scrum)[[5]](https://www.youtube.com/watch?v=ls2F3y4kSFA&vl=en&t=95)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Slack",
+              "domain": "slack.com",
+              "url": "https://slack.com/blog/collaboration/agile-vs-scrum",
+              "title": "Agile vs. Scrum: What They Are and When to Use Each | Slack",
+              "text": "Scope. A specific scrum framework used to implement Agile principles. Structure. Defined roles (product owner, scrum master, devel..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ls2F3y4kSFA&vl=en&t=95",
+              "title": "A Quick Guide to Mastering These Project Management Philosophies",
+              "text": "but here's where the confusion often lies scrum is agile but agile isn't scrum agile is the overarching philosophy while scrum is ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Differences",
+          "text": "Feature Agile Scrum\nType Philosophy and mindset Actionable framework\nRules Open-ended and adaptable Prescriptive with strict rules\nRoles Not explicitly defined Product Owner, Scrum Master, Team\nWorkflow Continuous delivery or flow Time-boxed Sprints",
+          "markdown": "| Feature | Agile | Scrum |\n|---|---|---|\n| **Type** | Philosophy and mindset | Actionable framework |\n| **Rules** | Open-ended and adaptable | Prescriptive with strict rules |\n| **Roles** | Not explicitly defined | Product Owner, Scrum Master, Team |\n| **Workflow** | Continuous delivery or flow | Time-boxed Sprints |"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, let me know:What kind of project or team you are working with\nWhether you prefer strict structure or continuous flow\nI can help you decide if Scrum or another Agile approach fits best.",
+          "markdown": "If you'd like, let me know:\n\n- What **kind of project or team** you are working with\n- Whether you prefer **strict structure** or **continuous flow** \n\nI can help you decide if Scrum or another Agile approach fits best."
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuLfAst0Q4cPTUVpJ6zsDUdUmn6CA:1791474399819&q=agile+vs+scrum&udm=2&source=univ&fir=hgEvewdNy-1k2M%252C_tdKh20TPmfmJM%252C_%253BM6CdfzFjT57RIM%252CTRslUYVHB5XrmM%252C_%253BtJnKaM7wLWycbM%252CXV9A3hsltDiznM%252C_%253BQH813U0f6JnRJM%252C6CRLN6qVfRN1lM%252C_%253BDLbKDgLozu0LvM%252CXFw1YX4RnGiKRM%252C_%253B3Sut3NO40ehzpM%252CbsycM0omM9aKDM%252C_%253BxbqYsh1rOpV79M%252C4xNOItH3NH9JuM%252C_%253BjTV-TwOFcJ2BYM%252C69C0kjlhSeAuwM%252C_%253BR1hsYWyWHXRb2M%252CnHGel5rEyKhRiM%252C_&usg=AI4_-kTu91O4Dp7hzJxsf_H-f2mV1iXxKQ&sa=X&ved=2ahUKEwjorOaZ4qqXAxXwp5UCHQQEC1kQ7Al6BAgmEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Difference Between Agile Vs Waterfall Vs Scrum In SDLC",
+          "url": "https://www.bdtask.com/blog/agile-vs-waterfall-vs-scrum",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum?",
+          "url": "https://www.linkedin.com/pulse/agile-vs-scrum-ctfl-istqb-a-istqb-tm-csm-cspo-pmp--59jtc",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum Difference and How They Work Together",
+          "url": "https://www.lcmd.io/en/blog/is-scrum-actually-agile-understanding-key-differences-between-agile-vs-scrum",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-40861af1e003:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum: Understanding the Dynamics of Modern Project ...",
+          "url": "https://dumpsgate.com/agile-vs-scrum/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI3-HC5jfBhdynsbw60zwuInOnrNaN_OcGbUg05amyTK6rBwo0Go6rJkg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum - Key Differences Explained | K21 Academy",
+          "url": "https://k21academy.com/scrum/agile-vs-scrum/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSOBICrFWZQPcqsfavk9c4V3PpiZ7LWapic4mPzdD1RwpXrGpGJzeS87Q&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Scrum vs Agile: which framework is best for your needs?",
+          "url": "https://twproject.com/blog/scrum-vs-agile-which-framework-is-best-for-your-needs/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM2YlzlTCfgOWdBRpL52mi4QQ7QCIOYynGMJdS4B-0HlIjljM4DjxcOw&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum: Choosing the Right Methodology for Your ...",
+          "url": "https://www.6sigma.us/project-management/agile-vs-scrum/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwiGe70MfSFWl06xUgtTIv7yu_1iMma1oT2-RdigFUo7pCg6Pj4j_3RCQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum: Choose the Right Methodology | Motion | Motion",
+          "url": "https://www.usemotion.com/blog/agile-vs-scrum.html",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWUDvMT03zZAwJIYgiB2RhpR_nSChooMmSNI3_6BJHOPAtxrU1jN83F8o&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Agile vs Scrum: Key Differences Explained",
+          "url": "https://www.invensislearning.com/blog/agile-vs-scrum/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRroMzsGsxzl6lsZS-a4af8RyYj93HQRw7I-NsxxYu62yq6gEz-18BXs40&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 3 C's of Scrum?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is agile only for software?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is Jira agile or Scrum?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 3 5 3 rule of Scrum?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "agilemania.com",
+      "title": "What is Agile and Scrum? Agile Methodology Explained",
+      "url": "https://agilemania.com/what-is-agile-and-scrum",
+      "breadcrumb": "https://agilemania.com › Blog",
+      "website_name": "Agilemania",
+      "description": "Feb 14, 2022 — Scrum is a subset of Agile. It is defined by set rules and best practices that govern the software development process and its absence will ... Read more",
+      "pre_snippet": "02/14/2022 00:00:00",
+      "highlighted": [
+        "Scrum is a subset of Agile"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://agilemania.com/what-is-agile-and-scrum#:~:text=Scrum%20is%20a%20subset%20of,will%20result%20in%20absolute%20failure.",
+          "domain": "agilemania.com"
+        }
+      ],
+      "timestamp": "2022-02-14 00:00:00 +00:00"
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Why can't people see the difference between Agile and Scrum?",
+          "url": "https://www.reddit.com/r/agile/comments/11qbula/why_cant_people_see_the_difference_between_agile/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2023-10-08 15:46:41 +00:00",
+          "posts_count": 50
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Agile vs Scrum: what's the difference?",
+          "url": "https://www.scrum.org/forum/scrum-forum/70671/agile-vs-scrum-whats-difference",
+          "domain": "www.scrum.org",
+          "source": "Scrum.org",
+          "timestamp": "2023-10-08 15:46:41 +00:00",
+          "posts_count": 3
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Can you explain the differences between Agile methodology and scrum ...",
+          "url": "https://www.quora.com/Can-you-explain-the-differences-between-Agile-methodology-and-scrum-methodology-What-are-the-main-features-benefits-and-limitations-of-each",
+          "domain": "www.quora.com",
+          "source": "Quora",
+          "timestamp": "2025-10-08 15:46:41 +00:00",
+          "posts_count": 40
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.ilxgroup.com",
+      "title": "Agile vs Scrum: What's the difference and which should ...",
+      "url": "https://www.ilxgroup.com/nzd/blog/agile-vs-scrum-whats-the-difference-and-which-should-you-use",
+      "breadcrumb": "https://www.ilxgroup.com › ... › Resource Centre › Blogs",
+      "website_name": "ILX Group",
+      "description": "Aug 19, 2026 — The difference between Agile and Scrum is straightforward: Agile is a philosophy, while Scrum is one framework that follows that philosophy. Read more",
+      "pre_snippet": "08/19/2026 00:00:00",
+      "highlighted": [
+        "Agile is a philosophy, while Scrum is one framework that follows that philosophy"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.ilxgroup.com/nzd/blog/agile-vs-scrum-whats-the-difference-and-which-should-you-use#:~:text=The%20difference%20between%20Agile%20and,framework%20that%20follows%20that%20philosophy.",
+          "domain": "www.ilxgroup.com"
+        }
+      ],
+      "timestamp": "2026-08-19 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.larksuite.com",
+      "title": "Agile vs. Scrum: Key differences and how to choose",
+      "url": "https://www.larksuite.com/en_us/blog/agile-vs-scrum",
+      "breadcrumb": "https://www.larksuite.com › en_us › blog › agile-vs-scr...",
+      "website_name": "Lark",
+      "description": "Sep 18, 2026 — Confused about Agile vs. Scrum? Our guide breaks down the core differences in methodology and project management to help you decide which is ...",
+      "pre_snippet": "09/18/2026 00:00:00",
+      "highlighted": [
+        "Agile vs. Scrum"
+      ],
+      "timestamp": "2026-09-18 00:00:00 +00:00"
+    },
+    {
+      "type": "video",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "items": [
+        {
+          "type": "video_element",
+          "source": "Coursera · Coursera",
+          "title": "Agile vs. Scrum: A Quick Guide to Mastering These Project ...",
+          "timestamp": "2026-01-12 00:00:00 +00:00",
+          "url": "https://www.coursera.org/articles/agile-vs-scrum-video"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · ClickIT DevOps & Software Development",
+          "title": "Agile vs Scrum Differences Explained | Roles & Responsibilities",
+          "timestamp": "2024-09-10 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=H9RfPohoz3s"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · monday.com",
+          "title": "Agile Vs. Scrum: How to Choose The Best Methodology for ...",
+          "timestamp": "2025-06-11 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=bqi0EOlAmtU"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.coursera.org",
+      "title": "Agile vs. Scrum: How to Choose the Best Method",
+      "url": "https://www.coursera.org/ca/articles/agile-vs-scrum",
+      "breadcrumb": "https://www.coursera.org › articles › agile-vs-scrum",
+      "website_name": "Coursera",
+      "description": "May 20, 2024 — Agile is one approach to project management, while Scrum is a type of Agile methodology. Learn more about the key differences in this guide.",
+      "pre_snippet": "05/20/2024 00:00:00",
+      "highlighted": [
+        "Agile is one approach to project management"
+      ],
+      "timestamp": "2024-05-20 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What is Scrum, and how is it different from Agile ...",
+      "url": "https://www.quora.com/What-is-Scrum-and-how-is-it-different-from-Agile-methodology",
+      "breadcrumb": "40+ answers  ·  5 years ago",
+      "website_name": "Quora",
+      "description": "What is Scrum, and how is it different from Agile methodology?",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "42 answers",
+          "url": "https://www.quora.com/What-is-Scrum-and-how-is-it-different-from-Agile-methodology?top_ans=230261026",
+          "domain": "www.quora.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.c-sharpcorner.com",
+      "title": "Agile Or Scrum - Which One To Choose And Why?",
+      "url": "https://www.c-sharpcorner.com/article/agile-or-scrum-which-one-is-need-to-choose-and-why?srsltid=AU7gw4X4gsaFu0U9VW4eMj_LVy2fJi-9LHNKmWirGQ_EPHNKCpISd_3R",
+      "breadcrumb": "https://www.c-sharpcorner.com › ... › Agile Development",
+      "website_name": "C-Sharp Corner",
+      "description": "Apr 9, 2020 — agile is a mindset or group of concepts, but scrum is the implementation of these concepts.",
+      "pre_snippet": "04/09/2020 00:00:00",
+      "highlighted": [
+        "agile is a mindset or group of concepts"
+      ],
+      "timestamp": "2020-04-09 00:00:00 +00:00"
+    }
+  ]
+}

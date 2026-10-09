@@ -1,0 +1,355 @@
+{
+  "id": "10081545-2633-0066-0000-e5d550863f04",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.optimizely.com",
+      "title": "Sample Size Calculator",
+      "url": "https://www.optimizely.com/tools/sample-size-calculator",
+      "breadcrumb": "https://www.optimizely.com › tools › sample-size-calcul...",
+      "website_name": "Optimizely",
+      "description": "A/B test sample size calculatorsample. Powered by Optimizely Experimentation's stats engine. Sample size per variation 13,000 Questions",
+      "highlighted": [
+        "A/B test"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.evanmiller.org",
+      "title": "Sample Size Calculator (Evan's Awesome A/B Tools)",
+      "url": "https://www.evanmiller.org/ab-testing/sample-size.html",
+      "breadcrumb": "https://www.evanmiller.org › ab-testing › sample-size",
+      "website_name": "Evan Miller",
+      "description": "Visual, interactive sample size calculator ideal for planning online experiments and A/B tests. Sample size: 1,030 per variation. Run an A/B Test",
+      "highlighted": [
+        "Visual, interactive sample size calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.statsig.com",
+      "title": "A/B Test Sample Size Calculator",
+      "url": "https://www.statsig.com/calculator",
+      "breadcrumb": "https://www.statsig.com › calculator",
+      "website_name": "Statsig",
+      "description": "Calculator to determine sample size for A/B Tests. The calculator will use these values to determine the optimal sample size for your study. Its output will be ...",
+      "highlighted": [
+        "Calculator to determine sample size for A/B Tests"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "abtestguide.com",
+      "title": "A/B Test Size Calculator",
+      "url": "https://abtestguide.com/abtestsize/",
+      "breadcrumb": "https://abtestguide.com › abtestsize",
+      "website_name": "ABTestGuide.com",
+      "description": "Calculate how many visitors you need for your A/B-test. Free beta A/B-test size calculator by Arend Zwaneveld",
+      "highlighted": [
+        "Free beta A/B-test size calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "wingify.com",
+      "title": "A/B Test Sample Size Calculator",
+      "url": "https://wingify.com/tools/ab-test-sample-size-calculator/",
+      "breadcrumb": "https://wingify.com › Free Tools",
+      "website_name": "Wingify",
+      "description": "Estimate required duration and sample sizes for different statistical configurations with Wingify's free calculator.",
+      "highlighted": [
+        "Estimate required duration and sample sizes"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "clincalc.com",
+      "title": "Sample Size Calculator",
+      "url": "https://clincalc.com/stats/samplesize.aspx",
+      "breadcrumb": "https://clincalc.com › stats › samplesize",
+      "website_name": "ClinCalc",
+      "description": "Jun 23, 2024 — Calculator to determine the minimum number of subjects to enroll in a study for adequate power.",
+      "pre_snippet": "06/23/2024 00:00:00",
+      "highlighted": [
+        "Calculator"
+      ],
+      "timestamp": "2024-06-23 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "cxl.com",
+      "title": "AB Test Calculator",
+      "url": "https://cxl.com/ab-test-calculator/",
+      "breadcrumb": "https://cxl.com › ab-test-calculator",
+      "website_name": "CXL",
+      "description": "The A/B Test Calculator helps you plan and analyze experiments with precision. It calculates sample size, test duration, and statistical significance,",
+      "highlighted": [
+        "calculates sample size"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "stats.stackexchange.com",
+      "title": "AB test sample size calculation by hand - Cross Validated",
+      "url": "https://stats.stackexchange.com/questions/392979/ab-test-sample-size-calculation-by-hand",
+      "breadcrumb": "https://stats.stackexchange.com › questions › ab-test-sa...",
+      "website_name": "Stack Exchange",
+      "description": "Feb 17, 2019 — Evan Miller has created a well-known online AB test sample size calculator. For the sake of being able to program and modify this formula, I would like ...",
+      "pre_snippet": "02/17/2019 00:00:00",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "3 answers",
+          "url": "https://stats.stackexchange.com/a/498953",
+          "domain": "stats.stackexchange.com"
+        }
+      ],
+      "timestamp": "2019-02-17 00:00:00 +00:00"
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 9,
+      "page": 1,
+      "markdown": "You can calculate your required sample size using online tools like the [Sample Size Calculator (Evan's Awesome A/B Tools)](https://www.evanmiller.org/ab-testing/sample-size.html) or the [Statsig A/B Test Sample Size Calculator](https://www.statsig.com/calculator).[[1]](https://www.evanmiller.org/ab-testing/sample-size.html)[[2]](https://www.statsig.com/calculator)\n\n### Key Inputs Needed\n\nTo run the calculation, you need four core parameters:[[1]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)\n\n- **Baseline conversion rate:** Your current conversion rate for the control group (e.g., 10%).\n- **Minimum Detectable Effect (MDE):** The smallest relative or absolute change you want to detect (e.g., a 20% relative lift).\n- **Significance level (α):** The chance of a false positive, usually set to 5% (corresponding to a 95% confidence level).\n- **Statistical power (1-β):** The probability of detecting a real effect if it exists, usually set to 80%.[[1]](https://www.evanmiller.org/ab-testing/sample-size.html)[[2]](https://cxl.com/ab-test-calculator/)[[3]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)\n\n### How to Find Your Test Duration\n\n1. Enter your inputs into the calculator to get the **required sample size per variation**.\n2. Multiply that number by the total number of variants (including your control).\n3. Divide the total sample size by your average **daily or weekly traffic** exposed to the test to see how many days or weeks the experiment must run.[[1]](https://www.kameleoon.com/ab-testing-calculator)[[2]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)[[3]](https://growthlayer.app/calculator/sample-size-calculator)\n\nIf you share your **baseline conversion rate** , your **daily/weekly traffic** , and the **MDE you want to detect** , I can help you estimate your exact sample size and test duration.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate your required sample size using online tools like the Sample Size Calculator (Evan's Awesome A/B Tools) or the Statsig A/B Test Sample Size Calculator.",
+          "markdown": "You can calculate your required sample size using online tools like the [Sample Size Calculator (Evan's Awesome A/B Tools)](https://www.evanmiller.org/ab-testing/sample-size.html) or the [Statsig A/B Test Sample Size Calculator](https://www.statsig.com/calculator).[[1]](https://www.evanmiller.org/ab-testing/sample-size.html)[[2]](https://www.statsig.com/calculator)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Sample Size Calculator (Evan's Awesome A/B Tools)",
+              "url": "https://www.evanmiller.org/ab-testing/sample-size.html",
+              "domain": "www.evanmiller.org"
+            },
+            {
+              "type": "link_element",
+              "title": "Statsig A/B Test Sample Size Calculator",
+              "url": "https://www.statsig.com/calculator",
+              "domain": "www.statsig.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Evan Miller",
+              "domain": "www.evanmiller.org",
+              "url": "https://www.evanmiller.org/ab-testing/sample-size.html",
+              "title": "Sample Size Calculator (Evan's Awesome A/B Tools) - Evan Miller",
+              "text": "Sample Size Calculator (Evan's Awesome A/B Tools) Evan's Awesome A/B Tools (home): Sample Size Calculator | Chi-Squared Test | Seq..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Statsig",
+              "domain": "www.statsig.com",
+              "url": "https://www.statsig.com/calculator",
+              "title": "A/B Test Sample Size Calculator - Statsig",
+              "text": "Inputs: Baseline conversion rate (preexisting control rate); minimum detectable effect (relative minimum difference desired); hypo..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Inputs Needed",
+          "text": "To run the calculation, you need four core parameters:",
+          "markdown": "To run the calculation, you need four core parameters:[[1]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "atticusli.com",
+              "domain": "atticusli.com",
+              "url": "https://atticusli.com/blog/posts/ab-test-sample-size-guide/",
+              "title": "A/B Test Sample Size & MDE Calculator Guide",
+              "text": "FAQ * Do I need to adjust sample size for more than two variants? Yes. Every additional variant needs its own full per-variant all..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Baseline conversion rate: Your current conversion rate for the control group (e.g., 10%). Minimum Detectable Effect (MDE): The smallest relative or absolute change you want to detect (e.g., a 20% relative lift). Significance level (α): The chance of a false positive, usually set to 5% (corresponding to a 95% confidence level). Statistical power (1-β): The probability of detecting a real effect if it exists, usually set to 80%.",
+          "markdown": "- **Baseline conversion rate:** Your current conversion rate for the control group (e.g., 10%).\n- **Minimum Detectable Effect (MDE):** The smallest relative or absolute change you want to detect (e.g., a 20% relative lift).\n- **Significance level (α):** The chance of a false positive, usually set to 5% (corresponding to a 95% confidence level).\n- **Statistical power (1-β):** The probability of detecting a real effect if it exists, usually set to 80%.[[1]](https://www.evanmiller.org/ab-testing/sample-size.html)[[2]](https://cxl.com/ab-test-calculator/)[[3]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Evan Miller",
+              "domain": "www.evanmiller.org",
+              "url": "https://www.evanmiller.org/ab-testing/sample-size.html",
+              "title": "Sample Size Calculator (Evan's Awesome A/B Tools) - Evan Miller",
+              "text": "Sample Size Calculator (Evan's Awesome A/B Tools) Evan's Awesome A/B Tools (home): Sample Size Calculator | Chi-Squared Test | Seq..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "CXL",
+              "domain": "cxl.com",
+              "url": "https://cxl.com/ab-test-calculator/",
+              "title": "AB Test Calculator: Plan & Analyze Your Experiments Precisely - CXL",
+              "text": "The A/B Test Calculator helps you plan and analyze experiments with precision. It calculates sample size, test duration, and stati..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "atticusli.com",
+              "domain": "atticusli.com",
+              "url": "https://atticusli.com/blog/posts/ab-test-sample-size-guide/",
+              "title": "A/B Test Sample Size & MDE Calculator Guide",
+              "text": "FAQ * Do I need to adjust sample size for more than two variants? Yes. Every additional variant needs its own full per-variant all..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "How to Find Your Test Duration",
+          "text": "Enter your inputs into the calculator to get the required sample size per variation. Multiply that number by the total number of variants (including your control). Divide the total sample size by your average daily or weekly traffic exposed to the test to see how many days or weeks the experiment must run.",
+          "markdown": "1. Enter your inputs into the calculator to get the **required sample size per variation**.\n2. Multiply that number by the total number of variants (including your control).\n3. Divide the total sample size by your average **daily or weekly traffic** exposed to the test to see how many days or weeks the experiment must run.[[1]](https://www.kameleoon.com/ab-testing-calculator)[[2]](https://atticusli.com/blog/posts/ab-test-sample-size-guide/)[[3]](https://growthlayer.app/calculator/sample-size-calculator)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Kameleoon",
+              "domain": "www.kameleoon.com",
+              "url": "https://www.kameleoon.com/ab-testing-calculator",
+              "title": "A/B Testing Calculator | Kameleoon",
+              "text": "Calculator Inputs: Baseline metric (5%), daily visitors (10,000), minimum detectable effect (20%), metric type (binomial), alpha ("
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "atticusli.com",
+              "domain": "atticusli.com",
+              "url": "https://atticusli.com/blog/posts/ab-test-sample-size-guide/",
+              "title": "A/B Test Sample Size & MDE Calculator Guide",
+              "text": "FAQ * Do I need to adjust sample size for more than two variants? Yes. Every additional variant needs its own full per-variant all..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "growthlayer.app",
+              "domain": "growthlayer.app",
+              "url": "https://growthlayer.app/calculator/sample-size-calculator",
+              "title": "A/B Test Sample Size Calculator and Duration Planner",
+              "text": "Frequently Asked Questions * How is A/B test sample size calculated?▾ The calculator combines the baseline and target variance wit..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you share your baseline conversion rate, your daily/weekly traffic, and the MDE you want to detect, I can help you estimate your exact sample size and test duration.",
+          "markdown": "If you share your **baseline conversion rate** , your **daily/weekly traffic** , and the **MDE you want to detect** , I can help you estimate your exact sample size and test duration."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Evan Miller",
+          "domain": "www.evanmiller.org",
+          "url": "https://www.evanmiller.org/ab-testing/sample-size.html",
+          "title": "Sample Size Calculator (Evan's Awesome A/B Tools) - Evan Miller",
+          "text": "Sample Size Calculator (Evan's Awesome A/B Tools) Evan's Awesome A/B Tools (home): Sample Size Calculator | Chi-Squared Test | Seq..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Statsig",
+          "domain": "www.statsig.com",
+          "url": "https://www.statsig.com/calculator",
+          "title": "A/B Test Sample Size Calculator - Statsig",
+          "text": "Inputs: Baseline conversion rate (preexisting control rate); minimum detectable effect (relative minimum difference desired); hypo..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "CXL",
+          "domain": "cxl.com",
+          "url": "https://cxl.com/ab-test-calculator/",
+          "title": "AB Test Calculator: Plan & Analyze Your Experiments Precisely - CXL",
+          "text": "The A/B Test Calculator helps you plan and analyze experiments with precision. It calculates sample size, test duration, and stati..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "atticusli.com",
+          "domain": "atticusli.com",
+          "url": "https://atticusli.com/blog/posts/ab-test-sample-size-guide/",
+          "title": "A/B Test Sample Size & MDE Calculator Guide",
+          "text": "FAQ * Do I need to adjust sample size for more than two variants? Yes. Every additional variant needs its own full per-variant all..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Kameleoon",
+          "domain": "www.kameleoon.com",
+          "url": "https://www.kameleoon.com/ab-testing-calculator",
+          "title": "A/B Testing Calculator | Kameleoon",
+          "text": "Calculator Inputs: Baseline metric (5%), daily visitors (10,000), minimum detectable effect (20%), metric type (binomial), alpha ("
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "growthlayer.app",
+          "domain": "growthlayer.app",
+          "url": "https://growthlayer.app/calculator/sample-size-calculator",
+          "title": "A/B Test Sample Size Calculator and Duration Planner",
+          "text": "Frequently Asked Questions * How is A/B test sample size calculated?▾ The calculator combines the baseline and target variance wit..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "Required Sample Size for A/B Testing | by Lance Deng",
+      "url": "https://medium.com/data-science/required-sample-size-for-a-b-testing-6f6608dd330a",
+      "breadcrumb": "480+ likes  ·  6 years ago",
+      "website_name": "Medium · Lance Deng",
+      "description": "Using alpha = 0.05 and beta = 0.20, applying the formula, the required sample size is 1,892 sessions per group. This is consistent with the ... Read more",
+      "highlighted": [
+        "sample size"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://medium.com/data-science/required-sample-size-for-a-b-testing-6f6608dd330a#:~:text=Using%20alpha%20%3D%200.05%20and,results%20from%20this%20web%20calculator.",
+          "domain": "medium.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "AB test sample size formula",
+        "Ab Test sample size calculator excel",
+        "VWO sample size calculator",
+        "Minimum detectable effect calculator",
+        "Optimizely sample size calculator",
+        "Sample size for AB testing",
+        "Power sample size calculator",
+        "Bayesian sample size calculator"
+      ]
+    }
+  ]
+}

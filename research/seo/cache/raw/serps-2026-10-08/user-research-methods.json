@@ -1,0 +1,474 @@
+{
+ "id": "10081545-2633-0066-0000-d94c8907bf21",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "![10 User Research Methods to Help You Design Better Product](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d94c8907bf21:4)\nUser research methods are `techniques used to collect data about user needs, behaviors, and motivations to guide product design and development`.[[1]](https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)\n\n### Core Dimensions of Research\n\n- **Qualitative vs. Quantitative:** Qualitative research explores *why* users act or feel a certain way through small-sample observations and interviews. Quantitative research measures *how much* or *how many* using numerical data and large sample sizes.[[1]](https://maze.co/guides/ux-research/methods/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-types)\n- **Attitudinal vs. Behavioral:** Attitudinal research captures what users *say* they feel or think (via self-reported data like surveys). Behavioral research tracks what users *actually do* in practice (via interaction tracking and testing).[[1]](https://www.nngroup.com/articles/research-methods-glossary/)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)\n- **Generative vs. Evaluative:** Generative research happens early to find unmet needs and shape strategy. Evaluative research tests existing concepts or prototypes to check usability.[[1]](https://www.nngroup.com/articles/which-ux-research-methods/)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)\n\n### Key User Research Methods\n\n- **User Interviews:** One-on-one conversations that reveal deep personal motivations, goals, and frustrations.\n- **Usability Testing:** Observing users as they try to complete specific tasks on a design or product to find friction and usability flaws.\n- **Surveys:** Structured questionnaires used to gather scalable attitudinal data and quantify user sentiment.\n- **Card Sorting:** An exercise where users group information to help design intuitive [Information Architecture](https://www.nngroup.com/articles/which-ux-research-methods/).\n- **Field Studies:** Observing users directly in their natural environment to understand real-world workflows and context.\n- **A/B Testing:** Quantitative split testing that compares two product versions to see which performs better.[[1]](https://formbricks.com/blog/user-research-methods)[[2]](https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations)[[3]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)[[4]](https://figr.design/blog/user-research-methods)[[5]](https://www.nngroup.com/articles/research-methods-glossary/)[[6]](https://maze.co/guides/ux-research/methods/)\n\nYou can review a complete framework breakdown via the NN/G Guide to UX Research Methods.[[1]](https://www.nngroup.com/articles/which-ux-research-methods/)If you want to choose a method, tell me:\n\n- What **phase** is your project in (early idea vs. ready to launch)?\n- Are you trying to learn **what users say** or **what they do**?\n\nI can help you pick the right technique.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "User research methods are techniques used to collect data about user needs, behaviors, and motivations to guide product design and development.",
+     "markdown": "![10 User Research Methods to Help You Design Better Product](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d94c8907bf21:2)\nUser research methods are `techniques used to collect data about user needs, behaviors, and motivations to guide product design and development`.[[1]](https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)",
+     "images": [
+      {
+       "type": "images_element",
+       "alt": "10 User Research Methods to Help You Design Better Product",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-d94c8907bf21:3"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Harvard University",
+       "domain": "enterprisearchitecture.harvard.edu",
+       "url": "https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations",
+       "title": "User Research Methods and Recommendations | Enterprise Architecture",
+       "text": "Purpose: Integrate user research into IT lifecycles to center human dimensions—cognition, behavior, context—improving strategic de..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Leanlab",
+       "domain": "www.leanlab.co",
+       "url": "https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers",
+       "title": "A Simple Guide to User Research Methods for UX Designers",
+       "text": "Qualitative vs. Quantitative. Qualitative research focuses on understanding why users behave in a certain way by learning about th..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Dimensions of Research",
+     "text": "Qualitative vs. Quantitative: Qualitative research explores why users act or feel a certain way through small-sample observations and interviews. Quantitative research measures how much or how many using numerical data and large sample sizes. Attitudinal vs. Behavioral: Attitudinal research captures what users say they feel or think (via self-reported data like surveys). Behavioral research tracks what users actually do in practice (via interaction tracking and testing). Generative vs. Evaluative: Generative research happens early to find unmet needs and shape strategy. Evaluative research tests existing concepts or prototypes to check usability.",
+     "markdown": "- **Qualitative vs. Quantitative:** Qualitative research explores *why* users act or feel a certain way through small-sample observations and interviews. Quantitative research measures *how much* or *how many* using numerical data and large sample sizes.[[1]](https://maze.co/guides/ux-research/methods/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-types)\n- **Attitudinal vs. Behavioral:** Attitudinal research captures what users *say* they feel or think (via self-reported data like surveys). Behavioral research tracks what users *actually do* in practice (via interaction tracking and testing).[[1]](https://www.nngroup.com/articles/research-methods-glossary/)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)\n- **Generative vs. Evaluative:** Generative research happens early to find unmet needs and shape strategy. Evaluative research tests existing concepts or prototypes to check usability.[[1]](https://www.nngroup.com/articles/which-ux-research-methods/)[[2]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Maze",
+       "domain": "maze.co",
+       "url": "https://maze.co/guides/ux-research/methods/",
+       "title": "11 UX Research Methods and When to Use Them | Maze",
+       "text": "Core UX Research Categories: Qualitative (subjective motivations/reasons, small samples) vs Quantitative (numerical data, statisti..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "User Interviews",
+       "domain": "www.userinterviews.com",
+       "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-types",
+       "title": "Types of User Research Methods | UX Research Field Guide",
+       "text": "MCP * UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * Planning fo..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/research-methods-glossary/",
+       "title": "UX Research Methods: Glossary - NN/G",
+       "text": "Attitudinal Methods: Surveys, user interviews, focus groups (self-reported perceptions, \"what users say\"). Behavioral Methods: Usa..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Leanlab",
+       "domain": "www.leanlab.co",
+       "url": "https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers",
+       "title": "A Simple Guide to User Research Methods for UX Designers",
+       "text": "Qualitative vs. Quantitative. Qualitative research focuses on understanding why users behave in a certain way by learning about th..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/which-ux-research-methods/",
+       "title": "When to Use Which User-Experience Research Methods - NN/G",
+       "text": "Framework Dimensions: Attitudinal vs behavioral (say vs do), qualitative vs quantitative (direct observation vs indirect measureme..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Key User Research Methods",
+     "text": "User Interviews: One-on-one conversations that reveal deep personal motivations, goals, and frustrations. Usability Testing: Observing users as they try to complete specific tasks on a design or product to find friction and usability flaws. Surveys: Structured questionnaires used to gather scalable attitudinal data and quantify user sentiment. Card Sorting: An exercise where users group information to help design intuitive Information Architecture. Field Studies: Observing users directly in their natural environment to understand real-world workflows and context. A/B Testing: Quantitative split testing that compares two product versions to see which performs better.",
+     "markdown": "- **User Interviews:** One-on-one conversations that reveal deep personal motivations, goals, and frustrations.\n- **Usability Testing:** Observing users as they try to complete specific tasks on a design or product to find friction and usability flaws.\n- **Surveys:** Structured questionnaires used to gather scalable attitudinal data and quantify user sentiment.\n- **Card Sorting:** An exercise where users group information to help design intuitive [Information Architecture](https://www.nngroup.com/articles/which-ux-research-methods/).\n- **Field Studies:** Observing users directly in their natural environment to understand real-world workflows and context.\n- **A/B Testing:** Quantitative split testing that compares two product versions to see which performs better.[[1]](https://formbricks.com/blog/user-research-methods)[[2]](https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations)[[3]](https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers)[[4]](https://figr.design/blog/user-research-methods)[[5]](https://www.nngroup.com/articles/research-methods-glossary/)[[6]](https://maze.co/guides/ux-research/methods/)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Information Architecture",
+       "url": "https://www.nngroup.com/articles/which-ux-research-methods/",
+       "domain": "www.nngroup.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Formbricks",
+       "domain": "formbricks.com",
+       "url": "https://formbricks.com/blog/user-research-methods",
+       "title": "User Research Methods: 13 Techniques and How to Choose (2026)",
+       "text": "Dimensions: Attitudinal vs Behavioral, Qualitative vs Quantitative, Context of Use, Generative vs Evaluative. Methods & Best Uses:"
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Harvard University",
+       "domain": "enterprisearchitecture.harvard.edu",
+       "url": "https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations",
+       "title": "User Research Methods and Recommendations | Enterprise Architecture",
+       "text": "Purpose: Integrate user research into IT lifecycles to center human dimensions—cognition, behavior, context—improving strategic de..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Leanlab",
+       "domain": "www.leanlab.co",
+       "url": "https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers",
+       "title": "A Simple Guide to User Research Methods for UX Designers",
+       "text": "Qualitative vs. Quantitative. Qualitative research focuses on understanding why users behave in a certain way by learning about th..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Figr",
+       "domain": "figr.design",
+       "url": "https://figr.design/blog/user-research-methods",
+       "title": "User Research Methods: A Practical PM Guide",
+       "text": "Choosing The Right Tool For The Job Choosing the right user research method isn't about picking the most popular one, it's about p..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/research-methods-glossary/",
+       "title": "UX Research Methods: Glossary - NN/G",
+       "text": "Attitudinal Methods: Surveys, user interviews, focus groups (self-reported perceptions, \"what users say\"). Behavioral Methods: Usa..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Maze",
+       "domain": "maze.co",
+       "url": "https://maze.co/guides/ux-research/methods/",
+       "title": "11 UX Research Methods and When to Use Them | Maze",
+       "text": "Core UX Research Categories: Qualitative (subjective motivations/reasons, small samples) vs Quantitative (numerical data, statisti..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "You can review a complete framework breakdown via the NN/G Guide to UX Research Methods.",
+     "markdown": "You can review a complete framework breakdown via the NN/G Guide to UX Research Methods.[[1]](https://www.nngroup.com/articles/which-ux-research-methods/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/which-ux-research-methods/",
+       "title": "When to Use Which User-Experience Research Methods - NN/G",
+       "text": "Framework Dimensions: Attitudinal vs behavioral (say vs do), qualitative vs quantitative (direct observation vs indirect measureme..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you want to choose a method, tell me:What phase is your project in (early idea vs. ready to launch)?\nAre you trying to learn what users say or what they do ?\nI can help you pick the right technique.",
+     "markdown": "If you want to choose a method, tell me:\n\n- What **phase** is your project in (early idea vs. ready to launch)?\n- Are you trying to learn **what users say** or **what they do**?\n\nI can help you pick the right technique."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Nielsen Norman Group",
+     "domain": "www.nngroup.com",
+     "url": "https://www.nngroup.com/articles/which-ux-research-methods/",
+     "title": "When to Use Which User-Experience Research Methods - NN/G",
+     "text": "Framework Dimensions: Attitudinal vs behavioral (say vs do), qualitative vs quantitative (direct observation vs indirect measureme..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Maze",
+     "domain": "maze.co",
+     "url": "https://maze.co/guides/ux-research/methods/",
+     "title": "11 UX Research Methods and When to Use Them | Maze",
+     "text": "Core UX Research Categories: Qualitative (subjective motivations/reasons, small samples) vs Quantitative (numerical data, statisti..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Harvard University",
+     "domain": "enterprisearchitecture.harvard.edu",
+     "url": "https://enterprisearchitecture.harvard.edu/user-research-methods-and-recommendations",
+     "title": "User Research Methods and Recommendations | Enterprise Architecture",
+     "text": "Purpose: Integrate user research into IT lifecycles to center human dimensions—cognition, behavior, context—improving strategic de..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Formbricks",
+     "domain": "formbricks.com",
+     "url": "https://formbricks.com/blog/user-research-methods",
+     "title": "User Research Methods: 13 Techniques and How to Choose (2026)",
+     "text": "Dimensions: Attitudinal vs Behavioral, Qualitative vs Quantitative, Context of Use, Generative vs Evaluative. Methods & Best Uses:"
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Nielsen Norman Group",
+     "domain": "www.nngroup.com",
+     "url": "https://www.nngroup.com/articles/research-methods-glossary/",
+     "title": "UX Research Methods: Glossary - NN/G",
+     "text": "Attitudinal Methods: Surveys, user interviews, focus groups (self-reported perceptions, \"what users say\"). Behavioral Methods: Usa..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Figr",
+     "domain": "figr.design",
+     "url": "https://figr.design/blog/user-research-methods",
+     "title": "User Research Methods: A Practical PM Guide",
+     "text": "Choosing The Right Tool For The Job Choosing the right user research method isn't about picking the most popular one, it's about p..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "User Interviews",
+     "domain": "www.userinterviews.com",
+     "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-types",
+     "title": "Types of User Research Methods | UX Research Field Guide",
+     "text": "MCP * UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * Planning fo..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Leanlab",
+     "domain": "www.leanlab.co",
+     "url": "https://www.leanlab.co/blog/a-simple-guide-to-user-research-methods-for-ux-designers",
+     "title": "A Simple Guide to User Research Methods for UX Designers",
+     "text": "Qualitative vs. Quantitative. Qualitative research focuses on understanding why users behave in a certain way by learning about th..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.equinetacademy.com",
+   "title": "UX Research Methods: When and How to Use Each",
+   "url": "https://www.equinetacademy.com/blog/ux-research-methods-when-and-how-to-use-each/",
+   "breadcrumb": "https://www.equinetacademy.com › blog › ux-research-...",
+   "website_name": "Equinet Academy",
+   "description": "Sep 27, 2026 — Research methods split along two axes: attitudinal (what people say) versus behavioural (what people do), and qualitative (why) versus ... Read more",
+   "pre_snippet": "09/27/2026 00:00:00",
+   "highlighted": [
+    "Research methods"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.equinetacademy.com/blog/ux-research-methods-when-and-how-to-use-each/#:~:text=Research%20methods%20split%20along%20two,(why)%20versus%20quantitative%20(how%20many).",
+     "domain": "www.equinetacademy.com"
+    }
+   ],
+   "timestamp": "2026-09-27 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the four types of research methods?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the different types of user research methods?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 7 types of research methods?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What is the 5-user rule for user testing?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "usability.cuit.columbia.edu",
+   "title": "Research Methods",
+   "url": "https://usability.cuit.columbia.edu/content/research-methods",
+   "breadcrumb": "https://usability.cuit.columbia.edu › content › research-...",
+   "website_name": "Columbia University",
+   "description": "Audience (or user) research is any research conducted on specific, target users to gain information about their background, knowledge, preferences and behaviors ... Read more",
+   "highlighted": [
+    "research conducted on specific, target users"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://usability.cuit.columbia.edu/content/research-methods#:~:text=Benchmark%20Usability%20Testing",
+     "domain": "usability.cuit.columbia.edu"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "uxarmy.com",
+   "title": "User Research Methods, Guides And Tools",
+   "url": "https://uxarmy.com/user-research/",
+   "breadcrumb": "https://uxarmy.com › Resources › Blog",
+   "website_name": "UXArmy",
+   "description": "Practical user research guidance - choosing methods, recruiting participants, running sessions, and turning findings into product decisions.",
+   "highlighted": [
+    "user research",
+    "methods"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.linkedin.com",
+   "title": "Nick Babich - Most Popular UX Research Methods",
+   "url": "https://www.linkedin.com/posts/nbabich_ux-uxresearch-research-activity-7285633847415705600-swyO",
+   "breadcrumb": "280+ reactions  ·  1 year ago",
+   "website_name": "LinkedIn · Nick Babich",
+   "description": "Using a structured framework like Discover, Explore, Test, and Listen ensures that we're always aligned with user needs while iterating for ... Read more",
+   "highlighted": [
+    "Using a structured framework like Discover, Explore, Test, and Listen"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.linkedin.com/posts/nbabich_ux-uxresearch-research-activity-7285633847415705600-swyO#:~:text=Using%20a%20structured%20framework%20like,while%20iterating%20for%20continuous%20improvement.",
+     "domain": "www.linkedin.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "outwitly.com",
+   "title": "Your Guide to Qualitative UX and Design Research Methods",
+   "url": "https://outwitly.com/resources/guide-to-qualitative-ux-and-design-research-methods/",
+   "breadcrumb": "https://outwitly.com › resources › guide-to-qualitative-u...",
+   "website_name": "Outwitly",
+   "description": "This post covers how you can use in-depth interviews, observations, and diary studies for UX and design research projects.",
+   "highlighted": [
+    "in-depth interviews, observations, and diary studies"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "osamaabdelnaser.medium.com",
+   "title": "Learn more about research methods | by Osama Abdelnaser",
+   "url": "https://osamaabdelnaser.medium.com/learn-more-about-ux-research-e177f1a122b2",
+   "breadcrumb": "3 years ago",
+   "website_name": "Medium · Osama Abdelnaser",
+   "description": "Information from direct interactions with users, like interviews, surveys, or usability studies, are considered primary research.",
+   "highlighted": [
+    "interviews, surveys, or usability studies"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.nicheacademy.com",
+   "title": "Webinar: UX Research Methods for Libraries",
+   "url": "https://www.nicheacademy.com/blog/ux-research-methods-for-libraries",
+   "breadcrumb": "https://www.nicheacademy.com › blog › ux-research-me...",
+   "website_name": "Niche Academy",
+   "description": "UX includes examples such as usability testing, A/B testing, card sorting methods, survey research, eye tracking research, diary studies, customer journey ...",
+   "highlighted": [
+    "usability testing, A/B testing, card sorting methods, survey research"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "www.sevenmentor.com",
+   "title": "UX Research Methods Every Designer Should Know",
+   "url": "https://www.sevenmentor.com/ux-research-methods-every-designer-should-know",
+   "breadcrumb": "https://www.sevenmentor.com › ux-research-methods-e...",
+   "website_name": "SevenMentor",
+   "description": "Nov 6, 2025 — 1. Visit users' workplaces or homes. 2. Observe tasks and interactions. 3. Record notes, photos, or videos. Tools: Notion, Air table, audio/ ... Read more",
+   "pre_snippet": "11/06/2025 00:00:00",
+   "highlighted": [
+    "1. Visit users' workplaces or homes"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.sevenmentor.com/ux-research-methods-every-designer-should-know#:~:text=1.%20Visit%20users'%20workplaces%20or,Notion%2C%20Air%20table%2C%20audio%2Fvideo%20recorders",
+     "domain": "www.sevenmentor.com"
+    }
+   ],
+   "timestamp": "2025-11-06 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 9,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "dovetail.com",
+   "title": "What Is Continuous UX Research? Methods, Benefits & FAQs",
+   "url": "https://dovetail.com/ux/what-is-continuous-ux-research/",
+   "breadcrumb": "https://dovetail.com › Guides › User experience (UX)",
+   "website_name": "Dovetail",
+   "description": "Mar 16, 2024 — User interviews happen during the early phases to gather insights about users' needs, experiences, and motivations. · Surveys and questionnaires ... Read more",
+   "pre_snippet": "03/16/2024 00:00:00",
+   "highlighted": [
+    "User interviews happen during the early phases"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://dovetail.com/ux/what-is-continuous-ux-research/#:~:text=User%20interviews%20happen%20during%20the,users'%20needs%2C%20experiences%2C%20and%20motivations.&text=Surveys%20and%20questionnaires%20collect%20data,allow%20for%20and%20validate%20hypotheses.",
+     "domain": "dovetail.com"
+    }
+   ],
+   "timestamp": "2024-03-16 00:00:00 +00:00"
+  }
+ ]
+}

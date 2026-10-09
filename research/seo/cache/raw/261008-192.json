@@ -1,0 +1,432 @@
+{
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "1.4771 sec.",
+    "cost": 0.01224,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "10081813-2633-0399-0000-f0264d318a03",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "1.4160 sec.",
+            "cost": 0.01224,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "se_type": "google",
+                "keyword": "ai product development",
+                "location_code": 2840,
+                "language_code": "en",
+                "limit": 150,
+                "include_seed_keyword": true,
+                "filters": [
+                    [
+                        "keyword_info.search_volume",
+                        ">=",
+                        100
+                    ]
+                ],
+                "order_by": [
+                    "keyword_info.search_volume,desc"
+                ]
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "seed_keyword": "ai product development",
+                    "seed_keyword_data": {
+                        "se_type": "google",
+                        "keyword": "ai product development",
+                        "location_code": 2840,
+                        "language_code": "en",
+                        "keyword_info": {
+                            "se_type": "google",
+                            "last_updated_time": "2026-09-14 23:56:00 +00:00",
+                            "competition": 0.54,
+                            "competition_level": "MEDIUM",
+                            "cpc": 15.32,
+                            "search_volume": 260,
+                            "low_top_of_page_bid": 5.95,
+                            "high_top_of_page_bid": 17.33,
+                            "categories": [
+                                10019,
+                                10168,
+                                10882
+                            ],
+                            "monthly_searches": [
+                                {
+                                    "year": 2026,
+                                    "month": 8,
+                                    "search_volume": 70
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 7,
+                                    "search_volume": 110
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 6,
+                                    "search_volume": 90
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 5,
+                                    "search_volume": 140
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 4,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 3,
+                                    "search_volume": 260
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 2,
+                                    "search_volume": 260
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 1,
+                                    "search_volume": 390
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 12,
+                                    "search_volume": 390
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 11,
+                                    "search_volume": 480
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 10,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 9,
+                                    "search_volume": 480
+                                }
+                            ],
+                            "search_volume_trend": {
+                                "monthly": -36,
+                                "quarterly": -22,
+                                "yearly": -50
+                            }
+                        },
+                        "keyword_info_normalized_with_bing": null,
+                        "keyword_info_normalized_with_clickstream": null,
+                        "clickstream_keyword_info": null,
+                        "keyword_properties": {
+                            "se_type": "google",
+                            "core_keyword": null,
+                            "synonym_clustering_algorithm": "text_processing",
+                            "keyword_difficulty": 14,
+                            "detected_language": "en",
+                            "is_another_language": false,
+                            "words_count": 3
+                        },
+                        "serp_info": {
+                            "se_type": "google",
+                            "check_url": "https:\/\/www.google.com\/search?q=ai%20product%20development&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                            "serp_item_types": [
+                                "ai_overview",
+                                "organic",
+                                "people_also_ask",
+                                "people_also_search",
+                                "video",
+                                "related_searches"
+                            ],
+                            "se_results_count": 132,
+                            "last_updated_time": "2026-07-06 20:44:03 +00:00",
+                            "previous_updated_time": "2026-04-27 02:25:51 +00:00"
+                        },
+                        "search_intent_info": {
+                            "se_type": "google",
+                            "main_intent": "commercial",
+                            "foreign_intent": [
+                                "informational"
+                            ],
+                            "last_updated_time": "2026-04-29 03:29:41 +00:00"
+                        },
+                        "avg_backlinks_info": {
+                            "se_type": "google",
+                            "backlinks": 74.9,
+                            "dofollow": 28.7,
+                            "referring_pages": 69.6,
+                            "referring_domains": 49,
+                            "referring_main_domains": 23.7,
+                            "rank": 115,
+                            "main_domain_rank": 411.2,
+                            "last_updated_time": "2026-07-06 20:46:30 +00:00"
+                        }
+                    },
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "total_count": 2,
+                    "items_count": 2,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYWkgcHJvZHVjdCBkZXZlbG9wbWVudCIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxNTAsIm9mZnNldCI6MCwiYWlkIjoyNjMzMTIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjEwMDgxODEzLTI2MzMtMDM5OS0wMDAwLWYwMjY0ZDMxOGEwMyIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndGUiLCJ2YWx1ZSI6MTAwfSwiSWQiOiI4MWVlNGI5My1mZDFmLTRkM2YtYWYyYi05MGE3N2FkNzE3ZDAiLCJTZWFyY2hBZnRlckRhdGEiOlsyNjAsImQzZTM1ZGY4LWRkNDUtMDEzZi01ZTY2LTc0ZGVlMWZlZWI4YyJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword": "what purpose do fairness measures serve in ai product development",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 04:48:11 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": null,
+                                "search_volume": 590,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10019,
+                                    10168,
+                                    10882
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -97,
+                                    "quarterly": -98,
+                                    "yearly": 100
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": 0,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 10
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 0.3,
+                                "dofollow": 0.3,
+                                "referring_pages": 0.3,
+                                "referring_domains": 0.1,
+                                "referring_main_domains": 0.1,
+                                "rank": 7.8,
+                                "main_domain_rank": 320.5,
+                                "last_updated_time": "2026-08-02 19:47:15 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 00:34:05 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "ai product development",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 23:56:00 +00:00",
+                                "competition": 0.54,
+                                "competition_level": "MEDIUM",
+                                "cpc": 15.32,
+                                "search_volume": 260,
+                                "low_top_of_page_bid": 5.95,
+                                "high_top_of_page_bid": 17.33,
+                                "categories": [
+                                    10019,
+                                    10168,
+                                    10882
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 480
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -36,
+                                    "quarterly": -22,
+                                    "yearly": -50
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 14,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 74.9,
+                                "dofollow": 28.7,
+                                "referring_pages": 69.6,
+                                "referring_domains": 49,
+                                "referring_main_domains": 23.7,
+                                "rank": 115,
+                                "main_domain_rank": 411.2,
+                                "last_updated_time": "2026-07-06 20:46:30 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "commercial",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 03:29:41 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

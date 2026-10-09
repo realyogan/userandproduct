@@ -1,0 +1,78 @@
+unit_id,topic,subtopic,domain,category,group,note
+u59,product owner and product manager roles,,Product,Product management,"Roles (PM, PO, APM, TPM)",roll-up of its sub-topics; counted through them
+u61,product owner and product manager roles,product roles (general),Product,Product management,"Roles (PM, PO, APM, TPM)",general remainder
+u12,analytics,,Business,Product metrics,Product analytics (your call),parked in v1.2; counts 0 unless the owner says yes
+u19,ux and ui design (discipline),,Design,UX design,UX process and the discipline,
+u14,ux research,,Design,UX research,Research methods,roll-up of its sub-topics; counted through them
+u13,project management,,Product,Project management (your call),Methods and phases,"broad field, owner decision"
+u66,"product strategy, discovery and launch",product strategy,Product,Product strategy,Strategy,1 article moved to Product-market fit; 1 (value proposition example) to Product discovery
+u42,web design,,Design,UI design,Web design (your call),"broad field, owner decision"
+u17,ux research,usability testing,Design,UX research,Usability testing,
+u26,"okrs, kpis and metrics",metrics (general),Business,Product metrics,OKRs and KPIs,"general remainder; parked in v1.2, counts 0"
+u18,ux research,ux research (general),Design,UX research,Research methods,general remainder
+u15,ux research,surveys and questionnaires,Design,UX research,Surveys and questionnaires,
+u22,product management (discipline),product management (general),Product,Product management,The discipline,general remainder
+u50,design systems and ui components,,Design,Design systems,Building a design system,roll-up of its sub-topics; counted through them
+u21,product management (discipline),,Product,Product management,The discipline,roll-up of its sub-topics; counted through them
+u69,product roadmap,,Product,Product strategy,Roadmaps,
+u53,requirements and prd,,Product,Product discovery,Requirements and PRDs,
+u63,stakeholder and change management,change management and leadership,Business,Leadership and teams,Stakeholders and change management,
+u38,user stories and acceptance criteria,,Product,Product discovery,User stories,roll-up of its sub-topics; counted through them
+u41,user stories and acceptance criteria,acceptance criteria,Product,Product discovery,Acceptance criteria,
+u32,pricing strategy,pricing strategy types and models,Business,Growth and pricing,Pricing strategy,
+u34,prioritization,,Product,Parked,Prioritization (general),roll-up of its sub-topics; counted through them; parked in v1.2
+u39,user stories and acceptance criteria,user story examples and templates,Product,Product discovery,User stories,
+u35,prioritization,prioritization (general),Product,Parked,Prioritization (general),parked in v1.2
+u60,product owner and product manager roles,product owner,Product,Product management,"Roles (PM, PO, APM, TPM)",
+u30,pricing strategy,,Business,Growth and pricing,Pricing strategy,roll-up of its sub-topics; counted through them
+u70,information architecture,,Design,UX design,Information architecture,
+u65,"product strategy, discovery and launch",,Product,Product strategy,Strategy,roll-up of its sub-topics; counted through them
+u86,ai in product and design work,,Design,UX design,AI in UX work,roll-up of its sub-topics; counted through them; AI tag; this group also gets 1 article from u87
+u25,"okrs, kpis and metrics",okrs,Business,Product metrics,OKRs and KPIs,
+u90,customer experience (cx),,Design,UX design,Customer experience,
+u27,design thinking,,Design,UX design,Design thinking,roll-up of its sub-topics; counted through them
+u91,ux writing and content design,,Design,UX design,UX writing,no difficulty figure
+u24,"okrs, kpis and metrics",,Business,Product metrics,OKRs and KPIs,roll-up of its sub-topics; counted through them
+u51,design systems and ui components,ui components and patterns,Design,UI design,UI components and patterns,
+u02,"agile, scrum and kanban",agile methodology (general),Product,Project management (your call),Agile,general remainder; 1 article (kanban tool) moved to Kanban
+u62,stakeholder and change management,,Business,Leadership and teams,Stakeholders and change management,roll-up of its sub-topics; counted through them
+u16,ux research,interviews and focus groups,Design,UX research,Interviews and focus groups,
+u20,growth marketing and funnels,,Business,Growth and pricing,Growth and funnels,
+u68,"product strategy, discovery and launch",product strategy and discovery (general),Product,Product discovery,Discovery and value proposition,general remainder
+u87,ai in product and design work,ai prototyping and design tools,Design,UI design,AI prototyping tools,AI tag; 1 article (ai tool for ux design) moved to UX design > AI in UX work
+u48,a/b testing and experimentation,a/b testing tools and platforms,Business,Product metrics,Experimentation and A/B testing,
+u01,"agile, scrum and kanban",,Product,Project management (your call),Agile,roll-up of its sub-topics; counted through them
+u10,accessibility,web and digital accessibility,Design,Accessibility,Accessible design in practice,
+u29,design thinking,design thinking process and stages,Design,UX design,Design thinking,
+u08,accessibility,accessibility definitions (general),Design,Accessibility,Guidelines and compliance,"general remainder; parked in v1.2, counts 0"
+u54,go-to-market and product marketing,,Business,Product marketing,Go-to-market,moved from Product strategy
+u05,"agile, scrum and kanban","scrum, sprints and backlog",Product,Project management (your call),Scrum and sprints,1 article (kanban vs scrum) moved to Kanban; 3 (backlog phrases) to Roles and artifacts
+u85,visual design principles,,Design,UI design,Visual design principles,
+u03,"agile, scrum and kanban",agile project management,Product,Project management (your call),Agile,
+u67,"product strategy, discovery and launch",new product development and launch,Business,Product marketing,Product launch,moved from Product strategy
+u55,"retention, churn and engagement",,Business,Product metrics,Retention and churn,roll-up of its sub-topics; counted through them
+u07,accessibility,,Design,Accessibility,Guidelines and compliance,roll-up of its sub-topics; counted through them
+u45,personas and journey maps,personas,Design,UX research,Personas,
+u28,design thinking,design thinking (general),Design,UX design,Design thinking,general remainder
+u89,market research and competitor analysis,,Design,UX research,Market and competitor research,
+u36,prioritization,prioritization frameworks,Product,Product strategy,Prioritization frameworks,
+u88,ai in product and design work,ai in product and ux work (general),Product,Product management,AI for product managers,AI tag
+u40,user stories and acceptance criteria,user stories (general),Product,Product discovery,User stories,general remainder
+u44,personas and journey maps,journey maps and user flows,Design,UX research,Journey maps,
+u31,pricing strategy,pricing strategy (general),Business,Growth and pricing,Pricing strategy,general remainder
+u43,personas and journey maps,,Design,UX research,Personas,roll-up of its sub-topics; counted through them
+u47,a/b testing and experimentation,a/b testing (general),Business,Product metrics,Experimentation and A/B testing,general remainder
+u52,design systems and ui components,design systems,Design,Design systems,Building a design system,1 article (design system example) moved to Design system examples
+u09,accessibility,"guidelines and compliance (wcag, ada, 508)",Design,Accessibility,Guidelines and compliance,
+u56,"retention, churn and engagement",retention rate formulas and calculation,Business,Product metrics,Retention and churn,
+u37,prioritization,task and time prioritization,Product,Parked,Prioritization (general),task and time prioritization; parked in v1.2
+u46,a/b testing and experimentation,,Business,Product metrics,Experimentation and A/B testing,roll-up of its sub-topics; counted through them
+u23,product management (discipline),product life cycle,Product,Product management,Product life cycle,
+u57,"retention, churn and engagement",retention (general),Business,Product metrics,Retention and churn,"general remainder (dictionary part); parked in v1.2, counts 0"
+u58,"retention, churn and engagement",customer retention and loyalty,Business,Product metrics,Retention and churn,
+u64,stakeholder and change management,stakeholder management,Business,Leadership and teams,Stakeholders and change management,
+u33,pricing strategy,company pricing case studies,Business,Growth and pricing,Pricing strategy,no difficulty figure
+u11,accessibility,accessibility testing and checkers,Design,Accessibility,Testing and tools,
+u06,"agile, scrum and kanban",agile manifesto and principles,Product,Project management (your call),Agile,falling on Trends
+u04,"agile, scrum and kanban",scaled agile (safe),Product,Project management (your call),Agile,falling on Trends
+u49,a/b testing and experimentation,"a/b testing in marketing (email, landing pages, ads)",Business,Product metrics,Experimentation and A/B testing,

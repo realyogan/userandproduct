@@ -1,0 +1,56 @@
+topic,subtopic,productplan.com,atlassian.com,coursera.org,amplitude.com,total,gap
+"agile, scrum and kanban",agile methodology (general),2,7,3,0,12,no
+"agile, scrum and kanban",agile project management,1,2,7,0,10,no
+"agile, scrum and kanban",scaled agile (safe),8,0,0,0,8,no
+"agile, scrum and kanban","scrum, sprints and backlog",2,1,0,0,3,yes
+"agile, scrum and kanban",agile manifesto and principles,8,9,2,0,19,no
+accessibility,accessibility definitions (general),0,0,0,0,0,yes
+accessibility,"guidelines and compliance (wcag, ada, 508)",0,0,0,0,0,yes
+accessibility,web and digital accessibility,0,0,0,0,0,yes
+accessibility,accessibility testing and checkers,0,0,0,0,0,yes
+analytics,,1,4,0,6,11,no
+project management,,5,3,4,0,12,no
+ux research,surveys and questionnaires,0,0,0,1,1,yes
+ux research,interviews and focus groups,0,0,0,0,0,yes
+ux research,usability testing,0,0,0,0,0,yes
+ux research,ux research (general),0,0,0,12,12,no
+ux and ui design (discipline),,4,0,0,0,4,yes
+growth marketing and funnels,,0,0,4,3,7,yes
+product management (discipline),product management (general),9,0,0,0,9,no
+product management (discipline),product life cycle,8,0,1,0,9,no
+"okrs, kpis and metrics",okrs,1,2,0,3,6,yes
+"okrs, kpis and metrics",metrics (general),1,0,0,1,2,yes
+design thinking,design thinking (general),0,0,0,0,0,yes
+design thinking,design thinking process and stages,0,0,0,0,0,yes
+pricing strategy,pricing strategy (general),0,0,0,0,0,yes
+pricing strategy,pricing strategy types and models,0,0,0,0,0,yes
+pricing strategy,company pricing case studies,0,0,0,0,0,yes
+prioritization,prioritization (general),4,0,0,0,4,yes
+prioritization,prioritization frameworks,3,0,0,0,3,yes
+prioritization,task and time prioritization,1,4,3,0,8,yes
+user stories and acceptance criteria,user story examples and templates,0,0,0,0,0,yes
+user stories and acceptance criteria,user stories (general),1,0,0,0,1,yes
+user stories and acceptance criteria,acceptance criteria,0,0,0,0,0,yes
+web design,,0,0,0,0,0,yes
+personas and journey maps,journey maps and user flows,5,0,0,9,14,no
+personas and journey maps,personas,2,0,0,1,3,yes
+a/b testing and experimentation,a/b testing (general),0,0,0,5,5,no
+a/b testing and experimentation,a/b testing tools and platforms,0,0,0,3,3,yes
+a/b testing and experimentation,"a/b testing in marketing (email, landing pages, ads)",0,0,2,0,2,yes
+design systems and ui components,ui components and patterns,0,0,2,0,2,yes
+design systems and ui components,design systems,0,0,0,0,0,yes
+requirements and prd,,8,0,0,0,8,no
+go-to-market and product marketing,,6,0,0,11,17,no
+"retention, churn and engagement",retention rate formulas and calculation,0,0,0,1,1,yes
+"retention, churn and engagement",retention (general),4,0,0,1,5,yes
+"retention, churn and engagement",customer retention and loyalty,0,0,0,1,1,yes
+product owner and product manager roles,product owner,0,0,0,0,0,yes
+product owner and product manager roles,product roles (general),1,0,0,0,1,yes
+stakeholder and change management,change management and leadership,1,0,0,0,1,yes
+stakeholder and change management,stakeholder management,0,0,0,0,0,yes
+"product strategy, discovery and launch",product strategy,3,0,0,1,4,yes
+"product strategy, discovery and launch",new product development and launch,2,0,0,2,4,yes
+"product strategy, discovery and launch",product strategy and discovery (general),4,0,0,4,8,yes
+product roadmap,,0,0,0,0,0,yes
+information architecture,,1,0,0,0,1,yes
+unmapped,,404,468,472,435,1779,

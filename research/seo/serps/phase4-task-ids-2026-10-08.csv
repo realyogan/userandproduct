@@ -1,0 +1,57 @@
+task_id,keyword,tag,status
+10081734-2633-0066-0000-1ca56831c8ec,agile methodology,phase4-u01,collected
+10081734-2633-0066-0000-54bff10e0251,agile project management,phase4-u03,collected
+10081734-2633-0066-0000-679f925543f3,safe agile framework,phase4-u04,collected
+10081734-2633-0066-0000-90fd22ef5190,agile scrum,phase4-u05,collected
+10081734-2633-0066-0000-710c1e5d8897,agile manifesto,phase4-u06,collected
+10081734-2633-0066-0000-2a699445f14f,accessibility,phase4-u07,collected
+10081734-2633-0066-0000-be3d26bd4658,accessibility 508,phase4-u09,collected
+10081734-2633-0066-0000-e2e7d31bf1e9,web content accessibility,phase4-u10,collected
+10081734-2633-0066-0000-02c5b1610f54,accessibility checker,phase4-u11,collected
+10081734-2633-0066-0000-a06e8ccb6168,analytics,phase4-u12,collected
+10081734-2633-0066-0000-7f21c127ab28,project management,phase4-u13,collected
+10081734-2633-0066-0000-c7720f3ab10a,user testing,phase4-u14,collected
+10081734-2633-0066-0000-7f4e18df322d,closed-ended questions in research,phase4-u15,collected
+10081734-2633-0066-0000-9c7a3179513f,user interviews,phase4-u16,collected
+10081734-2633-0066-0000-c7c26935e0d0,ux research,phase4-u18,collected
+10081734-2633-0066-0000-098bf10fc0bf,ui ux design,phase4-u19,collected
+10081734-2633-0066-0000-838db6224bc6,marketing funnel,phase4-u20,collected
+10081734-2633-0066-0000-3140aed8f414,product management,phase4-u21,collected
+10081734-2633-0066-0000-b6ea70160b8c,product life cycle,phase4-u23,collected
+10081734-2633-0066-0000-94f8d7e4047e,okr,phase4-u24,collected
+10081734-2633-0066-0000-e424d49497a5,kpi examples,phase4-u26,collected
+10081734-2633-0066-0000-68b08b6bf44c,design thinking,phase4-u27,collected
+10081734-2633-0066-0000-ba32098f4f1b,design thinking process,phase4-u29,collected
+10081734-2633-0066-0000-bef3dec52b72,pricing strategy,phase4-u30,collected
+10081734-2633-0066-0000-371fec7d8794,dynamic pricing,phase4-u32,collected
+10081734-2633-0066-0000-415586f67f4b,amazon pricing strategy,phase4-u33,collected
+10081734-2633-0066-0000-3b8cf3e15dc9,prioritization,phase4-u34,collected
+10081734-2633-0066-0000-20e0cb2ad554,moscow prioritization,phase4-u36,collected
+10081734-2633-0066-0000-e6a5e8f1873a,task prioritization,phase4-u37,collected
+10081734-2633-0066-0000-dc6c384b61ae,user stories,phase4-u38,collected
+10081734-2633-0066-0000-f27fc2d5d0ec,user stories template,phase4-u39,collected
+10081734-2633-0066-0000-c1f3c6ba22b1,acceptance criteria for user stories examples,phase4-u41,collected
+10081734-2633-0066-0000-bd43523c090c,website design,phase4-u42,collected
+10081734-2633-0066-0000-6a96c318e9e1,user persona,phase4-u45,collected
+10081734-2633-0066-0000-ae397406f91d,a/b testing tools,phase4-u48,collected
+10081734-2633-0066-0000-d74c0790cd7b,a/b testing landing pages,phase4-u49,collected
+10081734-2633-0066-0000-474d58eaf176,breadcrumbs ui,phase4-u51,collected
+10081734-2633-0066-0000-58f68fb7f98a,product requirements document,phase4-u53,collected
+10081734-2633-0066-0000-d902570fabf2,4 ps of marketing,phase4-u54,collected
+10081734-2633-0066-0000-cec7d7cd6b51,customer retention,phase4-u55,collected
+10081734-2633-0066-0000-d6a808379af0,calculate retention rate,phase4-u56,collected
+10081734-2633-0066-0000-f4b70147426f,product manager,phase4-u59,collected
+10081734-2633-0066-0000-3b36a5e54d1f,product owner,phase4-u60,collected
+10081734-2633-0066-0000-e85471d492ab,change management,phase4-u62,collected
+10081734-2633-0066-0000-fe09c942bb18,stakeholder management,phase4-u64,collected
+10081734-2633-0066-0000-2737c0cebc2e,product development,phase4-u65,collected
+10081734-2633-0066-0000-3c3e4bdabed4,product market fit,phase4-u66,collected
+10081734-2633-0066-0000-343045924c71,mvp minimum viable product,phase4-u68,collected
+10081734-2633-0066-0000-29f1b46b05d7,information architecture,phase4-u70,collected
+10081734-2633-0066-0000-ad56e8eee4ed,ux design tools,phase4-u71,collected
+10081734-2633-0066-0000-3bf251b9bc8e,graphic design books,phase4-u75,collected
+10081734-2633-0066-0000-4bca249dd055,agile user story template,phase4-u79,collected
+10081734-2633-0066-0000-2805be4a1e30,sample size calculator,phase4-u81,collected
+10081734-2633-0066-0000-84b0217df93b,power analysis sample size calculator,phase4-u82,collected
+10081734-2633-0066-0000-4f3fe4a254c5,sample size calculator for survey,phase4-u83,collected
+10081734-2633-0066-0000-d9e15a0d7899,statistical sample size calculator,phase4-u84,collected

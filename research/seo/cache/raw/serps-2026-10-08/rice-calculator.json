@@ -1,0 +1,447 @@
+{
+  "id": "10081545-2633-0066-0000-889e5fdf0570",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "miniwebtool.com",
+      "title": "Rice to Water Ratio Calculator",
+      "url": "https://miniwebtool.com/pl/kalkulator-proporcji-ryzu-do-wody/",
+      "breadcrumb": "https://miniwebtool.com › kalkulato...",
+      "website_name": "MiniWebtool",
+      "description": "Jul 19, 2026 — Pick your rice type and cooking method, tell it how much rice (or how many servings) you want, and it gives you the exact water in cups, ... Read more",
+      "pre_snippet": "07/19/2026 00:00:00",
+      "highlighted": [
+        "Pick your rice type and cooking method"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://miniwebtool.com/pl/kalkulator-proporcji-ryzu-do-wody/#:~:text=Pick%20your%20rice%20type%20and,the%20exact%20water%20in%20cups%2C",
+          "domain": "miniwebtool.com"
+        }
+      ],
+      "timestamp": "2026-07-19 00:00:00 +00:00"
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "`One cup of uncooked white, jasmine, or basmati rice yields about 3 cups of cooked rice`.[[1]](https://letsfoodie.com/uncooked-to-cooked-rice-calculator/)\n\nYou can find digital conversion tools like the [Uncooked to Cooked Rice Calculator](https://www.omnicalculator.com/food/uncooked-to-cooked-rice) or the [Rice to Water Ratio Calculator](https://www.omnicalculator.com/food/rice-water-ratio) to find exact portions.[[1]](https://www.omnicalculator.com/food/uncooked-to-cooked-rice)[[2]](https://www.omnicalculator.com/food/rice-water-ratio)\n\n### Common Rice-to-Water Ratios\n\n- **White, Jasmine, or Basmati (Stovetop):** 1 part rice to 1.5 parts water (1:1.5)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Brown Rice (Stovetop):** 1 part rice to 1.9 parts water (1:1.9)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Sushi Rice (Stovetop):** 1 part rice to 1.2 parts water (1:1.2)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Rice Cooker / Instant Pot:** Use about 10% to 15% less water than stovetop methods because less moisture escapes.[[1]](https://www.recipeone.app/rice-to-water-ratio)\n\n### Portion Guidelines\n\n- **Per Serving:** 1/3 to 1/2 cup of dry rice per person (yields roughly 1 to 1.5 cups of cooked rice).[[1]](https://thecalculatedcook.com/rice-calculator)\n- **Dry-to-Cooked Conversion:** 100g of dry rice yields about 300g of cooked rice (1:3 ratio by weight or volume).[[1]](https://www.omnicalculator.com/food/uncooked-to-cooked-rice)\n\nIf you share **what type of rice** you are cooking, **how many people** you are feeding, and your **cooking method** (stovetop, rice cooker, or Instant Pot), I can calculate the exact amounts of rice and water you need.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "One cup of uncooked white, jasmine, or basmati rice yields about 3 cups of cooked rice.",
+          "markdown": "`One cup of uncooked white, jasmine, or basmati rice yields about 3 cups of cooked rice`.[[1]](https://letsfoodie.com/uncooked-to-cooked-rice-calculator/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Let's Foodie",
+              "domain": "letsfoodie.com",
+              "url": "https://letsfoodie.com/uncooked-to-cooked-rice-calculator/",
+              "title": "Uncooked to Cooked Rice Calculator",
+              "text": "FAQs * How Much Cooked Rice Does 1 Cup of Uncooked Rice Make? On average, 1 cup of uncooked rice makes about 3 cups of cooked rice..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "You can find digital conversion tools like the Uncooked to Cooked Rice Calculator or the Rice to Water Ratio Calculator to find exact portions.",
+          "markdown": "You can find digital conversion tools like the [Uncooked to Cooked Rice Calculator](https://www.omnicalculator.com/food/uncooked-to-cooked-rice) or the [Rice to Water Ratio Calculator](https://www.omnicalculator.com/food/rice-water-ratio) to find exact portions.[[1]](https://www.omnicalculator.com/food/uncooked-to-cooked-rice)[[2]](https://www.omnicalculator.com/food/rice-water-ratio)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Uncooked to Cooked Rice Calculator",
+              "url": "https://www.omnicalculator.com/food/uncooked-to-cooked-rice",
+              "domain": "www.omnicalculator.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Rice to Water Ratio Calculator",
+              "url": "https://www.omnicalculator.com/food/rice-water-ratio",
+              "domain": "www.omnicalculator.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/food/uncooked-to-cooked-rice",
+              "title": "Uncooked to Cooked Rice Calculator",
+              "text": "Conversion Ratio: Uncooked to cooked rice is approximately 1:3 by volume or weight (varies slightly by rice type). Formulas: Cooke..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/food/rice-water-ratio",
+              "title": "Rice to Water Ratio Calculator",
+              "text": "How to use the rice to water ratio calculator. To find out how much water you need for your rice and how long to cook: Choose a ty..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Common Rice-to-Water Ratios",
+          "text": "White, Jasmine, or Basmati (Stovetop): 1 part rice to 1.5 parts water (1:1.5) Brown Rice (Stovetop): 1 part rice to 1.9 parts water (1:1.9) Sushi Rice (Stovetop): 1 part rice to 1.2 parts water (1:1.2) Rice Cooker / Instant Pot: Use about 10% to 15% less water than stovetop methods because less moisture escapes.",
+          "markdown": "- **White, Jasmine, or Basmati (Stovetop):** 1 part rice to 1.5 parts water (1:1.5)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Brown Rice (Stovetop):** 1 part rice to 1.9 parts water (1:1.9)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Sushi Rice (Stovetop):** 1 part rice to 1.2 parts water (1:1.2)[[1]](https://www.recipeone.app/rice-to-water-ratio)\n- **Rice Cooker / Instant Pot:** Use about 10% to 15% less water than stovetop methods because less moisture escapes.[[1]](https://www.recipeone.app/rice-to-water-ratio)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Recipe One",
+              "domain": "www.recipeone.app",
+              "url": "https://www.recipeone.app/rice-to-water-ratio",
+              "title": "Rice to Water Ratio Calculator",
+              "text": "Ratios (Rice:Water) by Method: Stovetop: White, Jasmine, Basmati 1:1.5; Brown 1:1.9; Sushi 1:1.2. Rice Cooker: White, Jasmine, Bas..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Portion Guidelines",
+          "text": "Per Serving: 1/3 to 1/2 cup of dry rice per person (yields roughly 1 to 1.5 cups of cooked rice). Dry-to-Cooked Conversion: 100g of dry rice yields about 300g of cooked rice (1:3 ratio by weight or volume).",
+          "markdown": "- **Per Serving:** 1/3 to 1/2 cup of dry rice per person (yields roughly 1 to 1.5 cups of cooked rice).[[1]](https://thecalculatedcook.com/rice-calculator)\n- **Dry-to-Cooked Conversion:** 100g of dry rice yields about 300g of cooked rice (1:3 ratio by weight or volume).[[1]](https://www.omnicalculator.com/food/uncooked-to-cooked-rice)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "thecalculatedcook.com",
+              "domain": "thecalculatedcook.com",
+              "url": "https://thecalculatedcook.com/rice-calculator",
+              "title": "Rice Calculator: Exact Rice & Water Per Person",
+              "text": "Rice Calculator Perfect ratios for every rice type Rice Type 🍚 White Rice 🌾 Brown Rice ✨ Basmati 🌸 Jasmine 🌿 Wild Rice 🍙 Brok..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/food/uncooked-to-cooked-rice",
+              "title": "Uncooked to Cooked Rice Calculator",
+              "text": "Conversion Ratio: Uncooked to cooked rice is approximately 1:3 by volume or weight (varies slightly by rice type). Formulas: Cooke..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you share what type of rice you are cooking, how many people you are feeding, and your cooking method (stovetop, rice cooker, or Instant Pot), I can calculate the exact amounts of rice and water you need.",
+          "markdown": "If you share **what type of rice** you are cooking, **how many people** you are feeding, and your **cooking method** (stovetop, rice cooker, or Instant Pot), I can calculate the exact amounts of rice and water you need."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Omni Calculator",
+          "domain": "www.omnicalculator.com",
+          "url": "https://www.omnicalculator.com/food/uncooked-to-cooked-rice",
+          "title": "Uncooked to Cooked Rice Calculator",
+          "text": "Conversion Ratio: Uncooked to cooked rice is approximately 1:3 by volume or weight (varies slightly by rice type). Formulas: Cooke..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Omni Calculator",
+          "domain": "www.omnicalculator.com",
+          "url": "https://www.omnicalculator.com/food/rice-water-ratio",
+          "title": "Rice to Water Ratio Calculator",
+          "text": "How to use the rice to water ratio calculator. To find out how much water you need for your rice and how long to cook: Choose a ty..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Recipe One",
+          "domain": "www.recipeone.app",
+          "url": "https://www.recipeone.app/rice-to-water-ratio",
+          "title": "Rice to Water Ratio Calculator",
+          "text": "Ratios (Rice:Water) by Method: Stovetop: White, Jasmine, Basmati 1:1.5; Brown 1:1.9; Sushi 1:1.2. Rice Cooker: White, Jasmine, Bas..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "thecalculatedcook.com",
+          "domain": "thecalculatedcook.com",
+          "url": "https://thecalculatedcook.com/rice-calculator",
+          "title": "Rice Calculator: Exact Rice & Water Per Person",
+          "text": "Rice Calculator Perfect ratios for every rice type Rice Type 🍚 White Rice 🌾 Brown Rice ✨ Basmati 🌸 Jasmine 🌿 Wild Rice 🍙 Brok..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Let's Foodie",
+          "domain": "letsfoodie.com",
+          "url": "https://letsfoodie.com/uncooked-to-cooked-rice-calculator/",
+          "title": "Uncooked to Cooked Rice Calculator",
+          "text": "FAQs * How Much Cooked Rice Does 1 Cup of Uncooked Rice Make? On average, 1 cup of uncooked rice makes about 3 cups of cooked rice..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "chefsbinge.com",
+      "title": "How Much Food Do I Need? Portion Calculator",
+      "url": "https://chefsbinge.com/how-much-food-do-i-need/",
+      "breadcrumb": "https://chefsbinge.com › how-much-food-do-i-need",
+      "website_name": "Chefs Binge",
+      "description": "Work out how much meat, potatoes, rice and veg. Put your numbers into the calculator below and it works out what to buy. Enter how many of each age group you ...",
+      "highlighted": [
+        "Work out how much meat, potatoes, rice and veg"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "247sports.com",
+      "title": "2025 Rice Baseball Class Calculator",
+      "url": "https://247sports.com/college/rice/season/2025-baseball/classcalculator/",
+      "breadcrumb": "https://247sports.com › college › rice › season › classca...",
+      "website_name": "247Sports",
+      "description": "2025 Rice Baseball Class Calculator · Jacksonville State · Liberty · New Mexico State · Sam Houston. Read more",
+      "highlighted": [
+        "2025 Rice Baseball Class Calculator"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://247sports.com/college/rice/season/2025-baseball/classcalculator/#:~:text=2025%20Rice%20Baseball%20Class%20Calculator&text=2025&text=2025&text=2025&text=2025",
+          "domain": "247sports.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuZ33XRi8kAz1RS_uf2-mTUzWjKOg:1791474340686&q=rice+calculator&udm=2&source=univ&fir=CSL4wbKXnBbeYM%252C_CXPdm6UU_EPNM%252C_%253BA-sH4bSTyg97lM%252Cy3Ml9rUJ_tOkXM%252C_%253BCU5xguoZ4FZzgM%252CCT3T-2w4DsK5PM%252C_%253BbGcY9PXoWubanM%252CVPUaGG1v6frLeM%252C_%253BsYyKZ-K5yJAQwM%252CVPX0rF99LxzROM%252C_%253B1SrybYc-8AFReM%252C769HEHFCT1iXpM%252C_%253BkfNmRLmEg3XMRM%252C5xOgBPkKSFX3SM%252C_%253BWtHmctJmgp7tWM%252CrmmE_y77G3QeGM%252C_%253B-P79baCVNkqSTM%252C9gldFenW2Sua4M%252C_&usg=AI4_-kSTQIYSH310ToI39LRvxnVr_Nv90g&sa=X&ved=2ahUKEwijmc394aqXAxV5kOEIHTKULsUQ7Al6BAggEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "RICE Calculator - Reach Impact Confidence Effort ...",
+          "url": "https://easyretro.io/tools/rice-calculator/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-889e5fdf0570:0"
+        },
+        {
+          "type": "images_element",
+          "alt": "Rice to Water Ratio Calculator",
+          "url": "https://www.amazon.com/Rice-to-Water-Ratio-Calculator/dp/B0CC1R9TX4",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-889e5fdf0570:1"
+        },
+        {
+          "type": "images_element",
+          "alt": "USA Rice Releases PLC Payment Calculator for 2021 Crop | USA ...",
+          "url": "https://www.usarice.com/news-and-events/publications/usa-rice-daily/article/usa-rice-daily/2022/11/02/usa-rice-releases-plc-payment-calculator-for-2021-crop",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-889e5fdf0570:2"
+        },
+        {
+          "type": "images_element",
+          "alt": "RICE Score Calculator: Prioritize Your Product Roadmap With ...",
+          "url": "https://userpilot.com/blog/rice-score-calculator/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp1CCu0GpYkIuk5JMIQJ8TjFMAn1U8KPPz3gm1jjpxE2Z545G4kZgSoYM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Uncooked to Cooked Rice Calculator",
+          "url": "https://www.omnicalculator.com/food/uncooked-to-cooked-rice",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmmXe39h2HHYFh9jlh-PQfBgD0Vzp5_RZJF9QEZh4c_nrHpvtO0uLJUtA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Rice Quantity Calculator | Tilda Rice UK",
+          "url": "https://www.tilda.com/blog/quick-guides/rice-quantity-calculator/?srsltid=AU7gw4WJe8G1eRA531A1rxdKvD2tAe9OVijApmcNusWVUrc4wDYIQR6J",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtfkx-8zdPy6ASb5VH6S3xAo0IalXR46ZXbAGqpYS-bqU7HgncW8DE65I&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "A wrist calculator with buttons the size of rice | HAFU GO | Facebook",
+          "url": "https://www.facebook.com/hafugo/videos/a-wrist-calculator-with-buttons-the-size-of-rice/2009313403101824/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTljsm6M4BrMCcW9S8rg4xRjNRmYSQ76NosDxg-gMTVUFx9h5XVR1hpIQg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Bowl Rice Calculator On White Background",
+          "url": "https://www.shutterstock.com/image-photo/bowl-rice-calculator-on-white-background-2753482349",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGHNtKPYykrC5OURiCMe9Dnyk822SpwJwqnRzNGT1_bfrDsIt7td5c8fz6iw&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "RICE Framework: Calculate & Rank Projects Based on RICE ...",
+          "url": "https://fluentsupport.com/rice-framework-score-calculator/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMewsHvvTvCfkxvRZV9r6TcPMCNWBA9fjqpWFL3fFgR1XkG7hgY4_g5NALyA&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.collegesimply.com",
+      "title": "Rice University - Admission Chances Calculator",
+      "url": "https://www.collegesimply.com/colleges/texas/rice-university/acceptance-chances/",
+      "breadcrumb": "https://www.collegesimply.com › ... › Rice University",
+      "website_name": "CollegeSimply",
+      "description": "This calculator compares your GPA and the higher of SAT or ACT with last year's enrolled class and the Rice acceptance rate of 8%. Strong does not mean likely. Read more",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 2,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "compares your GPA and the higher of SAT or ACT with last year's enrolled class"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.collegesimply.com/colleges/texas/rice-university/acceptance-chances/#:~:text=This%20calculator%20compares%20your%20GPA,Strong%20does%20not%20mean%20likely.",
+          "domain": "www.collegesimply.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How much rice per person calculator?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How to calculate rice amount?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is it 2 cups of rice to 1 cup of water?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How much water do I use for 4 cups of rice?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.shutterstock.com",
+      "title": "Bowl Rice Calculator On White Background Stock Photo ...",
+      "url": "https://www.shutterstock.com/image-photo/bowl-rice-calculator-on-white-background-2753482349",
+      "breadcrumb": "https://www.shutterstock.com › image-photo › bowl-ric...",
+      "website_name": "Shutterstock",
+      "description": "Mar 12, 2026 — Find Bowl Rice Calculator On White Background stock images in HD and millions of other royalty-free stock photos, 3D objects, ...",
+      "pre_snippet": "03/12/2026 00:00:00",
+      "highlighted": [
+        "Rice Calculator"
+      ],
+      "timestamp": "2026-03-12 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.collegevine.com",
+      "title": "Does Rice University have a financial aid calculator?",
+      "url": "https://www.collegevine.com/faq/53574/does-rice-university-have-a-financial-aid-calculator",
+      "breadcrumb": "https://www.collegevine.com › faq › does-rice-universit...",
+      "website_name": "CollegeVine",
+      "description": "May 16, 2024 — Hello everyone! I'm looking into Rice University as a possible addition to my college list, but I want to make sure I can afford it. Is there a financial a",
+      "pre_snippet": "05/16/2024 00:00:00",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "1 answer",
+          "url": "https://www.collegevine.com/faq/53574/does-rice-university-have-a-financial-aid-calculator",
+          "domain": "www.collegevine.com"
+        }
+      ],
+      "timestamp": "2024-05-16 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "rice.co.nz",
+      "title": "Candidate Delusion Calculator",
+      "url": "https://rice.co.nz/2022/11/18/candidate-delusion-calculator/",
+      "breadcrumb": "https://rice.co.nz › 2022/11/18 › candidate-delusion-cal...",
+      "website_name": "Rice & Co",
+      "description": "Nov 18, 2022 — It is effectively a probability calculator that calculates the chances of you meeting a partner in The States based on certain parameters.",
+      "pre_snippet": "11/18/2022 00:00:00",
+      "highlighted": [
+        "calculates the chances of you meeting a partner in The States"
+      ],
+      "timestamp": "2022-11-18 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "makemysushi.com",
+      "title": "Perfect sushi rice",
+      "url": "https://makemysushi.com/Recipes/how-to-make-sushi-rice/comment-page-6",
+      "breadcrumb": "https://makemysushi.com › Recipes › comment-page-6",
+      "website_name": "Make my Sushi",
+      "description": "Check out our Quantity Calculator. We are here to help with all the calculations. Select how much you will be making, and the calculator will provide you with ...",
+      "pre_snippet": "4.6(1,367) · 20 min",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 1367,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "Select how much you will be making"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Cooked rice calculator",
+        "Rice calculator app"
+      ]
+    }
+  ]
+}

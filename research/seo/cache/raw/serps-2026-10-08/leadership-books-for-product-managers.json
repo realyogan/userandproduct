@@ -1,0 +1,629 @@
+{
+  "id": "10081545-2633-0066-0000-4bf7d6ca1207",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.bringthedonuts.com",
+      "title": "Best Books for Product Managers [2026] | Ken Norton",
+      "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
+      "breadcrumb": "https://www.bringthedonuts.com › essays › books-for-p...",
+      "website_name": "Bring the Donuts",
+      "description": "Ken Norton shares his recommended books for product managers. The best books on product leadership, innovation, management, shipping winning products, ...",
+      "highlighted": [
+        "product leadership"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "My Ultimate Visual Guide to the Best Books for Product ...",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/128p27t/my_ultimate_visual_guide_to_the_best_books_for/",
+      "breadcrumb": "90+ comments  ·  3 years ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "1.1K votes, 93 comments. As a list: Fundamentals: Lean startup Continues discovery habits The design of everyday things Good strategy, ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Best Product Management Books : r/ProductManagement",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1ewyx5m/best_product_management_books/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How have books helped you as a Product Manager or ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1dgle9q/how_have_books_helped_you_as_a_product_manager_or/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=leadership+books+for+product+managers+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns0PgCEqcOqhZv969OXuZLJ_4yUtg:1791474341362&sa=X&ved=2ahUKEwjVvvb94aqXAxVEq5UCHVr1EJYQrQIoAnoECCUQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "rysullivan.medium.com",
+      "title": "The Product Manager's Essential Reading List - Ry Sullivan",
+      "url": "https://rysullivan.medium.com/the-product-managers-essential-reading-list-802200e24baf",
+      "breadcrumb": "1 year ago",
+      "website_name": "Medium · Ry Sullivan",
+      "description": "BOOKS ; Zero to One by Peter Thiel ; The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful ... Read more",
+      "highlighted": [
+        "Zero to One by Peter Thiel"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Want to become a better...",
+          "url": "https://rysullivan.medium.com/the-product-managers-essential-reading-list-802200e24baf#a225",
+          "domain": "rysullivan.medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Read a Book. Seriously.",
+          "url": "https://rysullivan.medium.com/the-product-managers-essential-reading-list-802200e24baf#6045",
+          "domain": "rysullivan.medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Note: Thinking > Going...",
+          "url": "https://rysullivan.medium.com/the-product-managers-essential-reading-list-802200e24baf#874e",
+          "domain": "rysullivan.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "Product Leadership: How Top Product Managers Launch ...",
+      "url": "https://www.amazon.com/Product-Leadership-Managers-Products-Successful/dp/1491960604",
+      "breadcrumb": "https://www.amazon.com › Product-Leadership-Manager...",
+      "website_name": "Amazon.com",
+      "description": "This insightful book presents interviews with nearly 100 leading product managers from all over the world. Authors Richard Banfield, Martin Eriksson, and Nate ...",
+      "highlighted": [
+        "book",
+        "product managers"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.userflow.com",
+      "title": "Best Product Management Books | 35 Essential Reads",
+      "url": "https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager",
+      "breadcrumb": "https://www.userflow.com › blog › 30-top-product-ma...",
+      "website_name": "Userflow",
+      "description": "Sep 29, 2026 — The most recommended product management books for strategy are Escaping the Build Trap by Melissa Perri, Good Strategy Bad Strategy by Richard ... Read more",
+      "pre_snippet": "09/29/2026 00:00:00",
+      "highlighted": [
+        "Escaping the Build Trap by Melissa Perri"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Why Product Managers...",
+          "url": "https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager#why-product-managers-should-read-more",
+          "domain": "www.userflow.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Top Product Management...",
+          "url": "https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager#top-product-management-books-by-category",
+          "domain": "www.userflow.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Enhance Your Product...",
+          "url": "https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager#enhance-your-product-management-knowledge",
+          "domain": "www.userflow.com"
+        }
+      ],
+      "timestamp": "2026-09-29 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the best books for product managers?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 80/20 rule in product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 best leadership books?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 P's of product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "amplitude.com",
+      "title": "22 Product Management Books for PMs in 2024 (by ...",
+      "url": "https://amplitude.com/blog/product-management-books",
+      "breadcrumb": "https://amplitude.com › blog › product-management-bo...",
+      "website_name": "Amplitude",
+      "description": "Best books for leadership and culture · 9. Dare to Lead, by Brené Brown · 10. The Making of a Manager: What to Do When Everyone Looks to You, by Julie Zhuo · 11. Read more",
+      "highlighted": [
+        "Dare to Lead, by Brené Brown"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://amplitude.com/blog/product-management-books#:~:text=Best%20books%20for%20leadership%20and,culture&text=9.%20Dare%20to%20Lead%2C%20by,Bren%C3%A9%20Brown&text=10.%20The%20Making%20of%20a,to%20You%2C%20by%20Julie%20Zhuo&text=11.%20Leaders%20Eat%20Last%3A%20Why",
+          "domain": "amplitude.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "productschool.com",
+      "title": "15 Product Management Books Product Leaders ...",
+      "url": "https://productschool.com/blog/career-development/product-management-book-recommendations",
+      "breadcrumb": "https://productschool.com › Blog › Career Development",
+      "website_name": "Product School",
+      "description": "Jun 12, 2024 — These books are designed to help product managers cultivate leadership skills that foster collaborative and successful teams. Agile ... Read more",
+      "pre_snippet": "06/12/2024 00:00:00",
+      "highlighted": [
+        "designed to help product managers cultivate leadership skills"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Top Product Strategy Books",
+          "url": "https://productschool.com/blog/career-development/product-management-book-recommendations#:~:text=Top%20Product%20Strategy%20Books",
+          "domain": "productschool.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Good Strategy Bad Strategy...",
+          "url": "https://productschool.com/blog/career-development/product-management-book-recommendations#:~:text=Good%20Strategy%20Bad%20Strategy%3A%20The%20Difference%20and%20Why%20It%20Matters%20by%20Richard%20Rumelt",
+          "domain": "productschool.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Radical Candor: Be A...",
+          "url": "https://productschool.com/blog/career-development/product-management-book-recommendations#:~:text=Radical%20Candor%3A%20Be%20a%20Kick-Ass%20Boss%20Without%20Losing%20Your%20Humanity%20by%20Kim%20Scott",
+          "domain": "productschool.com"
+        }
+      ],
+      "timestamp": "2024-06-12 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What books should a product leader, with 15+ years ...",
+      "url": "https://www.quora.com/What-books-should-a-product-leader-with-15-years-of-product-management-experience-read-to-advance-his-career",
+      "breadcrumb": "30+ answers  ·  8 years ago",
+      "website_name": "Quora",
+      "description": "What books should a product leader, with 15+ years of product management experience, read to advance his career?",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "34 answers",
+          "url": "https://www.quora.com/What-books-should-a-product-leader-with-15-years-of-product-management-experience-read-to-advance-his-career?top_ans=89950542",
+          "domain": "www.quora.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.productplan.com",
+      "title": "15 Must-Read Books for Product Management Leaders",
+      "url": "https://www.productplan.com/learn/books-for-product-managers",
+      "breadcrumb": "https://www.productplan.com › Learn",
+      "website_name": "ProductPlan",
+      "description": "Here are the 15 best books for product management leaders, covering topics from launching new products to keeping your team productive.",
+      "highlighted": [
+        "15 best books for product management leaders"
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "Product Leadership: How Top Product Managers Launch Awesome Products and Build Successful Teams",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQSxKtfVoWaIUbvO8nvMs2dbBeQNCLj_85mt4oGxA4wpu3KMKbQ3KPm0wZoxnvfkFs84-CFKRHlEQ24DtArRuKt0Rln8adCxvc4JJ7GJ0KC",
+          "price": {
+            "current": 39.99,
+            "currency": "USD",
+            "displayed_price": "$39.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 2,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "4578397641350150983",
+            "data_docid": "15870773447868790305",
+            "gid": "4658497121761404153"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Strong Product People - Audiobook",
+          "description": "BookDelivery.com & more",
+          "more_sellers": true,
+          "seller": "BookDelivery.com",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_z60U0CwkFWKQ0wB1gEDLgzhntJx0j9tXMwi5aaIhUwJPem3LcurCeDIUd3UVIYVCNGjFqrzL1UwUW0v8IuXYg5Y7Ad4fRZcyeot_AY4ZuWVrHRnJbQzQ",
+          "price": {
+            "current": 27.28,
+            "regular": 29,
+            "currency": "USD",
+            "displayed_price": "$27.28 $29"
+          },
+          "product_identifiers": {
+            "product_id": "17090580384508542563",
+            "data_docid": "6352171573402141251",
+            "gid": "7402326309557164078"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Manual",
+          "description": "Bookshop.org & more",
+          "more_sellers": true,
+          "seller": "Bookshop.org",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSj5dDDlHsL01M-_X2j1dDpN9BQKcDGWprS00hH1lF00meodB3kizxwWQEMouRW-rcmx9rZl5FiBTPiIjBDuq46eIt_IiWJ6iMk8M7DR4BSCxZKC2Wub37W",
+          "price": {
+            "current": 26.09,
+            "currency": "USD",
+            "displayed_price": "$26.09"
+          },
+          "product_identifiers": {
+            "product_id": "13243756248672220684",
+            "data_docid": "14615617295779246441",
+            "gid": "6334971900696229224"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Launch and Leadership : Execution, Metrics, and Growth for Product Managers",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQID9vdQ5cS7qU2JK_vpvaVBfKBwMKpMd_z3iSdTkEUXjsK4CwMSN-C4avDrFHTr1-_Qm0cWMQmWh7YiqXVqy7PRreA9ub_e_inGGr9roTagmFcaciER_nS",
+          "price": {
+            "current": 11.5,
+            "currency": "USD",
+            "displayed_price": "$11.50"
+          },
+          "product_identifiers": {
+            "product_id": "8949402917201572914",
+            "data_docid": "10717355762829336061",
+            "gid": "18028993602053395719"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Influential Product Manager (How to Lead and Launch Successful Technology Products)",
+          "description": "Penguin Random House & more\nFree delivery by Wed",
+          "more_sellers": true,
+          "seller": "Penguin Random House",
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcThVg67201LJhdMvxa9A0v4CPMXy-gOtg85EtOP3s4tikDzTrukkbU32DCZLWAg92qx8lSpdva56ina_gR4Uri1OQ5xX4eQVlbassV6ISk4Bmc3TZgl-n-9xA",
+          "price": {
+            "current": 39.95,
+            "currency": "USD",
+            "displayed_price": "$39.95"
+          },
+          "product_identifiers": {
+            "product_id": "12812187613437961189",
+            "data_docid": "2778939376923279434",
+            "gid": "3371291945732706467"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Leadership: The Product Manager's Handbook",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRjoO6B7HdrMk5YraDDeaPLKiXPFjmIjdvA43eXCDQzf8N2dlIV7W2fjJ-CU9-om0F6XLN_U59Nc88pnUU-UaKgnFJOztq_sIWvAHL4WhIUAuOzsF_mRjUM",
+          "price": {
+            "current": 14.99,
+            "currency": "USD",
+            "displayed_price": "$14.99"
+          },
+          "product_identifiers": {
+            "product_id": "12251010284437949291",
+            "data_docid": "1087325215106921382",
+            "gid": "12425705500005034946"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy and Roadmapping: A Guided Tour Through The Strategic Planning Process for Product Managers (Product Management Professionals)",
+          "description": "Audible.com\nFree same-day delivery",
+          "seller": "Audible.com",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSy5ZWWJufVTPcyuXQOeXMELkfTSeFnHTQUgJ9ExebDh1YiP-h9MyYOvFUywS9g66qspS8emglTpJc-89d1thlnZulbUMePYIk4wpE6MmqyThT5GIcSrHuD",
+          "price": {
+            "current": 9.95,
+            "currency": "USD",
+            "displayed_price": "$9.95"
+          },
+          "product_identifiers": {
+            "product_id": "4940278406740696541",
+            "data_docid": "15017272938251233606",
+            "gid": "4739567109836586899"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Book: How to Become a Great Product Manager",
+          "description": "Walmart & more",
+          "more_sellers": true,
+          "seller": "Walmart",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTgNUYQLozT5AgqClBSny1OO5g_295_e0FUIXeaQUT7SvroYhYI3JzdZiHaP9uOLICpEqRzcJuYPKx4P0cOzHXVmIt8zAfdGiMcmvXkhoE",
+          "price": {
+            "current": 6.92,
+            "currency": "USD",
+            "displayed_price": "$6.92"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 2,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "10749368392112374152",
+            "data_docid": "1033370437708806117",
+            "gid": "10781500083592560115"
+          }
+        }
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 2,
+      "rank_absolute": 13,
+      "page": 1,
+      "title": "More products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "The Product Management Playbook",
+          "description": "Rosenfeld Media & more",
+          "more_sellers": true,
+          "seller": "Rosenfeld Media",
+          "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxLCprhDI5H-H3On7xDMjvBrrDItOzlg05a-485D0pAoTYZuI8sf-poskWrHeoB9GgYfTZmi2w1Ei3x6iG50sBADM0KfficC92_iolq01D6f8tAQJGLPop",
+          "price": {
+            "current": 44.99,
+            "currency": "USD",
+            "displayed_price": "$44.99"
+          },
+          "product_identifiers": {
+            "product_id": "15286567874939285135",
+            "data_docid": "1430118698879765127"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Leading Product Development (ebook)",
+          "description": "Target & more\nFree delivery on $35+",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRU7QIHEts4ggq7g4Y7yxgCmu4ZaBvQSWTGsFZx4Elplv2qB3ISqwuR2-xC7boZqWktgjJ8SyZwY0_bKqxuzTzh1ar4f_3zGBLQttMDIhpnbclRQcV5IpX4",
+          "price": {
+            "current": 14.99,
+            "currency": "USD",
+            "displayed_price": "$14.99"
+          },
+          "product_identifiers": {
+            "product_id": "14804678881516304533",
+            "data_docid": "9296895041048177432",
+            "gid": "9781606561020593348"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Manager's Survival Guide: Everything You Need to Know to Succeed as a Product Manager",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTXNURsRZeZBySZTrgIDsfFWajcAkdPDg4JSRXGqYHSB4z0EI7lc6jDXqf19_2YLSuzvSv15goj5PBxyyXfb1JYstdh7E14jo7f4jc9JYc",
+          "price": {
+            "current": 23.4,
+            "currency": "USD",
+            "displayed_price": "$23.40"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 1,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "4856245876781591376",
+            "data_docid": "3953034513586572894",
+            "gid": "5104595435048447364"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Strong Product People: A Complete Guide to Developing Great Product Managers - Audiobook by Petra Wille",
+          "description": "Audible.com\nFree same-day delivery",
+          "seller": "Audible.com",
+          "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWdOEHyJkOwt5xyCO8REguUdQQHvUm9MGwsj29WKZyYo25cmYvl3hwPK6yUJaJXcPKrtPnlv3oewEyi74fYK9TYBovkEi8CpFQcKKWaNqPPf8XV5qMr1Gf",
+          "price": {
+            "current": 19.87,
+            "currency": "USD",
+            "displayed_price": "$19.87"
+          },
+          "product_identifiers": {
+            "data_docid": "11664356523628992133"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Strategic AI Product Leadership: Build Products. Drive Transformation.",
+          "description": "Pearson.com & more",
+          "more_sellers": true,
+          "seller": "Pearson.com",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSufMvqsjZ8Dtg0oI9b-95MCA6CXTe8J2EZnvAecEjlGi_4crkYV4E0qeNsfbQIFkvwlWholjQ-7QRSbQUcgckJOR4KyGLUCHXp9p7v0Fec1iv22AAiyz6wEQ",
+          "price": {
+            "current": 44.99,
+            "currency": "USD",
+            "displayed_price": "$44.99"
+          },
+          "product_identifiers": {
+            "product_id": "14535560030268690915",
+            "data_docid": "17434714207189299763",
+            "gid": "14179652341726304316"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Management in Practice - Audiobook",
+          "description": "Audiobooks.com & more\nFree next-day delivery",
+          "more_sellers": true,
+          "seller": "Audiobooks.com",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQcKVnJ4qxBj3D5wJtHaM50OSDvOiXIn_-SHaRn4inHzVWjTA7xFtDWTNPM40YICE6a1vNloVqE_6Fn0GBTr2QF_SvqUwO0DzE6F3PvmxI",
+          "price": {
+            "current": 10,
+            "regular": 20,
+            "currency": "USD",
+            "displayed_price": "$10.00 $20"
+          },
+          "product_identifiers": {
+            "product_id": "6831569839439228403",
+            "data_docid": "9765777893258912468",
+            "gid": "3797779766128638590"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "How to Lead in Product Management: Practices to Align Stakeholders, Guide Development Teams, and Create Value Together",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR0i4G1c98YU9-jgaqdekle_v1RFXJ2NHqWs50AUuHWOONx0HKNWrWY-A4ivy_aGWIAxDo18gjmb8KRhXyAIR6HppsyZXZaFW4GzOX70C0amdJT0PMUevje",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "1859653160875088491",
+            "data_docid": "15880260465805055492",
+            "gid": "13808452882542519102"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Managers Handbook, 3E",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQeUKcCOED_tgldZyWdb1Uy3pEKEUO_t7m_ZH1NrBmwpcaX9PB3_-A82-wI4nCuFX_5QnABILqkDZOSb9nNxwE9JPAxZlf9bKEJSCn4zlUw5qe9M5coHtdD",
+          "price": {
+            "current": 53.96,
+            "currency": "USD",
+            "displayed_price": "$53.96"
+          },
+          "product_identifiers": {
+            "product_id": "7262199086255743482",
+            "data_docid": "5251079123474695799",
+            "gid": "18263865795310996270"
+          }
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 14,
+      "page": 1,
+      "items": [
+        "Leadership books for product managers pdf",
+        "Top 10 leadership books for product managers",
+        "Top 10 product management books",
+        "Best leadership books for product managers",
+        "Product management books PDF",
+        "The product Book",
+        "Free Product Management books",
+        "Product management books for beginners"
+      ]
+    }
+  ]
+}

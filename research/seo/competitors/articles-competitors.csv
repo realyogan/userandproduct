@@ -1,0 +1,34 @@
+domain,section,page_one_count,keywords,avg_position,type,how_found,in_seed_list,organic_etv,tier
+reddit.com,articles,9,what is product management;product manager vs product owner;product roadmap;ux metrics;product metrics;a/b testing;rice prioritization;product discovery;product strategy,3.3,forum,serp,no,,
+linkedin.com,articles,9,what is product management;product manager vs product owner;how to write a prd;user research methods;heuristic evaluation;north star metric;saas pricing strategy,4.3,platform,serp,no,,
+productplan.com,articles,8,what is product management;product manager vs product owner;how to write a prd;product roadmap;product metrics;retention rate;jobs to be done;product strategy,4.0,saas,serp,yes,20541,C
+atlassian.com,articles,5,how to write a prd;product roadmap;product metrics;product discovery;product strategy,1.6,saas,serp,yes,420717,B
+medium.com,articles,5,product manager vs product owner;design system;okr examples;rice prioritization;product strategy,5.0,platform,serp,no,,
+en.wikipedia.org,articles,4,usability testing;retention rate;a/b testing;go to market strategy,2.5,encyclopedia,serp,no,,
+youtube.com,articles,4,how to write a prd;rice prioritization;product discovery;go to market strategy,5.8,video,serp,no,,
+quora.com,articles,4,how to write a prd;okr examples;agile vs scrum;saas pricing strategy,6.0,forum,serp,no,,
+usertesting.com,articles,3,usability testing;ux metrics;customer journey map,2.3,saas,serp,no,25214,C
+coursera.org,articles,3,a/b testing;agile vs scrum;go to market strategy,3.7,education,serp,no,1861038,A
+productschool.com,articles,3,product roadmap;product metrics;product discovery,5.3,education,serp,yes,7453,D
+amplitude.com,articles,3,product roadmap;product discovery;product led growth,6.7,saas,serp,yes,25299,C
+nngroup.com,articles,2,usability testing;ux metrics,1.0,publication,serp,yes,63183,C
+salesforce.com,articles,2,a/b testing;go to market strategy,1.5,saas,serp,no,971723,B
+w3.org,articles,2,web accessibility guidelines,3.0,other,serp,no,109784,B
+maze.co,articles,2,usability testing;ux metrics,4.0,saas,serp,yes,6654,D
+airfocus.com,articles,2,what is product management;north star metric,4.5,saas,serp,no,28441,C
+figma.com,articles,2,usability testing;design system,4.5,saas,serp,yes,1436611,A
+online.hbs.edu,articles,2,jobs to be done;go to market strategy,4.5,education,serp,no,68686,C
+productboard.com,articles,2,product roadmap;product discovery,4.5,saas,serp,yes,6136,D
+geeksforgeeks.org,articles,2,usability testing;a/b testing,6.0,education,serp,no,2532368,A
+pendo.io,articles,2,product roadmap;product discovery,6.5,saas,serp,yes,12259,C
+statsig.com,articles,1,product led growth,2.0,saas,serp,yes,37222,C
+mixpanel.com,articles,1,product metrics,3.0,saas,serp,yes,6616,D
+productcoalition.com,articles,1,rice prioritization,3.0,publication,serp,yes,594,D
+svpg.com,articles,1,product strategy,3.0,expert,serp,yes,6576,D
+measuringu.com,articles,1,ux metrics,5.0,expert,serp,yes,18525,C
+pragmaticinstitute.com,articles,1,product manager vs product owner,5.0,education,serp,yes,3764,D
+aha.io,articles,1,product strategy,6.0,saas,serp,yes,28822,C
+reforge.com,articles,1,how to write a prd,6.0,education,serp,yes,3236,D
+romanpichler.com,articles,1,product strategy,7.0,expert,serp,yes,320,D
+userpilot.com,articles,1,ux metrics,8.0,saas,serp,yes,9854,D
+dovetail.com,articles,1,user research methods,9.0,saas,serp,yes,27468,C

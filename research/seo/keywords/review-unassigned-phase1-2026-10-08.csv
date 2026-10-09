@@ -1,0 +1,173 @@
+keyword,volume,difficulty,verdict,topic,subtopic,reason
+hypothesis testing,8100,15,existing,a/b testing and experimentation,a/b testing (general),hypothesis testing
+universal design,3600,45,existing,accessibility,accessibility definitions (general),universal design
+assistive technologies examples,1300,19,existing,accessibility,accessibility definitions (general),assistive tech
+v model,4400,8,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+software development lifecycle,1000,43,existing,"agile, scrum and kanban",agile methodology (general),sdlc
+spiral life cycle,880,6,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+spiral life cycle model,880,9,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+spiral life-cycle model,880,8,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+spiral methodology,880,6,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+iterative process meaning,720,4,existing,"agile, scrum and kanban",agile methodology (general),iterative process
+sdlc methodologies,720,43,existing,"agile, scrum and kanban",agile methodology (general),sdlc
+software development methodologies,720,6,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+rapid application development,590,9,existing,"agile, scrum and kanban",agile methodology (general),dev methodology
+software development process,590,29,existing,"agile, scrum and kanban",agile methodology (general),sdlc
+software development cycle,480,20,existing,"agile, scrum and kanban",agile methodology (general),sdlc
+crystal methodologies,390,0,existing,"agile, scrum and kanban",agile methodology (general),agile method
+data analysis tools,12100,15,existing,analytics,,analysis tools
+human centered design,4400,27,existing,design thinking,design thinking (general),human-centered design
+design process,6600,36,existing,design thinking,design thinking process and stages,design process
+problem statement examples,3600,11,existing,design thinking,design thinking process and stages,problem statement
+target definition marketing,1600,35,existing,go-to-market and product marketing,,target market
+what are customer segments,1600,25,existing,go-to-market and product marketing,,segmentation
+ideal customer profile,1300,44,existing,go-to-market and product marketing,,ideal customer profile
+call to action,18100,64,existing,growth marketing and funnels,,conversion cta
+marketing plan,8100,29,existing,growth marketing and funnels,,marketing plan
+b2b marketing,4400,48,existing,growth marketing and funnels,,b2b marketing
+call to action examples,4400,50,existing,growth marketing and funnels,,conversion cta
+marketing plan example,2900,19,existing,growth marketing and funnels,,marketing plan
+marketing plan template,2900,17,existing,growth marketing and funnels,,marketing plan template
+customer acquisition,2400,24,existing,growth marketing and funnels,,customer acquisition
+what is b2b marketing,2400,39,existing,growth marketing and funnels,,b2b marketing
+word of mouth marketing,2400,60,existing,growth marketing and funnels,,referral growth
+conversion rate optimization marketing,1000,40,existing,growth marketing and funnels,,conversion optimization
+marketing conversion rate optimization,1000,38,existing,growth marketing and funnels,,conversion optimization
+what is customer acquisition,880,33,existing,growth marketing and funnels,,customer acquisition
+website sitemap examples,480,27,existing,information architecture,,sitemaps
+customer acquisition cost,4400,34,existing,"okrs, kpis and metrics",metrics (general),unit economics
+customer lifetime value,4400,58,existing,"okrs, kpis and metrics",metrics (general),unit economics
+arr formula,1600,2,existing,"okrs, kpis and metrics",metrics (general),saas metric
+flow chart examples,3600,16,existing,personas and journey maps,journey maps and user flows,flow diagrams
+flow of a website,1300,9,existing,personas and journey maps,journey maps and user flows,website flow
+customer profile,2400,27,existing,personas and journey maps,personas,customer profile
+urgent important matrix,3600,37,existing,prioritization,prioritization frameworks,eisenhower matrix
+urgent vs important matrix,880,37,existing,prioritization,prioritization frameworks,eisenhower matrix
+important urgent quadrant,720,36,existing,prioritization,prioritization frameworks,eisenhower matrix
+important vs urgent,880,12,existing,prioritization,task and time prioritization,urgent vs important
+product obsolescence,170,11,existing,product management (discipline),product life cycle,obsolescence
+examples of digital products,1000,13,existing,product management (discipline),product management (general),digital products
+product features,880,1,existing,product management (discipline),product management (general),product features
+pragmatic marketing,720,14,existing,product management (discipline),product management (general),pm framework
+beta testing,4400,19,existing,"product strategy, discovery and launch",new product development and launch,beta testing
+beta testing meaning,4400,19,existing,"product strategy, discovery and launch",new product development and launch,beta testing
+what is beta testing,2400,20,existing,"product strategy, discovery and launch",new product development and launch,beta testing
+product failures,1600,11,existing,"product strategy, discovery and launch",new product development and launch,product failures
+product research and development,880,11,existing,"product strategy, discovery and launch",new product development and launch,product r&d
+research and development of a product,880,17,existing,"product strategy, discovery and launch",new product development and launch,product r&d
+value proposition,22200,36,existing,"product strategy, discovery and launch",product strategy,value proposition
+product line,3600,0,existing,"product strategy, discovery and launch",product strategy,product line
+unique selling proposition meaning,3600,35,existing,"product strategy, discovery and launch",product strategy,positioning
+product line and mix,2400,0,existing,"product strategy, discovery and launch",product strategy,product line and mix
+unique value proposition,1900,46,existing,"product strategy, discovery and launch",product strategy,value proposition
+value proposition example,1600,26,existing,"product strategy, discovery and launch",product strategy,value proposition
+customer value proposition,720,27,existing,"product strategy, discovery and launch",product strategy,value proposition
+product depth,480,0,existing,"product strategy, discovery and launch",product strategy,product mix
+mvp software development,480,26,existing,"product strategy, discovery and launch",product strategy and discovery (general),mvp
+task management,90500,39,existing,project management,,task management
+project coordinator,9900,0,existing,project management,,project role
+statement of work,4400,19,existing,project management,,project scope doc
+kick off meeting,2900,6,existing,project management,,project kickoff
+program management,2900,18,existing,project management,,program management
+statement of work example,1600,12,existing,project management,,project scope doc
+scope of work examples,880,9,existing,project management,,project scope doc
+statement of work vs scope of work,480,0,existing,project management,,project scope doc
+scope of work document,320,5,existing,project management,,project scope doc
+kick-off meeting meaning,210,2,existing,project management,,project kickoff
+spec driven development,8100,32,existing,requirements and prd,,spec-first development
+customer success,2900,45,existing,"retention, churn and engagement",customer retention and loyalty,customer success
+customer loyalty,1900,31,existing,"retention, churn and engagement",customer retention and loyalty,customer loyalty
+what is a customer success manager,1000,12,existing,"retention, churn and engagement",customer retention and loyalty,customer success
+customer success platform,720,25,existing,"retention, churn and engagement",customer retention and loyalty,customer success
+what does a customer success manager do,720,8,existing,"retention, churn and engagement",customer retention and loyalty,customer success
+retention,40500,30,existing,"retention, churn and engagement",retention (general),retention definition
+retention def,27100,5,existing,"retention, churn and engagement",retention (general),retention definition
+customer lifecycle,880,16,existing,"retention, churn and engagement",retention (general),customer lifecycle
+expectation management,880,0,existing,stakeholder and change management,stakeholder management,expectation management
+digital design,6600,19,existing,ux and ui design (discipline),,digital design discipline
+the design of everyday things,6600,30,existing,ux and ui design (discipline),,ux classic book
+closed questions in research,27100,8,existing,ux research,surveys and questionnaires,closed questions
+filter question examples,14800,0,existing,ux research,surveys and questionnaires,survey filter questions
+filter questions examples,14800,0,existing,ux research,surveys and questionnaires,survey filter questions
+hybrid questions,2400,0,existing,ux research,surveys and questionnaires,survey question type
+contingency questions,1900,0,existing,ux research,surveys and questionnaires,survey question type
+importance likert scale,720,14,existing,ux research,surveys and questionnaires,likert scale
+branch questions,390,0,existing,ux research,surveys and questionnaires,survey logic
+branching questions,390,0,existing,ux research,surveys and questionnaires,survey logic
+uat testing,4400,17,existing,ux research,usability testing,acceptance testing
+portfolio website,9900,48,existing,web design,,portfolio website
+landing page examples,4400,32,existing,web design,,landing pages
+how to make a portfolio website,1000,36,existing,web design,,portfolio website
+what is a landing page on a website,880,59,existing,web design,,landing pages
+about us page examples,720,0,existing,web design,,page examples
+create a landing page,720,57,existing,web design,,landing pages
+best landing page examples,590,25,existing,web design,,landing pages
+website footer examples,590,18,existing,web design,,page patterns
+what a landing page,590,60,existing,web design,,landing pages
+faq page examples,480,0,existing,web design,,page patterns
+one page website template,480,36,existing,web design,,page templates
+parts of a website,480,0,existing,web design,,website anatomy
+website layout examples,480,25,existing,web design,,layout examples
+what makes a good website,480,11,existing,web design,,website quality
+ai design assistant,22200,21,new,ai in product and design work,,ai tools for designers
+ai governance framework,4400,10,new,ai in product and design work,,ai governance for product teams
+business analyst,22200,23,new,business analysis,,business analyst role
+business systems analyst,3600,0,new,business analysis,,business analyst role
+it business analyst,1000,8,new,business analysis,,business analyst role
+senior business analyst,1000,0,new,business analysis,,business analyst role
+business plan,27100,55,new,business strategy fundamentals,,business plan
+start a business plan,27100,36,new,business strategy fundamentals,,business plan
+starting a business plan,27100,41,new,business strategy fundamentals,,business plan
+mission statement,22200,37,new,business strategy fundamentals,,mission statement
+mission statement examples,12100,37,new,business strategy fundamentals,,mission statement
+small business plan,9900,7,new,business strategy fundamentals,,business plan
+new business plan,8100,35,new,business strategy fundamentals,,business plan
+software as a service,8100,53,new,business strategy fundamentals,,saas business model
+business plan examples,6600,34,new,business strategy fundamentals,,business plan
+sba business plan template,6600,17,new,business strategy fundamentals,,business plan template
+vision statement examples,6600,15,new,business strategy fundamentals,,vision statement
+vision statement,5400,25,new,business strategy fundamentals,,vision statement
+strategic management,4400,19,new,business strategy fundamentals,,strategic management
+what is a business plan,4400,24,new,business strategy fundamentals,,business plan
+examples of mission statements,3600,33,new,business strategy fundamentals,,mission statement
+startup business plan,3600,23,new,business strategy fundamentals,,startup business plan
+how to make a business plan,2900,35,new,business strategy fundamentals,,business plan
+business plan definition,2400,29,new,business strategy fundamentals,,business plan
+sba business plan,2400,8,new,business strategy fundamentals,,business plan
+business model meaning,1600,18,new,business strategy fundamentals,,business model
+business plan outline,1600,29,new,business strategy fundamentals,,business plan
+entrepreneurship and business plan,1600,13,new,business strategy fundamentals,,business plan
+target mission statement,1600,74,new,business strategy fundamentals,,mission statement
+vision statement meaning,1300,37,new,business strategy fundamentals,,vision statement
+delta mission statement,1000,11,new,business strategy fundamentals,,mission statement
+delta's mission statement,1000,3,new,business strategy fundamentals,,mission statement
+vision statement vs mission statement,1000,25,new,business strategy fundamentals,,vision vs mission
+ge vision statement,880,11,new,business strategy fundamentals,,vision statement
+vision and mission examples,880,36,new,business strategy fundamentals,,vision and mission
+vision statement of ge,880,12,new,business strategy fundamentals,,vision statement
+creating a mission statement,720,8,new,business strategy fundamentals,,mission statement
+customer satisfaction index meaning,3600,10,new,customer experience (cx),,cx metric
+customer centric,2400,12,new,customer experience (cx),,customer-centric
+voice of the customer,1300,28,new,customer experience (cx),,voice of customer
+customer centric meaning,1000,6,new,customer experience (cx),,customer-centric
+customer advocacy,880,5,new,customer experience (cx),,customer advocacy
+customer focus,880,0,new,customer experience (cx),,customer focus
+voice of customer,880,28,new,customer experience (cx),,voice of customer
+customer obsession,720,0,new,customer experience (cx),,customer obsession
+data visualization tools,8100,27,new,dashboard and data visualization design,,data viz tools
+dashboard design,5400,24,new,dashboard and data visualization design,,dashboard ui design
+dashboard examples,1900,9,new,dashboard and data visualization design,,dashboard examples
+data visualization examples,1900,44,new,dashboard and data visualization design,,data viz examples
+customer insights,880,33,new,market research and competitor analysis,,customer insights
+content strategy,3600,49,new,ux writing and content design,,content strategy
+principles of design,27100,20,new,visual design principles,,design principles
+elements of design,14800,27,new,visual design principles,,elements of design
+design principles,5400,34,new,visual design principles,,design principles
+balance in principles of design,4400,2,new,visual design principles,,design principles
+design elements,3600,19,new,visual design principles,,design elements
+principles of design unity,3600,0,new,visual design principles,,design principles
+what are the principles of design,3600,25,new,visual design principles,,design principles
+contrast as a principle of design,2900,20,new,visual design principles,,design principle
+contrast in design principles,2900,20,new,visual design principles,,design principles
+contrast principles of design,2900,20,new,visual design principles,,design principles
+design principles contrast,2900,5,new,visual design principles,,design principles

@@ -1,0 +1,459 @@
+{
+  "id": "10081545-2633-0066-0000-bcd7bebd5f48",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "You can find free fonts for personal and commercial use through popular resources like [Google Fonts](https://fonts.google.com/), [Fontshare](https://www.fontshare.com/) , and [Font Squirrel](https://www.fontsquirrel.com/).[[1]](https://www.reddit.com/r/typography/comments/16ya82k/what_are_some_good_freetouse_font_sites/)[[2]](https://www.fontsquirrel.com/)[[3]](https://www.youtube.com/watch?v=m7w9pnLaf4E)\n\n### Top Free Font Websites\n\n- **Google Fonts:** Best for open-source, web-safe, and reliable typefaces that you can easily embed into websites or download for desktop use.[[1]](https://www.youtube.com/watch?v=m7w9pnLaf4E)[[2]](https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts)\n- **Fontshare:** Offered by the Indian Type Foundry, it features high-quality, professional font families (like Satoshi and Clash Display) that are free for both personal and commercial use.[[1]](https://www.fontshare.com/)[[2]](https://www.awwwards.com/best-free-fonts.html)\n- **Font Squirrel:** Curates hand-picked, high-quality fonts cleared explicitly for commercial projects.[[1]](https://www.fontsquirrel.com/)\n- **[DaFont](https://www.dafont.com/):** Features a massive archive of decorative, script, and display styles, though many fonts here are restricted to personal use only.[[1]](https://www.youtube.com/watch?v=m7w9pnLaf4E)[[2]](https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts)\n- **[FontSpace](https://www.fontspace.com/):** Offers over 160,000 designer-submitted fonts with clear labels showing whether they are free for personal or 100% commercial use.[[1]](https://www.fontspace.com/)\n- **[Open Foundry](https://open-foundry.com/):** A minimalist platform featuring a curated catalog of open-source typefaces with live in-browser testing tools.[[1]](https://www.domestika.org/en/blog/11431-13-best-free-fonts-websites)[[2]](https://www.youtube.com/watch?v=rXITIwzBG-Q&t=272)\n\nAre you looking for fonts for a **personal project** , a **commercial brand identity** , or a specific style (like **serif, sans-serif, or script**)?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can find free fonts for personal and commercial use through popular resources like Google Fonts, Fontshare, and Font Squirrel.",
+          "markdown": "You can find free fonts for personal and commercial use through popular resources like [Google Fonts](https://fonts.google.com/), [Fontshare](https://www.fontshare.com/) , and [Font Squirrel](https://www.fontsquirrel.com/).[[1]](https://www.reddit.com/r/typography/comments/16ya82k/what_are_some_good_freetouse_font_sites/)[[2]](https://www.fontsquirrel.com/)[[3]](https://www.youtube.com/watch?v=m7w9pnLaf4E)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Google Fonts",
+              "url": "https://fonts.google.com/",
+              "domain": "fonts.google.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Fontshare",
+              "url": "https://www.fontshare.com/",
+              "domain": "www.fontshare.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Font Squirrel",
+              "url": "https://www.fontsquirrel.com/",
+              "domain": "www.fontsquirrel.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/typography/comments/16ya82k/what_are_some_good_freetouse_font_sites/",
+              "title": "What are some good, free-to-use, font sites? : r/typography - Reddit",
+              "text": "Recommended Font Resources: Google Fonts, Font Squirrel, Fontshare, DaFont, Open Foundry, Open Source Publishing, Coletttivo, Inde..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Font Squirrel",
+              "domain": "www.fontsquirrel.com",
+              "url": "https://www.fontsquirrel.com/",
+              "title": "Font Squirrel",
+              "text": "About Font Squirrel Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Alternatively, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=m7w9pnLaf4E",
+              "title": "Where to find FREE Fonts for Commercial Use & Personal use",
+              "text": "Where to find FREE Fonts for Commercial Use & Personal use if you're looking for free fonts then the first website I'm going to sh..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Top Free Font Websites",
+          "text": "Google Fonts : Best for open-source, web-safe, and reliable typefaces that you can easily embed into websites or download for desktop use. Fontshare : Offered by the Indian Type Foundry, it features high-quality, professional font families (like Satoshi and Clash Display) that are free for both personal and commercial use. Font Squirrel : Curates hand-picked, high-quality fonts cleared explicitly for commercial projects. DaFont : Features a massive archive of decorative, script, and display styles, though many fonts here are restricted to personal use only. FontSpace : Offers over 160,000 designer-submitted fonts with clear labels showing whether they are free for personal or 100% commercial use. Open Foundry : A minimalist platform featuring a curated catalog of open-source typefaces with live in-browser testing tools.",
+          "markdown": "- **Google Fonts:** Best for open-source, web-safe, and reliable typefaces that you can easily embed into websites or download for desktop use.[[1]](https://www.youtube.com/watch?v=m7w9pnLaf4E)[[2]](https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts)\n- **Fontshare:** Offered by the Indian Type Foundry, it features high-quality, professional font families (like Satoshi and Clash Display) that are free for both personal and commercial use.[[1]](https://www.fontshare.com/)[[2]](https://www.awwwards.com/best-free-fonts.html)\n- **Font Squirrel:** Curates hand-picked, high-quality fonts cleared explicitly for commercial projects.[[1]](https://www.fontsquirrel.com/)\n- **[DaFont](https://www.dafont.com/):** Features a massive archive of decorative, script, and display styles, though many fonts here are restricted to personal use only.[[1]](https://www.youtube.com/watch?v=m7w9pnLaf4E)[[2]](https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts)\n- **[FontSpace](https://www.fontspace.com/):** Offers over 160,000 designer-submitted fonts with clear labels showing whether they are free for personal or 100% commercial use.[[1]](https://www.fontspace.com/)\n- **[Open Foundry](https://open-foundry.com/):** A minimalist platform featuring a curated catalog of open-source typefaces with live in-browser testing tools.[[1]](https://www.domestika.org/en/blog/11431-13-best-free-fonts-websites)[[2]](https://www.youtube.com/watch?v=rXITIwzBG-Q&t=272)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "DaFont",
+              "url": "https://www.dafont.com/",
+              "domain": "www.dafont.com"
+            },
+            {
+              "type": "link_element",
+              "title": "FontSpace",
+              "url": "https://www.fontspace.com/",
+              "domain": "www.fontspace.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Open Foundry",
+              "url": "https://open-foundry.com/",
+              "domain": "open-foundry.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Fontshelf",
+              "domain": "fontshelf.com",
+              "url": "https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts",
+              "title": "Top 10 Sites to Find Free Fonts - Fontshelf",
+              "text": "Google Fonts is a popular resource for free fonts. With over 800 font families such as sans serif, monospaced fonts and more, it i..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Fontshare",
+              "domain": "www.fontshare.com",
+              "url": "https://www.fontshare.com/",
+              "title": "Fontshare: Quality Fonts. Free.",
+              "text": "Fontshare: Free quality font families by Indian Type Foundry. Catalog: Satoshi (12 styles, variable), Clash Display (7 styles, var..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Awwwards",
+              "domain": "www.awwwards.com",
+              "url": "https://www.awwwards.com/best-free-fonts.html",
+              "title": "100 Best Free Fonts for Designers in 2025",
+              "text": "We also think you'll like this selection of google fonts most loved by our users. * DX Sitrus display font * Magilio - Free serif ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "FontSpace",
+              "domain": "www.fontspace.com",
+              "url": "https://www.fontspace.com/",
+              "title": "160,000 Free Fonts - Download Now",
+              "text": "Platform: FontSpace provides over 160,000 legally licensed, designer-centered free fonts and a Unicode-based font generator for we..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Domestika",
+              "domain": "www.domestika.org",
+              "url": "https://www.domestika.org/en/blog/11431-13-best-free-fonts-websites",
+              "title": "13 Best Free Fonts Websites - Domestika",
+              "text": "13 Best Free Fonts Websites. by Domestika @domestika; Published on August 21, 2023 · 1. Fontshare. Fontshare, launched by Indian T..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rXITIwzBG-Q&t=272",
+              "title": "Where to Get the Best Free Fonts for Graphic Design in 2025",
+              "text": "Where to Get the Best Free Fonts for Graphic Design in 2025 so again just be sure to double check to make sure that the font you'r..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking for fonts for a personal project, a commercial brand identity, or a specific style (like serif, sans-serif, or script )?",
+          "markdown": "Are you looking for fonts for a **personal project** , a **commercial brand identity** , or a specific style (like **serif, sans-serif, or script**)?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/typography/comments/16ya82k/what_are_some_good_freetouse_font_sites/",
+          "title": "What are some good, free-to-use, font sites? : r/typography - Reddit",
+          "text": "Recommended Font Resources: Google Fonts, Font Squirrel, Fontshare, DaFont, Open Foundry, Open Source Publishing, Coletttivo, Inde..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Fontshare",
+          "domain": "www.fontshare.com",
+          "url": "https://www.fontshare.com/",
+          "title": "Fontshare: Quality Fonts. Free.",
+          "text": "Fontshare: Free quality font families by Indian Type Foundry. Catalog: Satoshi (12 styles, variable), Clash Display (7 styles, var..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "FontSpace",
+          "domain": "www.fontspace.com",
+          "url": "https://www.fontspace.com/",
+          "title": "160,000 Free Fonts - Download Now",
+          "text": "Platform: FontSpace provides over 160,000 legally licensed, designer-centered free fonts and a Unicode-based font generator for we..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Domestika",
+          "domain": "www.domestika.org",
+          "url": "https://www.domestika.org/en/blog/11431-13-best-free-fonts-websites",
+          "title": "13 Best Free Fonts Websites - Domestika",
+          "text": "13 Best Free Fonts Websites. by Domestika @domestika; Published on August 21, 2023 · 1. Fontshare. Fontshare, launched by Indian T..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=rXITIwzBG-Q&t=272",
+          "title": "Where to Get the Best Free Fonts for Graphic Design in 2025",
+          "text": "Where to Get the Best Free Fonts for Graphic Design in 2025 so again just be sure to double check to make sure that the font you'r..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=m7w9pnLaf4E",
+          "title": "Where to find FREE Fonts for Commercial Use & Personal use",
+          "text": "Where to find FREE Fonts for Commercial Use & Personal use if you're looking for free fonts then the first website I'm going to sh..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Font Squirrel",
+          "domain": "www.fontsquirrel.com",
+          "url": "https://www.fontsquirrel.com/",
+          "title": "Font Squirrel",
+          "text": "About Font Squirrel Font Squirrel is your best resource for FREE, hand-picked, high-quality, commercial-use fonts. Alternatively, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Fontshelf",
+          "domain": "fontshelf.com",
+          "url": "https://fontshelf.com/blogs/news/top-10-sites-to-find-free-fonts",
+          "title": "Top 10 Sites to Find Free Fonts - Fontshelf",
+          "text": "Google Fonts is a popular resource for free fonts. With over 800 font families such as sans serif, monospaced fonts and more, it i..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Awwwards",
+          "domain": "www.awwwards.com",
+          "url": "https://www.awwwards.com/best-free-fonts.html",
+          "title": "100 Best Free Fonts for Designers in 2025",
+          "text": "We also think you'll like this selection of google fonts most loved by our users. * DX Sitrus display font * Magilio - Free serif ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.cufonfonts.com",
+      "title": "Download Free Fonts for Desktop & Webfonts",
+      "url": "https://www.cufonfonts.com/camryn-joy-clusker/collection/fonts/2",
+      "breadcrumb": "https://www.cufonfonts.com › collection › fonts",
+      "website_name": "Cufon Fonts",
+      "description": "Share your fonts with the world. Upload your fonts to cufonfonts.com and archive them for use by all users around the world. Upload your fonts. Read more",
+      "highlighted": [
+        "Upload your fonts to cufonfonts.com"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.cufonfonts.com/camryn-joy-clusker/collection/fonts/2#:~:text=%C2%A9%202026%20CufonFonts.com.%20All%20right",
+          "domain": "www.cufonfonts.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.1001fonts.com",
+      "title": "70+ Free Bold, Google Web, Headline Fonts",
+      "url": "https://www.1001fonts.com/bold+google-web+headline-fonts.html",
+      "breadcrumb": "https://www.1001fonts.com › Bold › Google-web",
+      "website_name": "1001 Fonts",
+      "description": "Trusted by millions since 2001. Bold, Google Web, Headline Fonts. Montserrat +17 by. Download Montserrat Bold Poppins. Bold Bebas Neueby",
+      "highlighted": [
+        "Bold, Google Web, Headline Fonts"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.fonts4free.net",
+      "title": "Decorative Fonts Free Download 521-560 | Fonts4Free",
+      "url": "https://www.fonts4free.net/fancy/decorative-fonts-14.html",
+      "breadcrumb": "https://www.fonts4free.net › ... › Decorative Fonts",
+      "website_name": "Fonts 4 Free",
+      "description": "Fonts4Free.net is a font repository that offers over 10.000 freeware and shareware TrueType (.ttf) or OpenType (.otf) fonts with a live custom phrase preview ... Read more",
+      "highlighted": [
+        "Fonts4Free.net"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.fonts4free.net/fancy/decorative-fonts-14.html#:~:text=Fonts4Free.net%20is%20a%20font%20repository,live%20custom%20phrase%20preview%20option.",
+          "domain": "www.fonts4free.net"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.freelancer.com",
+      "title": "11 Striking Free Fonts Every Designer Should Know About",
+      "url": "https://www.freelancer.com/community/articles/11-striking-free-fonts-every-designer-should-know-about",
+      "breadcrumb": "https://www.freelancer.com › Community › Design",
+      "website_name": "Freelancer",
+      "description": "Sep 17, 2017 — This article is mainly focused to help independent designers and digital marketing agencies with some of the best fonts that are available for  ...",
+      "pre_snippet": "09/17/2017 00:00:00",
+      "highlighted": [
+        "fonts"
+      ],
+      "timestamp": "2017-09-17 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.cufonfonts.com",
+      "title": "Clean Fonts - 23 Free Fonts",
+      "url": "https://www.cufonfonts.com/meonji/collection/clean",
+      "breadcrumb": "https://www.cufonfonts.com › meonji › collection › clean",
+      "website_name": "Cufon Fonts",
+      "description": "Apr 19, 2025 — Share your fonts with the world. Upload your fonts to cufonfonts.com and archive them for use by all users around the world. Upload your fonts. Read more",
+      "pre_snippet": "04/19/2025 00:00:00",
+      "highlighted": [
+        "Upload your fonts to cufonfonts.com"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.cufonfonts.com/meonji/collection/clean#:~:text=%C2%A9%202026%20CufonFonts.com.%20All%20right",
+          "domain": "www.cufonfonts.com"
+        }
+      ],
+      "timestamp": "2025-04-19 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best site for free fonts?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is Gen Z's favorite font?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is an ADHD friendly font?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What free font websites are safe?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "webdesignledger.com",
+      "title": "free for personal use fonts",
+      "url": "https://webdesignledger.com/tag/free-for-personal-use-fonts/",
+      "breadcrumb": "https://webdesignledger.com › tag › free-for-personal-u...",
+      "website_name": "Web Design Ledger",
+      "description": "May 29, 2017 — free for personal use fonts. Butler Free font example1 · Editors PickFeaturedFontGraphicsResources · 9 Free Minimalistic Fonts To Use On ... Read more",
+      "pre_snippet": "05/29/2017 00:00:00",
+      "highlighted": [
+        "free for personal use fonts"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://webdesignledger.com/tag/free-for-personal-use-fonts/#:~:text=free%20for%20personal%20use%20fonts,Use%20On%20Your%20Next%20Project",
+          "domain": "webdesignledger.com"
+        }
+      ],
+      "timestamp": "2017-05-29 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "es.pinterest.com",
+      "title": "45 Free Fonts for Web Designers (Updated)",
+      "url": "https://es.pinterest.com/pin/546061523568176771/",
+      "breadcrumb": "3 years ago",
+      "website_name": "Pinterest · juvenric",
+      "description": "Upgrade your font collection with these 45 beautiful and free fonts from 2015. Perfect for adding a fresh touch to your designs in 2016.",
+      "highlighted": [
+        "45 beautiful and free fonts"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Free fonts in editable type specimens – Figma Community ...",
+      "url": "https://www.reddit.com/r/typography/comments/1bz0f47/free_fonts_in_editable_type_specimens_figma/",
+      "breadcrumb": "2 comments  ·  2 years ago",
+      "website_name": "Reddit · r/typography",
+      "description": "The file has 100+ sans, serif, and monospace fonts that are free for Personal & Commercial use. The majority of the fonts included are not on ... Read more",
+      "highlighted": [
+        "100+ sans, serif, and monospace fonts"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.reddit.com/r/typography/comments/1bz0f47/free_fonts_in_editable_type_specimens_figma/#:~:text=The%20file%20has%20100%2B%20sans%2C,of%20our%20favorite%20GF%20included).",
+          "domain": "www.reddit.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "fontawesome.com",
+      "title": "New Icons",
+      "url": "https://fontawesome.com/search?q=sky&o=r&ic=brands&new=yes",
+      "breadcrumb": "https://fontawesome.com › search",
+      "website_name": "Font Awesome",
+      "description": "Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators. Made with and in Bentonville, Boston, ... Read more",
+      "highlighted": [
+        "Font Awesome"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://fontawesome.com/search?q=sky&o=r&ic=brands&new=yes#:~:text=Font%20Awesome%20is%20the%20internet's,City%2C%20Seattle%2C%20Tampa%2C%20and%20Vergennes.",
+          "domain": "fontawesome.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "id": "10081545-2633-0066-0000-af334aca6fb4",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Define Your North Star Metric: A Step-by-Step Guide](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:4)\nA **North Star metric** is `the single key measurement that captures the core value a product delivers to its customers`.[[1]](https://amplitude.com/blog/product-north-star-metric)[[2]](https://productled.com/blog/identify-your-north-star-metric)\n\nIt serves as a leading indicator of long-term business success and revenue, aligning cross-functional teams toward a single focal point for growth.[[1]](https://mixpanel.com/blog/north-star-metric/)[[2]](https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F)[[3]](https://amplitude.com/blog/good-bad-north-star-metric)[[4]](https://growwithward.com/north-star-metric)\n\n### Key Characteristics of a Good North Star Metric\n\n- **Measures value, not effort:** It tracks the actual value experienced by the user (e.g., songs listened to) rather than company output (e.g., features shipped).[[1]](https://www.metabase.com/glossary/north-star-metric)\n- **Acts as a leading indicator:** It moves ahead of financial revenue, signaling future business health rather than lagging past performance.[[1]](https://amplitude.com/blog/product-north-star-metric)[[2]](https://www.metabase.com/glossary/north-star-metric)\n- **Influencable:** Teams must be able to directly or indirectly impact the metric through their day-to-day work.[[1]](https://posthog.com/founders/north-star-metrics)[[2]](https://www.metabase.com/glossary/north-star-metric)\n- **Understandable and actionable:** It must be simple enough for everyone in the organization to understand and rally behind.[[1]](https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F)[[2]](https://productled.com/blog/identify-your-north-star-metric)\n\n### Famous Examples\n\n- **Airbnb:** Number of nights booked\n- **Spotify:** Time spent listening\n- **Zoom:** Hosted meetings per week\n- **Miro:** Number of collaborative boards[[1]](https://growwithward.com/north-star-metric)[[2]](https://amplitude.com/blog/good-bad-north-star-metric)[[3]](https://productled.com/blog/identify-your-north-star-metric)[[4]](https://future.com/north-star-metrics/)\n\nIf you'd like, tell me:\n\n- What **type of product or business** you are working on\n- Your **primary business model** (B2B, consumer subscription, marketplace, etc.)\n\nI can help brainstorm potential North Star metrics for your specific project.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "A North Star metric is the single key measurement that captures the core value a product delivers to its customers.",
+          "markdown": "![Define Your North Star Metric: A Step-by-Step Guide](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:2)\nA **North Star metric** is `the single key measurement that captures the core value a product delivers to its customers`.[[1]](https://amplitude.com/blog/product-north-star-metric)[[2]](https://productled.com/blog/identify-your-north-star-metric)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Define Your North Star Metric: A Step-by-Step Guide",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/product-north-star-metric",
+              "title": "Every Product Needs a North Star Metric: Here’s How to Find Yours",
+              "text": "Definition: A North Star Metric is a single key measure capturing customer-derived value and revenue intent, serving as a leading ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/identify-your-north-star-metric",
+              "title": "How to identify the North Star Metric for your product-led business (& why it matters) | ProductLed",
+              "text": "Definition: North Star Metric (NSM) measures core product value delivered to customers, focusing on pre-monetization engagement in..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "It serves as a leading indicator of long-term business success and revenue, aligning cross-functional teams toward a single focal point for growth.",
+          "markdown": "It serves as a leading indicator of long-term business success and revenue, aligning cross-functional teams toward a single focal point for growth.[[1]](https://mixpanel.com/blog/north-star-metric/)[[2]](https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F)[[3]](https://amplitude.com/blog/good-bad-north-star-metric)[[4]](https://growwithward.com/north-star-metric)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Mixpanel",
+              "domain": "mixpanel.com",
+              "url": "https://mixpanel.com/blog/north-star-metric/",
+              "title": "What is a North Star metric? | Signals & Stories - Mixpanel",
+              "text": "When startup investor Sean Ellis coined the term “North Star metric,” he intended it to reduce administration, simplify meetings, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "LinkedIn",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F",
+              "title": "The North Star Metric is a powerful, simple concept. | Paweł Huryn",
+              "text": "North Star Metric Definition: A North Star Metric (NSM) is a single, customer-centric metric that reflects how users derive value ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/good-bad-north-star-metric",
+              "title": "What Makes a Good vs Bad North Star Metric",
+              "text": "Definition: A North Star Metric (NSM) captures the core value customers derive from a product, serves as a leading indicator of re..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Ward van Gasteren",
+              "domain": "growwithward.com",
+              "url": "https://growwithward.com/north-star-metric",
+              "title": "What is your \"North Star Metric\"? + 8 steps to find your NSM immediately",
+              "text": "The North Star Metric (NSM) is a metric that a company uses as a focus for their growth. This number best reflects the amount of v..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Characteristics of a Good North Star Metric",
+          "text": "Measures value, not effort: It tracks the actual value experienced by the user (e.g., songs listened to) rather than company output (e.g., features shipped). Acts as a leading indicator: It moves ahead of financial revenue, signaling future business health rather than lagging past performance. Influencable: Teams must be able to directly or indirectly impact the metric through their day-to-day work. Understandable and actionable: It must be simple enough for everyone in the organization to understand and rally behind.",
+          "markdown": "- **Measures value, not effort:** It tracks the actual value experienced by the user (e.g., songs listened to) rather than company output (e.g., features shipped).[[1]](https://www.metabase.com/glossary/north-star-metric)\n- **Acts as a leading indicator:** It moves ahead of financial revenue, signaling future business health rather than lagging past performance.[[1]](https://amplitude.com/blog/product-north-star-metric)[[2]](https://www.metabase.com/glossary/north-star-metric)\n- **Influencable:** Teams must be able to directly or indirectly impact the metric through their day-to-day work.[[1]](https://posthog.com/founders/north-star-metrics)[[2]](https://www.metabase.com/glossary/north-star-metric)\n- **Understandable and actionable:** It must be simple enough for everyone in the organization to understand and rally behind.[[1]](https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F)[[2]](https://productled.com/blog/identify-your-north-star-metric)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Metabase",
+              "domain": "www.metabase.com",
+              "url": "https://www.metabase.com/glossary/north-star-metric",
+              "title": "What is a north star metric?",
+              "text": "What is a north star metric? * A north star metric is the one number a company or team agrees to steer by. Its job is coordination..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/product-north-star-metric",
+              "title": "Every Product Needs a North Star Metric: Here’s How to Find Yours",
+              "text": "Definition: A North Star Metric is a single key measure capturing customer-derived value and revenue intent, serving as a leading ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "PostHog",
+              "domain": "posthog.com",
+              "url": "https://posthog.com/founders/north-star-metrics",
+              "title": "Finding your North Star metric and why it matters - PostHog",
+              "text": "What is a North Star metric? In its simplest form, a North Star is a metric which provides a singular focus for a company or produ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "LinkedIn",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F",
+              "title": "The North Star Metric is a powerful, simple concept. | Paweł Huryn",
+              "text": "North Star Metric Definition: A North Star Metric (NSM) is a single, customer-centric metric that reflects how users derive value ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/identify-your-north-star-metric",
+              "title": "How to identify the North Star Metric for your product-led business (& why it matters) | ProductLed",
+              "text": "Definition: North Star Metric (NSM) measures core product value delivered to customers, focusing on pre-monetization engagement in..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Famous Examples",
+          "text": "Airbnb: Number of nights booked Spotify: Time spent listening Zoom: Hosted meetings per week Miro: Number of collaborative boards",
+          "markdown": "- **Airbnb:** Number of nights booked\n- **Spotify:** Time spent listening\n- **Zoom:** Hosted meetings per week\n- **Miro:** Number of collaborative boards[[1]](https://growwithward.com/north-star-metric)[[2]](https://amplitude.com/blog/good-bad-north-star-metric)[[3]](https://productled.com/blog/identify-your-north-star-metric)[[4]](https://future.com/north-star-metrics/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Ward van Gasteren",
+              "domain": "growwithward.com",
+              "url": "https://growwithward.com/north-star-metric",
+              "title": "What is your \"North Star Metric\"? + 8 steps to find your NSM immediately",
+              "text": "The North Star Metric (NSM) is a metric that a company uses as a focus for their growth. This number best reflects the amount of v..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/blog/good-bad-north-star-metric",
+              "title": "What Makes a Good vs Bad North Star Metric",
+              "text": "Definition: A North Star Metric (NSM) captures the core value customers derive from a product, serves as a leading indicator of re..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productled",
+              "domain": "productled.com",
+              "url": "https://productled.com/blog/identify-your-north-star-metric",
+              "title": "How to identify the North Star Metric for your product-led business (& why it matters) | ProductLed",
+              "text": "Definition: North Star Metric (NSM) measures core product value delivered to customers, focusing on pre-monetization engagement in..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "future.com",
+              "domain": "future.com",
+              "url": "https://future.com/north-star-metrics/",
+              "title": "Choosing Your North Star Metric - Future",
+              "text": "The platform uses a unique North Star Metric I'll call activated supply, which translates to “number of creators making over a cer..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, tell me:What type of product or business you are working on\nYour primary business model (B2B, consumer subscription, marketplace, etc.)\nI can help brainstorm potential North Star metrics for your specific project.",
+          "markdown": "If you'd like, tell me:\n\n- What **type of product or business** you are working on\n- Your **primary business model** (B2B, consumer subscription, marketplace, etc.)\n\nI can help brainstorm potential North Star metrics for your specific project."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Amplitude",
+          "domain": "amplitude.com",
+          "url": "https://amplitude.com/blog/product-north-star-metric",
+          "title": "Every Product Needs a North Star Metric: Here’s How to Find Yours",
+          "text": "Definition: A North Star Metric is a single key measure capturing customer-derived value and revenue intent, serving as a leading ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Mixpanel",
+          "domain": "mixpanel.com",
+          "url": "https://mixpanel.com/blog/north-star-metric/",
+          "title": "What is a North Star metric? | Signals & Stories - Mixpanel",
+          "text": "When startup investor Sean Ellis coined the term “North Star metric,” he intended it to reduce administration, simplify meetings, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Ward van Gasteren",
+          "domain": "growwithward.com",
+          "url": "https://growwithward.com/north-star-metric",
+          "title": "What is your \"North Star Metric\"? + 8 steps to find your NSM immediately",
+          "text": "The North Star Metric (NSM) is a metric that a company uses as a focus for their growth. This number best reflects the amount of v..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "LinkedIn",
+          "domain": "www.linkedin.com",
+          "url": "https://www.linkedin.com/posts/pawel-huryn_the-north-star-metric-is-a-powerful-simple-activity-7285677502784557057-Lp3F",
+          "title": "The North Star Metric is a powerful, simple concept. | Paweł Huryn",
+          "text": "North Star Metric Definition: A North Star Metric (NSM) is a single, customer-centric metric that reflects how users derive value ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "future.com",
+          "domain": "future.com",
+          "url": "https://future.com/north-star-metrics/",
+          "title": "Choosing Your North Star Metric - Future",
+          "text": "The platform uses a unique North Star Metric I'll call activated supply, which translates to “number of creators making over a cer..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Metabase",
+          "domain": "www.metabase.com",
+          "url": "https://www.metabase.com/glossary/north-star-metric",
+          "title": "What is a north star metric?",
+          "text": "What is a north star metric? * A north star metric is the one number a company or team agrees to steer by. Its job is coordination..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Amplitude",
+          "domain": "amplitude.com",
+          "url": "https://amplitude.com/blog/good-bad-north-star-metric",
+          "title": "What Makes a Good vs Bad North Star Metric",
+          "text": "Definition: A North Star Metric (NSM) captures the core value customers derive from a product, serves as a leading indicator of re..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Productled",
+          "domain": "productled.com",
+          "url": "https://productled.com/blog/identify-your-north-star-metric",
+          "title": "How to identify the North Star Metric for your product-led business (& why it matters) | ProductLed",
+          "text": "Definition: North Star Metric (NSM) measures core product value delivered to customers, focusing on pre-monetization engagement in..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "PostHog",
+          "domain": "posthog.com",
+          "url": "https://posthog.com/founders/north-star-metrics",
+          "title": "Finding your North Star metric and why it matters - PostHog",
+          "text": "What is a North Star metric? In its simplest form, a North Star is a metric which provides a singular focus for a company or produ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "airfocus.com",
+      "title": "What Is the North Star Metric? Definiton, Examples, FAQs",
+      "url": "https://airfocus.com/glossary/what-is-north-star-metric/",
+      "breadcrumb": "https://airfocus.com › glossary › what-is-north-star-metric",
+      "website_name": "airfocus by Lucid",
+      "description": "A North Star Metric (NSM) defines a business's most sustainable and profitable core value.",
+      "highlighted": [
+        "North Star Metric"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuH0NGJvnsrEz4Q5p1H0gDrmgkiGQ:1791474340231&q=north+star+metric&udm=2&source=univ&fir=cgvfWw_2UD7zmM%252CktxNwESaKNGyVM%252C_%253BZ9X8SN-zN29yQM%252CK4SRImC4rdN2zM%252C_%253B3mV-4z_BKaK35M%252CwKx6gLnL4cvjLM%252C_%253BM_u5HYTTf49wuM%252Cg-MZyROT9QN9uM%252C_%253BphQm7ytwgdsrUM%252CXYa3rDZOrI5x6M%252C_%253BJQJPj0qaaZZIgM%252Ct-LyYhK0aQ4_OM%252C_%253BVGLvdSKGpN88TM%252CcS7vWDEpMhKcTM%252C_%253BTgMF-4aZJkDqIM%252Ca5gu5QTX5PekXM%252C_%253BeZ9SlWJ_LLhkzM%252Cl4Me1U_IXlqZxM%252C_&usg=AI4_-kRkq9mIawTgvhdGPRFuOJaicPldNg&sa=X&ved=2ahUKEwimsbH94aqXAxVqrZUCHTocB9cQ7Al6BAgeEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "What is a North Star metric? | Signals & Stories",
+          "url": "https://mixpanel.com/blog/north-star-metric/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "North Star Metric: Definition, 14 Examples + the Framework",
+          "url": "https://www.productcompass.pm/p/the-north-star-framework-101",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Define Your North Star Metric: A Step-by-Step Guide",
+          "url": "https://www.linkedin.com/pulse/define-your-north-star-metric-step-by-step-guide-anthony-maiello-l8l8c",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-af334aca6fb4:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "Don't Let Your North Star Metric Deceive You — Brian Balfour",
+          "url": "https://brianbalfour.com/essays/north-star-metric-growth",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDshL8_OtFR43D4pfKJ_V3q-q1BUfQkcD3x2eFDhfM41g7_GRJ3O7bL04&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to Choose & Measure North Star Metrics: Acquisition ...",
+          "url": "https://www.reforge.com/blog/north-star-metrics",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSeGnkNogABW6IZZwsTnAJVU5c5GKFsdtXTmLFWfyE5simuJAj1k79DCA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "North Star Metric, was ist das? Aufbau, Definition und ...",
+          "url": "https://www.klixpert.io/blog/growth-marketing/north-star-metric/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk-iBySwpBC33DTWtZR_yF-4qrVIJe8W3niVesc-u4PM-ba8sCv2IX7ng&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Understanding North Star Metrics | Planio",
+          "url": "https://plan.io/blog/north-star-metrics/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIt2_2rkbET3js7A7Lb9uQfJiNH4r_ZSiF9G7Cf7B-4yxAz_IodXxU6hU&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to connect North Star Metrics, Product Strategy, and OKRs",
+          "url": "https://herbig.co/product-strategy-metrics-sandwich/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7DqoTHgKO1h4vrm2MYrcfn4qRzrA3MUatW4lm0whHqb1lLyrXMg_PqCg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is a North Star Metric? - Datameer",
+          "url": "https://www.datameer.com/blog/what-is-a-north-star-metric/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1QQYPvwU6RcIyAg4ZY_Fx9ACX5ZLD-i5Wy9UuBtJc9t9UFB1ZceVLE9c&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are 5 examples of metrics to measure performance?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does the slang term \"North Star\" mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does \"north star\" mean in product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are examples of North Star metrics?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "uxcam.com",
+      "title": "How to Define North Star Metric (Tools, Tips & Tactics)",
+      "url": "https://uxcam.com/blog/how-to-define-north-star-metric/",
+      "breadcrumb": "https://uxcam.com › Blog",
+      "website_name": "UXCam",
+      "description": "May 13, 2024 — A North Star Metric (NSM) is a singular metric that a company focuses on to measure the success and growth of its product.",
+      "pre_snippet": "05/13/2024 00:00:00",
+      "highlighted": [
+        "North Star Metric"
+      ],
+      "timestamp": "2024-05-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.subscriptionindex.com",
+      "title": "North Star Metrics: How to Set and Use Them",
+      "url": "https://www.subscriptionindex.com/p/north-star-metrics-how-to-set-and-use-them",
+      "breadcrumb": "https://www.subscriptionindex.com › north-star-metrics...",
+      "website_name": "Subscription Index",
+      "description": "Nov 29, 2025 — A North Star Metric is a way of quantifying the combined user and business value that your product produces. Users come to your product to solve ... Read more",
+      "pre_snippet": "11/29/2025 00:00:00",
+      "highlighted": [
+        "a way of quantifying the combined user and business value that your product produces"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.subscriptionindex.com/p/north-star-metrics-how-to-set-and-use-them#:~:text=A%20North%20Star%20Metric%20is,product%20to%20solve%20a%20problem.",
+          "domain": "www.subscriptionindex.com"
+        }
+      ],
+      "timestamp": "2025-11-29 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "enji.ai",
+      "title": "What Is a North Star Metric? | Performance Glossary - Enji.ai",
+      "url": "https://enji.ai/glossary/north-star-metric/",
+      "breadcrumb": "https://enji.ai › Glossary",
+      "website_name": "enji.ai",
+      "description": "A North Star metric is the single measure that best captures the core value a product delivers to customers. It serves as the ultimate success indicator;",
+      "highlighted": [
+        "the single measure that best captures the core value a product delivers to customers"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.customersuccesscollective.com",
+      "title": "What is a North Star metric?",
+      "url": "https://www.customersuccesscollective.com/what-is-a-north-star-metric/",
+      "breadcrumb": "https://www.customersuccesscollective.com › what-is-a-n...",
+      "website_name": "Customer Success Collective",
+      "description": "Feb 16, 2024 — a north star metric is a single, high-level metric that represents the overall success of your company or product.",
+      "pre_snippet": "02/16/2024 00:00:00",
+      "highlighted": [
+        "north star metric",
+        "metric"
+      ],
+      "timestamp": "2024-02-16 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "kyligence.io",
+      "title": "Driving Business Growth with North Star Metric",
+      "url": "https://kyligence.io/blog/how-to-drive-business-growth-with-north-star-metric/",
+      "breadcrumb": "https://kyligence.io › blog › how-to-drive-business-gro...",
+      "website_name": "Kyligence",
+      "description": "Sep 22, 2023 — At its core, the NSM is a single metric that reflects the value your product delivers to your customers in alignment to your mission.",
+      "pre_snippet": "09/22/2023 00:00:00",
+      "highlighted": [
+        "metric"
+      ],
+      "timestamp": "2023-09-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.linkedin.com",
+      "title": "Setting a North Star Metric for 2025",
+      "url": "https://www.linkedin.com/top-content/business-strategy/measuring-business-performance/setting-a-north-star-metric-for-2025/",
+      "breadcrumb": "https://www.linkedin.com › top-content › business-strategy",
+      "website_name": "LinkedIn",
+      "description": "Define Your North Star. This is your North Star metric. aligns with your goals. * 2. Prioritize Goals & Tasks. One North Star metric (ultimate success ...",
+      "highlighted": [
+        "Prioritize Goals & Tasks"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.teknicks.com",
+      "title": "North Star Metric Examples",
+      "url": "https://www.teknicks.com/blog/north-star-metric-examples/",
+      "breadcrumb": "https://www.teknicks.com › Resources",
+      "website_name": "Teknicks",
+      "description": "May 23, 2024 — In the e-commerce industry, North Star metrics such as Average Order Value (AOV), Customer Acquisition Cost (CAC), and Conversion Rate are often ... Read more",
+      "pre_snippet": "05/23/2024 00:00:00",
+      "highlighted": [
+        "Average Order Value (AOV), Customer Acquisition Cost (CAC), and Conversion Rate"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.teknicks.com/blog/north-star-metric-examples/#:~:text=In%20the%20e-commerce%20industry%2C%20North,Conversion%20Rate%20are%20often%20used.",
+          "domain": "www.teknicks.com"
+        }
+      ],
+      "timestamp": "2024-05-23 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "North star metric examples",
+        "North Star meaning"
+      ]
+    }
+  ]
+}

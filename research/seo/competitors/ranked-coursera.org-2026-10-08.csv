@@ -1,0 +1,501 @@
+keyword,volume,difficulty,position,url,intent
+chagto,124000000,25,24,https://www.coursera.org/articles/chatgpt,informational
+chatgpt,124000000,100,11,https://www.coursera.org/articles/chatgpt,informational
+chat g p t,37200000,80,4,https://www.coursera.org/articles/chatgpt,informational
+chat-gpt,37200000,71,3,https://www.coursera.org/articles/chatgpt,informational
+a i,5000000,100,18,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+a.i,5000000,100,17,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+ai,5000000,100,16,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+ai's,5000000,96,21,https://www.coursera.org/articles/types-of-ai,informational
+artificial general intelligence,5000000,53,10,https://www.coursera.org/articles/what-is-artificial-general-intelligence,informational
+claude.ai,3350000,90,23,https://www.coursera.org/articles/anthropic-claude,navigational
+fafsa,3350000,66,23,https://www.coursera.org/articles/what-does-fafsa-stand-for,informational
+google spreadsheets,3350000,78,10,https://www.coursera.org/articles/google-sheets-vs-excel,informational
+gpt,2740000,66,17,https://www.coursera.org/articles/what-is-gpt,informational
+google.ai,2240000,80,16,https://www.coursera.org/specializations/ai-essentials-google,navigational
+microsoft 365,1500000,100,14,https://www.coursera.org/articles/what-is-microsoft-365,transactional
+ms office 365,1500000,73,17,https://www.coursera.org/articles/what-is-microsoft-365,transactional
+ms365,1500000,46,6,https://www.coursera.org/articles/what-is-microsoft-365,informational
+perplexity,1500000,69,16,https://www.coursera.org/articles/what-is-perplexity-ai,informational
+common app,1220000,19,39,https://www.coursera.org/articles/common-app,informational
+common application,1220000,19,44,https://www.coursera.org/articles/common-app,informational
+common apps,1220000,19,50,https://www.coursera.org/articles/common-app,informational
+open.ai,1220000,98,17,https://www.coursera.org/articles/what-is-openai,navigational
+openai,1220000,98,22,https://www.coursera.org/articles/what-is-openai,informational
+pharm,1220000,67,88,https://www.coursera.org/articles/pharmacist,informational
+pharmacist,1220000,37,34,https://www.coursera.org/articles/pharmacist,informational
+humanizing ai,1000000,67,19,https://www.coursera.org/articles/how-to-humanize-ai-content,informational
+c excel,823000,21,24,https://www.coursera.org/articles/what-is-excel,informational
+exc-ell,823000,42,26,https://www.coursera.org/articles/what-is-excel,informational
+excel,823000,86,13,https://www.coursera.org/articles/what-is-excel,informational
+excel microsoft excel,823000,64,13,https://www.coursera.org/articles/what-is-excel,transactional
+gpt chat,823000,71,15,https://www.coursera.org/articles/chatgpt,informational
+how many week per year,823000,6,5,https://www.coursera.org/articles/how-many-work-weeks-in-a-year,informational
+how many weeks a year,823000,0,7,https://www.coursera.org/articles/how-many-work-weeks-in-a-year,informational
+how many weeks per year,823000,0,4,https://www.coursera.org/articles/how-many-work-weeks-in-a-year,informational
+ms excel,823000,81,9,https://www.coursera.org/articles/what-is-excel,transactional
+anthropic,673000,100,40,https://www.coursera.org/articles/anthropic-claude,informational
+masters of arts,550000,14,10,https://www.coursera.org/articles/master-of-arts-degree,informational
+outlook 365,550000,96,16,https://www.coursera.org/articles/what-is-microsoft-365,navigational
+computer languages python,450000,54,10,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+coursera,450000,60,1,https://www.coursera.org/,navigational
+google analytics,450000,100,25,https://www.coursera.org/professional-certificates/google-data-analytics,informational
+humanize,450000,68,21,https://www.coursera.org/articles/how-to-humanize-ai-content,informational
+jobs that are work from home,450000,30,17,https://www.coursera.org/articles/remote-work-from-home-jobs,informational
+jobs that work from home,450000,47,30,https://www.coursera.org/articles/remote-work-from-home-jobs,informational
+programing language python,450000,70,10,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+python,450000,100,17,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+work fro.com home jobs,450000,47,19,https://www.coursera.org/articles/remote-work-from-home-jobs,navigational
+work from home and jobs,450000,58,18,https://www.coursera.org/articles/remote-work-from-home-jobs,informational
+engineering,368000,59,28,https://www.coursera.org/articles/engineering-degree,informational
+microsoft bi power,368000,80,14,https://www.coursera.org/articles/what-is-power-bi,transactional
+perplexity ai,368000,69,12,https://www.coursera.org/articles/what-is-perplexity-ai,informational
+perplexity.ai,368000,43,9,https://www.coursera.org/articles/what-is-perplexity-ai,navigational
+phlebotomist,368000,14,38,https://www.coursera.org/articles/phlebotomist,informational
+phlebotomists,368000,27,27,https://www.coursera.org/articles/phlebotomist,informational
+phlebotomy,368000,44,64,https://www.coursera.org/articles/phlebotomist,informational
+power bi,368000,68,11,https://www.coursera.org/articles/what-is-power-bi,informational
+power bi software,368000,67,16,https://www.coursera.org/articles/what-is-power-bi,commercial
+artificial inte,301000,75,20,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+artificial intelligence,301000,100,19,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+c all,301000,22,25,https://www.coursera.org/learn/c-for-everyone,informational
+copilot.ai,301000,100,43,https://www.coursera.org/specializations/microsoft-copilot-your-everyday-ai-companion,navigational
+creative cloud,301000,70,6,https://www.coursera.org/articles/adobe-creative-cloud,commercial
+data and data science,301000,32,43,https://www.coursera.org/articles/what-is-data-science,informational
+data science,301000,63,5,https://www.coursera.org/browse/data-science,informational
+data scientist,301000,26,4,https://www.coursera.org/articles/what-is-a-data-scientist,informational
+data scientists,301000,30,4,https://www.coursera.org/articles/what-is-a-data-scientist,informational
+entrepreneur,301000,82,18,https://www.coursera.org/articles/entrepreneur,informational
+entrepreneur entrepreneurship,301000,43,50,https://www.coursera.org/articles/what-is-entrepreneurship,informational
+entrepreneurship,301000,39,45,https://www.coursera.org/articles/what-is-entrepreneurship,informational
+health information and management,301000,25,14,https://www.coursera.org/articles/health-information-management,informational
+health information management,301000,15,29,https://www.coursera.org/articles/health-information-management,informational
+intelligence ai,301000,94,29,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+juris doctor,301000,20,31,https://www.coursera.org/articles/juris-doctor-degree,informational
+juris doctorate,301000,16,44,https://www.coursera.org/articles/juris-doctor-degree,informational
+physician's assistant,301000,26,58,https://www.coursera.org/articles/physician-assistant,informational
+physicians assistant,301000,47,64,https://www.coursera.org/articles/physician-assistant,informational
+robotic,301000,64,28,https://www.coursera.org/articles/what-is-robotics,informational
+what is an it,301000,16,13,https://www.coursera.org/articles/what-is-information-technology,informational
+what is i t,301000,23,15,https://www.coursera.org/articles/information-systems-vs-information-technology,informational
+what is it,301000,20,19,https://www.coursera.org/articles/information-systems-vs-information-technology,informational
+what is the it,301000,43,9,https://www.coursera.org/articles/what-is-information-technology,informational
+a-bs,246000,13,4,https://www.coursera.org/articles/ba-vs-bs,informational
+aphr,246000,0,25,https://www.coursera.org/professional-certificates/hrci-human-resource-associate,informational
+augmented reality,246000,53,14,https://www.coursera.org/articles/augmented-reality-vs-virtual-reality,informational
+borat: cultural learnings of america,246000,20,99,https://www.coursera.org/learn/america-through-foreign-eyes,informational
+i p,246000,76,23,https://www.coursera.org/articles/ip-address,informational
+korean,246000,59,13,https://www.coursera.org/learn/learn-korean,informational
+manage,246000,25,30,https://www.coursera.org/articles/management,informational
+management,246000,25,5,https://www.coursera.org/articles/management,informational
+managing,246000,22,28,https://www.coursera.org/articles/management,informational
+âr,246000,36,7,https://www.coursera.org/articles/ar,informational
+anesthesia nurse,201000,39,60,https://www.coursera.org/articles/nurse-anesthetist,informational
+anesthesiologist registered nurse,201000,23,59,https://www.coursera.org/articles/nurse-anesthetist,informational
+applied behavior analysis,201000,41,41,https://www.coursera.org/learn/applied-behavior-analysis-introduction,informational
+certified registered nurse anesthetist,201000,28,63,https://www.coursera.org/articles/nurse-anesthetist,informational
+crna,201000,9,77,https://www.coursera.org/articles/nurse-anesthetist,informational
+crna nurse,201000,30,61,https://www.coursera.org/articles/nurse-anesthetist,informational
+crnas,201000,18,70,https://www.coursera.org/articles/nurse-anesthetist,informational
+crypto currency,201000,73,17,https://www.coursera.org/articles/how-does-cryptocurrency-work,informational
+cryptocurrencies,201000,83,26,https://www.coursera.org/articles/what-is-crypto,informational
+cryptocurrency,201000,73,14,https://www.coursera.org/articles/how-does-cryptocurrency-work,informational
+customer care and services,201000,32,15,https://www.coursera.org/articles/customer-service,informational
+customer service,201000,62,11,https://www.coursera.org/articles/customer-service,informational
+customer service employment remote,201000,13,18,https://www.coursera.org/articles/remote-customer-service-jobs,informational
+data annotation,201000,33,21,https://www.coursera.org/articles/data-annotation-in-machine-learning,informational
+data annotations,201000,36,24,https://www.coursera.org/articles/data-annotation-in-machine-learning,informational
+data annotator,201000,8,27,https://www.coursera.org/articles/data-annotation-in-machine-learning,informational
+dataannotation,201000,25,28,https://www.coursera.org/articles/data-annotation-in-machine-learning,informational
+deadlines,201000,22,50,https://www.coursera.org/articles/when-are-college-applications-due,informational
+degree marks,201000,11,59,https://www.coursera.org/articles/what-grade-do-you-need-to-pass-a-college-class,informational
+development for web,201000,60,14,https://www.coursera.org/articles/web-developer,informational
+jira,201000,39,13,https://www.coursera.org/articles/what-is-jira,informational
+jobs as medical assistant,201000,0,40,https://www.coursera.org/articles/medical-assistant,informational
+learning machine,201000,86,14,https://www.coursera.org/articles/what-is-machine-learning,informational
+machine learning,201000,81,11,https://www.coursera.org/articles/what-is-machine-learning,informational
+mobile app development,201000,45,19,https://www.coursera.org/articles/mobile-app-development,informational
+mobile application development,201000,45,25,https://www.coursera.org/articles/mobile-app-development,informational
+nurse anesthesiologist,201000,37,52,https://www.coursera.org/articles/nurse-anesthetist,informational
+nurse anesthetist,201000,34,60,https://www.coursera.org/articles/nurse-anesthetist,informational
+real estate agent,201000,53,30,https://www.coursera.org/articles/real-estate-agent,commercial
+remote jobs customer service,201000,13,22,https://www.coursera.org/articles/remote-customer-service-jobs,informational
+rn anesthetist,201000,30,53,https://www.coursera.org/articles/nurse-anesthetist,informational
+s m a r t goals,201000,63,66,https://www.coursera.org/articles/what-are-smart-goals,informational
+smart criteria for goals,201000,49,57,https://www.coursera.org/articles/what-are-smart-goals,informational
+smart goal,201000,62,59,https://www.coursera.org/articles/what-are-smart-goals,informational
+statistical,201000,41,17,https://www.coursera.org/articles/statistical-analytics,informational
+web dev,201000,75,23,https://www.coursera.org/articles/web-developer,informational
+web development,201000,61,17,https://www.coursera.org/articles/web-developer,informational
+web site dev,201000,61,3,https://www.coursera.org/articles/web-developer,commercial
+website development,201000,55,14,https://www.coursera.org/articles/web-developer,commercial
+address resolution,165000,16,14,https://www.coursera.org/articles/address-resolution-protocol,informational
+address resolution protocol,165000,21,18,https://www.coursera.org/articles/address-resolution-protocol,informational
+adobe cc,165000,81,17,https://www.coursera.org/articles/adobe-creative-cloud,transactional
+adobe cc cloud,165000,87,12,https://www.coursera.org/articles/adobe-creative-cloud,transactional
+adobe creative cloud,165000,80,14,https://www.coursera.org/articles/adobe-creative-cloud,transactional
+adobe creative cloud software,165000,76,20,https://www.coursera.org/articles/adobe-creative-cloud,transactional
+artificial intelligence math,165000,2,10,https://www.coursera.org/articles/what-math-do-i-need-to-know-for-ai,informational
+c vitae,165000,13,43,https://www.coursera.org/articles/what-is-a-cv,informational
+certified project management professional,165000,32,10,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+certified public accountants,165000,43,60,https://www.coursera.org/articles/cpa,informational
+chartered professional accountant,165000,43,56,https://www.coursera.org/articles/cpa,commercial
+cnp nurse,165000,1,74,https://www.coursera.org/articles/nurse-practitioner,informational
+communicate,165000,40,11,https://www.coursera.org/articles/communication-effectiveness,informational
+communication,165000,59,8,https://www.coursera.org/articles/communication-effectiveness,informational
+confluence,165000,32,12,https://www.coursera.org/articles/what-is-confluence,informational
+cpa,165000,67,67,https://www.coursera.org/articles/cpa,informational
+cpas,165000,72,64,https://www.coursera.org/articles/cpa,informational
+crm,165000,70,12,https://www.coursera.org/articles/what-is-a-crm,commercial
+crm customer relationship management,165000,70,11,https://www.coursera.org/articles/what-is-a-crm,informational
+curriculum vitae,165000,17,59,https://www.coursera.org/articles/what-is-a-cv,informational
+customer management crm,165000,70,26,https://www.coursera.org/articles/what-is-a-crm,informational
+customer management relationship,165000,52,27,https://www.coursera.org/articles/relationship-management,informational
+customer relation management,165000,58,23,https://www.coursera.org/articles/what-is-a-crm,informational
+customer relationship management,165000,70,19,https://www.coursera.org/articles/what-is-a-crm,informational
+customer relationship management crm,165000,70,7,https://www.coursera.org/articles/what-is-a-crm,commercial
+cv,165000,48,38,https://www.coursera.org/articles/what-is-a-cv,informational
+dashboard,165000,39,20,https://www.coursera.org/articles/what-is-dashboard,navigational
+dashboards,165000,34,20,https://www.coursera.org/articles/what-is-dashboard,informational
+google administrator,165000,74,18,https://www.coursera.org/professional-certificates/g-suite-administration,navigational
+google and job,165000,52,19,https://www.coursera.org/articles/how-to-get-job-at-google,informational
+graphic design,165000,61,5,https://www.coursera.org/specializations/graphic-design,informational
+graphic designing,165000,58,6,https://www.coursera.org/specializations/graphic-design,commercial
+graphic designs,165000,58,18,https://www.coursera.org/specializations/graphic-design,commercial
+graphics design,165000,42,13,https://www.coursera.org/articles/what-does-a-graphic-designer-do,informational
+higher paying jobs,165000,6,14,https://www.coursera.org/articles/highest-paying-jobs-in-nyc,informational
+highest paying job,165000,13,14,https://www.coursera.org/articles/highest-paying-jobs-in-florida,informational
+highest paying jobs,165000,14,15,https://www.coursera.org/articles/highest-paying-jobs-in-texas,informational
+how many hour are in a year,165000,5,30,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hour in a year,165000,3,13,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours a year,165000,2,14,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours are in a year,165000,5,18,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours are in the year,165000,7,26,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours are in year,165000,10,17,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours in a calendar year,165000,13,22,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours in a year,165000,4,16,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours in the year,165000,4,22,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours is a year,165000,5,18,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours is in a year,165000,5,30,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hours year,165000,0,9,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hr are in a year,165000,0,14,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hrs are in a year,165000,7,18,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many hrs in a year,165000,7,20,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+how many.hours in a year,165000,4,16,https://www.coursera.org/articles/how-many-work-hours-in-a-year,informational
+hr,165000,62,6,https://www.coursera.org/articles/what-is-hr,informational
+human as resource,165000,17,4,https://www.coursera.org/articles/what-is-hr,informational
+human resource professionals,165000,46,19,https://www.coursera.org/articles/what-is-hr,informational
+human resources hr,165000,55,4,https://www.coursera.org/articles/what-is-hr,informational
+hypertext markup language,165000,38,51,https://www.coursera.org/articles/what-does-html-stand-for,informational
+infographic,165000,67,28,https://www.coursera.org/articles/what-is-an-infographic,informational
+infographic of infographics,165000,26,14,https://www.coursera.org/articles/what-is-an-infographic,informational
+infographics,165000,73,55,https://www.coursera.org/articles/what-is-an-infographic,informational
+interview questions,165000,36,39,https://www.coursera.org/articles/common-interview-questions,informational
+masters of business administration,165000,43,61,https://www.coursera.org/degrees/business,informational
+mathematics for artificial intelligence,165000,9,2,https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science,informational
+mba,165000,78,30,https://www.coursera.org/degrees/business,informational
+mbas,165000,82,17,https://www.coursera.org/articles/types-of-mbas,informational
+msis,165000,9,105,https://www.coursera.org/articles/mis,informational
+np nursing,165000,16,52,https://www.coursera.org/articles/nurse-practitioner,informational
+nurse practitioner,165000,27,53,https://www.coursera.org/articles/nurse-practitioner,informational
+nurse practitioners,165000,29,55,https://www.coursera.org/articles/nurse-practitioner,informational
+photographs,165000,47,61,https://www.coursera.org/learn/photography,informational
+physiologist,165000,8,45,https://www.coursera.org/articles/exercise-physiologist,informational
+physiology,165000,41,20,https://www.coursera.org/learn/physiology,informational
+pmp certificate,165000,42,9,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+pmp certification,165000,95,8,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+pmp certified,165000,91,9,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+pmp project management certification,165000,39,4,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+pmp project management professional certification,165000,26,11,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+pomodoro,165000,69,37,https://www.coursera.org/articles/pomodoro-study-method,informational
+program for project management,165000,59,16,https://www.coursera.org/courses?query=project%20management,informational
+program management professional certification,165000,3,7,https://www.coursera.org/specializations/pgmp-program-management-professional-exam-prep-course,informational
+program management software,165000,44,36,https://www.coursera.org/articles/project-management-tools,commercial
+project management professional certification,165000,37,4,https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started,informational
+project management software projects,165000,56,18,https://www.coursera.org/articles/project-management-tools,commercial
+questions asked at interviews,165000,36,28,https://www.coursera.org/articles/common-interview-questions,informational
+trade school,165000,18,95,https://www.coursera.org/articles/what-is-trade-school,informational
+trade schools,165000,12,54,https://www.coursera.org/articles/what-is-trade-school,commercial
+unity,165000,50,14,https://www.coursera.org/articles/what-is-unity,informational
+which of the following is true of algorithms,165000,0,74,https://www.coursera.org/learn/algorithms-part1,informational
+3d model,135000,57,17,https://www.coursera.org/articles/what-is-3d-modeling,informational
+3d modeling,135000,49,41,https://www.coursera.org/articles/what-is-3d-modeling,informational
+3d modelling,135000,41,19,https://www.coursera.org/articles/what-is-3d-modeling,informational
+a-g-i,135000,30,17,https://www.coursera.org/articles/what-is-agi-versus-ai,informational
+adobe firefly,135000,56,14,https://www.coursera.org/articles/adobe-firefly,transactional
+affiliate marketing,135000,60,5,https://www.coursera.org/articles/affiliate-marketing,commercial
+agi,135000,30,18,https://www.coursera.org/articles/what-is-agi-versus-ai,informational
+agile approach,135000,47,23,https://www.coursera.org/articles/what-is-agile-a-beginners-guide,informational
+agile methodology,135000,44,26,https://www.coursera.org/articles/what-is-agile-a-beginners-guide,informational
+agile techniques,135000,56,22,https://www.coursera.org/articles/what-is-agile-a-beginners-guide,informational
+api,135000,76,15,https://www.coursera.org/articles/what-is-an-api,informational
+apis,135000,60,13,https://www.coursera.org/articles/what-is-an-api,informational
+application programming interface,135000,44,10,https://www.coursera.org/articles/what-is-an-api,informational
+bar chart,135000,33,10,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+bar charts,135000,29,10,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+civil engineer,135000,20,58,https://www.coursera.org/articles/civil-engineer,informational
+civil engineering,135000,27,64,https://www.coursera.org/articles/civil-engineer,informational
+civil engineers,135000,19,28,https://www.coursera.org/articles/civil-engineer,informational
+civilian engineering,135000,16,9,https://www.coursera.org/articles/civil-engineer,informational
+class banking,135000,8,18,https://www.coursera.org/courses?query=banking,navigational
+cloud and cloud computing,135000,62,19,https://www.coursera.org/articles/what-is-cloud-computing,informational
+cloud computing,135000,70,22,https://www.coursera.org/articles/what-is-cloud-computing,commercial
+cognitive,135000,50,9,https://www.coursera.org/articles/cognitive-skills,informational
+comptia,135000,83,21,https://www.coursera.org/articles/what-is-the-comptia-a-certification-what-to-know,informational
+digital and marketing,135000,50,17,https://www.coursera.org/articles/digital-marketing,informational
+digital marketer,135000,32,38,https://www.coursera.org/articles/digital-marketing-specialist,commercial
+digital marketing,135000,78,18,https://www.coursera.org/articles/digital-marketing,informational
+django web framework,135000,50,14,https://www.coursera.org/learn/django-web-framework,commercial
+epidemiologist,135000,5,60,https://www.coursera.org/articles/epidemiologist,informational
+freelance job,135000,39,16,https://www.coursera.org/articles/freelancer,informational
+good clinical practice,135000,36,40,https://www.coursera.org/learn/good-clinical-practice-novartis,informational
+how can i earn money online,135000,28,15,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how can i make online money,135000,33,10,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how do i become a better active listener in conversations,135000,12,10,https://www.coursera.org/articles/active-listening,informational
+how i make online money,135000,28,11,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to be make money online,135000,29,11,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to earn from online,135000,41,13,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to generate online money,135000,61,9,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to make income online,135000,32,20,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to make money online,135000,26,13,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+how to money online,135000,32,9,https://www.coursera.org/articles/what-skills-can-i-learn-to-make-money-online,informational
+internet protocol address,135000,43,15,https://www.coursera.org/articles/ip-address,informational
+ip addressing,135000,40,15,https://www.coursera.org/articles/ip-address,informational
+ipaddress,135000,55,16,https://www.coursera.org/articles/ip-address,informational
+jobs as a freelancer,135000,48,11,https://www.coursera.org/articles/freelancer,informational
+manager project,135000,43,9,https://www.coursera.org/articles/what-is-project-manager,informational
+manager projects,135000,30,9,https://www.coursera.org/articles/what-is-project-manager,informational
+managing project managers,135000,20,14,https://www.coursera.org/articles/what-is-project-manager,informational
+master of marketing management,135000,8,27,https://www.coursera.org/articles/masters-in-marketing,informational
+mechanical engineer,135000,18,42,https://www.coursera.org/articles/mechanical-engineer,informational
+microsoft excel,135000,86,11,https://www.coursera.org/articles/what-is-excel,transactional
+milestone,135000,49,10,https://www.coursera.org/articles/what-is-milestone,informational
+mis,135000,24,42,https://www.coursera.org/articles/mis,informational
+nfl statistician,135000,6,21,https://www.coursera.org/articles/sports-statistician,informational
+pricing,135000,16,19,https://www.coursera.org/articles/pricing-strategy,informational
+procurement,135000,15,20,https://www.coursera.org/articles/what-is-procurement,informational
+programming languages python,135000,47,7,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+programming python,135000,71,7,https://www.coursera.org/learn/python,informational
+project and management,135000,56,18,https://www.coursera.org/articles/what-is-project-manager,informational
+project management,135000,80,18,https://www.coursera.org/professional-certificates/google-project-management,informational
+project management institute,135000,68,27,https://www.coursera.org/courses?query=project%20management,informational
+prototypes,135000,24,12,https://www.coursera.org/articles/prototype,informational
+python code language,135000,71,12,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+python program,135000,59,14,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+python programming,135000,70,9,https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python,informational
+stem,135000,51,64,https://www.coursera.org/articles/stem-degree,informational
+tableau,135000,58,14,https://www.coursera.org/articles/tableau,informational
+transcripts,135000,63,54,https://www.coursera.org/articles/how-to-get-college-transcripts,informational
+accountancy,110000,29,8,https://www.coursera.org/articles/accountancy-degree,informational
+accountant,110000,29,10,https://www.coursera.org/articles/accountant,informational
+actuarial,110000,70,58,https://www.coursera.org/articles/actuary,informational
+actuaries,110000,37,54,https://www.coursera.org/articles/actuary,informational
+actuary,110000,33,45,https://www.coursera.org/articles/actuary,informational
+adobe cloud subscription,110000,63,14,https://www.coursera.org/articles/adobe-creative-cloud,transactional
+ai p,110000,74,39,https://www.coursera.org/articles/what-is-perplexity-ai,informational
+analysis database,110000,13,68,https://www.coursera.org/articles/data-analysis-tools,informational
+analyzing data,110000,48,2,https://www.coursera.org/articles/what-is-data-analysis-with-examples,informational
+aws and cloud,110000,82,10,https://www.coursera.org/articles/what-is-aws,commercial
+aws cloud,110000,27,7,https://www.coursera.org/articles/what-is-aws,commercial
+aws cloud computing,110000,67,9,https://www.coursera.org/articles/what-is-aws,commercial
+aws cloud technologies,110000,35,7,https://www.coursera.org/articles/what-is-aws,commercial
+aws cloud technology,110000,34,4,https://www.coursera.org/professional-certificates/aws-cloud-technology-consultant,commercial
+bachelor degree and degree,110000,16,14,https://www.coursera.org/articles/what-is-a-bachelors-degree,informational
+bachelor level degree,110000,15,24,https://www.coursera.org/degrees/bachelors,informational
+bachelor university degree,110000,32,43,https://www.coursera.org/articles/what-is-a-bachelors-degree,informational
+bachelor's degree,110000,28,4,https://www.coursera.org/articles/what-is-a-bachelors-degree,informational
+bard,110000,64,13,https://www.coursera.org/articles/what-is-bard,informational
+business ideas,110000,10,10,https://www.coursera.org/articles/small-business-ideas,informational
+c online course,110000,24,10,https://www.coursera.org/courses?query=c%20programming,informational
+cad,110000,66,10,https://www.coursera.org/articles/what-is-cad,informational
+cad computer aided design software,110000,39,21,https://www.coursera.org/articles/what-is-cad,commercial
+cad computer programs,110000,45,14,https://www.coursera.org/articles/what-is-cad,commercial
+central processing units,110000,21,5,https://www.coursera.org/articles/central-processing-unit,informational
+certificate of advanced studies,110000,0,98,https://www.coursera.org/certificates/learn,informational
+certificate of advanced study,110000,0,72,https://www.coursera.org/certificates/learn,informational
+chatgpt ai chat,110000,81,12,https://www.coursera.org/articles/chatgpt,navigational
+chief operation manager,110000,8,48,https://www.coursera.org/articles/operations-manager,informational
+cloud and aws,110000,100,9,https://www.coursera.org/articles/what-is-aws,commercial
+coding,110000,92,35,https://www.coursera.org/articles/learning-how-to-code,informational
+communication as a skill,110000,32,19,https://www.coursera.org/articles/communication-effectiveness,informational
+communication skills,110000,45,22,https://www.coursera.org/articles/communication-effectiveness,informational
+company ideas,110000,33,8,https://www.coursera.org/articles/small-business-ideas,informational
+computer aided design software,110000,60,11,https://www.coursera.org/articles/what-is-cad,commercial
+computer-aided design programs,110000,36,8,https://www.coursera.org/courses?query=cad,commercial
+computer-aided drawing software,110000,60,16,https://www.coursera.org/articles/what-is-cad,commercial
+content marketing,110000,74,12,https://www.coursera.org/articles/content-marketing,informational
+contentmarketing,110000,38,10,https://www.coursera.org/articles/content-marketing,commercial
+continuous integration,110000,64,19,https://www.coursera.org/articles/continuous-integration,informational
+correlation,110000,22,37,https://www.coursera.org/articles/types-of-correlations,informational
+correlations,110000,32,50,https://www.coursera.org/articles/types-of-correlations,informational
+cpu,110000,30,34,https://www.coursera.org/articles/central-processing-unit,informational
+customer,110000,46,22,https://www.coursera.org/articles/customer-service,informational
+data,110000,57,43,https://www.coursera.org/articles/data-definition,informational
+data analysis,110000,39,3,https://www.coursera.org/articles/what-is-data-analysis-with-examples,informational
+degree or bachelor,110000,15,10,https://www.coursera.org/articles/what-is-a-bachelors-degree,informational
+discounted cash flow,110000,26,22,https://www.coursera.org/articles/discounted-cash-flow,commercial
+domain name system,110000,49,11,https://www.coursera.org/articles/domain-name-system,informational
+domain name system servers,110000,40,14,https://www.coursera.org/articles/domain-name-system,informational
+ebitda,110000,34,10,https://www.coursera.org/articles/what-is-ebitda,informational
+emotional intelligence,110000,65,29,https://www.coursera.org/articles/what-is-emotional-intelligence,informational
+emotions and emotional intelligence,110000,65,52,https://www.coursera.org/articles/what-is-emotional-intelligence,informational
+emt,110000,42,33,https://www.coursera.org/articles/emergency-medical-technician,informational
+how is a business started,110000,47,16,https://www.coursera.org/articles/start-a-business,informational
+how start a business,110000,46,17,https://www.coursera.org/articles/start-a-business,informational
+how to begin a business,110000,29,11,https://www.coursera.org/articles/start-a-business,informational
+how to i start a business,110000,35,15,https://www.coursera.org/articles/start-a-business,informational
+how to open business,110000,66,21,https://www.coursera.org/articles/start-a-business,informational
+how to start a business,110000,66,18,https://www.coursera.org/articles/start-a-business,informational
+how to start up a company,110000,54,16,https://www.coursera.org/articles/start-a-business,informational
+idea for a company,110000,35,17,https://www.coursera.org/articles/small-business-ideas,informational
+ideas business,110000,34,7,https://www.coursera.org/articles/small-business-ideas,informational
+ideas for a business,110000,33,9,https://www.coursera.org/articles/small-business-ideas,informational
+leader skill set,110000,31,7,https://www.coursera.org/articles/leadership-skills,informational
+leadership and leadership skills,110000,39,25,https://www.coursera.org/articles/leadership-skills-video,informational
+leadership skills,110000,50,6,https://www.coursera.org/articles/leadership-skills,informational
+licensed practical nurses,110000,35,36,https://www.coursera.org/articles/licensed-practical-nurse,informational
+licensed practical nursing lpn,110000,6,69,https://www.coursera.org/articles/licensed-practical-nurse,informational
+llm,110000,51,41,https://www.coursera.org/articles/large-language-models,informational
+llms,110000,62,33,https://www.coursera.org/articles/large-language-models,informational
+lpn,110000,23,64,https://www.coursera.org/articles/licensed-practical-nurse,informational
+manage time management,110000,50,22,https://www.coursera.org/articles/time-management,informational
+managing time management,110000,61,15,https://www.coursera.org/articles/time-management,informational
+marketing and content,110000,36,25,https://www.coursera.org/articles/content-marketing,informational
+marketing and jobs,110000,17,10,https://www.coursera.org/articles/marketing-careers,informational
+matlab,110000,62,14,https://www.coursera.org/articles/what-is-matlab,informational
+media in marketing,110000,47,22,https://www.coursera.org/articles/digital-marketing,informational
+medical assistant,110000,18,106,https://www.coursera.org/articles/medical-assistant,informational
+multimodal ai assistant,110000,15,18,https://www.coursera.org/learn/codio-multimodal-generative-ai-vision-speech-and-assistants,informational
+online course,110000,91,4,https://www.coursera.org/,informational
+online courses,110000,99,2,https://www.coursera.org/,informational
+overview of artificial intelligence,110000,59,23,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+paralegal,110000,37,19,https://www.coursera.org/articles/paralegal,informational
+ph d,110000,6,18,https://www.coursera.org/articles/what-does-phd-stand-for,informational
+ph d phd,110000,16,32,https://www.coursera.org/articles/what-does-phd-stand-for,informational
+phd,110000,23,5,https://www.coursera.org/articles/what-does-phd-stand-for,informational
+phds,110000,28,29,https://www.coursera.org/articles/phd,informational
+prof dev,110000,51,27,https://www.coursera.org/courses?query=professional%20development,informational
+professional development,110000,35,31,https://www.coursera.org/courses?query=professional%20development,informational
+psychological first aid,110000,30,8,https://www.coursera.org/learn/psychological-first-aid,informational
+research,110000,47,50,https://www.coursera.org/articles/purpose-of-research,informational
+rubber ducking,110000,28,19,https://www.coursera.org/articles/rubber-duck-debugging,informational
+salesperson job,110000,6,11,https://www.coursera.org/articles/sales-representative-jobs,informational
+sat i scores,110000,58,41,https://www.coursera.org/articles/what-is-a-good-sat-score,informational
+skills and communication,110000,32,18,https://www.coursera.org/articles/communication-effectiveness,informational
+skills of a leader,110000,23,38,https://www.coursera.org/articles/leadership-skills,informational
+social media marketing,110000,43,22,https://www.coursera.org/professional-certificates/facebook-social-media-marketing,informational
+social networking marketing,110000,42,35,https://www.coursera.org/articles/network-marketing,informational
+software architect,110000,12,9,https://www.coursera.org/articles/software-architect,informational
+software augmented reality,110000,19,21,https://www.coursera.org/articles/augmented-reality-framework,informational
+strengths,110000,55,8,https://www.coursera.org/articles/strengths-and-weaknesses-interview,informational
+sustainability,110000,74,38,https://www.coursera.org/articles/what-is-sustainability,informational
+sustainability sustainable,110000,61,44,https://www.coursera.org/articles/what-is-sustainability,informational
+sustainable,110000,74,25,https://www.coursera.org/articles/what-is-sustainability,informational
+time management,110000,50,10,https://www.coursera.org/articles/time-management-skills,informational
+vibe code,110000,60,28,https://www.coursera.org/specializations/vibe-coding,informational
+vibe coder,110000,56,15,https://www.coursera.org/specializations/vibe-coding,transactional
+what is ai,110000,65,25,https://www.coursera.org/articles/what-is-artificial-intelligence,informational
+work and life,110000,39,20,https://www.coursera.org/articles/work-life-balance,informational
+work and life balance,110000,59,11,https://www.coursera.org/articles/work-life-balance,informational
+work life balance,110000,60,6,https://www.coursera.org/articles/work-life-balance,informational
+work-life balance,110000,62,6,https://www.coursera.org/articles/work-life-balance,informational
+work-life management,110000,25,32,https://www.coursera.org/articles/work-life-balance,informational
+3d,90500,89,19,https://www.coursera.org/articles/what-is-3d-modeling,informational
+aa degree,90500,5,60,https://www.coursera.org/articles/what-is-an-associate-degree-key-information-to-know,informational
+accounting package software,90500,73,60,https://www.coursera.org/courses?query=accounting,commercial
+advice for resume,90500,40,18,https://www.coursera.org/articles/resume-tips,informational
+advice on public speaking,90500,16,30,https://www.coursera.org/articles/public-speaking,informational
+advice on resume,90500,36,17,https://www.coursera.org/articles/resume-tips,informational
+analyze business,90500,6,18,https://www.coursera.org/articles/business-analysis-tools,informational
+arduino platform,90500,36,8,https://www.coursera.org/learn/arduino-platform,transactional
+associate degree,90500,11,38,https://www.coursera.org/articles/what-is-an-associate-degree-key-information-to-know,informational
+associate's degree,90500,20,9,https://www.coursera.org/articles/what-is-an-associate-degree-key-information-to-know,informational
+associates degrees,90500,20,34,https://www.coursera.org/articles/what-is-an-associate-degree-key-information-to-know,informational
+asynchronous,90500,29,34,https://www.coursera.org/articles/asynchronous-communication,informational
+bachelor's,90500,31,5,https://www.coursera.org/articles/what-is-a-bachelors-degree,informational
+bar chart graph,90500,21,19,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+bar chart graphics,90500,20,15,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+bar graph,90500,29,28,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+bar graphs,90500,30,34,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+business analysis,90500,32,16,https://www.coursera.org/articles/what-does-a-business-analyst-do-and-how-to-become-one,informational
+career change,90500,14,30,https://www.coursera.org/articles/career-change,informational
+certified management accountant,90500,5,24,https://www.coursera.org/articles/certified-management-accountant,informational
+chart bar,90500,36,15,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+charts bar,90500,22,16,https://www.coursera.org/articles/what-is-a-bar-chart,informational
+coding bootcamp,90500,23,22,https://www.coursera.org/articles/coding-bootcamps,informational
+coding bootcamps,90500,29,3,https://www.coursera.org/articles/coding-bootcamps,informational
+competency based training,90500,0,2,https://www.coursera.org/enterprise/articles/competency-based-training,informational
+competency-based training,90500,0,2,https://www.coursera.org/enterprise/articles/competency-based-training,informational
+computer programming bootcamp,90500,42,13,https://www.coursera.org/articles/coding-bootcamps,informational
+computer programming learning,90500,47,8,https://www.coursera.org/courses?query=computer%20programming,informational
+customer service jobs from home,90500,22,20,https://www.coursera.org/articles/remote-customer-service-jobs,informational
+customer service work from home jobs,90500,17,19,https://www.coursera.org/articles/remote-customer-service-jobs,informational
+cx,90500,46,17,https://www.coursera.org/articles/what-is-cx,informational
+data science and python,90500,27,9,https://www.coursera.org/learn/python-for-applied-data-science-ai,informational
+data science python,90500,28,14,https://www.coursera.org/learn/python-for-applied-data-science-ai,informational
+data scientist with python,90500,23,9,https://www.coursera.org/learn/python-for-applied-data-science-ai,informational
+dental hygiene,90500,15,50,https://www.coursera.org/articles/dental-hygienist,informational
+dental hygiene wages,90500,6,10,https://www.coursera.org/articles/dental-hygienist-salary,informational
+dental hygienist,90500,22,47,https://www.coursera.org/articles/dental-hygienist,informational
+dental hygienist pay,90500,5,9,https://www.coursera.org/articles/dental-hygienist-salary,informational
+dental hygienist salary,90500,6,10,https://www.coursera.org/articles/dental-hygienist-salary,informational
+dental hygienist wage,90500,5,8,https://www.coursera.org/articles/dental-hygienist-salary,informational
+dentist hygienist salary,90500,9,8,https://www.coursera.org/articles/dental-hygienist-salary,informational
+e commerce,90500,79,15,https://www.coursera.org/articles/ecommerce-business,commercial
+e-commerce,90500,79,19,https://www.coursera.org/articles/ecommerce,informational
+e-commerce ecommerce,90500,54,10,https://www.coursera.org/articles/ecommerce-business,informational
+ecommerce,90500,79,9,https://www.coursera.org/articles/ecommerce-business,commercial
+electrical engineer,90500,17,17,https://www.coursera.org/articles/electrical-engineer,informational
+electrical engineers,90500,22,56,https://www.coursera.org/articles/electrical-engineer,informational
+electrotechnical engineering,90500,8,32,https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering,informational
+email marketing,90500,71,3,https://www.coursera.org/articles/email-marketing,commercial
+emails for email marketing,90500,35,16,https://www.coursera.org/articles/email-marketing,commercial
+engine optimization,90500,58,7,https://www.coursera.org/articles/what-is-generative-engine-optimization,informational
+engineering electrical,90500,30,31,https://www.coursera.org/browse/physical-science-and-engineering/electrical-engineering,informational
+enterprise resource erp,90500,37,25,https://www.coursera.org/articles/what-is-erp,informational
+enterprise resource planning,90500,54,20,https://www.coursera.org/articles/what-is-erp,informational
+enterprise resource planning systems,90500,50,29,https://www.coursera.org/articles/what-is-erp,commercial
+epochs,90500,19,8,https://www.coursera.org/articles/epoch-in-machine-learning,informational
+erp,90500,46,15,https://www.coursera.org/articles/what-is-erp,informational
+excel tutorial,90500,14,18,https://www.coursera.org/courses?query=microsoft%20excel,informational
+forensics physiology,90500,23,31,https://www.coursera.org/learn/forensic-science,informational
+freelance,90500,98,15,https://www.coursera.org/articles/freelancer,informational
+freelancer,90500,96,20,https://www.coursera.org/articles/freelancer,informational
+freelancers,90500,60,19,https://www.coursera.org/articles/freelancer,commercial
+freelancing,90500,63,19,https://www.coursera.org/articles/freelancer,informational
+french language how to learn,90500,66,21,https://www.coursera.org/courses?query=french%20language,informational
+game dev,90500,54,37,https://www.coursera.org/articles/game-developer,informational
+game development,90500,56,23,https://www.coursera.org/articles/game-developer,informational
+geo information science,90500,40,40,https://www.coursera.org/specializations/gis,informational
+geographic information science,90500,24,44,https://www.coursera.org/specializations/gis,informational
+goal development,90500,24,4,https://www.coursera.org/articles/professional-development-goals,informational
+gre,90500,40,27,https://www.coursera.org/articles/what-is-the-gre,informational
+how to be study effectively,90500,27,69,https://www.coursera.org/articles/study-habits,informational
+how to learn chinese,90500,16,13,https://www.coursera.org/learn/learn-chinese,informational
+how to learn in chinese language,90500,35,7,https://www.coursera.org/learn/learn-chinese,informational
+how to study effectively,90500,24,38,https://www.coursera.org/articles/study-habits,informational
+hr resources,90500,37,10,https://www.coursera.org/articles/what-is-hr,informational
+hugging,90500,55,11,https://www.coursera.org/articles/what-is-hugging-face,informational
+human and resources,90500,34,9,https://www.coursera.org/articles/what-is-hr,informational
+human resource,90500,45,9,https://www.coursera.org/articles/what-is-hr,informational
+human resources,90500,46,14,https://www.coursera.org/articles/what-is-hr,informational
+hygiene dentist salary,90500,10,5,https://www.coursera.org/articles/dental-hygienist-salary,informational
+inverse document frequency,90500,18,12,https://www.coursera.org/articles/what-is-tfidf,informational
+javascript and node js tutorial,90500,23,27,https://www.coursera.org/resources/how-to-start-learning-node-js,informational
+javascript node js,90500,41,13,https://www.coursera.org/articles/node-js,informational
+jobs without a degree,90500,4,33,https://www.coursera.org/articles/high-paying-jobs-without-a-degree,informational
+jobs without degrees,90500,0,28,https://www.coursera.org/articles/high-paying-jobs-without-a-degree,informational
+joins,90500,34,17,https://www.coursera.org/articles/sql-join-types,informational
+js and node js,90500,22,14,https://www.coursera.org/articles/node-js,informational
+korean language how to learn,90500,35,11,https://www.coursera.org/learn/learn-korean,informational
+learn code,90500,61,18,https://www.coursera.org/articles/learning-how-to-code,informational
+learn coding,90500,41,13,https://www.coursera.org/courses?query=coding,informational
+learn coding and programming,90500,51,22,https://www.coursera.org/courses?query=coding,transactional
+learn how to code,90500,49,18,https://www.coursera.org/articles/learning-how-to-code,informational
+learn programming code,90500,36,17,https://www.coursera.org/courses?query=coding,informational
+learn to code,90500,59,48,https://www.coursera.org/courses?query=coding,informational
+learning computer coding,90500,54,20,https://www.coursera.org/articles/learning-how-to-code,informational
+learning how to code,90500,23,9,https://www.coursera.org/articles/learning-how-to-code,informational
+line graph,90500,19,16,https://www.coursera.org/articles/what-is-a-line-graph,informational
+marine biology,90500,15,43,https://www.coursera.org/learn/marine-biology,informational
+marketing,90500,77,9,https://www.coursera.org/articles/marketing-is,informational

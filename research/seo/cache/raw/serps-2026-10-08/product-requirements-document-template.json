@@ -1,0 +1,389 @@
+{
+ "id": "10081545-2633-0066-0000-8c8f967b622f",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "![13x PRD Examples including Real PRD Templates - Hustle Badger](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:4)\nA standard Product Requirements Document (PRD) template helps align product, design, and engineering teams by outlining what to build and why. You can find ready-to-use layouts via the [Atlassian Confluence PRD Template](https://www.atlassian.com/software/confluence/templates/product-requirements) or browse various structures on the [Notion PRD Marketplace](https://www.notion.com/templates/category/product-requirements-doc).\n\n### Core PRD Template Structure\n\n- **Metadata & Overview** \n\t- Product Name & Version\n\t- Document Owner / Author\n\t- Target Release Date & Status\n\t- Core Team & Stakeholders\n- **Problem Statement & Objectives** \n\t- Background / Why build this\n\t- Business & Product Goals\n\t- Measurable Success Metrics (KPIs)\n- **Target Audience & Scope** \n\t- User Personas & Target Segments\n\t- User Stories & Use Cases\n\t- In-Scope vs. Out-of-Scope Items\n- **Functional & Technical Requirements** \n\t- Core Features & Priority Levels\n\t- Acceptance Criteria\n\t- Technical & System Constraints\n\t- Assumptions & Dependencies\n- **Design & Support** \n\t- UX / UI Mockups & Flows\n\t- Open Questions & Risks\n\nIf you'd like, let me know:\n\n- What **type of product** you are building (mobile app, B2B SaaS, hardware, etc.)\n- Which **specific section** you need help writing out\n\nI can draft a customized template section or full outline for you.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "A standard Product Requirements Document (PRD) template helps align product, design, and engineering teams by outlining what to build and why. You can find ready-to-use layouts via the Atlassian Confluence PRD Template or browse various structures on the Notion PRD Marketplace.",
+     "markdown": "![13x PRD Examples including Real PRD Templates - Hustle Badger](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:2)\nA standard Product Requirements Document (PRD) template helps align product, design, and engineering teams by outlining what to build and why. You can find ready-to-use layouts via the [Atlassian Confluence PRD Template](https://www.atlassian.com/software/confluence/templates/product-requirements) or browse various structures on the [Notion PRD Marketplace](https://www.notion.com/templates/category/product-requirements-doc).",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Atlassian Confluence PRD Template",
+       "url": "https://www.atlassian.com/software/confluence/templates/product-requirements",
+       "domain": "www.atlassian.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Notion PRD Marketplace",
+       "url": "https://www.notion.com/templates/category/product-requirements-doc",
+       "domain": "www.notion.com"
+      }
+     ],
+     "images": [
+      {
+       "type": "images_element",
+       "alt": "13x PRD Examples including Real PRD Templates - Hustle Badger",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:3"
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core PRD Template Structure",
+     "text": "Metadata & OverviewProduct Name & Version\nDocument Owner / Author\nTarget Release Date & Status\nCore Team & Stakeholders Product Name & Version Document Owner / Author Target Release Date & Status Core Team & Stakeholders Problem Statement & ObjectivesBackground / Why build this\nBusiness & Product Goals\nMeasurable Success Metrics (KPIs) Background / Why build this Business & Product Goals Measurable Success Metrics (KPIs) Target Audience & ScopeUser Personas & Target Segments\nUser Stories & Use Cases\nIn-Scope vs. Out-of-Scope Items User Personas & Target Segments User Stories & Use Cases In-Scope vs. Out-of-Scope Items Functional & Technical RequirementsCore Features & Priority Levels\nAcceptance Criteria\nTechnical & System Constraints\nAssumptions & Dependencies Core Features & Priority Levels Acceptance Criteria Technical & System Constraints Assumptions & Dependencies Design & SupportUX / UI Mockups & Flows\nOpen Questions & Risks UX / UI Mockups & Flows Open Questions & Risks",
+     "markdown": "- **Metadata & Overview** \n\t- Product Name & Version\n\t- Document Owner / Author\n\t- Target Release Date & Status\n\t- Core Team & Stakeholders\n- **Problem Statement & Objectives** \n\t- Background / Why build this\n\t- Business & Product Goals\n\t- Measurable Success Metrics (KPIs)\n- **Target Audience & Scope** \n\t- User Personas & Target Segments\n\t- User Stories & Use Cases\n\t- In-Scope vs. Out-of-Scope Items\n- **Functional & Technical Requirements** \n\t- Core Features & Priority Levels\n\t- Acceptance Criteria\n\t- Technical & System Constraints\n\t- Assumptions & Dependencies\n- **Design & Support** \n\t- UX / UI Mockups & Flows\n\t- Open Questions & Risks"
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you'd like, let me know:What type of product you are building (mobile app, B2B SaaS, hardware, etc.)\nWhich specific section you need help writing out\nI can draft a customized template section or full outline for you.",
+     "markdown": "If you'd like, let me know:\n\n- What **type of product** you are building (mobile app, B2B SaaS, hardware, etc.)\n- Which **specific section** you need help writing out\n\nI can draft a customized template section or full outline for you."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Notion",
+     "domain": "www.notion.com",
+     "url": "https://www.notion.com/templates/category/product-requirements-doc",
+     "title": "PRD template | Notion Marketplace",
+     "text": "Notion Marketplace offers Product Requirements Document (PRD) templates blending requirements, specs, feature specifications, tech..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/software/confluence/templates/product-requirements",
+     "title": "Free Product Requirements Document (PRD) Template | Confluence",
+     "text": "Categories: Product Management, Software & IT, Project Management, Progress Tracking, Task Tracking. Basics: Define target release..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Product School",
+     "domain": "productschool.com",
+     "url": "https://productschool.com/blog/product-strategy/product-template-requirements-document-prd",
+     "title": "The Only PRD Template You Need (with Example)",
+     "text": "Definition: A Product Requirements Document (PRD) is a living, precise, and concise guide written by Product Managers to define a ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Aha! software",
+     "domain": "www.aha.io",
+     "url": "https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-product-requirements-document-template",
+     "title": "PRD Templates: What To Include for Success",
+     "text": "Table_title: PRD presentation template Table_content: | P﻿roduct name | This one should be obvious | | --- | --- | | V﻿ision | Whe..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Medium",
+     "domain": "carlinyuen.medium.com",
+     "url": "https://carlinyuen.medium.com/writing-prds-and-product-requirements-2effdb9c6def",
+     "title": "Writing PRDs and product requirements - Carlin Yuen - Medium",
+     "text": "Give a standard 2- or 3-liner elevator pitch for the proposed solution. Write it in plain english as much as possible so that an a..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Documentero",
+     "domain": "documentero.com",
+     "url": "https://documentero.com/templates/project-management/document/product-requirements-document/",
+     "title": "Product Requirements Document - Document Template - Documentero",
+     "text": "Product Requirements Document - Document Template Project & Business Management Product Requirements Document P Product Requiremen..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Figma",
+     "domain": "www.figma.com",
+     "url": "https://www.figma.com/templates/prd-template/",
+     "title": "PRD Template | Product Requirements Document | FigJam",
+     "text": "FAQs * What is a product requirements document? A product requirements document (or PRD sample) is an outline that explains the pu..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=ewfneGyjhaY&t=32",
+     "title": "How to write a PRD? | Walkthrough of PRD Template Example",
+     "text": "How to write a PRD? | Walkthrough of PRD Template Example now let's jump right in so what components make up a PRD. every company ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=SmjIlwENcjQ",
+     "title": "How to create a Product requirement document + Template Free 2025 | PRD",
+     "text": "How to create a Product requirement document + Template Free 2025 | PRD right so today we're going to be talking about PD. that's ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/glossary/product-requirements-document",
+     "title": "Product Requirements Document | Glossary - ProductPlan",
+     "text": "A PRD must include every explicit capability required for the release. To support each desired capability, there should be an acco..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=jdSFQG7dyrk&vl=en",
+     "title": "How to Write a Great PRD (Step-by-Step Tutorial with Template & ...",
+     "text": "How to Write a Great PRD (Step-by-Step Tutorial with Template & Examples) | ClickUp half your sprint's gone and you're still expla..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "anotherwrapper.com",
+   "title": "6 Sample Product Requirements Document Templates to ...",
+   "url": "https://anotherwrapper.com/blog/sample-product-requirements-document",
+   "breadcrumb": "https://anotherwrapper.com › Blog",
+   "website_name": "AnotherWrapper",
+   "description": "Jun 2, 2025 — This listicle presents six sample product requirements document templates to streamline your workflow and boost efficiency.",
+   "pre_snippet": "06/02/2025 00:00:00",
+   "highlighted": [
+    "six sample product requirements document templates"
+   ],
+   "timestamp": "2025-06-02 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 3,
+   "page": 1,
+   "domain": "www.notion.com",
+   "title": "Best PRD: Product Requirements Document Templates for ...",
+   "url": "https://www.notion.com/zh-tw/templates/collections/best-prd-product-requirements-doc-templates-for-product-managers",
+   "breadcrumb": "https://www.notion.com › templates",
+   "website_name": "Notion",
+   "description": "Discover top PRD templates for product managers to streamline development and enhance project clarity. Click to explore!",
+   "highlighted": [
+    "top PRD templates for product managers"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.scribd.com",
+   "title": "Product Requirements Document Template | PDF",
+   "url": "https://www.scribd.com/document/866096314/Product-Requirements-Document-PRD-Template",
+   "breadcrumb": "https://www.scribd.com › document › Product-Require...",
+   "website_name": "Scribd",
+   "description": "It includes sections on objectives, success metrics, target audience, user stories, functional and non-functional requirements, assumptions, dependencies, and ... Read more",
+   "highlighted": [
+    "requirements"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.scribd.com/document/866096314/Product-Requirements-Document-PRD-Template#:~:text=It%20includes%20sections%20on%20objectives%2C,requirements%2C%20assumptions%2C%20dependencies%2C%20and%20milestones.",
+     "domain": "www.scribd.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "dhavalthakur.medium.com",
+   "title": "Free Product Requirements Document (PRD) Template for ...",
+   "url": "https://dhavalthakur.medium.com/free-product-requirements-document-prd-template-for-product-managers-01e226dd8d46",
+   "breadcrumb": "3 likes  ·  2 years ago",
+   "website_name": "Medium · Dhaval Thakur",
+   "description": "the template below is a solid place to start curating all things you wish to do with your product and tracking progress along the way. Good ...",
+   "highlighted": [
+    "template",
+    "product"
+   ]
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 6,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvdoSVAR5004ASM__OIa0O9VV0myg:1791474355211&q=product+requirements+document+template&udm=2&source=univ&fir=1km5nP56OzarmM%252C7RaUl3-3RGRDUM%252C_%253BYiugwe_qmQ61DM%252CILxBgnrNZYh_eM%252C_%253BtaDMNrOob6qklM%252CCjWoZkI5fyGeSM%252C_%253BUbntvWf0PXPngM%252C795r4RTz1j1H8M%252C_%253Bg-5nAyBrxAwBiM%252C38FZOqChS-xstM%252C_%253Br6dSSKKtsbnv-M%252C_DQwNqyF1LC1NM%252C_%253BZp8kj01aqfinsM%252C7RaUl3-3RGRDUM%252C_%253BfV_g3ZeGyUjCTM%252CILxBgnrNZYh_eM%252C_%253BP8fXct3vJ2QTPM%252CSTkkfXV1CxwSLM%252C_%253B7giIK3oeJpY7qM%252Cv5_KnqJd2WoPNM%252C_%253BvMU0Sl5I9HsjvM%252CgS6yC0eSP5FKJM%252C_%253Bxi9lbvSGE_dFMM%252C00ebedf84hJ80M%252C_&usg=AI4_-kSgvQQzxKOJqMphANBXXSNCFzdibg&sa=X&ved=2ahUKEwjk2MOE4qqXAxXzjeEIHYJFBU0Q7Al6BAgsEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "Free Product Requirement Document Templates | Smartsheet",
+     "url": "https://www.smartsheet.com/content/free-product-requirements-document-template?srsltid=AU7gw4UHtscmksfHRtbKmT8r3GDDY6_0kiCRAUeL7850sYGWojZohUeY",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:5"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Requirements Document: PRD Templates and Examples",
+     "url": "https://www.altexsoft.com/blog/product-requirements-document/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:6"
+    },
+    {
+     "type": "images_element",
+     "alt": "How To Create a Product Requirements Document | Figma",
+     "url": "https://www.figma.com/resource-library/product-requirements-document/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:7"
+    },
+    {
+     "type": "images_element",
+     "alt": "Free Product Requirements Document Template for Word",
+     "url": "https://www.projectmanager.com/templates/product-requirements-document-template",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:8"
+    },
+    {
+     "type": "images_element",
+     "alt": "Free Product Requirements Document (PRD) Template | Confluence",
+     "url": "https://www.atlassian.com/software/confluence/templates/product-requirements",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:9"
+    },
+    {
+     "type": "images_element",
+     "alt": "PRD Templates: What To Include for Success",
+     "url": "https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-product-requirements-document-template",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8c8f967b622f:10"
+    },
+    {
+     "type": "images_element",
+     "alt": "Free Product Requirement Document Templates | Smartsheet",
+     "url": "https://www.smartsheet.com/content/free-product-requirements-document-template?srsltid=AU7gw4VbeHkH8QTxbYvuMMl4HtvixaassK34yHb8B-g0YMri3tDkZp_E",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89C8xfQOaQePKsbINsw9-vPKi_6jtJAXGAw6RQYrDP_gRUggU1u-eF2c&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Requirements Document: PRD Templates and Examples",
+     "url": "https://www.altexsoft.com/blog/product-requirements-document/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddGZ4LwDE5avb5uasXraF-mSxiwzq1tTuMrTcuS2RT0wBmSbiN5jfxzc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Free Product Requirements Document Template | Xtensio",
+     "url": "https://xtensio.com/simple-product-requirements-document-template/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc_HsAFl_QshcFWKG88rGKINMGWVd9rQdS8OGO3j-DSQA8g8d1cskHWRc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "13x PRD Examples including Real PRD Templates - Hustle Badger",
+     "url": "https://www.hustlebadger.com/what-do-product-teams-do/prd-template-examples/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8dqF8voDS2oedZkHUoExzqfD-wZSXm-FG2PoPMjRJlAgxXEWtwKIfcM&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "PRD template | Notion Marketplace",
+     "url": "https://www.notion.com/templates/category/product-requirements-doc?srsltid=AU7gw4XghTLJOtdn67oo5BSHh3R0mB2AT1f4d3j3Mc-ONakYecy_Fblf",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3UQCDh67a6BqfK26AU2ORB-EPHvpQkFYtydr0EsISgj1TwmSA57YOFK4&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product requirements document (PRD) template",
+     "url": "https://www.mural.co/templates/product-requirements-document",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu3GqAceDH0yViW-H57bWjl1oaM35hFMFoBI3tKrP31XcOrYlkmc8cJ-M&s"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.kolekti.com",
+   "title": "Product Requirements Document Template for Confluence",
+   "url": "https://www.kolekti.com/resources/templates/product-requirements-document-template-confluence",
+   "breadcrumb": "https://www.kolekti.com › Resources › Templates",
+   "website_name": "Kolekti",
+   "description": "Discover our Product Requirements Document Template for Confluence, designed to bring business objectives and technical execution together.",
+   "highlighted": [
+    "Product Requirements Document Template for Confluence"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.eonlint.com",
+   "title": "Product requirements document template",
+   "url": "https://www.eonlint.com/resources/prd-template",
+   "breadcrumb": "https://www.eonlint.com › resources › prd-template",
+   "website_name": "Eonlint",
+   "description": "3 days ago — A practical PRD structure for defining users, outcomes, workflows, constraints, evidence, scope, and open decisions.",
+   "pre_snippet": "3 days ago",
+   "highlighted": [
+    "A practical PRD structure"
+   ],
+   "timestamp": "2026-10-05 15:45:57 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.nuclino.com",
+   "title": "Product Requirements Document",
+   "url": "https://www.nuclino.com/templates/product-requirements-document",
+   "breadcrumb": "https://www.nuclino.com › templates › product-require...",
+   "website_name": "Nuclino",
+   "description": "We have put together a simple and clear PRD template – copy it and use it to gather requirements and get input from your team.",
+   "highlighted": [
+    "simple and clear PRD template"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "textcortex.com",
+   "title": "Product Requirement Document Template (Free & Editable)",
+   "url": "https://textcortex.com/post/product-requirement-document-template",
+   "breadcrumb": "https://textcortex.com › Blog Posts",
+   "website_name": "Text Cortex",
+   "description": "The product requirement document template should outline problems, goals, objectives, constraints, technical requirements, and release criteria.",
+   "highlighted": [
+    "product requirement document template",
+    "requirements"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Table Of Contents",
+     "url": "https://textcortex.com/post/product-requirement-document-template#:~:text=TABLE%20OF%20CONTENTS",
+     "domain": "textcortex.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Tl; Dr",
+     "url": "https://textcortex.com/post/product-requirement-document-template#:~:text=TL%3B%20DR,-Product%20requirement%20documents%20serve%20as",
+     "domain": "textcortex.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Benefits Of A Product...",
+     "url": "https://textcortex.com/post/product-requirement-document-template#:~:text=Benefits%20of%20a%20Product%20Requirement%20Document%20Template,-The%20most%20critical%20benefit%20of",
+     "domain": "textcortex.com"
+    }
+   ]
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 11,
+   "page": 1,
+   "items": [
+    "Product requirements document template pdf",
+    "Product requirements document template free"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,576 @@
+{
+  "id": "10081545-2633-0066-0000-6d3f69805b21",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "The best books for product managers cover foundational principles, customer discovery, and strategic leadership.[[1]](https://www.productplan.com/learn/books-for-product-managers)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)\n\n### Core Product Management Fundamentals\n\n- Inspired: How to Create Tech Products Customers Love by Marty Cagan: Defines the modern product manager role and explains how top tech companies structure discovery and delivery.[[1]](https://www.linkedin.com/pulse/reading-list-better-tech-product-manager-prachi-agarwal)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)\n- Empowered: Ordinary People, Extraordinary Products by Marty Cagan and Chris Jones: Focuses on how product leaders enable teams to solve hard problems together.[[1]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[2]](https://www.productplan.com/learn/books-for-product-managers)\n- Product Management in Practice by Matt LeMay: De-glamorizes the role with realistic approaches to daily communication, data, and execution.[[1]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)\n- [The Product Manager's Desk Reference](https://www.booksamillion.com/p/Product-Managers-Desk-Reference-Third/Steven-Haines/9781260468540) by Steven Haines: Offers a comprehensive reference guide for traditional and digital portfolios, business analysis, and lifecycle processes.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:8499889674443815393,catalogid:15736497417523924683,gpcid:13880245956595264557,mid:576462486201929093&ibp=oshop)\n\n### Customer Discovery & Validation\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGLdP-LmGhx0YTzN1s8sEVn3N5jl9jYx4svQVVhObwqCpMEg3i84kJ0io2r5o)\nContinuous Discovery Habits by Teresa Torres: Teaches product teams how to integrate weekly customer touchpoints and visual problem trees into their workflow.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSC6znZzFH9gFltIxS4O5_VQciqycXY9APC3EO4rQQykTx74lBYZZcaYnT2hfk)\nThe Mom Test by Rob Fitzpatrick: Explains how to talk to customers and extract honest feedback without leading them on or collecting biased praise.\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRo_agQdIa2D2I-CyoH1HkZns_01JSXJBnoCKKRHPk0fEdNKK87GI2bUZbsHOM)\nHooked: How to Build Habit-Forming Products by Nir Eyal: Breaks down the psychological triggers and design loops behind engaging user habits.[[1]](https://www.reddit.com/r/ProductManagement/comments/128p27t/my_ultimate_visual_guide_to_the_best_books_for/)[[2]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[3]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)[[4]](https://nextleap.app/interview-preparation/product-management/books)\n\n### Strategy & Leadership\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTI7JHqhUr1au9aT_gskHBPFkAXFX2Mf0YwRopMFkzedthDAHpgEcMCEylp3Ik)\nEscaping the Build Trap by Melissa Perri: Shows organizations how to measure success by the strategic value they create rather than the sheer volume of features shipped.\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS527OnLGFs95PFknTg6Et2MwxcCIot2FaMRVs3m39CorWfcePJjoAPI7DwREY)\nThe Influential Product Manager by Ken Sandy: Teaches cross-functional collaboration and how to lead engineering and design teams without direct authority.\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxEEGd75rZvd3wHWkJUGGi1Wu-pmgk388Ns_KYfz_cW9tdmYo0oNUOzX1TtI)\nCrossing the Chasm by Geoffrey A. Moore: A classic framework for bringing high-tech innovations past early adopters into the mainstream market.[[1]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)[[3]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2778939376923279434,catalogid:12812187613437961189,gpcid:3371291945732706467,mid:576462401374567287&ibp=oshop)[[4]](https://www.productplan.com/learn/books-for-product-managers)If you'd like, let me know:\n\n- Your **experience level** (aspiring PM, early-career, or managing a team)\n- Your **primary focus** right now (getting hired, user research, or business strategy)\n\nI can narrow down this list to the single best book for your exact situation.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "The best books for product managers cover foundational principles, customer discovery, and strategic leadership.",
+          "markdown": "The best books for product managers cover foundational principles, customer discovery, and strategic leadership.[[1]](https://www.productplan.com/learn/books-for-product-managers)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductPlan",
+              "domain": "www.productplan.com",
+              "url": "https://www.productplan.com/learn/books-for-product-managers",
+              "title": "15 Must-Read Books for Product Management Leaders | ProductPlan",
+              "text": "Product Management: Inspired by Marty Cagan (tech product creation); Start at the End by Matt Wallaert (behavioral science framewo..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Userflow",
+              "domain": "www.userflow.com",
+              "url": "https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager",
+              "title": "Best Product Management Books | 35 Essential Reads",
+              "text": "Start here in your first PM role or when moving over from another product role. * Inspired by Marty Cagan (2nd ed., 2017): Cagan d..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Product Management Fundamentals",
+          "text": "Inspired: How to Create Tech Products Customers Love by Marty Cagan: Defines the modern product manager role and explains how top tech companies structure discovery and delivery. Empowered: Ordinary People, Extraordinary Products by Marty Cagan and Chris Jones: Focuses on how product leaders enable teams to solve hard problems together. Product Management in Practice by Matt LeMay: De-glamorizes the role with realistic approaches to daily communication, data, and execution. The Product Manager's Desk Reference by Steven Haines: Offers a comprehensive reference guide for traditional and digital portfolios, business analysis, and lifecycle processes.",
+          "markdown": "- Inspired: How to Create Tech Products Customers Love by Marty Cagan: Defines the modern product manager role and explains how top tech companies structure discovery and delivery.[[1]](https://www.linkedin.com/pulse/reading-list-better-tech-product-manager-prachi-agarwal)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)\n- Empowered: Ordinary People, Extraordinary Products by Marty Cagan and Chris Jones: Focuses on how product leaders enable teams to solve hard problems together.[[1]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[2]](https://www.productplan.com/learn/books-for-product-managers)\n- Product Management in Practice by Matt LeMay: De-glamorizes the role with realistic approaches to daily communication, data, and execution.[[1]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)\n- [The Product Manager's Desk Reference](https://www.booksamillion.com/p/Product-Managers-Desk-Reference-Third/Steven-Haines/9781260468540) by Steven Haines: Offers a comprehensive reference guide for traditional and digital portfolios, business analysis, and lifecycle processes.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:8499889674443815393,catalogid:15736497417523924683,gpcid:13880245956595264557,mid:576462486201929093&ibp=oshop)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "The Product Manager's Desk Reference",
+              "url": "https://www.booksamillion.com/p/Product-Managers-Desk-Reference-Third/Steven-Haines/9781260468540",
+              "domain": "www.booksamillion.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "LinkedIn",
+              "domain": "www.linkedin.com",
+              "url": "https://www.linkedin.com/pulse/reading-list-better-tech-product-manager-prachi-agarwal",
+              "title": "Reading list to be a better Tech Product Manager",
+              "text": "Top 5 Resources: Inspired by Marty Cagan (PM fundamentals); How to Speak Tech by Vinay Trivedi (technical fluency); Stratechery Ne..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Bring the Donuts",
+              "domain": "www.bringthedonuts.com",
+              "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
+              "title": "Best Books for Product Managers [2026] | Ken Norton",
+              "text": "There are lots of excellent books about product management and product leadership, but these are the 44 books I'd consider essenti..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Google",
+              "domain": "www.google.com",
+              "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:8499889674443815393,catalogid:15736497417523924683,gpcid:13880245956595264557,mid:576462486201929093&ibp=oshop",
+              "title": "The Product Manager's Desk Reference, Third Edition",
+              "text": "Hardcover, 528 pages, published June 2021. The definitive guide to product management-updated for a more digital, more global, mor..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Customer Discovery & Validation",
+          "text": "Continuous Discovery Habits by Teresa Torres: Teaches product teams how to integrate weekly customer touchpoints and visual problem trees into their workflow. The Mom Test by Rob Fitzpatrick: Explains how to talk to customers and extract honest feedback without leading them on or collecting biased praise. Hooked: How to Build Habit-Forming Products by Nir Eyal: Breaks down the psychological triggers and design loops behind engaging user habits.",
+          "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGLdP-LmGhx0YTzN1s8sEVn3N5jl9jYx4svQVVhObwqCpMEg3i84kJ0io2r5o)\nContinuous Discovery Habits by Teresa Torres: Teaches product teams how to integrate weekly customer touchpoints and visual problem trees into their workflow.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSC6znZzFH9gFltIxS4O5_VQciqycXY9APC3EO4rQQykTx74lBYZZcaYnT2hfk)\nThe Mom Test by Rob Fitzpatrick: Explains how to talk to customers and extract honest feedback without leading them on or collecting biased praise.\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRo_agQdIa2D2I-CyoH1HkZns_01JSXJBnoCKKRHPk0fEdNKK87GI2bUZbsHOM)\nHooked: How to Build Habit-Forming Products by Nir Eyal: Breaks down the psychological triggers and design loops behind engaging user habits.[[1]](https://www.reddit.com/r/ProductManagement/comments/128p27t/my_ultimate_visual_guide_to_the_best_books_for/)[[2]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[3]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)[[4]](https://nextleap.app/interview-preparation/product-management/books)"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Strategy & Leadership",
+          "text": "Escaping the Build Trap by Melissa Perri: Shows organizations how to measure success by the strategic value they create rather than the sheer volume of features shipped. The Influential Product Manager by Ken Sandy: Teaches cross-functional collaboration and how to lead engineering and design teams without direct authority. Crossing the Chasm by Geoffrey A. Moore: A classic framework for bringing high-tech innovations past early adopters into the mainstream market.",
+          "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTI7JHqhUr1au9aT_gskHBPFkAXFX2Mf0YwRopMFkzedthDAHpgEcMCEylp3Ik)\nEscaping the Build Trap by Melissa Perri: Shows organizations how to measure success by the strategic value they create rather than the sheer volume of features shipped.\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS527OnLGFs95PFknTg6Et2MwxcCIot2FaMRVs3m39CorWfcePJjoAPI7DwREY)\nThe Influential Product Manager by Ken Sandy: Teaches cross-functional collaboration and how to lead engineering and design teams without direct authority.\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxEEGd75rZvd3wHWkJUGGi1Wu-pmgk388Ns_KYfz_cW9tdmYo0oNUOzX1TtI)\nCrossing the Chasm by Geoffrey A. Moore: A classic framework for bringing high-tech innovations past early adopters into the mainstream market.[[1]](https://www.bringthedonuts.com/essays/books-for-product-managers.html)[[2]](https://www.userflow.com/blog/30-top-product-management-books-essential-reads-for-every-product-manager)[[3]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2778939376923279434,catalogid:12812187613437961189,gpcid:3371291945732706467,mid:576462401374567287&ibp=oshop)[[4]](https://www.productplan.com/learn/books-for-product-managers)"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, let me know:Your experience level (aspiring PM, early-career, or managing a team)\nYour primary focus right now (getting hired, user research, or business strategy)\nI can narrow down this list to the single best book for your exact situation.",
+          "markdown": "If you'd like, let me know:\n\n- Your **experience level** (aspiring PM, early-career, or managing a team)\n- Your **primary focus** right now (getting hired, user research, or business strategy)\n\nI can narrow down this list to the single best book for your exact situation."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "simonsovic.com",
+      "title": "10 Best Product Management Books in 2026 - Simon Sovic",
+      "url": "https://simonsovic.com/blog/best-product-management-books",
+      "breadcrumb": "https://simonsovic.com › blog › best-product-manageme...",
+      "website_name": "simonsovic.com",
+      "description": "Apr 24, 2026 — 10 Best Product Management Books in 2026 · 1. Inspired - Best for Aspiring and Working Product Managers · 2. The Lean Startup - Best for ... Read more",
+      "pre_snippet": "04/24/2026 00:00:00",
+      "highlighted": [
+        "1. Inspired - Best for Aspiring and Working Product Managers"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://simonsovic.com/blog/best-product-management-books#:~:text=10%20Best%20Product%20Management%20Books,in%202026&text=1.%20Inspired%20-%20Best%20for,Aspiring%20and%20Working%20Product%20Managers&text=2.%20The%20Lean%20Startup%20-,for%20Founders%20and%20Early-Stage%20PMs",
+          "domain": "simonsovic.com"
+        }
+      ],
+      "timestamp": "2026-04-24 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.linkedin.com",
+      "title": "Best Books for Product Managers: A Visual Guide",
+      "url": "https://www.linkedin.com/posts/ankythshukla_productmanagement-books-activity-7314873935760670720-sK9-",
+      "breadcrumb": "230+ reactions  ·  1 year ago",
+      "website_name": "LinkedIn · Ankit Shukla",
+      "description": "1. Cracking the PM Career & Interview … 2. Decode and Conquer (Lewis C. Lin) For Discovery: 1. Continuous Product Discovery (Teresa Torres) 2. ...",
+      "highlighted": [
+        "Cracking the PM Career & Interview"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Best Books for Product Managers: A Visual Guide - LinkedIn",
+          "url": "https://www.linkedin.com/posts/maheshma_productmanagement-bookrecommendations-activity-7381169351577624576-t9Jq",
+          "domain": "www.linkedin.com"
+        },
+        {
+          "type": "link_element",
+          "title": "10 Product Management Books to read in 2025! - CMKtr, ACIM",
+          "url": "https://www.linkedin.com/posts/omolaraosiyemi_productmanagement-productmanagers-continuouslearning-activity-7287046439145234432-QREu",
+          "domain": "www.linkedin.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.linkedin.com",
+          "url": "https://www.google.com/search?q=best+product+management+books+site:www.linkedin.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntTlO4tTlgLusdJmNoTWe2Dhl7gWQ:1791474340156&sa=X&ved=2ahUKEwjL2qz94aqXAxVRh_0HHXPQCi8QrQIoAnoECCQQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "I see countless books and blogs about the ideal way of PM ...",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/yx53q4/i_see_countless_books_and_blogs_about_the_ideal/",
+      "breadcrumb": "10+ comments  ·  3 years ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "Give “Product Management in Practice” by Matt LeMay a try. provide practical tips and advice for PM's in more realistic situations. My Ultimate ...",
+      "highlighted": [
+        "Product Management"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Recommended reads for an engineer turned product ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/co5151/recommended_reads_for_an_engineer_turned_product/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Best new and classic books for PMs to read? - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1fgmzg3/best_new_and_classic_books_for_pms_to_read/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=best+product+management+books+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntTlO4tTlgLusdJmNoTWe2Dhl7gWQ:1791474340156&sa=X&ved=2ahUKEwjL2qz94aqXAxVRh_0HHXPQCi8QrQIoAnoECB0QAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.audible.com",
+      "title": "Product Management Technology Books",
+      "url": "https://www.audible.com/topic/audiobooks-product-management-technology?srsltid=AU7gw4V-q5L5BNgASLokO4kSPWJIxIFVFFmPwZbAHfhAOc6_YDtUPAp8",
+      "breadcrumb": "https://www.audible.com › topic › audiobooks-product-...",
+      "website_name": "Audible",
+      "description": "Explore the best-selling and newly released product management technology on Audible. New to Audible? Try Audible free.",
+      "highlighted": [
+        "best",
+        "product management"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are some good books for product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 P's of product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Will AI replace product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 5 management books?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "The Art of Product Management, Second Edition: Lessons ...",
+      "url": "https://www.amazon.com/Art-Product-Management-Second-Innovator-ebook/dp/B0CVL45F36",
+      "breadcrumb": "https://www.amazon.com › Art-Product-Management-Se...",
+      "website_name": "Amazon.com",
+      "description": "A comprehensive guide to product management in tech companies, offering strategic advice on customer thinking, organizational dynamics, team leadership, and  ...",
+      "highlighted": [
+        "product management"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.prodpad.com",
+      "title": "The Best New Product Management Books of 2025",
+      "url": "https://www.prodpad.com/blog/new-product-management-books-2025/",
+      "breadcrumb": "https://www.prodpad.com › Latest Blogs",
+      "website_name": "ProdPad",
+      "description": "Dec 16, 2025 — Product management books published in 2025. A curated list of new releases covering strategy, AI, systems thinking, and modern product work.",
+      "pre_snippet": "12/16/2025 00:00:00",
+      "highlighted": [
+        "Product management books published in 2025"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Books That Push Our Craft...",
+          "url": "https://www.prodpad.com/blog/new-product-management-books-2025/#:~:text=Books%20That%20Push%20Our%20Craft%20Forward%20In%202025",
+          "domain": "www.prodpad.com"
+        },
+        {
+          "type": "link_element",
+          "title": "New Products Management...",
+          "url": "https://www.prodpad.com/blog/new-product-management-books-2025/#:~:text=New%20Products%20Management%2C%2013th%20Edition",
+          "domain": "www.prodpad.com"
+        },
+        {
+          "type": "link_element",
+          "title": "A Special Mention From Late...",
+          "url": "https://www.prodpad.com/blog/new-product-management-books-2025/#:~:text=A%20Special%20Mention%20From%20Late%202024",
+          "domain": "www.prodpad.com"
+        }
+      ],
+      "timestamp": "2025-12-16 00:00:00 +00:00"
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 9,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "The Product Manual",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQetOqKchc_QtwbtzKrAmr6QvCKbIPYHOeAEAYW_DStyL4XFGxiZcxVobiXMxOEkdMII2t55afRX07fGoiiDBH_LXGL8TwAfIzMWSWndOrJ4tyGjAy_5H-zSQ",
+          "price": {
+            "current": 27.99,
+            "currency": "USD",
+            "displayed_price": "$27.99"
+          },
+          "product_identifiers": {
+            "product_id": "13243756248672220684",
+            "data_docid": "14615617295779246441",
+            "gid": "6334971900696229224"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Management For Dummies (ebook)",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToohXDYkQRLul2rjAOWHgRvTkJHDz3uUDmWDcTyKDlEMqNQIRTI0WQ-VmvJdeX28ShUZw-_8p1rvviU9A4ex3t-LXwxKrYE9aH7zO4tmSJhz7_XoWnYCZw",
+          "price": {
+            "current": 24.99,
+            "currency": "USD",
+            "displayed_price": "$24.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 2,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "18236585052647888912",
+            "data_docid": "1657570639448128114",
+            "gid": "720909510675543011"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Manager's Handbook",
+          "description": "Walmart & more",
+          "more_sellers": true,
+          "seller": "Walmart",
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQieY1_Z6JhuRrbOhrsN2EciYyer_hRYDsZnwP1Sc1u-HeQWrOPe5dyUmNbXQ14aQ1U25Yl4L_tDhahxP9D4QoG71k97hJ67NbqXwGW3W6iafsy2XLfk39HQg",
+          "price": {
+            "current": 30.21,
+            "currency": "USD",
+            "displayed_price": "$30.21"
+          },
+          "product_identifiers": {
+            "product_id": "6128011674521355449",
+            "data_docid": "518292284857179128",
+            "gid": "12005917016499313664"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Management Playbook",
+          "description": "Rosenfeld Media & more",
+          "more_sellers": true,
+          "seller": "Rosenfeld Media",
+          "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxLCprhDI5H-H3On7xDMjvBrrDItOzlg05a-485D0pAoTYZuI8sf-poskWrHeoB9GgYfTZmi2w1Ei3x6iG50sBADM0KfficC92_iolq01D6f8tAQJGLPop",
+          "price": {
+            "current": 44.99,
+            "currency": "USD",
+            "displayed_price": "$44.99"
+          },
+          "product_identifiers": {
+            "product_id": "15286567874939285135",
+            "data_docid": "1430118698879765127"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Origin of Brands (ebook)",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPbASi3kKzAFNqt6czK0Ou_S5Ip7SFhV-qf-kGjf3tKTdlF6PunHjP5vJUjJfJ2ItuwtmRTOaqJQoBbhqGdEzQPRt5eEFmswDCA6La65IYGlolBfPRRR_G",
+          "price": {
+            "current": 16.99,
+            "currency": "USD",
+            "displayed_price": "$16.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "6051876980045024914",
+            "data_docid": "16225412936217565380",
+            "gid": "12439715137195326815"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Influential Product Manager (How to Lead and Launch Successful Technology Products)",
+          "description": "Berrett-Koehler Publishers & more",
+          "more_sellers": true,
+          "seller": "Berrett-Koehler Publishers",
+          "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQSi69lCFqQ5TI2Ao5__QUPAQXHTrttSBADMxP1jdSyEXTjy6Qg0tAJjBL5arF34bSLZeJnkT7CpidzC4_7UvHr8peMHNoy0v1Kd2Yy-kGjrGX_7bRqYSLJAA",
+          "price": {
+            "current": 39.95,
+            "currency": "USD",
+            "displayed_price": "$39.95"
+          },
+          "product_identifiers": {
+            "product_id": "6291033695889684271",
+            "data_docid": "16732860909134364077",
+            "gid": "3371291945732706467"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Principles of Product Management - by Diane Smith (Hardcover)",
+          "description": "Target & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTP78e5FGiZpiQLtbTa7C5-l9iXoYxawpKedCsXIM7AFsZfd-ID8J3H4btOf-xEixa3-ImAQiDtA5HFxWWP5y9wfUWv0tXYYfJFWXzK4mghNjd60L7_fzyOmw",
+          "price": {
+            "current": 113.99,
+            "currency": "USD",
+            "displayed_price": "$113.99"
+          },
+          "product_identifiers": {
+            "product_id": "5854219104357274890",
+            "data_docid": "17985914955761323212",
+            "gid": "4868703276315608271"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "(25 copies) Paperback Radical Product Thinking (The New Mindset for Innovating Smarter) - 9781523003471 by R. Dutt",
+          "description": "Penguin Random House & more\nFree delivery by Wed",
+          "more_sellers": true,
+          "seller": "Penguin Random House",
+          "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcREMloK6HEROOKTZJqni-FVyepKVwCl0oHZnv4PXk4t-ouPmnC8DgXr9mSaIMJX9HgvUlrZe1sOFRHlHhHUBaFbnwkF-P4ZVmhH2qhom0WMq4Mwzg-Q5kgxHA",
+          "price": {
+            "current": 24.95,
+            "currency": "USD",
+            "displayed_price": "$24.95"
+          },
+          "product_identifiers": {
+            "product_id": "7366953199681113692",
+            "data_docid": "7634299296353316388",
+            "gid": "11241217458071491722"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "mentorcruise.com",
+      "title": "Top Product Management Books recommended by experts",
+      "url": "https://mentorcruise.com/books/productmanagement/",
+      "breadcrumb": "https://mentorcruise.com › books › productmanagement",
+      "website_name": "MentorCruise",
+      "description": "Fundamentals of Product Management · Scrum: The Art of Doing Twice the Work in Half the Time · Thinking, Fast and Slow · Escaping the Build Trap: How Effective ... Read more",
+      "highlighted": [
+        "Fundamentals of Product Management"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://mentorcruise.com/books/productmanagement/#:~:text=Fundamentals%20of%20Product%20Management&text=Scrum%3A%20The%20Art%20of%20Doing,Work%20in%20Half%20the%20Time&text=Thinking%2C%20Fast%20and%20Slow&text=Escaping%20the%20Build%20Trap%3A%20How,Product%20Management%20Creates%20Real%20Value",
+          "domain": "mentorcruise.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.productmanagementexercises.com",
+      "title": "9 Books Every Product Manager Should Read in 2023 - Blog",
+      "url": "https://www.productmanagementexercises.com/blog/8-books-for-product-managers/",
+      "breadcrumb": "https://www.productmanagementexercises.com › blog",
+      "website_name": "Product Management Exercises",
+      "description": "Apr 1, 2021 — 1. Hooked: How to Build Habit Forming Products by Nir Eyal · 2. The Mom Test by Rob Fitzpatrick · 3. Lean UX by Jeff Gothelf and Josh Seiden · 4. Read more",
+      "pre_snippet": "04/01/2021 00:00:00",
+      "highlighted": [
+        "Hooked: How to Build Habit Forming Products by Nir Eyal"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.productmanagementexercises.com/blog/8-books-for-product-managers/#:~:text=1.%20Hooked%3A%20How%20to%20Build,Forming%20Products%20by%20Nir%20Eyal&text=2.%20The%20Mom%20Test%20by,Rob%20Fitzpatrick&text=3.%20Lean%20UX%20by%20Jeff,Gothelf%20and%20Josh%20Seiden&text=4.%20The%20Lean%20Startup%20by",
+          "domain": "www.productmanagementexercises.com"
+        }
+      ],
+      "timestamp": "2021-04-01 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What are some good books to read on the Product ...",
+      "url": "https://www.quora.com/What-are-some-good-books-to-read-on-the-Product-Management-interview-process-other-than-Cracking-the-PM-Interview-and-why-are-they-good",
+      "breadcrumb": "30+ answers  ·  10 years ago",
+      "website_name": "Quora",
+      "description": "What are some good books to read on the Product Management interview process other than \"Cracking the PM Interview\" - and why are they good?",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Which books are suitable for the starter in Product ...",
+          "url": "https://www.quora.com/Which-books-are-suitable-for-the-starter-in-Product-Management-for-Internet-company",
+          "domain": "www.quora.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How to self-learn product management? Are there any ...",
+          "url": "https://www.quora.com/How-do-I-self-learn-product-management-Are-there-any-books-articles-or-other-resources-I-can-use",
+          "domain": "www.quora.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.quora.com",
+          "url": "https://www.google.com/search?q=best+product+management+books+site:www.quora.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntTlO4tTlgLusdJmNoTWe2Dhl7gWQ:1791474340156&sa=X&ved=2ahUKEwjL2qz94aqXAxVRh_0HHXPQCi8QrQIoAnoECEsQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 10,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "www.gainsight.com",
+      "title": "The Ultimate List of Product Management Resources",
+      "url": "https://www.gainsight.com/blog/the-ultimate-list-of-product-management-resources-books-blogs-and-more/",
+      "breadcrumb": "https://www.gainsight.com › blog › the-ultimate-list-of-...",
+      "website_name": "Gainsight",
+      "description": "Nov 20, 2019 — Nudge: Improving Decisions About Health, Wealth, and Happiness— Richard Thaler and Cass R. Sunstein ; The Lean Product Playbook—Dan Olsen. Read more",
+      "pre_snippet": "11/20/2019 00:00:00",
+      "highlighted": [
+        "Product"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.gainsight.com/blog/the-ultimate-list-of-product-management-resources-books-blogs-and-more/#:~:text=Nudge%3A%20Improving%20Decisions%20About%20Health%2C,Thaler%20and%20Cass%20R.%20Sunstein&text=The%20Lean%20Product%20Playbook%E2%80%94Dan%20Olsen",
+          "domain": "www.gainsight.com"
+        }
+      ],
+      "timestamp": "2019-11-20 00:00:00 +00:00"
+    }
+  ]
+}

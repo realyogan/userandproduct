@@ -1,0 +1,647 @@
+{
+  "id": "10081545-2633-0066-0000-78c4b3fe57b4",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "The best AI tools for product managers (PMs) include ChatPRD for writing requirements, Productboard for roadmapping, and [Fathom AI](https://www.prodpad.com/blog/ai-tools-for-product-managers/) for meeting notes.[[1]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)[[2]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[3]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)\n\nProduct management workflows span research, requirements, prototyping, and execution. The top-rated AI tools mapped to specific PM functions are detailed below.[[1]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)[[2]](https://www.youtube.com/watch?v=kHe4X7TZGtM&vl=en-US&t=22)\n\n### Strategy & User Research\n\n- **Claude / ChatGPT:** Use as thinking partners for SWOT analysis, user persona roleplay, and deep strategic reasoning.\n- **Perplexity AI:** Ideal for rapid market research, competitor validation, and industry tracking.\n- **Dovetail:** Connects feedback sources to perform thematic qualitative clustering and surface user pain points.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/)[[2]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[3]](https://brainstation.io/career-guides/what-tools-do-product-managers-use)[[4]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[5]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)\n\n### Requirements & Documentation\n\n- **ChatPRD:** Turns rough concepts and bullet points into structured Product Requirement Documents (PRDs) in minutes.\n- **ClickUp (with ClickUp Brain):** Acts as an AI co-pilot inside docs to write acceptance criteria, organize insights, and map workflows.\n- **Notion AI:** Summarizes notes, refines technical writing, and organizes internal knowledge bases.[[1]](https://onehorizon.ai/blog/best-ai-product-management-tools)[[2]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[3]](https://www.youtube.com/watch?v=WyR5zMBjCiI&vl=en&t=20)[[4]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)\n\n### Prototyping & Design\n\n- **Lovable / Replit:** No-code and multi-agent code environments that let PMs build working web and app prototypes from text prompts in hours.\n- **Figma AI:** Accelerates UI/UX wireframing and design explorations directly inside design files.\n- **Gamma:** Quickly builds executive-ready presentations, pitch decks, and visual roadmaps.[[1]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)[[2]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)[[3]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[4]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[5]](https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/)\n\n### Execution & Meetings\n\n- **Fathom AI / Granola:** Meeting copilots that record, transcribe, and summarize discussions while automatically extracting action items.[[1]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[2]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)\n- **Super Whisper / WhisperFlow:** High-accuracy voice-to-text dictation tools that help PMs dump rough thoughts into structured writing quickly.[[1]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[2]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[3]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)\n- **Amplitude / Mixpanel:** AI-powered data assistants that query user retention, track events, and run behavior analysis without deep SQL writing.[[1]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)[[2]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)\n\nIf you want to narrow this down, tell me:\n\n- What is your **biggest bottleneck right now** (e.g., writing PRDs, user research, or coding prototypes)?\n- What tools are already in your **current tech stack**?\n\nI can help you build a personalized, streamlined **AI workflow**.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "The best AI tools for product managers (PMs) include ChatPRD for writing requirements, Productboard for roadmapping, and Fathom AI for meeting notes.",
+          "markdown": "The best AI tools for product managers (PMs) include ChatPRD for writing requirements, Productboard for roadmapping, and [Fathom AI](https://www.prodpad.com/blog/ai-tools-for-product-managers/) for meeting notes.[[1]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)[[2]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[3]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Fathom AI",
+              "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+              "domain": "www.prodpad.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Product School",
+              "domain": "productschool.com",
+              "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers",
+              "title": "Top 21 AI Tools for Product Managers and Product Teams",
+              "text": "AI Chatbots: ChatGPT (prioritization, data management, launch plans), Google Gemini (insights, content generation, translation), C..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Alvh3qmg9fQ",
+              "title": "5 AI Tools Every Product Manager Must Use in 2026",
+              "text": "5 AI Tools Every Product Manager Must Use in 2026 | Best Ai Tools For Product Managers (PMs) most aspiring product managers. and p..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProdPad",
+              "domain": "www.prodpad.com",
+              "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+              "title": "15 Best AI Tools For Product Managers",
+              "text": "In no particular order, here are the best AI tools for Product Managers that you should consider adding to your stack. 1. ProdPad ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Product management workflows span research, requirements, prototyping, and execution. The top-rated AI tools mapped to specific PM functions are detailed below.",
+          "markdown": "Product management workflows span research, requirements, prototyping, and execution. The top-rated AI tools mapped to specific PM functions are detailed below.[[1]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)[[2]](https://www.youtube.com/watch?v=kHe4X7TZGtM&vl=en-US&t=22)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "aakashgupta.medium.com",
+              "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115",
+              "title": "I Spent $28K Testing Every AI Tool for Product Managers. Only 9 Were ...",
+              "text": "Having tools means nothing if you don't integrate them into your workflow. Start with research tools. Connect Dovetail to all your..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=kHe4X7TZGtM&vl=en-US&t=22",
+              "title": "How I Use AI as a Product Manager",
+              "text": "yeah totally i've been thinking about this idea that AI can really supercharge the role of PMs. but the reality is it could do it ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Strategy & User Research",
+          "text": "Claude / ChatGPT: Use as thinking partners for SWOT analysis, user persona roleplay, and deep strategic reasoning. Perplexity AI: Ideal for rapid market research, competitor validation, and industry tracking. Dovetail: Connects feedback sources to perform thematic qualitative clustering and surface user pain points.",
+          "markdown": "- **Claude / ChatGPT:** Use as thinking partners for SWOT analysis, user persona roleplay, and deep strategic reasoning.\n- **Perplexity AI:** Ideal for rapid market research, competitor validation, and industry tracking.\n- **Dovetail:** Connects feedback sources to perform thematic qualitative clustering and surface user pain points.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/)[[2]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[3]](https://brainstation.io/career-guides/what-tools-do-product-managers-use)[[4]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[5]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Pragmatic Institute",
+              "domain": "www.pragmaticinstitute.com",
+              "url": "https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/",
+              "title": "Best AI Tools for Product Managers  | Pragmatic Institute",
+              "text": "Strategic Planning: ChatGPT, Claude, Gemini, CoPilot (SWOTs, feature prioritization); Gamma (executive visuals); Zapier (workflows..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/JV6s-EfxoBk",
+              "title": "Which AI Tool Is Best for Product Managers?",
+              "text": "Which AI Tool Is Best for Product Managers? everyone searching for the best AI tool for product managers is asking the wrong quest..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "BrainStation",
+              "domain": "brainstation.io",
+              "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use",
+              "title": "AI Tools Every Product Manager Should Know (2026 Guide)",
+              "text": "Infinite Brainstorming: Use LLMs to better understand your user personas. Prompt different AI agents to roleplay as your most diff..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProdPad",
+              "domain": "www.prodpad.com",
+              "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+              "title": "15 Best AI Tools For Product Managers",
+              "text": "In no particular order, here are the best AI tools for Product Managers that you should consider adding to your stack. 1. ProdPad ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "aakashgupta.medium.com",
+              "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115",
+              "title": "I Spent $28K Testing Every AI Tool for Product Managers. Only 9 Were ...",
+              "text": "Having tools means nothing if you don't integrate them into your workflow. Start with research tools. Connect Dovetail to all your..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Requirements & Documentation",
+          "text": "ChatPRD: Turns rough concepts and bullet points into structured Product Requirement Documents (PRDs) in minutes. ClickUp (with ClickUp Brain): Acts as an AI co-pilot inside docs to write acceptance criteria, organize insights, and map workflows. Notion AI: Summarizes notes, refines technical writing, and organizes internal knowledge bases.",
+          "markdown": "- **ChatPRD:** Turns rough concepts and bullet points into structured Product Requirement Documents (PRDs) in minutes.\n- **ClickUp (with ClickUp Brain):** Acts as an AI co-pilot inside docs to write acceptance criteria, organize insights, and map workflows.\n- **Notion AI:** Summarizes notes, refines technical writing, and organizes internal knowledge bases.[[1]](https://onehorizon.ai/blog/best-ai-product-management-tools)[[2]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[3]](https://www.youtube.com/watch?v=WyR5zMBjCiI&vl=en&t=20)[[4]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "onehorizon.ai",
+              "domain": "onehorizon.ai",
+              "url": "https://onehorizon.ai/blog/best-ai-product-management-tools",
+              "title": "6 Best AI-Powered Product Management Tools in 2026 - Blog",
+              "text": "6 Best AI-Powered Product Management Tools in 2026. Alex van der Meer• February 9, 2026 •12 Min Read. 6 Best AI-Powered Product Ma..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProdPad",
+              "domain": "www.prodpad.com",
+              "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+              "title": "15 Best AI Tools For Product Managers",
+              "text": "In no particular order, here are the best AI tools for Product Managers that you should consider adding to your stack. 1. ProdPad ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=WyR5zMBjCiI&vl=en&t=20",
+              "title": "5 Best AI Tools for Product Managers in 2026 | ClickUp",
+              "text": "5 Best AI Tools for Product Managers in 2026 | ClickUp so in this video we'll look at five AI tools that generally improve a PM's."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product School",
+              "domain": "productschool.com",
+              "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers",
+              "title": "Top 21 AI Tools for Product Managers and Product Teams",
+              "text": "AI Chatbots: ChatGPT (prioritization, data management, launch plans), Google Gemini (insights, content generation, translation), C..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Prototyping & Design",
+          "text": "Lovable / Replit: No-code and multi-agent code environments that let PMs build working web and app prototypes from text prompts in hours. Figma AI: Accelerates UI/UX wireframing and design explorations directly inside design files. Gamma: Quickly builds executive-ready presentations, pitch decks, and visual roadmaps.",
+          "markdown": "- **Lovable / Replit:** No-code and multi-agent code environments that let PMs build working web and app prototypes from text prompts in hours.\n- **Figma AI:** Accelerates UI/UX wireframing and design explorations directly inside design files.\n- **Gamma:** Quickly builds executive-ready presentations, pitch decks, and visual roadmaps.[[1]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)[[2]](https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115)[[3]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[4]](https://www.prodpad.com/blog/ai-tools-for-product-managers/)[[5]](https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=7Q8-FKWx-ls",
+              "title": "We Ranked Every AI Tool for Product Managers — So You Don't Have To",
+              "text": "today we're breaking down the top product management tools of 2025. and we'll be ranking them all tier ranking style Everybody is ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "aakashgupta.medium.com",
+              "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115",
+              "title": "I Spent $28K Testing Every AI Tool for Product Managers. Only 9 Were ...",
+              "text": "Having tools means nothing if you don't integrate them into your workflow. Start with research tools. Connect Dovetail to all your..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/JV6s-EfxoBk",
+              "title": "Which AI Tool Is Best for Product Managers?",
+              "text": "Which AI Tool Is Best for Product Managers? everyone searching for the best AI tool for product managers is asking the wrong quest..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ProdPad",
+              "domain": "www.prodpad.com",
+              "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+              "title": "15 Best AI Tools For Product Managers",
+              "text": "In no particular order, here are the best AI tools for Product Managers that you should consider adding to your stack. 1. ProdPad ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Pragmatic Institute",
+              "domain": "www.pragmaticinstitute.com",
+              "url": "https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/",
+              "title": "Best AI Tools for Product Managers  | Pragmatic Institute",
+              "text": "Strategic Planning: ChatGPT, Claude, Gemini, CoPilot (SWOTs, feature prioritization); Gamma (executive visuals); Zapier (workflows..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Execution & Meetings",
+          "text": "Fathom AI / Granola: Meeting copilots that record, transcribe, and summarize discussions while automatically extracting action items. Super Whisper / WhisperFlow: High-accuracy voice-to-text dictation tools that help PMs dump rough thoughts into structured writing quickly. Amplitude / Mixpanel: AI-powered data assistants that query user retention, track events, and run behavior analysis without deep SQL writing.",
+          "markdown": "- **Fathom AI / Granola:** Meeting copilots that record, transcribe, and summarize discussions while automatically extracting action items.[[1]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[2]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)\n- **Super Whisper / WhisperFlow:** High-accuracy voice-to-text dictation tools that help PMs dump rough thoughts into structured writing quickly.[[1]](https://www.youtube.com/shorts/JV6s-EfxoBk)[[2]](https://www.youtube.com/watch?v=Alvh3qmg9fQ)[[3]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)\n- **Amplitude / Mixpanel:** AI-powered data assistants that query user retention, track events, and run behavior analysis without deep SQL writing.[[1]](https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers)[[2]](https://www.youtube.com/watch?v=7Q8-FKWx-ls)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Alvh3qmg9fQ",
+              "title": "5 AI Tools Every Product Manager Must Use in 2026",
+              "text": "5 AI Tools Every Product Manager Must Use in 2026 | Best Ai Tools For Product Managers (PMs) most aspiring product managers. and p..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=7Q8-FKWx-ls",
+              "title": "We Ranked Every AI Tool for Product Managers — So You Don't Have To",
+              "text": "today we're breaking down the top product management tools of 2025. and we'll be ranking them all tier ranking style Everybody is ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/JV6s-EfxoBk",
+              "title": "Which AI Tool Is Best for Product Managers?",
+              "text": "Which AI Tool Is Best for Product Managers? everyone searching for the best AI tool for product managers is asking the wrong quest..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product School",
+              "domain": "productschool.com",
+              "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers",
+              "title": "Top 21 AI Tools for Product Managers and Product Teams",
+              "text": "AI Chatbots: ChatGPT (prioritization, data management, launch plans), Google Gemini (insights, content generation, translation), C..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you want to narrow this down, tell me:What is your biggest bottleneck right now (e.g., writing PRDs, user research, or coding prototypes)?\nWhat tools are already in your current tech stack ?\nI can help you build a personalized, streamlined AI workflow.",
+          "markdown": "If you want to narrow this down, tell me:\n\n- What is your **biggest bottleneck right now** (e.g., writing PRDs, user research, or coding prototypes)?\n- What tools are already in your **current tech stack**?\n\nI can help you build a personalized, streamlined **AI workflow**."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Product School",
+          "domain": "productschool.com",
+          "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers",
+          "title": "Top 21 AI Tools for Product Managers and Product Teams",
+          "text": "AI Chatbots: ChatGPT (prioritization, data management, launch plans), Google Gemini (insights, content generation, translation), C..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Medium",
+          "domain": "aakashgupta.medium.com",
+          "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115",
+          "title": "I Spent $28K Testing Every AI Tool for Product Managers. Only 9 Were ...",
+          "text": "Having tools means nothing if you don't integrate them into your workflow. Start with research tools. Connect Dovetail to all your..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=7Q8-FKWx-ls",
+          "title": "We Ranked Every AI Tool for Product Managers — So You Don't Have To",
+          "text": "today we're breaking down the top product management tools of 2025. and we'll be ranking them all tier ranking style Everybody is ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=kHe4X7TZGtM&vl=en-US&t=22",
+          "title": "How I Use AI as a Product Manager",
+          "text": "yeah totally i've been thinking about this idea that AI can really supercharge the role of PMs. but the reality is it could do it ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Pragmatic Institute",
+          "domain": "www.pragmaticinstitute.com",
+          "url": "https://www.pragmaticinstitute.com/resources/articles/product/best-ai-tools-for-product-managers/",
+          "title": "Best AI Tools for Product Managers  | Pragmatic Institute",
+          "text": "Strategic Planning: ChatGPT, Claude, Gemini, CoPilot (SWOTs, feature prioritization); Gamma (executive visuals); Zapier (workflows..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "BrainStation",
+          "domain": "brainstation.io",
+          "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use",
+          "title": "AI Tools Every Product Manager Should Know (2026 Guide)",
+          "text": "Infinite Brainstorming: Use LLMs to better understand your user personas. Prompt different AI agents to roleplay as your most diff..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ProdPad",
+          "domain": "www.prodpad.com",
+          "url": "https://www.prodpad.com/blog/ai-tools-for-product-managers/",
+          "title": "15 Best AI Tools For Product Managers",
+          "text": "In no particular order, here are the best AI tools for Product Managers that you should consider adding to your stack. 1. ProdPad ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/JV6s-EfxoBk",
+          "title": "Which AI Tool Is Best for Product Managers?",
+          "text": "Which AI Tool Is Best for Product Managers? everyone searching for the best AI tool for product managers is asking the wrong quest..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "onehorizon.ai",
+          "domain": "onehorizon.ai",
+          "url": "https://onehorizon.ai/blog/best-ai-product-management-tools",
+          "title": "6 Best AI-Powered Product Management Tools in 2026 - Blog",
+          "text": "6 Best AI-Powered Product Management Tools in 2026. Alex van der Meer• February 9, 2026 •12 Min Read. 6 Best AI-Powered Product Ma..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=WyR5zMBjCiI&vl=en&t=20",
+          "title": "5 Best AI Tools for Product Managers in 2026 | ClickUp",
+          "text": "5 Best AI Tools for Product Managers in 2026 | ClickUp so in this video we'll look at five AI tools that generally improve a PM's."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=Alvh3qmg9fQ",
+          "title": "5 AI Tools Every Product Manager Must Use in 2026",
+          "text": "5 AI Tools Every Product Manager Must Use in 2026 | Best Ai Tools For Product Managers (PMs) most aspiring product managers. and p..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.builder.io",
+      "title": "10 Best AI Tools for Product Managers in 2026",
+      "url": "https://www.builder.io/blog/best-ai-tools-for-product-managers",
+      "breadcrumb": "https://www.builder.io › blog › best-ai-tools-for-product-...",
+      "website_name": "Builder.io",
+      "description": "Nov 12, 2025 — The top 10 AI tools for product managers · 1. Superhuman: Emailing & user feedback · 2. Granola: User calls & insights · 3. ChatGPT and Claude: ... Read more",
+      "pre_snippet": "11/12/2025 00:00:00",
+      "highlighted": [
+        "1. Superhuman: Emailing & user feedback"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.builder.io/blog/best-ai-tools-for-product-managers#:~:text=The%20top%2010%20AI%20tools,for%20product%20managers&text=1.%20Superhuman%3A%20Emailing%20%26%20user,feedback&text=2.%20Granola%3A%20User%20calls%20%26,insights&text=3.%20ChatGPT%20and%20Claude%3A%20Distilling,feedback",
+          "domain": "www.builder.io"
+        }
+      ],
+      "timestamp": "2025-11-12 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "productschool.com",
+      "title": "Top 21 AI Tools for Product Managers and Product Teams",
+      "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers",
+      "breadcrumb": "https://productschool.com › Blog › Artificial Intelligence",
+      "website_name": "Product School",
+      "description": "Dec 18, 2025 — Top 21 AI Tools for Product Managers and Product Teams · 1. ChatGPT – The Conversation-Starting AI · 2. Google Gemini – Your Conversational AI ... Read more",
+      "pre_snippet": "12/18/2025 00:00:00",
+      "highlighted": [
+        "1. ChatGPT – The Conversation-Starting AI"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://productschool.com/blog/artificial-intelligence/ai-tools-for-product-managers#:~:text=Top%2021%20AI%20Tools%20for,Product%20Managers%20and%20Product%20Teams&text=1.%20ChatGPT%20%E2%80%93%20The%20Conversation-Starting,AI&text=2.%20Google%20Gemini%20%E2%80%93%20Your,Conversational%20AI%20Chatbot",
+          "domain": "productschool.com"
+        }
+      ],
+      "timestamp": "2025-12-18 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What AI tool do you use most ? and for what use cases",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1r7neab/what_ai_tool_do_you_use_most_and_for_what_use/",
+      "breadcrumb": "100+ comments  ·  7 months ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "I am a Product Manager and wondering how can I make use of AI tools (be it generalist stuff like Chatgpt / Claude or more niche tool) in my day to day work. ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "AI for Product Management : r/ProductManagement",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1gec4ne/ai_for_product_management/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "AI tools in product management processes",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1763ztn/ai_tools_in_product_management_processes/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=ai+tools+for+product+managers+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsIlxqn3ofFxQrKUgOl5ogz04Vl4g:1791474340453&sa=X&ved=2ahUKEwjL5b794aqXAxWZSGcHHTpmAnEQrQIoAnoECC4QAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "aakashgupta.medium.com",
+      "title": "I Spent $28K Testing Every AI Tool for Product Managers ...",
+      "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115",
+      "breadcrumb": "10+ likes  ·  9 months ago",
+      "website_name": "Medium · Aakash Gupta",
+      "description": "Use DeepSky for competitive intelligence. Run reports weekly. Track how competitors position against you. Identify gaps they're not addressing. Read more",
+      "highlighted": [
+        "Use DeepSky for competitive intelligence"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://aakashgupta.medium.com/i-spent-28k-testing-every-ai-tool-for-product-managers-only-9-were-worth-it-ad7ddffa9115#:~:text=Use%20DeepSky%20for%20competitive%20intelligence.,Identify%20gaps%20they're%20not%20addressing.",
+          "domain": "aakashgupta.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_search",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "title": "Find related products & services",
+      "items": [
+        "AI tools for managers",
+        "Product management tools list",
+        "AI Product Manager Bootcamp",
+        "AI for Product Owners",
+        "AI product management certification",
+        "AI for project managers"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "Which AI is best for product managers?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How can a product manager use AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 most popular AI tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Can AI replace a product manager?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "onehorizon.ai",
+      "title": "6 Best AI-Powered Product Management Tools in 2026 - Blog",
+      "url": "https://onehorizon.ai/blog/best-ai-product-management-tools",
+      "breadcrumb": "https://onehorizon.ai › blog › best-ai-product-managem...",
+      "website_name": "onehorizon.ai",
+      "description": "Feb 9, 2026 — 6 Best AI-Powered Product Management Tools in 2026 · 1. ChatPRD: AI that writes your requirements · 2. Productboard: The traditional leader goes ... Read more",
+      "pre_snippet": "02/09/2026 00:00:00",
+      "highlighted": [
+        "1. ChatPRD: AI that writes your requirements"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://onehorizon.ai/blog/best-ai-product-management-tools#:~:text=6%20Best%20AI-Powered%20Product%20Management,Tools%20in%202026&text=1.%20ChatPRD%3A%20AI%20that%20writes,your%20requirements&text=2.%20Productboard%3A%20The%20traditional%20leader,goes%20AI",
+          "domain": "onehorizon.ai"
+        }
+      ],
+      "timestamp": "2026-02-09 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.figma.com",
+      "title": "AI for product managers: 13 top tools + practical tips",
+      "url": "https://www.figma.com/resource-library/ai-for-product-managers/",
+      "breadcrumb": "https://www.figma.com › ... › Building with AI",
+      "website_name": "Figma",
+      "description": "Go from prompt to prototype in seconds · 2. ChatGPT · 3. Productboard · 4. Mixpanel · 5. Dovetail · 6. Linear · 7. Fireflies.ai · 8. ChatPRD · 9. Lovable. An ... Read more",
+      "highlighted": [
+        "ChatGPT"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.figma.com/resource-library/ai-for-product-managers/#:~:text=Go%20from%20prompt%20to%20prototype,in%20seconds&text=2.%20ChatGPT&text=3.%20Productboard&text=4.%20Mixpanel&text=5.%20Dovetail&text=6.%20Linear&text=7.%20Fireflies.ai&text=8.%20ChatPRD&text=9.%20Lovable",
+          "domain": "www.figma.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "AI and product management: What you need to know",
+      "url": "https://www.atlassian.com/agile/product-management/pm-and-ai",
+      "breadcrumb": "https://www.atlassian.com › Agile › Product Management",
+      "website_name": "Atlassian",
+      "description": "AI in product management enhances productivity, decision-making, and innovation, tools like Sauce AI can collect feedback from multiple sources and analyse ...",
+      "highlighted": [
+        "AI in product management enhances productivity, decision-making, and innovation"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "We Ranked Every AI Tool for Product Managers — So You Don ...",
+      "url": "https://www.youtube.com/watch?v=7Q8-FKWx-ls",
+      "breadcrumb": "14.5K+ views  ·  11 months ago",
+      "website_name": "YouTube · Aakash Gupta",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2025-10-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "brainstation.io",
+      "title": "AI Tools Every Product Manager Should Know (2026 Guide)",
+      "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use",
+      "breadcrumb": "https://brainstation.io › career-guides › what-tools-do-p...",
+      "website_name": "BrainStation",
+      "description": "Dovetail & BuildBetter : These remain the best AI tools for product managers during research. They don't just transcribe, they use AI product development logic ... Read more",
+      "highlighted": [
+        "Dovetail & BuildBetter"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Eliminating The Blind Spots...",
+          "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use#:~:text=Eliminating%20the%20Blind%20Spots%20with%20Predictive%20Analytics",
+          "domain": "brainstation.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Tools For Deep Research &...",
+          "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use#:~:text=Tools%20for%20Deep%20Research%20%26%20Insights",
+          "domain": "brainstation.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Enabling The Dev Team",
+          "url": "https://brainstation.io/career-guides/what-tools-do-product-managers-use#:~:text=Enabling%20the%20Dev%20Team",
+          "domain": "brainstation.io"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Free AI tools for product managers",
+        "Best ai tools for product managers",
+        "AI tools for product managers reddit",
+        "Free ai tools for product owners",
+        "AI for product managers",
+        "ChatPRD",
+        "AI projects for Product Managers",
+        "Best AI tools for product research"
+      ]
+    }
+  ]
+}

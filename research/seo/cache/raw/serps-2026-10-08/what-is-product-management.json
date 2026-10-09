@@ -1,0 +1,571 @@
+{
+ "id": "10081545-2633-0066-0000-5db337f4ba9f",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "**Product management** is `a strategic business function that guides a product through its entire lifecycle` —from initial idea and research to development, launch, ongoing support, and optimization.[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://en.wikipedia.org/wiki/Product_management)\n\n### Core Purpose\n\nThe primary goal of product management is to build products that are **valuable** to customers, **usable** by real people, and **feasible** for the business to build and profit from. Product managers (PMs) sit at the intersection of three main areas:[[1]](https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/)\n\n- **Business:** Aligning the product with company revenue, strategy, and market goals.\n- **Technology:** Working with engineers and developers to figure out what can be built.\n- **User Experience (UX):** Representing the voice of the customer and solving real user pain points.[[1]](https://www.productboard.com/what-is-product-management/)[[2]](https://www.ibm.com/think/topics/product-management)[[3]](https://www.productfocus.com/product-management-basics/what-is-product-management/)[[4]](https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/)\n\n### Key Responsibilities\n\n- **Defining the \"Why\" and \"What\":** PMs determine the product vision, strategy, and roadmap. They decide *what* features to build next and *why* they matter.[[1]](https://www.productplan.com/learn/what-is-product-management)[[2]](https://www.productboard.com/what-is-product-management/)[[3]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)\n- **Prioritizing the Backlog:** Managing trade-offs and ranking feature requests, bug fixes, and customer needs based on impact and data.[[1]](https://www.reddit.com/r/careerguidance/comments/padmcf/can_anyone_please_explain_what_is_product/)[[2]](https://www.atlassian.com/agile/product-management/product-manager)\n- **Cross-Functional Collaboration:** Leading teams without direct authority—connecting designers, developers, marketers, sales, and executives.[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://www.productboard.com/what-is-product-management/)\n- **Market & User Research:** Interviewing users, analyzing competitor trends, and tracking post-launch data to iterate on the product.[[1]](https://www.youtube.com/shorts/agpHWOTebkQ)[[2]](https://www.youtube.com/watch?v=jDgW5HVqb4I&t=35)\n\n### Product Management vs. Related Roles\n\n- **Product Manager vs. Project Manager:** A Product Manager owns the **\"what\" and \"why\"** (strategy, vision, market fit), while a Project Manager owns the **\"how\" and \"when\"** (timelines, execution, daily workflows).[[1]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)[[2]](https://www.ibm.com/think/topics/product-management)\n- **Product Manager vs. Product Owner:** In Agile/Scrum frameworks, the Product Manager typically focuses on high-level strategy and external stakeholders, whereas the Product Owner translates that vision into daily tactical tasks and manages the sprint backlog with the engineering team.[[1]](https://www.atlassian.com/agile/product-management/product-manager)[[2]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)\n\nYou can read more about how these structures operate via guides from [Atlassian](https://www.atlassian.com/agile/product-management) or [IBM](https://www.ibm.com/think/topics/product-management).[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://www.atlassian.com/agile/product-management)",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "Product management is a strategic business function that guides a product through its entire lifecycle —from initial idea and research to development, launch, ongoing support, and optimization.",
+     "markdown": "**Product management** is `a strategic business function that guides a product through its entire lifecycle` —from initial idea and research to development, launch, ongoing support, and optimization.[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://en.wikipedia.org/wiki/Product_management)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "IBM",
+       "domain": "www.ibm.com",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "title": "What Is Product Management | IBM",
+       "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Wikipedia",
+       "domain": "en.wikipedia.org",
+       "url": "https://en.wikipedia.org/wiki/Product_management",
+       "title": "Product management - Wikipedia",
+       "text": "Definition: Business process of planning, developing, launching, managing products/services across their entire lifecycle from ide..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Purpose",
+     "text": "The primary goal of product management is to build products that are valuable to customers, usable by real people, and feasible for the business to build and profit from. Product managers (PMs) sit at the intersection of three main areas:",
+     "markdown": "The primary goal of product management is to build products that are **valuable** to customers, **usable** by real people, and **feasible** for the business to build and profit from. Product managers (PMs) sit at the intersection of three main areas:[[1]](https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "AltexSoft",
+       "domain": "www.altexsoft.com",
+       "url": "https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/",
+       "title": "What is Product Management? Definition, Process, Roles - AltexSoft",
+       "text": "Who is a product manager? A product manager is a person who creates internal and external product vision and leads product develop..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Business: Aligning the product with company revenue, strategy, and market goals. Technology: Working with engineers and developers to figure out what can be built. User Experience (UX): Representing the voice of the customer and solving real user pain points.",
+     "markdown": "- **Business:** Aligning the product with company revenue, strategy, and market goals.\n- **Technology:** Working with engineers and developers to figure out what can be built.\n- **User Experience (UX):** Representing the voice of the customer and solving real user pain points.[[1]](https://www.productboard.com/what-is-product-management/)[[2]](https://www.ibm.com/think/topics/product-management)[[3]](https://www.productfocus.com/product-management-basics/what-is-product-management/)[[4]](https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Productboard",
+       "domain": "www.productboard.com",
+       "url": "https://www.productboard.com/what-is-product-management/",
+       "title": "What Is Product Management? Guide - Productboard",
+       "text": "Product management is a role within an organization responsible for the product across its entire lifecycle. Core responsibilities..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "IBM",
+       "domain": "www.ibm.com",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "title": "What Is Product Management | IBM",
+       "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Product Focus",
+       "domain": "www.productfocus.com",
+       "url": "https://www.productfocus.com/product-management-basics/what-is-product-management/",
+       "title": "What is Product Management, why is it needed? Product Focus",
+       "text": "An introduction to what product management is, who does it, and why? Product management is the job of looking after a specific pro..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "AltexSoft",
+       "domain": "www.altexsoft.com",
+       "url": "https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/",
+       "title": "What is Product Management? Definition, Process, Roles - AltexSoft",
+       "text": "Who is a product manager? A product manager is a person who creates internal and external product vision and leads product develop..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Key Responsibilities",
+     "text": "Defining the \"Why\" and \"What\": PMs determine the product vision, strategy, and roadmap. They decide what features to build next and why they matter. Prioritizing the Backlog: Managing trade-offs and ranking feature requests, bug fixes, and customer needs based on impact and data. Cross-Functional Collaboration: Leading teams without direct authority—connecting designers, developers, marketers, sales, and executives. Market & User Research: Interviewing users, analyzing competitor trends, and tracking post-launch data to iterate on the product.",
+     "markdown": "- **Defining the \"Why\" and \"What\":** PMs determine the product vision, strategy, and roadmap. They decide *what* features to build next and *why* they matter.[[1]](https://www.productplan.com/learn/what-is-product-management)[[2]](https://www.productboard.com/what-is-product-management/)[[3]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)\n- **Prioritizing the Backlog:** Managing trade-offs and ranking feature requests, bug fixes, and customer needs based on impact and data.[[1]](https://www.reddit.com/r/careerguidance/comments/padmcf/can_anyone_please_explain_what_is_product/)[[2]](https://www.atlassian.com/agile/product-management/product-manager)\n- **Cross-Functional Collaboration:** Leading teams without direct authority—connecting designers, developers, marketers, sales, and executives.[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://www.productboard.com/what-is-product-management/)\n- **Market & User Research:** Interviewing users, analyzing competitor trends, and tracking post-launch data to iterate on the product.[[1]](https://www.youtube.com/shorts/agpHWOTebkQ)[[2]](https://www.youtube.com/watch?v=jDgW5HVqb4I&t=35)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/what-is-product-management",
+       "title": "The Ultimate Guide to Product Management | ProductPlan",
+       "text": "Click here to explore how product leaders use roadmaps as a strategic communication tool throughout this process to keep stakehold..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Productboard",
+       "domain": "www.productboard.com",
+       "url": "https://www.productboard.com/what-is-product-management/",
+       "title": "What Is Product Management? Guide - Productboard",
+       "text": "Product management is a role within an organization responsible for the product across its entire lifecycle. Core responsibilities..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "University of Phoenix",
+       "domain": "www.phoenix.edu",
+       "url": "https://www.phoenix.edu/articles/business/what-is-a-product-manager.html",
+       "title": "What Is a Product Manager? | University of Phoenix",
+       "text": "The roles of product manager and product owner intersect, especially in Scrum. Product managers focus on the strategic direction t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Reddit",
+       "domain": "www.reddit.com",
+       "url": "https://www.reddit.com/r/careerguidance/comments/padmcf/can_anyone_please_explain_what_is_product/",
+       "title": "Can anyone please explain what is product management and what do ...",
+       "text": "Product Backlog Management: Product Managers are responsible for prioritizing feature requests and bug fixes, managing the product..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-manager",
+       "title": "Product Manager: Role & Best Practices for Beginners | Atlassian",
+       "text": "Role: Drives product development, strategy, roadmap, and features by balancing business, technology, and user experience (UX). Res..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "IBM",
+       "domain": "www.ibm.com",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "title": "What Is Product Management | IBM",
+       "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/shorts/agpHWOTebkQ",
+       "title": "Product Management Explained in 60 Seconds",
+       "text": "Product Management Explained in 60 Seconds and I worked there for almost 5 years a product manager is a role within a tech company..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=jDgW5HVqb4I&t=35",
+       "title": "What is Product Management and the role of Product Manager in 3 minutes",
+       "text": "What is Product Management and the role of Product Manager in 3 minutes and even beyond we can think of product management as the ..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Product Management vs. Related Roles",
+     "text": "Product Manager vs. Project Manager: A Product Manager owns the \"what\" and \"why\" (strategy, vision, market fit), while a Project Manager owns the \"how\" and \"when\" (timelines, execution, daily workflows). Product Manager vs. Product Owner: In Agile/Scrum frameworks, the Product Manager typically focuses on high-level strategy and external stakeholders, whereas the Product Owner translates that vision into daily tactical tasks and manages the sprint backlog with the engineering team.",
+     "markdown": "- **Product Manager vs. Project Manager:** A Product Manager owns the **\"what\" and \"why\"** (strategy, vision, market fit), while a Project Manager owns the **\"how\" and \"when\"** (timelines, execution, daily workflows).[[1]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)[[2]](https://www.ibm.com/think/topics/product-management)\n- **Product Manager vs. Product Owner:** In Agile/Scrum frameworks, the Product Manager typically focuses on high-level strategy and external stakeholders, whereas the Product Owner translates that vision into daily tactical tasks and manages the sprint backlog with the engineering team.[[1]](https://www.atlassian.com/agile/product-management/product-manager)[[2]](https://www.phoenix.edu/articles/business/what-is-a-product-manager.html)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "University of Phoenix",
+       "domain": "www.phoenix.edu",
+       "url": "https://www.phoenix.edu/articles/business/what-is-a-product-manager.html",
+       "title": "What Is a Product Manager? | University of Phoenix",
+       "text": "The roles of product manager and product owner intersect, especially in Scrum. Product managers focus on the strategic direction t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "IBM",
+       "domain": "www.ibm.com",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "title": "What Is Product Management | IBM",
+       "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-manager",
+       "title": "Product Manager: Role & Best Practices for Beginners | Atlassian",
+       "text": "Role: Drives product development, strategy, roadmap, and features by balancing business, technology, and user experience (UX). Res..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "You can read more about how these structures operate via guides from Atlassian or IBM.",
+     "markdown": "You can read more about how these structures operate via guides from [Atlassian](https://www.atlassian.com/agile/product-management) or [IBM](https://www.ibm.com/think/topics/product-management).[[1]](https://www.ibm.com/think/topics/product-management)[[2]](https://www.atlassian.com/agile/product-management)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Atlassian",
+       "url": "https://www.atlassian.com/agile/product-management",
+       "domain": "www.atlassian.com"
+      },
+      {
+       "type": "link_element",
+       "title": "IBM",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "domain": "www.ibm.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "IBM",
+       "domain": "www.ibm.com",
+       "url": "https://www.ibm.com/think/topics/product-management",
+       "title": "What Is Product Management | IBM",
+       "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management",
+       "title": "Product Management | Atlassian",
+       "text": "Definition: Product management guides a product's lifecycle from development to launch by balancing customer needs, business goals..."
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Reddit",
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/careerguidance/comments/padmcf/can_anyone_please_explain_what_is_product/",
+     "title": "Can anyone please explain what is product management and what do ...",
+     "text": "Product Backlog Management: Product Managers are responsible for prioritizing feature requests and bug fixes, managing the product..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "IBM",
+     "domain": "www.ibm.com",
+     "url": "https://www.ibm.com/think/topics/product-management",
+     "title": "What Is Product Management | IBM",
+     "text": "Product management is a strategic practice that guides the product lifecycle through research, planning, development, product laun..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/agile/product-management",
+     "title": "Product Management | Atlassian",
+     "text": "Definition: Product management guides a product's lifecycle from development to launch by balancing customer needs, business goals..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/agile/product-management/product-manager",
+     "title": "Product Manager: Role & Best Practices for Beginners | Atlassian",
+     "text": "Role: Drives product development, strategy, roadmap, and features by balancing business, technology, and user experience (UX). Res..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Productboard",
+     "domain": "www.productboard.com",
+     "url": "https://www.productboard.com/what-is-product-management/",
+     "title": "What Is Product Management? Guide - Productboard",
+     "text": "Product management is a role within an organization responsible for the product across its entire lifecycle. Core responsibilities..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/learn/what-is-product-management",
+     "title": "The Ultimate Guide to Product Management | ProductPlan",
+     "text": "Click here to explore how product leaders use roadmaps as a strategic communication tool throughout this process to keep stakehold..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Product Focus",
+     "domain": "www.productfocus.com",
+     "url": "https://www.productfocus.com/product-management-basics/what-is-product-management/",
+     "title": "What is Product Management, why is it needed? Product Focus",
+     "text": "An introduction to what product management is, who does it, and why? Product management is the job of looking after a specific pro..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Product_management",
+     "title": "Product management - Wikipedia",
+     "text": "Definition: Business process of planning, developing, launching, managing products/services across their entire lifecycle from ide..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "AltexSoft",
+     "domain": "www.altexsoft.com",
+     "url": "https://www.altexsoft.com/blog/product-management-main-stages-and-product-manager-role/",
+     "title": "What is Product Management? Definition, Process, Roles - AltexSoft",
+     "text": "Who is a product manager? A product manager is a person who creates internal and external product vision and leads product develop..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/shorts/agpHWOTebkQ",
+     "title": "Product Management Explained in 60 Seconds",
+     "text": "Product Management Explained in 60 Seconds and I worked there for almost 5 years a product manager is a role within a tech company..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=jDgW5HVqb4I&t=35",
+     "title": "What is Product Management and the role of Product Manager in 3 minutes",
+     "text": "What is Product Management and the role of Product Manager in 3 minutes and even beyond we can think of product management as the ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "University of Phoenix",
+     "domain": "www.phoenix.edu",
+     "url": "https://www.phoenix.edu/articles/business/what-is-a-product-manager.html",
+     "title": "What Is a Product Manager? | University of Phoenix",
+     "text": "The roles of product manager and product owner intersect, especially in Scrum. Product managers focus on the strategic direction t..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "Thoughts on product marketing management?",
+   "url": "https://www.reddit.com/r/ProductManagement/comments/1e1jm37/thoughts_on_product_marketing_management/",
+   "breadcrumb": "1 comment  ·  2 years ago",
+   "website_name": "Reddit · r/ProductManagement",
+   "description": "product marketing roles tend to be less complex than product management roles - you are basically doing competitive analysis and developing ...",
+   "highlighted": [
+    "product marketing roles tend to be less complex than product management roles"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Job in Product Management or Similar Positions? - Reddit",
+     "url": "https://www.reddit.com/r/careerguidance/comments/1sbyvwz/job_in_product_management_or_similar_positions/",
+     "domain": "www.reddit.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Is it possible to jump directly into Product Management ...",
+     "url": "https://www.reddit.com/r/cscareerquestions/comments/vrvde8/is_it_possible_to_jump_directly_into_product/",
+     "domain": "www.reddit.com"
+    },
+    {
+     "type": "link_element",
+     "title": "More results from www.reddit.com",
+     "url": "https://www.google.com/search?q=what+is+product+management+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnunZrCRL3J2Ra3cwrohl-j6N4n6Tw:1791474340545&sa=X&ved=2ahUKEwirvsT94aqXAxWakyYFHWyvGfQQrQIoAnoECCwQAw",
+     "domain": "www.google.com"
+    }
+   ]
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What are top 3 skills for a product manager?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What is a product management salary?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Are product managers well paid?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Is product manager a hard job?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.tryexponent.com",
+   "title": "Breaking Into Product Management with Ryan Hill (APMList)",
+   "url": "https://www.tryexponent.com/blog/interview-practice-ryan-hill",
+   "breadcrumb": "https://www.tryexponent.com › blog › interview-practic...",
+   "website_name": "Exponent",
+   "description": "May 21, 2025 — Focus on being opinionated and having good justification. Pick a product that forces you to make strategic product trade-offs to help some users ... Read more",
+   "pre_snippet": "05/21/2025 00:00:00",
+   "highlighted": [
+    "product"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.tryexponent.com/blog/interview-practice-ryan-hill#:~:text=Focus%20on%20being%20opinionated%20and,others%2C%20and%20ruthlessly%20justify%20yourself.",
+     "domain": "www.tryexponent.com"
+    }
+   ],
+   "timestamp": "2025-05-21 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "www.productplan.com",
+   "title": "Why is Idea Management Important?",
+   "url": "https://www.productplan.com/learn/idea-management",
+   "breadcrumb": "https://www.productplan.com › Learn",
+   "website_name": "ProductPlan",
+   "description": "Product management's central role within the organization makes it a logical owner of idea management. Product managers already ingest, parse, and make sense ...",
+   "highlighted": [
+    "Product management's central role within the organization"
+   ]
+  },
+  {
+   "type": "video",
+   "rank_group": 1,
+   "rank_absolute": 6,
+   "page": 1,
+   "items": [
+    {
+     "type": "video_element",
+     "source": "YouTube · M&E Guru",
+     "title": "What is product management #productmanagement # ...",
+     "timestamp": "2025-07-20 00:00:00 +00:00",
+     "url": "https://www.youtube.com/shorts/t6GrTn__Q6s"
+    },
+    {
+     "type": "video_element",
+     "source": "YouTube · Product Alliance",
+     "title": "What is Product Management?",
+     "timestamp": "2020-08-14 00:00:00 +00:00",
+     "url": "https://www.youtube.com/watch?v=F7zzh_MI-k8"
+    },
+    {
+     "type": "video_element",
+     "source": "YouTube · rocketblocks",
+     "title": "What is product management?",
+     "timestamp": "2019-10-30 00:00:00 +00:00",
+     "url": "https://www.youtube.com/watch?v=nywjchZmmKg"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.linkedin.com",
+   "title": "What is AI Product Management? A 1-minute guide | Dr. Nancy ...",
+   "url": "https://www.linkedin.com/videos/drnancyli_pmaccelerator-aipmbootcamp-activity-7358131087513903104-4XXH",
+   "breadcrumb": "https://www.linkedin.com · Aug 4, 2025",
+   "website_name": "LinkedIn · Dr. Nancy Li",
+   "is_video": true,
+   "checks": [
+    "is_video"
+   ],
+   "description": "AI PMs do more than write requirements and work with engineers. Collaborate with data scientists on model evaluation & fine-tuning – Make ...",
+   "highlighted": [
+    "AI PMs do more than write requirements and work with engineers"
+   ],
+   "timestamp": "2025-08-04 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.youngurbanproject.com",
+   "title": "AI Product Management: What It is and How to Become One",
+   "url": "https://www.youngurbanproject.com/what-is-ai-product-management/",
+   "breadcrumb": "https://www.youngurbanproject.com › what-is-ai-produ...",
+   "website_name": "Young Urban Project",
+   "description": "Jun 1, 2026 — AI product management (AIPM) is one of the fastest-growing roles in tech. Learn what AI PMs do, how they differ from PMs, and the exact ...",
+   "pre_snippet": "06/01/2026 00:00:00",
+   "highlighted": [
+    "AI product management (AIPM"
+   ],
+   "timestamp": "2026-06-01 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.calcalistech.com",
+   "title": "How AI is reshaping product management at Amazon | Ctech",
+   "url": "https://www.calcalistech.com/ctechnews/article/hjgmo3ppkg",
+   "breadcrumb": "https://www.calcalistech.com › CTech › News",
+   "website_name": "calcalistech.com",
+   "description": "Mar 31, 2025 — “AI, in general, helps sales or development to scale and move fast, and it's the same with product management. focus on making decisions and ...",
+   "pre_snippet": "03/31/2025 00:00:00",
+   "highlighted": [
+    "product management"
+   ],
+   "timestamp": "2025-03-31 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "mbs.rutgers.edu",
+   "title": "product management | Master of Business and Science Degree",
+   "url": "https://mbs.rutgers.edu/taxonomy/term/5581",
+   "breadcrumb": "https://mbs.rutgers.edu › taxonomy › term",
+   "website_name": "Rutgers MBS",
+   "description": "The Real-life Applications and Processes of Product Management. Market Assessment and Analysis—MBS … analysis alumni advice product management",
+   "highlighted": [
+    "Product Management",
+    "product management"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "airfocus.com",
+   "title": "Product management essentials template",
+   "url": "https://airfocus.com/templates/product-management/",
+   "breadcrumb": "https://airfocus.com › templates › product-management",
+   "website_name": "airfocus by Lucid",
+   "description": "Manage your product management process: product strategy, backlog, prioritization, workflows, and roadmaps.",
+   "highlighted": [
+    "product management",
+    "product"
+   ]
+  }
+ ]
+}

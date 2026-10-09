@@ -1,0 +1,377 @@
+keyword,volume,difficulty,verdict,topic,subtopic,reason
+what is a and b testing,1900,58,existing,a/b testing and experimentation,a/b testing (general),a/b/n test variant
+a b c testing,1600,18,existing,a/b testing and experimentation,a/b testing (general),a/b/n test variant
+a b n testing,210,0,existing,a/b testing and experimentation,a/b testing (general),a/b/n test variant
+a-b-testing example,210,41,existing,a/b testing and experimentation,a/b testing (general),a/b/n test variant
+a b website testing,110,58,existing,a/b testing and experimentation,a/b testing (general),a/b/n test variant
+electronic accessibility,74000,27,existing,accessibility,web and digital accessibility,digital accessibility
+product analyst,1600,0,existing,analytics,,analyst role
+design system design,3600,44,existing,design systems and ui components,design systems,design system
+design-system,3600,44,existing,design systems and ui components,design systems,design system
+graphic design grid system,880,4,existing,design systems and ui components,ui components and patterns,layout grids
+grid system graphic design,880,25,existing,design systems and ui components,ui components and patterns,layout grids
+grid system in graphic design,880,4,existing,design systems and ui components,ui components and patterns,layout grids
+design process thinking,4400,56,existing,design thinking,design thinking process and stages,design process
+product promotion strategy,720,21,existing,go-to-market and product marketing,,product promotion
+strategy marketing product,590,25,existing,go-to-market and product marketing,,product promotion
+patient journey map,480,3,existing,personas and journey maps,journey maps and user flows,service journey map
+prioritization grid,140,27,existing,prioritization,prioritization frameworks,prioritization grid
+product service management,2400,0,existing,product management (discipline),product management (general),generic pm phrase
+product services management,2400,0,existing,product management (discipline),product management (general),generic pm phrase
+product/service management,2400,0,existing,product management (discipline),product management (general),generic pm phrase
+what is product service management,1000,0,existing,product management (discipline),product management (general),generic pm phrase
+what is product/service management,1000,0,existing,product management (discipline),product management (general),generic pm phrase
+launch strategy of a product,320,10,existing,"product strategy, discovery and launch",new product development and launch,launch strategy
+product release strategy,320,17,existing,"product strategy, discovery and launch",new product development and launch,launch strategy
+product and strategy,1300,31,existing,"product strategy, discovery and launch",product strategy,product strategy
+strategy for product,1300,31,existing,"product strategy, discovery and launch",product strategy,product strategy
+product and service strategy example,170,1,existing,"product strategy, discovery and launch",product strategy,product strategy
+product diversification strategy,170,18,existing,"product strategy, discovery and launch",product strategy,product strategy
+product service strategy example,170,3,existing,"product strategy, discovery and launch",product strategy,product strategy
+product/service strategy example,170,3,existing,"product strategy, discovery and launch",product strategy,product strategy
+product mix strategy,140,0,existing,"product strategy, discovery and launch",product strategy,product strategy
+discovery product,480,8,existing,"product strategy, discovery and launch",product strategy and discovery (general),product discovery
+customer experience,4400,52,new,customer experience (cx),,customer experience
+customer experience software,1000,7,new,customer experience (cx),,customer experience
+customer experience platforms,880,0,new,customer experience (cx),,customer experience
+customer experience questions,880,0,new,customer experience (cx),,customer experience
+market research analyst,5400,9,new,market research and competitor analysis,,market research
+online market research platform,4400,32,new,market research and competitor analysis,,market research
+online market research platforms,4400,13,new,market research and competitor analysis,,market research
+market research for starting a business,3600,26,new,market research and competitor analysis,,market research
+market research and marketing,2900,22,new,market research and competitor analysis,,market research
+market research and marketing research,2900,13,new,market research and competitor analysis,,market research
+market research for marketing,2900,32,new,market research and competitor analysis,,market research
+market research in marketing,2900,30,new,market research and competitor analysis,,market research
+market research marketing,2900,24,new,market research and competitor analysis,,market research
+market research marketing research,2900,29,new,market research and competitor analysis,,market research
+marketing and market research,2900,18,new,market research and competitor analysis,,market research
+marketing market research,2900,30,new,market research and competitor analysis,,market research
+marketing research,2900,32,new,market research and competitor analysis,,market research
+marketing research and market research,2900,17,new,market research and competitor analysis,,market research
+marketing research market research,2900,39,new,market research and competitor analysis,,market research
+market research for small business,1900,14,new,market research and competitor analysis,,market research
+competitive benchmarking,590,7,new,market research and competitor analysis,,market research
+competitive edge research,590,0,new,market research and competitor analysis,,market research
+ux writing,1900,18,new,ux writing and content design,,ux writing
+what is ux writing,480,18,new,ux writing and content design,,ux writing
+ux writing portfolio,170,0,new,ux writing and content design,,ux writing
+ux writing portfolios,170,0,new,ux writing and content design,,ux writing
+good ux writing,140,13,new,ux writing and content design,,ux writing
+ux writing sample,140,0,new,ux writing and content design,,ux writing
+ux writing samples,140,0,new,ux writing and content design,,ux writing
+ux writing example,110,0,new,ux writing and content design,,ux writing
+ux writing examples,110,0,new,ux writing and content design,,ux writing
+ux writing hub,110,13,new,ux writing and content design,,ux writing
+student accessibility services,135000,49,off,,,physical access
+outlook accessibility,49500,90,off,,,device settings
+beach accessibility,33100,8,off,,,physical access
+system design life cycle,27100,43,off,,,software engineering
+cadence design system,22200,43,off,,,chip software
+cadence design systems,22200,43,off,,,chip software
+cadence system design,22200,43,off,,,chip software
+instructional system design,22200,66,off,,,instructional design
+public accessibility,22200,58,off,,,physical access
+accessibility wisconsin,18100,7,off,,,physical access
+nintendo switch accessibility,14800,7,off,,,device settings
+tesla accessibility,14800,17,off,,,device settings
+accessibility transport,12100,32,off,,,public transport
+accessibility transportation,12100,32,off,,,public transport
+journey of lewis and clark map,12100,3,off,,,history maps
+lewis and clark journey map,12100,3,off,,,history maps
+map of lewis and clark journey,12100,4,off,,,history maps
+accessibility healthcare,9900,65,off,,,physical access
+accessibility indiana,9900,29,off,,,physical access
+metro accessibility,9900,40,off,,,physical access
+united accessibility,9900,5,off,,,physical access
+accessibility control,8100,45,off,,,device settings
+accessibility controller,8100,45,off,,,device settings
+accessibility controllers,8100,45,off,,,device settings
+accessibility controls,8100,45,off,,,device settings
+accessibility remote,8100,41,off,,,device settings
+design for system,8100,26,off,,,software engineering
+design the system,8100,26,off,,,software engineering
+journey of odysseus map,8100,5,off,,,literature maps
+map of odysseus journey,8100,5,off,,,literature maps
+map of the odyssey journey,8100,1,off,,,literature maps
+map of ulysses journey,8100,3,off,,,literature maps
+odysseus journey map,8100,4,off,,,literature maps
+odysseus map journey,8100,6,off,,,literature maps
+odysseus's journey map,8100,2,off,,,literature maps
+odyssey journey map,8100,3,off,,,literature maps
+odyssey map journey,8100,2,off,,,literature maps
+product lifecycle management software,8100,43,off,,,plm software
+remote accessibility,8100,41,off,,,device settings
+student accessibility,8100,58,off,,,physical access
+system and design,8100,26,off,,,software engineering
+system design,8100,26,off,,,software engineering
+ulysses journey map,8100,47,off,,,literature maps
+at&t accessibility,6600,12,off,,,device settings
+how do you spell accessibility,6600,19,off,,,spelling query
+how to spell accessibility,6600,21,off,,,spelling query
+ipad accessibility,6600,29,off,,,device settings
+what is student accessibility services,6600,25,off,,,physical access
+open accessibility,5400,97,off,,,org name
+sky accessibility,5400,16,off,,,device settings
+accessibility in settings,4400,27,off,,,device settings
+accessibility in spanish,4400,0,off,,,spelling query
+accessibility medical,4400,38,off,,,physical access
+accessibility ramp rental,4400,0,off,,,physical access
+accessibility service,4400,17,off,,,device settings
+accessibility services,4400,17,off,,,device settings
+accessibility setting,4400,27,off,,,device settings
+accessibility settings,4400,27,off,,,device settings
+colorado accessibility,4400,4,off,,,physical access
+design a septic system,4400,11,off,,,building systems
+design septic system,4400,11,off,,,building systems
+handicap accessibility,4400,20,off,,,physical access
+handicapped accessibility,4400,20,off,,,physical access
+ibcces accessibility card,4400,4,off,,,physical access
+interview system design,4400,27,off,,,software engineering
+one accessibility,4400,63,off,,,org name
+security accessibility,4400,27,off,,,device settings
+septic system design,4400,2,off,,,building systems
+setting accessibility,4400,27,off,,,device settings
+settings accessibility,4400,27,off,,,device settings
+system design interview,4400,27,off,,,software engineering
+system design interviews,4400,27,off,,,software engineering
+wheelchair accessibility,4400,19,off,,,physical access
+accessibility door,3600,2,off,,,physical access
+accessibility doors,3600,2,off,,,physical access
+accessibility foundation,3600,13,off,,,org name
+accessibility lab,3600,8,off,,,org name
+accessibility ramp slope,3600,14,off,,,physical access
+what is system design life cycle,3600,23,off,,,software engineering
+a b o testing,2900,0,off,,,medical test
+accessibility card,2900,38,off,,,physical access
+accessibility of healthcare,2900,50,off,,,physical access
+hello interview system design,2900,7,off,,,software engineering
+patient accessibility,2900,9,off,,,physical access
+product data management solidworks,2900,0,off,,,plm software
+product lifecycle management siemens,2900,5,off,,,plm software
+siemens product lifecycle management,2900,46,off,,,plm software
+siemens product lifecycle management software,2900,46,off,,,plm software
+siemens product lifecycle management software inc,2900,15,off,,,plm software
+solidworks product data management,2900,0,off,,,plm software
+talkback accessibility service has dimmed the screen,2900,0,off,,,device settings
+map of paul's journey,2400,0,off,,,bible maps
+map of paul's missionary journey,2400,0,off,,,bible maps
+map paul's missionary journey,2400,0,off,,,bible maps
+system design life cycle stages,2400,34,off,,,software engineering
+system design primer,2400,3,off,,,software engineering
+system design-primer,2400,1,off,,,software engineering
+grokking the system design interview,1900,13,off,,,software engineering
+journey planner map,1900,73,off,,,trip planning
+map journey planner,1900,60,off,,,trip planning
+map of jesus journey,1900,0,off,,,bible maps
+object oriented system analysis and design,1900,2,off,,,software engineering
+object-oriented system analysis and design,1900,2,off,,,software engineering
+pim product information management software,1900,31,off,,,plm software
+plm product lifecycle management,1900,36,off,,,plm software
+product data management software,1900,0,off,,,plm software
+product data management softwares,1900,0,off,,,plm software
+product information management software,1900,26,off,,,plm software
+product-lifecycle-management,1900,36,off,,,plm software
+what is product lifecycle management software,1900,36,off,,,plm software
+cadence design system stock,1600,18,off,,,chip software
+design support system,1600,23,off,,,software engineering
+information security architecture,1600,12,off,,,it architecture
+interview system design questions,1600,6,off,,,software engineering
+paul's missionary journey map,1600,7,off,,,bible maps
+perfect competitive market graph,1600,0,off,,,economics class
+abraham's journey map,1300,0,off,,,bible maps
+christopher columbus journey map,1300,0,off,,,history maps
+columbus journey map,1300,0,off,,,history maps
+customer experience in the va is,1300,0,off,,,government survey
+design machine learning system,1300,29,off,,,software engineering
+machine learning system design,1300,15,off,,,software engineering
+map abraham's journey,1300,0,off,,,bible maps
+map of abraham journey,1300,0,off,,,bible maps
+map of abraham's journey,1300,0,off,,,bible maps
+map of paul's first journey,1300,0,off,,,bible maps
+map of paul's first missionary journey,1300,0,off,,,bible maps
+map of paul's second missionary journey,1300,0,off,,,bible maps
+map paul's first missionary journey,1300,0,off,,,bible maps
+map paul's second missionary journey,1300,0,off,,,bible maps
+paul's first journey map,1300,0,off,,,bible maps
+paul's first missionary journey map,1300,0,off,,,bible maps
+paul's second journey map,1300,0,off,,,bible maps
+paul's second missionary journey map,1300,0,off,,,bible maps
+plm product lifecycle management software,1300,43,off,,,plm software
+product lifecycle management plm software,1300,43,off,,,plm software
+testing for influenza a and b,1300,19,off,,,medical test
+what is a system design,1300,19,off,,,software engineering
+what is system design,1300,19,off,,,software engineering
+alex xu system design,1000,4,off,,,software engineering
+design a sprinkler system,1000,3,off,,,building systems
+design an irrigation system,1000,9,off,,,building systems
+design hvac system,1000,0,off,,,building systems
+design irrigation system,1000,9,off,,,building systems
+design of hvac system,1000,0,off,,,building systems
+design of irrigation system,1000,9,off,,,building systems
+design of sprinkler irrigation system,1000,3,off,,,building systems
+design of sprinkler system,1000,0,off,,,building systems
+design sprinkler irrigation system,1000,3,off,,,building systems
+design sprinkler system,1000,2,off,,,building systems
+frodo baggins journey map,1000,14,off,,,literature maps
+frodo journey map,1000,10,off,,,literature maps
+frodo's journey map,1000,9,off,,,literature maps
+hvac design system,1000,0,off,,,building systems
+hvac system design,1000,0,off,,,building systems
+irrigation design system,1000,9,off,,,building systems
+irrigation sprinkler system design,1000,0,off,,,building systems
+irrigation system design,1000,0,off,,,building systems
+journey of frodo map,1000,9,off,,,literature maps
+journey time map,1000,56,off,,,trip planning
+map my journey,1000,71,off,,,trip planning
+map of christopher columbus journey,1000,0,off,,,history maps
+map of frodo's journey,1000,13,off,,,literature maps
+map of frodo's journey in lord of the rings,1000,4,off,,,literature maps
+sprinkler design system,1000,3,off,,,building systems
+sprinkler irrigation system design,1000,10,off,,,building systems
+sprinkler system design,1000,3,off,,,building systems
+sts system design essentials,1000,0,off,,,hair product
+system design book,1000,1,off,,,software engineering
+system design booking,1000,0,off,,,software engineering
+system design books,1000,1,off,,,software engineering
+windchill product lifecycle management,1000,3,off,,,plm software
+design fire sprinkler system,880,1,off,,,building systems
+design of fire sprinkler system,880,0,off,,,building systems
+fire sprinkler system design,880,0,off,,,building systems
+grokking system design,880,16,off,,,software engineering
+high priority plumbing,880,32,off,,,plumbing
+jane street strategy and product,880,0,off,,,trading firm
+pdm product data management software,880,7,off,,,plm software
+system design grokking,880,16,off,,,software engineering
+what is instructional system design,880,8,off,,,instructional design
+best computer system for graphic design,720,5,off,,,computer hardware
+design essentials sts express smoothing system,720,0,off,,,hair product
+machine learning system design interview,720,0,off,,,software engineering
+map of paul's third missionary journey,720,0,off,,,bible maps
+map paul's third missionary journey,720,0,off,,,bible maps
+ml system design,720,15,off,,,software engineering
+nurse prioritization,720,0,off,,,nursing
+nursing prioritization,720,0,off,,,nursing
+paul's journey map,720,3,off,,,bible maps
+paul's third journey map,720,0,off,,,bible maps
+paul's third missionary journey map,720,0,off,,,bible maps
+prioritization for nurses,720,0,off,,,nursing
+prioritization in nursing,720,0,off,,,nursing
+prioritization in nursing care,720,0,off,,,nursing
+prioritization nursing,720,0,off,,,nursing
+prioritization of nursing care,720,0,off,,,nursing
+system design interview an insider's guide,720,12,off,,,software engineering
+system design interview: an insider's guide,720,12,off,,,software engineering
+system design primer github,720,11,off,,,software engineering
+system design-primer github,720,9,off,,,software engineering
+analysis system design,590,0,off,,,software engineering
+bytebytego system design,590,16,off,,,software engineering
+engineering system design,590,11,off,,,software engineering
+example of system design,590,16,off,,,software engineering
+example system design,590,16,off,,,software engineering
+examples of system design,590,16,off,,,software engineering
+journey of moses map,590,0,off,,,bible maps
+map of moses journey,590,0,off,,,bible maps
+map of paul's 2nd journey,590,0,off,,,bible maps
+map of paul's 2nd missionary journey,590,0,off,,,bible maps
+moses journey map,590,0,off,,,bible maps
+paul 2nd missionary journey map,590,0,off,,,bible maps
+paul's 2nd journey map,590,0,off,,,bible maps
+paul's 2nd missionary journey map,590,0,off,,,bible maps
+system analysis and design,590,0,off,,,software engineering
+system analysis and system design,590,1,off,,,software engineering
+system analysis design,590,0,off,,,software engineering
+system design and analysis,590,0,off,,,software engineering
+system design and engineering,590,11,off,,,software engineering
+system design engineer,590,11,off,,,software engineering
+system design engineering,590,11,off,,,software engineering
+system design interview prep,590,15,off,,,software engineering
+system design question,590,2,off,,,software engineering
+system design questions,590,2,off,,,software engineering
+system engineering design,590,11,off,,,software engineering
+system human design,590,45,off,,,pseudoscience
+design a solar system,480,7,off,,,building systems
+design essential sts system,480,0,off,,,hair product
+design essentials sts system,480,0,off,,,hair product
+design of embedded system,480,13,off,,,software engineering
+design of solar system,480,7,off,,,building systems
+design solar system,480,7,off,,,building systems
+embedded system and design,480,13,off,,,software engineering
+embedded system design,480,13,off,,,software engineering
+how to design an operating system,480,10,off,,,software engineering
+ikea closet design system,480,15,off,,,building systems
+ikea closet system design,480,15,off,,,building systems
+lightning system design,480,15,off,,,building systems
+map exodus journey,480,0,off,,,bible maps
+map of exodus journey,480,0,off,,,bible maps
+map of the exodus journey,480,0,off,,,bible maps
+solar panel system design,480,0,off,,,building systems
+solar panels system design,480,7,off,,,building systems
+solar power system design,480,7,off,,,building systems
+solar system design,480,7,off,,,building systems
+system design diagram,480,0,off,,,software engineering
+system design diagrams,480,0,off,,,software engineering
+system design embedded,480,13,off,,,software engineering
+testing positive for flu a and b,480,25,off,,,medical test
+a-b-a testing,390,41,off,,,behavior research
+closet system design,390,22,off,,,building systems
+delegation prioritization and assignment,390,0,off,,,nursing
+jonah journey map,390,0,off,,,bible maps
+jonah's journey map,390,0,off,,,bible maps
+journey north map,390,38,off,,,wildlife tracking
+lacharity prioritization delegation and assignment,390,0,off,,,nursing
+map of jonah journey,390,0,off,,,bible maps
+map of jonah's journey,390,0,off,,,bible maps
+prioritization and delegation,390,0,off,,,nursing
+prioritization delegation,390,0,off,,,nursing
+prioritization delegation and assignment,390,0,off,,,nursing
+the odyssey journey map,390,1,off,,,literature maps
+amazon product label requirements,320,13,off,,,labeling rules
+amazon product labeling requirements,320,13,off,,,labeling rules
+bts map of the soul 7 the journey,320,0,off,,,music album
+bts map of the soul : 7 the journey,320,0,off,,,music album
+israelites journey map,320,2,off,,,bible maps
+jane street strategy and product internship,320,3,off,,,trading firm
+map of columbus journey,320,4,off,,,history maps
+map of israel's journey,320,9,off,,,bible maps
+map of israelites journey,320,0,off,,,bible maps
+map of paul's 3rd missionary journey,320,0,off,,,bible maps
+map of the israelites journey,320,0,off,,,bible maps
+nclex prioritization questions,320,0,off,,,nursing
+nclex questions prioritization,320,0,off,,,nursing
+paul 3rd missionary journey map,320,0,off,,,bible maps
+paul's 3rd journey map,320,0,off,,,bible maps
+paul's 3rd missionary journey map,320,0,off,,,bible maps
+prioritization nclex questions,320,0,off,,,nursing
+prioritization questions nclex,320,0,off,,,nursing
+strategy and product :: jane street,320,0,off,,,trading firm
+strategy and product jane street,320,1,off,,,trading firm
+apostle paul journey map,260,3,off,,,bible maps
+apostle paul's journey map,260,2,off,,,bible maps
+bilbo baggins journey map,260,0,off,,,literature maps
+bilbo's journey map,260,0,off,,,literature maps
+enterprise information security architecture,260,3,off,,,it architecture
+hobbit journey map,260,3,off,,,literature maps
+map of bilbo's journey,260,4,off,,,literature maps
+map of the hobbit journey,260,3,off,,,literature maps
+swift ui grid,260,12,off,,,ios coding
+the hobbit map journey,260,1,off,,,literature maps
+the odyssey map journey,260,3,off,,,literature maps
+what is information technology architecture,210,0,off,,,it architecture
+a b x testing,170,14,off,,,audio testing
+abc prioritization nursing,170,0,off,,,nursing
+architecture information,170,50,off,,,building architecture
+jane street strategy and product interview,170,0,off,,,trading firm
+nursing prioritization abc,170,0,off,,,nursing
+architecture information technology,140,1,off,,,it architecture
+cosmetic product labeling requirements,140,21,off,,,labeling rules
+darwin information typing architecture,140,7,off,,,technical writing
+darwin information typing architecture dita,140,7,off,,,technical writing
+darwin information-typing architecture,140,7,off,,,technical writing
+dita darwin information typing architecture,140,7,off,,,technical writing
+information technology architecture,140,3,off,,,it architecture
+what is information security architecture,140,14,off,,,it architecture
+architecture plus information,110,15,off,,,building architecture
+dr sharon nclex prioritization,110,0,off,,,nursing
+information security architecture diagram,110,16,off,,,it architecture
+jane street strategy and product reddit,110,6,off,,,trading firm

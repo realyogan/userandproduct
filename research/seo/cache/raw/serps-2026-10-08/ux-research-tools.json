@@ -1,0 +1,602 @@
+{
+  "id": "10081545-2633-0066-0000-b9eabf6fb973",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "UX research tools are `software platforms used to collect user feedback, test prototypes, and analyze behavioral data to guide product design`.[[1]](https://www.qualtrics.com/market-research/ux/)[[2]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)\n\nA complete UX research stack is divided into several core categories based on the research workflow:\n\n### 1. Prototype & Usability Testing\n\nThese tools let you watch real users interact with designs, wireframes, or live sites to identify friction points.[[1]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)[[2]](https://www.qualtrics.com/market-research/ux/)\n\n- Maze : Best for rapid, remote prototype testing with strong integrations into design workflows like Figma.\n- UserTesting : Best for video-first, enterprise-grade user testing and stakeholder presentations.\n- [UXtweak](https://www.uxtweak.com/) : A versatile platform for mobile app, prototype, and website usability testing.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)[[2]](https://dovetail.com/ux/ai-tools-for-ux-research/)[[3]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)[[4]](https://www.uxtweak.com/)\n\n### 2. Information Architecture & Specialized Testing\nUsed to optimize site navigation, layouts, and content structure.[[1]](https://www.qualtrics.com/market-research/ux/)\n\n- Optimal Workshop : Specialized in advanced card sorting and tree testing to validate site structures.\n- Lyssna : Offers a multi-method suite (card sorting, preference testing, and surveys) with built-in recruitment.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)\n\n### 3. User Behavior & Analytics\nTrack quantitative data, clicks, and session flows on live products.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)[[2]](https://www.qualtrics.com/market-research/ux/)\n\n- Hotjar : Excellent for heatmaps, session recordings, and on-site feedback widgets.\n- Loop11 : Focuses on quantitative metrics, task performance, and clickstream data.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)\n\n### 4. Transcription, Synthesis & Repositories\nCentralize customer research, transcribe interviews, and turn qualitative data into searchable insights.[[1]](https://www.userinterviews.com/ux-research-tools-map)[[2]](https://dovetail.com/ux/ai-tools-for-ux-research/)\n\n- Dovetail : A leading customer intelligence hub with AI-powered transcription, tagging, and thematic analysis.\n- Notably : Uses AI to help synthesize qualitative research and organize data visually.\n- Miro : A visual whiteboard platform widely used for affinity mapping and customer journey workshops.[[1]](https://dovetail.com/ux/ai-tools-for-ux-research/)[[2]](https://www.youtube.com/watch?v=NXg7hh7mC-I&t=1)[[3]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)\n\n### 5. Recruitment & Participant Management\nHandle finding, screening, and incentivizing study participants.[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)[[2]](https://www.userinterviews.com/ux-research-tools-map)\n\n- User Interviews : A popular panel and participant recruitment platform.\n- Tremendous : Frequently integrated for automated global incentive payouts.[[1]](https://www.tremendous.com/blog/ux-research-tool-roundup/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "UX research tools are software platforms used to collect user feedback, test prototypes, and analyze behavioral data to guide product design.",
+          "markdown": "UX research tools are `software platforms used to collect user feedback, test prototypes, and analyze behavioral data to guide product design`.[[1]](https://www.qualtrics.com/market-research/ux/)[[2]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Qualtrics",
+              "domain": "www.qualtrics.com",
+              "url": "https://www.qualtrics.com/market-research/ux/",
+              "title": "User Experience (UX) Research Tools - Qualtrics",
+              "text": "10X more studies run without an increase to budget Test prototypes Observe users Optimize designs Test prototypes Test prototypes ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14",
+              "title": "5 UX Research Tools: Must-Haves for UX Designers",
+              "text": "and more returning customers to collect user feedback effectively you need good UX research tools let's take a look at the musthav..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "A complete UX research stack is divided into several core categories based on the research workflow:",
+          "markdown": "A complete UX research stack is divided into several core categories based on the research workflow:"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "1. Prototype & Usability Testing",
+          "text": "These tools let you watch real users interact with designs, wireframes, or live sites to identify friction points.",
+          "markdown": "These tools let you watch real users interact with designs, wireframes, or live sites to identify friction points.[[1]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)[[2]](https://www.qualtrics.com/market-research/ux/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14",
+              "title": "5 UX Research Tools: Must-Haves for UX Designers",
+              "text": "and more returning customers to collect user feedback effectively you need good UX research tools let's take a look at the musthav..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Qualtrics",
+              "domain": "www.qualtrics.com",
+              "url": "https://www.qualtrics.com/market-research/ux/",
+              "title": "User Experience (UX) Research Tools - Qualtrics",
+              "text": "10X more studies run without an increase to budget Test prototypes Observe users Optimize designs Test prototypes Test prototypes ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Maze : Best for rapid, remote prototype testing with strong integrations into design workflows like Figma. UserTesting : Best for video-first, enterprise-grade user testing and stakeholder presentations. UXtweak : A versatile platform for mobile app, prototype, and website usability testing.",
+          "markdown": "- Maze : Best for rapid, remote prototype testing with strong integrations into design workflows like Figma.\n- UserTesting : Best for video-first, enterprise-grade user testing and stakeholder presentations.\n- [UXtweak](https://www.uxtweak.com/) : A versatile platform for mobile app, prototype, and website usability testing.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)[[2]](https://dovetail.com/ux/ai-tools-for-ux-research/)[[3]](https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14)[[4]](https://www.uxtweak.com/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "UXtweak",
+              "url": "https://www.uxtweak.com/",
+              "domain": "www.uxtweak.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Lyssna",
+              "domain": "www.lyssna.com",
+              "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+              "title": "Best UX Research Tools",
+              "text": "* Platform. Card sortingFirst click testingFive second testingLive website testingMobile testingComing soonPreference testingProto..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Dovetail",
+              "domain": "dovetail.com",
+              "url": "https://dovetail.com/ux/ai-tools-for-ux-research/",
+              "title": "25 AI Tools for UX Research: A Comprehensive List - Dovetail",
+              "text": "Contents * AI in UX research, design, and product teams. * Types of AI UX research tools. * Insight generators. * Collaborators. *"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14",
+              "title": "5 UX Research Tools: Must-Haves for UX Designers",
+              "text": "and more returning customers to collect user feedback effectively you need good UX research tools let's take a look at the musthav..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UXtweak",
+              "domain": "www.uxtweak.com",
+              "url": "https://www.uxtweak.com/",
+              "title": "UXtweak: UX Research Platform for Moderated & Unmoderated Usability Testing",
+              "text": "UXtweak is a platform for researchers that offers a variety of tools for conducting user research. UXtweak can be used for: * **Mo..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "2. Information Architecture & Specialized Testing",
+          "text": "Used to optimize site navigation, layouts, and content structure.",
+          "markdown": "Used to optimize site navigation, layouts, and content structure.[[1]](https://www.qualtrics.com/market-research/ux/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Qualtrics",
+              "domain": "www.qualtrics.com",
+              "url": "https://www.qualtrics.com/market-research/ux/",
+              "title": "User Experience (UX) Research Tools - Qualtrics",
+              "text": "10X more studies run without an increase to budget Test prototypes Observe users Optimize designs Test prototypes Test prototypes ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Optimal Workshop : Specialized in advanced card sorting and tree testing to validate site structures. Lyssna : Offers a multi-method suite (card sorting, preference testing, and surveys) with built-in recruitment.",
+          "markdown": "- Optimal Workshop : Specialized in advanced card sorting and tree testing to validate site structures.\n- Lyssna : Offers a multi-method suite (card sorting, preference testing, and surveys) with built-in recruitment.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Lyssna",
+              "domain": "www.lyssna.com",
+              "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+              "title": "Best UX Research Tools",
+              "text": "* Platform. Card sortingFirst click testingFive second testingLive website testingMobile testingComing soonPreference testingProto..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "3. User Behavior & Analytics",
+          "text": "Track quantitative data, clicks, and session flows on live products.",
+          "markdown": "Track quantitative data, clicks, and session flows on live products.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)[[2]](https://www.qualtrics.com/market-research/ux/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Lyssna",
+              "domain": "www.lyssna.com",
+              "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+              "title": "Best UX Research Tools",
+              "text": "* Platform. Card sortingFirst click testingFive second testingLive website testingMobile testingComing soonPreference testingProto..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Qualtrics",
+              "domain": "www.qualtrics.com",
+              "url": "https://www.qualtrics.com/market-research/ux/",
+              "title": "User Experience (UX) Research Tools - Qualtrics",
+              "text": "10X more studies run without an increase to budget Test prototypes Observe users Optimize designs Test prototypes Test prototypes ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Hotjar : Excellent for heatmaps, session recordings, and on-site feedback widgets. Loop11 : Focuses on quantitative metrics, task performance, and clickstream data.",
+          "markdown": "- Hotjar : Excellent for heatmaps, session recordings, and on-site feedback widgets.\n- Loop11 : Focuses on quantitative metrics, task performance, and clickstream data.[[1]](https://www.lyssna.com/blog/best-ux-research-tools/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Lyssna",
+              "domain": "www.lyssna.com",
+              "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+              "title": "Best UX Research Tools",
+              "text": "* Platform. Card sortingFirst click testingFive second testingLive website testingMobile testingComing soonPreference testingProto..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "4. Transcription, Synthesis & Repositories",
+          "text": "Centralize customer research, transcribe interviews, and turn qualitative data into searchable insights.",
+          "markdown": "Centralize customer research, transcribe interviews, and turn qualitative data into searchable insights.[[1]](https://www.userinterviews.com/ux-research-tools-map)[[2]](https://dovetail.com/ux/ai-tools-for-ux-research/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-tools-map",
+              "title": "UX Research Tools Map 2026 - User Interviews",
+              "text": "Analysis & Insight Management. ... Fathom is an AI-powered text analytics platform that transforms unstructured data by analyzing ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Dovetail",
+              "domain": "dovetail.com",
+              "url": "https://dovetail.com/ux/ai-tools-for-ux-research/",
+              "title": "25 AI Tools for UX Research: A Comprehensive List - Dovetail",
+              "text": "Contents * AI in UX research, design, and product teams. * Types of AI UX research tools. * Insight generators. * Collaborators. *"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Dovetail : A leading customer intelligence hub with AI-powered transcription, tagging, and thematic analysis. Notably : Uses AI to help synthesize qualitative research and organize data visually. Miro : A visual whiteboard platform widely used for affinity mapping and customer journey workshops.",
+          "markdown": "- Dovetail : A leading customer intelligence hub with AI-powered transcription, tagging, and thematic analysis.\n- Notably : Uses AI to help synthesize qualitative research and organize data visually.\n- Miro : A visual whiteboard platform widely used for affinity mapping and customer journey workshops.[[1]](https://dovetail.com/ux/ai-tools-for-ux-research/)[[2]](https://www.youtube.com/watch?v=NXg7hh7mC-I&t=1)[[3]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Dovetail",
+              "domain": "dovetail.com",
+              "url": "https://dovetail.com/ux/ai-tools-for-ux-research/",
+              "title": "25 AI Tools for UX Research: A Comprehensive List - Dovetail",
+              "text": "Contents * AI in UX research, design, and product teams. * Types of AI UX research tools. * Insight generators. * Collaborators. *"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=NXg7hh7mC-I&t=1",
+              "title": "Top 7 AI Tools For UX Research",
+              "text": "research the biggest fear that everyone facing is that research process takes long time that's why many teams just skip the step a..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools",
+              "title": "Research Tools and Software",
+              "text": "MCP * 01. UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * 02. Pla..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "5. Recruitment & Participant Management",
+          "text": "Handle finding, screening, and incentivizing study participants.",
+          "markdown": "Handle finding, screening, and incentivizing study participants.[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)[[2]](https://www.userinterviews.com/ux-research-tools-map)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools",
+              "title": "Research Tools and Software",
+              "text": "MCP * 01. UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * 02. Pla..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-tools-map",
+              "title": "UX Research Tools Map 2026 - User Interviews",
+              "text": "Analysis & Insight Management. ... Fathom is an AI-powered text analytics platform that transforms unstructured data by analyzing ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "User Interviews : A popular panel and participant recruitment platform. Tremendous : Frequently integrated for automated global incentive payouts.",
+          "markdown": "- User Interviews : A popular panel and participant recruitment platform.\n- Tremendous : Frequently integrated for automated global incentive payouts.[[1]](https://www.tremendous.com/blog/ux-research-tool-roundup/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Tremendous",
+              "domain": "www.tremendous.com",
+              "url": "https://www.tremendous.com/blog/ux-research-tool-roundup/",
+              "title": "UX Research Tools by Category & Team Size - Tremendous",
+              "text": "Many teams simply use a general conferencing tool like Zoom for the session itself while a purpose-built research tool handles rec..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools",
+              "title": "Research Tools and Software",
+              "text": "MCP * 01. UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * 02. Pla..."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Lyssna",
+          "domain": "www.lyssna.com",
+          "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+          "title": "Best UX Research Tools",
+          "text": "* Platform. Card sortingFirst click testingFive second testingLive website testingMobile testingComing soonPreference testingProto..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Qualtrics",
+          "domain": "www.qualtrics.com",
+          "url": "https://www.qualtrics.com/market-research/ux/",
+          "title": "User Experience (UX) Research Tools - Qualtrics",
+          "text": "10X more studies run without an increase to budget Test prototypes Observe users Optimize designs Test prototypes Test prototypes ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "User Interviews",
+          "domain": "www.userinterviews.com",
+          "url": "https://www.userinterviews.com/ux-research-tools-map",
+          "title": "UX Research Tools Map 2026 - User Interviews",
+          "text": "Analysis & Insight Management. ... Fathom is an AI-powered text analytics platform that transforms unstructured data by analyzing ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Dovetail",
+          "domain": "dovetail.com",
+          "url": "https://dovetail.com/ux/ai-tools-for-ux-research/",
+          "title": "25 AI Tools for UX Research: A Comprehensive List - Dovetail",
+          "text": "Contents * AI in UX research, design, and product teams. * Types of AI UX research tools. * Insight generators. * Collaborators. *"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "User Interviews",
+          "domain": "www.userinterviews.com",
+          "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/user-research-tools",
+          "title": "Research Tools and Software",
+          "text": "MCP * 01. UX Research Fundamentals. i. What Is User Research? ii. The User Research Processiii. User Research Questions. * 02. Pla..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "UXtweak",
+          "domain": "www.uxtweak.com",
+          "url": "https://www.uxtweak.com/",
+          "title": "UXtweak: UX Research Platform for Moderated & Unmoderated Usability Testing",
+          "text": "UXtweak is a platform for researchers that offers a variety of tools for conducting user research. UXtweak can be used for: * **Mo..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0&t=14",
+          "title": "5 UX Research Tools: Must-Haves for UX Designers",
+          "text": "and more returning customers to collect user feedback effectively you need good UX research tools let's take a look at the musthav..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Tremendous",
+          "domain": "www.tremendous.com",
+          "url": "https://www.tremendous.com/blog/ux-research-tool-roundup/",
+          "title": "UX Research Tools by Category & Team Size - Tremendous",
+          "text": "Many teams simply use a general conferencing tool like Zoom for the session itself while a purpose-built research tool handles rec..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=NXg7hh7mC-I&t=1",
+          "title": "Top 7 AI Tools For UX Research",
+          "text": "research the biggest fear that everyone facing is that research process takes long time that's why many teams just skip the step a..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "maze.co",
+      "title": "19 Best UX Research Tools & Software: Features and pricing",
+      "url": "https://maze.co/guides/ux-research/tools/",
+      "breadcrumb": "https://maze.co › guides › ux-research › tools",
+      "website_name": "Maze",
+      "description": "19 Best UX research tools in 2026 · 1. Maze · 2. Loop11 · 3. Userlytics · 4. Lyssna. The Lyssna dashboard for a user named Ripley. It features ... Read more",
+      "highlighted": [
+        "1. Maze"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://maze.co/guides/ux-research/tools/#:~:text=19%20Best%20UX%20research%20tools,in%202026&text=1.%20Maze&text=2.%20Loop11&text=3.%20Userlytics&text=4.%20Lyssna",
+          "domain": "maze.co"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.banani.co",
+      "title": "Top 10 AI UX Research Tools I Use as an AI PM (2026)",
+      "url": "https://www.banani.co/blog/best-ai-ux-research-tools",
+      "breadcrumb": "https://www.banani.co › Blog",
+      "website_name": "Banani",
+      "description": "Sep 21, 2025 — Top AI UX tools like Manus, Maze, and Looppanel give you more time to actually think about what users are saying instead of drowning in manual ...",
+      "pre_snippet": "09/21/2025 00:00:00",
+      "highlighted": [
+        "Manus, Maze, and Looppanel"
+      ],
+      "timestamp": "2025-09-21 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.qualtrics.com",
+      "title": "User Experience (UX) Research Tools",
+      "url": "https://www.qualtrics.com/market-research/ux/",
+      "breadcrumb": "https://www.qualtrics.com › market-research › ux",
+      "website_name": "Qualtrics",
+      "description": "Uncover usability issues and validate designs with UX research tools that help product teams ship interfaces people love and competitors study.",
+      "highlighted": [
+        "UX research tools"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best tool for UX research?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UX research being replaced by AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 5 UI design tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What tools are used for UX?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.userinterviews.com",
+      "title": "UX Research Tools Map 2026",
+      "url": "https://www.userinterviews.com/ux-research-tools-map",
+      "breadcrumb": "https://www.userinterviews.com › ux-research-tools-map",
+      "website_name": "User Interviews",
+      "description": "The only illustrated guide to the current UX research software landscape. Explore 150+ best-in-class tools for research operations, research methods, ...",
+      "highlighted": [
+        "Explore 150+ best-in-class tools"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.useberry.com",
+      "title": "Top Free Tools for UX Research",
+      "url": "https://www.useberry.com/blog/top-free-tools-for-ux-research/",
+      "breadcrumb": "https://www.useberry.com › blog › top-free-tools-for-u...",
+      "website_name": "Useberry",
+      "description": "Jul 16, 2024 — The free versions of the tools outlined in this article, “Useberry, Lyssna, Maze, and Uxtweak,” offer diverse functionalities that cater to ... Read more",
+      "pre_snippet": "07/16/2024 00:00:00",
+      "highlighted": [
+        "tools"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.useberry.com/blog/top-free-tools-for-ux-research/#:~:text=The%20free%20versions%20of%20the,different%20research%20needs%20and%20scenarios.",
+          "domain": "www.useberry.com"
+        }
+      ],
+      "timestamp": "2024-07-16 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.lyssna.com",
+      "title": "Best UX Research Tools",
+      "url": "https://www.lyssna.com/blog/best-ux-research-tools/",
+      "breadcrumb": "https://www.lyssna.com › Resources › Blog",
+      "website_name": "Lyssna",
+      "description": "Apr 14, 2026 — Discover the best UX research tools to optimize user experience – from testing and surveys to heatmaps, prototyping, and research ...",
+      "pre_snippet": "04/14/2026 00:00:00",
+      "highlighted": [
+        "best UX research tools"
+      ],
+      "timestamp": "2026-04-14 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.uxtweak.com",
+      "title": "UXtweak: UX Research Platform for Moderated ...",
+      "url": "https://www.uxtweak.com/",
+      "breadcrumb": "https://www.uxtweak.com",
+      "website_name": "UXtweak",
+      "description": "User research platform, rated 4.7/5 on G2. All the tools for moderated & unmoderated UX research. Recruit globally with guaranteed quality.",
+      "highlighted": [
+        "All the tools for moderated & unmoderated UX research"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "dovetail.com",
+      "title": "25 AI Tools for UX Research: A Comprehensive List",
+      "url": "https://dovetail.com/ux/ai-tools-for-ux-research/",
+      "breadcrumb": "https://dovetail.com › Guides › User experience (UX)",
+      "website_name": "Dovetail",
+      "description": "Sep 14, 2026 — The best AI tools for UX research · Ten tools worth knowing first · The full list · Miro · Dovetail · Maze · Notably · QoQo · ChatGPT. Best for: ... Read more",
+      "pre_snippet": "09/14/2026 00:00:00",
+      "highlighted": [
+        "Miro"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://dovetail.com/ux/ai-tools-for-ux-research/#:~:text=The%20best%20AI%20tools%20for,UX%20research&text=Ten%20tools%20worth%20knowing%20first&text=The%20full%20list&text=Miro&text=Dovetail&text=Maze&text=Notably&text=QoQo&text=ChatGPT,General-purpose%20ideation%20and%20drafting%20assistant.",
+          "domain": "dovetail.com"
+        }
+      ],
+      "timestamp": "2026-09-14 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.tremendous.com",
+      "title": "UX Research Tools by Category & Team Size",
+      "url": "https://www.tremendous.com/blog/ux-research-tool-roundup/",
+      "breadcrumb": "https://www.tremendous.com › Blog",
+      "website_name": "Tremendous",
+      "description": "May 5, 2026 — Build your UX research toolkit · UserTesting (video-first usability testing) · Qualaroo (in-product surveys) · Dscout (diary studies) · User ... Read more",
+      "pre_snippet": "05/05/2026 00:00:00",
+      "highlighted": [
+        "UserTesting (video-first usability testing"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.tremendous.com/blog/ux-research-tool-roundup/#:~:text=Build%20your%20UX%20research%20toolkit&text=UserTesting%20(video-first%20usability%20testing)&text=Qualaroo%20(in-product%20surveys)&text=Dscout%20(diary%20studies)&text=User%20Interviews%20%2B%20Respondent%20(recruitment)",
+          "domain": "www.tremendous.com"
+        }
+      ],
+      "timestamp": "2026-05-05 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Ux research tools free",
+        "Ux research tools list",
+        "Top ux research tools",
+        "UX research AI tools",
+        "UX research methods",
+        "Best AI tools for UX research",
+        "UX Research Tools Map",
+        "UX research for AI products"
+      ]
+    }
+  ]
+}

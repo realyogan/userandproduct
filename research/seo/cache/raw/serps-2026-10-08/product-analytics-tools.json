@@ -1,0 +1,306 @@
+{
+  "id": "10081545-2633-0066-0000-89a92084b5bf",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "visionlabs.com",
+      "title": "Best product analytics tools (2026): after testing them all",
+      "url": "https://visionlabs.com/blog/best-product-analytics-tools/",
+      "breadcrumb": "https://visionlabs.com › Blog",
+      "website_name": "visionlabs.com",
+      "description": "Mar 15, 2026 — Discover the best product analytics tools of 2026. Our expert-reviewed and ranked list helps you choose the right one based on your use ...",
+      "pre_snippet": "03/15/2026 00:00:00",
+      "highlighted": [
+        "best product analytics tools of 2026"
+      ],
+      "timestamp": "2026-03-15 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 analytics tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are examples of product analytics tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 5 data analysis tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 product management tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "learn.g2.com",
+      "title": "7 Best Product Analytics Software in 2026: My Review",
+      "url": "https://learn.g2.com/best-product-analytics-software",
+      "breadcrumb": "https://learn.g2.com › best-product-analytics-software",
+      "website_name": "G2 Learning Hub",
+      "description": "Jun 8, 2026 — To briefly run it by you, my top tools are Amplitude, Pendo, PostHog, LogRocket, Mixpanel, Userpilot, and Glassbox. These tools will offer a ... Read more",
+      "pre_snippet": "06/08/2026 00:00:00",
+      "highlighted": [
+        "Amplitude, Pendo, PostHog, LogRocket, Mixpanel, Userpilot, and Glassbox"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://learn.g2.com/best-product-analytics-software#:~:text=This%20list%20would%20give%20you,to%20optimize%20your%20digital%20applications.",
+          "domain": "learn.g2.com"
+        }
+      ],
+      "timestamp": "2026-06-08 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What are your favourite product analytics tools?",
+      "url": "https://www.reddit.com/r/ProductManagement/comments/1aji74p/what_are_your_favourite_product_analytics_tools/",
+      "breadcrumb": "30+ comments  ·  2 years ago",
+      "website_name": "Reddit · r/ProductManagement",
+      "description": "PostHog: an open-source, Swiss Army knife for product analytics. Vizzly.co: all-in-one. Heap is another strong option,",
+      "highlighted": [
+        "PostHog: an open-source, Swiss Army knife for product analytics"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Product analytics tool recommendation : r ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1ea5dp2/product_analytics_tool_recommendation/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "What do you mainly use for product analytics? - Reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1cgssi7/what_do_you_mainly_use_for_product_analytics/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=product+analytics+tools+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntO_DZERok7JIzf1RPGPHK1uPEsHw:1791474347164&sa=X&ved=2ahUKEwiVzNiA4qqXAxXAXmwGHbVEEoMQrQIoAnoECDkQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "posthog.com",
+      "title": "Product analytics with autocapture",
+      "url": "https://posthog.com/product-analytics",
+      "breadcrumb": "https://posthog.com › product-analytics",
+      "website_name": "PostHog",
+      "description": "Product Analytics turns what people do in your product into answers you can act on. Autocapture tracks pageviews, clicks, and form submissions without extra ... Read more",
+      "highlighted": [
+        "Product Analytics"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://posthog.com/product-analytics#:~:text=Product%20Analytics%20turns%20what%20people,form%20submissions%20without%20extra%20code.",
+          "domain": "posthog.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "userpilot.com",
+      "title": "The Best Product Analytics Tools to Boost Your Business ...",
+      "url": "https://userpilot.com/blog/product-analytics-tools/",
+      "breadcrumb": "https://userpilot.com › blog › product-analytics-tools",
+      "website_name": "Userpilot",
+      "description": "Best in-app guidance tools with product analytics · 1. Amplitude: AI analytics platform for modern product teams · 2. Fullstory: Customer behavioral analytics ... Read more",
+      "highlighted": [
+        "1. Amplitude: AI analytics platform for modern product teams"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://userpilot.com/blog/product-analytics-tools/#:~:text=Best%20in-app%20guidance%20tools%20with,product%20analytics&text=1.%20Amplitude%3A%20AI%20analytics%20platform,for%20modern%20product%20teams&text=2.%20Fullstory%3A%20Customer%20behavioral%20analytics,platform",
+          "domain": "userpilot.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "amplitude.com",
+      "title": "The Amplitude Guide to Product Analytics",
+      "url": "https://amplitude.com/guides/product-analytics",
+      "breadcrumb": "https://amplitude.com › guides › product-analytics",
+      "website_name": "Amplitude",
+      "description": "Product analytics lets your team track, visualize, and analyze real-time engagement and behavioral data so you can optimize your complete customer journey.",
+      "highlighted": [
+        "Product"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.heap.io",
+      "title": "What is Product Analytics? - Heap.io",
+      "url": "https://www.heap.io/topics/what-is-product-analytics",
+      "breadcrumb": "https://www.heap.io › topics › what-is-product-analytics",
+      "website_name": "heap.io",
+      "description": "Product Analytics Tools are used to optimize product experiences. They focus on analyzing user behavior and interactions within digital products like websites ... Read more",
+      "highlighted": [
+        "Product Analytics Tools"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.heap.io/topics/what-is-product-analytics#:~:text=Product%20Analytics%20Tools%20are%20used,like%20websites%20and%20mobile%20apps.",
+          "domain": "www.heap.io"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.datadoghq.com",
+      "title": "Product Analytics",
+      "url": "https://www.datadoghq.com/product/product-analytics/",
+      "breadcrumb": "https://www.datadoghq.com › product › product-analyt...",
+      "website_name": "Datadog",
+      "description": "Get data-driven insights into user behavior and product usage so you can improve user experiences and product outcomes with Datadog Product Analytics.",
+      "highlighted": [
+        "Get data-driven insights into user behavior and product usage"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.pendo.io",
+      "title": "Best Product Analytics Tools 2026: Top 10 Compared",
+      "url": "https://www.pendo.io/pendo-blog/top-10-product-analytics-tools/",
+      "breadcrumb": "https://www.pendo.io › pendo-blog › top-10-product-a...",
+      "website_name": "Pendo",
+      "description": "May 14, 2025 — Compare 2026's top 10 product analytics tools: Pendo, Mixpanel, Amplitude, Heap, and more. Features, pricing, AI capabilities, ...",
+      "pre_snippet": "05/14/2025 00:00:00",
+      "highlighted": [
+        "Pendo, Mixpanel, Amplitude, Heap, and more"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Evaluating Product Analytics...",
+          "url": "https://www.pendo.io/pendo-blog/top-10-product-analytics-tools/#:~:text=Evaluating%20product%20analytics%20software",
+          "domain": "www.pendo.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Pendo Analytics...",
+          "url": "https://www.pendo.io/pendo-blog/top-10-product-analytics-tools/#:~:text=Pendo%20analytics%2C%20feature-by-feature",
+          "domain": "www.pendo.io"
+        },
+        {
+          "type": "link_element",
+          "title": "Selecting The Optimal...",
+          "url": "https://www.pendo.io/pendo-blog/top-10-product-analytics-tools/#:~:text=Selecting%20the%20optimal%20product%20analytics%20tool%20for%20you",
+          "domain": "www.pendo.io"
+        }
+      ],
+      "timestamp": "2025-05-14 00:00:00 +00:00"
+    },
+    {
+      "type": "paid",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "title": "Analytics Plus Experiments - One Source of Truth for Data",
+      "domain": "www.growthbook.io",
+      "website_name": "GrowthBook",
+      "breadcrumb": "https://www.growthbook.io",
+      "url": "https://www.growthbook.io/products/product-analytics",
+      "extra": {
+        "ad_aclk": "DChsSEwiCsd2A4qqXAxW6pWYCHay3DS8YACICCAIQABoCc20"
+      },
+      "description": "Analytics Plus Experiments - One Source of Truth for Data"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Product analytics tools list",
+        "Best product analytics tools",
+        "Product analytics tools free",
+        "Mixpanel",
+        "Google Analytics",
+        "Product analytics course",
+        "Product analytics examples",
+        "Amplitude product analytics"
+      ]
+    }
+  ]
+}

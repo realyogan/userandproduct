@@ -1,0 +1,357 @@
+{
+  "id": "10081545-2633-0066-0000-09f32e8d4a2d",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.behindthecmo.com",
+      "title": "Free A/B Test Significance Calculator",
+      "url": "https://www.behindthecmo.com/tools/ab-test-calculator/",
+      "breadcrumb": "https://www.behindthecmo.com › Free Tools",
+      "website_name": "Behind the CMO",
+      "description": "Check whether an A/B test result is statistically significant, with p-value, confidence, and observed lift. The tool runs a two-proportion z-test and tells you ...",
+      "highlighted": [
+        "Check whether an A/B test result is statistically significant"
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "You can test your experiment data online with the [A/B-Test Calculator - Power & Significance](https://abtestguide.com/calc/) or the [Free A/B Test Calculator by Speero](https://speero.com/ab-test-calculator).[[1]](https://abtestguide.com/calc/)[[2]](https://speero.com/ab-test-calculator)\n\n### Required Inputs\n\nTo check statistical significance, you need these metrics for both your control (A) and your variation (B):\n\n- **Visitors (Sample Size):** Total number of users or sessions exposed to each version.\n- **Conversions:** Total number of target actions (e.g., clicks, sign-ups, purchases) for each version.\n- **Confidence Level:** The threshold for certainty, which is set to **95%** (alpha α = 0.05) as the industry standard.[[1]](https://abtestguide.com/calc/)[[2]](https://www.omnisend.com/ab-testing-calculator/)[[3]](https://www.optibase.io/ab-test-significance-calculator)\n\n### Key Output Metrics\n\n- **Conversion Rate (CR):** Conversions ÷ Visitors for each variant.\n- **Relative Lift:** Percentage change of B compared to A:(C R𝐵−C R𝐴)÷C R𝐴×1 0 0.\n- **p-Value:** The probability that the observed difference happened by random chance. A value **below 0.05** means the result is statistically significant at the 95% confidence level.\n- **Z-Score:** A test statistic measuring how many standard deviations the difference is from zero.[[1]](https://www.surveymonkey.com/learn/research-and-analysis/ab-testing-significance-calculator/)[[2]](https://www.pearson.com/channels/calculators/ab-test-significance-calculator)[[3]](https://statisticsfundamentals.com/calculators/ab-test/)[[4]](https://abtestguide.com/calc/)[[5]](https://www.optibase.io/ab-test-significance-calculator)\n\nIf you'd like, share your **visitor counts** and **conversions** for Variant A and Variant B, and I can help you calculate the conversion rates, relative lift, and significance status.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can test your experiment data online with the A/B-Test Calculator - Power & Significance or the Free A/B Test Calculator by Speero.",
+          "markdown": "You can test your experiment data online with the [A/B-Test Calculator - Power & Significance](https://abtestguide.com/calc/) or the [Free A/B Test Calculator by Speero](https://speero.com/ab-test-calculator).[[1]](https://abtestguide.com/calc/)[[2]](https://speero.com/ab-test-calculator)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "A/B-Test Calculator - Power & Significance",
+              "url": "https://abtestguide.com/calc/",
+              "domain": "abtestguide.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Free A/B Test Calculator by Speero",
+              "url": "https://speero.com/ab-test-calculator",
+              "domain": "speero.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ABTestGuide.com",
+              "domain": "abtestguide.com",
+              "url": "https://abtestguide.com/calc/",
+              "title": "A/B-Test Calculator - Power & Significance - ABTestGuide.com",
+              "text": "Test Results: Variation A conversion rate 2.00% (visitors 80,000, conversions 1,600, standard error 0.000495); Variation B convers..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "speero.com",
+              "domain": "speero.com",
+              "url": "https://speero.com/ab-test-calculator",
+              "title": "Free A/B Test Calculator — Check Significance | Speero",
+              "text": "Tool Overview: Speero and CXL AB+ Test Calculator for pre-test and post-test conversion analysis. Test Analysis: Determines if var..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Required Inputs",
+          "text": "To check statistical significance, you need these metrics for both your control (A) and your variation (B):",
+          "markdown": "To check statistical significance, you need these metrics for both your control (A) and your variation (B):"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Visitors (Sample Size): Total number of users or sessions exposed to each version. Conversions: Total number of target actions (e.g., clicks, sign-ups, purchases) for each version. Confidence Level: The threshold for certainty, which is set to 95% (alpha α = 0.05) as the industry standard.",
+          "markdown": "- **Visitors (Sample Size):** Total number of users or sessions exposed to each version.\n- **Conversions:** Total number of target actions (e.g., clicks, sign-ups, purchases) for each version.\n- **Confidence Level:** The threshold for certainty, which is set to **95%** (alpha α = 0.05) as the industry standard.[[1]](https://abtestguide.com/calc/)[[2]](https://www.omnisend.com/ab-testing-calculator/)[[3]](https://www.optibase.io/ab-test-significance-calculator)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ABTestGuide.com",
+              "domain": "abtestguide.com",
+              "url": "https://abtestguide.com/calc/",
+              "title": "A/B-Test Calculator - Power & Significance - ABTestGuide.com",
+              "text": "Test Results: Variation A conversion rate 2.00% (visitors 80,000, conversions 1,600, standard error 0.000495); Variation B convers..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Omnisend",
+              "domain": "www.omnisend.com",
+              "url": "https://www.omnisend.com/ab-testing-calculator/",
+              "title": "A/B Testing Calculator (Test Statistical Significance Easily)",
+              "text": "A/B testing calculator * How to use our free A/B testing calculator Our A/B test calculator takes care of the math for you, making..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Optibase",
+              "domain": "www.optibase.io",
+              "url": "https://www.optibase.io/ab-test-significance-calculator",
+              "title": "A/B Test Significance Calculator (Free)",
+              "text": "Frequently asked questions * How do I know if my A/B test is statistically significant? Enter your visitors and conversions for co..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Output Metrics",
+          "text": "Conversion Rate (CR): Conversions ÷ Visitors for each variant. Relative Lift: Percentage change of B compared to A: ( C R 𝐵 − C R 𝐴 ) ÷ C R 𝐴 × 1 0 0. p-Value: The probability that the observed difference happened by random chance. A value below 0.05 means the result is statistically significant at the 95% confidence level. Z-Score: A test statistic measuring how many standard deviations the difference is from zero.",
+          "markdown": "- **Conversion Rate (CR):** Conversions ÷ Visitors for each variant.\n- **Relative Lift:** Percentage change of B compared to A:(C R𝐵−C R𝐴)÷C R𝐴×1 0 0.\n- **p-Value:** The probability that the observed difference happened by random chance. A value **below 0.05** means the result is statistically significant at the 95% confidence level.\n- **Z-Score:** A test statistic measuring how many standard deviations the difference is from zero.[[1]](https://www.surveymonkey.com/learn/research-and-analysis/ab-testing-significance-calculator/)[[2]](https://www.pearson.com/channels/calculators/ab-test-significance-calculator)[[3]](https://statisticsfundamentals.com/calculators/ab-test/)[[4]](https://abtestguide.com/calc/)[[5]](https://www.optibase.io/ab-test-significance-calculator)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "SurveyMonkey",
+              "domain": "www.surveymonkey.com",
+              "url": "https://www.surveymonkey.com/learn/research-and-analysis/ab-testing-significance-calculator/",
+              "title": "Statistical Significance Calculator for A/B Testing",
+              "text": "A/B Testing: Compares two versions (A and B) to identify preferred performance using conversion data. Statistical Significance: Me..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "www.pearson.com",
+              "domain": "www.pearson.com",
+              "url": "https://www.pearson.com/channels/calculators/ab-test-significance-calculator",
+              "title": "A/B Test Significance Calculator | p-Value, Lift & Confidence Intervals",
+              "text": "Formula & Equations Used * Conversion rate: p = x ÷ n. * Pooled rate: p̂ = (x₀ + x₁) ÷ (n₀ + n₁) * Standard error (pooled): SE = √..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "statisticsfundamentals.com",
+              "domain": "statisticsfundamentals.com",
+              "url": "https://statisticsfundamentals.com/calculators/ab-test/",
+              "title": "A/B Test Calculator: Statistical Significance & Lift (Free)",
+              "text": "Round up to full weeks so the test captures every day-of-week pattern at least once. Most experimentation platforms recommend a mi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ABTestGuide.com",
+              "domain": "abtestguide.com",
+              "url": "https://abtestguide.com/calc/",
+              "title": "A/B-Test Calculator - Power & Significance - ABTestGuide.com",
+              "text": "Test Results: Variation A conversion rate 2.00% (visitors 80,000, conversions 1,600, standard error 0.000495); Variation B convers..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Optibase",
+              "domain": "www.optibase.io",
+              "url": "https://www.optibase.io/ab-test-significance-calculator",
+              "title": "A/B Test Significance Calculator (Free)",
+              "text": "Frequently asked questions * How do I know if my A/B test is statistically significant? Enter your visitors and conversions for co..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, share your visitor counts and conversions for Variant A and Variant B, and I can help you calculate the conversion rates, relative lift, and significance status.",
+          "markdown": "If you'd like, share your **visitor counts** and **conversions** for Variant A and Variant B, and I can help you calculate the conversion rates, relative lift, and significance status."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "ABTestGuide.com",
+          "domain": "abtestguide.com",
+          "url": "https://abtestguide.com/calc/",
+          "title": "A/B-Test Calculator - Power & Significance - ABTestGuide.com",
+          "text": "Test Results: Variation A conversion rate 2.00% (visitors 80,000, conversions 1,600, standard error 0.000495); Variation B convers..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "SurveyMonkey",
+          "domain": "www.surveymonkey.com",
+          "url": "https://www.surveymonkey.com/learn/research-and-analysis/ab-testing-significance-calculator/",
+          "title": "Statistical Significance Calculator for A/B Testing",
+          "text": "A/B Testing: Compares two versions (A and B) to identify preferred performance using conversion data. Statistical Significance: Me..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "speero.com",
+          "domain": "speero.com",
+          "url": "https://speero.com/ab-test-calculator",
+          "title": "Free A/B Test Calculator — Check Significance | Speero",
+          "text": "Tool Overview: Speero and CXL AB+ Test Calculator for pre-test and post-test conversion analysis. Test Analysis: Determines if var..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.pearson.com",
+          "domain": "www.pearson.com",
+          "url": "https://www.pearson.com/channels/calculators/ab-test-significance-calculator",
+          "title": "A/B Test Significance Calculator | p-Value, Lift & Confidence Intervals",
+          "text": "Formula & Equations Used * Conversion rate: p = x ÷ n. * Pooled rate: p̂ = (x₀ + x₁) ÷ (n₀ + n₁) * Standard error (pooled): SE = √..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Optibase",
+          "domain": "www.optibase.io",
+          "url": "https://www.optibase.io/ab-test-significance-calculator",
+          "title": "A/B Test Significance Calculator (Free)",
+          "text": "Frequently asked questions * How do I know if my A/B test is statistically significant? Enter your visitors and conversions for co..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "statisticsfundamentals.com",
+          "domain": "statisticsfundamentals.com",
+          "url": "https://statisticsfundamentals.com/calculators/ab-test/",
+          "title": "A/B Test Calculator: Statistical Significance & Lift (Free)",
+          "text": "Round up to full weeks so the test captures every day-of-week pattern at least once. Most experimentation platforms recommend a mi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Omnisend",
+          "domain": "www.omnisend.com",
+          "url": "https://www.omnisend.com/ab-testing-calculator/",
+          "title": "A/B Testing Calculator (Test Statistical Significance Easily)",
+          "text": "A/B testing calculator * How to use our free A/B testing calculator Our A/B test calculator takes care of the math for you, making..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "upgrowth.in",
+      "title": "A/B Test Calculator: Statistical Significance [Free 2026]",
+      "url": "https://upgrowth.in/calculator/ab-test-calculator/",
+      "breadcrumb": "https://upgrowth.in › calculator › ab-test-calculator",
+      "website_name": "upGrowth",
+      "description": "Free A/B test significance calculator. Enter visitors, conversions for control and variant to check if your test results are statistically significant.",
+      "highlighted": [
+        "Free A/B test significance calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "induwara.lk",
+      "title": "A/B Test Statistical Significance Calculator",
+      "url": "https://induwara.lk/tools/ab-test-significance-calculator",
+      "breadcrumb": "https://induwara.lk › Tools",
+      "website_name": "induwara.lk",
+      "description": "Free A/B test significance calculator. Enter visitors and conversions for control and variant to get the p-value, confidence level, and a plain-English ...",
+      "highlighted": [
+        "Free A/B test significance calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.convertize.com",
+      "title": "A/B Testing Significance Calculator - Convertize",
+      "url": "https://www.convertize.com/ab-testing-calculator/",
+      "breadcrumb": "https://www.convertize.com › ab-testing-calculator",
+      "website_name": "convertize.com",
+      "description": "Check the statistical reliability of the results of your A/B Tests and Split Tests with our A/B Testing Significance Calculator.",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 23,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "A/B Testing Significance Calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "feedify.net",
+      "title": "A/B Testing Significance Calculator Spreadsheet in Excel",
+      "url": "https://feedify.net/blog/ab-testing-significance-calculator-spreadsheet-in-excel/",
+      "breadcrumb": "https://feedify.net › blog › ab-testing-significance-calcula...",
+      "website_name": "Feedify",
+      "description": "Jun 22, 2024 — You can calculate the statistical significance of your A/B testing results using a spreadsheet in Excel, allowing you to confidently determine ...",
+      "pre_snippet": "06/22/2024 00:00:00",
+      "highlighted": [
+        "You can calculate the statistical significance of your A/B testing results"
+      ],
+      "timestamp": "2024-06-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "tools.hackingdemand.com",
+      "title": "A/B Test Significance Calculator: Z-Test and P-Value",
+      "url": "https://tools.hackingdemand.com/tools/ai-ab-test-significance-calculator/",
+      "breadcrumb": "https://tools.hackingdemand.com › Analytics",
+      "website_name": "Hacking Demand",
+      "description": "Aug 8, 2026 — Free A/B test statistical significance calculator. This runs a two-proportion z-test on your control and variant counts and returns the actual ...",
+      "pre_snippet": "08/08/2026 00:00:00",
+      "highlighted": [
+        "Free A/B test statistical significance calculator"
+      ],
+      "timestamp": "2026-08-08 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "inboxconnect.co",
+      "title": "A/B Test Significance Calculator | Free Tool | Inbox Connect",
+      "url": "https://inboxconnect.co/tools/ab-test-calculator",
+      "breadcrumb": "https://inboxconnect.co › Tools",
+      "website_name": "inboxconnect.co",
+      "description": "Calculate statistical significance for email A/B tests. Know when you have a real winner with confidence levels, p-values, and uplift calculations.",
+      "highlighted": [
+        "Calculate statistical significance for email A/B tests"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "mattmazur.com",
+      "title": "Introducing ABTestCalculator.com, an Open Source A/B Test ...",
+      "url": "https://mattmazur.com/2015/02/27/introducing-abtestcalculator-com-an-open-source-ab-test-significance-calculator/",
+      "breadcrumb": "https://mattmazur.com › 2015/02/27 › introducing-abte...",
+      "website_name": "mattmazur.com",
+      "description": "Feb 27, 2015 — An A/B test significance calculator helps you analyze the results of an A/B test to determine whether there is a statistically significant ... Read more",
+      "pre_snippet": "02/27/2015 00:00:00",
+      "highlighted": [
+        "test significance calculator",
+        "test"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://mattmazur.com/2015/02/27/introducing-abtestcalculator-com-an-open-source-ab-test-significance-calculator/#:~:text=An%20A%2FB%20test%20significance%20calculator,the%20result%20of%20random%20chance.",
+          "domain": "mattmazur.com"
+        }
+      ],
+      "timestamp": "2015-02-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "sudeshnathapa.com",
+      "title": "A/B Test Significance Calculator (Free) | Sudeshna Thapa",
+      "url": "https://sudeshnathapa.com/tools/ab-test-significance-calculator/",
+      "breadcrumb": "https://sudeshnathapa.com › tools › ab-test-significance-...",
+      "website_name": "sudeshnathapa.com",
+      "description": "Enter visitors and conversions for two versions to see whether your A/B test result is statistically significant, with the p-value and confidence interval.",
+      "highlighted": [
+        "Enter visitors and conversions for two versions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.2773 sec.",
+    "cost": 0.01212,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "10081721-2633-0399-0000-29573da766ba",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.2613 sec.",
+            "cost": 0.01212,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "se_type": "google",
+                "keyword": "user persona template",
+                "location_code": 2840,
+                "language_code": "en",
+                "limit": 150,
+                "include_seed_keyword": true,
+                "filters": [
+                    [
+                        "keyword_info.search_volume",
+                        ">=",
+                        100
+                    ]
+                ],
+                "order_by": [
+                    "keyword_info.search_volume,desc"
+                ]
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "seed_keyword": "user persona template",
+                    "seed_keyword_data": {
+                        "se_type": "google",
+                        "keyword": "user persona template",
+                        "location_code": 2840,
+                        "language_code": "en",
+                        "keyword_info": {
+                            "se_type": "google",
+                            "last_updated_time": "2026-09-12 16:05:31 +00:00",
+                            "competition": 0.1,
+                            "competition_level": "LOW",
+                            "cpc": 9.83,
+                            "search_volume": 1600,
+                            "low_top_of_page_bid": 1.97,
+                            "high_top_of_page_bid": 10.77,
+                            "categories": [
+                                10008
+                            ],
+                            "monthly_searches": [
+                                {
+                                    "year": 2026,
+                                    "month": 8,
+                                    "search_volume": 880
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 7,
+                                    "search_volume": 880
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 6,
+                                    "search_volume": 880
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 5,
+                                    "search_volume": 1000
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 4,
+                                    "search_volume": 1900
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 3,
+                                    "search_volume": 2400
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 2,
+                                    "search_volume": 1900
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 1,
+                                    "search_volume": 1600
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 12,
+                                    "search_volume": 880
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 11,
+                                    "search_volume": 1600
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 10,
+                                    "search_volume": 2900
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 9,
+                                    "search_volume": 2900
+                                }
+                            ],
+                            "search_volume_trend": {
+                                "monthly": 0,
+                                "quarterly": 0,
+                                "yearly": -32
+                            }
+                        },
+                        "keyword_info_normalized_with_bing": null,
+                        "keyword_info_normalized_with_clickstream": null,
+                        "clickstream_keyword_info": null,
+                        "keyword_properties": {
+                            "se_type": "google",
+                            "core_keyword": null,
+                            "synonym_clustering_algorithm": "text_processing",
+                            "keyword_difficulty": 22,
+                            "detected_language": "en",
+                            "is_another_language": false,
+                            "words_count": 3
+                        },
+                        "serp_info": {
+                            "se_type": "google",
+                            "check_url": "https:\/\/www.google.com\/search?q=user%20persona%20template&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                            "serp_item_types": [
+                                "organic",
+                                "images",
+                                "people_also_ask",
+                                "related_searches"
+                            ],
+                            "se_results_count": 138,
+                            "last_updated_time": "2026-09-04 22:48:11 +00:00",
+                            "previous_updated_time": "2026-06-30 11:23:12 +00:00"
+                        },
+                        "search_intent_info": {
+                            "se_type": "google",
+                            "main_intent": "navigational",
+                            "foreign_intent": [
+                                "informational"
+                            ],
+                            "last_updated_time": "2026-04-29 22:47:41 +00:00"
+                        },
+                        "avg_backlinks_info": {
+                            "se_type": "google",
+                            "backlinks": 300,
+                            "dofollow": 202.9,
+                            "referring_pages": 236.7,
+                            "referring_domains": 100,
+                            "referring_main_domains": 91.4,
+                            "rank": 139.6,
+                            "main_domain_rank": 532.1,
+                            "last_updated_time": "2026-09-04 22:48:13 +00:00"
+                        }
+                    },
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "total_count": 1,
+                    "items_count": 1,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoidXNlciBwZXJzb25hIHRlbXBsYXRlIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjE1MCwib2Zmc2V0IjowLCJhaWQiOjI2MzMxMiwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMTAwODE3MjEtMjYzMy0wMzk5LTAwMDAtMjk1NzNkYTc2NmJhIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6eyJmaWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwidHlwZSI6Imd0ZSIsInZhbHVlIjoxMDB9LCJJZCI6IjkzM2M4ODQ4LWE5ZDktNDRkMi1hZDcyLTg4NzNjOWEyODU5ZCIsIlNlYXJjaEFmdGVyRGF0YSI6WzE2MDAsIjA5Y2YyYzM3LTQyY2UtYjBiMS05ZjRhLThlMzc1OWE4NDA4ZiJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword": "user persona template",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 16:05:31 +00:00",
+                                "competition": 0.1,
+                                "competition_level": "LOW",
+                                "cpc": 9.83,
+                                "search_volume": 1600,
+                                "low_top_of_page_bid": 1.97,
+                                "high_top_of_page_bid": 10.77,
+                                "categories": [
+                                    10008
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 2900
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 2900
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": -32
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 22,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 300,
+                                "dofollow": 202.9,
+                                "referring_pages": 236.7,
+                                "referring_domains": 100,
+                                "referring_main_domains": 91.4,
+                                "rank": 139.6,
+                                "main_domain_rank": 532.1,
+                                "last_updated_time": "2026-09-04 22:48:13 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 22:47:41 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

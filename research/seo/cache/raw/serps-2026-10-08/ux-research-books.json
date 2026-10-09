@@ -1,0 +1,812 @@
+{
+  "id": "10081545-2633-0066-0000-c52bde66041c",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "The top recommended UX research books span beginner basics, interviewing methods, and metrics, with industry favorites like *Just Enough Research* by Erika Hall and *Interviewing Users* by Steve Portigal leading the field.[[1]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[2]](https://www.userweekly.com/best-ux-research-books/)\n\n### Essential UX Research Books\n\n- **For Beginners & Foundations:** \n\t- *Just Enough Research* by Erika Hall – A short, punchy guide that covers the core philosophy of research, avoids overcomplicating processes, and explains how to spot bias.\n\t- *Think Like a UX Researcher* by David Travis and Philip Hodgson – Focuses on practical observation, survey design, and shaping business strategy.[[1]](https://uxresearchbook.com/)[[2]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)[[3]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)\n- **For User Interviews & Fieldwork:** \n\t- *Interviewing Users* by Steve Portigal – Offers real-world tactical advice on how to talk to users, ask the right questions, and extract actionable insights.\n\t- *The Mom Test* by Rob Fitzpatrick – A quick read on how to talk to customers and get unbiased feedback even when people are trying to be nice to you.[[1]](https://www.userweekly.com/best-ux-research-books/)[[2]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[3]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)\n- **For Usability Testing & Metrics:** \n\t- *Handbook of Usability Testing* by Jeffrey Rubin and Dana Chisnell – A step-by-step classic guide on planning and executing effective usability tests.\n\t- *Quantifying the User Experience* by Jeff Sauro and James R. Lewis – The go-to resource for practical statistics, metrics, and quantitative UX research.[[1]](https://www.facebook.com/groups/160753414130590/posts/1165382300334358/)[[2]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[3]](https://www.userweekly.com/best-ux-research-books/)\n\nYou can check out curated lists and community selections on blogs like [Stéphanie Walter's Design Blog](https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/) or read discussions on [UX Planet](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b) for more detailed personal favorites.[[1]](https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/)[[2]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)If you want to narrow down these choices, tell me:\n\n- Your current **experience level** (beginner, transition role, or advanced)\n- Whether you want to focus on **qualitative or quantitative** research\n- Specific tasks you want to improve (like **interviews, surveys, or metrics**)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "The top recommended UX research books span beginner basics, interviewing methods, and metrics, with industry favorites like Just Enough Research by Erika Hall and Interviewing Users by Steve Portigal leading the field.",
+          "markdown": "The top recommended UX research books span beginner basics, interviewing methods, and metrics, with industry favorites like *Just Enough Research* by Erika Hall and *Interviewing Users* by Steve Portigal leading the field.[[1]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[2]](https://www.userweekly.com/best-ux-research-books/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "medium.com",
+              "url": "https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb",
+              "title": "7 Recommended Books to Learn User Research | by Anisa Dwi Oktariani | Bootcamp | Medium",
+              "text": "Recommended User Research Books: Just Enough Research by Erika Hall (beginner basics, study plans, reporting); Interviewing Users ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Weekly",
+              "domain": "www.userweekly.com",
+              "url": "https://www.userweekly.com/best-ux-research-books/",
+              "title": "The Best UX Research books",
+              "text": "Here are books I have read or other recommended to me. * Understanding Your Users: A Practical Guide to User Research Methods (Ama..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Essential UX Research Books",
+          "text": "For Beginners & Foundations:Just Enough Research by Erika Hall – A short, punchy guide that covers the core philosophy of research, avoids overcomplicating processes, and explains how to spot bias.\nThink Like a UX Researcher by David Travis and Philip Hodgson – Focuses on practical observation, survey design, and shaping business strategy. Just Enough Research by Erika Hall – A short, punchy guide that covers the core philosophy of research, avoids overcomplicating processes, and explains how to spot bias. Think Like a UX Researcher by David Travis and Philip Hodgson – Focuses on practical observation, survey design, and shaping business strategy. For User Interviews & Fieldwork:Interviewing Users by Steve Portigal – Offers real-world tactical advice on how to talk to users, ask the right questions, and extract actionable insights.\nThe Mom Test by Rob Fitzpatrick – A quick read on how to talk to customers and get unbiased feedback even when people are trying to be nice to you. Interviewing Users by Steve Portigal – Offers real-world tactical advice on how to talk to users, ask the right questions, and extract actionable insights. The Mom Test by Rob Fitzpatrick – A quick read on how to talk to customers and get unbiased feedback even when people are trying to be nice to you. For Usability Testing & Metrics:Handbook of Usability Testing by Jeffrey Rubin and Dana Chisnell – A step-by-step classic guide on planning and executing effective usability tests.\nQuantifying the User Experience by Jeff Sauro and James R. Lewis – The go-to resource for practical statistics, metrics, and quantitative UX research. Handbook of Usability Testing by Jeffrey Rubin and Dana Chisnell – A step-by-step classic guide on planning and executing effective usability tests. Quantifying the User Experience by Jeff Sauro and James R. Lewis – The go-to resource for practical statistics, metrics, and quantitative UX research.",
+          "markdown": "- **For Beginners & Foundations:** \n\t- *Just Enough Research* by Erika Hall – A short, punchy guide that covers the core philosophy of research, avoids overcomplicating processes, and explains how to spot bias.\n\t- *Think Like a UX Researcher* by David Travis and Philip Hodgson – Focuses on practical observation, survey design, and shaping business strategy.[[1]](https://uxresearchbook.com/)[[2]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)[[3]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)\n- **For User Interviews & Fieldwork:** \n\t- *Interviewing Users* by Steve Portigal – Offers real-world tactical advice on how to talk to users, ask the right questions, and extract actionable insights.\n\t- *The Mom Test* by Rob Fitzpatrick – A quick read on how to talk to customers and get unbiased feedback even when people are trying to be nice to you.[[1]](https://www.userweekly.com/best-ux-research-books/)[[2]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[3]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)\n- **For Usability Testing & Metrics:** \n\t- *Handbook of Usability Testing* by Jeffrey Rubin and Dana Chisnell – A step-by-step classic guide on planning and executing effective usability tests.\n\t- *Quantifying the User Experience* by Jeff Sauro and James R. Lewis – The go-to resource for practical statistics, metrics, and quantitative UX research.[[1]](https://www.facebook.com/groups/160753414130590/posts/1165382300334358/)[[2]](https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb)[[3]](https://www.userweekly.com/best-ux-research-books/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Think Like a UX Researcher",
+              "domain": "uxresearchbook.com",
+              "url": "https://uxresearchbook.com/",
+              "title": "Think Like a UX Researcher",
+              "text": "Think Like a UX Researcher Think Like a UX Researcher 2nd Edition A book by David Travis and Philip Hodgson Think Like a UX Resear..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UX Planet",
+              "domain": "uxplanet.org",
+              "url": "https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b",
+              "title": "My favorite UX research books & why I love them | by Krisztina Szerovay | UX Planet",
+              "text": "Core UX Research Books: Just Enough Research by Erika Hall (avoids overcomplicating, notes biases, warns against surveys); Designi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "medium.com",
+              "url": "https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb",
+              "title": "7 Recommended Books to Learn User Research | by Anisa Dwi Oktariani | Bootcamp | Medium",
+              "text": "Recommended User Research Books: Just Enough Research by Erika Hall (beginner basics, study plans, reporting); Interviewing Users ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Weekly",
+              "domain": "www.userweekly.com",
+              "url": "https://www.userweekly.com/best-ux-research-books/",
+              "title": "The Best UX Research books",
+              "text": "Here are books I have read or other recommended to me. * Understanding Your Users: A Practical Guide to User Research Methods (Ama..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Facebook",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/groups/160753414130590/posts/1165382300334358/",
+              "title": "Anyone have any great book recommendations for UX Research?",
+              "text": "Smashing UX Design: Foundations for Designing Online User Experiences This book is the UX Bible. It discusses the basics of user-c..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "You can check out curated lists and community selections on blogs like Stéphanie Walter's Design Blog or read discussions on UX Planet for more detailed personal favorites.",
+          "markdown": "You can check out curated lists and community selections on blogs like [Stéphanie Walter's Design Blog](https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/) or read discussions on [UX Planet](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b) for more detailed personal favorites.[[1]](https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/)[[2]](https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Stéphanie Walter's Design Blog",
+              "url": "https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/",
+              "domain": "stephaniewalter.design"
+            },
+            {
+              "type": "link_element",
+              "title": "UX Planet",
+              "url": "https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b",
+              "domain": "uxplanet.org"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Stéphanie Walter",
+              "domain": "stephaniewalter.design",
+              "url": "https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/",
+              "title": "📚 My Selection of the Best Books on UX Research, UX Design, Mobile, Accessibility & more by Stéphanie Walter",
+              "text": "Understanding and selling UX: Customers Know You Suck (CX strategies), Just Enough Research (methods intro), The User Experience T..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UX Planet",
+              "domain": "uxplanet.org",
+              "url": "https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b",
+              "title": "My favorite UX research books & why I love them | by Krisztina Szerovay | UX Planet",
+              "text": "Core UX Research Books: Just Enough Research by Erika Hall (avoids overcomplicating, notes biases, warns against surveys); Designi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you want to narrow down these choices, tell me:Your current experience level (beginner, transition role, or advanced)\nWhether you want to focus on qualitative or quantitative research\nSpecific tasks you want to improve (like interviews, surveys, or metrics )",
+          "markdown": "If you want to narrow down these choices, tell me:\n\n- Your current **experience level** (beginner, transition role, or advanced)\n- Whether you want to focus on **qualitative or quantitative** research\n- Specific tasks you want to improve (like **interviews, surveys, or metrics**)"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "UX Planet",
+          "domain": "uxplanet.org",
+          "url": "https://uxplanet.org/my-favorite-ux-research-books-why-i-love-them-3a516bb4192b",
+          "title": "My favorite UX research books & why I love them | by Krisztina Szerovay | UX Planet",
+          "text": "Core UX Research Books: Just Enough Research by Erika Hall (avoids overcomplicating, notes biases, warns against surveys); Designi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Stéphanie Walter",
+          "domain": "stephaniewalter.design",
+          "url": "https://stephaniewalter.design/blog/bibliography-selected-books-about-design-user-experience/",
+          "title": "📚 My Selection of the Best Books on UX Research, UX Design, Mobile, Accessibility & more by Stéphanie Walter",
+          "text": "Understanding and selling UX: Customers Know You Suck (CX strategies), Just Enough Research (methods intro), The User Experience T..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Medium",
+          "domain": "medium.com",
+          "url": "https://medium.com/design-bootcamp/7-recommended-books-to-learn-user-research-e70b1afeebb",
+          "title": "7 Recommended Books to Learn User Research | by Anisa Dwi Oktariani | Bootcamp | Medium",
+          "text": "Recommended User Research Books: Just Enough Research by Erika Hall (beginner basics, study plans, reporting); Interviewing Users ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "User Weekly",
+          "domain": "www.userweekly.com",
+          "url": "https://www.userweekly.com/best-ux-research-books/",
+          "title": "The Best UX Research books",
+          "text": "Here are books I have read or other recommended to me. * Understanding Your Users: A Practical Guide to User Research Methods (Ama..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Facebook",
+          "domain": "www.facebook.com",
+          "url": "https://www.facebook.com/groups/160753414130590/posts/1165382300334358/",
+          "title": "Anyone have any great book recommendations for UX Research?",
+          "text": "Smashing UX Design: Foundations for Designing Online User Experiences This book is the UX Bible. It discusses the basics of user-c..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Think Like a UX Researcher",
+          "domain": "uxresearchbook.com",
+          "url": "https://uxresearchbook.com/",
+          "title": "Think Like a UX Researcher",
+          "text": "Think Like a UX Researcher Think Like a UX Researcher 2nd Edition A book by David Travis and Philip Hodgson Think Like a UX Resear..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "maze.co",
+      "title": "User Research | Resources & Inspiration",
+      "url": "https://maze.co/collections/user-research/",
+      "breadcrumb": "https://maze.co › collections › user-research",
+      "website_name": "Maze",
+      "description": "UX research and design is a fast-moving industry—keep up with the latest developments and further your UX knowledge with these 11 hand-picked UX books. Article ... Read more",
+      "highlighted": [
+        "11 hand-picked UX books"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://maze.co/collections/user-research/#:~:text=UX%20research%20and%20design%20is,Article",
+          "domain": "maze.co"
+        }
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "UX Research",
+          "description": "Target & more\nFree delivery on $35+",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:0",
+          "price": {
+            "current": 22.12,
+            "currency": "USD",
+            "displayed_price": "$22.12"
+          },
+          "product_identifiers": {
+            "product_id": "9341482484604762166",
+            "data_docid": "7555951689137789405",
+            "gid": "15151976006229470858"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Strategic UX Toolkit: Context-Driven Research & Design for EdTEch; Paperback; Author - Kelly Morgan, Ph.D.",
+          "description": "barnesandnoble.com\nFree delivery on $60+",
+          "seller": "barnesandnoble.com",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:1",
+          "price": {
+            "current": 19.99,
+            "max_value": 30,
+            "currency": "USD",
+            "is_price_range": true,
+            "displayed_price": "$19.99 Usually $30"
+          },
+          "product_identifiers": {
+            "product_id": "138137896184262137",
+            "data_docid": "7858869261211751024",
+            "gid": "3582321002517452714"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "AI-Powered UX Research: Run Research at the Speed Your Team Actually Needs - Paperback",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:2",
+          "price": {
+            "current": 22.99,
+            "currency": "USD",
+            "displayed_price": "$22.99"
+          },
+          "product_identifiers": {
+            "product_id": "5811877098218336061",
+            "data_docid": "583665591825510043",
+            "gid": "14147617406035094272"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "User Research: Improve Product and Service Design and Enhance Your UX Research (Paperback)",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:3",
+          "price": {
+            "current": 43.99,
+            "currency": "USD",
+            "displayed_price": "$43.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "8009849487989770974",
+            "data_docid": "14701103403842889001",
+            "gid": "3705205995213855489"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Sonic UX : The Science of Sound in User Experience Research",
+          "description": "Penguin Random House & more\nFree delivery by Wed",
+          "more_sellers": true,
+          "seller": "Penguin Random House",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:4",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "$40.00"
+          },
+          "product_identifiers": {
+            "product_id": "16451085849352964483",
+            "data_docid": "3935100172192366659",
+            "gid": "12841868170804135104"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Think Like a UX Researcher",
+          "description": "Routledge & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Routledge",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:5",
+          "price": {
+            "current": 58.39,
+            "regular": 73,
+            "currency": "USD",
+            "displayed_price": "$58.39 $73"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "15823109391535985571",
+            "data_docid": "11120970687135011592",
+            "gid": "7694738679020918403"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Laws of UX - Audiobook",
+          "description": "Barnes & Noble & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:6",
+          "price": {
+            "current": 12.99,
+            "currency": "USD",
+            "displayed_price": "$12.99"
+          },
+          "product_identifiers": {
+            "product_id": "12821846662505831830",
+            "data_docid": "16636092093075125358",
+            "gid": "14834376142932222475"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Researching UX : Analytics: Understanding Is the Heart of Great UX",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:7",
+          "price": {
+            "current": 34.95,
+            "currency": "USD",
+            "displayed_price": "$34.95"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "29631255250061385",
+            "data_docid": "3210555753568887997",
+            "gid": "8695886868675567949"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "creativemarket.com",
+      "title": "10 Must-Read UX Books",
+      "url": "https://creativemarket.com/blog/10-must-read-ux-books",
+      "breadcrumb": "https://creativemarket.com › blog › 10-must-read-ux-b...",
+      "website_name": "Creative Market",
+      "description": "Apr 1, 2024 — 10 Must-Read UX Books · 1. Don't Make Me Think · 2. Rocket Surgery Made Easy · 3. Usable Usability: Simple Steps for Making Stuff Better · 4. Read more",
+      "pre_snippet": "04/01/2024 00:00:00",
+      "highlighted": [
+        "1. Don't Make Me Think"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://creativemarket.com/blog/10-must-read-ux-books#:~:text=10%20Must-Read%20UX%20Books&text=1.%20Don't%20Make%20Me%20Think&text=2.%20Rocket%20Surgery%20Made%20Easy&text=3.%20Usable%20Usability%3A%20Simple%20Steps,for%20Making%20Stuff%20Better&text=4.%20Smashing%20UX%20Design%3A%20Foundations",
+          "domain": "creativemarket.com"
+        }
+      ],
+      "timestamp": "2024-04-01 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What's the most comprehensive UI/UX book?",
+      "url": "https://www.reddit.com/r/userexperience/comments/7n2q74/whats_the_most_comprehensive_uiux_book/",
+      "breadcrumb": "10+ comments  ·  8 years ago",
+      "website_name": "Reddit · r/userexperience",
+      "description": "Would recommend \"The UX career handbook\" and \"The User Experience Team of One: A Research and Design Survival Guide\". Read more",
+      "highlighted": [
+        "The UX career handbook"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Quant Data Analysis Book recommendation : r/UXResearch",
+          "url": "https://www.reddit.com/r/UXResearch/comments/1lhkccl/quant_data_analysis_book_recommendation/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "books on user interview synthesis? : r/UXResearch - Reddit",
+          "url": "https://www.reddit.com/r/UXResearch/comments/xorkly/books_on_user_interview_synthesis/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=ux+research+books+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntvf6PiN-xHYzSsGQD9wpOhCgMSHw:1791474341191&sa=X&ved=2ahUKEwih8-v94aqXAxVSUGwGHX9BLlMQrQIoAnoECEUQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 2,
+      "rank_absolute": 6,
+      "page": 1,
+      "title": "More products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "UX Research Und User Research: Theorie, Methoden Und Anwendungsfelder Der Nutzerforschung; Paperback; Author - Giovanni Vindigni",
+          "description": "Springer Nature & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Springer Nature",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:8",
+          "price": {
+            "current": 39.99,
+            "currency": "USD",
+            "displayed_price": "$39.99"
+          },
+          "product_identifiers": {
+            "product_id": "13970354584174543555",
+            "data_docid": "10006936783481282185",
+            "gid": "1820603118972618253"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Think Like a UX Researcher: How to Observe Users, Influence Design, and Shape Business Strategy; eBook; Author - David Travis",
+          "description": "Barnes & Noble - NOOK\nFree delivery",
+          "seller": "Barnes & Noble - NOOK",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:9",
+          "price": {
+            "current": 72.99,
+            "currency": "USD",
+            "displayed_price": "$72.99"
+          },
+          "product_identifiers": {
+            "data_docid": "11743095184446502198"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "UX Research Methods for Media and Communication Studies",
+          "description": "Routledge & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Routledge",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:10",
+          "price": {
+            "current": 44.79,
+            "regular": 56,
+            "currency": "USD",
+            "displayed_price": "$44.79 $56"
+          },
+          "product_identifiers": {
+            "product_id": "10039373039569480001",
+            "data_docid": "8291203269877858970",
+            "gid": "13804435693932614189"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Design Thinking Researching for Better UX - Orthopedagogische praktijk Gereedschapskist",
+          "description": "Gereedschapskist",
+          "seller": "Gereedschapskist",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:11",
+          "price": {
+            "current": 49.99,
+            "currency": "USD",
+            "displayed_price": "$49.99"
+          },
+          "product_identifiers": {
+            "data_docid": "8409382577125672833"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Researching UX (Ebook)",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:12",
+          "price": {
+            "current": 34.95,
+            "currency": "USD",
+            "displayed_price": "$34.95"
+          },
+          "product_identifiers": {
+            "product_id": "16225573488048701878",
+            "data_docid": "5632867832230173529",
+            "gid": "588758548801578069"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "A Project Guide to UX Design: For User Experience Designers in the Field or in the Making",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:13",
+          "price": {
+            "current": 44.99,
+            "currency": "USD",
+            "displayed_price": "$44.99"
+          },
+          "product_identifiers": {
+            "product_id": "8434522110845608191",
+            "data_docid": "14482347743337711244",
+            "gid": "11395689962242070523"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Measuring the User Experience (ebook)",
+          "description": "University Co-op & more",
+          "more_sellers": true,
+          "seller": "University Co-op",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:14",
+          "price": {
+            "current": 43.99,
+            "currency": "USD",
+            "displayed_price": "$43.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 5,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "17380535051883662591",
+            "data_docid": "486946930554357257",
+            "gid": "16597754098091399081"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Observing the User Experience: A Practitioner's Guide to User Research",
+          "description": "eCampus.com & more",
+          "more_sellers": true,
+          "seller": "eCampus.com",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c52bde66041c:15",
+          "price": {
+            "current": 43.16,
+            "currency": "USD",
+            "displayed_price": "$43.16 Pre-owned"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 4,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "2761837162307921143",
+            "data_docid": "7010929278760523730",
+            "gid": "10508168189041664986"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "pixso.net",
+      "title": "Best UX Books For User Experience Designers",
+      "url": "https://pixso.net/news/best-ux-books/",
+      "breadcrumb": "https://pixso.net › Home › News",
+      "website_name": "Pixso",
+      "description": "Sep 24, 2024 — 5 Best UX Design Books for the Beginners · Don't Make Me Think · The Design Of Everyday Interface · The Element Of User Experience · Smashing UX ... Read more",
+      "pre_snippet": "09/24/2024 00:00:00",
+      "highlighted": [
+        "Don't Make Me Think"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://pixso.net/news/best-ux-books/#:~:text=5%20Best%20UX%20Design%20Books,for%20the%20Beginners&text=Don't%20Make%20Me%20Think&text=The%20Design%20Of%20Everyday%20Interface&text=The%20Element%20Of%20User%20Experience&text=Smashing%20UX%20Design",
+          "domain": "pixso.net"
+        }
+      ],
+      "timestamp": "2024-09-24 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "jenson.org",
+      "title": "Recommended UX Books",
+      "url": "https://jenson.org/uxbooks/",
+      "breadcrumb": "https://jenson.org › uxbooks",
+      "website_name": "Scott Jenson",
+      "description": "Aug 9, 2019 — By far the most commonly recommended book was: Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability Amazon Link Which ...",
+      "pre_snippet": "08/09/2019 00:00:00",
+      "highlighted": [
+        "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability"
+      ],
+      "timestamp": "2019-08-09 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "ux.stackexchange.com",
+      "title": "Advanced books on UX [closed]",
+      "url": "https://ux.stackexchange.com/questions/4705/advanced-books-on-ux",
+      "breadcrumb": "https://ux.stackexchange.com › questions › advanced-b...",
+      "website_name": "User Experience Stack Exchange",
+      "description": "Dec 21, 2009 — As it currently stands, this question is not a good fit for our Q&A format. We expect answers to be supported by facts, references, or expertise, ...",
+      "pre_snippet": "12/21/2009 00:00:00",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "19 answers",
+          "url": "https://ux.stackexchange.com/a/4717",
+          "domain": "ux.stackexchange.com"
+        }
+      ],
+      "timestamp": "2009-12-21 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 10,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best book for UX research?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UX research being replaced by AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UX UI oversaturated?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best book on UX design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Anyone have any recommendations for books on user research?",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1vzoyc6/anyone_have_any_recommendations_for_books_on_user/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2026-09-08 15:45:47 +00:00",
+          "posts_count": 10
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Boost UX Research with Bayesian Reasoning - Richard McElreath",
+          "url": "https://www.linkedin.com/posts/mohsenrafiei-phd_if-you-want-to-boost-your-skill-sets-as-a-activity-7406797382060797952-vCuB",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2026-01-08 15:45:47 +00:00"
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "What one book should I read to learn more about user research methods?",
+          "url": "https://ux.stackexchange.com/questions/10132/what-one-book-should-i-read-to-learn-more-about-user-research-methods",
+          "domain": "ux.stackexchange.com",
+          "source": "UX Stack Exchange",
+          "timestamp": "2011-10-08 15:45:47 +00:00",
+          "posts_count": 7
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "digitaldefynd.com",
+      "title": "40 Best UX Books [2026]",
+      "url": "https://digitaldefynd.com/IQ/best-ux-books/",
+      "breadcrumb": "https://digitaldefynd.com › best-ux-books",
+      "website_name": "DigitalDefynd Education",
+      "description": "Making Sense of UX Research, Raffaele Boiano, UX Research, 2022. Think Like a UX Researcher, David Travis, UX Research, 2019. Think Like a Designer, Jeroen van ... Read more",
+      "highlighted": [
+        "Making Sense of UX Research, Raffaele Boiano"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://digitaldefynd.com/IQ/best-ux-books/#:~:text=Making%20Sense%20of%20UX%20Research,Jeroen%20van%20Erp",
+          "domain": "digitaldefynd.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "reallygooddesigns.com",
+      "title": "12 UX Books From User Experience Geniuses",
+      "url": "https://reallygooddesigns.com/best-ux-books/",
+      "breadcrumb": "https://reallygooddesigns.com › Articles",
+      "website_name": "Really Good Designs",
+      "description": "These are 12 of the best UX design books out there that will help you think differently and upgrade your skills in a way you'll actually enjoy. Read more",
+      "highlighted": [
+        "12 of the best UX design books"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "12 Ux Books From User...",
+          "url": "https://reallygooddesigns.com/best-ux-books/#:~:text=12%20UX%20Books%20From%20User%20Experience%20Geniuses,-By%20Sandra%20Boicheva",
+          "domain": "reallygooddesigns.com"
+        },
+        {
+          "type": "link_element",
+          "title": "1. Ai For Ux Designers",
+          "url": "https://reallygooddesigns.com/best-ux-books/#:~:text=1.%20AI%20for%20UX%20Designers",
+          "domain": "reallygooddesigns.com"
+        },
+        {
+          "type": "link_element",
+          "title": "7. The Ultimate Ux...",
+          "url": "https://reallygooddesigns.com/best-ux-books/#:~:text=7.%20The%20Ultimate%20UX%20Designer%27s%20Handbook",
+          "domain": "reallygooddesigns.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 14,
+      "page": 1,
+      "items": [
+        "Ux research books pdf",
+        "Top ux research books",
+        "Ux research books for beginners",
+        "Top 10 ux research books"
+      ]
+    }
+  ]
+}

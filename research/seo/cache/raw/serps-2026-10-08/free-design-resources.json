@@ -1,0 +1,364 @@
+{
+  "id": "10081545-2633-0066-0000-4dac9f2fee6e",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "You can explore curated directories, mockups, and assets through [TOOOLS.design](https://www.toools.design/) , a massive weekly-updated collection of digital tools and resources.[[1]](https://www.toools.design/)\n\n### Mockups & Templates\n\n- [Pixelbuddha](https://pixelbuddha.net/) : Offers high-quality free graphic mockups, textures, and text effects.\n- **Unblast** : Great source for free PSD mockups, graphics, and templates.\n- **GraphicBurger** : Classic repository for free mockups, icons, and UI elements.[[1]](https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en)[[2]](https://pixelbuddha.net/)[[3]](https://www.youtube.com/watch?v=_hl4jjYBcHk)\n\n### Textures & Photos\n\n- Texturelabs : High-resolution physical and grunge textures with helpful video tutorials.\n- **Unsplash** : High-resolution, royalty-free photography useful for backgrounds and design compositions.[[1]](https://www.reddit.com/r/graphic_design/comments/veb3i8/free_design_resources/)[[2]](https://www.youtube.com/watch?v=C70fG4U59wI&t=6)\n\n### Typography & Fonts\n\n- [Free Design Resources](https://freedesignresources.net/) : Daily freebies including high-end display and script fonts.\n- **Google Fonts** : Essential open-source typography library for web and print.[[1]](https://freedesignresources.net/)\n\nIf you want to narrow this down, tell me:\n\n- What **specific design project** are you working on (branding, UI/UX, social media)?\n- Do you need **mockups, fonts, or inspiration**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can explore curated directories, mockups, and assets through TOOOLS.design, a massive weekly-updated collection of digital tools and resources.",
+          "markdown": "You can explore curated directories, mockups, and assets through [TOOOLS.design](https://www.toools.design/) , a massive weekly-updated collection of digital tools and resources.[[1]](https://www.toools.design/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "TOOOLS.design",
+              "url": "https://www.toools.design/",
+              "domain": "www.toools.design"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "TOOOLS.design",
+              "domain": "www.toools.design",
+              "url": "https://www.toools.design/",
+              "title": "Design Resources & Tools for Designers | TOOOLS.design",
+              "text": "Directory: TOOOLS.design (2,200+ weekly updated design resources and tools). Featured Tools: Readymag (websites), Mobbin MCP (AI a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Mockups & Templates",
+          "text": "Pixelbuddha : Offers high-quality free graphic mockups, textures, and text effects. Unblast : Great source for free PSD mockups, graphics, and templates. GraphicBurger : Classic repository for free mockups, icons, and UI elements.",
+          "markdown": "- [Pixelbuddha](https://pixelbuddha.net/) : Offers high-quality free graphic mockups, textures, and text effects.\n- **Unblast** : Great source for free PSD mockups, graphics, and templates.\n- **GraphicBurger** : Classic repository for free mockups, icons, and UI elements.[[1]](https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en)[[2]](https://pixelbuddha.net/)[[3]](https://www.youtube.com/watch?v=_hl4jjYBcHk)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Pixelbuddha",
+              "url": "https://pixelbuddha.net/",
+              "domain": "pixelbuddha.net"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en",
+              "title": "70 Free Design Resources I Wish I Knew About Sooner",
+              "text": "70 Free Design Resources I Wish I Knew About Sooner there are so many design tools and resources that I use now that would have sa..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Pixelbuddha",
+              "domain": "pixelbuddha.net",
+              "url": "https://pixelbuddha.net/",
+              "title": "Pixelbuddha - Free Graphic Design Resources",
+              "text": "Mockups: 3825+ downloads including Brushed Steel A-Frame Sign, Thermal Paper Receipt, Curled Receipt, Poster Mockup Concrete Stair..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=_hl4jjYBcHk",
+              "title": "Free graphic design resources you will ACTUALLY use... - YouTube",
+              "text": "now you guys welcome back to our channel the number one place for people who love design art and all things creative you are watch..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Textures & Photos",
+          "text": "Texturelabs : High-resolution physical and grunge textures with helpful video tutorials. Unsplash : High-resolution, royalty-free photography useful for backgrounds and design compositions.",
+          "markdown": "- Texturelabs : High-resolution physical and grunge textures with helpful video tutorials.\n- **Unsplash** : High-resolution, royalty-free photography useful for backgrounds and design compositions.[[1]](https://www.reddit.com/r/graphic_design/comments/veb3i8/free_design_resources/)[[2]](https://www.youtube.com/watch?v=C70fG4U59wI&t=6)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/graphic_design/comments/veb3i8/free_design_resources/",
+              "title": "Free design resources : r/graphic_design - Reddit",
+              "text": "Comments Section * https://texturelabs.org/?ct=18 (love his youtube channel as well) * https://pixelsurplus.com/collections/free-t..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=C70fG4U59wI&t=6",
+              "title": "How To Get Free GRAPHIC DESIGN ASSETS For Your Design Projects ft ...",
+              "text": "How To Get Free GRAPHIC DESIGN ASSETS For Your Design Projects ft @EdnieStudios and not only that but they are free hey how have I..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Typography & Fonts",
+          "text": "Free Design Resources : Daily freebies including high-end display and script fonts. Google Fonts : Essential open-source typography library for web and print.",
+          "markdown": "- [Free Design Resources](https://freedesignresources.net/) : Daily freebies including high-end display and script fonts.\n- **Google Fonts** : Essential open-source typography library for web and print.[[1]](https://freedesignresources.net/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Free Design Resources",
+              "url": "https://freedesignresources.net/",
+              "domain": "freedesignresources.net"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Free Design Resources",
+              "domain": "freedesignresources.net",
+              "url": "https://freedesignresources.net/",
+              "title": "Free Design Resources – Daily Freebies for Creatives",
+              "text": "Fonts: Bigtro, Robold, Propilen, Halvers, Megion, JT Barnez, Bandito, Taska Serif Display, Resyana, Paffilo, Milano Perla Script, ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you want to narrow this down, tell me:What specific design project are you working on (branding, UI/UX, social media)?\nDo you need mockups, fonts, or inspiration ?",
+          "markdown": "If you want to narrow this down, tell me:\n\n- What **specific design project** are you working on (branding, UI/UX, social media)?\n- Do you need **mockups, fonts, or inspiration**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Free Design Resources",
+          "domain": "freedesignresources.net",
+          "url": "https://freedesignresources.net/",
+          "title": "Free Design Resources – Daily Freebies for Creatives",
+          "text": "Fonts: Bigtro, Robold, Propilen, Halvers, Megion, JT Barnez, Bandito, Taska Serif Display, Resyana, Paffilo, Milano Perla Script, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/graphic_design/comments/veb3i8/free_design_resources/",
+          "title": "Free design resources : r/graphic_design - Reddit",
+          "text": "Comments Section * https://texturelabs.org/?ct=18 (love his youtube channel as well) * https://pixelsurplus.com/collections/free-t..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en",
+          "title": "70 Free Design Resources I Wish I Knew About Sooner",
+          "text": "70 Free Design Resources I Wish I Knew About Sooner there are so many design tools and resources that I use now that would have sa..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=_hl4jjYBcHk",
+          "title": "Free graphic design resources you will ACTUALLY use... - YouTube",
+          "text": "now you guys welcome back to our channel the number one place for people who love design art and all things creative you are watch..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Pixelbuddha",
+          "domain": "pixelbuddha.net",
+          "url": "https://pixelbuddha.net/",
+          "title": "Pixelbuddha - Free Graphic Design Resources",
+          "text": "Mockups: 3825+ downloads including Brushed Steel A-Frame Sign, Thermal Paper Receipt, Curled Receipt, Poster Mockup Concrete Stair..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "TOOOLS.design",
+          "domain": "www.toools.design",
+          "url": "https://www.toools.design/",
+          "title": "Design Resources & Tools for Designers | TOOOLS.design",
+          "text": "Directory: TOOOLS.design (2,200+ weekly updated design resources and tools). Featured Tools: Readymag (websites), Mobbin MCP (AI a..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=C70fG4U59wI&t=6",
+          "title": "How To Get Free GRAPHIC DESIGN ASSETS For Your Design Projects ft ...",
+          "text": "How To Get Free GRAPHIC DESIGN ASSETS For Your Design Projects ft @EdnieStudios and not only that but they are free hey how have I..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.graphicpear.com",
+      "title": "Free and Premium Design Resources - Collection 2",
+      "url": "https://www.graphicpear.com/premium-free-design-resources/page/2/",
+      "breadcrumb": "https://www.graphicpear.com › page",
+      "website_name": "Graphic Pear",
+      "description": "Graphic & web design resources for designers ; free & premium. Mockups, fonts, graphics, icons, templates & themes. - Collection 2.",
+      "highlighted": [
+        "Graphic & web design resources for designers"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "creativemarket.com",
+      "title": "Free Resources Archives - Creative Market Blog",
+      "url": "https://creativemarket.com/blog/category/free-resources",
+      "breadcrumb": "https://creativemarket.com › blog › category › free-reso...",
+      "website_name": "Creative Market",
+      "description": "Free Printable Earth Day Poster. A PDF Guide to Brushes, Layers & the Canvas. Free Typography Basics. Free Photoshop Brushes. Free Coloring Book: Design … 50  ...",
+      "highlighted": [
+        "Free Printable Earth Day Poster"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.magnific.com",
+      "title": "Page 9 | Best design resources Images",
+      "url": "https://www.magnific.com/free-photos-vectors/best-design-resources/9",
+      "breadcrumb": "https://www.magnific.com › free-photos-vectors › best-...",
+      "website_name": "Magnific",
+      "description": "Find & Download Free Graphic Resources for Best design resources Vectors, Stock Photos & PSD files. ✓ Free for commercial use ✓ High Quality Images.",
+      "highlighted": [
+        "Free for commercial use"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "webflow.com",
+      "title": "Keegan's Go-to FREE Design Resources",
+      "url": "https://webflow.com/made-in-webflow/website/keegans-design-resources",
+      "breadcrumb": "https://webflow.com › made-in-webflow › website › ke...",
+      "website_name": "Webflow",
+      "description": "A selection of my go-to websites for the best (FREE) design assets. free design resources speed curated webdesign",
+      "highlighted": [
+        "free design resources"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "freedesignresources.net",
+      "title": "ppt",
+      "url": "https://freedesignresources.net/tag/ppt/",
+      "breadcrumb": "https://freedesignresources.net › tag › ppt",
+      "website_name": "Free Design Resources",
+      "description": "Browse Over 1 Million Assets Fonts, Mockups, Photoshop Actions & More Free Asthma PowerPoint Template Templates Breast Cancer PowerPoint Template",
+      "highlighted": [
+        "Browse Over 1 Million Assets"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "gcsmalta.com",
+      "title": "The Best Graphic Design Resources",
+      "url": "https://gcsmalta.com/uncategorized/best-graphic-design-resources/",
+      "breadcrumb": "https://gcsmalta.com › uncategorized › best-graphic-des...",
+      "website_name": "GCS Malta",
+      "description": "All The Free Stock · Craftwork · Creative Market · Envato Elements · Freebiesbug · Free Design Resources · Freepik · Graphic Burger · Pixel Buddha ... Read more",
+      "highlighted": [
+        "Free Design Resources"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://gcsmalta.com/uncategorized/best-graphic-design-resources/#:~:text=All%20The%20Free%20Stock,Pixel%20Buddha",
+          "domain": "gcsmalta.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "supercharge.design",
+      "title": "The Ultimate Free UI Design Resources List (eBook)",
+      "url": "https://supercharge.design/products/the-ultimate-ui-design-resources-list",
+      "breadcrumb": "https://supercharge.design › products › the-ultimate-ui-...",
+      "website_name": "Supercharge Design",
+      "description": "On more than 50 pages, this ebook lists brief generators, Chrome extensions, color tools, design systems, fonts, icons, illustrations, mockups, portfolio ...",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 241,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "brief generators, Chrome extensions, color tools, design systems"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "dailyresources.tumblr.com",
+      "title": "some graphic design resources cause im bored and...",
+      "url": "https://dailyresources.tumblr.com/post/729235603599835136",
+      "breadcrumb": "https://dailyresources.tumblr.com › post",
+      "website_name": "Tumblr",
+      "description": "Sep 23, 2023 — This is a blog dedicated of resources related to Photoshop & Tumblr. You will find tutorials, themes, psds and more! graphic design stuff some  ...",
+      "pre_snippet": "09/23/2023 00:00:00",
+      "highlighted": [
+        "resources",
+        "design"
+      ],
+      "timestamp": "2023-09-23 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.creativeboom.com",
+      "title": "50 motion design resources that creatives actually use",
+      "url": "https://www.creativeboom.com/tools/50-resources-for-motion-designers-that-people-actually-use/",
+      "breadcrumb": "https://www.creativeboom.com › tools › 50-resources-f...",
+      "website_name": "Creative Boom",
+      "description": "Apr 26, 2021 — “Turbosquid, CGTrader and 3DmodelHaven are all great resources for finding free 3D models,” says Tom. \"The first two are predominantly for ... Read more",
+      "pre_snippet": "04/26/2021 00:00:00",
+      "highlighted": [
+        "resources",
+        "free"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.creativeboom.com/tools/50-resources-for-motion-designers-that-people-actually-use/#:~:text=%E2%80%9CTurbosquid%2C%20CGTrader%20and%203DmodelHaven%20are,of%20content%20on%20the%20sites.",
+          "domain": "www.creativeboom.com"
+        }
+      ],
+      "timestamp": "2021-04-26 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "Creative Market",
+        "Creative market tutorials",
+        "Creative Market blog"
+      ]
+    }
+  ]
+}

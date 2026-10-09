@@ -1,0 +1,85 @@
+unit_id,kind,section_or_domain,topic,subtopic_or_category,head_term_1,head_term_2,keyword_count,adjusted_volume,median_difficulty
+u01,topic,product,"agile, scrum and kanban",,agile methodology,agile project management,243,370120,36
+u02,subtopic,product,"agile, scrum and kanban",agile methodology (general),agile methodology,agile,96,296030,39.5
+u03,subtopic,product,"agile, scrum and kanban",agile project management,agile project management,lean project management,42,147930,47
+u04,subtopic,product,"agile, scrum and kanban",scaled agile (safe),safe agile framework,,25,12500,45
+u05,subtopic,product,"agile, scrum and kanban","scrum, sprints and backlog",agile scrum,kanban vs scrum,65,58460,24
+u06,subtopic,product,"agile, scrum and kanban",agile manifesto and principles,agile manifesto,agile principles,15,8200,31
+u07,topic,design,accessibility,,accessibility,web content accessibility,99,291660,76
+u08,subtopic,design,accessibility,accessibility definitions (general),accessibility,accessibility definition,18,199400,24.5
+u09,subtopic,design,accessibility,"guidelines and compliance (wcag, ada, 508)",accessibility 508,accessibility standards,25,35500,67
+u10,subtopic,design,accessibility,web and digital accessibility,web content accessibility,accessibility heuristics,19,47300,94
+u11,subtopic,design,accessibility,accessibility testing and checkers,accessibility checker,accessibility tools,37,14860,76
+u12,topic,business,analytics,,analytics,data analytics,93,377190,18
+u13,topic,product,project management,,project management,project management tools,74,345140,15
+u14,topic,design,ux research,,user testing,ux research,213,264020,8
+u15,subtopic,design,ux research,surveys and questionnaires,closed-ended questions in research,customer feedback survey,61,146280,8
+u16,subtopic,design,ux research,interviews and focus groups,user interviews,semi-structured interviews in qualitative research,24,62820,16
+u17,subtopic,design,ux research,usability testing,user testing,usability testing,81,34700,7
+u18,subtopic,design,ux research,ux research (general),ux research,user research,47,20220,8
+u19,topic,design,ux and ui design (discipline),,ui ux design,ux design,110,286140,6.5
+u20,topic,business,growth marketing and funnels,,marketing funnel,content marketing,39,289200,22
+u21,topic,product,product management (discipline),,product management,what is product management,94,132410,8
+u22,subtopic,product,product management (discipline),product management (general),product management,what is product management,74,102690,3
+u23,subtopic,product,product management (discipline),product life cycle,product life cycle,product life cycle stages,20,29720,36
+u24,topic,business,"okrs, kpis and metrics",,okr,kpi examples,153,197560,22
+u25,subtopic,business,"okrs, kpis and metrics",okrs,okr,okr vs kpi,119,83780,24
+u26,subtopic,business,"okrs, kpis and metrics",metrics (general),kpi examples,kpi metrics,34,113780,19
+u27,topic,design,design thinking,,design thinking,design thinking process,137,33640,41
+u28,subtopic,design,design thinking,design thinking (general),design thinking,what is design thinking,81,25480,27
+u29,subtopic,design,design thinking,design thinking process and stages,design thinking process,design thinking framework,56,8330,52.5
+u30,topic,business,pricing strategy,,pricing strategy,dynamic pricing,185,126510,13
+u31,subtopic,business,pricing strategy,pricing strategy (general),pricing strategy,product pricing,95,92020,20
+u32,subtopic,business,pricing strategy,pricing strategy types and models,dynamic pricing,competitive pricing,39,28190,19
+u33,subtopic,business,pricing strategy,company pricing case studies,amazon pricing strategy,nike pricing strategy,51,8980,0
+u34,topic,product,prioritization,,prioritization,moscow prioritization,108,171110,5
+u35,subtopic,product,prioritization,prioritization (general),prioritization,prioritization definition,62,153570,1
+u36,subtopic,product,prioritization,prioritization frameworks,moscow prioritization,prioritization matrix,30,14360,21
+u37,subtopic,product,prioritization,task and time prioritization,task prioritization,time management prioritization,16,3180,10
+u38,topic,product,user stories and acceptance criteria,,user stories,user stories template,177,61410,14
+u39,subtopic,product,user stories and acceptance criteria,user story examples and templates,user stories template,user stories examples,63,11650,13
+u40,subtopic,product,user stories and acceptance criteria,user stories (general),user stories,story points,88,45430,22.5
+u41,subtopic,product,user stories and acceptance criteria,acceptance criteria,acceptance criteria for user stories examples,how to write acceptance criteria for user stories,26,4330,9.5
+u42,topic,design,web design,,website design,responsive design,26,151890,35.5
+u43,topic,design,personas and journey maps,,customer journey map,user persona,90,44310,23
+u44,subtopic,design,personas and journey maps,journey maps and user flows,customer journey map,user journey map,61,31130,19
+u45,subtopic,design,personas and journey maps,personas,user persona,customer persona,29,13180,25
+u46,topic,business,a/b testing and experimentation,,a/b testing,a/b testing tools,113,32160,38
+u47,subtopic,business,a/b testing and experimentation,a/b testing (general),a/b testing,what is a b testing,40,29570,48
+u48,subtopic,business,a/b testing and experimentation,a/b testing tools and platforms,a/b testing tools,a/b testing software,39,3650,23
+u49,subtopic,business,a/b testing and experimentation,"a/b testing in marketing (email, landing pages, ads)",a/b testing landing pages,email a/b testing,34,840,38
+u50,topic,design,design systems and ui components,,design system,material design,96,115000,6.5
+u51,subtopic,design,design systems and ui components,ui components and patterns,breadcrumbs ui,search bar ux,62,68590,1
+u52,subtopic,design,design systems and ui components,design systems,design system,material design,34,46410,26.5
+u53,topic,product,requirements and prd,,product requirements document,product requirements document template,66,78170,9
+u54,topic,business,go-to-market and product marketing,,4 ps of marketing,product marketing,42,81600,18
+u55,topic,business,"retention, churn and engagement",,customer retention,retention rate,120,39340,18
+u56,subtopic,business,"retention, churn and engagement",retention rate formulas and calculation,calculate retention rate,customer retention rate formula,49,4870,16
+u57,subtopic,business,"retention, churn and engagement",retention (general),retention rate,engagement rate,52,14900,22
+u58,subtopic,business,"retention, churn and engagement",customer retention and loyalty,customer retention,customer retention strategies,19,19570,26
+u59,topic,product,product owner and product manager roles,,product manager,product owner vs product manager,86,46990,8
+u60,subtopic,product,product owner and product manager roles,product owner,product owner,product owner vs product manager,75,16120,8
+u61,subtopic,product,product owner and product manager roles,product roles (general),product manager,technical product manager,11,32770,7
+u62,topic,product,stakeholder and change management,,change management,stakeholder management,63,65160,17
+u63,subtopic,product,stakeholder and change management,change management and leadership,change management,leadership vs management,21,59040,14
+u64,subtopic,product,stakeholder and change management,stakeholder management,stakeholder management,stakeholder in project management,42,6120,18
+u65,topic,product,"product strategy, discovery and launch",,product development,product market fit,94,39700,8
+u66,subtopic,product,"product strategy, discovery and launch",product strategy,product market fit,product strategy,41,21350,4
+u67,subtopic,product,"product strategy, discovery and launch",new product development and launch,product development,product development process,46,16100,10
+u68,subtopic,product,"product strategy, discovery and launch",product strategy and discovery (general),mvp minimum viable product,product discovery,7,2250,5
+u69,topic,product,product roadmap,,product roadmap,product roadmap examples,83,11300,10
+u70,topic,design,information architecture,,information architecture,what is information architecture,37,5500,11
+u71,section,links,links,ux and ui design tools,ux design tools,ux tools,19,2910,19
+u72,section,links,links,product management tools,product management tools,roadmap tools,10,2400,8
+u73,section,links,links,prototyping tools,prototyping tools,ai prototyping tools,17,1160,26
+u74,section,books,books,design books (general),design books,best books on design,16,4090,0
+u75,section,books,books,graphic and visual design books,graphic design books,best graphic design books,26,1690,0
+u76,section,books,books,product management books,product management books,best product management books,14,980,0
+u77,section,books,books,ux design books,ux books,best ux books,21,530,0
+u78,section,templates,templates,user story templates,user story template,agile user story template,26,11150,13
+u79,section,templates,templates,user story templates > agile and scrum user story templates,agile user story template,scrum user story template,12,3180,13
+u80,section,templates,templates,product roadmap templates,product roadmap template,product roadmap powerpoint template,14,1250,7.5
+u81,section,tools,tools,sample size calculators,sample size calculator,sample size calculator formula,68,14990,37.5
+u82,section,tools,tools,sample size calculators > power analysis sample size calculators,power analysis sample size calculator,g power sample size calculator,24,2390,18
+u83,section,tools,tools,sample size calculators > survey sample size calculators,sample size calculator for survey,,13,2140,25
+u84,section,tools,tools,sample size calculators > statistical significance sample size calculators,statistical sample size calculator,sample size statistical significance calculator,14,650,43

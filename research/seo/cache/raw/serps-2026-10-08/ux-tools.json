@@ -1,0 +1,450 @@
+{
+  "id": "10081545-2633-0066-0000-e696f63aa100",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Choose Good Tools for UI/UX Design | by Stephanie Kuo | Prototypr](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:4)\nUX tools are `software applications used to research, wireframe, design, and test digital products`.[[1]](https://www.uxtweak.com/ux-design/tools/)[[2]](https://ixdf.org/literature/article/ux-design-tools-definitive-guide)\n\n### Core Design & Prototyping\n\n- [Figma](https://www.figma.com/ux-design-tool/) : A collaborative web platform for user flows, interface layout, and interactive prototypes.[[1]](https://www.figma.com/ux-design-tool/)\n- **Sketch** : A vector editor built for macOS used for pixel-perfect screen designs and design systems.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)[[2]](https://www.uxdesigninstitute.com/blog/ui-ux-design-tools/)\n- **Axure RP** : A specialized platform for complex UX flows, logic, and advanced conditional interactions.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)\n- **Framer** : A tool focused on high-fidelity animations, micro-interactions, and code-based components.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)\n\n### Research & Testing\n\n- **Dovetail** : A qualitative research repository used to store user interviews, tag data, and synthesize insights.[[1]](https://www.eleken.co/blog-posts/ux-design-tools)\n- **UXtweak** : An all-in-one platform for usability testing, card sorting, and tree testing.[[1]](https://www.youtube.com/watch?v=rDb7VcE_PW0)\n- **Lyssna** : A testing tool used to run preference tests, surveys, and early concept validation.\n\nIf you'd like, tell me:\n\n- What **specific stage** of the design process you are working on (research, wireframing, or testing)\n- Your preferred **operating system** (Mac, Windows, or browser-based)\n\nI can help you pick the best tool for your project.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "UX tools are software applications used to research, wireframe, design, and test digital products.",
+          "markdown": "![Choose Good Tools for UI/UX Design | by Stephanie Kuo | Prototypr](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:2)\nUX tools are `software applications used to research, wireframe, design, and test digital products`.[[1]](https://www.uxtweak.com/ux-design/tools/)[[2]](https://ixdf.org/literature/article/ux-design-tools-definitive-guide)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Choose Good Tools for UI/UX Design | by Stephanie Kuo | Prototypr",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "UXtweak",
+              "domain": "www.uxtweak.com",
+              "url": "https://www.uxtweak.com/ux-design/tools/",
+              "title": "UX Design Tools",
+              "text": "What are UX design tools? UX design tools are online platforms and software that UX designers use throughout the UX design process..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "IxDF",
+              "domain": "ixdf.org",
+              "url": "https://ixdf.org/literature/article/ux-design-tools-definitive-guide",
+              "title": "Top UX and UI Design Tools for 2026: A Comprehensive Guide",
+              "text": "Top UX and UI Design Tools for 2026: A Comprehensive Guide * Why Do You Need UX and UI Design Tools? * What Types of UI and UX Des..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Design & Prototyping",
+          "text": "Figma : A collaborative web platform for user flows, interface layout, and interactive prototypes. Sketch : A vector editor built for macOS used for pixel-perfect screen designs and design systems. Axure RP : A specialized platform for complex UX flows, logic, and advanced conditional interactions. Framer : A tool focused on high-fidelity animations, micro-interactions, and code-based components.",
+          "markdown": "- [Figma](https://www.figma.com/ux-design-tool/) : A collaborative web platform for user flows, interface layout, and interactive prototypes.[[1]](https://www.figma.com/ux-design-tool/)\n- **Sketch** : A vector editor built for macOS used for pixel-perfect screen designs and design systems.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)[[2]](https://www.uxdesigninstitute.com/blog/ui-ux-design-tools/)\n- **Axure RP** : A specialized platform for complex UX flows, logic, and advanced conditional interactions.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)\n- **Framer** : A tool focused on high-fidelity animations, micro-interactions, and code-based components.[[1]](https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Figma",
+              "url": "https://www.figma.com/ux-design-tool/",
+              "domain": "www.figma.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/ux-design-tool/",
+              "title": "Free Online UX Design Tool & UX Software - Figma",
+              "text": "Figma is a free and collaborative web-based UX design tool that allows the entire team to see and interact with the latest designs..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/",
+              "title": "What Are Your Go-To Tools for UI/UX Design? : r/UX_Design - Reddit",
+              "text": "Diverse Tool Ecosystem: While Figma is popular, a diverse range of tools is utilized for specific UI/UX design tasks. For user tes..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UX Design Institute",
+              "domain": "www.uxdesigninstitute.com",
+              "url": "https://www.uxdesigninstitute.com/blog/ui-ux-design-tools/",
+              "title": "The ultimate guide to the best UX Design tools in 2023",
+              "text": "UI & UX design tools There are many tools that combine both UX and UI design functionality, enabling you to complete your designs ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Research & Testing",
+          "text": "Dovetail : A qualitative research repository used to store user interviews, tag data, and synthesize insights. UXtweak : An all-in-one platform for usability testing, card sorting, and tree testing. Lyssna : A testing tool used to run preference tests, surveys, and early concept validation.",
+          "markdown": "- **Dovetail** : A qualitative research repository used to store user interviews, tag data, and synthesize insights.[[1]](https://www.eleken.co/blog-posts/ux-design-tools)\n- **UXtweak** : An all-in-one platform for usability testing, card sorting, and tree testing.[[1]](https://www.youtube.com/watch?v=rDb7VcE_PW0)\n- **Lyssna** : A testing tool used to run preference tests, surveys, and early concept validation.",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Eleken",
+              "domain": "www.eleken.co",
+              "url": "https://www.eleken.co/blog-posts/ux-design-tools",
+              "title": "UX design tools: 20+ picks designers actually use",
+              "text": "1. UX research tools * Claude is another AI assistant widely used by designers for research-heavy tasks. While similar to ChatGPT,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0",
+              "title": "5 UX Research Tools: Must-Haves for UX Designers",
+              "text": "research tools you should have are usability testing tools now these tools help you see how users interact with your product or in..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, tell me:What specific stage of the design process you are working on (research, wireframing, or testing)\nYour preferred operating system (Mac, Windows, or browser-based)\nI can help you pick the best tool for your project.",
+          "markdown": "If you'd like, tell me:\n\n- What **specific stage** of the design process you are working on (research, wireframing, or testing)\n- Your preferred **operating system** (Mac, Windows, or browser-based)\n\nI can help you pick the best tool for your project."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/UX_Design/comments/1fcjj9a/what_are_your_goto_tools_for_uiux_design/",
+          "title": "What Are Your Go-To Tools for UI/UX Design? : r/UX_Design - Reddit",
+          "text": "Diverse Tool Ecosystem: While Figma is popular, a diverse range of tools is utilized for specific UI/UX design tasks. For user tes..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Figma",
+          "domain": "www.figma.com",
+          "url": "https://www.figma.com/ux-design-tool/",
+          "title": "Free Online UX Design Tool & UX Software - Figma",
+          "text": "Figma is a free and collaborative web-based UX design tool that allows the entire team to see and interact with the latest designs..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=rDb7VcE_PW0",
+          "title": "5 UX Research Tools: Must-Haves for UX Designers",
+          "text": "research tools you should have are usability testing tools now these tools help you see how users interact with your product or in..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "UXtweak",
+          "domain": "www.uxtweak.com",
+          "url": "https://www.uxtweak.com/ux-design/tools/",
+          "title": "UX Design Tools",
+          "text": "What are UX design tools? UX design tools are online platforms and software that UX designers use throughout the UX design process..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "IxDF",
+          "domain": "ixdf.org",
+          "url": "https://ixdf.org/literature/article/ux-design-tools-definitive-guide",
+          "title": "Top UX and UI Design Tools for 2026: A Comprehensive Guide",
+          "text": "Top UX and UI Design Tools for 2026: A Comprehensive Guide * Why Do You Need UX and UI Design Tools? * What Types of UI and UX Des..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "UX Design Institute",
+          "domain": "www.uxdesigninstitute.com",
+          "url": "https://www.uxdesigninstitute.com/blog/ui-ux-design-tools/",
+          "title": "The ultimate guide to the best UX Design tools in 2023",
+          "text": "UI & UX design tools There are many tools that combine both UX and UI design functionality, enabling you to complete your designs ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Eleken",
+          "domain": "www.eleken.co",
+          "url": "https://www.eleken.co/blog-posts/ux-design-tools",
+          "title": "UX design tools: 20+ picks designers actually use",
+          "text": "1. UX research tools * Claude is another AI assistant widely used by designers for research-heavy tasks. While similar to ChatGPT,"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "pixso.net",
+      "title": "Pixso | UI/UX Design & Prototyping Tool with AI",
+      "url": "https://pixso.net/",
+      "breadcrumb": "https://pixso.net",
+      "website_name": "Pixso",
+      "description": "Create UI/UX designs, refine interfaces with AI, and build interactive prototypes in Pixso. Keep components, team feedback, and developer handoff",
+      "highlighted": [
+        "Create UI/UX designs"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What are your favourite UX tools? : r/UXDesign",
+      "url": "https://www.reddit.com/r/UXDesign/comments/1c51h36/what_are_your_favourite_ux_tools/",
+      "breadcrumb": "9 comments  ·  2 years ago",
+      "website_name": "Reddit · r/UXDesign",
+      "description": "Could be anything at all ranging from tools like Google analytics, Balsamiq, UX cam, Kickstarter website, Miro etc,. Why do you like it or how has it ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "9 answers",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1c51h36/what_are_your_favourite_ux_tools/kzru49s/",
+          "domain": "www.reddit.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is Figma used for?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are some free AI tools for UI design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UI/UX replaced by AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the difference between UI and UX?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "uxmastery.com",
+      "title": "100+ Awesome Tools For UX Designers",
+      "url": "https://uxmastery.com/100-tools-for-ux-designers/",
+      "breadcrumb": "https://uxmastery.com › 100-tools-for-ux-designers",
+      "website_name": "UX Mastery",
+      "description": "Oct 16, 2012 — Whether you're looking for software to create wireframes, conduct user testing, perform card sorting, or just keep track of your time, With ...",
+      "pre_snippet": "10/16/2012 00:00:00",
+      "highlighted": [
+        "software to create wireframes, conduct user testing, perform card sorting"
+      ],
+      "timestamp": "2012-10-16 00:00:00 +00:00"
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=e9d66db87c24774f&hl=en&gl=US&sxsrf=APpeQnu6CMgsodK-rNCnfOs_qFN8u43mtw:1791474343095&q=ux+tools&udm=2&source=univ&fir=4tAmC3V6Od6JfM%252CH6lwWErmfbdZoM%252C_%253BTgLsCWr9wfwICM%252CvO4T5ABNN6-Z6M%252C_%253BU5OuMbPtuSb2aM%252Cj2GxboaYdLbNIM%252C_%253BhgW5j0FqG6NkQM%252CR1X1mK8urhuy-M%252C_%253B9Lvw2tGU-YMtdM%252CDBGaE1pX0zMeZM%252C_%253BslfIlEHtQkF4bM%252CNQRb3Tj7z7iYmM%252C_%253BogN_7ZpMsdL3cM%252CZY1QHXvwB8NIoM%252C_%253BpktRskuPEGWtEM%252C2U7R5poSVpXFLM%252C_%253BlfyOpb_YouwHbM%252CDciAoFB4wDwcLM%252C_&usg=AI4_-kTgn4cF_XLIfDpj5LztPNgGN2QZBQ&sa=X&ved=2ahUKEwigkt_-4aqXAxVwqpUCHUFNG4MQ7Al6BAhaEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "The Workflow of a UX Designer: The Process and Tools You ...",
+          "url": "https://uxmastery.com/ux-designer-workflow/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "🌟 Top UI/UX Design Tools for Every Step of the Process ...",
+          "url": "https://www.linkedin.com/posts/shahadatanik_top-uiux-design-tools-for-every-step-activity-7280312311968407552-JQTd",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "The top 9 AI tools for UX design in 2026 and how to use it",
+          "url": "https://www.uxdesigninstitute.com/blog/the-top-9-ai-tools-for-ux-2026/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e696f63aa100:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 15 AI Tools for UI/UX Designers (2026 Guide for ...",
+          "url": "https://brandemic.in/blog/top-15-ai-tools-for-ui-ux-design",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxO3Tep0PTk0eoJtL92m6nMuyIm32hgoPXQjaMJ1Wuj10gMWy7RrMY9gE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Choose Good Tools for UI/UX Design | by Stephanie Kuo ...",
+          "url": "https://blog.prototypr.io/select-good-tools-for-ui-ux-design-c470ebb51b0f",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEeRF0iMEqUpmij8nvjGkEJykPp-cNJ-J_oRii7S45zsX4SYuOFC9DWDQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Best UX/UI Tools for Designer -",
+          "url": "https://umangsoftware.com/best-ux-ui-tools-for-designer/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAh0OPOtBoFMnD0GSjvfx31m-n2VD14gN0J3o8UN4iKta7LGUxHdGpsjQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Latest Top 10 UX/UI Tools Used For App Design",
+          "url": "https://www.appsinvo.com/blog/latest-top-10-ux-ui-tools-used-for-app-design/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwLran9tZ1U0MdihVMV729EtodJ1cocYDTIddBow9BZ7zxS-wz6eHEX1s&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX prototyping tools: How to pick the right one - VAEXPERIENCE",
+          "url": "https://blog.vaexperience.com/ux-prototyping-tools-how-to-pick-the-right-one/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDwj4OnVybAxraB86J2x-0s5MxSTDPHppsunCI4ZyYFTAvAWRBtxo35M&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Master Your Craft with These Top UX Tools | Toptal®",
+          "url": "https://www.toptal.com/designers/ux/top-ux-tools",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTevY-vpOGuT205NJXMVL5vHK0opK7cdN0nk-AiciRh-Ex3q59Su5sHCaM&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.looppanel.com",
+      "title": "Top 12 UX Design Tools You Need in 2025",
+      "url": "https://www.looppanel.com/blog/ux-design-tools",
+      "breadcrumb": "https://www.looppanel.com › blog › ux-design-tools",
+      "website_name": "Looppanel",
+      "description": "Jan 10, 2024 — User Research Tools · 1. Looppanel · 2. SurveyMonkey · 3. Useberry · 4. User Interviews · 5. Maze. Best for: unmoderated research and testing. Read more",
+      "pre_snippet": "01/10/2024 00:00:00",
+      "highlighted": [
+        "1. Looppanel"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.looppanel.com/blog/ux-design-tools#:~:text=User%20Research%20Tools&text=1.%20Looppanel&text=2.%20SurveyMonkey&text=3.%20Useberry&text=4.%20User%20Interviews&text=5.%20Maze,for%3A%20unmoderated%20research%20and%20testing",
+          "domain": "www.looppanel.com"
+        }
+      ],
+      "timestamp": "2024-01-10 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.uxdesigninstitute.com",
+      "title": "The 11 best user interface (UI) design tools to try in 2026",
+      "url": "https://www.uxdesigninstitute.com/blog/user-interface-ui-design-tools/",
+      "breadcrumb": "https://www.uxdesigninstitute.com › blog › user-interfa...",
+      "website_name": "UX Design Institute",
+      "description": "Good UI design is essential to good UX. Here are the best UI design tools & their key features, including Sketch, Adobe XD, Figma, and more.",
+      "highlighted": [
+        "Sketch, Adobe XD, Figma, and more"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.paulolyslager.com",
+      "title": "I'm a UX Designer and These are My UX Tools - Paul Olyslager",
+      "url": "https://www.paulolyslager.com/ux-designer-tools/",
+      "breadcrumb": "https://www.paulolyslager.com › ux-designer-tools",
+      "website_name": "paulolyslager.com",
+      "description": "Building a set of UX tools is very personal and takes time. Your UX tool collection should be focused on quick progress and collaboration with peers.",
+      "highlighted": [
+        "Building a set of UX tools is very personal and takes time"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.convert.com",
+      "title": "18 Best UX Tools For 2026",
+      "url": "https://www.convert.com/blog/optimization-tools/ux-tools/",
+      "breadcrumb": "https://www.convert.com › Articles › Optimization Tools",
+      "website_name": "Convert.com",
+      "description": "Feb 24, 2025 — 18 Best UX Tools in 2026 · 1. Convert Experiences · 2. Figma · 3. Sketch · 4. Proto.io · 5. Balsamiq · 6. Axure RP · 7. Lucidchart · 8. Miro. Read more",
+      "pre_snippet": "02/24/2025 00:00:00",
+      "highlighted": [
+        "1. Convert Experiences"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.convert.com/blog/optimization-tools/ux-tools/#:~:text=18%20Best%20UX%20Tools%20in,2026&text=1.%20Convert%20Experiences&text=2.%20Figma&text=3.%20Sketch&text=4.%20Proto.io&text=5.%20Balsamiq&text=6.%20Axure%20RP&text=7.%20Lucidchart&text=8.%20Miro",
+          "domain": "www.convert.com"
+        }
+      ],
+      "timestamp": "2025-02-24 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "careerkarma.com",
+      "title": "The Ultimate List of UX Designer Tools",
+      "url": "https://careerkarma.com/blog/ux-designer-tools/",
+      "breadcrumb": "https://careerkarma.com › Blog › Tech Tools",
+      "website_name": "Career Karma",
+      "description": "Oct 19, 2020 — UX tools are digital tools employed by website, app, and product designers at various stages of their work to create usable websites, apps, and ...",
+      "pre_snippet": "10/19/2020 00:00:00",
+      "highlighted": [
+        "UX tools"
+      ],
+      "timestamp": "2020-10-19 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "UX tools list",
+        "Best ux tools",
+        "UI/UX tools free",
+        "Best app for UI/UX design free",
+        "UI design tools free open-source",
+        "UI design tool free",
+        "UI design tools list",
+        "UI UX design free download"
+      ]
+    }
+  ]
+}

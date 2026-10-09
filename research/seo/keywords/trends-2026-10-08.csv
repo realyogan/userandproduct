@@ -1,0 +1,75 @@
+keyword,unit_id,avg_first_year,avg_last_year,trend_5y,direction,peak_month,trends_12m,group,note
+agile methodology,u01;u02,12.3,29.4,2.39,rising,2026-06,4.71,1,group 1 (values relative within the group only)
+agile project management,u03,8.6,7.6,0.88,flat,2022-02,0.80,1,group 1 (values relative within the group only)
+safe agile framework,u04,3.2,1.0,0.31,falling,2022-01,,15,group 15 (values relative within the group only); re-pulled (first group 1 was too small to read)
+agile scrum,u05,15.4,8.2,0.54,falling,2023-01,0.99,1,group 1 (values relative within the group only)
+agile manifesto,u06,3.8,1.8,0.47,falling,2022-01,1.10,1,group 1 (values relative within the group only)
+accessibility,u07;u08,6.9,20.2,2.94,rising,2026-02,1.36,2,group 2 (values relative within the group only)
+accessibility 508,u09,1.2,4.4,3.78,rising,2023-01,2.78,15,group 15 (values relative within the group only); re-pulled (first group 2 was too small to read)
+web content accessibility,u10,0.7,4.8,6.50,rising,2026-05,1.18,15,"group 15 (values relative within the group only); first-year average under 1, ratio exaggerated; re-pulled (first group 2 was too small to read)"
+accessibility checker,u11,1.8,3.4,1.91,rising,2022-12,0.83,16,group 16 (values relative within the group only); re-pulled (first group 2 was too small to read)
+analytics,u12,44.8,69.6,1.55,rising,2026-02,0.99,2,group 2 (values relative within the group only)
+project management,u13,48.4,68.5,1.41,rising,2026-02,1.19,3,group 3 (values relative within the group only)
+user testing,u14;u17,2.3,4.5,1.95,rising,2026-05,0.95,3,group 3 (values relative within the group only)
+closed-ended questions in research,u15,0.0,0.0,,too small,2021-09,,3,group 3 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+user interviews,u16,1.5,1.5,1.01,flat,2022-08,1.35,3,group 3 (values relative within the group only)
+ux research,u18,1.7,2.8,1.61,rising,2025-07,1.21,3,group 3 (values relative within the group only)
+ui ux design,u19,2.0,3.7,1.81,rising,2025-07,1.02,4,group 4 (values relative within the group only)
+marketing funnel,u20,1.7,2.6,1.54,rising,2025-09,0.84,4,group 4 (values relative within the group only)
+product management,u21;u22,15.1,58.0,3.84,rising,2026-06,0.92,4,group 4 (values relative within the group only)
+product life cycle,u23,3.1,3.2,1.05,flat,2022-10,0.50,4,group 4 (values relative within the group only)
+okr,u24;u25,6.6,5.5,0.83,flat,2022-06,0.96,4,group 4 (values relative within the group only)
+kpi examples,u26,2.6,3.3,1.29,rising,2025-07,0.55,5,group 5 (values relative within the group only)
+design thinking,u27;u28,19.2,42.2,2.20,rising,2026-02,1.67,5,group 5 (values relative within the group only)
+design thinking process,u29,2.3,18.1,7.70,rising,2026-06,4.17,5,group 5 (values relative within the group only)
+pricing strategy,u30;u31,11.0,53.7,4.89,rising,2026-02,0.99,5,group 5 (values relative within the group only)
+dynamic pricing,u32,3.5,37.6,10.69,rising,2026-03,1.43,5,group 5 (values relative within the group only)
+amazon pricing strategy,u33,0.0,6.4,167.50,rising,2026-02,0.71,6,"group 6 (values relative within the group only); first-year average under 1, ratio exaggerated"
+prioritization,u34;u35,26.3,61.8,2.35,rising,2026-02,1.03,6,group 6 (values relative within the group only)
+moscow prioritization,u36,0.0,0.6,,too small,2025-04,,6,group 6 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+task prioritization,u37,0.1,3.0,52.00,rising,2026-02,0.69,6,"group 6 (values relative within the group only); first-year average under 1, ratio exaggerated"
+user stories,u38;u40,19.2,27.3,1.42,rising,2025-08,0.74,6,group 6 (values relative within the group only)
+user stories template,u39,0.0,0.0,,too small,2021-09,,7,group 7 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+acceptance criteria for user stories examples,u41,0.0,0.0,,too small,2021-09,,7,group 7 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+website design,u42,14.9,43.1,2.89,rising,2026-06,1.94,7,group 7 (values relative within the group only)
+customer journey map,u43;u44,7.1,5.8,0.82,flat,2025-05,1.04,15,group 15 (values relative within the group only); re-pulled (first group 7 was too small to read)
+user persona,u45,1.4,2.8,1.96,rising,2026-05,1.09,16,group 16 (values relative within the group only); re-pulled (first group 7 was too small to read)
+a/b testing,u46;u47,1.8,4.5,2.47,rising,2026-03,0.72,8,group 8 (values relative within the group only)
+a/b testing tools,u48,0.6,18.9,33.90,rising,2025-09,0.16,18,"group 18 (values relative within the group only); first-year average under 1, ratio exaggerated; re-pulled (first group 8 was too small to read)"
+a/b testing landing pages,u49,0.0,0.0,,too small,2021-09,,8,group 8 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+design system,u50;u52,14.7,50.3,3.44,rising,2026-04,1.41,8,group 8 (values relative within the group only)
+breadcrumbs ui,u51,0.0,0.0,,too small,2021-09,,8,group 8 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+product requirements document,u53,0.5,4.0,8.40,rising,2025-11,0.72,9,"group 9 (values relative within the group only); first-year average under 1, ratio exaggerated"
+4 ps of marketing,u54,4.1,3.4,0.84,flat,2022-11,0.42,9,group 9 (values relative within the group only)
+customer retention,u55;u58,10.6,36.3,3.44,rising,2026-06,1.19,9,group 9 (values relative within the group only)
+calculate retention rate,u56,19.6,15.8,0.81,flat,2023-09,0.40,17,group 17 (values relative within the group only); re-pulled (first group 9 was too small to read)
+retention rate,u57,15.7,52.2,3.33,rising,2026-03,1.22,9,group 9 (values relative within the group only)
+product manager,u59;u61,26.1,42.5,1.63,rising,2026-05,1.16,10,group 10 (values relative within the group only)
+product owner,u60,6.0,14.4,2.38,rising,2026-06,1.31,10,group 10 (values relative within the group only)
+change management,u62;u63,17.0,51.8,3.04,rising,2026-02,1.16,10,group 10 (values relative within the group only)
+stakeholder management,u64,1.0,3.3,3.35,rising,2026-02,1.15,10,group 10 (values relative within the group only)
+product development,u65;u67,9.8,31.0,3.17,rising,2026-02,0.90,10,group 10 (values relative within the group only)
+product market fit,u66,3.1,8.0,2.60,rising,2025-11,0.73,11,group 11 (values relative within the group only)
+mvp minimum viable product,u68,4.7,10.7,2.29,rising,2023-03,0.78,17,group 17 (values relative within the group only); re-pulled (first group 11 was too small to read)
+product roadmap,u69,7.1,36.2,5.11,rising,2026-02,2.58,11,group 11 (values relative within the group only)
+information architecture,u70,6.8,31.4,4.60,rising,2026-06,1.89,11,group 11 (values relative within the group only)
+ux design tools,u71,0.2,2.6,14.89,rising,2025-09,0.37,11,"group 11 (values relative within the group only); first-year average under 1, ratio exaggerated"
+product management tools,u72,1.2,13.7,11.47,rising,2025-09,0.30,12,group 12 (values relative within the group only)
+prototyping tools,u73,0.6,18.8,30.50,rising,2026-02,4.59,12,"group 12 (values relative within the group only); first-year average under 1, ratio exaggerated"
+design books,u74,14.5,53.1,3.67,rising,2026-02,1.32,12,group 12 (values relative within the group only)
+graphic design books,u75,0.8,2.1,2.68,rising,2026-02,0.81,12,"group 12 (values relative within the group only); first-year average under 1, ratio exaggerated"
+product management books,u76,0.3,3.5,11.38,rising,2026-02,0.62,12,"group 12 (values relative within the group only); first-year average under 1, ratio exaggerated"
+ux books,u77,3.2,10.3,3.18,rising,2025-07,0.95,13,group 13 (values relative within the group only)
+user story template,u78,2.8,1.3,0.47,falling,2025-09,0.00,13,group 13 (values relative within the group only)
+agile user story template,u79,0.1,0.0,,too small,2022-07,,13,group 13 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+product roadmap template,u80,2.1,2.0,0.93,flat,2026-04,0.69,13,group 13 (values relative within the group only)
+sample size calculator,u81,54.3,22.1,0.41,falling,2022-03,0.58,13,group 13 (values relative within the group only)
+power analysis sample size calculator,u82,6.0,0.1,0.01,falling,2022-08,,14,group 14 (values relative within the group only)
+sample size calculator for survey,u83,0.8,0.0,,too small,2023-11,,14,group 14 (values relative within the group only); both yearly averages under 1 (too small a share of the group to read)
+statistical sample size calculator,u84,2.7,1.2,0.43,falling,2025-08,,14,group 14 (values relative within the group only)
+principles of design,u85,8.5,23.1,2.73,rising,2026-02,1.09,19,group 19 (values relative within the group only); phase4b
+customer experience,u90,25.8,57.0,2.21,rising,2026-07,1.14,19,group 19 (values relative within the group only); phase4b
+ai for product managers,u86;u88,0.0,1.3,,rising,2025-09,0.52,19,group 19 (values relative within the group only); phase4b; first-year average 0
+ai powered design tools,u87,0.0,0.0,,too small,2021-09,,20,group 20 (values relative within the group only); phase4b; both yearly averages under 1 (too small a share of the group to read)
+marketing research,u89,8.6,37.5,4.37,rising,2026-06,1.30,20,group 20 (values relative within the group only); phase4b
+ux writing,u91,16.7,24.9,1.50,rising,2025-07,0.79,21,group 21 (values relative within the group only); phase4b; re-pulled (first group 20 was too small to read)

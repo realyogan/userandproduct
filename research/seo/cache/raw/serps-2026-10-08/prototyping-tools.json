@@ -1,0 +1,550 @@
+{
+  "id": "10081545-2633-0066-0000-dc2bfb829fcd",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![8 Best Prototyping Tools for UX Designers in 2026 | IxDF](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dc2bfb829fcd:4)\nPrototyping tools `turn static design screens or text prompts into interactive models that simulate how a digital product works`.[[1]](https://www.figma.com/resource-library/ai-prototyping-tools/)[[2]](https://www.awesomic.com/blog/prototyping-tools)\n\nThe modern landscape splits into traditional interactive software (linking screens and states) and AI-assisted builders (generating functional code from prompts).[[1]](https://www.awesomic.com/blog/prototyping-tools)\n\n### Top Interactive & Design-System Tools\n\n- **[Figma](https://www.figma.com/prototyping/)** : The industry standard for combining vector design, collaborative wireframing, interactive prototyping (variables, conditional logic), and developer handoff in one platform. Free starter tiers are available, with paid seats starting around $16/month.[[1]](https://webflow.com/blog/prototyping-tools)[[2]](https://www.figma.com/prototyping/)[[3]](https://ixdf.org/literature/article/best-prototyping-tools)\n- **Axure RP** : Best for complex, data-heavy, and logic-driven web applications needing dynamic panels and advanced conditional behavior. Paid plans start at $29/user/month.[[1]](https://www.reddit.com/r/FigmaDesign/comments/uhzzt7/prototyping_tools_better_than_figma/)[[2]](https://www.awesomic.com/blog/prototyping-tools)[[3]](https://ixdf.org/literature/article/best-prototyping-tools)\n- **ProtoPie** : Excellent for multi-device, hardware, and advanced sensor-based interactions (using camera or gyroscope triggers). Offers a free tier with advanced features on paid upgrades.[[1]](https://www.awesomic.com/blog/prototyping-tools)\n- **UXPin** : Integrates design systems directly with production code components via its Merge technology, bridging design and engineering. Paid seat pricing starts at $29/seat/month.[[1]](https://ixdf.org/literature/article/best-prototyping-tools)[[2]](https://www.awesomic.com/blog/prototyping-tools)\n\n### Top AI Prototyping & Code-Generating Tools\n\n- **[Lovable](https://lovable.dev/)** / **Bolt** : Chat-to-build platforms that take natural language prompts and instantly generate fully functioning, live web applications with GitHub syncing. Both feature a $0 free entry tier.[[1]](https://www.figma.com/resource-library/ai-prototyping-tools/)[[2]](https://www.awesomic.com/blog/prototyping-tools)\n- **Figma Make** : An integrated AI generator built directly into Figma that turns text prompts into multi-screen interactive layouts and prototype logic.[[1]](https://www.figma.com/solutions/ai-prototype-generator/)[[2]](https://www.figma.com/resource-library/ai-prototyping-tools/)\n- **Magic Patterns** : Focused on front-end component generation from prompts, allowing real-time edits, device previews, and direct two-way GitHub or Figma export.[[1]](https://www.youtube.com/watch?v=PyBzrZIYe1g)\n\nIf you'd like to narrow down the best choice, tell me:\n\n- What is your **primary goal** (e.g., quick user testing, logic-heavy app simulation, or generating a coded MVP)?\n- Are you working **solo or collaborating** with a larger team?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Prototyping tools turn static design screens or text prompts into interactive models that simulate how a digital product works.",
+          "markdown": "![8 Best Prototyping Tools for UX Designers in 2026 | IxDF](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dc2bfb829fcd:2)\nPrototyping tools `turn static design screens or text prompts into interactive models that simulate how a digital product works`.[[1]](https://www.figma.com/resource-library/ai-prototyping-tools/)[[2]](https://www.awesomic.com/blog/prototyping-tools)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "8 Best Prototyping Tools for UX Designers in 2026 | IxDF",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dc2bfb829fcd:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/resource-library/ai-prototyping-tools/",
+              "title": "9 of the Best AI Prototyping Tools for Product Teams",
+              "text": "Read on to learn: A breakdown of 9 tools across the full fidelity spectrum How to choose the right tool for your team's needs AI p..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Awesomic",
+              "domain": "www.awesomic.com",
+              "url": "https://www.awesomic.com/blog/prototyping-tools",
+              "title": "9 Best Prototyping Tools in 2026",
+              "text": "9 Best Prototyping Tools in 2026. ... Key takeaways: * Prototyping tools now come in two kinds: interactive tools that link screen..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "The modern landscape splits into traditional interactive software (linking screens and states) and AI-assisted builders (generating functional code from prompts).",
+          "markdown": "The modern landscape splits into traditional interactive software (linking screens and states) and AI-assisted builders (generating functional code from prompts).[[1]](https://www.awesomic.com/blog/prototyping-tools)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Awesomic",
+              "domain": "www.awesomic.com",
+              "url": "https://www.awesomic.com/blog/prototyping-tools",
+              "title": "9 Best Prototyping Tools in 2026",
+              "text": "9 Best Prototyping Tools in 2026. ... Key takeaways: * Prototyping tools now come in two kinds: interactive tools that link screen..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Top Interactive & Design-System Tools",
+          "text": "Figma : The industry standard for combining vector design, collaborative wireframing, interactive prototyping (variables, conditional logic), and developer handoff in one platform. Free starter tiers are available, with paid seats starting around $16/month. Axure RP : Best for complex, data-heavy, and logic-driven web applications needing dynamic panels and advanced conditional behavior. Paid plans start at $29/user/month. ProtoPie : Excellent for multi-device, hardware, and advanced sensor-based interactions (using camera or gyroscope triggers). Offers a free tier with advanced features on paid upgrades. UXPin : Integrates design systems directly with production code components via its Merge technology, bridging design and engineering. Paid seat pricing starts at $29/seat/month.",
+          "markdown": "- **[Figma](https://www.figma.com/prototyping/)** : The industry standard for combining vector design, collaborative wireframing, interactive prototyping (variables, conditional logic), and developer handoff in one platform. Free starter tiers are available, with paid seats starting around $16/month.[[1]](https://webflow.com/blog/prototyping-tools)[[2]](https://www.figma.com/prototyping/)[[3]](https://ixdf.org/literature/article/best-prototyping-tools)\n- **Axure RP** : Best for complex, data-heavy, and logic-driven web applications needing dynamic panels and advanced conditional behavior. Paid plans start at $29/user/month.[[1]](https://www.reddit.com/r/FigmaDesign/comments/uhzzt7/prototyping_tools_better_than_figma/)[[2]](https://www.awesomic.com/blog/prototyping-tools)[[3]](https://ixdf.org/literature/article/best-prototyping-tools)\n- **ProtoPie** : Excellent for multi-device, hardware, and advanced sensor-based interactions (using camera or gyroscope triggers). Offers a free tier with advanced features on paid upgrades.[[1]](https://www.awesomic.com/blog/prototyping-tools)\n- **UXPin** : Integrates design systems directly with production code components via its Merge technology, bridging design and engineering. Paid seat pricing starts at $29/seat/month.[[1]](https://ixdf.org/literature/article/best-prototyping-tools)[[2]](https://www.awesomic.com/blog/prototyping-tools)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Figma",
+              "url": "https://www.figma.com/prototyping/",
+              "domain": "www.figma.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Webflow",
+              "domain": "webflow.com",
+              "url": "https://webflow.com/blog/prototyping-tools",
+              "title": "9 website prototyping tools for UX and UI designers",
+              "text": "Cost. 9 prototyping tools for UI/UX designers Here are nine examples of strong prototyping tools that cover everything from simple..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/prototyping/",
+              "title": "Free Prototyping Tool: Build Interactive Prototype Designs | Figma",
+              "text": "- Figma: design/prototyping tool for web/mobile interfaces. - Features: no-code interactive prototypes, variables, conditional log..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "IxDF",
+              "domain": "ixdf.org",
+              "url": "https://ixdf.org/literature/article/best-prototyping-tools",
+              "title": "8 Best Prototyping Tools for UX Designers in 2026",
+              "text": "Table_title: 8 Best Prototyping Tools for UX Designers in 2026 Table_content: | Name | Features | Best for | Ease of use | Free/Pa..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/FigmaDesign/comments/uhzzt7/prototyping_tools_better_than_figma/",
+              "title": "Prototyping tools better than Figma?.. : r/FigmaDesign - Reddit",
+              "text": "High-Fidelity Prototyping Needs: For high-fidelity prototypes, particularly in large companies or for applications requiring compl..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Awesomic",
+              "domain": "www.awesomic.com",
+              "url": "https://www.awesomic.com/blog/prototyping-tools",
+              "title": "9 Best Prototyping Tools in 2026",
+              "text": "9 Best Prototyping Tools in 2026. ... Key takeaways: * Prototyping tools now come in two kinds: interactive tools that link screen..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Top AI Prototyping & Code-Generating Tools",
+          "text": "Lovable / Bolt : Chat-to-build platforms that take natural language prompts and instantly generate fully functioning, live web applications with GitHub syncing. Both feature a $0 free entry tier. Figma Make : An integrated AI generator built directly into Figma that turns text prompts into multi-screen interactive layouts and prototype logic. Magic Patterns : Focused on front-end component generation from prompts, allowing real-time edits, device previews, and direct two-way GitHub or Figma export.",
+          "markdown": "- **[Lovable](https://lovable.dev/)** / **Bolt** : Chat-to-build platforms that take natural language prompts and instantly generate fully functioning, live web applications with GitHub syncing. Both feature a $0 free entry tier.[[1]](https://www.figma.com/resource-library/ai-prototyping-tools/)[[2]](https://www.awesomic.com/blog/prototyping-tools)\n- **Figma Make** : An integrated AI generator built directly into Figma that turns text prompts into multi-screen interactive layouts and prototype logic.[[1]](https://www.figma.com/solutions/ai-prototype-generator/)[[2]](https://www.figma.com/resource-library/ai-prototyping-tools/)\n- **Magic Patterns** : Focused on front-end component generation from prompts, allowing real-time edits, device previews, and direct two-way GitHub or Figma export.[[1]](https://www.youtube.com/watch?v=PyBzrZIYe1g)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Lovable",
+              "url": "https://lovable.dev/",
+              "domain": "lovable.dev"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/resource-library/ai-prototyping-tools/",
+              "title": "9 of the Best AI Prototyping Tools for Product Teams",
+              "text": "Read on to learn: A breakdown of 9 tools across the full fidelity spectrum How to choose the right tool for your team's needs AI p..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Awesomic",
+              "domain": "www.awesomic.com",
+              "url": "https://www.awesomic.com/blog/prototyping-tools",
+              "title": "9 Best Prototyping Tools in 2026",
+              "text": "9 Best Prototyping Tools in 2026. ... Key takeaways: * Prototyping tools now come in two kinds: interactive tools that link screen..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/solutions/ai-prototype-generator/",
+              "title": "Your AI prototype generator, in Figma Make",
+              "text": "FAQs * What is an AI prototype generator? An AI prototype generator lets you create working prototypes by describing what you want..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=PyBzrZIYe1g",
+              "title": "The Text-to-UI AI Prototyping Tool: Magic Patterns",
+              "text": "what if you could take a product idea from concept to prototype in minutes instead of days today I'm going to be exploring magic p..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like to narrow down the best choice, tell me:What is your primary goal (e.g., quick user testing, logic-heavy app simulation, or generating a coded MVP)?\nAre you working solo or collaborating with a larger team?",
+          "markdown": "If you'd like to narrow down the best choice, tell me:\n\n- What is your **primary goal** (e.g., quick user testing, logic-heavy app simulation, or generating a coded MVP)?\n- Are you working **solo or collaborating** with a larger team?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/FigmaDesign/comments/uhzzt7/prototyping_tools_better_than_figma/",
+          "title": "Prototyping tools better than Figma?.. : r/FigmaDesign - Reddit",
+          "text": "High-Fidelity Prototyping Needs: For high-fidelity prototypes, particularly in large companies or for applications requiring compl..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Webflow",
+          "domain": "webflow.com",
+          "url": "https://webflow.com/blog/prototyping-tools",
+          "title": "9 website prototyping tools for UX and UI designers",
+          "text": "Cost. 9 prototyping tools for UI/UX designers Here are nine examples of strong prototyping tools that cover everything from simple..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Figma",
+          "domain": "www.figma.com",
+          "url": "https://www.figma.com/prototyping/",
+          "title": "Free Prototyping Tool: Build Interactive Prototype Designs | Figma",
+          "text": "- Figma: design/prototyping tool for web/mobile interfaces. - Features: no-code interactive prototypes, variables, conditional log..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Figma",
+          "domain": "www.figma.com",
+          "url": "https://www.figma.com/resource-library/ai-prototyping-tools/",
+          "title": "9 of the Best AI Prototyping Tools for Product Teams",
+          "text": "Read on to learn: A breakdown of 9 tools across the full fidelity spectrum How to choose the right tool for your team's needs AI p..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "IxDF",
+          "domain": "ixdf.org",
+          "url": "https://ixdf.org/literature/article/best-prototyping-tools",
+          "title": "8 Best Prototyping Tools for UX Designers in 2026",
+          "text": "Table_title: 8 Best Prototyping Tools for UX Designers in 2026 Table_content: | Name | Features | Best for | Ease of use | Free/Pa..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Figma",
+          "domain": "www.figma.com",
+          "url": "https://www.figma.com/solutions/ai-prototype-generator/",
+          "title": "Your AI prototype generator, in Figma Make",
+          "text": "FAQs * What is an AI prototype generator? An AI prototype generator lets you create working prototypes by describing what you want..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=PyBzrZIYe1g",
+          "title": "The Text-to-UI AI Prototyping Tool: Magic Patterns",
+          "text": "what if you could take a product idea from concept to prototype in minutes instead of days today I'm going to be exploring magic p..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Awesomic",
+          "domain": "www.awesomic.com",
+          "url": "https://www.awesomic.com/blog/prototyping-tools",
+          "title": "9 Best Prototyping Tools in 2026",
+          "text": "9 Best Prototyping Tools in 2026. ... Key takeaways: * Prototyping tools now come in two kinds: interactive tools that link screen..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Which prototyping tools are capable of creating something ...",
+      "url": "https://www.reddit.com/r/UI_Design/comments/rrbrk3/which_prototyping_tools_are_capable_of_creating/",
+      "breadcrumb": "30+ comments  ·  4 years ago",
+      "website_name": "Reddit · r/UI_Design",
+      "description": "Origami has a Figma plugin that lets you copy files over. Framer's good for this sort of thing. All of the swipe and carousel things are ...",
+      "highlighted": [
+        "Origami has a Figma plugin that lets you copy files over"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "What's a good prototyping tool that can create something ...",
+          "url": "https://www.reddit.com/r/userexperience/comments/112qlfm/whats_a_good_prototyping_tool_that_can_create/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Prototyping: What tool would be best to achieve this type ...",
+          "url": "https://www.reddit.com/r/UXDesign/comments/15cou7b/prototyping_what_tool_would_be_best_to_achieve/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=prototyping+tools+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuwPlYa6f0_ho5TwP8ZHanzmTxUdg:1791474340652&sa=X&ved=2ahUKEwjf_Mr94aqXAxVOpZUCHT-iBAcQrQIoAnoECCwQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are prototyping tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best tool for prototyping?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the three types of prototypes?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are some free prototyping tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "bilt.me",
+      "title": "9 Best AI Prototyping Tools in 2026, Compared by Output",
+      "url": "https://bilt.me/blog/best-ai-prototyping-tools",
+      "breadcrumb": "https://bilt.me › blog › best-ai-prototyping-tools",
+      "website_name": "bilt.me",
+      "description": "Aug 13, 2026 — The 9 tools · 1. Bilt ✨ · 2. Figma Make · 3. v0 by Vercel · 4. Replit Agent · 5. Relume AI · 6. Framer AI · 7. UX Pilot AI UI Generator · 8. Read more",
+      "pre_snippet": "08/13/2026 00:00:00",
+      "highlighted": [
+        "1. Bilt ✨"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://bilt.me/blog/best-ai-prototyping-tools#:~:text=The%209%20tools&text=1.%20Bilt%20%E2%9C%A8&text=2.%20Figma%20Make&text=3.%20v0%20by%20Vercel&text=4.%20Replit%20Agent&text=5.%20Relume%20AI&text=6.%20Framer%20AI&text=7.%20UX%20Pilot%20AI%20UI,Generator&text=8.%20Stitch%20by%20Google",
+          "domain": "bilt.me"
+        }
+      ],
+      "timestamp": "2026-08-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.testingtime.com",
+      "title": "13 best UX design and prototyping tools and apps for 2024",
+      "url": "https://www.testingtime.com/en/blog/13-best-ux-design-prototyping-tools-and-apps-for-2024/",
+      "breadcrumb": "https://www.testingtime.com › TestingTime › UX Blog",
+      "website_name": "TestingTime",
+      "description": "Nov 26, 2023 — 1. Figma – The collaborative unicorn 2. Sketch – The mac designer's ally 3. Adobe XD – The comprehensive creative suite 4. InVision – The ...",
+      "pre_snippet": "11/26/2023 00:00:00",
+      "highlighted": [
+        "1. Figma – The collaborative unicorn"
+      ],
+      "timestamp": "2023-11-26 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "blog.logrocket.com",
+      "title": "The 7 best tools for rapid prototyping",
+      "url": "https://blog.logrocket.com/the-7-best-tools-for-rapid-prototyping/",
+      "breadcrumb": "https://blog.logrocket.com › the-7-best-tools-for-rapid-...",
+      "website_name": "LogRocket Blog",
+      "description": "Sep 18, 2020 — Read up on the best features of InVision, Framer, AdobeXD, and four other popular rapid prototyping solutions to find the best fit for you.",
+      "pre_snippet": "09/18/2020 00:00:00",
+      "highlighted": [
+        "InVision, Framer, AdobeXD"
+      ],
+      "timestamp": "2020-09-18 00:00:00 +00:00"
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Best prototyping tools and resources for learning them",
+          "url": "https://www.reddit.com/r/UXDesign/comments/b5wsn4/best_prototyping_tools_and_resources_for_learning/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2019-10-08 15:45:41 +00:00",
+          "posts_count": 4
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "What is best UI prototyping tool on the market?",
+          "url": "https://www.quora.com/What-is-best-UI-prototyping-tool-on-the-market",
+          "domain": "www.quora.com",
+          "source": "Quora",
+          "timestamp": "2019-10-08 15:45:41 +00:00",
+          "posts_count": 50
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "How do I choose the right prototyping tool?",
+          "url": "https://www.quora.com/How-do-I-choose-the-right-prototyping-tool",
+          "domain": "www.quora.com",
+          "source": "Quora",
+          "timestamp": "2017-10-08 15:45:41 +00:00",
+          "posts_count": 30
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuwPlYa6f0_ho5TwP8ZHanzmTxUdg:1791474340652&q=prototyping+tools&udm=2&source=univ&fir=bxV8k_7BK8THgM%252CKQ-TUlhlrcNO-M%252C_%253BD-abqkFKu3RvcM%252CBMf0eKwaBDtZnM%252C_%253BoOLXtEe2a4JaYM%252CWLEJKbVvb4SKcM%252C_%253Bq1HWwMii-llOaM%252CnUD_coF90B4yUM%252C_%253BhE9LEkpMCtOOwM%252CFkDITICu0WCOwM%252C_%253Bf8Fl1WPuXsYmPM%252CQ2IK3Vg4-a3pKM%252C_%253BpktRskuPEGWtEM%252C2U7R5poSVpXFLM%252C_%253Bs2BO9MU2yyXyhM%252C9xH7cVExljjKaM%252C_%253B_kmDVVERKWUEaM%252Cv_nmaDRPWwk31M%252C_&usg=AI4_-kSuJfyzVH60mwbixCzysZiiXnMR_g&sa=X&ved=2ahUKEwjf_Mr94aqXAxVOpZUCHT-iBAcQ7Al6BAhUEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Best Prototyping Tools in 2024",
+          "url": "https://www.protopie.io/blog/best-prototyping-tools",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsK7CRak2hHKC77ODccieKzDZGf6cBxU26bmbHRcc82D0G2dkmi7RHgRo&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Medium",
+          "url": "https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-used-1c804fab33a6",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxqGfLZ9dRBItjyJuJ5DFVwKw_gLDz0MJLY0_mnc5fpfceVGiC3RNAc30&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "8 Best Prototyping Tools for UX Designers in 2026 | IxDF",
+          "url": "https://ixdf.org/literature/article/best-prototyping-tools",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66KYccpVdva_6Eo4AtujoqdAQSW7H3if1v8rriCEOiGEs1JMv639C3bs&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 3 prototyping tools for UX in 2020",
+          "url": "https://www.linkedin.com/pulse/top-3-prototyping-tools-ux-2020-marek-detko",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRpQneIrMMkvsy4Fl0EPaDOHq_59_muHDIXRT5O431cieNiKHmCdQe5iQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 28 Tools for Mobile App Prototyping",
+          "url": "https://appinventiv.com/blog/top-mobile-app-prototyping-tools/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_G9QhRvU3BQe4DD1GL4wCc2wyHY6eMgvrR48pyUQ6wr_D5ZqyvJDbiA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "AI Prototyping: The Ultimate Guide For Product Managers",
+          "url": "https://www.productcompass.pm/p/ai-prototyping-the-ultimate-guide",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChMlTxx6V61d5BDFwQWLjmkPzpNsocRR7nwcAqeAz4GKgM9vLrFv3ScM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX prototyping tools: How to pick the right one - VAEXPERIENCE",
+          "url": "https://blog.vaexperience.com/ux-prototyping-tools-how-to-pick-the-right-one/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDwj4OnVybAxraB86J2x-0s5MxSTDPHppsunCI4ZyYFTAvAWRBtxo35M&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The 10 best UX prototyping tools for UX designers [2025 Update]",
+          "url": "https://www.uxdesigninstitute.com/blog/best-prototyping-tools-for-ux-designers/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6SwLQvv0jsPj5SGZFzgj6AQAjD4EsagfTLUnEWylOKlYotyLsWg5QcOs&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Free design and prototyping tool for web & mobile apps",
+          "url": "https://www.justinmind.com/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_NkfldNu95aWSmix5CG0TUpQlMddYF9dmB9VWENnq43Vm8XNHMQ-r4ic&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "How to choose the right prototyping tool",
+      "url": "https://medium.com/@andreas.johansson.dev/how-to-choose-the-right-prototyping-tool-a2df66164795",
+      "breadcrumb": "8 years ago",
+      "website_name": "Medium · Andreas Johansson",
+      "description": "Are you going to create static mockups / screens? Then you might be better off with a tool like Adobe Illustrator or Sketch. 2: Decide which ...",
+      "highlighted": [
+        "Adobe Illustrator or Sketch"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.sitepoint.com",
+      "title": "What prototyping tools do you usually use? - Design & UX",
+      "url": "https://www.sitepoint.com/community/t/what-prototyping-tools-do-you-usually-use/234592",
+      "breadcrumb": "https://www.sitepoint.com › community › what-prototypi...",
+      "website_name": "SitePoint",
+      "description": "Aug 24, 2016 — In general, we are using the following prototyping tools: Adobe Comp - free. Invision - Free. Easee - trail is free then (unlimited $10 per ... Read more",
+      "pre_snippet": "08/24/2016 00:00:00",
+      "highlighted": [
+        "Adobe Comp - free"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.sitepoint.com/community/t/what-prototyping-tools-do-you-usually-use/234592#:~:text=In%20general%2C%20we%20are%20using,then%20(unlimited%20%2410%20per%20month)",
+          "domain": "www.sitepoint.com"
+        }
+      ],
+      "timestamp": "2016-08-24 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "ux.stackexchange.com",
+      "title": "Which prototyping tools? - wireframe",
+      "url": "https://ux.stackexchange.com/questions/831/which-prototyping-tools",
+      "breadcrumb": "https://ux.stackexchange.com › questions › which-proto...",
+      "website_name": "User Experience Stack Exchange",
+      "description": "Aug 25, 2010 — As it currently stands, this question is not a good fit for our Q&A format. We expect answers to be supported by facts, references, or expertise, ...",
+      "pre_snippet": "08/25/2010 00:00:00",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "26 answers",
+          "url": "https://ux.stackexchange.com/a/887",
+          "domain": "ux.stackexchange.com"
+        }
+      ],
+      "timestamp": "2010-08-25 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Best prototyping tools",
+        "ProtoPie"
+      ]
+    }
+  ]
+}

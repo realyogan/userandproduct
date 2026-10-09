@@ -1,0 +1,505 @@
+{
+ "id": "10081545-2633-0066-0000-e567f0105749",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "Product metrics are `quantifiable data points that measure a product's performance, user behavior, and business success`.[[1]](https://www.atlassian.com/agile/product-management/product-metrics)[[2]](https://www.productplan.com/learn/product-metrics-matter)\n\n### Core Categories of Product Metrics\n\n- **Acquisition:** Tracks how many new users find and sign up for your product, alongside the [Customer Acquisition Cost](https://amplitude.com/blog/product-metrics-guide) (CAC).\n- **Activation:** Measures how fast users reach their \"aha moment\" and experience the product's core value for the first time.\n- **Engagement:** Monitors active usage via Daily, Weekly, or Monthly Active Users (DAU/WAU/MAU) and product \"stickiness\" (DAU/MAU ratio).\n- **Retention:** Counts the percentage of users who keep coming back over time versus those who leave (churn rate).\n- **Monetization:** Evaluates financial health through metrics like Monthly Recurring Revenue (MRR) and Customer Lifetime Value (LTV).[[1]](https://productschool.com/blog/analytics/metrics-product-management)[[2]](https://amplitude.com/blog/product-metrics-guide)[[3]](https://www.gainsight.com/essential-guide/product-management-metrics/)[[4]](https://www.heap.io/topics/product-metrics-kpis)\n\n### Best Practices for Tracking\n\n- **Focus on a North Star:** Align your team around one primary metric that captures core value delivery.\n- **Avoid Vanity Metrics:** Skip numbers that look impressive on paper (like total page views) but do not drive real action or revenue.\n- **Balance Leading and Lagging:** Pair short-term leading indicators (like feature adoption) with long-term lagging indicators (like revenue).[[1]](https://amplitude.com/blog/product-metrics-guide)[[2]](https://www.gainsight.com/essential-guide/product-management-metrics/)[[3]](https://www.productplan.com/learn/product-metrics-matter)[[4]](https://www.heap.io/topics/product-metrics-kpis)[[5]](https://www.glassbox.com/blog/product-metrics-kpis/)\n\nIf you want, tell me:\n\n- What is your **product type** (B2B SaaS, mobile app, e-commerce)?\n- What is your **current growth stage** (early-stage launch or scaling)?\n\nI can recommend a tailored list of key metrics for your specific project.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "Product metrics are quantifiable data points that measure a product's performance, user behavior, and business success.",
+     "markdown": "Product metrics are `quantifiable data points that measure a product's performance, user behavior, and business success`.[[1]](https://www.atlassian.com/agile/product-management/product-metrics)[[2]](https://www.productplan.com/learn/product-metrics-matter)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-metrics",
+       "title": "Product metrics | Atlassian",
+       "text": "What are product metrics? Product metrics are quantifiable measures that help teams assess the performance, usage, and overall suc..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/product-metrics-matter",
+       "title": "What Product Metrics Matter? | ProductPlan",
+       "text": "Definition: Quantifiable data points (conversion/churn rates, monthly recurring revenue) tracking product success and strategy ali..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Categories of Product Metrics",
+     "text": "Acquisition: Tracks how many new users find and sign up for your product, alongside the Customer Acquisition Cost (CAC). Activation: Measures how fast users reach their \"aha moment\" and experience the product's core value for the first time. Engagement: Monitors active usage via Daily, Weekly, or Monthly Active Users (DAU/WAU/MAU) and product \"stickiness\" (DAU/MAU ratio). Retention: Counts the percentage of users who keep coming back over time versus those who leave (churn rate). Monetization: Evaluates financial health through metrics like Monthly Recurring Revenue (MRR) and Customer Lifetime Value (LTV).",
+     "markdown": "- **Acquisition:** Tracks how many new users find and sign up for your product, alongside the [Customer Acquisition Cost](https://amplitude.com/blog/product-metrics-guide) (CAC).\n- **Activation:** Measures how fast users reach their \"aha moment\" and experience the product's core value for the first time.\n- **Engagement:** Monitors active usage via Daily, Weekly, or Monthly Active Users (DAU/WAU/MAU) and product \"stickiness\" (DAU/MAU ratio).\n- **Retention:** Counts the percentage of users who keep coming back over time versus those who leave (churn rate).\n- **Monetization:** Evaluates financial health through metrics like Monthly Recurring Revenue (MRR) and Customer Lifetime Value (LTV).[[1]](https://productschool.com/blog/analytics/metrics-product-management)[[2]](https://amplitude.com/blog/product-metrics-guide)[[3]](https://www.gainsight.com/essential-guide/product-management-metrics/)[[4]](https://www.heap.io/topics/product-metrics-kpis)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Customer Acquisition Cost",
+       "url": "https://amplitude.com/blog/product-metrics-guide",
+       "domain": "amplitude.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Product School",
+       "domain": "productschool.com",
+       "url": "https://productschool.com/blog/analytics/metrics-product-management",
+       "title": "20+ Key Metrics for Product Management",
+       "text": "20+ Key Metrics for Product Management. ... Data can be intimidating. It's a complicated process to get it right. As Jake Canaan, ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Amplitude",
+       "domain": "amplitude.com",
+       "url": "https://amplitude.com/blog/product-metrics-guide",
+       "title": "15 Important Product Metrics You Should Track",
+       "text": "Product metrics measure user interaction across five core lifecycle categories: acquisition, activation, engagement, retention, an..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Gainsight",
+       "domain": "www.gainsight.com",
+       "url": "https://www.gainsight.com/essential-guide/product-management-metrics/",
+       "title": "Product Management Metrics: Free Multi-Chapter Guide | Gainsight Software",
+       "text": "Product-level metrics: User retention (% returning users over time); Time to value (duration from purchase to value realization, a..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "www.heap.io",
+       "domain": "www.heap.io",
+       "url": "https://www.heap.io/topics/product-metrics-kpis",
+       "title": "Picking the Right Product Metrics to Track and Optimize | Heap",
+       "text": "Product Metrics: Data capturing user interactions with a digital product and their business impact, used to set roadmaps and measu..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Best Practices for Tracking",
+     "text": "Focus on a North Star: Align your team around one primary metric that captures core value delivery. Avoid Vanity Metrics: Skip numbers that look impressive on paper (like total page views) but do not drive real action or revenue. Balance Leading and Lagging: Pair short-term leading indicators (like feature adoption) with long-term lagging indicators (like revenue).",
+     "markdown": "- **Focus on a North Star:** Align your team around one primary metric that captures core value delivery.\n- **Avoid Vanity Metrics:** Skip numbers that look impressive on paper (like total page views) but do not drive real action or revenue.\n- **Balance Leading and Lagging:** Pair short-term leading indicators (like feature adoption) with long-term lagging indicators (like revenue).[[1]](https://amplitude.com/blog/product-metrics-guide)[[2]](https://www.gainsight.com/essential-guide/product-management-metrics/)[[3]](https://www.productplan.com/learn/product-metrics-matter)[[4]](https://www.heap.io/topics/product-metrics-kpis)[[5]](https://www.glassbox.com/blog/product-metrics-kpis/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Amplitude",
+       "domain": "amplitude.com",
+       "url": "https://amplitude.com/blog/product-metrics-guide",
+       "title": "15 Important Product Metrics You Should Track",
+       "text": "Product metrics measure user interaction across five core lifecycle categories: acquisition, activation, engagement, retention, an..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Gainsight",
+       "domain": "www.gainsight.com",
+       "url": "https://www.gainsight.com/essential-guide/product-management-metrics/",
+       "title": "Product Management Metrics: Free Multi-Chapter Guide | Gainsight Software",
+       "text": "Product-level metrics: User retention (% returning users over time); Time to value (duration from purchase to value realization, a..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/product-metrics-matter",
+       "title": "What Product Metrics Matter? | ProductPlan",
+       "text": "Definition: Quantifiable data points (conversion/churn rates, monthly recurring revenue) tracking product success and strategy ali..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "www.heap.io",
+       "domain": "www.heap.io",
+       "url": "https://www.heap.io/topics/product-metrics-kpis",
+       "title": "Picking the Right Product Metrics to Track and Optimize | Heap",
+       "text": "Product Metrics: Data capturing user interactions with a digital product and their business impact, used to set roadmaps and measu..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Glassbox",
+       "domain": "www.glassbox.com",
+       "url": "https://www.glassbox.com/blog/product-metrics-kpis/",
+       "title": "Product Metrics:15 essential metrics for product success - Glassbox",
+       "text": "With this in mind, measuring product success can include product metrics as one of many KPIs your company uses to assess its perfo..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you want, tell me:What is your product type (B2B SaaS, mobile app, e-commerce)?\nWhat is your current growth stage (early-stage launch or scaling)?\nI can recommend a tailored list of key metrics for your specific project.",
+     "markdown": "If you want, tell me:\n\n- What is your **product type** (B2B SaaS, mobile app, e-commerce)?\n- What is your **current growth stage** (early-stage launch or scaling)?\n\nI can recommend a tailored list of key metrics for your specific project."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Product School",
+     "domain": "productschool.com",
+     "url": "https://productschool.com/blog/analytics/metrics-product-management",
+     "title": "20+ Key Metrics for Product Management",
+     "text": "20+ Key Metrics for Product Management. ... Data can be intimidating. It's a complicated process to get it right. As Jake Canaan, ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Amplitude",
+     "domain": "amplitude.com",
+     "url": "https://amplitude.com/blog/product-metrics-guide",
+     "title": "15 Important Product Metrics You Should Track",
+     "text": "Product metrics measure user interaction across five core lifecycle categories: acquisition, activation, engagement, retention, an..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/agile/product-management/product-metrics",
+     "title": "Product metrics | Atlassian",
+     "text": "What are product metrics? Product metrics are quantifiable measures that help teams assess the performance, usage, and overall suc..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/learn/product-metrics-matter",
+     "title": "What Product Metrics Matter? | ProductPlan",
+     "text": "Definition: Quantifiable data points (conversion/churn rates, monthly recurring revenue) tracking product success and strategy ali..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Gainsight",
+     "domain": "www.gainsight.com",
+     "url": "https://www.gainsight.com/essential-guide/product-management-metrics/",
+     "title": "Product Management Metrics: Free Multi-Chapter Guide | Gainsight Software",
+     "text": "Product-level metrics: User retention (% returning users over time); Time to value (duration from purchase to value realization, a..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "www.heap.io",
+     "domain": "www.heap.io",
+     "url": "https://www.heap.io/topics/product-metrics-kpis",
+     "title": "Picking the Right Product Metrics to Track and Optimize | Heap",
+     "text": "Product Metrics: Data capturing user interactions with a digital product and their business impact, used to set roadmaps and measu..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Glassbox",
+     "domain": "www.glassbox.com",
+     "url": "https://www.glassbox.com/blog/product-metrics-kpis/",
+     "title": "Product Metrics:15 essential metrics for product success - Glassbox",
+     "text": "With this in mind, measuring product success can include product metrics as one of many KPIs your company uses to assess its perfo..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.atlassian.com",
+   "title": "Product metrics to track and how to analyze them",
+   "url": "https://www.atlassian.com/agile/product-management/product-metrics",
+   "breadcrumb": "https://www.atlassian.com › Agile › Product Management",
+   "website_name": "Atlassian",
+   "description": "Product metrics are quantifiable measures of product performance, usage, and success, guiding data-driven decisions. Key metrics include customer ... Read more",
+   "highlighted": [
+    "quantifiable measures of product performance, usage, and success"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.atlassian.com/agile/product-management/product-metrics#:~:text=Product%20metrics%20are%20quantifiable%20measures,rate%2C%20MRR%2C%20and%20activation%20rate.",
+     "domain": "www.atlassian.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 3,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "Resources for understanding product metrics?",
+   "url": "https://www.reddit.com/r/ProductManagement/comments/1896050/resources_for_understanding_product_metrics/",
+   "breadcrumb": "10+ comments  ·  2 years ago",
+   "website_name": "Reddit · r/ProductManagement",
+   "description": "Any good suggestions on the resources(books/videos/blogs) for in-depth understanding on how to decide on the product metrics/analytics at various stages ...",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "11 answers",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/1896050/resources_for_understanding_product_metrics/kbqck7h/",
+     "domain": "www.reddit.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "mixpanel.com",
+   "title": "Metrics for product management | Signals & Stories",
+   "url": "https://mixpanel.com/blog/product-management-metrics-and-analytics/",
+   "breadcrumb": "https://mixpanel.com › Signals & Stories",
+   "website_name": "Mixpanel",
+   "description": "Jul 7, 2025 — While active usage, reach, activation, engagement, conversion, and retention are widely considered to be top metrics used by leading product ... Read more",
+   "pre_snippet": "07/07/2025 00:00:00",
+   "highlighted": [
+    "active usage, reach, activation, engagement, conversion, and retention"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://mixpanel.com/blog/product-management-metrics-and-analytics/#:~:text=While%20active%20usage%2C%20reach%2C%20activation%2C,metrics%20used%20by%20leading%20product",
+     "domain": "mixpanel.com"
+    }
+   ],
+   "timestamp": "2025-07-07 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 5,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What are 5 examples of metrics to measure performance?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 5 key CX metrics?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 5 key performance indicators?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 5 key performance indicators for production?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "productschool.com",
+   "title": "20+ Key Metrics for Product Management",
+   "url": "https://productschool.com/blog/analytics/metrics-product-management",
+   "breadcrumb": "https://productschool.com › Blog › Analytics",
+   "website_name": "Product School",
+   "description": "Apr 3, 2024 — Discover 20+ essential product management metrics to optimize performance, enhance user experience, and drive growth.",
+   "pre_snippet": "04/03/2024 00:00:00",
+   "highlighted": [
+    "20+ essential product management metrics"
+   ],
+   "timestamp": "2024-04-03 00:00:00 +00:00"
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 7,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns2PlsJqrn7p8dgL8HJUIGLLrUWQQ:1791474362641&q=product+metrics&udm=2&source=univ&fir=09jHejaW5ErHfM%252CirGhlTkNYHRzXM%252C_%253BiXdeJowWWD8CeM%252CumP-VoLWQKeHRM%252C_%253BjiE5OT8yxjJPGM%252Co9HWhwH_A4N2KM%252C_%253BQtE5IT5dbJYoOM%252CCaCGo--Tp-LGcM%252C_%253Bwd0HNZpz7luzwM%252Crr_6uW5-cshJsM%252C_%253B4aTcEdZyYv2IOM%252CLzls5vR3HT2rlM%252C_%253B907PA8mh_ccNKM%252CHucLJKLZ5O1S9M%252C_%253BzH56Enlr6aonrM%252CEKW1m-xIXXoVDM%252C_%253BaMmadRQe3v45XM%252CHhSBGRizZv3gQM%252C_&usg=AI4_-kRvEHr3JqJ-E5MW6wMOrMyshoj72g&sa=X&ved=2ahUKEwiloomI4qqXAxXTgf0HHQfjJw8Q7Al6BAhFEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "Hierarchy of Product Metrics: What metrics should you care ...",
+     "url": "https://www.linkedin.com/pulse/hierarchy-product-metrics-luke-swartz-miywc",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e567f0105749:0"
+    },
+    {
+     "type": "images_element",
+     "alt": "Four Frameworks to Help You Define Product Metrics — Ant Murphy",
+     "url": "https://www.antmurphy.me/newsletter/four-frameworks-to-help-you-define-product-metrics",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e567f0105749:1"
+    },
+    {
+     "type": "images_element",
+     "alt": "A Guide to Product Metrics: How to build your own framework ...",
+     "url": "https://mixpanel.com/blog/product-metrics/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e567f0105749:2"
+    },
+    {
+     "type": "images_element",
+     "alt": "Medium",
+     "url": "https://huryn.medium.com/product-metrics-the-ultimate-guide-00e3201a6303",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWfObTeYgdOhKTLoRlxdiUFsjbPa0qRjdYKbRR9qBMPenBEJSF7pGjg0&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "71x product metrics cheat sheet | Leading product metrics ...",
+     "url": "https://www.hustlebadger.com/metrics/product-metrics/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxxJMmiT4PNb4_nh_RFSdtrzrazxQt0O6Ry1lShlDWc7hQMH4H0cBZkxQ&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Metrics in Software Engineering - GeeksforGeeks",
+     "url": "https://www.geeksforgeeks.org/software-engineering/product-metrics-in-software-engineering/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1CEeqiPuqddeDkRkmMkKayySW-Hu5sLlfffz2HECw22hmZsy0O02tUY&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Adopting a Product Metrics Framework | Gainsight Software",
+     "url": "https://www.gainsight.com/essential-guide/product-management-metrics/product-metrics-framework/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlVrrAdueje_BXa5rfl2OtPQbRv5fbXxfYe7kuwHD2kCwNMUeZgK5egLE&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "The Ultimate List of Product Metrics, Stage by Stage",
+     "url": "https://www.productcompass.pm/p/the-ultimate-list-of-product-metrics",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4lZRrbnu9zIFJoafjx1GBt75ydutER5Kq3SxD_kTRzhHhQp5ruhKRAig&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "11 Crucial Product Management Metrics and KPIs - Edureka",
+     "url": "https://www.edureka.co/blog/product-management-metrics",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fDGb_D_G5mLPECCFvfmopEcA5g5p8mYYxWtItqUCS2Jw1OZPbv97xRY&s"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "chartio.com",
+   "title": "Top 10 Product Metrics",
+   "url": "https://chartio.com/learn/product-analytics/top-product-metrics/",
+   "breadcrumb": "https://chartio.com › learn › product-analytics › top-prod...",
+   "website_name": "Chartio",
+   "description": "Product Economics · 1) Conversion rate · 2) New customer growth rate · 3) Churn · 4) Cost per acquisition · 5) Customer lifetime value. Customer lifetime value ... Read more",
+   "highlighted": [
+    "1) Conversion rate"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://chartio.com/learn/product-analytics/top-product-metrics/#:~:text=Product%20Economics&text=1)%20Conversion%20rate&text=2)%20New%20customer%20growth%20rate&text=3)%20Churn&text=4)%20Cost%20per%20acquisition&text=5)%20Customer%20lifetime%20value,is%20worth%20to%20the%20company.",
+     "domain": "chartio.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.gainsight.com",
+   "title": "Product Management Metrics: Free Multi-Chapter Guide",
+   "url": "https://www.gainsight.com/essential-guide/product-management-metrics/",
+   "breadcrumb": "https://www.gainsight.com › essential-guide › product-...",
+   "website_name": "Gainsight",
+   "description": "Product management metrics not only communicate the past performance of a product but also help steer its direction. Engagement metrics like adoption and ... Read more",
+   "highlighted": [
+    "Product management metrics"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.gainsight.com/essential-guide/product-management-metrics/#:~:text=Product%20management%20metrics%20not%20only,Engagement%20metrics%20like%20adoption%20and",
+     "domain": "www.gainsight.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "www.productplan.com",
+   "title": "What Product Metrics Matter?",
+   "url": "https://www.productplan.com/learn/product-metrics-matter",
+   "breadcrumb": "https://www.productplan.com › Learn",
+   "website_name": "ProductPlan",
+   "description": "Product metrics are quantifiable data points that a business tracks and analyzes to gauge the success of its product. Examples of product metrics include ... Read more",
+   "highlighted": [
+    "quantifiable data points that a business tracks and analyzes"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.productplan.com/learn/product-metrics-matter#:~:text=Product%20metrics%20are%20quantifiable%20data,rate%2C%20and%20monthly%20recurring%20revenue.",
+     "domain": "www.productplan.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "designlab.com",
+   "title": "Measuring What Matters: A Deep Dive Into Product Metrics",
+   "url": "https://designlab.com/blog/measuring-product-metrics",
+   "breadcrumb": "https://designlab.com › blog › measuring-product-metrics",
+   "website_name": "Designlab",
+   "description": "Sep 4, 2023 — Unlock the secrets to informed decision-making with our guide on selecting the perfect product metrics. Learn how to harness data for growth ... Read more",
+   "pre_snippet": "09/04/2023 00:00:00",
+   "highlighted": [
+    "selecting the perfect product metrics"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://designlab.com/blog/measuring-product-metrics#:~:text=Unlock%20the%20secrets%20to%20informed,data%20for%20growth%20and%20success.",
+     "domain": "designlab.com"
+    }
+   ],
+   "timestamp": "2023-09-04 00:00:00 +00:00"
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "items": [
+    "Product metrics examples",
+    "Product metrics in software engineering",
+    "Product metrics list",
+    "Product metrics framework",
+    "Product metrics template",
+    "Product metrics and KPIs",
+    "Product metrics Cheat Sheet",
+    "Product metric math"
+   ]
+  }
+ ]
+}

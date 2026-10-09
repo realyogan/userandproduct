@@ -1,0 +1,272 @@
+{
+ "id": "10081545-2633-0066-0000-866d93d4eb52",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "domain": "www.figma.com",
+   "title": "User Interview Template",
+   "url": "https://www.figma.com/community/file/1228716579119560483/user-interview-template",
+   "breadcrumb": "https://www.figma.com › community › file › user-inter...",
+   "website_name": "Figma",
+   "description": "Use this file to plan, take notes and analyse user interviews in a fully customisable template. The main idea is that you can share your results (as other ... Read more",
+   "highlighted": [
+    "Use this file to plan, take notes and analyse user interviews"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.figma.com/community/file/1228716579119560483/user-interview-template#:~:text=Use%20this%20file%20to%20plan%2C,members%20always%20up%20to%20date!",
+     "domain": "www.figma.com"
+    }
+   ]
+  },
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "asynchronous_ai_overview": true
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnt3JERvH9LcqMoLJzTMAJhjkq7j0Q:1791474347379&q=user+interview+script+template&udm=2&source=univ&fir=foUqe1nOiUWFdM%252CfGF8aoXzOs--NM%252C_%253Bet7nfWub40cUfM%252CcjGplBJz-NkwDM%252C_%253BVuP62xPnsBMOzM%252CfGF8aoXzOs--NM%252C_%253BaaebipXuR6ohaM%252CX83njNOflGH-vM%252C_%253B9YPQ-cHPSh6vqM%252CX83njNOflGH-vM%252C_%253BvmR78xMv4E839M%252C66A8pNOTWshfXM%252C_%253B6krn-N26apS7nM%252CefEhGwsrA01RjM%252C_%253BJdLD7JOUj3f73M%252CLclNA5iU_9EGjM%252C_%253BKWQjaluO9oamBM%252C66A8pNOTWshfXM%252C_%253BfcgrZgx7uaTicM%252C5zSiMuT0c6PTUM%252C_%253BeHrXB1_4vYZMAM%252CQuaNgdtYywfeOM%252C_%253BbfSM74ioOcVRdM%252C5zSiMuT0c6PTUM%252C_&usg=AI4_-kS5Sf7vzSCq0K8f8RQlSPiLmsiNkw&sa=X&ved=2ahUKEwjh1eWA4qqXAxV4qZUCHTuoJs4Q7Al6BAgfEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "A Cheatsheet for User Interview and Follow Ups Questions by ...",
+     "url": "https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:0"
+    },
+    {
+     "type": "images_element",
+     "alt": "Best User Interview Templates for Customer Research",
+     "url": "https://tactiq.io/learn/user-interview-templates-customer-research",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:1"
+    },
+    {
+     "type": "images_element",
+     "alt": "A Cheatsheet for User Interview and Follow Ups Questions by ...",
+     "url": "https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:2"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Guide Templates and Examples - Reforge",
+     "url": "https://www.reforge.com/artifacts/c/user-research/user-interview-guide",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:3"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Guide Templates and Examples - Reforge",
+     "url": "https://www.reforge.com/artifacts/c/user-research/user-interview-guide",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:4"
+    },
+    {
+     "type": "images_element",
+     "alt": "Sample Script for User interviews",
+     "url": "https://www.serial-hero.com/time-savers/sample-script-for-user-interviews",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-866d93d4eb52:5"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Template Template by Odette Jansen | Notion ...",
+     "url": "https://www.notion.com/templates/user-interview-template?srsltid=AU7gw4XBFryFNMAvHKu0_uvpwmn-kFavS7v8j-uwWGx_sb72Odm9Lj-s",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYgYIk7_hcLKOvpRoPcrws6sKdqwfFb57via_Os5NPgINAgZ5lNCyWLVs&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Job Applicant Interview Script Template | BIB",
+     "url": "https://www.business-in-a-box.com/template/job-applicant-interview-script-D583/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90JH2XU55hy6BkYCGhezjHX_SHyTZv5igSGGCUsGL-ktVzc_rSS253dc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Sample Script for User interviews",
+     "url": "https://www.serial-hero.com/time-savers/sample-script-for-user-interviews",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ugfiTKe2Vcb_Ut75YsEao0pwERqpk5-9oVfGFb6Hpj56Pq4tITIGIcI&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Templates & Examples | Miroverse",
+     "url": "https://miro.com/templates/user-interview/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESESGDKe5sLgOp9h5AG-_gI9AMAanyhpS-ruAiqiBAz_P57fTj18opt0&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Script Template | Notion Marketplace",
+     "url": "https://www.notion.com/templates/user-interview-script?srsltid=AU7gw4U9i2NzGDoIyUIHTItJiDBkb_bo1PEm1sb8h2nd7X_hjcddvvD2",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JLFpPYj7hdX6mN06Lo9dH3FGbT05A0cM99KM0l1P4NB8af2JfJqCVPc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "User Interview Templates & Examples | Miroverse",
+     "url": "https://miro.com/templates/user-interview/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbvPmqrbCN75nxUEI9KKZmhgr6NxybfK1WsKvGwBndJb5B4jxYUvxVtI&s"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.mural.co",
+   "title": "Simple user research interview template",
+   "url": "https://www.mural.co/templates/research-user-interviews",
+   "breadcrumb": "https://www.mural.co › templates › research-user-interv...",
+   "website_name": "Mural",
+   "description": "Step 1: Record your observations · Step 2: Assign an interviewer and a notetaker from your team for each interview · Step 3: Conduct your research interviews. Read more",
+   "highlighted": [
+    "Step 1: Record your observations"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.mural.co/templates/research-user-interviews#:~:text=Step%201%3A%20Record%20your%20observations&text=Step%202%3A%20Assign%20an%20interviewer,your%20team%20for%20each%20interview&text=Step%203%3A%20Conduct%20your%20research,interviews",
+     "domain": "www.mural.co"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "usability.yale.edu",
+   "title": "User Interview Example Questions",
+   "url": "https://usability.yale.edu/ux/discovery/get-to-know-your-user/user-interviews/user-interview-example-questions",
+   "breadcrumb": "https://usability.yale.edu › get-to-know-your-user › use...",
+   "website_name": "Yale University",
+   "description": "The following are sample questions for a user interview. Please tell me about yourself and your relationship to Yale. Describe your typical day at [role ...",
+   "highlighted": [
+    "user interview"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.looppanel.com",
+   "title": "The Ultimate Collection of User Interview Templates [2025]",
+   "url": "https://www.looppanel.com/blog/user-interview-templates",
+   "breadcrumb": "https://www.looppanel.com › blog › user-interview-tem...",
+   "website_name": "Looppanel",
+   "description": "Mar 7, 2025 — Access a comprehensive collection of battle-tested UX research templates for 2024, available in both Figjam and Miro formats.",
+   "pre_snippet": "03/07/2025 00:00:00",
+   "highlighted": [
+    "Access a comprehensive collection of battle-tested UX research templates"
+   ],
+   "timestamp": "2025-03-07 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "tactiq.io",
+   "title": "Best User Interview Templates for Customer Research",
+   "url": "https://tactiq.io/learn/user-interview-templates-customer-research",
+   "breadcrumb": "https://tactiq.io › learn › user-interview-templates-custo...",
+   "website_name": "Tactiq",
+   "description": "Aug 20, 2024 — Discover the top 10 User Interview Templates for customer research. Streamline your process with structured guides that ensure consistency.",
+   "pre_snippet": "08/20/2024 00:00:00",
+   "highlighted": [
+    "User Interview Templates for customer research"
+   ],
+   "timestamp": "2024-08-20 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.atlassian.com",
+   "title": "Customer interview report template | Confluence",
+   "url": "https://www.atlassian.com/software/confluence/templates/customer-interview-report",
+   "breadcrumb": "https://www.atlassian.com › ... › Confluence › Templates",
+   "website_name": "Atlassian",
+   "description": "This template houses the notes you'll take during your interview and helps you organize them into high-level observations and opportunities you can take back ...",
+   "highlighted": [
+    "notes you'll take during your interview"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "dcc.uchile.cl",
+   "title": "Context-Free Interview Script",
+   "url": "https://dcc.uchile.cl/~avignaga/padan4/material/recursos/Rec-IntervScript.pdf",
+   "breadcrumb": "https://dcc.uchile.cl › recursos › Rec-IntervScript",
+   "website_name": "DCC | Universidad de Chile",
+   "description": "[The Generic Interview in this template features questions designed to elicit an understanding of the stakeholder or user's problems and environment. Read more",
+   "highlighted": [
+    "Interview",
+    "template",
+    "user's"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://dcc.uchile.cl/~avignaga/padan4/material/recursos/Rec-IntervScript.pdf#:~:text=%5BThe%20Generic%20Interview%20in%20this,or%20user's%20problems%20and%20environment.",
+     "domain": "dcc.uchile.cl"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "creately.com",
+   "title": "Conducting Effective User Interviews - Tips and Templates ...",
+   "url": "https://creately.com/blog/marketing/user-interviews/",
+   "breadcrumb": "https://creately.com › blog › marketing › user-interviews",
+   "website_name": "Creately",
+   "description": "Jan 2, 2025 — You can easily create a script for the interview with a script guide or interview guide template from Creately based on different scenarios. Read more",
+   "pre_snippet": "01/02/2025 00:00:00",
+   "highlighted": [
+    "easily create a script for the interview"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://creately.com/blog/marketing/user-interviews/#:~:text=You%20can%20easily%20create%20a,Creately%20based%20on%20different%20scenarios.",
+     "domain": "creately.com"
+    }
+   ],
+   "timestamp": "2025-01-02 00:00:00 +00:00"
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 11,
+   "page": 1,
+   "items": [
+    "User interview script template pdf",
+    "User interview script template word",
+    "User interview script template powerpoint",
+    "User interview script template free download",
+    "User interview script template free",
+    "User interview template figma",
+    "User interview questions",
+    "User interview discussion guide"
+   ]
+  }
+ ]
+}

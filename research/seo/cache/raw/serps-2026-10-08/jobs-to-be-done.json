@@ -1,0 +1,468 @@
+{
+  "id": "10081545-2633-0066-0000-c55d8de33813",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "[Jobs to be Done (JTBD)](https://www.christenseninstitute.org/theory/jobs-to-be-done/) is `a business framework stating that people do not simply buy products or services; they \"hire\" them to make progress and solve specific problems in their lives`.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)\n\nPioneered by [Tony Ulwick](https://strategyn.com/) and later popularized by Harvard Business School professor [Clayton Christensen](https://online.hbs.edu/blog/post/jobs-to-be-done-examples) , the theory shifts focus away from traditional demographics and product attributes toward the underlying motivations behind consumer choices.[[1]](https://strategyn.com/jobs-to-be-done/)[[2]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)\n\n\n---\n\n### Core Principles of JTBD\n\n- **The \"Hire\" Analogy:** Just as you hire a contractor to build a house, you \"hire\" a product to perform a specific task when a need arises. If the product fails at the task, you \"fire\" it and switch to a competitor.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)[[2]](https://productschool.com/resources/glossary/jobs-to-be-done)\n- **Jobs Are Stable:** While products, technologies, and competitors change constantly, the core \"job\" a customer is trying to accomplish remains remarkably stable over time.[[1]](https://strategyn.com/jobs-to-be-done/)\n- **Three Dimensions:** A complete job includes **functional** tasks, alongside the **social** and **emotional** dimensions of how a user wants to feel or be perceived while doing it.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)\n\n\n---\n\n### The JTBD Formula\nTo define a customer job, researchers and product teams often use a context-driven statement structure:[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)> *\"When [Circumstance], I want to [Job/Task], so I can [Expected Outcome] without [Pain Point].\"* [[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)\n\n\n---\n\n### Real-World Examples\n\n- **The Milkshake Marketing:** A fast-food restaurant found that morning commuters bought milkshakes and nothing else. They weren't looking for a sweet dessert; they \"hired\" the thick milkshake to keep them full and stave off boredom during a long, monotonous drive.[[1]](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)\n- **Snickers vs. Kit Kat:** While both are chocolate candy bars, Snickers targets the functional job of satisfying intense hunger as a meal replacement, whereas Kit Kat targets the emotional job of taking a relaxing mid-day break.[[1]](https://www.youtube.com/watch?v=KPeaxDfBnFs)\n- **Spotify:** Users don't just \"hire\" Spotify to stream media files; they hire it to easily control their mood and soundtrack the mundane or important moments of their daily lives.[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Jobs to be Done (JTBD) is a business framework stating that people do not simply buy products or services; they \"hire\" them to make progress and solve specific problems in their lives.",
+          "markdown": "[Jobs to be Done (JTBD)](https://www.christenseninstitute.org/theory/jobs-to-be-done/) is `a business framework stating that people do not simply buy products or services; they \"hire\" them to make progress and solve specific problems in their lives`.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Jobs to be Done (JTBD)",
+              "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+              "domain": "www.christenseninstitute.org"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Christensen Institute",
+              "domain": "www.christenseninstitute.org",
+              "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+              "title": "Jobs to Be Done Theory",
+              "text": "Definition Jobs to Be Done is a lens that reveals the circumstances—or forces—that drive people and organizations toward and away ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Pioneered by Tony Ulwick and later popularized by Harvard Business School professor Clayton Christensen, the theory shifts focus away from traditional demographics and product attributes toward the underlying motivations behind consumer choices.",
+          "markdown": "Pioneered by [Tony Ulwick](https://strategyn.com/) and later popularized by Harvard Business School professor [Clayton Christensen](https://online.hbs.edu/blog/post/jobs-to-be-done-examples) , the theory shifts focus away from traditional demographics and product attributes toward the underlying motivations behind consumer choices.[[1]](https://strategyn.com/jobs-to-be-done/)[[2]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Tony Ulwick",
+              "url": "https://strategyn.com/",
+              "domain": "strategyn.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Clayton Christensen",
+              "url": "https://online.hbs.edu/blog/post/jobs-to-be-done-examples",
+              "domain": "online.hbs.edu"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Strategyn",
+              "domain": "strategyn.com",
+              "url": "https://strategyn.com/jobs-to-be-done/",
+              "title": "Jobs to Be Done (JTBD): The Original Framework by Tony Ulwick",
+              "text": "Frequently Asked Questions What is Jobs-to-be-Done (JTBD)? Jobs-to-be-Done (JTBD) is a theory of innovation that holds that people..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Christensen Institute",
+              "domain": "www.christenseninstitute.org",
+              "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+              "title": "Jobs to Be Done Theory",
+              "text": "Definition Jobs to Be Done is a lens that reveals the circumstances—or forces—that drive people and organizations toward and away ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Principles of JTBD",
+          "text": "The \"Hire\" Analogy: Just as you hire a contractor to build a house, you \"hire\" a product to perform a specific task when a need arises. If the product fails at the task, you \"fire\" it and switch to a competitor. Jobs Are Stable: While products, technologies, and competitors change constantly, the core \"job\" a customer is trying to accomplish remains remarkably stable over time. Three Dimensions: A complete job includes functional tasks, alongside the social and emotional dimensions of how a user wants to feel or be perceived while doing it.",
+          "markdown": "- **The \"Hire\" Analogy:** Just as you hire a contractor to build a house, you \"hire\" a product to perform a specific task when a need arises. If the product fails at the task, you \"fire\" it and switch to a competitor.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)[[2]](https://productschool.com/resources/glossary/jobs-to-be-done)\n- **Jobs Are Stable:** While products, technologies, and competitors change constantly, the core \"job\" a customer is trying to accomplish remains remarkably stable over time.[[1]](https://strategyn.com/jobs-to-be-done/)\n- **Three Dimensions:** A complete job includes **functional** tasks, alongside the **social** and **emotional** dimensions of how a user wants to feel or be perceived while doing it.[[1]](https://www.christenseninstitute.org/theory/jobs-to-be-done/)[[2]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Christensen Institute",
+              "domain": "www.christenseninstitute.org",
+              "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+              "title": "Jobs to Be Done Theory",
+              "text": "Definition Jobs to Be Done is a lens that reveals the circumstances—or forces—that drive people and organizations toward and away ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product School",
+              "domain": "productschool.com",
+              "url": "https://productschool.com/resources/glossary/jobs-to-be-done",
+              "title": "Jobs To Be Done in Product Management",
+              "text": "The Jobs-To-Be-Done framework for Product Managers * What is the Jobs-To-Be-Done framework? The Jobs-To-Be-Done (JTBD) framework i..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Strategyn",
+              "domain": "strategyn.com",
+              "url": "https://strategyn.com/jobs-to-be-done/",
+              "title": "Jobs to Be Done (JTBD): The Original Framework by Tony Ulwick",
+              "text": "Frequently Asked Questions What is Jobs-to-be-Done (JTBD)? Jobs-to-be-Done (JTBD) is a theory of innovation that holds that people..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework",
+              "title": "Jobs to Be Done (JTBD) in UX Research - User Interviews",
+              "text": "Jobs to Be Done (JTBD) in UX Research. ... Note to the reader: This part of the field guide comes from our 2019 version of the UX ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "The JTBD Formula",
+          "text": "To define a customer job, researchers and product teams often use a context-driven statement structure:",
+          "markdown": "To define a customer job, researchers and product teams often use a context-driven statement structure:[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework",
+              "title": "Jobs to Be Done (JTBD) in UX Research - User Interviews",
+              "text": "Jobs to Be Done (JTBD) in UX Research. ... Note to the reader: This part of the field guide comes from our 2019 version of the UX ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Real-World Examples",
+          "text": "The Milkshake Marketing: A fast-food restaurant found that morning commuters bought milkshakes and nothing else. They weren't looking for a sweet dessert; they \"hired\" the thick milkshake to keep them full and stave off boredom during a long, monotonous drive. Snickers vs. Kit Kat: While both are chocolate candy bars, Snickers targets the functional job of satisfying intense hunger as a meal replacement, whereas Kit Kat targets the emotional job of taking a relaxing mid-day break. Spotify: Users don't just \"hire\" Spotify to stream media files; they hire it to easily control their mood and soundtrack the mundane or important moments of their daily lives.",
+          "markdown": "- **The Milkshake Marketing:** A fast-food restaurant found that morning commuters bought milkshakes and nothing else. They weren't looking for a sweet dessert; they \"hired\" the thick milkshake to keep them full and stave off boredom during a long, monotonous drive.[[1]](https://online.hbs.edu/blog/post/jobs-to-be-done-examples)\n- **Snickers vs. Kit Kat:** While both are chocolate candy bars, Snickers targets the functional job of satisfying intense hunger as a meal replacement, whereas Kit Kat targets the emotional job of taking a relaxing mid-day break.[[1]](https://www.youtube.com/watch?v=KPeaxDfBnFs)\n- **Spotify:** Users don't just \"hire\" Spotify to stream media files; they hire it to easily control their mood and soundtrack the mundane or important moments of their daily lives.[[1]](https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/jobs-to-be-done-examples",
+              "title": "The Jobs to Be Done Framework Explained & Real-World Examples",
+              "text": "The Jobs to Be Done Framework Explained & Real-World Examples * What drives consumers to purchase and use certain products and ser..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=KPeaxDfBnFs",
+              "title": "\"Jobs To Be Done\" Explained in 5 Minutes",
+              "text": "\"Jobs To Be Done\" Explained in 5 Minutes snickers is the bestselling candy bar in the world. but it's also a really great example ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "User Interviews",
+              "domain": "www.userinterviews.com",
+              "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework",
+              "title": "Jobs to Be Done (JTBD) in UX Research - User Interviews",
+              "text": "Jobs to Be Done (JTBD) in UX Research. ... Note to the reader: This part of the field guide comes from our 2019 version of the UX ..."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Christensen Institute",
+          "domain": "www.christenseninstitute.org",
+          "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+          "title": "Jobs to Be Done Theory",
+          "text": "Definition Jobs to Be Done is a lens that reveals the circumstances—or forces—that drive people and organizations toward and away ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Strategyn",
+          "domain": "strategyn.com",
+          "url": "https://strategyn.com/jobs-to-be-done/",
+          "title": "Jobs to Be Done (JTBD): The Original Framework by Tony Ulwick",
+          "text": "Frequently Asked Questions What is Jobs-to-be-Done (JTBD)? Jobs-to-be-Done (JTBD) is a theory of innovation that holds that people..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Harvard Business School Online",
+          "domain": "online.hbs.edu",
+          "url": "https://online.hbs.edu/blog/post/jobs-to-be-done-examples",
+          "title": "The Jobs to Be Done Framework Explained & Real-World Examples",
+          "text": "The Jobs to Be Done Framework Explained & Real-World Examples * What drives consumers to purchase and use certain products and ser..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "User Interviews",
+          "domain": "www.userinterviews.com",
+          "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework",
+          "title": "Jobs to Be Done (JTBD) in UX Research - User Interviews",
+          "text": "Jobs to Be Done (JTBD) in UX Research. ... Note to the reader: This part of the field guide comes from our 2019 version of the UX ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Product School",
+          "domain": "productschool.com",
+          "url": "https://productschool.com/resources/glossary/jobs-to-be-done",
+          "title": "Jobs To Be Done in Product Management",
+          "text": "The Jobs-To-Be-Done framework for Product Managers * What is the Jobs-To-Be-Done framework? The Jobs-To-Be-Done (JTBD) framework i..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=KPeaxDfBnFs",
+          "title": "\"Jobs To Be Done\" Explained in 5 Minutes",
+          "text": "\"Jobs To Be Done\" Explained in 5 Minutes snickers is the bestselling candy bar in the world. but it's also a really great example ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.christenseninstitute.org",
+      "title": "Jobs to Be Done Theory",
+      "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/",
+      "breadcrumb": "https://www.christenseninstitute.org › Our Theories",
+      "website_name": "Christensen Institute",
+      "description": "Definition. Jobs to Be Done is a lens that reveals the circumstances—or forces—that drive people and organizations toward and away from decisions. Read more",
+      "highlighted": [
+        "Jobs to Be Done"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.christenseninstitute.org/theory/jobs-to-be-done/#:~:text=Definition,toward%20and%20away%20from%20decisions.",
+          "domain": "www.christenseninstitute.org"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are examples of jobs to be done?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the JTBD method?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What 5 jobs will remain after 2030?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What career is Gen Z most interested in?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "strategyn.com",
+      "title": "Jobs to Be Done (JTBD)",
+      "url": "https://strategyn.com/jobs-to-be-done/",
+      "breadcrumb": "https://strategyn.com › jobs-to-be-done",
+      "website_name": "Strategyn",
+      "description": "Jobs-to-be-Done (JTBD ) is a theory of innovation that holds that people buy products and services to get a job done. A job is the task, goal,",
+      "highlighted": [
+        "Jobs-to-be-Done (JTBD"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "jobs-to-be-done.com",
+      "title": "Jobs-to-be-Done: A Framework for Customer Needs - Medium",
+      "url": "https://jobs-to-be-done.com/jobs-to-be-done-a-framework-for-customer-needs-c883cbf61c90",
+      "breadcrumb": "https://jobs-to-be-done.com › jobs-to-be-done-a-frame...",
+      "website_name": "jobs-to-be-done.com",
+      "description": "Jan 5, 2017 — Jobs-to-be-Done Theory provides a framework for defining, categorizing, capturing, and organizing all your customers' needs. The Jobs-to-be- ...",
+      "pre_snippet": "01/05/2017 00:00:00",
+      "highlighted": [
+        "Jobs-to-be-Done Theory"
+      ],
+      "timestamp": "2017-01-05 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_search",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "title": "Find related products & services",
+      "items": [
+        "JTBD framework",
+        "JTBD examples",
+        "Jobs to be Done Bob Moesta",
+        "Jobs-to be Done books"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "online.hbs.edu",
+      "title": "The Jobs to Be Done Framework & Real-World Examples",
+      "url": "https://online.hbs.edu/blog/post/jobs-to-be-done-examples",
+      "breadcrumb": "https://online.hbs.edu › blog › post › jobs-to-be-done-ex...",
+      "website_name": "Harvard Business School Online",
+      "description": "May 19, 2026 — The jobs to be done framework (sometimes abbreviated JTBD) helps businesses understand how and why customers make buying decisions.",
+      "pre_snippet": "05/19/2026 00:00:00",
+      "highlighted": [
+        "helps businesses understand how and why customers make buying decisions"
+      ],
+      "timestamp": "2026-05-19 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "hbr.org",
+      "title": "Know Your Customers' “Jobs to Be Done”",
+      "url": "https://hbr.org/2016/09/know-your-customers-jobs-to-be-done",
+      "breadcrumb": "https://hbr.org › 2016/09 › know-your-customers-jobs-...",
+      "website_name": "Harvard Business Review",
+      "description": "Know Your Customers' “Jobs to Be Done” Is innovation inherently a hit-or-miss endeavor? Not if you understand why customers make the choices they do.",
+      "highlighted": [
+        "Jobs to Be Done"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.productplan.com",
+      "title": "Jobs-To-Be-Done Framework | Glossary",
+      "url": "https://www.productplan.com/glossary/jobs-to-be-done-framework",
+      "breadcrumb": "https://www.productplan.com › glossary › jobs-to-be-d...",
+      "website_name": "ProductPlan",
+      "description": "The jobs-to-be-done framework is an approach to developing products based on understanding both the customer's specific goal, or “job,” and the thought ...",
+      "highlighted": [
+        "an approach to developing products"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "jobstobedone.org",
+      "title": "Jobs to be Done, Taught by Bob Moesta & Chris Spiek",
+      "url": "https://jobstobedone.org/",
+      "breadcrumb": "https://jobstobedone.org",
+      "website_name": "jobstobedone.org",
+      "description": "Learn to run interviews, build forces diagrams and timelines, and turn what you hear into product decisions.",
+      "highlighted": [
+        "Learn to run interviews, build forces diagrams and timelines"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "Jobs to Be Done: A Roadmap for Customer-Centered ...",
+      "url": "https://www.amazon.com/Jobs-Be-Done-Customer-Centered-Innovation/dp/0814438032",
+      "breadcrumb": "https://www.amazon.com › Jobs-Be-Done-Customer-Cen...",
+      "website_name": "Amazon.com",
+      "description": "A practical guide to understanding customers' true needs and developing innovative products and services that fulfill those unmet \"jobs to be done.\" See more. Read more",
+      "highlighted": [
+        "jobs to be done"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.amazon.com/Jobs-Be-Done-Customer-Centered-Innovation/dp/0814438032#:~:text=A%20practical%20guide%20to%20understanding,unmet%20%22jobs%20to%20be%20done.%22",
+          "domain": "www.amazon.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "www.userinterviews.com",
+      "title": "Jobs to Be Done (JTBD) in UX Research",
+      "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework",
+      "breadcrumb": "https://www.userinterviews.com › jobs-to-be-done-jtbd-...",
+      "website_name": "User Interviews",
+      "description": "Mar 1, 2026 — Jobs to Be Done is an outcome-driven approach to product development. Learn how to research and design for JTBD with templates and advice ...",
+      "pre_snippet": "03/01/2026 00:00:00",
+      "highlighted": [
+        "Jobs to Be Done is an outcome-driven approach to product development"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "🧠 How Does Jtbd Differ...",
+          "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework#:~:text=%F0%9F%A7%A0%20How%20does%20JTBD%20differ%20from%20other%20mental%20models%20in%20UX%20research%3F",
+          "domain": "www.userinterviews.com"
+        },
+        {
+          "type": "link_element",
+          "title": "4. Write A Jobs To Be Done...",
+          "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework#:~:text=4.%20Write%20a%20Jobs%20to%20Be%20Done%20statement.",
+          "domain": "www.userinterviews.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Jobs To Be Done (jtbd)...",
+          "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/jobs-to-be-done-jtbd-framework#:~:text=Jobs%20to%20Be%20Done%20%28JTBD%29%20examples%20and%20templates,-You%20can%20implement%20the%20Jobs",
+          "domain": "www.userinterviews.com"
+        }
+      ],
+      "timestamp": "2026-03-01 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Jobs to be Done book",
+        "Jobs to be Done examples",
+        "Jobs to be done reddit",
+        "Jobs to be Done UX",
+        "Jobs to be Done Clayton Christensen",
+        "Jobs-to be Done: Theory to practice",
+        "Jobs to be done framework template",
+        "Jobs to be Done Canvas"
+      ]
+    }
+  ]
+}

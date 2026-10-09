@@ -1,0 +1,462 @@
+{
+  "id": "10081545-2633-0066-0000-c54f316efb7c",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![User Story Template: A Manager&#39;s Guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:20)\n![User Story Template: A Manager&#39;s Guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:21)\n![User Story Template | Download Agile PPT | Powerslides™](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:22)\n![20 Useful user story examples to get you started - Justinmind](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:23)\n![User Stories: Examples and Downloadable Templates | Vit Lyoshin](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:24)\n\nThe standard user story template used in Agile project management is: **\"As a [type of user], I want to [perform some task] so that I can [achieve some goal].\"** \n\n### Standard User Story Format\n\n- **As a** `[persona / role]` *(Who is requesting the feature?)* \n- **I want to** `[goal / action]` *(What do they want to do?)* \n- **So that** `[benefit / value]` *(Why do they need it?)* \n\n**Example:** > **As a** registered shopper, **I want to** reset my password, **so that** I can quickly regain access if I forget it.\n\n\n---\n\n### Core Components of a Complete Template\nMost teams expand a basic user story card with additional details for tracking and execution:\n\n- **Title:** A short name for the user story.\n- **Priority / Size:** The rank or weight (often measured in story points or T-shirt sizes).\n- **Acceptance Criteria:** Specific, testable rules that define when the story is complete, often written in **Given-When-Then** format:\n\t- *Given* `[initial context]` \n\t- *When* `[action is taken]` \n\t- *Then* `[expected outcome happens]` \n- **Dependencies & Out of Scope:** What is blocked by other tasks, or what will *not* be built in this iteration.\n\n\n---\n\n### The INVEST Quality Checklist\nGood user stories should follow the **INVEST** principles:\n\n- **I** ndependent: Can be built without relying heavily on another story.\n- **N** egotiable: Leaves room for discussion on the best technical solution.\n- **V** aluable: Delivers clear benefit to the end user or business.\n- **E** stimable: Small and clear enough for the team to size.\n- **S** mall: Can be completed within a single sprint.\n- **T** estable: Has clear acceptance criteria to verify completion.\n\nFor a deeper dive into agile frameworks, see the [Atlassian User Stories Guide](https://www.atlassian.com/agile/project-management/user-stories) or the [Agile Alliance Glossary](https://agilealliance.org/glossary/user-story-template/).If you'd like, tell me **what feature or product you are building** , and I can help you draft a custom user story and acceptance criteria for it.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "markdown": "![User Story Template: A Manager&#39;s Guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:10)\n![User Story Template: A Manager&#39;s Guide for 2026](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:11)\n![User Story Template | Download Agile PPT | Powerslides™](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:12)\n![20 Useful user story examples to get you started - Justinmind](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:13)\n![User Stories: Examples and Downloadable Templates | Vit Lyoshin](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:14)",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "User Story Template: A Manager's Guide for 2026",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:15"
+            },
+            {
+              "type": "images_element",
+              "alt": "User Story Template: A Manager's Guide for 2026",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:16"
+            },
+            {
+              "type": "images_element",
+              "alt": "User Story Template | Download Agile PPT | Powerslides™",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:17"
+            },
+            {
+              "type": "images_element",
+              "alt": "20 Useful user story examples to get you started - Justinmind",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:18"
+            },
+            {
+              "type": "images_element",
+              "alt": "User Stories: Examples and Downloadable Templates | Vit Lyoshin",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-c54f316efb7c:19"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "The standard user story template used in Agile project management is: \"As a [type of user], I want to [perform some task] so that I can [achieve some goal].\"",
+          "markdown": "The standard user story template used in Agile project management is: **\"As a [type of user], I want to [perform some task] so that I can [achieve some goal].\"**"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Standard User Story Format",
+          "text": "As a [persona / role] (Who is requesting the feature?) I want to [goal / action] (What do they want to do?) So that [benefit / value] (Why do they need it?)",
+          "markdown": "- **As a** `[persona / role]` *(Who is requesting the feature?)* \n- **I want to** `[goal / action]` *(What do they want to do?)* \n- **So that** `[benefit / value]` *(Why do they need it?)*"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Example:",
+          "markdown": "**Example:**"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Components of a Complete Template",
+          "text": "Most teams expand a basic user story card with additional details for tracking and execution:",
+          "markdown": "Most teams expand a basic user story card with additional details for tracking and execution:"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Title: A short name for the user story. Priority / Size: The rank or weight (often measured in story points or T-shirt sizes). Acceptance Criteria: Specific, testable rules that define when the story is complete, often written in Given-When-Then format:Given [initial context]\nWhen [action is taken]\nThen [expected outcome happens] Given [initial context] When [action is taken] Then [expected outcome happens] Dependencies & Out of Scope: What is blocked by other tasks, or what will not be built in this iteration.",
+          "markdown": "- **Title:** A short name for the user story.\n- **Priority / Size:** The rank or weight (often measured in story points or T-shirt sizes).\n- **Acceptance Criteria:** Specific, testable rules that define when the story is complete, often written in **Given-When-Then** format:\n\t- *Given* `[initial context]` \n\t- *When* `[action is taken]` \n\t- *Then* `[expected outcome happens]` \n- **Dependencies & Out of Scope:** What is blocked by other tasks, or what will *not* be built in this iteration."
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "The INVEST Quality Checklist",
+          "text": "Good user stories should follow the INVEST principles:",
+          "markdown": "Good user stories should follow the **INVEST** principles:"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "I ndependent: Can be built without relying heavily on another story. N egotiable: Leaves room for discussion on the best technical solution. V aluable: Delivers clear benefit to the end user or business. E stimable: Small and clear enough for the team to size. S mall: Can be completed within a single sprint. T estable: Has clear acceptance criteria to verify completion.",
+          "markdown": "- **I** ndependent: Can be built without relying heavily on another story.\n- **N** egotiable: Leaves room for discussion on the best technical solution.\n- **V** aluable: Delivers clear benefit to the end user or business.\n- **E** stimable: Small and clear enough for the team to size.\n- **S** mall: Can be completed within a single sprint.\n- **T** estable: Has clear acceptance criteria to verify completion."
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "For a deeper dive into agile frameworks, see the Atlassian User Stories Guide or the Agile Alliance Glossary.",
+          "markdown": "For a deeper dive into agile frameworks, see the [Atlassian User Stories Guide](https://www.atlassian.com/agile/project-management/user-stories) or the [Agile Alliance Glossary](https://agilealliance.org/glossary/user-story-template/).",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Atlassian User Stories Guide",
+              "url": "https://www.atlassian.com/agile/project-management/user-stories",
+              "domain": "www.atlassian.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Agile Alliance Glossary",
+              "url": "https://agilealliance.org/glossary/user-story-template/",
+              "domain": "agilealliance.org"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, tell me what feature or product you are building, and I can help you draft a custom user story and acceptance criteria for it.",
+          "markdown": "If you'd like, tell me **what feature or product you are building** , and I can help you draft a custom user story and acceptance criteria for it."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/agile/project-management/user-stories",
+          "title": "User Stories With Examples and a Template | Atlassian",
+          "text": "Core Definition: User stories are the smallest units of work in Agile, expressed using the format \"As a [persona], I want [goal] s..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Aha! software",
+          "domain": "www.aha.io",
+          "url": "https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-feature-or-user-story-template",
+          "title": "4 user story templates for product teams",
+          "text": "How to write user stories A user story captures the \"who,\" \"what,\" and \"why\" behind an item of agile development work — providing ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Agile Alliance",
+          "domain": "agilealliance.org",
+          "url": "https://agilealliance.org/glossary/user-story-template/",
+          "title": "User Story Template - Agile Alliance",
+          "text": "What is User Story Template? A user story template is a common format used to write user stories that help you include key pieces ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/businessanalysis/comments/154cox1/user_story_templates/",
+          "title": "User Story Templates : r/businessanalysis - Reddit",
+          "text": "User Story Components: Recommended components for a user story template include a Title, a Value statement (using the \"As a user, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Asana",
+          "domain": "asana.com",
+          "url": "https://asana.com/resources/user-stories",
+          "title": "User stories explained: Tips, templates, and examples",
+          "text": "Summary. A user story is an informal explanation of a software feature written from the perspective of the end user. A typical use..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Institute of Project Management",
+          "domain": "instituteprojectmanagement.com",
+          "url": "https://instituteprojectmanagement.com/blog/user-story-template/",
+          "title": "User Story Template: The Complete Guide (2026)",
+          "text": "Introduction. A user story template is a structured format used in agile project management to capture a software or product requi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "m.youtube.com",
+          "url": "https://m.youtube.com/shorts/xL4_pRWZFlE",
+          "title": "Comment rédiger une user story Agile ? (Template)",
+          "text": "Comment rédiger une user story Agile ? (Template) pour rédiger une bonne user. story suivez ces quatre étapes première étape ident..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=jjSkm80Tu-k",
+          "title": "How to Write Effective User Stories with Examples",
+          "text": "User Stories in Agile Explained | How to Write Effective User Stories with Examples i am Nita Sharma from PM Expert. welcome in th..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "User Stories With Examples and a Template - Agile",
+      "url": "https://www.atlassian.com/agile/project-management/user-stories",
+      "breadcrumb": "https://www.atlassian.com › Agile › Project Management",
+      "website_name": "Atlassian",
+      "description": "What is in a user story? ... A user story typically includes a brief description of the desired functionality, the user's perspective, and acceptance criteria. Read more",
+      "highlighted": [
+        "user story"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.atlassian.com/agile/project-management/user-stories#:~:text=What%20is%20in%20a%20user,story%3F&text=A%20user%20story%20typically%20includes,user's%20perspective%2C%20and%20acceptance%20criteria.",
+          "domain": "www.atlassian.com"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the format for a user story?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 3 C's of agile user stories?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is there a template for Jira user stories?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 20-30-50 rule in agile methodology?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "agilealliance.org",
+      "title": "User Story Template",
+      "url": "https://agilealliance.org/glossary/user-story-template/",
+      "breadcrumb": "https://agilealliance.org › Process",
+      "website_name": "Agile Alliance",
+      "description": "A user story template is a common format used to write user stories that help you include key pieces of information about that user story. Read more",
+      "highlighted": [
+        "common format used to write user stories"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://agilealliance.org/glossary/user-story-template/#:~:text=A%20user%20story%20template%20is,information%20about%20that%20user%20story.",
+          "domain": "agilealliance.org"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.rebelscrum.site",
+      "title": "The User Story Format",
+      "url": "https://www.rebelscrum.site/post/when-to-use-user-stories",
+      "breadcrumb": "https://www.rebelscrum.site › when-to-use-user-stories",
+      "website_name": "Rebel Scrum",
+      "description": "Jul 7, 2024 — A user story is typically structured in a simple, yet powerful format: As a [who], I want [what], so that [why]. This format",
+      "pre_snippet": "07/07/2024 00:00:00",
+      "highlighted": [
+        "user story",
+        "format"
+      ],
+      "timestamp": "2024-07-07 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.mountaingoatsoftware.com",
+      "title": "User Story Template: What It Is and Why It Works So Well",
+      "url": "https://www.mountaingoatsoftware.com/agile/why-the-three-part-user-story-template-works-so-well",
+      "breadcrumb": "https://www.mountaingoatsoftware.com › agile › why-t...",
+      "website_name": "Mountain Goat Software",
+      "description": "Apr 22, 2026 — The standard “As a...I...so that...” user story template is a way of expressing product backlog items.",
+      "pre_snippet": "04/22/2026 00:00:00",
+      "highlighted": [
+        "a way of expressing product backlog items"
+      ],
+      "timestamp": "2026-04-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.aha.io",
+      "title": "User Story Templates: Options for Agile and Product Teams",
+      "url": "https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-feature-or-user-story-template",
+      "breadcrumb": "https://www.aha.io › guide › requirements-management",
+      "website_name": "Aha! software",
+      "description": "User story templates that help product teams capture real customer needs. Learn what to include — plus examples and practical writing tips.",
+      "highlighted": [
+        "User story templates that help product teams capture real customer needs"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "User Story Template Explained with Examples",
+      "url": "https://medium.com/@nimishakashyap7/user-story-template-explained-with-examples-79593f42db99",
+      "breadcrumb": "10+ likes  ·  1 year ago",
+      "website_name": "Medium · Nimisha Kashyap",
+      "description": "A user story is a structured way to capture a requirement in Agile/Scrum that focuses on the end user's perspective rather than system features.",
+      "highlighted": [
+        "a structured way to capture a requirement in Agile/Scrum"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "User Story Template",
+          "url": "https://medium.com/@nimishakashyap7/user-story-template-explained-with-examples-79593f42db99#a216",
+          "domain": "medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Example User Story",
+          "url": "https://medium.com/@nimishakashyap7/user-story-template-explained-with-examples-79593f42db99#26cc",
+          "domain": "medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Types of User Story Templates",
+          "url": "https://medium.com/@nimishakashyap7/user-story-template-explained-with-examples-79593f42db99#2e6d",
+          "domain": "medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.smartsheet.com",
+      "title": "Free User Story Templates: Epic, Thematic & SAFe",
+      "url": "https://www.smartsheet.com/user-story-templates?srsltid=AU7gw4VTzAGkERYrWb2Tdu6qg6kSWKEMd02Ys9NL-A9Z2zIvJ8E1kz4M",
+      "breadcrumb": "https://www.smartsheet.com › user-story-templates",
+      "website_name": "Smartsheet",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Download user story templates in Excel, Microsoft Word, PowerPoint, Adobe PDF, and Google formats, including an Agile Scrum user story template.",
+      "images": [
+        {
+          "type": "images_element",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ1rOtfsdG1f-D-nEeF4DwP4srutjt8P4LgIApV-YcYiaOInfms-9Pf0Q1XYISzbveFwVeA&s"
+        },
+        {
+          "type": "images_element",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYi8lOkuGi0sVg11TmIyLhDYD-BnKUZ2CxC5--gWIxVAFs9P-Zhldar6RT&s"
+        },
+        {
+          "type": "images_element",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeP03PtOUtOyF_eJN5b8l6rWtNJ5U1_OCy6yvOYUa27CmEvAYuJNBrMs2X&s"
+        }
+      ],
+      "highlighted": [
+        "user story templates",
+        "user story template"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "User Story Templates : r/businessanalysis",
+      "url": "https://www.reddit.com/r/businessanalysis/comments/154cox1/user_story_templates/",
+      "breadcrumb": "10+ comments  ·  3 years ago",
+      "website_name": "Reddit · r/businessanalysis",
+      "description": "User stories are written from the perspective of whoever uses the product. Title: [One short statement of what needs to be done in this story] ...",
+      "highlighted": [
+        "User stories are written from the perspective of whoever uses the product"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "User story examples? : r/agile",
+          "url": "https://www.reddit.com/r/agile/comments/12ubvwv/user_story_examples/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "User Story Template/Question! : r/agile",
+          "url": "https://www.reddit.com/r/agile/comments/i8ezjc/user_story_templatequestion/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=user+story+template+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns9CwwRiAMBJLtjlxIhSmaC9JMGKA:1791474339909&sa=X&ved=2ahUKEwiY1p394aqXAxUXZ0EAHXLWATsQrQIoAnoECDkQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "gist.github.com",
+      "title": "User-Story-Template",
+      "url": "https://gist.github.com/hamitsehjal/9871106a8cffaa16f0b2a70e20abe29b",
+      "breadcrumb": "https://gist.github.com › hamitsehjal",
+      "website_name": "GitHub",
+      "description": "This is a user story template that you can use to document user stories for your software development projects. User stories follow the \"As a [role], ... Read more",
+      "highlighted": [
+        "user story template"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://gist.github.com/hamitsehjal/9871106a8cffaa16f0b2a70e20abe29b#:~:text=This%20is%20a%20user%20story,follow%20the%20%22As%20a%20%5Brole%5D%2C",
+          "domain": "gist.github.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "User story template word",
+        "User story template excel",
+        "User story template pdf",
+        "User story examples",
+        "User story template free",
+        "User story template powerpoint",
+        "User story template with acceptance criteria",
+        "Agile user story template"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+ "id": "10081545-2633-0066-0000-56546775dae8",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "A **Product Manager (PM)** focuses on the strategic \"why\" and \"what,\" while a **Product Owner (PO)** focuses on the tactical \"how\" and \"when\". In many organizations, these roles are split to separate market-level vision from daily engineering execution, though smaller companies often combine them into a single job.[[1]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)\n\n### Core Differences\n\n| Feature | Product Manager (PM) | Product Owner (PO) |\n|---|---|---|\n| **Primary Focus** | Strategy, vision, market fit, and business outcomes | Tactical execution, sprint planning, and backlog management |\n| **Time Horizon** | Long-term (6 to 24 months, roadmaps) | Short-term (1 to 4 weeks, sprint cycles) |\n| **Key Question** | \"What should we build and why?\" | \"How do we build this and when?\" |\n| **Primary Artifacts** | Product vision, business cases, PRDs, roadmaps | Product backlog, user stories, acceptance criteria |\n| **Methodology Origin** | Rooted in traditional business and lifecycle management (dating back to 1931/HP) | Rooted strictly in the Scrum/Agile framework (introduced around 2001) |\n| **Key Relationships** | Customers, executives, sales, marketing, and external stakeholders | Engineering, QA, Scrum Masters, and internal delivery teams |\n\n\n---\n\n### Detailed Breakdown\n\n### Product Manager (PM)\n\n- **The \"Why\":** The PM looks outward at the market, competitors, and user pain points to figure out what product features will drive business value.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.linkedin.com/posts/iane_productmanagement-productowner-tech-activity-7183904102433660933-Fy1u)\n- **Lifecycle Ownership:** Owns the product from initial concept and research through launch, pricing, go-to-market strategies, and post-launch profitability.[[1]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[2]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[3]](https://productschool.com/blog/career-development/product-owner-vs-product-manager)\n- **Framework Context:** The official Scrum Guide [Product School](https://productschool.com/blog/career-development/product-owner-vs-product-manager) does not formally define a \"Product Manager,\" as the title evolved from broader corporate product leadership.[[1]](https://productschool.com/blog/career-development/product-owner-vs-product-manager)\n\n### Product Owner (PO)\n\n- **The \"How\":** The PO takes the high-level strategy handed down by a PM (or leadership) and breaks it down into actionable work.[[1]](https://www.productplan.com/learn/product-manager-vs-product-owner)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Backlog Management:** Spends most of their time writing user stories, defining acceptance criteria, grooming the product backlog, and prioritizing sprint tasks.[[1]](https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.youtube.com/watch?v=8f2bcfbnSRg&t=73)\n- **Team Facilitation:** Acts as the primary bridge between business goals and the engineering/Scrum team during daily standups, sprint planning, and reviews.[[1]](https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager)[[2]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[3]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n\n\n---\n\n### How They Work Together\n\n- **The Hand-off & Loop:** The PM defines the destination via market research and roadmaps, while the PO maps the route and keeps the engineering team on track.[[1]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Shared Goal:** Both roles are deeply customer-centric and rely on user research feedback to iterate, though the PM adjusts the strategy while the PO adjusts the backlog items.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Organization Models:** \n\t- *Large Companies (e.g., SAFe):* Often split the roles completely, where the PM handles external strategy and the PO handles internal delivery.\n\t- *Startups:* One person usually wears both hats, acting as both the strategic visionary and the tactical backlog writer.[[1]](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[4]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)\n\nAre you looking to **transition between these roles**, **hire for your team** , or **clarify how they function** in a specific company setup?",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "A Product Manager (PM) focuses on the strategic \"why\" and \"what,\" while a Product Owner (PO) focuses on the tactical \"how\" and \"when\". In many organizations, these roles are split to separate market-level vision from daily engineering execution, though smaller companies often combine them into a single job.",
+     "markdown": "A **Product Manager (PM)** focuses on the strategic \"why\" and \"what,\" while a **Product Owner (PO)** focuses on the tactical \"how\" and \"when\". In many organizations, these roles are split to separate market-level vision from daily engineering execution, though smaller companies often combine them into a single job.[[1]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ThoughtSpot",
+       "domain": "www.thoughtspot.com",
+       "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+       "title": "Product Owner vs Product Manager: Key Differences Explained",
+       "text": "6 key differences between a product manager and product owner * 1. Scope of Responsibility. The product owner is a member of the a..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Lyssna",
+       "domain": "www.lyssna.com",
+       "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+       "title": "Product Owner vs Product Manager",
+       "text": "Key takeaways * Product managers focus on the \"why\" and \"what\" – defining product vision, strategy, and roadmap based on market re..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Pragmatic Institute",
+       "domain": "www.pragmaticinstitute.com",
+       "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/",
+       "title": "Product Owner vs Product Manager: What’s the difference? | Pragmatic Institute",
+       "text": "Product Manager: Focuses on overall strategy, vision, goals, roadmap, market research, customer-market fit, KPIs, and cross-functi..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Differences",
+     "text": "Feature Product Manager (PM) Product Owner (PO)\nPrimary Focus Strategy, vision, market fit, and business outcomes Tactical execution, sprint planning, and backlog management\nTime Horizon Long-term (6 to 24 months, roadmaps) Short-term (1 to 4 weeks, sprint cycles)\nKey Question \"What should we build and why?\" \"How do we build this and when?\"\nPrimary Artifacts Product vision, business cases, PRDs, roadmaps Product backlog, user stories, acceptance criteria\nMethodology Origin Rooted in traditional business and lifecycle management (dating back to 1931/HP) Rooted strictly in the Scrum/Agile framework (introduced around 2001)\nKey Relationships Customers, executives, sales, marketing, and external stakeholders Engineering, QA, Scrum Masters, and internal delivery teams",
+     "markdown": "| Feature | Product Manager (PM) | Product Owner (PO) |\n|---|---|---|\n| **Primary Focus** | Strategy, vision, market fit, and business outcomes | Tactical execution, sprint planning, and backlog management |\n| **Time Horizon** | Long-term (6 to 24 months, roadmaps) | Short-term (1 to 4 weeks, sprint cycles) |\n| **Key Question** | \"What should we build and why?\" | \"How do we build this and when?\" |\n| **Primary Artifacts** | Product vision, business cases, PRDs, roadmaps | Product backlog, user stories, acceptance criteria |\n| **Methodology Origin** | Rooted in traditional business and lifecycle management (dating back to 1931/HP) | Rooted strictly in the Scrum/Agile framework (introduced around 2001) |\n| **Key Relationships** | Customers, executives, sales, marketing, and external stakeholders | Engineering, QA, Scrum Masters, and internal delivery teams |"
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Detailed Breakdown",
+     "markdown": "### Detailed Breakdown"
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Product Manager (PM)",
+     "text": "The \"Why\": The PM looks outward at the market, competitors, and user pain points to figure out what product features will drive business value. Lifecycle Ownership: Owns the product from initial concept and research through launch, pricing, go-to-market strategies, and post-launch profitability. Framework Context: The official Scrum Guide Product School does not formally define a \"Product Manager,\" as the title evolved from broader corporate product leadership.",
+     "markdown": "- **The \"Why\":** The PM looks outward at the market, competitors, and user pain points to figure out what product features will drive business value.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.linkedin.com/posts/iane_productmanagement-productowner-tech-activity-7183904102433660933-Fy1u)\n- **Lifecycle Ownership:** Owns the product from initial concept and research through launch, pricing, go-to-market strategies, and post-launch profitability.[[1]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[2]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[3]](https://productschool.com/blog/career-development/product-owner-vs-product-manager)\n- **Framework Context:** The official Scrum Guide [Product School](https://productschool.com/blog/career-development/product-owner-vs-product-manager) does not formally define a \"Product Manager,\" as the title evolved from broader corporate product leadership.[[1]](https://productschool.com/blog/career-development/product-owner-vs-product-manager)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Product School",
+       "url": "https://productschool.com/blog/career-development/product-owner-vs-product-manager",
+       "domain": "productschool.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Pragmatic Institute",
+       "domain": "www.pragmaticinstitute.com",
+       "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/",
+       "title": "Product Owner vs Product Manager: What’s the difference? | Pragmatic Institute",
+       "text": "Product Manager: Focuses on overall strategy, vision, goals, roadmap, market research, customer-market fit, KPIs, and cross-functi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Lyssna",
+       "domain": "www.lyssna.com",
+       "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+       "title": "Product Owner vs Product Manager",
+       "text": "Key takeaways * Product managers focus on the \"why\" and \"what\" – defining product vision, strategy, and roadmap based on market re..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "LinkedIn",
+       "domain": "www.linkedin.com",
+       "url": "https://www.linkedin.com/posts/iane_productmanagement-productowner-tech-activity-7183904102433660933-Fy1u",
+       "title": "productmanagement #productowner #tech #organicsocial | Ian Evans",
+       "text": "#productmanagement #productowner #tech #organicsocial | Ian Evans | 99 comments what is the difference between a product manager. ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ThoughtSpot",
+       "domain": "www.thoughtspot.com",
+       "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+       "title": "Product Owner vs Product Manager: Key Differences Explained",
+       "text": "6 key differences between a product manager and product owner * 1. Scope of Responsibility. The product owner is a member of the a..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Product School",
+       "domain": "productschool.com",
+       "url": "https://productschool.com/blog/career-development/product-owner-vs-product-manager",
+       "title": "Product Owner vs. Product Manager: Which Role to Choose?",
+       "text": "The Difference Between Product Owners and Product Managers Before we dive in, it's essential to clarify: the official Scrum Guide ..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Product Owner (PO)",
+     "text": "The \"How\": The PO takes the high-level strategy handed down by a PM (or leadership) and breaks it down into actionable work. Backlog Management: Spends most of their time writing user stories, defining acceptance criteria, grooming the product backlog, and prioritizing sprint tasks. Team Facilitation: Acts as the primary bridge between business goals and the engineering/Scrum team during daily standups, sprint planning, and reviews.",
+     "markdown": "- **The \"How\":** The PO takes the high-level strategy handed down by a PM (or leadership) and breaks it down into actionable work.[[1]](https://www.productplan.com/learn/product-manager-vs-product-owner)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Backlog Management:** Spends most of their time writing user stories, defining acceptance criteria, grooming the product backlog, and prioritizing sprint tasks.[[1]](https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.youtube.com/watch?v=8f2bcfbnSRg&t=73)\n- **Team Facilitation:** Acts as the primary bridge between business goals and the engineering/Scrum team during daily standups, sprint planning, and reviews.[[1]](https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager)[[2]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)[[3]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/product-manager-vs-product-owner",
+       "title": "Product Manager vs. Product Owner | ProductPlan",
+       "text": "Product Owner Role Definition As product management expert Roman Pichler explains of the product manager-product owner distinction..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Lyssna",
+       "domain": "www.lyssna.com",
+       "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+       "title": "Product Owner vs Product Manager",
+       "text": "Key takeaways * Product managers focus on the \"why\" and \"what\" – defining product vision, strategy, and roadmap based on market re..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "LinkedIn",
+       "domain": "www.linkedin.com",
+       "url": "https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira",
+       "title": "Difference Between Product Owner and Product Manager Explained",
+       "text": "Here are some of them: * Responsibilities: the Product Manager is responsible for identifying the right thing to do, while the Pro..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=8f2bcfbnSRg&t=73",
+       "title": "PM 4 | Product Manager vs Product Owner",
+       "text": "PM 4 | Product Manager vs Product Owner | Product Management Course | Uplatz and why does it matter to the business?\". Think of th..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ICAgile | International Consortium for Agile",
+       "domain": "www.icagile.com",
+       "url": "https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager",
+       "title": "What's the Difference Between a Product Owner vs. a ... - ICAgile",
+       "text": "The roles and responsibilities of product managers and product owners differ in terms of their focus, scope, and responsibilities."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ThoughtSpot",
+       "domain": "www.thoughtspot.com",
+       "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+       "title": "Product Owner vs Product Manager: Key Differences Explained",
+       "text": "6 key differences between a product manager and product owner * 1. Scope of Responsibility. The product owner is a member of the a..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "How They Work Together",
+     "text": "The Hand-off & Loop: The PM defines the destination via market research and roadmaps, while the PO maps the route and keeps the engineering team on track. Shared Goal: Both roles are deeply customer-centric and rely on user research feedback to iterate, though the PM adjusts the strategy while the PO adjusts the backlog items. Organization Models:Large Companies (e.g., SAFe): Often split the roles completely, where the PM handles external strategy and the PO handles internal delivery.\nStartups: One person usually wears both hats, acting as both the strategic visionary and the tactical backlog writer. Large Companies (e.g., SAFe): Often split the roles completely, where the PM handles external strategy and the PO handles internal delivery. Startups: One person usually wears both hats, acting as both the strategic visionary and the tactical backlog writer.",
+     "markdown": "- **The Hand-off & Loop:** The PM defines the destination via market research and roadmaps, while the PO maps the route and keeps the engineering team on track.[[1]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Shared Goal:** Both roles are deeply customer-centric and rely on user research feedback to iterate, though the PM adjusts the strategy while the PO adjusts the backlog items.[[1]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)\n- **Organization Models:** \n\t- *Large Companies (e.g., SAFe):* Often split the roles completely, where the PM handles external strategy and the PO handles internal delivery.\n\t- *Startups:* One person usually wears both hats, acting as both the strategic visionary and the tactical backlog writer.[[1]](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d)[[2]](https://www.lyssna.com/blog/product-owner-vs-product-manager/)[[3]](https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/)[[4]](https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Lyssna",
+       "domain": "www.lyssna.com",
+       "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+       "title": "Product Owner vs Product Manager",
+       "text": "Key takeaways * Product managers focus on the \"why\" and \"what\" – defining product vision, strategy, and roadmap based on market re..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Pragmatic Institute",
+       "domain": "www.pragmaticinstitute.com",
+       "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/",
+       "title": "Product Owner vs Product Manager: What’s the difference? | Pragmatic Institute",
+       "text": "Product Manager: Focuses on overall strategy, vision, goals, roadmap, market research, customer-market fit, KPIs, and cross-functi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Medium",
+       "domain": "medium.com",
+       "url": "https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d",
+       "title": "Product Manager vs Product Owner. “What is the difference between a… | by Melissa Perri | Medium",
+       "text": "Definitions: Product Manager is the job/profession; Product Owner is a specific role played on a Scrum team. Product Management Or..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ThoughtSpot",
+       "domain": "www.thoughtspot.com",
+       "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+       "title": "Product Owner vs Product Manager: Key Differences Explained",
+       "text": "6 key differences between a product manager and product owner * 1. Scope of Responsibility. The product owner is a member of the a..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Are you looking to transition between these roles, hire for your team, or clarify how they function in a specific company setup?",
+     "markdown": "Are you looking to **transition between these roles**, **hire for your team** , or **clarify how they function** in a specific company setup?"
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Reddit",
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/13eodqt/whats_the_difference_between_a_product_owner_and/",
+     "title": "What's the difference between a product owner and a ... - Reddit",
+     "text": "Strategic vs. Tactical Focus: Often, the Product Manager is viewed as strategic, focusing on the product vision, market, and highe..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Medium",
+     "domain": "medium.com",
+     "url": "https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d",
+     "title": "Product Manager vs Product Owner. “What is the difference between a… | by Melissa Perri | Medium",
+     "text": "Definitions: Product Manager is the job/profession; Product Owner is a specific role played on a Scrum team. Product Management Or..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ThoughtSpot",
+     "domain": "www.thoughtspot.com",
+     "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+     "title": "Product Owner vs Product Manager: Key Differences Explained",
+     "text": "6 key differences between a product manager and product owner * 1. Scope of Responsibility. The product owner is a member of the a..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "LinkedIn",
+     "domain": "www.linkedin.com",
+     "url": "https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira",
+     "title": "Difference Between Product Owner and Product Manager Explained",
+     "text": "Here are some of them: * Responsibilities: the Product Manager is responsible for identifying the right thing to do, while the Pro..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/learn/product-manager-vs-product-owner",
+     "title": "Product Manager vs. Product Owner | ProductPlan",
+     "text": "Product Owner Role Definition As product management expert Roman Pichler explains of the product manager-product owner distinction..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ICAgile | International Consortium for Agile",
+     "domain": "www.icagile.com",
+     "url": "https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager",
+     "title": "What's the Difference Between a Product Owner vs. a ... - ICAgile",
+     "text": "The roles and responsibilities of product managers and product owners differ in terms of their focus, scope, and responsibilities."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Pragmatic Institute",
+     "domain": "www.pragmaticinstitute.com",
+     "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/",
+     "title": "Product Owner vs Product Manager: What’s the difference? | Pragmatic Institute",
+     "text": "Product Manager: Focuses on overall strategy, vision, goals, roadmap, market research, customer-market fit, KPIs, and cross-functi..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Lyssna",
+     "domain": "www.lyssna.com",
+     "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+     "title": "Product Owner vs Product Manager",
+     "text": "Key takeaways * Product managers focus on the \"why\" and \"what\" – defining product vision, strategy, and roadmap based on market re..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "LinkedIn",
+     "domain": "www.linkedin.com",
+     "url": "https://www.linkedin.com/posts/iane_productmanagement-productowner-tech-activity-7183904102433660933-Fy1u",
+     "title": "productmanagement #productowner #tech #organicsocial | Ian Evans",
+     "text": "#productmanagement #productowner #tech #organicsocial | Ian Evans | 99 comments what is the difference between a product manager. ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Product School",
+     "domain": "productschool.com",
+     "url": "https://productschool.com/blog/career-development/product-owner-vs-product-manager",
+     "title": "Product Owner vs. Product Manager: Which Role to Choose?",
+     "text": "The Difference Between Product Owners and Product Managers Before we dive in, it's essential to clarify: the official Scrum Guide ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=8f2bcfbnSRg&t=73",
+     "title": "PM 4 | Product Manager vs Product Owner",
+     "text": "PM 4 | Product Manager vs Product Owner | Product Management Course | Uplatz and why does it matter to the business?\". Think of th..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "What's the difference between a product owner and ...",
+   "url": "https://www.reddit.com/r/ProductManagement/comments/13eodqt/whats_the_difference_between_a_product_owner_and/",
+   "breadcrumb": "70+ comments  ·  3 years ago",
+   "website_name": "Reddit · r/ProductManagement",
+   "description": "I'm interviewing these days and some people are insisting that I be either a product owner or a product manager. In my experience the difference has been ...",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "What's the difference between Product Manager and ...",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/xypu8p/whats_the_difference_between_product_manager_and/",
+     "domain": "www.reddit.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Product Manger vs. Project Manager vs. Product Owner ...",
+     "url": "https://www.reddit.com/r/agile/comments/1594vcr/product_manger_vs_project_manager_vs_product/",
+     "domain": "www.reddit.com"
+    },
+    {
+     "type": "link_element",
+     "title": "More results from www.reddit.com",
+     "url": "https://www.google.com/search?q=product+manager+vs+product+owner+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsAEbhYfVUWrhQ9hZOsLfOnZAKRWg:1791474372797&sa=X&ved=2ahUKEwju0vSM4qqXAxV6kJUCHTkVJqAQrQIoAnoECC0QAw",
+     "domain": "www.google.com"
+    }
+   ]
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "Is a Product Owner higher than a product manager?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Can PO and SM be the same person?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Who gets paid more, product manager or Product Owner?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Will AI replace Product Owners?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.thoughtspot.com",
+   "title": "Product owner vs product manager: 6 key differences in 2026",
+   "url": "https://www.thoughtspot.com/data-trends/product-management/product-owner-vs-product-manager",
+   "breadcrumb": "https://www.thoughtspot.com › data-trends › product-o...",
+   "website_name": "ThoughtSpot",
+   "description": "Jun 9, 2026 — The product owner focuses on day-to-day execution; the product manager focuses on vision, market fit, and business outcomes.",
+   "pre_snippet": "06/09/2026 00:00:00",
+   "highlighted": [
+    "The product owner focuses on day-to-day execution"
+   ],
+   "timestamp": "2026-06-09 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "medium.com",
+   "title": "Melissa Perri on Product Manager vs Product Owner",
+   "url": "https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d",
+   "breadcrumb": "9 years ago",
+   "website_name": "Medium · Melissa Perri",
+   "description": "Product Owner is a role you play on a Scrum team. Product Manager is the job. The Product Owners are internal facing, define the components of ...",
+   "highlighted": [
+    "Product Owner is a role you play on a Scrum team"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.productplan.com",
+   "title": "Product Manager vs. Product Owner",
+   "url": "https://www.productplan.com/learn/product-manager-vs-product-owner",
+   "breadcrumb": "https://www.productplan.com › Learn",
+   "website_name": "ProductPlan",
+   "description": "Product managers are strategic. They focus on the product's vision, company objectives, and the market. Product owners (which you'll find typically in agile ...",
+   "highlighted": [
+    "Product managers are strategic"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.pragmaticinstitute.com",
+   "title": "Product Owner vs Product Manager: What's the difference?",
+   "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/",
+   "breadcrumb": "https://www.pragmaticinstitute.com › Home › Resources",
+   "website_name": "Pragmatic Institute",
+   "description": "At a high level, the Product Manager focuses on the overall strategy behind a product and the Product Owner handles the tactical, day-to-day management of the ... Read more",
+   "highlighted": [
+    "Product Manager focuses on the overall strategy behind a product"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.pragmaticinstitute.com/resources/articles/product/product-owner-vs-product-manager-whats-the-difference/#:~:text=At%20a%20high%20level%2C%20the,of%20the%20product%20development%20process.",
+     "domain": "www.pragmaticinstitute.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.linkedin.com",
+   "title": "Difference Between Product Owner and Product Manager ...",
+   "url": "https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira",
+   "breadcrumb": "280+ reactions  ·  4 years ago",
+   "website_name": "LinkedIn · David Pereira",
+   "description": "Responsibilities: the Product Manager is responsible for identifying the right thing to do, while the Product Owner is responsible for ... Read more",
+   "highlighted": [
+    "Product Manager is responsible for identifying the right thing to do"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.linkedin.com/pulse/difference-between-product-owner-manager-explained-david-pereira#:~:text=Responsibilities%3A%20the%20Product%20Manager%20is,for%20implementing%20the%20thing%20right.",
+     "domain": "www.linkedin.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.freshpaint.io",
+   "title": "The Differences Between Product Owners and ...",
+   "url": "https://www.freshpaint.io/blog/product-owner-vs-product-manager",
+   "breadcrumb": "https://www.freshpaint.io › blog › product-owner-vs-pr...",
+   "website_name": "Freshpaint",
+   "description": "Jun 3, 2021 — Product managers are strategic, and product owners focus on prioritization, team execution, and building the right thing. Read more",
+   "pre_snippet": "06/03/2021 00:00:00",
+   "highlighted": [
+    "Product managers are strategic"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.freshpaint.io/blog/product-owner-vs-product-manager#:~:text=Product%20managers%20are%20strategic%2C%20and,and%20building%20the%20right%20thing.",
+     "domain": "www.freshpaint.io"
+    }
+   ],
+   "timestamp": "2021-06-03 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "www.lyssna.com",
+   "title": "Product Owner vs Product Manager",
+   "url": "https://www.lyssna.com/blog/product-owner-vs-product-manager/",
+   "breadcrumb": "https://www.lyssna.com › Resources › Blog",
+   "website_name": "Lyssna",
+   "description": "Mar 13, 2026 — Product managers operate on longer time horizons (6–24 months), while product owners work in sprint cycles (1–4 weeks).",
+   "pre_snippet": "03/13/2026 00:00:00",
+   "highlighted": [
+    "Product managers",
+    "product owners"
+   ],
+   "timestamp": "2026-03-13 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 9,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "www.icagile.com",
+   "title": "What's the Difference Between a Product Owner vs. ...",
+   "url": "https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager",
+   "breadcrumb": "https://www.icagile.com › resources › what-is-the-differ...",
+   "website_name": "ICAgile | International Consortium for Agile",
+   "description": "Nov 15, 2023 — In contrast, a product manager takes a more strategic role. The product manager focuses on market research, product planning, aligning the ... Read more",
+   "pre_snippet": "11/15/2023 00:00:00",
+   "highlighted": [
+    "a product manager takes a more strategic role"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.icagile.com/resources/what-is-the-difference-between-a-product-owner-vs-a-product-manager#:~:text=In%20contrast%2C%20a%20product%20manager,product's%20success%20in%20the%20market.",
+     "domain": "www.icagile.com"
+    }
+   ],
+   "timestamp": "2023-11-15 00:00:00 +00:00"
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "items": [
+    "Product manager vs product owner salary",
+    "Product manager vs product owner reddit",
+    "Product Owner vs Product Manager which is higher",
+    "Product manager vs product owner job description",
+    "Product Owner vs Product Manager vs Business Analyst",
+    "Product Owner certification",
+    "Business Analyst vs Product Owner",
+    "Technical Product Manager vs product Owner"
+   ]
+  }
+ ]
+}

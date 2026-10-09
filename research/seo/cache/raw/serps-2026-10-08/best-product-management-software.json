@@ -1,0 +1,510 @@
+{
+  "id": "10081545-2633-0066-0000-655818b07ab3",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "The best product management software `depends on your team's core focus` , ranging from customer feedback and roadmapping to agile execution.[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://zapier.com/blog/best-product-management-software/)\n\n### Top Product Management Software\n\n- **[Productboard](https://www.productboard.com/glossary/product-management-tools/)** : Best for customer-focused management and feedback collection, featuring central repositories, prioritization frameworks, and visual roadmaps (Free–$80/mo).[[1]](https://zapier.com/blog/best-product-management-software/)[[2]](https://www.productboard.com/glossary/product-management-tools/)\n- **Aha!** : Best for comprehensive portfolio strategy and large organizations, offering robust research, release planning, and extensive chart tools ($59+/mo).[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **Craft.io** : Best for single-source-of-truth product strategy, capacity planning, and stakeholder alignment ($39–$89/mo).[[1]](https://ventureharbour.com/product-management-software/)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **airfocus** : Best for modular prioritization, simple user interfaces, and fast setup for startups ($15–$89/mo).[[1]](https://ventureharbour.com/product-management-software/)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **[Jira Product Discovery](https://www.atlassian.com/agile/product-management/product-management-tools)** / **Jira** : Best for agile execution, connecting idea scoring directly to developer delivery pipelines.[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)\n- **[Linear](https://ventureharbour.com/product-management-software/)** : Best lightweight tool for fast, developer-focused issue tracking and backlog management (Free–$12/mo).[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://ventureharbour.com/product-management-software/)\n\n### Essential Product Stack Categories\n\n- **Roadmapping & Strategy:** Productboard, Aha!, Craft.io, airfocus , ProductPlan.\n- **Agile Execution & Tracking:** Jira, Linear, monday.com (Monday Dev).\n- **Product Analytics:** Amplitude, Mixpanel, Heap.\n- **Collaboration & Feedback:** Miro, Figma, Canny.[[1]](https://www.reddit.com/r/ProductManagement/comments/1d6zw2h/what_tools_do_you_use_for_product_management/)[[2]](https://www.atlassian.com/agile/product-management/product-management-tools)[[3]](https://ventureharbour.com/product-management-software/)[[4]](https://zapier.com/blog/best-product-management-software/)[[5]](https://www.youtube.com/watch?v=vFiJdWbUmGs)[[6]](https://www.reddit.com/r/ProductManagement_IN/comments/1ssdjqr/heres_a_list_of_top_product_management_tools_for/)[[7]](https://www.productboard.com/glossary/product-management-tools/)\n\nIf you share your **team size** and **main goal** (like customer feedback, roadmapping, or dev tracking), I can recommend the exact tool fit.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "The best product management software depends on your team's core focus, ranging from customer feedback and roadmapping to agile execution.",
+          "markdown": "The best product management software `depends on your team's core focus` , ranging from customer feedback and roadmapping to agile execution.[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://zapier.com/blog/best-product-management-software/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-tools",
+              "title": "Top 9 Product Management Tools [2026] | Atlassian",
+              "text": "Core PM Capabilities: Idea capture, prioritization, roadmapping, backlog management, collaboration, reporting. Top Tools & Focus: ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Zapier",
+              "domain": "zapier.com",
+              "url": "https://zapier.com/blog/best-product-management-software/",
+              "title": "The best product management software | Zapier",
+              "text": "Top Product Management Software: Craft.io for product strategy ($39–$89/mo, single source of truth, strategic inputs, integrations..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Top Product Management Software",
+          "text": "Productboard : Best for customer-focused management and feedback collection, featuring central repositories, prioritization frameworks, and visual roadmaps (Free–$80/mo). Aha! : Best for comprehensive portfolio strategy and large organizations, offering robust research, release planning, and extensive chart tools ($59+/mo). Craft.io : Best for single-source-of-truth product strategy, capacity planning, and stakeholder alignment ($39–$89/mo). airfocus : Best for modular prioritization, simple user interfaces, and fast setup for startups ($15–$89/mo). Jira Product Discovery / Jira : Best for agile execution, connecting idea scoring directly to developer delivery pipelines. Linear : Best lightweight tool for fast, developer-focused issue tracking and backlog management (Free–$12/mo).",
+          "markdown": "- **[Productboard](https://www.productboard.com/glossary/product-management-tools/)** : Best for customer-focused management and feedback collection, featuring central repositories, prioritization frameworks, and visual roadmaps (Free–$80/mo).[[1]](https://zapier.com/blog/best-product-management-software/)[[2]](https://www.productboard.com/glossary/product-management-tools/)\n- **Aha!** : Best for comprehensive portfolio strategy and large organizations, offering robust research, release planning, and extensive chart tools ($59+/mo).[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **Craft.io** : Best for single-source-of-truth product strategy, capacity planning, and stakeholder alignment ($39–$89/mo).[[1]](https://ventureharbour.com/product-management-software/)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **airfocus** : Best for modular prioritization, simple user interfaces, and fast setup for startups ($15–$89/mo).[[1]](https://ventureharbour.com/product-management-software/)[[2]](https://zapier.com/blog/best-product-management-software/)\n- **[Jira Product Discovery](https://www.atlassian.com/agile/product-management/product-management-tools)** / **Jira** : Best for agile execution, connecting idea scoring directly to developer delivery pipelines.[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)\n- **[Linear](https://ventureharbour.com/product-management-software/)** : Best lightweight tool for fast, developer-focused issue tracking and backlog management (Free–$12/mo).[[1]](https://www.atlassian.com/agile/product-management/product-management-tools)[[2]](https://ventureharbour.com/product-management-software/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Productboard",
+              "url": "https://www.productboard.com/glossary/product-management-tools/",
+              "domain": "www.productboard.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Jira Product Discovery",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-tools",
+              "domain": "www.atlassian.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Linear",
+              "url": "https://ventureharbour.com/product-management-software/",
+              "domain": "ventureharbour.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Zapier",
+              "domain": "zapier.com",
+              "url": "https://zapier.com/blog/best-product-management-software/",
+              "title": "The best product management software | Zapier",
+              "text": "Top Product Management Software: Craft.io for product strategy ($39–$89/mo, single source of truth, strategic inputs, integrations..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productboard",
+              "domain": "www.productboard.com",
+              "url": "https://www.productboard.com/glossary/product-management-tools/",
+              "title": "Top Product Management Tools Guide | Productboard",
+              "text": "Product Management vs Project Management: Projects execute specific tasks with a defined end; products involve ongoing lifecycle d..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-tools",
+              "title": "Top 9 Product Management Tools [2026] | Atlassian",
+              "text": "Core PM Capabilities: Idea capture, prioritization, roadmapping, backlog management, collaboration, reporting. Top Tools & Focus: ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Venture Harbour",
+              "domain": "ventureharbour.com",
+              "url": "https://ventureharbour.com/product-management-software/",
+              "title": "5 Best Product Management & Roadmap Tools for 2026",
+              "text": "Tools: Productboard ($20-$60/mo; best roadmaps and features), Craft ($39-$89/mo; collaboration and capacity planning), airfocus ($"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Essential Product Stack Categories",
+          "text": "Roadmapping & Strategy: Productboard, Aha!, Craft.io, airfocus, ProductPlan. Agile Execution & Tracking: Jira, Linear, monday.com (Monday Dev). Product Analytics: Amplitude, Mixpanel, Heap. Collaboration & Feedback: Miro, Figma, Canny.",
+          "markdown": "- **Roadmapping & Strategy:** Productboard, Aha!, Craft.io, airfocus , ProductPlan.\n- **Agile Execution & Tracking:** Jira, Linear, monday.com (Monday Dev).\n- **Product Analytics:** Amplitude, Mixpanel, Heap.\n- **Collaboration & Feedback:** Miro, Figma, Canny.[[1]](https://www.reddit.com/r/ProductManagement/comments/1d6zw2h/what_tools_do_you_use_for_product_management/)[[2]](https://www.atlassian.com/agile/product-management/product-management-tools)[[3]](https://ventureharbour.com/product-management-software/)[[4]](https://zapier.com/blog/best-product-management-software/)[[5]](https://www.youtube.com/watch?v=vFiJdWbUmGs)[[6]](https://www.reddit.com/r/ProductManagement_IN/comments/1ssdjqr/heres_a_list_of_top_product_management_tools_for/)[[7]](https://www.productboard.com/glossary/product-management-tools/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ProductManagement/comments/1d6zw2h/what_tools_do_you_use_for_product_management/",
+              "title": "What tools do you use for product management? - Reddit",
+              "text": "Product Analytics Tools: Tools such as Amplitude, Mixpanel, Tableau, Google Analytics, DeltaDNA, Heap, and Posthog are crucial for..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-tools",
+              "title": "Top 9 Product Management Tools [2026] | Atlassian",
+              "text": "Core PM Capabilities: Idea capture, prioritization, roadmapping, backlog management, collaboration, reporting. Top Tools & Focus: ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Venture Harbour",
+              "domain": "ventureharbour.com",
+              "url": "https://ventureharbour.com/product-management-software/",
+              "title": "5 Best Product Management & Roadmap Tools for 2026",
+              "text": "Tools: Productboard ($20-$60/mo; best roadmaps and features), Craft ($39-$89/mo; collaboration and capacity planning), airfocus ($"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Zapier",
+              "domain": "zapier.com",
+              "url": "https://zapier.com/blog/best-product-management-software/",
+              "title": "The best product management software | Zapier",
+              "text": "Top Product Management Software: Craft.io for product strategy ($39–$89/mo, single source of truth, strategic inputs, integrations..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=vFiJdWbUmGs",
+              "title": "Top Product Management Software to Supercharge Your Working Process",
+              "text": "Top Product Management Software to Supercharge Your Working Process product management is a mess without right tools. so here are ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/ProductManagement_IN/comments/1ssdjqr/heres_a_list_of_top_product_management_tools_for/",
+              "title": "Here's a list of top product management tools for every use case",
+              "text": "Table_title: Here's a list of top product management tools for every use case Table_content: | Use Case | Product Management Tools..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Productboard",
+              "domain": "www.productboard.com",
+              "url": "https://www.productboard.com/glossary/product-management-tools/",
+              "title": "Top Product Management Tools Guide | Productboard",
+              "text": "Product Management vs Project Management: Projects execute specific tasks with a defined end; products involve ongoing lifecycle d..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you share your team size and main goal (like customer feedback, roadmapping, or dev tracking), I can recommend the exact tool fit.",
+          "markdown": "If you share your **team size** and **main goal** (like customer feedback, roadmapping, or dev tracking), I can recommend the exact tool fit."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1d6zw2h/what_tools_do_you_use_for_product_management/",
+          "title": "What tools do you use for product management? - Reddit",
+          "text": "Product Analytics Tools: Tools such as Amplitude, Mixpanel, Tableau, Google Analytics, DeltaDNA, Heap, and Posthog are crucial for..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/agile/product-management/product-management-tools",
+          "title": "Top 9 Product Management Tools [2026] | Atlassian",
+          "text": "Core PM Capabilities: Idea capture, prioritization, roadmapping, backlog management, collaboration, reporting. Top Tools & Focus: ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Venture Harbour",
+          "domain": "ventureharbour.com",
+          "url": "https://ventureharbour.com/product-management-software/",
+          "title": "5 Best Product Management & Roadmap Tools for 2026",
+          "text": "Tools: Productboard ($20-$60/mo; best roadmaps and features), Craft ($39-$89/mo; collaboration and capacity planning), airfocus ($"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Zapier",
+          "domain": "zapier.com",
+          "url": "https://zapier.com/blog/best-product-management-software/",
+          "title": "The best product management software | Zapier",
+          "text": "Top Product Management Software: Craft.io for product strategy ($39–$89/mo, single source of truth, strategic inputs, integrations..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Productboard",
+          "domain": "www.productboard.com",
+          "url": "https://www.productboard.com/glossary/product-management-tools/",
+          "title": "Top Product Management Tools Guide | Productboard",
+          "text": "Product Management vs Project Management: Projects execute specific tasks with a defined end; products involve ongoing lifecycle d..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=vFiJdWbUmGs",
+          "title": "Top Product Management Software to Supercharge Your Working Process",
+          "text": "Top Product Management Software to Supercharge Your Working Process product management is a mess without right tools. so here are ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/ProductManagement_IN/comments/1ssdjqr/heres_a_list_of_top_product_management_tools_for/",
+          "title": "Here's a list of top product management tools for every use case",
+          "text": "Table_title: Here's a list of top product management tools for every use case Table_content: | Use Case | Product Management Tools..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.techrepublic.com",
+      "title": "9 Best AI Project Management Tools",
+      "url": "https://www.techrepublic.com/article/ai-project-management-tools/",
+      "breadcrumb": "https://www.techrepublic.com › article › ai-project-man...",
+      "website_name": "TechRepublic",
+      "description": "Jul 16, 2026 — 1. monday work management: Best for configurable AI workflows · 2. ClickUp: Best for context-aware project automation · 3. Asana: Best for admin- ... Read more",
+      "pre_snippet": "07/16/2026 00:00:00",
+      "highlighted": [
+        "monday work management: Best for configurable AI workflows"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.techrepublic.com/article/ai-project-management-tools/#:~:text=1.%20monday%20work%20management%3A%20Best,for%20configurable%20AI%20workflows&text=2.%20ClickUp%3A%20Best%20for%20context-aware,project%20automation&text=3.%20Asana%3A%20Best%20for%20admin-controlled,AI%20workflows",
+          "domain": "www.techrepublic.com"
+        }
+      ],
+      "timestamp": "2026-07-16 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "need advise for project management tools/software",
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1um3r48/need_advise_for_project_management_toolssoftware/",
+      "breadcrumb": "40+ comments  ·  3 months ago",
+      "website_name": "Reddit · r/AskMarketing",
+      "description": "I'd recommend starting with Trello, ClickUp, or Notion. They're all great for tracking tasks, content calendars, deadlines, and client projects,",
+      "highlighted": [
+        "Trello, ClickUp, or Notion"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Production Management Software Implementer - Reddit",
+          "url": "https://www.reddit.com/r/CommercialPrinting/comments/1p36q54/production_management_software_implementer/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Newbie into the Product Management world. Any ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/iw8qy2/newbie_into_the_product_management_world_any/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=best+product+management+software+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvhssMTeeynBZOC5Y5UxgVLiKr2TA:1791474343797&sa=X&ved=2ahUKEwj30Ir_4aqXAxWKGRAIHY-eJlEQrQIoAnoECCQQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "What are your favorite tools as PM?",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1m65w9q/what_are_your_favorite_tools_as_pm/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2025-10-08 15:45:44 +00:00",
+          "posts_count": 70
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "How do I choose a good product management software?",
+          "url": "https://www.quora.com/How-do-I-choose-a-good-product-management-software",
+          "domain": "www.quora.com",
+          "source": "Quora",
+          "timestamp": "2022-10-08 15:45:44 +00:00",
+          "posts_count": 30
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Which software combines the most product management tools without ...",
+          "url": "https://www.quora.com/Which-software-combines-the-most-product-management-tools-without-being-overloaded",
+          "domain": "www.quora.com",
+          "source": "Quora",
+          "timestamp": "2015-10-08 15:45:44 +00:00",
+          "posts_count": 30
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What apps do CEOs use?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 5 project management software?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 P's of product management?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is Jira a PM software?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.featurebase.app",
+      "title": "Best 15 UserVoice Alternatives for Product Manage...",
+      "url": "https://www.featurebase.app/blog/uservoice-alternatives",
+      "breadcrumb": "https://www.featurebase.app › blog › uservoice-alternati...",
+      "website_name": "Featurebase",
+      "description": "UserVoice is an enterprise feedback and product discovery software. It helps product teams collect and analyze customer feedback, build internal and public ... Read more",
+      "highlighted": [
+        "UserVoice"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.featurebase.app/blog/uservoice-alternatives#:~:text=UserVoice%20is%20an%20enterprise%20feedback,prioritize%20ideas%20for%20maximum%20impact.",
+          "domain": "www.featurebase.app"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.larksuite.com",
+      "title": "15 Best Creative Agency Project Management Software",
+      "url": "https://www.larksuite.com/en_us/blog/agency-project-management-software",
+      "breadcrumb": "https://www.larksuite.com › en_us › blog › agency-proj...",
+      "website_name": "Lark",
+      "description": "Sep 18, 2026 — 1. Lark: Unified workspace for creative, marketing, and digital agency operations​ · 2. Wrike: Robust workflow management for creative teams​ · 3. Read more",
+      "pre_snippet": "09/18/2026 00:00:00",
+      "highlighted": [
+        "Lark"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.larksuite.com/en_us/blog/agency-project-management-software#:~:text=1.%20Lark%3A%20Unified%20workspace%20for,marketing%2C%20and%20digital%20agency%20operations%E2%80%8B&text=2.%20Wrike%3A%20Robust%20workflow%20management,for%20creative%20teams%E2%80%8B&text=3.%20ClickUp%3A%20Highly%20customizable%20workflows",
+          "domain": "www.larksuite.com"
+        }
+      ],
+      "timestamp": "2026-09-18 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.softwareadvice.com",
+      "title": "Best Agile Project Management Software of 2026",
+      "url": "https://www.softwareadvice.com/project-management/agile-comparison/",
+      "breadcrumb": "https://www.softwareadvice.com › agile-comparison",
+      "website_name": "Software Advice",
+      "description": "Jan 27, 2025 — Best Agile Project Management Software of 2026 ; Wrike. 4.37. (3042) · Starting $10.00/month ; Smartsheet. 4.49. (3560) · Starting $9.00/month. Read more",
+      "pre_snippet": "01/27/2025 00:00:00",
+      "highlighted": [
+        "Wrike"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.softwareadvice.com/project-management/agile-comparison/#:~:text=Best%20Agile%20Project%20Management%20Software,of%202026&text=Wrike,(3042)&text=Smartsheet&text=Smartsheet,(3560)&text=Quickbase",
+          "domain": "www.softwareadvice.com"
+        }
+      ],
+      "timestamp": "2025-01-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.projectmanagement.com",
+      "title": "Messages on Best Project Management Software?",
+      "url": "https://www.projectmanagement.com/discussion-topic/151527/best-project-management-software-",
+      "breadcrumb": "https://www.projectmanagement.com › discussion-topic",
+      "website_name": "ProjectManagement.com",
+      "description": "Best Project Management Software? I recently found one called eprojects.io and it seems to be pretty good, The PM tool must be able to record your risks, ...",
+      "highlighted": [
+        "eprojects.io"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "coschedule.com",
+      "title": "The 8 Best Marketing Project Management Softwares For ...",
+      "url": "https://coschedule.com/marketing/marketing-management/marketing-project-management-software",
+      "breadcrumb": "https://coschedule.com › ... › Marketing Management",
+      "website_name": "CoSchedule",
+      "description": "Feb 28, 2023 — Discover how marketing project management software simplifies campaign planning, enhances collaboration, and boosts productivity.",
+      "pre_snippet": "02/28/2023 00:00:00",
+      "highlighted": [
+        "marketing project management software"
+      ],
+      "timestamp": "2023-02-28 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.apm.org.uk",
+      "title": "Spoiled for choice? Here's the best project management ...",
+      "url": "https://www.apm.org.uk/blog/spoiled-for-choice-here-s-the-best-project-management-software-for-2019/",
+      "breadcrumb": "https://www.apm.org.uk › blog › spoiled-for-choice-he...",
+      "website_name": "APM: Association for Project Management",
+      "description": "May 30, 2019 — When it comes to project management software, Microsoft Project is still king, even if it seems a bit less exciting than some of the newer ... Read more",
+      "pre_snippet": "05/30/2019 00:00:00",
+      "highlighted": [
+        "Microsoft Project"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.apm.org.uk/blog/spoiled-for-choice-here-s-the-best-project-management-software-for-2019/#:~:text=When%20it%20comes%20to%20project,newer%20systems%20on%20the%20market.",
+          "domain": "www.apm.org.uk"
+        }
+      ],
+      "timestamp": "2019-05-30 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Best product management software free",
+        "Best product management software reddit"
+      ]
+    }
+  ]
+}

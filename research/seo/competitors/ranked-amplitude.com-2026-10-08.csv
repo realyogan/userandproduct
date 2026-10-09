@@ -1,0 +1,501 @@
+keyword,volume,difficulty,position,url,intent
+how to use t,550000,4,5,https://amplitude.com/explore/experiment/t-test,informational
+analyzing data,110000,48,38,https://amplitude.com/explore/data/what-data-analytics,informational
+confidence bound,110000,7,66,https://amplitude.com/explore/experiment/confidence-intervals,informational
+confidence intervals,110000,31,41,https://amplitude.com/explore/experiment/confidence-intervals,informational
+confidence limits,110000,14,58,https://amplitude.com/explore/experiment/confidence-intervals,informational
+data analysis,110000,39,25,https://amplitude.com/explore/data/what-data-analytics,informational
+cx,90500,46,35,https://amplitude.com/blog/customer-experience-definition,informational
+taxonomies,90500,46,23,https://amplitude.com/explore/data/what-data-taxonomy,informational
+amplitude,74000,40,2,https://amplitude.com/,informational
+average cac,74000,36,48,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,informational
+analytics,60500,88,21,https://amplitude.com/glossary/terms/analytics,informational
+application messaging,60500,27,19,https://amplitude.com/explore/product/in-app-messaging,informational
+metrics,60500,15,5,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+causation,49500,29,9,https://amplitude.com/blog/causation-correlation,informational
+causational,49500,0,17,https://amplitude.com/blog/causation-correlation,informational
+which correlation is most likely a causation,49500,0,22,https://amplitude.com/blog/causation-correlation,informational
+monte carlo simulation,40500,51,51,https://amplitude.com/glossary/terms/monte-carlo-simulation,informational
+monte carlo simulations,40500,48,42,https://amplitude.com/glossary/terms/monte-carlo-simulation,informational
+standard user analyzer,40500,0,40,https://amplitude.com/guides/user-analysis,informational
+trunk based development,40500,26,42,https://amplitude.com/explore/experiment/trunk-based-development,informational
+trunk-based development,40500,21,46,https://amplitude.com/explore/experiment/trunk-based-development,informational
+am dashboard,33100,7,7,https://amplitude.com/,navigational
+causal versus correlational,33100,30,2,https://amplitude.com/blog/causation-correlation,informational
+causal vs correlation,33100,24,3,https://amplitude.com/blog/causation-correlation,informational
+causation and effect,33100,10,20,https://amplitude.com/blog/causation-correlation,informational
+causation or correlation,33100,19,4,https://amplitude.com/blog/causation-correlation,informational
+causation vs correlation,33100,20,4,https://amplitude.com/blog/causation-correlation,informational
+cause and effect vs correlation,33100,18,3,https://amplitude.com/blog/causation-correlation,informational
+churn,33100,26,11,https://amplitude.com/glossary/terms/churn,informational
+churning,33100,22,49,https://amplitude.com/explore/analytics/what-is-churn,informational
+confound variable,33100,10,11,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounded variable,33100,9,11,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounder variable,33100,7,12,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding factor,33100,11,33,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding factors,33100,6,15,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding of variables,33100,9,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding variable,33100,7,9,https://amplitude.com/explore/experiment/confounding-variables,informational
+correlation and causation,33100,24,4,https://amplitude.com/blog/causation-correlation,informational
+correlation causation,33100,18,5,https://amplitude.com/blog/causation-correlation,informational
+correlation is not causation,33100,26,11,https://amplitude.com/blog/causation-correlation,informational
+correlation not causation,33100,28,10,https://amplitude.com/blog/causation-correlation,informational
+correlation vs causation,33100,18,3,https://amplitude.com/blog/causation-correlation,informational
+growing exponentially,33100,24,9,https://amplitude.com/blog/exponential-growth,informational
+namer countries,33100,48,31,https://community.amplitude.com/building-and-sharing-your-analysis-58/full-list-of-country-anywhere-1004,informational
+p score,33100,18,54,https://amplitude.com/explore/experiment/p-values,informational
+p statistics,33100,24,37,https://amplitude.com/explore/experiment/p-values,informational
+p value,33100,28,38,https://amplitude.com/explore/experiment/p-values,informational
+p value p,33100,23,25,https://amplitude.com/explore/experiment/p-values,informational
+p values,33100,27,16,https://amplitude.com/explore/experiment/p-values,informational
+p-score,33100,18,48,https://amplitude.com/explore/experiment/p-values,informational
+p-value,33100,21,33,https://amplitude.com/explore/experiment/p-values,informational
+p-values,33100,22,14,https://amplitude.com/explore/experiment/p-values,informational
+probability value,33100,6,44,https://amplitude.com/explore/experiment/p-values,informational
+value of p value,33100,14,32,https://amplitude.com/explore/experiment/p-values,informational
+click through rate,27100,45,49,https://amplitude.com/blog/how-to-calculate-clickthrough-rate-ctr,informational
+click thru rate,27100,35,37,https://amplitude.com/blog/how-to-calculate-clickthrough-rate-ctr,informational
+ctr click through rate,27100,37,47,https://amplitude.com/blog/how-to-calculate-clickthrough-rate-ctr,informational
+heat maps,27100,27,59,https://amplitude.com/explore/analytics/heatmaps,informational
+heatmap,27100,77,51,https://amplitude.com/explore/analytics/heatmaps,informational
+stickiness,27100,0,12,https://amplitude.com/blog/product-stickiness-guide,informational
+student t test,27100,28,39,https://amplitude.com/explore/experiment/t-test,informational
+t test,27100,22,14,https://amplitude.com/explore/experiment/t-test,informational
+t-test,27100,25,29,https://amplitude.com/explore/experiment/t-test,informational
+t-tests,27100,14,8,https://amplitude.com/explore/experiment/t-test,informational
+ttest,27100,23,14,https://amplitude.com/explore/experiment/t-test,informational
+amplitude meaning,22200,1,10,https://amplitude.com/docs/get-started/what-is-amplitude,informational
+expectation plus,22200,0,19,https://amplitude.com/plus,informational
+meaning of minimum viable product,22200,46,19,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+mvp meaning,22200,28,27,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+mvps meaning,22200,27,15,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what country am i in,22200,0,62,https://community.amplitude.com/building-and-sharing-your-analysis-58/full-list-of-country-anywhere-1004,informational
+causation definition,18100,26,11,https://amplitude.com/blog/causation-correlation,informational
+causation meaning,18100,8,11,https://amplitude.com/blog/causation-correlation,informational
+data table,18100,26,82,https://academy.amplitude.com/what-is-a-data-table?reg=1,informational
+define causation,18100,10,10,https://amplitude.com/blog/causation-correlation,informational
+download file,18100,39,24,https://amplitude.com/glossary/terms/file-download,transactional
+meaning of causation,18100,9,8,https://amplitude.com/blog/causation-correlation,informational
+qualitative data,18100,20,25,https://amplitude.com/glossary/terms/qualitative-data,informational
+sampling methods stratified,18100,4,19,https://amplitude.com/explore/experiment/stratified-sampling,informational
+stratification sampling,18100,2,8,https://amplitude.com/explore/experiment/stratified-sampling,informational
+stratified sample,18100,0,14,https://amplitude.com/explore/experiment/stratified-sampling,informational
+stratified sampling,18100,0,9,https://amplitude.com/explore/experiment/stratified-sampling,informational
+stratified selection,18100,0,9,https://amplitude.com/explore/experiment/stratified-sampling,informational
+stratum sampling,18100,0,19,https://amplitude.com/explore/experiment/stratified-sampling,informational
+type i and type ii errors,18100,7,10,https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained,informational
+amplitude wave,14800,10,2,https://amplitude.com/wave,informational
+amplitude waveform,14800,3,25,https://amplitude.com/,informational
+amplitude waves,14800,3,5,https://amplitude.com/wave,informational
+confidence level equation,14800,24,10,https://amplitude.com/explore/experiment/confidence-intervals,informational
+confidence level formula,14800,18,58,https://amplitude.com/explore/experiment/confidence-intervals,informational
+confidence limit formula,14800,15,61,https://amplitude.com/explore/experiment/confidence-intervals,informational
+def of qualitative,14800,23,32,https://amplitude.com/glossary/terms/qualitative-data,informational
+define qualitative,14800,29,30,https://amplitude.com/glossary/terms/qualitative-data,informational
+definition of qualitative,14800,29,35,https://amplitude.com/glossary/terms/qualitative-data,informational
+definition qualitative,14800,28,35,https://amplitude.com/glossary/terms/qualitative-data,informational
+descriptive analysis,14800,7,43,https://amplitude.com/explore/analytics/what-descriptive-analytics,informational
+meaning of qualitative,14800,29,70,https://amplitude.com/glossary/terms/qualitative-data,informational
+meaning qualitative,14800,29,31,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative def,14800,29,29,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative definition,14800,11,33,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative meaning,14800,28,41,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative means,14800,29,33,https://amplitude.com/glossary/terms/qualitative-data,informational
+statistic significant,14800,31,44,https://amplitude.com/explore/experiment/statistical-significance-guide,informational
+statistical importance,14800,11,29,https://amplitude.com/explore/experiment/statistical-significance-guide,informational
+statistical significance,14800,15,56,https://amplitude.com/explore/experiment/statistical-significance-guide,informational
+true or false correlation implies causation,14800,2,15,https://amplitude.com/blog/causation-correlation,informational
+true or false: correlation implies causation,14800,7,12,https://amplitude.com/blog/causation-correlation,informational
+universally unique identifier,14800,21,38,https://amplitude.com/glossary/terms/universally-unique-identifier-uuid,informational
+what amplitude,14800,22,3,https://amplitude.com/docs/get-started/what-is-amplitude,informational
+what are taxonomy,14800,42,28,https://amplitude.com/explore/data/what-data-taxonomy,informational
+what is a taxonomy,14800,42,22,https://amplitude.com/explore/data/what-data-taxonomy,informational
+what is amplitude,14800,20,2,https://amplitude.com/docs/get-started/what-is-amplitude,informational
+which situation best represents causation,14800,0,16,https://amplitude.com/blog/causation-correlation,informational
+a & b testing,12100,55,21,https://amplitude.com/blog/ab-testing,informational
+a b testing,12100,60,54,https://amplitude.com/glossary/terms/ab-testing,informational
+a to b test,12100,58,35,https://amplitude.com/glossary/terms/ab-testing,informational
+a/b split testing,12100,48,44,https://amplitude.com/glossary/terms/ab-testing,informational
+a/b test,12100,58,39,https://amplitude.com/glossary/terms/ab-testing,informational
+a/b testing,12100,48,50,https://amplitude.com/glossary/terms/ab-testing,informational
+a/b tests,12100,56,43,https://amplitude.com/glossary/terms/ab-testing,informational
+ab test,12100,48,36,https://amplitude.com/glossary/terms/ab-testing,informational
+ab testing,12100,60,48,https://amplitude.com/blog/ab-testing,informational
+churn meaning,12100,7,6,https://amplitude.com/glossary/terms/churn,informational
+churners meaning,12100,18,7,https://amplitude.com/glossary/terms/churn,informational
+data visualization,12100,49,61,https://amplitude.com/explore/data/data-visualization,informational
+define experimentation,12100,15,21,https://amplitude.com/glossary/terms/experimentation,informational
+definition experimentation,12100,10,20,https://amplitude.com/glossary/terms/experimentation,informational
+experimentation definition,12100,15,22,https://amplitude.com/glossary/terms/experimentation,informational
+nps scale,12100,66,50,https://amplitude.com/explore/metrics/what-net-promoter-score-guide,informational
+recency bias,12100,28,6,https://amplitude.com/explore/experiment/recency-bias,informational
+recency biases,12100,28,6,https://amplitude.com/explore/experiment/recency-bias,informational
+test driven,12100,25,54,https://amplitude.com/explore/experiment/what-is-test-driven-development,informational
+type 1 and 2 errors,12100,13,9,https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained,informational
+type 1 and type 2 errors,12100,6,10,https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained,informational
+types 1 and 2 errors,12100,7,6,https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained,informational
+what are p values,12100,18,11,https://amplitude.com/explore/experiment/p-values,informational
+what are the swot analysis,12100,23,94,https://amplitude.com/glossary/terms/swot-analysis,informational
+what is a swot analysis,12100,43,95,https://amplitude.com/glossary/terms/swot-analysis,informational
+what is data,12100,21,9,https://amplitude.com/explore/data/what-is-data-guide,informational
+what is p value,12100,19,11,https://amplitude.com/explore/experiment/p-values,informational
+what is p-value,12100,12,10,https://amplitude.com/explore/experiment/p-values,informational
+what is swot analysis,12100,43,25,https://amplitude.com/glossary/terms/swot-analysis,informational
+what t,12100,22,9,https://amplitude.com/explore/experiment/t-test,informational
+causality is not causation,9900,26,8,https://amplitude.com/blog/causation-correlation,informational
+conversions meaning,9900,15,22,https://amplitude.com/glossary/terms/conversions,informational
+correlation does imply causation,9900,18,10,https://amplitude.com/blog/causation-correlation,informational
+correlation does not causation,9900,28,11,https://amplitude.com/blog/causation-correlation,informational
+correlation does not cause causation,9900,28,10,https://amplitude.com/blog/causation-correlation,informational
+correlation does not equal causation,9900,13,20,https://amplitude.com/blog/causation-correlation,informational
+correlation does not imply,9900,21,10,https://amplitude.com/blog/causation-correlation,informational
+correlation does not imply causation,9900,26,14,https://amplitude.com/blog/causation-correlation,informational
+correlation does not mean causation,9900,21,11,https://amplitude.com/blog/causation-correlation,informational
+correlation doesn t equal causation,9900,21,17,https://amplitude.com/blog/causation-correlation,informational
+correlation doesn t imply causation,9900,21,15,https://amplitude.com/blog/causation-correlation,informational
+correlation doesn't equal causation,9900,14,10,https://amplitude.com/blog/causation-correlation,informational
+correlation doesn't imply causation,9900,28,13,https://amplitude.com/blog/causation-correlation,informational
+correlation fallacy,9900,13,31,https://amplitude.com/blog/causation-correlation,informational
+correlation isn't causation,9900,21,24,https://amplitude.com/blog/causation-correlation,informational
+correlation proves causation,9900,11,16,https://amplitude.com/blog/causation-correlation,informational
+correlations that are not causations,9900,28,8,https://amplitude.com/blog/causation-correlation,informational
+customer experience journey,9900,38,61,https://amplitude.com/explore/digital-marketing/customer-journey-explained,informational
+customer journey,9900,44,60,https://amplitude.com/explore/digital-marketing/customer-journey-explained,informational
+data lake,9900,48,53,https://amplitude.com/explore/data/what-data-lake,informational
+data warehouse,9900,33,63,https://amplitude.com/explore/data/what-data-warehouse,commercial
+data warehousing,9900,28,52,https://amplitude.com/explore/data/what-data-warehouse,commercial
+datawarehouse,9900,33,57,https://amplitude.com/explore/data/what-data-warehouse,commercial
+define data,9900,16,22,https://amplitude.com/explore/data/what-is-data-guide,informational
+define metrics,9900,22,6,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+definition of data,9900,16,37,https://amplitude.com/explore/data/what-is-data-guide,informational
+does correlation imply causation,9900,23,5,https://amplitude.com/blog/causation-correlation,informational
+experimentation,9900,15,8,https://amplitude.com/explore/experiment/product-experimentation,informational
+funnel marketing,9900,61,31,https://amplitude.com/explore/digital-marketing/marketing-funnels-explained,commercial
+is correlation causation,9900,23,4,https://amplitude.com/blog/causation-correlation,informational
+meaning metrics,9900,13,6,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+meaning of metrics,9900,12,8,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+metrics def,9900,13,13,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+metrics definition,9900,17,8,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+metrics meaning,9900,31,7,https://amplitude.com/explore/metrics/what-are-metrics-guide,informational
+nps promoters,9900,40,59,https://amplitude.com/explore/metrics/what-net-promoter-score-guide,navigational
+of different types,9900,0,10,https://amplitude.com/blog/data-types,informational
+personas definition,9900,36,5,https://amplitude.com/glossary/terms/user-persona,informational
+random sampling and stratified sampling,9900,1,32,https://amplitude.com/explore/experiment/stratified-sampling,informational
+taxonomies meaning,9900,21,18,https://amplitude.com/explore/data/what-data-taxonomy,informational
+ah ah moment,8100,21,6,https://amplitude.com/blog/aha-moment,informational
+ah hah moments,8100,26,6,https://amplitude.com/blog/aha-moment,informational
+aha moment,8100,26,5,https://amplitude.com/blog/aha-moment,informational
+aha moments,8100,34,6,https://amplitude.com/blog/aha-moment,informational
+analytics def,8100,26,18,https://amplitude.com/glossary/terms/analytics,informational
+analytics definition,8100,33,24,https://amplitude.com/glossary/terms/analytics,informational
+analytics meaning,8100,24,20,https://amplitude.com/glossary/terms/analytics,informational
+bayesian statistics,8100,20,17,https://amplitude.com/explore/experiment/bayesian-statistics,informational
+churn def,8100,2,6,https://amplitude.com/glossary/terms/churn,informational
+churn define,8100,15,6,https://amplitude.com/glossary/terms/churn,informational
+churn definition,8100,2,6,https://amplitude.com/glossary/terms/churn,informational
+churned definition,8100,7,7,https://amplitude.com/glossary/terms/churn,informational
+churning def,8100,2,19,https://amplitude.com/glossary/terms/churn,informational
+churns definition,8100,3,8,https://amplitude.com/explore/analytics/what-is-churn,informational
+correlation vs identity example,8100,0,15,https://amplitude.com/blog/causation-correlation,informational
+data and governance,8100,38,49,https://amplitude.com/explore/data/data-governance-guide,informational
+data governance,8100,35,50,https://amplitude.com/explore/data/data-governance-guide,informational
+define analytics,8100,36,22,https://amplitude.com/glossary/terms/analytics,informational
+define churn,8100,8,4,https://amplitude.com/explore/analytics/what-is-churn,informational
+define churned,8100,6,8,https://amplitude.com/glossary/terms/churn,informational
+define gtm,8100,36,39,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+define swot,8100,38,63,https://amplitude.com/glossary/terms/swot-analysis,informational
+define swot analysis,8100,42,61,https://amplitude.com/glossary/terms/swot-analysis,informational
+definition churn,8100,29,5,https://amplitude.com/glossary/terms/churn,informational
+definition for churn,8100,7,8,https://amplitude.com/glossary/terms/churn,informational
+definition gtm,8100,28,16,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+definition of causation,8100,5,11,https://amplitude.com/blog/causation-correlation,informational
+formula for t statistic,8100,3,47,https://amplitude.com/explore/experiment/t-test,informational
+gtm meaning,8100,19,10,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+gtm retail,8100,6,31,https://amplitude.com/glossary/terms/go-to-market-strategy,navigational
+how do you calculate p value,8100,22,15,https://amplitude.com/explore/experiment/p-values,informational
+how is the p value calculated,8100,24,28,https://amplitude.com/explore/experiment/p-values,informational
+how to calculate p value,8100,22,26,https://amplitude.com/explore/experiment/p-values,informational
+how to calculate p-value,8100,22,29,https://amplitude.com/explore/experiment/p-values,informational
+how to compute p value,8100,22,31,https://amplitude.com/explore/experiment/p-values,informational
+how to find a p value,8100,4,38,https://amplitude.com/explore/experiment/p-values,informational
+journey mapping,8100,40,31,https://amplitude.com/explore/growth/customer-journey-mapping,informational
+mvp what does it mean,8100,29,10,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+p value calculation,8100,25,28,https://amplitude.com/explore/experiment/p-values,informational
+p-value calculate,8100,19,20,https://amplitude.com/explore/experiment/p-values,informational
+p-value calculation,8100,24,14,https://amplitude.com/explore/experiment/p-values,informational
+sample size determination calculator,8100,39,43,https://amplitude.com/calculate/sample-size,informational
+swot analysis definition,8100,35,24,https://amplitude.com/glossary/terms/swot-analysis,informational
+swot analysis meaning,8100,44,51,https://amplitude.com/glossary/terms/swot-analysis,informational
+swot definition,8100,27,30,https://amplitude.com/glossary/terms/swot-analysis,informational
+swot opportunity definition,8100,43,46,https://amplitude.com/glossary/terms/swot-analysis,informational
+t stat formula,8100,0,52,https://amplitude.com/explore/experiment/t-test,informational
+t statistic,8100,8,35,https://amplitude.com/explore/experiment/t-test,informational
+t statistic formula,8100,22,30,https://amplitude.com/explore/experiment/t-test,informational
+t statistics formula,8100,3,51,https://amplitude.com/explore/experiment/t-test,informational
+t value equation,8100,5,50,https://amplitude.com/explore/experiment/t-test,informational
+t value formula,8100,7,48,https://amplitude.com/explore/experiment/t-test,informational
+t-statistic formula,8100,7,31,https://amplitude.com/explore/experiment/t-test,informational
+t-value formula,8100,3,48,https://amplitude.com/explore/experiment/t-test,informational
+what are confounding factors,8100,15,9,https://amplitude.com/explore/experiment/confounding-variables,informational
+what are confounding variables,8100,8,16,https://amplitude.com/explore/experiment/confounding-variables,informational
+what are p,8100,13,6,https://amplitude.com/explore/experiment/p-values,informational
+what do mvp mean,8100,26,22,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what does mvp mean,8100,28,27,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is a confounding factor,8100,3,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is a confounding variable,8100,5,9,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is a north star,8100,12,14,https://amplitude.com/blog/product-north-star-metric,informational
+what is confounding factors,8100,10,10,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is confounding variable,8100,8,8,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is confounding variables,8100,10,7,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is northstar,8100,19,15,https://amplitude.com/blog/product-north-star-metric,informational
+what is qualitative data,8100,17,47,https://amplitude.com/glossary/terms/qualitative-data,informational
+what is the confounding variable,8100,7,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+what is the p,8100,19,9,https://amplitude.com/explore/experiment/p-values,informational
+calculate confidence intervals,6600,14,30,https://amplitude.com/explore/experiment/confidence-intervals,informational
+calculating confidence interval,6600,20,29,https://amplitude.com/explore/experiment/confidence-intervals,informational
+client journey mapping,6600,46,53,https://amplitude.com/explore/growth/customer-journey-mapping,navigational
+confidence level calculation,6600,15,8,https://amplitude.com/explore/experiment/confidence-intervals,informational
+customer experience journey map,6600,46,59,https://amplitude.com/explore/growth/customer-journey-mapping,navigational
+customer journey map,6600,41,71,https://amplitude.com/explore/growth/customer-journey-mapping,navigational
+customer journey mapping,6600,48,50,https://amplitude.com/explore/growth/customer-journey-mapping,navigational
+data meaning,6600,29,30,https://amplitude.com/explore/data/what-is-data-guide,informational
+habit forming products,6600,11,8,https://amplitude.com/blog/the-hook-model,informational
+habit-forming products,6600,11,6,https://amplitude.com/blog/the-hook-model,informational
+how to find p value,6600,17,35,https://amplitude.com/explore/experiment/p-values,informational
+how to find p-value,6600,18,31,https://amplitude.com/explore/experiment/p-values,informational
+how to obtain p-value,6600,15,13,https://amplitude.com/explore/experiment/p-values,informational
+incrementality,6600,11,14,https://amplitude.com/explore/experiment/incrementality-testing,informational
+martech,6600,17,13,https://amplitude.com/explore/digital-marketing/what-is-martech,navigational
+minimum viable product,6600,46,18,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+sessions meaning,6600,5,10,https://amplitude.com/glossary/terms/sessions,informational
+smoke test in software testing,6600,4,10,https://amplitude.com/explore/experiment/smoke-testing,informational
+smoke testing in software testing,6600,8,11,https://amplitude.com/explore/experiment/smoke-testing,commercial
+swot meaning,6600,43,48,https://amplitude.com/glossary/terms/swot-analysis,informational
+tracking event,6600,0,2,https://amplitude.com/explore/analytics/event-tracking-guide,informational
+tracking events,6600,10,20,https://amplitude.com/explore/analytics/event-tracking-guide,informational
+two types of errors,6600,8,8,https://amplitude.com/explore/experiment/type-1-and-type-2-errors-explained,informational
+what is a monte carlo simulation,6600,27,53,https://amplitude.com/glossary/terms/monte-carlo-simulation,informational
+what is confidence level,6600,16,49,https://amplitude.com/explore/experiment/confidence-intervals,informational
+what is monte carlo simulation,6600,27,48,https://amplitude.com/glossary/terms/monte-carlo-simulation,informational
+actionable points,5400,0,17,https://amplitude.com/blog/actionable-metrics,informational
+app survey questions,5400,0,9,https://amplitude.com/explore/product/in-app-surveys,informational
+arpu,5400,33,7,https://amplitude.com/explore/metrics/what-arpu-how-calculate,informational
+bonferroni adjustment,5400,9,5,https://amplitude.com/explore/experiment/what-is-bonferroni-correction,informational
+bonferroni correction,5400,14,5,https://amplitude.com/explore/experiment/what-is-bonferroni-correction,informational
+bonferroni test,5400,9,6,https://amplitude.com/explore/experiment/what-is-bonferroni-correction,informational
+calculate t test,5400,15,25,https://amplitude.com/explore/experiment/t-test,informational
+correction de bonferroni,5400,19,4,https://amplitude.com/explore/experiment/what-is-bonferroni-correction,informational
+define qualitative data,5400,13,37,https://amplitude.com/glossary/terms/qualitative-data,informational
+definition of qualitative data,5400,17,34,https://amplitude.com/glossary/terms/qualitative-data,informational
+digital marketing and strategy,5400,52,20,https://amplitude.com/explore/digital-marketing/digital-marketing-strategy,commercial
+digital marketing strategies,5400,59,27,https://amplitude.com/explore/digital-marketing/digital-marketing-strategy,informational
+discoverability meaning,5400,0,6,https://amplitude.com/explore/product/product-discoverability,informational
+explain qualitative data,5400,23,30,https://amplitude.com/glossary/terms/qualitative-data,informational
+formula for a t test,5400,15,35,https://amplitude.com/explore/experiment/t-test,informational
+formula of t test,5400,13,44,https://amplitude.com/explore/experiment/t-test,informational
+formula of t-test,5400,13,41,https://amplitude.com/explore/experiment/t-test,informational
+james a evans,5400,4,19,https://amplitude.com/blog/author/james-evans,informational
+james evan,5400,7,11,https://amplitude.com/blog/author/james-evans,informational
+meaning qualitative data,5400,25,28,https://amplitude.com/glossary/terms/qualitative-data,informational
+persona use,5400,36,42,https://amplitude.com/glossary/terms/user-persona,informational
+predictive analytics,5400,71,37,https://amplitude.com/explore/analytics/what-predictive-analytics,informational
+qualitative data def,5400,23,5,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative data definition,5400,23,13,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative data meaning,5400,23,31,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative data: definition,5400,23,16,https://amplitude.com/glossary/terms/qualitative-data,informational
+recency,5400,21,19,https://amplitude.com/explore/experiment/recency-bias,informational
+sentiment analysis,5400,37,71,https://amplitude.com/glossary/terms/sentiment-analysis,informational
+t test calculation,5400,26,15,https://amplitude.com/explore/experiment/t-test,informational
+t test equation,5400,14,18,https://amplitude.com/explore/experiment/t-test,informational
+t test formula,5400,15,17,https://amplitude.com/explore/experiment/t-test,informational
+t test formulas,5400,14,45,https://amplitude.com/explore/experiment/t-test,informational
+t-test calculation,5400,26,15,https://amplitude.com/explore/experiment/t-test,informational
+t-test equation,5400,13,17,https://amplitude.com/explore/experiment/t-test,informational
+t-test formula,5400,15,19,https://amplitude.com/explore/experiment/t-test,informational
+tdd,5400,20,14,https://amplitude.com/explore/experiment/what-is-test-driven-development,informational
+what is a minimum viable product,5400,47,14,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is a p value in statistics,5400,18,26,https://amplitude.com/explore/experiment/p-values,informational
+what is a stratified sample,5400,1,26,https://amplitude.com/explore/experiment/stratified-sampling,informational
+what is a stratified sampling,5400,0,11,https://amplitude.com/explore/experiment/stratified-sampling,informational
+what is a stratified survey,5400,3,42,https://amplitude.com/explore/experiment/stratified-sampling,informational
+what is an mvp,5400,47,21,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is an mvp product,5400,47,24,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is mvp,5400,37,8,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is p in statistics,5400,14,32,https://amplitude.com/explore/experiment/p-values,informational
+what is p value in statistics,5400,18,15,https://amplitude.com/explore/experiment/p-values,informational
+what is regression analysis,5400,14,19,https://amplitude.com/glossary/terms/regression-analysis,informational
+what is stratified data,5400,0,22,https://amplitude.com/explore/experiment/stratified-sampling,informational
+what is stratified sampling,5400,1,8,https://amplitude.com/explore/experiment/stratified-sampling,informational
+what is the p value in statistics,5400,22,32,https://amplitude.com/explore/experiment/p-values,informational
+what is user experience,5400,46,25,https://amplitude.com/explore/growth/what-is-user-experience,informational
+amplitude stock,4400,0,8,https://investors.amplitude.com/stock-information/stock-quote-chart/,informational
+and customer experience,4400,35,35,https://amplitude.com/blog/customer-experience-definition,informational
+annual growth rate,4400,11,16,https://amplitude.com/glossary/terms/compound-annual-growth-rate,informational
+beta test,4400,33,8,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+beta tester,4400,16,19,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+beta tester meaning,4400,5,6,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+beta testing,4400,19,5,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+beta testing definition,4400,19,16,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+beta testing meaning,4400,19,5,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+clean datasets,4400,9,50,https://amplitude.com/explore/data/data-cleaning-guide,informational
+cleaning datasets,4400,9,21,https://amplitude.com/explore/data/data-cleaning-guide,informational
+confound variable definition,4400,9,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding factor definition,4400,12,20,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding factors definition,4400,12,24,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding variable definition,4400,9,14,https://amplitude.com/explore/experiment/confounding-variables,informational
+confounding variables definition,4400,9,15,https://amplitude.com/explore/experiment/confounding-variables,informational
+cost of client acquisition,4400,26,5,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,commercial
+cost of user acquisition,4400,26,5,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,commercial
+cost per customer acquisition,4400,25,25,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,commercial
+cost to acquire a customer,4400,42,26,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,informational
+customer acquisition cost,4400,34,9,https://amplitude.com/explore/metrics/guide-to-customer-acquisition-cost,commercial
+customer experience,4400,52,25,https://amplitude.com/blog/customer-experience-definition,informational
+customer experience and,4400,39,32,https://amplitude.com/blog/customer-experience-definition,informational
+data cleaning,4400,23,49,https://amplitude.com/explore/data/data-cleaning-guide,informational
+data cleansing,4400,24,56,https://amplitude.com/explore/data/data-cleaning-guide,informational
+data storytelling,4400,36,22,https://amplitude.com/blog/data-storytelling,informational
+database cleansing,4400,19,82,https://amplitude.com/explore/data/data-cleaning-guide,informational
+dataset cleaning,4400,12,18,https://amplitude.com/explore/data/data-cleaning-guide,informational
+define beta test,4400,19,5,https://amplitude.com/explore/experiment/what-is-beta-testing,informational
+define confounding variable,4400,9,14,https://amplitude.com/explore/experiment/confounding-variables,informational
+define confounding variables,4400,10,14,https://amplitude.com/explore/experiment/confounding-variables,informational
+definition of churn,4400,29,5,https://amplitude.com/glossary/terms/churn,informational
+definition of confounding variable,4400,9,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+definition of confounding variables,4400,9,13,https://amplitude.com/explore/experiment/confounding-variables,informational
+example of qualitative data,4400,3,55,https://amplitude.com/glossary/terms/qualitative-data,informational
+examples of qualitative data,4400,0,57,https://amplitude.com/glossary/terms/qualitative-data,informational
+exponential growth definition,4400,17,10,https://amplitude.com/blog/exponential-growth,informational
+formula for p value,4400,2,42,https://amplitude.com/explore/experiment/p-values,informational
+formula for p-value,4400,13,37,https://amplitude.com/explore/experiment/p-values,informational
+formula of p value,4400,12,60,https://amplitude.com/explore/experiment/p-values,informational
+formula p value,4400,16,25,https://amplitude.com/explore/experiment/p-values,informational
+functional tester,4400,3,52,https://amplitude.com/explore/experiment/what-is-functional-testing,informational
+functional testing,4400,13,36,https://amplitude.com/explore/experiment/what-is-functional-testing,informational
+functional testing software,4400,17,41,https://amplitude.com/explore/experiment/what-is-functional-testing,commercial
+go to market,4400,37,47,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+go to market marketing,4400,34,64,https://amplitude.com/glossary/terms/go-to-market-strategy,navigational
+go to market strategy,4400,47,25,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+go-to-market,4400,37,19,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+go-to-market marketing strategy,4400,37,26,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+go-to-market strategy,4400,44,38,https://amplitude.com/glossary/terms/go-to-market-strategy,informational
+goto market strategy,4400,37,28,https://amplitude.com/glossary/terms/go-to-market-strategy,navigational
+how do you calculate confidence interval,4400,14,33,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to calculate confidence interval,4400,8,36,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to calculate confidence level,4400,12,26,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to calculate confidence limit,4400,17,7,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to compute confidence interval,4400,17,38,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to confidence interval,4400,10,14,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to do confidence intervals,4400,11,50,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to find confidence level,4400,15,48,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to solve confidence intervals,4400,21,40,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to t,4400,35,7,https://amplitude.com/explore/experiment/t-test,informational
+mvp what does it stand for,4400,26,20,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+p score formula,4400,23,33,https://amplitude.com/explore/experiment/p-values,informational
+p test formula,4400,22,46,https://amplitude.com/explore/experiment/p-values,informational
+p value meaning,4400,20,11,https://amplitude.com/explore/experiment/p-values,informational
+p values formula,4400,16,28,https://amplitude.com/explore/experiment/p-values,informational
+p-value formula,4400,14,58,https://amplitude.com/explore/experiment/p-values,informational
+p-value meaning,4400,20,11,https://amplitude.com/explore/experiment/p-values,informational
+pain point,4400,33,17,https://amplitude.com/explore/growth/customer-pain-points,informational
+pain points,4400,33,20,https://amplitude.com/explore/growth/customer-pain-points,informational
+probability value formula,4400,22,22,https://amplitude.com/explore/experiment/p-values,informational
+product dev,4400,7,84,https://amplitude.com/explore/product/product-development-process,informational
+product development,4400,30,14,https://amplitude.com/blog/product-development,informational
+product development and,4400,30,16,https://amplitude.com/blog/product-development,commercial
+qualitative data example,4400,0,49,https://amplitude.com/glossary/terms/qualitative-data,informational
+qualitative data examples,4400,0,54,https://amplitude.com/glossary/terms/qualitative-data,informational
+quantitative data versus qualitative data,4400,6,32,https://amplitude.com/blog/quantitative-vs-qualitative-data,informational
+statistics t value,4400,15,32,https://amplitude.com/explore/experiment/t-test,informational
+t test what is,4400,12,8,https://amplitude.com/explore/experiment/t-test,informational
+t-test what is,4400,15,7,https://amplitude.com/explore/experiment/t-test,informational
+user id,4400,0,6,https://amplitude.com/glossary/terms/user-id,informational
+user identifier,4400,11,9,https://amplitude.com/glossary/terms/user-id,informational
+user identity,4400,10,59,https://amplitude.com/glossary/terms/user-id,navigational
+value of t,4400,30,39,https://amplitude.com/explore/experiment/t-test,informational
+what are t test,4400,17,7,https://amplitude.com/explore/experiment/t-test,informational
+what are t tests,4400,13,7,https://amplitude.com/explore/experiment/t-test,informational
+what does mvp stand for,4400,22,43,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what does mvp stands for,4400,27,19,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what does swot analysis stand for,4400,57,85,https://amplitude.com/glossary/terms/swot-analysis,informational
+what does swot stand for,4400,58,93,https://amplitude.com/glossary/terms/swot-analysis,informational
+what does.mvp stand for,4400,27,32,https://amplitude.com/blog/what-is-a-minimum-viable-product-mvp,informational
+what is a descriptive analysis,4400,12,42,https://amplitude.com/explore/analytics/what-descriptive-analytics,informational
+what is a t test,4400,23,6,https://amplitude.com/explore/experiment/t-test,informational
+what is a t-test,4400,20,7,https://amplitude.com/explore/experiment/t-test,informational
+what is causation,4400,28,4,https://amplitude.com/blog/causation-correlation,informational
+what is descriptive analysis,4400,13,17,https://amplitude.com/explore/analytics/what-descriptive-analytics,informational
+what is t in t test,4400,17,11,https://amplitude.com/explore/experiment/t-test,informational
+what is t test,4400,22,8,https://amplitude.com/explore/experiment/t-test,informational
+what is t testing,4400,23,8,https://amplitude.com/explore/experiment/t-test,informational
+what is t-test,4400,22,8,https://amplitude.com/explore/experiment/t-test,informational
+what is the leading coefficient,4400,0,62,https://amplitude.com/blog/leading-lagging-indicators,informational
+what is the most p,4400,8,54,https://amplitude.com/explore/experiment/p-values,informational
+what is the p value,4400,14,14,https://amplitude.com/explore/experiment/p-values,informational
+what is the p values,4400,21,22,https://amplitude.com/explore/experiment/p-values,informational
+what is the p-value,4400,14,13,https://amplitude.com/explore/experiment/p-values,informational
+what is't test,4400,24,8,https://amplitude.com/explore/experiment/t-test,informational
+behavioral segmentation,3600,12,19,https://amplitude.com/blog/what-is-behavioral-segmentation,informational
+behavioral segmentation marketing,3600,12,17,https://amplitude.com/blog/what-is-behavioral-segmentation,informational
+behavioural segmentation,3600,30,18,https://amplitude.com/blog/what-is-behavioral-segmentation,informational
+bias experiment,3600,22,4,https://amplitude.com/explore/experiment/experimenter-bias,informational
+bias in experiment,3600,7,6,https://amplitude.com/explore/experiment/experimenter-bias,informational
+biased experiment,3600,2,5,https://amplitude.com/explore/experiment/experimenter-bias,informational
+causal correlation examples,3600,30,6,https://amplitude.com/blog/causation-correlation,informational
+causation and correlation examples,3600,12,5,https://amplitude.com/blog/causation-correlation,informational
+causation correlation examples,3600,37,6,https://amplitude.com/blog/causation-correlation,informational
+causation of,3600,27,10,https://amplitude.com/blog/causation-correlation,informational
+causation vs correlation examples,3600,17,5,https://amplitude.com/blog/causation-correlation,informational
+cause vs correlation examples,3600,24,5,https://amplitude.com/blog/causation-correlation,informational
+click through rate formula,3600,26,10,https://amplitude.com/blog/how-to-calculate-clickthrough-rate-ctr,informational
+client segmentation,3600,19,17,https://amplitude.com/blog/customer-segmentation,commercial
+confidence interval how to calculate,3600,12,28,https://amplitude.com/explore/experiment/confidence-intervals,informational
+correlation and causation examples,3600,12,11,https://amplitude.com/blog/causation-correlation,informational
+correlation causation example,3600,23,5,https://amplitude.com/blog/causation-correlation,informational
+correlation causation examples,3600,28,8,https://amplitude.com/blog/causation-correlation,informational
+correlation is not causation example,3600,23,10,https://amplitude.com/blog/causation-correlation,informational
+correlation is not causation examples,3600,35,11,https://amplitude.com/blog/causation-correlation,informational
+correlation not causation example,3600,35,9,https://amplitude.com/blog/causation-correlation,informational
+correlation not causation examples,3600,28,11,https://amplitude.com/blog/causation-correlation,informational
+correlation or causation examples,3600,20,13,https://amplitude.com/blog/causation-correlation,informational
+correlation v causation examples,3600,24,8,https://amplitude.com/blog/causation-correlation,informational
+correlation versus causation examples,3600,24,6,https://amplitude.com/blog/causation-correlation,informational
+correlation vs causation example,3600,18,5,https://amplitude.com/blog/causation-correlation,informational
+correlation vs causation examples,3600,14,5,https://amplitude.com/blog/causation-correlation,informational
+correlation without causation examples,3600,35,9,https://amplitude.com/blog/causation-correlation,informational
+ctr formula,3600,21,44,https://amplitude.com/blog/how-to-calculate-clickthrough-rate-ctr,informational
+customer data platform software,3600,39,26,https://amplitude.com/explore/data/what-customer-data-platform,commercial
+customer retention,3600,32,16,https://amplitude.com/blog/customer-retention,informational
+customer segmentation,3600,21,31,https://amplitude.com/blog/customer-segmentation,informational
+customer segmentation marketing,3600,29,21,https://amplitude.com/blog/customer-segmentation,informational
+data and data types,3600,12,4,https://amplitude.com/blog/data-types,informational
+data lake vs data warehouse,3600,25,31,https://amplitude.com/blog/data-lake-vs-warehouse-vs-lakehouse,commercial
+data types,3600,14,4,https://amplitude.com/blog/data-types,informational
+definition of p value,3600,19,13,https://amplitude.com/explore/experiment/p-values,informational
+example of causation and correlation,3600,24,5,https://amplitude.com/blog/causation-correlation,informational
+example of correlation and causation,3600,17,2,https://amplitude.com/blog/causation-correlation,informational
+example of correlation vs causation,3600,24,6,https://amplitude.com/blog/causation-correlation,informational
+examples of causation vs correlation,3600,24,9,https://amplitude.com/blog/causation-correlation,informational
+examples of correlation and causation,3600,31,9,https://amplitude.com/blog/causation-correlation,informational
+examples of correlation vs causation,3600,26,5,https://amplitude.com/blog/causation-correlation,informational
+experience 10,3600,3,41,https://amplitude.com/explore/product/digital-experience,informational
+experiment bias,3600,1,4,https://amplitude.com/explore/experiment/experimenter-bias,informational
+experimenter bias,3600,1,4,https://amplitude.com/explore/experiment/experimenter-bias,informational
+experimenter's bias,3600,0,4,https://amplitude.com/explore/experiment/experimenter-bias,informational
+how do i find confidence interval,3600,18,37,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how do you find a confidence interval,3600,15,24,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how do you find confidence intervals,3600,23,40,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how do you find confidence level,3600,14,48,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to calculate confidence intervals,3600,11,33,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to find a confidence interval,3600,9,14,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to find confidence interval,3600,7,28,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to find confidence level from confidence interval,3600,12,53,https://amplitude.com/explore/experiment/confidence-intervals,informational
+how to find the amplitude,3600,0,22,https://amplitude.com/,informational
+market segmentation behavioral,3600,12,22,https://amplitude.com/blog/what-is-behavioral-segmentation,informational
+marketing segmentation behavioural,3600,14,27,https://amplitude.com/blog/what-is-behavioral-segmentation,informational
+meaning of p value,3600,25,14,https://amplitude.com/explore/experiment/p-values,informational
+p in statistics,3600,17,29,https://amplitude.com/explore/experiment/p-values,informational
+p value biostatistics,3600,13,33,https://amplitude.com/explore/experiment/p-values,informational
+p value def,3600,18,14,https://amplitude.com/explore/experiment/p-values,informational
+p value defined,3600,22,42,https://amplitude.com/explore/experiment/p-values,informational
+p value definition,3600,18,8,https://amplitude.com/explore/experiment/p-values,informational
+p value for statistics,3600,19,26,https://amplitude.com/explore/experiment/p-values,informational

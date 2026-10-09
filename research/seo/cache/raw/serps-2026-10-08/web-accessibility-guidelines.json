@@ -1,0 +1,577 @@
+{
+ "id": "10081545-2633-0066-0000-aeda6b7f6c51",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "Web Content Accessibility Guidelines (WCAG) are `international technical standards that explain how to make digital content accessible for people with disabilities`.[[1]](https://www.w3.org/WAI/standards-guidelines/wcag/)[[2]](https://transportation.libguides.com/c.php?g=859129&p=7249636)\n\n### The Four POUR Principles\n\nWCAG guidelines follow four core principles, often called POUR:[[1]](https://www.wcag.com/resource/what-is-wcag/)\n\n- **Perceivable:** Users must be able to identify content with their senses. Provide alt text for images and captions for videos.\n- **Operable:** Users must be able to navigate the interface. Ensure full keyboard navigation and avoid content that causes seizures.\n- **Understandable:** Text and operation must be clear. Write readable content and make forms predictable.\n- **Robust:** Content must work reliably with various assistive technologies, like screen readers.[[1]](https://www.ada.gov/resources/web-guidance/)[[2]](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG)[[3]](https://www.wcag.com/resource/what-is-wcag/)\n\n### Conformance Levels\nSuccess criteria are categorized into three levels:[[1]](https://transportation.libguides.com/c.php?g=859129&p=7249636)\n\n- **Level A:** The bare minimum level of accessibility.\n- **Level AA:** The standard target for most legal compliance (such as the ADA), requiring a 4.5:1 text color contrast ratio.\n- **Level AAA:** The highest and most strict level of enhancement, which is rarely required in full.[[1]](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines)[[2]](https://www.wcag.com/resource/what-is-wcag/)[[3]](https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9)\n\n### Versions\n\n- **WCAG 2.0 & 2.1:** Widely established stable versions. Level AA under 2.1 is the common legal benchmark.\n- **WCAG 2.2:** The latest stable release, adding criteria focused on cognitive, low vision, and mobile needs while remaining fully backward-compatible.\n- **WCAG 3.0:** Currently in development as a future draft standard.[[1]](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG)[[2]](https://transportation.libguides.com/c.php?g=859129&p=7249636)[[3]](https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9)[[4]](https://www.youtube.com/watch?v=PdQwY5P1Gso&t=263)[[5]](https://www.w3.org/WAI/standards-guidelines/wcag/)\n\nLearn more about the core rules at the [W3C WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).[[1]](https://www.w3.org/WAI/standards-guidelines/wcag/)If you'd like, let me know:\n\n- Are you checking an **existing website** or building a **new one**?\n- Do you need help with a specific part like **color contrast** or **keyboard navigation**?\n\nI can give you specific steps to test or fix your site.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "Web Content Accessibility Guidelines (WCAG) are international technical standards that explain how to make digital content accessible for people with disabilities.",
+     "markdown": "Web Content Accessibility Guidelines (WCAG) are `international technical standards that explain how to make digital content accessible for people with disabilities`.[[1]](https://www.w3.org/WAI/standards-guidelines/wcag/)[[2]](https://transportation.libguides.com/c.php?g=859129&p=7249636)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "W3C",
+       "domain": "www.w3.org",
+       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+       "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) | W3C",
+       "text": "Overview: W3C WAI Web Content Accessibility Guidelines (WCAG) 2 (versions 2.0, 2.1, 2.2) provide an international technical standa..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "LibGuides",
+       "domain": "transportation.libguides.com",
+       "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636",
+       "title": "Web Content Accessibility Guidelines (WCAG 2)",
+       "text": "What is WCAG 2? Web Content Accessibility Guidelines (WCAG 2) explain how to make Web content more accessible to people with disab..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "The Four POUR Principles",
+     "text": "WCAG guidelines follow four core principles, often called POUR:",
+     "markdown": "WCAG guidelines follow four core principles, often called POUR:[[1]](https://www.wcag.com/resource/what-is-wcag/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "www.wcag.com",
+       "domain": "www.wcag.com",
+       "url": "https://www.wcag.com/resource/what-is-wcag/",
+       "title": "A Guide to WCAG | Web Accessibility Guidelines Overview 📙",
+       "text": "Overview: W3C Web Content Accessibility Guidelines (WCAG) are universal digital accessibility standards supporting compliance with..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Perceivable: Users must be able to identify content with their senses. Provide alt text for images and captions for videos. Operable: Users must be able to navigate the interface. Ensure full keyboard navigation and avoid content that causes seizures. Understandable: Text and operation must be clear. Write readable content and make forms predictable. Robust: Content must work reliably with various assistive technologies, like screen readers.",
+     "markdown": "- **Perceivable:** Users must be able to identify content with their senses. Provide alt text for images and captions for videos.\n- **Operable:** Users must be able to navigate the interface. Ensure full keyboard navigation and avoid content that causes seizures.\n- **Understandable:** Text and operation must be clear. Write readable content and make forms predictable.\n- **Robust:** Content must work reliably with various assistive technologies, like screen readers.[[1]](https://www.ada.gov/resources/web-guidance/)[[2]](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG)[[3]](https://www.wcag.com/resource/what-is-wcag/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ADA.gov",
+       "domain": "www.ada.gov",
+       "url": "https://www.ada.gov/resources/web-guidance/",
+       "title": "Guidance on Web Accessibility and the ADA | ADA.gov",
+       "text": "Lack of text alternatives (“alt text”) on images. People who are blind will not be able to understand the content and purpose of i..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "MDN Web Docs",
+       "domain": "developer.mozilla.org",
+       "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
+       "title": "Understanding the Web Content Accessibility Guidelines (WCAG) - Accessibility | MDN",
+       "text": "Definition: WCAG (Web Content Accessibility Guidelines) are W3C WAI recommendations for making web content accessible to people wi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "www.wcag.com",
+       "domain": "www.wcag.com",
+       "url": "https://www.wcag.com/resource/what-is-wcag/",
+       "title": "A Guide to WCAG | Web Accessibility Guidelines Overview 📙",
+       "text": "Overview: W3C Web Content Accessibility Guidelines (WCAG) are universal digital accessibility standards supporting compliance with..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Conformance Levels",
+     "text": "Success criteria are categorized into three levels:",
+     "markdown": "Success criteria are categorized into three levels:[[1]](https://transportation.libguides.com/c.php?g=859129&p=7249636)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "LibGuides",
+       "domain": "transportation.libguides.com",
+       "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636",
+       "title": "Web Content Accessibility Guidelines (WCAG 2)",
+       "text": "What is WCAG 2? Web Content Accessibility Guidelines (WCAG 2) explain how to make Web content more accessible to people with disab..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Level A: The bare minimum level of accessibility. Level AA: The standard target for most legal compliance (such as the ADA), requiring a 4.5:1 text color contrast ratio. Level AAA: The highest and most strict level of enhancement, which is rarely required in full.",
+     "markdown": "- **Level A:** The bare minimum level of accessibility.\n- **Level AA:** The standard target for most legal compliance (such as the ADA), requiring a 4.5:1 text color contrast ratio.\n- **Level AAA:** The highest and most strict level of enhancement, which is rarely required in full.[[1]](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines)[[2]](https://www.wcag.com/resource/what-is-wcag/)[[3]](https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Wikipedia",
+       "domain": "en.wikipedia.org",
+       "url": "https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines",
+       "title": "Web Content Accessibility Guidelines - Wikipedia",
+       "text": "Priority 1: Web developers must satisfy these requirements, otherwise it will be impossible for one or more groups to access the W..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "www.wcag.com",
+       "domain": "www.wcag.com",
+       "url": "https://www.wcag.com/resource/what-is-wcag/",
+       "title": "A Guide to WCAG | Web Accessibility Guidelines Overview 📙",
+       "text": "Overview: W3C Web Content Accessibility Guidelines (WCAG) are universal digital accessibility standards supporting compliance with..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9",
+       "title": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org",
+       "text": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org so we're going to take a laid-back approach and just talk t..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Versions",
+     "text": "WCAG 2.0 & 2.1: Widely established stable versions. Level AA under 2.1 is the common legal benchmark. WCAG 2.2: The latest stable release, adding criteria focused on cognitive, low vision, and mobile needs while remaining fully backward-compatible. WCAG 3.0: Currently in development as a future draft standard.",
+     "markdown": "- **WCAG 2.0 & 2.1:** Widely established stable versions. Level AA under 2.1 is the common legal benchmark.\n- **WCAG 2.2:** The latest stable release, adding criteria focused on cognitive, low vision, and mobile needs while remaining fully backward-compatible.\n- **WCAG 3.0:** Currently in development as a future draft standard.[[1]](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG)[[2]](https://transportation.libguides.com/c.php?g=859129&p=7249636)[[3]](https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9)[[4]](https://www.youtube.com/watch?v=PdQwY5P1Gso&t=263)[[5]](https://www.w3.org/WAI/standards-guidelines/wcag/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "MDN Web Docs",
+       "domain": "developer.mozilla.org",
+       "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
+       "title": "Understanding the Web Content Accessibility Guidelines (WCAG) - Accessibility | MDN",
+       "text": "Definition: WCAG (Web Content Accessibility Guidelines) are W3C WAI recommendations for making web content accessible to people wi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "LibGuides",
+       "domain": "transportation.libguides.com",
+       "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636",
+       "title": "Web Content Accessibility Guidelines (WCAG 2)",
+       "text": "What is WCAG 2? Web Content Accessibility Guidelines (WCAG 2) explain how to make Web content more accessible to people with disab..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9",
+       "title": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org",
+       "text": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org so we're going to take a laid-back approach and just talk t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=PdQwY5P1Gso&t=263",
+       "title": "What's New: Web Content Accessibility Guidelines (WCAG) 2.2",
+       "text": "What's New: Web Content Accessibility Guidelines (WCAG) 2.2 but we're going to be having a web accessibility awareness um awarenes..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "W3C",
+       "domain": "www.w3.org",
+       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+       "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) | W3C",
+       "text": "Overview: W3C WAI Web Content Accessibility Guidelines (WCAG) 2 (versions 2.0, 2.1, 2.2) provide an international technical standa..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Learn more about the core rules at the W3C WCAG Overview.",
+     "markdown": "Learn more about the core rules at the [W3C WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).[[1]](https://www.w3.org/WAI/standards-guidelines/wcag/)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "W3C WCAG Overview",
+       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+       "domain": "www.w3.org"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "W3C",
+       "domain": "www.w3.org",
+       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+       "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) | W3C",
+       "text": "Overview: W3C WAI Web Content Accessibility Guidelines (WCAG) 2 (versions 2.0, 2.1, 2.2) provide an international technical standa..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you'd like, let me know:Are you checking an existing website or building a new one ?\nDo you need help with a specific part like color contrast or keyboard navigation ?\nI can give you specific steps to test or fix your site.",
+     "markdown": "If you'd like, let me know:\n\n- Are you checking an **existing website** or building a **new one**?\n- Do you need help with a specific part like **color contrast** or **keyboard navigation**?\n\nI can give you specific steps to test or fix your site."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "W3C",
+     "domain": "www.w3.org",
+     "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+     "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI) | W3C",
+     "text": "Overview: W3C WAI Web Content Accessibility Guidelines (WCAG) 2 (versions 2.0, 2.1, 2.2) provide an international technical standa..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ADA.gov",
+     "domain": "www.ada.gov",
+     "url": "https://www.ada.gov/resources/web-guidance/",
+     "title": "Guidance on Web Accessibility and the ADA | ADA.gov",
+     "text": "Lack of text alternatives (“alt text”) on images. People who are blind will not be able to understand the content and purpose of i..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "www.wcag.com",
+     "domain": "www.wcag.com",
+     "url": "https://www.wcag.com/resource/what-is-wcag/",
+     "title": "A Guide to WCAG | Web Accessibility Guidelines Overview 📙",
+     "text": "Overview: W3C Web Content Accessibility Guidelines (WCAG) are universal digital accessibility standards supporting compliance with..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "MDN Web Docs",
+     "domain": "developer.mozilla.org",
+     "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
+     "title": "Understanding the Web Content Accessibility Guidelines (WCAG) - Accessibility | MDN",
+     "text": "Definition: WCAG (Web Content Accessibility Guidelines) are W3C WAI recommendations for making web content accessible to people wi..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines",
+     "title": "Web Content Accessibility Guidelines - Wikipedia",
+     "text": "Priority 1: Web developers must satisfy these requirements, otherwise it will be impossible for one or more groups to access the W..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=h5NFovz5Mpc&t=9",
+     "title": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org",
+     "text": "Web Content Accessibility Guidelines (WCAG) Overview by Accessible.org so we're going to take a laid-back approach and just talk t..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=PdQwY5P1Gso&t=263",
+     "title": "What's New: Web Content Accessibility Guidelines (WCAG) 2.2",
+     "text": "What's New: Web Content Accessibility Guidelines (WCAG) 2.2 but we're going to be having a web accessibility awareness um awarenes..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "LibGuides",
+     "domain": "transportation.libguides.com",
+     "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636",
+     "title": "Web Content Accessibility Guidelines (WCAG 2)",
+     "text": "What is WCAG 2? Web Content Accessibility Guidelines (WCAG 2) explain how to make Web content more accessible to people with disab..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.w3.org",
+   "title": "WCAG 2 Overview | Web Accessibility Initiative (WAI)",
+   "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+   "breadcrumb": "https://www.w3.org › WAI › standards-guidelines › wcag",
+   "website_name": "W3C",
+   "description": "The WCAG 2.2 has 13 guidelines. The guidelines are organized under 4 principles: perceivable, operable, understandable, and robust. For each guideline, there ... Read more",
+   "highlighted": [
+    "13 guidelines"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.w3.org/WAI/standards-guidelines/wcag/#:~:text=The%20WCAG%202.2%20has%2013,there%20are%20testable%20success%20criteria.",
+     "domain": "www.w3.org"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 3,
+   "page": 1,
+   "domain": "www.ada.gov",
+   "title": "Guidance on Web Accessibility and the ADA",
+   "url": "https://www.ada.gov/resources/web-guidance/",
+   "breadcrumb": "https://www.ada.gov › resources › web-guidance",
+   "website_name": "ADA.gov",
+   "description": "Mar 18, 2022 — Web Content Accessibility Guidelines (WCAG): guidelines published by the Web Accessibility Initiative of the World Wide Web Consortium. Read more",
+   "pre_snippet": "03/18/2022 00:00:00",
+   "highlighted": [
+    "Web",
+    "Accessibility Guidelines"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.ada.gov/resources/web-guidance/#:~:text=Web%20Content%20Accessibility%20Guidelines%20(WCAG)%3A,the%20World%20Wide%20Web%20Consortium.",
+     "domain": "www.ada.gov"
+    }
+   ],
+   "timestamp": "2022-03-18 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 4,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the new WCAG guidelines for 2026?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "Is WCAG 2.1 or 2.2 required?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the ADA guidelines for website accessibility?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the WCAG guidelines for web accessibility?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "www.wcag.com",
+   "title": "Understanding the Web Content Accessibility Guidelines",
+   "url": "https://www.wcag.com/resource/what-is-wcag/",
+   "breadcrumb": "https://www.wcag.com › Resources",
+   "website_name": "wcag.com",
+   "description": "Oct 9, 2024 — The Web Content Accessibility Guidelines (WCAG), developed by the World Wide Web Consortium, are technical standards that help make the digital ...",
+   "pre_snippet": "10/09/2024 00:00:00",
+   "highlighted": [
+    "Web",
+    "Accessibility Guidelines",
+    "standards"
+   ],
+   "timestamp": "2024-10-09 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_search",
+   "rank_group": 1,
+   "rank_absolute": 6,
+   "page": 1,
+   "title": "Find related products & services",
+   "items": [
+    "WCAG 2.1 AA checklist",
+    "Free ADA website compliance checker",
+    "WCAG 2.2 AA",
+    "WCAG 2.0 AA",
+    "WCAG checker",
+    "WCAG audit"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "accessibility.oregonstate.edu",
+   "title": "Web Content Accessibility Guidelines 2.1",
+   "url": "https://accessibility.oregonstate.edu/digital-accessibility/WCAG",
+   "breadcrumb": "https://accessibility.oregonstate.edu › WCAG",
+   "website_name": "Accessibility | Oregon State University",
+   "description": "There are four guiding principles for accessible web design within WCAG 2.1: perceivable, operable, understandable and robust.",
+   "highlighted": [
+    "perceivable, operable, understandable and robust"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.w3.org",
+   "title": "Web Content Accessibility Guidelines (WCAG) 2.1",
+   "url": "https://www.w3.org/TR/WCAG21/",
+   "breadcrumb": "https://www.w3.org › WCAG21",
+   "website_name": "W3C",
+   "description": "May 6, 2025 — These guidelines address accessibility of web content on any kind of device (including desktops, laptops, kiosks, and mobile devices).",
+   "pre_snippet": "05/06/2025 00:00:00",
+   "highlighted": [
+    "accessibility of web content on any kind of device"
+   ],
+   "timestamp": "2025-05-06 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "sdrc.rice.edu",
+   "title": "Using the Web Accessibility Guidelines",
+   "url": "https://sdrc.rice.edu/web-accessibility-guidelines",
+   "breadcrumb": "https://sdrc.rice.edu › web-accessibility-guidelines",
+   "website_name": "SDRC | Rice University",
+   "description": "The WCAG standards set practices and expectations for ensuring that digital information is accessible to disabled people, and they are a requirement",
+   "highlighted": [
+    "standards"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "transportation.libguides.com",
+   "title": "Web Content Accessibility Guidelines (WCAG 2)",
+   "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636",
+   "breadcrumb": "https://transportation.libguides.com › c.php",
+   "website_name": "LibGuides",
+   "description": "Feb 3, 2025 — There are four principles that provide the foundation for Web accessibility: perceivable, operable, understandable, and robust. Understanding ... Read more",
+   "pre_snippet": "02/03/2025 00:00:00",
+   "highlighted": [
+    "perceivable, operable, understandable, and robust"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://transportation.libguides.com/c.php?g=859129&p=7249636#:~:text=There%20are%20four%20principles%20that,the%20Four%20Principles%20of%20Accessibility.",
+     "domain": "transportation.libguides.com"
+    }
+   ],
+   "timestamp": "2025-02-03 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "developer.mozilla.org",
+   "title": "Accessibility - MDN Web Docs - Mozilla",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+   "breadcrumb": "https://developer.mozilla.org › en-US › Accessibility",
+   "website_name": "MDN Web Docs",
+   "description": "Oct 2, 2025 — The Accessibility guides cover authoring principles, WCAG compliance, accessible widgets and navigation, mobile accessibility, and other key ... Read more",
+   "pre_snippet": "10/02/2025 00:00:00",
+   "highlighted": [
+    "Accessibility",
+    "accessibility"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility#:~:text=The%20Accessibility%20guides%20cover%20authoring,improve%20it%20in%20your%20projects.",
+     "domain": "developer.mozilla.org"
+    }
+   ],
+   "timestamp": "2025-10-02 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 9,
+   "rank_absolute": 12,
+   "page": 1,
+   "domain": "sites.lsa.umich.edu",
+   "title": "Web Accessibility Guidelines & Best Practices",
+   "url": "https://sites.lsa.umich.edu/policies/web-accessibility-guidelines-best-practices/",
+   "breadcrumb": "https://sites.lsa.umich.edu › policies › web-accessibility-...",
+   "website_name": "University of Michigan",
+   "description": "Web Content Accessibility Guidelines (WCAG) · Use headings to create page structure. · Use numbered and bulleted lists for structure. · Use simple language and ... Read more",
+   "highlighted": [
+    "Use headings to create page structure"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://sites.lsa.umich.edu/policies/web-accessibility-guidelines-best-practices/#:~:text=Web%20Content%20Accessibility%20Guidelines%20(WCAG)&text=Use%20headings%20to%20create%20page,structure.&text=Use%20numbered%20and%20bulleted%20lists,for%20structure.&text=Use%20simple%20language%20and%20formatting.",
+     "domain": "sites.lsa.umich.edu"
+    }
+   ]
+  },
+  {
+   "type": "product_considerations",
+   "rank_group": 1,
+   "rank_absolute": 13,
+   "page": 1,
+   "title": "Things to know",
+   "items": [
+    {
+     "type": "product_considerations_element",
+     "title": "What are the four principles of the Web Content Accessibility Guidelines?",
+     "consideration_category": "Four Principles"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "How to implement Web Content Accessibility Guidelines?",
+     "consideration_category": "Implementation"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "What are the different levels of Web Content Accessibility Guidelines?",
+     "consideration_category": "Levels"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "How to test for Web Content Accessibility Guidelines compliance?",
+     "consideration_category": "Testing"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "What are the benefits of following Web Content Accessibility Guidelines?",
+     "consideration_category": "Benefits"
+    }
+   ]
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 14,
+   "page": 1,
+   "items": [
+    "Web accessibility guidelines pdf",
+    "Web accessibility guidelines 2022",
+    "Web Content Accessibility Guidelines",
+    "Web Content accessibility checker",
+    "Web content Accessibility Guidelines (WCAG 2.1 Level AA)",
+    "WCAG guidelines with examples",
+    "Web content Accessibility Guidelines principles",
+    "Website accessibility examples"
+   ]
+  }
+ ]
+}

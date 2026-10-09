@@ -1,0 +1,2244 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.2854 sec.",
+ "cost": 0.0462,
+ "tasks_count": 77,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10081545-2633-0066-0000-5db337f4ba9f",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "what is product management",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-56546775dae8",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product manager vs product owner",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-f8e966091b2a",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "how to write a prd",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-179f566bbaef",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product roadmap",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-d94c8907bf21",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user research methods",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-157d280abd9e",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "usability testing",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-21757294815a",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux metrics",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-a876406cf825",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "design system",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-aeda6b7f6c51",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "web accessibility guidelines",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-0993e3701c92",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "heuristic evaluation",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-e567f0105749",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product metrics",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-af334aca6fb4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "north star metric",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-fff5521d1ead",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "retention rate",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-a3c738590ea6",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "a/b testing",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-a665cc3278c4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "okr examples",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c55d8de33813",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "jobs to be done",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-d67a50aff1cc",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product discovery",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-40861af1e003",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "agile vs scrum",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-e712534cf480",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "customer journey map",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-6a0ca9d76d10",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product strategy",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-41435d0b91c4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "saas pricing strategy",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-6e140eaf04a2",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "go to market strategy",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-f301b44a4d02",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product led growth",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-articles",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-e696f63aa100",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-cf6bf7b18cde",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "best ux design tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-b9eabf6fb973",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux research tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-9cac2bff9c80",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product management tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-655818b07ab3",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "best product management software",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-89a92084b5bf",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product analytics tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-f49bb2fc7a16",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "roadmap tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-dc2bfb829fcd",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "prototyping tools",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-8dea0c36a1c3",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "design resources",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-dad60fc70220",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux resources",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-4dac9f2fee6e",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "free design resources",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-78c4b3fe57b4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ai tools for product managers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c55b1e0f664c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ai tools for designers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-48ac5a3b1123",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "design inspiration websites",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-60e0a7bf91f1",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "icon libraries",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-bcd7bebd5f48",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "free fonts websites",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-links",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-0b65063bcf78",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-b3a4ade1bc63",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "best ux design books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-47b57a2c3320",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product management books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-6d3f69805b21",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "best product management books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-3b11bf5f1b7d",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "books for product managers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c52bde66041c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux research books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-921fbec79060",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "design books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c20fc72acbe2",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "business books for product managers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-48960bfe4283",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "behavioral psychology books for designers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-7007fea931f9",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "agile books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-ac237e7e9dfc",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product strategy books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-4bf7d6ca1207",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "leadership books for product managers",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-books",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-889e5fdf0570",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "rice calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-e5d550863f04",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sample size calculator ab test",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-09f32e8d4a2d",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ab test significance calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-2c298945171e",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sus score calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-71cd359421f5",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "nps calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-987a6b2d6dc0",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "churn rate calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-0470b625fefb",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ltv calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c6b3b94c8217",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "cac calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-2b5fa313bc46",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sprint velocity calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-1d8101d51f9a",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ice score calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-6dffb092177c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "retention rate calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-dc5f05c3f9d5",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "priority matrix tool",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-tools",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-731d9e828131",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "prd template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-8c8f967b622f",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product requirements document template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-df5a5dd32caf",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user persona template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-9d771791d75d",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product roadmap template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-effe54373247",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "customer journey map template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-866d93d4eb52",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user interview script template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-b82c62b3e9d6",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "usability test plan template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-5ac8b1d104ac",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "okr template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-209972030a29",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sprint retrospective template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-3d9b8c08341c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "lean canvas template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c54f316efb7c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user story template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-c918e5edddc3",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "competitive analysis template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-b3b267f9bf2c",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ux research plan template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10081545-2633-0066-0000-4f96dfcd5fcf",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.1013 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "prioritization matrix template",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "phase0-templates",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": null
+  }
+ ]
+}

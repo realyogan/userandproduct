@@ -1,0 +1,223 @@
+{
+  "id": "10081545-2633-0066-0000-2b5fa313bc46",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "easyretro.io",
+      "title": "Sprint Velocity Calculator - Track Team Performance & ...",
+      "url": "https://easyretro.io/tools/sprint-velocity-calculator/",
+      "breadcrumb": "https://easyretro.io › tools › sprint-velocity-calculator",
+      "website_name": "EasyRetro",
+      "description": "Free Sprint velocity calculator for Agile teams. Track story points, calculate average velocity, and forecast future sprints for better planning.",
+      "highlighted": [
+        "Free Sprint velocity calculator"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How do you calculate sprint velocity?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 3-5-3 rule in Agile?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the velocity of a sprint?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I calculate my velocity?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.mountaingoatsoftware.com",
+      "title": "Velocity Range Calculator - Free Agile Tool",
+      "url": "https://www.mountaingoatsoftware.com/tools/velocity-range-calculator",
+      "breadcrumb": "https://www.mountaingoatsoftware.com › tools › veloci...",
+      "website_name": "Mountain Goat Software",
+      "description": "To forecast a velocity range, enter past velocity values in any order. Also enter the number of sprints for which you want to forecast velocity.",
+      "highlighted": [
+        "enter past velocity values in any order"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.atlassian.com",
+      "title": "Sprint Velocity in Scrum",
+      "url": "https://www.atlassian.com/agile/project-management/velocity-scrum",
+      "breadcrumb": "https://www.atlassian.com › Agile › Project Management",
+      "website_name": "Atlassian",
+      "description": "Velocity in scrum is a measure of the amount of work a team can complete during a single sprint. Learn how to calculate scrum velocity.",
+      "highlighted": [
+        "Velocity",
+        "sprint",
+        "calculate",
+        "velocity"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.agile-academy.com",
+      "title": "Velocity in Scrum – Definition and how you can calculate it",
+      "url": "https://www.agile-academy.com/en/scrum-master/velocity-definition-and-how-you-can-calculate-it/",
+      "breadcrumb": "https://www.agile-academy.com › scrum-master › velocit...",
+      "website_name": "Agile Academy",
+      "description": "The Velocity is a Scrum metric, that helps you to find the right amount of work for each sprint for the Scrum Team. We explain how to calculate it!",
+      "highlighted": [
+        "Velocity is a Scrum metric"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "scagile.io",
+      "title": "Calculating the Scrum Velocity [+ Excel Template]",
+      "url": "https://scagile.io/en/blog/calculating-scrum-velocity/",
+      "breadcrumb": "https://scagile.io › Scrum",
+      "website_name": "Scagile",
+      "description": "How to calculate the scrum velocity and display it in a way that is suitable for showing a real trend and allowing a forecast to be made.",
+      "highlighted": [
+        "How to calculate the scrum velocity"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "lucid.co",
+      "title": "How to calculate sprint velocity for better Agile planning",
+      "url": "https://lucid.co/blog/how-to-calculate-sprint-velocity",
+      "breadcrumb": "https://lucid.co › blog › how-to-calculate-sprint-velocity",
+      "website_name": "Lucid Software",
+      "description": "The sprint velocity formula is easy: Simply add up the total of story points completed from each sprint, then divide by the number of sprints.",
+      "highlighted": [
+        "sprint velocity formula",
+        "sprint"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.scrum.org",
+      "title": "Sprint historical velocity in planning and capacity calculation",
+      "url": "https://www.scrum.org/forum/scrum-forum/85515/sprint-historical-velocity-planning-and-capacity-calculation",
+      "breadcrumb": "https://www.scrum.org › forum › scrum-forum › sprint-...",
+      "website_name": "Scrum.org",
+      "description": "May 21, 2024 — So historical velocity (28 + 30 + 32) /3 = 30 points. then next sprint some people is off and unplanned meetings, so 360hs of capacity, this is ... Read more",
+      "pre_snippet": "05/21/2024 00:00:00",
+      "highlighted": [
+        "velocity",
+        "sprint"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.scrum.org/forum/scrum-forum/85515/sprint-historical-velocity-planning-and-capacity-calculation#:~:text=So%20historical%20velocity%20(28%20%2B,90%25%20of%20the%20sprint%20capacity",
+          "domain": "www.scrum.org"
+        }
+      ],
+      "timestamp": "2024-05-21 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "monday.com",
+      "title": "What is Agile Velocity? Definition, Formula & Best Practices ...",
+      "url": "https://monday.com/blog/rnd/agile-velocity/",
+      "breadcrumb": "https://monday.com › blog › rnd › agile-velocity",
+      "website_name": "Monday.com",
+      "description": "Sep 22, 2025 — Most teams need three to five sprints to establish a reliable baseline. Add your last few sprint velocities and divide by the number of sprints. Read more",
+      "pre_snippet": "09/22/2025 00:00:00",
+      "highlighted": [
+        "Add your last few sprint velocities and divide by the number of sprints"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://monday.com/blog/rnd/agile-velocity/#:~:text=Most%20teams%20need%20three%20to,by%20the%20number%20of%20sprints.",
+          "domain": "monday.com"
+        }
+      ],
+      "timestamp": "2025-09-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "Agile Velocity. How to Calculate Velocity in Scrum/Agile?",
+      "url": "https://www.youtube.com/watch?v=QT_wsBXS4XU",
+      "breadcrumb": "4.4K+ views  ·  2 years ago",
+      "website_name": "YouTube · GANTT SCHOLAR",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2024-03-15 00:00:00 +00:00"
+    }
+  ]
+}

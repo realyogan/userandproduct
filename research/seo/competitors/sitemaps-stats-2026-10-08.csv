@@ -1,0 +1,74 @@
+domain,sections,status,total_urls,content_urls,lastmod_12m,newest_lastmod,top_segments,notes
+bookmarks.design,links,ok,758,689,8,2026-07-29,product 688; (root) 1,
+uxtools.co,links,ok,214,207,0,,blog 80; episodes 48; survey 44; challenges 17; (root) 9,
+toools.design,links,ok,79,75,75,2026-10-06,newsletter 30; (root) 24; blog-posts 13; for 8,
+uxdatabase.io,links,blocked,0,0,0,,,first failure 403 
+undesign.learn.uno,links,ok,6,3,0,,resources 3,
+prototypr.io,links,ok,8,5,5,2026-09-16,(root) 5,
+designresourc.es,links,ok,411,381,109,2026-10-05,resources 338; inspiration 23; blog 9; list 8; (root) 3,
+startupstash.com,links,ok,4890,4660,656,2026-10-07,(root) 2409; tools 2238; blogcategroy 6; compare 3; interviews 3,
+futurepedia.io,links,ok,1963,1944,1533,2026-10-08,tool 1317; courses 530; ai-tools 78; (root) 10; resources 6,
+producthunt.com,links,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+github.com,links,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+lennysnewsletter.com,books articles,ok,1272,1266,433,2026-10-05,p 1264; (root) 2,
+mindtheproduct.com,books articles,ok,3791,3668,296,2026-10-08,(root) 3621; ai 20; training 9; updates 5; product-management-career-guide 3,skipped 2 image/video/author/tag/attachment sub-sitemaps
+productschool.com,books articles,ok,4661,4646,492,2026-10-06,product-leaders 3538; blog 696; resources 298; top-product-leaders 35; call 27,
+nngroup.com,books templates articles,ok,2775,2766,327,2026-10-07,articles 1735; videos 946; courses 55; contents 30,
+bookauthority.org,books,blocked,0,0,0,,,first failure 429 
+mostrecommendedbooks.com,books,ok,42771,42736,40166,2026-10-08,series 39828; lists 1343; people 1120; summaries 435; (root) 5,
+fivebooks.com,books,ok,3630,3221,474,2026-10-08,best-books 2345; reader-list 426; people 397; books-like 23; event 18,skipped 1 image/video/author/tag/attachment sub-sitemaps
+goodreads.com,books,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+uxdesign.cc,books articles,ok,11729,7475,952,2026-10-07,(root) 7475,
+evanmiller.org,tools,none,0,0,0,,,first failure 404 
+measuringu.com,tools articles,ok,1527,1404,100,2026-10-06,(root) 931; courses 122; product 114; events 41; article 37,skipped 2 image/video/author/tag/attachment sub-sitemaps
+abtestguide.com,tools,none,0,0,0,,,first failure 404 
+optimizely.com,tools,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+statsig.com,tools,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+surveymonkey.com,tools,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+cxl.com,tools,ok,1034,1012,180,2026-09-30,blog 911; (root) 37; guides 16; conversion-rate-optimization 11; conversion-optimization 11,
+intercom.com,tools,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+productboard.com,tools templates articles,ok,1412,1373,716,2026-10-05,blog 653; product-management-prompts-library 157; (root) 100; customers 68; integrations 66,
+roadmunk.com,tools,none,0,0,0,,,first failure 404 
+fibery.io,tools,ok,797,745,0,,blog 570; templates 92; (root) 29; features 25; customer-stories 24,
+figma.com,templates,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+notion.so,templates,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+miro.com,templates,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+atlassian.com,templates articles,skipped,0,0,0,,,"platform-scale sitemap, not a competitor inventory; not fetched"
+aha.io,templates articles,ok,5069,2980,513,2026-10-07,blog 2106; roadmapping 401; customers 135; product 89; use-cases 57,
+maze.co,templates articles,ok,784,658,0,,blog 127; guides 99; resources 98; events 80; collections 70,
+dovetail.com,templates articles,ok,2307,1937,416,2026-10-06,contributors 352; research 266; product-development 224; outlier 176; ux 170,
+mural.co,templates,ok,1832,1341,504,2026-10-07,blog 628; templates 459; resources 51; use-case 42; (root) 23,
+smashingmagazine.com,articles,ok,7895,5758,206,2026-10-08,the-smashing-newsletter 415; 2010 385; 2009 383; 2016 343; 2012 333,
+uxplanet.org,articles,ok,10019,5672,521,2026-10-07,(root) 5672,
+uxmatters.com,articles,ok,3424,2544,215,2026-10-05,mt 2287; topics 197; columns 52; (root) 7; glossary 1,
+alistapart.com,articles,ok,280,270,2,2026-10-07,blog 255; (root) 8; about 6; main 1,skipped 2 image/video/author/tag/attachment sub-sitemaps
+boxesandarrows.com,articles,ok,625,618,8,2026-09-25,(root) 618,skipped 1 image/video/author/tag/attachment sub-sitemaps
+uxbooth.com,articles,none,0,0,0,,,first failure 301 
+interaction-design.org,articles,ok,12772,2638,2099,2026-10-08,literature 1835; local-group 497; master-classes 164; members 77; courses 42,skipped 2 image/video/author/tag/attachment sub-sitemaps
+productcoalition.com,articles,ok,207,206,99,2026-10-08,p 204; (root) 2,
+departmentofproduct.com,articles,ok,64,54,5,2026-10-07,blog 49; platform 4; newsletter 1,
+pragmaticinstitute.com,articles,blocked,0,0,0,,,first failure 403 cloudflare
+svpg.com,articles,ok,652,649,51,2026-10-07,(root) 511; workshops 65; podcasts 43; insights 18; team 7,skipped 3 image/video/author/tag/attachment sub-sitemaps
+reforge.com,articles,ok,3936,2862,589,2026-10-08,artifacts 1736; guides 536; blog 288; experts 154; podcast 58,
+producttalk.org,articles,ok,786,777,651,2026-10-08,(root) 777,skipped 2 image/video/author/tag/attachment sub-sitemaps
+romanpichler.com,articles,ok,178,171,58,2026-10-07,podcast 89; event 18; (root) 17; training-faq 15; blog 8,skipped 1 image/video/author/tag/attachment sub-sitemaps
+cutlefish.substack.com,articles,ok,474,473,68,2026-10-03,p 471; (root) 2,
+centercentre.com,articles,ok,58,53,23,2026-09-30,(root) 53,
+lukew.com,articles,ok,2193,2184,41,2026-10-04,ff 2139; presos 41; (root) 3; resources 1,
+melissaperri.com,articles,ok,107,95,2,2026-07-27,blog 50; events 37; (root) 8,
+gibsonbiddle.com,articles,ok,41,30,6,2026-09-30,(root) 30,
+juliezhuo.com,articles,none,0,0,0,,,first failure 404 
+andrewchen.com,articles,blocked,0,0,0,,,first failure 403 
+growthunhinged.com,articles,ok,331,265,265,2026-10-07,p 234; t 20; (root) 9; forms 1; products 1,
+mountaingoatsoftware.com,articles,ok,648,599,0,,agile 356; podcasts 191; services 23; (root) 12; tools 8,
+jpattonassociates.com,articles,blocked,0,0,0,,,robots sitemaps failed; tried fallback paths; first failure 403 cloudflare
+baymard.com,articles,ok,1943,1619,187,2026-10-08,research-articles 445; ux-benchmark 437; certified 420; blog 62; ecommerce-design-examples 60,
+lawsofux.com,articles,ok,276,42,0,2024-05-29,(root) 34; articles 8,
+growth.design,articles,ok,61,59,14,2026-06-04,case-studies 52; (root) 4; courses 3,
+productplan.com,articles,ok,1578,1408,1408,2026-10-05,learn 596; glossary 309; blog 253; webinars 76; ebooks 43,
+hotjar.com,articles,ok,2723,1617,0,2025-02-25,(root) 491; blog 340; partner-directory 89; customers 57; product-forge 44,
+userpilot.com,articles,ok,798,724,640,2026-10-07,blog 513; solutions 30; (root) 28; customers 28; options 25,skipped 1 image/video/author/tag/attachment sub-sitemaps
+amplitude.com,articles,ok,7933,3932,3344,2026-10-07,blog 1502; track 397; events 346; (root) 291; templates 230,
+mixpanel.com,articles,ok,1495,1020,569,2026-10-08,blog 619; reference 139; customers 88; guides 51; legal 36,skipped 1 image/video/author/tag/attachment sub-sitemaps
+pendo.io,articles,ok,3821,2836,733,2026-10-08,pendo-blog 1793; resources 244; customers 184; news 170; (root) 151,skipped 2 image/video/author/tag/attachment sub-sitemaps
+scrum.org,articles,blocked,0,0,0,,,first failure 403 

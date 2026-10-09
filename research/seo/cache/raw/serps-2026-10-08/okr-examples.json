@@ -1,0 +1,476 @@
+{
+  "id": "10081545-2633-0066-0000-a665cc3278c4",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "An **Objective and Key Result (OKR)** pairs an inspirational, qualitative goal with 2–5 measurable metrics that define success.[[1]](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)[[2]](https://www.okrstool.com/blog/okr-examples)\n\nThe core formula is: *“I will [Objective] as measured by [Key Results].”* [[1]](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)\n\n### Real-World OKR Examples by Team\n\nHere are examples of effective OKRs across key business functions:\n\n- **Product & Engineering:** Focus on user retention and shipping efficiency (e.g., boosting 30-day retention from 40% to 55% or reducing deployment time to under 10 minutes).[[1]](https://www.christianstrunk.com/blog/okr-examples)\n- **Marketing & Growth:** Target organic reach and lead generation (e.g., doubling monthly organic traffic or reducing customer acquisition cost).[[1]](https://www.christianstrunk.com/blog/okr-examples)\n- **Sales & Revenue:** Prioritize pipeline expansion and win rates (e.g., building a $30M sales pipeline).[[1]](https://mooncamp.com/okr-examples)\n- **HR & People Operations:** Aim for improved recruitment timelines and employee satisfaction metrics.[[1]](https://www.atlassian.com/work-management/strategic-planning/setting-goals/okr-examples)[[2]](https://mooncamp.com/okr-examples)\n\n\n---\n\n### Good vs. Bad OKR Habits\nEffective OKRs focus on measurable outcomes rather than vague statements or simple task completion. For instance, instead of listing a task like \"Launch new onboarding flow,\" a good OKR specifies an outcome such as \"Increase onboarding completion from 40% to 70%\". Avoid unmeasurable goals or metrics lacking clear baselines and targets.[[1]](https://www.christianstrunk.com/blog/okr-examples)For additional templates and breakdowns, explore guides from [What Matters](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them) or enterprise resources via [IBM Think](https://www.ibm.com/think/topics/okr-examples).If you'd like, tell me:\n\n- **Which department or team** you are writing OKRs for\n- **Your main goal** for the upcoming quarter\n\nI can help draft a custom set of objectives and measurable key results.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "An Objective and Key Result (OKR) pairs an inspirational, qualitative goal with 2–5 measurable metrics that define success.",
+          "markdown": "An **Objective and Key Result (OKR)** pairs an inspirational, qualitative goal with 2–5 measurable metrics that define success.[[1]](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)[[2]](https://www.okrstool.com/blog/okr-examples)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "www.whatmatters.com",
+              "domain": "www.whatmatters.com",
+              "url": "https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them",
+              "title": "What Matters: How to write OKRs with examples",
+              "text": "Framework: Objectives and Key Results (OKRs) consist of an Objective (what to accomplish) and 3-5 Key Results (measurable outcomes..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "OKRs Tool",
+              "domain": "www.okrstool.com",
+              "url": "https://www.okrstool.com/blog/okr-examples",
+              "title": "90+ OKR Examples for Every Team (2026, Free Toolkit) - OKRs Tool",
+              "text": "What is a good OKR example? A good OKR pairs a qualitative objective with measurable key results that track an outcome. For exampl..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "The core formula is: “I will [Objective] as measured by [Key Results].”",
+          "markdown": "The core formula is: *“I will [Objective] as measured by [Key Results].”* [[1]](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "www.whatmatters.com",
+              "domain": "www.whatmatters.com",
+              "url": "https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them",
+              "title": "What Matters: How to write OKRs with examples",
+              "text": "Framework: Objectives and Key Results (OKRs) consist of an Objective (what to accomplish) and 3-5 Key Results (measurable outcomes..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Real-World OKR Examples by Team",
+          "text": "Here are examples of effective OKRs across key business functions:",
+          "markdown": "Here are examples of effective OKRs across key business functions:"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Product & Engineering: Focus on user retention and shipping efficiency (e.g., boosting 30-day retention from 40% to 55% or reducing deployment time to under 10 minutes). Marketing & Growth: Target organic reach and lead generation (e.g., doubling monthly organic traffic or reducing customer acquisition cost). Sales & Revenue: Prioritize pipeline expansion and win rates (e.g., building a $30M sales pipeline). HR & People Operations: Aim for improved recruitment timelines and employee satisfaction metrics.",
+          "markdown": "- **Product & Engineering:** Focus on user retention and shipping efficiency (e.g., boosting 30-day retention from 40% to 55% or reducing deployment time to under 10 minutes).[[1]](https://www.christianstrunk.com/blog/okr-examples)\n- **Marketing & Growth:** Target organic reach and lead generation (e.g., doubling monthly organic traffic or reducing customer acquisition cost).[[1]](https://www.christianstrunk.com/blog/okr-examples)\n- **Sales & Revenue:** Prioritize pipeline expansion and win rates (e.g., building a $30M sales pipeline).[[1]](https://mooncamp.com/okr-examples)\n- **HR & People Operations:** Aim for improved recruitment timelines and employee satisfaction metrics.[[1]](https://www.atlassian.com/work-management/strategic-planning/setting-goals/okr-examples)[[2]](https://mooncamp.com/okr-examples)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "www.christianstrunk.com",
+              "domain": "www.christianstrunk.com",
+              "url": "https://www.christianstrunk.com/blog/okr-examples",
+              "title": "OKR Examples: 15 Real-World Goals from Google, Netflix & More",
+              "text": "Table_title: Example 1: Google's First OKR (1999) Table_content: | Component | Content | | --- | --- | | Objective | Build a great..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Mooncamp",
+              "domain": "mooncamp.com",
+              "url": "https://mooncamp.com/okr-examples",
+              "title": "120+ OKR Examples from Real Companies",
+              "text": "Company: Delight customers (NPS ≥45, CSAT ≥75%), grow global business ($100M US revenue), build workplace (eNPS ≥50). Marketing: G..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Atlassian",
+              "domain": "www.atlassian.com",
+              "url": "https://www.atlassian.com/work-management/strategic-planning/setting-goals/okr-examples",
+              "title": "OKR Examples for Setting Goals | The Workstream",
+              "text": "Objectives and Key Results (OKRs) are goal-setting frameworks used to define objectives (desired outcomes) and key results (measur..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Good vs. Bad OKR Habits",
+          "text": "Effective OKRs focus on measurable outcomes rather than vague statements or simple task completion. For instance, instead of listing a task like \"Launch new onboarding flow,\" a good OKR specifies an outcome such as \"Increase onboarding completion from 40% to 70%\". Avoid unmeasurable goals or metrics lacking clear baselines and targets.",
+          "markdown": "Effective OKRs focus on measurable outcomes rather than vague statements or simple task completion. For instance, instead of listing a task like \"Launch new onboarding flow,\" a good OKR specifies an outcome such as \"Increase onboarding completion from 40% to 70%\". Avoid unmeasurable goals or metrics lacking clear baselines and targets.[[1]](https://www.christianstrunk.com/blog/okr-examples)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "www.christianstrunk.com",
+              "domain": "www.christianstrunk.com",
+              "url": "https://www.christianstrunk.com/blog/okr-examples",
+              "title": "OKR Examples: 15 Real-World Goals from Google, Netflix & More",
+              "text": "Table_title: Example 1: Google's First OKR (1999) Table_content: | Component | Content | | --- | --- | | Objective | Build a great..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "For additional templates and breakdowns, explore guides from What Matters or enterprise resources via IBM Think.",
+          "markdown": "For additional templates and breakdowns, explore guides from [What Matters](https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them) or enterprise resources via [IBM Think](https://www.ibm.com/think/topics/okr-examples).",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "What Matters",
+              "url": "https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them",
+              "domain": "www.whatmatters.com"
+            },
+            {
+              "type": "link_element",
+              "title": "IBM Think",
+              "url": "https://www.ibm.com/think/topics/okr-examples",
+              "domain": "www.ibm.com"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, tell me:Which department or team you are writing OKRs for\nYour main goal for the upcoming quarter\nI can help draft a custom set of objectives and measurable key results.",
+          "markdown": "If you'd like, tell me:\n\n- **Which department or team** you are writing OKRs for\n- **Your main goal** for the upcoming quarter\n\nI can help draft a custom set of objectives and measurable key results."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "www.whatmatters.com",
+          "domain": "www.whatmatters.com",
+          "url": "https://www.whatmatters.com/faqs/okr-examples-and-how-to-write-them",
+          "title": "What Matters: How to write OKRs with examples",
+          "text": "Framework: Objectives and Key Results (OKRs) consist of an Objective (what to accomplish) and 3-5 Key Results (measurable outcomes..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.christianstrunk.com",
+          "domain": "www.christianstrunk.com",
+          "url": "https://www.christianstrunk.com/blog/okr-examples",
+          "title": "OKR Examples: 15 Real-World Goals from Google, Netflix & More",
+          "text": "Table_title: Example 1: Google's First OKR (1999) Table_content: | Component | Content | | --- | --- | | Objective | Build a great..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Mooncamp",
+          "domain": "mooncamp.com",
+          "url": "https://mooncamp.com/okr-examples",
+          "title": "120+ OKR Examples from Real Companies",
+          "text": "Company: Delight customers (NPS ≥45, CSAT ≥75%), grow global business ($100M US revenue), build workplace (eNPS ≥50). Marketing: G..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "OKRs Tool",
+          "domain": "www.okrstool.com",
+          "url": "https://www.okrstool.com/blog/okr-examples",
+          "title": "90+ OKR Examples for Every Team (2026, Free Toolkit) - OKRs Tool",
+          "text": "What is a good OKR example? A good OKR pairs a qualitative objective with measurable key results that track an outcome. For exampl..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Atlassian",
+          "domain": "www.atlassian.com",
+          "url": "https://www.atlassian.com/work-management/strategic-planning/setting-goals/okr-examples",
+          "title": "OKR Examples for Setting Goals | The Workstream",
+          "text": "Objectives and Key Results (OKRs) are goal-setting frameworks used to define objectives (desired outcomes) and key results (measur..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "bernardmarr.com",
+      "title": "OKR Examples: Real-World Objectives And Key Results",
+      "url": "https://bernardmarr.com/okr-examples-real-world-objectives-and-key-results/",
+      "breadcrumb": "https://bernardmarr.com › okr-examples-real-world-obj...",
+      "website_name": "Bernard Marr",
+      "description": "O: Create a product that delights our customers. KR: Build user testing into design phase. KR: Net Promoter Score increased from 6 to 8. Read more",
+      "highlighted": [
+        "O: Create a product that delights our customers"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://bernardmarr.com/okr-examples-real-world-objectives-and-key-results/#:~:text=O%3A%20Create%20a%20product%20that,increased%20from%206%20to%208.",
+          "domain": "bernardmarr.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntWP0Bo5Ay8wjDyM9zVPGPMWJLMrQ:1791474340332&q=okr+examples&udm=2&source=univ&fir=4N3lSs2QjONF5M%252CzRU8jUe8fynIDM%252C_%253Bv7sRrqsxS99P-M%252CcXBp5xJ17UrmqM%252C_%253Bt1NiPlGptskzDM%252CzBVoKtS_WNspWM%252C_%253BkT14pYYjKC5GlM%252C8yJ65rOpJzkcVM%252C_%253BUInDWkA0tzpl3M%252C2YCOwa4LJS7dZM%252C_%253B7RD3pZg50ZxSEM%252Cw0po5Y3MsC6XTM%252C_%253BD3eggELVUPe81M%252CGKgGI49Q-wBr2M%252C_%253BHAISejK7PrIDcM%252CurszNgmzLiuvFM%252C_%253BnYm9seCyEpvTEM%252CFkSf_G5wfjmY8M%252C_%253BMfalbw1IKyGz8M%252CcDghddD7DUKN9M%252C_%253BKr9W9y7VxLqXJM%252CfGbGl1x-iK9vIM%252C_%253BgHgJU5qIqGO6wM%252C5xlJdczl4kGByM%252C_&usg=AI4_-kT_5nVBUnZ3b7deC62dMD-tuMuqsA&sa=X&ved=2ahUKEwiEyrf94aqXAxWLWkEAHSXWK1oQ7Al6BAgeEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "OKR Format: Write and Structure OKRs with Examples ...",
+          "url": "https://okrexamples.co/okr-format",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:0"
+        },
+        {
+          "type": "images_element",
+          "alt": "100 + OKR Examples: Take Ideas to Action in 2026 - Weekdone",
+          "url": "https://weekdone.com/resources/okr-examples",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:1"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to Write OKRs: The Ultimate Step-by-Step Guide",
+          "url": "https://mirro.io/blog/how-write-okrs/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:2"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 29 OKR Examples for Your Organization I OKRs",
+          "url": "https://onstrategyhq.com/okr/examples/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:3"
+        },
+        {
+          "type": "images_element",
+          "alt": "20 Finance OKR Examples & Department Goals",
+          "url": "https://datalligence.ai/blogs/finance-okr-examples/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:4"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is an OKR? A guide to setting the right goals | Zapier",
+          "url": "https://zapier.com/blog/what-is-an-okr/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a665cc3278c4:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "27 OKR Examples for Learning and Development to Drive Growth ...",
+          "url": "https://www.getjop.com/blog/okr-for-learning-and-development",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8M1-HMRkFaj_O177lpXDPPrrG45LjeOgrbR6cXGBDMmVq3xT-PqlGY5c&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "19 Effective OKR Examples to Inspire Your Goals",
+          "url": "https://businessmap.io/okr-resources/okr/examples",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG4FICqRlUBhGw9y8Qa75NjL8s0RusIvVOzexAN6fCdDh7lV9XkUvAvGg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "OKR and UX: Examples and Resources | by Dana Wu | UX Planet",
+          "url": "https://uxplanet.org/okr-and-ux-examples-and-resources-4c4ac8f43d55",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkb9N7AWlVrkjqdo5u5XQ97BipgM_l3Kk8nzytHFdYfKBHjEp7pBzHXw&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "OKRs: How to Set Better Goals in 2023 [Examples + 2024 Guide]",
+          "url": "https://weekdone.com/resources/objectives-key-results",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTf48w6bJFvUzV-NTn972zmAvxiczMyBNfSu0EMQ8K2TRNZtzrnn33F8&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "24 Actionable OKR Examples for Growth Teams - JOP",
+          "url": "https://www.getjop.com/blog/okr-examples-for-growth",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs5N8UasDx2EyeQDG0-lb_puerb9TYLRYToInqyCjXW0v0J-zjq3GauCE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What Matters: What is an OKR? OKR Meaning, Definition & Examples",
+          "url": "https://www.whatmatters.com/faqs/okr-meaning-definition-example",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cltASAsVCaWOs9hznF6DuRvXJ2NhVNNdkv6_8IGzjI7hLGq8NlBim5U&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the OKR methodology and how is it used?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is an OKR vs KPI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are OKR initiatives?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 elements of OKR?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "rework.withgoogle.com",
+      "title": "Guides: Set goals with OKRs - Google re:Work - Withgoogle.com",
+      "url": "https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs",
+      "breadcrumb": "https://rework.withgoogle.com › intl › set-goals-with-okrs",
+      "website_name": "Google re:Work",
+      "description": "Here are a few sample OKRs a team or individual might set to support an organization's goal to \"reach xx% of industry market share.\"",
+      "highlighted": [
+        "Here are a few sample OKRs"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.worktango.com",
+      "title": "OKR Examples for Teams Across Every Department",
+      "url": "https://www.worktango.com/blog/okr-examples",
+      "breadcrumb": "https://www.worktango.com › blog › okr-examples",
+      "website_name": "WorkTango",
+      "description": "Feb 9, 2026 — Get OKR examples by department. Learn how to write objectives and key results. Create your OKRs today.",
+      "pre_snippet": "02/09/2026 00:00:00",
+      "highlighted": [
+        "Get OKR examples by department"
+      ],
+      "timestamp": "2026-02-09 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.synergita.com",
+      "title": "10 Best OKR Examples for Operations Teams",
+      "url": "https://www.synergita.com/blog/okr-examples-for-operations/",
+      "breadcrumb": "https://www.synergita.com › blog › okr-examples-for-o...",
+      "website_name": "Synergita",
+      "description": "Mar 12, 2026 — Sample OKR: Objective: Improve Process Efficiency KR1: Reduce average process cycle time from 48 hours to 32 hours KR2: Automate 35% of manual ...",
+      "pre_snippet": "03/12/2026 00:00:00",
+      "highlighted": [
+        "Sample OKR"
+      ],
+      "timestamp": "2026-03-12 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "monday.com",
+      "title": "What are OKRs, how to write them, and examples",
+      "url": "https://monday.com/blog/project-management/what-are-okrs/",
+      "breadcrumb": "https://monday.com › Home › Project management",
+      "website_name": "Monday.com",
+      "description": "Dec 5, 2024 — Example: A company improving customer satisfaction might focus on achieving an NPS of 60+ and reducing response times to under five minutes.",
+      "pre_snippet": "12/05/2024 00:00:00",
+      "highlighted": [
+        "Example"
+      ],
+      "timestamp": "2024-12-05 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What are some specific examples of Objectives and Key ...",
+      "url": "https://www.quora.com/What-are-some-specific-examples-of-Objectives-and-Key-Results-OKR",
+      "breadcrumb": "30+ answers  ·  7 years ago",
+      "website_name": "Quora",
+      "description": "What are some specific examples of Objectives and Key Results (OKR)?",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "34 answers",
+          "url": "https://www.quora.com/What-are-some-specific-examples-of-Objectives-and-Key-Results-OKR?top_ans=111760131",
+          "domain": "www.quora.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "Best OKR Examples for Operations",
+      "url": "https://medium.com/@hello_73353/best-okr-examples-for-operations-00b7bafd4162",
+      "breadcrumb": "3 years ago",
+      "website_name": "Medium · Dalalligence AI",
+      "description": "Key Result 1: Reduce excess inventory levels by 20% by optimizing reorder points and implementing demand forecasting. Key Result 2: Implement an ... Read more",
+      "highlighted": [
+        "Reduce excess inventory levels by 20"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://medium.com/@hello_73353/best-okr-examples-for-operations-00b7bafd4162#:~:text=Key%20Result%201%3A%20Reduce%20excess,and%20allocate%20resources%20more%20effectively.",
+          "domain": "medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "withdouble.com",
+      "title": "OKR examples for startups to replicate",
+      "url": "https://withdouble.com/blog/okr-examples-for-startups-to-replicate",
+      "breadcrumb": "https://withdouble.com › blog › okr-examples-for-start...",
+      "website_name": "Double - Virtual Assistants",
+      "description": "Oct 5, 2021 — Marketing OKR example. Objective: Increase new email subscribers percentage month over month ; Sales OKR example. Objective: Have 80% of sales ... Read more",
+      "pre_snippet": "10/05/2021 00:00:00",
+      "highlighted": [
+        "Marketing OKR example"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://withdouble.com/blog/okr-examples-for-startups-to-replicate#:~:text=Marketing%20OKR%20example,subscribers%20percentage%20month%20over%20month&text=Sales%20OKR%20example,reps%20hit%20their%20quarterly%20targets",
+          "domain": "withdouble.com"
+        }
+      ],
+      "timestamp": "2021-10-05 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Okr examples for employees",
+        "OKR vs KPI",
+        "OKR vs KPI examples",
+        "Simple okr examples",
+        "OKR examples for product teams",
+        "Business okr examples",
+        "OKR examples for managers",
+        "OKR vs SMART goals"
+      ]
+    }
+  ]
+}

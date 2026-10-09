@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "run_id": "final-logo",
+  "title": "Final logo pack (T08 Signal) and exploration archive",
+  "state": "finished",
+  "started": "2026-10-09T17:50+05:30",
+  "updated": "2026-10-09T17:57+05:30",
+  "note": "skipped: owner commits first (zip verified; nothing deleted; mockups README rewritten for the post-cleanup state)",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Masters and SVGs",
+      "status": "done",
+      "note": "13 SVGs written; lockup and mark byte-identical to the board's T08 files",
+      "time": "17:53"
+    },
+    {
+      "n": 2,
+      "title": "PNG and favicon sets",
+      "status": "done",
+      "note": "30 PNGs, 11 favicon files; ICO holds 16, 32, 48",
+      "time": "17:53"
+    },
+    {
+      "n": 3,
+      "title": "Social set",
+      "status": "done",
+      "note": "9 social images",
+      "time": "17:53"
+    },
+    {
+      "n": 4,
+      "title": "Brand sheet and checks",
+      "status": "done",
+      "note": "Brand sheet written; 13 SVG parse, 37 PNG and 1 ICO open, ICO has 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
+      "time": "17:56"
+    },
+    {
+      "n": 5,
+      "title": "Archive zip",
+      "status": "done",
+      "note": "Zip written and tested: 1509 entries, 18.9 MB (feeling-board screenshots included)",
+      "time": "17:57"
+    },
+    {
+      "n": 6,
+      "title": "Cleanup and rebuild test",
+      "status": "skipped",
+      "note": "skipped: owner commits first (zip verified; nothing deleted; mockups README rewritten for the post-cleanup state)",
+      "time": "17:57"
+    }
+  ]
+}

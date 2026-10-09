@@ -1,0 +1,408 @@
+{
+  "id": "10081545-2633-0066-0000-2c298945171e",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.nngroup.com",
+      "title": "Beyond NPS: SUS, NASA-TLX, and the Single Ease ...",
+      "url": "https://www.nngroup.com/articles/measuring-perceived-usability/",
+      "breadcrumb": "https://www.nngroup.com › articles › measuring-percei...",
+      "website_name": "Nielsen Norman Group",
+      "description": "Feb 11, 2018 — The SUS is a series of 10 Likert-scale questions and produces a score from 0–100. However, the 0–100 score is not equivalent to a percentage ... Read more",
+      "pre_snippet": "02/11/2018 00:00:00",
+      "highlighted": [
+        "SUS",
+        "score"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.nngroup.com/articles/measuring-perceived-usability/#:~:text=The%20SUS%20is%20a%20series,not%20equivalent%20to%20a%20percentage",
+          "domain": "www.nngroup.com"
+        }
+      ],
+      "timestamp": "2018-02-11 00:00:00 +00:00"
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "![What&#39;s the System Usability Scale (SUS) &amp; How Can You Use It?](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:4)\nYou can calculate a System Usability Scale score using the [SUS Calculator](https://uiuxtrend.com/sus-calculator/) tool or by applying the standard 10-item formula.[[1]](https://stuart-cunningham.github.io/sus/)[[2]](https://uiuxtrend.com/sus-calculator/)\n\n### How to Calculate a SUS Score\n\n- **Step 1: Rate the 10 Items** — Users score 10 statements from 1 (Strongly disagree) to 5 (Strongly agree).[[1]](https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/)[[2]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 2: Adjust Odd Items** — For odd-numbered questions (1, 3, 5, 7, 9), subtract 1 from the user score.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 3: Adjust Even Items** — For even-numbered questions (2, 4, 6, 8, 10), subtract the user score from 5.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 4: Sum the Values** — Add all 10 adjusted scores together to get a total between 0 and 40.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 5: Multiply by 2.5** — Multiply the total by 2.5 to convert the final score to a 0–100 scale.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n\n### Score Interpretation\n\n- **Average Score:** 68 (Scores above 68 are above average).\n- **Grade A:** 80.3–100 (Excellent)\n- **Grade B:** 68–79 (Good)\n- **Grade C:** 51–67 (Okay)\n- **Grade D:** 26–50 (Poor)\n- **Grade F:** 0–25 (Awful)[[1]](https://uiuxtrend.com/sus-calculator/)[[2]](https://stuart-cunningham.github.io/sus/)[[3]](https://uiuxtrend.com/measuring-system-usability-scale-sus/)[[4]](https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/)\n\nIf you have raw numbers from a test, share the **10 individual item ratings** and I can calculate the final SUS score for you.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate a System Usability Scale score using the SUS Calculator tool or by applying the standard 10-item formula.",
+          "markdown": "![What&#39;s the System Usability Scale (SUS) &amp; How Can You Use It?](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:2)\nYou can calculate a System Usability Scale score using the [SUS Calculator](https://uiuxtrend.com/sus-calculator/) tool or by applying the standard 10-item formula.[[1]](https://stuart-cunningham.github.io/sus/)[[2]](https://uiuxtrend.com/sus-calculator/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "SUS Calculator",
+              "url": "https://uiuxtrend.com/sus-calculator/",
+              "domain": "uiuxtrend.com"
+            }
+          ],
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "What's the System Usability Scale (SUS) & How Can You Use It?",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "GitHub Pages documentation",
+              "domain": "stuart-cunningham.github.io",
+              "url": "https://stuart-cunningham.github.io/sus/",
+              "title": "System Usability Scale (SUS) Score Calculator",
+              "text": "Overview: System Usability Scale (SUS) score calculator based on John Brooke's 1996 methodology. Scoring: 10 standard 5-point Like..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UIUX Trend",
+              "domain": "uiuxtrend.com",
+              "url": "https://uiuxtrend.com/sus-calculator/",
+              "title": "SUS Calculator - UIUX Trend",
+              "text": "System Usability Scale (SUS): Standard 10-question usability evaluation tool consisting of alternating positive (odd-numbered) and..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "How to Calculate a SUS Score",
+          "text": "Step 1: Rate the 10 Items — Users score 10 statements from 1 (Strongly disagree) to 5 (Strongly agree). Step 2: Adjust Odd Items — For odd-numbered questions (1, 3, 5, 7, 9), subtract 1 from the user score. Step 3: Adjust Even Items — For even-numbered questions (2, 4, 6, 8, 10), subtract the user score from 5. Step 4: Sum the Values — Add all 10 adjusted scores together to get a total between 0 and 40. Step 5: Multiply by 2.5 — Multiply the total by 2.5 to convert the final score to a 0–100 scale.",
+          "markdown": "- **Step 1: Rate the 10 Items** — Users score 10 statements from 1 (Strongly disagree) to 5 (Strongly agree).[[1]](https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/)[[2]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 2: Adjust Odd Items** — For odd-numbered questions (1, 3, 5, 7, 9), subtract 1 from the user score.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 3: Adjust Even Items** — For even-numbered questions (2, 4, 6, 8, 10), subtract the user score from 5.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 4: Sum the Values** — Add all 10 adjusted scores together to get a total between 0 and 40.[[1]](https://www.koji.so/docs/system-usability-scale-guide)\n- **Step 5: Multiply by 2.5** — Multiply the total by 2.5 to convert the final score to a 0–100 scale.[[1]](https://www.koji.so/docs/system-usability-scale-guide)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "CleverX",
+              "domain": "cleverx.com",
+              "url": "https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/",
+              "title": "SUS Score: How to Calculate & Interpret It | CleverX Blog",
+              "text": "Definition: System Usability Scale (SUS) is a 10-question validated survey measuring perceived product usability on a 0-100 scale ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Koji Research",
+              "domain": "www.koji.so",
+              "url": "https://www.koji.so/docs/system-usability-scale-guide",
+              "title": "System Usability Scale (SUS): Complete Guide with Calculator ...",
+              "text": "How to Calculate a SUS Score (the Formula) * Convert each Likert response to a 1–5 number (\"Strongly disagree\" = 1, \"Strongly agre..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Score Interpretation",
+          "text": "Average Score: 68 (Scores above 68 are above average). Grade A: 80.3–100 (Excellent) Grade B: 68–79 (Good) Grade C: 51–67 (Okay) Grade D: 26–50 (Poor) Grade F: 0–25 (Awful)",
+          "markdown": "- **Average Score:** 68 (Scores above 68 are above average).\n- **Grade A:** 80.3–100 (Excellent)\n- **Grade B:** 68–79 (Good)\n- **Grade C:** 51–67 (Okay)\n- **Grade D:** 26–50 (Poor)\n- **Grade F:** 0–25 (Awful)[[1]](https://uiuxtrend.com/sus-calculator/)[[2]](https://stuart-cunningham.github.io/sus/)[[3]](https://uiuxtrend.com/measuring-system-usability-scale-sus/)[[4]](https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "UIUX Trend",
+              "domain": "uiuxtrend.com",
+              "url": "https://uiuxtrend.com/sus-calculator/",
+              "title": "SUS Calculator - UIUX Trend",
+              "text": "System Usability Scale (SUS): Standard 10-question usability evaluation tool consisting of alternating positive (odd-numbered) and..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "GitHub Pages documentation",
+              "domain": "stuart-cunningham.github.io",
+              "url": "https://stuart-cunningham.github.io/sus/",
+              "title": "System Usability Scale (SUS) Score Calculator",
+              "text": "Overview: System Usability Scale (SUS) score calculator based on John Brooke's 1996 methodology. Scoring: 10 standard 5-point Like..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UIUX Trend",
+              "domain": "uiuxtrend.com",
+              "url": "https://uiuxtrend.com/measuring-system-usability-scale-sus/",
+              "title": "Measuring and Interpreting System Usability Scale (SUS) - UIUX Trend",
+              "text": "Overview: System Usability Scale (SUS) is a 10-item, 5-point Likert questionnaire created by John Brooke in 1986 at Digital Equipm..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "CleverX",
+              "domain": "cleverx.com",
+              "url": "https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/",
+              "title": "SUS Score: How to Calculate & Interpret It | CleverX Blog",
+              "text": "Definition: System Usability Scale (SUS) is a 10-question validated survey measuring perceived product usability on a 0-100 scale ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you have raw numbers from a test, share the 10 individual item ratings and I can calculate the final SUS score for you.",
+          "markdown": "If you have raw numbers from a test, share the **10 individual item ratings** and I can calculate the final SUS score for you."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "GitHub Pages documentation",
+          "domain": "stuart-cunningham.github.io",
+          "url": "https://stuart-cunningham.github.io/sus/",
+          "title": "System Usability Scale (SUS) Score Calculator",
+          "text": "Overview: System Usability Scale (SUS) score calculator based on John Brooke's 1996 methodology. Scoring: 10 standard 5-point Like..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "UIUX Trend",
+          "domain": "uiuxtrend.com",
+          "url": "https://uiuxtrend.com/sus-calculator/",
+          "title": "SUS Calculator - UIUX Trend",
+          "text": "System Usability Scale (SUS): Standard 10-question usability evaluation tool consisting of alternating positive (odd-numbered) and..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "UIUX Trend",
+          "domain": "uiuxtrend.com",
+          "url": "https://uiuxtrend.com/measuring-system-usability-scale-sus/",
+          "title": "Measuring and Interpreting System Usability Scale (SUS) - UIUX Trend",
+          "text": "Overview: System Usability Scale (SUS) is a 10-item, 5-point Likert questionnaire created by John Brooke in 1986 at Digital Equipm..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "CleverX",
+          "domain": "cleverx.com",
+          "url": "https://cleverx.com/blog/system-usability-scale-sus-complete-scoring-walkthrough/",
+          "title": "SUS Score: How to Calculate & Interpret It | CleverX Blog",
+          "text": "Definition: System Usability Scale (SUS) is a 10-question validated survey measuring perceived product usability on a 0-100 scale ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Koji Research",
+          "domain": "www.koji.so",
+          "url": "https://www.koji.so/docs/system-usability-scale-guide",
+          "title": "System Usability Scale (SUS): Complete Guide with Calculator ...",
+          "text": "How to Calculate a SUS Score (the Formula) * Convert each Likert response to a 1–5 number (\"Strongly disagree\" = 1, \"Strongly agre..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "yourcx.io",
+      "title": "System Usability Scale (SUS) in UX Research",
+      "url": "https://yourcx.io/en/blog/2024/09/system-usability-scale-sus-in-ux-research-measuring-user-experience-effectively/",
+      "breadcrumb": "https://yourcx.io › Home › Blog",
+      "website_name": "YourCX",
+      "description": "Sep 3, 2024 — Use the formula: SUS Score=(x+y)×2.5 This calculation will give you a score that ranges from 0 to 100, indicating the perceived usability of ...",
+      "pre_snippet": "09/03/2024 00:00:00",
+      "highlighted": [
+        "Use the formula: SUS Score=(x+y)×2.5"
+      ],
+      "timestamp": "2024-09-03 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "stackoverflow.com",
+      "title": "How to automatically calculate the SUS Score for a given ...",
+      "url": "https://stackoverflow.com/questions/30942631/how-to-automatically-calculate-the-sus-score-for-a-given-spreadsheet-in-libreoff",
+      "breadcrumb": "1 answer  ·  11 years ago",
+      "website_name": "Stack Overflow",
+      "description": "I have several spreadsheets for a SUS-Score usability test. They have this form:  | Strongly disagree | | | | Strongly agree | I think, that I would ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "1 answer",
+          "url": "https://stackoverflow.com/a/30944032",
+          "domain": "stackoverflow.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "formbricks.com",
+      "title": "System Usability Scale (SUS) | Free Template 2026",
+      "url": "https://formbricks.com/survey-templates/system-usability-scale",
+      "breadcrumb": "https://formbricks.com › survey-templates › system-usa...",
+      "website_name": "Formbricks",
+      "description": "The System Usability Scale is a 10-question standardized survey that produces a single usability score between 0 and 100.",
+      "highlighted": [
+        "produces a single usability score between 0 and 100"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnv97O4ytcQfWYRYNU6ODDfrZgEBaw:1791474339933&q=sus+score+calculator&udm=2&source=univ&fir=EoSGd2wyHyHm4M%252Cvnxt2vzLK54F8M%252C_%253B6ulUgv1h0cSTzM%252CUZIFAWbuz9n8pM%252C_%253BOFb6PW8radbFlM%252CfGzQCuh8lifTPM%252C_%253BSxJQqr_jxWZgPM%252CmZLXcic0s5HbRM%252C_%253BhN0tgBHTVX3s8M%252CZ--dashjSax6SM%252C_%253B24UjMZk3qpTKFM%252CturvaN5oNh2w9M%252C_%253BygMPI183km8JeM%252CrwdUaG8UziVbXM%252C_%253B9Ry3HDiu93-M0M%252C-RvDa5YZJWiIAM%252C_%253B8vAdgJBHYpEcpM%252CJ1WdtEs9OIXIWM%252C_&usg=AI4_-kRN2J0kD0w4FuLUlONy-GhW3xdfNA&sa=X&ved=2ahUKEwjkjp794aqXAxVgW0EAHS80IiUQ7Al6BAgiEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Easily calculate SUS Score | UX Planet",
+          "url": "https://uxplanet.org/easily-calculate-sus-score-a464d753e5aa",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "SUS Calculator – MeasuringU",
+          "url": "https://measuringu.com/product/suscalc/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Formula for Calculation of SUS score | Download Scientific ...",
+          "url": "https://www.researchgate.net/figure/Formula-for-Calculation-of-SUS-score_fig4_384802264",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-2c298945171e:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "5 Ways to Interpret a SUS Score – MeasuringU",
+          "url": "https://measuringu.com/interpret-sus-score/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBC1xkKli38mAMtgBMoFbt3ruxguO7U4jWbC6YsCe47Rus322pEnWFMqg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The System Usability Scale & How it's Used in UX | by Andrew ...",
+          "url": "https://medium.com/thinking-design/the-system-usability-scale-how-its-used-in-ux-b823045270b7",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9-tE3t5huTnAim78buqIKv8C-_sSSLNzqMe6c1m_ipHLLlypPJQfWOY4&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What Every Client Should Know about SUS Scores | Bentley ...",
+          "url": "https://www.bentley.edu/centers/user-experience-center/what-every-client-should-know-about-sus-scores",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzFIl0bGNNPhV6q-dMdGwIAUlp_d--LdLK9LN0ohf0ZK-Zt0QswHFnQ9g&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What's the System Usability Scale (SUS) & How Can You Use It?",
+          "url": "https://blog.hubspot.com/service/system-usability-scale-sus",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv7sBoui67fZfr1agJ-ewyNN_0VuPvrLEPbLgauQWPw_oV4ZZLxTGmozE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "System Usability Scale (SUS) in UX Research: Measuring User ...",
+          "url": "https://yourcx.io/en/blog/2024/09/system-usability-scale-sus-in-ux-research-measuring-user-experience-effectively/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fDYRakB0fRJyYgbW18fb1NxYTxTM2kFbMR4wiPzFByXc7BS_59PP3eg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Medium",
+          "url": "https://uxplanet.org/how-to-measure-product-usability-with-the-system-usability-scale-sus-score-69f3875b858f",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ypbh5PpdmlA9TpBFOE891dLK7jjChydo4QhiuHasrexVrJE6jisMxVQ&s"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "items": [
+        {
+          "type": "video_element",
+          "source": "YouTube · UXtweak",
+          "title": "How to Calculate & Interpret the SUS Score - in 5 Easy Steps",
+          "timestamp": "2026-01-20 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=uqV3BuIluzQ"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Anita Odiboh",
+          "title": "Calculating SUS Score Made Simple: Step-by-Step Guide on how",
+          "timestamp": "2024-01-27 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=S-4WGbfDKUs"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Parks Place",
+          "title": "How To Calculate And Graph SUS",
+          "timestamp": "2023-07-31 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=LgsBPcHyS_U"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.uxia.app",
+      "title": "A Guide to the System Usability Score and Its Alternatives",
+      "url": "https://www.uxia.app/blog/a-guide-to-the-system-usability-score-and-its-alternatives",
+      "breadcrumb": "https://www.uxia.app › blog › a-guide-to-the-system-us...",
+      "website_name": "Uxia",
+      "description": "Mar 14, 2026 — Calculating the SUS score for a single user is straightforward. The formula is designed to normalise the mix of positive and negative questions. Read more",
+      "pre_snippet": "03/14/2026 00:00:00",
+      "highlighted": [
+        "Calculating the SUS score for a single user is straightforward"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.uxia.app/blog/a-guide-to-the-system-usability-score-and-its-alternatives#:~:text=Calculating%20the%20SUS%20score%20for,of%20positive%20and%20negative%20questions.",
+          "domain": "www.uxia.app"
+        }
+      ],
+      "timestamp": "2026-03-14 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "System Usability Scale (SUS)",
+      "url": "https://www.youtube.com/watch?v=lvvFV10cG84",
+      "breadcrumb": "12.6K+ views  ·  5 years ago",
+      "website_name": "YouTube · Beenish Chaudhry",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2021-09-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "usability.uno",
+      "title": "What is the System Usability Scale (SUS)?",
+      "url": "https://usability.uno/what-is-sus",
+      "breadcrumb": "https://usability.uno › what-is-sus",
+      "website_name": "usability.uno",
+      "description": "Each response is adjusted, summed, and multiplied by 2.5 for a 0-100 score. Use our free calculator to get your SUS score in under 2 minutes. s, percentile ...",
+      "highlighted": [
+        "Use our free calculator"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "System Usability Scale",
+        "SUS score table",
+        "SUS score interpretation",
+        "What is a good SUS score",
+        "SUS questionnaire PDF",
+        "SUS score range",
+        "SUS score questions",
+        "SUS tool"
+      ]
+    }
+  ]
+}

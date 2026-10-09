@@ -1,0 +1,388 @@
+{
+  "id": "10081545-2633-0066-0000-6dffb092177c",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "compt.io",
+      "title": "Employee Retention Rate Calculator",
+      "url": "https://compt.io/tools/employee-retention-rate-calculator/",
+      "breadcrumb": "https://compt.io › Tools",
+      "website_name": "Compt",
+      "description": "Want to know the rate at which your organization retains its employees? Use our free employee retention rate calculator.",
+      "highlighted": [
+        "Use our free employee retention rate calculator"
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "### Employee Retention Rate Formula\n\nTo calculate your employee retention rate, use this standard formula:[[1]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)\n\nRetention Rate=(Number of employees remaining at the end of the period Number of employees at the beginning of the period)×100 Retention Rate equals open paren the fraction with numerator Number of employees remaining at the end of the period and denominator Number of employees at the beginning of the period end-fraction close paren cross 100 R e t e n t i o n R a t e=N u m b e r o f e m p l o y e e s r e m a i n i n g a t t h e e n d o f t h e p e r i o d N u m b e r o f e m p l o y e e s a t t h e b e g i n n i n g o f t h e p e r i o d×1 0 0\n\n*Note: Do not include employees hired during the measurement period in the numerator or denominator, as the goal is to track how many of your original workforce stayed.* [[1]](https://www.cultureamp.com/blog/how-to-calculate-employee-retention-rate)[[2]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)\n\n\n---\n\n### Step-by-Step Calculation Example\n\n1. **Start of Period (S):** You have **150 employees** on January 1.\n2. **During the Period:** **18 employees** leave.\n3. **End of Period (E):** You have **132 original employees** remaining (150 - 18 = 132).\n4. **Divide & Multiply:**(1 3 2÷1 5 0)×1 0 0=𝟖𝟖%[[1]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)\n\n\n---\n\n### Online Calculators & Benchmarks\nYou can evaluate your metrics using online tools and sector data:\n\n- Use the [COMPT Employee Retention Rate Calculator](https://compt.io/tools/employee-retention-rate-calculator/) to check your numbers against 2026 industry benchmarks (such as 88% in Tech/Software or 92% in Finance/Insurance).\n- Check the [Myles Wellbeing Employee Retention Rate Calculator](https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator) for a quick step-by-step digital walkthrough.[[1]](https://compt.io/tools/employee-retention-rate-calculator/)[[2]](https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator)\n\nIf you'd like, share your numbers (starting head count, departures, and time frame) and I will calculate your **exact retention rate** for you.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "title": "Employee Retention Rate Formula",
+          "text": "To calculate your employee retention rate, use this standard formula:",
+          "markdown": "To calculate your employee retention rate, use this standard formula:[[1]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "AssessTEAM",
+              "domain": "www.assessteam.com",
+              "url": "https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/",
+              "title": "Employee Retention Rate: Formula, Calculator & Tips",
+              "text": "How do you calculate employee retention rate? ... Suppose your company had 150 employees at the beginning of the year. During the ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Retention Rate = ( Number of employees remaining at the end of the period Number of employees at the beginning of the period ) × 100 Retention Rate equals open paren the fraction with numerator Number of employees remaining at the end of the period and denominator Number of employees at the beginning of the period end-fraction close paren cross 100 R e t e n t i o n R a t e = N u m b e r o f e m p l o y e e s r e m a i n i n g a t t h e e n d o f t h e p e r i o d N u m b e r o f e m p l o y e e s a t t h e b e g i n n i n g o f t h e p e r i o d × 1 0 0",
+          "markdown": "Retention Rate=(Number of employees remaining at the end of the period Number of employees at the beginning of the period)×100 Retention Rate equals open paren the fraction with numerator Number of employees remaining at the end of the period and denominator Number of employees at the beginning of the period end-fraction close paren cross 100 R e t e n t i o n R a t e=N u m b e r o f e m p l o y e e s r e m a i n i n g a t t h e e n d o f t h e p e r i o d N u m b e r o f e m p l o y e e s a t t h e b e g i n n i n g o f t h e p e r i o d×1 0 0"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Note: Do not include employees hired during the measurement period in the numerator or denominator, as the goal is to track how many of your original workforce stayed.",
+          "markdown": "*Note: Do not include employees hired during the measurement period in the numerator or denominator, as the goal is to track how many of your original workforce stayed.* [[1]](https://www.cultureamp.com/blog/how-to-calculate-employee-retention-rate)[[2]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Culture Amp",
+              "domain": "www.cultureamp.com",
+              "url": "https://www.cultureamp.com/blog/how-to-calculate-employee-retention-rate",
+              "title": "How to calculate employee retention rate",
+              "text": "The simple formula for calculating employee retention rate Once you're ready to calculate your employee retention rate, start by s..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "AssessTEAM",
+              "domain": "www.assessteam.com",
+              "url": "https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/",
+              "title": "Employee Retention Rate: Formula, Calculator & Tips",
+              "text": "How do you calculate employee retention rate? ... Suppose your company had 150 employees at the beginning of the year. During the ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Step-by-Step Calculation Example",
+          "text": "Start of Period (S): You have 150 employees on January 1. During the Period: 18 employees leave. End of Period (E): You have 132 original employees remaining (150 - 18 = 132). Divide & Multiply: ( 1 3 2 ÷ 1 5 0 ) × 1 0 0 = 𝟖 𝟖 %",
+          "markdown": "1. **Start of Period (S):** You have **150 employees** on January 1.\n2. **During the Period:** **18 employees** leave.\n3. **End of Period (E):** You have **132 original employees** remaining (150 - 18 = 132).\n4. **Divide & Multiply:**(1 3 2÷1 5 0)×1 0 0=𝟖𝟖%[[1]](https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "AssessTEAM",
+              "domain": "www.assessteam.com",
+              "url": "https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/",
+              "title": "Employee Retention Rate: Formula, Calculator & Tips",
+              "text": "How do you calculate employee retention rate? ... Suppose your company had 150 employees at the beginning of the year. During the ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Online Calculators & Benchmarks",
+          "text": "You can evaluate your metrics using online tools and sector data:",
+          "markdown": "You can evaluate your metrics using online tools and sector data:"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Use the COMPT Employee Retention Rate Calculator to check your numbers against 2026 industry benchmarks (such as 88% in Tech/Software or 92% in Finance/Insurance). Check the Myles Wellbeing Employee Retention Rate Calculator for a quick step-by-step digital walkthrough.",
+          "markdown": "- Use the [COMPT Employee Retention Rate Calculator](https://compt.io/tools/employee-retention-rate-calculator/) to check your numbers against 2026 industry benchmarks (such as 88% in Tech/Software or 92% in Finance/Insurance).\n- Check the [Myles Wellbeing Employee Retention Rate Calculator](https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator) for a quick step-by-step digital walkthrough.[[1]](https://compt.io/tools/employee-retention-rate-calculator/)[[2]](https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "COMPT Employee Retention Rate Calculator",
+              "url": "https://compt.io/tools/employee-retention-rate-calculator/",
+              "domain": "compt.io"
+            },
+            {
+              "type": "link_element",
+              "title": "Myles Wellbeing Employee Retention Rate Calculator",
+              "url": "https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator",
+              "domain": "www.myleswellbeing.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Compt",
+              "domain": "compt.io",
+              "url": "https://compt.io/tools/employee-retention-rate-calculator/",
+              "title": "Employee Retention Rate Calculator | COMPT",
+              "text": "2026 sector retention benchmarks: General 87%, Finance/Insurance 92%, Tech/Software 88%, Healthcare/Social Asst 80%, Manufacturing..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Myles Wellbeing",
+              "domain": "www.myleswellbeing.com",
+              "url": "https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator",
+              "title": "Employee Retention Rate Calculator",
+              "text": "The calculation for your organisation's employee retention rate is ((final headcount - new hires) / initial headcount) x 100. For ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, share your numbers (starting head count, departures, and time frame) and I will calculate your exact retention rate for you.",
+          "markdown": "If you'd like, share your numbers (starting head count, departures, and time frame) and I will calculate your **exact retention rate** for you."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Compt",
+          "domain": "compt.io",
+          "url": "https://compt.io/tools/employee-retention-rate-calculator/",
+          "title": "Employee Retention Rate Calculator | COMPT",
+          "text": "2026 sector retention benchmarks: General 87%, Finance/Insurance 92%, Tech/Software 88%, Healthcare/Social Asst 80%, Manufacturing..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Myles Wellbeing",
+          "domain": "www.myleswellbeing.com",
+          "url": "https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator",
+          "title": "Employee Retention Rate Calculator",
+          "text": "The calculation for your organisation's employee retention rate is ((final headcount - new hires) / initial headcount) x 100. For ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "AssessTEAM",
+          "domain": "www.assessteam.com",
+          "url": "https://www.assessteam.com/how-to-calculate-employee-retention-rate-formula-calculator-strategies-to-improve-retention/",
+          "title": "Employee Retention Rate: Formula, Calculator & Tips",
+          "text": "How do you calculate employee retention rate? ... Suppose your company had 150 employees at the beginning of the year. During the ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Culture Amp",
+          "domain": "www.cultureamp.com",
+          "url": "https://www.cultureamp.com/blog/how-to-calculate-employee-retention-rate",
+          "title": "How to calculate employee retention rate",
+          "text": "The simple formula for calculating employee retention rate Once you're ready to calculate your employee retention rate, start by s..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.myleswellbeing.com",
+      "title": "Employee Retention Rate Calculator",
+      "url": "https://www.myleswellbeing.com/calculators/employee-retention-rate-calculator",
+      "breadcrumb": "https://www.myleswellbeing.com › calculators › emplo...",
+      "website_name": "Myles Wellbeing",
+      "description": "Free calculator to work out the retention rate of your organisation. is ((final headcount - new hires) / initial headcount) x 100.",
+      "highlighted": [
+        "Free calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.wallstreetprep.com",
+      "title": "Retention Rate | Formula + Calculator",
+      "url": "https://www.wallstreetprep.com/knowledge/retention-rate/",
+      "breadcrumb": "https://www.wallstreetprep.com › knowledge › retentio...",
+      "website_name": "Wall Street Prep",
+      "description": "Retention Rate (%) = (Ending Customers – New Customers) ÷ Beginning Customers … 1 – Churn Rate (%)",
+      "highlighted": [
+        "Retention Rate",
+        "Rate"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "How to Calculate Retention Rate",
+          "url": "https://www.wallstreetprep.com/knowledge/retention-rate/#h2_2",
+          "domain": "www.wallstreetprep.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How to Improve Retention Rate",
+          "url": "https://www.wallstreetprep.com/knowledge/retention-rate/#h2_4",
+          "domain": "www.wallstreetprep.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "churnkey.co",
+      "title": "Free Retention Rate Calculator",
+      "url": "https://churnkey.co/tools/retention-rate-calculator",
+      "breadcrumb": "https://churnkey.co › Tools",
+      "website_name": "Churnkey",
+      "description": "In order to calculate your retention rate, simply divide the total number of renewing customers … multiply by 100.",
+      "highlighted": [
+        "retention rate"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How do you calculate retention rate?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does 80% retention rate mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is 44% retention rate good?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a good retention rate for a company?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.i4a.com",
+      "title": "Retention Rate Calculator: Beat the 82% Median | i4a",
+      "url": "https://www.i4a.com/tools/calculators/membership-retention-rate-calculator/",
+      "breadcrumb": "https://www.i4a.com › Tools › Calculators",
+      "website_name": "i4a.com",
+      "description": "What's your retention rate? Calculate it in seconds, compare to the 82% industry median, and see the revenue impact of churn. Free association tool.",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 26,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "Calculate it in seconds"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Employee Retention Rate Calculation : r/humanresources",
+      "url": "https://www.reddit.com/r/humanresources/comments/14fkknb/employee_retention_rate_calculation/",
+      "breadcrumb": "3 comments  ·  3 years ago",
+      "website_name": "Reddit · r/humanresources",
+      "description": "Retention = Number of employees active at the end of your period that were also employed at the start of the period/Number of employees at the ... Read more",
+      "highlighted": [
+        "Retention"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.reddit.com/r/humanresources/comments/14fkknb/employee_retention_rate_calculation/#:~:text=Retention%20%3D%20Number%20of%20employees,the%20start%20of%20the%20period.",
+          "domain": "www.reddit.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.adp.com",
+      "title": "Retention Rate | How to Calculate & Examples",
+      "url": "https://www.adp.com/resources/articles-and-insights/articles/r/retention-rate.aspx",
+      "breadcrumb": "https://www.adp.com › articles-and-insights › articles",
+      "website_name": "ADP",
+      "description": "The retention rate formula is as follows: (Total workforce head count – Number of employees who leave) / Total workforce head count x 100",
+      "highlighted": [
+        "retention rate"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "vendordirectory.shrm.org",
+      "title": "How to Calculate Employee Retention Rate in 2025",
+      "url": "https://vendordirectory.shrm.org/company/911224/news/3557390/how-to-calculate-employee-retention-rate-in-2025",
+      "breadcrumb": "https://vendordirectory.shrm.org › company › news › h...",
+      "website_name": "SHRM Human Resource Vendor Directory",
+      "description": "Dec 30, 2024 — Employee Retention Rate = (Number of Employees at End of Period−Number of New Hires) / (Number of Employees at Start of Period) × 100",
+      "pre_snippet": "12/30/2024 00:00:00",
+      "highlighted": [
+        "Retention Rate"
+      ],
+      "timestamp": "2024-12-30 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.omnicalculator.com",
+      "title": "Customer Retention Rate Calculator",
+      "url": "https://www.omnicalculator.com/finance/customer-retention-rate",
+      "breadcrumb": "https://www.omnicalculator.com › finance › customer-r...",
+      "website_name": "Omni Calculator",
+      "description": "Our customer retention rate calculator can help you to calculate the number of customers that stay with your business after a selected period.",
+      "highlighted": [
+        "customer retention rate calculator"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Employee retention rate calculator",
+        "How to calculate employee retention rate in Excel",
+        "Work retention rate calculator",
+        "How to calculate retention rate",
+        "Retention calculator construction",
+        "How to calculate customer retention rate",
+        "How to calculate Annual retention rate",
+        "Turnover rate calculator"
+      ]
+    }
+  ]
+}

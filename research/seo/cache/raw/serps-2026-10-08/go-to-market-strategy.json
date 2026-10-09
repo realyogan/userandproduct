@@ -1,0 +1,623 @@
+{
+  "id": "10081545-2633-0066-0000-6e140eaf04a2",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "A **go-to-market (GTM) strategy** is `a step-by-step business plan that details how a company will launch a product or service, reach its target audience, and drive revenue while minimizing risk`.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.salesforce.com/sales/go-to-market-strategy/)\n\nUnlike a broad, ongoing marketing strategy, a GTM strategy focuses specifically on the immediate rollout or expansion of a product into a market.[[1]](https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/)[[2]](https://www.paddle.com/resources/go-to-market-strategy)\n\n\n---\n\n### Core Components of a GTM Strategy\n\nA complete GTM strategy brings together product development, sales, marketing, pricing, and customer success.[[1]](https://www.highspot.com/blog/go-to-market-strategy/)\n\n- **Target Market & ICP:** Define your Ideal Customer Profile (ICP) and build detailed buyer personas (demographics, job roles, pain points, and buying behavior).[[1]](https://www.salesforce.com/ap/sales/go-to-market-strategy/)[[2]](https://www.coursera.org/articles/go-to-market-strategy)\n- **Value Proposition:** Clarify the specific problem your product solves and why customers should choose it over competitors.[[1]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)[[2]](https://www.coursera.org/articles/go-to-market-strategy)\n- **Pricing Strategy:** Establish pricing models (such as subscription, tiered, or one-time purchase) based on production costs, competitor pricing, and perceived value.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)\n- **Messaging & Positioning:** Create a core narrative, manifesto, or messaging matrix that speaks directly to customer pain points.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.youtube.com/watch?v=XMem2vKeXbk&t=45)\n- **Sales & Distribution Channels:** Decide how customers will buy and receive your product (e.g., self-service, direct sales, partner channels, or hybrid models).[[1]](https://www.cognism.com/blog/what-is-a-go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)\n- **Promotion & Marketing:** Choose the right promotional mix—such as content marketing, social media, paid ads, or account-based marketing (ABM)—to build early awareness.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.highspot.com/blog/go-to-market-strategy/)\n- **Metrics & KPIs:** Track performance indicators like Customer Acquisition Cost (CAC), conversion rates, sales cycle length, and ROI.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)\n\n\n---\n\n### Common GTM Models\n\n- **Product-Led Growth (PLG):** The product itself drives acquisition, retention, and expansion (often via free trials or freemium tiers).\n- **Sales-Led Growth:** Human sales reps drive revenue through outbound prospecting, demos, and enterprise contracts.\n- **Account-Based Marketing (ABM):** A targeted B2B approach focusing sales and marketing on a specific list of high-value accounts.\n- **Channel-Led / Partner Strategy:** Leveraging third-party partners, resellers, or app marketplaces to distribute the product.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.cognism.com/blog/what-is-a-go-to-market-strategy)[[3]](https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/)[[4]](https://www.salesforce.com/ap/sales/go-to-market-strategy/)\n\n\n---\n\nYou can explore step-by-step guides and frameworks through resources like [Coursera](https://www.coursera.org/articles/go-to-market-strategy), [Salesforce](https://www.salesforce.com/sales/go-to-market-strategy/) , or [Wikipedia](https://en.wikipedia.org/wiki/Go-to-market_strategy).[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.salesforce.com/sales/go-to-market-strategy/)[[3]](https://en.wikipedia.org/wiki/Go-to-market_strategy)If you'd like to build a custom plan, tell me:\n\n- What **product or service** are you launching?\n- Who is your **target audience** (B2B or B2C)?\n- What is your **primary sales model** (e.g., self-serve online or direct sales)?\n\nI can help you outline a tailored GTM framework.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "A go-to-market (GTM) strategy is a step-by-step business plan that details how a company will launch a product or service, reach its target audience, and drive revenue while minimizing risk.",
+          "markdown": "A **go-to-market (GTM) strategy** is `a step-by-step business plan that details how a company will launch a product or service, reach its target audience, and drive revenue while minimizing risk`.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.salesforce.com/sales/go-to-market-strategy/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Coursera",
+              "domain": "www.coursera.org",
+              "url": "https://www.coursera.org/articles/go-to-market-strategy",
+              "title": "What Is a Go-To-Market Strategy? And How to Create One | Coursera",
+              "text": "Definition: Comprehensive plan for launching products or services to minimize risk and optimize success. Core Steps: Identify targ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/sales/go-to-market-strategy/",
+              "title": "What Is a Go-to-Market Strategy (And Why Do You Need One)? - Salesforce",
+              "text": "What is a go-to-market (GTM) strategy? A go-to-market strategy is a step-by-step plan for introducing a new product to buyers. It ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Unlike a broad, ongoing marketing strategy, a GTM strategy focuses specifically on the immediate rollout or expansion of a product into a market.",
+          "markdown": "Unlike a broad, ongoing marketing strategy, a GTM strategy focuses specifically on the immediate rollout or expansion of a product into a market.[[1]](https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/)[[2]](https://www.paddle.com/resources/go-to-market-strategy)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Product Marketing Alliance",
+              "domain": "www.productmarketingalliance.com",
+              "url": "https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/",
+              "title": "What is a Go-to-Market Strategy? | Complete GTM Guide",
+              "text": "Definition: Comprehensive plan for positioning, pricing, promoting, and distributing products to target audiences, fusing product,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Paddle",
+              "domain": "www.paddle.com",
+              "url": "https://www.paddle.com/resources/go-to-market-strategy",
+              "title": "How to build a go-to-market strategy, with template & examples - Paddle",
+              "text": "A go-to-market strategy is a plan for how to launch a new product or service in-market or launch an existing product in a new mark..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Components of a GTM Strategy",
+          "text": "A complete GTM strategy brings together product development, sales, marketing, pricing, and customer success.",
+          "markdown": "A complete GTM strategy brings together product development, sales, marketing, pricing, and customer success.[[1]](https://www.highspot.com/blog/go-to-market-strategy/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Highspot",
+              "domain": "www.highspot.com",
+              "url": "https://www.highspot.com/blog/go-to-market-strategy/",
+              "title": "2026 Go-to-Market Strategy Examples & Insights",
+              "text": "GTM strategy vs. marketing strategy A go-to-market strategy aligns development, pricing, sales, distribution, and support to set t..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Target Market & ICP: Define your Ideal Customer Profile (ICP) and build detailed buyer personas (demographics, job roles, pain points, and buying behavior). Value Proposition: Clarify the specific problem your product solves and why customers should choose it over competitors. Pricing Strategy: Establish pricing models (such as subscription, tiered, or one-time purchase) based on production costs, competitor pricing, and perceived value. Messaging & Positioning: Create a core narrative, manifesto, or messaging matrix that speaks directly to customer pain points. Sales & Distribution Channels: Decide how customers will buy and receive your product (e.g., self-service, direct sales, partner channels, or hybrid models). Promotion & Marketing: Choose the right promotional mix—such as content marketing, social media, paid ads, or account-based marketing (ABM)—to build early awareness. Metrics & KPIs: Track performance indicators like Customer Acquisition Cost (CAC), conversion rates, sales cycle length, and ROI.",
+          "markdown": "- **Target Market & ICP:** Define your Ideal Customer Profile (ICP) and build detailed buyer personas (demographics, job roles, pain points, and buying behavior).[[1]](https://www.salesforce.com/ap/sales/go-to-market-strategy/)[[2]](https://www.coursera.org/articles/go-to-market-strategy)\n- **Value Proposition:** Clarify the specific problem your product solves and why customers should choose it over competitors.[[1]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)[[2]](https://www.coursera.org/articles/go-to-market-strategy)\n- **Pricing Strategy:** Establish pricing models (such as subscription, tiered, or one-time purchase) based on production costs, competitor pricing, and perceived value.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)\n- **Messaging & Positioning:** Create a core narrative, manifesto, or messaging matrix that speaks directly to customer pain points.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.youtube.com/watch?v=XMem2vKeXbk&t=45)\n- **Sales & Distribution Channels:** Decide how customers will buy and receive your product (e.g., self-service, direct sales, partner channels, or hybrid models).[[1]](https://www.cognism.com/blog/what-is-a-go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)\n- **Promotion & Marketing:** Choose the right promotional mix—such as content marketing, social media, paid ads, or account-based marketing (ABM)—to build early awareness.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.highspot.com/blog/go-to-market-strategy/)\n- **Metrics & KPIs:** Track performance indicators like Customer Acquisition Cost (CAC), conversion rates, sales cycle length, and ROI.[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/ap/sales/go-to-market-strategy/",
+              "title": "Go to Market Strategy | Salesforce AP",
+              "text": "Definition: Step-by-step product introduction plan combining market research and tailored messaging (buyer personas, competitive a..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Coursera",
+              "domain": "www.coursera.org",
+              "url": "https://www.coursera.org/articles/go-to-market-strategy",
+              "title": "What Is a Go-To-Market Strategy? And How to Create One | Coursera",
+              "text": "Definition: Comprehensive plan for launching products or services to minimize risk and optimize success. Core Steps: Identify targ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15",
+              "title": "What Is a Go-To-Market Strategy? (GTM Guide)",
+              "text": "What Is a Go-To-Market Strategy? (GTM Guide) and move your company to market faster a GTM strategy differs from a marketing plan w..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Asana",
+              "domain": "asana.com",
+              "url": "https://asana.com/resources/go-to-market-gtm-strategy",
+              "title": "Go to market GTM strategy: definition & 9-step guide [2026] • Asana",
+              "text": "Definition: A step-by-step roadmap for launching a new product or expanding into a new market, utilizing the 4 Ps (Product, Price,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=XMem2vKeXbk&t=45",
+              "title": "Go-To-Market Strategy Framework That Works in 2026",
+              "text": "Go-To-Market Strategy Framework That Works in 2026 they didn't adopt a proper go to market framework that would set up the junior ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Cognism",
+              "domain": "www.cognism.com",
+              "url": "https://www.cognism.com/blog/what-is-a-go-to-market-strategy",
+              "title": "What is a Go to Market Strategy? Guide for Enterprises",
+              "text": "Definition: A go-to-market (GTM) strategy is a business plan used to launch products, minimize launch risks, define target markets..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Highspot",
+              "domain": "www.highspot.com",
+              "url": "https://www.highspot.com/blog/go-to-market-strategy/",
+              "title": "2026 Go-to-Market Strategy Examples & Insights",
+              "text": "GTM strategy vs. marketing strategy A go-to-market strategy aligns development, pricing, sales, distribution, and support to set t..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Common GTM Models",
+          "text": "Product-Led Growth (PLG): The product itself drives acquisition, retention, and expansion (often via free trials or freemium tiers). Sales-Led Growth: Human sales reps drive revenue through outbound prospecting, demos, and enterprise contracts. Account-Based Marketing (ABM): A targeted B2B approach focusing sales and marketing on a specific list of high-value accounts. Channel-Led / Partner Strategy: Leveraging third-party partners, resellers, or app marketplaces to distribute the product.",
+          "markdown": "- **Product-Led Growth (PLG):** The product itself drives acquisition, retention, and expansion (often via free trials or freemium tiers).\n- **Sales-Led Growth:** Human sales reps drive revenue through outbound prospecting, demos, and enterprise contracts.\n- **Account-Based Marketing (ABM):** A targeted B2B approach focusing sales and marketing on a specific list of high-value accounts.\n- **Channel-Led / Partner Strategy:** Leveraging third-party partners, resellers, or app marketplaces to distribute the product.[[1]](https://asana.com/resources/go-to-market-gtm-strategy)[[2]](https://www.cognism.com/blog/what-is-a-go-to-market-strategy)[[3]](https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/)[[4]](https://www.salesforce.com/ap/sales/go-to-market-strategy/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Asana",
+              "domain": "asana.com",
+              "url": "https://asana.com/resources/go-to-market-gtm-strategy",
+              "title": "Go to market GTM strategy: definition & 9-step guide [2026] • Asana",
+              "text": "Definition: A step-by-step roadmap for launching a new product or expanding into a new market, utilizing the 4 Ps (Product, Price,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Cognism",
+              "domain": "www.cognism.com",
+              "url": "https://www.cognism.com/blog/what-is-a-go-to-market-strategy",
+              "title": "What is a Go to Market Strategy? Guide for Enterprises",
+              "text": "Definition: A go-to-market (GTM) strategy is a business plan used to launch products, minimize launch risks, define target markets..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Product Marketing Alliance",
+              "domain": "www.productmarketingalliance.com",
+              "url": "https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/",
+              "title": "What is a Go-to-Market Strategy? | Complete GTM Guide",
+              "text": "Definition: Comprehensive plan for positioning, pricing, promoting, and distributing products to target audiences, fusing product,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/ap/sales/go-to-market-strategy/",
+              "title": "Go to Market Strategy | Salesforce AP",
+              "text": "Definition: Step-by-step product introduction plan combining market research and tailored messaging (buyer personas, competitive a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "You can explore step-by-step guides and frameworks through resources like Coursera, Salesforce, or Wikipedia.",
+          "markdown": "You can explore step-by-step guides and frameworks through resources like [Coursera](https://www.coursera.org/articles/go-to-market-strategy), [Salesforce](https://www.salesforce.com/sales/go-to-market-strategy/) , or [Wikipedia](https://en.wikipedia.org/wiki/Go-to-market_strategy).[[1]](https://www.coursera.org/articles/go-to-market-strategy)[[2]](https://www.salesforce.com/sales/go-to-market-strategy/)[[3]](https://en.wikipedia.org/wiki/Go-to-market_strategy)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Coursera",
+              "url": "https://www.coursera.org/articles/go-to-market-strategy",
+              "domain": "www.coursera.org"
+            },
+            {
+              "type": "link_element",
+              "title": "Salesforce",
+              "url": "https://www.salesforce.com/sales/go-to-market-strategy/",
+              "domain": "www.salesforce.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy",
+              "domain": "en.wikipedia.org"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Coursera",
+              "domain": "www.coursera.org",
+              "url": "https://www.coursera.org/articles/go-to-market-strategy",
+              "title": "What Is a Go-To-Market Strategy? And How to Create One | Coursera",
+              "text": "Definition: Comprehensive plan for launching products or services to minimize risk and optimize success. Core Steps: Identify targ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Salesforce",
+              "domain": "www.salesforce.com",
+              "url": "https://www.salesforce.com/sales/go-to-market-strategy/",
+              "title": "What Is a Go-to-Market Strategy (And Why Do You Need One)? - Salesforce",
+              "text": "What is a go-to-market (GTM) strategy? A go-to-market strategy is a step-by-step plan for introducing a new product to buyers. It ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Wikipedia",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy",
+              "title": "Go-to-market strategy - Wikipedia",
+              "text": "Definition: A go-to-market (GTM) strategy is an organizational plan utilizing outside resources to deliver a value proposition, ac..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like to build a custom plan, tell me:What product or service are you launching?\nWho is your target audience (B2B or B2C)?\nWhat is your primary sales model (e.g., self-serve online or direct sales)?\nI can help you outline a tailored GTM framework.",
+          "markdown": "If you'd like to build a custom plan, tell me:\n\n- What **product or service** are you launching?\n- Who is your **target audience** (B2B or B2C)?\n- What is your **primary sales model** (e.g., self-serve online or direct sales)?\n\nI can help you outline a tailored GTM framework."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Coursera",
+          "domain": "www.coursera.org",
+          "url": "https://www.coursera.org/articles/go-to-market-strategy",
+          "title": "What Is a Go-To-Market Strategy? And How to Create One | Coursera",
+          "text": "Definition: Comprehensive plan for launching products or services to minimize risk and optimize success. Core Steps: Identify targ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Wikipedia",
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy",
+          "title": "Go-to-market strategy - Wikipedia",
+          "text": "Definition: A go-to-market (GTM) strategy is an organizational plan utilizing outside resources to deliver a value proposition, ac..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Salesforce",
+          "domain": "www.salesforce.com",
+          "url": "https://www.salesforce.com/sales/go-to-market-strategy/",
+          "title": "What Is a Go-to-Market Strategy (And Why Do You Need One)? - Salesforce",
+          "text": "What is a go-to-market (GTM) strategy? A go-to-market strategy is a step-by-step plan for introducing a new product to buyers. It ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Asana",
+          "domain": "asana.com",
+          "url": "https://asana.com/resources/go-to-market-gtm-strategy",
+          "title": "Go to market GTM strategy: definition & 9-step guide [2026] • Asana",
+          "text": "Definition: A step-by-step roadmap for launching a new product or expanding into a new market, utilizing the 4 Ps (Product, Price,"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Product Marketing Alliance",
+          "domain": "www.productmarketingalliance.com",
+          "url": "https://www.productmarketingalliance.com/your-guide-to-go-to-market-strategies/",
+          "title": "What is a Go-to-Market Strategy? | Complete GTM Guide",
+          "text": "Definition: Comprehensive plan for positioning, pricing, promoting, and distributing products to target audiences, fusing product,"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=XMem2vKeXbk&t=45",
+          "title": "Go-To-Market Strategy Framework That Works in 2026",
+          "text": "Go-To-Market Strategy Framework That Works in 2026 they didn't adopt a proper go to market framework that would set up the junior ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en&t=15",
+          "title": "What Is a Go-To-Market Strategy? (GTM Guide)",
+          "text": "What Is a Go-To-Market Strategy? (GTM Guide) and move your company to market faster a GTM strategy differs from a marketing plan w..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Cognism",
+          "domain": "www.cognism.com",
+          "url": "https://www.cognism.com/blog/what-is-a-go-to-market-strategy",
+          "title": "What is a Go to Market Strategy? Guide for Enterprises",
+          "text": "Definition: A go-to-market (GTM) strategy is a business plan used to launch products, minimize launch risks, define target markets..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Salesforce",
+          "domain": "www.salesforce.com",
+          "url": "https://www.salesforce.com/ap/sales/go-to-market-strategy/",
+          "title": "Go to Market Strategy | Salesforce AP",
+          "text": "Definition: Step-by-step product introduction plan combining market research and tailored messaging (buyer personas, competitive a..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Paddle",
+          "domain": "www.paddle.com",
+          "url": "https://www.paddle.com/resources/go-to-market-strategy",
+          "title": "How to build a go-to-market strategy, with template & examples - Paddle",
+          "text": "A go-to-market strategy is a plan for how to launch a new product or service in-market or launch an existing product in a new mark..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Highspot",
+          "domain": "www.highspot.com",
+          "url": "https://www.highspot.com/blog/go-to-market-strategy/",
+          "title": "2026 Go-to-Market Strategy Examples & Insights",
+          "text": "GTM strategy vs. marketing strategy A go-to-market strategy aligns development, pricing, sales, distribution, and support to set t..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.coursera.org",
+      "title": "What Is a Go-To-Market Strategy? And How to Create One",
+      "url": "https://www.coursera.org/articles/go-to-market-strategy",
+      "breadcrumb": "https://www.coursera.org › ... › Business › Marketing",
+      "website_name": "Coursera",
+      "description": "Apr 27, 2026 — How to build a go-to-market strategy · 1. Identify your target market. · 2. Clarify your value proposition. · 3. Define your pricing strategy. Read more",
+      "pre_snippet": "04/27/2026 00:00:00",
+      "highlighted": [
+        "1. Identify your target market"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.coursera.org/articles/go-to-market-strategy#:~:text=How%20to%20build%20a%20go-to-market,strategy&text=1.%20Identify%20your%20target%20market.&text=2.%20Clarify%20your%20value%20proposition.&text=3.%20Define%20your%20pricing%20strategy.",
+          "domain": "www.coursera.org"
+        }
+      ],
+      "timestamp": "2026-04-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.salesforce.com",
+      "title": "Go to Market Strategy",
+      "url": "https://www.salesforce.com/sales/go-to-market-strategy/",
+      "breadcrumb": "https://www.salesforce.com › sales › go-to-market-strate...",
+      "website_name": "Salesforce",
+      "description": "Sep 4, 2025 — A go-to-market strategy is a step-by-step plan for introducing a new product to buyers. Get tips on how to create a successful strategy.",
+      "pre_snippet": "09/04/2025 00:00:00",
+      "highlighted": [
+        "a step-by-step plan for introducing a new product to buyers"
+      ],
+      "timestamp": "2025-09-04 00:00:00 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the five pillars of a go-to-market strategy?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the biggest GTM mistakes?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 GTM tools?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is GTM vs RTM?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "en.wikipedia.org",
+      "title": "Go-to-market strategy",
+      "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy",
+      "breadcrumb": "https://en.wikipedia.org › wiki › Go-to-market_strategy",
+      "website_name": "Wikipedia",
+      "description": "A go-to-market strategy, or GTM strategy, is a plan of an organization using outside resources (e.g., sales force and distributors) to deliver their unique ... Read more",
+      "highlighted": [
+        "a plan of an organization using outside resources"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Development",
+          "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy#Development",
+          "domain": "en.wikipedia.org"
+        },
+        {
+          "type": "link_element",
+          "title": "Driving factors",
+          "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy#Driving_factors",
+          "domain": "en.wikipedia.org"
+        },
+        {
+          "type": "link_element",
+          "title": "Market segmentation",
+          "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy#Market_segmentation",
+          "domain": "en.wikipedia.org"
+        },
+        {
+          "type": "link_element",
+          "title": "Comparison to marketing...",
+          "url": "https://en.wikipedia.org/wiki/Go-to-market_strategy#Comparison_to_marketing_strategy",
+          "domain": "en.wikipedia.org"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "asana.com",
+      "title": "Go to Market GTM Strategy: Definition & 9-Step Guide",
+      "url": "https://asana.com/resources/go-to-market-gtm-strategy",
+      "breadcrumb": "https://asana.com › Resources",
+      "website_name": "Asana",
+      "description": "A go-to-market (GTM) strategy is a step-by-step plan that defines how you'll launch a new product or enter a new market, covering your target audience, ... Read more",
+      "highlighted": [
+        "defines how you'll launch a new product or enter a new market"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "How to build a go-to-market...",
+          "url": "https://asana.com/resources/go-to-market-gtm-strategy#how-to-build-a-go-to-market-strategy-in-9-steps",
+          "domain": "asana.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Go-to-market strategy...",
+          "url": "https://asana.com/resources/go-to-market-gtm-strategy#go-to-market-strategy-frameworks",
+          "domain": "asana.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "online.hbs.edu",
+      "title": "How to Develop a Go-to-Market Strategy for Your Tech ...",
+      "url": "https://online.hbs.edu/blog/post/go-to-market-strategy-framework",
+      "breadcrumb": "https://online.hbs.edu › blog › post › go-to-market-strate...",
+      "website_name": "Harvard Business School Online",
+      "description": "Jul 13, 2023 — A go-to-market (GTM) strategy is a detailed plan of how your startup will reach its target customers effectively and efficiently—where ... Read more",
+      "pre_snippet": "07/13/2023 00:00:00",
+      "highlighted": [
+        "how your startup will reach its target customers effectively and efficiently"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://online.hbs.edu/blog/post/go-to-market-strategy-framework#:~:text=A%20go-to-market%20(GTM)%20strategy%20is,how%20profitable%20your%20efforts%20are.",
+          "domain": "online.hbs.edu"
+        }
+      ],
+      "timestamp": "2023-07-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "stripe.com",
+      "title": "What is a go-to-market strategy? A quick GTM guide",
+      "url": "https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups",
+      "breadcrumb": "https://stripe.com › resources › more › what-is-a-go-to-...",
+      "website_name": "Stripe",
+      "description": "Mar 15, 2026 — A GTM strategy is an action plan that specifies how a business will target customers and achieve a competitive advantage for its new product or ... Read more",
+      "pre_snippet": "03/15/2026 00:00:00",
+      "highlighted": [
+        "how a business will target customers and achieve a competitive advantage"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Go-to-market strategy vs...",
+          "url": "https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups#go-to-market-strategy-vs-marketing-strategy-differences-and-similarities",
+          "domain": "stripe.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How to create a go-to-market...",
+          "url": "https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups#how-to-create-a-go-to-market-strategy",
+          "domain": "stripe.com"
+        }
+      ],
+      "timestamp": "2026-03-15 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "pipeline.zoominfo.com",
+      "title": "What Is a Go-to-Market Strategy? 2026 B2B Guide",
+      "url": "https://pipeline.zoominfo.com/marketing/go-to-market-strategy",
+      "breadcrumb": "https://pipeline.zoominfo.com › Marketing",
+      "website_name": "ZoomInfo Blog",
+      "description": "Jul 2, 2026 — Key takeaways: A go-to-market strategy defines who you sell to, how you reach them, what you charge and how you measure it, before launch ... Read more",
+      "pre_snippet": "07/02/2026 00:00:00",
+      "highlighted": [
+        "defines who you sell to, how you reach them, what you charge and how you measure it"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://pipeline.zoominfo.com/marketing/go-to-market-strategy#:~:text=Key%20takeaways%3A,before%20launch%20rather%20than%20after.",
+          "domain": "pipeline.zoominfo.com"
+        }
+      ],
+      "timestamp": "2026-07-02 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "What Is a Go-To-Market Strategy? (GTM Guide)",
+      "url": "https://www.youtube.com/watch?v=Zf7cjnfp1w8&vl=en",
+      "breadcrumb": "3.3K+ views  ·  5 months ago",
+      "website_name": "YouTube · Coursera",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2026-04-27 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.paddle.com",
+      "title": "How to build a go-to-market strategy, with template ...",
+      "url": "https://www.paddle.com/resources/go-to-market-strategy",
+      "breadcrumb": "https://www.paddle.com › resources › go-to-market-stra...",
+      "website_name": "Paddle",
+      "description": "How to build your go-to-market strategy · 1. Define the target market · 2. Make your product fit your market · 3. Set the right prices and packages · 4. Reach ( ... Read more",
+      "highlighted": [
+        "1. Define the target market"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.paddle.com/resources/go-to-market-strategy#:~:text=How%20to%20build%20your%20go-to-market,strategy&text=1.%20Define%20the%20target%20market&text=2.%20Make%20your%20product%20fit,your%20market&text=3.%20Set%20the%20right%20prices,and%20packages&text=4.%20Reach%20(and%20keep)%20customers",
+          "domain": "www.paddle.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Go to market strategy template",
+        "Go to market strategy example",
+        "Go to market strategy pdf",
+        "What is a good go-to-market strategy",
+        "Go-to-market strategy framework",
+        "Go-to-market strategy example PDF",
+        "Go-to-market strategy consulting",
+        "Go-to-market strategy for startups"
+      ]
+    }
+  ]
+}

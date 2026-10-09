@@ -1,0 +1,313 @@
+{
+  "id": "10081545-2633-0066-0000-b3b267f9bf2c",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.nngroup.com",
+      "title": "NN/g's Free UX Templates and Guides",
+      "url": "https://www.nngroup.com/articles/free-ux-templates/",
+      "breadcrumb": "https://www.nngroup.com › articles › free-ux-templates",
+      "website_name": "Nielsen Norman Group",
+      "description": "Sep 13, 2024 — Use this curated set of free NN/g templates and guides for inspiration and to accelerate your product development activities and UX career.",
+      "pre_snippet": "09/13/2024 00:00:00",
+      "highlighted": [
+        "free NN/g templates and guides"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Templates for Discovery and...",
+          "url": "https://www.nngroup.com/articles/free-ux-templates/#toc-templates-for-discovery-and-ux-research-1",
+          "domain": "www.nngroup.com"
+        },
+        {
+          "type": "link_element",
+          "title": "UX-Mapping Templates",
+          "url": "https://www.nngroup.com/articles/free-ux-templates/#toc-ux-mapping-templates-3",
+          "domain": "www.nngroup.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Content and UI Design...",
+          "url": "https://www.nngroup.com/articles/free-ux-templates/#toc-content-and-ui-design-templates-4",
+          "domain": "www.nngroup.com"
+        }
+      ],
+      "timestamp": "2024-09-13 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "maze.co",
+      "title": "Essential Elements to Create a UX Research Plan",
+      "url": "https://maze.co/guides/ux-research/plan/",
+      "breadcrumb": "https://maze.co › guides › ux-research › plan",
+      "website_name": "Maze",
+      "description": "UX research plan template: This editable Miro research project plan example helps you brainstorm user and business-facing problems, objectives, and questions",
+      "highlighted": [
+        "research project"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.figma.com",
+      "title": "UX Research Plan Template",
+      "url": "https://www.figma.com/community/file/1357673324929625551/ux-research-plan-template",
+      "breadcrumb": "https://www.figma.com › Home › Other",
+      "website_name": "Figma",
+      "description": "Use this template to align your team on the goals of your research, and the methods, timelines and budgets required for your project. Read more",
+      "highlighted": [
+        "Use this template to align your team on the goals of your research"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.figma.com/community/file/1357673324929625551/ux-research-plan-template#:~:text=Use%20this%20template%20to%20align,budgets%20required%20for%20your%20project.",
+          "domain": "www.figma.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.userinterviews.com",
+      "title": "How to Create a User Research Plan [Template]",
+      "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/create-user-research-plan",
+      "breadcrumb": "https://www.userinterviews.com › create-user-research-...",
+      "website_name": "User Interviews",
+      "description": "Nov 1, 2025 — Tips for creating a UX research plan with actionable goals, ethical methodology, clear logistics, and strategic deliverables.",
+      "pre_snippet": "11/01/2025 00:00:00",
+      "highlighted": [
+        "Tips for creating a UX research plan"
+      ],
+      "timestamp": "2025-11-01 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.notion.com",
+      "title": "UX research study plan Template",
+      "url": "https://www.notion.com/templates/ux-research-study-plan-1?srsltid=AU7gw4WoJK6si43JF0q8THdX8LpgJ1Xd5QSqlImU_qpY2Q18YWj-xPwi",
+      "breadcrumb": "https://www.notion.com › templates › ux-research-stud...",
+      "website_name": "Notion",
+      "description": "Adapted from Google's renowned approach to UX research, this Notion template offers a robust framework for any user research project you undertake. Read more",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 2,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "offers a robust framework for any user research project"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.notion.com/templates/ux-research-study-plan-1?srsltid=AU7gw4WoJK6si43JF0q8THdX8LpgJ1Xd5QSqlImU_qpY2Q18YWj-xPwi#:~:text=Adapted%20from%20Google's%20renowned%20approach,user%20research%20project%20you%20undertake.",
+          "domain": "www.notion.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "miro.com",
+      "title": "FREE UX Research Plan Template",
+      "url": "https://miro.com/templates/ux-research-plan/",
+      "breadcrumb": "https://miro.com › ... › Research & design › UX",
+      "website_name": "Miro",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "A UX Research Plan is a concise reference document detailing project goals, contributors, & important dates. Use Miro's template to plan user research ...",
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "ux research plan template from miro.com",
+          "url": "https://miro.com/templates/ux-research-plan/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:0"
+        }
+      ],
+      "highlighted": [
+        "Miro's template"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 7,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuo567Kd_VE-T6jN7G-NyUWpoYC4g:1791474399974&q=ux+research+plan+template&udm=2&source=univ&fir=u4BOtK6xvvzkeM%252CxAkuxql6pyjlnM%252C_%253BVgMy6HFEjTKZnM%252CAnzhEePuonOj8M%252C_%253BaWKCN8y3eKReRM%252CoCv9wHDpnVqxWM%252C_%253BYOjgJ742KrkVQM%252CES262MaUD2BjAM%252C_%253BOJ99gr-IiydwsM%252CP2k9pvxdEnnt6M%252C_%253Bfqo4QeZlygxrgM%252ChXFLPkJFq2EmaM%252C_%253BIgb6F4PT28uBCM%252CcqjSvSZl-Zd-5M%252C_%253BcpSxkJP9sKDhWM%252CzeJnDBOI6vVSkM%252C_%253BbOzf3ajGKlcwoM%252C60xDzwghEu-zTM%252C_%253BMAK9nx1ZQVbQkM%252Ce9SlvCAY17soyM%252C_%253BH_FzDQXvLpFGgM%252Cye_DSINYMg-68M%252C_%253BL_qIEgdURffkSM%252CKardSZUhc5ETUM%252C_&usg=AI4_-kQcGG-9gQmaMEl3pAHJG-ta84URTQ&sa=X&ved=2ahUKEwjx6--Z4qqXAxXbslYBHfsoBMgQ7Al6BAguEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "User research plan template. Including essentials that need ...",
+          "url": "https://uxdesign.cc/user-research-plan-template-d7e263ebee79",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:1"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to Write a UX Research Plan That Actually Works: 7-Step ...",
+          "url": "https://www.looppanel.com/blog/ux-research-plan",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:2"
+        },
+        {
+          "type": "images_element",
+          "alt": "FREE UX Research Plan Template | Miro 2026",
+          "url": "https://miro.com/templates/ux-research-plan/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:3"
+        },
+        {
+          "type": "images_element",
+          "alt": "Get the Best Results with the UX Research Plan Template and ...",
+          "url": "https://qwary.com/posts/build-the-right-structure-for-the-ux-research-plan",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:4"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to Create a UX Research Plan Document? - Blog",
+          "url": "https://blog.bit.ai/ux-research-plan/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX Research Plan: Guide Your Research | Page Flows",
+          "url": "https://pageflows.com/resources/ux-research-plan/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-b3b267f9bf2c:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Plan Research with the UX Research Canvas",
+          "url": "https://www.thefountaininstitute.com/blog/ux-research-canvas",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP84RTylUjKQSo3BA6wlV-y8X018XKWi_oB0qkcKX8v8qLqsEdL0Ezuxk&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX Research Templates | Taylor Web Design",
+          "url": "https://taylornguyen.ca/ux-research-templates",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiR3-rIEskmpV_L9l1xvU_VxU-rk9B84k77L1VTk4WduV7gCobAxro4JM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Six Months UX Research Roadmap With Sprint Planning ...",
+          "url": "https://www.slideteam.net/six-months-ux-research-roadmap-with-sprint-planning.html",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlS9qBr4J0cvAsUau8eW2TTgmXoBFfHassIyBGqG8ajwan0id33V7w6E&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Essential Elements to Create a UX Research Plan | Maze",
+          "url": "https://maze.co/guides/ux-research/plan/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtpB1SHKRxBxxkEZ5xqWA-icMzAcdOF6gKVMfnewF7h7O607rFxdBQe4&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to kick off your research project like a rock star: The ...",
+          "url": "https://medium.com/design-bootcamp/how-to-kick-off-your-research-project-like-a-rock-star-the-research-plan-canvas-970303f0c494",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyvgi74Y7KuF38wGhc-mYJgLZFJMfVGO8horBwL6G_T7y-W0pZvKNhns&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX Research Plan Template as Done by Professionals",
+          "url": "https://www.eleken.co/blog-posts/ux-research-plan-template",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9jgOq29bRDDX7PJxakGwP-kkLcyvQY9kJjdUcKo7VvFhP-32RQ7eb7Y&s"
+        }
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.nngroup.com",
+      "title": "Research Plans: Organize, Document, Inform",
+      "url": "https://www.nngroup.com/articles/pm-research-plan/",
+      "breadcrumb": "https://www.nngroup.com › articles › pm-research-plan",
+      "website_name": "Nielsen Norman Group",
+      "description": "Nov 1, 2024 — Free Research-Plan Template If you are scaling user research construct a template research plan that teams can easily adopt and complete.  ...",
+      "pre_snippet": "11/01/2024 00:00:00",
+      "highlighted": [
+        "Free Research-Plan Template"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Why Plans Matter",
+          "url": "https://www.nngroup.com/articles/pm-research-plan/#toc-why-plans-matter-1",
+          "domain": "www.nngroup.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Components of a Research Plan",
+          "url": "https://www.nngroup.com/articles/pm-research-plan/#toc-components-of-a-research-plan-2",
+          "domain": "www.nngroup.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Purpose and Goals",
+          "url": "https://www.nngroup.com/articles/pm-research-plan/#toc-purpose-and-goals-3",
+          "domain": "www.nngroup.com"
+        }
+      ],
+      "timestamp": "2024-11-01 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "How to create a UX research plan – Free template included",
+      "url": "https://www.youtube.com/watch?v=FzatRHbkmSo",
+      "breadcrumb": "1.1K+ views  ·  1 year ago",
+      "website_name": "YouTube · Airtable",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2025-05-06 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "Ux research plan template excel",
+        "Ux research plan template free",
+        "UX Research Plan example PDF",
+        "Ux research plan template miro",
+        "UX research template figma",
+        "Research plan template Word",
+        "Research plan structure",
+        "Research plan example for students"
+      ]
+    }
+  ]
+}

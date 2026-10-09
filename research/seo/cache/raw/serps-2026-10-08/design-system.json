@@ -1,0 +1,539 @@
+{
+ "id": "10081545-2633-0066-0000-a876406cf825",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "A **design system** is `a complete set of standards, reusable UI components, design tokens, and documentation that acts as a single source of truth to build digital products consistently at scale`.[[1]](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/)[[2]](https://en.wikipedia.org/wiki/Design_system)[[3]](https://www.figma.com/resource-library/design-system-examples/)[[4]](https://www.untitledui.com/blog/what-is-a-design-system)[[5]](https://www.nngroup.com/articles/design-systems-101/)\n\n### Core Components of a Design System\n\n- **Foundations (Visual DNA):** Rules for color palettes, typography scales, spacing grids, elevation shadows, and icons.[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Design Tokens:** Variables (such as Figma variables or code tokens) that store visual attributes like surface colors, text roles, or corner radiuses instead of hardcoded values.[[1]](https://www.youtube.com/watch?v=lsgVRCJ4fko)\n- **Component Library:** Reusable, coded UI building blocks like buttons, inputs, dropdowns, and cards.[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Pattern Library:** Layout guidelines and repeatable user experience flows (such as forms, modals, and error states).[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Documentation & Guidelines:** Usage rules, content strategies, do's and don'ts, and accessibility standards (WCAG).[[1]](https://www.contentful.com/blog/design-system-explained/)[[2]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n\n### Why Design Systems Matter\n\n- **Consistency:** Keeps the visual identity and user experience uniform across every screen and platform.[[1]](https://www.untitledui.com/blog/what-is-a-design-system)\n- **Speed:** Speeds up design handoffs and developer implementation through prebuilt code and components.[[1]](https://www.figma.com/resource-library/design-system-examples/)[[2]](https://www.salesforce.com/blog/what-is-a-design-system/)\n- **Scalability:** Reduces design debt and allows new team members to contribute immediately.[[1]](https://www.untitledui.com/blog/what-is-a-design-system)\n\nPopular industry examples include **Google Material Design**, **IBM Carbon**, **Apple HIG** , and **Atlassian Design System** . You can explore structured resources on platforms like [Figma Blog](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/) and [Nielsen Norman Group](https://www.nngroup.com/articles/design-systems-101/).[[1]](https://www.figma.com/resource-library/design-system-examples/)[[2]](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/)[[3]](https://www.nngroup.com/articles/design-systems-101/)If you'd like, let me know:\n\n- **What product or platform** you are building (web, mobile, enterprise app)\n- **What stage** your team is in (starting from scratch vs. auditing an existing UI kit)\n\nI can help you outline a step-by-step roadmap to build or adopt a design system.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "A design system is a complete set of standards, reusable UI components, design tokens, and documentation that acts as a single source of truth to build digital products consistently at scale.",
+     "markdown": "A **design system** is `a complete set of standards, reusable UI components, design tokens, and documentation that acts as a single source of truth to build digital products consistently at scale`.[[1]](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/)[[2]](https://en.wikipedia.org/wiki/Design_system)[[3]](https://www.figma.com/resource-library/design-system-examples/)[[4]](https://www.untitledui.com/blog/what-is-a-design-system)[[5]](https://www.nngroup.com/articles/design-systems-101/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
+       "title": "What Is a Design System | Design Systems 101 | Figma Blog",
+       "text": "Definition: A single source of truth and blueprint containing building blocks, standards, and a unified language to maintain produ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Wikipedia",
+       "domain": "en.wikipedia.org",
+       "url": "https://en.wikipedia.org/wiki/Design_system",
+       "title": "Design system",
+       "text": "Design system In user interface design, a design system is a comprehensive framework of standards, reusable components, and docume..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/resource-library/design-system-examples/",
+       "title": "12 Design System Examples | Figma",
+       "text": "Definition: Shared toolkit of reusable components, design tokens, patterns, and documentation providing a single source of truth t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Untitled UI",
+       "domain": "www.untitledui.com",
+       "url": "https://www.untitledui.com/blog/what-is-a-design-system",
+       "title": "What is a Design System? Definition, Examples, and How to Build ...",
+       "text": "Key takeaways * A design system is more than a UI kit. It combines components, design tokens, patterns, documentation, and code in..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/design-systems-101/",
+       "title": "Design Systems 101 - NN/G",
+       "text": "Core Definition: A design system manages design at scale via standards, reusable UI components, and shared language to reduce redu..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Components of a Design System",
+     "text": "Foundations (Visual DNA): Rules for color palettes, typography scales, spacing grids, elevation shadows, and icons. Design Tokens: Variables (such as Figma variables or code tokens) that store visual attributes like surface colors, text roles, or corner radiuses instead of hardcoded values. Component Library: Reusable, coded UI building blocks like buttons, inputs, dropdowns, and cards. Pattern Library: Layout guidelines and repeatable user experience flows (such as forms, modals, and error states). Documentation & Guidelines: Usage rules, content strategies, do's and don'ts, and accessibility standards (WCAG).",
+     "markdown": "- **Foundations (Visual DNA):** Rules for color palettes, typography scales, spacing grids, elevation shadows, and icons.[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Design Tokens:** Variables (such as Figma variables or code tokens) that store visual attributes like surface colors, text roles, or corner radiuses instead of hardcoded values.[[1]](https://www.youtube.com/watch?v=lsgVRCJ4fko)\n- **Component Library:** Reusable, coded UI building blocks like buttons, inputs, dropdowns, and cards.[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Pattern Library:** Layout guidelines and repeatable user experience flows (such as forms, modals, and error states).[[1]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)\n- **Documentation & Guidelines:** Usage rules, content strategies, do's and don'ts, and accessibility standards (WCAG).[[1]](https://www.contentful.com/blog/design-system-explained/)[[2]](https://www.instagram.com/reel/DK9JF20tndO/?hl=en)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Instagram",
+       "domain": "www.instagram.com",
+       "url": "https://www.instagram.com/reel/DK9JF20tndO/?hl=en",
+       "title": "🧱 How to Structure a Design System (Without Overcomplicating It) A ...",
+       "text": "Structuring a design system involves more than just a collection of buttons and colors; it acts as a dynamic source of truth that ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=lsgVRCJ4fko",
+       "title": "Learn Design Systems: Figma Variables, Components, AI, and More",
+       "text": "Learn Design Systems: Figma Variables, Components, AI, and More by the end of this video you'll be an expert on design systems we'"
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Contentful",
+       "domain": "www.contentful.com",
+       "url": "https://www.contentful.com/blog/design-system-explained/",
+       "title": "What is a design system? | Contentful",
+       "text": "Definition: Collection of reusable components, brand guides, design principles, style guides, and UI patterns providing repeatable..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Why Design Systems Matter",
+     "text": "Consistency: Keeps the visual identity and user experience uniform across every screen and platform. Speed: Speeds up design handoffs and developer implementation through prebuilt code and components. Scalability: Reduces design debt and allows new team members to contribute immediately.",
+     "markdown": "- **Consistency:** Keeps the visual identity and user experience uniform across every screen and platform.[[1]](https://www.untitledui.com/blog/what-is-a-design-system)\n- **Speed:** Speeds up design handoffs and developer implementation through prebuilt code and components.[[1]](https://www.figma.com/resource-library/design-system-examples/)[[2]](https://www.salesforce.com/blog/what-is-a-design-system/)\n- **Scalability:** Reduces design debt and allows new team members to contribute immediately.[[1]](https://www.untitledui.com/blog/what-is-a-design-system)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Untitled UI",
+       "domain": "www.untitledui.com",
+       "url": "https://www.untitledui.com/blog/what-is-a-design-system",
+       "title": "What is a Design System? Definition, Examples, and How to Build ...",
+       "text": "Key takeaways * A design system is more than a UI kit. It combines components, design tokens, patterns, documentation, and code in..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/resource-library/design-system-examples/",
+       "title": "12 Design System Examples | Figma",
+       "text": "Definition: Shared toolkit of reusable components, design tokens, patterns, and documentation providing a single source of truth t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Salesforce",
+       "domain": "www.salesforce.com",
+       "url": "https://www.salesforce.com/blog/what-is-a-design-system/",
+       "title": "What is a Design System and How Does it Tame Your UI?",
+       "text": "They eliminate inconsistencies, simplify handoffs, and streamline workflows, creating a more efficient, cohesive experience for ev..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Popular industry examples include Google Material Design, IBM Carbon, Apple HIG, and Atlassian Design System. You can explore structured resources on platforms like Figma Blog and Nielsen Norman Group.",
+     "markdown": "Popular industry examples include **Google Material Design**, **IBM Carbon**, **Apple HIG** , and **Atlassian Design System** . You can explore structured resources on platforms like [Figma Blog](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/) and [Nielsen Norman Group](https://www.nngroup.com/articles/design-systems-101/).[[1]](https://www.figma.com/resource-library/design-system-examples/)[[2]](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/)[[3]](https://www.nngroup.com/articles/design-systems-101/)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Figma Blog",
+       "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
+       "domain": "www.figma.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Nielsen Norman Group",
+       "url": "https://www.nngroup.com/articles/design-systems-101/",
+       "domain": "www.nngroup.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/resource-library/design-system-examples/",
+       "title": "12 Design System Examples | Figma",
+       "text": "Definition: Shared toolkit of reusable components, design tokens, patterns, and documentation providing a single source of truth t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
+       "title": "What Is a Design System | Design Systems 101 | Figma Blog",
+       "text": "Definition: A single source of truth and blueprint containing building blocks, standards, and a unified language to maintain produ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/design-systems-101/",
+       "title": "Design Systems 101 - NN/G",
+       "text": "Core Definition: A design system manages design at scale via standards, reusable UI components, and shared language to reduce redu..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you'd like, let me know:What product or platform you are building (web, mobile, enterprise app)\nWhat stage your team is in (starting from scratch vs. auditing an existing UI kit)\nI can help you outline a step-by-step roadmap to build or adopt a design system.",
+     "markdown": "If you'd like, let me know:\n\n- **What product or platform** you are building (web, mobile, enterprise app)\n- **What stage** your team is in (starting from scratch vs. auditing an existing UI kit)\n\nI can help you outline a step-by-step roadmap to build or adopt a design system."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Figma",
+     "domain": "www.figma.com",
+     "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
+     "title": "What Is a Design System | Design Systems 101 | Figma Blog",
+     "text": "Definition: A single source of truth and blueprint containing building blocks, standards, and a unified language to maintain produ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Nielsen Norman Group",
+     "domain": "www.nngroup.com",
+     "url": "https://www.nngroup.com/articles/design-systems-101/",
+     "title": "Design Systems 101 - NN/G",
+     "text": "Core Definition: A design system manages design at scale via standards, reusable UI components, and shared language to reduce redu..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Design_system",
+     "title": "Design system",
+     "text": "Design system In user interface design, a design system is a comprehensive framework of standards, reusable components, and docume..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Figma",
+     "domain": "www.figma.com",
+     "url": "https://www.figma.com/resource-library/design-system-examples/",
+     "title": "12 Design System Examples | Figma",
+     "text": "Definition: Shared toolkit of reusable components, design tokens, patterns, and documentation providing a single source of truth t..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=lsgVRCJ4fko",
+     "title": "Learn Design Systems: Figma Variables, Components, AI, and More",
+     "text": "Learn Design Systems: Figma Variables, Components, AI, and More by the end of this video you'll be an expert on design systems we'"
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Untitled UI",
+     "domain": "www.untitledui.com",
+     "url": "https://www.untitledui.com/blog/what-is-a-design-system",
+     "title": "What is a Design System? Definition, Examples, and How to Build ...",
+     "text": "Key takeaways * A design system is more than a UI kit. It combines components, design tokens, patterns, documentation, and code in..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Contentful",
+     "domain": "www.contentful.com",
+     "url": "https://www.contentful.com/blog/design-system-explained/",
+     "title": "What is a design system? | Contentful",
+     "text": "Definition: Collection of reusable components, brand guides, design principles, style guides, and UI patterns providing repeatable..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Salesforce",
+     "domain": "www.salesforce.com",
+     "url": "https://www.salesforce.com/blog/what-is-a-design-system/",
+     "title": "What is a Design System and How Does it Tame Your UI?",
+     "text": "They eliminate inconsistencies, simplify handoffs, and streamline workflows, creating a more efficient, cohesive experience for ev..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Instagram",
+     "domain": "www.instagram.com",
+     "url": "https://www.instagram.com/reel/DK9JF20tndO/?hl=en",
+     "title": "🧱 How to Structure a Design System (Without Overcomplicating It) A ...",
+     "text": "Structuring a design system involves more than just a collection of buttons and colors; it acts as a dynamic source of truth that ..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "lovable.dev",
+   "title": "Best Design System Tools for Small Teams and Startups",
+   "url": "https://lovable.dev/guides/best-design-system-tools",
+   "breadcrumb": "https://lovable.dev › guides › best-design-system-tools",
+   "website_name": "Lovable",
+   "description": "Compare the best design system tools by the job they do and what they cost, and see when a small team should build consistent UI directly.",
+   "highlighted": [
+    "best design system tools"
+   ]
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What is the design system?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the top 10 design systems?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What is an example of a design system?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "How do I create a design system?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "blog.pixelfreestudio.com",
+   "title": "Top Design System Examples from Leading Brands",
+   "url": "https://blog.pixelfreestudio.com/top-design-system-examples-from-leading-brands/",
+   "breadcrumb": "https://blog.pixelfreestudio.com › top-design-system-ex...",
+   "website_name": "PixelFree Studio",
+   "description": "In today's digital world, design systems are essential for maintaining consistency and efficiency across various platforms.",
+   "highlighted": [
+    "design systems are essential for maintaining consistency and efficiency"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "medium.com",
+   "title": "4 ways your design system is like a subway | by Jen Reiher",
+   "url": "https://medium.com/@jenreiher/why-your-design-system-is-like-a-subway-reflections-on-the-2018-clarity-design-systems-conference-7b8b24f42236",
+   "breadcrumb": "40+ likes  ·  7 years ago",
+   "website_name": "Medium · Jen Reiher",
+   "description": "design systems provides in terms of efficiency and scale to your teams. New parts are included in the system with a great amount of planning, ...",
+   "highlighted": [
+    "design systems provides in terms of efficiency and scale"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.figma.com",
+   "title": "Design System HCI 472",
+   "url": "https://www.figma.com/community/file/1243439218459789161/design-system-hci-472",
+   "breadcrumb": "https://www.figma.com › community › file › design-sys...",
+   "website_name": "Figma",
+   "description": "resumes Design illustrationsWeb design portfolios Recommended Plugins Logo creation",
+   "highlighted": [
+    "resumes"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.magnific.com",
+   "title": "Design system ui Vectors - Download Free High-Quality ...",
+   "url": "https://www.magnific.com/vectors/design-system-ui",
+   "breadcrumb": "https://www.magnific.com › vectors › design-system-ui",
+   "website_name": "Magnific",
+   "is_image": true,
+   "checks": [
+    "is_image"
+   ],
+   "description": "Download the most popular free Design system ui vectors from Magnific. Explore AI-generated vectors and stock vectors, and take your projects to the next ...",
+   "images": [
+    {
+     "type": "images_element",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:0"
+    },
+    {
+     "type": "images_element",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:1"
+    },
+    {
+     "type": "images_element",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:2"
+    }
+   ],
+   "highlighted": [
+    "Download the most popular free Design system ui vectors"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.gov.ie",
+   "title": "Technical Documentation: Government of Ireland Design ...",
+   "url": "https://www.gov.ie/en/govie-team/publications/technical-documentation-design-system/",
+   "breadcrumb": "https://www.gov.ie › govie-team › publications › techni...",
+   "website_name": "gov.ie",
+   "description": "Jan 17, 2023 — The Design System Documentation website includes components, resources, and usage patterns. For components details and way of usage, ... Read more",
+   "pre_snippet": "01/17/2023 00:00:00",
+   "highlighted": [
+    "components, resources, and usage patterns"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.gov.ie/en/govie-team/publications/technical-documentation-design-system/#:~:text=The%20Design%20System%20Documentation%20website,available%20in%20React%20and%20HTML.",
+     "domain": "www.gov.ie"
+    }
+   ],
+   "timestamp": "2023-01-17 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "brand.jhu.edu",
+   "title": "GCE Event Series Design System - JHU Brand Guidelines",
+   "url": "https://brand.jhu.edu/showcased_brand/gce-event-series-design-system/",
+   "breadcrumb": "https://brand.jhu.edu › showcased_brand › gce-event-se...",
+   "website_name": "Johns Hopkins University Brand Guidelines",
+   "description": "Visual identity and style sheet ; Banners & posters; Photo Backdrop; Directional Signage; Templates (social media, flyers, PowerPoint, email, etc.) Custom ... Read more",
+   "highlighted": [
+    "Visual identity and style sheet"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://brand.jhu.edu/showcased_brand/gce-event-series-design-system/#:~:text=Visual%20identity%20and%20style%20sheet,Custom%20wrapping%20paper",
+     "domain": "brand.jhu.edu"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "design-system.canada.ca",
+   "title": "Table - Use case - GC Design System - Canada.ca",
+   "url": "https://design-system.canada.ca/en/components/table/",
+   "breadcrumb": "https://design-system.canada.ca › components › table",
+   "website_name": "GC Design System",
+   "description": "Jun 1, 2026 — A table is a structured layout of related data in rows and columns. Tables organize items with shared attributes into a structured format. ...",
+   "pre_snippet": "06/01/2026 00:00:00",
+   "timestamp": "2026-06-01 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 9,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "stackoverflow.com",
+   "title": "How to properly build a design system using material ui",
+   "url": "https://stackoverflow.com/questions/77461553/how-to-properly-build-a-design-system-using-material-ui",
+   "breadcrumb": "1 answer  ·  2 years ago",
+   "website_name": "Stack Overflow",
+   "description": "in our company we are trying to build our design system as a package, in order to install it in several of our projects. Building the package works fine, ...",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "1 answer",
+     "url": "https://stackoverflow.com/a/77461938",
+     "domain": "stackoverflow.com"
+    }
+   ]
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "items": [
+    "Design system template",
+    "Design system software"
+   ]
+  },
+  {
+   "type": "knowledge_graph",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "title": "Design system",
+   "description": "A design language or design vocabulary is an overarching scheme or style that guides the design of a complement of products or architectural settings, creating a coherent design system for styling. Source: More Less Description",
+   "items": [
+    {
+     "type": "knowledge_graph_images_item",
+     "page": 1,
+     "items": [
+      {
+       "type": "knowledge_graph_images_element",
+       "alt": "Image of Design System | Figma",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:3"
+      },
+      {
+       "type": "knowledge_graph_images_element",
+       "alt": "Image of A quick guide on creating a design system by Andrew Coyle",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:4"
+      },
+      {
+       "type": "knowledge_graph_images_element",
+       "alt": "Image of Design Systems - The Backbone of Modern Digital Experiences",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:5"
+      },
+      {
+       "type": "knowledge_graph_images_element",
+       "alt": "Image of What is a design system and why is it useful?",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-a876406cf825:6"
+      }
+     ]
+    },
+    {
+     "type": "knowledge_graph_description_item",
+     "page": 1,
+     "text": "A design language or design vocabulary is an overarching scheme or style that guides the design of a complement of products or architectural settings, creating a coherent design system for styling. Source: Wikipedia Wikipedia More Less Description",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Design_language",
+       "domain": "en.wikipedia.org"
+      },
+      {
+       "type": "link_element",
+       "title": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Design_language",
+       "domain": "en.wikipedia.org"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

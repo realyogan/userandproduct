@@ -1,0 +1,479 @@
+{
+  "id": "10081545-2633-0066-0000-1d8101d51f9a",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.bccancer.bc.ca",
+      "title": "BC Cancer Protocol for Immune Effector Cell-Associated ...",
+      "url": "https://www.bccancer.bc.ca/chemotherapy-protocols-site/Documents/Supportive%20Care/SCICANS_Protocol.pdf",
+      "breadcrumb": "https://www.bccancer.bc.ca › SCICANS_Protocol",
+      "website_name": "BC Cancer",
+      "description": "Monitor for ICANS symptoms including neurovitals and an ICE score every 8 hours until normalization using Tables 1 and 2, above. Use this assessment tool every ...",
+      "highlighted": [
+        "ICE score"
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "You can use the [Immune Effector Cell Encephalopathy (ICE) Score Calculator](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score) on MDCalc to assess neurocognitive function and monitor for ICANS in patients receiving CAR T-cell therapy or immunotherapy.[[1]](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score)[[2]](https://www.cancercalc.com/ICANS_grade.php)[[3]](https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517)\n\n*(Note: If you were instead looking for the business/marketing prioritization framework measuring **Impact, Confidence, and Ease** , you can use the [ICE Score Calculator for Experiment Prioritization](https://experimentos.io/tools/ice-score-calculator).)* [[1]](https://experimentos.io/tools/ice-score-calculator)\n\n### Medical ICE Score (ICANS Monitoring)\n\nThe Immune Effector Cell-Associated Encephalopathy (ICE) score is a 10-point scale used to evaluate neurotoxicity.[[1]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/)[[2]](https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517)\n\n### Scoring Components (Max 10 Points)\n\n- **Orientation (4 points):** Year (1 pt), month (1 pt), city (1 pt), and hospital (1 pt).\n- **Naming (3 points):** Ability to name three objects (e.g., clock, pen, button).\n- **Following Commands (1 point):** Ability to follow a simple command (e.g., \"show me two fingers\").\n- **Writing (1 point):** Ability to write a standard sentence (e.g., \"Our national bird is the bald eagle\").\n- **Attention (1 point):** Ability to count backwards from 100 by tens (serial 10s).[[1]](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score)[[2]](https://www.cancernursingtoday.com/post/oncology-nursing-assessment-of-crs-and-icans-in-patients-with-multiple-myeloma)[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/)\n\n### ICANS Grade Correlation\n\n- **ICE Score 10 / Grade 0:** No impairment.\n- **ICE Score 7–9 / Grade 1:** Mild impairment.\n- **ICE Score 3–6 / Grade 2:** Moderate impairment.\n- **ICE Score 0–2 / Grade 3:** Severe impairment (arousable).\n- **ICE Score 0 / Grade 4:** Unarousable or unable to perform the ICE assessment.[[1]](https://www.eviq.org.au/getmedia/798b0931-796f-4d71-9438-383cbd324834/ID-3835-Immune-Effector-Cell-Associated-Neurotoxicity-Syndrome-ICANS-assessment-tool-v2.pdf.aspx?ext=.pdf)[[2]](https://www.theattcnetwork.co.uk/wp-content/uploads/2021/02/Neurotoxicity-assessment-for-CAR-T-cell-therapy.pdf)[[3]](https://cardvasc.org/docs/tools/calculators/icans-astct-consensus-grading)\n\nAre you looking to evaluate a **medical patient (ICANS/CAR-T)** or calculate an **idea prioritization score (Impact, Confidence, Ease)** for a project?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can use the Immune Effector Cell Encephalopathy (ICE) Score Calculator on MDCalc to assess neurocognitive function and monitor for ICANS in patients receiving CAR T-cell therapy or immunotherapy.",
+          "markdown": "You can use the [Immune Effector Cell Encephalopathy (ICE) Score Calculator](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score) on MDCalc to assess neurocognitive function and monitor for ICANS in patients receiving CAR T-cell therapy or immunotherapy.[[1]](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score)[[2]](https://www.cancercalc.com/ICANS_grade.php)[[3]](https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Immune Effector Cell Encephalopathy (ICE) Score Calculator",
+              "url": "https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score",
+              "domain": "www.mdcalc.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "MDCalc",
+              "domain": "www.mdcalc.com",
+              "url": "https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score",
+              "title": "Immune Effector Cell Encephalopathy (ICE) Score Calculator - MDCalc",
+              "text": "Immune Effector Cell Encephalopathy (ICE) Score Calculator Immune Effector Cell Encephalopathy (ICE) Score Assesses neurocognitive..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "CancerCalc",
+              "domain": "www.cancercalc.com",
+              "url": "https://www.cancercalc.com/ICANS_grade.php",
+              "title": "ICANS grade (Immune Effector Cell Associated Neurotoxicity Syndrome ...",
+              "text": "ASTCT ICANS (Immune effector Cell Associated Neurotoxicity Syndrome) Grade calculator Immune effector Cell Associated Neurotoxicit..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ResearchGate",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517",
+              "title": "Schematic overview of the ICE grading system. The ICE score is a...",
+              "text": "Schematic overview of the ICE grading system. The ICE score is a 10-point assessment tool used to evaluate neurotoxicity in patien..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "(Note: If you were instead looking for the business/marketing prioritization framework measuring Impact, Confidence, and Ease, you can use the ICE Score Calculator for Experiment Prioritization.)",
+          "markdown": "*(Note: If you were instead looking for the business/marketing prioritization framework measuring **Impact, Confidence, and Ease** , you can use the [ICE Score Calculator for Experiment Prioritization](https://experimentos.io/tools/ice-score-calculator).)* [[1]](https://experimentos.io/tools/ice-score-calculator)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "ICE Score Calculator for Experiment Prioritization",
+              "url": "https://experimentos.io/tools/ice-score-calculator",
+              "domain": "experimentos.io"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Experiment OS",
+              "domain": "experimentos.io",
+              "url": "https://experimentos.io/tools/ice-score-calculator",
+              "title": "ICE Score Calculator | Experiment Prioritisation Tool",
+              "text": "ICE Score Calculator | Experiment Prioritisation Tool | Experiment OS Free tool ICE score calculator Score experiment ideas with I..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Medical ICE Score (ICANS Monitoring)",
+          "text": "The Immune Effector Cell-Associated Encephalopathy (ICE) score is a 10-point scale used to evaluate neurotoxicity.",
+          "markdown": "The Immune Effector Cell-Associated Encephalopathy (ICE) score is a 10-point scale used to evaluate neurotoxicity.[[1]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/)[[2]](https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "National Institutes of Health (NIH) | (.gov)",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/",
+              "title": "Monitoring the neurological complications of chimeric antigen ...",
+              "text": "Introduction Standard management includes supportive care; the use of corticosteroids, anakinra and where indicated, the use of an..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ResearchGate",
+              "domain": "www.researchgate.net",
+              "url": "https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517",
+              "title": "Schematic overview of the ICE grading system. The ICE score is a...",
+              "text": "Schematic overview of the ICE grading system. The ICE score is a 10-point assessment tool used to evaluate neurotoxicity in patien..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Scoring Components (Max 10 Points)",
+          "text": "Orientation (4 points): Year (1 pt), month (1 pt), city (1 pt), and hospital (1 pt). Naming (3 points): Ability to name three objects (e.g., clock, pen, button). Following Commands (1 point): Ability to follow a simple command (e.g., \"show me two fingers\"). Writing (1 point): Ability to write a standard sentence (e.g., \"Our national bird is the bald eagle\"). Attention (1 point): Ability to count backwards from 100 by tens (serial 10s).",
+          "markdown": "- **Orientation (4 points):** Year (1 pt), month (1 pt), city (1 pt), and hospital (1 pt).\n- **Naming (3 points):** Ability to name three objects (e.g., clock, pen, button).\n- **Following Commands (1 point):** Ability to follow a simple command (e.g., \"show me two fingers\").\n- **Writing (1 point):** Ability to write a standard sentence (e.g., \"Our national bird is the bald eagle\").\n- **Attention (1 point):** Ability to count backwards from 100 by tens (serial 10s).[[1]](https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score)[[2]](https://www.cancernursingtoday.com/post/oncology-nursing-assessment-of-crs-and-icans-in-patients-with-multiple-myeloma)[[3]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "MDCalc",
+              "domain": "www.mdcalc.com",
+              "url": "https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score",
+              "title": "Immune Effector Cell Encephalopathy (ICE) Score Calculator - MDCalc",
+              "text": "Immune Effector Cell Encephalopathy (ICE) Score Calculator Immune Effector Cell Encephalopathy (ICE) Score Assesses neurocognitive..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Cancer Nursing Today",
+              "domain": "www.cancernursingtoday.com",
+              "url": "https://www.cancernursingtoday.com/post/oncology-nursing-assessment-of-crs-and-icans-in-patients-with-multiple-myeloma",
+              "title": "Oncology Nursing Assessment of CRS and ICANS in Patients With ...",
+              "text": "How to Assess for CRS? How to Assess for ICANS? Oncology nurses should monitor any alterations in mental status, difficulties with..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "National Institutes of Health (NIH) | (.gov)",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/",
+              "title": "Monitoring the neurological complications of chimeric antigen ...",
+              "text": "Introduction Standard management includes supportive care; the use of corticosteroids, anakinra and where indicated, the use of an..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "ICANS Grade Correlation",
+          "text": "ICE Score 10 / Grade 0: No impairment. ICE Score 7–9 / Grade 1: Mild impairment. ICE Score 3–6 / Grade 2: Moderate impairment. ICE Score 0–2 / Grade 3: Severe impairment (arousable). ICE Score 0 / Grade 4: Unarousable or unable to perform the ICE assessment.",
+          "markdown": "- **ICE Score 10 / Grade 0:** No impairment.\n- **ICE Score 7–9 / Grade 1:** Mild impairment.\n- **ICE Score 3–6 / Grade 2:** Moderate impairment.\n- **ICE Score 0–2 / Grade 3:** Severe impairment (arousable).\n- **ICE Score 0 / Grade 4:** Unarousable or unable to perform the ICE assessment.[[1]](https://www.eviq.org.au/getmedia/798b0931-796f-4d71-9438-383cbd324834/ID-3835-Immune-Effector-Cell-Associated-Neurotoxicity-Syndrome-ICANS-assessment-tool-v2.pdf.aspx?ext=.pdf)[[2]](https://www.theattcnetwork.co.uk/wp-content/uploads/2021/02/Neurotoxicity-assessment-for-CAR-T-cell-therapy.pdf)[[3]](https://cardvasc.org/docs/tools/calculators/icans-astct-consensus-grading)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "eviQ",
+              "domain": "www.eviq.org.au",
+              "url": "https://www.eviq.org.au/getmedia/798b0931-796f-4d71-9438-383cbd324834/ID-3835-Immune-Effector-Cell-Associated-Neurotoxicity-Syndrome-ICANS-assessment-tool-v2.pdf.aspx?ext=.pdf",
+              "title": "Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS) assessment tool",
+              "text": "ICANS Assessment Guidelines: Complete baseline assessment before treatment, perform at least twice daily, and increase frequency c..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ATTC Network",
+              "domain": "www.theattcnetwork.co.uk",
+              "url": "https://www.theattcnetwork.co.uk/wp-content/uploads/2021/02/Neurotoxicity-assessment-for-CAR-T-cell-therapy.pdf",
+              "title": "Neurotoxicity assessment for CAR-T cell therapy",
+              "text": "ICANS Assessment: Conduct using Immune Effector Cell-Associated Encephalopathy (ICE) Score at least every 8 hours. Grade determine..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "cardvasc.org",
+              "domain": "cardvasc.org",
+              "url": "https://cardvasc.org/docs/tools/calculators/icans-astct-consensus-grading",
+              "title": "Immune Effector Cell",
+              "text": "Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS) Consensus Grading for Adults * ICE score 10 (no impairment) 7-9 3-6..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking to evaluate a medical patient (ICANS/CAR-T) or calculate an idea prioritization score (Impact, Confidence, Ease) for a project?",
+          "markdown": "Are you looking to evaluate a **medical patient (ICANS/CAR-T)** or calculate an **idea prioritization score (Impact, Confidence, Ease)** for a project?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "MDCalc",
+          "domain": "www.mdcalc.com",
+          "url": "https://www.mdcalc.com/calc/10635/immune-effector-cell-encephalopathy-ice-score",
+          "title": "Immune Effector Cell Encephalopathy (ICE) Score Calculator - MDCalc",
+          "text": "Immune Effector Cell Encephalopathy (ICE) Score Calculator Immune Effector Cell Encephalopathy (ICE) Score Assesses neurocognitive..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "CancerCalc",
+          "domain": "www.cancercalc.com",
+          "url": "https://www.cancercalc.com/ICANS_grade.php",
+          "title": "ICANS grade (Immune Effector Cell Associated Neurotoxicity Syndrome ...",
+          "text": "ASTCT ICANS (Immune effector Cell Associated Neurotoxicity Syndrome) Grade calculator Immune effector Cell Associated Neurotoxicit..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "eviQ",
+          "domain": "www.eviq.org.au",
+          "url": "https://www.eviq.org.au/getmedia/798b0931-796f-4d71-9438-383cbd324834/ID-3835-Immune-Effector-Cell-Associated-Neurotoxicity-Syndrome-ICANS-assessment-tool-v2.pdf.aspx?ext=.pdf",
+          "title": "Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS) assessment tool",
+          "text": "ICANS Assessment Guidelines: Complete baseline assessment before treatment, perform at least twice daily, and increase frequency c..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Experiment OS",
+          "domain": "experimentos.io",
+          "url": "https://experimentos.io/tools/ice-score-calculator",
+          "title": "ICE Score Calculator | Experiment Prioritisation Tool",
+          "text": "ICE Score Calculator | Experiment Prioritisation Tool | Experiment OS Free tool ICE score calculator Score experiment ideas with I..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ATTC Network",
+          "domain": "www.theattcnetwork.co.uk",
+          "url": "https://www.theattcnetwork.co.uk/wp-content/uploads/2021/02/Neurotoxicity-assessment-for-CAR-T-cell-therapy.pdf",
+          "title": "Neurotoxicity assessment for CAR-T cell therapy",
+          "text": "ICANS Assessment: Conduct using Immune Effector Cell-Associated Encephalopathy (ICE) Score at least every 8 hours. Grade determine..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "National Institutes of Health (NIH) | (.gov)",
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11822436/",
+          "title": "Monitoring the neurological complications of chimeric antigen ...",
+          "text": "Introduction Standard management includes supportive care; the use of corticosteroids, anakinra and where indicated, the use of an..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ResearchGate",
+          "domain": "www.researchgate.net",
+          "url": "https://www.researchgate.net/figure/Schematic-overview-of-the-ICE-grading-system-The-ICE-score-is-a-10-point-assessment-tool_fig7_404360517",
+          "title": "Schematic overview of the ICE grading system. The ICE score is a...",
+          "text": "Schematic overview of the ICE grading system. The ICE score is a 10-point assessment tool used to evaluate neurotoxicity in patien..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Cancer Nursing Today",
+          "domain": "www.cancernursingtoday.com",
+          "url": "https://www.cancernursingtoday.com/post/oncology-nursing-assessment-of-crs-and-icans-in-patients-with-multiple-myeloma",
+          "title": "Oncology Nursing Assessment of CRS and ICANS in Patients With ...",
+          "text": "How to Assess for CRS? How to Assess for ICANS? Oncology nurses should monitor any alterations in mental status, difficulties with..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "cardvasc.org",
+          "domain": "cardvasc.org",
+          "url": "https://cardvasc.org/docs/tools/calculators/icans-astct-consensus-grading",
+          "title": "Immune Effector Cell",
+          "text": "Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS) Consensus Grading for Adults * ICE score 10 (no impairment) 7-9 3-6..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.nature.com",
+      "title": "EEG-based grading of immune effector cell-associated ...",
+      "url": "https://www.nature.com/articles/s41598-022-24010-1",
+      "breadcrumb": "https://www.nature.com › scientific reports › articles",
+      "website_name": "Nature",
+      "description": "by DK Jones · 2022 · Cited by 18 — Each reviewer used oncology, neurology, and nursing notes to calculate the Immune Effector Cell-Associated Encephalopathy (ICE) score (0–10) ... Read more",
+      "pre_snippet": "by DK Jones · 2022 · Cited by 18",
+      "highlighted": [
+        "ICE",
+        "score"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.nature.com/articles/s41598-022-24010-1#:~:text=Each%20reviewer%20used%20oncology%2C%20neurology%2C,a%20normal%20exam%20without%20deficits.",
+          "domain": "www.nature.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "cardvasc.org",
+      "title": "Immune Effector Cell-Associated Neurotoxicity Syndrome ...",
+      "url": "https://cardvasc.org/docs/tools/calculators/icans-astct-consensus-grading",
+      "breadcrumb": "https://cardvasc.org › tools › icans-astct-consensus-grading",
+      "website_name": "cardvasc.org",
+      "description": "ICE score 10 (no impairment ) Formula Overall ICANS grade = the highest (worst) grade among 5 domains: ICE score (7-9=1, 3-6=2, 0-2=3, 0/unarousable=4), ...",
+      "highlighted": [
+        "ICE score 10 (no impairment"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvORsfxFRKYPni_7S0p1Sq6WxL3uQ:1791474340644&q=ice+score+calculator&udm=2&source=univ&fir=FBVmVAyGKvJVNM%252CdbUAQQ035YucSM%252C_%253Bw94gxSExabiqkM%252CQewxAYxaQtO_ZM%252C_%253BwABvEEN5FVn4MM%252CFiIGxg3ohVOZXM%252C_%253BdFJ8q-591CgzrM%252CupuhztQTQFqOHM%252C_%253BFVofX2N8z4Kn-M%252CE-19PqVoR02N9M%252C_%253B-8zwLAhUZRRnoM%252CKBMzgipZp2iXoM%252C_%253B6SE1e4yXoFzxkM%252CzMIXCbvdd1UWQM%252C_%253ByUUnx6Zc3HWVqM%252CY904x1Nz0HfZHM%252C_%253B7JU-SdBzSZJKPM%252C0jIA8p7NnXXQeM%252C_&usg=AI4_-kQI4PzXRWRJhM0QKLob5Qtk7wpUQw&sa=X&ved=2ahUKEwiQzcr94aqXAxUfT0EAHRd-KSwQ7Al6BAghEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "ICE Scores - All You Need to Know - Itamar Gilad",
+          "url": "https://itamargilad.com/ice-scores/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-1d8101d51f9a:0"
+        },
+        {
+          "type": "images_element",
+          "alt": "ICE Calculator - Impact Confidence Ease Prioritization Tool ...",
+          "url": "https://easyretro.io/tools/ice-calculator/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-1d8101d51f9a:1"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Discovery With ICE and The Confidence Meter",
+          "url": "https://itamargilad.com/the-tool-that-will-help-you-choose-better-product-ideas/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-1d8101d51f9a:2"
+        },
+        {
+          "type": "images_element",
+          "alt": "ICE Scoring Model: Definition & 5-Step Guide",
+          "url": "https://blog.winnonapartners.com/ice-score-model-a-smart-fast-way-to-prioritize-new-software-features/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfh-GBgSEsLImZZDneCAzjQ1x0NauFrJ_k4fP69kD6Fk0ZKC26MYuXujE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "ICE Scoring | Free calculator and Key information for ...",
+          "url": "https://www.votito.com/methods/ice-score/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKxjM_mX5qdJu6wL_Om8WHQaI31plqrd3MeaIszOOwvfWppDtX5qoiaS0&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "ICE Scoring Model",
+          "url": "https://www.shop.techtello.com/product/ice-scoring-model/?srsltid=AU7gw4VvIPoxUnTJ1GXIyZu3Vh1IvY196RhBMp_wh0A6Hf6A4hmZ6K6C",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpIJnlv72PXlSkVLoJouECNN7RvmnZGNdkZpYiF5zp_GyUz0T9nry8x_0&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Identification of Neurotoxicity after Chimeric Antigen ...",
+          "url": "https://www.astctjournal.org/article/S1083-8791(20)30462-6/fulltext",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeMjrPogqOsjey7TM8kywjWlJbtJHK2b5byu_xRwsFcrFcqjCXPmIFDAs&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Free ICE Calculator & Scoring Template",
+          "url": "https://www.productlift.dev/prioritization/ice/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGCmyd5h33D4wjCc0NQzWiGtxJXTWApWm8mTgh67e3Zmw54N45Aalh1o&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is the ICE Scoring Framework? Guide and Template",
+          "url": "https://www.savio.io/product-roadmap/ice-scoring-model/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaPX-koBRQ8i7lC9cn64wiRctaVd1FIg9ygLxZ3ShDvEJbfZcCuou02gY&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "nssg.oxford-haematology.org.uk",
+      "title": "How to carry out an ICE assessment – A Guide for Carers",
+      "url": "https://nssg.oxford-haematology.org.uk/advanced-cellular-therapies/documents/patient-information/CAR-9-6-ice-assessment-guide-for-carers.pdf",
+      "breadcrumb": "https://nssg.oxford-haematology.org.uk › CAR-9-...",
+      "website_name": "NSSG - Haematology",
+      "description": "The assessment involves asking ten questions and giving one point for each correct answer: If the ICE score is less than 10/10 you must immediately contact the. Read more",
+      "highlighted": [
+        "ICE score"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://nssg.oxford-haematology.org.uk/advanced-cellular-therapies/documents/patient-information/CAR-9-6-ice-assessment-guide-for-carers.pdf#:~:text=The,you%20must%20immediately%20contact%20the",
+          "domain": "nssg.oxford-haematology.org.uk"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "thelimbic.com",
+      "title": "ICANS assessment can be tailored to meet patients' needs",
+      "url": "https://thelimbic.com/haematology/ice-assessment-can-be-tailored-to-meet-patients-needs/",
+      "breadcrumb": "https://thelimbic.com › haematology › ice-assessment-c...",
+      "website_name": "the limbic",
+      "description": "Mar 6, 2025 — The immune effector cell-associated encephalopathy (ICE) score can be adapted to better screen for neurological complications in patients ... Read more",
+      "pre_snippet": "03/06/2025 00:00:00",
+      "highlighted": [
+        "ICE",
+        "score"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://thelimbic.com/haematology/ice-assessment-can-be-tailored-to-meet-patients-needs/#:~:text=The%20immune%20effector%20cell-associated%20encephalopathy,new%20case%20series%20has%20shown.",
+          "domain": "thelimbic.com"
+        }
+      ],
+      "timestamp": "2025-03-06 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "Module 2: Toxicity Assessment and Management | ICANS",
+      "url": "https://www.youtube.com/watch?v=ebhW5J-R5kE",
+      "breadcrumb": "490+ views  ·  2 years ago",
+      "website_name": "YouTube · California Institute for Regenerative Medicine",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2024-06-06 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "schmidtdav.shinyapps.io",
+      "title": "https://schmidtdav.shinyapps.io/calc/",
+      "url": "https://schmidtdav.shinyapps.io/calc/",
+      "breadcrumb": "https://schmidtdav.shinyapps.io › calc",
+      "website_name": "shinyapps.io",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Learn why",
+          "url": "https://support.google.com/webmasters/answer/7489871?hl=en",
+          "domain": "support.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "appcardio.com",
+      "title": "ICE Guidance Difficulty Index Calculator",
+      "url": "https://appcardio.com/ice-guidance-difficulty-index-calculator/",
+      "breadcrumb": "https://appcardio.com › ice-guidance-difficulty-index-cal...",
+      "website_name": "Appcardio",
+      "description": "The ICE Guidance Difficulty Index (ICE-DI) is a scoring system developed to estimate the procedural difficulty of intracardiac echocardiography (ICE)-guided ...",
+      "highlighted": [
+        "ICE Guidance Difficulty Index (ICE-DI"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "ICE score ICANS",
+        "ICE score CAR T",
+        "ICE assessment tool",
+        "ICE assessment medical",
+        "ICANS grade",
+        "ASTCT ICANS grading",
+        "ICANS symptoms",
+        "ICANS Radiology"
+      ]
+    }
+  ]
+}

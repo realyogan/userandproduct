@@ -1,0 +1,760 @@
+{
+ "id": "10081545-2633-0066-0000-179f566bbaef",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "![Building a product roadmap! Explained | by Cem Kilicli ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:4)\nA product roadmap is `a strategic, high-level visual plan that outlines a product's vision, direction, priorities, and progress over time` . It communicates not just *what* you are building, but *why* you are building it, connecting daily work to larger company goals.[[1]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[2]](https://www.productplan.com/learn/what-is-a-product-roadmap)\n\n### Core Purpose\n\n- **Alignment:** Keeps product teams, executives, engineering, sales, and support moving in the same direction.\n- **Strategy vs. Execution:** Acts as a living strategic guide, distinct from a rigid, day-to-day release or project plan.\n- **Decision-Making:** Helps prioritize features based on user feedback, market demands, and business value.[[1]](https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/)[[2]](https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/)[[3]](https://productschool.com/blog/product-strategy/what-is-a-product-roadmap)[[4]](https://www.aha.io/roadmapping/guide/product-roadmap)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[7]](https://www.youtube.com/shorts/SrlWaUCZAGM)[[8]](https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need)[[9]](https://www.youtube.com/watch?v=zFxPMku3HIE&t=15)\n\n\n---\n\n### Common Types of Roadmaps\n\n- **Now-Next-Later:** Categorizes initiatives by immediacy rather than strict calendar dates.\n- **Goal- or Outcome-Based:** Focuses on high-level objectives, business metrics, or customer outcomes instead of specific feature lists.\n- **Feature-Based / Release Timeline:** Maps out specific features and target release dates for engineering and development execution.\n- **Portfolio Roadmap:** Displays planned releases and strategy across multiple products in a single unified view.[[1]](https://www.aha.io/roadmapping/guide/product-roadmap)[[2]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[3]](https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40)[[4]](https://productschool.com/blog/product-strategy/what-is-a-product-roadmap)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.productboard.com/product-roadmap-guide/)\n\n\n---\n\n### Key Components\n\n- **Product Vision & Goals:** The overarching \"north star\" and key performance indicators (KPIs).\n- **Themes / Initiatives:** Large buckets of work or strategic problem areas grouped together.\n- **Timeframes / Horizons:** Quarters, months, or the Now-Next-Later structure.\n- **Milestones:** Critical internal or external markers (such as launches or key phase completions).[[1]](https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/)[[2]](https://www.pendo.io/glossary/product-roadmap/)[[3]](https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need)[[4]](https://www.youtube.com/shorts/qNEe_fyO92s)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.productboard.com/product-roadmap-guide/)[[7]](https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40)\n\nYou can explore guides and interactive layouts via platforms like [Atlassian](https://www.atlassian.com/agile/product-management/product-roadmaps), [ProductPlan](https://www.productplan.com/learn/what-is-a-product-roadmap) , or Aha! Roadmaps.[[1]](https://www.productplan.com/learn/what-is-a-product-roadmap)[[2]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[3]](https://www.aha.io/roadmapping/guide/product-roadmap)Are you looking to **build a roadmap from scratch** , or would you like help **choosing a roadmap format** for your specific team?",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "A product roadmap is a strategic, high-level visual plan that outlines a product's vision, direction, priorities, and progress over time. It communicates not just what you are building, but why you are building it, connecting daily work to larger company goals.",
+     "markdown": "![Building a product roadmap! Explained | by Cem Kilicli ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:2)\nA product roadmap is `a strategic, high-level visual plan that outlines a product's vision, direction, priorities, and progress over time` . It communicates not just *what* you are building, but *why* you are building it, connecting daily work to larger company goals.[[1]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[2]](https://www.productplan.com/learn/what-is-a-product-roadmap)",
+     "images": [
+      {
+       "type": "images_element",
+       "alt": "Building a product roadmap! Explained | by Cem Kilicli ...",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:3"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+       "title": "Product Roadmap Guide: What is it & How to Create One | Atlassian",
+       "text": "What is a product roadmap? A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and prog..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/what-is-a-product-roadmap",
+       "title": "The Ultimate Guide to Product Roadmaps - ProductPlan",
+       "text": "A product roadmap is a high-level visual summary that maps out the vision and direction of your product offering over time. A prod..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Core Purpose",
+     "text": "Alignment: Keeps product teams, executives, engineering, sales, and support moving in the same direction. Strategy vs. Execution: Acts as a living strategic guide, distinct from a rigid, day-to-day release or project plan. Decision-Making: Helps prioritize features based on user feedback, market demands, and business value.",
+     "markdown": "- **Alignment:** Keeps product teams, executives, engineering, sales, and support moving in the same direction.\n- **Strategy vs. Execution:** Acts as a living strategic guide, distinct from a rigid, day-to-day release or project plan.\n- **Decision-Making:** Helps prioritize features based on user feedback, market demands, and business value.[[1]](https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/)[[2]](https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/)[[3]](https://productschool.com/blog/product-strategy/what-is-a-product-roadmap)[[4]](https://www.aha.io/roadmapping/guide/product-roadmap)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[7]](https://www.youtube.com/shorts/SrlWaUCZAGM)[[8]](https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need)[[9]](https://www.youtube.com/watch?v=zFxPMku3HIE&t=15)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Reddit",
+       "domain": "www.reddit.com",
+       "url": "https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/",
+       "title": "how to write a product roadmap? : r/ProductManagement - Reddit",
+       "text": "Roadmap Communication and Definition: A product roadmap should articulate what you aim to achieve, the rationale behind these prio..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Agile Alliance",
+       "domain": "agilealliance.org",
+       "url": "https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/",
+       "title": "All You Need to Know About Product Roadmaps: A Hands-on Guide",
+       "text": "So, what is a product roadmap? At its heart, a roadmap is a visual, strategic guide. It captures your direction and vision, aligni..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Product School",
+       "domain": "productschool.com",
+       "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+       "title": "Product Roadmap 2025 Guide with Examples & Templates",
+       "text": "Definition: Product roadmap manifests strategy, guides execution, and aligns teams (engineers, executives, sales). Planning Questi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Aha! software",
+       "domain": "www.aha.io",
+       "url": "https://www.aha.io/roadmapping/guide/product-roadmap",
+       "title": "Product Roadmaps: How To Create One Step-by-Step",
+       "text": "What is a product roadmap? A product roadmap communicates your product vision and outlines the steps to achieve it. It includes hi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=9oeeoeRfNU0",
+       "title": "How to Build a Product Roadmap: 5 Steps From Features to Outcome ...",
+       "text": "How to Build a Product Roadmap: 5 Steps From Features to Outcome Roadmap (REAL EXAMPLE) we're going to go through building product..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+       "title": "Product Roadmap Guide: What is it & How to Create One | Atlassian",
+       "text": "What is a product roadmap? A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and prog..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/shorts/SrlWaUCZAGM",
+       "title": "6 Steps to Build A Product Roadmap.",
+       "text": "6 Steps to Build A Product Roadmap. how to create your product road map in a structured manner there are six steps that I personal..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Gocious",
+       "domain": "gocious.com",
+       "url": "https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need",
+       "title": "How to Build a Product Roadmap: The Only Guide You'll Ever Need",
+       "text": "Step 1: Define Your Product Vision & Goals Before you put anything on your roadmap, take a step back. Without a clear product visi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=zFxPMku3HIE&t=15",
+       "title": "Create a Lean Product Roadmap (A Step-by-Step Guide)",
+       "text": "Create a Lean Product Roadmap (A Step-by-Step Guide) but I'd like to share with you how we normally do this at Reab. when we are b..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Common Types of Roadmaps",
+     "text": "Now-Next-Later: Categorizes initiatives by immediacy rather than strict calendar dates. Goal- or Outcome-Based: Focuses on high-level objectives, business metrics, or customer outcomes instead of specific feature lists. Feature-Based / Release Timeline: Maps out specific features and target release dates for engineering and development execution. Portfolio Roadmap: Displays planned releases and strategy across multiple products in a single unified view.",
+     "markdown": "- **Now-Next-Later:** Categorizes initiatives by immediacy rather than strict calendar dates.\n- **Goal- or Outcome-Based:** Focuses on high-level objectives, business metrics, or customer outcomes instead of specific feature lists.\n- **Feature-Based / Release Timeline:** Maps out specific features and target release dates for engineering and development execution.\n- **Portfolio Roadmap:** Displays planned releases and strategy across multiple products in a single unified view.[[1]](https://www.aha.io/roadmapping/guide/product-roadmap)[[2]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[3]](https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40)[[4]](https://productschool.com/blog/product-strategy/what-is-a-product-roadmap)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.productboard.com/product-roadmap-guide/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Aha! software",
+       "domain": "www.aha.io",
+       "url": "https://www.aha.io/roadmapping/guide/product-roadmap",
+       "title": "Product Roadmaps: How To Create One Step-by-Step",
+       "text": "What is a product roadmap? A product roadmap communicates your product vision and outlines the steps to achieve it. It includes hi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+       "title": "Product Roadmap Guide: What is it & How to Create One | Atlassian",
+       "text": "What is a product roadmap? A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and prog..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40",
+       "title": "How to Build a Product Roadmap in 6½ Simple Steps",
+       "text": "How to Build a Product Roadmap in 6½ Simple Steps do I really need a product road map product managers. often say no road map to b..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Product School",
+       "domain": "productschool.com",
+       "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+       "title": "Product Roadmap 2025 Guide with Examples & Templates",
+       "text": "Definition: Product roadmap manifests strategy, guides execution, and aligns teams (engineers, executives, sales). Planning Questi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=9oeeoeRfNU0",
+       "title": "How to Build a Product Roadmap: 5 Steps From Features to Outcome ...",
+       "text": "How to Build a Product Roadmap: 5 Steps From Features to Outcome Roadmap (REAL EXAMPLE) we're going to go through building product..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Productboard",
+       "domain": "www.productboard.com",
+       "url": "https://www.productboard.com/product-roadmap-guide/",
+       "title": "Guide: How to Build a Product Roadmap | Productboard",
+       "text": "Definition: A product roadmap is a shared source of truth outlining vision, direction, priorities, and progress over time, sitting..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Key Components",
+     "text": "Product Vision & Goals: The overarching \"north star\" and key performance indicators (KPIs). Themes / Initiatives: Large buckets of work or strategic problem areas grouped together. Timeframes / Horizons: Quarters, months, or the Now-Next-Later structure. Milestones: Critical internal or external markers (such as launches or key phase completions).",
+     "markdown": "- **Product Vision & Goals:** The overarching \"north star\" and key performance indicators (KPIs).\n- **Themes / Initiatives:** Large buckets of work or strategic problem areas grouped together.\n- **Timeframes / Horizons:** Quarters, months, or the Now-Next-Later structure.\n- **Milestones:** Critical internal or external markers (such as launches or key phase completions).[[1]](https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/)[[2]](https://www.pendo.io/glossary/product-roadmap/)[[3]](https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need)[[4]](https://www.youtube.com/shorts/qNEe_fyO92s)[[5]](https://www.youtube.com/watch?v=9oeeoeRfNU0)[[6]](https://www.productboard.com/product-roadmap-guide/)[[7]](https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Agile Alliance",
+       "domain": "agilealliance.org",
+       "url": "https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/",
+       "title": "All You Need to Know About Product Roadmaps: A Hands-on Guide",
+       "text": "So, what is a product roadmap? At its heart, a roadmap is a visual, strategic guide. It captures your direction and vision, aligni..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Pendo",
+       "domain": "www.pendo.io",
+       "url": "https://www.pendo.io/glossary/product-roadmap/",
+       "title": "What is a Product Roadmap? | Pendo.io",
+       "text": "Why are product roadmaps essential for successful product development? Product roadmaps serve as a foundational element for succes..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Gocious",
+       "domain": "gocious.com",
+       "url": "https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need",
+       "title": "How to Build a Product Roadmap: The Only Guide You'll Ever Need",
+       "text": "Step 1: Define Your Product Vision & Goals Before you put anything on your roadmap, take a step back. Without a clear product visi..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/shorts/qNEe_fyO92s",
+       "title": "Roadmap Features #roadmap #productmanagement ...",
+       "text": "Roadmap Features #roadmap #productmanagement #productdevelopment #productroadmap what should you include in a road map. the main c..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=9oeeoeRfNU0",
+       "title": "How to Build a Product Roadmap: 5 Steps From Features to Outcome ...",
+       "text": "How to Build a Product Roadmap: 5 Steps From Features to Outcome Roadmap (REAL EXAMPLE) we're going to go through building product..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Productboard",
+       "domain": "www.productboard.com",
+       "url": "https://www.productboard.com/product-roadmap-guide/",
+       "title": "Guide: How to Build a Product Roadmap | Productboard",
+       "text": "Definition: A product roadmap is a shared source of truth outlining vision, direction, priorities, and progress over time, sitting..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40",
+       "title": "How to Build a Product Roadmap in 6½ Simple Steps",
+       "text": "How to Build a Product Roadmap in 6½ Simple Steps do I really need a product road map product managers. often say no road map to b..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "You can explore guides and interactive layouts via platforms like Atlassian, ProductPlan, or Aha! Roadmaps.",
+     "markdown": "You can explore guides and interactive layouts via platforms like [Atlassian](https://www.atlassian.com/agile/product-management/product-roadmaps), [ProductPlan](https://www.productplan.com/learn/what-is-a-product-roadmap) , or Aha! Roadmaps.[[1]](https://www.productplan.com/learn/what-is-a-product-roadmap)[[2]](https://www.atlassian.com/agile/product-management/product-roadmaps)[[3]](https://www.aha.io/roadmapping/guide/product-roadmap)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Atlassian",
+       "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+       "domain": "www.atlassian.com"
+      },
+      {
+       "type": "link_element",
+       "title": "ProductPlan",
+       "url": "https://www.productplan.com/learn/what-is-a-product-roadmap",
+       "domain": "www.productplan.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/learn/what-is-a-product-roadmap",
+       "title": "The Ultimate Guide to Product Roadmaps - ProductPlan",
+       "text": "A product roadmap is a high-level visual summary that maps out the vision and direction of your product offering over time. A prod..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+       "title": "Product Roadmap Guide: What is it & How to Create One | Atlassian",
+       "text": "What is a product roadmap? A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and prog..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Aha! software",
+       "domain": "www.aha.io",
+       "url": "https://www.aha.io/roadmapping/guide/product-roadmap",
+       "title": "Product Roadmaps: How To Create One Step-by-Step",
+       "text": "What is a product roadmap? A product roadmap communicates your product vision and outlines the steps to achieve it. It includes hi..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Are you looking to build a roadmap from scratch, or would you like help choosing a roadmap format for your specific team?",
+     "markdown": "Are you looking to **build a roadmap from scratch** , or would you like help **choosing a roadmap format** for your specific team?"
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+     "title": "Product Roadmap Guide: What is it & How to Create One | Atlassian",
+     "text": "What is a product roadmap? A product roadmap is a shared source of truth that outlines the vision, direction, priorities, and prog..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Reddit",
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/",
+     "title": "how to write a product roadmap? : r/ProductManagement - Reddit",
+     "text": "Roadmap Communication and Definition: A product roadmap should articulate what you aim to achieve, the rationale behind these prio..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/learn/what-is-a-product-roadmap",
+     "title": "The Ultimate Guide to Product Roadmaps - ProductPlan",
+     "text": "A product roadmap is a high-level visual summary that maps out the vision and direction of your product offering over time. A prod..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Aha! software",
+     "domain": "www.aha.io",
+     "url": "https://www.aha.io/roadmapping/guide/product-roadmap",
+     "title": "Product Roadmaps: How To Create One Step-by-Step",
+     "text": "What is a product roadmap? A product roadmap communicates your product vision and outlines the steps to achieve it. It includes hi..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Agile Alliance",
+     "domain": "agilealliance.org",
+     "url": "https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/",
+     "title": "All You Need to Know About Product Roadmaps: A Hands-on Guide",
+     "text": "So, what is a product roadmap? At its heart, a roadmap is a visual, strategic guide. It captures your direction and vision, aligni..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Pendo",
+     "domain": "www.pendo.io",
+     "url": "https://www.pendo.io/glossary/product-roadmap/",
+     "title": "What is a Product Roadmap? | Pendo.io",
+     "text": "Why are product roadmaps essential for successful product development? Product roadmaps serve as a foundational element for succes..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=zFxPMku3HIE&t=15",
+     "title": "Create a Lean Product Roadmap (A Step-by-Step Guide)",
+     "text": "Create a Lean Product Roadmap (A Step-by-Step Guide) but I'd like to share with you how we normally do this at Reab. when we are b..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Productboard",
+     "domain": "www.productboard.com",
+     "url": "https://www.productboard.com/product-roadmap-guide/",
+     "title": "Guide: How to Build a Product Roadmap | Productboard",
+     "text": "Definition: A product roadmap is a shared source of truth outlining vision, direction, priorities, and progress over time, sitting..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Product School",
+     "domain": "productschool.com",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+     "title": "Product Roadmap 2025 Guide with Examples & Templates",
+     "text": "Definition: Product roadmap manifests strategy, guides execution, and aligns teams (engineers, executives, sales). Planning Questi..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=9oeeoeRfNU0",
+     "title": "How to Build a Product Roadmap: 5 Steps From Features to Outcome ...",
+     "text": "How to Build a Product Roadmap: 5 Steps From Features to Outcome Roadmap (REAL EXAMPLE) we're going to go through building product..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=b4YVHTqQPk8&t=40",
+     "title": "How to Build a Product Roadmap in 6½ Simple Steps",
+     "text": "How to Build a Product Roadmap in 6½ Simple Steps do I really need a product road map product managers. often say no road map to b..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Gocious",
+     "domain": "gocious.com",
+     "url": "https://gocious.com/blog/how-to-build-a-product-roadmap-the-only-guide-youll-ever-need",
+     "title": "How to Build a Product Roadmap: The Only Guide You'll Ever Need",
+     "text": "Step 1: Define Your Product Vision & Goals Before you put anything on your roadmap, take a step back. Without a clear product visi..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/shorts/SrlWaUCZAGM",
+     "title": "6 Steps to Build A Product Roadmap.",
+     "text": "6 Steps to Build A Product Roadmap. how to create your product road map in a structured manner there are six steps that I personal..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/shorts/qNEe_fyO92s",
+     "title": "Roadmap Features #roadmap #productmanagement ...",
+     "text": "Roadmap Features #roadmap #productmanagement #productdevelopment #productroadmap what should you include in a road map. the main c..."
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntF8pv7Y4GUOEMh9kn_AvPwq_n85A:1791474340232&q=product+roadmap&udm=2&source=univ&fir=vDl5cZSdkB7AyM%252Cob-j87WoNreAUM%252C_%253BOb2O2QcXjcc8tM%252CNM4UTyx72qnXUM%252C_%253B8NRINs65joT53M%252CPxrw0cPZ5pLrgM%252C_%253B5JRsfMKF8S26QM%252CbsAqCA3nonvqVM%252C_%253BjYXa1yL75YKRKM%252CW-yB-QM1Z1C_cM%252C_%253Bun-UpcZ3QgSrqM%252C73eUtqOZETXIbM%252C_%253BcAXgw-8wIjFcxM%252CxYMDUigjTe6iHM%252C_%253BNWhfD0Pn58HPQM%252CvP7V1FaFL6IRDM%252C_%253BgwcnG3aO3boOKM%252CLjwUzDlE7q7sGM%252C_%253B7AFsFYz0xGHJgM%252CSyfDOgEIhu4O-M%252C_%253BRJAN8LBUVruujM%252C2mYEguZVVgpvuM%252C_%253BH9ofmn0irkjSKM%252C60rJz59VDhyyzM%252C_&usg=AI4_-kQ93Sa7VZMjCioEkdXiMmoZ8iAr7g&sa=X&ved=2ahUKEwimrrH94aqXAxVDHbkGHVUaOokQ7Al6BAgcEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "Product Roadmaps: How To Create One Step-by-Step",
+     "url": "https://www.aha.io/roadmapping/guide/product-roadmap",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:5"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap 2025 Guide with Examples & Templates",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:6"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap: Examples, Types and Key Features",
+     "url": "https://www.altexsoft.com/blog/product-roadmap-key-features-common-types-and-roadmap-building-tips/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:7"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap Guide: Definition, Types, Examples ...",
+     "url": "https://venngage.com/blog/product-roadmap/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:8"
+    },
+    {
+     "type": "images_element",
+     "alt": "Improve your Product Roadmap with User Research",
+     "url": "https://mopinion.com/improve-your-product-roadmap-with-user-research/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:9"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap: A Complete Guide for Product Managers",
+     "url": "https://slidemodel.com/product-roadmap/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-179f566bbaef:10"
+    },
+    {
+     "type": "images_element",
+     "alt": "Agile Product Roadmap Template | 179+ Editable Agile Templates",
+     "url": "https://powerslides.com/powerpoint-business/business-models/agile-product-roadmap/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSEGoOEFHJYjr4b2NoB0e4eAhRZdwpbtjh6ryYYtuvphNih1ZjUJ8a_0&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap First Principles — From Vision to Tools",
+     "url": "https://age-of-product.com/7-best-practices-on-how-to-build-a-product-roadmap/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBa7Z302z20Y387k577SH-wF4_LYSioZY8C1SL1UaSqP7HhhO5GAWqgzA&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to create a product roadmap in 6 steps",
+     "url": "https://www.appcues.com/blog/how-to-create-a-product-roadmap",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-LNdskEJac7n3ffyBj2dBLacdNMpz7iCLP-sYQLJaxo8-1Xz0qE_6M8&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "What Is Product Roadmap | EdrawMax Online",
+     "url": "https://edrawmax.wondershare.com/journey-map/what-is-product-roadmap.html",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLltqs3aX4nTQkJv91wNBoH837Dn1Sl8Sf7gMPewNJObFZ2G9ZeLptGXM&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Roadmap - Example - Draft.io",
+     "url": "https://draft.io/example/product-roadmap",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKk0Jogj3AX9R5PkDQtKVHZ7UFnAlDjXzNRxAdwXLfGkOOX8xGgNCidQ&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Free Product Roadmap Templates - Download | ITONICS",
+     "url": "https://www.itonics-innovation.com/product-roadmap-template",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUdSE_bjc-i0rizf2kDoct9pwjjwTw58DRd1CtB3cXqTaow0IbC8jvrc&s"
+    }
+   ]
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "Can Chatgpt create a roadmap?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 7 stages of product management?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What is the difference between a product roadmap and a project plan?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What should be included in a roadmap?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.atlassian.com",
+   "title": "Product Roadmap Guide: What is it & How to Create One",
+   "url": "https://www.atlassian.com/agile/product-management/product-roadmaps",
+   "breadcrumb": "https://www.atlassian.com › Agile › Product Management",
+   "website_name": "Atlassian",
+   "description": "A product roadmap is a strategic plan that outlines the vision, direction, priorities, and progress of a product over time.",
+   "highlighted": [
+    "product roadmap",
+    "product"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "www.productplan.com",
+   "title": "The Ultimate Guide to Product Roadmaps",
+   "url": "https://www.productplan.com/learn/what-is-a-product-roadmap",
+   "breadcrumb": "https://www.productplan.com › Learn",
+   "website_name": "ProductPlan",
+   "description": "A product roadmap is a high-level visual summary that maps out the vision and direction of your product offering. Learn all there is to know about roadmaps.",
+   "highlighted": [
+    "a high-level visual summary that maps out the vision and direction of your product offering"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "how to write a product roadmap? : r/ProductManagement",
+   "url": "https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/",
+   "breadcrumb": "50+ comments  ·  4 years ago",
+   "website_name": "Reddit · r/ProductManagement",
+   "description": "I am a newbie in Product Management, and currently working as an Intern. I have been tasked to write Product Roadmap. Can someone please guide how ...",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "50 answers",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/rtmf2p/how_to_write_a_product_roadmap/hqthuiz/",
+     "domain": "www.reddit.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "agilealliance.org",
+   "title": "All You Need to Know About Product Roadmaps: A Hands- ...",
+   "url": "https://agilealliance.org/all-you-need-to-know-about-product-roadmaps-a-hands-on-guide/",
+   "breadcrumb": "https://agilealliance.org › Process",
+   "website_name": "Agile Alliance",
+   "description": "May 21, 2025 — At its heart, a roadmap is a visual, strategic guide. It captures your direction and vision, aligning teams, stakeholders, and customers around ...",
+   "pre_snippet": "05/21/2025 00:00:00",
+   "highlighted": [
+    "a visual, strategic guide"
+   ],
+   "timestamp": "2025-05-21 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.pendo.io",
+   "title": "What is a Product Roadmap?",
+   "url": "https://www.pendo.io/glossary/product-roadmap/",
+   "breadcrumb": "https://www.pendo.io › Glossary Pages",
+   "website_name": "Pendo",
+   "description": "A product roadmap is a visual summary of a product's direction to facilitate communication with customers, prospects, partners, and internal stakeholders.",
+   "highlighted": [
+    "visual summary of a product's direction"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.productboard.com",
+   "title": "Guide: How to Build a Product Roadmap",
+   "url": "https://www.productboard.com/product-roadmap-guide/",
+   "breadcrumb": "https://www.productboard.com › product-roadmap-guide",
+   "website_name": "Productboard",
+   "description": "Steps to start building your product roadmap · Step 1: Align on product vision, strategy, and objectives · Step 2: Prioritize what to put on your roadmap based ... Read more",
+   "highlighted": [
+    "Steps to start building your product roadmap"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.productboard.com/product-roadmap-guide/#:~:text=Steps%20to%20start%20building%20your,product%20roadmap&text=Step%201%3A%20Align%20on%20product,vision%2C%20strategy%2C%20and%20objectives&text=Step%202%3A%20Prioritize%20what%20to,roadmap%20based%20on%20desired%20outcomes",
+     "domain": "www.productboard.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "amplitude.com",
+   "title": "What is a Product Roadmap? Definition, Tools, and ...",
+   "url": "https://amplitude.com/glossary/terms/product-roadmap",
+   "breadcrumb": "https://amplitude.com › glossary › terms › product-road...",
+   "website_name": "Amplitude",
+   "description": "It is a high-level visual document that outlines the direction of a product, including its features, timeline, and goals.",
+   "highlighted": [
+    "a high-level visual document that outlines the direction of a product"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "productschool.com",
+   "title": "Product Roadmap 2025 Guide with Examples & Templates",
+   "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+   "breadcrumb": "https://productschool.com › Blog › Product Strategy",
+   "website_name": "Product School",
+   "is_image": true,
+   "checks": [
+    "is_image"
+   ],
+   "description": "Aug 5, 2025 — A product roadmap includes key initiatives, features, and milestones that align with the product's strategic goals, often categorized by ... Read more",
+   "pre_snippet": "08/05/2025 00:00:00",
+   "images": [
+    {
+     "type": "images_element",
+     "alt": "product roadmap from productschool.com",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3gnkxmKcvEsm4VpaBomOS4Bvt-t-xSJS2BLQQD4E6wQO619KIhE0C&usqp=CAE&s"
+    }
+   ],
+   "highlighted": [
+    "key initiatives, features, and milestones"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Before The Roadmap: 30...",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap#:~:text=Before%20the%20Roadmap%3A%2030%20Questions%20to%20Guide%20Product%20Roadmap%20Planning",
+     "domain": "productschool.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Product Development Roadmap",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap#:~:text=Product%20Development%20Roadmap,-A",
+     "domain": "productschool.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Agile Roadmap",
+     "url": "https://productschool.com/blog/product-strategy/what-is-a-product-roadmap#:~:text=Agile%20Roadmap,-An%20agile%20roadmap%20is%20a",
+     "domain": "productschool.com"
+    }
+   ],
+   "timestamp": "2025-08-05 00:00:00 +00:00"
+  },
+  {
+   "type": "product_considerations",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "title": "Things to know",
+   "items": [
+    {
+     "type": "product_considerations_element",
+     "title": "How to create a product roadmap?",
+     "consideration_category": "Creation Process"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "What is the purpose of a product roadmap?",
+     "consideration_category": "Purpose"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "What are the different types of product roadmaps?",
+     "consideration_category": "Types"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "What are the key components of a product roadmap?",
+     "consideration_category": "Key Components"
+    },
+    {
+     "type": "product_considerations_element",
+     "title": "Who is responsible for creating a product roadmap?",
+     "consideration_category": "Responsibility"
+    }
+   ]
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 13,
+   "page": 1,
+   "items": [
+    "Product roadmap tools",
+    "Product roadmap template",
+    "Product roadmap example",
+    "Product roadmap example PDF",
+    "How to create a product roadmap",
+    "Product roadmap Agile",
+    "Types of product roadmaps",
+    "Product roadmap pmp"
+   ]
+  }
+ ]
+}

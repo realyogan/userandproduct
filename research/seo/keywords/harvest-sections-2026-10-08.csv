@@ -1,0 +1,424 @@
+keyword,seeds,domains,volume,cpc,competition,difficulty,intent,fine_intent,field_fit,field_rule,monthly_12,slope_12m,seasonal,flag,flag_v1_1,section
+rice purity score,rice score,,60500,4.15,0,16,informational,define,yes,"names a method, artifact, role, metric or tool of the work",60500;60500;60500;60500;74000;60500;60500;49500;60500;49500;60500;49500,0.88,no,,,tools
+book cover design books,design books,,8100,6.71,0.37,37,transactional,other,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+books cover design,design books,,8100,6.71,0.37,37,commercial,define,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+books design cover,design books,,8100,6.71,0.37,37,transactional,define,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+calculate sample size calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+calculating sample size calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+calculator for sample size,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+calculator sample size,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+cover design books,design books,,8100,6.71,0.37,37,informational,define,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+cover design for books,design books,,8100,6.71,0.37,37,informational,other,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+design books cover,design books,,8100,6.71,0.37,37,transactional,define,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+design covers for books,design books,,8100,6.71,0.37,37,informational,other,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+design for books cover,design books,,8100,6.71,0.37,37,informational,other,partial,no field word and no other-world word,9900;9900;9900;8100;9900;8100;9900;9900;8100;5400;5400;8100,0.64,no,,,books
+determine sample size calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+determining sample size calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+sample size calculation calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+sample size calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+sample size determination calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+sample size online calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+size sample calculator,sample size calculator,,8100,4.07,0,39,informational,tool,partial,no field word and no other-world word,12100;12100;9900;6600;6600;8100;8100;8100;6600;4400;4400;5400,0.42,yes,,,tools
+rice purity test score meaning,rice score,,5400,,0,8,informational,define,yes,"names a method, artifact, role, metric or tool of the work",5400;6600;6600;5400;5400;3600;4400;4400;4400;4400;4400;4400,0.71,no,,,tools
+rice purity test score meanings,rice score,,5400,,0,3,informational,other,yes,"names a method, artifact, role, metric or tool of the work",5400;6600;6600;5400;5400;3600;4400;4400;4400;4400;4400;4400,0.71,no,,,tools
+mechanical engineering design books,design books,,3600,1.04,0.85,0,informational,other,no,engineering and software construction,3600;3600;3600;2900;4400;3600;3600;3600;2400;2400;2400;3600,0.78,no,,,books
+books about interior design,design books,,2900,1.21,1,0,informational,other,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+books for interior design,design books,,2900,1.21,1,0,informational,other,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+books in interior design,design books,,2900,1.21,1,0,informational,other,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+books interior design,design books,,2900,1.21,1,0,informational,define,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+books on interior design,design books,,2900,1.21,1,0,informational,other,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+interior design books,design books,,2900,1.21,1,0,informational,define,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+interior design with books,design books,,2900,1.21,1,0,informational,other,no,"home, food and crafts",4400;2400;5400;3600;2900;2400;4400;2400;1900;1900;1900;2400,0.51,yes,,,books
+prd document template,prd template,,2900,6.33,0.06,6,informational,template,yes,"names a method, artifact, role, metric or tool of the work",3600;2400;1600;1600;1900;1900;2900;2400;2900;2400;1900;9900,1.87,yes,,,templates
+prd product requirements document template,prd template,,2900,6.33,0.06,6,informational,template,yes,"names a method, artifact, role, metric or tool of the work",3600;2400;1600;1600;1900;1900;2900;2400;2900;2400;1900;9900,1.87,yes,,,templates
+prd template,prd template,,2900,6.33,0.06,6,informational,template,yes,"names a method, artifact, role, metric or tool of the work",3600;2400;1600;1600;1900;1900;2900;2400;2900;2400;1900;9900,1.87,yes,,,templates
+template for user story,user story template,,2900,3.73,0.06,24,informational,template,yes,"names a method, artifact, role, metric or tool of the work",4400;2900;2900;2900;3600;3600;3600;3600;2900;1900;1900;1900,0.56,yes,,,templates
+template user story,user story template,,2900,3.73,0.06,21,informational,template,yes,"names a method, artifact, role, metric or tool of the work",4400;2900;2900;2900;3600;3600;3600;3600;2900;1900;1900;1900,0.56,yes,,,templates
+user story template,user story template,,2900,3.73,0.06,18,informational,template,yes,"names a method, artifact, role, metric or tool of the work",4400;2900;2900;2900;3600;3600;3600;3600;2900;1900;1900;1900,0.56,yes,,,templates
+user story template example,user story template,,2900,3.73,0.06,21,informational,template,yes,"names a method, artifact, role, metric or tool of the work",4400;2900;2900;2900;3600;3600;3600;3600;2900;1900;1900;1900,0.56,yes,,,templates
+book design books,design books,,2400,5.95,0.49,19,transactional,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books about book design,design books,,2400,5.95,0.49,0,informational,other,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books about design,design books,,2400,5.95,0.49,19,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books design,design books,,2400,5.95,0.49,19,transactional,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books for design,design books,,2400,5.95,0.49,19,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books on book design,design books,,2400,5.95,0.49,19,informational,other,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+books on design,design books,,2400,5.95,0.49,0,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+design for books,design books,,2400,5.95,0.49,19,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+design in books,design books,,2400,5.95,0.49,19,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+design of books,design books,,2400,5.95,0.49,19,informational,define,partial,no field word and no other-world word,2900;2900;2400;2400;2400;2400;2400;2400;2400;1600;1300;1900,0.59,yes,,,books
+design your life books,design books,,2400,0.57,0.78,12,informational,other,partial,no field word and no other-world word,2400;1900;2400;1900;2900;2400;2900;2400;2900;2900;2400;3600,1.33,no,,,books
+rice football score,rice score,,1900,,0,35,informational,define,yes,"names a method, artifact, role, metric or tool of the work",8100;6600;4400;260;3600;20;20;40;20;10;30;20,0.00,yes,,,tools
+rice owls football score,rice score,,1900,,0,35,informational,other,yes,"names a method, artifact, role, metric or tool of the work",8100;6600;4400;260;3600;20;20;40;20;10;30;20,0.00,yes,,,tools
+rice purity test score,rice score,,1900,,0,5,informational,other,yes,"names a method, artifact, role, metric or tool of the work",1900;2400;2400;2400;2400;1900;2400;1600;1900;1600;2400;2400,0.96,no,,,tools
+rice score,rice score,,1900,1.45,0.05,4,informational,define,yes,"names a method, artifact, role, metric or tool of the work",4400;3600;2400;1600;2900;1900;1900;1600;1300;1300;1600;1300,0.40,yes,,,tools
+rice score football,rice score,,1900,,0,38,informational,define,yes,"names a method, artifact, role, metric or tool of the work",8100;6600;4400;260;3600;20;20;40;20;10;30;20,0.00,yes,,,tools
+rice u football score,rice score,,1900,,0,35,informational,other,yes,"names a method, artifact, role, metric or tool of the work",8100;6600;4400;260;3600;20;20;40;20;10;30;20,0.00,yes,,,tools
+rice university football score,rice score,,1900,,0,35,informational,other,no,school and students,8100;6600;4400;260;3600;20;20;40;20;10;30;20,0.00,yes,,,tools
+acceptance criteria user story template,user story template,,1600,4.55,0,10,informational,template,yes,"names a method, artifact, role, metric or tool of the work",880;880;1600;1600;1900;2400;2400;2400;1900;1300;880;1300,1.04,yes,,,templates
+agile development user story template,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+agile user story template,user story template,,1600,4.84,0.01,22,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+agile user story template example,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+fashion design pattern making books,design books,,1600,0.57,1,0,informational,other,no,"home, food and crafts",1900;1600;1900;1900;2400;1900;1900;1600;1300;1000;1300;1600,0.72,yes,,,books
+patternmaking for fashion design books,design books,,1600,0.57,1,0,informational,other,no,"home, food and crafts",1900;1600;1900;1900;2400;1900;1900;1600;1300;1000;1300;1600,0.72,yes,,,books
+peter miller architecture and design books,design books,,1600,1.17,0.04,12,informational,other,partial,no field word and no other-world word,1600;1300;1300;1900;1600;1600;1300;1600;1600;1900;1900;1900,1.36,no,,,books
+sample size calculator formula,sample size calculator,,1600,3.3,0.02,43,informational,tool,partial,no field word and no other-world word,1900;1900;1900;1600;1000;1600;1900;2400;1600;720;880;720,0.41,yes,,,tools
+sample user story template,user story template,,1600,1.84,0.02,12,informational,template,yes,"names a method, artifact, role, metric or tool of the work",2900;1900;1600;1300;1600;1900;1900;1900;1600;880;880;1300,0.48,yes,,,templates
+user persona template,user persona template,,1600,9.83,0.1,22,navigational,template,yes,"names a method, artifact, role, metric or tool of the work",2900;2900;1600;880;1600;1900;2400;1900;1000;880;880;880,0.36,yes,,,templates
+user story agile template,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+user story template acceptance criteria,user story template,,1600,4.55,0,23,informational,template,yes,"names a method, artifact, role, metric or tool of the work",880;880;1600;1600;1900;2400;2400;2400;1900;1300;880;1300,1.04,yes,,,templates
+user story template agile,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+user story template for agile development,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+user story template in agile,user story template,,1600,4.84,0.01,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1600;880;1600;1900;1900;2400;2400;2400;2400;720;480;1000,0.54,yes,,,templates
+average rice purity score,rice score,,1300,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1600;1300;1300;1000;1300;1300;1300;1300;1600;1300,0.82,no,,,tools
+books about graphic design,design books,,1300,1.46,0.83,0,informational,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+books for graphic design,design books,,1300,1.46,0.83,0,informational,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+books graphic design,design books,,1300,1.46,0.83,0,commercial,define,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+books on graphic design,design books,,1300,1.46,0.83,0,informational,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+books on graphics design,design books,,1300,1.46,0.83,0,informational,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+design books,design books,,1300,0.88,0.98,0,informational,define,partial,no field word and no other-world word,1600;1300;1900;1900;1600;1300;1300;1000;1000;1000;880;1000,0.60,yes,,,books
+design graphic books,design books,,1300,1.46,0.83,0,commercial,define,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+design with books,design books,,1300,0.88,0.98,0,informational,define,partial,no field word and no other-world word,1600;1300;1900;1900;1600;1300;1300;1000;1000;1000;880;1000,0.60,yes,,,books
+graphic design and books,design books,,1300,1.46,0.83,0,commercial,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+graphic design books,design books,,1300,1.46,0.83,0,commercial,define,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+graphic design for books,design books,,1300,1.46,0.83,0,commercial,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+graphic design of books,design books,,1300,1.46,0.83,0,commercial,other,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+graphics design books,design books,,1300,1.46,0.83,0,commercial,define,partial,no field word and no other-world word,1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+online calculator for sample size,sample size calculator,,1300,,0,39,informational,tool,partial,no field word and no other-world word,1900;1300;1300;1300;1600;1000;1000;1600;1900;720;390;720,0.41,yes,,,tools
+online calculator sample size,sample size calculator,,1300,,0,39,informational,tool,partial,no field word and no other-world word,1900;1300;1300;1300;1600;1000;1000;1600;1900;720;390;720,0.41,yes,,,tools
+online sample size calculator,sample size calculator,,1300,,0,42,informational,tool,partial,no field word and no other-world word,1900;1300;1300;1300;1600;1000;1000;1600;1900;720;390;720,0.41,yes,,,tools
+power design resources,design resources,,1300,9.81,0.02,0,informational,define,partial,no field word and no other-world word,1000;1000;880;880;1300;1600;1900;1600;1900;1600;1600;1600,1.67,yes,,,links
+power sample size calculator online,sample size calculator,,1300,,0,16,informational,tool,partial,no field word and no other-world word,1900;1300;1300;1300;1600;1000;1000;1600;1900;720;390;720,0.41,yes,,,tools
+sample size calculator online,sample size calculator,,1300,,0,26,informational,tool,partial,no field word and no other-world word,1900;1300;1300;1300;1600;1000;1000;1600;1900;720;390;720,0.41,yes,,,tools
+scrum user story template,user story template,,1300,4.82,0,11,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;590;1300;1600;1600;1900;1600;1900;1900;390;170;720,0.34,yes,,,templates
+user story scrum template,user story template,,1300,4.82,0,24,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;590;1300;1600;1600;1900;1600;1900;1900;390;170;720,0.34,yes,,,templates
+user story template scrum,user story template,,1300,4.82,0,16,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;590;1300;1600;1600;1900;1600;1900;1900;390;170;720,0.34,yes,,,templates
+ux and ui design tools,ux tools,,1300,10.88,0.06,19,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1300;720;1300;1000;1600;1300;880;590;720;2400,0.77,yes,,,links
+ux design tools,ux tools,,1300,10.88,0.06,19,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1300;720;1300;1000;1600;1300;880;590;720;2400,0.77,yes,,,links
+ux designing tools,ux tools,,1300,10.88,0.06,19,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1300;720;1300;1000;1600;1300;880;590;720;2400,0.77,yes,,,links
+visual design books,design books,,1300,1.46,0.83,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",1600;1600;1600;1900;1300;1300;1300;1300;1000;880;720;1000,0.54,yes,,,books
+domain driven design books,design books,,1000,0.95,0.25,21,informational,other,partial,no field word and no other-world word,880;720;880;880;880;880;880;880;1600;1600;1900;1900,2.18,yes,,,books
+domain-driven design books,design books,,1000,0.95,0.25,15,informational,define,partial,no field word and no other-world word,880;720;880;880;880;880;880;880;1600;1600;1900;1900,2.18,yes,,,books
+product roadmap template,product roadmap template,,1000,18.45,0.15,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;1300;880;720;880;880;1300;880;590;720;590;1000,0.57,yes,,,templates
+rice purity score meaning,rice score,,1000,,0,4,informational,define,yes,"names a method, artifact, role, metric or tool of the work",1300;1300;1300;1000;1000;880;880;880;1000;880;1000;880,0.71,no,,,tools
+rice purity score test,rice score,,1000,0.17,0,32,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;880;1000;1300;1000;880;1000;880;1000;880;1600;1600,1.48,no,,,tools
+roadmap product template,product roadmap template,,1000,18.45,0.15,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;1300;880;720;880;880;1300;880;590;720;590;1000,0.57,yes,,,templates
+sample product roadmap template,product roadmap template,,1000,18.45,0.15,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;1300;880;720;880;880;1300;880;590;720;590;1000,0.57,yes,,,templates
+system design books,design books,,1000,0.95,0.61,1,informational,define,partial,no field word and no other-world word,880;1000;1000;1000;1300;1000;1000;1000;1000;1000;1000;1300,1.15,no,,,books
+systems design books,design books,,1000,0.95,0.61,1,informational,define,partial,no field word and no other-world word,880;1000;1000;1000;1300;1000;1000;1000;1000;1000;1000;1300,1.15,no,,,books
+template for product roadmap,product roadmap template,,1000,18.45,0.15,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;1300;880;720;880;880;1300;880;590;720;590;1000,0.57,yes,,,templates
+template product roadmap,product roadmap template,,1000,18.45,0.15,13,informational,template,yes,"names a method, artifact, role, metric or tool of the work",1900;1300;880;720;880;880;1300;880;590;720;590;1000,0.57,yes,,,templates
+tools for ui ux design,ux tools,,1000,5.39,0.01,23,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+tools for ui/ux design,ux tools,,1000,5.39,0.01,23,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui ux design tools,ux tools,,1000,5.39,0.01,26,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui ux designing tools,ux tools,,1000,5.39,0.01,26,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui ux tools,ux tools,,1000,5.39,0.01,23,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui/ux design tools,ux tools,,1000,5.39,0.01,21,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui/ux designer tools,ux tools,,1000,5.39,0.01,23,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+ui/ux tools,ux tools,,1000,5.39,0.01,23,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;720;390;1300;1900;1000;1600;590;260;320;3600,1.80,yes,,,links
+user story template word,user story template,,1000,,0,15,informational,template,yes,"names a method, artifact, role, metric or tool of the work",260;260;880;1000;1300;1600;1600;1900;1600;590;170;880,1.17,yes,,,templates
+user story word template,user story template,,1000,,0,15,informational,template,yes,"names a method, artifact, role, metric or tool of the work",260;260;880;1000;1300;1600;1600;1900;1600;590;170;880,1.17,yes,,,templates
+calculator sample size power,sample size calculator,,880,,0,17,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+design your own photo books,design books,,880,7.27,1,53,transactional,other,partial,no field word and no other-world word,1000;880;1000;1300;880;590;720;880;880;720;590;720,0.70,yes,,,books
+figma prototyping tools,prototyping tools,,880,0.55,0,20,navigational,brand,yes,"names a method, artifact, role, metric or tool of the work",1000;720;880;720;720;880;880;720;720;880;720;720,0.89,no,brand,brand,links
+power analysis and sample size calculator,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power analysis calculator sample size,sample size calculator,,880,,0,25,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power analysis for sample size calculator,sample size calculator,,880,,0,16,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power analysis sample size calculator,sample size calculator,,880,,0,7,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power and sample size calculator,sample size calculator,,880,,0,16,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power calculation sample size calculator,sample size calculator,,880,,0,17,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power calculator for sample size,sample size calculator,,880,,0,19,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power calculator sample size,sample size calculator,,880,,0,12,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+power sample size calculator,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+product management tools,product management tools,,880,29.21,0.52,8,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;720;390;720;720;1000;1000;590;1000;720;320,0.48,yes,,,links
+rice sat score,rice score,,880,,0,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",1300;1300;1000;880;720;390;720;880;720;590;390;880,0.52,yes,,,tools
+rice university sat score,rice score,,880,,0,5,informational,other,no,school and students,1300;1300;1000;880;720;390;720;880;720;590;390;880,0.52,yes,,,tools
+sample size and power calculator,sample size calculator,,880,,0,44,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size calculator power,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size calculator power analysis,sample size calculator,,880,,0,7,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size calculator with power,sample size calculator,,880,,0,19,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size power analysis calculator,sample size calculator,,880,,0,15,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size power calculator,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sample size/power calculator,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+sat score for rice university,rice score,,880,,0,0,informational,other,no,school and students,1300;1300;1000;880;720;390;720;880;720;590;390;880,0.52,yes,,,tools
+statistical power and sample size calculator,sample size calculator,,880,,0,18,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+statistical power calculator sample size,sample size calculator,,880,,0,36,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+statistical power sample size calculator,sample size calculator,,880,,0,16,informational,tool,partial,no field word and no other-world word,1000;1000;880;720;880;880;1000;880;880;720;590;590,0.66,no,,,tools
+surveymonkey sample size calculator,sample size calculator,,880,,0,30,informational,tool,partial,no field word and no other-world word,1300;260;210;320;590;720;720;1600;1600;880;880;1000,1.56,yes,,,tools
+tools for product management,product management tools,,880,29.21,0.52,8,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;720;390;720;720;1000;1000;590;1000;720;320,0.48,yes,,,links
+tools product management,product management tools,,880,29.21,0.52,8,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;720;390;720;720;1000;1000;590;1000;720;320,0.48,yes,,,links
+apparel design books,design books,,720,0.64,0.92,0,informational,define,partial,no field word and no other-world word,720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books about clothing design,design books,,720,0.64,0.92,0,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books about fashion design,design books,,720,0.64,0.92,5,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books design patterns,design books,,720,0.45,0.66,41,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;1000;880;720;880;880;720;720;720;720;480;590,0.65,yes,,,books
+books fashion design,design books,,720,0.64,0.92,5,informational,define,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books for design patterns,design books,,720,0.45,0.66,41,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;1000;880;720;880;880;720;720;720;720;480;590,0.65,yes,,,books
+books for fashion design,design books,,720,0.64,0.92,5,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books human design,design books,,720,0.47,1,0,informational,define,partial,no field word and no other-world word,880;720;880;880;880;880;880;720;720;590;720;720,0.82,no,,,books
+books on clothing design,design books,,720,0.64,0.92,5,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books on design patterns,design books,,720,0.45,0.66,41,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;1000;880;720;880;880;720;720;720;720;480;590,0.65,yes,,,books
+books on fashion design,design books,,720,0.64,0.92,5,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+books on human design,design books,,720,0.47,1,0,informational,other,partial,no field word and no other-world word,880;720;880;880;880;880;880;720;720;590;720;720,0.82,no,,,books
+clothing design books,design books,,720,0.64,0.92,5,informational,define,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+design fashion books,design books,,720,0.64,0.92,5,informational,define,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+fashion books design,design books,,720,0.64,0.92,5,informational,define,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+fashion design books,design books,,720,0.64,0.92,5,informational,define,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+fashion design fashion books,design books,,720,0.64,0.92,5,informational,other,no,"home, food and crafts",720;720;880;880;720;590;590;590;590;480;390;480,0.58,yes,,,books
+fashion design history books,design books,,720,0.53,1,0,informational,other,no,"home, food and crafts",880;880;880;1000;720;590;590;720;720;590;590;720,0.72,no,,,books
+human design books,design books,,720,0.47,1,0,informational,define,partial,no field word and no other-world word,880;720;880;880;880;880;880;720;720;590;720;720,0.82,no,,,books
+nail design books,design books,,720,0.29,0.94,0,transactional,define,no,"home, food and crafts",590;480;720;720;720;590;720;880;720;590;880;880,1.31,no,,,books
+pattern design books,design books,,720,0.45,0.66,41,informational,define,partial,no field word and no other-world word,880;1000;880;720;880;880;720;720;720;720;480;590,0.65,yes,,,books
+product lifecycle management tools,product management tools,,720,17.5,0.37,43,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",880;720;590;480;720;720;880;720;720;720;590;480,0.82,no,,,links
+best books about interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best books for interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best books in interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best books interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best books of interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best books on interior design,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+best interior design books,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+books about product management,product management books,,590,1.12,0.93,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;590;590;590;720;590;590;480;480;390;480;390,0.61,yes,,,books
+books for product management,product management books,,590,1.12,0.93,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;590;590;590;720;590;590;480;480;390;480;390,0.61,yes,,,books
+books on product management,product management books,,590,1.12,0.93,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;590;590;590;720;590;590;480;480;390;480;390,0.61,yes,,,books
+books product management,product management books,,590,1.12,0.93,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;590;590;590;720;590;590;480;480;390;480;390,0.61,yes,,,books
+digital design resources,design resources,,590,,0.06,18,commercial,define,partial,no field word and no other-world word,1600;2900;2900;10;10;10;10;20;10;10;10;10,0.00,yes,,,links
+good interior design books,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+great interior design books,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+interior design books best,design books,,590,1.24,1,0,informational,other,no,"home, food and crafts",590;590;720;1000;720;480;590;590;590;480;480;590,0.82,yes,,,books
+product management books,product management books,,590,1.12,0.93,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;590;590;590;720;590;590;480;480;390;480;390,0.61,yes,,,books
+ab split test calculator,ab test calculator,,480,27.22,0.09,49,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;590;480;390;390;480;720;480;480;320;260;320,0.54,yes,,,tools
+ab test calculator,ab test calculator,,480,27.22,0.09,55,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;590;480;390;390;480;720;480;480;320;260;320,0.54,yes,,,tools
+anticus fine art books jewelry & design,design books,,480,,0.03,0,transactional,other,partial,no field word and no other-world word,320;480;480;480;720;720;880;590;590;320;320;320,0.75,yes,,,books
+books on house design,design books,,480,1,1,0,informational,other,partial,no field word and no other-world word,480;480;480;590;590;590;480;480;390;390;480;480,0.94,no,,,books
+comic books design,design books,,480,1.7,0.11,27,informational,define,partial,no field word and no other-world word,590;590;390;480;480;480;590;390;480;260;210;390,0.55,yes,,,books
+determining sample size statistics calculator,sample size calculator,,480,,0,39,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+house design books,design books,,480,1,1,0,informational,define,partial,no field word and no other-world word,480;480;480;590;590;590;480;480;390;390;480;480,0.94,no,,,books
+prototyping software tools,prototyping tools,,480,15.73,0.29,29,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;590;390;320;480;390;480;720;390;390;320;210,0.36,yes,,,links
+prototyping tools,prototyping tools,,480,15.73,0.29,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;590;390;320;480;390;480;720;390;390;320;210,0.36,yes,,,links
+raosoft sample size calculator,sample size calculator,,480,,0,0,informational,tool,partial,no field word and no other-world word,390;480;320;260;260;480;720;1000;590;480;390;140,0.85,yes,,,tools
+sample size calculator by raosoft,sample size calculator,,480,,0,0,informational,tool,partial,no field word and no other-world word,390;480;320;260;260;480;720;1000;590;480;390;140,0.85,yes,,,tools
+sample size calculator by raosoft inc,sample size calculator,,480,,0,0,navigational,tool,partial,no field word and no other-world word,390;480;320;260;260;480;720;1000;590;480;390;140,0.85,yes,,,tools
+sample size calculator raosoft,sample size calculator,,480,,0,2,informational,tool,partial,no field word and no other-world word,390;480;320;260;260;480;720;1000;590;480;390;140,0.85,yes,,,tools
+sample size statistics calculator,sample size calculator,,480,,0,43,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+software prototyping tools,prototyping tools,,480,15.73,0.29,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;590;390;320;480;390;480;720;390;390;320;210,0.36,yes,,,links
+statistical calculator for sample size,sample size calculator,,480,,0,39,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+statistical calculator sample size,sample size calculator,,480,,0,39,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+statistical sample size calculator,sample size calculator,,480,,0,43,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+statistics calculator sample size,sample size calculator,,480,,0,47,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+statistics sample size calculator,sample size calculator,,480,,0,39,informational,tool,partial,no field word and no other-world word,590;3600;210;90;90;110;90;110;170;110;70;50,0.05,yes,,,tools
+tattoo design books,design books,,480,0.55,0.95,0,transactional,define,no,"home, food and crafts",720;590;480;480;390;480;480;480;720;390;390;320,0.61,yes,,,books
+tattoos design books,design books,,480,0.55,0.95,0,transactional,define,partial,no field word and no other-world word,720;590;480;480;390;480;480;480;720;390;390;320,0.61,yes,,,books
+tools for prototyping,prototyping tools,,480,15.73,0.29,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;590;390;320;480;390;480;720;390;390;320;210,0.36,yes,,,links
+tools for ux research,ux tools;ux research tools,,480,27.93,0.38,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1000;880;590;480;390;390;480;320;210;170;110;110,0.16,yes,,,links
+tools of prototyping,prototyping tools,,480,15.73,0.29,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1600;590;390;320;480;390;480;720;390;390;320;210,0.36,yes,,,links
+ux research tools,ux tools;ux research tools,,480,27.93,0.38,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",1000;880;590;480;390;390;480;320;210;170;110;110,0.16,yes,,,links
+ai tools for product management,product management tools,,390,24.16,0.16,7,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",590;480;320;260;320;590;720;480;260;390;390;390,0.84,yes,,,links
+best books about design,design books,,390,0.93,1,0,informational,other,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+best books about graphic design,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best books about product management,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+best books design,design books,,390,0.93,1,0,informational,define,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+best books for design,design books,,390,0.93,1,0,informational,other,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+best books for graphic design,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best books for product management,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+best books for system design,design books,,390,0.88,0.2,0,informational,other,partial,no field word and no other-world word,390;390;480;480;480;390;390;390;480;390;390;480,1.00,no,,,books
+best books graphic design,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best books on design,design books,,390,0.93,1,0,informational,other,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+best books on graphic design,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best books on product management,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+best books on system design,design books,,390,0.88,0.2,0,informational,other,partial,no field word and no other-world word,390;390;480;480;480;390;390;390;480;390;390;480,1.00,no,,,books
+best books on systems design,design books,,390,0.88,0.2,0,informational,other,partial,no field word and no other-world word,390;390;480;480;480;390;390;390;480;390;390;480,1.00,no,,,books
+best books product management,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+best design books,design books,,390,0.93,1,0,informational,define,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+best design books for graphic designers,design books,,390,0.65,0.26,0,commercial,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best graphic design books,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best graphics design books,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+best product management books,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+best system design books,design books,,390,0.88,0.2,0,informational,other,partial,no field word and no other-world word,390;390;480;480;480;390;390;390;480;390;390;480,1.00,no,,,books
+best systems design books,design books,,390,0.88,0.2,0,informational,other,partial,no field word and no other-world word,390;390;480;480;480;390;390;390;480;390;390;480,1.00,no,,,books
+best visual design books,design books,,390,0.65,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+books about design thinking,design books,,390,1.3,0.94,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;320;390;480;390;390;390;480;260;320;320,0.70,no,,,books
+books about furniture design,design books,,390,1.3,1,0,informational,other,no,"home, food and crafts",320;390;390;480;390;390;390;390;390;390;390;320,1.00,no,,,books
+books about game design,design books,,390,1.61,0.64,0,informational,other,partial,no field word and no other-world word,390;480;390;590;390;320;390;320;480;320;320;390,0.82,no,,,books
+books about ux,ux books,,390,1.15,0.61,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+books about ux design,ux books;design books,,390,1.15,0.61,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+books cover design template,design books,,390,3.11,0.6,24,informational,template,partial,no field word and no other-world word,480;480;390;720;480;390;480;480;480;260;260;260,0.58,yes,,,books
+books design thinking,design books,,390,1.3,0.94,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",480;480;320;390;480;390;390;390;480;260;320;320,0.70,no,,,books
+books for game design,design books,,390,1.61,0.64,0,informational,other,partial,no field word and no other-world word,390;480;390;590;390;320;390;320;480;320;320;390,0.82,no,,,books
+books for ux,ux books,,390,1.15,0.61,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+books for ux design,ux books;design books,,390,1.15,0.61,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+books furniture design,design books,,390,1.3,1,0,informational,define,no,"home, food and crafts",320;390;390;480;390;390;390;390;390;390;390;320,1.00,no,,,books
+books game design,design books,,390,1.61,0.64,0,informational,define,partial,no field word and no other-world word,390;480;390;590;390;320;390;320;480;320;320;390,0.82,no,,,books
+books on design thinking,design books,,390,1.3,0.94,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;320;390;480;390;390;390;480;260;320;320,0.70,no,,,books
+books on furniture design,design books,,390,1.3,1,0,informational,other,no,"home, food and crafts",320;390;390;480;390;390;390;390;390;390;390;320,1.00,no,,,books
+books on game design,design books,,390,1.61,0.64,0,informational,other,partial,no field word and no other-world word,390;480;390;590;390;320;390;320;480;320;320;390,0.82,no,,,books
+books on ux,ux books,,390,1.15,0.61,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+books on ux design,ux books;design books,,390,1.15,0.61,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+br rice football score,rice score,,390,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",720;880;2400;590;10;10;10;10;10;10;0;720,0.18,yes,,,tools
+brother rice football score,rice score,,390,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",720;880;2400;590;10;10;10;10;10;10;0;720,0.18,yes,,,tools
+cmos vlsi design books,design books,,390,0.98,0.32,0,commercial,other,partial,no field word and no other-world word,590;590;390;320;590;390;390;390;320;210;210;590,0.64,yes,,,books
+cool graphic design books,design books,,390,0.65,0.26,0,transactional,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+design resources,design resources,,390,2.37,0.06,11,informational,define,partial,no field word and no other-world word,390;320;390;320;720;480;390;320;320;260;320;320,0.82,yes,,,links
+design resources inc,design resources,,390,,0.03,0,navigational,define,partial,no field word and no other-world word,320;320;260;320;320;320;390;390;480;390;480;480,1.50,no,,,links
+design thinking books,design books,,390,1.3,0.94,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",480;480;320;390;480;390;390;390;480;260;320;320,0.70,no,,,books
+furniture design books,design books,,390,1.3,1,0,informational,define,no,"home, food and crafts",320;390;390;480;390;390;390;390;390;390;390;320,1.00,no,,,books
+game design books,design books,,390,1.61,0.64,0,informational,define,partial,no field word and no other-world word,390;480;390;590;390;320;390;320;480;320;320;390,0.82,no,,,books
+good books on product management,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+good design books,design books,,390,0.93,1,0,informational,define,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+good graphic design books,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+good product management books,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+graphic design best books,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+graphic design books best,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+great books on design,design books,,390,0.93,1,0,informational,other,partial,no field word and no other-world word,720;390;590;590;480;320;320;320;260;320;260;320,0.53,yes,,,books
+great books on graphic design,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+great graphic design books,design books,,390,0.65,0.26,0,informational,other,partial,no field word and no other-world word,320;320;390;480;320;320;260;320;320;210;260;1000,1.43,yes,,,books
+product analytics tools,product analytics tools,,390,50.09,0.22,17,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",720;480;260;260;390;390;590;390;320;170;210;320,0.48,yes,,,links
+product management best books,product management books,,390,2.41,0.75,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+qualtrics sample size calculator,sample size calculator,,390,,0.01,19,informational,tool,partial,no field word and no other-world word,720;480;320;260;260;480;260;1000;590;390;210;210,0.53,yes,,,tools
+recipe books design,design books,,390,0.61,1,14,informational,define,no,"home, food and crafts",390;480;480;480;390;320;480;390;390;210;170;260,0.47,yes,,,books
+resources for design,design resources,,390,2.37,0.06,11,informational,define,partial,no field word and no other-world word,390;320;390;320;720;480;390;320;320;260;320;320,0.82,yes,,,links
+roadmap tools,roadmap tools,,390,52.81,0.56,28,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",720;390;320;260;320;390;390;390;260;320;260;170,0.52,yes,,,links
+sample size calculator for survey,sample size calculator,,390,,0.01,26,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+sample size calculator for surveys,sample size calculator,,390,,0.01,43,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+sample size calculator qualtrics,sample size calculator,,390,,0.01,10,informational,tool,partial,no field word and no other-world word,720;480;320;260;260;480;260;1000;590;390;210;210,0.53,yes,,,tools
+sample size calculator survey,sample size calculator,,390,,0.01,39,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+sample size for survey calculator,sample size calculator,,390,,0.01,25,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+survey calculator sample size,sample size calculator,,390,,0.01,43,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+survey sample size calculator,sample size calculator,,390,,0.01,25,informational,tool,partial,no field word and no other-world word,390;590;390;260;320;390;480;480;390;390;480;170,0.76,yes,,,tools
+system design interview books,design books,,390,0.61,0.28,3,informational,other,partial,no field word and no other-world word,320;390;390;390;390;320;390;390;390;320;260;880,1.33,yes,,,books
+tools for roadmap,roadmap tools,,390,52.81,0.56,28,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",720;390;320;260;320;390;390;390;260;320;260;170,0.52,yes,,,links
+tools for ux,ux tools,,390,4.2,0.22,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;590;480;480;390;320;390;260;260;210;210;170,0.36,yes,,,links
+tools for ux design,ux tools,,390,4.2,0.22,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;590;480;480;390;320;390;260;260;210;210;170,0.36,yes,,,links
+top product management books,product management books,,390,2.41,0.75,1,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;480;390;480;480;390;320;390;320;260;320;260,0.62,no,,,books
+user experience design books,design books,,390,1.15,0.61,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+user story card template,user story template,,390,,0,11,informational,template,yes,"names a method, artifact, role, metric or tool of the work",110;140;390;480;480;480;590;590;590;210;50;260,0.81,yes,,,templates
+ux books,ux books,,390,1.15,0.61,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+ux design books,ux books;design books,,390,1.15,0.61,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",880;480;480;480;480;320;320;320;390;210;260;260,0.40,yes,,,books
+ux tools,ux tools,,390,4.2,0.22,21,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",590;590;480;480;390;320;390;260;260;210;210;170,0.36,yes,,,links
+1990 score jerry rice,rice score,,320,0.06,0.04,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",210;210;170;320;320;260;320;260;320;320;320;390,1.75,yes,,,tools
+act score for rice university,rice score,,320,,0,0,informational,other,no,school and students,390;480;320;320;260;170;320;390;320;210;210;260,0.57,yes,,,tools
+apple design resources,design resources,,320,5.2,0,45,navigational,define,partial,no field word and no other-world word,390;260;170;170;260;210;210;260;260;390;720;480,1.94,yes,,,links
+average rice purity score by age,rice score,,320,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",260;260;320;260;260;260;320;320;390;390;480;480,1.61,no,,,tools
+books about character design,design books,,320,0.34,0.86,0,informational,other,partial,no field word and no other-world word,260;260;480;720;390;260;260;260;260;260;210;210,0.68,yes,,,books
+books for character design,design books,,320,0.34,0.86,0,informational,other,partial,no field word and no other-world word,260;260;480;720;390;260;260;260;260;260;210;210,0.68,yes,,,books
+books on character design,design books,,320,0.34,0.86,0,informational,other,partial,no field word and no other-world word,260;260;480;720;390;260;260;260;260;260;210;210,0.68,yes,,,books
+books on landscape design,design books,,320,0.69,0.85,0,informational,other,no,"home, food and crafts",320;260;210;480;260;210;260;320;320;210;390;320,1.16,yes,,,books
+books on layout design,design books,,320,5.21,0.28,1,informational,other,partial,no field word and no other-world word,590;390;390;260;320;320;320;390;320;170;210;210,0.43,yes,,,books
+character design books,design books,,320,0.34,0.86,0,informational,define,partial,no field word and no other-world word,260;260;480;720;390;260;260;260;260;260;210;210,0.68,yes,,,books
+design layout books,design books,,320,5.21,0.28,1,informational,define,partial,no field word and no other-world word,590;390;390;260;320;320;320;390;320;170;210;210,0.43,yes,,,books
+landscape design books,design books,,320,0.69,0.85,0,informational,define,no,"home, food and crafts",320;260;210;480;260;210;260;320;320;210;390;320,1.16,yes,,,books
+landscaping design books,design books,,320,0.69,0.85,0,informational,define,no,"home, food and crafts",320;260;210;480;260;210;260;320;320;210;390;320,1.16,yes,,,books
+layout design books,design books,,320,5.21,0.28,1,informational,define,partial,no field word and no other-world word,590;390;390;260;320;320;320;390;320;170;210;210,0.43,yes,,,books
+layout design for books,design books,,320,5.21,0.28,1,informational,other,partial,no field word and no other-world word,590;390;390;260;320;320;320;390;320;170;210;210,0.43,yes,,,books
+page layout design for books,design books,,320,5.21,0.28,1,informational,other,partial,no field word and no other-world word,590;390;390;260;320;320;320;390;320;170;210;210,0.43,yes,,,books
+rice act score,rice score,,320,,0,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",390;480;320;320;260;170;320;390;320;210;210;260,0.57,yes,,,tools
+rice basketball score,rice score,,320,,0,13,informational,define,yes,"names a method, artifact, role, metric or tool of the work",10;10;880;480;720;880;590;10;10;0;10;10,0.02,yes,,,tools
+rice purity test average score,rice score,,320,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",480;260;590;480;480;480;480;320;210;110;170;140,0.32,yes,,,tools
+rice university act score,rice score,,320,,0,13,informational,other,no,school and students,390;480;320;320;260;170;320;390;320;210;210;260,0.57,yes,,,tools
+what is a bad rice purity score,rice score,,320,,0,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",170;210;260;260;320;320;390;260;320;320;480;320,1.75,yes,,,tools
+what is a rice purity score,rice score,,320,0.1,0.01,1,informational,define,yes,"names a method, artifact, role, metric or tool of the work",390;320;590;480;480;320;320;260;170;210;320;170,0.54,yes,,,tools
+ai prototyping tools,prototyping tools,,260,14,0.48,7,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",320;320;320;210;320;260;260;210;390;110;110;110,0.34,yes,,,links
+books for home design,design books,,260,1.58,0.96,0,informational,other,no,"home, food and crafts",210;170;260;260;260;170;210;140;170;140;480;720,2.09,yes,,,books
+design architecture books,design books,,260,0.61,1,0,informational,define,partial,no field word and no other-world word,320;390;260;390;260;260;210;210;210;140;210;210,0.58,yes,,,books
+flower design books,design books,,260,0.54,0.92,0,informational,define,partial,no field word and no other-world word,260;210;210;260;210;320;260;210;590;140;110;210,0.68,yes,,,books
+home design books,design books,,260,1.58,0.96,0,informational,define,no,"home, food and crafts",210;170;260;260;260;170;210;140;170;140;480;720,2.09,yes,,,books
+rice purity test average score by age,rice score,,260,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",260;260;390;260;260;210;480;390;210;170;320;210,0.77,yes,,,tools
+technical user story template,user story template,,260,,0,7,informational,template,yes,"names a method, artifact, role, metric or tool of the work",70;70;260;320;320;390;390;480;390;110;50;170,0.82,yes,,,templates
+average rice purity test score,rice score,,210,,0,1,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;210;320;210;170;210;210;210;210;140;210;210,0.66,yes,,,tools
+g power sample size calculator,sample size calculator,,210,,0,16,informational,tool,partial,no field word and no other-world word,210;170;140;110;90;140;210;260;260;260;390;260,1.75,yes,,,tools
+g-power sample size calculator,sample size calculator,,210,,0,30,informational,tool,partial,no field word and no other-world word,210;170;140;110;90;140;210;260;260;260;390;260,1.75,yes,,,tools
+graphic design resources,design resources,,210,3.77,0.1,23,informational,define,partial,no field word and no other-world word,590;210;260;140;210;170;210;170;210;210;140;260,0.58,yes,,,links
+graphics design resources,design resources,,210,3.77,0.1,23,informational,define,partial,no field word and no other-world word,590;210;260;140;210;170;210;170;210;210;140;260,0.58,yes,,,links
+interior design resources,design resources,,210,6.75,0.28,20,informational,define,no,"home, food and crafts",140;1000;90;90;260;90;110;590;110;50;50;70,0.14,yes,,,links
+product roadmap tools,roadmap tools,,210,88.46,0.46,16,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",480;320;110;110;210;210;320;320;170;170;110;110,0.43,yes,,,links
+resources for graphic design,design resources,,210,3.77,0.1,23,informational,other,partial,no field word and no other-world word,590;210;260;140;210;170;210;170;210;210;140;260,0.58,yes,,,links
+resources graphic design,design resources,,210,3.77,0.1,23,informational,define,partial,no field word and no other-world word,590;210;260;140;210;170;210;170;210;210;140;260,0.58,yes,,,links
+sample size calculator g power,sample size calculator,,210,,0,30,informational,tool,partial,no field word and no other-world word,210;170;140;110;90;140;210;260;260;260;390;260,1.75,yes,,,tools
+what does rice purity score mean,rice score,,210,,0,2,informational,define,yes,"names a method, artifact, role, metric or tool of the work",170;210;320;320;320;260;260;170;170;140;260;170,0.81,yes,,,tools
+what is a good rice purity score,rice score,,210,,0,4,informational,define,yes,"names a method, artifact, role, metric or tool of the work",260;260;210;210;210;170;210;210;210;210;320;210,1.01,no,,,tools
+agile user story card template,user story template,,170,,0,22,informational,template,yes,"names a method, artifact, role, metric or tool of the work",70;90;170;170;210;210;210;260;260;90;40;140,0.82,yes,,,templates
+brother rice football score tonight,rice score,,170,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",260;390;1000;170;10;10;10;10;0;0;0;210,0.13,yes,,,tools
+design resources group,design resources,,170,,0.03,0,navigational,define,partial,no field word and no other-world word,210;210;170;170;170;210;170;170;210;170;140;170,0.81,no,,,links
+design trade resources,design resources,,170,8.2,0.07,8,informational,define,partial,no field word and no other-world word,260;210;140;140;170;210;210;170;170;210;170;170,0.90,no,,,links
+fast prototyping tools,prototyping tools,,170,25.77,0.18,11,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;170;210;140;140;210;170;140;170;90;70;50,0.22,yes,,,links
+jerry rice score card,rice score,,170,0.06,0.22,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",170;170;140;210;210;210;210;210;210;170;170;170,1.06,no,,,tools
+product information management tools,product management tools,,170,50.61,0.28,30,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",390;140;90;140;140;140;260;140;170;110;70;170,0.56,yes,,,links
+product management tools jira,product management tools,,170,18.51,0.19,30,navigational,brand,yes,"names a method, artifact, role, metric or tool of the work",320;320;260;210;210;210;210;70;40;20;10;40,0.08,yes,brand,brand,links
+quick prototyping tools,prototyping tools,,170,25.77,0.18,18,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;170;210;140;140;210;170;140;170;90;70;50,0.22,yes,,,links
+rapid prototyping tools,prototyping tools,,170,25.77,0.18,10,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",590;170;210;140;140;210;170;140;170;90;70;50,0.22,yes,,,links
+rice baseball score,rice score,,170,,0,7,informational,define,yes,"names a method, artifact, role, metric or tool of the work",10;10;10;10;10;720;320;480;590;10;10;10,1.00,yes,,,tools
+rice owls baseball score,rice score,,170,,0,7,informational,other,yes,"names a method, artifact, role, metric or tool of the work",10;10;10;10;10;720;320;480;590;10;10;10,1.00,yes,,,tools
+sample size for statistical significance calculator,sample size calculator,,170,,0,43,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+sample size significance calculator,sample size calculator,,170,,0,43,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+sample size statistical significance calculator,sample size calculator,,170,,0,48,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+score jerry rice card,rice score,,170,0.06,0.22,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",170;170;140;210;210;210;210;210;210;170;170;170,1.06,no,,,tools
+significant sample size calculator,sample size calculator,,170,,0,39,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+statistical significance calculator sample size,sample size calculator,,170,,0,43,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+statistically relevant sample size calculator,sample size calculator,,170,,0,48,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+statistically significant sample size calculator,sample size calculator,,170,,0,43,informational,tool,partial,no field word and no other-world word,210;210;170;110;140;170;210;110;170;110;90;90,0.49,yes,,,tools
+tools for rapid prototyping,prototyping tools,,170,25.77,0.18,16,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;170;210;140;140;210;170;140;170;90;70;50,0.22,yes,,,links
+ux test tools,ux tools,,170,25.39,0.67,30,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",390;390;260;210;170;70;140;110;90;30;40;30,0.10,yes,,,links
+ux testing tools,ux tools,,170,25.39,0.67,13,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",390;390;260;210;170;70;140;110;90;30;40;30,0.10,yes,,,links
+what does the rice purity score mean,rice score,,170,,0,8,informational,define,yes,"names a method, artifact, role, metric or tool of the work",170;170;140;110;110;90;90;110;390;260;170;140,1.19,yes,,,tools
+whats a good rice purity score,rice score,,170,,0,3,informational,other,yes,"names a method, artifact, role, metric or tool of the work",210;210;210;170;170;140;210;170;140;170;210;210,0.94,no,,,tools
+a b test sample size calculator,sample size calculator,,140,23.76,0.18,44,informational,tool,partial,no field word and no other-world word,210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+a b testing sample size calculator,sample size calculator,,140,23.76,0.18,43,informational,tool,partial,no field word and no other-world word,210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+a/b test sample size calculator,sample size calculator,,140,23.76,0.18,43,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+a/b testing sample size calculator,sample size calculator,,140,23.76,0.18,31,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+ab test sample size calculator,ab test calculator;sample size calculator,,140,23.76,0.18,43,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+ab testing sample size calculator,sample size calculator,,140,23.76,0.18,43,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",210;170;110;110;110;140;170;140;110;90;90;70,0.51,yes,,,tools
+best books about ux,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books about ux design,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books for ux,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books for ux design,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books on ux,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books on ux design,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best books ux design,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best product management tools,product management tools,,140,24.19,0.45,1,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",480;140;90;70;110;110;140;170;90;90;50;40,0.25,yes,,,links
+best prototyping tools,prototyping tools,,140,16.15,0.01,22,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",110;50;70;30;50;50;40;70;70;90;170;880,4.96,yes,,,links
+best tools for product management,product management tools,,140,24.19,0.45,1,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",480;140;90;70;110;110;140;170;90;90;50;40,0.25,yes,,,links
+best tools for prototyping,prototyping tools,,140,16.15,0.01,22,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",110;50;70;30;50;50;40;70;70;90;170;880,4.96,yes,,,links
+best ux books,ux books,,140,4.36,0.26,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+best ux design books,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+confluence user story template,user story template,,140,,0,13,navigational,brand,yes,"names a method, artifact, role, metric or tool of the work",30;20;110;110;170;170;170;210;210;140;40;110,1.81,yes,brand,brand,templates
+design resources free,design resources,,140,3.06,0.06,40,informational,define,partial,no field word and no other-world word,170;170;210;170;260;140;90;110;110;110;110;140,0.65,yes,,,links
+free design resources,design resources,,140,3.06,0.06,28,informational,define,partial,no field word and no other-world word,170;170;210;170;260;140;90;110;110;110;110;140,0.65,yes,,,links
+good prototyping tools,prototyping tools,,140,16.15,0.01,22,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",110;50;70;30;50;50;40;70;70;90;170;880,4.96,yes,,,links
+good ux books,ux books,,140,4.36,0.26,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+good ux design books,ux books,,140,4.36,0.26,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+jira user story template,user story template,,140,18.73,0.02,3,informational,brand,yes,"names a method, artifact, role, metric or tool of the work",260;140;70;70;90;140;210;140;140;140;210;110,0.98,yes,brand,brand,templates
+powerpoint product roadmap template,product roadmap template,,140,6.22,0.15,0,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+powerpoint template product roadmap,product roadmap template,,140,6.22,0.15,0,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+product roadmap powerpoint template,product roadmap template,,140,6.22,0.15,0,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+product roadmap ppt template,product roadmap template,,140,6.22,0.15,0,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+product roadmap template powerpoint,product roadmap template,,140,6.22,0.15,0,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+product roadmap template ppt,product roadmap template,,140,6.22,0.15,2,informational,template,yes,"names a method, artifact, role, metric or tool of the work",390;210;140;110;170;110;140;110;90;90;50;50,0.26,yes,,,templates
+rice average sat score,rice score,,140,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;260;170;170;140;70;170;140;110;110;70;110,0.39,yes,,,tools
+rice purity score chart,rice score,,140,,0,2,informational,other,yes,"names a method, artifact, role, metric or tool of the work",210;140;140;110;110;110;140;110;110;110;140;110,0.73,no,,,tools
+user story template confluence,user story template,,140,,0,11,navigational,brand,yes,"names a method, artifact, role, metric or tool of the work",30;20;110;110;170;170;170;210;210;140;40;110,1.81,yes,brand,brand,templates
+user story template jira,user story template,,140,18.73,0.02,2,informational,brand,yes,"names a method, artifact, role, metric or tool of the work",260;140;70;70;90;140;210;140;140;140;210;110,0.98,yes,brand,brand,templates
+ux best books,ux books,,140,4.36,0.26,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",140;170;170;170;140;110;140;110;140;140;170;170,1.00,no,,,books
+what is rice purity score,rice score,,140,0.01,0.01,3,informational,define,yes,"names a method, artifact, role, metric or tool of the work",140;140;170;210;170;140;170;110;90;170;210;70,1.00,yes,,,tools
+ai tools for ux design,ux tools,,110,15.09,0.13,4,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",260;110;170;140;90;110;140;90;110;90;30;50,0.31,yes,,,links
+best tools for ux,ux tools,,110,8.06,0.01,14,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",50;40;40;20;30;40;70;40;40;30;30;720,6.00,yes,,,links
+best tools for ux design,ux tools,,110,8.06,0.01,14,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",50;40;40;20;30;40;70;40;40;30;30;720,6.00,yes,,,links
+best ux design tools,ux tools,,110,8.06,0.01,5,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",50;40;40;20;30;40;70;40;40;30;30;720,6.00,yes,,,links
+best ux tools,ux tools,,110,8.06,0.01,14,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",50;40;40;20;30;40;70;40;40;30;30;720,6.00,yes,,,links
+free product roadmap template,product roadmap template,,110,9.04,0.11,2,informational,template,yes,"names a method, artifact, role, metric or tool of the work",260;90;50;20;70;70;210;170;110;140;90;50,0.70,yes,,,templates
+human resources design,design resources,,110,,0.02,0,informational,define,no,HR and employees,110;140;110;90;170;110;110;110;110;70;70;90,0.64,yes,,,links
+jira roadmap tools,roadmap tools,,110,12.21,0.46,32,informational,brand,yes,"names a method, artifact, role, metric or tool of the work",260;110;70;90;170;110;90;70;90;70;50;70,0.43,yes,brand,brand,links
+minimum sample size calculator,sample size calculator,,110,,0,39,informational,tool,partial,no field word and no other-world word,110;170;170;110;70;110;140;170;90;70;70;40,0.40,yes,,,tools
+optimizely sample size calculator,sample size calculator,,110,,0.03,26,informational,brand,partial,no field word and no other-world word,210;170;110;70;90;70;140;110;90;90;70;50,0.43,yes,brand,brand,tools
+product roadmap free template,product roadmap template,,110,9.04,0.11,15,informational,template,yes,"names a method, artifact, role, metric or tool of the work",260;90;50;20;70;70;210;170;110;140;90;50,0.70,yes,,,templates
+product roadmap template free,product roadmap template,,110,9.04,0.11,15,informational,template,yes,"names a method, artifact, role, metric or tool of the work",260;90;50;20;70;70;210;170;110;140;90;50,0.70,yes,,,templates
+prototyping tools ui,prototyping tools,,110,14.55,0.22,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",170;140;140;70;110;140;170;90;140;50;90;50,0.42,yes,,,links
+prototyping ui tools,prototyping tools,,110,14.55,0.22,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",170;140;140;70;110;140;170;90;140;50;90;50,0.42,yes,,,links
+purity rice score,rice score,,110,,0,7,informational,define,yes,"names a method, artifact, role, metric or tool of the work",110;140;110;140;140;110;90;90;110;90;170;110,1.03,no,,,tools
+rice purity test score scale,rice score,,110,,0,42,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;140;110;110;110;90;110;90;110;70;90;70,0.40,yes,,,tools
+roadmap tools jira,roadmap tools,,110,12.21,0.46,32,informational,brand,yes,"names a method, artifact, role, metric or tool of the work",260;110;70;90;170;110;90;70;90;70;50;70,0.43,yes,brand,brand,links
+safe user story template,user story template,,110,,0,6,informational,template,yes,"names a method, artifact, role, metric or tool of the work",30;30;90;110;140;170;170;210;170;90;50;90,1.53,yes,,,templates
+sample size calculator optimizely,sample size calculator,,110,,0.03,25,informational,brand,partial,no field word and no other-world word,210;170;110;70;90;70;140;110;90;90;70;50,0.43,yes,brand,brand,tools
+ui prototyping tools,prototyping tools,,110,14.55,0.22,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",170;140;140;70;110;140;170;90;140;50;90;50,0.42,yes,,,links
+user interface prototyping tools,prototyping tools,,110,14.55,0.22,26,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",170;140;140;70;110;140;170;90;140;50;90;50,0.42,yes,,,links
+user story example template,user story template,,110,,0.01,8,informational,template,yes,"names a method, artifact, role, metric or tool of the work",50;50;70;110;110;170;210;210;140;50;40;90,1.06,yes,,,templates
+user story template doc,user story template,,110,,0,1,informational,template,yes,"names a method, artifact, role, metric or tool of the work",30;20;70;110;110;140;170;210;210;70;30;110,1.75,yes,,,templates
+user story template document,user story template,,110,,0,9,informational,template,yes,"names a method, artifact, role, metric or tool of the work",30;20;70;110;110;140;170;210;210;70;30;110,1.75,yes,,,templates
+what is a low rice purity score,rice score,,110,,0,3,informational,define,yes,"names a method, artifact, role, metric or tool of the work",90;90;140;140;110;90;90;110;90;90;110;110,0.97,no,,,tools
+whats the average rice purity score,rice score,,110,,0,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",110;140;140;90;90;90;110;90;110;90;140;110,0.87,no,,,tools

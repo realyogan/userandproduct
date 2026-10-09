@@ -1,0 +1,458 @@
+{
+  "id": "10081545-2633-0066-0000-8dea0c36a1c3",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "designresourc.es",
+      "title": "Design Resources — A curated directory of the best design ...",
+      "url": "https://designresourc.es/",
+      "breadcrumb": "https://designresourc.es",
+      "website_name": "Design Resources",
+      "description": "The ultimate collection of digital design resources. Discover the best resources with the library of over 300+ sites and tools. Free forever.",
+      "highlighted": [
+        "The ultimate collection of digital design resources"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Inspiration",
+          "url": "https://designresourc.es/inspiration",
+          "domain": "designresourc.es"
+        },
+        {
+          "type": "link_element",
+          "title": "Jobs",
+          "url": "https://designresourc.es/jobs",
+          "domain": "designresourc.es"
+        },
+        {
+          "type": "link_element",
+          "title": "Blog",
+          "url": "https://designresourc.es/blog",
+          "domain": "designresourc.es"
+        },
+        {
+          "type": "link_element",
+          "title": "About",
+          "url": "https://designresourc.es/about",
+          "domain": "designresourc.es"
+        }
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "Top digital design resources offer `curated tools, asset libraries, and directories` to speed up your creative workflow.[[1]](https://designresourc.es/)[[2]](https://www.adhamdannaway.com/design-resources-library)\n\n### UI & UX Design Tools\n\n- **Figma** : All-in-one browser-based interface design and real-time collaboration tool.\n- **Mobbin** : A massive library of real-world mobile and web app UI design screens for research and inspiration.\n- **[Sketch](https://designresourc.es/)** : A popular vector-based design platform tailored for Mac users building digital interfaces.[[1]](https://designresourc.es/)\n\n### Design Directories & Aggregators\n\n- **Design Resources** : An ultimate collection of top digital design tools, design news, and UI/UX libraries.\n- **[TOOOLS.design](https://www.toools.design/)** : A weekly updated directory featuring over 2,200 tools spanning AI, icons, UX, and branding.\n- **[The Product Design Resources Library](https://www.adhamdannaway.com/design-resources)** : A heavily curated archive by veteran designer Adham Dannaway covering accessibility, fonts, and systems.[[1]](https://www.toools.design/)[[2]](https://designresourc.es/)[[3]](https://www.adhamdannaway.com/design-resources)\n\n### Assets, Mockups & Graphics\n\n- **Unblast** : Free mockups, Photoshop (PSD) templates, vectors, and graphics.\n- **Typewolf** : Independent typography resource showing how fonts look in real-world use.\n- **[Design Bundles](https://designbundles.net/free-design-resources)** : Weekly-updated freebies including cut files, fonts, and vector clipart.\n- **Community Resources** : Most users on [Reddit](https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/) agree that platforms like [Pixels.market](https://pixels.market/) for SVG illustrations and [Pexels](https://www.pexels.com/) for stock photography are essential free additions to a designer's toolkit.[[1]](https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/)[[2]](https://thedsgnblog.com/Resources)[[3]](https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en)[[4]](https://medium.com/@polivoda.design/10-best-design-resources-for-the-work-inspiration-and-education-303bdf49f4f4)[[5]](https://designbundles.net/free-design-resources)\n\nAre you looking for resources in a **specific category** (such as UI/UX, typography, 3D modeling, or brand identity), or do you need **free vs. paid** recommendations?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Top digital design resources offer curated tools, asset libraries, and directories to speed up your creative workflow.",
+          "markdown": "Top digital design resources offer `curated tools, asset libraries, and directories` to speed up your creative workflow.[[1]](https://designresourc.es/)[[2]](https://www.adhamdannaway.com/design-resources-library)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Design Resources",
+              "domain": "designresourc.es",
+              "url": "https://designresourc.es/",
+              "title": "Design Resources",
+              "text": "The ultimate collection of digital design resources. * Figma Design and collaborate all in the browser Design Tools * Mobbin The w..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Adham Dannaway",
+              "domain": "www.adhamdannaway.com",
+              "url": "https://www.adhamdannaway.com/design-resources-library",
+              "title": "The Product Design Resources Library",
+              "text": "These sites compile high-quality assets, templates, and tools to streamline your workflow and enhance your projects. * Designer Da..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "UI & UX Design Tools",
+          "text": "Figma : All-in-one browser-based interface design and real-time collaboration tool. Mobbin : A massive library of real-world mobile and web app UI design screens for research and inspiration. Sketch : A popular vector-based design platform tailored for Mac users building digital interfaces.",
+          "markdown": "- **Figma** : All-in-one browser-based interface design and real-time collaboration tool.\n- **Mobbin** : A massive library of real-world mobile and web app UI design screens for research and inspiration.\n- **[Sketch](https://designresourc.es/)** : A popular vector-based design platform tailored for Mac users building digital interfaces.[[1]](https://designresourc.es/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Sketch",
+              "url": "https://designresourc.es/",
+              "domain": "designresourc.es"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Design Directories & Aggregators",
+          "text": "Design Resources : An ultimate collection of top digital design tools, design news, and UI/UX libraries. TOOOLS.design : A weekly updated directory featuring over 2,200 tools spanning AI, icons, UX, and branding. The Product Design Resources Library : A heavily curated archive by veteran designer Adham Dannaway covering accessibility, fonts, and systems.",
+          "markdown": "- **Design Resources** : An ultimate collection of top digital design tools, design news, and UI/UX libraries.\n- **[TOOOLS.design](https://www.toools.design/)** : A weekly updated directory featuring over 2,200 tools spanning AI, icons, UX, and branding.\n- **[The Product Design Resources Library](https://www.adhamdannaway.com/design-resources)** : A heavily curated archive by veteran designer Adham Dannaway covering accessibility, fonts, and systems.[[1]](https://www.toools.design/)[[2]](https://designresourc.es/)[[3]](https://www.adhamdannaway.com/design-resources)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "TOOOLS.design",
+              "url": "https://www.toools.design/",
+              "domain": "www.toools.design"
+            },
+            {
+              "type": "link_element",
+              "title": "The Product Design Resources Library",
+              "url": "https://www.adhamdannaway.com/design-resources",
+              "domain": "www.adhamdannaway.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "TOOOLS.design",
+              "domain": "www.toools.design",
+              "url": "https://www.toools.design/",
+              "title": "Design Resources & Tools for Designers | TOOOLS.design",
+              "text": "Directory: TOOOLS.design features 2,200+ weekly updated design resources across AI, inspiration, icons, tools, UX, and marketing. ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Adham Dannaway",
+              "domain": "www.adhamdannaway.com",
+              "url": "https://www.adhamdannaway.com/design-resources",
+              "title": "Best Design Resources - The Product Design Resources Library",
+              "text": "The Product Design Resources Library: Curated collection of UX and product design tools from a designer with over two decades of e..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Assets, Mockups & Graphics",
+          "text": "Unblast : Free mockups, Photoshop (PSD) templates, vectors, and graphics. Typewolf : Independent typography resource showing how fonts look in real-world use. Design Bundles : Weekly-updated freebies including cut files, fonts, and vector clipart. Community Resources : Most users on Reddit agree that platforms like Pixels.market for SVG illustrations and Pexels for stock photography are essential free additions to a designer's toolkit.",
+          "markdown": "- **Unblast** : Free mockups, Photoshop (PSD) templates, vectors, and graphics.\n- **Typewolf** : Independent typography resource showing how fonts look in real-world use.\n- **[Design Bundles](https://designbundles.net/free-design-resources)** : Weekly-updated freebies including cut files, fonts, and vector clipart.\n- **Community Resources** : Most users on [Reddit](https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/) agree that platforms like [Pixels.market](https://pixels.market/) for SVG illustrations and [Pexels](https://www.pexels.com/) for stock photography are essential free additions to a designer's toolkit.[[1]](https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/)[[2]](https://thedsgnblog.com/Resources)[[3]](https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en)[[4]](https://medium.com/@polivoda.design/10-best-design-resources-for-the-work-inspiration-and-education-303bdf49f4f4)[[5]](https://designbundles.net/free-design-resources)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Design Bundles",
+              "url": "https://designbundles.net/free-design-resources",
+              "domain": "designbundles.net"
+            },
+            {
+              "type": "link_element",
+              "title": "Reddit",
+              "url": "https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/",
+              "domain": "www.reddit.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Pixels.market",
+              "url": "https://pixels.market/",
+              "domain": "pixels.market"
+            },
+            {
+              "type": "link_element",
+              "title": "Pexels",
+              "url": "https://www.pexels.com/",
+              "domain": "www.pexels.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/",
+              "title": "Some helpful design resources I put together : r/graphic_design - Reddit",
+              "text": "Supplemental Design Resources: Users have contributed additional valuable resources, including pixels.market for over 10,000 free ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "The Design Blog",
+              "domain": "thedsgnblog.com",
+              "url": "https://thedsgnblog.com/Resources",
+              "title": "Resources - The Design Blog - Design Inspiration & More",
+              "text": "Blogs and Inspiration: Abduzeedo, It's Nice That, Typewolf, and others. Books and Magazines: Assouline, Gestalten, Kinfolk, Phaido..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=PxJGG_YFYp4&vl=en",
+              "title": "70 Free Design Resources I Wish I Knew About Sooner",
+              "text": "70 Free Design Resources I Wish I Knew About Sooner there are so many design tools and resources that I use now that would have sa..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "medium.com",
+              "url": "https://medium.com/@polivoda.design/10-best-design-resources-for-the-work-inspiration-and-education-303bdf49f4f4",
+              "title": "10 best design resources for the work, inspiration and education.",
+              "text": "10 best design resources for the work, inspiration and education. * uxdatabase.io * mymind.com * designspiration.com * erase.bg * ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Design Bundles",
+              "domain": "designbundles.net",
+              "url": "https://designbundles.net/free-design-resources",
+              "title": "Free Design Resources | Design Bundles",
+              "text": "Free Design Resources: Instant downloadable designs including fonts (Spoky Spider, Authentic Script, Shine Vibes, Cosmic Imagined,"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking for resources in a specific category (such as UI/UX, typography, 3D modeling, or brand identity), or do you need free vs. paid recommendations?",
+          "markdown": "Are you looking for resources in a **specific category** (such as UI/UX, typography, 3D modeling, or brand identity), or do you need **free vs. paid** recommendations?"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.toools.design",
+      "title": "TOOOLS.design: Design Resources & Tools for Designers",
+      "url": "https://www.toools.design/",
+      "breadcrumb": "https://www.toools.design",
+      "website_name": "TOOOLS.design",
+      "description": "A growing directory of 2200+ design resources and tools, weekly updated for the community. Discover highly useful design tools you never thought existed.",
+      "highlighted": [
+        "2200+ design resources and tools"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Some helpful design resources I put together",
+      "url": "https://www.reddit.com/r/graphic_design/comments/12h8lmh/some_helpful_design_resources_i_put_together/",
+      "breadcrumb": "80+ comments  ·  3 years ago",
+      "website_name": "Reddit · r/graphic_design",
+      "description": "Includes free image sites, free texture sites, free mockup sites, design books, personal and studio design portfolios, advertising agencies and ... Read more",
+      "highlighted": [
+        "free image sites, free texture sites, free mockup sites"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Free design resources : r/graphic_design - Reddit",
+          "url": "https://www.reddit.com/r/graphic_design/comments/veb3i8/free_design_resources/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Free and affordable design resources I actually use ...",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1nqveyh/free_and_affordable_design_resources_i_actually/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=design+resources+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntZvRmlhpbfjxyYrjwYjGwL-aDGcg:1791474341860&sa=X&ved=2ahUKEwiZ9ZT-4aqXAxXiIbkGHeLtD64QrQIoAnoECCMQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntZvRmlhpbfjxyYrjwYjGwL-aDGcg:1791474341860&q=design+resources&udm=2&source=univ&fir=JUl8utqQp_ElkM%252Cda-jIcaUMZkggM%252C_%253BRB_JWmVn0GQ5RM%252C2Mz5acBlZOaEJM%252C_%253BYpZqmhwbBK0RuM%252CGXWkB1A2EWH9JM%252C_%253BycgLZjEUsL5CBM%252CWYkDQY1EU8qFRM%252C_%253BrRijs1b93xOGRM%252CXaykRWz8V-XD8M%252C_%253BTQiXhUbdvKch9M%252CiC3LeE4oAwEPfM%252C_%253B25Ts8ImiR0b4gM%252CAVs6boJr18BvnM%252C_%253BdG7YeqjTKrkvfM%252CMmxOxcZS9BhP4M%252C_%253BX40Kk_cnD0WsfM%252CQxWy-DaWYT2nRM%252C_%253BRXFdcJnyH6efVM%252CYHUwO_uzXhH07M%252C_%253Bw_wHzBRt2K4J8M%252C-0mMiAYjQm8yjM%252C_%253B1mxBh40E3bnGVM%252Cbzg207ZFMyzdgM%252C_&usg=AI4_-kQE87eLyROSHhi5PRWxbgFioQRjNg&sa=X&ved=2ahUKEwiZ9ZT-4aqXAxXiIbkGHeLtD64Q7Al6BAgYEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "How To Search For HIGH QUALITY DESIGN RESOURCES For Your Design Projects",
+          "url": "https://www.youtube.com/watch?v=laOX2Zx0Ul0",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:0"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 26 Graphic Design Resources - Designity",
+          "url": "https://www.designity.com/blog/top-25-graphic-design-resources",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:1"
+        },
+        {
+          "type": "images_element",
+          "alt": "25 graphic design resources everyone needs to know about ...",
+          "url": "https://99designs.com/blog/design-resources/graphic-design-resources/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:2"
+        },
+        {
+          "type": "images_element",
+          "alt": "Free Graphic Design Resources Every Student Should Know ...",
+          "url": "https://www.onlinedesignteacher.com/2016/08/free-graphic-design-resources-every.html",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:3"
+        },
+        {
+          "type": "images_element",
+          "alt": "18 FREE Graphic Design Resources for Instructional Designers ...",
+          "url": "https://scissortailcs.com/18-free-graphic-design-resources-for-instructional-designers/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:4"
+        },
+        {
+          "type": "images_element",
+          "alt": "15+ Best Websites to Explore and Download Free Design ...",
+          "url": "https://lineicons.com/blog/design-resources",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-8dea0c36a1c3:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "Design Resources, Inc. | LinkedIn",
+          "url": "https://www.linkedin.com/company/design-resources-inc-",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFBBwaL1Xnu2ejLbo_S6RoRM4v5yhF3pm1ryQ89HrOlciOvzQuKUweBiA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Best design resources for every creative type - WeAreBrain",
+          "url": "https://wearebrain.com/blog/best-design-resources-for-every-creative-type/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgF9FD1ARbU5fmFda_zy8XQHb-UJfn4RosiFO56C8_awsd7orYOJLdeY&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "10 Best Free Design Resources (FREE DOWNLOADS!)",
+          "url": "https://www.youtube.com/watch?v=TE2YZPeA1ls",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu3eg05NB9ggG6YfYrbkTb6JmFzXLqYJwaXAEDy3Bosg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "15 Best, Mostly Free Design Resources: After Curating Over ...",
+          "url": "https://www.toools.design/blog-posts/15-best-free-design-resources-after-curating-over-1500-tools",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eeejSzTtsGD6lepV3STPd7jZSrex-Rxq8dH-kE4t2lvqnqQtNCnWG9A&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Must-Have Graphic Design Resources for Every Designer - GDJ",
+          "url": "https://graphicdesignjunction.com/2025/07/graphic-design-resources/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr1auN7_v8UK6GaMUvSmw0Gguflz170tOO2vFPv2KXlriAhAtNbXzNC2U&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The 33 Best FREE Graphic Design Resources in 2024!",
+          "url": "https://www.waveindex.com/blogs/letters/best-free-graphic-design-resources?srsltid=AU7gw4UQsXX9L2rExNxLhI90MYx6K_an0lTuYWgNLCt2tbYhDW0cYLYr",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1FBe8q0RT67F_iflM--lqbwU_3yQpN8H62UPVVoit9WUvrgQGPHnTNlY&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "10 best design resources for the work, inspiration and ...",
+      "url": "https://medium.com/@polivoda.design/10-best-design-resources-for-the-work-inspiration-and-education-303bdf49f4f4",
+      "breadcrumb": "130+ likes  ·  3 years ago",
+      "website_name": "Medium · Stanislav Polivoda",
+      "description": "uxdatabase.io. It is essentially a collection of lectures on learning UX design. One of the best I've seen on the web. 100% free. Perfect for ... Read more",
+      "highlighted": [
+        "uxdatabase.io"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://medium.com/@polivoda.design/10-best-design-resources-for-the-work-inspiration-and-education-303bdf49f4f4#:~:text=uxdatabase.io,free.%20Perfect%20for%20the%20begginers.",
+          "domain": "medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "freedesignresources.net",
+      "title": "Free Design Resources – Daily Freebies for Creatives",
+      "url": "https://freedesignresources.net/",
+      "breadcrumb": "https://freedesignresources.net",
+      "website_name": "Free Design Resources",
+      "description": "High quality design resources for free. Crafted with love from amazing artists and professional designers around the world, ranging from fonts, mockups, ... Read more",
+      "highlighted": [
+        "High quality design resources for free"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://freedesignresources.net/#:~:text=High%20quality%20design%20resources%20for,mockups%2C%20graphics%2C%20templates%20%26%20more.",
+          "domain": "freedesignresources.net"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "thedsgnblog.com",
+      "title": "Resources - The Design Blog - Design Inspiration & More",
+      "url": "https://thedsgnblog.com/Resources",
+      "breadcrumb": "https://thedsgnblog.com › Resources",
+      "website_name": "The Design Blog",
+      "description": "We highlight and uplift interesting works, ideas, and voices within the creative industry, ranging from graphic design and branding to art, interior, product ... Read more",
+      "highlighted": [
+        "graphic design and branding"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://thedsgnblog.com/Resources#:~:text=We%20highlight%20and%20uplift%20interesting,design%2C%20digital%2C%20and%20web%20experiences.",
+          "domain": "thedsgnblog.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.designkit.org",
+      "title": "Design Kit",
+      "url": "https://www.designkit.org/",
+      "breadcrumb": "https://www.designkit.org",
+      "website_name": "Human Centered Design Kit",
+      "description": "Design Kit is IDEO.org&#39;s platform to learn human-centered design, 32 design exercises to spark creativity and collaboration. Now available on Amazon. step- ...",
+      "highlighted": [
+        "Design Kit"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "resourceboy.com",
+      "title": "Resource Boy - Free Graphic Design Resources / Assets",
+      "url": "https://resourceboy.com/",
+      "breadcrumb": "https://resourceboy.com",
+      "website_name": "Resource Boy",
+      "description": "Download free, best graphic design resource & creative assets: fonts, mockups, textures, templates, and Photoshop add-ons.",
+      "highlighted": [
+        "Download free, best graphic design resource"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "items": [
+        "Graphic design resources",
+        "Design resources free",
+        "Graphic design resources free download",
+        "Design resources meaning",
+        "Design resources website",
+        "Design resources list",
+        "Design resources Apple",
+        "Free design resources for commercial use"
+      ]
+    }
+  ]
+}

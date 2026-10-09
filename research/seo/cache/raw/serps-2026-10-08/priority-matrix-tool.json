@@ -1,0 +1,289 @@
+{
+  "id": "10081545-2633-0066-0000-dc5f05c3f9d5",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "marketplace.microsoft.com",
+      "title": "Priority Matrix",
+      "url": "https://marketplace.microsoft.com/fr-fr/product/saas/wa104382005?tab=overview",
+      "breadcrumb": "https://marketplace.microsoft.com › fr-fr › product › saas",
+      "website_name": "Microsoft Marketplace",
+      "description": "Priority Matrix is a full-featured project management solution that integrates deeply into Microsoft Teams, Outlook and Microsoft 365. Read more",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 336,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "Priority Matrix"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://marketplace.microsoft.com/fr-fr/product/saas/wa104382005?tab=overview#:~:text=Priority%20Matrix%20is%20a%20full-featured,Teams%2C%20Outlook%20and%20Microsoft%20365.",
+          "domain": "marketplace.microsoft.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "webcatalog.io",
+      "title": "Priority Matrix - Desktop & Mobile App",
+      "url": "https://webcatalog.io/en/apps/priority-matrix",
+      "breadcrumb": "https://webcatalog.io › apps › priority-matrix",
+      "website_name": "WebCatalog",
+      "description": "Priority Matrix is a task management app utilizing the Eisenhower Method to prioritize and track individual and team projects, integrated with Microsoft tools. Read more",
+      "highlighted": [
+        "Priority Matrix"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://webcatalog.io/en/apps/priority-matrix#:~:text=Priority%20Matrix%20is%20a%20task,projects%2C%20integrated%20with%20Microsoft%20tools.",
+          "domain": "webcatalog.io"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How can I create a prioritization matrix in Excel?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a priority matrix?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is there an app for the Eisenhower Matrix?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a good tool to prioritize tasks?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "I built a free tool that turns a brain-dump into a priority ...",
+      "url": "https://www.reddit.com/r/ProductivityApps/comments/1utx0h8/i_built_a_free_tool_that_turns_a_braindump_into_a/",
+      "breadcrumb": "8 comments  ·  2 months ago",
+      "website_name": "Reddit · r/ProductivityApps",
+      "description": "So I built the thing I personally needed: open it, dump everything out of my head, drag each item into urgent vs important, done. No account, no ... Read more",
+      "highlighted": [
+        "dump everything out of my head, drag each item into urgent vs important"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.reddit.com/r/ProductivityApps/comments/1utx0h8/i_built_a_free_tool_that_turns_a_braindump_into_a/#:~:text=So%20I%20built%20the%20thing,no%20config%2C%20no%20learning%20curve.",
+          "domain": "www.reddit.com"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "items": [
+        {
+          "type": "video_element",
+          "source": "YouTube · Priority Matrix",
+          "title": "Introduction to Priority Matrix June 25, 2025",
+          "timestamp": "2025-06-26 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=Jhg-OBqODvA"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Priority Matrix",
+          "title": "Introduction to Priority Matrix Nov 13, 2024",
+          "timestamp": "2024-11-13 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=GyQ-_ZKSyFM"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Priority Matrix",
+          "title": "Crash Course in Priority Matrix",
+          "timestamp": "2024-12-04 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=1EwIKUaSbBw"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Priority Matrix",
+          "title": "Introduction to Priority Matrix May 28 2025",
+          "timestamp": "2025-05-29 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=O6gCOlI2vbA"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "learningloop.io",
+      "title": "Action Priority Matrix - Learning Loop",
+      "url": "https://learningloop.io/glossary/action-priority-matrix",
+      "breadcrumb": "https://learningloop.io › glossary › action-priority-matrix",
+      "website_name": "learningloop.io",
+      "description": "The Action Priority Matrix is a tool used to prioritize tasks and activities based on their importance and urgency. It is a four-quadrant matrix",
+      "highlighted": [
+        "a tool used to prioritize tasks and activities"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "appfluence.com",
+      "title": "GTD Templates for Priority Matrix",
+      "url": "https://appfluence.com/productivity/gtd-templates-for-priority-matrix/",
+      "breadcrumb": "https://appfluence.com › Blog",
+      "website_name": "Priority Matrix",
+      "description": "Priority Matrix, on the other hand, is an ultra flexible easy to use tool to manage priorities. Priority Matrix (iPad, iPhone, Mac, Windows).",
+      "highlighted": [
+        "Priority Matrix"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "fluidwave.com",
+      "title": "Free Project Priority Matrix Template",
+      "url": "https://fluidwave.com/blog/project-priority-matrix-template",
+      "breadcrumb": "https://fluidwave.com › blog › project-priority-matrix-t...",
+      "website_name": "Fluidwave",
+      "description": "Jun 5, 2025 — Use our free project priority matrix template to prioritize tasks, reduce decision fatigue, and keep teams focused on what matters most. Read more",
+      "pre_snippet": "06/05/2025 00:00:00",
+      "highlighted": [
+        "Use our free project priority matrix template"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://fluidwave.com/blog/project-priority-matrix-template#:~:text=Use%20our%20free%20project%20priority,focused%20on%20what%20matters%20most.",
+          "domain": "fluidwave.com"
+        }
+      ],
+      "timestamp": "2025-06-05 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "Introduction to Priority Matrix May 2nd, 2024",
+      "url": "https://www.youtube.com/watch?v=qNS1_IbH1vI",
+      "breadcrumb": "450+ views  ·  2 years ago",
+      "website_name": "YouTube · Priority Matrix",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2024-05-02 00:00:00 +00:00"
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "The Eisenhower Matrix is the most recommended prioritization tool",
+          "url": "https://www.linkedin.com/posts/timebydesign_the-eisenhower-matrix-is-the-most-recommended-activity-7274758358404943872-STqs",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:41 +00:00"
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Ever heard of the Eisenhower Matrix? | Dennis Geelen",
+          "url": "https://www.linkedin.com/posts/dennis-geelen_ever-heard-of-the-eisenhower-matrix-it-activity-7315403766839549954-zyNI",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:41 +00:00"
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Prioritization matrix - a productivity tool that really works for me, a person ...",
+          "url": "https://www.reddit.com/r/bujo/comments/ekgf5j/prioritization_matrix_a_productivity_tool_that/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2020-10-08 15:45:41 +00:00",
+          "posts_count": 20
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Priority matrix tool pdf",
+        "Priority matrix tool excel",
+        "Priority matrix tool free"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "id": "10081545-2633-0066-0000-7007fea931f9",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "Top Agile books `help teams and leaders learn iterative project management, Scrum, and adaptive product delivery`.\n\n### Essential Agile and Scrum Books\n\n- **\"Scrum: The Art of Doing Twice the Work in Half the Time \" by Jeff Sutherland** : Focuses on high performance, collaboration, and removing waste from complex projects.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)\n- **\"Agile Project Management with Scrum \" by Ken Schwaber** : Explains practical rules and patterns for applying Scrum at the team level.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)\n- **\"Essential Scrum \" by Kenneth S. Rubin** : Provides a visual, comprehensive reference guide to Scrum roles, artifacts, and events.[[1]](https://www.youtube.com/watch?v=bH37noPo9zQ)\n- **\"The Agile Samurai \" by Jonathan Rasmusson** : Offers a light, story-driven introduction to Agile delivery rituals and planning for smaller teams.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)\n\n### Planning and Practice Guides\n\n- **\"Agile Estimating and Planning \" by Mike Cohn** : Details how to estimate user stories, schedule releases, and track velocity accurately.[[1]](https://www.goodreads.com/shelf/show/agile)\n- **\"User Story Mapping \" by Jeff Patton** : Teaches how to build product backlogs that focus on user needs rather than just features.[[1]](https://www.goodreads.com/shelf/show/agile)\n- **\"Agile Practice Guide \" by Project Management Institute** : Offers a framework-neutral guide created with the [Agile Alliance](https://agilealliance.org/resources/books/) for predictive, agile, and hybrid projects. You can also browse further recommendations via the Agile Bookstore.[[1]](https://agilealliance.org/resources/books/)[[2]](https://www.pmi.org/standards/agile)\n\nTo help narrow down the best book for you, tell me:\n\n- Are you a **beginner** , a **Scrum Master** , or an **enterprise leader**?\n- Are you looking for **team-level processes** or **large-scale transformation**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Top Agile books help teams and leaders learn iterative project management, Scrum, and adaptive product delivery.",
+          "markdown": "Top Agile books `help teams and leaders learn iterative project management, Scrum, and adaptive product delivery`."
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Essential Agile and Scrum Books",
+          "text": "\" Scrum: The Art of Doing Twice the Work in Half the Time \" by Jeff Sutherland : Focuses on high performance, collaboration, and removing waste from complex projects. \" Agile Project Management with Scrum \" by Ken Schwaber : Explains practical rules and patterns for applying Scrum at the team level. \" Essential Scrum \" by Kenneth S. Rubin : Provides a visual, comprehensive reference guide to Scrum roles, artifacts, and events. \" The Agile Samurai \" by Jonathan Rasmusson : Offers a light, story-driven introduction to Agile delivery rituals and planning for smaller teams.",
+          "markdown": "- **\"Scrum: The Art of Doing Twice the Work in Half the Time \" by Jeff Sutherland** : Focuses on high performance, collaboration, and removing waste from complex projects.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)\n- **\"Agile Project Management with Scrum \" by Ken Schwaber** : Explains practical rules and patterns for applying Scrum at the team level.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)\n- **\"Essential Scrum \" by Kenneth S. Rubin** : Provides a visual, comprehensive reference guide to Scrum roles, artifacts, and events.[[1]](https://www.youtube.com/watch?v=bH37noPo9zQ)\n- **\"The Agile Samurai \" by Jonathan Rasmusson** : Offers a light, story-driven introduction to Agile delivery rituals and planning for smaller teams.[[1]](https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "www.projectmanagertemplate.com",
+              "domain": "www.projectmanagertemplate.com",
+              "url": "https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility",
+              "title": "Agile Methodology Books That Shape Business Agility",
+              "text": "These are the books that define Agile's core values and principles essential for any organization embarking on or deepening its Ag..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=bH37noPo9zQ",
+              "title": "Agile Book Recommendations for Scrum Masters",
+              "text": "Agile Book Recommendations for Scrum Masters - YouTube This content isn't available. Are you looking to deepen your knowledge of a..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Planning and Practice Guides",
+          "text": "\" Agile Estimating and Planning \" by Mike Cohn : Details how to estimate user stories, schedule releases, and track velocity accurately. \" User Story Mapping \" by Jeff Patton : Teaches how to build product backlogs that focus on user needs rather than just features. \" Agile Practice Guide \" by Project Management Institute : Offers a framework-neutral guide created with the Agile Alliance for predictive, agile, and hybrid projects. You can also browse further recommendations via the Agile Bookstore.",
+          "markdown": "- **\"Agile Estimating and Planning \" by Mike Cohn** : Details how to estimate user stories, schedule releases, and track velocity accurately.[[1]](https://www.goodreads.com/shelf/show/agile)\n- **\"User Story Mapping \" by Jeff Patton** : Teaches how to build product backlogs that focus on user needs rather than just features.[[1]](https://www.goodreads.com/shelf/show/agile)\n- **\"Agile Practice Guide \" by Project Management Institute** : Offers a framework-neutral guide created with the [Agile Alliance](https://agilealliance.org/resources/books/) for predictive, agile, and hybrid projects. You can also browse further recommendations via the Agile Bookstore.[[1]](https://agilealliance.org/resources/books/)[[2]](https://www.pmi.org/standards/agile)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Agile Alliance",
+              "url": "https://agilealliance.org/resources/books/",
+              "domain": "agilealliance.org"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Goodreads",
+              "domain": "www.goodreads.com",
+              "url": "https://www.goodreads.com/shelf/show/agile",
+              "title": "Popular Agile Books",
+              "text": "Agile and Lean Books: Agile Retrospectives (Esther Derby); Coaching Agile Teams (Lyssa Adkins); Agile Estimating and Planning, Use..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Agile Alliance",
+              "domain": "agilealliance.org",
+              "url": "https://agilealliance.org/resources/books/",
+              "title": "Agile Bookstore | Agile Alliance",
+              "text": "Catalog: Agile Alliance member-submitted and recommended books covering Scrum, Kanban, SAFe, Lean, DevOps, AI, product management,"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Project Management Institute",
+              "domain": "www.pmi.org",
+              "url": "https://www.pmi.org/standards/agile",
+              "title": "Agile Practice Guide | Project Management Institute - PMI",
+              "text": "The Agile Practice Guide – Second Edition provides a framework-neutral guide to modern agile practice, created in collaboration wi..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "To help narrow down the best book for you, tell me:Are you a beginner, a Scrum Master, or an enterprise leader ?\nAre you looking for team-level processes or large-scale transformation ?",
+          "markdown": "To help narrow down the best book for you, tell me:\n\n- Are you a **beginner** , a **Scrum Master** , or an **enterprise leader**?\n- Are you looking for **team-level processes** or **large-scale transformation**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Agile Alliance",
+          "domain": "agilealliance.org",
+          "url": "https://agilealliance.org/resources/books/",
+          "title": "Agile Bookstore | Agile Alliance",
+          "text": "Catalog: Agile Alliance member-submitted and recommended books covering Scrum, Kanban, SAFe, Lean, DevOps, AI, product management,"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=bH37noPo9zQ",
+          "title": "Agile Book Recommendations for Scrum Masters",
+          "text": "Agile Book Recommendations for Scrum Masters - YouTube This content isn't available. Are you looking to deepen your knowledge of a..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Goodreads",
+          "domain": "www.goodreads.com",
+          "url": "https://www.goodreads.com/shelf/show/agile",
+          "title": "Popular Agile Books",
+          "text": "Agile and Lean Books: Agile Retrospectives (Esther Derby); Coaching Agile Teams (Lyssa Adkins); Agile Estimating and Planning, Use..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.projectmanagertemplate.com",
+          "domain": "www.projectmanagertemplate.com",
+          "url": "https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility",
+          "title": "Agile Methodology Books That Shape Business Agility",
+          "text": "These are the books that define Agile's core values and principles essential for any organization embarking on or deepening its Ag..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Project Management Institute",
+          "domain": "www.pmi.org",
+          "url": "https://www.pmi.org/standards/agile",
+          "title": "Agile Practice Guide | Project Management Institute - PMI",
+          "text": "The Agile Practice Guide – Second Edition provides a framework-neutral guide to modern agile practice, created in collaboration wi..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Could you list out some of the best books which helped in ...",
+      "url": "https://www.reddit.com/r/agile/comments/urkhwu/could_you_list_out_some_of_the_best_books_which/",
+      "breadcrumb": "10+ comments  ·  4 years ago",
+      "website_name": "Reddit · r/agile",
+      "description": "James Shore's The Art of Agile Development (2nd Edition) has a good collection of practices that enable agility. It's built around the Agile ... Read more",
+      "highlighted": [
+        "James Shore's The Art of Agile Development"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Best books/reads to learn the foundations of Agile? - Reddit",
+          "url": "https://www.reddit.com/r/agile/comments/n9etgx/best_booksreads_to_learn_the_foundations_of_agile/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Best advanced agile book/course - Reddit",
+          "url": "https://www.reddit.com/r/agile/comments/1cxc82b/best_advanced_agile_bookcourse/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=agile+books+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvHF5VQlqPcVlAds7c4_BNU2JCA3Q:1791474342498&sa=X&ved=2ahUKEwjwzrv-4aqXAxWH-LsIHcHSB9IQrQIoAnoECBsQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "agilealliance.org",
+      "title": "Agile Bookstore",
+      "url": "https://agilealliance.org/resources/books/",
+      "breadcrumb": "https://agilealliance.org › Resources",
+      "website_name": "Agile Alliance",
+      "description": "Welcome to the Agile Bookstore! Browse our selection of Agile-related books, either written by members of the Alliance or recommended by our community.",
+      "highlighted": [
+        "Browse our selection of Agile-related books"
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "Agile Practice Guide",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:0",
+          "price": {
+            "current": 49,
+            "currency": "USD",
+            "displayed_price": "$49.00"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 33,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "3727299373472540412",
+            "data_docid": "18093680305155823446",
+            "gid": "11633366314421832135"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Age of Agile (Ebook)",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:1",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 2,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "7681652862748269419",
+            "data_docid": "3904151907834845409",
+            "gid": "3465998302371061982"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Agile : 2 BOOKS IN 1. Agile Project Management + Scrum. The Ultimate Beginner's Bundle to Learn Step by Step Software Development With Agile and Scrum",
+          "description": "Walmart & more",
+          "more_sellers": true,
+          "seller": "Walmart",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:2",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "8747817285964604961",
+            "data_docid": "18082405598302574066",
+            "gid": "3284784592404346264"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Agile Practice Guide - Second Edition (Arabic)",
+          "description": "Barnes & Noble - NOOK & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - NOOK",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:3",
+          "price": {
+            "current": 49,
+            "currency": "USD",
+            "displayed_price": "$49.00"
+          },
+          "product_identifiers": {
+            "product_id": "15894809028321093503",
+            "data_docid": "9127240780890551113",
+            "gid": "2478176564450237715"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Agile Product Management with Scrum: Creating Products that Customers Love",
+          "description": "Pearson.com & more",
+          "more_sellers": true,
+          "seller": "Pearson.com",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:4",
+          "price": {
+            "current": 39.99,
+            "currency": "USD",
+            "displayed_price": "$39.99"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 4,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "15023029985368417247",
+            "data_docid": "15078468553829792015",
+            "gid": "8832109813922773160"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Agile L&D : A Toolkit to Improve Organizational Learning and Drive Performance",
+          "description": "Target & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:5",
+          "price": {
+            "current": 37.99,
+            "currency": "USD",
+            "displayed_price": "$37.99"
+          },
+          "product_identifiers": {
+            "product_id": "9306229344388036344",
+            "data_docid": "5846303468204274856",
+            "gid": "4565840923334656507"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Fundamentals of Agile",
+          "description": "Barnes & Noble - NOOK & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - NOOK",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:6",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "7405037296514255099",
+            "data_docid": "8447993800718679239",
+            "gid": "5385575215396829677"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Agile Retrospectives, Second Edition: A Practical Guide for Catalyzing Team Learning and Improvement by Esther Derby (Paperback)",
+          "description": "Barnes & Noble & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-7007fea931f9:7",
+          "price": {
+            "current": 54.34,
+            "currency": "USD",
+            "displayed_price": "$54.34"
+          },
+          "product_identifiers": {
+            "product_id": "8423742659525515509",
+            "data_docid": "349756920492013983",
+            "gid": "14778009801615436573"
+          }
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best book on Agile?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is Agile still relevant in 2026?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 3-5-3 rule in Agile?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 12 Agile principles?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.goodreads.com",
+      "title": "Popular Agile Books",
+      "url": "https://www.goodreads.com/shelf/show/agile",
+      "breadcrumb": "https://www.goodreads.com › shelf › show › agile",
+      "website_name": "Goodreads",
+      "description": "Essential Scrum: A Practical Guide to the Most Popular Agile Process Kenneth S. Rubin · Agile Product Management with Scrum: Creating Products That Customers ... Read more",
+      "highlighted": [
+        "Essential Scrum: A Practical Guide to the Most Popular Agile Process"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.goodreads.com/shelf/show/agile#:~:text=Want%20to%20Read&text=Want%20to%20Read",
+          "domain": "www.goodreads.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.projectmanagertemplate.com",
+      "title": "Agile Methodology Books That Shape Business Agility",
+      "url": "https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility",
+      "breadcrumb": "https://www.projectmanagertemplate.com › post › agile...",
+      "website_name": "projectmanagertemplate.com",
+      "description": "Nov 4, 2025 — Books for Agile Coaching and Transformation Offices · 1. “Coaching Agile Teams” by Lyssa Adkins - · 2. “The Five Dysfunctions of a Team” by ... Read more",
+      "pre_snippet": "11/04/2025 00:00:00",
+      "price": {
+        "current": 10,
+        "currency": "GBP",
+        "displayed_price": "£10.00"
+      },
+      "highlighted": [
+        "Books for Agile Coaching and Transformation Offices"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.projectmanagertemplate.com/post/agile-methodology-books-that-shape-business-agility#:~:text=Books%20for%20Agile%20Coaching%20and,Transformation%20Offices&text=1.%20%E2%80%9CCoaching%20Agile%20Teams%E2%80%9D%20by,fundamental%20resource%20for%20Agile%20coaches.&text=2.%20%E2%80%9CThe%20Five%20Dysfunctions%20of,book%20for%20understanding%20team%20dynamics.",
+          "domain": "www.projectmanagertemplate.com"
+        }
+      ],
+      "timestamp": "2025-11-04 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "framework.scaledagile.com",
+      "title": "Books",
+      "url": "https://framework.scaledagile.com/books/",
+      "breadcrumb": "https://framework.scaledagile.com › books",
+      "website_name": "Scaled Agile Framework",
+      "description": "Dec 2, 2025 — Books on SAFe · The ART of Avoiding a Train Wreck: Tips and Tricks for Launching and Operating SAFe Agile Release Trains · Output to Outcome. Read more",
+      "pre_snippet": "12/02/2025 00:00:00",
+      "highlighted": [
+        "Books on SAFe"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://framework.scaledagile.com/books/#:~:text=Books%20on%20SAFe&text=The%20ART%20of%20Avoiding%20a,Operating%20SAFe%20Agile%20Release%20Trains&text=Output%20to%20Outcome",
+          "domain": "framework.scaledagile.com"
+        }
+      ],
+      "timestamp": "2025-12-02 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.pmi.org",
+      "title": "Agile Practice Guide | Project Management ...",
+      "url": "https://www.pmi.org/standards/agile",
+      "breadcrumb": "https://www.pmi.org › standards",
+      "website_name": "Project Management Institute",
+      "description": "The Agile Practice Guide provides tools, situational guidelines and an understanding of the various agile approaches available to enable better results.",
+      "highlighted": [
+        "provides tools, situational guidelines and an understanding of the various agile approaches"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "The Art of Agile Development: Pragmatic Guide to ...",
+      "url": "https://www.amazon.com/Art-Agile-Development-Pragmatic-Software/dp/0596527675",
+      "breadcrumb": "https://www.amazon.com › Art-Agile-Development-Prag...",
+      "website_name": "Amazon.com",
+      "description": "The Art of Agile Development contains practical guidance for anyone considering or applying agile development for building valuable software. Read more",
+      "highlighted": [
+        "practical guidance for anyone considering or applying agile development"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.amazon.com/Art-Agile-Development-Pragmatic-Software/dp/0596527675#:~:text=The%20Art%20of%20Agile%20Development,development%20for%20building%20valuable%20software.",
+          "domain": "www.amazon.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.mountaingoatsoftware.com",
+      "title": "Agile and Scrum Books by Mike Cohn",
+      "url": "https://www.mountaingoatsoftware.com/books",
+      "breadcrumb": "https://www.mountaingoatsoftware.com › books",
+      "website_name": "Mountain Goat Software",
+      "description": "Agile books are a great way to advance your agile development and provide you with reference material. Here at Mountain Goat Software we are pleased to ... Read more",
+      "highlighted": [
+        "Agile books are a great way to advance your agile development"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.mountaingoatsoftware.com/books#:~:text=Agile%20books%20are%20a%20great,leading%20agile%20authority%20Mike%20Cohn.",
+          "domain": "www.mountaingoatsoftware.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "www.innovationtraining.org",
+      "title": "Best Books on Agile",
+      "url": "https://www.innovationtraining.org/best-books-on-agile/",
+      "breadcrumb": "https://www.innovationtraining.org › Agile",
+      "website_name": "Innovation Training",
+      "description": "Highly rated books related to agile · 1. Scrum: The Art of Doing Twice the Work in Half the Time · 2. User Story Mapping: Discover the Whole Story, Build the ... Read more",
+      "highlighted": [
+        "1. Scrum: The Art of Doing Twice the Work in Half the Time"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.innovationtraining.org/best-books-on-agile/#:~:text=Highly%20rated%20books%20related%20to,agile&text=1.%20Scrum%3A%20The%20Art%20of,Work%20in%20Half%20the%20Time&text=2.%20User%20Story%20Mapping%3A%20Discover,Story%2C%20Build%20the%20Right%20Product",
+          "domain": "www.innovationtraining.org"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Agile books pdf",
+        "Best agile books",
+        "Agile books for beginners",
+        "Agile books free",
+        "Best agile books 2025",
+        "Agile project management book PDF",
+        "Agile Manifesto",
+        "Agile methodology book"
+      ]
+    }
+  ]
+}

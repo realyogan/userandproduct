@@ -1,0 +1,374 @@
+{
+  "id": "10081545-2633-0066-0000-dad60fc70220",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "uxplanet.org",
+      "title": "Skills",
+      "url": "https://uxplanet.org/all?topic=skills",
+      "breadcrumb": "https://uxplanet.org › all",
+      "website_name": "UX Planet",
+      "description": "UX Planet is a one-stop resource for everything related to user experience. To gain and improve your UI/UX design skills, you need theoretical knowledge and ...",
+      "highlighted": [
+        "UX Planet"
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "![The Complete List of UX Resources &amp; Tools: For Designers, By ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:4)\nTop user experience (UX) resources include `expert research hubs, UI pattern libraries, and curated tool collections for designers at any skill level`.\n\n### Research and Guidelines\n\n- **Nielsen Norman Group:** Read evidence-based usability guidelines and articles from the [Nielsen Norman Group](https://www.nngroup.com/).\n- **Laws of UX:** Learn psychological principles applied to interface design at [Laws of UX](https://lawsofux.com/).\n- **Google PAIR Guidebook:** Explore human-centered AI design patterns in the [PAIR Guidebook by Google](https://pair.withgoogle.com/).[[1]](https://nlevin.medium.com/ux-design-recommendations-8de563c5fbfa)[[2]](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2)\n\n### Curated Collections and Templates\n\n- **The Product Design Trail:** Access curated UI/UX resources, guides, and tools organized into thematic paths via [The Product Design Trail](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2).\n- **UX Planet:** Find beginner-friendly guides, articles, and tool directories on [UX Planet](https://uxplanet.org/150-design-resources-3bd788265e1f).\n- **Design Collections:** Most users on [Reddit](https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/) agree that tools like Are.na are valuable for collecting visual interactions and building mood boards.[[1]](https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/)[[2]](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2)[[3]](https://uxplanet.org/150-design-resources-3bd788265e1f)\n\nIf you let me know your **current skill level** (beginner, intermediate, or advanced) and **what specific area** (research, visual UI design, or job hunting) you want to focus on, I can recommend the best tailored resources for you.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Top user experience (UX) resources include expert research hubs, UI pattern libraries, and curated tool collections for designers at any skill level.",
+          "markdown": "![The Complete List of UX Resources &amp; Tools: For Designers, By ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:2)\nTop user experience (UX) resources include `expert research hubs, UI pattern libraries, and curated tool collections for designers at any skill level`.",
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "The Complete List of UX Resources & Tools: For Designers, By ...",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:3"
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Research and Guidelines",
+          "text": "Nielsen Norman Group: Read evidence-based usability guidelines and articles from the Nielsen Norman Group. Laws of UX: Learn psychological principles applied to interface design at Laws of UX. Google PAIR Guidebook : Explore human-centered AI design patterns in the PAIR Guidebook by Google.",
+          "markdown": "- **Nielsen Norman Group:** Read evidence-based usability guidelines and articles from the [Nielsen Norman Group](https://www.nngroup.com/).\n- **Laws of UX:** Learn psychological principles applied to interface design at [Laws of UX](https://lawsofux.com/).\n- **Google PAIR Guidebook:** Explore human-centered AI design patterns in the [PAIR Guidebook by Google](https://pair.withgoogle.com/).[[1]](https://nlevin.medium.com/ux-design-recommendations-8de563c5fbfa)[[2]](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Nielsen Norman Group",
+              "url": "https://www.nngroup.com/",
+              "domain": "www.nngroup.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Laws of UX",
+              "url": "https://lawsofux.com/",
+              "domain": "lawsofux.com"
+            },
+            {
+              "type": "link_element",
+              "title": "PAIR Guidebook by Google",
+              "url": "https://pair.withgoogle.com/",
+              "domain": "pair.withgoogle.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "nlevin.medium.com",
+              "url": "https://nlevin.medium.com/ux-design-recommendations-8de563c5fbfa",
+              "title": "UX Design Resources & Recommendations",
+              "text": "Resources * Dieter Rams 10 Principles for Good Design — timeless design principles * refactoringui.com/ — great collection of UI t..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Medium",
+              "domain": "medium.com",
+              "url": "https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2",
+              "title": "A Collection of UI/UX Resources: The Product Design Trail | by Karen Tang | Bootcamp | Medium",
+              "text": "Overview: Karen Tang created The Product Design Trail, an evolving public Notion template containing curated UI/UX design resource..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Curated Collections and Templates",
+          "text": "The Product Design Trail: Access curated UI/UX resources, guides, and tools organized into thematic paths via The Product Design Trail. UX Planet: Find beginner-friendly guides, articles, and tool directories on UX Planet. Design Collections: Most users on Reddit agree that tools like Are.na are valuable for collecting visual interactions and building mood boards.",
+          "markdown": "- **The Product Design Trail:** Access curated UI/UX resources, guides, and tools organized into thematic paths via [The Product Design Trail](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2).\n- **UX Planet:** Find beginner-friendly guides, articles, and tool directories on [UX Planet](https://uxplanet.org/150-design-resources-3bd788265e1f).\n- **Design Collections:** Most users on [Reddit](https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/) agree that tools like Are.na are valuable for collecting visual interactions and building mood boards.[[1]](https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/)[[2]](https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2)[[3]](https://uxplanet.org/150-design-resources-3bd788265e1f)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "The Product Design Trail",
+              "url": "https://medium.com/design-bootcamp/a-collection-of-ui-ux-resources-the-product-design-trail-b7876584a2c2",
+              "domain": "medium.com"
+            },
+            {
+              "type": "link_element",
+              "title": "UX Planet",
+              "url": "https://uxplanet.org/150-design-resources-3bd788265e1f",
+              "domain": "uxplanet.org"
+            },
+            {
+              "type": "link_element",
+              "title": "Reddit",
+              "url": "https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/",
+              "domain": "www.reddit.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/UXDesign/comments/1j9kz1s/a_list_of_my_favorite_resources_as_a_designer/",
+              "title": "A list of my favorite resources as a designer : r/UXDesign - Reddit",
+              "text": "Are.na Recommendation: Are.na is recommended as a tool for discovering and building bookmark channels, with one user calling it th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "UX Planet",
+              "domain": "uxplanet.org",
+              "url": "https://uxplanet.org/150-design-resources-3bd788265e1f",
+              "title": "Resources I wish I had when I started learning UX Design | by IRA KAUSHIK | UX Planet",
+              "text": "UX Planet * User Experience (UX) Design. What is UX Design? UX Design Process: UX Design Resources/Blogs you should follow: Things..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you let me know your current skill level (beginner, intermediate, or advanced) and what specific area (research, visual UI design, or job hunting) you want to focus on, I can recommend the best tailored resources for you.",
+          "markdown": "If you let me know your **current skill level** (beginner, intermediate, or advanced) and **what specific area** (research, visual UI design, or job hunting) you want to focus on, I can recommend the best tailored resources for you."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "kini-404.medium.com",
+      "title": "Every UX/UI designer should know these 7 websites - Medium",
+      "url": "https://kini-404.medium.com/every-ux-ui-designer-should-know-these-7-websites-859e848d133a",
+      "breadcrumb": "3 years ago",
+      "website_name": "Medium · abderrahim ait oufassi",
+      "description": "Dive into the world of UX Design, a community-driven platform that serves as a cornucopia of insights into the realm of user experience design. Read more",
+      "highlighted": [
+        "UX Design"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://kini-404.medium.com/every-ux-ui-designer-should-know-these-7-websites-859e848d133a#:~:text=Dive%20into%20the%20world%20of,realm%20of%20user%20experience%20design.",
+          "domain": "kini-404.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnuV9uydIDaN6vVEIFna-PmWhmIlYQ:1791474345131&q=ux+resources&udm=2&source=univ&fir=V4_k2sBfINFS2M%252CO3L497ur_UWEaM%252C_%253BtZtD4NGKj4qpeM%252C-VrY8JRHj8c7KM%252C_%253BQU3Cr8x-WPgWZM%252CteL4nPlICbO8hM%252C_%253BFMeSVzxqZiDd2M%252CPHpFChXxWjk3uM%252C_%253Bti4uM9AOckE7UM%252CGo8yi56NvugJYM%252C_%253Bw-DIWzQ0Y2Zd6M%252CokMGcmNaNXbzHM%252C_%253BYkQtwRSz4_u5zM%252Cv3CGzWxgPjtq5M%252C_%253BU8DGHCM0ifA-GM%252C5ij1hy9VtQ6I9M%252C_%253BnueYqV_7Ie95WM%252C95TDnv2Gk51bEM%252C_&usg=AI4_-kTjshRdZ-hqSxT2q_qXX760pQCZFQ&sa=X&ved=2ahUKEwjpwNz_4aqXAxWW0gIHHeErDNoQ7Al6BAgfEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Top resources every UX designer should know | UserQ",
+          "url": "https://userq.com/top-resources-every-ux-designer-should-know/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX Resources",
+          "url": "https://www.uxresources.io/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "The Complete List of UX Resources & Tools: For Designers, By ...",
+          "url": "https://www.linkedin.com/pulse/complete-list-ux-resources-tools-designers-felix-lee",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-dad60fc70220:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "My UX Resource list. There are hundreds or thousands of UX ...",
+          "url": "https://blog.prototypr.io/my-ux-resource-list-96ab9e36ac24",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnIgVcZ4x7rzNgO5VFkmz8KOeKiXyspEJGfL3D9Z7o2hQvywgz-ShvyB_a5w&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "60+ Useful Resources for UI/UX Designers | Figma",
+          "url": "https://www.figma.com/community/file/1112971727174358110/60-useful-resources-for-ui-ux-designers",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjmMPJ6389ADpynwJG6SBKj9tXWnrj6Jiva0mDa9G8rq7p_ZGA0Jw0iQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "8 Best Design Resources for Every UIUX & Graphic Designer",
+          "url": "https://www.youtube.com/watch?v=Gc62hgsa6cA",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9xu-so81YzsVBGoOMK0jjr828-40-7pX3yUfV9x9E&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top 7 UX and UI resources for better design | Superscript",
+          "url": "https://gosuperscript.com/news-and-resources/top-7-ux-and-ui-tools-to-design-better-products/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzjkzG80mjepdK6AINfo2hAuB0lPXH_LvGgU2oNMYjG-uFbJUmRMnWGE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "30 UX Design Resources You Should Know About | Designlab",
+          "url": "https://designlab.com/blog/30-ux-design-resources-to-know-about-in-2020",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1WoCGxHek-TjgGOUPZDxUH5xekzrRb6FyYk6BjBYs23JbYvMcPJIQO2w&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The Ultimate Guide to UX/UI Design: Everything You Need to ...",
+          "url": "https://www.ironhack.com/us/blog/the-ultimate-guide-to-ux-ui-design-everything-you-need-to-know-to-start-your-care",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgbpuK5_GI9WWl5wUtk8rKaPH9NC0DhWRP8mWsYKcvcy5hNPE6UjPTWKw&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UX getting replaced by AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 7 pillars of UX design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is UX still in demand?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is UX used for?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.udacity.com",
+      "title": "UX Design Courses | User Experience & Design Research",
+      "url": "https://www.udacity.com/course-collection/ux-design",
+      "breadcrumb": "https://www.udacity.com › course-collection › ux-design",
+      "website_name": "Udacity",
+      "description": "Learn UX design with Udacity. Courses cover UX fundamentals, design research, interaction design, web design, and building user-centered digital products ...",
+      "highlighted": [
+        "Learn UX design with Udacity"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.creative-tim.com",
+      "title": "UI/UX Design - Creative Tim's Blog",
+      "url": "https://www.creative-tim.com/blog/uiux-design/",
+      "breadcrumb": "https://www.creative-tim.com › blog › uiux-design",
+      "website_name": "Creative Tim",
+      "description": "Fully coded design resources for web developers. Free & Open-Source Angular Components and Libraries. Help and Support Knowledge Center",
+      "highlighted": [
+        "Free & Open-Source Angular Components and Libraries"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.talentlms.com",
+      "title": "UI/UX Design Archives - TalentLibrary",
+      "url": "https://www.talentlms.com/library/collection/ui-ux-design/",
+      "breadcrumb": "https://www.talentlms.com › Home › Technology",
+      "website_name": "TalentLMS",
+      "description": "Train your teams on understanding how UI/UX design makes products attractive and user-friendly with this online course collection.",
+      "highlighted": [
+        "how UI/UX design makes products attractive and user-friendly"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.upfrontoperations.com",
+      "title": "Click, Scroll, Love – The Best UX Design Websites You Need ...",
+      "url": "https://www.upfrontoperations.com/blog/best-ux-design-websites",
+      "breadcrumb": "https://www.upfrontoperations.com › blog › best-ux-de...",
+      "website_name": "Upfront Operations",
+      "description": "May 16, 2025 — Discover the best ux design websites to inspire your next project. See trends, tips, and expert examples for top-notch use...",
+      "pre_snippet": "05/16/2025 00:00:00",
+      "highlighted": [
+        "best ux design websites"
+      ],
+      "timestamp": "2025-05-16 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.uxpin.com",
+      "title": "Creating A Design System: Recommended Resources",
+      "url": "https://www.uxpin.com/create-design-system-guide/recommended-resources",
+      "breadcrumb": "https://www.uxpin.com › create-design-system-guide › r...",
+      "website_name": "UXPin",
+      "description": "Learn what a design system is, how to create one and how to continually use one through our 12-part guide.",
+      "highlighted": [
+        "Learn what a design system is"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Just wanted to let you all know there are so many free UX ...",
+      "url": "https://www.reddit.com/r/UXDesign/comments/fct4a5/just_wanted_to_let_you_all_know_there_are_so_many/",
+      "breadcrumb": "10+ comments  ·  6 years ago",
+      "website_name": "Reddit · r/UXDesign",
+      "description": "there are so many free UX and UI resources out there. Figma has a free student program that is how I got my pro account free.",
+      "highlighted": [
+        "there are so many free UX and UI resources"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Ux resources examples",
+        "Free ux resources",
+        "Ux resources list"
+      ]
+    }
+  ]
+}

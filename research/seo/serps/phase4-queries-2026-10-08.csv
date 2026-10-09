@@ -1,0 +1,75 @@
+section,keyword,phase,unit_ids
+articles,agile methodology,phase4,u01;u02
+articles,agile project management,phase4,u03
+articles,safe agile framework,phase4,u04
+articles,agile scrum,phase4,u05
+articles,agile manifesto,phase4,u06
+articles,accessibility,phase4,u07;u08
+articles,accessibility 508,phase4,u09
+articles,web content accessibility,phase4,u10
+articles,accessibility checker,phase4,u11
+articles,analytics,phase4,u12
+articles,project management,phase4,u13
+articles,user testing,phase4,u14;u17
+articles,closed-ended questions in research,phase4,u15
+articles,user interviews,phase4,u16
+articles,ux research,phase4,u18
+articles,ui ux design,phase4,u19
+articles,marketing funnel,phase4,u20
+articles,product management,phase4,u21;u22
+articles,product life cycle,phase4,u23
+articles,okr,phase4,u24;u25
+articles,kpi examples,phase4,u26
+articles,design thinking,phase4,u27;u28
+articles,design thinking process,phase4,u29
+articles,pricing strategy,phase4,u30;u31
+articles,dynamic pricing,phase4,u32
+articles,amazon pricing strategy,phase4,u33
+articles,prioritization,phase4,u34;u35
+articles,moscow prioritization,phase4,u36
+articles,task prioritization,phase4,u37
+articles,user stories,phase4,u38;u40
+articles,user stories template,phase4,u39
+articles,acceptance criteria for user stories examples,phase4,u41
+articles,website design,phase4,u42
+articles,customer journey map,phase0,u43;u44
+articles,user persona,phase4,u45
+articles,a/b testing,phase0,u46;u47
+articles,a/b testing tools,phase4,u48
+articles,a/b testing landing pages,phase4,u49
+articles,design system,phase0,u50;u52
+articles,breadcrumbs ui,phase4,u51
+articles,product requirements document,phase4,u53
+articles,4 ps of marketing,phase4,u54
+articles,customer retention,phase4,u55;u58
+articles,calculate retention rate,phase4,u56
+articles,retention rate,phase0,u57
+articles,product manager,phase4,u59;u61
+articles,product owner,phase4,u60
+articles,change management,phase4,u62;u63
+articles,stakeholder management,phase4,u64
+articles,product development,phase4,u65;u67
+articles,product market fit,phase4,u66
+articles,mvp minimum viable product,phase4,u68
+articles,product roadmap,phase0,u69
+articles,information architecture,phase4,u70
+links,ux design tools,phase4,u71
+links,product management tools,phase0,u72
+links,prototyping tools,phase0,u73
+books,design books,phase0,u74
+books,graphic design books,phase4,u75
+books,product management books,phase0,u76
+books,ux books,phase0,u77
+templates,user story template,phase0,u78
+templates,agile user story template,phase4,u79
+templates,product roadmap template,phase0,u80
+tools,sample size calculator,phase4,u81
+tools,power analysis sample size calculator,phase4,u82
+tools,sample size calculator for survey,phase4,u83
+tools,statistical sample size calculator,phase4,u84
+articles,principles of design,phase4,u85
+articles,ai for product managers,phase4,u86;u88
+articles,ai powered design tools,phase4,u87
+articles,marketing research,phase4,u89
+articles,customer experience,phase4,u90
+articles,ux writing,phase4,u91

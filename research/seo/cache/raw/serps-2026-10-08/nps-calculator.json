@@ -1,0 +1,351 @@
+{
+  "id": "10081545-2633-0066-0000-71cd359421f5",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "uk.surveymonkey.com",
+      "title": "NPS Calculator",
+      "url": "https://uk.surveymonkey.com/mp/nps-calculator/?usecase=ektswxflodfasvfdyvi%252525253D",
+      "breadcrumb": "https://uk.surveymonkey.com › nps-calculator",
+      "website_name": "SurveyMonkey",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Learn why",
+          "url": "https://support.google.com/webmasters/answer/7489871?hl=en",
+          "domain": "support.google.com"
+        }
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "You can calculate your Net Promoter Score online using the [Net Promoter Score Calculator](https://npscalculator.com/).[[1]](https://npscalculator.com/)\n\n### The NPS Formula\n\n- **Promoters (Score 9–10):** Loyal enthusiasts who keep buying and refer others.\n- **Passives (Score 7–8):** Satisfied but unenthusiastic customers who can be swayed by competitors.\n- **Detractors (Score 0–6):** Unhappy customers who can damage your brand through negative word-of-mouth.[[1]](https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/)[[2]](https://www.zoho.com/survey/net-promoter-score-calculator.html)[[3]](https://www.surveymonkey.com/learn/customer-feedback/net-promoter-score-calculation/)\n\nNPS=% Promoters−% Detractors[0.6 .2]NPS equals %  Promoters minus %  Detractors open bracket 0.6 .2 close bracket N P S=%P r o m o t e r s−%D e t r a c t o r s[0.6.2]\n\n### How to Calculate Manually\n\n1. **Count responses** in each group (Promoters, Passives, and Detractors).\n2. **Divide** each group's count by the total number of survey responses and multiply by 100 to get percentages.\n3. **Subtract** the percentage of Detractors from the percentage of Promoters.\n4. **Result:** Your score will fall between -100 and +100.[[1]](https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/)\n\nIf you have your **number of Promoters, Passives, and Detractors** , share them here and I can calculate your exact Net Promoter Score for you.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate your Net Promoter Score online using the Net Promoter Score Calculator.",
+          "markdown": "You can calculate your Net Promoter Score online using the [Net Promoter Score Calculator](https://npscalculator.com/).[[1]](https://npscalculator.com/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Net Promoter Score Calculator",
+              "url": "https://npscalculator.com/",
+              "domain": "npscalculator.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Net Promoter Score Calculation | Free Online NPS® Calculator",
+              "domain": "npscalculator.com",
+              "url": "https://npscalculator.com/",
+              "title": "Net Promoter Score Calculation | Free Online NPS® Calculator",
+              "text": "NPS Calculator – Calculate Your Net Promoter Score®. Free Online Net Promoter Score Calculator. Calculate your Net Promoter Score ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "The NPS Formula",
+          "text": "Promoters (Score 9–10): Loyal enthusiasts who keep buying and refer others. Passives (Score 7–8): Satisfied but unenthusiastic customers who can be swayed by competitors. Detractors (Score 0–6): Unhappy customers who can damage your brand through negative word-of-mouth.",
+          "markdown": "- **Promoters (Score 9–10):** Loyal enthusiasts who keep buying and refer others.\n- **Passives (Score 7–8):** Satisfied but unenthusiastic customers who can be swayed by competitors.\n- **Detractors (Score 0–6):** Unhappy customers who can damage your brand through negative word-of-mouth.[[1]](https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/)[[2]](https://www.zoho.com/survey/net-promoter-score-calculator.html)[[3]](https://www.surveymonkey.com/learn/customer-feedback/net-promoter-score-calculation/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "SurveyMonkey",
+              "domain": "www.surveymonkey.com",
+              "url": "https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/",
+              "title": "How To Calculate Your NPS (Net Promoter Score) - SurveyMonkey",
+              "text": "How to calculate NPS. To calculate your Net Promoter Score (NPS): * Start by collecting all your survey responses in one place - s..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Zoho",
+              "domain": "www.zoho.com",
+              "url": "https://www.zoho.com/survey/net-promoter-score-calculator.html",
+              "title": "Free Net Promoter Score (NPS) Calculator | Zoho Survey",
+              "text": "Definition: Net Promoter Score (NPS) measures customer likelihood to recommend a brand. Formula: Percentage of Promoters minus per..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "SurveyMonkey",
+              "domain": "www.surveymonkey.com",
+              "url": "https://www.surveymonkey.com/learn/customer-feedback/net-promoter-score-calculation/",
+              "title": "NPS Calculation: How to Measure Net Promoter Score",
+              "text": "How to calculate and measure Net Promoter Score (NPS) * Next, learn how to calculate your NPS step by step using the NPS formula. ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "NPS = % Promoters − % Detractors [ 0.6.2 ] NPS equals %  Promoters minus %  Detractors open bracket 0.6 .2 close bracket N P S = % P r o m o t e r s − % D e t r a c t o r s [ 0. 6. 2 ]",
+          "markdown": "NPS=% Promoters−% Detractors[0.6 .2]NPS equals %  Promoters minus %  Detractors open bracket 0.6 .2 close bracket N P S=%P r o m o t e r s−%D e t r a c t o r s[0.6.2]"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "How to Calculate Manually",
+          "text": "Count responses in each group (Promoters, Passives, and Detractors). Divide each group's count by the total number of survey responses and multiply by 100 to get percentages. Subtract the percentage of Detractors from the percentage of Promoters. Result: Your score will fall between -100 and +100.",
+          "markdown": "1. **Count responses** in each group (Promoters, Passives, and Detractors).\n2. **Divide** each group's count by the total number of survey responses and multiply by 100 to get percentages.\n3. **Subtract** the percentage of Detractors from the percentage of Promoters.\n4. **Result:** Your score will fall between -100 and +100.[[1]](https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "SurveyMonkey",
+              "domain": "www.surveymonkey.com",
+              "url": "https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/",
+              "title": "How To Calculate Your NPS (Net Promoter Score) - SurveyMonkey",
+              "text": "How to calculate NPS. To calculate your Net Promoter Score (NPS): * Start by collecting all your survey responses in one place - s..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you have your number of Promoters, Passives, and Detractors, share them here and I can calculate your exact Net Promoter Score for you.",
+          "markdown": "If you have your **number of Promoters, Passives, and Detractors** , share them here and I can calculate your exact Net Promoter Score for you."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Net Promoter Score Calculation | Free Online NPS® Calculator",
+          "domain": "npscalculator.com",
+          "url": "https://npscalculator.com/",
+          "title": "Net Promoter Score Calculation | Free Online NPS® Calculator",
+          "text": "NPS Calculator – Calculate Your Net Promoter Score®. Free Online Net Promoter Score Calculator. Calculate your Net Promoter Score ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "SurveyMonkey",
+          "domain": "www.surveymonkey.com",
+          "url": "https://www.surveymonkey.com/learn/customer-feedback/nps-calculator/",
+          "title": "How To Calculate Your NPS (Net Promoter Score) - SurveyMonkey",
+          "text": "How to calculate NPS. To calculate your Net Promoter Score (NPS): * Start by collecting all your survey responses in one place - s..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Zoho",
+          "domain": "www.zoho.com",
+          "url": "https://www.zoho.com/survey/net-promoter-score-calculator.html",
+          "title": "Free Net Promoter Score (NPS) Calculator | Zoho Survey",
+          "text": "Definition: Net Promoter Score (NPS) measures customer likelihood to recommend a brand. Formula: Percentage of Promoters minus per..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "SurveyMonkey",
+          "domain": "www.surveymonkey.com",
+          "url": "https://www.surveymonkey.com/learn/customer-feedback/net-promoter-score-calculation/",
+          "title": "NPS Calculation: How to Measure Net Promoter Score",
+          "text": "How to calculate and measure Net Promoter Score (NPS) * Next, learn how to calculate your NPS step by step using the NPS formula. ..."
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How do you calculate an NPS?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How can I calculate my NPS payout?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the amount of NPS 5000 per month for 20 years?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How to calculate total NPS?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "svacron.com",
+      "title": "National Pension System (NPS) Calculator",
+      "url": "https://svacron.com/nps-calculator",
+      "breadcrumb": "https://svacron.com › nps-calculator",
+      "website_name": "svacron.com",
+      "description": "An NPS calculator helps estimate how regular retirement contributions can grow over time and what pension corpus may be available at retirement. Financial ... Read more",
+      "highlighted": [
+        "An NPS calculator helps estimate how regular retirement contributions can grow over time"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://svacron.com/nps-calculator#:~:text=An%20NPS%20calculator%20helps%20estimate,into%20numbers%20you%20can%20compare.",
+          "domain": "svacron.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.samco.in",
+      "title": "NPS Return & National Pension Scheme Calculator",
+      "url": "https://www.samco.in/calculators/nps-calculator",
+      "breadcrumb": "https://www.samco.in › calculators › nps-calculator",
+      "website_name": "Samco",
+      "description": "An NPS calculator is an online tool that helps you assess how your investments in the National Pension System (NPS) will grow over the investment tenure.",
+      "highlighted": [
+        "An NPS calculator is an online tool"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "tools.electe.net",
+      "title": "NPS Calculator — Net Promoter Score, free",
+      "url": "https://tools.electe.net/nps-calculator",
+      "breadcrumb": "https://tools.electe.net › nps-calculator",
+      "website_name": "electe.net",
+      "description": "Calculate Net Promoter Score from promoters, passives and detractors. Free, no sign-up, runs entirely in your browser. NPS = % promoters − % detractors",
+      "highlighted": [
+        "Net Promoter Score",
+        "NPS"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.bajajfinservmarkets.in",
+      "title": "NPS Calculator: National Pension Scheme",
+      "url": "https://www.bajajfinservmarkets.in/calculators/nps-calculator",
+      "breadcrumb": "https://www.bajajfinservmarkets.in › Calculators",
+      "website_name": "Bajaj Markets",
+      "description": "The NPS calculator uses the following formula: MV=P*(1+r/n)^nt. Here, MV is the maturity value, P is the investment, r is the interest rate, n is the number ...",
+      "highlighted": [
+        "MV=P*(1+r/n)^nt"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "parrotnotes.app",
+      "title": "NPS and CSAT Calculator - Net Promoter Score",
+      "url": "https://parrotnotes.app/tools/nps-calculator",
+      "breadcrumb": "https://parrotnotes.app › tools › nps-calculator",
+      "website_name": "ParrotNotes",
+      "description": "Free NPS calculator : enter promoter, passive and detractor counts or paste 0-10 scores to get your Net Promoter Score, plus a CSAT score from 1-5 ratings.",
+      "highlighted": [
+        "Free NPS calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "x.com",
+      "title": "National Pension System Trust",
+      "url": "https://x.com/nps_trust/status/1932675042627780759",
+      "breadcrumb": "2 likes  ·  1 year ago",
+      "website_name": "X · nps_trust",
+      "description": "The NPS Calculator empowers you to envision your financial future. Gain clarity on your retirement goals and make informed decisions today ... Read more",
+      "highlighted": [
+        "NPS Calculator"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://x.com/nps_trust/status/1932675042627780759#:~:text=The%20NPS%20Calculator%20empowers%20you,decisions%20today%E2%80%94for%20a%20comfortable%20tomorrow.",
+          "domain": "x.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.productledalliance.com",
+      "title": "Product NPS calculator | Download your template",
+      "url": "https://www.productledalliance.com/product-nps-calculator-framework/",
+      "breadcrumb": "https://www.productledalliance.com › product-nps-calcul...",
+      "website_name": "Product-Led Alliance",
+      "description": "Jun 23, 2025 — Our product NPS calculator helps you quickly calculate, visualize, and track your Net Promoter Score (NPS) – one of the most reliable ...",
+      "pre_snippet": "06/23/2025 00:00:00",
+      "highlighted": [
+        "quickly calculate, visualize, and track your Net Promoter Score (NPS"
+      ],
+      "timestamp": "2025-06-23 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "olehdankevych.com",
+      "title": "Net Promoter Score (NPS) Calculator - Oleh Dankevych",
+      "url": "https://olehdankevych.com/free-online-tools/free-online-net-promoter-score-nps-calculator/",
+      "breadcrumb": "https://olehdankevych.com › Free Online Tools",
+      "website_name": "olehdankevych.com",
+      "description": "Jul 7, 2024 — Use my Net Promoter Score (NPS) calculator to measure customer loyalty based on their likelihood to recommend your products or services.",
+      "pre_snippet": "07/07/2024 00:00:00",
+      "highlighted": [
+        "Use my Net Promoter Score (NPS) calculator"
+      ],
+      "timestamp": "2024-07-07 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Best NPS scheme",
+        "Best pension plan in India",
+        "SIP calculator with step up",
+        "ULIP calculator"
+      ]
+    }
+  ]
+}

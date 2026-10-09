@@ -1,0 +1,607 @@
+{
+ "id": "10081545-2633-0066-0000-21757294815a",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "![Measuring the User Experience: Types of metrics in the User ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:4)\nUX metrics are `quantitative and qualitative data points that measure how users interact with and feel about a digital product`.[[1]](https://www.usertesting.com/blog/user-experience-metrics-to-know)[[2]](https://uxpilot.ai/blogs/ux-metrics)\n\n### Behavioral (Action) Metrics\n\n- **Task Success Rate:** The percentage of users who successfully complete a specific task or workflow (average benchmark is around 78%).[[1]](https://uxpilot.ai/blogs/ux-metrics)[[2]](https://maze.co/collections/ux-management/kpis/)\n- **Time on Task:** The average duration a user takes to finish a designated workflow; shorter times usually mean higher efficiency.[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://clay.global/blog/ux-guide/measure-ux)\n- **Error Rate:** The number of mistakes a user makes per attempt or task, highlighting confusing interface areas.[[1]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)[[2]](https://maze.co/collections/ux-management/kpis/)\n- **Conversion Rate:** The percentage of users who complete a desired final action, such as signing up or buying an item.[[1]](https://www.youtube.com/watch?v=BxVqhVh8Kpw)[[2]](https://www.surveymonkey.com/learn/customer-feedback/guide-to-customer-experience-metrics/)\n\n### Attitudinal (Sentiment) Metrics\n\n- **System Usability Scale (SUS):** A standard 10-question questionnaire scoring overall perceived usability from 0 to 100 (scores above 80 are considered excellent).[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)\n- **Net Promoter Score (NPS):** A metric tracking a user's likelihood to recommend the product to others on a scale from 0 to 10.[[1]](https://www.crazyegg.com/blog/ux-metrics/)\n- **Single Ease Question (SEQ):** A quick 1-to-7 rating scale where users rate how difficult a specific task felt right after finishing it.[[1]](https://measuringu.com/get-comfortable-with-four-ux-metrics/)[[2]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)\n- **Customer Satisfaction (CSAT):** The percentage of positive content ratings gathered through post-interaction surveys.[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://www.crazyegg.com/blog/ux-metrics/)\n\n*Note: As discussed in industry communities like [Reddit](https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/) , practitioners note that standardized metrics like NPS or CSAT are useful for general trends, but behavioral metrics are often more actionable for finding and fixing specific interface issues.* Learn more about framing your strategy using resources from the [Nielsen Norman Group](https://www.nngroup.com/articles/ux-metrics-goals/).[[1]](https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/)[[2]](https://www.nngroup.com/articles/ux-metrics-goals/)If you'd like, let me know:\n\n- What **type of product** you are building (e-commerce, SaaS app, content site)\n- Whether you need help setting up **behavioral or attitudinal** tracking\n\nI can help you select a focused set of metrics for your goals.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "UX metrics are quantitative and qualitative data points that measure how users interact with and feel about a digital product.",
+     "markdown": "![Measuring the User Experience: Types of metrics in the User ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:2)\nUX metrics are `quantitative and qualitative data points that measure how users interact with and feel about a digital product`.[[1]](https://www.usertesting.com/blog/user-experience-metrics-to-know)[[2]](https://uxpilot.ai/blogs/ux-metrics)",
+     "images": [
+      {
+       "type": "images_element",
+       "alt": "Measuring the User Experience: Types of metrics in the User ...",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:3"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "UserTesting",
+       "domain": "www.usertesting.com",
+       "url": "https://www.usertesting.com/blog/user-experience-metrics-to-know",
+       "title": "9 user experience (UX) metrics you should know",
+       "text": "UX metrics evaluate product interaction quality using quantitative (numerical behavior data) and qualitative (descriptive opinions..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "UX Pilot",
+       "domain": "uxpilot.ai",
+       "url": "https://uxpilot.ai/blogs/ux-metrics",
+       "title": "9 UX Metrics: How to Measure What Actually Matters",
+       "text": "What are UX metrics? UX metrics are quantitative data points that measure how users interact with and feel about a product. They g..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Behavioral (Action) Metrics",
+     "text": "Task Success Rate: The percentage of users who successfully complete a specific task or workflow (average benchmark is around 78%). Time on Task: The average duration a user takes to finish a designated workflow; shorter times usually mean higher efficiency. Error Rate: The number of mistakes a user makes per attempt or task, highlighting confusing interface areas. Conversion Rate: The percentage of users who complete a desired final action, such as signing up or buying an item.",
+     "markdown": "- **Task Success Rate:** The percentage of users who successfully complete a specific task or workflow (average benchmark is around 78%).[[1]](https://uxpilot.ai/blogs/ux-metrics)[[2]](https://maze.co/collections/ux-management/kpis/)\n- **Time on Task:** The average duration a user takes to finish a designated workflow; shorter times usually mean higher efficiency.[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://clay.global/blog/ux-guide/measure-ux)\n- **Error Rate:** The number of mistakes a user makes per attempt or task, highlighting confusing interface areas.[[1]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)[[2]](https://maze.co/collections/ux-management/kpis/)\n- **Conversion Rate:** The percentage of users who complete a desired final action, such as signing up or buying an item.[[1]](https://www.youtube.com/watch?v=BxVqhVh8Kpw)[[2]](https://www.surveymonkey.com/learn/customer-feedback/guide-to-customer-experience-metrics/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "UX Pilot",
+       "domain": "uxpilot.ai",
+       "url": "https://uxpilot.ai/blogs/ux-metrics",
+       "title": "9 UX Metrics: How to Measure What Actually Matters",
+       "text": "What are UX metrics? UX metrics are quantitative data points that measure how users interact with and feel about a product. They g..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Maze",
+       "domain": "maze.co",
+       "url": "https://maze.co/collections/ux-management/kpis/",
+       "title": "7 User Experience (UX) KPIs to Measure | Maze",
+       "text": "UX KPIs: Quantifiable metrics linked to OKRs evaluating UX progress, identifying problems, and communicating design value to stake..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "clay.global",
+       "domain": "clay.global",
+       "url": "https://clay.global/blog/ux-guide/measure-ux",
+       "title": "UX Metrics: The Essential Toolkit for User",
+       "text": "Why Measuring UX Is Important Understanding UX Metrics Understanding UX Metrics means understanding user behaviour and the product..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=UTNv6CNv82E&t=19",
+       "title": "6 Key UX Metrics Explained",
+       "text": "6 Key UX Metrics Explained good news it's not you can adopt a datadriven. approach and measure if the app's. design is actually. g..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=BxVqhVh8Kpw",
+       "title": "UX Metrics Are Like Beans",
+       "text": "UX Metrics Are Like Beans there are three types of metrics that we run into in the UX. world continuous discrete and binary metric..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "SurveyMonkey",
+       "domain": "www.surveymonkey.com",
+       "url": "https://www.surveymonkey.com/learn/customer-feedback/guide-to-customer-experience-metrics/",
+       "title": "11 Essential UX Metrics To Improve User Experience",
+       "text": "UX Metrics Overview: Quantitative and qualitative datapoints measuring user interactions with digital products. Behavioral Metrics..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "Attitudinal (Sentiment) Metrics",
+     "text": "System Usability Scale (SUS): A standard 10-question questionnaire scoring overall perceived usability from 0 to 100 (scores above 80 are considered excellent). Net Promoter Score (NPS): A metric tracking a user's likelihood to recommend the product to others on a scale from 0 to 10. Single Ease Question (SEQ): A quick 1-to-7 rating scale where users rate how difficult a specific task felt right after finishing it. Customer Satisfaction (CSAT): The percentage of positive content ratings gathered through post-interaction surveys.",
+     "markdown": "- **System Usability Scale (SUS):** A standard 10-question questionnaire scoring overall perceived usability from 0 to 100 (scores above 80 are considered excellent).[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)\n- **Net Promoter Score (NPS):** A metric tracking a user's likelihood to recommend the product to others on a scale from 0 to 10.[[1]](https://www.crazyegg.com/blog/ux-metrics/)\n- **Single Ease Question (SEQ):** A quick 1-to-7 rating scale where users rate how difficult a specific task felt right after finishing it.[[1]](https://measuringu.com/get-comfortable-with-four-ux-metrics/)[[2]](https://www.youtube.com/watch?v=UTNv6CNv82E&t=19)\n- **Customer Satisfaction (CSAT):** The percentage of positive content ratings gathered through post-interaction surveys.[[1]](https://maze.co/collections/ux-management/kpis/)[[2]](https://www.crazyegg.com/blog/ux-metrics/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Maze",
+       "domain": "maze.co",
+       "url": "https://maze.co/collections/ux-management/kpis/",
+       "title": "7 User Experience (UX) KPIs to Measure | Maze",
+       "text": "UX KPIs: Quantifiable metrics linked to OKRs evaluating UX progress, identifying problems, and communicating design value to stake..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=UTNv6CNv82E&t=19",
+       "title": "6 Key UX Metrics Explained",
+       "text": "6 Key UX Metrics Explained good news it's not you can adopt a datadriven. approach and measure if the app's. design is actually. g..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Crazy Egg",
+       "domain": "www.crazyegg.com",
+       "url": "https://www.crazyegg.com/blog/ux-metrics/",
+       "title": "12 Key UX Metrics: What They Mean + How To Calculate Each",
+       "text": "Task Success Rate: (successful / attempted) x 100. Time on Task: End Time - Start Time. Error Rate: (errors / attempts) x 100. Chu..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "MeasuringU",
+       "domain": "measuringu.com",
+       "url": "https://measuringu.com/get-comfortable-with-four-ux-metrics/",
+       "title": "There are 70+ UX Metrics, Start with These 4 – MeasuringU",
+       "text": "Core UX Metrics: Task Completion (binary effectiveness 1/0, avg 78%, grade A at 100%), Single Ease Question or SEQ (7-point post-t..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Note: As discussed in industry communities like Reddit, practitioners note that standardized metrics like NPS or CSAT are useful for general trends, but behavioral metrics are often more actionable for finding and fixing specific interface issues. Learn more about framing your strategy using resources from the Nielsen Norman Group.",
+     "markdown": "*Note: As discussed in industry communities like [Reddit](https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/) , practitioners note that standardized metrics like NPS or CSAT are useful for general trends, but behavioral metrics are often more actionable for finding and fixing specific interface issues.* Learn more about framing your strategy using resources from the [Nielsen Norman Group](https://www.nngroup.com/articles/ux-metrics-goals/).[[1]](https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/)[[2]](https://www.nngroup.com/articles/ux-metrics-goals/)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Reddit",
+       "url": "https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/",
+       "domain": "www.reddit.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Nielsen Norman Group",
+       "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
+       "domain": "www.nngroup.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Reddit",
+       "domain": "www.reddit.com",
+       "url": "https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/",
+       "title": "What UX-metrics are you using/familiar with for measuring ...",
+       "text": "Limitations of Standardized UX Metrics: Standardized UX metrics (e.g., NPS, CSAT, SUS) are frequently used for stakeholder reporti..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Nielsen Norman Group",
+       "domain": "www.nngroup.com",
+       "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
+       "title": "Aligning UX Metrics with Organizational Goals: A Workshop ...",
+       "text": "* The 3 UX Metric Traps. When UX metrics don't connect to broad strategic business goals, they tend to fall into one of three trap..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you'd like, let me know:What type of product you are building (e-commerce, SaaS app, content site)\nWhether you need help setting up behavioral or attitudinal tracking\nI can help you select a focused set of metrics for your goals.",
+     "markdown": "If you'd like, let me know:\n\n- What **type of product** you are building (e-commerce, SaaS app, content site)\n- Whether you need help setting up **behavioral or attitudinal** tracking\n\nI can help you select a focused set of metrics for your goals."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "UserTesting",
+     "domain": "www.usertesting.com",
+     "url": "https://www.usertesting.com/blog/user-experience-metrics-to-know",
+     "title": "9 user experience (UX) metrics you should know",
+     "text": "UX metrics evaluate product interaction quality using quantitative (numerical behavior data) and qualitative (descriptive opinions..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Nielsen Norman Group",
+     "domain": "www.nngroup.com",
+     "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
+     "title": "Aligning UX Metrics with Organizational Goals: A Workshop ...",
+     "text": "* The 3 UX Metric Traps. When UX metrics don't connect to broad strategic business goals, they tend to fall into one of three trap..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "UX Pilot",
+     "domain": "uxpilot.ai",
+     "url": "https://uxpilot.ai/blogs/ux-metrics",
+     "title": "9 UX Metrics: How to Measure What Actually Matters",
+     "text": "What are UX metrics? UX metrics are quantitative data points that measure how users interact with and feel about a product. They g..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "MeasuringU",
+     "domain": "measuringu.com",
+     "url": "https://measuringu.com/get-comfortable-with-four-ux-metrics/",
+     "title": "There are 70+ UX Metrics, Start with These 4 – MeasuringU",
+     "text": "Core UX Metrics: Task Completion (binary effectiveness 1/0, avg 78%, grade A at 100%), Single Ease Question or SEQ (7-point post-t..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Reddit",
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/",
+     "title": "What UX-metrics are you using/familiar with for measuring ...",
+     "text": "Limitations of Standardized UX Metrics: Standardized UX metrics (e.g., NPS, CSAT, SUS) are frequently used for stakeholder reporti..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Maze",
+     "domain": "maze.co",
+     "url": "https://maze.co/collections/ux-management/kpis/",
+     "title": "7 User Experience (UX) KPIs to Measure | Maze",
+     "text": "UX KPIs: Quantifiable metrics linked to OKRs evaluating UX progress, identifying problems, and communicating design value to stake..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=BxVqhVh8Kpw",
+     "title": "UX Metrics Are Like Beans",
+     "text": "UX Metrics Are Like Beans there are three types of metrics that we run into in the UX. world continuous discrete and binary metric..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=UTNv6CNv82E&t=19",
+     "title": "6 Key UX Metrics Explained",
+     "text": "6 Key UX Metrics Explained good news it's not you can adopt a datadriven. approach and measure if the app's. design is actually. g..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "SurveyMonkey",
+     "domain": "www.surveymonkey.com",
+     "url": "https://www.surveymonkey.com/learn/customer-feedback/guide-to-customer-experience-metrics/",
+     "title": "11 Essential UX Metrics To Improve User Experience",
+     "text": "UX Metrics Overview: Quantitative and qualitative datapoints measuring user interactions with digital products. Behavioral Metrics..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Crazy Egg",
+     "domain": "www.crazyegg.com",
+     "url": "https://www.crazyegg.com/blog/ux-metrics/",
+     "title": "12 Key UX Metrics: What They Mean + How To Calculate Each",
+     "text": "Task Success Rate: (successful / attempted) x 100. Time on Task: End Time - Start Time. Error Rate: (errors / attempts) x 100. Chu..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "clay.global",
+     "domain": "clay.global",
+     "url": "https://clay.global/blog/ux-guide/measure-ux",
+     "title": "UX Metrics: The Essential Toolkit for User",
+     "text": "Why Measuring UX Is Important Understanding UX Metrics Understanding UX Metrics means understanding user behaviour and the product..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.nngroup.com",
+   "title": "Aligning UX Metrics with Organizational Goals",
+   "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
+   "breadcrumb": "https://www.nngroup.com › articles › ux-metrics-goals",
+   "website_name": "Nielsen Norman Group",
+   "description": "Oct 3, 2025 — UX metrics are more than usability stats or customer-satisfaction scores; they should reflect and connect to the value that UX brings to the ... Read more",
+   "pre_snippet": "10/03/2025 00:00:00",
+   "highlighted": [
+    "UX metrics are more than usability stats or customer-satisfaction scores"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.nngroup.com/articles/ux-metrics-goals/#:~:text=UX%20metrics%20are%20more%20than,UX%20brings%20to%20the%20organization.",
+     "domain": "www.nngroup.com"
+    }
+   ],
+   "timestamp": "2025-10-03 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 3,
+   "page": 1,
+   "domain": "www.usertesting.com",
+   "title": "9 user experience (UX) metrics you should know",
+   "url": "https://www.usertesting.com/blog/user-experience-metrics-to-know",
+   "breadcrumb": "https://www.usertesting.com › blog › user-experience-me...",
+   "website_name": "UserTesting",
+   "description": "Apr 4, 2024 — Top 10 most common types of UX metrics · 1. Usability metrics · 2. User satisfaction metrics · 3. User engagement metrics · 4. Conversion rate ... Read more",
+   "pre_snippet": "04/04/2024 00:00:00",
+   "highlighted": [
+    "Usability metrics"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.usertesting.com/blog/user-experience-metrics-to-know#:~:text=Top%2010%20most%20common%20types,of%20UX%20metrics&text=1.%20Usability%20metrics&text=2.%20User%20satisfaction%20metrics&text=3.%20User%20engagement%20metrics&text=4.%20Conversion%20rate%20metrics",
+     "domain": "www.usertesting.com"
+    }
+   ],
+   "timestamp": "2024-04-04 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 4,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 5 key CX metrics?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 7 key elements of UX design?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What does UX stand for?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are KPIs in UX design?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "What UX-metrics are you using/familiar with for measuring ...",
+   "url": "https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/",
+   "breadcrumb": "10+ comments  ·  9 months ago",
+   "website_name": "Reddit · r/UXResearch",
+   "description": "Hi hi 👋\n\nI’m working on a conference talk about UX measurement and how well some of our familiar metrics hold up for modern, app-first products. I ...",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "14 answers",
+     "url": "https://www.reddit.com/r/UXResearch/comments/1pn5r30/what_uxmetrics_are_you_usingfamiliar_with_for/nu58qa7/",
+     "domain": "www.reddit.com"
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 6,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvz4VtDoDg_ikLjleRfiIw2hGl9qQ:1791474340360&q=ux+metrics&udm=2&source=univ&fir=cs4v_MnME2KGnM%252CAi0vUVcPsZTK5M%252C_%253Bb3Fdj-xEmQFGuM%252CD6yrSZBnDwA6gM%252C_%253B5HeeOqqMFDjF-M%252C-8CSr8tr5P9H-M%252C_%253BECW-o7jCh6uQ7M%252C7SKA1k0wjvSvMM%252C_%253BSM7SYzWRY3_NQM%252CD2ixAKr4DDUZpM%252C_%253ButRELqxETUce-M%252CNKv1sdgNTCxUOM%252C_%253BpK5Oa_bYhfeY6M%252CD6yrSZBnDwA6gM%252C_%253BqnYGQ2ZHXLWXxM%252CccEOuApbY1EXcM%252C_%253BCClWqVbPqwmiRM%252CJ9yNMQ5-NMCRUM%252C_&usg=AI4_-kQEV9qpnJxw0PPmd2lbQdS7HtN_Fg&sa=X&ved=2ahUKEwicmbn94aqXAxXWqZUCHepPMUwQ7Al6BAhSEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "A quick guide to UX Metrics – Loop11",
+     "url": "https://www.loop11.com/a-quick-guide-to-ux-metrics/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:5"
+    },
+    {
+     "type": "images_element",
+     "alt": "Key Metrics to Measure User Experience",
+     "url": "https://www.eleken.co/blog-posts/ux-design-kpi-examples-learn-how-to-measure-user-experience",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:6"
+    },
+    {
+     "type": "images_element",
+     "alt": "An Ultimate Guide to UX Metrics & KPIs to Grow Your Business ...",
+     "url": "https://en.eagle.cool/blog/post/ux-metric-kpi-measurement",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-21757294815a:7"
+    },
+    {
+     "type": "images_element",
+     "alt": "Measuring the User Experience: Types of metrics in the User ...",
+     "url": "https://medium.com/design-bootcamp/measuring-the-user-experience-type-of-metrics-in-user-experience-19bac66efeb9",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoPNyXi5zCyOsf4ozYjWr1evFkz4RffBj-k4j-yU0rLd2NqfJxY-GNQkM&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Building a UX Metrics Scorecard – MeasuringU",
+     "url": "https://measuringu.com/ux-scorecard/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3mLs9jY-7WKdhBOsZ1x7YecahjkQZHuxdptBa_rC52LZI2mpkvS5sgzA&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "UX Metrics: The Essential Toolkit for User-Centric Design | Clay",
+     "url": "https://clay.global/blog/ux-guide/measure-ux",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbj14VUAQEtkqlOSXHDntgeHu6IFInw3Nk1SwqQlNfoprGSuCMw2qOCdg&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Key Metrics to Measure User Experience",
+     "url": "https://www.eleken.co/blog-posts/ux-design-kpi-examples-learn-how-to-measure-user-experience",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2HMoOEByLYVwEfxapgS3CVEcIUNITOGnAfK7Ums68byIrJi45pm69-zg&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "UX Metrics: How to Know If Your User Experience is Working",
+     "url": "https://www.koruux.com/blog/ux-metrics-how-to-know-if-your-user-experience-is-working/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUF3zuGoJESiRxLjWtMk10x4BmiZ3-6OSDemriamJJTD1wkZ8oeJREYRU&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "A metrics-driven approach to evaluate success of UX design ...",
+     "url": "https://uxdesign.cc/a-metrics-driven-approach-to-evaluate-success-of-ux-design-dd3bea098820",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIeot1peBP2RZQ45ajQvSxBW7IhYULkklLxVxrfp0gKVyjChAixVutthc&s"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "uxpilot.ai",
+   "title": "9 UX Metrics: How to Measure What Actually Matters",
+   "url": "https://uxpilot.ai/blogs/ux-metrics",
+   "breadcrumb": "https://uxpilot.ai › blogs › ux-metrics",
+   "website_name": "UX Pilot",
+   "description": "Mar 4, 2026 — 9 UX metrics every team should track · Task success rate · Time on task · Error rate · System usability scale (SUS) · Net promoter score (NPS). Read more",
+   "pre_snippet": "03/04/2026 00:00:00",
+   "highlighted": [
+    "Task success rate"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://uxpilot.ai/blogs/ux-metrics#:~:text=9%20UX%20metrics%20every%20team,should%20track&text=Task%20success%20rate&text=Time%20on%20task&text=Error%20rate&text=System%20usability%20scale%20(SUS)&text=Net%20promoter%20score%20(NPS)",
+     "domain": "uxpilot.ai"
+    }
+   ],
+   "timestamp": "2026-03-04 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "measuringu.com",
+   "title": "There are 70+ UX Metrics, Start with These 4",
+   "url": "https://measuringu.com/get-comfortable-with-four-ux-metrics/",
+   "breadcrumb": "https://measuringu.com › get-comfortable-with-four-ux...",
+   "website_name": "MeasuringU",
+   "description": "May 6, 2025 — Over 70 UX metrics are divided into attitudinal (how people feel) and action (what people do) categories, as well as task-level (measured ... Read more",
+   "pre_snippet": "05/06/2025 00:00:00",
+   "highlighted": [
+    "attitudinal (how people feel) and action (what people do"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://measuringu.com/get-comfortable-with-four-ux-metrics/#:~:text=Over%2070%20UX%20metrics%20are,as%20well%20as%20task-level%20(measured",
+     "domain": "measuringu.com"
+    }
+   ],
+   "timestamp": "2025-05-06 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "maze.co",
+   "title": "UX Metrics | UX Glossary by Maze",
+   "url": "https://maze.co/resources/glossary/ux-metrics/",
+   "breadcrumb": "https://maze.co › resources › glossary › ux-metrics",
+   "website_name": "Maze",
+   "description": "UX metrics are measurements that evaluate how users interact with a product or service to help teams understand user behavior, customer satisfaction, and ... Read more",
+   "highlighted": [
+    "measurements that evaluate how users interact with a product or service"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://maze.co/resources/glossary/ux-metrics/#:~:text=UX%20metrics%20are%20measurements%20that,customer%20satisfaction%2C%20and%20product%20usability.",
+     "domain": "maze.co"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "survicate.com",
+   "title": "6 UX Metrics and KPIs to Measure User Experience in 2025",
+   "url": "https://survicate.com/blog/ux-metrics/",
+   "breadcrumb": "https://survicate.com › blog › ux-metrics",
+   "website_name": "Survicate",
+   "description": "May 8, 2023 — They are quantitative measures that provide data on user actions and behaviors such as click-through rates, time on task, task success rates, ... Read more",
+   "pre_snippet": "05/08/2023 00:00:00",
+   "highlighted": [
+    "They are quantitative measures that provide data on user actions and behaviors"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://survicate.com/blog/ux-metrics/#:~:text=They%20are%20quantitative%20measures%20that,error%20rates%2C%20and%20navigation%20paths.",
+     "domain": "survicate.com"
+    }
+   ],
+   "timestamp": "2023-05-08 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "userpilot.com",
+   "title": "How to Measure User Experience in 2026: Friction-First UX ...",
+   "url": "https://userpilot.com/blog/how-to-measure-user-experience/",
+   "breadcrumb": "https://userpilot.com › blog › how-to-measure-user-exp...",
+   "website_name": "Userpilot",
+   "description": "Aug 10, 2026 — A UX metric is a specific, measurable indicator of how users interact with a product and how they perceive its quality.",
+   "pre_snippet": "08/10/2026 00:00:00",
+   "highlighted": [
+    "UX metric"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Behavioral Metrics To Track...",
+     "url": "https://userpilot.com/blog/how-to-measure-user-experience/#:~:text=Behavioral%20metrics%20to%20track%20what%20users%20actually%20do",
+     "domain": "userpilot.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Attitudinal Ux Kpis And...",
+     "url": "https://userpilot.com/blog/how-to-measure-user-experience/#:~:text=Attitudinal%20UX%20KPIs%20and%20attitudinal%20metrics%3A%20How%20to%20measure%20user%20satisfaction",
+     "domain": "userpilot.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Three Ux Metrics Most Saas...",
+     "url": "https://userpilot.com/blog/how-to-measure-user-experience/#:~:text=Three%20UX%20metrics%20most%20SaaS%20teams%20overlook",
+     "domain": "userpilot.com"
+    }
+   ],
+   "timestamp": "2026-08-10 00:00:00 +00:00"
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "items": [
+    "Ux metrics examples",
+    "Ux metrics pdf",
+    "UX metrics framework",
+    "UX metrics list",
+    "UX metrics and ROI PDF",
+    "Ux metrics for usability testing",
+    "UI/UX metrics",
+    "UX metrics Flashcards"
+   ]
+  }
+ ]
+}

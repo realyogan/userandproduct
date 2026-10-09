@@ -1,0 +1,541 @@
+{
+ "id": "10081544-2633-0066-0000-cb13f19e5d0e",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "![RICE Framework: How to Use RICE for Project Prioritization](https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:4)\nThe RICE framework is `a data-driven scoring model used by product teams to rank projects, features, and ideas objectively`.[[1]](https://www.productplan.com/glossary/rice-scoring-model)[[2]](https://skillifysolutions.com/blogs/safe/rice-method-prioritization/)\n\n### The RICE Formula\n\nThe RICE score uses a simple mathematical calculation to weigh value against the cost of implementation:[[1]](https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08)[[2]](https://skillifysolutions.com/blogs/safe/rice-method-prioritization/)  \nRICE Score=Reach×Impact×Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e=R e a c h×I m p a c t×C o n f i d e n c e E f f o r t\n\n### The Four Components\n\n- **Reach:** The number of users or customers an initiative affects within a specific time period, such as users per month or transactions per quarter.\n- **Impact:** How much an initiative will increase user value or conversion, usually measured on a scale from 0.5 (minimal) to 3.0 (massive).\n- **Confidence:** A percentage (typically 50% to 100%) showing how certain you are about your estimates for reach, impact, and effort.\n- **Effort:** The total time and resources required by the team, measured in person-months or person-weeks.[[1]](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/)[[2]](https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08)[[3]](https://www.notion.com/blog/rice-prioritization)[[4]](https://www.productboard.com/glossary/product-prioritization-frameworks/)[[5]](https://productschool.com/blog/product-fundamentals/rice-framework)[[6]](https://agileseekers.com/blog/feature-prioritization-using-rice-and-ice-models-in-product-roadmaps)[[7]](https://www.avion.io/blog/rice-prioritization/)\n\nLearn more about managing roadmaps with the [ProductPlan Glossary](https://www.productplan.com/glossary/rice-scoring-model) or review broader [Atlassian Prioritization Frameworks](https://www.atlassian.com/agile/product-management/prioritization-framework).If you want, I can help you:\n\n- Walk through a **practical scoring example** with two competing project ideas.\n- Compare RICE with alternative methods like **ICE or MoSCoW**.",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "The RICE framework is a data-driven scoring model used by product teams to rank projects, features, and ideas objectively.",
+     "markdown": "![RICE Framework: How to Use RICE for Project Prioritization](https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:2)\nThe RICE framework is `a data-driven scoring model used by product teams to rank projects, features, and ideas objectively`.[[1]](https://www.productplan.com/glossary/rice-scoring-model)[[2]](https://skillifysolutions.com/blogs/safe/rice-method-prioritization/)",
+     "images": [
+      {
+       "type": "images_element",
+       "alt": "RICE Framework: How to Use RICE for Project Prioritization",
+       "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:3"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "ProductPlan",
+       "domain": "www.productplan.com",
+       "url": "https://www.productplan.com/glossary/rice-scoring-model",
+       "title": "RICE Scoring Model | Glossary",
+       "text": "What is the RICE Scoring Model for Prioritization? The RICE scoring model is a prioritization framework designed to help product m..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Skillify Solutions",
+       "domain": "skillifysolutions.com",
+       "url": "https://skillifysolutions.com/blogs/safe/rice-method-prioritization/",
+       "title": "RICE Method Prioritization: Formula, Examples and Guide",
+       "text": "What is the RICE Prioritization Framework? The RICE prioritization framework is a data-driven scoring model used by product teams ..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "The RICE Formula",
+     "text": "The RICE score uses a simple mathematical calculation to weigh value against the cost of implementation:\nRICE Score = Reach × Impact × Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e = R e a c h × I m p a c t × C o n f i d e n c e E f f o r t",
+     "markdown": "The RICE score uses a simple mathematical calculation to weigh value against the cost of implementation:[[1]](https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08)[[2]](https://skillifysolutions.com/blogs/safe/rice-method-prioritization/)  \nRICE Score=Reach×Impact×Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e=R e a c h×I m p a c t×C o n f i d e n c e E f f o r t",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Medium",
+       "domain": "faridjafarzade.medium.com",
+       "url": "https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08",
+       "title": "RICE Matrix: A Practical Prioritization Framework for Product Owners and ...",
+       "text": "RICE Matrix: A Practical Prioritization Framework for Product Owners and Product Managers. ... The RICE Matrix is a practical prio..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Skillify Solutions",
+       "domain": "skillifysolutions.com",
+       "url": "https://skillifysolutions.com/blogs/safe/rice-method-prioritization/",
+       "title": "RICE Method Prioritization: Formula, Examples and Guide",
+       "text": "What is the RICE Prioritization Framework? The RICE prioritization framework is a data-driven scoring model used by product teams ..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "The Four Components",
+     "text": "Reach: The number of users or customers an initiative affects within a specific time period, such as users per month or transactions per quarter. Impact: How much an initiative will increase user value or conversion, usually measured on a scale from 0.5 (minimal) to 3.0 (massive). Confidence: A percentage (typically 50% to 100%) showing how certain you are about your estimates for reach, impact, and effort. Effort: The total time and resources required by the team, measured in person-months or person-weeks.",
+     "markdown": "- **Reach:** The number of users or customers an initiative affects within a specific time period, such as users per month or transactions per quarter.\n- **Impact:** How much an initiative will increase user value or conversion, usually measured on a scale from 0.5 (minimal) to 3.0 (massive).\n- **Confidence:** A percentage (typically 50% to 100%) showing how certain you are about your estimates for reach, impact, and effort.\n- **Effort:** The total time and resources required by the team, measured in person-months or person-weeks.[[1]](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/)[[2]](https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08)[[3]](https://www.notion.com/blog/rice-prioritization)[[4]](https://www.productboard.com/glossary/product-prioritization-frameworks/)[[5]](https://productschool.com/blog/product-fundamentals/rice-framework)[[6]](https://agileseekers.com/blog/feature-prioritization-using-rice-and-ice-models-in-product-roadmaps)[[7]](https://www.avion.io/blog/rice-prioritization/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Intercom",
+       "domain": "www.intercom.com",
+       "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
+       "title": "RICE: Simple prioritization for product managers - Intercom",
+       "text": "RICE: Four factors for assessing priority. RICE is an acronym for the four factors we use to evaluate each project idea: reach, im..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Medium",
+       "domain": "faridjafarzade.medium.com",
+       "url": "https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08",
+       "title": "RICE Matrix: A Practical Prioritization Framework for Product Owners and ...",
+       "text": "RICE Matrix: A Practical Prioritization Framework for Product Owners and Product Managers. ... The RICE Matrix is a practical prio..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Notion",
+       "domain": "www.notion.com",
+       "url": "https://www.notion.com/blog/rice-prioritization",
+       "title": "How to streamline projects using the RICE prioritization method",
+       "text": "Definition: RICE stands for Reach, Impact, Confidence, and Effort, providing an objective scoring framework for product managers t..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Productboard",
+       "domain": "www.productboard.com",
+       "url": "https://www.productboard.com/glossary/product-prioritization-frameworks/",
+       "title": "Product Prioritization Frameworks - Productboard",
+       "text": "The RICE framework. The RICE framework is a straightforward scoring system developed by the brilliant product management team at I..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Product School",
+       "domain": "productschool.com",
+       "url": "https://productschool.com/blog/product-fundamentals/rice-framework",
+       "title": "How to Use the RICE Framework for Better Prioritization",
+       "text": "Definition: The RICE framework is a data-driven prioritization tool developed by Sean McBride at Intercom to evaluate and rank pro..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "AgileSeekers",
+       "domain": "agileseekers.com",
+       "url": "https://agileseekers.com/blog/feature-prioritization-using-rice-and-ice-models-in-product-roadmaps",
+       "title": "RICE and ICE Prioritization Examples for Product Roadmaps | AgileSeekers",
+       "text": "RICE: Reach (users/month), Impact (0.5 to 3 scale), Confidence (percentage), Effort (person-months); formula = (Reach × Impact × C..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "www.avion.io",
+       "domain": "www.avion.io",
+       "url": "https://www.avion.io/blog/rice-prioritization/",
+       "title": "How To Use RICE Prioritization – Examples and Explanation",
+       "text": "Definition: RICE is a quantitative product management prioritization framework originating from Intercom to reduce subjectivity an..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Learn more about managing roadmaps with the ProductPlan Glossary or review broader Atlassian Prioritization Frameworks.",
+     "markdown": "Learn more about managing roadmaps with the [ProductPlan Glossary](https://www.productplan.com/glossary/rice-scoring-model) or review broader [Atlassian Prioritization Frameworks](https://www.atlassian.com/agile/product-management/prioritization-framework).",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "ProductPlan Glossary",
+       "url": "https://www.productplan.com/glossary/rice-scoring-model",
+       "domain": "www.productplan.com"
+      },
+      {
+       "type": "link_element",
+       "title": "Atlassian Prioritization Frameworks",
+       "url": "https://www.atlassian.com/agile/product-management/prioritization-framework",
+       "domain": "www.atlassian.com"
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "If you want, I can help you:Walk through a practical scoring example with two competing project ideas.\nCompare RICE with alternative methods like ICE or MoSCoW.",
+     "markdown": "If you want, I can help you:\n\n- Walk through a **practical scoring example** with two competing project ideas.\n- Compare RICE with alternative methods like **ICE or MoSCoW**."
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Intercom",
+     "domain": "www.intercom.com",
+     "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
+     "title": "RICE: Simple prioritization for product managers - Intercom",
+     "text": "RICE: Four factors for assessing priority. RICE is an acronym for the four factors we use to evaluate each project idea: reach, im..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "ProductPlan",
+     "domain": "www.productplan.com",
+     "url": "https://www.productplan.com/glossary/rice-scoring-model",
+     "title": "RICE Scoring Model | Glossary",
+     "text": "What is the RICE Scoring Model for Prioritization? The RICE scoring model is a prioritization framework designed to help product m..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "www.avion.io",
+     "domain": "www.avion.io",
+     "url": "https://www.avion.io/blog/rice-prioritization/",
+     "title": "How To Use RICE Prioritization – Examples and Explanation",
+     "text": "Definition: RICE is a quantitative product management prioritization framework originating from Intercom to reduce subjectivity an..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Product School",
+     "domain": "productschool.com",
+     "url": "https://productschool.com/blog/product-fundamentals/rice-framework",
+     "title": "How to Use the RICE Framework for Better Prioritization",
+     "text": "Definition: The RICE framework is a data-driven prioritization tool developed by Sean McBride at Intercom to evaluate and rank pro..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Notion",
+     "domain": "www.notion.com",
+     "url": "https://www.notion.com/blog/rice-prioritization",
+     "title": "How to streamline projects using the RICE prioritization method",
+     "text": "Definition: RICE stands for Reach, Impact, Confidence, and Effort, providing an objective scoring framework for product managers t..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Productboard",
+     "domain": "www.productboard.com",
+     "url": "https://www.productboard.com/glossary/product-prioritization-frameworks/",
+     "title": "Product Prioritization Frameworks - Productboard",
+     "text": "The RICE framework. The RICE framework is a straightforward scoring system developed by the brilliant product management team at I..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Medium",
+     "domain": "faridjafarzade.medium.com",
+     "url": "https://faridjafarzade.medium.com/rice-matrix-a-practical-prioritization-framework-for-product-owners-and-product-managers-2b71dccd0a08",
+     "title": "RICE Matrix: A Practical Prioritization Framework for Product Owners and ...",
+     "text": "RICE Matrix: A Practical Prioritization Framework for Product Owners and Product Managers. ... The RICE Matrix is a practical prio..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "AgileSeekers",
+     "domain": "agileseekers.com",
+     "url": "https://agileseekers.com/blog/feature-prioritization-using-rice-and-ice-models-in-product-roadmaps",
+     "title": "RICE and ICE Prioritization Examples for Product Roadmaps | AgileSeekers",
+     "text": "RICE: Reach (users/month), Impact (0.5 to 3 scale), Confidence (percentage), Effort (person-months); formula = (Reach × Impact × C..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Skillify Solutions",
+     "domain": "skillifysolutions.com",
+     "url": "https://skillifysolutions.com/blogs/safe/rice-method-prioritization/",
+     "title": "RICE Method Prioritization: Formula, Examples and Guide",
+     "text": "What is the RICE Prioritization Framework? The RICE prioritization framework is a data-driven scoring model used by product teams ..."
+    }
+   ]
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsYGH9aYY3PRQAvPlyYONpUzKiiMw:1791474258647&q=rice+prioritization&udm=2&source=univ&fir=5rQm18b__GL7_M%252CZwHQWdMuuarc3M%252C_%253BVqe6xZUKOl5CNM%252CM80KLyWVMqkv3M%252C_%253BCMa9iPAUrPnooM%252C4FicGRS_GBhx5M%252C_%253BRikGs32-i_W30M%252CdR5rNzqjYFJF2M%252C_%253BSUHFNYcMvUu3MM%252C09cK5RufaRmqtM%252C_%253B42seo2N-wJ1fKM%252CShMPFuwwAjmqDM%252C_%253BOn2VUeg2Olp8QM%252C0IGMSzSnHFN1PM%252C_%253BjQqYrLKjDCSqIM%252CiV-Pp5kExYJbfM%252C_%253BT16XiZdBKG5m-M%252C53vaH7jqMLi0NM%252C_%253BeDw4yKecacWPrM%252CORf1JbvuAnN0rM%252C_%253BEsXGQdGSn5ebgM%252Cjlzad0l1q2G3PM%252C_%253BOSJ4tyzcTvIiuM%252CM7XXAZyjjcj03M%252C_&usg=AI4_-kQOyqM8Q4PnjPtSLYk_HV0Se15OKg&sa=X&ved=2ahUKEwj07r3W4aqXAxVMsFYBHRD7LaUQ7Al6BAgcEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "RICE Scoring Method - Productfolio",
+     "url": "https://productfolio.com/rice-scoring/",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:5"
+    },
+    {
+     "type": "images_element",
+     "alt": "RICE Model : A product feature prioritization technique for ...",
+     "url": "https://medium.com/@subodh.shetty87/rice-model-a-product-feature-prioritization-technique-for-engineering-product-managers-6719c1799053",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:6"
+    },
+    {
+     "type": "images_element",
+     "alt": "RICE Score: A Prioritization Framework for PMs | Tempo",
+     "url": "https://www.tempo.io/guides/rice-score-prioritization-framework-product-management",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:7"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to streamline projects using the RICE prioritization method",
+     "url": "https://www.notion.com/blog/rice-prioritization",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:8"
+    },
+    {
+     "type": "images_element",
+     "alt": "Rice product feature prioritization scoring system framework",
+     "url": "https://www.slideteam.net/rice-product-feature-prioritization-scoring-system-framework.html",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:9"
+    },
+    {
+     "type": "images_element",
+     "alt": "Reach-Impact-Confidence-Effort (RICE) - Big Agile",
+     "url": "https://big-agile.com/blog/reach-impact-confidence-effort-rice",
+     "image_url": "https://api.dataforseo.com/cdn/i/10081544-2633-0066-0000-cb13f19e5d0e:10"
+    },
+    {
+     "type": "images_element",
+     "alt": "RICE Model: Prioritize Your Product Roadmap Effectively ...",
+     "url": "https://amoeboids.com/blog/how-can-the-rice-model-prioritize-roadmaps/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmChkKPhhIb6bTRnnSYzpT3TQeMlC0upg0WsG70TrniDRQRhpKjoc6CGE&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "RICE Framework: How to Use RICE for Project Prioritization",
+     "url": "https://plaky.com/blog/rice-framework/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6gajKB7r4gtDw0XzirlKhLCwRpjqBUSFcgwgTpg0Gwe8L6Y5POQIrtcc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to Prioritize with the RICE Framework | Railsware Blog",
+     "url": "https://railsware.com/blog/rice-framework/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5V9A6gU9XESE297VsVrrh4pv4Nt9zB1Gj3TE_BbCR7rPo48EmhLDVZYY&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "What is RICE Scoring? | Definition & Overview | ProdPad",
+     "url": "https://www.prodpad.com/glossary/rice-scoring/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGiazeiCa7fnMgyRG-LY7qxDA_3wF2HdqmuBc21C0oIU1Fp4Y8MPMgINQ&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "RICE Prioritization Method | RICE Framework | Prioritization ...",
+     "url": "https://powerslides.com/powerpoint-business/business-analysis-templates/rice-prioritization-method/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWxcn6McRbRLgXzhnEgBv4HhqXtIGJCTOECkqeupIloh_YxwBrp4btHdY&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "The PM's Guide to RICE Prioritization — Product Teacher",
+     "url": "https://www.productteacher.com/articles/product-manager-guide-to-rice-prioritization",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTydrv9ifMw0qBa4q8agey_cCHPVRzEVmu7fMjIgd-znhbMuKcNTe_fhro&s"
+    }
+   ]
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 3,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What is the RICE methodology?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the four methods of prioritization?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are the 5 levels of priority?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What is a RICE formula?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "growthmethod.com",
+   "title": "Prioritisation Frameworks Compared: ICE vs RICE vs PIE ...",
+   "url": "https://growthmethod.com/prioritisation-frameworks/",
+   "breadcrumb": "https://growthmethod.com › prioritisation-frameworks",
+   "website_name": "Growth Method",
+   "description": "Aug 31, 2026 — A prioritisation framework (ICE, RICE, PIE, etc.) scores individual ideas against multiple factors to rank a backlog.",
+   "pre_snippet": "08/31/2026 00:00:00",
+   "highlighted": [
+    "scores individual ideas against multiple factors"
+   ],
+   "timestamp": "2026-08-31 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 5,
+   "page": 1,
+   "domain": "blog.planview.com",
+   "title": "The RICE Model for Prioritization: A How-To Guide",
+   "url": "https://blog.planview.com/the-rice-model-for-prioritization-a-how-to-guide/",
+   "breadcrumb": "https://blog.planview.com › the-rice-model-for-prioritiz...",
+   "website_name": "Planview Blog",
+   "description": "Feb 29, 2020 — The RICE model is relatively simple, but it is designed to be performed on each individual task when there is no clear hierarchy of priorities. Read more",
+   "pre_snippet": "02/29/2020 00:00:00",
+   "highlighted": [
+    "designed to be performed on each individual task"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://blog.planview.com/the-rice-model-for-prioritization-a-how-to-guide/#:~:text=The%20RICE%20model%20is%20relatively,which%20prioritization%20is%20particularly%20challenging.",
+     "domain": "blog.planview.com"
+    }
+   ],
+   "timestamp": "2020-02-29 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 6,
+   "page": 1,
+   "domain": "www.productcoalition.com",
+   "title": "Mastering RICE Prioritization: A No-Code Guide to Leading ...",
+   "url": "https://www.productcoalition.com/p/mastering-rice-prioritization-a-no",
+   "breadcrumb": "https://www.productcoalition.com › mastering-rice-prio...",
+   "website_name": "Product Coalition",
+   "description": "Oct 1, 2024 — What RICE stands for: Reach, Impact, Confidence, Effort. How each component contributes to prioritization. Setting Up for a RICE Session:. Read more",
+   "pre_snippet": "10/01/2024 00:00:00",
+   "highlighted": [
+    "Reach, Impact, Confidence, Effort"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.productcoalition.com/p/mastering-rice-prioritization-a-no#:~:text=What%20RICE%20stands%20for%3A%20Reach%2C,Up%20for%20a%20RICE%20Session%3A",
+     "domain": "www.productcoalition.com"
+    }
+   ],
+   "timestamp": "2024-10-01 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.mumosystems.com",
+   "title": "Prioritize Jira With Rice Prioritization Framework",
+   "url": "https://www.mumosystems.com/blog/2020/12/prioritize-jira-with-rice-prioritization-framework/",
+   "breadcrumb": "https://www.mumosystems.com › blog › 2020/12 › pri...",
+   "website_name": "Mumo Systems",
+   "description": "Dec 21, 2020 — The RICE framework is a straightforward prioritization framework designed to help product managers quantify proposed projects, features and ...",
+   "pre_snippet": "12/21/2020 00:00:00",
+   "highlighted": [
+    "RICE framework"
+   ],
+   "timestamp": "2020-12-21 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.youtube.com",
+   "title": "The RICE prioritization framework - What is it?",
+   "url": "https://www.youtube.com/shorts/dzJOrUl-ZOw",
+   "breadcrumb": "2.1K+ views  ·  4 years ago",
+   "website_name": "YouTube · Inside The Product",
+   "is_video": true,
+   "checks": [
+    "is_video"
+   ],
+   "description": "RICE is a prioritization framework that will help you comparing the value of different features when you are prioritizing between building ...",
+   "highlighted": [
+    "RICE is a prioritization framework"
+   ],
+   "timestamp": "2022-02-16 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 9,
+   "page": 1,
+   "domain": "www.reddit.com",
+   "title": "RICE Model : A product feature prioritization technique for ...",
+   "url": "https://www.reddit.com/r/programming/comments/1lilj1x/rice_model_a_product_feature_prioritization/",
+   "breadcrumb": "1 year ago",
+   "website_name": "Reddit · r/programming",
+   "description": "In this post, I break down the RICE framework with real-world examples from a web platform I help lead, including a feature comparison. Upvote 0 Read more",
+   "highlighted": [
+    "RICE framework"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.reddit.com/r/programming/comments/1lilj1x/rice_model_a_product_feature_prioritization/#:~:text=In%20this%20post%2C%20I%20break,0",
+     "domain": "www.reddit.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "scrum-master.org",
+   "title": "The RICE Method For Prioritizing Your Scrum Backlog",
+   "url": "https://scrum-master.org/en/the-rice-method-for-prioritizing-your-scrum-backlog/",
+   "breadcrumb": "https://scrum-master.org › the-rice-method-for-prioritizi...",
+   "website_name": "scrum-master.org",
+   "description": "Jun 21, 2023 — The RICE method (Reach, Impact, Confidence, Effort) stands out as a particularly effective agile tool for prioritizing Scrum backlogs.",
+   "pre_snippet": "06/21/2023 00:00:00",
+   "highlighted": [
+    "agile tool for prioritizing Scrum backlogs"
+   ],
+   "timestamp": "2023-06-21 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 8,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "medium.com",
+   "title": "RICE Prioritization Framework",
+   "url": "https://medium.com/@dezkr/rice-prioritization-framework-bc3b294b00b8",
+   "breadcrumb": "30+ likes  ·  4 years ago",
+   "website_name": "Medium · Saurabh @ Dezkr",
+   "description": "RICE stands for Reach, Impact, Confidence and Effort. You assign values to each of these variables to come up with a RICE Score. The feature ...",
+   "highlighted": [
+    "RICE stands for Reach, Impact, Confidence and Effort"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Rice Prioritization...",
+     "url": "https://medium.com/@dezkr/rice-prioritization-framework-bc3b294b00b8#:~:text=Manager-,RICE%20Prioritization%20Framework",
+     "domain": "medium.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Confidence",
+     "url": "https://medium.com/@dezkr/rice-prioritization-framework-bc3b294b00b8#:~:text=Confidence,-You%20will%20never%20have%20100",
+     "domain": "medium.com"
+    },
+    {
+     "type": "link_element",
+     "title": "Rice Score",
+     "url": "https://medium.com/@dezkr/rice-prioritization-framework-bc3b294b00b8#:~:text=RICE%20Score,-This%20is%20the%20final%20number",
+     "domain": "medium.com"
+    }
+   ]
+  }
+ ]
+}

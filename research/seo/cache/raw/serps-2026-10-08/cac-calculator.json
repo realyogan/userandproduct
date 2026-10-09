@@ -1,0 +1,433 @@
+{
+  "id": "10081545-2633-0066-0000-c6b3b94c8217",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.omnicalculator.com",
+      "title": "Customer Acquisition Cost Calculator – CAC Calculator",
+      "url": "https://www.omnicalculator.com/finance/cac",
+      "breadcrumb": "https://www.omnicalculator.com › finance › cac",
+      "website_name": "Omni Calculator",
+      "description": "With this customer acquisition cost calculator (or CAC calculator), we aim to help you calculate the cost you need to acquire a customer. Read more",
+      "highlighted": [
+        "customer acquisition cost calculator"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.omnicalculator.com/finance/cac#:~:text=With%20this%20customer%20acquisition%20cost,need%20to%20acquire%20a%20customer.",
+          "domain": "www.omnicalculator.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.cac-tools.com",
+      "title": "CAC Percentile Calculator",
+      "url": "https://www.cac-tools.com/",
+      "breadcrumb": "https://www.cac-tools.com",
+      "website_name": "CAC Percentile Calculator",
+      "description": "This calculator provides tools to help interpret CAC scores for adults aged 30-45 years. By entering an age, sex, and race, we can calculate the probability of ...",
+      "highlighted": [
+        "provides tools to help interpret CAC scores for adults aged 30-45 years"
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "markdown": "You can calculate your Customer Acquisition Cost using the [Omni Calculator CAC Tool](https://www.omnicalculator.com/finance/cac) by `dividing your total sales and marketing expenses by the number of new customers acquired`.[[1]](https://www.omnicalculator.com/finance/cac)[[2]](https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/)\n\n### The CAC Formula\n\nCAC=Total Marketing Costs+Total Sales Costs Number of New Customers CAC equals the fraction with numerator Total Marketing Costs plus Total Sales Costs and denominator Number of New Customers end-fraction C A C=T o t a l M a r k e t i n g C o s t s+T o t a l S a l e s C o s t s N u m b e r o f N e w C u s t o m e r s  \n\n### Steps to Calculate\n\n- **Determine marketing costs:** Add up ads, content, tools, and marketing salaries for a set time period.[[1]](https://www.productlift.dev/cac-calculator/)\n- **Determine sales costs:** Add up sales salaries, commissions, and CRM software for that same period.[[1]](https://www.productlift.dev/cac-calculator/)[[2]](https://aluslabs.com/tools/cac-calculator)\n- **Count new customers:** Count only brand-new paying customers gained during that exact timeframe.[[1]](https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/)[[2]](https://aluslabs.com/tools/cac-calculator)\n- **Divide:** Sum your expenses and divide by your new customer count.[[1]](https://usedatalayer.com/tools/cac-calculator)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate your Customer Acquisition Cost using the Omni Calculator CAC Tool by dividing your total sales and marketing expenses by the number of new customers acquired.",
+          "markdown": "You can calculate your Customer Acquisition Cost using the [Omni Calculator CAC Tool](https://www.omnicalculator.com/finance/cac) by `dividing your total sales and marketing expenses by the number of new customers acquired`.[[1]](https://www.omnicalculator.com/finance/cac)[[2]](https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Omni Calculator CAC Tool",
+              "url": "https://www.omnicalculator.com/finance/cac",
+              "domain": "www.omnicalculator.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/finance/cac",
+              "title": "Customer Acquisition Cost Calculator – CAC Calculator",
+              "text": "There are three steps you need to take to calculate the customer acquisition cost: * Determine the cost of marketing. The first st..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/",
+              "title": "Customer Acquisition Cost (CAC) Calculator",
+              "text": "CAC Calculator FAQs * What is Customer Acquisition Cost (CAC)? Customer Acquisition Cost is the total amount spent on sales and ma..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "The CAC Formula",
+          "text": "CAC = Total Marketing Costs + Total Sales Costs Number of New Customers CAC equals the fraction with numerator Total Marketing Costs plus Total Sales Costs and denominator Number of New Customers end-fraction C A C = T o t a l M a r k e t i n g C o s t s + T o t a l S a l e s C o s t s N u m b e r o f N e w C u s t o m e r s",
+          "markdown": "CAC=Total Marketing Costs+Total Sales Costs Number of New Customers CAC equals the fraction with numerator Total Marketing Costs plus Total Sales Costs and denominator Number of New Customers end-fraction C A C=T o t a l M a r k e t i n g C o s t s+T o t a l S a l e s C o s t s N u m b e r o f N e w C u s t o m e r s"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Steps to Calculate",
+          "text": "Determine marketing costs: Add up ads, content, tools, and marketing salaries for a set time period. Determine sales costs: Add up sales salaries, commissions, and CRM software for that same period. Count new customers: Count only brand-new paying customers gained during that exact timeframe. Divide: Sum your expenses and divide by your new customer count.",
+          "markdown": "- **Determine marketing costs:** Add up ads, content, tools, and marketing salaries for a set time period.[[1]](https://www.productlift.dev/cac-calculator/)\n- **Determine sales costs:** Add up sales salaries, commissions, and CRM software for that same period.[[1]](https://www.productlift.dev/cac-calculator/)[[2]](https://aluslabs.com/tools/cac-calculator)\n- **Count new customers:** Count only brand-new paying customers gained during that exact timeframe.[[1]](https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/)[[2]](https://aluslabs.com/tools/cac-calculator)\n- **Divide:** Sum your expenses and divide by your new customer count.[[1]](https://usedatalayer.com/tools/cac-calculator)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "ProductLift",
+              "domain": "www.productlift.dev",
+              "url": "https://www.productlift.dev/cac-calculator/",
+              "title": "CAC Calculator",
+              "text": "Frequently Asked Questions * What expenses should I include in marketing and sales costs? ▼ Marketing Expenses: Advertising costs ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "aluslabs.com",
+              "domain": "aluslabs.com",
+              "url": "https://aluslabs.com/tools/cac-calculator",
+              "title": "CAC Calculator | Customer Acquisition Cost Estimator - AlusLabs",
+              "text": "The CAC calculator measures how much it costs your business to acquire a single new customer. Customer acquisition cost is calcula..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/",
+              "title": "Customer Acquisition Cost (CAC) Calculator",
+              "text": "CAC Calculator FAQs * What is Customer Acquisition Cost (CAC)? Customer Acquisition Cost is the total amount spent on sales and ma..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "usedatalayer.com",
+              "domain": "usedatalayer.com",
+              "url": "https://usedatalayer.com/tools/cac-calculator",
+              "title": "Customer Acquisition Cost (CAC) Calculator — Free Tool",
+              "text": "DataLayer tracks CAC automatically from your real marketing and sales spend against actual new customers acquired — segmented by c..."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Omni Calculator",
+          "domain": "www.omnicalculator.com",
+          "url": "https://www.omnicalculator.com/finance/cac",
+          "title": "Customer Acquisition Cost Calculator – CAC Calculator",
+          "text": "There are three steps you need to take to calculate the customer acquisition cost: * Determine the cost of marketing. The first st..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Yotpo",
+          "domain": "www.yotpo.com",
+          "url": "https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/",
+          "title": "Customer Acquisition Cost (CAC) Calculator",
+          "text": "CAC Calculator FAQs * What is Customer Acquisition Cost (CAC)? Customer Acquisition Cost is the total amount spent on sales and ma..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ProductLift",
+          "domain": "www.productlift.dev",
+          "url": "https://www.productlift.dev/cac-calculator/",
+          "title": "CAC Calculator",
+          "text": "Frequently Asked Questions * What expenses should I include in marketing and sales costs? ▼ Marketing Expenses: Advertising costs ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "CFO Pro Analytics",
+          "domain": "cfoproanalytics.com",
+          "url": "https://cfoproanalytics.com/cac-calculator/",
+          "title": "Customer Acquisition Cost Calculator | CFO Pro Analytics",
+          "text": "Formula: CAC = Total Acquisition Costs / Number of New Customers; Total Costs = Marketing Costs + Sales Team Costs + Other Acquisi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "usedatalayer.com",
+          "domain": "usedatalayer.com",
+          "url": "https://usedatalayer.com/tools/cac-calculator",
+          "title": "Customer Acquisition Cost (CAC) Calculator — Free Tool",
+          "text": "DataLayer tracks CAC automatically from your real marketing and sales spend against actual new customers acquired — segmented by c..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "aluslabs.com",
+          "domain": "aluslabs.com",
+          "url": "https://aluslabs.com/tools/cac-calculator",
+          "title": "CAC Calculator | Customer Acquisition Cost Estimator - AlusLabs",
+          "text": "The CAC calculator measures how much it costs your business to acquire a single new customer. Customer acquisition cost is calcula..."
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 4,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How do you calculate CAC?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is CAC and how is it calculated?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a good CAC percentage?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is a CAC calculator?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.tremendous.com",
+      "title": "Customer acquisition cost (CAC) calculator",
+      "url": "https://www.tremendous.com/tools/customer-acquisition-cost-calculator/",
+      "breadcrumb": "https://www.tremendous.com › Tools",
+      "website_name": "Tremendous",
+      "description": "Use our CAC calculator to find out how much you're spending to win new business. calculation is: (Cost of sales + cost of marketing) / # of new customers.",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1236,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "Use our CAC calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.yotpo.com",
+      "title": "Customer Acquisition Cost (CAC) Calculator",
+      "url": "https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/",
+      "breadcrumb": "https://www.yotpo.com › Tools",
+      "website_name": "Yotpo",
+      "description": "The CAC formula is: Total Sales and Marketing Expenses ÷ Number of New Customers Acquired. For example, if you spent $15,000 on marketing and sales in a month ... Read more",
+      "highlighted": [
+        "Total Sales and Marketing Expenses ÷ Number of New Customers Acquired"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.yotpo.com/tools/customer-acquisition-cost-cac-calculator/#:~:text=What%20expenses%20should%20I%20include",
+          "domain": "www.yotpo.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.wallstreetprep.com",
+      "title": "Customer Acquisition Cost (CAC) | Formula + Calculator",
+      "url": "https://www.wallstreetprep.com/knowledge/customer-acquisition-cost-cac/",
+      "breadcrumb": "https://www.wallstreetprep.com › knowledge › custome...",
+      "website_name": "Wall Street Prep",
+      "description": "The customer acquisition cost (CAC) is estimated by dividing the sales and marketing expenses (S&M) metric by the number of new customers acquired.",
+      "highlighted": [
+        "CAC"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "cfoproanalytics.com",
+      "title": "customer acquisition cost (CAC) calculations",
+      "url": "https://cfoproanalytics.com/cac-calculator/",
+      "breadcrumb": "https://cfoproanalytics.com › cac-calculator",
+      "website_name": "CFO Pro Analytics",
+      "description": "CAC Formula: CAC = Total Acquisition Costs / Number of New Customers. Total Acquisition Costs = Marketing Costs + Sales Team Costs + Other Acquisition Costs",
+      "highlighted": [
+        "CAC"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "waveup.com",
+      "title": "Free Customer Acquisition Cost (CAC) Calculator",
+      "url": "https://waveup.com/dashboard/cac-calculator/",
+      "breadcrumb": "https://waveup.com › dashboard › cac-calculator",
+      "website_name": "waveup",
+      "description": "Quickly measure your customer acquisition cost and track marketing efficiency with our CAC calculator. CAC is $100 per customer.",
+      "highlighted": [
+        "CAC is $100 per customer"
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 10,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnvNZrL37rH3Q4WVPaEa0dicx9jsaQ:1791474342177&q=cac+calculator&udm=2&source=univ&fir=_XEQEYAa1gW6fM%252Ci-95gC0cHdTDpM%252C_%253BThD-qPc_bocoAM%252CHNuPfam4ayVQOM%252C_%253BeroIsogjYzWYHM%252Ci-95gC0cHdTDpM%252C_%253B-Sb93MpvHr3RKM%252CK4zahIJ6U4Ah8M%252C_%253Bpp09cWyJWA6uaM%252CYqLlGwNBAHeFjM%252C_%253Bev4xMi38y96s7M%252CcSJJJDpjHjgdXM%252C_%253BnUh-tRGQ_iUNSM%252C3UPLvldhg8TDWM%252C_%253BNSqb6PfOqrrytM%252CMrFCbwNLvKfOMM%252C_%253BAGTgdnACpJY1hM%252C8m-l3mvFNcgIvM%252C_&usg=AI4_-kTOKCzKBcXn3r1swFN95ZUyOs1Zmg&sa=X&ved=2ahUKEwj5mKj-4aqXAxUKXGwGHWGOKncQ7Al6BAhKEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Customer Acquisition Cost (CAC) | Formula + Calculator",
+          "url": "https://www.wallstreetprep.com/knowledge/customer-acquisition-cost-cac/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHLmnrTvohbMCh1Vb3nHKHjYe34Bs0BivqouT_Daal_bYAJb7pb_J98a4&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "CAC Calculator Template | Growth Business Templates",
+          "url": "https://www.growthbusinesstemplates.com/product/cac-calculator-template",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGpFvbqiubN8fFXbaNxcge_GRWqpaVfQSkoMPQJ8xBKN2VEzekGjlR2eQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer Acquisition Cost (CAC) | Formula + Calculator",
+          "url": "https://www.wallstreetprep.com/knowledge/customer-acquisition-cost-cac/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFOu9CnTCylSjKBPeABjgjMVf06KEXbMifPzzUfUWobNIiUWgFdC5Jp8&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer Acquisition Cost Calculator | Plan Projections",
+          "url": "https://www.planprojections.com/calculators/customer-acquisition-cost-calculator/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNAhmHhP0dSC2Js65ZAooCuuR8TMA33YR6dx8l9_TqOq_GPmHJyaQS8g&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How To (Actually) Calculate CAC | andrewchen",
+          "url": "https://andrewchen.com/how-to-actually-calculate-cac/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQWAzeXDtY_4YjoQbKMS9h7tQSkAPNXzCYAtQ_EK3BSQBqIdNYsqMFZN0&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Startup Customer Acquisition Cost (CAC) Calculator Template ...",
+          "url": "https://www.template.net/editable/407048/startup-customer-acquisition-cost-cac-calculator",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2hZNIpmS0xuCOU1b9h1QQSiup04RR6mPrk4OfRx455oY2ChzZKmv9Vk&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV:CAC Ratio | KPI examples | Geckoboard",
+          "url": "https://www.geckoboard.com/resources/kpi-examples/ltv-cac-ratio/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtr3uMZAVwfoKqWh5RawmbCJQnEWOklGZhphKAc0Mad1GKbEWuB8rCDM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Confused about customer acquisition cost? I asked experts ...",
+          "url": "https://blog.hubspot.com/service/what-does-cac-stand-for",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1BsVUoH39vneLgj7fcsz6mGteEE6vXfn847wLqRso_9XWcvVQlHAvUwE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV/CAC Ratio | SaaS Formula + Calculator",
+          "url": "https://www.wallstreetprep.com/knowledge/ltv-cac-ratio/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEG8ThrSkyPM4EIlmcwYHyx_O75a8r4b5mz1jDi3q_uZjiu1Us-VsciUw&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "solidhq.com",
+      "title": "Customer acquisition cost (CAC) calculator",
+      "url": "https://solidhq.com/tools/cac-calculator/",
+      "breadcrumb": "https://solidhq.com › Tools",
+      "website_name": "SOLID Marketing Agency",
+      "description": "The formula is: CAC = (Total Marketing Spend + Total Sales Spend) / New Customers Acquired. This gives you the true cost of growth - the number that determines ... Read more",
+      "highlighted": [
+        "CAC = (Total Marketing Spend + Total Sales Spend) / New Customers Acquired"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "What Is Cac And Why It...",
+          "url": "https://solidhq.com/tools/cac-calculator/#:~:text=What%20is%20CAC%20and%20why%20it%20determines%20your%20growth%20ceiling%3F",
+          "domain": "solidhq.com"
+        },
+        {
+          "type": "link_element",
+          "title": "The Ltv:Cac Ratio - Your...",
+          "url": "https://solidhq.com/tools/cac-calculator/#:~:text=The%20LTV%3ACAC%20ratio%20-%20your%20growth%20compass",
+          "domain": "solidhq.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How To Reduce Your Cac",
+          "url": "https://solidhq.com/tools/cac-calculator/#:~:text=How%20to%20reduce%20your%20CAC",
+          "domain": "solidhq.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "CAC calculator medical",
+        "Free cac calculator",
+        "Cac calculator excel",
+        "CAC Calculator Google",
+        "Cac calculator coronary",
+        "How to calculate CAC",
+        "Calcium score Calculator percentile",
+        "Calcium score calculator MESA"
+      ]
+    }
+  ]
+}

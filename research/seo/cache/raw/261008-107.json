@@ -1,0 +1,3411 @@
+{
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "1.3380 sec.",
+    "cost": 0.01524,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "10081702-2633-0399-0000-25f940c52096",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "1.1253 sec.",
+            "cost": 0.01524,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "se_type": "google",
+                "keyword": "user interviews",
+                "location_code": 2840,
+                "language_code": "en",
+                "limit": 150,
+                "include_seed_keyword": true,
+                "filters": [
+                    [
+                        "keyword_info.search_volume",
+                        ">=",
+                        100
+                    ]
+                ],
+                "order_by": [
+                    "keyword_info.search_volume,desc"
+                ]
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "seed_keyword": "user interviews",
+                    "seed_keyword_data": {
+                        "se_type": "google",
+                        "keyword": "user interviews",
+                        "location_code": 2840,
+                        "language_code": "en",
+                        "keyword_info": {
+                            "se_type": "google",
+                            "last_updated_time": "2026-09-14 06:06:00 +00:00",
+                            "competition": 0.18,
+                            "competition_level": "LOW",
+                            "cpc": 6.96,
+                            "search_volume": 49500,
+                            "low_top_of_page_bid": 1.93,
+                            "high_top_of_page_bid": 6.94,
+                            "categories": [
+                                10004,
+                                10276,
+                                11088,
+                                12381,
+                                13442
+                            ],
+                            "monthly_searches": [
+                                {
+                                    "year": 2026,
+                                    "month": 8,
+                                    "search_volume": 60500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 7,
+                                    "search_volume": 60500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 6,
+                                    "search_volume": 60500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 5,
+                                    "search_volume": 60500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 4,
+                                    "search_volume": 49500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 3,
+                                    "search_volume": 49500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 2,
+                                    "search_volume": 40500
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 1,
+                                    "search_volume": 40500
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 12,
+                                    "search_volume": 40500
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 11,
+                                    "search_volume": 49500
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 10,
+                                    "search_volume": 40500
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 9,
+                                    "search_volume": 33100
+                                }
+                            ],
+                            "search_volume_trend": {
+                                "monthly": 0,
+                                "quarterly": 0,
+                                "yearly": 83
+                            }
+                        },
+                        "keyword_info_normalized_with_bing": null,
+                        "keyword_info_normalized_with_clickstream": null,
+                        "clickstream_keyword_info": null,
+                        "keyword_properties": {
+                            "se_type": "google",
+                            "core_keyword": null,
+                            "synonym_clustering_algorithm": "text_processing",
+                            "keyword_difficulty": 27,
+                            "detected_language": "en",
+                            "is_another_language": false,
+                            "words_count": 2
+                        },
+                        "serp_info": {
+                            "se_type": "google",
+                            "check_url": "https:\/\/www.google.com\/search?q=user%20interviews&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                            "serp_item_types": [
+                                "organic",
+                                "people_also_ask",
+                                "compare_sites",
+                                "discussions_and_forums",
+                                "video",
+                                "related_searches"
+                            ],
+                            "se_results_count": 139,
+                            "last_updated_time": "2026-07-30 04:50:34 +00:00",
+                            "previous_updated_time": "2026-05-14 20:45:58 +00:00"
+                        },
+                        "search_intent_info": {
+                            "se_type": "google",
+                            "main_intent": "informational",
+                            "foreign_intent": null,
+                            "last_updated_time": "2026-04-29 23:06:21 +00:00"
+                        },
+                        "avg_backlinks_info": {
+                            "se_type": "google",
+                            "backlinks": 746.6,
+                            "dofollow": 552.7,
+                            "referring_pages": 652.5,
+                            "referring_domains": 188.6,
+                            "referring_main_domains": 176.2,
+                            "rank": 170.3,
+                            "main_domain_rank": 561.4,
+                            "last_updated_time": "2026-07-30 04:50:34 +00:00"
+                        }
+                    },
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "total_count": 27,
+                    "items_count": 27,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyNywiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6InVzZXIgaW50ZXJ2aWV3cyIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxNTAsIm9mZnNldCI6MCwiYWlkIjoyNjMzMTIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjEwMDgxNzAyLTI2MzMtMDM5OS0wMDAwLTI1Zjk0MGM1MjA5NiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndGUiLCJ2YWx1ZSI6MTAwfSwiSWQiOiI1Y2FkNmY3OC00NmIzLTRmOWYtYWRkMC0wNTI2YWNkNjU2YTciLCJTZWFyY2hBZnRlckRhdGEiOlsxMTAsImU1MGE0YzgzLWJhZmMtMzA5MC0xMTRjLTBmMjAzYzI0NTI5OSJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 06:06:00 +00:00",
+                                "competition": 0.18,
+                                "competition_level": "LOW",
+                                "cpc": 6.96,
+                                "search_volume": 49500,
+                                "low_top_of_page_bid": 1.93,
+                                "high_top_of_page_bid": 6.94,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381,
+                                    13442
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 33100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 83
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 27,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 2
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 746.6,
+                                "dofollow": 552.7,
+                                "referring_pages": 652.5,
+                                "referring_domains": 188.6,
+                                "referring_main_domains": 176.2,
+                                "rank": 170.3,
+                                "main_domain_rank": 561.4,
+                                "last_updated_time": "2026-07-30 04:50:34 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:06:21 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews platform",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-16 10:41:58 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 16.2,
+                                "search_volume": 3600,
+                                "low_top_of_page_bid": 8.57,
+                                "high_top_of_page_bid": 55.54,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 8100
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 6600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 14800
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 50
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -77,
+                                    "quarterly": -71,
+                                    "yearly": -21
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 3,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 660.7,
+                                "dofollow": 470.8,
+                                "referring_pages": 593.8,
+                                "referring_domains": 182.3,
+                                "referring_main_domains": 169.2,
+                                "rank": 81.6,
+                                "main_domain_rank": 438.5,
+                                "last_updated_time": "2025-12-29 11:19:22 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-30 01:14:18 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews focus groups",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 23:29:01 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 6.05,
+                                "search_volume": 1600,
+                                "low_top_of_page_bid": 2.91,
+                                "high_top_of_page_bid": 8.67,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 4400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 720
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": -33,
+                                    "yearly": 515
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interviews focus group",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 11,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 169.8,
+                                "dofollow": 155.3,
+                                "referring_pages": 165.4,
+                                "referring_domains": 26.7,
+                                "referring_main_domains": 25.9,
+                                "rank": 140.6,
+                                "main_domain_rank": 441.7,
+                                "last_updated_time": "2025-04-18 02:38:00 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 23:02:20 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews focus group",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-15 01:28:32 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 6.05,
+                                "search_volume": 1600,
+                                "low_top_of_page_bid": 2.91,
+                                "high_top_of_page_bid": 8.67,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 3600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 4400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 720
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -33,
+                                    "quarterly": -33,
+                                    "yearly": 515
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 11,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 79.7,
+                                "dofollow": 53.2,
+                                "referring_pages": 73,
+                                "referring_domains": 42.1,
+                                "referring_main_domains": 38.8,
+                                "rank": 103.6,
+                                "main_domain_rank": 540.3,
+                                "last_updated_time": "2026-07-31 21:42:11 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 00:47:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews com",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-16 10:36:45 +00:00",
+                                "competition": 0.43,
+                                "competition_level": "MEDIUM",
+                                "cpc": 12.22,
+                                "search_volume": 1300,
+                                "low_top_of_page_bid": 1.66,
+                                "high_top_of_page_bid": 9.86,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 2900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 720
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": -18,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interviews.com",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 26,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 788.2,
+                                "dofollow": 659.5,
+                                "referring_pages": 739.8,
+                                "referring_domains": 163.4,
+                                "referring_main_domains": 153.1,
+                                "rank": 169.5,
+                                "main_domain_rank": 756,
+                                "last_updated_time": "2024-09-15 08:18:34 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-30 01:13:12 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "is user interviews legit",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-16 18:48:50 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 1.64,
+                                "search_volume": 1000,
+                                "low_top_of_page_bid": 0.23,
+                                "high_top_of_page_bid": 4.79,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 880
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": -19,
+                                    "yearly": 48
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 5,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 69.8,
+                                "dofollow": 46.8,
+                                "referring_pages": 64,
+                                "referring_domains": 35.5,
+                                "referring_main_domains": 32.8,
+                                "rank": 75.5,
+                                "main_domain_rank": 547.9,
+                                "last_updated_time": "2026-09-05 18:41:45 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 14:58:10 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews paid research studies",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 12:18:43 +00:00",
+                                "competition": 0,
+                                "competition_level": "LOW",
+                                "cpc": 1.3,
+                                "search_volume": 1000,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1900
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 480
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 19,
+                                    "quarterly": 19,
+                                    "yearly": 387
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": 21,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 5
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 598.7,
+                                "dofollow": 394.2,
+                                "referring_pages": 511,
+                                "referring_domains": 186.4,
+                                "referring_main_domains": 173.3,
+                                "rank": 151.1,
+                                "main_domain_rank": 515,
+                                "last_updated_time": "2026-08-01 19:26:11 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "commercial",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-05-05 20:59:36 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "is user interviews legitimate",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-13 02:16:12 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 1.64,
+                                "search_volume": 1000,
+                                "low_top_of_page_bid": 0.23,
+                                "high_top_of_page_bid": 4.79,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1600
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 880
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": -19,
+                                    "yearly": 48
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "is user interviews legit",
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 4,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 67,
+                                "dofollow": 45.3,
+                                "referring_pages": 61.8,
+                                "referring_domains": 34.1,
+                                "referring_main_domains": 31.5,
+                                "rank": 75.1,
+                                "main_domain_rank": 504.8,
+                                "last_updated_time": "2026-08-01 11:19:02 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-28 06:21:25 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews review",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 04:36:55 +00:00",
+                                "competition": 0.05,
+                                "competition_level": "LOW",
+                                "cpc": 4.27,
+                                "search_volume": 880,
+                                "low_top_of_page_bid": 1.05,
+                                "high_top_of_page_bid": 4.49,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381,
+                                    13442
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 590
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 69
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interviews reviews",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 16,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 608.9,
+                                "dofollow": 431.2,
+                                "referring_pages": 546.7,
+                                "referring_domains": 187.1,
+                                "referring_main_domains": 173.6,
+                                "rank": 116.2,
+                                "main_domain_rank": 598.1,
+                                "last_updated_time": "2026-03-16 19:36:14 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:26:46 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews reviews",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 00:20:59 +00:00",
+                                "competition": 0.05,
+                                "competition_level": "LOW",
+                                "cpc": 4.27,
+                                "search_volume": 880,
+                                "low_top_of_page_bid": 1.05,
+                                "high_top_of_page_bid": 4.49,
+                                "categories": [
+                                    10002,
+                                    10028
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 1000
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 880
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 590
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 69
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 16,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 607.3,
+                                "dofollow": 406.8,
+                                "referring_pages": 518.7,
+                                "referring_domains": 186.6,
+                                "referring_main_domains": 174.2,
+                                "rank": 119.3,
+                                "main_domain_rank": 559.8,
+                                "last_updated_time": "2026-09-05 23:42:53 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 22:54:49 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews reddit",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 15:00:42 +00:00",
+                                "competition": 0,
+                                "competition_level": "LOW",
+                                "cpc": null,
+                                "search_volume": 590,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10013,
+                                    10106
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 480
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -19,
+                                    "quarterly": -19,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 0,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 3.8,
+                                "dofollow": 3.6,
+                                "referring_pages": 3.8,
+                                "referring_domains": 2,
+                                "referring_main_domains": 1.9,
+                                "rank": 20.2,
+                                "main_domain_rank": 800.3,
+                                "last_updated_time": "2026-08-02 20:08:32 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 22:53:26 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews participant",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-16 15:04:40 +00:00",
+                                "competition": 0.3,
+                                "competition_level": "LOW",
+                                "cpc": 8.87,
+                                "search_volume": 480,
+                                "low_top_of_page_bid": 1.55,
+                                "high_top_of_page_bid": 6.95,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 320
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -19,
+                                    "quarterly": -46,
+                                    "yearly": 50
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interviews participants",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 24,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": null,
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "transactional",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-05-06 06:24:47 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews participants",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 21:35:36 +00:00",
+                                "competition": 0.3,
+                                "competition_level": "LOW",
+                                "cpc": 8.87,
+                                "search_volume": 480,
+                                "low_top_of_page_bid": 1.55,
+                                "high_top_of_page_bid": 6.95,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 720
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 320
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -19,
+                                    "quarterly": -46,
+                                    "yearly": 50
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 24,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 724.9,
+                                "dofollow": 535.7,
+                                "referring_pages": 639.2,
+                                "referring_domains": 183.5,
+                                "referring_main_domains": 171.8,
+                                "rank": 156.2,
+                                "main_domain_rank": 593.1,
+                                "last_updated_time": "2026-08-03 05:39:43 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 22:44:21 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews legit",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 16:49:03 +00:00",
+                                "competition": 0.04,
+                                "competition_level": "LOW",
+                                "cpc": 4.04,
+                                "search_volume": 480,
+                                "low_top_of_page_bid": 1.1,
+                                "high_top_of_page_bid": 3.53,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 320
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 127
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 16,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 607.8,
+                                "dofollow": 407,
+                                "referring_pages": 519.1,
+                                "referring_domains": 186.7,
+                                "referring_main_domains": 174.3,
+                                "rank": 119.6,
+                                "main_domain_rank": 515.5,
+                                "last_updated_time": "2026-09-07 07:29:23 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:54:36 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews login",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 03:20:24 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 6.08,
+                                "search_volume": 390,
+                                "low_top_of_page_bid": 2.41,
+                                "high_top_of_page_bid": 18.32,
+                                "categories": [
+                                    10007,
+                                    11496,
+                                    13418
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 590
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 210
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 23,
+                                    "quarterly": 0,
+                                    "yearly": 127
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 7,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 604.6,
+                                "dofollow": 404.1,
+                                "referring_pages": 515.7,
+                                "referring_domains": 185.7,
+                                "referring_main_domains": 173.4,
+                                "rank": 104.9,
+                                "main_domain_rank": 358.6,
+                                "last_updated_time": "2026-09-08 17:05:33 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:04:07 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews survey",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 08:02:43 +00:00",
+                                "competition": 0.41,
+                                "competition_level": "MEDIUM",
+                                "cpc": 5.06,
+                                "search_volume": 260,
+                                "low_top_of_page_bid": 1.55,
+                                "high_top_of_page_bid": 6.97,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 170
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 23,
+                                    "yearly": 88
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interviews surveys",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 20,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 613.5,
+                                "dofollow": 436.3,
+                                "referring_pages": 554.2,
+                                "referring_domains": 186.5,
+                                "referring_main_domains": 173.2,
+                                "rank": 123.4,
+                                "main_domain_rank": 482,
+                                "last_updated_time": "2026-01-25 02:31:29 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "commercial",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-05-04 11:54:06 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews surveys",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-15 01:30:06 +00:00",
+                                "competition": 0.41,
+                                "competition_level": "MEDIUM",
+                                "cpc": 5.06,
+                                "search_volume": 260,
+                                "low_top_of_page_bid": 1.55,
+                                "high_top_of_page_bid": 6.97,
+                                "categories": [
+                                    10004,
+                                    10004,
+                                    10276,
+                                    10276,
+                                    11088,
+                                    11088,
+                                    12381,
+                                    12381,
+                                    13442
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 170
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 23,
+                                    "yearly": 88
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 20,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 621.3,
+                                "dofollow": 417.9,
+                                "referring_pages": 530.9,
+                                "referring_domains": 192.5,
+                                "referring_main_domains": 180.1,
+                                "rank": 140.6,
+                                "main_domain_rank": 468.5,
+                                "last_updated_time": "2026-09-10 03:03:25 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 00:19:07 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews careers",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 22:50:14 +00:00",
+                                "competition": 0.06,
+                                "competition_level": "LOW",
+                                "cpc": 2.41,
+                                "search_volume": 260,
+                                "low_top_of_page_bid": 1.25,
+                                "high_top_of_page_bid": 2.8,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 480
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -47,
+                                    "quarterly": -57,
+                                    "yearly": -85
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 19,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 794,
+                                "dofollow": 624.1,
+                                "referring_pages": 713.2,
+                                "referring_domains": 152.5,
+                                "referring_main_domains": 142.7,
+                                "rank": 131.9,
+                                "main_domain_rank": 596.2,
+                                "last_updated_time": "2026-08-03 21:57:05 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": [
+                                    "informational"
+                                ],
+                                "last_updated_time": "2026-04-29 23:01:38 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "respondent user interviews",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-17 07:36:16 +00:00",
+                                "competition": 0.15,
+                                "competition_level": "LOW",
+                                "cpc": 13.03,
+                                "search_volume": 170,
+                                "low_top_of_page_bid": 3.4,
+                                "high_top_of_page_bid": 36.77,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 1300
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 110
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -96,
+                                    "quarterly": 67,
+                                    "yearly": 25
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 19,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 983.5,
+                                "dofollow": 618.9,
+                                "referring_pages": 815.5,
+                                "referring_domains": 289.9,
+                                "referring_main_domains": 270.7,
+                                "rank": 141.2,
+                                "main_domain_rank": 490.2,
+                                "last_updated_time": "2026-09-12 23:05:30 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "commercial",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-05-04 15:32:59 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "what is user interviews",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 19:22:44 +00:00",
+                                "competition": 0.01,
+                                "competition_level": "LOW",
+                                "cpc": 12.83,
+                                "search_volume": 140,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 90
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 24,
+                                    "quarterly": 24,
+                                    "yearly": 200
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 19,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 696.9,
+                                "dofollow": 513.5,
+                                "referring_pages": 611.3,
+                                "referring_domains": 158.7,
+                                "referring_main_domains": 148.8,
+                                "rank": 131.6,
+                                "main_domain_rank": 592.8,
+                                "last_updated_time": "2026-09-14 08:36:49 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 02:42:16 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews questions",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-15 00:24:32 +00:00",
+                                "competition": 0,
+                                "competition_level": "LOW",
+                                "cpc": null,
+                                "search_volume": 140,
+                                "low_top_of_page_bid": null,
+                                "high_top_of_page_bid": null,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 260
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 120,
+                                    "quarterly": 0,
+                                    "yearly": 57
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interview questions",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 23,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 643.9,
+                                "dofollow": 432.8,
+                                "referring_pages": 541,
+                                "referring_domains": 200.3,
+                                "referring_main_domains": 187.7,
+                                "rank": 155.3,
+                                "main_domain_rank": 540.6,
+                                "last_updated_time": "2026-09-14 11:17:11 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:12:42 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user experience interviews",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-12 10:42:06 +00:00",
+                                "competition": 0.21,
+                                "competition_level": "LOW",
+                                "cpc": 3.33,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 1.57,
+                                "high_top_of_page_bid": 16.8,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 260
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 90
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -36,
+                                    "quarterly": -50,
+                                    "yearly": 0
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user experience interview",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 14,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 90.4,
+                                "dofollow": 63,
+                                "referring_pages": 77.4,
+                                "referring_domains": 47.5,
+                                "referring_main_domains": 44.8,
+                                "rank": 91.8,
+                                "main_domain_rank": 554.4,
+                                "last_updated_time": "2026-01-25 02:31:30 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 00:03:40 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews app",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 22:09:01 +00:00",
+                                "competition": 0.15,
+                                "competition_level": "LOW",
+                                "cpc": 18.39,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 2.62,
+                                "high_top_of_page_bid": 14.45,
+                                "categories": [
+                                    10007,
+                                    10878,
+                                    13378,
+                                    13381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 50
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 120
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "user interview app",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 12,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 3141.3,
+                                "dofollow": 2103.9,
+                                "referring_pages": 2699.3,
+                                "referring_domains": 918.9,
+                                "referring_main_domains": 865.6,
+                                "rank": 108.2,
+                                "main_domain_rank": 509.9,
+                                "last_updated_time": "2026-09-16 14:44:32 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": [
+                                    "navigational"
+                                ],
+                                "last_updated_time": "2026-04-30 01:22:13 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews market research",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-15 17:12:09 +00:00",
+                                "competition": 0.03,
+                                "competition_level": "LOW",
+                                "cpc": 13.45,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 2.47,
+                                "high_top_of_page_bid": 13.36,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 70
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 57,
+                                    "quarterly": 0,
+                                    "yearly": 267
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 26,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 695.6,
+                                "dofollow": 512.8,
+                                "referring_pages": 610.3,
+                                "referring_domains": 159.3,
+                                "referring_main_domains": 149.4,
+                                "rank": 155.2,
+                                "main_domain_rank": 580,
+                                "last_updated_time": "2026-09-16 14:43:47 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 22:41:17 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews sign up",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 16:04:41 +00:00",
+                                "competition": 0.27,
+                                "competition_level": "LOW",
+                                "cpc": 3.59,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 1.31,
+                                "high_top_of_page_bid": 6.92,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 50
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -50,
+                                    "quarterly": -36,
+                                    "yearly": 40
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 17,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 613.8,
+                                "dofollow": 399.5,
+                                "referring_pages": 522.8,
+                                "referring_domains": 186.5,
+                                "referring_main_domains": 173.2,
+                                "rank": 134.9,
+                                "main_domain_rank": 385.8,
+                                "last_updated_time": "2026-09-16 14:51:16 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "navigational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:34:30 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews jobs",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-13 12:09:03 +00:00",
+                                "competition": 0.18,
+                                "competition_level": "LOW",
+                                "cpc": 2.73,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 0.97,
+                                "high_top_of_page_bid": 2.99,
+                                "categories": [
+                                    10016,
+                                    10139,
+                                    10747,
+                                    12037
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 140
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 90
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -36,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 19,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 814.5,
+                                "dofollow": 634.4,
+                                "referring_pages": 730.3,
+                                "referring_domains": 154.1,
+                                "referring_main_domains": 144.3,
+                                "rank": 133.1,
+                                "main_domain_rank": 600.1,
+                                "last_updated_time": "2026-09-16 14:48:01 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:08:51 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "user interviews paid surveys",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 05:39:30 +00:00",
+                                "competition": 0.15,
+                                "competition_level": "LOW",
+                                "cpc": 3.06,
+                                "search_volume": 110,
+                                "low_top_of_page_bid": 1.44,
+                                "high_top_of_page_bid": 3.07,
+                                "categories": [
+                                    10004,
+                                    10276,
+                                    11088,
+                                    12381,
+                                    13442
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 480
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 30
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -71,
+                                    "quarterly": -90,
+                                    "yearly": 67
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 27,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 4
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 625.4,
+                                "dofollow": 425.9,
+                                "referring_pages": 536.1,
+                                "referring_domains": 194.7,
+                                "referring_main_domains": 182,
+                                "rank": 164.7,
+                                "main_domain_rank": 493.8,
+                                "last_updated_time": "2026-08-11 21:23:51 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "commercial",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-07-18 15:25:55 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,604 @@
+{
+  "id": "10081545-2633-0066-0000-921fbec79060",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "The best design books span general philosophy, typography, user experience, and visual practice:[[1]](https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)\n\n### General & Industrial Design\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:10)\n**The Design of Everyday Things** by Don Norman – Focuses on human-centered design and why poorly designed objects cause confusion.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:11)\n**Design for the Real World** by Victor Papanek – Explores socially and ecologically responsible design practices.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:12)\n**The Laws of Simplicity** by John Maeda – Combines technology, design, and business to manage complexity.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:13)\n**Steal Like an Artist** by Austin Kleon – A short, practical guide to unlocking creativity and finding inspiration.[[1]](https://www.ideo.org/perspective/dear-designer-may-these-books-inspire-you)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/)[[4]](https://fivebooks.com/best-books/design-kevin-g-bethune/)[[5]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)\n\n### Graphic & Visual Design\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:14)\n**Thinking with Type** by Ellen Lupton – A critical guide on using typography in visual communication.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWL7wxPBeJSlcGI7qJ7v12K-p5RW1pNT1vexuUrMq9wmUl1jRssHFBVBb-2PQ)\n**Interaction of Color** by Josef Albers – A classic deep dive into color theory, optical illusions, and harmonies.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-n4S6X_XpIcRrdla1J8gnWPPj0WMT1kGgRcMfilruYGqGNaBd-5AfYB3Rlh4)\n**Design as Art** by Bruno Munari – Essays on how design connects with everyday life and visual culture.\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmXuJ8wnUUqB1KoxONF5cNRDfBc7-oOsWs7KR8rYYDz9A9ZCUDsCDGZZ6dqWI)\n**Universal Principles of Design** by William Lidwell – A cross-disciplinary reference covering 125 key design concepts.[[1]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://www.youtube.com/watch?v=xntKz5gLoNI&t=9)\n\n### Digital & Product Design\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDT2rd2RPgzLrwfdMw6SjEvY9wBwLHdb74QDr7TiEJktRkPmDywhHU2-b6Vow)\n**Don't Make Me Think** by Steve Krug – The foundational text on web usability and intuitive navigation.\n---\n\n**About Face 3** by Alan Cooper – An authoritative guide to goal-directed interaction design.\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYQmaOmLoodWAqzd_MZ2zxG9owQ-OSwjXBqfGYby2cM3QivPoDeYX8hVltFaQ)\n**The Non-Designer's Design Book** by Robin P. Williams – A beginner-friendly introduction to basic design and layout principles.[[1]](https://www.goodreads.com/shelf/show/design)Explore curated recommendations and community favorites on [Designers & Books](https://www.designersandbooks.com/) or check popular rankings via [Goodreads Design Shelf](https://www.goodreads.com/shelf/show/design).[[1]](https://www.goodreads.com/shelf/show/design)[[2]](https://www.designersandbooks.com/)If you'd like to narrow down this list, tell me:\n\n- What **specific type of design** you focus on (graphic, UX/UI, interior, industrial)\n- Your **experience level** (beginner or pro)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "The best design books span general philosophy, typography, user experience, and visual practice :",
+          "markdown": "The best design books span general philosophy, typography, user experience, and visual practice:[[1]](https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/",
+              "title": "What is the best design book you have ever read? - Reddit",
+              "text": "Diverse Design Recommendations: Additional recommended design books include: Robert Bringhurst on book design, 'Japanese Design Si..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Goodreads",
+              "domain": "www.goodreads.com",
+              "url": "https://www.goodreads.com/shelf/show/design",
+              "title": "Popular Design Books",
+              "text": "Popular Design Books: The Design of Everyday Things and Emotional Design by Donald A. Norman; Don't Make Me Think by Steve Krug; T..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Muzli - Design inspiration hub",
+              "domain": "medium.muz.li",
+              "url": "https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37",
+              "title": "9 best must-read books for Designers | by Harnoor Bhullar | Muzli",
+              "text": "Here is a quick list of the books 1. “ How To” by “Michael Bierut” 2. “ Logo Design Love” by “David Airey” 3. “ The Brand gap” by ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "General & Industrial Design",
+          "text": "The Design of Everyday Things by Don Norman – Focuses on human-centered design and why poorly designed objects cause confusion. Design for the Real World by Victor Papanek – Explores socially and ecologically responsible design practices. The Laws of Simplicity by John Maeda – Combines technology, design, and business to manage complexity. Steal Like an Artist by Austin Kleon – A short, practical guide to unlocking creativity and finding inspiration.",
+          "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:5)\n**The Design of Everyday Things** by Don Norman – Focuses on human-centered design and why poorly designed objects cause confusion.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:6)\n**Design for the Real World** by Victor Papanek – Explores socially and ecologically responsible design practices.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:7)\n**The Laws of Simplicity** by John Maeda – Combines technology, design, and business to manage complexity.\n---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:8)\n**Steal Like an Artist** by Austin Kleon – A short, practical guide to unlocking creativity and finding inspiration.[[1]](https://www.ideo.org/perspective/dear-designer-may-these-books-inspire-you)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/)[[4]](https://fivebooks.com/best-books/design-kevin-g-bethune/)[[5]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Graphic & Visual Design",
+          "text": "Thinking with Type by Ellen Lupton – A critical guide on using typography in visual communication. Interaction of Color by Josef Albers – A classic deep dive into color theory, optical illusions, and harmonies. Design as Art by Bruno Munari – Essays on how design connects with everyday life and visual culture. Universal Principles of Design by William Lidwell – A cross-disciplinary reference covering 125 key design concepts.",
+          "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:9)\n**Thinking with Type** by Ellen Lupton – A critical guide on using typography in visual communication.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWL7wxPBeJSlcGI7qJ7v12K-p5RW1pNT1vexuUrMq9wmUl1jRssHFBVBb-2PQ)\n**Interaction of Color** by Josef Albers – A classic deep dive into color theory, optical illusions, and harmonies.\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-n4S6X_XpIcRrdla1J8gnWPPj0WMT1kGgRcMfilruYGqGNaBd-5AfYB3Rlh4)\n**Design as Art** by Bruno Munari – Essays on how design connects with everyday life and visual culture.\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmXuJ8wnUUqB1KoxONF5cNRDfBc7-oOsWs7KR8rYYDz9A9ZCUDsCDGZZ6dqWI)\n**Universal Principles of Design** by William Lidwell – A cross-disciplinary reference covering 125 key design concepts.[[1]](https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37)[[2]](https://www.goodreads.com/shelf/show/design)[[3]](https://www.youtube.com/watch?v=xntKz5gLoNI&t=9)"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Digital & Product Design",
+          "text": "Don't Make Me Think by Steve Krug – The foundational text on web usability and intuitive navigation. About Face 3 by Alan Cooper – An authoritative guide to goal-directed interaction design. The Non-Designer's Design Book by Robin P. Williams – A beginner-friendly introduction to basic design and layout principles.",
+          "markdown": "---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDT2rd2RPgzLrwfdMw6SjEvY9wBwLHdb74QDr7TiEJktRkPmDywhHU2-b6Vow)\n**Don't Make Me Think** by Steve Krug – The foundational text on web usability and intuitive navigation.\n---\n\n**About Face 3** by Alan Cooper – An authoritative guide to goal-directed interaction design.\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYQmaOmLoodWAqzd_MZ2zxG9owQ-OSwjXBqfGYby2cM3QivPoDeYX8hVltFaQ)\n**The Non-Designer's Design Book** by Robin P. Williams – A beginner-friendly introduction to basic design and layout principles.[[1]](https://www.goodreads.com/shelf/show/design)"
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Explore curated recommendations and community favorites on Designers & Books or check popular rankings via Goodreads Design Shelf.",
+          "markdown": "Explore curated recommendations and community favorites on [Designers & Books](https://www.designersandbooks.com/) or check popular rankings via [Goodreads Design Shelf](https://www.goodreads.com/shelf/show/design).[[1]](https://www.goodreads.com/shelf/show/design)[[2]](https://www.designersandbooks.com/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Designers & Books",
+              "url": "https://www.designersandbooks.com/",
+              "domain": "www.designersandbooks.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Goodreads Design Shelf",
+              "url": "https://www.goodreads.com/shelf/show/design",
+              "domain": "www.goodreads.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Goodreads",
+              "domain": "www.goodreads.com",
+              "url": "https://www.goodreads.com/shelf/show/design",
+              "title": "Popular Design Books",
+              "text": "Popular Design Books: The Design of Everyday Things and Emotional Design by Donald A. Norman; Don't Make Me Think by Steve Krug; T..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Designers & Books",
+              "domain": "www.designersandbooks.com",
+              "url": "https://www.designersandbooks.com/",
+              "title": "Designers & Books | Book lists and commentary from esteemed designers and architects",
+              "text": "* D.A.P. + Designers & Books: Producing 10-issue facsimile of Archigram. * Frederick Steiner recommends Before Central Park. * Wit..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like to narrow down this list, tell me:What specific type of design you focus on (graphic, UX/UI, interior, industrial)\nYour experience level (beginner or pro)",
+          "markdown": "If you'd like to narrow down this list, tell me:\n\n- What **specific type of design** you focus on (graphic, UX/UI, interior, industrial)\n- Your **experience level** (beginner or pro)"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/Design/comments/1ah2ho7/what_is_the_best_design_book_you_have_ever_read/",
+          "title": "What is the best design book you have ever read? - Reddit",
+          "text": "Diverse Design Recommendations: Additional recommended design books include: Robert Bringhurst on book design, 'Japanese Design Si..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "IDEO.org",
+          "domain": "www.ideo.org",
+          "url": "https://www.ideo.org/perspective/dear-designer-may-these-books-inspire-you",
+          "title": "Dear Designer: May These Books Inspire You | IDEO.org",
+          "text": "Recommended Design Books: Invisible Cities by Italo Calvino (imagination and perception); Wabi Sabi for Artists, Designers, Poets,"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Muzli - Design inspiration hub",
+          "domain": "medium.muz.li",
+          "url": "https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37",
+          "title": "9 best must-read books for Designers | by Harnoor Bhullar | Muzli",
+          "text": "Here is a quick list of the books 1. “ How To” by “Michael Bierut” 2. “ Logo Design Love” by “David Airey” 3. “ The Brand gap” by ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Designers & Books",
+          "domain": "www.designersandbooks.com",
+          "url": "https://www.designersandbooks.com/",
+          "title": "Designers & Books | Book lists and commentary from esteemed designers and architects",
+          "text": "* D.A.P. + Designers & Books: Producing 10-issue facsimile of Archigram. * Frederick Steiner recommends Before Central Park. * Wit..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Goodreads",
+          "domain": "www.goodreads.com",
+          "url": "https://www.goodreads.com/shelf/show/design",
+          "title": "Popular Design Books",
+          "text": "Popular Design Books: The Design of Everyday Things and Emotional Design by Donald A. Norman; Don't Make Me Think by Steve Krug; T..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=xntKz5gLoNI&t=9",
+          "title": "Must Read Design Books for Graphic Designers!",
+          "text": "Must Read Design Books for Graphic Designers! design book collection as a freelance graphic designer i'm going to be breaking down..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Five Books",
+          "domain": "fivebooks.com",
+          "url": "https://fivebooks.com/best-books/design-kevin-g-bethune/",
+          "title": "The Best Books on Design - Five Books Expert Recommendations",
+          "text": "Recommended Design Books: Designing Design by Kenya Hara (focuses on intuitive human experience and invisibility of good design); ..."
+        }
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "Design, Second Edition: The Definitive Visual Guide - DK",
+          "description": "Target & more\nFree delivery on $35+",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:15",
+          "price": {
+            "current": 34.49,
+            "max_value": 39,
+            "currency": "USD",
+            "is_price_range": true,
+            "displayed_price": "$34.49 Usually $39"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 3,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "12989935705095918634",
+            "data_docid": "17391769672959599594",
+            "gid": "10256706572009016981"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Phaidon - 1000 Design Classics",
+          "description": "Target & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:16",
+          "price": {
+            "current": 57.02,
+            "currency": "USD",
+            "displayed_price": "$57.02"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 6,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "15769684940428642853",
+            "data_docid": "13685766814292665194",
+            "gid": "7088953805981715648"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Design Book, New Edition",
+          "description": "Phaidon & more",
+          "more_sellers": true,
+          "seller": "Phaidon",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:17",
+          "price": {
+            "current": 24.95,
+            "currency": "USD",
+            "displayed_price": "$24.95"
+          },
+          "product_identifiers": {
+            "product_id": "8069541847832581250",
+            "data_docid": "14681935544754734989"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Grid Systems in Graphic Design (A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers)",
+          "description": "Target & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:18",
+          "price": {
+            "current": 37.41,
+            "currency": "USD",
+            "displayed_price": "$37.41"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 10,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "12704911658568698887",
+            "data_docid": "7988799084716855934",
+            "gid": "16607784781025854273"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Art of Modern Design (The Interiors of James Magni & Jason Kalman)",
+          "description": "Target & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:19",
+          "price": {
+            "current": 48.33,
+            "currency": "USD",
+            "displayed_price": "$48.33"
+          },
+          "product_identifiers": {
+            "product_id": "9964818255635138090",
+            "data_docid": "14847266499382617288",
+            "gid": "16577421755444987448"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Patterns : Inside the Design Library",
+          "description": "Phaidon",
+          "seller": "Phaidon",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:20",
+          "price": {
+            "current": 79.95,
+            "currency": "USD",
+            "displayed_price": "$79.95"
+          },
+          "product_identifiers": {
+            "product_id": "3981257657424112275",
+            "data_docid": "18171058098116979716",
+            "gid": "9877999754620315689"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Design Book by DK (Hardcover)",
+          "description": "Target & more\nFree delivery on $35+",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:21",
+          "price": {
+            "current": 16.3,
+            "currency": "USD",
+            "displayed_price": "$16.30"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 3,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "6550219297440694334",
+            "data_docid": "18098301964696133309",
+            "gid": "7094877173870161632"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Impossible Collection of Design",
+          "description": "Assouline & more\nFree delivery by Wed",
+          "more_sellers": true,
+          "seller": "Assouline",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-921fbec79060:22",
+          "price": {
+            "current": 1200,
+            "currency": "USD",
+            "displayed_price": "$1,200.00"
+          },
+          "product_identifiers": {
+            "product_id": "13204269517499882225",
+            "data_docid": "16018732499066842016"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "sobrief.com",
+      "title": "Top 10 Books on Simplicity in Design You Can't Miss",
+      "url": "https://sobrief.com/lists/top-10-books-on-simplicity-in-design-you-cant-miss",
+      "breadcrumb": "https://sobrief.com › Lists",
+      "website_name": "SoBrief",
+      "description": "1. The Design of Everyday Things • 2. Don't Make Me Think • 3. Presentation Zen • 4. Wabi Sabi • 5. Clean Architecture...",
+      "highlighted": [
+        "1. The Design of Everyday Things"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "medium.com",
+      "title": "5 books that helped me in my journey to learn graphic ...",
+      "url": "https://medium.com/design-bootcamp/5-books-that-helped-me-in-my-journey-to-learn-graphic-design-edb0482d1537",
+      "breadcrumb": "3 years ago",
+      "website_name": "Medium · Anupriya Jha",
+      "description": "These books cover topics such as typography, layout, color, grids, and more. The Elements of Graphic Design by Alex W. White. Thinking with ...",
+      "highlighted": [
+        "The Elements of Graphic Design by Alex W. White"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.bostonmagazine.com",
+      "title": "Six Art and Design Books for Your Spring 2025 Reading List",
+      "url": "https://www.bostonmagazine.com/property/2025/02/28/art-design-books-spring-2025/",
+      "breadcrumb": "https://www.bostonmagazine.com › 2025/02/28 › art-d...",
+      "website_name": "Boston Magazine",
+      "description": "Feb 28, 2025 — Six Art and Design Books for Your. The compilation features several globally revered design pros, Studio visits, styling ideas, and informative ...",
+      "pre_snippet": "02/28/2025 00:00:00",
+      "highlighted": [
+        "Six Art and Design Books for Your"
+      ],
+      "timestamp": "2025-02-28 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.tiktok.com",
+      "title": "Essential Design Books to Ignite Your Creativity",
+      "url": "https://www.tiktok.com/@daramint/video/7512561768695221526",
+      "breadcrumb": "20.5K+ views  ·  1 year ago",
+      "website_name": "TikTok · Design With Dara",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "description": "Discover must-read design books that transform your mindset and process. Perfect for creative burnout. Start your journey now! #designbooks # ...",
+      "highlighted": [
+        "must-read design books that transform your mindset and process"
+      ],
+      "timestamp": "2025-10-08 15:45:41 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What graphic design books or magazine subscriptions are ...",
+      "url": "https://www.quora.com/What-graphic-design-books-or-magazine-subscriptions-are-a-must-have-for-a-design-library",
+      "breadcrumb": "30+ answers  ·  15 years ago",
+      "website_name": "Quora",
+      "description": "What graphic design books or magazine subscriptions are a must have for a design library?",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "32 answers",
+          "url": "https://www.quora.com/What-graphic-design-books-or-magazine-subscriptions-are-a-must-have-for-a-design-library?top_ans=377317",
+          "domain": "www.quora.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnveQJdvfLK2M_l9Em7C4rBP1-B29Q:1791474340733&q=design+books&udm=2&source=univ&fir=bavGUFy_znA4NM%252CysWBdpxJAPjWAM%252C_%253B02JwxLPn5Pr1uM%252CJCL3IyuwY76aDM%252C_%253BYgGPb-i4lWeRsM%252C0FPUMJ8HPMemoM%252C_%253BqnOGHPaGmj5B1M%252CxX0n19Ri_aXKbM%252C_%253BPZiSWI2OumuZJM%252C8EsVGRJYmYVvjM%252C_%253B7yh7pbIUrSyKtM%252CVsnFsCqUEeipBM%252C_%253BUxNHqZZpwCVD9M%252C2yiZY1ZWfUBoXM%252C_%253B_qwC9ED-FCmpjM%252CSV1S0ffgLM3BoM%252C_%253BrEzLg1s3NBoJ4M%252CKOP7jmhdC0SxdM%252C_&usg=AI4_-kQgA6ZbjEm7vTj6TttUO5OrpE7xfg&sa=X&ved=2ahUKEwjQ-8_94aqXAxWcWXADHW0BHGMQ7Al6BAhZEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "The Design of Books: An Explainer for Authors, Editors ...",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/D/bo213648394.html",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm9YgNFkSvQNS5ZCrAP7T1VCOr2pkFu4pAqlQl9gdPoJXAKeNf5xh3AUI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "10 Best Books Every Graphic Designers Should Own In 2022 ...",
+          "url": "https://medium.com/design-bootcamp/10-best-books-every-graphic-designers-should-own-in-2022-739b1666b9b9",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpO8i9S6Y8xznxhVdqxHDRZP9NtL7wAgk7i-2GmEvi1KPf_lWCgt5YY8o&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "9 best must-read books for Designers | by Harnoor Bhullar ...",
+          "url": "https://medium.muz.li/9-must-read-books-for-designers-75fa676c9f37",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT5jr1CihC6-A2zLGn1YhvYHLLMMd-Ti0cjLv5BXoKSCZRoGdrNQ_DK0k&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "10 Must-Have Graphic Design Books Every Designer Should Read",
+          "url": "https://indieground.net/blog/10-must-have-graphic-design-books/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWOisCuQzkcfMDDjFTILQT_DXN_k5UXlIXSZEIPM3bcRUs8_e70mr9Q4&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "RGD | Design Books Gift Guide 2024",
+          "url": "https://rgd.ca/articles/design-books-gift-guide-2024",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjecy49XaZB0hSaCdaNs6aSxj-60_M4VjSjLUbOPpaiEwQPwAmkrGpg3Y&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Top best books for designers | Amadine Useful Articles",
+          "url": "https://amadine.com/useful-articles/best-books-on-graphic-design",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzio0J-myGjFJLXLcpZGKuFfJZ7PnEKncYzBhsnabN85IDgTp_E1A_mHs&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The 7 best UX Design books. Like they say 'knowledge is ...",
+          "url": "https://uxplanet.org/the-7-best-ux-design-books-924efa6eacf9",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxkdOP9j93bhM6fem78jn-9LldquFUcbi1_xXdUKBM1fMm9WCldb4oLM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The 45 Best Graphic Design Books | Shillington Education",
+          "url": "https://www.shillingtoneducation.com/blog/the-45-best-graphic-design-books",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VtMipYevjf3M-wZzZVwRbL_omFVJSPo6wdRu60_IK7KQ8f1JPF3H8lA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "The best graphic design books on branding, logos, type and ...",
+          "url": "https://www.creativebloq.com/graphic-design/books-graphic-designers-11135231",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTORmzdMfzBgH1dwGbJ0-kd9MLfef4T6eG9AdqNH3EB8Cp-etLryY9MvFc&s"
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 9,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 5 design books?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the best book about design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is graphic design being phased out?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 books for creatives?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "Best Web Development & Design",
+      "url": "https://www.amazon.com/Best-Sellers-Web-Development-Design/zgbs/books/3510",
+      "breadcrumb": "https://www.amazon.com › zgbs › books",
+      "website_name": "Amazon.com",
+      "description": "Discover the best books in Amazon Best Sellers. Browse Web Development & Design. Journey to Mastery The. The Art of Game Design: A Book of Lenses, 3rd Edition",
+      "highlighted": [
+        "Browse Web Development & Design"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "kr.pinterest.com",
+      "title": "10 Best Graphic Design Books for Beginners 2021",
+      "url": "https://kr.pinterest.com/pin/450430400256073863/",
+      "breadcrumb": "2 years ago",
+      "website_name": "Pinterest · dhanashreeraghu",
+      "description": "Discover the top graphic design books that every beginner should read. Get inspired by the best books for designers and learn essential ...",
+      "highlighted": [
+        "top graphic design books that every beginner should read"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "www.hellolovelystudio.com",
+      "title": "Cozy Afternoon Inspirational Design Books to Savor Now!",
+      "url": "https://www.hellolovelystudio.com/2024/10/inspirational-design-books-for-autumn.html",
+      "breadcrumb": "https://www.hellolovelystudio.com › 2024/10 › inspirati...",
+      "website_name": "hellolovelystudio.com",
+      "description": "In this book, get ready to welcome unique home design by architects, designers, stylists, writers, and free spirits across New York. Galmorous Miles Redd ... Read more",
+      "highlighted": [
+        "unique home design"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.hellolovelystudio.com/2024/10/inspirational-design-books-for-autumn.html#:~:text=In%20this%20book%2C%20get%20ready,free%20spirits%20across%20New%20York.",
+          "domain": "www.hellolovelystudio.com"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 13,
+      "page": 1,
+      "items": [
+        "Graphic design books",
+        "Fashion design books",
+        "Best design books"
+      ]
+    }
+  ]
+}

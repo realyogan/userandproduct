@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="userandproduct">
+<title>userandproduct</title>
+<defs><mask id="fi-tile" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect x="0" y="0" width="100" height="100" fill="#fff"/><path fill="#000" d="M37.04 12h9v23.04h-9ZM53.96 12h9v23.04h-9ZM62.96 34.86A12.96 13.68 0 0 1 37.04 34.86L46.04 34.86A3.96 6.12 0 0 0 53.96 34.86ZM38.48 52.5h9v36h-9ZM38.48 52.5h12.42v7.56h-12.42ZM38.48 66.54h12.42v7.56h-12.42ZM50.72 52.5A10.8 10.8 0 0 1 50.72 74.1L50.72 66.54A1.8 3.24 0 0 0 50.72 60.06Z"/></mask></defs>
+<path fill="#0A0A0C" mask="url(#fi-tile)" d="M12 0h76a12 12 0 0 1 12 12v76a12 12 0 0 1 -12 12h-76a12 12 0 0 1 -12 -12v-76a12 12 0 0 1 12 -12Z"/>
+<path fill="#B3141C" d="M22 47.5h56v6h-56Z"/>
+</svg>

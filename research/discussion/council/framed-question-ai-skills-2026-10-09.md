@@ -1,0 +1,21 @@
+# Council question 2, 9 Oct 2026: "AI skills" as a Templates product
+
+## The decision
+Should userandproduct.com offer, inside its Templates section, a library of "AI skills": plain Markdown skill files that a reader copies into their own AI assistant (ChatGPT, Claude, or a coding agent such as Claude Code) so the assistant interviews them with the right questions and then writes a finished document (a business requirements document, a PRD, a user story set, a research plan, a roadmap, a persona, a usability test plan, and so on) as a Word file, PDF or Markdown? And if so, how should it be built, positioned and launched relative to the rest of the plan?
+
+The owner's framing: "people can easily copy and use them in their AI projects or AI tools like ChatGPT or Claude. If a skill involves asking the PM questions, he answers, and it generates a very good BRD, as a Word document or PDF. A full list of skill templates, AI skill MD files."
+
+## Context
+- The site: a practitioner magazine at the intersection of UX, product management and business, written by one owner with 15 years in product design and product management. Goals in order: authority in both directions, organic traffic, later books with affiliate links, a links directory, tools, templates, courses. Stack: WordPress on a cheap setup, no build step.
+- A first council (same day) judged the overall plan: keep the research, shrink the launch to about 12 pieces, make the owner's experience the centre, flat URLs, Articles plus ungated Templates at launch, Books month 2, Tools month 3 to 4, Links after 20 articles, two pieces a week, LinkedIn as the main channel, checkpoints at day 14, week 3, week 6, month 3, month 6. It warned that one author is the binding constraint, that a new domain has no backlinks, that an email gate on templates works against trust, and that being cited by AI answers is a goal.
+- What the research says about templates: template intent is the strongest practitioner signal in the data. 41% of user-story searches, 34% of roadmap searches and 33% of PRD searches ask for a template or example. "prd template" is the one template query with a weak page one. Template page ones are otherwise held by Notion, Figma, ClickUp, Atlassian, Scribd and Pinterest (static documents and gallery pages).
+- What the research says about AI: AI phrased with the field is a small search topic (44 on-topic phrases; "ai for product managers" 3,600 searches a month at difficulty 9; "ai for product management" 3,600). Nothing in the harvest matches "prompt for product managers", "prd generator" or "brd template with AI". So search demand for this exact product is unproven; demand for the documents it produces is proven.
+- The owner has just seen the mechanism work: a community skill file (a Markdown instruction set) installed into Claude Code ran a five-advisor council. Skills of this kind are plain text, no code, and work in Claude Code; ChatGPT and claude.ai consumer chats accept the same text as a pasted prompt or a project instruction.
+- Competitors: prompt libraries exist (generic "ChatGPT prompts for product managers" listicles, GitHub "awesome prompts" repos, vendor blogs from Productboard, Aha!, Notion). None is a curated, practitioner-authored, document-producing skill library tied to a method.
+- Formats: a skill file is Markdown; the output document can be Markdown, or Word and PDF if the assistant has a tool for it (Claude Code and claude.ai can produce .docx and .pdf; ChatGPT can produce files in some modes). A plain prompt version is needed for assistants that cannot run skills.
+
+## What is at stake
+Owner time (each skill needs a method, questions, an output format and testing across assistants), the site's positioning (is it a magazine, a toolkit, or an "AI prompts" site, which is a crowded low-trust genre), trust (a bad skill produces a bad BRD under the owner's name), and the chance to own a format nobody in the niche has.
+
+## Files the advisors may read
+research/discussion/council/verdict-2026-10-09.md (the first council's verdict); research/seo/section-trees-v1.md (the Templates section tree); research/seo/tree-simplified-v1.1.md; research/discussion/brd-v1-2026-10-08.md; .claude/skills/llm-council/SKILL.md (an example of the skill format); research/discussion/context.md.

@@ -1,0 +1,799 @@
+domain,url,lastmod,first_segment,slug,slug_tokens,year,content
+userpilot.com,https://userpilot.com/,2026-08-06,,,,,noncontent
+userpilot.com,https://userpilot.com/product/,2022-07-28,product,product,product,,content
+userpilot.com,https://userpilot.com/log-in/,2022-07-28,log-in,log-in,log in,,noncontent
+userpilot.com,https://userpilot.com/resources/,2023-06-26,resources,resources,resources,,content
+userpilot.com,https://userpilot.com/role/,2023-08-22,role,role,role,,content
+userpilot.com,https://userpilot.com/privacy-policy/,2025-05-13,privacy-policy,privacy-policy,privacy policy,,noncontent
+userpilot.com,https://userpilot.com/cookie-policy/,2025-05-13,cookie-policy,cookie-policy,cookie policy,,noncontent
+userpilot.com,https://userpilot.com/customers-reviews/,2025-05-21,customers-reviews,customers-reviews,customers reviews,,content
+userpilot.com,https://userpilot.com/roi-center-settings/,2025-07-01,roi-center-settings,roi-center-settings,roi center settings,,content
+userpilot.com,https://userpilot.com/product/user-engagement/tooltips-hotspots-and-banners/,2025-08-15,product,tooltips-hotspots-and-banners,tooltips hotspots and banners,,content
+userpilot.com,https://userpilot.com/product/product-analytics/analytics-dashboards/,2025-08-15,product,analytics-dashboards,analytics dashboards,,content
+userpilot.com,https://userpilot.com/product/product-analytics/autocapture-events/,2025-08-15,product,autocapture-events,autocapture events,,content
+userpilot.com,https://userpilot.com/product/user-engagement/resource-center/,2025-08-15,product,resource-center,resource center,,content
+userpilot.com,https://userpilot.com/saas-product-metrics/,2025-09-12,saas-product-metrics,saas-product-metrics,saas product metrics,,content
+userpilot.com,https://userpilot.com/join-the-waitlist/,2025-10-05,join-the-waitlist,join-the-waitlist,join the waitlist,,content
+userpilot.com,https://userpilot.com/fall-product-release/,2025-10-08,fall-product-release,fall-product-release,fall product release,,content
+userpilot.com,https://userpilot.com/terms-conditions-poc/,2025-10-21,terms-conditions-poc,terms-conditions-poc,terms conditions poc,,content
+userpilot.com,https://userpilot.com/referral/,2025-10-24,referral,referral,referral,,content
+userpilot.com,https://userpilot.com/costs/amplitude-analytics-pricing/,2025-10-27,costs,amplitude-analytics-pricing,amplitude analytics pricing,,content
+userpilot.com,https://userpilot.com/compare/walkme-vs-pendo/,2025-10-28,compare,walkme-vs-pendo,walkme vs pendo,,content
+userpilot.com,https://userpilot.com/product-dinner/,2025-10-29,product-dinner,product-dinner,product dinner,,content
+userpilot.com,https://userpilot.com/options/posthog-alternatives/,2025-10-29,options,posthog-alternatives,posthog alternatives,,content
+userpilot.com,https://userpilot.com/options/whatfix-competitors/,2025-10-29,options,whatfix-competitors,whatfix competitors,,content
+userpilot.com,https://userpilot.com/options/appcues-alternatives/,2025-10-30,options,appcues-alternatives,appcues alternatives,,content
+userpilot.com,https://userpilot.com/options/gainsight-competitors/,2025-10-30,options,gainsight-competitors,gainsight competitors,,content
+userpilot.com,https://userpilot.com/options/gainsight-alternatives/,2025-10-30,options,gainsight-alternatives,gainsight alternatives,,content
+userpilot.com,https://userpilot.com/options/heap-competitors/,2025-10-30,options,heap-competitors,heap competitors,,content
+userpilot.com,https://userpilot.com/options/chameleon-alternatives/,2025-10-30,options,chameleon-alternatives,chameleon alternatives,,content
+userpilot.com,https://userpilot.com/options/alternatives-to-pendo/,2025-10-31,options,alternatives-to-pendo,alternatives to pendo,,content
+userpilot.com,https://userpilot.com/options/alternatives-to-mixpanel/,2025-10-31,options,alternatives-to-mixpanel,alternatives to mixpanel,,content
+userpilot.com,https://userpilot.com/options/alternatives-to-whatfix/,2025-10-31,options,alternatives-to-whatfix,alternatives to whatfix,,content
+userpilot.com,https://userpilot.com/options/chameleon-competitors/,2025-10-31,options,chameleon-competitors,chameleon competitors,,content
+userpilot.com,https://userpilot.com/options/appcues-competitors/,2025-10-31,options,appcues-competitors,appcues competitors,,content
+userpilot.com,https://userpilot.com/costs/mixpanel-pricing/,2025-11-01,costs,mixpanel-pricing,mixpanel pricing,,content
+userpilot.com,https://userpilot.com/ai-info/,2025-11-02,ai-info,ai-info,ai info,,content
+userpilot.com,https://userpilot.com/costs/posthog-pricing/,2025-11-02,costs,posthog-pricing,posthog pricing,,content
+userpilot.com,https://userpilot.com/costs/walkme-pricing/,2025-11-02,costs,walkme-pricing,walkme pricing,,content
+userpilot.com,https://userpilot.com/costs/appcues-pricing/,2025-11-03,costs,appcues-pricing,appcues pricing,,content
+userpilot.com,https://userpilot.com/compare/mixpanel-vs-google-analytics/,2025-11-03,compare,mixpanel-vs-google-analytics,mixpanel vs google analytics,,content
+userpilot.com,https://userpilot.com/compare/pendo-vs-walkme/,2025-11-03,compare,pendo-vs-walkme,pendo vs walkme,,content
+userpilot.com,https://userpilot.com/compare/mixpanel-vs-pendo/,2025-11-03,compare,mixpanel-vs-pendo,mixpanel vs pendo,,content
+userpilot.com,https://userpilot.com/compare/pendo-vs-amplitude/,2025-11-04,compare,pendo-vs-amplitude,pendo vs amplitude,,content
+userpilot.com,https://userpilot.com/compare/pendo-vs-whatfix/,2025-11-04,compare,pendo-vs-whatfix,pendo vs whatfix,,content
+userpilot.com,https://userpilot.com/compare/pendo-vs-gainsight/,2025-11-04,compare,pendo-vs-gainsight,pendo vs gainsight,,content
+userpilot.com,https://userpilot.com/compare/pendo-vs-heap/,2025-11-04,compare,pendo-vs-heap,pendo vs heap,,content
+userpilot.com,https://userpilot.com/compare/appcues-vs-chameleon/,2025-11-05,compare,appcues-vs-chameleon,appcues vs chameleon,,content
+userpilot.com,https://userpilot.com/compare/appcues-vs-walkme/,2025-11-05,compare,appcues-vs-walkme,appcues vs walkme,,content
+userpilot.com,https://userpilot.com/compare/fullstory-vs-userpilot/,2025-11-05,compare,fullstory-vs-userpilot,fullstory vs userpilot,,content
+userpilot.com,https://userpilot.com/compare/appcues-vs-whatfix/,2025-11-05,compare,appcues-vs-whatfix,appcues vs whatfix,,content
+userpilot.com,https://userpilot.com/compare/userpilot-vs-chameleon/,2025-11-05,compare,userpilot-vs-chameleon,userpilot vs chameleon,,content
+userpilot.com,https://userpilot.com/features/,2025-11-06,features,features,features,,content
+userpilot.com,https://userpilot.com/features/amplitude-tracking/,2025-11-10,features,amplitude-tracking,amplitude tracking,,content
+userpilot.com,https://userpilot.com/features/amplitude-data-analytics/,2025-11-10,features,amplitude-data-analytics,amplitude data analytics,,content
+userpilot.com,https://userpilot.com/options/heap-alternatives/,2025-11-11,options,heap-alternatives,heap alternatives,,content
+userpilot.com,https://userpilot.com/features/mixpanel-session-replay/,2025-11-11,features,mixpanel-session-replay,mixpanel session replay,,content
+userpilot.com,https://userpilot.com/features/pendo-integrations/,2025-11-11,features,pendo-integrations,pendo integrations,,content
+userpilot.com,https://userpilot.com/features/pendo-salesforce-integration/,2025-11-11,features,pendo-salesforce-integration,pendo salesforce integration,,content
+userpilot.com,https://userpilot.com/features/posthog-session-replay/,2025-11-11,features,posthog-session-replay,posthog session replay,,content
+userpilot.com,https://userpilot.com/features/pendo-session-replay/,2025-11-12,features,pendo-session-replay,pendo session replay,,content
+userpilot.com,https://userpilot.com/features/pendo-track-events/,2025-11-12,features,pendo-track-events,pendo track events,,content
+userpilot.com,https://userpilot.com/features/pendo-feedback/,2025-11-12,features,pendo-feedback,pendo feedback,,content
+userpilot.com,https://userpilot.com/features/pendo-surveys/,2025-11-12,features,pendo-surveys,pendo surveys,,content
+userpilot.com,https://userpilot.com/features/pendo-hubspot-integration/,2025-11-12,features,pendo-hubspot-integration,pendo hubspot integration,,content
+userpilot.com,https://userpilot.com/product/product-analytics/path-analytics/,2025-11-20,product,path-analytics,path analytics,,content
+userpilot.com,https://userpilot.com/product/product-analytics/funnel-analytics/,2025-11-20,product,funnel-analytics,funnel analytics,,content
+userpilot.com,https://userpilot.com/product/product-analytics/retention-cohort-analytics/,2025-11-20,product,retention-cohort-analytics,retention cohort analytics,,content
+userpilot.com,https://userpilot.com/product/product-analytics/trend-analytics/,2025-11-20,product,trend-analytics,trend analytics,,content
+userpilot.com,https://userpilot.com/costs/heap-cost/,2025-11-20,costs,heap-cost,heap cost,,content
+userpilot.com,https://userpilot.com/features/pendo-features/,2025-11-21,features,pendo-features,pendo features,,content
+userpilot.com,https://userpilot.com/features/posthog-features/,2025-11-21,features,posthog-features,posthog features,,content
+userpilot.com,https://userpilot.com/features/chameleon-features/,2025-11-21,features,chameleon-features,chameleon features,,content
+userpilot.com,https://userpilot.com/features/walkme-features/,2025-11-21,features,walkme-features,walkme features,,content
+userpilot.com,https://userpilot.com/features/whatfix-features/,2025-11-21,features,whatfix-features,whatfix features,,content
+userpilot.com,https://userpilot.com/product/data-sync/,2026-01-02,product,data-sync,data sync,,content
+userpilot.com,https://userpilot.com/security/,2026-01-02,security,security,security,,content
+userpilot.com,https://userpilot.com/product/user-engagement/user-onboarding-guides/,2026-01-02,product,user-onboarding-guides,user onboarding guides,,content
+userpilot.com,https://userpilot.com/product/user-engagement/onboarding-checklists/,2026-01-02,product,onboarding-checklists,onboarding checklists,,content
+userpilot.com,https://userpilot.com/pricing/,2026-01-09,pricing,pricing,pricing,,noncontent
+userpilot.com,https://userpilot.com/features/posthog-analytics/,2026-01-09,features,posthog-analytics,posthog analytics,,content
+userpilot.com,https://userpilot.com/features/pendo-analytics/,2026-01-09,features,pendo-analytics,pendo analytics,,content
+userpilot.com,https://userpilot.com/costs/gainsight-pricing/,2026-01-12,costs,gainsight-pricing,gainsight pricing,,content
+userpilot.com,https://userpilot.com/role/engineering/,2026-01-23,role,engineering,engineering,,content
+userpilot.com,https://userpilot.com/solutions/product-analytics/,2026-01-28,solutions,product-analytics,product analytics,,content
+userpilot.com,https://userpilot.com/solutions/product-analytics-tools/,2026-01-29,solutions,product-analytics-tools,product analytics tools,,content
+userpilot.com,https://userpilot.com/solutions/product-onboarding/,2026-01-29,solutions,product-onboarding,product onboarding,,content
+userpilot.com,https://userpilot.com/solutions/onboarding-automation-software/,2026-01-30,solutions,onboarding-automation-software,onboarding automation software,,content
+userpilot.com,https://userpilot.com/solutions/saas-onboarding-software/,2026-01-31,solutions,saas-onboarding-software,saas onboarding software,,content
+userpilot.com,https://userpilot.com/solutions/product-analytics-software/,2026-01-31,solutions,product-analytics-software,product analytics software,,content
+userpilot.com,https://userpilot.com/solutions/monitor-product-usage-software/,2026-01-31,solutions,monitor-product-usage-software,monitor product usage software,,content
+userpilot.com,https://userpilot.com/solutions/saas-onboarding/,2026-02-04,solutions,saas-onboarding,saas onboarding,,content
+userpilot.com,https://userpilot.com/solutions/product-onboarding-tools/,2026-02-04,solutions,product-onboarding-tools,product onboarding tools,,content
+userpilot.com,https://userpilot.com/solutions/saas-onboarding-tools/,2026-02-04,solutions,saas-onboarding-tools,saas onboarding tools,,content
+userpilot.com,https://userpilot.com/solutions/saas-user-onboarding/,2026-02-04,solutions,saas-user-onboarding,saas user onboarding,,content
+userpilot.com,https://userpilot.com/solutions/best-product-analytics-software/,2026-02-04,solutions,best-product-analytics-software,best product analytics software,,content
+userpilot.com,https://userpilot.com/solutions/best-product-analytics-tools/,2026-02-04,solutions,best-product-analytics-tools,best product analytics tools,,content
+userpilot.com,https://userpilot.com/solutions/customer-retention/,2026-02-05,solutions,customer-retention,customer retention,,content
+userpilot.com,https://userpilot.com/solutions/product-led-growth/,2026-02-05,solutions,product-led-growth,product led growth,,content
+userpilot.com,https://userpilot.com/solutions/product-usage-analytics-software/,2026-02-09,solutions,product-usage-analytics-software,product usage analytics software,,content
+userpilot.com,https://userpilot.com/solutions/product-usage-analytics/,2026-02-09,solutions,product-usage-analytics,product usage analytics,,content
+userpilot.com,https://userpilot.com/solutions/product-analytics-platform/,2026-02-10,solutions,product-analytics-platform,product analytics platform,,content
+userpilot.com,https://userpilot.com/solutions/session-replay/,2026-02-18,solutions,session-replay,session replay,,content
+userpilot.com,https://userpilot.com/solutions/user-session-replay/,2026-02-18,solutions,user-session-replay,user session replay,,content
+userpilot.com,https://userpilot.com/solutions/session-recording/,2026-02-19,solutions,session-recording,session recording,,content
+userpilot.com,https://userpilot.com/solutions/session-replay-tool/,2026-02-19,solutions,session-replay-tool,session replay tool,,content
+userpilot.com,https://userpilot.com/solutions/session-replay-software/,2026-02-19,solutions,session-replay-software,session replay software,,content
+userpilot.com,https://userpilot.com/options/userguiding-alternatives/,2026-02-19,options,userguiding-alternatives,userguiding alternatives,,content
+userpilot.com,https://userpilot.com/options/userflow-alternatives/,2026-02-19,options,userflow-alternatives,userflow alternatives,,content
+userpilot.com,https://userpilot.com/options/hotjar-alternatives/,2026-02-19,options,hotjar-alternatives,hotjar alternatives,,content
+userpilot.com,https://userpilot.com/options/hotjar-alternative/,2026-02-20,options,hotjar-alternative,hotjar alternative,,content
+userpilot.com,https://userpilot.com/options/product-fruits-alternative/,2026-02-23,options,product-fruits-alternative,product fruits alternative,,content
+userpilot.com,https://userpilot.com/options/hotjar-pricing/,2026-02-23,options,hotjar-pricing,hotjar pricing,,content
+userpilot.com,https://userpilot.com/options/userflow-pricing/,2026-02-24,options,userflow-pricing,userflow pricing,,content
+userpilot.com,https://userpilot.com/options/userguiding-pricing/,2026-02-24,options,userguiding-pricing,userguiding pricing,,content
+userpilot.com,https://userpilot.com/options/logrocket-pricing/,2026-02-24,options,logrocket-pricing,logrocket pricing,,content
+userpilot.com,https://userpilot.com/options/userguiding-alternative/,2026-02-24,options,userguiding-alternative,userguiding alternative,,content
+userpilot.com,https://userpilot.com/options/userflow-alternative/,2026-02-24,options,userflow-alternative,userflow alternative,,content
+userpilot.com,https://userpilot.com/options/logrocket-alternatives/,2026-02-24,options,logrocket-alternatives,logrocket alternatives,,content
+userpilot.com,https://userpilot.com/terms-of-use/,2026-03-06,terms-of-use,terms-of-use,terms of use,,noncontent
+userpilot.com,https://userpilot.com/terms-and-conditions-customer-advocacy-program/,2026-03-24,terms-and-conditions-customer-advocacy-program,terms-and-conditions-customer-advocacy-program,terms and conditions customer advocacy program,,content
+userpilot.com,https://userpilot.com/userpilot-demo/,2026-04-07,userpilot-demo,userpilot-demo,userpilot demo,,content
+userpilot.com,https://userpilot.com/product/services/,2026-05-08,product,services,services,,content
+userpilot.com,https://userpilot.com/solutions/expansion-revenue/,2026-05-08,solutions,expansion-revenue,expansion revenue,,content
+userpilot.com,https://userpilot.com/solutions/churn-prevention/,2026-05-08,solutions,churn-prevention,churn prevention,,content
+userpilot.com,https://userpilot.com/solutions/product-adoption/,2026-05-08,solutions,product-adoption,product adoption,,content
+userpilot.com,https://userpilot.com/role/product-management/,2026-05-08,role,product-management,product management,,content
+userpilot.com,https://userpilot.com/role/customer-success-support/,2026-05-08,role,customer-success-support,customer success support,,content
+userpilot.com,https://userpilot.com/role/product-marketing/,2026-05-08,role,product-marketing,product marketing,,content
+userpilot.com,https://userpilot.com/role/product-growth/,2026-05-08,role,product-growth,product growth,,content
+userpilot.com,https://userpilot.com/role/ux-design/,2026-05-08,role,ux-design,ux design,,content
+userpilot.com,https://userpilot.com/role/marketing/,2026-05-08,role,marketing,marketing,,content
+userpilot.com,https://userpilot.com/about/,2026-05-11,about,about,about,,noncontent
+userpilot.com,https://userpilot.com/ai/,2026-05-11,ai,ai,ai,,noncontent
+userpilot.com,https://userpilot.com/ai/agent-analytics/,2026-05-11,ai,agent-analytics,agent analytics,,content
+userpilot.com,https://userpilot.com/ai/mcp-server/,2026-05-11,ai,mcp-server,mcp server,,content
+userpilot.com,https://userpilot.com/ai/userpilot-ai-agent/,2026-05-11,ai,userpilot-ai-agent,userpilot ai agent,,content
+userpilot.com,https://userpilot.com/product/enterprise/,2026-05-11,product,enterprise,enterprise,,content
+userpilot.com,https://userpilot.com/pendo-vs-userpilot-an-honest-comparison/,2026-05-29,pendo-vs-userpilot-an-honest-comparison,pendo-vs-userpilot-an-honest-comparison,pendo vs userpilot an honest comparison,,content
+userpilot.com,https://userpilot.com/product-news/,2026-06-03,product-news,product-news,product news,,content
+userpilot.com,https://userpilot.com/switch-from-pendo-offer/,2026-06-19,switch-from-pendo-offer,switch-from-pendo-offer,switch from pendo offer,,content
+userpilot.com,https://userpilot.com/get-a-quote/,2026-07-14,get-a-quote,get-a-quote,get a quote,,content
+userpilot.com,https://userpilot.com/get-a-quote/thank-you/,2026-07-14,get-a-quote,thank-you,thank you,,noncontent
+userpilot.com,https://userpilot.com/contact-us/,2026-07-29,contact-us,contact-us,contact us,,noncontent
+userpilot.com,https://userpilot.com/product/workflows/,2026-07-30,product,workflows,workflows,,content
+userpilot.com,https://userpilot.com/product/session-replay/,2026-08-06,product,session-replay,session replay,,content
+userpilot.com,https://userpilot.com/product/product-analytics/,2026-08-06,product,product-analytics,product analytics,,content
+userpilot.com,https://userpilot.com/product/user-engagement/,2026-08-06,product,user-engagement,user engagement,,content
+userpilot.com,https://userpilot.com/product/user-feedback/,2026-08-06,product,user-feedback,user feedback,,content
+userpilot.com,https://userpilot.com/product/mobile/,2026-08-06,product,mobile,mobile,,content
+userpilot.com,https://userpilot.com/product/email/,2026-08-06,product,email,email,,content
+userpilot.com,https://userpilot.com/meet-userpilot-mcp/,2026-08-06,meet-userpilot-mcp,meet-userpilot-mcp,meet userpilot mcp,,content
+userpilot.com,https://userpilot.com/solutions/user-onboarding-software/,2026-08-18,solutions,user-onboarding-software,user onboarding software,,content
+userpilot.com,https://userpilot.com/150-incentive/,2026-08-18,150-incentive,150-incentive,150 incentive,,content
+userpilot.com,https://userpilot.com/meet-userpilot-ai-lia/,2026-09-03,meet-userpilot-ai-lia,meet-userpilot-ai-lia,meet userpilot ai lia,,content
+userpilot.com,https://userpilot.com/html-sitemap/,2026-09-16,html-sitemap,html-sitemap,html sitemap,,content
+userpilot.com,https://userpilot.com/brand/,2026-10-01,brand,brand,brand,,content
+userpilot.com,https://userpilot.com/solutions/in-app-support/,2026-10-02,solutions,in-app-support,in app support,,content
+userpilot.com,https://userpilot.com/solutions/understand-user-behavior/,2026-10-02,solutions,understand-user-behavior,understand user behavior,,content
+userpilot.com,https://userpilot.com/productcon2026/,2026-10-05,productcon2026,productcon2026,productcon2026,2026,noncontent
+userpilot.com,https://userpilot.com/meet-userpilot-agent-analytics/,2026-10-06,meet-userpilot-agent-analytics,meet-userpilot-agent-analytics,meet userpilot agent analytics,,content
+userpilot.com,https://userpilot.com/solutions/product-adoption-and-launches/,2026-10-06,solutions,product-adoption-and-launches,product adoption and launches,,content
+userpilot.com,https://userpilot.com/integrations/,2026-06-25,integrations,integrations,integrations,,content
+userpilot.com,https://userpilot.com/integrations/salesforce/,2024-09-24,integrations,salesforce,salesforce,,content
+userpilot.com,https://userpilot.com/integrations/zendesk/,2025-03-25,integrations,zendesk,zendesk,,content
+userpilot.com,https://userpilot.com/integrations/webhooks/,2025-03-25,integrations,webhooks,webhooks,,content
+userpilot.com,https://userpilot.com/integrations/segment/,2025-03-25,integrations,segment,segment,,content
+userpilot.com,https://userpilot.com/integrations/real-time-http-api/,2025-03-25,integrations,real-time-http-api,real time http api,,content
+userpilot.com,https://userpilot.com/integrations/google-tag-manager/,2025-03-25,integrations,google-tag-manager,google tag manager,,content
+userpilot.com,https://userpilot.com/integrations/google-analytics/,2025-03-25,integrations,google-analytics,google analytics,,content
+userpilot.com,https://userpilot.com/integrations/hubspot/,2025-12-14,integrations,hubspot,hubspot,,content
+userpilot.com,https://userpilot.com/integrations/bulk-import-and-export-apis/,2026-01-02,integrations,bulk-import-and-export-apis,bulk import and export apis,,content
+userpilot.com,https://userpilot.com/integrations/intercom/,2026-06-25,integrations,intercom,intercom,,content
+userpilot.com,https://userpilot.com/integrations/amplitude/,2026-06-25,integrations,amplitude,amplitude,,content
+userpilot.com,https://userpilot.com/integrations/mixpanel/,2026-06-25,integrations,mixpanel,mixpanel,,content
+userpilot.com,https://userpilot.com/integrations/heap/,2026-06-25,integrations,heap,heap,,content
+userpilot.com,https://userpilot.com/customers/,2026-07-24,customers,customers,customers,,content
+userpilot.com,https://userpilot.com/customers/callbell/,2025-05-22,customers,callbell,callbell,,content
+userpilot.com,https://userpilot.com/customers/cyberbiz/,2025-05-22,customers,cyberbiz,cyberbiz,,content
+userpilot.com,https://userpilot.com/customers/zoezi/,2025-05-22,customers,zoezi,zoezi,,content
+userpilot.com,https://userpilot.com/customers/talana/,2025-05-23,customers,talana,talana,,content
+userpilot.com,https://userpilot.com/customers/osano/,2025-05-23,customers,osano,osano,,content
+userpilot.com,https://userpilot.com/customers/recruitnow/,2025-05-23,customers,recruitnow,recruitnow,,content
+userpilot.com,https://userpilot.com/customers/smoobu/,2025-05-23,customers,smoobu,smoobu,,content
+userpilot.com,https://userpilot.com/customers/cuvama/,2025-05-23,customers,cuvama,cuvama,,content
+userpilot.com,https://userpilot.com/customers/unolo/,2025-05-23,customers,unolo,unolo,,content
+userpilot.com,https://userpilot.com/customers/kontentino/,2025-05-23,customers,kontentino,kontentino,,content
+userpilot.com,https://userpilot.com/customers/attention-insight/,2025-05-23,customers,attention-insight,attention insight,,content
+userpilot.com,https://userpilot.com/customers/impala/,2025-05-23,customers,impala,impala,,content
+userpilot.com,https://userpilot.com/customers/cledara/,2025-05-23,customers,cledara,cledara,,content
+userpilot.com,https://userpilot.com/customers/beable/,2025-05-23,customers,beable,beable,,content
+userpilot.com,https://userpilot.com/customers/clearcalcs/,2025-05-27,customers,clearcalcs,clearcalcs,,content
+userpilot.com,https://userpilot.com/customers/groupize/,2025-05-27,customers,groupize,groupize,,content
+userpilot.com,https://userpilot.com/customers/growthmentor/,2025-05-27,customers,growthmentor,growthmentor,,content
+userpilot.com,https://userpilot.com/customers/shelterluv/,2025-05-27,customers,shelterluv,shelterluv,,content
+userpilot.com,https://userpilot.com/customers/dealfront/,2025-06-03,customers,dealfront,dealfront,,content
+userpilot.com,https://userpilot.com/customers/touchright/,2025-06-03,customers,touchright,touchright,,content
+userpilot.com,https://userpilot.com/customers/amplemarket/,2025-07-22,customers,amplemarket,amplemarket,,content
+userpilot.com,https://userpilot.com/customers/userpilot/,2025-08-05,customers,userpilot,userpilot,,content
+userpilot.com,https://userpilot.com/customers/cleeng/,2025-08-07,customers,cleeng,cleeng,,content
+userpilot.com,https://userpilot.com/customers/liv-ex/,2026-03-24,customers,liv-ex,liv ex,,content
+userpilot.com,https://userpilot.com/customers/jiminny/,2026-03-24,customers,jiminny,jiminny,,content
+userpilot.com,https://userpilot.com/customers/relitix/,2026-06-23,customers,relitix,relitix,,content
+userpilot.com,https://userpilot.com/customers/whale/,2026-06-23,customers,whale,whale,,content
+userpilot.com,https://userpilot.com/customers/doppler/,2026-07-24,customers,doppler,doppler,,content
+userpilot.com,https://userpilot.com/company_size/enterprise/,2025-08-05,company_size,enterprise,enterprise,,content
+userpilot.com,https://userpilot.com/company_size/midsize/,2026-07-24,company_size,midsize,midsize,,content
+userpilot.com,https://userpilot.com/company_size/startup/,2026-06-23,company_size,startup,startup,,content
+userpilot.com,https://userpilot.com/industry/e-commerce-hospitality/,2026-03-24,industry,e-commerce-hospitality,e commerce hospitality,,content
+userpilot.com,https://userpilot.com/industry/education-learning/,2026-06-23,industry,education-learning,education learning,,content
+userpilot.com,https://userpilot.com/industry/healthcare-wellness/,2025-05-22,industry,healthcare-wellness,healthcare wellness,,content
+userpilot.com,https://userpilot.com/industry/hr-talent-management/,2025-05-23,industry,hr-talent-management,hr talent management,,content
+userpilot.com,https://userpilot.com/industry/martech/,2026-07-24,industry,martech,martech,,content
+userpilot.com,https://userpilot.com/industry/nonprofit-social-impact/,2025-05-27,industry,nonprofit-social-impact,nonprofit social impact,,content
+userpilot.com,https://userpilot.com/industry/operations-field-services/,2026-06-23,industry,operations-field-services,operations field services,,content
+userpilot.com,https://userpilot.com/industry/privacy-security/,2025-05-23,industry,privacy-security,privacy security,,content
+userpilot.com,https://userpilot.com/use_case/expansion-revenue/,2025-05-23,use_case,expansion-revenue,expansion revenue,,content
+userpilot.com,https://userpilot.com/use_case/in-app-support/,2025-05-27,use_case,in-app-support,in app support,,content
+userpilot.com,https://userpilot.com/use_case/product-adoption/,2026-07-24,use_case,product-adoption,product adoption,,content
+userpilot.com,https://userpilot.com/use_case/product-analytics/,2026-07-24,use_case,product-analytics,product analytics,,content
+userpilot.com,https://userpilot.com/use_case/product-launches/,2026-06-23,use_case,product-launches,product launches,,content
+userpilot.com,https://userpilot.com/use_case/user-feedback/,2026-07-24,use_case,user-feedback,user feedback,,content
+userpilot.com,https://userpilot.com/use_case/user-onboarding/,2026-07-24,use_case,user-onboarding,user onboarding,,content
+userpilot.com,https://userpilot.com/use_case/user-research/,2025-08-05,use_case,user-research,user research,,content
+userpilot.com,https://userpilot.com/blog/walkme-vs-whatfix/,2025-06-20,blog,walkme-vs-whatfix,walkme vs whatfix,,content
+userpilot.com,https://userpilot.com/blog/ab-testing-metrics/,2024-09-16,blog,ab-testing-metrics,ab testing metrics,,content
+userpilot.com,https://userpilot.com/blog/recruitnow-case-study/,2024-09-24,blog,recruitnow-case-study,recruitnow case study,,content
+userpilot.com,https://userpilot.com/blog/cro-audit/,2024-11-29,blog,cro-audit,cro audit,,content
+userpilot.com,https://userpilot.com/blog/product-experimentation/,2025-01-03,blog,product-experimentation,product experimentation,,content
+userpilot.com,https://userpilot.com/blog/product-management-frameworks/,2025-02-03,blog,product-management-frameworks,product management frameworks,,content
+userpilot.com,https://userpilot.com/blog/welcome-screen-saas/,2025-03-17,blog,welcome-screen-saas,welcome screen saas,,content
+userpilot.com,https://userpilot.com/blog/clearcalcs-case-study/,2025-03-21,blog,clearcalcs-case-study,clearcalcs case study,,content
+userpilot.com,https://userpilot.com/blog/post-event-survey-questions/,2025-03-27,blog,post-event-survey-questions,post event survey questions,,content
+userpilot.com,https://userpilot.com/blog/case-study-how-platformly-onboard-users-with-their-complex-product/,2025-03-28,blog,case-study-how-platformly-onboard-users-with-their-complex-product,case study how platformly onboard users with their complex product,,content
+userpilot.com,https://userpilot.com/blog/app-welcome-page/,2025-04-24,blog,app-welcome-page,app welcome page,,content
+userpilot.com,https://userpilot.com/blog/user-persona-survey-template/,2025-04-27,blog,user-persona-survey-template,user persona survey template,,content
+userpilot.com,https://userpilot.com/blog/rocketbots-aha-moment-case-study-userpilot/,2025-05-10,blog,rocketbots-aha-moment-case-study-userpilot,rocketbots aha moment case study userpilot,,content
+userpilot.com,https://userpilot.com/blog/software-user-guide/,2025-05-10,blog,software-user-guide,software user guide,,content
+userpilot.com,https://userpilot.com/blog/how-to-create-tooltips/,2025-05-10,blog,how-to-create-tooltips,how to create tooltips,,content
+userpilot.com,https://userpilot.com/blog/case-study-touchright/,2025-06-04,blog,case-study-touchright,case study touchright,,content
+userpilot.com,https://userpilot.com/blog/activation-metrics-saas/,2025-06-25,blog,activation-metrics-saas,activation metrics saas,,content
+userpilot.com,https://userpilot.com/blog/negative-nps-score/,2025-09-22,blog,negative-nps-score,negative nps score,,content
+userpilot.com,https://userpilot.com/blog/feature-request/,2025-09-22,blog,feature-request,feature request,,content
+userpilot.com,https://userpilot.com/blog/critical-user-journey/,2025-09-24,blog,critical-user-journey,critical user journey,,content
+userpilot.com,https://userpilot.com/blog/in-app-marketing-guide-for-product-marketers/,2026-02-05,blog,in-app-marketing-guide-for-product-marketers,in app marketing guide for product marketers,,content
+userpilot.com,https://userpilot.com/blog/self-serve-onboarding-saas/,2026-02-16,blog,self-serve-onboarding-saas,self serve onboarding saas,,content
+userpilot.com,https://userpilot.com/blog/reduce-support-tickets-case-study-growth-mentor/,2026-02-23,blog,reduce-support-tickets-case-study-growth-mentor,reduce support tickets case study growth mentor,,content
+userpilot.com,https://userpilot.com/blog/survey-pop-ups/,2026-02-24,blog,survey-pop-ups,survey pop ups,,content
+userpilot.com,https://userpilot.com/blog/feedback-questions/,2026-02-26,blog,feedback-questions,feedback questions,,content
+userpilot.com,https://userpilot.com/blog/interactive-walkthrough-examples/,2026-02-27,blog,interactive-walkthrough-examples,interactive walkthrough examples,,content
+userpilot.com,https://userpilot.com/blog/posthog-vs-mixpanel/,2026-03-02,blog,posthog-vs-mixpanel,posthog vs mixpanel,,content
+userpilot.com,https://userpilot.com/blog/product-onboarding/,2026-03-03,blog,product-onboarding,product onboarding,,content
+userpilot.com,https://userpilot.com/blog/sign-up-page-design/,2026-03-03,blog,sign-up-page-design,sign up page design,,content
+userpilot.com,https://userpilot.com/blog/user-flow-examples/,2026-03-05,blog,user-flow-examples,user flow examples,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-trends/,2026-03-05,blog,mobile-app-trends,mobile app trends,,content
+userpilot.com,https://userpilot.com/blog/amplemarket-case-study/,2026-03-08,blog,amplemarket-case-study,amplemarket case study,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-case-studies/,2026-03-08,blog,user-onboarding-case-studies,user onboarding case studies,,content
+userpilot.com,https://userpilot.com/blog/number-of-sessions-per-user/,2026-03-08,blog,number-of-sessions-per-user,number of sessions per user,,content
+userpilot.com,https://userpilot.com/blog/feedback-ui/,2026-03-08,blog,feedback-ui,feedback ui,,content
+userpilot.com,https://userpilot.com/blog/customer-onboarding-banking/,2026-03-09,blog,customer-onboarding-banking,customer onboarding banking,,content
+userpilot.com,https://userpilot.com/blog/how-to-send-push-notifications/,2026-03-09,blog,how-to-send-push-notifications,how to send push notifications,,content
+userpilot.com,https://userpilot.com/blog/product-design-development/,2026-03-10,blog,product-design-development,product design development,,content
+userpilot.com,https://userpilot.com/blog/ga4-path-exploration/,2026-03-13,blog,ga4-path-exploration,ga4 path exploration,,content
+userpilot.com,https://userpilot.com/blog/good-onboarding-surveys/,2026-03-13,blog,good-onboarding-surveys,good onboarding surveys,,content
+userpilot.com,https://userpilot.com/blog/behavior-patterns-ux/,2026-03-13,blog,behavior-patterns-ux,behavior patterns ux,,content
+userpilot.com,https://userpilot.com/blog/chargezoom-case-study/,2026-03-13,blog,chargezoom-case-study,chargezoom case study,,content
+userpilot.com,https://userpilot.com/blog/reduce-customer-attrition-rate/,2026-03-17,blog,reduce-customer-attrition-rate,reduce customer attrition rate,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-teardowns/,2026-03-18,blog,user-onboarding-teardowns,user onboarding teardowns,,content
+userpilot.com,https://userpilot.com/blog/how-to-calculate-nps/,2026-03-18,blog,how-to-calculate-nps,how to calculate nps,,content
+userpilot.com,https://userpilot.com/blog/user-feedback-survey-saas/,2026-03-18,blog,user-feedback-survey-saas,user feedback survey saas,,content
+userpilot.com,https://userpilot.com/blog/churn-surveys-saas/,2026-03-18,blog,churn-surveys-saas,churn surveys saas,,content
+userpilot.com,https://userpilot.com/blog/product-depth/,2026-03-18,blog,product-depth,product depth,,content
+userpilot.com,https://userpilot.com/blog/product-discovery/,2026-03-18,blog,product-discovery,product discovery,,content
+userpilot.com,https://userpilot.com/blog/attention-insight-userpilot-case-study/,2026-03-18,blog,attention-insight-userpilot-case-study,attention insight userpilot case study,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-vs-google-analytics/,2026-03-19,blog,mixpanel-vs-google-analytics,mixpanel vs google analytics,,content
+userpilot.com,https://userpilot.com/blog/mobile-onboarding-examples/,2026-03-19,blog,mobile-onboarding-examples,mobile onboarding examples,,content
+userpilot.com,https://userpilot.com/blog/subscription-renewal-email-examples/,2026-03-19,blog,subscription-renewal-email-examples,subscription renewal email examples,,content
+userpilot.com,https://userpilot.com/blog/automate-customer-engagement/,2026-03-19,blog,automate-customer-engagement,automate customer engagement,,content
+userpilot.com,https://userpilot.com/blog/product-funnel/,2026-03-19,blog,product-funnel,product funnel,,content
+userpilot.com,https://userpilot.com/blog/product-management-metrics/,2026-03-20,blog,product-management-metrics,product management metrics,,content
+userpilot.com,https://userpilot.com/blog/what-is-session-replay/,2026-03-20,blog,what-is-session-replay,what is session replay,,content
+userpilot.com,https://userpilot.com/blog/cledara-case-study/,2026-03-20,blog,cledara-case-study,cledara case study,,content
+userpilot.com,https://userpilot.com/blog/impala-case-study/,2026-03-20,blog,impala-case-study,impala case study,,content
+userpilot.com,https://userpilot.com/blog/user-experience-interaction-guidelines/,2026-03-23,blog,user-experience-interaction-guidelines,user experience interaction guidelines,,content
+userpilot.com,https://userpilot.com/blog/microsurveys-saas-product/,2026-03-23,blog,microsurveys-saas-product,microsurveys saas product,,content
+userpilot.com,https://userpilot.com/blog/new-feature-onboarding/,2026-03-24,blog,new-feature-onboarding,new feature onboarding,,content
+userpilot.com,https://userpilot.com/blog/onboarding-gamification/,2026-03-24,blog,onboarding-gamification,onboarding gamification,,content
+userpilot.com,https://userpilot.com/blog/jiminny-case-study/,2026-03-24,blog,jiminny-case-study,jiminny case study,,content
+userpilot.com,https://userpilot.com/blog/onboarding-wizard/,2026-03-24,blog,onboarding-wizard,onboarding wizard,,content
+userpilot.com,https://userpilot.com/blog/onboarding-email-best-practices/,2026-03-24,blog,onboarding-email-best-practices,onboarding email best practices,,content
+userpilot.com,https://userpilot.com/blog/interactive-design-examples/,2026-03-24,blog,interactive-design-examples,interactive design examples,,content
+userpilot.com,https://userpilot.com/blog/sign-up-page-examples/,2026-03-25,blog,sign-up-page-examples,sign up page examples,,content
+userpilot.com,https://userpilot.com/blog/product-satisfaction-survey/,2026-03-30,blog,product-satisfaction-survey,product satisfaction survey,,content
+userpilot.com,https://userpilot.com/blog/product-nps/,2026-04-01,blog,product-nps,product nps,,content
+userpilot.com,https://userpilot.com/blog/customer-onboarding-best-practices/,2026-04-03,blog,customer-onboarding-best-practices,customer onboarding best practices,,content
+userpilot.com,https://userpilot.com/blog/frictionless-customer-onboarding/,2026-04-03,blog,frictionless-customer-onboarding,frictionless customer onboarding,,content
+userpilot.com,https://userpilot.com/blog/product-dogfooding/,2026-04-03,blog,product-dogfooding,product dogfooding,,content
+userpilot.com,https://userpilot.com/blog/hotjar-pricing/,2026-04-03,blog,hotjar-pricing,hotjar pricing,,content
+userpilot.com,https://userpilot.com/blog/product-health-metrics/,2026-04-03,blog,product-health-metrics,product health metrics,,content
+userpilot.com,https://userpilot.com/blog/mobile-surveys/,2026-04-03,blog,mobile-surveys,mobile surveys,,content
+userpilot.com,https://userpilot.com/blog/product-evaluation-survey-questions/,2026-04-06,blog,product-evaluation-survey-questions,product evaluation survey questions,,content
+userpilot.com,https://userpilot.com/blog/how-to-improve-csat/,2026-04-06,blog,how-to-improve-csat,how to improve csat,,content
+userpilot.com,https://userpilot.com/blog/contextual-onboarding-saas/,2026-04-06,blog,contextual-onboarding-saas,contextual onboarding saas,,content
+userpilot.com,https://userpilot.com/blog/groupize-gamification-case-study/,2026-04-06,blog,groupize-gamification-case-study,groupize gamification case study,,content
+userpilot.com,https://userpilot.com/blog/cuvama-case-study/,2026-04-06,blog,cuvama-case-study,cuvama case study,,content
+userpilot.com,https://userpilot.com/blog/callbell-case-study/,2026-04-06,blog,callbell-case-study,callbell case study,,content
+userpilot.com,https://userpilot.com/blog/improve-nps/,2026-04-06,blog,improve-nps,improve nps,,content
+userpilot.com,https://userpilot.com/blog/customer-engagement-score/,2026-04-06,blog,customer-engagement-score,customer engagement score,,content
+userpilot.com,https://userpilot.com/blog/beable-case-study/,2026-04-07,blog,beable-case-study,beable case study,,content
+userpilot.com,https://userpilot.com/blog/product-metrics-benchmark-report/,2026-04-07,blog,product-metrics-benchmark-report,product metrics benchmark report,,content
+userpilot.com,https://userpilot.com/blog/collect-customer-feedback/,2026-04-07,blog,collect-customer-feedback,collect customer feedback,,content
+userpilot.com,https://userpilot.com/blog/data-product-roadmap/,2026-04-07,blog,data-product-roadmap,data product roadmap,,content
+userpilot.com,https://userpilot.com/blog/talana-case-study/,2026-04-07,blog,talana-case-study,talana case study,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-checklist-tips/,2026-04-07,blog,user-onboarding-checklist-tips,user onboarding checklist tips,,content
+userpilot.com,https://userpilot.com/blog/soc-2-type-2-certificate-userpilot/,2026-04-07,blog,soc-2-type-2-certificate-userpilot,soc 2 type 2 certificate userpilot,,content
+userpilot.com,https://userpilot.com/blog/cyberbiz-case-study/,2026-04-07,blog,cyberbiz-case-study,cyberbiz case study,,content
+userpilot.com,https://userpilot.com/blog/saas-dashboard-examples/,2026-04-07,blog,saas-dashboard-examples,saas dashboard examples,,content
+userpilot.com,https://userpilot.com/blog/zoezi-case-study/,2026-04-07,blog,zoezi-case-study,zoezi case study,,content
+userpilot.com,https://userpilot.com/blog/smoobu-case-study/,2026-04-07,blog,smoobu-case-study,smoobu case study,,content
+userpilot.com,https://userpilot.com/blog/ab-testing-examples/,2026-04-07,blog,ab-testing-examples,ab testing examples,,content
+userpilot.com,https://userpilot.com/blog/shelterluv-case-study/,2026-04-07,blog,shelterluv-case-study,shelterluv case study,,content
+userpilot.com,https://userpilot.com/blog/rice-score-calculator/,2026-04-07,blog,rice-score-calculator,rice score calculator,,content
+userpilot.com,https://userpilot.com/blog/rage-clicks/,2026-04-07,blog,rage-clicks,rage clicks,,content
+userpilot.com,https://userpilot.com/blog/saas-churn-calculation/,2026-04-07,blog,saas-churn-calculation,saas churn calculation,,content
+userpilot.com,https://userpilot.com/blog/drop-off-rate/,2026-04-07,blog,drop-off-rate,drop off rate,,content
+userpilot.com,https://userpilot.com/blog/getcraft-case-study-doubled-activation-with-zero-coding/,2026-04-07,blog,getcraft-case-study-doubled-activation-with-zero-coding,getcraft case study doubled activation with zero coding,,content
+userpilot.com,https://userpilot.com/blog/the-room-case-study/,2026-04-08,blog,the-room-case-study,the room case study,,content
+userpilot.com,https://userpilot.com/blog/usability-tests-userpilot-case-study/,2026-04-08,blog,usability-tests-userpilot-case-study,usability tests userpilot case study,,content
+userpilot.com,https://userpilot.com/blog/cancellation-reasons/,2026-04-09,blog,cancellation-reasons,cancellation reasons,,content
+userpilot.com,https://userpilot.com/blog/osano-case-study-churn-reduction/,2026-04-10,blog,osano-case-study-churn-reduction,osano case study churn reduction,,content
+userpilot.com,https://userpilot.com/blog/kontentino-case-study/,2026-04-10,blog,kontentino-case-study,kontentino case study,,content
+userpilot.com,https://userpilot.com/blog/unolo-case-study/,2026-04-10,blog,unolo-case-study,unolo case study,,content
+userpilot.com,https://userpilot.com/blog/kommunicate-case-study/,2026-04-10,blog,kommunicate-case-study,kommunicate case study,,content
+userpilot.com,https://userpilot.com/blog/customer-effort-score-survey-template/,2026-04-13,blog,customer-effort-score-survey-template,customer effort score survey template,,content
+userpilot.com,https://userpilot.com/blog/modal-vs-popup-vs-overlay/,2026-04-13,blog,modal-vs-popup-vs-overlay,modal vs popup vs overlay,,content
+userpilot.com,https://userpilot.com/blog/nps-dashboard/,2026-04-13,blog,nps-dashboard,nps dashboard,,content
+userpilot.com,https://userpilot.com/blog/plg-funnel/,2026-04-13,blog,plg-funnel,plg funnel,,content
+userpilot.com,https://userpilot.com/blog/feature-feedback-survey-template/,2026-04-14,blog,feature-feedback-survey-template,feature feedback survey template,,content
+userpilot.com,https://userpilot.com/blog/release-notes-template/,2026-04-14,blog,release-notes-template,release notes template,,content
+userpilot.com,https://userpilot.com/blog/user-engagement-strategies/,2026-04-14,blog,user-engagement-strategies,user engagement strategies,,content
+userpilot.com,https://userpilot.com/blog/good-survey-questions/,2026-04-16,blog,good-survey-questions,good survey questions,,content
+userpilot.com,https://userpilot.com/blog/conversion-funnel-optimization-explained-strategies/,2026-04-24,blog,conversion-funnel-optimization-explained-strategies,conversion funnel optimization explained strategies,,content
+userpilot.com,https://userpilot.com/blog/happy-path/,2026-04-28,blog,happy-path,happy path,,content
+userpilot.com,https://userpilot.com/blog/friction-points/,2026-04-28,blog,friction-points,friction points,,content
+userpilot.com,https://userpilot.com/blog/livex-case-study/,2026-04-28,blog,livex-case-study,livex case study,,content
+userpilot.com,https://userpilot.com/blog/in-app-messaging/,2026-05-15,blog,in-app-messaging,in app messaging,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding/,2026-05-22,blog,user-onboarding,user onboarding,,content
+userpilot.com,https://userpilot.com/blog/dealfront-case-study/,2026-06-05,blog,dealfront-case-study,dealfront case study,,content
+userpilot.com,https://userpilot.com/blog/best-pendo-alternatives/,2026-06-10,blog,best-pendo-alternatives,best pendo alternatives,,content
+userpilot.com,https://userpilot.com/blog/app-onboarding-best-practices/,2026-06-11,blog,app-onboarding-best-practices,app onboarding best practices,,content
+userpilot.com,https://userpilot.com/blog/cleeng-case-study/,2026-06-11,blog,cleeng-case-study,cleeng case study,,content
+userpilot.com,https://userpilot.com/blog/posthog-session-replay/,2026-06-11,blog,posthog-session-replay,posthog session replay,,content
+userpilot.com,https://userpilot.com/blog/push-notification-best-practices/,2026-06-11,blog,push-notification-best-practices,push notification best practices,,content
+userpilot.com,https://userpilot.com/blog/in-app-guidance-saas/,2026-06-11,blog,in-app-guidance-saas,in app guidance saas,,content
+userpilot.com,https://userpilot.com/blog/product-marketing/,2026-06-11,blog,product-marketing,product marketing,,content
+userpilot.com,https://userpilot.com/blog/app-walkthrough/,2026-06-11,blog,app-walkthrough,app walkthrough,,content
+userpilot.com,https://userpilot.com/blog/product-redesign/,2026-06-15,blog,product-redesign,product redesign,,content
+userpilot.com,https://userpilot.com/blog/saas-product-management/,2026-06-16,blog,saas-product-management,saas product management,,content
+userpilot.com,https://userpilot.com/blog/whale-case-study/,2026-06-23,blog,whale-case-study,whale case study,,content
+userpilot.com,https://userpilot.com/blog/relitix-case-study/,2026-06-23,blog,relitix-case-study,relitix case study,,content
+userpilot.com,https://userpilot.com/blog/saas-automation-tools/,2026-06-25,blog,saas-automation-tools,saas automation tools,,content
+userpilot.com,https://userpilot.com/blog/freemium-to-premium/,2026-06-29,blog,freemium-to-premium,freemium to premium,,content
+userpilot.com,https://userpilot.com/blog/how-to-wow-a-customer/,2026-06-29,blog,how-to-wow-a-customer,how to wow a customer,,content
+userpilot.com,https://userpilot.com/blog/help-center-examples/,2026-06-30,blog,help-center-examples,help center examples,,content
+userpilot.com,https://userpilot.com/blog/saas-landing-pages/,2026-06-30,blog,saas-landing-pages,saas landing pages,,content
+userpilot.com,https://userpilot.com/blog/product-management-tools/,2026-07-14,blog,product-management-tools,product management tools,,content
+userpilot.com,https://userpilot.com/blog/b2b-customer-engagement-strategies/,2026-07-14,blog,b2b-customer-engagement-strategies,b2b customer engagement strategies,,content
+userpilot.com,https://userpilot.com/blog/saas-products/,2026-07-15,blog,saas-products,saas products,,content
+userpilot.com,https://userpilot.com/blog/appcues-vs-pendo/,2026-07-15,blog,appcues-vs-pendo,appcues vs pendo,,content
+userpilot.com,https://userpilot.com/blog/doppler-case-study/,2026-07-24,blog,doppler-case-study,doppler case study,,content
+userpilot.com,https://userpilot.com/blog/user-behavior-tracking/,2026-08-03,blog,user-behavior-tracking,user behavior tracking,,content
+userpilot.com,https://userpilot.com/blog/best-multivariate-testing-tools/,2026-08-03,blog,best-multivariate-testing-tools,best multivariate testing tools,,content
+userpilot.com,https://userpilot.com/blog/cro-tools/,2026-08-03,blog,cro-tools,cro tools,,content
+userpilot.com,https://userpilot.com/blog/usermaven/,2026-08-03,blog,usermaven,usermaven,,content
+userpilot.com,https://userpilot.com/blog/product-feedback-software/,2026-08-03,blog,product-feedback-software,product feedback software,,content
+userpilot.com,https://userpilot.com/blog/userguiding-pricing/,2026-08-03,blog,userguiding-pricing,userguiding pricing,,content
+userpilot.com,https://userpilot.com/blog/posthog-pricing/,2026-08-03,blog,posthog-pricing,posthog pricing,,content
+userpilot.com,https://userpilot.com/blog/what-is-walkme/,2026-08-03,blog,what-is-walkme,what is walkme,,content
+userpilot.com,https://userpilot.com/blog/hotjar-vs-fullstory/,2026-08-03,blog,hotjar-vs-fullstory,hotjar vs fullstory,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-pricing/,2026-08-03,blog,mixpanel-pricing,mixpanel pricing,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-user-analytics/,2026-08-03,blog,mixpanel-user-analytics,mixpanel user analytics,,content
+userpilot.com,https://userpilot.com/blog/reduce-churn-rate/,2026-08-03,blog,reduce-churn-rate,reduce churn rate,,content
+userpilot.com,https://userpilot.com/blog/reasons-for-customer-churn/,2026-08-03,blog,reasons-for-customer-churn,reasons for customer churn,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-analytics-tools/,2026-08-04,blog,mobile-app-analytics-tools,mobile app analytics tools,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-tools/,2026-08-04,blog,user-onboarding-tools,user onboarding tools,,content
+userpilot.com,https://userpilot.com/blog/customer-analytics-platforms/,2026-08-04,blog,customer-analytics-platforms,customer analytics platforms,,content
+userpilot.com,https://userpilot.com/blog/customer-onboarding-software/,2026-08-04,blog,customer-onboarding-software,customer onboarding software,,content
+userpilot.com,https://userpilot.com/blog/heatmap-alternatives/,2026-08-04,blog,heatmap-alternatives,heatmap alternatives,,content
+userpilot.com,https://userpilot.com/blog/fullstory-pricing/,2026-08-05,blog,fullstory-pricing,fullstory pricing,,content
+userpilot.com,https://userpilot.com/blog/appcues-alternatives/,2026-08-05,blog,appcues-alternatives,appcues alternatives,,content
+userpilot.com,https://userpilot.com/blog/user-behavior-analytics-tools/,2026-08-05,blog,user-behavior-analytics-tools,user behavior analytics tools,,content
+userpilot.com,https://userpilot.com/blog/pendo-competitors/,2026-08-05,blog,pendo-competitors,pendo competitors,,content
+userpilot.com,https://userpilot.com/blog/customer-churn/,2026-08-05,blog,customer-churn,customer churn,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-best-practices/,2026-08-05,blog,user-onboarding-best-practices,user onboarding best practices,,content
+userpilot.com,https://userpilot.com/blog/user-engagement/,2026-08-05,blog,user-engagement,user engagement,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-whatfix/,2026-08-05,blog,pendo-vs-whatfix,pendo vs whatfix,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-userpilot/,2026-08-06,blog,pendo-vs-userpilot,pendo vs userpilot,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-walkme/,2026-08-06,blog,pendo-vs-walkme,pendo vs walkme,,content
+userpilot.com,https://userpilot.com/blog/userpilot-alternatives/,2026-08-06,blog,userpilot-alternatives,userpilot alternatives,,content
+userpilot.com,https://userpilot.com/blog/pendo-pricing/,2026-08-06,blog,pendo-pricing,pendo pricing,,content
+userpilot.com,https://userpilot.com/blog/behavior-analytics-tools/,2026-08-06,blog,behavior-analytics-tools,behavior analytics tools,,content
+userpilot.com,https://userpilot.com/blog/userpilot-vs-amplitude-comparison-user-analysis/,2026-08-06,blog,userpilot-vs-amplitude-comparison-user-analysis,userpilot vs amplitude comparison user analysis,,content
+userpilot.com,https://userpilot.com/blog/usetiful/,2026-08-06,blog,usetiful,usetiful,,content
+userpilot.com,https://userpilot.com/blog/usetiful-pricing/,2026-08-06,blog,usetiful-pricing,usetiful pricing,,content
+userpilot.com,https://userpilot.com/blog/whatfix-pricing/,2026-08-07,blog,whatfix-pricing,whatfix pricing,,content
+userpilot.com,https://userpilot.com/blog/user-surveys/,2026-08-07,blog,user-surveys,user surveys,,content
+userpilot.com,https://userpilot.com/blog/product-feedback-form/,2026-08-07,blog,product-feedback-form,product feedback form,,content
+userpilot.com,https://userpilot.com/blog/welcome-survey/,2026-08-07,blog,welcome-survey,welcome survey,,content
+userpilot.com,https://userpilot.com/blog/user-feedback/,2026-08-07,blog,user-feedback,user feedback,,content
+userpilot.com,https://userpilot.com/blog/first-time-user-experience-saas/,2026-08-10,blog,first-time-user-experience-saas,first time user experience saas,,content
+userpilot.com,https://userpilot.com/blog/help-center-examples-6/,2026-08-10,blog,help-center-examples-6,help center examples 6,,content
+userpilot.com,https://userpilot.com/blog/ai-product-analytics/,2026-08-10,blog,ai-product-analytics,ai product analytics,,content
+userpilot.com,https://userpilot.com/blog/website-tour-examples/,2026-08-10,blog,website-tour-examples,website tour examples,,content
+userpilot.com,https://userpilot.com/blog/app-experience/,2026-08-10,blog,app-experience,app experience,,content
+userpilot.com,https://userpilot.com/blog/saas-ux-design/,2026-08-10,blog,saas-ux-design,saas ux design,,content
+userpilot.com,https://userpilot.com/blog/customer-segmentation-examples/,2026-08-10,blog,customer-segmentation-examples,customer segmentation examples,,content
+userpilot.com,https://userpilot.com/blog/how-to-measure-user-experience/,2026-08-10,blog,how-to-measure-user-experience,how to measure user experience,,content
+userpilot.com,https://userpilot.com/blog/product-dashboard/,2026-08-10,blog,product-dashboard,product dashboard,,content
+userpilot.com,https://userpilot.com/blog/analytics-dashboard-examples/,2026-08-10,blog,analytics-dashboard-examples,analytics dashboard examples,,content
+userpilot.com,https://userpilot.com/blog/progressive-disclosure-examples/,2026-08-10,blog,progressive-disclosure-examples,progressive disclosure examples,,content
+userpilot.com,https://userpilot.com/blog/customer-engagement-dashboard/,2026-08-10,blog,customer-engagement-dashboard,customer engagement dashboard,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-metrics/,2026-08-10,blog,mobile-app-metrics,mobile app metrics,,content
+userpilot.com,https://userpilot.com/blog/click-tracking-saas/,2026-08-11,blog,click-tracking-saas,click tracking saas,,content
+userpilot.com,https://userpilot.com/blog/product-usage-metrics/,2026-08-11,blog,product-usage-metrics,product usage metrics,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-tracking/,2026-08-11,blog,mobile-app-tracking,mobile app tracking,,content
+userpilot.com,https://userpilot.com/blog/product-analytics/,2026-08-11,blog,product-analytics,product analytics,,content
+userpilot.com,https://userpilot.com/blog/product-marketing-strategy/,2026-08-11,blog,product-marketing-strategy,product marketing strategy,,content
+userpilot.com,https://userpilot.com/blog/mobile-carousels/,2026-08-11,blog,mobile-carousels,mobile carousels,,content
+userpilot.com,https://userpilot.com/blog/how-to-define-success-metrics-for-a-product/,2026-08-11,blog,how-to-define-success-metrics-for-a-product,how to define success metrics for a product,,content
+userpilot.com,https://userpilot.com/blog/user-behavior-analytics/,2026-08-11,blog,user-behavior-analytics,user behavior analytics,,content
+userpilot.com,https://userpilot.com/blog/event-based-analytics/,2026-08-11,blog,event-based-analytics,event based analytics,,content
+userpilot.com,https://userpilot.com/blog/conversion-funnel-analysis/,2026-08-11,blog,conversion-funnel-analysis,conversion funnel analysis,,content
+userpilot.com,https://userpilot.com/blog/using-analytics-to-improve-customer-engagement/,2026-08-11,blog,using-analytics-to-improve-customer-engagement,using analytics to improve customer engagement,,content
+userpilot.com,https://userpilot.com/blog/behavioral-kpi-examples/,2026-08-11,blog,behavioral-kpi-examples,behavioral kpi examples,,content
+userpilot.com,https://userpilot.com/blog/cancellation-flow-examples/,2026-08-11,blog,cancellation-flow-examples,cancellation flow examples,,content
+userpilot.com,https://userpilot.com/blog/churn-prediction/,2026-08-11,blog,churn-prediction,churn prediction,,content
+userpilot.com,https://userpilot.com/blog/product-analytics-framework/,2026-08-11,blog,product-analytics-framework,product analytics framework,,content
+userpilot.com,https://userpilot.com/blog/reengage-inactive-users-saas/,2026-08-11,blog,reengage-inactive-users-saas,reengage inactive users saas,,content
+userpilot.com,https://userpilot.com/blog/cohort-retention-analysis/,2026-08-11,blog,cohort-retention-analysis,cohort retention analysis,,content
+userpilot.com,https://userpilot.com/blog/customer-retention-strategies/,2026-08-12,blog,customer-retention-strategies,customer retention strategies,,content
+userpilot.com,https://userpilot.com/blog/email-marketing-automation-examples/,2026-08-12,blog,email-marketing-automation-examples,email marketing automation examples,,content
+userpilot.com,https://userpilot.com/blog/message-testing-saas/,2026-08-12,blog,message-testing-saas,message testing saas,,content
+userpilot.com,https://userpilot.com/blog/onboarding-ux-examples/,2026-08-12,blog,onboarding-ux-examples,onboarding ux examples,,content
+userpilot.com,https://userpilot.com/blog/user-tracking-tool/,2026-08-12,blog,user-tracking-tool,user tracking tool,,content
+userpilot.com,https://userpilot.com/blog/amplitude-pricing/,2026-08-12,blog,amplitude-pricing,amplitude pricing,,content
+userpilot.com,https://userpilot.com/blog/amplitude-alternatives/,2026-08-12,blog,amplitude-alternatives,amplitude alternatives,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-userlane/,2026-08-12,blog,pendo-vs-userlane,pendo vs userlane,,content
+userpilot.com,https://userpilot.com/blog/posthog-alternatives/,2026-08-12,blog,posthog-alternatives,posthog alternatives,,content
+userpilot.com,https://userpilot.com/blog/posthog-vs-amplitude/,2026-08-12,blog,posthog-vs-amplitude,posthog vs amplitude,,content
+userpilot.com,https://userpilot.com/blog/best-productfruits-alternatives/,2026-08-12,blog,best-productfruits-alternatives,best productfruits alternatives,,content
+userpilot.com,https://userpilot.com/blog/userpilot-pricing/,2026-08-12,blog,userpilot-pricing,userpilot pricing,,content
+userpilot.com,https://userpilot.com/blog/userpilot-competitors/,2026-08-12,blog,userpilot-competitors,userpilot competitors,,content
+userpilot.com,https://userpilot.com/blog/funnel-tracking/,2026-08-12,blog,funnel-tracking,funnel tracking,,content
+userpilot.com,https://userpilot.com/blog/walkme-competitors/,2026-08-12,blog,walkme-competitors,walkme competitors,,content
+userpilot.com,https://userpilot.com/blog/software-usage-analytics/,2026-08-12,blog,software-usage-analytics,software usage analytics,,content
+userpilot.com,https://userpilot.com/blog/ux-kpis/,2026-08-12,blog,ux-kpis,ux kpis,,content
+userpilot.com,https://userpilot.com/blog/in-app-feedback/,2026-08-12,blog,in-app-feedback,in app feedback,,content
+userpilot.com,https://userpilot.com/blog/smiley-face-surveys/,2026-08-12,blog,smiley-face-surveys,smiley face surveys,,content
+userpilot.com,https://userpilot.com/blog/in-app-surveys/,2026-08-12,blog,in-app-surveys,in app surveys,,content
+userpilot.com,https://userpilot.com/blog/survey-analytics/,2026-08-12,blog,survey-analytics,survey analytics,,content
+userpilot.com,https://userpilot.com/blog/how-to-create-a-feedback-loop/,2026-08-12,blog,how-to-create-a-feedback-loop,how to create a feedback loop,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-retention/,2026-08-12,blog,mobile-app-retention,mobile app retention,,content
+userpilot.com,https://userpilot.com/blog/mobile-analytics/,2026-08-12,blog,mobile-analytics,mobile analytics,,content
+userpilot.com,https://userpilot.com/blog/strategic-product-management/,2026-08-12,blog,strategic-product-management,strategic product management,,content
+userpilot.com,https://userpilot.com/blog/product-management-best-practices/,2026-08-12,blog,product-management-best-practices,product management best practices,,content
+userpilot.com,https://userpilot.com/blog/what-is-a-product-journey-map/,2026-08-12,blog,what-is-a-product-journey-map,what is a product journey map,,content
+userpilot.com,https://userpilot.com/blog/user-journey-map-examples/,2026-08-12,blog,user-journey-map-examples,user journey map examples,,content
+userpilot.com,https://userpilot.com/blog/customer-success-tools/,2026-08-12,blog,customer-success-tools,customer success tools,,content
+userpilot.com,https://userpilot.com/blog/best-tools-for-interactive-user-guides/,2026-08-12,blog,best-tools-for-interactive-user-guides,best tools for interactive user guides,,content
+userpilot.com,https://userpilot.com/blog/in-app-messaging-tools/,2026-08-12,blog,in-app-messaging-tools,in app messaging tools,,content
+userpilot.com,https://userpilot.com/blog/best-tools-for-product-tour/,2026-08-12,blog,best-tools-for-product-tour,best tools for product tour,,content
+userpilot.com,https://userpilot.com/blog/how-to-increase-user-retention/,2026-08-13,blog,how-to-increase-user-retention,how to increase user retention,,content
+userpilot.com,https://userpilot.com/blog/appcues-vs-userpilot/,2026-08-13,blog,appcues-vs-userpilot,appcues vs userpilot,,content
+userpilot.com,https://userpilot.com/blog/amplitude-session-replay/,2026-08-13,blog,amplitude-session-replay,amplitude session replay,,content
+userpilot.com,https://userpilot.com/blog/retention-curve/,2026-08-13,blog,retention-curve,retention curve,,content
+userpilot.com,https://userpilot.com/blog/churn-analytics/,2026-08-13,blog,churn-analytics,churn analytics,,content
+userpilot.com,https://userpilot.com/blog/retention-calculation/,2026-08-13,blog,retention-calculation,retention calculation,,content
+userpilot.com,https://userpilot.com/blog/contentsquare-pricing/,2026-08-13,blog,contentsquare-pricing,contentsquare pricing,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-alternatives/,2026-08-13,blog,mixpanel-alternatives,mixpanel alternatives,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-vs-amplitude/,2026-08-13,blog,mixpanel-vs-amplitude,mixpanel vs amplitude,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-mixpanel/,2026-08-13,blog,pendo-vs-mixpanel,pendo vs mixpanel,,content
+userpilot.com,https://userpilot.com/blog/user-retention/,2026-08-13,blog,user-retention,user retention,,content
+userpilot.com,https://userpilot.com/blog/slack-onboarding/,2026-08-13,blog,slack-onboarding,slack onboarding,,content
+userpilot.com,https://userpilot.com/blog/minimum-viable-onboarding/,2026-08-13,blog,minimum-viable-onboarding,minimum viable onboarding,,content
+userpilot.com,https://userpilot.com/blog/saas-onboarding-strategy/,2026-08-13,blog,saas-onboarding-strategy,saas onboarding strategy,,content
+userpilot.com,https://userpilot.com/blog/knowledge-base/,2026-08-13,blog,knowledge-base,knowledge base,,content
+userpilot.com,https://userpilot.com/blog/fintech-onboarding/,2026-08-13,blog,fintech-onboarding,fintech onboarding,,content
+userpilot.com,https://userpilot.com/blog/open-source-user-onboarding/,2026-08-13,blog,open-source-user-onboarding,open source user onboarding,,content
+userpilot.com,https://userpilot.com/blog/saas-user-onboarding-funnel/,2026-08-13,blog,saas-user-onboarding-funnel,saas user onboarding funnel,,content
+userpilot.com,https://userpilot.com/blog/how-to-create-a-resource-center/,2026-08-13,blog,how-to-create-a-resource-center,how to create a resource center,,content
+userpilot.com,https://userpilot.com/blog/how-to-measure-new-feature-success/,2026-08-13,blog,how-to-measure-new-feature-success,how to measure new feature success,,content
+userpilot.com,https://userpilot.com/blog/product-adoption-saas/,2026-08-13,blog,product-adoption-saas,product adoption saas,,content
+userpilot.com,https://userpilot.com/blog/product-adoption-process/,2026-08-13,blog,product-adoption-process,product adoption process,,content
+userpilot.com,https://userpilot.com/blog/aha-moment/,2026-08-14,blog,aha-moment,aha moment,,content
+userpilot.com,https://userpilot.com/blog/time-to-value/,2026-08-14,blog,time-to-value,time to value,,content
+userpilot.com,https://userpilot.com/blog/product-adoption/,2026-08-14,blog,product-adoption,product adoption,,content
+userpilot.com,https://userpilot.com/blog/how-to-measure-product-adoption/,2026-08-14,blog,how-to-measure-product-adoption,how to measure product adoption,,content
+userpilot.com,https://userpilot.com/blog/user-adoption-strategies/,2026-08-14,blog,user-adoption-strategies,user adoption strategies,,content
+userpilot.com,https://userpilot.com/blog/chameleon-alternatives/,2026-08-15,blog,chameleon-alternatives,chameleon alternatives,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-intercom/,2026-08-15,blog,pendo-vs-intercom,pendo vs intercom,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-fullstory/,2026-08-15,blog,pendo-vs-fullstory,pendo vs fullstory,,content
+userpilot.com,https://userpilot.com/blog/walkme-pricing/,2026-08-15,blog,walkme-pricing,walkme pricing,,content
+userpilot.com,https://userpilot.com/blog/feature-adoption-metrics/,2026-08-15,blog,feature-adoption-metrics,feature adoption metrics,,content
+userpilot.com,https://userpilot.com/blog/product-launch-analytics/,2026-08-15,blog,product-launch-analytics,product launch analytics,,content
+userpilot.com,https://userpilot.com/blog/saas-onboarding-emails/,2026-08-17,blog,saas-onboarding-emails,saas onboarding emails,,content
+userpilot.com,https://userpilot.com/blog/user-activation-for-saas/,2026-08-17,blog,user-activation-for-saas,user activation for saas,,content
+userpilot.com,https://userpilot.com/blog/drive-feature-adoption/,2026-08-17,blog,drive-feature-adoption,drive feature adoption,,content
+userpilot.com,https://userpilot.com/blog/product-adoption-curve-saas/,2026-08-17,blog,product-adoption-curve-saas,product adoption curve saas,,content
+userpilot.com,https://userpilot.com/blog/product-personalization-for-saas/,2026-08-17,blog,product-personalization-for-saas,product personalization for saas,,content
+userpilot.com,https://userpilot.com/blog/activation-vs-adoption/,2026-08-17,blog,activation-vs-adoption,activation vs adoption,,content
+userpilot.com,https://userpilot.com/blog/user-behavioral-analysis/,2026-08-17,blog,user-behavioral-analysis,user behavioral analysis,,content
+userpilot.com,https://userpilot.com/blog/user-analysis/,2026-08-17,blog,user-analysis,user analysis,,content
+userpilot.com,https://userpilot.com/blog/product-adoption-strategy/,2026-08-17,blog,product-adoption-strategy,product adoption strategy,,content
+userpilot.com,https://userpilot.com/blog/what-is-multivariate-testing/,2026-08-17,blog,what-is-multivariate-testing,what is multivariate testing,,content
+userpilot.com,https://userpilot.com/blog/app-adoption/,2026-08-17,blog,app-adoption,app adoption,,content
+userpilot.com,https://userpilot.com/blog/user-research-questions/,2026-08-17,blog,user-research-questions,user research questions,,content
+userpilot.com,https://userpilot.com/blog/feedback-analysis/,2026-08-17,blog,feedback-analysis,feedback analysis,,content
+userpilot.com,https://userpilot.com/blog/uxcam-pricing/,2026-08-17,blog,uxcam-pricing,uxcam pricing,,content
+userpilot.com,https://userpilot.com/blog/mixpanel-session-replay/,2026-08-17,blog,mixpanel-session-replay,mixpanel session replay,,content
+userpilot.com,https://userpilot.com/blog/micro-interaction-examples/,2026-08-17,blog,micro-interaction-examples,micro interaction examples,,content
+userpilot.com,https://userpilot.com/blog/interactive-product-demo/,2026-08-17,blog,interactive-product-demo,interactive product demo,,content
+userpilot.com,https://userpilot.com/blog/increasing-feature-engagement-saas/,2026-08-17,blog,increasing-feature-engagement-saas,increasing feature engagement saas,,content
+userpilot.com,https://userpilot.com/blog/saas-knowledge-base-examples/,2026-08-17,blog,saas-knowledge-base-examples,saas knowledge base examples,,content
+userpilot.com,https://userpilot.com/blog/omnichannel-customer-engagement/,2026-08-17,blog,omnichannel-customer-engagement,omnichannel customer engagement,,content
+userpilot.com,https://userpilot.com/blog/saas-ai-tools/,2026-08-17,blog,saas-ai-tools,saas ai tools,,content
+userpilot.com,https://userpilot.com/blog/mobile-app-engagement/,2026-08-17,blog,mobile-app-engagement,mobile app engagement,,content
+userpilot.com,https://userpilot.com/blog/how-to-reduce-support-ticket-volume/,2026-08-18,blog,how-to-reduce-support-ticket-volume,how to reduce support ticket volume,,content
+userpilot.com,https://userpilot.com/blog/adoption-funnel/,2026-08-18,blog,adoption-funnel,adoption funnel,,content
+userpilot.com,https://userpilot.com/blog/engagement-data/,2026-08-18,blog,engagement-data,engagement data,,content
+userpilot.com,https://userpilot.com/blog/product-engagement-score/,2026-08-18,blog,product-engagement-score,product engagement score,,content
+userpilot.com,https://userpilot.com/blog/in-app-communication/,2026-08-18,blog,in-app-communication,in app communication,,content
+userpilot.com,https://userpilot.com/blog/in-app-onboarding/,2026-08-18,blog,in-app-onboarding,in app onboarding,,content
+userpilot.com,https://userpilot.com/blog/ui-modal-examples/,2026-08-18,blog,ui-modal-examples,ui modal examples,,content
+userpilot.com,https://userpilot.com/blog/interactive-walkthroughs-improve-onboarding/,2026-08-18,blog,interactive-walkthroughs-improve-onboarding,interactive walkthroughs improve onboarding,,content
+userpilot.com,https://userpilot.com/blog/modal-ux-design/,2026-08-18,blog,modal-ux-design,modal ux design,,content
+userpilot.com,https://userpilot.com/blog/interactive-walkthrough-vs-product-tour/,2026-08-18,blog,interactive-walkthrough-vs-product-tour,interactive walkthrough vs product tour,,content
+userpilot.com,https://userpilot.com/blog/best-in-app-messaging-examples/,2026-08-18,blog,best-in-app-messaging-examples,best in app messaging examples,,content
+userpilot.com,https://userpilot.com/blog/gamification-example-saas/,2026-08-18,blog,gamification-example-saas,gamification example saas,,content
+userpilot.com,https://userpilot.com/blog/personalization-saas/,2026-08-18,blog,personalization-saas,personalization saas,,content
+userpilot.com,https://userpilot.com/blog/what-is-contentsquare/,2026-08-18,blog,what-is-contentsquare,what is contentsquare,,content
+userpilot.com,https://userpilot.com/blog/product-updates-guide/,2026-08-18,blog,product-updates-guide,product updates guide,,content
+userpilot.com,https://userpilot.com/blog/product-launch-email/,2026-08-18,blog,product-launch-email,product launch email,,content
+userpilot.com,https://userpilot.com/blog/customer-journey-visualization/,2026-08-19,blog,customer-journey-visualization,customer journey visualization,,content
+userpilot.com,https://userpilot.com/blog/progress-bar-ui-ux-saas/,2026-08-19,blog,progress-bar-ui-ux-saas,progress bar ui ux saas,,content
+userpilot.com,https://userpilot.com/blog/product-update-emails/,2026-08-19,blog,product-update-emails,product update emails,,content
+userpilot.com,https://userpilot.com/blog/interactive-software-walkthroughs/,2026-08-19,blog,interactive-software-walkthroughs,interactive software walkthroughs,,content
+userpilot.com,https://userpilot.com/blog/website-notification-banner/,2026-08-19,blog,website-notification-banner,website notification banner,,content
+userpilot.com,https://userpilot.com/blog/fake-door-testing/,2026-08-19,blog,fake-door-testing,fake door testing,,content
+userpilot.com,https://userpilot.com/blog/product-tour-examples/,2026-08-19,blog,product-tour-examples,product tour examples,,content
+userpilot.com,https://userpilot.com/blog/feature-release-example/,2026-08-19,blog,feature-release-example,feature release example,,content
+userpilot.com,https://userpilot.com/blog/amplitude-analytics/,2026-08-19,blog,amplitude-analytics,amplitude analytics,,content
+userpilot.com,https://userpilot.com/blog/amplitude-a-b-testing/,2026-08-19,blog,amplitude-a-b-testing,amplitude a b testing,,content
+userpilot.com,https://userpilot.com/blog/what-is-a-heatmap/,2026-08-19,blog,what-is-a-heatmap,what is a heatmap,,content
+userpilot.com,https://userpilot.com/blog/amplitude-tracking/,2026-08-19,blog,amplitude-tracking,amplitude tracking,,content
+userpilot.com,https://userpilot.com/blog/amplitude-autocapture/,2026-08-19,blog,amplitude-autocapture,amplitude autocapture,,content
+userpilot.com,https://userpilot.com/blog/session-recordings/,2026-08-19,blog,session-recordings,session recordings,,content
+userpilot.com,https://userpilot.com/blog/push-notifications-vs-in-app-notifications/,2026-08-19,blog,push-notifications-vs-in-app-notifications,push notifications vs in app notifications,,content
+userpilot.com,https://userpilot.com/blog/saas-average-conversion-rate/,2026-08-19,blog,saas-average-conversion-rate,saas average conversion rate,,content
+userpilot.com,https://userpilot.com/blog/upselling-examples-saas/,2026-08-19,blog,upselling-examples-saas,upselling examples saas,,content
+userpilot.com,https://userpilot.com/blog/free-trial-vs-demo-saas/,2026-08-19,blog,free-trial-vs-demo-saas,free trial vs demo saas,,content
+userpilot.com,https://userpilot.com/blog/free-trial-length-saas/,2026-08-19,blog,free-trial-length-saas,free trial length saas,,content
+userpilot.com,https://userpilot.com/blog/new-product-announcement/,2026-08-19,blog,new-product-announcement,new product announcement,,content
+userpilot.com,https://userpilot.com/blog/heat-map-analysis/,2026-08-19,blog,heat-map-analysis,heat map analysis,,content
+userpilot.com,https://userpilot.com/blog/what-is-appcues-overview-features/,2026-08-19,blog,what-is-appcues-overview-features,what is appcues overview features,,content
+userpilot.com,https://userpilot.com/blog/what-is-intercom-overview-features/,2026-08-19,blog,what-is-intercom-overview-features,what is intercom overview features,,content
+userpilot.com,https://userpilot.com/blog/app-conversion-optimization/,2026-08-19,blog,app-conversion-optimization,app conversion optimization,,content
+userpilot.com,https://userpilot.com/blog/funnel-analysis-examples/,2026-08-19,blog,funnel-analysis-examples,funnel analysis examples,,content
+userpilot.com,https://userpilot.com/blog/help-center-designs/,2026-08-20,blog,help-center-designs,help center designs,,content
+userpilot.com,https://userpilot.com/blog/ux-design-principles/,2026-08-20,blog,ux-design-principles,ux design principles,,content
+userpilot.com,https://userpilot.com/blog/in-app-tutorial-examples/,2026-08-20,blog,in-app-tutorial-examples,in app tutorial examples,,content
+userpilot.com,https://userpilot.com/blog/product-development-strategy/,2026-08-20,blog,product-development-strategy,product development strategy,,content
+userpilot.com,https://userpilot.com/blog/usability-vs-user-experience/,2026-08-20,blog,usability-vs-user-experience,usability vs user experience,,content
+userpilot.com,https://userpilot.com/blog/emotional-design-examples/,2026-08-20,blog,emotional-design-examples,emotional design examples,,content
+userpilot.com,https://userpilot.com/blog/usability-testing/,2026-08-20,blog,usability-testing,usability testing,,content
+userpilot.com,https://userpilot.com/blog/what-is-pendo/,2026-08-20,blog,what-is-pendo,what is pendo,,content
+userpilot.com,https://userpilot.com/blog/ux-redesign/,2026-08-20,blog,ux-redesign,ux redesign,,content
+userpilot.com,https://userpilot.com/blog/ux-design-examples/,2026-08-20,blog,ux-design-examples,ux design examples,,content
+userpilot.com,https://userpilot.com/blog/data-analytics-charts/,2026-08-20,blog,data-analytics-charts,data analytics charts,,content
+userpilot.com,https://userpilot.com/blog/quantitative-data/,2026-08-20,blog,quantitative-data,quantitative data,,content
+userpilot.com,https://userpilot.com/blog/pendo-api/,2026-08-20,blog,pendo-api,pendo api,,content
+userpilot.com,https://userpilot.com/blog/pendo-product-tours/,2026-08-20,blog,pendo-product-tours,pendo product tours,,content
+userpilot.com,https://userpilot.com/blog/attitudinal-metrics/,2026-08-20,blog,attitudinal-metrics,attitudinal metrics,,content
+userpilot.com,https://userpilot.com/blog/b2b-loyalty-programs/,2026-08-20,blog,b2b-loyalty-programs,b2b loyalty programs,,content
+userpilot.com,https://userpilot.com/blog/bad-ux-examples/,2026-08-21,blog,bad-ux-examples,bad ux examples,,content
+userpilot.com,https://userpilot.com/blog/mobile-ux-design/,2026-08-21,blog,mobile-ux-design,mobile ux design,,content
+userpilot.com,https://userpilot.com/blog/mobile-usability-testing/,2026-08-21,blog,mobile-usability-testing,mobile usability testing,,content
+userpilot.com,https://userpilot.com/blog/product-vision-examples/,2026-08-21,blog,product-vision-examples,product vision examples,,content
+userpilot.com,https://userpilot.com/blog/marketing-automation-roi/,2026-08-21,blog,marketing-automation-roi,marketing automation roi,,content
+userpilot.com,https://userpilot.com/blog/customer-marketing/,2026-08-21,blog,customer-marketing,customer marketing,,content
+userpilot.com,https://userpilot.com/blog/marketing-growth-strategy/,2026-08-21,blog,marketing-growth-strategy,marketing growth strategy,,content
+userpilot.com,https://userpilot.com/blog/average-customer-acquisition-cost/,2026-08-21,blog,average-customer-acquisition-cost,average customer acquisition cost,,content
+userpilot.com,https://userpilot.com/blog/customer-loyalty/,2026-08-21,blog,customer-loyalty,customer loyalty,,content
+userpilot.com,https://userpilot.com/blog/product-failure/,2026-08-21,blog,product-failure,product failure,,content
+userpilot.com,https://userpilot.com/blog/types-of-minimum-viable-product/,2026-08-21,blog,types-of-minimum-viable-product,types of minimum viable product,,content
+userpilot.com,https://userpilot.com/blog/user-persona-examples/,2026-08-21,blog,user-persona-examples,user persona examples,,content
+userpilot.com,https://userpilot.com/blog/saas-product-marketing-examples/,2026-08-21,blog,saas-product-marketing-examples,saas product marketing examples,,content
+userpilot.com,https://userpilot.com/blog/what-is-user-testing/,2026-08-21,blog,what-is-user-testing,what is user testing,,content
+userpilot.com,https://userpilot.com/blog/user-profile/,2026-08-21,blog,user-profile,user profile,,content
+userpilot.com,https://userpilot.com/blog/jobs-to-be-done-template/,2026-08-21,blog,jobs-to-be-done-template,jobs to be done template,,content
+userpilot.com,https://userpilot.com/blog/product-management-trends/,2026-08-21,blog,product-management-trends,product management trends,,content
+userpilot.com,https://userpilot.com/blog/product-team-structure/,2026-08-23,blog,product-team-structure,product team structure,,content
+userpilot.com,https://userpilot.com/blog/ai-in-saas/,2026-08-24,blog,ai-in-saas,ai in saas,,content
+userpilot.com,https://userpilot.com/blog/digitization-of-customer-experience/,2026-08-24,blog,digitization-of-customer-experience,digitization of customer experience,,content
+userpilot.com,https://userpilot.com/blog/customer-journey-touchpoints/,2026-08-24,blog,customer-journey-touchpoints,customer journey touchpoints,,content
+userpilot.com,https://userpilot.com/blog/product-launch-plan/,2026-08-24,blog,product-launch-plan,product launch plan,,content
+userpilot.com,https://userpilot.com/blog/product-launch-timeline/,2026-08-24,blog,product-launch-timeline,product launch timeline,,content
+userpilot.com,https://userpilot.com/blog/build-measure-learn/,2026-08-24,blog,build-measure-learn,build measure learn,,content
+userpilot.com,https://userpilot.com/blog/navigation-ux/,2026-08-24,blog,navigation-ux,navigation ux,,content
+userpilot.com,https://userpilot.com/blog/product-pilot/,2026-08-24,blog,product-pilot,product pilot,,content
+userpilot.com,https://userpilot.com/blog/product-lifecycle-marketing/,2026-08-24,blog,product-lifecycle-marketing,product lifecycle marketing,,content
+userpilot.com,https://userpilot.com/blog/dead-click/,2026-08-24,blog,dead-click,dead click,,content
+userpilot.com,https://userpilot.com/blog/free-trial-landing-page/,2026-08-24,blog,free-trial-landing-page,free trial landing page,,content
+userpilot.com,https://userpilot.com/blog/product-communication/,2026-08-24,blog,product-communication,product communication,,content
+userpilot.com,https://userpilot.com/blog/types-of-customer-support/,2026-08-24,blog,types-of-customer-support,types of customer support,,content
+userpilot.com,https://userpilot.com/blog/how-does-a-free-trial-work/,2026-08-24,blog,how-does-a-free-trial-work,how does a free trial work,,content
+userpilot.com,https://userpilot.com/blog/event-tracking-tool/,2026-08-25,blog,event-tracking-tool,event tracking tool,,content
+userpilot.com,https://userpilot.com/blog/features-advantages-benefits/,2026-08-25,blog,features-advantages-benefits,features advantages benefits,,content
+userpilot.com,https://userpilot.com/blog/saas-pricing-models/,2026-08-25,blog,saas-pricing-models,saas pricing models,,content
+userpilot.com,https://userpilot.com/blog/loading-page-examples/,2026-08-25,blog,loading-page-examples,loading page examples,,content
+userpilot.com,https://userpilot.com/blog/csat-survey-template/,2026-08-25,blog,csat-survey-template,csat survey template,,content
+userpilot.com,https://userpilot.com/blog/in-app-nps-survey/,2026-08-25,blog,in-app-nps-survey,in app nps survey,,content
+userpilot.com,https://userpilot.com/blog/product-launch-checklist/,2026-08-25,blog,product-launch-checklist,product launch checklist,,content
+userpilot.com,https://userpilot.com/blog/app-monetization-strategies/,2026-08-25,blog,app-monetization-strategies,app monetization strategies,,content
+userpilot.com,https://userpilot.com/blog/revenue-growth-rate/,2026-08-25,blog,revenue-growth-rate,revenue growth rate,,content
+userpilot.com,https://userpilot.com/blog/cancellation-survey/,2026-08-26,blog,cancellation-survey,cancellation survey,,content
+userpilot.com,https://userpilot.com/blog/user-experience-survey-questions/,2026-08-26,blog,user-experience-survey-questions,user experience survey questions,,content
+userpilot.com,https://userpilot.com/blog/microcopy-ux/,2026-08-26,blog,microcopy-ux,microcopy ux,,content
+userpilot.com,https://userpilot.com/blog/app-retention-strategies/,2026-08-26,blog,app-retention-strategies,app retention strategies,,content
+userpilot.com,https://userpilot.com/blog/cancellation-email-template/,2026-08-26,blog,cancellation-email-template,cancellation email template,,content
+userpilot.com,https://userpilot.com/blog/satisfy-customer-needs/,2026-08-26,blog,satisfy-customer-needs,satisfy customer needs,,content
+userpilot.com,https://userpilot.com/blog/churn-prevention-saas/,2026-08-26,blog,churn-prevention-saas,churn prevention saas,,content
+userpilot.com,https://userpilot.com/blog/digital-adoption-platforms/,2026-08-26,blog,digital-adoption-platforms,digital adoption platforms,,content
+userpilot.com,https://userpilot.com/blog/beta-testing-feedback-form-template-best-practices-and-examples/,2026-08-26,blog,beta-testing-feedback-form-template-best-practices-and-examples,beta testing feedback form template best practices and examples,,content
+userpilot.com,https://userpilot.com/blog/userpilot-autocapture/,2026-08-26,blog,userpilot-autocapture,userpilot autocapture,,content
+userpilot.com,https://userpilot.com/blog/userpilot-feature-adoption/,2026-08-26,blog,userpilot-feature-adoption,userpilot feature adoption,,content
+userpilot.com,https://userpilot.com/blog/nps-calculator/,2026-08-26,blog,nps-calculator,nps calculator,,content
+userpilot.com,https://userpilot.com/blog/userpilot-user-analytics/,2026-08-26,blog,userpilot-user-analytics,userpilot user analytics,,content
+userpilot.com,https://userpilot.com/blog/userpilot-cohort-analysis/,2026-08-26,blog,userpilot-cohort-analysis,userpilot cohort analysis,,content
+userpilot.com,https://userpilot.com/blog/logrocket-session-replay/,2026-08-26,blog,logrocket-session-replay,logrocket session replay,,content
+userpilot.com,https://userpilot.com/blog/logrocket-alternatives/,2026-08-31,blog,logrocket-alternatives,logrocket alternatives,,content
+userpilot.com,https://userpilot.com/blog/userpilot-product-experience/,2026-08-26,blog,userpilot-product-experience,userpilot product experience,,content
+userpilot.com,https://userpilot.com/blog/posthog-features/,2026-08-26,blog,posthog-features,posthog features,,content
+userpilot.com,https://userpilot.com/blog/posthog-autocapture/,2026-08-26,blog,posthog-autocapture,posthog autocapture,,content
+userpilot.com,https://userpilot.com/blog/userpilot-features/,2026-08-26,blog,userpilot-features,userpilot features,,content
+userpilot.com,https://userpilot.com/blog/userpilot-integrations/,2026-08-26,blog,userpilot-integrations,userpilot integrations,,content
+userpilot.com,https://userpilot.com/blog/userpilot-custom-analytics-dashboards/,2026-08-27,blog,userpilot-custom-analytics-dashboards,userpilot custom analytics dashboards,,content
+userpilot.com,https://userpilot.com/blog/userpilot-nps/,2026-08-27,blog,userpilot-nps,userpilot nps,,content
+userpilot.com,https://userpilot.com/blog/userpilot-resource-center/,2026-08-27,blog,userpilot-resource-center,userpilot resource center,,content
+userpilot.com,https://userpilot.com/blog/userpilot-salesforce-integration/,2026-08-27,blog,userpilot-salesforce-integration,userpilot salesforce integration,,content
+userpilot.com,https://userpilot.com/blog/userpilot-hubspot-integration/,2026-08-27,blog,userpilot-hubspot-integration,userpilot hubspot integration,,content
+userpilot.com,https://userpilot.com/blog/userpilot-mobile/,2026-08-27,blog,userpilot-mobile,userpilot mobile,,content
+userpilot.com,https://userpilot.com/blog/tooltip-examples-saas/,2026-08-30,blog,tooltip-examples-saas,tooltip examples saas,,content
+userpilot.com,https://userpilot.com/blog/product-thinking/,2026-08-30,blog,product-thinking,product thinking,,content
+userpilot.com,https://userpilot.com/blog/release-notes/,2026-08-30,blog,release-notes,release notes,,noncontent
+userpilot.com,https://userpilot.com/blog/product-feature-analysis/,2026-08-31,blog,product-feature-analysis,product feature analysis,,content
+userpilot.com,https://userpilot.com/blog/product-roadmap/,2026-08-31,blog,product-roadmap,product roadmap,,content
+userpilot.com,https://userpilot.com/blog/product-strategy/,2026-08-31,blog,product-strategy,product strategy,,content
+userpilot.com,https://userpilot.com/blog/product-roadmap-templates/,2026-08-31,blog,product-roadmap-templates,product roadmap templates,,content
+userpilot.com,https://userpilot.com/blog/feature-prioritization-matrix/,2026-08-31,blog,feature-prioritization-matrix,feature prioritization matrix,,content
+userpilot.com,https://userpilot.com/blog/product-led-growth/,2026-08-31,blog,product-led-growth,product led growth,,content
+userpilot.com,https://userpilot.com/blog/product-led-vs-sales-led/,2026-08-31,blog,product-led-vs-sales-led,product led vs sales led,,content
+userpilot.com,https://userpilot.com/blog/tooltip-best-practices/,2026-08-31,blog,tooltip-best-practices,tooltip best practices,,content
+userpilot.com,https://userpilot.com/blog/ai-user-onboarding/,2026-09-04,blog,ai-user-onboarding,ai user onboarding,,content
+userpilot.com,https://userpilot.com/blog/transactional-email-software/,2026-09-04,blog,transactional-email-software,transactional email software,,content
+userpilot.com,https://userpilot.com/blog/userpilot-mcp/,2026-09-09,blog,userpilot-mcp,userpilot mcp,,content
+userpilot.com,https://userpilot.com/blog/product-success-metrics/,2026-09-09,blog,product-success-metrics,product success metrics,,content
+userpilot.com,https://userpilot.com/blog/saas-analytics-software/,2026-09-11,blog,saas-analytics-software,saas analytics software,,content
+userpilot.com,https://userpilot.com/blog/announcement-banner/,2026-09-14,blog,announcement-banner,announcement banner,,content
+userpilot.com,https://userpilot.com/blog/customer-onboarding-process/,2026-09-14,blog,customer-onboarding-process,customer onboarding process,,content
+userpilot.com,https://userpilot.com/blog/userpilot-vs-google-analytics-comparison-user-analysis/,2026-09-14,blog,userpilot-vs-google-analytics-comparison-user-analysis,userpilot vs google analytics comparison user analysis,,content
+userpilot.com,https://userpilot.com/blog/product-engagement-metrics/,2026-09-14,blog,product-engagement-metrics,product engagement metrics,,content
+userpilot.com,https://userpilot.com/blog/price-increase-announcement/,2026-09-14,blog,price-increase-announcement,price increase announcement,,content
+userpilot.com,https://userpilot.com/blog/lifecycle-email-marketing/,2026-09-14,blog,lifecycle-email-marketing,lifecycle email marketing,,content
+userpilot.com,https://userpilot.com/blog/retention-funnel/,2026-09-14,blog,retention-funnel,retention funnel,,content
+userpilot.com,https://userpilot.com/blog/customer-relationship-management-examples/,2026-09-14,blog,customer-relationship-management-examples,customer relationship management examples,,content
+userpilot.com,https://userpilot.com/blog/saas-email-marketing/,2026-09-14,blog,saas-email-marketing,saas email marketing,,content
+userpilot.com,https://userpilot.com/blog/appcues-pricing-explained/,2026-09-14,blog,appcues-pricing-explained,appcues pricing explained,,content
+userpilot.com,https://userpilot.com/blog/tracking-user-activity-in-web-applications/,2026-09-14,blog,tracking-user-activity-in-web-applications,tracking user activity in web applications,,content
+userpilot.com,https://userpilot.com/blog/automated-personalized-emails/,2026-09-14,blog,automated-personalized-emails,automated personalized emails,,content
+userpilot.com,https://userpilot.com/blog/minimum-viable-product-vs-minimum-marketable-product/,2026-09-14,blog,minimum-viable-product-vs-minimum-marketable-product,minimum viable product vs minimum marketable product,,content
+userpilot.com,https://userpilot.com/blog/hotjar-alternatives/,2026-09-14,blog,hotjar-alternatives,hotjar alternatives,,content
+userpilot.com,https://userpilot.com/blog/nps-saas-complete-guide/,2026-09-14,blog,nps-saas-complete-guide,nps saas complete guide,,content
+userpilot.com,https://userpilot.com/blog/pmf-survey/,2026-09-14,blog,pmf-survey,pmf survey,,content
+userpilot.com,https://userpilot.com/blog/user-segmentation/,2026-09-14,blog,user-segmentation,user segmentation,,content
+userpilot.com,https://userpilot.com/blog/customer-success-onboarding-playbook/,2026-09-14,blog,customer-success-onboarding-playbook,customer success onboarding playbook,,content
+userpilot.com,https://userpilot.com/blog/best-user-onboarding-experience/,2026-09-14,blog,best-user-onboarding-experience,best user onboarding experience,,content
+userpilot.com,https://userpilot.com/blog/launch-messages/,2026-09-14,blog,launch-messages,launch messages,,content
+userpilot.com,https://userpilot.com/blog/userpilot-vs-walkme/,2026-09-14,blog,userpilot-vs-walkme,userpilot vs walkme,,content
+userpilot.com,https://userpilot.com/blog/in-app-help/,2026-09-14,blog,in-app-help,in app help,,content
+userpilot.com,https://userpilot.com/blog/personalized-customer-experience/,2026-09-14,blog,personalized-customer-experience,personalized customer experience,,content
+userpilot.com,https://userpilot.com/blog/interactive-onboarding/,2026-09-14,blog,interactive-onboarding,interactive onboarding,,content
+userpilot.com,https://userpilot.com/blog/userpilot-new-customer-onboarding/,2026-09-14,blog,userpilot-new-customer-onboarding,userpilot new customer onboarding,,content
+userpilot.com,https://userpilot.com/blog/aha-moment-marketing-tool/,2026-09-14,blog,aha-moment-marketing-tool,aha moment marketing tool,,content
+userpilot.com,https://userpilot.com/blog/progressive-onboarding/,2026-09-14,blog,progressive-onboarding,progressive onboarding,,content
+userpilot.com,https://userpilot.com/blog/onboarding-clients/,2026-09-14,blog,onboarding-clients,onboarding clients,,content
+userpilot.com,https://userpilot.com/blog/onboarding-screens-examples/,2026-09-14,blog,onboarding-screens-examples,onboarding screens examples,,content
+userpilot.com,https://userpilot.com/blog/new-client-onboarding-checklist-template/,2026-09-14,blog,new-client-onboarding-checklist-template,new client onboarding checklist template,,content
+userpilot.com,https://userpilot.com/blog/onboarding-tour/,2026-09-14,blog,onboarding-tour,onboarding tour,,content
+userpilot.com,https://userpilot.com/blog/userpilot-for-mobile-onboarding/,2026-09-14,blog,userpilot-for-mobile-onboarding,userpilot for mobile onboarding,,content
+userpilot.com,https://userpilot.com/blog/adoption-vs-engagement-metrics/,2026-09-14,blog,adoption-vs-engagement-metrics,adoption vs engagement metrics,,content
+userpilot.com,https://userpilot.com/blog/posthog-analytics/,2026-09-14,blog,posthog-analytics,posthog analytics,,content
+userpilot.com,https://userpilot.com/blog/saas-signup-flow/,2026-09-14,blog,saas-signup-flow,saas signup flow,,content
+userpilot.com,https://userpilot.com/blog/customer-acquisition-strategies/,2026-09-14,blog,customer-acquisition-strategies,customer acquisition strategies,,content
+userpilot.com,https://userpilot.com/blog/user-onboarding-metrics/,2026-09-14,blog,user-onboarding-metrics,user onboarding metrics,,content
+userpilot.com,https://userpilot.com/blog/product-marketing-tools/,2026-09-14,blog,product-marketing-tools,product marketing tools,,content
+userpilot.com,https://userpilot.com/blog/pendo-tooltips/,2026-09-14,blog,pendo-tooltips,pendo tooltips,,content
+userpilot.com,https://userpilot.com/blog/whatfix-alternatives/,2026-09-14,blog,whatfix-alternatives,whatfix alternatives,,content
+userpilot.com,https://userpilot.com/blog/greeting-message-for-new-customers/,2026-09-14,blog,greeting-message-for-new-customers,greeting message for new customers,,content
+userpilot.com,https://userpilot.com/blog/product-marketing-kpi/,2026-09-14,blog,product-marketing-kpi,product marketing kpi,,content
+userpilot.com,https://userpilot.com/blog/prd-template/,2026-09-14,blog,prd-template,prd template,,content
+userpilot.com,https://userpilot.com/blog/customer-lifecycle-management-best-practices/,2026-09-14,blog,customer-lifecycle-management-best-practices,customer lifecycle management best practices,,content
+userpilot.com,https://userpilot.com/blog/pendo-analytics-review/,2026-09-14,blog,pendo-analytics-review,pendo analytics review,,content
+userpilot.com,https://userpilot.com/blog/user-engagement-tools-and-software/,2026-09-14,blog,user-engagement-tools-and-software,user engagement tools and software,,content
+userpilot.com,https://userpilot.com/blog/self-service-analytics-tools/,2026-10-05,blog,self-service-analytics-tools,self service analytics tools,,content
+userpilot.com,https://userpilot.com/blog/userpilot-vs-intercom/,2026-10-06,blog,userpilot-vs-intercom,userpilot vs intercom,,content
+userpilot.com,https://userpilot.com/blog/session-replay-tools/,2026-10-07,blog,session-replay-tools,session replay tools,,content
+userpilot.com,https://userpilot.com/blog/agentic-product-adoption/,2026-10-07,blog,agentic-product-adoption,agentic product adoption,,content
+userpilot.com,https://userpilot.com/blog/product-analytics-tools/,2026-10-07,blog,product-analytics-tools,product analytics tools,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-amplitude/,2026-10-07,blog,pendo-vs-amplitude,pendo vs amplitude,,content
+userpilot.com,https://userpilot.com/blog/pendo-vs-gainsight/,2026-10-07,blog,pendo-vs-gainsight,pendo vs gainsight,,content
+userpilot.com,https://userpilot.com/blog/,2026-06-26,blog,blog,blog,,noncontent
+userpilot.com,https://userpilot.com/blog/thank-you/,2021-07-08,blog,thank-you,thank you,,noncontent
+userpilot.com,https://userpilot.com/blog/recent-articles/,2023-09-21,blog,recent-articles,recent articles,,content
+userpilot.com,https://userpilot.com/blog/guest-post-submission/,2024-10-22,blog,guest-post-submission,guest post submission,,content
+userpilot.com,https://userpilot.com/blog/join-the-pitt/,2025-02-04,blog,join-the-pitt,join the pitt,,content
+userpilot.com,https://userpilot.com/blog/html-sitemap/,2026-08-23,blog,html-sitemap,html sitemap,,content
+userpilot.com,https://userpilot.com/blog/all-articles/,2026-08-23,blog,all-articles,all articles,,noncontent
+userpilot.com,https://userpilot.com/blog/pitt/how-ai-products-can-nail-their-positioning/,2025-02-18,blog,how-ai-products-can-nail-their-positioning,how ai products can nail their positioning,,content
+userpilot.com,https://userpilot.com/blog/pitt/how-ai-took-looms-activation-rates-to-new-heights/,2025-03-21,blog,how-ai-took-looms-activation-rates-to-new-heights,how ai took looms activation rates to new heights,,content
+userpilot.com,https://userpilot.com/blog/pitt/balancing-numbers-and-narratives-ibrahim-bashir/,2025-04-23,blog,balancing-numbers-and-narratives-ibrahim-bashir,balancing numbers and narratives ibrahim bashir,,content
+userpilot.com,https://userpilot.com/blog/pitt/ai-as-an-unlock-for-b2b-pricing/,2025-04-23,blog,ai-as-an-unlock-for-b2b-pricing,ai as an unlock for b2b pricing,,content
+userpilot.com,https://userpilot.com/blog/pitt/high-quality-principles-to-support-your-product-led-growth/,2025-05-27,blog,high-quality-principles-to-support-your-product-led-growth,high quality principles to support your product led growth,,content
+userpilot.com,https://userpilot.com/blog/pitt/the-nasty-side-effect-of-bad-plg/,2025-05-29,blog,the-nasty-side-effect-of-bad-plg,the nasty side effect of bad plg,,content
+userpilot.com,https://userpilot.com/blog/pitt/why-romanticising-plg-is-dangerous/,2025-05-29,blog,why-romanticising-plg-is-dangerous,why romanticising plg is dangerous,,content
+userpilot.com,https://userpilot.com/blog/pitt/ben-williams-on-b2b-product-growth-shared-by-aakash-gupta/,2025-06-02,blog,ben-williams-on-b2b-product-growth-shared-by-aakash-gupta,ben williams on b2b product growth shared by aakash gupta,,content
+userpilot.com,https://userpilot.com/blog/pitt/the-most-popular-myth-about-email-marketing/,2025-06-27,blog,the-most-popular-myth-about-email-marketing,the most popular myth about email marketing,,content
+userpilot.com,https://userpilot.com/blog/pitt/cognitive-biases-email-engagement/,2025-06-30,blog,cognitive-biases-email-engagement,cognitive biases email engagement,,content
+userpilot.com,https://userpilot.com/blog/pitt/email-marketing-program/,2025-07-01,blog,email-marketing-program,email marketing program,,content
+userpilot.com,https://userpilot.com/blog/pitt/how-to-align-your-lifecycle-emails-with-in-app-messaging/,2025-07-22,blog,how-to-align-your-lifecycle-emails-with-in-app-messaging,how to align your lifecycle emails with in app messaging,,content
+userpilot.com,https://userpilot.com/blog/pitt/inside-userpilots-retention-strategy-whats-driving-high-user-stickiness/,2026-02-18,blog,inside-userpilots-retention-strategy-whats-driving-high-user-stickiness,inside userpilots retention strategy whats driving high user stickiness,,content
+userpilot.com,https://userpilot.com/blog/pitt/foster-ai-adoption-multichannel-strategy-kate-syuma/,2026-03-19,blog,foster-ai-adoption-multichannel-strategy-kate-syuma,foster ai adoption multichannel strategy kate syuma,,content
+userpilot.com,https://userpilot.com/blog/category/a-b-testing-experimentation/,2026-08-19,blog,a-b-testing-experimentation,a b testing experimentation,,noncontent
+userpilot.com,https://userpilot.com/blog/category/ai-technology/,2026-09-09,blog,ai-technology,ai technology,,noncontent
+userpilot.com,https://userpilot.com/blog/category/analytics-data/,2026-09-14,blog,analytics-data,analytics data,,noncontent
+userpilot.com,https://userpilot.com/blog/category/career/,2026-09-14,blog,career,career,,noncontent
+userpilot.com,https://userpilot.com/blog/category/case-studies/,2026-09-14,blog,case-studies,case studies,,noncontent
+userpilot.com,https://userpilot.com/blog/category/churn-retention/,2026-09-14,blog,churn-retention,churn retention,,noncontent
+userpilot.com,https://userpilot.com/blog/category/comparison/,2026-09-14,blog,comparison,comparison,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-amplitude/,2026-08-19,blog,competitor-amplitude,competitor amplitude,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-appcues/,2026-09-14,blog,competitor-appcues,competitor appcues,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-chameleon/,2026-08-15,blog,competitor-chameleon,competitor chameleon,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-contentsquare/,2026-08-13,blog,competitor-contentsquare,competitor contentsquare,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-fullstory/,2026-08-05,blog,competitor-fullstory,competitor fullstory,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-hotjar/,2026-08-03,blog,competitor-hotjar,competitor hotjar,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-intercom/,2026-08-19,blog,competitor-intercom,competitor intercom,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-logrocket/,2026-08-26,blog,competitor-logrocket,competitor logrocket,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-mixpanel/,2026-08-13,blog,competitor-mixpanel,competitor mixpanel,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-pendo/,2026-09-14,blog,competitor-pendo,competitor pendo,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-posthog/,2026-09-14,blog,competitor-posthog,competitor posthog,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-productfruits/,2026-08-12,blog,competitor-productfruits,competitor productfruits,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-userguiding/,2026-08-03,blog,competitor-userguiding,competitor userguiding,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-usermaven/,2026-08-03,blog,competitor-usermaven,competitor usermaven,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-userpilot/,2026-09-14,blog,competitor-userpilot,competitor userpilot,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-usetiful/,2026-08-06,blog,competitor-usetiful,competitor usetiful,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-uxcam/,2026-08-17,blog,competitor-uxcam,competitor uxcam,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-walkme/,2026-08-15,blog,competitor-walkme,competitor walkme,,noncontent
+userpilot.com,https://userpilot.com/blog/category/competitor-whatfix/,2026-09-14,blog,competitor-whatfix,competitor whatfix,,noncontent
+userpilot.com,https://userpilot.com/blog/category/conversion-monetization/,2026-08-25,blog,conversion-monetization,conversion monetization,,noncontent
+userpilot.com,https://userpilot.com/blog/category/customer-success/,2026-09-14,blog,customer-success,customer success,,noncontent
+userpilot.com,https://userpilot.com/blog/category/glossary/,,blog,glossary,glossary,,noncontent
+userpilot.com,https://userpilot.com/blog/category/good-ux-inspiration/,2026-08-24,blog,good-ux-inspiration,good ux inspiration,,noncontent
+userpilot.com,https://userpilot.com/blog/category/growth/,2026-09-14,blog,growth,growth,,noncontent
+userpilot.com,https://userpilot.com/blog/category/growth-plg/,2026-08-31,blog,growth-plg,growth plg,,noncontent
+userpilot.com,https://userpilot.com/blog/category/in-app-messaging-guides/,2026-09-14,blog,in-app-messaging-guides,in app messaging guides,,noncontent
+userpilot.com,https://userpilot.com/blog/category/knowledge-base-self-service/,2026-08-13,blog,knowledge-base-self-service,knowledge base self service,,noncontent
+userpilot.com,https://userpilot.com/blog/category/lifecycle-marketing/,2026-09-04,blog,lifecycle-marketing,lifecycle marketing,,noncontent
+userpilot.com,https://userpilot.com/blog/category/mobile/,2026-08-12,blog,mobile,mobile,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product/,2026-09-04,blog,product,product,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-adoption/,2026-09-14,blog,product-adoption,product adoption,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-experience/,2025-02-13,blog,product-experience,product experience,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-launches-updates/,2026-08-25,blog,product-launches-updates,product launches updates,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-management/,2026-09-14,blog,product-management,product management,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-marketing/,2026-09-14,blog,product-marketing,product marketing,,noncontent
+userpilot.com,https://userpilot.com/blog/category/product-strategy-roadmap/,2026-09-14,blog,product-strategy-roadmap,product strategy roadmap,,noncontent
+userpilot.com,https://userpilot.com/blog/category/saas/,2026-09-09,blog,saas,saas,,noncontent
+userpilot.com,https://userpilot.com/blog/category/saas-tools-products/,2026-09-03,blog,saas-tools-products,saas tools products,,noncontent
+userpilot.com,https://userpilot.com/blog/category/session-replay-heatmaps/,2026-08-24,blog,session-replay-heatmaps,session replay heatmaps,,noncontent
+userpilot.com,https://userpilot.com/blog/category/surveys-feedback/,2026-09-14,blog,surveys-feedback,surveys feedback,,noncontent
+userpilot.com,https://userpilot.com/blog/category/thought-leadership/,2026-09-04,blog,thought-leadership,thought leadership,,noncontent
+userpilot.com,https://userpilot.com/blog/category/tools/,2026-10-07,blog,tools,tools,,noncontent
+userpilot.com,https://userpilot.com/blog/category/updated/,2026-09-14,blog,updated,updated,,noncontent
+userpilot.com,https://userpilot.com/blog/category/updates/,2026-09-14,blog,updates,updates,,noncontent
+userpilot.com,https://userpilot.com/blog/category/user-engagement/,2026-09-14,blog,user-engagement,user engagement,,noncontent
+userpilot.com,https://userpilot.com/blog/category/user-journey-mapping/,2026-08-12,blog,user-journey-mapping,user journey mapping,,noncontent
+userpilot.com,https://userpilot.com/blog/category/user-onboarding-category/,2026-09-14,blog,user-onboarding-category,user onboarding category,,noncontent
+userpilot.com,https://userpilot.com/blog/category/user-research-personas/,2026-08-21,blog,user-research-personas,user research personas,,noncontent
+userpilot.com,https://userpilot.com/blog/category/userpilot-brand/,2026-09-14,blog,userpilot-brand,userpilot brand,,noncontent
+userpilot.com,https://userpilot.com/blog/category/userpilot-insider/,2026-10-07,blog,userpilot-insider,userpilot insider,,noncontent
+userpilot.com,https://userpilot.com/blog/category/ux-design/,2026-08-26,blog,ux-design,ux design,,noncontent
+userpilot.com,https://userpilot.com/blog/category/ux-analytics/,2026-10-05,blog,ux-analytics,ux analytics,,noncontent

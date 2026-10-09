@@ -1,0 +1,631 @@
+{
+  "id": "10081545-2633-0066-0000-ac237e7e9dfc",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "asynchronous_ai_overview": true
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.amazon.com",
+      "title": "Mastering Product Experience (in SaaS): How to Deliver ...",
+      "url": "https://www.amazon.com/Mastering-Product-Experience-SaaS-Personalized-ebook/dp/B078YY4Y93",
+      "breadcrumb": "https://www.amazon.com › Mastering-Product-Experienc...",
+      "website_name": "Amazon.com",
+      "description": "Nick Bonfiglio. Author. Mastering Product Experience (in SaaS): How to Deliver Personalized Product Experiences with a Product-led Strategy. 4.0 on Goodreads. ( ... Read more",
+      "highlighted": [
+        "Mastering Product Experience (in SaaS): How to Deliver"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.amazon.com/Mastering-Product-Experience-SaaS-Personalized-ebook/dp/B078YY4Y93#:~:text=Mastering%20Product%20Experience%20(in%20SaaS)%3A,(29)",
+          "domain": "www.amazon.com"
+        }
+      ]
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "title": "Popular products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy: A Guide Beyond the Basics",
+          "description": "Walmart",
+          "seller": "Walmart",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:0",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "1507384972731588928",
+            "data_docid": "13668531082045229074",
+            "gid": "7576466807987706808"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Management Strategy: A Practical Playbook for Turning Customer Insight Into Winning Roadmaps and Profitable Products; Audiobook (Digital); ...",
+          "description": "Barnes & Noble\nFree delivery",
+          "seller": "Barnes & Noble",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:1",
+          "price": {
+            "current": 9.99,
+            "currency": "USD",
+            "displayed_price": "$9.99"
+          },
+          "product_identifiers": {
+            "product_id": "7799496799414582569",
+            "data_docid": "8833617248588831711"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy and Roadmapping: A Guided Tour Through The Strategic Planning Process for Product Managers (Product Management Professionals)",
+          "description": "Audible.com\nFree same-day delivery",
+          "seller": "Audible.com",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:2",
+          "price": {
+            "current": 9.95,
+            "currency": "USD",
+            "displayed_price": "$9.95"
+          },
+          "product_identifiers": {
+            "product_id": "4940278406740696541",
+            "data_docid": "15017272938251233606",
+            "gid": "4739567109836586899"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy : An Expert's Guide to Dominating the Market",
+          "description": "Books A Million",
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:3",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "16807538436710135241",
+            "data_docid": "14456637006757029013",
+            "gid": "3351764393227355764"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Strategize: Product Strategy and Product Roadmap Practices for the Digital Age",
+          "description": "Walmart - ThriftBooks & more\nFree delivery",
+          "more_sellers": true,
+          "seller": "Walmart - ThriftBooks",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:4",
+          "price": {
+            "current": 5.23,
+            "currency": "USD",
+            "displayed_price": "$5.23 Pre-owned"
+          },
+          "product_identifiers": {
+            "product_id": "12498786203832691175",
+            "data_docid": "737865525951777878",
+            "gid": "9534397592783295639"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy for High Technology Companies (ebook)",
+          "description": "Bookshop.org & more",
+          "more_sellers": true,
+          "seller": "Bookshop.org",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:5",
+          "price": {
+            "current": 68,
+            "currency": "USD",
+            "displayed_price": "$68.00"
+          },
+          "product_identifiers": {
+            "product_id": "1988893369074253126",
+            "data_docid": "12270767799095847709",
+            "gid": "7847255317739040455"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Leadership: How Top Product Managers Launch Awesome Products and Build Successful Teams",
+          "description": "Target & more\nFree delivery on $35+",
+          "more_sellers": true,
+          "seller": "Target",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:6",
+          "price": {
+            "current": 18.79,
+            "max_value": 27,
+            "currency": "USD",
+            "is_price_range": true,
+            "displayed_price": "$18.79 Usually $27"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 2,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "4578397641350150983",
+            "data_docid": "15870773447868790305",
+            "gid": "4658497121761404153"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Profound Impact of Product Line Strategy: Your Guide to Highly Productive Innovation and Product Management",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy\nFree delivery",
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:7",
+          "price": {
+            "current": 9.97,
+            "currency": "USD",
+            "displayed_price": "$9.97"
+          },
+          "product_identifiers": {
+            "product_id": "11715830514143963240",
+            "data_docid": "8812599133270772243",
+            "gid": "15124886108344655925"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.strategy-business.com",
+      "title": "Rita Gunther McGrath's Required Reading",
+      "url": "https://www.strategy-business.com/blog/Rita-Gunther-McGrath-Required-Reading",
+      "breadcrumb": "https://www.strategy-business.com › blog › Rita-Gunthe...",
+      "website_name": "Strategy+business",
+      "description": "Dec 9, 2015 — A Columbia Business School professor suggests a reading list for leaders struggling to hold on to competitive advantage.",
+      "pre_snippet": "12/09/2015 00:00:00",
+      "timestamp": "2015-12-09 00:00:00 +00:00"
+    },
+    {
+      "type": "popular_products",
+      "rank_group": 2,
+      "rank_absolute": 5,
+      "page": 1,
+      "title": "More products",
+      "items": [
+        {
+          "type": "popular_products_element",
+          "title": "Product Market Strategy Workbook by David Fradin (Paperback)",
+          "description": "Books A Million & more",
+          "more_sellers": true,
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:8",
+          "price": {
+            "current": 25,
+            "currency": "USD",
+            "displayed_price": "$25.00"
+          },
+          "product_identifiers": {
+            "product_id": "3026229811001773692",
+            "data_docid": "12692871375831931837",
+            "gid": "4578538500779003969"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Product Management Playbook",
+          "description": "Rosenfeld Media & more",
+          "more_sellers": true,
+          "seller": "Rosenfeld Media",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:9",
+          "price": {
+            "current": 44.99,
+            "currency": "USD",
+            "displayed_price": "$44.99"
+          },
+          "product_identifiers": {
+            "product_id": "15286567874939285135",
+            "data_docid": "1430118698879765127"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "(25 copies) Paperback Radical Product Thinking (The New Mindset for Innovating Smarter) - 9781523003471 by R. Dutt",
+          "description": "Half Price Books & more",
+          "more_sellers": true,
+          "seller": "Half Price Books",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:10",
+          "price": {
+            "current": 12.49,
+            "currency": "USD",
+            "displayed_price": "$12.49 Pre-owned"
+          },
+          "product_identifiers": {
+            "product_id": "7366953199681113692",
+            "data_docid": "7634299296353316388",
+            "gid": "11241217458071491722"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "The Influential Product Manager (How to Lead and Launch Successful Technology Products)",
+          "description": "Penguin Random House & more\nFree delivery by Wed",
+          "more_sellers": true,
+          "seller": "Penguin Random House",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:11",
+          "price": {
+            "current": 39.95,
+            "currency": "USD",
+            "displayed_price": "$39.95"
+          },
+          "product_identifiers": {
+            "product_id": "12812187613437961189",
+            "data_docid": "2778939376923279434",
+            "gid": "3371291945732706467"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Management And Strategy (ebook)",
+          "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nNext-day delivery $7",
+          "more_sellers": true,
+          "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:12",
+          "price": {
+            "current": 9.99,
+            "currency": "USD",
+            "displayed_price": "$9.99"
+          },
+          "product_identifiers": {
+            "product_id": "15451739521174997994",
+            "data_docid": "7820456075125438949",
+            "gid": "5178108657585848976"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Operations",
+          "description": "World of Books & more\nFree delivery on $20+",
+          "more_sellers": true,
+          "seller": "World of Books",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:13",
+          "price": {
+            "current": 16.38,
+            "currency": "USD",
+            "displayed_price": "$16.38 Pre-owned"
+          },
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 1,
+            "rating_max": 5
+          },
+          "product_identifiers": {
+            "product_id": "15341180535030308410",
+            "data_docid": "16059523683433631723",
+            "gid": "6354352773519974905"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Product Strategy : Mastering the Basics and Dominating the Competition",
+          "description": "Books A Million",
+          "seller": "Books A Million",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:14",
+          "price": {
+            "current": 19.99,
+            "currency": "USD",
+            "displayed_price": "$19.99"
+          },
+          "product_identifiers": {
+            "product_id": "844862153930616527",
+            "data_docid": "8254205056791809463"
+          }
+        },
+        {
+          "type": "popular_products_element",
+          "title": "Expert Product Management (ebook)",
+          "description": "Walmart & more",
+          "more_sellers": true,
+          "seller": "Walmart",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-ac237e7e9dfc:15",
+          "price": {
+            "current": 17.99,
+            "currency": "USD",
+            "displayed_price": "$17.99"
+          },
+          "product_identifiers": {
+            "product_id": "15248444791570642497",
+            "data_docid": "16467700381012652761",
+            "gid": "7344183839616081212"
+          }
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "What are the greatest books to read in order to learn more ...",
+      "url": "https://www.reddit.com/r/marketing/comments/qk0dx8/what_are_the_greatest_books_to_read_in_order_to/",
+      "breadcrumb": "9 comments  ·  4 years ago",
+      "website_name": "Reddit · r/marketing",
+      "description": "Hi r/marketing ! A few weeks ago, I was lucky enough to land myself a position as a marketing coordinator in a small golf manufacturing company. ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Product Strategy that also works for the engineering team",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1bkq7dm/product_strategy_that_also_works_for_the/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "How to define that one-word guiding principle for ...",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1drq8m4/how_to_define_that_oneword_guiding_principle_for/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=product+strategy+books+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns7__QL0xtxZQk2wAX1IAQg29KaMg:1791474342433&sa=X&ved=2ahUKEwi-3bf-4aqXAxVzGbkGHR04Eh8QrQIoAnoECEcQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.shortform.com",
+      "title": "100 Best Marketing Strategy Books of All Time",
+      "url": "https://www.shortform.com/best-books/genre/best-marketing-strategy-books-of-all-time",
+      "breadcrumb": "https://www.shortform.com › best-books › genre › best...",
+      "website_name": "Shortform",
+      "description": "The world's best marketing strategy books of all time. Recommended by leading experts like Barack Obama, Bill Gates, and Charles T. Munger.",
+      "highlighted": [
+        "The world's best marketing strategy books of all time"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 books on strategy?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 product management books?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the four types of product strategies?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What books do CEOs recommend?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 9,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "Any recommended product strategy books?",
+          "url": "https://www.reddit.com/r/strategy/comments/1rp22rc/any_recommended_product_strategy_books/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2026-03-08 15:45:43 +00:00",
+          "posts_count": 10
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "My ULTIMATE Guide to the Best Books for Product Managers | 🥞 Carl Vellotti",
+          "url": "https://www.linkedin.com/posts/carlvellotti_my-ultimate-guide-to-the-best-books-for-product-activity-7349067482785083392-Qu9S",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:43 +00:00"
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "The Ultimate Visual Guide to Best Books for Product Managers",
+          "url": "https://www.linkedin.com/posts/ankythshukla_productmanagement-books-activity-7314873935760670720-sK9-",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:43 +00:00"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 10,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQns7__QL0xtxZQk2wAX1IAQg29KaMg:1791474342433&q=product+strategy+books&udm=2&source=univ&fir=w8JJzgNY2NBQhM%252C9BBejrXbxbTb8M%252C_%253B2IM6-PHb41rx-M%252C4teIKukP9fB3AM%252C_%253ButWYGWZdemk_-M%252CjNzsOkgISMFhLM%252C_%253BIDCETcUhQYUh2M%252CvIO-350EJlO4CM%252C_%253B6HZcOIftMSUDhM%252CyldYXY5Pq3O2NM%252C_%253BafYyKghVlu7EZM%252CTjTbzvLaHKZ6hM%252C_%253B8_SojNmbAfCCEM%252CmA5BuhNiqENjlM%252C_%253Bzi88FG4XdCDpDM%252CQFJOIbJxEDWtNM%252C_%253BpYZwV7omD8dhMM%252Cor_maxwLUjgL5M%252C_&usg=AI4_-kRI5J8k9OubTn4VuNzQgBaXfEuGcQ&sa=X&ved=2ahUKEwi-3bf-4aqXAxVzGbkGHR04Eh8Q7Al6BAhtEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "10 Business & Product Strategy Books that will Shape your Career",
+          "url": "https://www.linkedin.com/pulse/10-business-product-strategy-books-i-swear-ramon-chen-6px3c",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjiJ1OUj3sYoh98MJoPcGfH8iLP8NzPVu5gpJgql70ErkDz8de4dbBONE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Strategize: Product Strategy and Product Roadmap Practices for the Digital  Age : Pichler, Roman: Amazon.com.au: Books",
+          "url": "https://www.amazon.com.au/Strategize-Product-Strategy-Roadmap-Practices/dp/0993499201",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwiCm6_pHW_qFUA7ldgtURVeJ3FsELT98a1I69b2Iq5HHLswVOks8WHI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "UX Strategy - Designing for Product Strategy [Book]",
+          "url": "https://www.oreilly.com/library/view/designing-for-product/9781491971451/part01.html",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1wtMtdR4PrSQprlxK8VYkeHsVcu4keeu2U0KNAaWTYZ0UDs3tKylICjE&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product strategy for high-technology companies : how to ...",
+          "url": "https://archive.org/details/productstrategyf0000mcgr",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvXnr-z-WCPlTyZs0uVnAwSSlek-Swq8TwbiD281bvFdMH7SJmYhK63o&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Strategy Excellence for Product Managers: A Guide to Winning Markets  through Product Strategy : Cohen, Greg: Amazon.de: Books",
+          "url": "https://www.amazon.de/-/en/Strategy-Excellence-Product-Managers-Winning/dp/0999110608",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSus_Y3fr2vvN82fpNRiYzZgSLUXcatMD6z7bHtyGd4fhsNFw08GYnpi40XWA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "𝗣𝗥𝗢𝗗𝗨𝗖𝗧 𝗦𝗧𝗥𝗔𝗧𝗘𝗚𝗬 | Sid Arora",
+          "url": "https://www.linkedin.com/posts/siddhartharoraisb_%F0%9D%97%A3%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%97%F0%9D%97%A8%F0%9D%97%96%F0%9D%97%A7-%F0%9D%97%A6%F0%9D%97%A7%F0%9D%97%A5%F0%9D%97%94%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%9A%F0%9D%97%AC-everyone-activity-7315221863968788480-w5uW",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN6RxyFluMC7o04useGzg4opQPV-vkN1nEINPoMDhE5Qu7IWTJZ810Y14&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to create a product adoption strategy | airfocus by Lucid",
+          "url": "https://airfocus.com/blog/how-to-create-product-adoption-strategy/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCowW7jQwESnFrNSSrMg6m8ksQqAWkGadDrLggbPcxUXBR4aoB4SpHJqI&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "7 Horrible Product Strategy Mistakes You're Making | Praxent",
+          "url": "https://praxent.com/blog/7-horrible-product-strategy-mistakes-youre-making",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91Fng6loaKjFcy2phi2H11vt97fVdups6y1vE5WSMj0SweddcuvPrx9k&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Product Managers: Treat your Strategy as a Product",
+          "url": "https://www.productplan.com/learn/product-managers-focus",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKho8YuvLHHETW4a6ttlPGzcBdjcq4-w78Nq76WRdX&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "novapublishers.com",
+      "title": "A Framework of Core Competence, Product Architecture ...",
+      "url": "https://novapublishers.com/shop/building-a-sustainable-global-strategy-a-framework-of-core-competence-product-architecture-supply-chain-management-and-it-strategy/",
+      "breadcrumb": "https://novapublishers.com › ... › Business and Society",
+      "website_name": "Nova Publishers",
+      "description": "Building a Sustainable Global Strategy : A Framework of Core Competence, Product Architecture, Supply Chain Management and IT Strategy. $210.00. Young Won Park. Read more",
+      "price": {
+        "current": 210,
+        "currency": "USD",
+        "displayed_price": "$210.00"
+      },
+      "highlighted": [
+        "Building a Sustainable Global Strategy"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://novapublishers.com/shop/building-a-sustainable-global-strategy-a-framework-of-core-competence-product-architecture-supply-chain-management-and-it-strategy/#:~:text=Building%20a%20Sustainable%20Global%20Strategy%3A,Young%20Won%20Park",
+          "domain": "novapublishers.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 12,
+      "page": 1,
+      "domain": "www.quora.com",
+      "title": "What are some fundamental books on marketing strategy ...",
+      "url": "https://www.quora.com/What-are-some-fundamental-books-on-marketing-strategy-and-brand-building-that-a-young-marketer-should-read-Im-looking-for-scholarly-books-not-something-like-Marketing-for-Dummies-or-The-Big-Book-of-Marketing",
+      "breadcrumb": "30+ answers  ·  11 years ago",
+      "website_name": "Quora",
+      "description": "What are some fundamental books on marketing strategy and brand building that a young marketer should read? I'm looking for scholarly books, not something ...",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "36 answers",
+          "url": "https://www.quora.com/What-are-some-fundamental-books-on-marketing-strategy-and-brand-building-that-a-young-marketer-should-read-Im-looking-for-scholarly-books-not-something-like-Marketing-for-Dummies-or-The-Big-Book-of-Marketing?top_ans=8124073",
+          "domain": "www.quora.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 13,
+      "page": 1,
+      "domain": "www.scrum.org",
+      "title": "The 3 Vs in Practice Using Product Strategy Canvas",
+      "url": "https://www.scrum.org/resources/product-ownership-3-vs-practice-using-product-strategy-canvas",
+      "breadcrumb": "https://www.scrum.org › resources › product-ownership-...",
+      "website_name": "Scrum.org",
+      "description": "Feb 10, 2020 — Books By Ken Schwaber, Product Strategy Canvas, a tool that can help create alignment between the Senior Management, the Product Owner, the ...",
+      "pre_snippet": "02/10/2020 00:00:00",
+      "highlighted": [
+        "Product Strategy Canvas"
+      ],
+      "timestamp": "2020-02-10 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 14,
+      "page": 1,
+      "items": [
+        "Product strategy books pdf",
+        "Product strategy books free",
+        "Best product strategy books"
+      ]
+    }
+  ]
+}

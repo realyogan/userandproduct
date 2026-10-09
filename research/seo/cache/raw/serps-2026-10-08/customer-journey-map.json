@@ -1,0 +1,662 @@
+{
+  "id": "10081545-2633-0066-0000-e712534cf480",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![What is a customer journey map? The complete overview ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:4)\nA [customer journey map](https://online.hbs.edu/blog/post/customer-journey-map) is `a visual timeline that shows every step, action, emotion, and touchpoint a customer experiences when interacting with a brand, product, or service`.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)[[3]](https://www.forbes.com/advisor/business/software/customer-journey-map/)\n\n### Core Components\n\n- **Persona:** The specific customer profile, including their background, goals, and motivations.[[1]](https://miro.com/templates/customer-journey-maps/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)\n- **Stages:** The chronological phases a customer moves through (such as Awareness, Consideration, Purchase, Retention, and Advocacy).[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://www.youtube.com/watch?v=-eyRiwXQw24&t=80)\n- **Touchpoints:** The specific points of contact or channels where the customer interacts with the business (website, ads, physical store, or customer service).[[1]](https://www.youtube.com/watch?v=eU8hqeC88jM&t=70)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)\n- **Actions & Mindsets:** What the customer is trying to do, think, or decide at each phase.[[1]](https://coe.gsa.gov/2019/04/17/cx-update-9.html)[[2]](https://www.nngroup.com/articles/customer-journey-mapping/)\n- **Emotions & Pain Points:** The positive feelings or points of friction, confusion, and frustration the customer encounters.[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://coe.gsa.gov/2019/04/17/cx-update-9.html)\n- **Opportunities:** Actionable solutions to fix friction and improve the overall experience.[[1]](https://www.forbes.com/advisor/business/software/customer-journey-map/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)\n\n### Standard Stages of the Journey\n\n1. **Awareness:** The customer realizes they have a need or problem and begins searching for information.\n2. **Consideration:** The customer compares different options, reads reviews, and evaluates solutions.\n3. **Decision / Purchase:** The customer selects a product or service and completes the transaction.\n4. **Retention / Onboarding:** The customer starts using the product and interacts with customer support or community resources.\n5. **Advocacy:** The customer becomes loyal, leaves reviews, or recommends the brand to others.[[1]](https://www.techtarget.com/enterprise-software/definition/What-is-a-customer-journey-map)[[2]](https://www.youtube.com/watch?v=-eyRiwXQw24&t=80)[[3]](https://online.hbs.edu/blog/post/customer-journey-map)\n\n### How to Create One\n\n- **Define Goals:** Establish clear, measurable objectives for what the map should achieve.[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://www.youtube.com/watch?v=eU8hqeC88jM&t=70)\n- **Research Customers:** Gather real data, user interviews, and surveys instead of relying on internal team assumptions.[[1]](https://www.smaply.com/blog/customer-journey-map)[[2]](https://www.forbes.com/advisor/business/software/customer-journey-map/)\n- **Map the Timeline:** Plot out stages, customer actions, thoughts, and emotional highs and lows.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://miro.com/templates/customer-journey-maps/)\n- **Analyze & Act:** Identify gaps in the experience and assign team ownership to fix pain points.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://www.smaply.com/blog/customer-journey-map)\n\nFor more detailed guides and frameworks, see industry insights from [Nielsen Norman Group](https://www.nngroup.com/articles/customer-journey-mapping/) and [Forbes Advisor](https://www.forbes.com/advisor/business/software/customer-journey-map/).[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://www.forbes.com/advisor/business/software/customer-journey-map/)If you'd like, let me know:\n\n- What **product or service** you are mapping for\n- Your **primary goal** (reducing churn, increasing sales, improving onboarding)\n\nI can help draft a custom stage-by-stage outline for your business.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "A customer journey map is a visual timeline that shows every step, action, emotion, and touchpoint a customer experiences when interacting with a brand, product, or service.",
+          "markdown": "![What is a customer journey map? The complete overview ...](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:2)\nA [customer journey map](https://online.hbs.edu/blog/post/customer-journey-map) is `a visual timeline that shows every step, action, emotion, and touchpoint a customer experiences when interacting with a brand, product, or service`.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)[[3]](https://www.forbes.com/advisor/business/software/customer-journey-map/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "customer journey map",
+              "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+              "domain": "online.hbs.edu"
+            }
+          ],
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "What is a customer journey map? The complete overview ...",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Nielsen Norman Group",
+              "domain": "www.nngroup.com",
+              "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+              "title": "Customer Journey Maps: When and How to Create Them - NN/G",
+              "text": "Definition: Timeline skeleton of user goals/actions fleshed out with thoughts/emotions into a visual narrative communicating desig..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+              "title": "What Is a Customer Journey Map? Process, Stages, and Example",
+              "text": "Definition: Visual representation of every step a customer takes interacting with a brand to understand interactions and design be..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Forbes",
+              "domain": "www.forbes.com",
+              "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+              "title": "Customer Journey Map: Everything You Need To Know – Forbes Advisor",
+              "text": "Definition: Visual timeline plotting every customer interaction with a brand from awareness to repeat business to define needs, pr..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Core Components",
+          "text": "Persona: The specific customer profile, including their background, goals, and motivations. Stages: The chronological phases a customer moves through (such as Awareness, Consideration, Purchase, Retention, and Advocacy). Touchpoints: The specific points of contact or channels where the customer interacts with the business (website, ads, physical store, or customer service). Actions & Mindsets: What the customer is trying to do, think, or decide at each phase. Emotions & Pain Points: The positive feelings or points of friction, confusion, and frustration the customer encounters. Opportunities: Actionable solutions to fix friction and improve the overall experience.",
+          "markdown": "- **Persona:** The specific customer profile, including their background, goals, and motivations.[[1]](https://miro.com/templates/customer-journey-maps/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)\n- **Stages:** The chronological phases a customer moves through (such as Awareness, Consideration, Purchase, Retention, and Advocacy).[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://www.youtube.com/watch?v=-eyRiwXQw24&t=80)\n- **Touchpoints:** The specific points of contact or channels where the customer interacts with the business (website, ads, physical store, or customer service).[[1]](https://www.youtube.com/watch?v=eU8hqeC88jM&t=70)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)\n- **Actions & Mindsets:** What the customer is trying to do, think, or decide at each phase.[[1]](https://coe.gsa.gov/2019/04/17/cx-update-9.html)[[2]](https://www.nngroup.com/articles/customer-journey-mapping/)\n- **Emotions & Pain Points:** The positive feelings or points of friction, confusion, and frustration the customer encounters.[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://coe.gsa.gov/2019/04/17/cx-update-9.html)\n- **Opportunities:** Actionable solutions to fix friction and improve the overall experience.[[1]](https://www.forbes.com/advisor/business/software/customer-journey-map/)[[2]](https://online.hbs.edu/blog/post/customer-journey-map)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Miro",
+              "domain": "miro.com",
+              "url": "https://miro.com/templates/customer-journey-maps/",
+              "title": "Customer Journey Map Templates & Examples - Miro",
+              "text": "A customer journey map (CJM) is a visual representation of your customer's experience. It allows you to capture the path that a cu..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+              "title": "What Is a Customer Journey Map? Process, Stages, and Example",
+              "text": "Definition: Visual representation of every step a customer takes interacting with a brand to understand interactions and design be..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=-eyRiwXQw24&t=80",
+              "title": "How To Create a Customer Journey Map 2026",
+              "text": "How To Create a Customer Journey Map 2026 | Customer Journey Mapping Tutorial | Simplilearn and what they think so you can make th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=eU8hqeC88jM&t=70",
+              "title": "How to Build a Customer Journey Map (6 Steps for Beginners)",
+              "text": "How to Build a Customer Journey Map (6 Steps for Beginners) have a song you think I should check out put it in the comments. here ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "GSA - IT Modernization Centers of Excellence (.gov)",
+              "domain": "coe.gsa.gov",
+              "url": "https://coe.gsa.gov/2019/04/17/cx-update-9.html",
+              "title": "What Is a Customer Journey Map? | GSA",
+              "text": "They include information about: The different steps a customer must go through (including official processes, workarounds, and add..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Nielsen Norman Group",
+              "domain": "www.nngroup.com",
+              "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+              "title": "Customer Journey Maps: When and How to Create Them - NN/G",
+              "text": "Definition: Timeline skeleton of user goals/actions fleshed out with thoughts/emotions into a visual narrative communicating desig..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Forbes",
+              "domain": "www.forbes.com",
+              "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+              "title": "Customer Journey Map: Everything You Need To Know – Forbes Advisor",
+              "text": "Definition: Visual timeline plotting every customer interaction with a brand from awareness to repeat business to define needs, pr..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Standard Stages of the Journey",
+          "text": "Awareness: The customer realizes they have a need or problem and begins searching for information. Consideration: The customer compares different options, reads reviews, and evaluates solutions. Decision / Purchase: The customer selects a product or service and completes the transaction. Retention / Onboarding: The customer starts using the product and interacts with customer support or community resources. Advocacy: The customer becomes loyal, leaves reviews, or recommends the brand to others.",
+          "markdown": "1. **Awareness:** The customer realizes they have a need or problem and begins searching for information.\n2. **Consideration:** The customer compares different options, reads reviews, and evaluates solutions.\n3. **Decision / Purchase:** The customer selects a product or service and completes the transaction.\n4. **Retention / Onboarding:** The customer starts using the product and interacts with customer support or community resources.\n5. **Advocacy:** The customer becomes loyal, leaves reviews, or recommends the brand to others.[[1]](https://www.techtarget.com/enterprise-software/definition/What-is-a-customer-journey-map)[[2]](https://www.youtube.com/watch?v=-eyRiwXQw24&t=80)[[3]](https://online.hbs.edu/blog/post/customer-journey-map)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "TechTarget",
+              "domain": "www.techtarget.com",
+              "url": "https://www.techtarget.com/enterprise-software/definition/What-is-a-customer-journey-map",
+              "title": "What is a Customer Journey Map? I Definition from TechTarget",
+              "text": "What is a customer journey map? Published: Feb 10, 2025 A customer journey map is a visual depiction of the stages customers go th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=-eyRiwXQw24&t=80",
+              "title": "How To Create a Customer Journey Map 2026",
+              "text": "How To Create a Customer Journey Map 2026 | Customer Journey Mapping Tutorial | Simplilearn and what they think so you can make th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+              "title": "What Is a Customer Journey Map? Process, Stages, and Example",
+              "text": "Definition: Visual representation of every step a customer takes interacting with a brand to understand interactions and design be..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "How to Create One",
+          "text": "Define Goals: Establish clear, measurable objectives for what the map should achieve. Research Customers: Gather real data, user interviews, and surveys instead of relying on internal team assumptions. Map the Timeline: Plot out stages, customer actions, thoughts, and emotional highs and lows. Analyze & Act: Identify gaps in the experience and assign team ownership to fix pain points.",
+          "markdown": "- **Define Goals:** Establish clear, measurable objectives for what the map should achieve.[[1]](https://online.hbs.edu/blog/post/customer-journey-map)[[2]](https://www.youtube.com/watch?v=eU8hqeC88jM&t=70)\n- **Research Customers:** Gather real data, user interviews, and surveys instead of relying on internal team assumptions.[[1]](https://www.smaply.com/blog/customer-journey-map)[[2]](https://www.forbes.com/advisor/business/software/customer-journey-map/)\n- **Map the Timeline:** Plot out stages, customer actions, thoughts, and emotional highs and lows.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://miro.com/templates/customer-journey-maps/)\n- **Analyze & Act:** Identify gaps in the experience and assign team ownership to fix pain points.[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://www.smaply.com/blog/customer-journey-map)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Harvard Business School Online",
+              "domain": "online.hbs.edu",
+              "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+              "title": "What Is a Customer Journey Map? Process, Stages, and Example",
+              "text": "Definition: Visual representation of every step a customer takes interacting with a brand to understand interactions and design be..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=eU8hqeC88jM&t=70",
+              "title": "How to Build a Customer Journey Map (6 Steps for Beginners)",
+              "text": "How to Build a Customer Journey Map (6 Steps for Beginners) have a song you think I should check out put it in the comments. here ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Smaply",
+              "domain": "www.smaply.com",
+              "url": "https://www.smaply.com/blog/customer-journey-map",
+              "title": "Customer Journey Map: The Complete Guide",
+              "text": "Definition: Customer journey map visualizes end-to-end customer experience, actions, emotions, and touchpoints across time. Types:"
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Forbes",
+              "domain": "www.forbes.com",
+              "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+              "title": "Customer Journey Map: Everything You Need To Know – Forbes Advisor",
+              "text": "Definition: Visual timeline plotting every customer interaction with a brand from awareness to repeat business to define needs, pr..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Nielsen Norman Group",
+              "domain": "www.nngroup.com",
+              "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+              "title": "Customer Journey Maps: When and How to Create Them - NN/G",
+              "text": "Definition: Timeline skeleton of user goals/actions fleshed out with thoughts/emotions into a visual narrative communicating desig..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Miro",
+              "domain": "miro.com",
+              "url": "https://miro.com/templates/customer-journey-maps/",
+              "title": "Customer Journey Map Templates & Examples - Miro",
+              "text": "A customer journey map (CJM) is a visual representation of your customer's experience. It allows you to capture the path that a cu..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "For more detailed guides and frameworks, see industry insights from Nielsen Norman Group and Forbes Advisor.",
+          "markdown": "For more detailed guides and frameworks, see industry insights from [Nielsen Norman Group](https://www.nngroup.com/articles/customer-journey-mapping/) and [Forbes Advisor](https://www.forbes.com/advisor/business/software/customer-journey-map/).[[1]](https://www.nngroup.com/articles/customer-journey-mapping/)[[2]](https://www.forbes.com/advisor/business/software/customer-journey-map/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Nielsen Norman Group",
+              "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+              "domain": "www.nngroup.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Forbes Advisor",
+              "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+              "domain": "www.forbes.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Nielsen Norman Group",
+              "domain": "www.nngroup.com",
+              "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+              "title": "Customer Journey Maps: When and How to Create Them - NN/G",
+              "text": "Definition: Timeline skeleton of user goals/actions fleshed out with thoughts/emotions into a visual narrative communicating desig..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Forbes",
+              "domain": "www.forbes.com",
+              "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+              "title": "Customer Journey Map: Everything You Need To Know – Forbes Advisor",
+              "text": "Definition: Visual timeline plotting every customer interaction with a brand from awareness to repeat business to define needs, pr..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, let me know:What product or service you are mapping for\nYour primary goal (reducing churn, increasing sales, improving onboarding)\nI can help draft a custom stage-by-stage outline for your business.",
+          "markdown": "If you'd like, let me know:\n\n- What **product or service** you are mapping for\n- Your **primary goal** (reducing churn, increasing sales, improving onboarding)\n\nI can help draft a custom stage-by-stage outline for your business."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Nielsen Norman Group",
+          "domain": "www.nngroup.com",
+          "url": "https://www.nngroup.com/articles/customer-journey-mapping/",
+          "title": "Customer Journey Maps: When and How to Create Them - NN/G",
+          "text": "Definition: Timeline skeleton of user goals/actions fleshed out with thoughts/emotions into a visual narrative communicating desig..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Harvard Business School Online",
+          "domain": "online.hbs.edu",
+          "url": "https://online.hbs.edu/blog/post/customer-journey-map",
+          "title": "What Is a Customer Journey Map? Process, Stages, and Example",
+          "text": "Definition: Visual representation of every step a customer takes interacting with a brand to understand interactions and design be..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Miro",
+          "domain": "miro.com",
+          "url": "https://miro.com/templates/customer-journey-maps/",
+          "title": "Customer Journey Map Templates & Examples - Miro",
+          "text": "A customer journey map (CJM) is a visual representation of your customer's experience. It allows you to capture the path that a cu..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Forbes",
+          "domain": "www.forbes.com",
+          "url": "https://www.forbes.com/advisor/business/software/customer-journey-map/",
+          "title": "Customer Journey Map: Everything You Need To Know – Forbes Advisor",
+          "text": "Definition: Visual timeline plotting every customer interaction with a brand from awareness to repeat business to define needs, pr..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "GSA - IT Modernization Centers of Excellence (.gov)",
+          "domain": "coe.gsa.gov",
+          "url": "https://coe.gsa.gov/2019/04/17/cx-update-9.html",
+          "title": "What Is a Customer Journey Map? | GSA",
+          "text": "They include information about: The different steps a customer must go through (including official processes, workarounds, and add..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Smaply",
+          "domain": "www.smaply.com",
+          "url": "https://www.smaply.com/blog/customer-journey-map",
+          "title": "Customer Journey Map: The Complete Guide",
+          "text": "Definition: Customer journey map visualizes end-to-end customer experience, actions, emotions, and touchpoints across time. Types:"
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "TechTarget",
+          "domain": "www.techtarget.com",
+          "url": "https://www.techtarget.com/enterprise-software/definition/What-is-a-customer-journey-map",
+          "title": "What is a Customer Journey Map? I Definition from TechTarget",
+          "text": "What is a customer journey map? Published: Feb 10, 2025 A customer journey map is a visual depiction of the stages customers go th..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=eU8hqeC88jM&t=70",
+          "title": "How to Build a Customer Journey Map (6 Steps for Beginners)",
+          "text": "How to Build a Customer Journey Map (6 Steps for Beginners) have a song you think I should check out put it in the comments. here ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=-eyRiwXQw24&t=80",
+          "title": "How To Create a Customer Journey Map 2026",
+          "text": "How To Create a Customer Journey Map 2026 | Customer Journey Mapping Tutorial | Simplilearn and what they think so you can make th..."
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQntnFDQg9TKojkbT3z4zfJkdBff-Xg:1791474344213&q=customer+journey+map&udm=2&source=univ&fir=Ue1ncoua96ZLoM%252CHh_NQkXvnsMJcM%252C_%253BNIkolusUaCueIM%252CfxRnAzojaWNKVM%252C_%253BfXvoByNaCsi97M%252CrYXoeFhOWvhGSM%252C_%253BpVx4Pyz5nS5ttM%252Crsj0s43XI9b1eM%252C_%253B52AP3l1nPq-KdM%252C3DyCTyZtfxsGBM%252C_%253BTYpkdzNqFpgNDM%252CP5tjwWkbJzsTeM%252C_%253B1uxVfm_Ot-ZauM%252C_oz0fK-Gg2UnEM%252C_%253B6l2nEN3wKgS7uM%252CfxRnAzojaWNKVM%252C_%253Bc_zKr_X6DEBB6M%252CdKau95ymvD77yM%252C_%253BecZR0XFeFCtMYM%252CJswChYwLcq7b7M%252C_%253B9PMQMlKgJwKQYM%252CrBbfhLGY1pkVkM%252C_%253BY-6lw4rshxvK2M%252CNsw2qHQm-xeOVM%252C_&usg=AI4_-kRLggKaLt4YFkbTnyFWhJnjvXJCpQ&sa=X&ved=2ahUKEwiRs6T_4aqXAxXsUGwGHa_iGhgQ7Al6BAgdEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "How to Build a Customer Journey Map with Microsoft Dynamics ...",
+          "url": "https://www.crmsoftwareblog.com/2024/07/how-to-build-a-customer-journey-map-with-microsoft-dynamics/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:5"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is a customer journey map? The complete overview ...",
+          "url": "https://blog.hubspot.com/service/customer-journey-map",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:6"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer Journey Maps: Visualize & Analyze User Engagement ...",
+          "url": "https://www.fullstory.com/blog/customer-journey-maps/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:7"
+        },
+        {
+          "type": "images_element",
+          "alt": "What's a Customer Journey Map? Template & Crash Course",
+          "url": "https://www.peoplemetrics.com/blog/customer-journey-map",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:8"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer journey map framework | Download",
+          "url": "https://www.productmarketingalliance.com/customer-journey-map-template-framework/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:9"
+        },
+        {
+          "type": "images_element",
+          "alt": "How to Create a Customer Journey Map in 5 Simple Steps",
+          "url": "https://www.netsolutions.com/insights/how-to-create-a-customer-journey-map/",
+          "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-e712534cf480:10"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is a customer journey map? And how to create one",
+          "url": "https://zapier.com/blog/customer-journey-mapping/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaP3GnrZ0892mMwCdXRHLsvJJ7xhT9gblY-xuU4mLPPgEodx2sev-7PvQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "What is a customer journey map? The complete overview ...",
+          "url": "https://blog.hubspot.com/service/customer-journey-map",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgHFeZWZ1UjLDKSi1PeV-MaFdk_iWCv9sYpUHo4SIkIKiaVAfhoCNSvc&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer Journey Mapping: Definition, Importance and Examples",
+          "url": "https://www.zonkafeedback.com/blog/customer-journey-mapping",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFmFSkYE9Sq11s9JLV3cihhl0QWbv8NTzaeflPl7mZsV67WTUvGhNIxM&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Customer journey map (CJM): definition, use cases and tips",
+          "url": "https://www.dinmo.com/data-activation/use-cases/customer-journey-improvement/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwcaS8h-R1HGRAzCK8Ab0MXf0f4eTYnPxt9U5onmRATRz02-lZPFlovBU&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Free and customizable customer journey map templates",
+          "url": "https://www.canva.com/templates/s/customer-journey-map/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8WzZXF0-QaX0CBLhO3vdfC4ST0sxvML5uwoL3S3W9WUbcg_x6KgbxLU&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "How To Create a Customer Journey Map: The CXL Guide",
+          "url": "https://cxl.com/blog/customer-journey-maps/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQd6GgiMoljB5ilbxMrQKIFl6cLU1Mzq6117dPFl3OB4Ke616h0BW7Mw&s"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "www.contentful.com",
+      "title": "Customer journey mapping: Visualizing the ...",
+      "url": "https://www.contentful.com/blog/customer-journey-map-omnichannel/",
+      "breadcrumb": "https://www.contentful.com › blog › customer-journey-...",
+      "website_name": "Contentful",
+      "description": "Oct 15, 2025 — In other words, a customer journey map is a blueprint for every possible experience that customers can have with a brand as they move through ... Read more",
+      "pre_snippet": "10/15/2025 00:00:00",
+      "highlighted": [
+        "a blueprint for every possible experience"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.contentful.com/blog/customer-journey-map-omnichannel/#:~:text=In%20other%20words%2C%20a%20customer,the%20journey%20phases%20outlined%20above.",
+          "domain": "www.contentful.com"
+        }
+      ],
+      "timestamp": "2025-10-15 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.usertesting.com",
+      "title": "Customer Journey Map Template",
+      "url": "https://www.usertesting.com/resources/templates/customer-journey",
+      "breadcrumb": "https://www.usertesting.com › ... › Templates homepage",
+      "website_name": "UserTesting",
+      "description": "Understand how customers engage with brands across multiple touchpoints with our customer journey templates that help build a more personalized experience.",
+      "highlighted": [
+        "customer journey templates"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 5,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 7 steps to map the customer journey?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 5 stages of the customer journey?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How to draw a customer journey map?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Can you provide an example of a customer journey map?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "www.triplewhale.com",
+      "title": "How to Create Customer Journey Maps That Convert in ...",
+      "url": "https://www.triplewhale.com/blog/customer-journey-map",
+      "breadcrumb": "https://www.triplewhale.com › blog › customer-journey...",
+      "website_name": "Triple Whale",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Jul 11, 2025 — Overall, a customer journey map is a compact visual representation of a customer's overall experience with your eCommerce brand. It helps you ... Read more",
+      "pre_snippet": "07/11/2025 00:00:00",
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "customer journey map from www.triplewhale.com",
+          "url": "https://www.triplewhale.com/blog/customer-journey-map",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLyHdpXimSDi2PdeaWScJhOBZxQ3Hf7-3Nkvg4LyEQYkFcACIWUDT&usqp=CAE&s"
+        }
+      ],
+      "highlighted": [
+        "a compact visual representation of a customer's overall experience"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.triplewhale.com/blog/customer-journey-map#:~:text=Overall%2C%20a%20customer%20journey%20map,eCommerce%20brand.%20It%20helps%20you",
+          "domain": "www.triplewhale.com"
+        }
+      ],
+      "timestamp": "2025-07-11 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "uxpressia.com",
+      "title": "A how-to guide: customer journey map for beginners",
+      "url": "https://uxpressia.com/blog/customer-journey-map-for-beginners",
+      "breadcrumb": "https://uxpressia.com › blog › customer-journey-map-for...",
+      "website_name": "UXPressia",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Nov 8, 2022 — Find out how to build professional-looking and scalable journey maps with tips and to-dos in our customer journey map for beginners ...",
+      "pre_snippet": "11/08/2022 00:00:00",
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "customer journey map from uxpressia.com",
+          "url": "https://uxpressia.com/blog/customer-journey-map-for-beginners",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWYoc1IoFAYAfOTztPDcuWkrK_eQH1DpPBdcoLwsA&usqp=CAE&s"
+        }
+      ],
+      "highlighted": [
+        "customer journey map for beginners"
+      ],
+      "timestamp": "2022-11-08 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "awebdigital.co",
+      "title": "How to Create a Customer Journey Map",
+      "url": "https://awebdigital.co/customer-journey-map/",
+      "breadcrumb": "https://awebdigital.co › Web Design",
+      "website_name": "AWEB Digital",
+      "description": "A customer journey (CJ) map is a visual representation of the customer's end‐to‐end interaction with the business. There are different types of customer ...",
+      "highlighted": [
+        "visual representation of the customer's end‐to‐end interaction with the business"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "www.cmswire.com",
+      "title": "Creating and Future-Proofing Your Customer Journey Map",
+      "url": "https://www.cmswire.com/customer-experience/creating-and-future-proofing-your-customer-journey-map/",
+      "breadcrumb": "https://www.cmswire.com › Customer Experience",
+      "website_name": "CMSWire",
+      "description": "Oct 22, 2018 — To create a customer journey map, focus on a single buyer persona, and proceed through the customer journey as if you were in his or her shoes. Read more",
+      "pre_snippet": "10/22/2018 00:00:00",
+      "highlighted": [
+        "focus on a single buyer persona"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.cmswire.com/customer-experience/creating-and-future-proofing-your-customer-journey-map/#:~:text=To%20create%20a%20customer%20journey,in%20his%20or%20her%20shoes.",
+          "domain": "www.cmswire.com"
+        }
+      ],
+      "timestamp": "2018-10-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.salesmate.io",
+      "title": "Customer Journey Mapping: A Guide For Smarter ...",
+      "url": "https://www.salesmate.io/blog/customer-journey-mapping/",
+      "breadcrumb": "https://www.salesmate.io › blog › customer-journey-map...",
+      "website_name": "Salesmate",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "A customer journey map is a simple way to visualize how a customer moves through the buying process, from discovering a brand to purchasing and beyond.",
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "customer journey map from www.salesmate.io",
+          "url": "https://www.salesmate.io/blog/customer-journey-mapping/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6GEUH6XinSZkzkcwATkv0mPzEhC0l1FjWtVbIms4&usqp=CAE&s"
+        }
+      ],
+      "highlighted": [
+        "visualize how a customer moves through the buying process"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.weidert.com",
+      "title": "4 B2B Customer Journey Map Templates To Grow ...",
+      "url": "https://www.weidert.com/blog/customer-journey-map-template",
+      "breadcrumb": "https://www.weidert.com › blog › customer-journey-map...",
+      "website_name": "Weidert Group",
+      "is_image": true,
+      "checks": [
+        "is_image"
+      ],
+      "description": "Apr 12, 2021 — A current state customer journey map template captures your customers' thoughts, actions, and emotions when interacting with your company.",
+      "pre_snippet": "04/12/2021 00:00:00",
+      "images": [
+        {
+          "type": "images_element",
+          "alt": "customer journey map from www.weidert.com",
+          "url": "https://www.weidert.com/blog/customer-journey-map-template",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTauUUEQbUXVU2wC8dLlXtH9M2pZww4srVPPj_pBvQ&usqp=CAE&s"
+        }
+      ],
+      "highlighted": [
+        "captures your customers' thoughts, actions, and emotions"
+      ],
+      "timestamp": "2021-04-12 00:00:00 +00:00"
+    }
+  ]
+}

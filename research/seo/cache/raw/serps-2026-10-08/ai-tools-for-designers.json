@@ -1,0 +1,508 @@
+{
+  "id": "10081545-2633-0066-0000-c55b1e0f664c",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "AI design tools `help you build layouts, interfaces, and graphics quickly using text prompts`.[[1]](https://www.canva.com/magic-design/)[[2]](https://www.figma.com/solutions/ai-design-generator/)[[3]](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html)\n\n### UI, Wireframe, and App Design\n\n- **[Figma Make](https://www.figma.com/solutions/ai-design-generator/):** Turns text prompts or codebases into real layouts, interactive prototypes, and working code.\n- **Google Stitch:** Fast, free tool for mocking up web or app layouts and transitioning concepts into Figma.\n- **Flowstep:** Builds multi-screen UX structures with code export for React, Tailwind, and MCP.\n- **Uizard / Visily:** Rapid AI mockup and wireframe generators for non-designers and product teams.[[1]](https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a)[[2]](https://www.figma.com/solutions/ai-design-generator/)[[3]](https://www.youtube.com/watch?v=tUsTsCVbr2Y)[[4]](https://open-design.ai/blog/best-ai-design-tools/)\n\n### Code-First and Website Builders\n\n- **v0 (by Vercel):** Generates polished, component-based, production-close UI code from prompts.\n- **Lovable / Bolt.new:** Focuses on interactive follow-up questions and rapid MVP or interface building.\n- **Framer:** Popular AI-driven website builder that turns ideas into live, responsive sites.[[1]](https://open-design.ai/blog/best-ai-design-tools/)[[2]](https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a)\n\n### Graphic Design and Visual Creation\n\n- **[Canva Magic Design](https://www.canva.com/magic-design/):** Auto-generates on-brand presentations, social graphics, and videos using your Brand Kit.\n- **Midjourney:** High-detail visual generation ideal for conceptual art and product shots.\n- **[Adobe Firefly](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html):** Integrated AI art generator built directly into the Adobe Creative Cloud workflow.\n- **Designs.ai:** All-in-one suite for creating logos, videos, banners, and voiceovers.[[1]](https://www.youtube.com/watch?v=tUsTsCVbr2Y)[[2]](https://www.canva.com/magic-design/)[[3]](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html)[[4]](http://designs.ai/)\n\nAre you looking for a tool for **UI/UX prototyping**, **landing page building** , or **graphic/social media design**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "AI design tools help you build layouts, interfaces, and graphics quickly using text prompts.",
+          "markdown": "AI design tools `help you build layouts, interfaces, and graphics quickly using text prompts`.[[1]](https://www.canva.com/magic-design/)[[2]](https://www.figma.com/solutions/ai-design-generator/)[[3]](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Canva",
+              "domain": "www.canva.com",
+              "url": "https://www.canva.com/magic-design/",
+              "title": "Magic Design™: Free Online AI Design Tool | Canva",
+              "text": "Overview: Magic Design is a free, English-language AI design generator on Canva that creates custom presentations, videos, and gra..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/solutions/ai-design-generator/",
+              "title": "Free AI Design Generator - Design Using AI | Figma",
+              "text": "Figma Make: AI design generator producing real layouts, interactions, and working code from text prompts or existing codebases. Fe..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Adobe",
+              "domain": "www.adobe.com",
+              "url": "https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html",
+              "title": "Free AI Design Generator",
+              "text": "Create free graphic designs with an AI graphic design generator. * What is an AI graphic design generator? The AI design generator..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "UI, Wireframe, and App Design",
+          "text": "Figma Make : Turns text prompts or codebases into real layouts, interactive prototypes, and working code. Google Stitch: Fast, free tool for mocking up web or app layouts and transitioning concepts into Figma. Flowstep: Builds multi-screen UX structures with code export for React, Tailwind, and MCP. Uizard / Visily: Rapid AI mockup and wireframe generators for non-designers and product teams.",
+          "markdown": "- **[Figma Make](https://www.figma.com/solutions/ai-design-generator/):** Turns text prompts or codebases into real layouts, interactive prototypes, and working code.\n- **Google Stitch:** Fast, free tool for mocking up web or app layouts and transitioning concepts into Figma.\n- **Flowstep:** Builds multi-screen UX structures with code export for React, Tailwind, and MCP.\n- **Uizard / Visily:** Rapid AI mockup and wireframe generators for non-designers and product teams.[[1]](https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a)[[2]](https://www.figma.com/solutions/ai-design-generator/)[[3]](https://www.youtube.com/watch?v=tUsTsCVbr2Y)[[4]](https://open-design.ai/blog/best-ai-design-tools/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Figma Make",
+              "url": "https://www.figma.com/solutions/ai-design-generator/",
+              "domain": "www.figma.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Muzli - Design inspiration hub",
+              "domain": "medium.muz.li",
+              "url": "https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a",
+              "title": "6 Best AI UI Design Tools I Tested With the Same Prompt (2026 Review) | by SHREY PARMAR | Muzli - Design Inspiration",
+              "text": "Evaluated Tools: Flowstep (strong UX structure, multi-screen generation, React/Tailwind/MCP code export, refinement controls); Goo..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Figma",
+              "domain": "www.figma.com",
+              "url": "https://www.figma.com/solutions/ai-design-generator/",
+              "title": "Free AI Design Generator - Design Using AI | Figma",
+              "text": "Figma Make: AI design generator producing real layouts, interactions, and working code from text prompts or existing codebases. Fe..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=tUsTsCVbr2Y",
+              "title": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026)",
+              "text": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026) there are hundreds of AI tools out there but not all are created eq..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Open Design",
+              "domain": "open-design.ai",
+              "url": "https://open-design.ai/blog/best-ai-design-tools/",
+              "title": "Best AI Design Tools in 2026: An Honest, Tested Guide",
+              "text": "Best AI Design Tools in 2026: An Honest, Tested Guide * How we evaluated these AI design tools * The one test that sorts every AI ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Code-First and Website Builders",
+          "text": "v0 (by Vercel): Generates polished, component-based, production-close UI code from prompts. Lovable / Bolt.new: Focuses on interactive follow-up questions and rapid MVP or interface building. Framer: Popular AI-driven website builder that turns ideas into live, responsive sites.",
+          "markdown": "- **v0 (by Vercel):** Generates polished, component-based, production-close UI code from prompts.\n- **Lovable / Bolt.new:** Focuses on interactive follow-up questions and rapid MVP or interface building.\n- **Framer:** Popular AI-driven website builder that turns ideas into live, responsive sites.[[1]](https://open-design.ai/blog/best-ai-design-tools/)[[2]](https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Open Design",
+              "domain": "open-design.ai",
+              "url": "https://open-design.ai/blog/best-ai-design-tools/",
+              "title": "Best AI Design Tools in 2026: An Honest, Tested Guide",
+              "text": "Best AI Design Tools in 2026: An Honest, Tested Guide * How we evaluated these AI design tools * The one test that sorts every AI ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Muzli - Design inspiration hub",
+              "domain": "medium.muz.li",
+              "url": "https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a",
+              "title": "6 Best AI UI Design Tools I Tested With the Same Prompt (2026 Review) | by SHREY PARMAR | Muzli - Design Inspiration",
+              "text": "Evaluated Tools: Flowstep (strong UX structure, multi-screen generation, React/Tailwind/MCP code export, refinement controls); Goo..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Graphic Design and Visual Creation",
+          "text": "Canva Magic Design : Auto-generates on-brand presentations, social graphics, and videos using your Brand Kit. Midjourney: High-detail visual generation ideal for conceptual art and product shots. Adobe Firefly : Integrated AI art generator built directly into the Adobe Creative Cloud workflow. Designs.ai: All-in-one suite for creating logos, videos, banners, and voiceovers.",
+          "markdown": "- **[Canva Magic Design](https://www.canva.com/magic-design/):** Auto-generates on-brand presentations, social graphics, and videos using your Brand Kit.\n- **Midjourney:** High-detail visual generation ideal for conceptual art and product shots.\n- **[Adobe Firefly](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html):** Integrated AI art generator built directly into the Adobe Creative Cloud workflow.\n- **Designs.ai:** All-in-one suite for creating logos, videos, banners, and voiceovers.[[1]](https://www.youtube.com/watch?v=tUsTsCVbr2Y)[[2]](https://www.canva.com/magic-design/)[[3]](https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html)[[4]](http://designs.ai/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Canva Magic Design",
+              "url": "https://www.canva.com/magic-design/",
+              "domain": "www.canva.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Adobe Firefly",
+              "url": "https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html",
+              "domain": "www.adobe.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=tUsTsCVbr2Y",
+              "title": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026)",
+              "text": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026) there are hundreds of AI tools out there but not all are created eq..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Canva",
+              "domain": "www.canva.com",
+              "url": "https://www.canva.com/magic-design/",
+              "title": "Magic Design™: Free Online AI Design Tool | Canva",
+              "text": "Overview: Magic Design is a free, English-language AI design generator on Canva that creates custom presentations, videos, and gra..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Adobe",
+              "domain": "www.adobe.com",
+              "url": "https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html",
+              "title": "Free AI Design Generator",
+              "text": "Create free graphic designs with an AI graphic design generator. * What is an AI graphic design generator? The AI design generator..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Designs.ai",
+              "domain": "designs.ai",
+              "url": "http://designs.ai/",
+              "title": "Designs.ai",
+              "text": "Your Designs Claw. Ready to get things done. Designs Claw is your personal AI helper for work. It chats, takes notes, and creates ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking for a tool for UI/UX prototyping, landing page building, or graphic/social media design ?",
+          "markdown": "Are you looking for a tool for **UI/UX prototyping**, **landing page building** , or **graphic/social media design**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Canva",
+          "domain": "www.canva.com",
+          "url": "https://www.canva.com/magic-design/",
+          "title": "Magic Design™: Free Online AI Design Tool | Canva",
+          "text": "Overview: Magic Design is a free, English-language AI design generator on Canva that creates custom presentations, videos, and gra..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Muzli - Design inspiration hub",
+          "domain": "medium.muz.li",
+          "url": "https://medium.muz.li/6-best-ai-ui-design-tools-i-tested-with-the-same-prompt-2026-review-b68309af284a",
+          "title": "6 Best AI UI Design Tools I Tested With the Same Prompt (2026 Review) | by SHREY PARMAR | Muzli - Design Inspiration",
+          "text": "Evaluated Tools: Flowstep (strong UX structure, multi-screen generation, React/Tailwind/MCP code export, refinement controls); Goo..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Figma",
+          "domain": "www.figma.com",
+          "url": "https://www.figma.com/solutions/ai-design-generator/",
+          "title": "Free AI Design Generator - Design Using AI | Figma",
+          "text": "Figma Make: AI design generator producing real layouts, interactions, and working code from text prompts or existing codebases. Fe..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=tUsTsCVbr2Y",
+          "title": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026)",
+          "text": "Best AI Tools for Design : The FULL GUIDE For Beginners (2026) there are hundreds of AI tools out there but not all are created eq..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Designs.ai",
+          "domain": "designs.ai",
+          "url": "http://designs.ai/",
+          "title": "Designs.ai",
+          "text": "Your Designs Claw. Ready to get things done. Designs Claw is your personal AI helper for work. It chats, takes notes, and creates ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Adobe",
+          "domain": "www.adobe.com",
+          "url": "https://www.adobe.com/products/firefly/features/ai-graphic-design-generator.html",
+          "title": "Free AI Design Generator",
+          "text": "Create free graphic designs with an AI graphic design generator. * What is an AI graphic design generator? The AI design generator..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Open Design",
+          "domain": "open-design.ai",
+          "url": "https://open-design.ai/blog/best-ai-design-tools/",
+          "title": "Best AI Design Tools in 2026: An Honest, Tested Guide",
+          "text": "Best AI Design Tools in 2026: An Honest, Tested Guide * How we evaluated these AI design tools * The one test that sorts every AI ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "design.google",
+      "title": "AI",
+      "url": "https://design.google/tags/ai",
+      "breadcrumb": "https://design.google › tags › ai",
+      "website_name": "Google Design",
+      "description": "GuidesAI · People + AI Guidebook · A Thoughtful, Nuanced Approach to AI. A discussion on how designers can harness and humanize AI's vast potential. Read more",
+      "highlighted": [
+        "how designers can harness and humanize AI's vast potential"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://design.google/tags/ai#:~:text=GuidesAI,and%20humanize%20AI's%20vast%20potential",
+          "domain": "design.google"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 3,
+      "page": 1,
+      "domain": "tomaszs2.medium.com",
+      "title": "I've Tested 9 AI Design Tools. One Stands Out - Tom Smykowski",
+      "url": "https://tomaszs2.medium.com/ive-tested-9-ai-design-tools-one-stands-out-8562d7ec9df0",
+      "breadcrumb": "50+ likes  ·  8 months ago",
+      "website_name": "Medium · Tom Smykowski",
+      "description": "I've Tested 9 AI Design Tools. One Stands Out · 1. v0 by Vercel — v0 Max model · 2. Lovable · 3. Base44 · 4. UXPilot · 5. UIWizard.io · 6. Read more",
+      "highlighted": [
+        "1. v0 by Vercel — v0 Max model"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://tomaszs2.medium.com/ive-tested-9-ai-design-tools-one-stands-out-8562d7ec9df0#:~:text=%F0%9F%8E%A8I've%20Tested%209%20AI%20Design,Tools.%20One%20Stands%20Out&text=1.%20v0%20by%20Vercel%20%E2%80%94,v0%20Max%20model&text=2.%20Lovable&text=3.%20Base44&text=4.%20UXPilot&text=5.%20UIWizard.io&text=6.%20Stitch%20by%20Google",
+          "domain": "tomaszs2.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "piktochart.com",
+      "title": "Free AI Design Generator — Create Visuals in Seconds",
+      "url": "https://piktochart.com/ai-design-generator/",
+      "breadcrumb": "https://piktochart.com › ai-design-generator",
+      "website_name": "Piktochart",
+      "description": "Effortlessly create stunning visuals and transform any idea or prompt into professional infographics, banners, flyers, posters, and more in just seconds.",
+      "highlighted": [
+        "Effortlessly create stunning visuals"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "flowstep.ai",
+      "title": "16 Best AI Tools for Designers: 2026 Top Picks",
+      "url": "https://flowstep.ai/blog/best-ai-tools-for-designers/",
+      "breadcrumb": "https://flowstep.ai › blog › best-ai-tools-for-designers",
+      "website_name": "Flowstep",
+      "description": "7 days ago — 16 best AI design tools for better design decisions · Flowstep · Figma Make · Claude Design · Adobe Firefly · Gemini (Nano Banana) · Midjourney. Read more",
+      "pre_snippet": "7 days ago",
+      "highlighted": [
+        "Flowstep"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://flowstep.ai/blog/best-ai-tools-for-designers/#:~:text=16%20best%20AI%20design%20tools,for%20better%20design%20decisions&text=Flowstep&text=Figma%20Make&text=Claude%20Design&text=Adobe%20Firefly&text=Gemini%20(Nano%20Banana)&text=Midjourney",
+          "domain": "flowstep.ai"
+        }
+      ],
+      "timestamp": "2026-10-01 15:45:40 +00:00"
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 6,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "Which is the best AI for design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the 30% rule for AI?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are 7 types of graphic design?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is there a free and unlimited AI video generator available?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "pixflow.net",
+      "title": "12 Top AI Design Tools for UI/UX, Tested & Ranked (2026)",
+      "url": "https://pixflow.net/blog/top-ai-design-tools/",
+      "breadcrumb": "https://pixflow.net › blog › top-ai-design-tools",
+      "website_name": "Pixflow",
+      "description": "1. Flowstep: The Best Overall AI Design Tool for UI/UX 2. Figma AI 3. Framer 4. Canva Magic Studio 5. Visme 6. Adobe Firefly 7. Midjourney 8. Bolt.new 9. Replit",
+      "highlighted": [
+        "1. Flowstep: The Best Overall AI Design Tool for UI/UX"
+      ]
+    },
+    {
+      "type": "video",
+      "rank_group": 1,
+      "rank_absolute": 8,
+      "page": 1,
+      "items": [
+        {
+          "type": "video_element",
+          "source": "YouTube · Hostinger Academy",
+          "title": "AI Design Tools - The ULTIMATE TEST (2026) : Which one ...",
+          "timestamp": "2026-04-06 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=rQQ8n5yZhe8"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Flux Academy",
+          "title": "5 Must Have Ai Tools for Designers in 2024",
+          "timestamp": "2024-03-29 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=PRw9vw6O3-c"
+        },
+        {
+          "type": "video_element",
+          "source": "YouTube · Design with Paavan",
+          "title": "I tried every AI design tool. Here are the results.",
+          "timestamp": "2025-05-30 00:00:00 +00:00",
+          "url": "https://www.youtube.com/watch?v=gACXOi_Hq9A"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "support.shazamme.com",
+      "title": "30 AI design tools for agencies :",
+      "url": "https://support.shazamme.com/support/solutions/articles/51000426082-30-ai-design-tools-for-agencies",
+      "breadcrumb": "https://support.shazamme.com › solutions › articles › 5...",
+      "website_name": "Shazamme",
+      "description": "Aug 22, 2024 — Top AI design tools for digital agencies: · Midjourney is an innovative AI tool that transforms textual descriptions into visual images. Read more",
+      "pre_snippet": "08/22/2024 00:00:00",
+      "highlighted": [
+        "Midjourney"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://support.shazamme.com/support/solutions/articles/51000426082-30-ai-design-tools-for-agencies#:~:text=Top%20AI%20design%20tools%20for,digital%20agencies%3A&text=Midjourney%20is%20an%20innovative%20AI,textual%20descriptions%20into%20visual%20images.",
+          "domain": "support.shazamme.com"
+        }
+      ],
+      "timestamp": "2024-08-22 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.youtube.com",
+      "title": "The Coolest AI Design tools of 2019 | Design Essentials",
+      "url": "https://www.youtube.com/watch?v=B_q0ZnHtwbo",
+      "breadcrumb": "11.6K+ views  ·  7 years ago",
+      "website_name": "YouTube · Punit Chawla",
+      "is_video": true,
+      "checks": [
+        "is_video"
+      ],
+      "timestamp": "2019-08-29 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.designmonks.co",
+      "title": "10 Free AI Design Tools 2026 | Best for Beginners & Practice",
+      "url": "https://www.designmonks.co/blog/free-ai-design-tools",
+      "breadcrumb": "https://www.designmonks.co › blog › free-ai-design-tools",
+      "website_name": "Design Monks",
+      "description": "Jul 13, 2024 — Best Free AI Design Tools · 1. Figma AI: For Website, App UI & Landing Page Design · 2. Canva AI: For Social Media Graphics, Marketing, & ... Read more",
+      "pre_snippet": "07/13/2024 00:00:00",
+      "highlighted": [
+        "1. Figma AI: For Website, App UI & Landing Page Design"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Best Free Ai Design Tools",
+          "url": "https://www.designmonks.co/blog/free-ai-design-tools#:~:text=Best%20Free%20AI%20Design%20Tools,-It%27s%20true%20that%20most",
+          "domain": "www.designmonks.co"
+        },
+        {
+          "type": "link_element",
+          "title": "1. Figma Ai: For Website...",
+          "url": "https://www.designmonks.co/blog/free-ai-design-tools#:~:text=1.%20Figma%20AI%3A%20For%20Website%2C%20App%20UI%20%26%20Landing%20Page%20Design",
+          "domain": "www.designmonks.co"
+        },
+        {
+          "type": "link_element",
+          "title": "5. Designs.Ai: For Logos...",
+          "url": "https://www.designmonks.co/blog/free-ai-design-tools#:~:text=5.%20Designs.ai%3A%20For%20Logos%2C%20Videos%20%26%20Branding%20Assets",
+          "domain": "www.designmonks.co"
+        }
+      ],
+      "timestamp": "2024-07-13 00:00:00 +00:00"
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Ai tools for designers free",
+        "Best ai tools for designers",
+        "Design AI",
+        "Google AI design generator",
+        "Google AI graphic design tool",
+        "Free AI graphic designer",
+        "Google Designer",
+        "AI graphic design online"
+      ]
+    }
+  ]
+}

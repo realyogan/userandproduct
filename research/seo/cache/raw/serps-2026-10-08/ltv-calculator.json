@@ -1,0 +1,510 @@
+{
+  "id": "10081545-2633-0066-0000-0470b625fefb",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "![Loan to Value Ratio (LTV) | Formula + Calculator](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-0470b625fefb:4)\nYou can calculate your loan-to-value ratio using the [Bankrate LTV Calculator](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/) to see your current home equity and refinancing options.[[1]](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/)\n\n### How LTV Works\n\nLoan-to-Value (LTV) is a percentage that compares your loan amount to the appraised value of an asset, like a house or car. Lenders use it to measure financial risk.[[1]](https://www.rategenius.com/car-loan-to-value-ltv-calculator/)[[2]](https://www.ajdesigner.com/loan-to-value/)[[3]](https://www.youtube.com/shorts/S5c3Wzfl34Y)\n\n- **The Formula**: `LTV = (Loan Amount ÷ Property Value) × 100` [[1]](https://www.ajdesigner.com/loan-to-value/)\n- **Example** : If you borrow $160,000 to buy a home worth $200,000, your LTV is 80%.[[1]](https://www.youtube.com/shorts/7ZuYkFF713g)\n- **Why it matters** : A lower LTV means you have more equity and better access to lower interest rates. An LTV above 80% on a conventional mortgage usually requires Private Mortgage Insurance (PMI).[[1]](https://www.mortgagecalculator.org/calcs/ltv.php)[[2]](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/)[[3]](https://www.ajdesigner.com/loan-to-value/)\n\n### Online Calculators\n\n- **Mortgages** : Use the [Mortgage Calculator LTV Tool](https://www.mortgagecalculator.org/calcs/ltv.php) for PMI and refinancing limits.[[1]](https://www.mortgagecalculator.org/calcs/ltv.php)\n- **Car Loans** : Check vehicle ratios with the [RateGenius Car LTV Calculator](https://www.rategenius.com/car-loan-to-value-ltv-calculator/).[[1]](https://www.rategenius.com/car-loan-to-value-ltv-calculator/)\n- **General Finance** : Try the [Omni LTV Calculator](https://www.omnicalculator.com/finance/ltv) to solve for purchase price, loan size, or down payment.[[1]](https://www.omnicalculator.com/finance/ltv)\n\nIf you'd like, tell me:\n\n- What **type of loan** you are looking at (home, car, or commercial)\n- Your **loan amount** and the **asset's value** \n\nI can calculate your exact LTV ratio for you right now.",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate your loan-to-value ratio using the Bankrate LTV Calculator to see your current home equity and refinancing options.",
+          "markdown": "![Loan to Value Ratio (LTV) | Formula + Calculator](https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-0470b625fefb:2)\nYou can calculate your loan-to-value ratio using the [Bankrate LTV Calculator](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/) to see your current home equity and refinancing options.[[1]](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Bankrate LTV Calculator",
+              "url": "https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/",
+              "domain": "www.bankrate.com"
+            }
+          ],
+          "images": [
+            {
+              "type": "images_element",
+              "alt": "Loan to Value Ratio (LTV) | Formula + Calculator",
+              "image_url": "https://api.dataforseo.com/cdn/i/10081545-2633-0066-0000-0470b625fefb:3"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Bankrate",
+              "domain": "www.bankrate.com",
+              "url": "https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/",
+              "title": "Loan-to-Value - LTV Calculator - Bankrate",
+              "text": "Whether you're wondering if you have enough equity to qualify for the best mortgage rates, or you're concerned that you're too far..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "How LTV Works",
+          "text": "Loan-to-Value (LTV) is a percentage that compares your loan amount to the appraised value of an asset, like a house or car. Lenders use it to measure financial risk.",
+          "markdown": "Loan-to-Value (LTV) is a percentage that compares your loan amount to the appraised value of an asset, like a house or car. Lenders use it to measure financial risk.[[1]](https://www.rategenius.com/car-loan-to-value-ltv-calculator/)[[2]](https://www.ajdesigner.com/loan-to-value/)[[3]](https://www.youtube.com/shorts/S5c3Wzfl34Y)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "RateGenius",
+              "domain": "www.rategenius.com",
+              "url": "https://www.rategenius.com/car-loan-to-value-ltv-calculator/",
+              "title": "Car Loan-to-Value (LTV) Calculator",
+              "text": "Car Loan-to-Value (LTV) Calculator * How to Calculate Your Loan-to-Value Ratio Calculating your vehicle's LTV is pretty simple. Fi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "AJ Designer",
+              "domain": "www.ajdesigner.com",
+              "url": "https://www.ajdesigner.com/loan-to-value/",
+              "title": "LTV Calculator — Loan to Value Ratio Tool",
+              "text": "Mortgage lenders use LTV to price interest rates and decide whether private mortgage insurance is required. * Loan-to-Value Ratio ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/S5c3Wzfl34Y",
+              "title": "Loan-to-Value Ratio explained in under 90 seconds for real estate ...",
+              "text": "Loan-to-Value Ratio explained in under 90 seconds for real estate exam prep. if you've ever heard the term loan to value ratio. an..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "The Formula : LTV = (Loan Amount ÷ Property Value) × 100 Example : If you borrow $160,000 to buy a home worth $200,000, your LTV is 80%. Why it matters : A lower LTV means you have more equity and better access to lower interest rates. An LTV above 80% on a conventional mortgage usually requires Private Mortgage Insurance (PMI).",
+          "markdown": "- **The Formula**: `LTV = (Loan Amount ÷ Property Value) × 100` [[1]](https://www.ajdesigner.com/loan-to-value/)\n- **Example** : If you borrow $160,000 to buy a home worth $200,000, your LTV is 80%.[[1]](https://www.youtube.com/shorts/7ZuYkFF713g)\n- **Why it matters** : A lower LTV means you have more equity and better access to lower interest rates. An LTV above 80% on a conventional mortgage usually requires Private Mortgage Insurance (PMI).[[1]](https://www.mortgagecalculator.org/calcs/ltv.php)[[2]](https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/)[[3]](https://www.ajdesigner.com/loan-to-value/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "AJ Designer",
+              "domain": "www.ajdesigner.com",
+              "url": "https://www.ajdesigner.com/loan-to-value/",
+              "title": "LTV Calculator — Loan to Value Ratio Tool",
+              "text": "Mortgage lenders use LTV to price interest rates and decide whether private mortgage insurance is required. * Loan-to-Value Ratio ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/7ZuYkFF713g",
+              "title": "Loan ÷ Value = LTV ✅ The fastest math trick to save you on exam day!",
+              "text": "Loan ÷ Value = LTV ✅ The fastest math trick to save you on exam day! here's a secret math trick I guarantee will save you on exam ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Mortgage Calculator",
+              "domain": "www.mortgagecalculator.org",
+              "url": "https://www.mortgagecalculator.org/calcs/ltv.php",
+              "title": "LTV Calculator for Mortgage PMI, Refinancing Mortgages & Home Equity Loan Qualification",
+              "text": "Loan-to-Value: Mortgage lien divided by appraised property value, determining home equity, refinancing limits, and PMI requirement..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Bankrate",
+              "domain": "www.bankrate.com",
+              "url": "https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/",
+              "title": "Loan-to-Value - LTV Calculator - Bankrate",
+              "text": "Whether you're wondering if you have enough equity to qualify for the best mortgage rates, or you're concerned that you're too far..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Online Calculators",
+          "text": "Mortgages : Use the Mortgage Calculator LTV Tool for PMI and refinancing limits. Car Loans : Check vehicle ratios with the RateGenius Car LTV Calculator. General Finance : Try the Omni LTV Calculator to solve for purchase price, loan size, or down payment.",
+          "markdown": "- **Mortgages** : Use the [Mortgage Calculator LTV Tool](https://www.mortgagecalculator.org/calcs/ltv.php) for PMI and refinancing limits.[[1]](https://www.mortgagecalculator.org/calcs/ltv.php)\n- **Car Loans** : Check vehicle ratios with the [RateGenius Car LTV Calculator](https://www.rategenius.com/car-loan-to-value-ltv-calculator/).[[1]](https://www.rategenius.com/car-loan-to-value-ltv-calculator/)\n- **General Finance** : Try the [Omni LTV Calculator](https://www.omnicalculator.com/finance/ltv) to solve for purchase price, loan size, or down payment.[[1]](https://www.omnicalculator.com/finance/ltv)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Mortgage Calculator LTV Tool",
+              "url": "https://www.mortgagecalculator.org/calcs/ltv.php",
+              "domain": "www.mortgagecalculator.org"
+            },
+            {
+              "type": "link_element",
+              "title": "RateGenius Car LTV Calculator",
+              "url": "https://www.rategenius.com/car-loan-to-value-ltv-calculator/",
+              "domain": "www.rategenius.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Omni LTV Calculator",
+              "url": "https://www.omnicalculator.com/finance/ltv",
+              "domain": "www.omnicalculator.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Mortgage Calculator",
+              "domain": "www.mortgagecalculator.org",
+              "url": "https://www.mortgagecalculator.org/calcs/ltv.php",
+              "title": "LTV Calculator for Mortgage PMI, Refinancing Mortgages & Home Equity Loan Qualification",
+              "text": "Loan-to-Value: Mortgage lien divided by appraised property value, determining home equity, refinancing limits, and PMI requirement..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "RateGenius",
+              "domain": "www.rategenius.com",
+              "url": "https://www.rategenius.com/car-loan-to-value-ltv-calculator/",
+              "title": "Car Loan-to-Value (LTV) Calculator",
+              "text": "Car Loan-to-Value (LTV) Calculator * How to Calculate Your Loan-to-Value Ratio Calculating your vehicle's LTV is pretty simple. Fi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/finance/ltv",
+              "title": "LTV Calculator",
+              "text": "loan to value calculator * How do I calculate the loan to value ratio? To determine the LTV of a transaction, use the following fo..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "If you'd like, tell me:What type of loan you are looking at (home, car, or commercial)\nYour loan amount and the asset's value\nI can calculate your exact LTV ratio for you right now.",
+          "markdown": "If you'd like, tell me:\n\n- What **type of loan** you are looking at (home, car, or commercial)\n- Your **loan amount** and the **asset's value** \n\nI can calculate your exact LTV ratio for you right now."
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Bankrate",
+          "domain": "www.bankrate.com",
+          "url": "https://www.bankrate.com/mortgages/ltv-loan-to-value-ratio-calculator/",
+          "title": "Loan-to-Value - LTV Calculator - Bankrate",
+          "text": "Whether you're wondering if you have enough equity to qualify for the best mortgage rates, or you're concerned that you're too far..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "RateGenius",
+          "domain": "www.rategenius.com",
+          "url": "https://www.rategenius.com/car-loan-to-value-ltv-calculator/",
+          "title": "Car Loan-to-Value (LTV) Calculator",
+          "text": "Car Loan-to-Value (LTV) Calculator * How to Calculate Your Loan-to-Value Ratio Calculating your vehicle's LTV is pretty simple. Fi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Mortgage Calculator",
+          "domain": "www.mortgagecalculator.org",
+          "url": "https://www.mortgagecalculator.org/calcs/ltv.php",
+          "title": "LTV Calculator for Mortgage PMI, Refinancing Mortgages & Home Equity Loan Qualification",
+          "text": "Loan-to-Value: Mortgage lien divided by appraised property value, determining home equity, refinancing limits, and PMI requirement..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Omni Calculator",
+          "domain": "www.omnicalculator.com",
+          "url": "https://www.omnicalculator.com/finance/ltv",
+          "title": "LTV Calculator",
+          "text": "loan to value calculator * How do I calculate the loan to value ratio? To determine the LTV of a transaction, use the following fo..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "AJ Designer",
+          "domain": "www.ajdesigner.com",
+          "url": "https://www.ajdesigner.com/loan-to-value/",
+          "title": "LTV Calculator — Loan to Value Ratio Tool",
+          "text": "Mortgage lenders use LTV to price interest rates and decide whether private mortgage insurance is required. * Loan-to-Value Ratio ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/7ZuYkFF713g",
+          "title": "Loan ÷ Value = LTV ✅ The fastest math trick to save you on exam day!",
+          "text": "Loan ÷ Value = LTV ✅ The fastest math trick to save you on exam day! here's a secret math trick I guarantee will save you on exam ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/S5c3Wzfl34Y",
+          "title": "Loan-to-Value Ratio explained in under 90 seconds for real estate ...",
+          "text": "Loan-to-Value Ratio explained in under 90 seconds for real estate exam prep. if you've ever heard the term loan to value ratio. an..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.finbri.co.uk",
+      "title": "LTV Calculator - Loan-To-Value Calculator",
+      "url": "https://www.finbri.co.uk/calculators/ltv",
+      "breadcrumb": "https://www.finbri.co.uk › calculators › ltv",
+      "website_name": "Finbri - Bridging Loan",
+      "description": "Calculate your Loan-To-Value (LTV) ratio using our free online LTV calculator. Click here to use it now.",
+      "highlighted": [
+        "free online LTV calculator"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I calculate an LTV?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Is 20% a good LTV?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I calculate my current LTV?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What is the loan-to-value ratio for a $200,000 house with a loan of $160,000?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "incomechecker.com",
+      "title": "LTV Calculator: Loan-to-Value and Combined LTV",
+      "url": "https://incomechecker.com/ltv-calculator",
+      "breadcrumb": "https://incomechecker.com › ltv-calculator",
+      "website_name": "incomechecker.com",
+      "description": "Free LTV calculator : find your loan-to-value ratio, combined LTV with a second loan or HELOC, your equity, and how much to pay down to reach 80%.",
+      "highlighted": [
+        "Free LTV calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "homeequitylinecalculator.com",
+      "title": "LTV Calculator - Loan-to-Value Ratio for Your Home (2026)",
+      "url": "https://homeequitylinecalculator.com/ltv-calculator",
+      "breadcrumb": "https://homeequitylinecalculator.com › ltv-calculator",
+      "website_name": "homeequitylinecalculator.com",
+      "description": "Calculate your loan-to-value ratio instantly. See what your LTV means for rates, borrowing options, and PMI. Includes LTV bands reference table and what-if ...",
+      "highlighted": [
+        "Calculate your loan-to-value ratio instantly"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "aarvion.ai",
+      "title": "LTV Calculator: Loan-to-Value Ratio - Aarvion",
+      "url": "https://aarvion.ai/tools/ltv-calculator",
+      "breadcrumb": "https://aarvion.ai › Calculators › LTV calculator",
+      "website_name": "aarvion.ai",
+      "description": "Free loan-to-value calculator. Enter the loan amount and the collateral value to get LTV, and see the largest loan that fits your maximum LTV policy.",
+      "highlighted": [
+        "Free loan-to-value calculator"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "calculatordad.com",
+      "title": "LTV Calculator: loan to value, CLTV and when PMI ends",
+      "url": "https://calculatordad.com/loan/ltv",
+      "breadcrumb": "https://calculatordad.com › Loan Calculator",
+      "website_name": "calculatordad.com",
+      "description": "Sep 23, 2026 — Loan-to-Value (LTV) Calculator. Work out your loan-to-value and combined LTV, see which programme limits you are inside, and when the mortgage ... Read more",
+      "pre_snippet": "09/23/2026 00:00:00",
+      "highlighted": [
+        "Loan-to-Value (LTV) Calculator"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://calculatordad.com/loan/ltv#:~:text=Loan-to-Value%20(LTV)%20Calculator,mortgage%20insurance%20can%20come%20off.",
+          "domain": "calculatordad.com"
+        }
+      ],
+      "timestamp": "2026-09-23 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "www.crimsonbench.com",
+      "title": "Loan-to-Value (LTV) Calculator - The Crimson Bench",
+      "url": "https://www.crimsonbench.com/tools/loan-to-value-re/",
+      "breadcrumb": "https://www.crimsonbench.com › tools › loan-to-value-re",
+      "website_name": "crimsonbench.com",
+      "description": "Divide the loan by the property value to get LTV — the ratio that drives rates, approval, and mortgage insurance. How the Loan-to-Value (LTV) Calculator Works. Read more",
+      "highlighted": [
+        "Divide the loan by the property value"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.crimsonbench.com/tools/loan-to-value-re/#:~:text=Divide%20the%20loan%20by%20the,the%20Loan-to-Value%20(LTV)%20Calculator%20Works",
+          "domain": "www.crimsonbench.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "rkcalculator.com",
+      "title": "Loan-to-Value (LTV) Calculator",
+      "url": "https://rkcalculator.com/ltv-calculator",
+      "breadcrumb": "https://rkcalculator.com › Finance",
+      "website_name": "rkcalculator.com",
+      "description": "Sep 26, 2026 — Find a mortgage's loan-to-value ratio for a purchase or a refinance. Change the values and press Calculate to work out your own figures. Read more",
+      "pre_snippet": "09/26/2026 00:00:00",
+      "highlighted": [
+        "Find a mortgage's loan-to-value ratio"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://rkcalculator.com/ltv-calculator#:~:text=Find%20a%20mortgage's%20loan-to-value%20ratio,work%20out%20your%20own%20figures.",
+          "domain": "rkcalculator.com"
+        }
+      ],
+      "timestamp": "2026-09-26 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "www.mvpcapitalmortgage.com",
+      "title": "LTV Calculator - MVP Capital Mortgage",
+      "url": "https://www.mvpcapitalmortgage.com/ltv-calculator",
+      "breadcrumb": "https://www.mvpcapitalmortgage.com › ltv-calculator",
+      "website_name": "mvpcapitalmortgage.com",
+      "description": "LTV Calculator. Take your first step towards your home loan journey. Get a free quote · See rates. NMLS #2072896. Settle down in your new home without a ... Read more",
+      "highlighted": [
+        "LTV Calculator"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.mvpcapitalmortgage.com/ltv-calculator#:~:text=LTV%20Calculator,you%20had%20to%20settle%20for.",
+          "domain": "www.mvpcapitalmortgage.com"
+        }
+      ]
+    },
+    {
+      "type": "images",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "title": "Images",
+      "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnt_f_tXN2_fjNECRCCKAfBLOQGh5w:1791474396709&q=ltv+calculator&udm=2&source=univ&fir=VyU7eppI95kAjM%252Cs8-tmuLNZ6SaPM%252C_%253BOG0MeuAjEl7HaM%252ChfAP83ZgTUOwIM%252C_%253BSwcTBP4I2758tM%252CnhXfuyEtHqV_JM%252C_%253BAO6sdEXUCIXgyM%252CfQQLCEhKoZue3M%252C_%253B-wygz4fOmuNH7M%252ChfAP83ZgTUOwIM%252C_%253BaH8HAJQGVpas7M%252CnhXfuyEtHqV_JM%252C_%253BIZbmXMaDGYUZzM%252CvFhS1AGyuVNXbM%252C_%253BStlt077oEgKK4M%252CctFnrxNxD1AIXM%252C_%253BK9qoS42-IS4uAM%252CA4zWYtRTPd49YM%252C_&usg=AI4_-kQiWLm5GcwukjGGKbi3OcxQWl51Pg&sa=X&ved=2ahUKEwiJzaiY4qqXAxXMjpUCHdmcFpMQ7Al6BAhWEAU",
+      "items": [
+        {
+          "type": "images_element",
+          "alt": "Loan-To-Value Ratio (LTV): How to Calculate",
+          "url": "https://www.azibo.com/academy/ltv-calculator",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR14_jemqgt2tXXMOtz0j44hHbj7qs0zMrCurQxPY0zbym3cidNaqkErsg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator - MaidCentral",
+          "url": "https://maidcentral.com/calculators/ltv/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRET7j-9Kvcio6icmHlbY_ENeE0Cov1ebcIXBludle0FjTZFEwI8_B_qoRg&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator | Free Loan-To-Value Ratio Tool In 2026",
+          "url": "https://www.reifloans.com/calculators/ltv/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6BOtoZV0jzvLMfzphFdOcgoMyexmtG_g0C-KVYa55YqiDUcYINcHVOc&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator: Find Your Loan-to-Value Ratio | Free Tool",
+          "url": "https://activecalculator.com/calculators/finance/ltv-calculator",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJwCj8Gd2n9XsQ01lwSUh_r0hcbCJKA55BM--YrOKRO5IVXKyYZvnQIL2tQ&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator - MaidCentral",
+          "url": "https://maidcentral.com/calculators/ltv/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVPCNXHBjfJfIgULGNBhxLIBqCJxv7VILXz14ShXf1Vhx3drHSPx77RK6Vw&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator | Free Loan-To-Value Ratio Tool In 2026",
+          "url": "https://www.reifloans.com/calculators/ltv/",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOGLU9HuN62xInTzEbOZ6KP7H09XIFyERF9LLKL7ZIMNxr1-8PDCoHqWY&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV CALCULATOR",
+          "url": "https://colson.reclaimhosting.com/bulletin/680VYxoW5kYS/Ltv_Calculator",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp929EUvPuQ3S2tI8SqMJGyVx8pqWVncpEw8cLP3WNxeUhvZ_IIAknI0ULiA&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "LTV Calculator - Apps on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sanca.ltvcalculator&hl=en",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfI2uEPsEpN8aSiYmJufGIWgPqCI0GtojFOFKjAEQgHYvINguHvZ67W9z3Ew&s"
+        },
+        {
+          "type": "images_element",
+          "alt": "Loan-to-Value (LTV) Calculator - Creative Widgets",
+          "url": "https://creativewidgets.io/calculators/business/ltv-calculator",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNTYGFS7ZLkfS6EbA5nemC7ebN062S1A9rzgV5kL4or7R46GFZV8TEZM&s"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Ltv calculator mortgage",
+        "Free ltv calculator"
+      ]
+    }
+  ]
+}

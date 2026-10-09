@@ -1,0 +1,548 @@
+{
+ "id": "10081545-2633-0066-0000-f8e966091b2a",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "items": [
+  {
+   "type": "ai_overview",
+   "rank_group": 1,
+   "rank_absolute": 1,
+   "page": 1,
+   "markdown": "To write a clear Product Requirements Document (PRD), follow the streamlined process outlined in the [Notion PRD Guide](https://www.notion.com/blog/how-to-write-a-prd) to define your product's purpose, scope, features, and release criteria.[[1]](https://www.notion.com/blog/how-to-write-a-prd)\n\n### 1. Define the Overview and Goals\n\n- **State the purpose:** Explain what you are building and why.\n- **Set objectives:** Connect the project to company goals.\n- **Track metrics:** List specific numbers to measure success (like usage rate or time saved).[[1]](https://www.youtube.com/watch?v=ewfneGyjhaY&t=172)[[2]](https://www.notion.com/blog/how-to-write-a-prd)\n\n### 2. Describe the User and Problem\n\n- **Identify the user:** Write brief user personas or profiles.\n- **Frame the problem:** Describe the exact pain point your product solves.\n- **Map user journeys:** Detail the key steps a user takes to complete a task.[[1]](https://www.figma.com/resource-library/product-requirements-document/)[[2]](https://www.linkedin.com/pulse/mastering-art-writing-compelling-product-requirements-preacher-h3qne)[[3]](https://www.youtube.com/shorts/66beF8kUIFc)\n\n### 3. Detail the Requirements\n\n- **Write user stories:** Use a simple format like *\"As a user, I want to do X so that I can achieve Y\"*.\n- **List features:** Break features down by priority, such as using MoSCoW (Must have, Should have, Could have, Won't have).\n- **Add acceptance criteria:** Create a clear checklist that engineers must meet before shipping.[[1]](https://www.reddit.com/r/ProductManagement/comments/nh700w/how_to_write_a_product_requirements_document/)[[2]](https://www.youtube.com/watch?v=mi8pQfP_Tgo&t=1)[[3]](https://www.figma.com/resource-library/product-requirements-document/)\n\n### 4. Set Boundaries and Constraints\n\n- **Define scope:** State clearly what is included and what is out of scope for this release.\n- **List assumptions:** Note any technical or business assumptions your team is making.\n- **Keep it brief:** Avoid overly long documents so your team actually reads and uses the guide.[[1]](https://www.atlassian.com/agile/product-management/requirements)[[2]](https://www.notion.com/blog/how-to-write-a-prd)[[3]](https://www.youtube.com/watch?v=ewfneGyjhaY&t=172)[[4]](https://www.youtube.com/shorts/66beF8kUIFc)\n\nWatch this step-by-step video walkthrough on how to write a great PRD with a practical template:\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9sMQcKVzjXA6U83_yGwNt97YF_gTWcDklpfduFOIRg5LeFaBT)\n6:31\n[](https://www.youtube.com/watch?v=jdSFQG7dyrk) How to Write a Great PRD (Step-by-Step Tutorial with Template & ...8.2K views  · 1 year ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · ClickUp",
+   "items": [
+    {
+     "type": "ai_overview_element",
+     "text": "To write a clear Product Requirements Document (PRD), follow the streamlined process outlined in the Notion PRD Guide to define your product's purpose, scope, features, and release criteria.",
+     "markdown": "To write a clear Product Requirements Document (PRD), follow the streamlined process outlined in the [Notion PRD Guide](https://www.notion.com/blog/how-to-write-a-prd) to define your product's purpose, scope, features, and release criteria.[[1]](https://www.notion.com/blog/how-to-write-a-prd)",
+     "links": [
+      {
+       "type": "link_element",
+       "title": "Notion PRD Guide",
+       "url": "https://www.notion.com/blog/how-to-write-a-prd",
+       "domain": "www.notion.com"
+      }
+     ],
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Notion",
+       "domain": "www.notion.com",
+       "url": "https://www.notion.com/blog/how-to-write-a-prd",
+       "title": "How to write a PRD in 7 simple steps - Notion",
+       "text": "How to write a product requirements document. The most streamlined PRDs cover the product's basic purpose, goals, features, and re..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "1. Define the Overview and Goals",
+     "text": "State the purpose: Explain what you are building and why. Set objectives: Connect the project to company goals. Track metrics: List specific numbers to measure success (like usage rate or time saved).",
+     "markdown": "- **State the purpose:** Explain what you are building and why.\n- **Set objectives:** Connect the project to company goals.\n- **Track metrics:** List specific numbers to measure success (like usage rate or time saved).[[1]](https://www.youtube.com/watch?v=ewfneGyjhaY&t=172)[[2]](https://www.notion.com/blog/how-to-write-a-prd)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=ewfneGyjhaY&t=172",
+       "title": "How to write a PRD? | Walkthrough of PRD Template Example",
+       "text": "How to write a PRD? | Walkthrough of PRD Template Example seven are the questions. and eight is listing out what is out of scope. ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Notion",
+       "domain": "www.notion.com",
+       "url": "https://www.notion.com/blog/how-to-write-a-prd",
+       "title": "How to write a PRD in 7 simple steps - Notion",
+       "text": "How to write a product requirements document. The most streamlined PRDs cover the product's basic purpose, goals, features, and re..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "2. Describe the User and Problem",
+     "text": "Identify the user: Write brief user personas or profiles. Frame the problem: Describe the exact pain point your product solves. Map user journeys: Detail the key steps a user takes to complete a task.",
+     "markdown": "- **Identify the user:** Write brief user personas or profiles.\n- **Frame the problem:** Describe the exact pain point your product solves.\n- **Map user journeys:** Detail the key steps a user takes to complete a task.[[1]](https://www.figma.com/resource-library/product-requirements-document/)[[2]](https://www.linkedin.com/pulse/mastering-art-writing-compelling-product-requirements-preacher-h3qne)[[3]](https://www.youtube.com/shorts/66beF8kUIFc)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/resource-library/product-requirements-document/",
+       "title": "How to create a product requirements document + free template - Figma",
+       "text": "How to write a PRD in 6 steps. Here are six steps to writing a PRD. how to write. a product requirements document · Step 1: Lay th..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "LinkedIn",
+       "domain": "www.linkedin.com",
+       "url": "https://www.linkedin.com/pulse/mastering-art-writing-compelling-product-requirements-preacher-h3qne",
+       "title": "Mastering the Art of Writing a Compelling Product Requirements ...",
+       "text": "Introduction Writing a good PRD (Product Requirements Document) is a critical skill for product managers and involves several key ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/shorts/66beF8kUIFc",
+       "title": "How to Write a Perfect PRD | Google Group PM",
+       "text": "How to Write a Perfect PRD | Google Group PM prd should probably be the first document written for creating a product everything e..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "3. Detail the Requirements",
+     "text": "Write user stories: Use a simple format like \"As a user, I want to do X so that I can achieve Y\". List features: Break features down by priority, such as using MoSCoW (Must have, Should have, Could have, Won't have). Add acceptance criteria: Create a clear checklist that engineers must meet before shipping.",
+     "markdown": "- **Write user stories:** Use a simple format like *\"As a user, I want to do X so that I can achieve Y\"*.\n- **List features:** Break features down by priority, such as using MoSCoW (Must have, Should have, Could have, Won't have).\n- **Add acceptance criteria:** Create a clear checklist that engineers must meet before shipping.[[1]](https://www.reddit.com/r/ProductManagement/comments/nh700w/how_to_write_a_product_requirements_document/)[[2]](https://www.youtube.com/watch?v=mi8pQfP_Tgo&t=1)[[3]](https://www.figma.com/resource-library/product-requirements-document/)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Reddit",
+       "domain": "www.reddit.com",
+       "url": "https://www.reddit.com/r/ProductManagement/comments/nh700w/how_to_write_a_product_requirements_document/",
+       "title": "How to write a product requirements document : r/ProductManagement",
+       "text": "Testing Plan and Acceptance Criteria: A PRD should include a Testing Plan and Acceptance Criteria to serve as a checklist summariz..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=mi8pQfP_Tgo&t=1",
+       "title": "What is PRD | How to write PRD | Product Management",
+       "text": "What is PRD | How to write PRD | Product Management what is the PRD. how to write the PRD. who is reading your PRD. these are all ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Figma",
+       "domain": "www.figma.com",
+       "url": "https://www.figma.com/resource-library/product-requirements-document/",
+       "title": "How to create a product requirements document + free template - Figma",
+       "text": "How to write a PRD in 6 steps. Here are six steps to writing a PRD. how to write. a product requirements document · Step 1: Lay th..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "title": "4. Set Boundaries and Constraints",
+     "text": "Define scope: State clearly what is included and what is out of scope for this release. List assumptions: Note any technical or business assumptions your team is making. Keep it brief: Avoid overly long documents so your team actually reads and uses the guide.",
+     "markdown": "- **Define scope:** State clearly what is included and what is out of scope for this release.\n- **List assumptions:** Note any technical or business assumptions your team is making.\n- **Keep it brief:** Avoid overly long documents so your team actually reads and uses the guide.[[1]](https://www.atlassian.com/agile/product-management/requirements)[[2]](https://www.notion.com/blog/how-to-write-a-prd)[[3]](https://www.youtube.com/watch?v=ewfneGyjhaY&t=172)[[4]](https://www.youtube.com/shorts/66beF8kUIFc)",
+     "references": [
+      {
+       "type": "ai_overview_reference",
+       "source": "Atlassian",
+       "domain": "www.atlassian.com",
+       "url": "https://www.atlassian.com/agile/product-management/requirements",
+       "title": "What is a Product Requirements Document (PRD)? - Atlassian",
+       "text": "1. Define project specifics. Project Plan template in Confluence. We recommend including high-level direction at the top of the pa..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "Notion",
+       "domain": "www.notion.com",
+       "url": "https://www.notion.com/blog/how-to-write-a-prd",
+       "title": "How to write a PRD in 7 simple steps - Notion",
+       "text": "How to write a product requirements document. The most streamlined PRDs cover the product's basic purpose, goals, features, and re..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/watch?v=ewfneGyjhaY&t=172",
+       "title": "How to write a PRD? | Walkthrough of PRD Template Example",
+       "text": "How to write a PRD? | Walkthrough of PRD Template Example seven are the questions. and eight is listing out what is out of scope. ..."
+      },
+      {
+       "type": "ai_overview_reference",
+       "source": "YouTube",
+       "domain": "www.youtube.com",
+       "url": "https://www.youtube.com/shorts/66beF8kUIFc",
+       "title": "How to Write a Perfect PRD | Google Group PM",
+       "text": "How to Write a Perfect PRD | Google Group PM prd should probably be the first document written for creating a product everything e..."
+      }
+     ]
+    },
+    {
+     "type": "ai_overview_element",
+     "text": "Watch this step-by-step video walkthrough on how to write a great PRD with a practical template: 6:31 How to Write a Great PRD (Step-by-Step Tutorial with Template & ... 8.2K views · 1 year ago YouTube · ClickUp",
+     "markdown": "Watch this step-by-step video walkthrough on how to write a great PRD with a practical template:\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9sMQcKVzjXA6U83_yGwNt97YF_gTWcDklpfduFOIRg5LeFaBT)\n6:31\n[](https://www.youtube.com/watch?v=jdSFQG7dyrk) How to Write a Great PRD (Step-by-Step Tutorial with Template & ...8.2K views  · 1 year ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · ClickUp"
+    }
+   ],
+   "references": [
+    {
+     "type": "ai_overview_reference",
+     "source": "Reddit",
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/ProductManagement/comments/nh700w/how_to_write_a_product_requirements_document/",
+     "title": "How to write a product requirements document : r/ProductManagement",
+     "text": "Testing Plan and Acceptance Criteria: A PRD should include a Testing Plan and Acceptance Criteria to serve as a checklist summariz..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Notion",
+     "domain": "www.notion.com",
+     "url": "https://www.notion.com/blog/how-to-write-a-prd",
+     "title": "How to write a PRD in 7 simple steps - Notion",
+     "text": "How to write a product requirements document. The most streamlined PRDs cover the product's basic purpose, goals, features, and re..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Atlassian",
+     "domain": "www.atlassian.com",
+     "url": "https://www.atlassian.com/agile/product-management/requirements",
+     "title": "What is a Product Requirements Document (PRD)? - Atlassian",
+     "text": "1. Define project specifics. Project Plan template in Confluence. We recommend including high-level direction at the top of the pa..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=ewfneGyjhaY&t=172",
+     "title": "How to write a PRD? | Walkthrough of PRD Template Example",
+     "text": "How to write a PRD? | Walkthrough of PRD Template Example seven are the questions. and eight is listing out what is out of scope. ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "Figma",
+     "domain": "www.figma.com",
+     "url": "https://www.figma.com/resource-library/product-requirements-document/",
+     "title": "How to create a product requirements document + free template - Figma",
+     "text": "How to write a PRD in 6 steps. Here are six steps to writing a PRD. how to write. a product requirements document · Step 1: Lay th..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/shorts/66beF8kUIFc",
+     "title": "How to Write a Perfect PRD | Google Group PM",
+     "text": "How to Write a Perfect PRD | Google Group PM prd should probably be the first document written for creating a product everything e..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "YouTube",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=mi8pQfP_Tgo&t=1",
+     "title": "What is PRD | How to write PRD | Product Management",
+     "text": "What is PRD | How to write PRD | Product Management what is the PRD. how to write the PRD. who is reading your PRD. these are all ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "LinkedIn",
+     "domain": "www.linkedin.com",
+     "url": "https://www.linkedin.com/pulse/mastering-art-writing-compelling-product-requirements-preacher-h3qne",
+     "title": "Mastering the Art of Writing a Compelling Product Requirements ...",
+     "text": "Introduction Writing a good PRD (Product Requirements Document) is a critical skill for product managers and involves several key ..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "www.youtube.com",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=ewfneGyjhaY",
+     "title": "How to write a PRD? | Walkthrough of PRD Template Example",
+     "text": "and other stakeholders be able to self-s serve. and find those documents. without having to ask you where they are constantly. and..."
+    },
+    {
+     "type": "ai_overview_reference",
+     "source": "www.youtube.com",
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=jdSFQG7dyrk",
+     "title": "How to Write a Great PRD (Step-by-Step Tutorial with Template & ...",
+     "text": "app sounds like you know what you're doing but what does that actually mean generic descriptions are dangerous. they make everyone..."
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 1,
+   "rank_absolute": 2,
+   "page": 1,
+   "domain": "www.linkedin.com",
+   "title": "Getting Started with Product Requirements Document ...",
+   "url": "https://www.linkedin.com/pulse/getting-started-product-requirements-document-prd-tips-jon-moze-wzsyc",
+   "breadcrumb": "10+ reactions  ·  2 years ago",
+   "website_name": "LinkedIn · Jon Moze",
+   "description": "Start high-level and work to specifics. Map out the key user flow and cover the high-level functions and categories in your user stories first. ...",
+   "highlighted": [
+    "Start high-level and work to specifics"
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 2,
+   "rank_absolute": 3,
+   "page": 1,
+   "domain": "www.productplan.com",
+   "title": "Product Requirements Document | Glossary",
+   "url": "https://www.productplan.com/glossary/product-requirements-document",
+   "breadcrumb": "https://www.productplan.com › glossary › product-requ...",
+   "website_name": "ProductPlan",
+   "description": "A PRD must include every explicit capability required for the release. To support each desired capability, there should be an accompanying use case illustrating ... Read more",
+   "highlighted": [
+    "must include every explicit capability required for the release"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.productplan.com/glossary/product-requirements-document#:~:text=A%20PRD%20must%20include%20every,an%20accompanying%20use%20case%20illustrating",
+     "domain": "www.productplan.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 3,
+   "rank_absolute": 4,
+   "page": 1,
+   "domain": "www.youtube.com",
+   "title": "How to write a Product Requirements Document PRD (Amazon ...",
+   "url": "https://www.youtube.com/watch?v=eSGKdPcyyxo",
+   "breadcrumb": "2K+ views  ·  3 years ago",
+   "website_name": "YouTube · rocketblocks",
+   "is_video": true,
+   "checks": [
+    "is_video"
+   ],
+   "timestamp": "2023-06-28 00:00:00 +00:00"
+  },
+  {
+   "type": "people_also_ask",
+   "rank_group": 1,
+   "rank_absolute": 5,
+   "page": 1,
+   "items": [
+    {
+     "type": "people_also_ask_element",
+     "title": "What is a PRD?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "How to write a product description?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "How does a BRD look like?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    },
+    {
+     "type": "people_also_ask_element",
+     "title": "What are examples of project requirements?",
+     "expanded_element": [
+      {
+       "type": "people_also_ask_ai_overview_expanded_element",
+       "asynchronous_ai_overview": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "video",
+   "rank_group": 1,
+   "rank_absolute": 6,
+   "page": 1,
+   "items": [
+    {
+     "type": "video_element",
+     "source": "YouTube · ClickUp",
+     "title": "How to Write a Great PRD (Step-by-Step Tutorial with Template ...",
+     "timestamp": "2025-09-29 00:00:00 +00:00",
+     "url": "https://www.youtube.com/watch?v=jdSFQG7dyrk"
+    },
+    {
+     "type": "video_element",
+     "source": "YouTube · Explained Hub",
+     "title": "How to Write a PRD: Product Requirements Document Explained",
+     "timestamp": "2026-10-01 15:45:42 +00:00",
+     "url": "https://www.youtube.com/watch?v=0VTT3ivsohQ&vl=pl"
+    },
+    {
+     "type": "video_element",
+     "source": "YouTube · HelloPM",
+     "title": "How to Write a Product Requirements Document - Create PRD",
+     "timestamp": "2023-09-18 00:00:00 +00:00",
+     "url": "https://www.youtube.com/watch?v=JJzODsXsCt0"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 4,
+   "rank_absolute": 7,
+   "page": 1,
+   "domain": "www.atlassian.com",
+   "title": "Free Product Requirements Document (PRD) Template",
+   "url": "https://www.atlassian.com/software/confluence/templates/product-requirements",
+   "breadcrumb": "https://www.atlassian.com › ... › Confluence › Templates",
+   "website_name": "Atlassian",
+   "description": "How to write a product requirements document (PRD) · 1. Define PRD basics and team roles · 2. Set product objectives and success metrics · 3. List your assumptions ... Read more",
+   "highlighted": [
+    "1. Define PRD basics and team roles"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.atlassian.com/software/confluence/templates/product-requirements#:~:text=How%20to%20write%20a%20product,requirements%20document%20(PRD)&text=1,PRD%20basics%20and%20team%20roles&text=2,product%20objectives%20and%20success%20metrics&text=3,and%20options%20to%20address%20them",
+     "domain": "www.atlassian.com"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 5,
+   "rank_absolute": 8,
+   "page": 1,
+   "domain": "www.linkedin.com",
+   "title": "How to Write a Great Product Requirements Document ...",
+   "url": "https://www.linkedin.com/posts/aakashnewsletter_ive-spent-15-years-writing-product-requirements-activity-7367194336968556544-Lgf6",
+   "breadcrumb": "120+ reactions  ·  1 year ago",
+   "website_name": "LinkedIn · Product Growth",
+   "description": "A great PRD evolves over six stages to keep teams aligned and focused. STAGE ONE - Aperture → Align leadership. Stakeholder-/sales-driven ...",
+   "highlighted": [
+    "stages"
+   ]
+  },
+  {
+   "type": "images",
+   "rank_group": 1,
+   "rank_absolute": 9,
+   "page": 1,
+   "title": "Images",
+   "url": "https://www.google.com/search?sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnsXDrUscY6TjHtpFxC29Qt9wN_tlQ:1791474341915&q=how+to+write+a+prd&udm=2&source=univ&fir=taDMNrOob6qklM%252CCjWoZkI5fyGeSM%252C_%253B7giIK3oeJpY7qM%252Cv5_KnqJd2WoPNM%252C_%253BLI-oa3PLzfw70M%252CXeuzXVvBylp-LM%252C_%253BBKuhRZC5q_KfpM%252C_2c3-HUSPhiClM%252C_%253BFN0hJeknwf8cIM%252Cbu1rZcwH9yk_pM%252C_%253BTgNw0YxAYOzTfM%252ChA2Ei7COASWwLM%252C_%253B3ofFQw2bM3MkLM%252CHWG7XDjgLdqyBM%252C_%253Br43m8r4LNXnDDM%252C_2c3-HUSPhiClM%252C_%253BpEiTP3tRsDv9HM%252Cwx10-r46j-mHNM%252C_&usg=AI4_-kTvQz6VvPpFJYBEwiuelNulvfMalA&sa=X&ved=2ahUKEwip1Jb-4aqXAxXEMTUKHdWkFuEQ7Al6BAhIEAU",
+   "items": [
+    {
+     "type": "images_element",
+     "alt": "How To Create a Product Requirements Document | Figma",
+     "url": "https://www.figma.com/resource-library/product-requirements-document/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJKS6fjqpJ8QDj7jksZG3bszSoXpQWDfLB3N-EEgG8tsOLnrViSiZky_U&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "13x PRD Examples including Real PRD Templates - Hustle Badger",
+     "url": "https://www.hustlebadger.com/what-do-product-teams-do/prd-template-examples/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8dqF8voDS2oedZkHUoExzqfD-wZSXm-FG2PoPMjRJlAgxXEWtwKIfcM&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to Write a PRD: Your Complete Guide to Product ...",
+     "url": "https://www.perforce.com/blog/alm/how-write-product-requirements-document-prd",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4m9CMuKVr4yPo7hzODk1jP2diItSJoiqsDSXsTs3Xngfv19FOv5K6R4&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to write a lean PRD (product requirements document) for ...",
+     "url": "https://plan.io/blog/one-pager-prd-product-requirements-document/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGO9KgzLyBx5aDSqzyG5p0QhZrRHgZez1h86jvHFcQ-1CDWoqXLVeYzBk&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to Write An Effective Product Requirements Document (PRD)",
+     "url": "https://www.jamasoftware.com/requirements-management-guide/writing-requirements/how-to-write-an-effective-product-requirements-document/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hq8xMOqOLvTj2AEyc2uwpA8iTWsazZXNcN0xFr3fm-UX1aUHlQiuRhk&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "PRD Template and 2 Real Examples: Airbnb and LeetCode",
+     "url": "https://www.news.aakashg.com/p/product-requirements-documents-prds",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTjBxIsF-XqSOSNPpqJReNHumpb8Kw2ZvCm4_e4fpLDvblLo1b1dNE1WU&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "Product Requirements Document: What it Is & How to Write One",
+     "url": "https://www.scalablepath.com/project-management/product-requirements-document-guide",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2okIufrIPZiIAYPOlforI1YV_sZKA4XtSPyDqQw_vAyiOI9mM8oL-0zc&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "How to write a lean PRD (product requirements document) for ...",
+     "url": "https://plan.io/blog/one-pager-prd-product-requirements-document/",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2A2reyVmbN0FZdTwHS6ltexJllSKPvqg2ZFfaiUNXFJLzHjishOVb3YM&s"
+    },
+    {
+     "type": "images_element",
+     "alt": "What is a product requirements document (PRD)?",
+     "url": "https://www.rocketblocks.me/blog/what-is-a-prd.php",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQpsTtIY9cnQGbKqRArWuioTTby7GX96oYInNyZamUgNHgZUmUkh6HAc&s"
+    }
+   ]
+  },
+  {
+   "type": "organic",
+   "rank_group": 6,
+   "rank_absolute": 10,
+   "page": 1,
+   "domain": "www.reforge.com",
+   "title": "What Is It & How To Write It [With 7 Templates]",
+   "url": "https://www.reforge.com/blog/product-requirement-document-prd-templates",
+   "breadcrumb": "https://www.reforge.com › blog › product-requirement-...",
+   "website_name": "Reforge",
+   "description": "May 7, 2024 — A Product Requirements Document (PRD) is a blueprint that outlines all of the necessary features and specifications of a new product, including ... Read more",
+   "pre_snippet": "05/07/2024 00:00:00",
+   "highlighted": [
+    "Product Requirements Document (PRD"
+   ],
+   "links": [
+    {
+     "type": "link_element",
+     "title": "Read more",
+     "url": "https://www.reforge.com/blog/product-requirement-document-prd-templates#:~:text=%E2%80%B9%20Top%205%20Skills%20to",
+     "domain": "www.reforge.com"
+    }
+   ],
+   "timestamp": "2024-05-07 00:00:00 +00:00"
+  },
+  {
+   "type": "organic",
+   "rank_group": 7,
+   "rank_absolute": 11,
+   "page": 1,
+   "domain": "www.quora.com",
+   "title": "How can I write a good PRD?",
+   "url": "https://www.quora.com/How-can-I-write-a-good-PRD",
+   "breadcrumb": "30+ answers  ·  11 years ago",
+   "website_name": "Quora",
+   "description": "How can I write a good PRD?",
+   "links": [
+    {
+     "type": "link_element",
+     "title": "34 answers",
+     "url": "https://www.quora.com/How-can-I-write-a-good-PRD?top_ans=166897062",
+     "domain": "www.quora.com"
+    }
+   ]
+  },
+  {
+   "type": "related_searches",
+   "rank_group": 1,
+   "rank_absolute": 12,
+   "page": 1,
+   "items": [
+    "How to write a prd template",
+    "PRD example",
+    "PRD template",
+    "Product requirements document",
+    "Product requirements document template Word",
+    "PRD template free download",
+    "PRD template Google Docs",
+    "PRD template Word free download"
+   ]
+  }
+ ]
+}

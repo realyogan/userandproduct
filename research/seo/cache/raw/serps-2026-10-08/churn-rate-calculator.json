@@ -1,0 +1,450 @@
+{
+  "id": "10081545-2633-0066-0000-987a6b2d6dc0",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "domain": "www.mailmodo.com",
+      "title": "Churn Rate Calculator",
+      "url": "https://www.mailmodo.com/calculators/churn-rate-calculator/",
+      "breadcrumb": "https://www.mailmodo.com › calculators",
+      "website_name": "Mailmodo",
+      "description": "To calculate your churn rate, input the number of customers you have lost during a specific period and the total number of customers at the start of that period ... Read more",
+      "extended_snippet": "5.0(1)  · Free · ‎Business/Productivity",
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1,
+        "rating_max": 5
+      },
+      "highlighted": [
+        "input the number of customers you have lost during a specific period"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://www.mailmodo.com/calculators/churn-rate-calculator/#:~:text=To%20calculate%20your%20churn%20rate%2C,the%20start%20of%20that%20period.",
+          "domain": "www.mailmodo.com"
+        }
+      ]
+    },
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "markdown": "You can calculate your customer attrition online using the [Yotpo Churn Rate Calculator](https://www.yotpo.com/tools/churn-rate-calculator/) or the [Amplitude Churn Calculator](https://amplitude.com/calculate/churn-rate).[[1]](https://amplitude.com/calculate/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)\n\n### The Churn Rate Formula\n\nTo find your churn rate manually, divide the number of customers lost during a specific period by the number of customers you had at the start of that same period, then multiply by 100.[[1]](https://amplitude.com/calculate/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)\n\nChurn Rate=(Customers Lost Customers at Start of Period)×100 Churn Rate equals open paren the fraction with numerator Customers Lost and denominator Customers at Start of Period end-fraction close paren cross 100 C h u r n R a t e=C u s t o m e r s L o s t C u s t o m e r s a t S t a r t o f P e r i o d×1 0 0\n\n### Example Calculation\n\n- **Starting customers:** 1,000\n- **Lost customers:** 50\n- **Calculation:** (50 ÷ 1,000) × 100 = 5%\n- **Monthly Churn Rate:** 5%[[1]](https://www.yotpo.com/tools/churn-rate-calculator/)[[2]](https://churntools.com/churn-rate-calculator)\n\n### Key Metrics to Know\n\n- **Customer Churn:** Measures the raw percentage of individual users or accounts that leave.\n- **Revenue Churn:** Measures lost Monthly Recurring Revenue (MRR) instead of user counts. It uses the formula: (MRR Lost ÷ Starting MRR) × 100.\n- **Customer Lifetime:** Calculated as 1 ÷ Churn Rate. A 5% monthly churn rate yields an average customer lifetime of 20 months.[[1]](https://www.omnicalculator.com/finance/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)[[3]](https://observix.ai/free-tools/churn-rate-calculator)[[4]](https://churntools.com/churn-rate-calculator)[[5]](https://www.churnnote.com/tools/churn-rate-calculator)[[6]](https://www.youtube.com/watch?v=BNWKIGX9WFE&t=38)",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "You can calculate your customer attrition online using the Yotpo Churn Rate Calculator or the Amplitude Churn Calculator.",
+          "markdown": "You can calculate your customer attrition online using the [Yotpo Churn Rate Calculator](https://www.yotpo.com/tools/churn-rate-calculator/) or the [Amplitude Churn Calculator](https://amplitude.com/calculate/churn-rate).[[1]](https://amplitude.com/calculate/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Yotpo Churn Rate Calculator",
+              "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+              "domain": "www.yotpo.com"
+            },
+            {
+              "type": "link_element",
+              "title": "Amplitude Churn Calculator",
+              "url": "https://amplitude.com/calculate/churn-rate",
+              "domain": "amplitude.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/calculate/churn-rate",
+              "title": "Churn Rate Calculator",
+              "text": "Churn Calculator * What is churn rate? Churn rate is the percentage of customers that stop using a product or service in a specifi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+              "title": "Churn Rate Calculator - Yotpo",
+              "text": "Churn Rate Calculator FAQs * What is churn rate? Churn rate is the percentage of customers who stopped doing business with you ove..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "The Churn Rate Formula",
+          "text": "To find your churn rate manually, divide the number of customers lost during a specific period by the number of customers you had at the start of that same period, then multiply by 100.",
+          "markdown": "To find your churn rate manually, divide the number of customers lost during a specific period by the number of customers you had at the start of that same period, then multiply by 100.[[1]](https://amplitude.com/calculate/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Amplitude",
+              "domain": "amplitude.com",
+              "url": "https://amplitude.com/calculate/churn-rate",
+              "title": "Churn Rate Calculator",
+              "text": "Churn Calculator * What is churn rate? Churn rate is the percentage of customers that stop using a product or service in a specifi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+              "title": "Churn Rate Calculator - Yotpo",
+              "text": "Churn Rate Calculator FAQs * What is churn rate? Churn rate is the percentage of customers who stopped doing business with you ove..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Churn Rate = ( Customers Lost Customers at Start of Period ) × 100 Churn Rate equals open paren the fraction with numerator Customers Lost and denominator Customers at Start of Period end-fraction close paren cross 100 C h u r n R a t e = C u s t o m e r s L o s t C u s t o m e r s a t S t a r t o f P e r i o d × 1 0 0",
+          "markdown": "Churn Rate=(Customers Lost Customers at Start of Period)×100 Churn Rate equals open paren the fraction with numerator Customers Lost and denominator Customers at Start of Period end-fraction close paren cross 100 C h u r n R a t e=C u s t o m e r s L o s t C u s t o m e r s a t S t a r t o f P e r i o d×1 0 0"
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Example Calculation",
+          "text": "Starting customers: 1,000 Lost customers: 50 Calculation: (50 ÷ 1,000) × 100 = 5% Monthly Churn Rate: 5%",
+          "markdown": "- **Starting customers:** 1,000\n- **Lost customers:** 50\n- **Calculation:** (50 ÷ 1,000) × 100 = 5%\n- **Monthly Churn Rate:** 5%[[1]](https://www.yotpo.com/tools/churn-rate-calculator/)[[2]](https://churntools.com/churn-rate-calculator)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+              "title": "Churn Rate Calculator - Yotpo",
+              "text": "Churn Rate Calculator FAQs * What is churn rate? Churn rate is the percentage of customers who stopped doing business with you ove..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "churntools.com",
+              "domain": "churntools.com",
+              "url": "https://churntools.com/churn-rate-calculator",
+              "title": "Churn Rate Calculator: Monthly and Annual (Free 2026)",
+              "text": "Win Back Churned Customers Frequently Asked Questions How do you calculate monthly churn rate? Divide the number of customers you ..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Key Metrics to Know",
+          "text": "Customer Churn: Measures the raw percentage of individual users or accounts that leave. Revenue Churn: Measures lost Monthly Recurring Revenue (MRR) instead of user counts. It uses the formula: (MRR Lost ÷ Starting MRR) × 100. Customer Lifetime: Calculated as 1 ÷ Churn Rate. A 5% monthly churn rate yields an average customer lifetime of 20 months.",
+          "markdown": "- **Customer Churn:** Measures the raw percentage of individual users or accounts that leave.\n- **Revenue Churn:** Measures lost Monthly Recurring Revenue (MRR) instead of user counts. It uses the formula: (MRR Lost ÷ Starting MRR) × 100.\n- **Customer Lifetime:** Calculated as 1 ÷ Churn Rate. A 5% monthly churn rate yields an average customer lifetime of 20 months.[[1]](https://www.omnicalculator.com/finance/churn-rate)[[2]](https://www.yotpo.com/tools/churn-rate-calculator/)[[3]](https://observix.ai/free-tools/churn-rate-calculator)[[4]](https://churntools.com/churn-rate-calculator)[[5]](https://www.churnnote.com/tools/churn-rate-calculator)[[6]](https://www.youtube.com/watch?v=BNWKIGX9WFE&t=38)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Omni Calculator",
+              "domain": "www.omnicalculator.com",
+              "url": "https://www.omnicalculator.com/finance/churn-rate",
+              "title": "Churn Rate Calculator",
+              "text": "Definition: Churn rate is the percentage of customers lost during a specific period, providing critical insights for SaaS and cust..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Yotpo",
+              "domain": "www.yotpo.com",
+              "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+              "title": "Churn Rate Calculator - Yotpo",
+              "text": "Churn Rate Calculator FAQs * What is churn rate? Churn rate is the percentage of customers who stopped doing business with you ove..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "ObserviX",
+              "domain": "observix.ai",
+              "url": "https://observix.ai/free-tools/churn-rate-calculator",
+              "title": "Free Churn Rate Calculator",
+              "text": "What is a churn rate calculator? A churn rate calculator turns two numbers — what you started with and what you lost — into the pe..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "churntools.com",
+              "domain": "churntools.com",
+              "url": "https://churntools.com/churn-rate-calculator",
+              "title": "Churn Rate Calculator: Monthly and Annual (Free 2026)",
+              "text": "Win Back Churned Customers Frequently Asked Questions How do you calculate monthly churn rate? Divide the number of customers you ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "www.churnnote.com",
+              "domain": "www.churnnote.com",
+              "url": "https://www.churnnote.com/tools/churn-rate-calculator",
+              "title": "Free Churn Rate Calculator for SaaS",
+              "text": "How to Calculate Churn Rate The basic churn rate formula is straightforward: Churn Rate = (Customers Lost / Customers at Start) × ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=BNWKIGX9WFE&t=38",
+              "title": "How to Use Churn Rate to Calculate Customer Lifetime Value",
+              "text": "How to Use Churn Rate to Calculate Customer Lifetime Value so let me show you a formula that can help you take your churn rate and..."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Amplitude",
+          "domain": "amplitude.com",
+          "url": "https://amplitude.com/calculate/churn-rate",
+          "title": "Churn Rate Calculator",
+          "text": "Churn Calculator * What is churn rate? Churn rate is the percentage of customers that stop using a product or service in a specifi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Yotpo",
+          "domain": "www.yotpo.com",
+          "url": "https://www.yotpo.com/tools/churn-rate-calculator/",
+          "title": "Churn Rate Calculator - Yotpo",
+          "text": "Churn Rate Calculator FAQs * What is churn rate? Churn rate is the percentage of customers who stopped doing business with you ove..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Omni Calculator",
+          "domain": "www.omnicalculator.com",
+          "url": "https://www.omnicalculator.com/finance/churn-rate",
+          "title": "Churn Rate Calculator",
+          "text": "Definition: Churn rate is the percentage of customers lost during a specific period, providing critical insights for SaaS and cust..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "ObserviX",
+          "domain": "observix.ai",
+          "url": "https://observix.ai/free-tools/churn-rate-calculator",
+          "title": "Free Churn Rate Calculator",
+          "text": "What is a churn rate calculator? A churn rate calculator turns two numbers — what you started with and what you lost — into the pe..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "churntools.com",
+          "domain": "churntools.com",
+          "url": "https://churntools.com/churn-rate-calculator",
+          "title": "Churn Rate Calculator: Monthly and Annual (Free 2026)",
+          "text": "Win Back Churned Customers Frequently Asked Questions How do you calculate monthly churn rate? Divide the number of customers you ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "www.churnnote.com",
+          "domain": "www.churnnote.com",
+          "url": "https://www.churnnote.com/tools/churn-rate-calculator",
+          "title": "Free Churn Rate Calculator for SaaS",
+          "text": "How to Calculate Churn Rate The basic churn rate formula is straightforward: Churn Rate = (Customers Lost / Customers at Start) × ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=BNWKIGX9WFE&t=38",
+          "title": "How to Use Churn Rate to Calculate Customer Lifetime Value",
+          "text": "How to Use Churn Rate to Calculate Customer Lifetime Value so let me show you a formula that can help you take your churn rate and..."
+        }
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What does churn rate mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does 5% churn mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "How do I calculate the employee churn rate?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What does a 20% churn rate mean?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "amplitude.com",
+      "title": "Calculate Customer Churn Rate in 6 Clicks",
+      "url": "https://amplitude.com/blog/calculate-customer-churn-rate",
+      "breadcrumb": "https://amplitude.com › blog › calculate-customer-chur...",
+      "website_name": "Amplitude",
+      "description": "Learn how to calculate customer churn rate —and even drill down across regions and quarters—with just a few clicks in Amplitude.",
+      "highlighted": [
+        "Learn how to calculate customer churn rate"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "saaselevate.com",
+      "title": "Customer Churn Rate Calculator - SaaS Elevate",
+      "url": "https://saaselevate.com/customer-churn-rate-calculator/",
+      "breadcrumb": "https://saaselevate.com › customer-churn-rate-calculator",
+      "website_name": "saaselevate.com",
+      "description": "For example, if you started the month with 500 customers and ended with 450, you lost 50 customers. Your churn rate would be (50 ÷ 500) × 100 = 10%. Read more",
+      "highlighted": [
+        "50 ÷ 500) × 100 = 10"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://saaselevate.com/customer-churn-rate-calculator/#:~:text=For%20example%2C%20if%20you%20started,500)%20%C3%97%20100%20%3D%2010%25.",
+          "domain": "saaselevate.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "elementor.com",
+      "title": "Customer Churn Impact Calculator",
+      "url": "https://elementor.com/tools/customer-churn-impact-calculator/",
+      "breadcrumb": "https://elementor.com › tools › customer-churn-impact-c...",
+      "website_name": "Elementor",
+      "description": "You can calculate this by dividing the number of customers lost during the period by the number of customers you had at the beginning of the period. Number of ... Read more",
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://elementor.com/tools/customer-churn-impact-calculator/#:~:text=You%20can%20calculate%20this%20by,active%20customers%20you%20currently%20have.",
+          "domain": "elementor.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.behindthecmo.com",
+      "title": "Free Churn Rate Calculator",
+      "url": "https://www.behindthecmo.com/tools/churn-rate-calculator/",
+      "breadcrumb": "https://www.behindthecmo.com › Free Tools",
+      "website_name": "Behind the CMO",
+      "description": "Calculate customer and revenue churn, retention, and expected customer lifetime.",
+      "highlighted": [
+        "Calculate customer and revenue churn"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "mcpcalc.com",
+      "title": "Churn Rate Calculator: Formula & Use Cases - MCPCalc",
+      "url": "https://mcpcalc.com/business/churn-rate",
+      "breadcrumb": "https://mcpcalc.com › Business & Productivity",
+      "website_name": "mcpcalc.com",
+      "description": "Calculate churn and retention rates from customer loss. Enter customers at start, customers lost for instant results, formula context, and related tools.",
+      "highlighted": [
+        "Enter customers at start, customers lost"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "churn.utils.com",
+      "title": "Churn Rate Calculator - utils.com",
+      "url": "https://churn.utils.com/",
+      "breadcrumb": "https://churn.utils.com",
+      "website_name": "Utils.com",
+      "description": "Customer Churn Rate measures the percentage of customers lost during a period: Churn Rate = (Customers Lost / Customers at Start) × 100 ; Revenue Churn Rate ( ... Read more",
+      "highlighted": [
+        "Churn Rate = (Customers Lost / Customers at Start) × 100"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://churn.utils.com/#:~:text=Customer%20Churn%20Rate%20measures%20the,Customers%20at%20Start)%20%C3%97%20100&text=Revenue%20Churn%20Rate%20(Gross)%20measures,percentage%20of%20recurring%20revenue%20lost%3A",
+          "domain": "churn.utils.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "cust.co",
+      "title": "Customer Lifetime (months) Calculator - cust.co",
+      "url": "https://cust.co/calculators/customer-lifetime-calculator/",
+      "breadcrumb": "https://cust.co › Calculators",
+      "website_name": "cust.co",
+      "description": "Customer lifetime calculator. Enter annual churn, get average customer tenure in months. Used in LTV calculations.",
+      "highlighted": [
+        "Enter annual churn"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 9,
+      "rank_absolute": 11,
+      "page": 1,
+      "domain": "www.getguidesail.com",
+      "title": "Churn Reduction Revenue Calculator",
+      "url": "https://www.getguidesail.com/tools/churn-reduction-calculator",
+      "breadcrumb": "https://www.getguidesail.com › tools › churn-reduction...",
+      "website_name": "GuideSail",
+      "description": "Calculate the revenue impact of reducing customer churn. Free tool to estimate monthly and annual revenue saved by improving customer retention.",
+      "highlighted": [
+        "Free tool to estimate monthly and annual revenue"
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Churn rate formula",
+        "Churn rate calculator app",
+        "Churn rate calculator metric"
+      ]
+    }
+  ]
+}

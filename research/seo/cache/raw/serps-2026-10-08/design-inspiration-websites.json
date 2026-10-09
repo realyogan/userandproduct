@@ -1,0 +1,572 @@
+{
+  "id": "10081545-2633-0066-0000-48ac5a3b1123",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "items": [
+    {
+      "type": "ai_overview",
+      "rank_group": 1,
+      "rank_absolute": 1,
+      "page": 1,
+      "markdown": "Top design inspiration websites are `organized below by category to help you find mood boards, web design layouts, brand identities, and UI/UX examples`.\n\n### General & Visual Mood Boards\n\n- **[Designspiration](https://www.designspiration.com/)** : An image and color-search engine great for building mood boards, tracking down logos, and filtering by specific color hex codes.[[1]](https://www.designspiration.com/)[[2]](https://www.youtube.com/shorts/FZNLmOu0HxY?vl=en)\n- **Savee** : A clean, creative-focused alternative to Pinterest for organizing visual inspiration, architecture, furniture, and 3D design without clutter.[[1]](https://www.youtube.com/watch?v=CNXU9YPIjIs)[[2]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)\n- **Cosmos** : An AI-powered platform designed for building and organizing visual reference libraries and mood decks.[[1]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)\n- **Pinterest** : Ideal for broad conceptual themes, interior design, packaging, and quick visual searches.[[1]](https://primoprint.com/blog/10-best-graphic-design-websites-for-powerful-inspiration-in-2023/)[[2]](https://blog.streamlinehq.com/best-design-inspiration-websites/)\n\n### Web Design & Landing Pages\n\n- **[Siteinspire](https://www.siteinspire.com/)** : A well-curated, clean directory featuring the web's finest site designs and creative portfolios.\n- **Awwwards** : Highlights cutting-edge, award-winning web design, animations, and high-end interactive digital experiences.\n- **Land-book** : Focuses heavily on landing page layouts, UX structure, and digital product presentation.\n- **Minimal Gallery** : Great for browsing clean, minimal website designs with deep filtering options.\n- **Godly** : Showcases cutting-edge web design along with the underlying technology stacks used to build them.[[1]](https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/)[[2]](https://www.siteinspire.com/)[[3]](https://blog.streamlinehq.com/best-design-inspiration-websites/)[[4]](https://www.awwwards.com/websites/)[[5]](https://www.youtube.com/watch?v=CNXU9YPIjIs)\n\n### UI, App Design & Portfolios\n\n- **Dribbble** : A staple platform for micro-interactions, UI snippets, and portfolio showcases from digital designers.\n- **Behance** : Best for deep-dive, multi-page case studies, branding processes, and conceptual project walkthroughs.\n- **Mobbin** : A massive library of real-world mobile and web app screenshots organized by UI patterns and user flows.\n- **Figma Community** : Offers hands-on, editable UI components, design systems, and wireframes directly inside Figma.[[1]](https://dribbble.com/tags/web-design-inspiration)[[2]](https://blog.streamlinehq.com/best-design-inspiration-websites/)\n\n### Branding & Graphic Design\n\n- **The Brand Identity** : Curates identity design case studies, typography news, and real-world branding projects.\n- **It’s Nice That** : Covers global creative culture, experimental design, illustration, and graphic arts.\n- **Fonts in Use** : An archive showing how specific typefaces look and function in real-world editorial and commercial contexts.[[1]](https://www.youtube.com/watch?v=b54yNqwP9Jw&t=107)[[2]](https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/)[[3]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)[[4]](https://www.youtube.com/watch?v=CNXU9YPIjIs)\n\nAre you looking for inspiration for a **specific type of project** (such as a mobile app, a portfolio, or a brand identity), or a **particular design style**?",
+      "items": [
+        {
+          "type": "ai_overview_element",
+          "text": "Top design inspiration websites are organized below by category to help you find mood boards, web design layouts, brand identities, and UI/UX examples.",
+          "markdown": "Top design inspiration websites are `organized below by category to help you find mood boards, web design layouts, brand identities, and UI/UX examples`."
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "General & Visual Mood Boards",
+          "text": "Designspiration : An image and color-search engine great for building mood boards, tracking down logos, and filtering by specific color hex codes. Savee : A clean, creative-focused alternative to Pinterest for organizing visual inspiration, architecture, furniture, and 3D design without clutter. Cosmos : An AI-powered platform designed for building and organizing visual reference libraries and mood decks. Pinterest : Ideal for broad conceptual themes, interior design, packaging, and quick visual searches.",
+          "markdown": "- **[Designspiration](https://www.designspiration.com/)** : An image and color-search engine great for building mood boards, tracking down logos, and filtering by specific color hex codes.[[1]](https://www.designspiration.com/)[[2]](https://www.youtube.com/shorts/FZNLmOu0HxY?vl=en)\n- **Savee** : A clean, creative-focused alternative to Pinterest for organizing visual inspiration, architecture, furniture, and 3D design without clutter.[[1]](https://www.youtube.com/watch?v=CNXU9YPIjIs)[[2]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)\n- **Cosmos** : An AI-powered platform designed for building and organizing visual reference libraries and mood decks.[[1]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)\n- **Pinterest** : Ideal for broad conceptual themes, interior design, packaging, and quick visual searches.[[1]](https://primoprint.com/blog/10-best-graphic-design-websites-for-powerful-inspiration-in-2023/)[[2]](https://blog.streamlinehq.com/best-design-inspiration-websites/)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Designspiration",
+              "url": "https://www.designspiration.com/",
+              "domain": "www.designspiration.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Designspiration",
+              "domain": "www.designspiration.com",
+              "url": "https://www.designspiration.com/",
+              "title": "Designspiration - Design Inspiration | Inspirational Art, Photography ...",
+              "text": "Create an account or log in to Designspiration - An image & color search engine for creating mood boards and finding art, design, ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/FZNLmOu0HxY?vl=en",
+              "title": "Design Inspiration Websites You Must See! #uidesign #uxdesign ...",
+              "text": "Design Inspiration Websites You Must See! #uidesign #uxdesign #webdesign designers are using these insane inspiration. website whi..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CNXU9YPIjIs",
+              "title": "13 Web Design Inspiration Sites I Love",
+              "text": "13 Web Design Inspiration Sites I Love in this video I'm going to share with you 13 of my favorite web design inspiration sites th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en",
+              "title": "10 Websites You Should Know As A Graphic Designer",
+              "text": "10 Websites You Should Know As A Graphic Designer if you're a creative person these are 10 websites that you should know part one ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Primoprint",
+              "domain": "primoprint.com",
+              "url": "https://primoprint.com/blog/10-best-graphic-design-websites-for-powerful-inspiration-in-2023/",
+              "title": "10 Best Graphic Design Websites For Powerful Inspiration | Primoprint Blog",
+              "text": "Designs come from all over the world and cover many different design styles and industries. * abdz.do This site is very unique. Th..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Streamline Icons",
+              "domain": "blog.streamlinehq.com",
+              "url": "https://blog.streamlinehq.com/best-design-inspiration-websites/",
+              "title": "10 Best Design Inspiration Websites for Creatives (2025)",
+              "text": "Table_title: 10 Design Websites for Inspiration in 2025 Table_content: | Platform | Best For | Type of Inspiration | | Figma Commu..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Web Design & Landing Pages",
+          "text": "Siteinspire : A well-curated, clean directory featuring the web's finest site designs and creative portfolios. Awwwards : Highlights cutting-edge, award-winning web design, animations, and high-end interactive digital experiences. Land-book : Focuses heavily on landing page layouts, UX structure, and digital product presentation. Minimal Gallery : Great for browsing clean, minimal website designs with deep filtering options. Godly : Showcases cutting-edge web design along with the underlying technology stacks used to build them.",
+          "markdown": "- **[Siteinspire](https://www.siteinspire.com/)** : A well-curated, clean directory featuring the web's finest site designs and creative portfolios.\n- **Awwwards** : Highlights cutting-edge, award-winning web design, animations, and high-end interactive digital experiences.\n- **Land-book** : Focuses heavily on landing page layouts, UX structure, and digital product presentation.\n- **Minimal Gallery** : Great for browsing clean, minimal website designs with deep filtering options.\n- **Godly** : Showcases cutting-edge web design along with the underlying technology stacks used to build them.[[1]](https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/)[[2]](https://www.siteinspire.com/)[[3]](https://blog.streamlinehq.com/best-design-inspiration-websites/)[[4]](https://www.awwwards.com/websites/)[[5]](https://www.youtube.com/watch?v=CNXU9YPIjIs)",
+          "links": [
+            {
+              "type": "link_element",
+              "title": "Siteinspire",
+              "url": "https://www.siteinspire.com/",
+              "domain": "www.siteinspire.com"
+            }
+          ],
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/",
+              "title": "What are some curated design inspiration websites that you visit ...",
+              "text": "Curated Design Websites: Several websites are recommended for curated design inspiration, including godly.website, visualjournal.i..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Siteinspire",
+              "domain": "www.siteinspire.com",
+              "url": "https://www.siteinspire.com/",
+              "title": "Siteinspire",
+              "text": "A showcase of the web's finest design + talent * Studio OL 2026-09-25 * Tekt 2026-09-25 * Scullion Architects 2026-09-25 * Studio ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Streamline Icons",
+              "domain": "blog.streamlinehq.com",
+              "url": "https://blog.streamlinehq.com/best-design-inspiration-websites/",
+              "title": "10 Best Design Inspiration Websites for Creatives (2025)",
+              "text": "Table_title: 10 Design Websites for Inspiration in 2025 Table_content: | Platform | Best For | Type of Inspiration | | Figma Commu..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Awwwards",
+              "domain": "www.awwwards.com",
+              "url": "https://www.awwwards.com/websites/",
+              "title": "Winning websites. Web Design Inspiration - Awwwards",
+              "text": "Awwwards recognizes global web design and development talent through categories spanning e-commerce, architecture, fashion, and te..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CNXU9YPIjIs",
+              "title": "13 Web Design Inspiration Sites I Love",
+              "text": "13 Web Design Inspiration Sites I Love in this video I'm going to share with you 13 of my favorite web design inspiration sites th..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "UI, App Design & Portfolios",
+          "text": "Dribbble : A staple platform for micro-interactions, UI snippets, and portfolio showcases from digital designers. Behance : Best for deep-dive, multi-page case studies, branding processes, and conceptual project walkthroughs. Mobbin : A massive library of real-world mobile and web app screenshots organized by UI patterns and user flows. Figma Community : Offers hands-on, editable UI components, design systems, and wireframes directly inside Figma.",
+          "markdown": "- **Dribbble** : A staple platform for micro-interactions, UI snippets, and portfolio showcases from digital designers.\n- **Behance** : Best for deep-dive, multi-page case studies, branding processes, and conceptual project walkthroughs.\n- **Mobbin** : A massive library of real-world mobile and web app screenshots organized by UI patterns and user flows.\n- **Figma Community** : Offers hands-on, editable UI components, design systems, and wireframes directly inside Figma.[[1]](https://dribbble.com/tags/web-design-inspiration)[[2]](https://blog.streamlinehq.com/best-design-inspiration-websites/)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "Dribbble",
+              "domain": "dribbble.com",
+              "url": "https://dribbble.com/tags/web-design-inspiration",
+              "title": "Web Design Inspiration",
+              "text": "1,437 inspirational designs, illustrations, and graphic elements from the world's best designers. Want more inspiration? Browse ou..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Streamline Icons",
+              "domain": "blog.streamlinehq.com",
+              "url": "https://blog.streamlinehq.com/best-design-inspiration-websites/",
+              "title": "10 Best Design Inspiration Websites for Creatives (2025)",
+              "text": "Table_title: 10 Design Websites for Inspiration in 2025 Table_content: | Platform | Best For | Type of Inspiration | | Figma Commu..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "title": "Branding & Graphic Design",
+          "text": "The Brand Identity : Curates identity design case studies, typography news, and real-world branding projects. It’s Nice That : Covers global creative culture, experimental design, illustration, and graphic arts. Fonts in Use : An archive showing how specific typefaces look and function in real-world editorial and commercial contexts.",
+          "markdown": "- **The Brand Identity** : Curates identity design case studies, typography news, and real-world branding projects.\n- **It’s Nice That** : Covers global creative culture, experimental design, illustration, and graphic arts.\n- **Fonts in Use** : An archive showing how specific typefaces look and function in real-world editorial and commercial contexts.[[1]](https://www.youtube.com/watch?v=b54yNqwP9Jw&t=107)[[2]](https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/)[[3]](https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en)[[4]](https://www.youtube.com/watch?v=CNXU9YPIjIs)",
+          "references": [
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=b54yNqwP9Jw&t=107",
+              "title": "5 FREE Inspiration Websites for Designers (MUST KNOW)",
+              "text": "5 FREE Inspiration Websites for Designers (MUST KNOW) five websites that you can use to go searching. for some really great inspir..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "Reddit",
+              "domain": "www.reddit.com",
+              "url": "https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/",
+              "title": "What are some curated design inspiration websites that you visit ...",
+              "text": "Curated Design Websites: Several websites are recommended for curated design inspiration, including godly.website, visualjournal.i..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en",
+              "title": "10 Websites You Should Know As A Graphic Designer",
+              "text": "10 Websites You Should Know As A Graphic Designer if you're a creative person these are 10 websites that you should know part one ..."
+            },
+            {
+              "type": "ai_overview_reference",
+              "source": "YouTube",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CNXU9YPIjIs",
+              "title": "13 Web Design Inspiration Sites I Love",
+              "text": "13 Web Design Inspiration Sites I Love in this video I'm going to share with you 13 of my favorite web design inspiration sites th..."
+            }
+          ]
+        },
+        {
+          "type": "ai_overview_element",
+          "text": "Are you looking for inspiration for a specific type of project (such as a mobile app, a portfolio, or a brand identity), or a particular design style ?",
+          "markdown": "Are you looking for inspiration for a **specific type of project** (such as a mobile app, a portfolio, or a brand identity), or a **particular design style**?"
+        }
+      ],
+      "references": [
+        {
+          "type": "ai_overview_reference",
+          "source": "Reddit",
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1dw5dyi/what_are_some_curated_design_inspiration_websites/",
+          "title": "What are some curated design inspiration websites that you visit ...",
+          "text": "Curated Design Websites: Several websites are recommended for curated design inspiration, including godly.website, visualjournal.i..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Designspiration",
+          "domain": "www.designspiration.com",
+          "url": "https://www.designspiration.com/",
+          "title": "Designspiration - Design Inspiration | Inspirational Art, Photography ...",
+          "text": "Create an account or log in to Designspiration - An image & color search engine for creating mood boards and finding art, design, ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=CNXU9YPIjIs",
+          "title": "13 Web Design Inspiration Sites I Love",
+          "text": "13 Web Design Inspiration Sites I Love in this video I'm going to share with you 13 of my favorite web design inspiration sites th..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Dribbble",
+          "domain": "dribbble.com",
+          "url": "https://dribbble.com/tags/web-design-inspiration",
+          "title": "Web Design Inspiration",
+          "text": "1,437 inspirational designs, illustrations, and graphic elements from the world's best designers. Want more inspiration? Browse ou..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=b54yNqwP9Jw&t=107",
+          "title": "5 FREE Inspiration Websites for Designers (MUST KNOW)",
+          "text": "5 FREE Inspiration Websites for Designers (MUST KNOW) five websites that you can use to go searching. for some really great inspir..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Siteinspire",
+          "domain": "www.siteinspire.com",
+          "url": "https://www.siteinspire.com/",
+          "title": "Siteinspire",
+          "text": "A showcase of the web's finest design + talent * Studio OL 2026-09-25 * Tekt 2026-09-25 * Scullion Architects 2026-09-25 * Studio ..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Awwwards",
+          "domain": "www.awwwards.com",
+          "url": "https://www.awwwards.com/websites/",
+          "title": "Winning websites. Web Design Inspiration - Awwwards",
+          "text": "Awwwards recognizes global web design and development talent through categories spanning e-commerce, architecture, fashion, and te..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/shorts/FZNLmOu0HxY?vl=en",
+          "title": "Design Inspiration Websites You Must See! #uidesign #uxdesign ...",
+          "text": "Design Inspiration Websites You Must See! #uidesign #uxdesign #webdesign designers are using these insane inspiration. website whi..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Streamline Icons",
+          "domain": "blog.streamlinehq.com",
+          "url": "https://blog.streamlinehq.com/best-design-inspiration-websites/",
+          "title": "10 Best Design Inspiration Websites for Creatives (2025)",
+          "text": "Table_title: 10 Design Websites for Inspiration in 2025 Table_content: | Platform | Best For | Type of Inspiration | | Figma Commu..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "Primoprint",
+          "domain": "primoprint.com",
+          "url": "https://primoprint.com/blog/10-best-graphic-design-websites-for-powerful-inspiration-in-2023/",
+          "title": "10 Best Graphic Design Websites For Powerful Inspiration | Primoprint Blog",
+          "text": "Designs come from all over the world and cover many different design styles and industries. * abdz.do This site is very unique. Th..."
+        },
+        {
+          "type": "ai_overview_reference",
+          "source": "YouTube",
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/watch?v=cJd1M_gLEmQ&vl=en",
+          "title": "10 Websites You Should Know As A Graphic Designer",
+          "text": "10 Websites You Should Know As A Graphic Designer if you're a creative person these are 10 websites that you should know part one ..."
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 1,
+      "rank_absolute": 2,
+      "page": 1,
+      "domain": "www.awwwards.com",
+      "title": "Winning websites. Web Design Inspiration",
+      "url": "https://www.awwwards.com/websites/graphic-design/?page=5",
+      "breadcrumb": "https://www.awwwards.com › websites › graphic-design",
+      "website_name": "Awwwards",
+      "description": "Discover the best website designs of the world. Awwwards recognizes the talent and effort of the best designers, web developers and digital agencies.",
+      "highlighted": [
+        "best website designs of the world"
+      ]
+    },
+    {
+      "type": "people_also_ask",
+      "rank_group": 1,
+      "rank_absolute": 3,
+      "page": 1,
+      "items": [
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the top 10 websites for graphic design inspiration?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the 10 best website design ideas?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "Where can I find design inspiration other than Pinterest?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        },
+        {
+          "type": "people_also_ask_element",
+          "title": "What are the best websites for branding inspiration?",
+          "expanded_element": [
+            {
+              "type": "people_also_ask_ai_overview_expanded_element",
+              "asynchronous_ai_overview": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 2,
+      "rank_absolute": 4,
+      "page": 1,
+      "domain": "www.shopify.com",
+      "title": "Beautiful Websites for Design Inspiration in 2026",
+      "url": "https://www.shopify.com/blog/beautiful-websites",
+      "breadcrumb": "https://www.shopify.com › blog › beautiful-websites",
+      "website_name": "Shopify",
+      "description": "Sep 21, 2026 — Learn from an expert web designer how to take a website from passable to beautiful, with eight examples of beautiful websites to illustrate ...",
+      "pre_snippet": "09/21/2026 00:00:00",
+      "highlighted": [
+        "Learn from an expert web designer"
+      ],
+      "timestamp": "2026-09-21 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 3,
+      "rank_absolute": 5,
+      "page": 1,
+      "domain": "www.reddit.com",
+      "title": "Need design inspiration & suggestions for an academic ...",
+      "url": "https://www.reddit.com/r/astrojs/comments/1vju2o2/need_design_inspiration_suggestions_for_an/",
+      "breadcrumb": "10+ comments  ·  2 months ago",
+      "website_name": "Reddit · r/astrojs",
+      "description": "Harvard's is pretty good. For inspiration, look at university library and national archive sites rather than design galleries.",
+      "highlighted": [
+        "Harvard's"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "I've always looked to posters for design inspiration. It's ...",
+          "url": "https://www.reddit.com/r/webdesign/comments/1vyb0rl/ive_always_looked_to_posters_for_design/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "Inspiration for a parts trading company website design ...",
+          "url": "https://www.reddit.com/r/web_design/comments/16sthqu/inspiration_for_a_parts_trading_company_website/",
+          "domain": "www.reddit.com"
+        },
+        {
+          "type": "link_element",
+          "title": "More results from www.reddit.com",
+          "url": "https://www.google.com/search?q=design+inspiration+websites+site:www.reddit.com&sca_esv=948069980de983dd&hl=en&gl=US&sxsrf=APpeQnu9x4TEasx2l8TCdheUoGaFrmXjiA:1791474340760&sa=X&ved=2ahUKEwjEsdH94aqXAxVIXmwGHdfSImoQrQIoAnoECEYQAw",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 4,
+      "rank_absolute": 6,
+      "page": 1,
+      "domain": "dev.to",
+      "title": "Designers to follow on Dribble or Instagram and Awwards ...",
+      "url": "https://dev.to/tracycss/designers-to-follow-on-dribble-or-instagram-and-awwards-website-for-web-ui-inspiration-4p32",
+      "breadcrumb": "https://dev.to › tracycss › designers-to-follow-on-dribbl...",
+      "website_name": "DEV Community",
+      "description": "Nov 8, 2020 — Awwwards is a professional web design and development competition body. It aims to recognize and promote the best of innovative web design. It ... Read more",
+      "pre_snippet": "11/08/2020 00:00:00",
+      "highlighted": [
+        "Awwwards"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://dev.to/tracycss/designers-to-follow-on-dribble-or-instagram-and-awwards-website-for-web-ui-inspiration-4p32#:~:text=Awwwards%20is%20a%20professional%20web,that%20developers%20can%20submit%20to.",
+          "domain": "dev.to"
+        }
+      ],
+      "timestamp": "2020-11-08 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 5,
+      "rank_absolute": 7,
+      "page": 1,
+      "domain": "www.facebook.com",
+      "title": "Reliable websites for design inspiration and graphic ...",
+      "url": "https://www.facebook.com/groups/naijadesigners/posts/10161206825261306/",
+      "breadcrumb": "10+ comments  ·  2 years ago",
+      "website_name": "Facebook · Naija Graphic Designers (NGD)",
+      "description": "💾 Save this post for later.\n\nHey Designers,\n\nI'm back with a new post. In this post, I will show you 8 reliable websites to get design inspiration.\n ..."
+    },
+    {
+      "type": "organic",
+      "rank_group": 6,
+      "rank_absolute": 8,
+      "page": 1,
+      "domain": "lastres.ai",
+      "title": "Useful Websites to Find Inspiration for Designs",
+      "url": "https://lastres.ai/blog/useful-websites-to-find-inspiration-for-designs/",
+      "breadcrumb": "https://lastres.ai › blog › useful-websites-to-find-inspirati...",
+      "website_name": "Carlos Lastres",
+      "description": "Refero Design : Huge collection of the latest web app designs. ‍ 2. Landdding: Find latest website inspiration across multiple categories. ‍ 3.",
+      "highlighted": [
+        "Refero Design"
+      ]
+    },
+    {
+      "type": "organic",
+      "rank_group": 7,
+      "rank_absolute": 9,
+      "page": 1,
+      "domain": "forum.squarespace.com",
+      "title": "What websites do you love and use for inspiration? What ...",
+      "url": "https://forum.squarespace.com/topic/177060-what-websites-do-you-love-and-use-for-inspiration-what-stands-out-about-them/",
+      "breadcrumb": "https://forum.squarespace.com › ... › Site Design & Styles",
+      "website_name": "Squarespace Forum",
+      "description": "Dec 23, 2020 — I routinely peruse various design sites as I am design focused. https://www.siteinspire.com; https://land-book.com; http://www.awwwards.com ... Read more",
+      "pre_snippet": "12/23/2020 00:00:00",
+      "highlighted": [
+        "https://www.siteinspire.com"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "Read more",
+          "url": "https://forum.squarespace.com/topic/177060-what-websites-do-you-love-and-use-for-inspiration-what-stands-out-about-them/#:~:text=I%20routinely%20peruse%20various%20design,http%3A%2F%2Fwww.awwwards.com",
+          "domain": "forum.squarespace.com"
+        }
+      ],
+      "timestamp": "2020-12-23 00:00:00 +00:00"
+    },
+    {
+      "type": "organic",
+      "rank_group": 8,
+      "rank_absolute": 10,
+      "page": 1,
+      "domain": "syed-ali.medium.com",
+      "title": "10 UI/UX Design Inspiration Websites for Designers - Medium",
+      "url": "https://syed-ali.medium.com/10-ui-ux-design-inspiration-websites-for-designers-1e4d9b7e4406",
+      "breadcrumb": "2 years ago",
+      "website_name": "Medium · Syed Ali",
+      "description": "10 UI/UX Design Inspiration Websites for Designers · 1. Dribbble · 2. Behance · 3. Awwwards · 4. UI Patterns · 5. Mobbin · 6. Land-book · 7. Read more",
+      "highlighted": [
+        "1. Dribbble"
+      ],
+      "links": [
+        {
+          "type": "link_element",
+          "title": "10 Ui/ux Design Inspiration...",
+          "url": "https://syed-ali.medium.com/10-ui-ux-design-inspiration-websites-for-designers-1e4d9b7e4406#:~:text=10%20UI%2FUX%20Design%20Inspiration%20Websites%20for%20Designers",
+          "domain": "syed-ali.medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "1. Dribbble",
+          "url": "https://syed-ali.medium.com/10-ui-ux-design-inspiration-websites-for-designers-1e4d9b7e4406#:~:text=1.%20Dribbble,-Press%20enter%20or%20click%20to",
+          "domain": "syed-ali.medium.com"
+        },
+        {
+          "type": "link_element",
+          "title": "2. Behance",
+          "url": "https://syed-ali.medium.com/10-ui-ux-design-inspiration-websites-for-designers-1e4d9b7e4406#:~:text=2.%20Behance,-Press%20enter%20or%20click%20to",
+          "domain": "syed-ali.medium.com"
+        }
+      ]
+    },
+    {
+      "type": "discussions_and_forums",
+      "rank_group": 1,
+      "rank_absolute": 11,
+      "page": 1,
+      "title": "Discussions and forums",
+      "items": [
+        {
+          "type": "discussions_and_forums_element",
+          "title": "5 Websites to Find Fresh Design Inspiration | Nancy S.",
+          "url": "https://www.linkedin.com/posts/nancy-s-productdesigner_uxui-webdesign-creativeprocess-activity-7351456870672330753-trxN",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:41 +00:00"
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "What's a good site to get good design inspiration for specific things?",
+          "url": "https://www.reddit.com/r/Design/comments/15lt6u9/whats_a_good_site_to_get_good_design_inspiration/",
+          "domain": "www.reddit.com",
+          "source": "Reddit",
+          "timestamp": "2023-10-08 15:45:41 +00:00",
+          "posts_count": 1
+        },
+        {
+          "type": "discussions_and_forums_element",
+          "title": "5 Websites to Find Fresh Design Inspiration | Nancy S.",
+          "url": "https://www.linkedin.com/posts/nancy-s-productdesigner_designinspiration-uxui-webdesign-activity-7299635410152955904-DqIZ",
+          "domain": "www.linkedin.com",
+          "source": "LinkedIn",
+          "timestamp": "2025-10-08 15:45:41 +00:00"
+        }
+      ]
+    },
+    {
+      "type": "related_searches",
+      "rank_group": 1,
+      "rank_absolute": 12,
+      "page": 1,
+      "items": [
+        "Graphic design inspiration websites",
+        "Free design inspiration websites",
+        "Best design inspiration websites"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+keyword,seeds,domains,volume,cpc,competition,difficulty,intent,fine_intent,field_fit,field_rule,monthly_12,slope_12m,seasonal,flag,flag_v1_1
+ai powered design tools,ai design tools,offmap,8100,6.11,0.02,15,commercial,tool,partial,no field word and no other-world word,880;590;2400;390;720;9900;49500;27100;2900;1900;8100;1000,2.84,yes,,
+ai-powered design tools,ai design tools,offmap,8100,6.11,0.02,15,commercial,tool,partial,no field word and no other-world word,880;590;2400;390;720;9900;49500;27100;2900;1900;8100;1000,2.84,yes,,
+ai for product managers,ai for product managers,offmap,3600,11.17,0.54,9,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",4400;4400;3600;2900;3600;3600;4400;3600;2900;2400;2400;2400,0.58,no,,
+ai product manager,ai product manager,offmap,3600,11.17,0.54,9,commercial,define,yes,"names a method, artifact, role, metric or tool of the work",4400;4400;3600;2900;3600;3600;4400;3600;2900;2400;2400;2400,0.58,no,,
+product manager ai,ai product manager,offmap,3600,11.17,0.54,9,navigational,define,yes,"names a method, artifact, role, metric or tool of the work",4400;4400;3600;2900;3600;3600;4400;3600;2900;2400;2400;2400,0.58,no,,
+ai design tools,ai design tools,offmap,1900,8.49,0.48,28,commercial,tool,partial,no field word and no other-world word,1600;2400;2400;1900;1300;1900;2400;3600;3600;1900;1900;1300,0.80,yes,,
+ai in graphic design,ai in design,offmap,1900,7.23,0.51,12,commercial,other,partial,no field word and no other-world word,2400;1900;1900;1600;1600;1900;2400;1900;1600;1300;1300;1300,0.63,no,,
+ai product manager job,ai product manager,offmap,1600,5.24,0.15,0,navigational,career,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1300;1600;1900;1900;2400;1900;1600;1600;1600;1300,0.94,no,jobs,jobs
+ai product manager jobs,ai product manager,offmap,1600,5.24,0.15,0,navigational,career,yes,"names a method, artifact, role, metric or tool of the work",1600;1900;1300;1600;1900;1900;2400;1900;1600;1600;1600;1300,0.94,no,jobs,jobs
+ibm ai product manager professional certificate,ai product manager,offmap,1000,8.82,0.15,14,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",1000;880;880;880;1000;1300;1000;1300;1600;1600;1300;880,1.37,no,course,course
+ai interior design tools,ai design tools,offmap,880,5.25,0.26,36,commercial,tool,no,"home, food and crafts",2400;1900;1300;390;720;480;720;590;590;480;590;720,0.32,yes,,
+ai powered interior design tools,ai design tools,offmap,880,,0.02,38,commercial,tool,no,"home, food and crafts",480;880;480;720;1300;1900;480;390;720;1300;1600;480,1.84,yes,,
+ai engineer roadmap,ai roadmap,offmap,720,7.72,0.5,9,informational,define,yes,"names a method, artifact, role, metric or tool of the work",480;480;480;590;720;720;720;720;880;720;880;880,1.72,no,,
+ai engineering roadmap,ai roadmap,offmap,720,7.72,0.5,9,informational,define,yes,"names a method, artifact, role, metric or tool of the work",480;480;480;590;720;720;720;720;880;720;880;880,1.72,no,,
+ai product manager certification,ai product manager,offmap,720,14.08,0.77,42,informational,career,yes,"names a method, artifact, role, metric or tool of the work",720;880;590;720;880;880;880;720;590;480;480;390,0.62,yes,jobs,jobs
+ai product manager salary,ai product manager,offmap,720,2.97,0.02,0,informational,career,yes,"names a method, artifact, role, metric or tool of the work",880;1000;720;880;880;880;720;720;720;590;590;590,0.68,no,jobs,jobs
+ai roadmap,ai roadmap,offmap,590,13.25,0.41,35,informational,define,yes,"names a method, artifact, role, metric or tool of the work",590;720;590;720;590;590;590;590;590;590;590;390,0.83,no,,
+what purpose do fairness measures serve in ai product development,ai product development,offmap,590,,0.01,0,informational,other,yes,"names a method, artifact, role, metric or tool of the work",10;10;10;10;10;1000;1300;1600;1600;1000;720;20,58.00,yes,,
+ai tools for interior design,ai design tools,offmap,480,4.93,0.49,15,commercial,tool,no,"home, food and crafts",480;480;480;390;480;590;720;590;480;480;390;480,0.94,no,,
+figma ai design tools,ai design tools,offmap,480,10.33,0.02,17,commercial,brand,partial,no field word and no other-world word,40;90;70;40;210;1000;1300;720;1000;590;320;170,5.40,yes,brand,brand
+microsoft ai product manager professional certificate,ai product manager,offmap,480,6.67,0.43,20,commercial,brand,yes,"names a method, artifact, role, metric or tool of the work",720;720;480;390;390;480;590;480;480;480;390;260,0.59,yes,brand,brand
+ai in design,ai in design,offmap,390,6.85,0.48,23,commercial,define,partial,no field word and no other-world word,590;480;390;320;390;480;480;480;480;390;390;320,0.75,no,,
+ai tool for product managers,ai for product managers,offmap,390,24.16,0.16,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",590;480;320;260;320;590;720;480;260;390;390;390,0.84,yes,,
+ai tools for graphic design,ai design tools,offmap,390,7.89,0.26,24,commercial,tool,partial,no field word and no other-world word,480;480;590;390;390;480;480;590;390;210;260;210,0.44,yes,,
+ai tools for graphics design,ai design tools,offmap,390,7.89,0.26,24,commercial,tool,partial,no field word and no other-world word,480;480;590;390;390;480;480;590;390;210;260;210,0.44,yes,,
+ai tools for product managers,ai for product managers,offmap,390,24.16,0.16,7,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",590;480;320;260;320;590;720;480;260;390;390;390,0.84,yes,,
+ai web design tools,ai design tools,offmap,390,10.07,0.39,42,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",210;1600;480;140;210;260;260;320;320;320;260;140,0.31,yes,,
+ai website design tools,ai design tools,offmap,390,10.07,0.39,36,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",210;1600;480;140;210;260;260;320;320;320;260;140,0.31,yes,,
+best ai design tools,ai design tools,offmap,390,10.15,0.6,13,commercial,tool,partial,no field word and no other-world word,320;320;260;210;320;390;590;480;390;390;390;390,1.30,yes,,
+best ai tools for interior design,ai design tools,offmap,390,5.39,0.71,30,commercial,tool,no,"home, food and crafts",260;260;260;210;390;320;720;590;480;390;480;390,1.62,yes,,
+interior design ai tools,ai design tools,offmap,390,7.1,0.74,27,commercial,tool,no,"home, food and crafts",390;320;390;390;480;480;590;480;390;390;390;390,1.06,no,,
+ai logo design tools,ai design tools,offmap,320,6.57,0.27,80,commercial,tool,partial,no field word and no other-world word,880;90;70;390;320;320;590;140;260;260;110;50,0.40,yes,,
+ai home design tools,ai design tools,offmap,260,4.55,0.41,40,informational,tool,no,"home, food and crafts",1000;590;170;110;90;110;140;170;170;170;70;90,0.19,yes,,
+ai product development,ai product development,offmap,260,15.32,0.54,14,commercial,define,yes,"names a method, artifact, role, metric or tool of the work",480;170;480;390;390;260;260;170;140;90;110;70,0.24,yes,,
+ai product manager course,ai product manager,offmap,260,11.57,0.77,24,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;320;260;260;320;320;390;320;260;210;210;170,0.66,yes,course,course
+ai product manager courses,ai product manager,offmap,260,11.57,0.77,24,informational,other,yes,"names a method, artifact, role, metric or tool of the work",320;320;260;260;320;320;390;320;260;210;210;170,0.66,yes,course,course
+ai prototyping,ai prototyping,offmap,260,21.01,0.51,12,informational,define,yes,"names a method, artifact, role, metric or tool of the work",390;320;210;170;210;260;390;320;260;170;140;170,0.52,yes,,
+ai prototyping tool,ai prototyping,offmap,260,14,0.48,7,informational,tool,yes,"names a method, artifact, role, metric or tool of the work",320;320;320;210;320;260;260;210;390;110;110;110,0.34,yes,,
+ai prototyping tools,ai prototyping,offmap,260,14,0.48,7,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",320;320;320;210;320;260;260;210;390;110;110;110,0.34,yes,,
+ai and ux design,ai ux design,offmap,210,11.22,0.59,23,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",320;320;210;260;260;210;320;210;210;140;110;110,0.42,yes,,
+ai graphic design tools,ai design tools,offmap,210,15.27,0.33,25,commercial,tool,partial,no field word and no other-world word,320;320;140;170;210;170;210;170;170;210;170;110,0.63,yes,,
+ai room design tools,ai design tools,offmap,210,4.25,0.46,37,commercial,tool,partial,no field word and no other-world word,320;390;320;210;320;210;170;170;110;140;140;90,0.36,yes,,
+ai tools for web design,ai design tools,offmap,210,27.34,0.38,47,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",140;320;170;320;140;170;140;260;210;170;140;110,0.67,yes,,
+ai tools for website design,ai design tools,offmap,210,27.34,0.38,43,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",140;320;170;320;140;170;140;260;210;170;140;110,0.67,yes,,
+ai ux design,ai ux design,offmap,210,11.22,0.59,23,commercial,define,yes,"names a method, artifact, role, metric or tool of the work",320;320;210;260;260;210;320;210;210;140;110;110,0.42,yes,,
+best ai tools for graphic design,ai design tools,offmap,210,9.4,0.69,11,commercial,tool,partial,no field word and no other-world word,210;170;140;140;210;210;480;260;260;260;210;170,1.23,yes,,
+best ai tools for logo design,ai design tools,offmap,210,8.12,0.72,41,commercial,tool,partial,no field word and no other-world word,170;210;140;170;210;210;390;260;210;170;170;170,0.98,yes,,
+design ai tools,ai design tools,offmap,210,8.48,0.68,17,commercial,tool,partial,no field word and no other-world word,260;210;210;170;210;260;260;320;260;260;170;170,0.88,no,,
+free ai design tools,ai design tools,offmap,210,4.65,0.59,26,informational,tool,partial,no field word and no other-world word,260;170;170;140;210;170;210;170;170;170;210;260,1.07,no,,
+ai course for product managers,ai for product managers,offmap,170,18.32,0.37,12,informational,other,yes,"names a method, artifact, role, metric or tool of the work",260;170;140;140;170;170;140;140;110;140;170;170,0.84,yes,course,course
+ai courses for product managers,ai for product managers,offmap,170,18.32,0.37,12,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",260;170;140;140;170;170;140;140;110;140;170;170,0.84,yes,course,course
+ai tools for design,ai design tools,offmap,170,9.06,0.41,27,commercial,tool,partial,no field word and no other-world word,210;170;140;90;140;170;260;210;140;140;110;90,0.65,yes,,
+ai tools for logo design,ai design tools,offmap,170,6.65,0.59,73,commercial,tool,partial,no field word and no other-world word,140;110;110;90;110;720;210;110;110;70;90;50,0.58,yes,,
+chatgpt for product managers,chatgpt for product managers,offmap,170,16.27,0.05,9,informational,brand,yes,"names a method, artifact, role, metric or tool of the work",260;260;170;140;90;320;320;170;90;50;90;90,0.33,yes,brand,brand
+ai agents for product managers,ai for product managers;ai agents product,offmap,140,23.29,0.14,0,navigational,other,yes,"names a method, artifact, role, metric or tool of the work",170;50;110;50;70;110;390;140;170;210;170;140,1.58,yes,,
+ai in game design,ai in design,offmap,140,7.38,0.37,35,informational,other,partial,no field word and no other-world word,140;140;140;140;110;110;210;210;170;110;110;140,0.86,no,,
+ai product manager jobs remote,ai product manager,offmap,140,0.79,0.08,0,informational,career,yes,"names a method, artifact, role, metric or tool of the work",110;140;140;110;170;140;170;140;110;90;90;90,0.69,no,jobs,jobs
+best ai tool for product managers,ai for product managers,offmap,140,12.12,0.1,2,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",110;70;70;70;110;140;210;170;170;210;260;140,2.44,yes,,
+best ai tools for product managers,ai for product managers,offmap,140,12.12,0.1,2,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",110;70;70;70;110;140;210;170;170;210;260;140,2.44,yes,,
+best ai tools for web design,ai design tools,offmap,140,15.18,0.74,30,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",90;110;170;90;90;110;320;140;140;90;90;90,0.73,yes,,
+best ai tools for website design,ai design tools,offmap,140,15.18,0.74,42,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",90;110;170;90;90;110;320;140;140;90;90;90,0.73,yes,,
+graphic design ai tools,ai design tools,offmap,140,9.84,0.72,25,commercial,tool,partial,no field word and no other-world word,110;110;110;90;110;170;210;210;140;110;110;110,1.00,yes,,
+graphics design ai tools,ai design tools,offmap,140,9.84,0.72,25,commercial,tool,partial,no field word and no other-world word,110;110;110;90;110;170;210;210;140;110;110;110,1.00,yes,,
+ibm ai product manager professional certificate coursera,ai product manager,offmap,140,7.31,0.54,26,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",90;40;30;50;90;170;320;480;390;30;20;30,0.50,yes,course,course
+roadmap ai,ai roadmap,offmap,140,39.42,0.42,24,informational,define,yes,"names a method, artifact, role, metric or tool of the work",170;260;170;140;170;110;110;90;90;70;110;70,0.42,yes,,
+ai for ux design,ai ux design,offmap,110,14.72,0.58,10,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",170;110;110;90;110;140;140;110;110;50;70;50,0.44,yes,,
+ai in engineering design,ai in design,offmap,110,9.78,0.61,2,informational,other,partial,no field word and no other-world word,140;140;110;110;110;140;210;140;140;70;90;90,0.64,yes,,
+ai tool for ux design,ai ux design,offmap,110,15.09,0.13,16,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",260;110;170;140;90;110;140;90;110;90;30;50,0.31,yes,,
+ai tools for landscape design,ai design tools,offmap,110,6.28,0.59,11,commercial,tool,no,"home, food and crafts",90;70;90;30;50;70;210;210;170;110;110;90,1.24,yes,,
+ai tools for ux design,ai ux design;ai design tools,offmap,110,15.09,0.13,4,commercial,tool,yes,"names a method, artifact, role, metric or tool of the work",260;110;170;140;90;110;140;90;110;90;30;50,0.31,yes,,
+best ai course for product managers,ai for product managers,offmap,110,23.33,0.63,65,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",110;110;170;110;140;140;140;90;90;70;70;70,0.54,yes,course,course
+best ai courses for product managers,ai for product managers,offmap,110,23.33,0.63,42,commercial,other,yes,"names a method, artifact, role, metric or tool of the work",110;110;170;110;140;140;140;90;90;70;70;70,0.54,yes,course,course
+best ai interior design tools,ai design tools,offmap,110,6.31,0.36,36,commercial,tool,no,"home, food and crafts",140;70;50;50;110;90;210;70;70;70;90;210,1.42,yes,,
+best ai tools for design,ai design tools,offmap,110,7.4,0.62,22,commercial,tool,partial,no field word and no other-world word,70;70;50;50;70;110;260;140;110;70;90;110,1.42,yes,,
+best ai tools for home design,ai design tools,offmap,110,5.77,0.72,16,commercial,tool,no,"home, food and crafts",70;70;70;50;110;90;320;140;110;110;110;90,1.48,yes,,
+microsoft ai product manager,ai product manager,offmap,110,5.29,0.41,19,navigational,brand,yes,"names a method, artifact, role, metric or tool of the work",170;170;140;110;140;140;140;140;90;110;70;70,0.52,yes,brand,brand
+roadmap sh ai,ai roadmap,offmap,110,,0.28,38,informational,define,yes,"names a method, artifact, role, metric or tool of the work",170;320;140;110;170;90;70;70;50;40;40;20,0.16,yes,,
+ux design ai,ai ux design,offmap,110,5.71,0.53,30,commercial,define,yes,"names a method, artifact, role, metric or tool of the work",170;140;110;110;90;140;170;110;90;40;50;30,0.29,yes,,
+what is an ai product manager,ai product manager,offmap,110,11.13,0.11,0,informational,define,yes,"names a method, artifact, role, metric or tool of the work",90;110;90;70;110;90;110;110;90;110;210;170,1.69,yes,,

@@ -1,0 +1,427 @@
+{
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.4332 sec.",
+    "cost": 0.01224,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "10081702-2633-0399-0000-3ae7743c4901",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.4221 sec.",
+            "cost": 0.01224,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "google",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "se_type": "google",
+                "keyword": "ux metrics",
+                "location_code": 2840,
+                "language_code": "en",
+                "limit": 150,
+                "include_seed_keyword": true,
+                "filters": [
+                    [
+                        "keyword_info.search_volume",
+                        ">=",
+                        100
+                    ]
+                ],
+                "order_by": [
+                    "keyword_info.search_volume,desc"
+                ]
+            },
+            "result": [
+                {
+                    "se_type": "google",
+                    "seed_keyword": "ux metrics",
+                    "seed_keyword_data": {
+                        "se_type": "google",
+                        "keyword": "ux metrics",
+                        "location_code": 2840,
+                        "language_code": "en",
+                        "keyword_info": {
+                            "se_type": "google",
+                            "last_updated_time": "2026-09-14 06:32:08 +00:00",
+                            "competition": 0.27,
+                            "competition_level": "LOW",
+                            "cpc": 10.51,
+                            "search_volume": 210,
+                            "low_top_of_page_bid": 3.05,
+                            "high_top_of_page_bid": 12.29,
+                            "categories": [
+                                10007,
+                                11493,
+                                13418
+                            ],
+                            "monthly_searches": [
+                                {
+                                    "year": 2026,
+                                    "month": 8,
+                                    "search_volume": 70
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 7,
+                                    "search_volume": 90
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 6,
+                                    "search_volume": 110
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 5,
+                                    "search_volume": 110
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 4,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 3,
+                                    "search_volume": 320
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 2,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2026,
+                                    "month": 1,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 12,
+                                    "search_volume": 170
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 11,
+                                    "search_volume": 320
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 10,
+                                    "search_volume": 390
+                                },
+                                {
+                                    "year": 2025,
+                                    "month": 9,
+                                    "search_volume": 260
+                                }
+                            ],
+                            "search_volume_trend": {
+                                "monthly": -22,
+                                "quarterly": -36,
+                                "yearly": -73
+                            }
+                        },
+                        "keyword_info_normalized_with_bing": null,
+                        "keyword_info_normalized_with_clickstream": null,
+                        "clickstream_keyword_info": null,
+                        "keyword_properties": {
+                            "se_type": "google",
+                            "core_keyword": null,
+                            "synonym_clustering_algorithm": "text_processing",
+                            "keyword_difficulty": 0,
+                            "detected_language": "en",
+                            "is_another_language": false,
+                            "words_count": 2
+                        },
+                        "serp_info": {
+                            "se_type": "google",
+                            "check_url": "https:\/\/www.google.com\/search?q=ux%20metrics&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                            "serp_item_types": [
+                                "ai_overview",
+                                "organic",
+                                "people_also_ask",
+                                "images",
+                                "related_searches"
+                            ],
+                            "se_results_count": 109,
+                            "last_updated_time": "2026-09-11 03:35:45 +00:00",
+                            "previous_updated_time": "2026-07-06 12:56:24 +00:00"
+                        },
+                        "search_intent_info": {
+                            "se_type": "google",
+                            "main_intent": "informational",
+                            "foreign_intent": null,
+                            "last_updated_time": "2026-04-30 00:05:20 +00:00"
+                        },
+                        "avg_backlinks_info": {
+                            "se_type": "google",
+                            "backlinks": 17.1,
+                            "dofollow": 13.3,
+                            "referring_pages": 15.7,
+                            "referring_domains": 7.9,
+                            "referring_main_domains": 7.7,
+                            "rank": 50,
+                            "main_domain_rank": 412.6,
+                            "last_updated_time": "2026-09-11 03:35:45 +00:00"
+                        }
+                    },
+                    "location_code": 2840,
+                    "language_code": "en",
+                    "total_count": 2,
+                    "items_count": 2,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoidXggbWV0cmljcyIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxNTAsIm9mZnNldCI6MCwiYWlkIjoyNjMzMTIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjEwMDgxNzAyLTI2MzMtMDM5OS0wMDAwLTNhZTc3NDNjNDkwMSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndGUiLCJ2YWx1ZSI6MTAwfSwiSWQiOiI0MDAzMmU5YS0wZmE3LTRkYzctYTgwNC0zYTJjYjA5NjdmNGMiLCJTZWFyY2hBZnRlckRhdGEiOlsyMTAsImNmNzc4NzQ4LWI1NTYtNjE5Yi1kZTA4LWFmM2E5ZGY4ZTMwNSJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+                    "items": [
+                        {
+                            "se_type": "google",
+                            "keyword": "ux metrics",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-14 06:32:08 +00:00",
+                                "competition": 0.27,
+                                "competition_level": "LOW",
+                                "cpc": 10.51,
+                                "search_volume": 210,
+                                "low_top_of_page_bid": 3.05,
+                                "high_top_of_page_bid": 12.29,
+                                "categories": [
+                                    10007,
+                                    11493,
+                                    13418
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 260
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -22,
+                                    "quarterly": -36,
+                                    "yearly": -73
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 0,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 2
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 17.1,
+                                "dofollow": 13.3,
+                                "referring_pages": 15.7,
+                                "referring_domains": 7.9,
+                                "referring_main_domains": 7.7,
+                                "rank": 50,
+                                "main_domain_rank": 412.6,
+                                "last_updated_time": "2026-09-11 03:35:45 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-30 00:05:20 +00:00"
+                            }
+                        },
+                        {
+                            "se_type": "google",
+                            "keyword": "ux design metrics",
+                            "location_code": 2840,
+                            "language_code": "en",
+                            "keyword_info": {
+                                "se_type": "google",
+                                "last_updated_time": "2026-09-13 08:34:58 +00:00",
+                                "competition": 0.27,
+                                "competition_level": "LOW",
+                                "cpc": 10.51,
+                                "search_volume": 210,
+                                "low_top_of_page_bid": 3.05,
+                                "high_top_of_page_bid": 12.29,
+                                "categories": [
+                                    10007,
+                                    11493,
+                                    13418
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2026,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 7,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 6,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 5,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 4,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 3,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 2,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2026,
+                                        "month": 1,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 12,
+                                        "search_volume": 170
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 11,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 10,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2025,
+                                        "month": 9,
+                                        "search_volume": 260
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -22,
+                                    "quarterly": -36,
+                                    "yearly": -73
+                                }
+                            },
+                            "keyword_info_normalized_with_bing": null,
+                            "keyword_info_normalized_with_clickstream": null,
+                            "clickstream_keyword_info": null,
+                            "keyword_properties": {
+                                "se_type": "google",
+                                "core_keyword": "ux metrics",
+                                "synonym_clustering_algorithm": "keyword_metrics",
+                                "keyword_difficulty": 0,
+                                "detected_language": "en",
+                                "is_another_language": false,
+                                "words_count": 3
+                            },
+                            "serp_info": null,
+                            "avg_backlinks_info": {
+                                "se_type": "google",
+                                "backlinks": 29.2,
+                                "dofollow": 23.8,
+                                "referring_pages": 25.4,
+                                "referring_domains": 9.4,
+                                "referring_main_domains": 8.7,
+                                "rank": 64.5,
+                                "main_domain_rank": 497.1,
+                                "last_updated_time": "2024-09-23 19:54:37 +00:00"
+                            },
+                            "search_intent_info": {
+                                "se_type": "google",
+                                "main_intent": "informational",
+                                "foreign_intent": null,
+                                "last_updated_time": "2026-04-29 23:49:39 +00:00"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
