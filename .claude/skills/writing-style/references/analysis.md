@@ -3,7 +3,7 @@
 # How the reference pieces are written
 
 Read on 9 Oct 2026, before writing the content-writing skill. Sources: the two course lessons the owner
-shared (screenshots in this folder) and five explainers from the owner's other projects (Printables:
+shared (screenshots in this folder) and five explainers from the owner's other projects, not in this repository except the origin-lock copy beside this file (Printables:
 how-it-works, origin-lock-explained, wordpress-stack; Ai-trading: collector-walkthrough, setup-checklist).
 
 ## The shape of a piece

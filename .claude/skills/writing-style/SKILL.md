@@ -74,7 +74,8 @@ client or a number.
 
 This is the bar: even someone with no technical knowledge can follow it and connect it to the real
 thing. The exemplar is the origin-lock explainer
-(`C:\xampp\htdocs\Printables\research\discussion\origin-lock-explained.html`); read it once if you
+(`references/origin-lock-explained.html`, a copy kept inside this skill so it travels with the
+repository); read it once if you
 have not. Its method, in five parts:
 
 1. **One everyday analogy carries the whole piece.** The website is a concert venue. Cloudflare is
