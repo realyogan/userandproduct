@@ -1,39 +1,39 @@
 {
   "version": 1,
-  "run_id": "mockup-explainers-tints",
-  "title": "Explainers on Printables tints",
+  "run_id": "thumbnail-styles",
+  "title": "Thumbnail styles board",
   "state": "finished",
-  "started": "2026-10-09T20:20+05:30",
-  "updated": "2026-10-09T20:27+05:30",
-  "note": "illustration-rules.md rewritten; references/printables-tints.md written; no sideways scroll, alt text on all images, no overlaps",
+  "started": "2026-10-09T21:25+05:30",
+  "updated": "2026-10-09T21:34+05:30",
+  "note": "Board built and linked from the mockups README; light, dark and 375px checked, no sideways scroll",
   "steps": [
     {
       "n": 1,
-      "title": "Palette from Printables",
+      "title": "Look at all 35",
       "status": "done",
-      "note": "Eight tints from main.css 72-79, tint classes 170-177; dot grid main.css 1015 (.12, 1px/1.4px, 14px) and kit.css 15 (.13, 1px/1.5px, 12px); ink #1d1b16, muted #5f5b52, card #fdfcf8; rotation printables_tints() teal, yellow, pink, blue, green, purple; peach and slate reserved",
-      "time": "20:20"
+      "note": "All 35 viewed; 25 and 28 are duplicates, as are 18 and 19",
+      "time": "21:26"
     },
     {
       "n": 2,
-      "title": "Generator and rotation",
+      "title": "Group and verdicts",
       "status": "done",
-      "note": "Generator takes one of the eight tints; tint_for_article(slug, index) mirrors printables_tint_class, hash fallback, override needs a reason",
-      "time": "20:22"
+      "note": "Ten groups: six code alone, three code plus a source image, one external image tool",
+      "time": "21:30"
     },
     {
       "n": 3,
-      "title": "A and gallery rebuild",
+      "title": "Demonstrations",
       "status": "done",
-      "note": "A: both figures teal; Related thumbnails yellow, pink, blue; gallery: twelve types across eight tints plus a swatch row",
-      "time": "20:27"
+      "note": "Four demos rendered: a 0.23 s, b 0.25 s, c 0.27 s, d 0.32 s",
+      "time": "21:30"
     },
     {
       "n": 4,
-      "title": "Rules and checks",
+      "title": "Board and checks",
       "status": "done",
-      "note": "illustration-rules.md rewritten; references/printables-tints.md written; no sideways scroll, alt text on all images, no overlaps",
-      "time": "20:27"
+      "note": "Board built and linked from the mockups README; light, dark and 375px checked, no sideways scroll",
+      "time": "21:34"
     }
   ]
 }

@@ -23,6 +23,10 @@ http://localhost/user-and-product/research/mockups/ (index to come).
   three pages from one copy of the sample article; `article/shots/` holds the 375px thumbnails.
 - `references/tigerdata/`: screenshots and notes on the Tiger Data article page the owner likes for the single
   article layout: [references/tigerdata/notes.md](references/tigerdata/notes.md).
+- `references/blog-thumbnails/`: the owner's 35 reference thumbnails and the "Thumbnail styles" board, which
+  sorts them into ten styles with a feasibility verdict per style, four demonstrations on our palette and a
+  recommendation: http://localhost/user-and-product/research/mockups/references/blog-thumbnails/index.html
+  (`build.py` writes the board; `demo/make_demos.py` writes the demonstrations).
 - Tooling notes: [tooling-research-2026-10-09.md](tooling-research-2026-10-09.md) (what was considered) and
   [tooling-installed-2026-10-09.md](tooling-installed-2026-10-09.md) (what was installed, versions, font sources).
 

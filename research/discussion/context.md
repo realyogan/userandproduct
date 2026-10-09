@@ -436,3 +436,16 @@ Owner showed the explainers to a friend: "this is interactive, I can learn thing
 as the goal: a static piece should feel interactive because the reader does something on every screen. Mockup
 backlog: a series page that reads like a course index (numbered, with progress), as in the lesson sidebar the owner
 shared.
+
+Thumbnails (owner, 9 Oct evening): 35 reference thumbnails saved under research/mockups/references/blog-thumbnails/.
+Two studies running: (1) a style board grouping them by visual style and how they are made, with a feasibility
+verdict per group (code alone / code plus a source image / external image tool) proven by four demonstrations
+made here in our palette; (2) research into skills, libraries and image-generation services (Recraft, Ideogram,
+Flux, local options) that would make thumbnails repeatably, with cost and licence, written to
+research/mockups/thumbnail-tooling-research-2026-10-09.md.
+
+Owner (thumbnails): the "grained grid" background is two distinct options, a square grid and a dot grid, both over
+the grain; the thumbnail rules must name them as a choice. Style board built at
+research/mockups/references/blog-thumbnails/index.html (ten groups, verdicts, four demonstrations); recommendation:
+flat vector default, light grid diagrams for explainer-led pieces, pixel icons for tools and templates; dithered
+photos and character drawings occasional with outside help; dark styles out of the main rotation.

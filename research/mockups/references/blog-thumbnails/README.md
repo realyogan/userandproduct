@@ -20,3 +20,6 @@ Second batch (ref-23 to ref-35) adds two more kinds:
 - Dark diagram thumbnails: near-black with thin white lines and one accent (a cloud of databases, a
   tangle of cards sorted into a grid, a sync loop, a numbered pipeline, a ranked list). These are
   explainer diagrams used as thumbnails, which is how the two styles meet.
+
+Note (owner, 9 Oct): the grained background comes in two variants, a square grid and a dot grid, both over the
+grain. Treat them as a choice in the thumbnail rules, not one texture.

@@ -299,7 +299,11 @@ button,input{font:inherit;color:inherit}
 .codeblock pre{margin:0;padding:20px;overflow-x:auto;tab-size:2;-moz-tab-size:2;font:400 14.5px/1.6 var(--font-mono);color:var(--code-ink);background:transparent}
 .codeblock pre:focus-visible{outline:2px solid var(--code-num);outline-offset:-2px}
 .codeblock pre code{font:inherit;background:none;border:0;padding:0;white-space:pre;color:inherit}
-.codeblock figcaption,.codeblock__cap{padding:10px 16px;border-top:1px solid var(--code-line);font:400 13px/1.4 var(--font-ui);color:var(--code-dim)}
+.fig--code .codeblock{margin:0}
+.codeblock pre{scrollbar-width:thin;scrollbar-color:#3A3F4B transparent}
+.codeblock pre::-webkit-scrollbar{height:6px}
+.codeblock pre::-webkit-scrollbar-thumb{background:#3A3F4B;border-radius:3px}
+.codeblock pre::-webkit-scrollbar-track{background:transparent}
 .tk-kw{color:var(--code-kw)} .tk-str{color:var(--code-str)} .tk-num{color:var(--code-num)} .tk-com{color:var(--code-dim);font-style:italic}
 .tk-key{color:var(--code-key)} .tk-fn{color:var(--code-fn)} .tk-var{color:var(--code-key)} .tk-tag{color:var(--code-kw)} .tk-attr{color:var(--code-fn)}
 .codeblock.has-lines pre{counter-reset:ln}

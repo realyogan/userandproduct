@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thumbnail styles</title>
+<meta name="description" content="The 35 reference thumbnails grouped by style, with what each can be made with here and a recommendation for our thumbnails.">
+<style>
+@font-face { font-family: "Inter"; src: url("../../fonts/inter/Inter-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../../fonts/inter/Inter-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Inter Display"; src: url("../../fonts/inter/InterDisplay-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+:root {
+  --paper: #FDFCF8; --ink: #1D1B16; --muted: #5F5B52; --rule: #E2DDD1; --panel: #F4F1E8;
+  --code-bg: #DCEFD8; --code-fg: #245A18; --code-edge: #97DD88;
+  --source-bg: #FFF3C4; --source-fg: #6B5208; --source-edge: #E8C547;
+  --ext-bg: #FBE0E6; --ext-fg: #8E1430; --ext-edge: #EE7792;
+  --link: #174FA1; --focus: #174FA1;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1D1B16; --ink: #F1EEE6; --muted: #B3AD9F; --rule: #3A372F; --panel: #26241E;
+    --code-bg: #1F3A1A; --code-fg: #B8EBAE; --code-edge: #388627;
+    --source-bg: #3B3212; --source-fg: #FFE58A; --source-edge: #A18517;
+    --ext-bg: #42141F; --ext-fg: #FFB8C7; --ext-edge: #A11736;
+    --link: #9EC2F5; --focus: #9EC2F5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1D1B16; --ink: #F1EEE6; --muted: #B3AD9F; --rule: #3A372F; --panel: #26241E;
+  --code-bg: #1F3A1A; --code-fg: #B8EBAE; --code-edge: #388627;
+  --source-bg: #3B3212; --source-fg: #FFE58A; --source-edge: #A18517;
+  --ext-bg: #42141F; --ext-fg: #FFB8C7; --ext-edge: #A11736;
+  --link: #9EC2F5; --focus: #9EC2F5;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.6 "Inter", system-ui, sans-serif; }
+a { color: var(--link); text-underline-offset: 2px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+img { max-width: 100%; height: auto; display: block; }
+.wrap { max-width: 1400px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 720px) { .wrap { padding: 0 40px; } }
+h1, h2 { font-family: "Inter Display", "Inter", system-ui, sans-serif; font-weight: 700; letter-spacing: -0.02em; line-height: 1.08; }
+h1 { font-size: clamp(2.6rem, 7vw, 5.2rem); margin: 0 0 .3em; }
+h2 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin: 0; }
+.h-small { font-size: 1.4rem; margin-bottom: 12px; }
+h3 { font-size: 1rem; font-weight: 600; margin: 1.4em 0 .3em; }
+p { margin: 0 0 .8em; }
+.muted { color: var(--muted); }
+.small { font-size: .9rem; }
+.top { padding: 56px 0 24px; border-bottom: 1px solid var(--rule); }
+.intro { max-width: 68ch; font-size: 1.12rem; }
+.intro p:last-child { margin-bottom: 0; }
+.summary { padding: 32px 0 8px; }
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .97rem; }
+th, td { text-align: left; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+th { font-weight: 600; color: var(--muted); font-size: .9rem; }
+td.num, th.num { text-align: right; padding-right: 24px; font-variant-numeric: tabular-nums; }
+tfoot td { font-weight: 600; border-bottom: 0; }
+.badge { display: inline-block; padding: 3px 10px 4px; border-radius: 999px; font-size: .85rem; font-weight: 600; line-height: 1.3; border: 1.5px solid; white-space: nowrap; }
+.v-code .badge, .badge.v-code { background: var(--code-bg); color: var(--code-fg); border-color: var(--code-edge); }
+.v-source .badge, .badge.v-source { background: var(--source-bg); color: var(--source-fg); border-color: var(--source-edge); }
+.v-external .badge, .badge.v-external { background: var(--ext-bg); color: var(--ext-fg); border-color: var(--ext-edge); }
+.group { padding: 56px 0 24px; border-bottom: 1px solid var(--rule); scroll-margin-top: 16px; }
+.group-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 20px; margin-bottom: 20px; }
+.count { margin: 0; color: var(--muted); }
+.thumbs { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+.thumbs a { display: block; text-decoration: none; color: var(--muted); font-size: .82rem; }
+.thumbs img { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: var(--panel); border-radius: 6px; }
+.thumbs span { display: block; padding-top: 4px; }
+.group-body { display: grid; gap: 32px; margin-top: 16px; }
+@media (min-width: 1000px) { .group-body.has-demo { grid-template-columns: minmax(0, 1fr) minmax(0, 600px); align-items: start; } }
+.prose { max-width: 72ch; }
+.prose h3:first-child { margin-top: 0; }
+.verdict { margin: 1.4em 0; padding: 16px 18px 6px; border-left: 4px solid; border-radius: 0 6px 6px 0; background: var(--panel); }
+.verdict.v-code { border-color: var(--code-edge); }
+.verdict.v-source { border-color: var(--source-edge); }
+.verdict.v-external { border-color: var(--ext-edge); }
+.verdict-line { margin-bottom: .6em; }
+.ours h3 { margin-top: 0; }
+.conf { color: var(--muted); }
+.conf strong { color: var(--ink); }
+.demo { margin: 0; position: sticky; top: 16px; }
+.demo img { border-radius: 6px; width: 100%; }
+.demo figcaption { font-size: .9rem; color: var(--muted); margin-top: 10px; }
+.demo figcaption strong { color: var(--ink); font-weight: 600; }
+.closing { padding: 56px 0 80px; }
+.closing .prose { max-width: 76ch; }
+.closing ol { padding-left: 1.3em; }
+.closing li { margin-bottom: .7em; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+@media (max-width: 999px) { .demo { position: static; } }
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+  <header class="top">
+    <h1>Thumbnail styles</h1>
+    <div class="intro">
+      <p>The 35 blog thumbnails the owner shared, sorted into ten styles by how they look and how they are made.
+      Each style says what it is, what it communicates, and whether we can make it here: with code alone, with code
+      plus a photo or icon from outside, or only with an illustrator or an image-generation tool.</p>
+      <p class="muted">Four styles have a small demonstration made here on our own palette (the Printables tints and
+      our mark), with the time it took. Internal reference only; the references belong to their owner.</p>
+    </div>
+  </header>
+
+  <section class="summary" aria-labelledby="h-summary">
+    <h2 id="h-summary" class="h-small">Summary</h2>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th scope="col">Style</th><th scope="col" class="num">Refs</th><th scope="col">Can we make it?</th><th scope="col">Quality by code alone</th></tr></thead>
+      <tbody>
+<tr><td><a href="#flat-vector">Flat vector with hard shadows on a grained grid</a></td><td class="num">10</td><td><span class="badge v-code">Code alone</span></td><td>high</td></tr>
+<tr><td><a href="#pixel">Pixel-art icons and panels</a></td><td class="num">5</td><td><span class="badge v-code">Code alone</span></td><td>high</td></tr>
+<tr><td><a href="#dithered">Dithered and halftone objects on a flat color</a></td><td class="num">5</td><td><span class="badge v-source">Code plus a source image</span></td><td>low <span class="muted">(for code alone; high once a good photo is supplied)</span></td></tr>
+<tr><td><a href="#icon-sequence">Icon sequences on a grained grid</a></td><td class="num">3</td><td><span class="badge v-source">Code plus a source image</span></td><td>high <span class="muted">(with an open icon set)</span></td></tr>
+<tr><td><a href="#type-cover">Typographic covers on dark</a></td><td class="num">3</td><td><span class="badge v-source">Code plus a source image</span></td><td>medium</td></tr>
+<tr><td><a href="#dark-diagram">Dark line diagrams with one accent</a></td><td class="num">3</td><td><span class="badge v-code">Code alone</span></td><td>high</td></tr>
+<tr><td><a href="#dark-glow">Dark glow diagrams</a></td><td class="num">3</td><td><span class="badge v-code">Code alone</span></td><td>medium</td></tr>
+<tr><td><a href="#light-grid">Light grid diagram</a></td><td class="num">1</td><td><span class="badge v-code">Code alone</span></td><td>high</td></tr>
+<tr><td><a href="#particle">Particle field render</a></td><td class="num">1</td><td><span class="badge v-code">Code alone</span></td><td>medium</td></tr>
+<tr><td><a href="#character">Character drawing on a grained grid</a></td><td class="num">1</td><td><span class="badge v-external">External image tool</span></td><td>low</td></tr>
+      </tbody>
+      <tfoot><tr><td>Total</td><td class="num">35</td><td colspan="2"></td></tr></tfoot>
+    </table>
+    </div>
+    <p class="muted small" style="margin-top:12px"><span class="badge v-code">Code alone</span> drawn and rendered here, no outside input.
+    <span class="badge v-source">Code plus a source image</span> needs a photo or icon from outside, code does the rest.
+    <span class="badge v-external">External image tool</span> needs an illustrator or an image-generation tool, then code finishes it.</p>
+  </section>
+
+<section class="group" id="flat-vector" aria-labelledby="h-flat-vector">
+  <header class="group-head">
+    <h2 id="h-flat-vector">Flat vector with hard shadows on a grained grid</h2>
+    <p class="count">10 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-10.png"><img src="ref-10.png" width="828" height="466" loading="lazy" alt="Reference 10"><span>ref-10</span></a></li><li><a href="ref-17.png"><img src="ref-17.png" width="828" height="466" loading="lazy" alt="Reference 17"><span>ref-17</span></a></li><li><a href="ref-18.png"><img src="ref-18.png" width="828" height="466" loading="lazy" alt="Reference 18"><span>ref-18</span></a></li><li><a href="ref-19.png"><img src="ref-19.png" width="828" height="466" loading="lazy" alt="Reference 19"><span>ref-19</span></a></li><li><a href="ref-20.png"><img src="ref-20.png" width="828" height="466" loading="lazy" alt="Reference 20"><span>ref-20</span></a></li><li><a href="ref-21.png"><img src="ref-21.png" width="828" height="466" loading="lazy" alt="Reference 21"><span>ref-21</span></a></li><li><a href="ref-22.png"><img src="ref-22.png" width="828" height="466" loading="lazy" alt="Reference 22"><span>ref-22</span></a></li><li><a href="ref-23.png"><img src="ref-23.png" width="828" height="466" loading="lazy" alt="Reference 23"><span>ref-23</span></a></li><li><a href="ref-29.png"><img src="ref-29.png" width="828" height="466" loading="lazy" alt="Reference 29"><span>ref-29</span></a></li><li><a href="ref-30.png"><img src="ref-30.png" width="828" height="366" loading="lazy" alt="Reference 30"><span>ref-30</span></a></li></ul>
+  <p class="muted small">ref-18 and ref-19 are the same image.</p>
+  <div class="group-body has-demo">
+    <div class="prose">
+      <h3>The style</h3><p>A saturated flat color (red-orange, acid yellow, teal, violet, near-white) under a fine square grid or a dot grid, with film-like grain over everything. One to three simple objects (gears, a magnifier, a database drum, a line chart, a chat window, a box robot) drawn as flat shapes with a thin black outline and a solid black shadow offset down and to the right, so they look like paper cut-outs lifted off the page. A few thin lines run in from the edge to suggest flow. Type is rare: a short label on a pale box in a bold mono face. The brand mark appears as an object itself (a white disc on the drum, or a logo pair for an integration) rather than in a corner.</p>
+      <h3>What it says and when it fits</h3><p>Friendly, concrete, a little playful. It says &quot;here is the idea in one picture&quot; without pretending to be data. It suits how-to pieces, concepts, announcements and anything where one everyday object can stand for the topic: a magnifier for research, a chat box for interviews, a chart for metrics.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>Every object here is a handful of rectangles, circles and paths. The shadow is the same shape drawn again in black and shifted; the grid is a loop of lines; the grain is random noise added to the pixels. All of it is SVG written by hand and rendered with Python. Demonstration (a) proves it on our yellow tint. The only weak spot is an organic object with character (see the elephant in its own group).</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Our tint as the field (the article&#x27;s tint from the rotation), a fine ink grid at 10% and light grain, objects in card white and highlight A with ink outlines and a solid ink shadow, our mark small in the bottom-right corner. Objects from our world: a browser window, a cursor, a sticky note, a roadmap card, a research magnifier, a speech bubble.</p>
+      <p class="conf">Quality by code alone: <strong>high</strong></p></div>
+    </div>
+    <figure class="demo"><a href="demo/demo-a-flat-vector.png"><img src="demo/demo-a-flat-vector.png" width="600" height="338" loading="lazy" alt="Demonstration (a): flat vector with hard shadows on the yellow tint with a grained grid. A browser window, a cursor and a speech bubble with a check, drawn as hand-written SVG; shadows are the same shapes in ink shifted 14 units; grain is noise added in Python."></a><figcaption>Demonstration (a): flat vector with hard shadows on the yellow tint with a grained grid. A browser window, a cursor and a speech bubble with a check, drawn as hand-written SVG; shadows are the same shapes in ink shifted 14 units; grain is noise added in Python. <strong>Time:</strong> about 15 minutes to write, 0.23 seconds to render. Made here with code.</figcaption></figure>
+  </div>
+</section>
+<section class="group" id="pixel" aria-labelledby="h-pixel">
+  <header class="group-head">
+    <h2 id="h-pixel">Pixel-art icons and panels</h2>
+    <p class="count">5 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-05.png"><img src="ref-05.png" width="828" height="462" loading="lazy" alt="Reference 5"><span>ref-05</span></a></li><li><a href="ref-12.png"><img src="ref-12.png" width="828" height="462" loading="lazy" alt="Reference 12"><span>ref-12</span></a></li><li><a href="ref-14.png"><img src="ref-14.png" width="828" height="462" loading="lazy" alt="Reference 14"><span>ref-14</span></a></li><li><a href="ref-15.png"><img src="ref-15.png" width="828" height="462" loading="lazy" alt="Reference 15"><span>ref-15</span></a></li><li><a href="ref-16.png"><img src="ref-16.png" width="1280" height="720" loading="lazy" alt="Reference 16"><span>ref-16</span></a></li></ul>
+  
+  <div class="group-body has-demo">
+    <div class="prose">
+      <h3>The style</h3><p>Icons built from square pixels on a visible grid: a padlock, a factory, a key, database drums, a RAM stick spilling squares into a disk. Outlines are one pixel thick and fills use a checker dither for mid-tones. Backgrounds are near-black or a flat red-orange; two of them put a dark rounded panel on the color, like a game screen. Type, when present, is a pixel font in capitals. One accent color (acid yellow) at most. No brand mark.</p>
+      <h3>What it says and when it fits</h3><p>Technical, nostalgic, systematic. It reads as &quot;this is about how the machine works&quot;. It suits short, tactical pieces, tool and calculator pages, checklists and anything process-like where an arrow between two icons tells the story.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>Pixel art is a grid of squares, which is the easiest thing in the world to write as code: each icon is a small text map of filled and empty cells. Dithered fills are a checker pattern. Demonstration (b) is a person, a product window and two arrows (a feedback loop) on our teal tint.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>On our tint with the Printables dot grid (not on black), ink outlines, a checker dither in highlight A or B for the one area that matters, our mark in the corner. A small library of pixel icons for our recurring subjects (user, window, note, chart, calendar, book) would make each new thumbnail a few minutes of layout.</p>
+      <p class="conf">Quality by code alone: <strong>high</strong></p></div>
+    </div>
+    <figure class="demo"><a href="demo/demo-b-pixel-icon.png"><img src="demo/demo-b-pixel-icon.png" width="600" height="338" loading="lazy" alt="Demonstration (b): pixel icons on the teal tint with the dot grid. Each icon is a text map of cells turned into squares; the person and the window hero are filled with a checker dither in highlight B and A."></a><figcaption>Demonstration (b): pixel icons on the teal tint with the dot grid. Each icon is a text map of cells turned into squares; the person and the window hero are filled with a checker dither in highlight B and A. <strong>Time:</strong> about 15 minutes to write, 0.25 seconds to render. Made here with code.</figcaption></figure>
+  </div>
+</section>
+<section class="group" id="dithered" aria-labelledby="h-dithered">
+  <header class="group-head">
+    <h2 id="h-dithered">Dithered and halftone objects on a flat color</h2>
+    <p class="count">5 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-01.png"><img src="ref-01.png" width="828" height="466" loading="lazy" alt="Reference 1"><span>ref-01</span></a></li><li><a href="ref-06.png"><img src="ref-06.png" width="828" height="466" loading="lazy" alt="Reference 6"><span>ref-06</span></a></li><li><a href="ref-09.png"><img src="ref-09.png" width="828" height="466" loading="lazy" alt="Reference 9"><span>ref-09</span></a></li><li><a href="ref-11.png"><img src="ref-11.png" width="828" height="466" loading="lazy" alt="Reference 11"><span>ref-11</span></a></li><li><a href="ref-13.png"><img src="ref-13.png" width="828" height="466" loading="lazy" alt="Reference 13"><span>ref-13</span></a></li></ul>
+  
+  <div class="group-body has-demo">
+    <div class="prose">
+      <h3>The style</h3><p>A real photograph or 3D render (a robot hand and a database, a power substation, a laptop with a clock, server stacks) reduced to a pattern of dots or square pixels, in a single ink, on one flat color: red-orange, acid yellow, blue. A loose dot grid or scattered pixel crosses sit behind. Ref-09 is the same treatment applied to a vector icon (a cloud over databases). Type is rare and plain. The brand mark is big in the corner on ref-09, absent on the rest.</p>
+      <h3>What it says and when it fits</h3><p>Real-world weight with a printed, newsy feel. The photo says &quot;this exists&quot;, the dots say &quot;this is our publication&quot;. It suits industry pieces, case studies, opinion, event recaps and anything about a physical place, product or person.</p>
+      <div class="verdict v-source">
+        <p class="verdict-line"><span class="badge v-source">Code plus a source image</span></p>
+        <p>The dot treatment itself is pure code: a dot screen, Floyd-Steinberg error diffusion or an ordered Bayer pattern are each a few lines in Pillow, followed by recoloring to two colors and placing on the tint. What code cannot make is the subject. It needs a photograph with real light and shadow. Sources: the owner&#x27;s own photos first (desk, workshops, sketches, devices); open-license photo sites such as Unsplash and Pexels (free to use, attribution appreciated, no reselling the photo alone); for ref-09 style, an open icon set. Demonstration (d) runs the pipeline on a screenshot of the owner&#x27;s Printables site: the method works, but a flat screenshot has little tone, so it reads as an outline; a photo with shadows gives the rich result in ref-01 and ref-06.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>A photo cut out from its background, reduced to ink dots, on the article&#x27;s tint with a faint dot grid, our mark in the corner. Best with the owner&#x27;s own photos, which also builds the authority the site is for.</p>
+      <p class="conf">Quality by code alone: <strong>low (for code alone; high once a good photo is supplied)</strong></p></div>
+    </div>
+    <figure class="demo"><a href="demo/demo-d-halftone.png"><img src="demo/demo-d-halftone.png" width="600" height="338" loading="lazy" alt="Demonstration (d): a 45-degree dot screen of a source image on the pink tint. The source is a screenshot of the owner&#x27;s Printables site (the Halloween calendar sheet), tilted, given a soft shadow, then turned into ink dots whose size follows the darkness."></a><figcaption>Demonstration (d): a 45-degree dot screen of a source image on the pink tint. The source is a screenshot of the owner&#x27;s Printables site (the Halloween calendar sheet), tilted, given a soft shadow, then turned into ink dots whose size follows the darkness. <strong>Time:</strong> about 15 minutes to write, including finding a source, 0.32 seconds to render. Made here with code.</figcaption></figure>
+  </div>
+</section>
+<section class="group" id="icon-sequence" aria-labelledby="h-icon-sequence">
+  <header class="group-head">
+    <h2 id="h-icon-sequence">Icon sequences on a grained grid</h2>
+    <p class="count">3 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-24.png"><img src="ref-24.png" width="828" height="466" loading="lazy" alt="Reference 24"><span>ref-24</span></a></li><li><a href="ref-25.png"><img src="ref-25.png" width="828" height="466" loading="lazy" alt="Reference 25"><span>ref-25</span></a></li><li><a href="ref-28.png"><img src="ref-28.png" width="828" height="466" loading="lazy" alt="Reference 28"><span>ref-28</span></a></li></ul>
+  <p class="muted small">ref-25 and ref-28 are the same image.</p>
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>Four or five line icons from one consistent set (a table with a bolt, a branching diagram, a lightbulb, a document with a magnifier) arranged as a sequence: on white discs riding a conveyor belt, or in a numbered ring around a soft orange glow. Grained orange or yellow field with a grid or a few edge lines. Numbers in a mono face. No brand mark.</p>
+      <h3>What it says and when it fits</h3><p>Order and completeness: &quot;there are five steps&quot; or &quot;these four features&quot;. It suits listicles, frameworks, step-by-step guides and product round-ups, where the count is the hook.</p>
+      <div class="verdict v-source">
+        <p class="verdict-line"><span class="badge v-source">Code plus a source image</span></p>
+        <p>The layout, discs, conveyor, glow, numbers and grain are code alone. The icons should come from an open set so they share one stroke weight and look professional: Lucide (ISC license), Phosphor (MIT), Tabler (MIT). All three allow use without attribution. Drawing twenty good icons by hand is possible but slower and less consistent than taking them from a set.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Icons from one open set in ink at our 2.5-unit stroke, on card-white discs with a solid ink shadow, numbered in Inter, on the article&#x27;s tint with grain. One highlight-A disc marks the step the article is about.</p>
+      <p class="conf">Quality by code alone: <strong>high (with an open icon set)</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+<section class="group" id="type-cover" aria-labelledby="h-type-cover">
+  <header class="group-head">
+    <h2 id="h-type-cover">Typographic covers on dark</h2>
+    <p class="count">3 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-02.png"><img src="ref-02.png" width="828" height="466" loading="lazy" alt="Reference 2"><span>ref-02</span></a></li><li><a href="ref-04.png"><img src="ref-04.png" width="828" height="466" loading="lazy" alt="Reference 4"><span>ref-04</span></a></li><li><a href="ref-08.png"><img src="ref-08.png" width="828" height="466" loading="lazy" alt="Reference 8"><span>ref-08</span></a></li></ul>
+  
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>A near-black field (dot grid on one) with a title in a heavy mono or pixel face, a short subtitle, sometimes a small colored kicker above, and one image: a blue fingerprint drawn in fine lines, a dithered factory photo in a framed panel, or a full-bleed dithered event photo. Accent in acid yellow or blue. The brand mark sits large in yellow in the corner of the event cover.</p>
+      <h3>What it says and when it fits</h3><p>Headline-first. The words do the work and the image is supporting texture. It suits series, reports, event recaps, &quot;what we heard&quot; pieces and anything where the title is the hook and must be readable in a feed.</p>
+      <div class="verdict v-source">
+        <p class="verdict-line"><span class="badge v-source">Code plus a source image</span></p>
+        <p>The type is easy and exact with our self-hosted fonts. Two of the three use a dithered photograph (see the dithered group for sources and method) and the fingerprint needs a fingerprint image or vector from outside. With a code-drawn object instead (a diagram, a pixel icon), the cover is code alone. Note that a title inside the image doubles the headline on the page and is lost in search results, so this suits social cards more than on-site thumbnails.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>If used, on a tint rather than black, the title in Inter Display Bold, one object from the flat-vector or pixel library, our mark in the corner. Best kept for social images and series covers.</p>
+      <p class="conf">Quality by code alone: <strong>medium</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+<section class="group" id="dark-diagram" aria-labelledby="h-dark-diagram">
+  <header class="group-head">
+    <h2 id="h-dark-diagram">Dark line diagrams with one accent</h2>
+    <p class="count">3 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-03.png"><img src="ref-03.png" width="828" height="466" loading="lazy" alt="Reference 3"><span>ref-03</span></a></li><li><a href="ref-27.png"><img src="ref-27.png" width="828" height="552" loading="lazy" alt="Reference 27"><span>ref-27</span></a></li><li><a href="ref-35.png"><img src="ref-35.png" width="828" height="384" loading="lazy" alt="Reference 35"><span>ref-35</span></a></li></ul>
+  
+  <div class="group-body has-demo">
+    <div class="prose">
+      <h3>The style</h3><p>A near-black field, sometimes with a faint dot grid, carrying a real explainer diagram: a bar chart with a lookback window, two ranked lists swapped by a search method, a numbered pipeline of boxes. Thin white or gray lines, small mono labels, rounded boxes, and one accent color (red, blue, lime, teal) for the part that matters. Partner logos inside the diagram on ref-35, no brand mark otherwise.</p>
+      <h3>What it says and when it fits</h3><p>Precise and technical. It promises a mechanism will be explained. It suits deep explainers and comparisons, where the thumbnail is literally the article&#x27;s key figure.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>This is boxes, lines, arrows and text, exactly what our explainer generator already draws. Demonstration (c) is a four-stage product flow with a feedback loop in one accent, on our ink as the background. Text renders with system mono fonts, so the export should stick to fonts that are installed or self-hosted.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Ink #1D1B16 as the field with a faint white dot grid, white lines and labels, one highlight A from the article&#x27;s tint as the accent. It breaks our rule of one pastel tint per image, so it suits a named series (for example data or metrics pieces) rather than the main rotation.</p>
+      <p class="conf">Quality by code alone: <strong>high</strong></p></div>
+    </div>
+    <figure class="demo"><a href="demo/demo-c-dark-diagram.png"><img src="demo/demo-c-dark-diagram.png" width="600" height="338" loading="lazy" alt="Demonstration (c): a dark line diagram on our ink with yellow highlight A as the one accent. Four stages, white outlines, the accent on discovery and a dashed loop back from ship."></a><figcaption>Demonstration (c): a dark line diagram on our ink with yellow highlight A as the one accent. Four stages, white outlines, the accent on discovery and a dashed loop back from ship. <strong>Time:</strong> about 10 minutes to write, 0.27 seconds to render. Made here with code.</figcaption></figure>
+  </div>
+</section>
+<section class="group" id="dark-glow" aria-labelledby="h-dark-glow">
+  <header class="group-head">
+    <h2 id="h-dark-glow">Dark glow diagrams</h2>
+    <p class="count">3 references</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-32.png"><img src="ref-32.png" width="828" height="366" loading="lazy" alt="Reference 32"><span>ref-32</span></a></li><li><a href="ref-33.png"><img src="ref-33.png" width="828" height="366" loading="lazy" alt="Reference 33"><span>ref-33</span></a></li><li><a href="ref-34.png"><img src="ref-34.png" width="828" height="471" loading="lazy" alt="Reference 34"><span>ref-34</span></a></li></ul>
+  
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>Pure black with large soft shapes in dark gray (a cloud, a half-circle) lit from within, and objects drawn in glossy white lines that fade at their ends: a cloud of database drums with one lit in yellow, a tangle of cards sorted into a grid, a sync loop to a cloud. One accent at most. No type, no mark.</p>
+      <h3>What it says and when it fits</h3><p>Premium, product-launch, infrastructure. It feels like a keynote slide. It suits architecture, migration and scale topics; it is cooler and more corporate than the rest of the set.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>Soft shapes are SVG gradients and blur filters, which our renderer supports; fading line ends are linear gradients on strokes. It can be made here, but getting the glow and depth to look expensive rather than flat takes tuning per image, so the quality is less predictable than the flat styles.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Probably not for us: black breaks the tint system and the mood is more enterprise than editorial. If ever used, the article&#x27;s highlight A as the single lit element.</p>
+      <p class="conf">Quality by code alone: <strong>medium</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+<section class="group" id="light-grid" aria-labelledby="h-light-grid">
+  <header class="group-head">
+    <h2 id="h-light-grid">Light grid diagram</h2>
+    <p class="count">1 reference</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-31.png"><img src="ref-31.png" width="828" height="366" loading="lazy" alt="Reference 31"><span>ref-31</span></a></li></ul>
+  
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>Near-white with a faint square grid and fine speckle, a thin rounded inner frame, and an abstract diagram: blocks of black stripes (rows of data) with orange lines fading in from the left and two arrows splitting one block into two. One accent color. No type, no mark.</p>
+      <h3>What it says and when it fits</h3><p>Calm, precise, quietly technical. It explains a structural idea (splitting, merging, partitioning) without words. It suits concept explainers and pairs naturally with figures inside the article.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>Lines, rectangles, a gradient on a stroke, a grid and speckle noise. It is the closest of all the references to the explainer illustrations we already make on the Printables tints.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Exactly our explainer style: the article&#x27;s tint with the dot grid, ink lines, highlight A or B as the accent, our mark in the corner. A thumbnail can be a simplified version of the article&#x27;s key figure.</p>
+      <p class="conf">Quality by code alone: <strong>high</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+<section class="group" id="particle" aria-labelledby="h-particle">
+  <header class="group-head">
+    <h2 id="h-particle">Particle field render</h2>
+    <p class="count">1 reference</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-07.png"><img src="ref-07.png" width="828" height="462" loading="lazy" alt="Reference 7"><span>ref-07</span></a></li></ul>
+  
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>A black panel inside a thin rounded frame. Thousands of tiny yellow dots stream from both sides into a pinch point, glowing where they are densest, with a pixel table icon at the waist, a small mono label on a leader line, and a large pixel-font number (2.8s) to the right.</p>
+      <h3>What it says and when it fits</h3><p>Speed, volume, a bottleneck. One number is the headline. It suits performance stories and before-and-after results.</p>
+      <div class="verdict v-code">
+        <p class="verdict-line"><span class="badge v-code">Code alone</span></p>
+        <p>A particle field is a loop that scatters dots along a curve with some jitter, plus a blur for the glow; the icon is pixel art and the number is type. All doable in Python. The organic look of the streams needs a few rounds of tuning to avoid looking mechanical.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>Ink dots streaming on the article&#x27;s tint (no glow), a pixel icon at the pinch, one number in Inter Display. Occasional use for a piece built around one result.</p>
+      <p class="conf">Quality by code alone: <strong>medium</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+<section class="group" id="character" aria-labelledby="h-character">
+  <header class="group-head">
+    <h2 id="h-character">Character drawing on a grained grid</h2>
+    <p class="count">1 reference</p>
+  </header>
+  <ul class="thumbs"><li><a href="ref-26.png"><img src="ref-26.png" width="828" height="466" loading="lazy" alt="Reference 26"><span>ref-26</span></a></li></ul>
+  
+  <div class="group-body">
+    <div class="prose">
+      <h3>The style</h3><p>The flat-vector look (grained orange field, square grid, a line chart with dots) but the subject is an elephant with real character: hand-drawn contour lines for the legs, ear and trunk, a pale yellow fill and a deep red shadow, standing on the chart like a pull toy. No type, no mark.</p>
+      <h3>What it says and when it fits</h3><p>Warmth and personality. A mascot or a metaphor animal makes a piece memorable. It suits flagship articles, annual pieces and anything that should be shared.</p>
+      <div class="verdict v-external">
+        <p class="verdict-line"><span class="badge v-external">External image tool</span></p>
+        <p>The background, chart, grain and shadow are code. The elephant is not: an animal with believable proportions and expressive line work, written by hand as SVG, comes out stiff and crude. It needs a human illustrator or an image-generation tool, given a prompt that describes this style (flat shape, single outline, pale fill, solid offset shadow, no gradients) and our palette. The result would then be traced or cleaned, recolored to the tint and highlights, given the grain and grid, and marked, all by code.</p>
+      </div>
+      <div class="ours"><h3>What I would make for us</h3><p>A small set of recurring characters drawn once by an illustrator (for example a researcher, a product manager, a user), reused across flagship pieces on their article&#x27;s tint with code adding the grid, grain, shadow and mark.</p>
+      <p class="conf">Quality by code alone: <strong>low</strong></p></div>
+    </div>
+    
+  </div>
+</section>
+
+  <section class="closing" aria-labelledby="h-rec">
+    <h2 id="h-rec">Recommendation</h2>
+    <div class="prose">
+      <p>Adopt three styles for our thumbnails, all made here reliably on the article's tint, so a new piece needs
+      no outside help:</p>
+      <ol>
+        <li><strong>Flat vector with hard shadows on a grained grid, as the default.</strong> Warm, editorial,
+        readable at small sizes, and every object in our subject area (a window, a cursor, a note, a chart, a
+        magnifier) is simple geometry. Demonstration (a).</li>
+        <li><strong>The light grid diagram for explainer-led articles.</strong> It is our existing figure style, so
+        the thumbnail can be a simplified version of the article's key figure.</li>
+        <li><strong>Pixel icons for tools, calculators, templates and short tactical pieces.</strong> A small icon
+        library makes each one a few minutes of layout and gives that section of the site its own look.
+        Demonstration (b).</li>
+      </ol>
+      <p>Icon sequences fit inside the first style whenever an open icon set (Lucide, Phosphor or Tabler) is used for
+      the icons.</p>
+      <p>Reserve for occasional pieces with outside help:</p>
+      <ul>
+        <li><strong>Dithered photos</strong> for case studies, interviews and event pieces, using the owner's own
+        photos first. The dot treatment is code; the photo is the input.</li>
+        <li><strong>Character drawings</strong> for flagship articles, from an illustrator or an image-generation
+        tool, then finished by code with our grid, grain, shadow and mark.</li>
+      </ul>
+      <p>Leave out the dark styles (dark diagrams, glow diagrams, dark covers) from the main rotation: they can be
+      made here, but black breaks our one-tint-per-article rule. Keep them in mind for a named series or social
+      images.</p>
+    </div>
+  </section>
+</div>
+</main>
+</body>
+</html>

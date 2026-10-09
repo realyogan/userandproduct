@@ -122,6 +122,7 @@
   // ---------- Code blocks ----------
   // Wraps every <pre><code> in a dark card with a bar (dots, language, optional file name, copy button)
   // and highlights sql, javascript, json, bash and html. Language from class="language-x" on code or pre;
+  // a caption is a <figcaption> in a wrapping <figure> (or data-caption on pre), always outside the card;
   // file name from data-filename on pre; caption from data-caption on pre. Unknown languages stay plain.
   var KW = {
     sql: "select|from|where|and|or|not|as|join|left|right|inner|outer|on|group|by|order|having|limit|offset|insert|into|values|update|set|delete|create|table|index|view|with|distinct|case|when|then|else|end|is|null|in|between|like|filter|count|sum|avg|min|max|union|all|asc|desc|primary|key|references|default",
@@ -180,7 +181,19 @@
       '<button class="codeblock__copy" type="button" aria-label="Copy code">' + COPY_ICON + "</button></div>";
     pre.parentNode.insertBefore(card, pre);
     card.appendChild(pre);
-    if (cap) { var c = document.createElement("p"); c.className = "codeblock__cap"; c.textContent = cap; card.appendChild(c); }
+    if (cap) {
+      // a caption sits outside the card, like a figure caption
+      var fig = pre.closest("figure");
+      if (!fig) {
+        fig = document.createElement("figure");
+        fig.className = "fig fig--code";
+        card.parentNode.insertBefore(fig, card);
+        fig.appendChild(card);
+      }
+      var fc = document.createElement("figcaption");
+      fc.textContent = cap;
+      fig.appendChild(fc);
+    }
     pre.setAttribute("tabindex", "0");
     pre.setAttribute("aria-label", (m ? m.toUpperCase() + " " : "") + "code" + (file ? ", " + file : ""));
     var btn = card.querySelector(".codeblock__copy"), status = card.querySelector(".codeblock__status");

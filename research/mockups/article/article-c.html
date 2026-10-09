@@ -129,7 +129,8 @@
 <h3 id="tester-can-check">Write acceptance lines a tester can check</h3>
 <p>An acceptance line describes something a person can observe, in a given state, after an action. "Saved filters should be easy to use" is a wish. "Applying a saved filter restores every filter exactly as saved, including date ranges" is a line someone can test. I use Given, When, Then when the starting state matters and a plain sentence when it does not. I aim for five to twelve lines per feature; more than that usually means the feature should be split.</p>
 <p>Success measures get the same treatment. For saved filters the measure was a query the analytics team could run from the first day of the release, written into the PRD next to the acceptance lines:</p>
-<pre data-caption="The success measure from the saved filters PRD: the weekly share of active analysts who applied a saved filter."><code class="language-sql">-- weekly share of active analysts who applied a saved filter
+<figure class="fig fig--code">
+<pre><code class="language-sql">-- weekly share of active analysts who applied a saved filter
 SELECT date_trunc('week', e.created_at) AS week,
        COUNT(DISTINCT e.user_id) FILTER (WHERE e.name = 'saved_filter_applied') * 100.0
          / COUNT(DISTINCT e.user_id) AS pct_using_saved_filters
@@ -138,6 +139,8 @@ WHERE e.created_at &gt;= '2026-01-01'
   AND e.role = 'analyst'
 GROUP BY 1
 ORDER BY 1;</code></pre>
+<figcaption>The success measure from the saved filters PRD: the weekly share of active analysts who applied a saved filter.</figcaption>
+</figure>
 <h3 id="open-questions">Keep open questions in the open</h3>
 <p>Every PRD I write ends with a short table of open questions, each with an owner and a date. After the scope lists it is the most-read part, because it tells engineers where not to build yet. Hiding an open question in a paragraph does not close it. It moves the discussion to a pull request, where it costs more.</p>
 <p>Anything nobody has decided yet is marked <code>TBD</code> in the body, never guessed. Before a review I count what is still open across every PRD in the repository:</p>
