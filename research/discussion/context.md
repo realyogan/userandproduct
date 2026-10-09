@@ -365,3 +365,5 @@ git@github-realyogan:realyogan/userandproduct.git (owner created the repo; ident
 Final lockup refinement (owner, 9 Oct): mark centred midway between the cap band and the x-height (+5.30 SVG units,
 alignment C) and the mark-to-word gap widened to 0.40 of the mark height (40.74 units, about 116px at 2400). These are
 now the build.py defaults; pack regenerated and committed. research/mockups/final-logo/alignment.html kept as the record.
+Wordmark tracking changed to 0 (the typeface as designed) after a comparison of -25, -10, 0 and +10; owner picked 0.
+Final spec: Inter Display Bold, lowercase, tracking 0; mark mid-aligned; gap 0.40. Pack regenerated and committed.

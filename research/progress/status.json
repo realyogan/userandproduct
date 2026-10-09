@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "run_id": "logo-final-regen",
-  "title": "Final logo pack regenerated: alignment C, gap 0.40",
+  "run_id": "logo-final-tracking",
+  "title": "Final logo pack regenerated: tracking 0",
   "state": "finished",
-  "started": "2026-10-09T18:06+05:30",
-  "updated": "2026-10-09T18:07+05:30",
-  "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; brand sheet shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
+  "started": "2026-10-09T18:13+05:30",
+  "updated": "2026-10-09T18:14+05:30",
+  "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical; lockup 874 units wide",
   "steps": [
     {
       "n": 1,
       "title": "Regenerate",
       "status": "done",
-      "note": "Defaults now --align mid, --gap 0.40; 63 pack files plus brand sheet and README regenerated",
-      "time": "18:07"
+      "note": "Default tracking 0 (with mid, gap 0.40); 63 pack files, brand sheet, README and alignment.html notes regenerated",
+      "time": "18:14"
     },
     {
       "n": 2,
       "title": "Checks",
       "status": "done",
-      "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; brand sheet shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
-      "time": "18:07"
+      "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical; lockup 874 units wide",
+      "time": "18:14"
     }
   ]
 }

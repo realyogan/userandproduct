@@ -40,7 +40,7 @@ WHITE, NEAR = '#FFFFFF', '#0B0B0C'         # page backgrounds
 BLACK_MONO, WHITE_MONO = '#0B0B0C', '#FFFFFF'
 
 # ------------------------------------------------------------------ geometry
-TRACK = -25          # 1/1000 em
+TRACK = 0            # 1/1000 em; 0 = the typeface as designed (decided 9 Oct 2026; was -25)
 H_CAP = 1.4          # mark height in cap heights (side lockup)
 GAP_CAP = 0.38       # the original P8 gap, in cap heights (0.27 of the mark height); kept for the record
 STACK_H_CAP = 3.0    # mark height in the stacked lockup
@@ -107,9 +107,9 @@ _FONT = WM.FontRef(FONT_B)
 CAP = _FONT.tt['OS/2'].sCapHeight * 100 / _FONT.upem
 
 
-def word():
+def word(track=None):
     """The name as one merged path, baseline 0, ink starting at x = 0, and its ink box."""
-    items = WM.layout(['userandproduct'], [_FONT], 100, TRACK)
+    items = WM.layout(['userandproduct'], [_FONT], 100, TRACK if track is None else track)
     d, b = WM.part_path(items[0], True)
     return shift(d, -b[0], 0), (0, b[1], b[2] - b[0], b[3])
 
@@ -151,7 +151,8 @@ def gap_units(gap=None):
     return CAP * GAP_CAP if gap is None else CAP * H_CAP * gap
 
 
-def lockup(mark_c, word_c, align=None, gap=None):
+def lockup(mark_c, word_c, align=None, gap=None, track=None):
+    WORD_D, WB = (globals()['WORD_D'], globals()['WB']) if track is None else word(track)
     H, yc, gap = CAP * H_CAP, mark_centre(align), gap_units(gap)
     dx, dy = -_mx0 * S_SIDE, yc - H / 2 - _my0 * S_SIDE
     body = P(shift(MARK_D, dx, dy, S_SIDE), mark_c) + P(shift(WORD_D, MARK_W_SIDE + gap, 0), word_c)
@@ -573,7 +574,7 @@ blue in dark browser themes; the PNG and ICO files sit on a white tile so they r
 <dt>Typeface</dt><dd>Inter Display (Rasmus Andersson and contributors)</dd>
 <dt>Weight</dt><dd>Bold (700)</dd>
 <dt>Case</dt><dd>All lowercase, one word: userandproduct</dd>
-<dt>Tracking</dt><dd>{geo['track']} (thousandths of an em), set with the font's kerning</dd>
+<dt>Tracking</dt><dd>{geo['track']}, the typeface as designed (the font's own spacing and kerning)</dd>
 <dt>Lockup</dt><dd>Mark 1.4 cap heights tall, centred midway between the cap band and the x-height; gap 0.40 of the mark height</dd>
 <dt>Files</dt><dd>Outlined as paths; no live text, so nothing depends on a font loading</dd>
 <dt>Licence</dt><dd>Inter is under the SIL Open Font License 1.1. The OFL allows logos made from its outlines;
@@ -621,12 +622,14 @@ def readme(tk, rt, decided):
     return f"""# userandproduct logo pack
 
 The final logo for userandproduct.com, decided {decided}: the Signal mark (four filled tiles of two sizes,
-rotated 45 degrees) with the name "userandproduct" in Inter Display Bold, lowercase, tracking -25.
+rotated 45 degrees) with the name "userandproduct" in Inter Display Bold, lowercase, tracking 0
+(the typeface as designed).
 
 Lockup geometry: the mark is 1.4 cap heights tall, centred midway between the cap band and the x-height
 band (mark centre 31.08 units above the baseline at 100 units per em; cap height 72.75, x-height 51.56),
 with a gap of 0.40 of the mark height (40.74 units). Both set on 9 Oct 2026 after the comparison in
-`alignment.html`; `python build.py --align cap|xheight|mid --gap <fraction>` rebuilds other variants.
+`alignment.html`; tracking 0 chosen the same day (was -25). `python build.py --align cap|xheight|mid
+--gap <fraction> --tracking <n>` rebuilds other variants.
 
 Open the brand sheet: http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html
 
@@ -769,10 +772,10 @@ def gap_section():
             'given as a fraction of the mark height.</p>']
     side = []
     for title, g in GAPS:
-        L, D = lockup(BLUE_L, INK, 'mid', g), lockup(BLUE_D, OFF, 'mid', g)
+        L, D = lockup(BLUE_L, INK, 'mid', g, track=-25), lockup(BLUE_D, OFF, 'mid', g, track=-25)
         gu = gap_units(g)
         px = gu * 2400 / vbox(L)[2]
-        flag = f'--gap {g:.2f}' if g != 'original' else '--gap 0.2714'
+        flag = f'--gap {g:.2f} --tracking -25' if g != 'original' else '--gap 0.2714 --tracking -25'
         note = (f'Gap <code>{gu:.2f}</code> SVG units = {gu / H:.2f} of the mark height ({H:.2f}); about '
                 f'{px:.0f} px on the 2400 px render. Build with <code>python build.py --align mid {flag}</code>.')
         side.append(f'<div class="panel on-light"><b>{title}</b>{cls(L, "big")}</div>')
@@ -780,7 +783,7 @@ def gap_section():
             f'<svg class="strip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" role="img" '
             f'aria-label="Site header, {m}"><title>Site header, {m}</title>'
             f'<rect width="1280" height="72" fill="{WHITE if m == "light" else NEAR}"/>'
-            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original"))}</svg>'
+            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original", track=-25))}</svg>'
             for m, lk in (('light', L), ('dark', D)))
         rows.append(f"""
 <h3>{title}{f' ({gu / H:.2f})' if g == 'original' else ''}</h3>
@@ -798,21 +801,60 @@ def gap_section():
     return ''.join(rows)
 
 
+TRACKS = [(-25, 'the original'), (-10, ''), (0, 'the typeface as designed; chosen'), (10, '')]
+
+
+def tracking_section():
+    H = CAP * H_CAP
+    rows = ['<h2 id="tracking">Letter spacing, at alignment C and gap 0.40</h2>'
+            '<p>Only the tracking of the name changes (in thousandths of an em, with the font kerning kept). '
+            'The mark, its position and the gap (0.40 of the mark height) stay the same.</p>']
+    side = []
+    ref = {m: lockup(BLUE_L if m == 'light' else BLUE_D, INK if m == 'light' else OFF, 'cap', 'original', -25)
+           for m in ('light', 'dark')}
+    for t, label in TRACKS:
+        L, D = lockup(BLUE_L, INK, 'mid', 0.40, t), lockup(BLUE_D, OFF, 'mid', 0.40, t)
+        ww = word(t)[1][2]
+        title = f'Tracking {t:+d}'.replace('+0', '0') + (f' ({label})' if label else '')
+        note = (f'Tracking <code>{t:+d}</code>; name {ww:.1f} SVG units wide (lockup {vbox(L)[2]:.1f}); gap '
+                f'{gap_units(0.40):.2f} units. Build with <code>python build.py --tracking {t}</code>' + (' (the default)' if t == 0 else '') + '.')
+        side.append(f'<div class="panel on-light"><b>{t:+d}</b>'.replace('>+0<', '>0<') + f'{cls(L, "big")}</div>')
+        strips = ''.join(
+            f'<svg class="strip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" role="img" '
+            f'aria-label="Site header, {m}"><title>Site header, {m}</title>'
+            f'<rect width="1280" height="72" fill="{WHITE if m == "light" else NEAR}"/>'
+            f'{header_art(m, lk, ref[m])}</svg>' for m, lk in (('light', L), ('dark', D)))
+        rows.append(f"""
+<h3>{title}</h3>
+<p class="note">{note}</p>
+<div class="pair">
+<div class="panel on-light">{cls(L, 'big')}</div>
+<div class="panel on-dark">{cls(D, 'big')}</div>
+</div>
+<div class="pair" style="margin-top:12px">{strips}</div>
+<div class="mins" style="margin-top:12px">
+<div class="panel on-light">{cls(L, 'min')}</div>
+<div class="panel on-dark">{cls(D, 'min')}</div>
+</div>""")
+    rows.insert(1, f'<h3>Side by side</h3><div class="cmp">{"".join(side)}</div>')
+    return ''.join(rows)
+
+
 def alignment_page():
     base = mark_centre('cap')
     out = []
     for key, align, title in VARIANTS:
         off = mark_centre(align) - base
-        L, D = lockup(BLUE_L, INK, align, 'original'), lockup(BLUE_D, OFF, align, 'original')
+        L, D = lockup(BLUE_L, INK, align, 'original', track=-25), lockup(BLUE_D, OFF, align, 'original', track=-25)
         note = (f'Mark centre at y = <code>{mark_centre(align):.2f}</code> (baseline 0, cap height '
                 f'{CAP:.2f}, x-height {XH:.2f}); offset from A: <code>{off:+.2f}</code> SVG units '
                 f'(about {off * 2400 / vbox(L)[2]:+.0f} px on the 2400 px render). Build with '
-                f'<code>python build.py --align {align} --gap 0.2714</code> (the gap at the time).')
+                f'<code>python build.py --align {align} --gap 0.2714 --tracking -25</code> (the gap and tracking at the time).')
         strips = ''.join(
             f'<svg class="strip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 72" role="img" '
             f'aria-label="Site header, {m}"><title>Site header, {m}</title>'
             f'<rect width="1280" height="72" fill="{WHITE if m == "light" else NEAR}"/>'
-            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original"))}</svg>'
+            f'{header_art(m, lk, lockup(BLUE_L if m == "light" else BLUE_D, INK if m == "light" else OFF, "cap", "original", track=-25))}</svg>'
             for m, lk in (('light', L), ('dark', D)))
         out.append(f"""
 <h2>{key}. {title}</h2>
@@ -830,9 +872,10 @@ def alignment_page():
 <div class="panel on-dark">{cls(D, 'min')}</div>
 </div>""")
     out.append(gap_section())
-    side = ''.join(f'<div class="panel on-light"><b>{k}</b>{cls(lockup(BLUE_L, INK, a, "original"), "big")}</div>'
+    out.append(tracking_section())
+    side = ''.join(f'<div class="panel on-light"><b>{k}</b>{cls(lockup(BLUE_L, INK, a, "original", track=-25), "big")}</div>'
                    for k, a, _ in VARIANTS)
-    side_d = ''.join(f'<div class="panel on-dark"><b>{k}</b>{cls(lockup(BLUE_D, OFF, a, "original"), "big")}</div>'
+    side_d = ''.join(f'<div class="panel on-dark"><b>{k}</b>{cls(lockup(BLUE_D, OFF, a, "original", track=-25), "big")}</div>'
                      for k, a, _ in VARIANTS)
     return f"""<!doctype html>
 <html lang="en-US">
@@ -859,7 +902,7 @@ down. Nothing else changes: same mark size, gap, colours and wordmark.</p>
 
 
 def main():
-    global ALIGN, GAP
+    global ALIGN, GAP, TRACK, WORD_D, WB
     args = sys.argv[1:]
     if '--align' in args:
         i = args.index('--align')
@@ -870,6 +913,12 @@ def main():
         i = args.index('--gap')
         GAP = float(args[i + 1])
         del args[i:i + 2]
+    if '--tracking' in args:
+        i = args.index('--tracking')
+        TRACK = float(args[i + 1])
+        TRACK = int(TRACK) if TRACK.is_integer() else TRACK
+        del args[i:i + 2]
+        WORD_D, WB = word()
     if '--alignment-page' in args:  # writes alignment.html only; leaves the pack alone
         write_text('alignment.html', alignment_page())
         print('wrote alignment.html')
