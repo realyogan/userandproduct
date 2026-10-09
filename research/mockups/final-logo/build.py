@@ -299,6 +299,15 @@ def build_pngs():
                 save_img(f'png/{k}-{size}.png', png_square(v, size))
     save_img('png/lockup-light-on-white-2400.png', solid(png_wide(SV['lockup-light'], 2400), WHITE))
     save_img('png/lockup-dark-on-black-2400.png', solid(png_wide(SV['lockup-dark'], 2400), NEAR))
+    # one-colour versions flattened on solid backgrounds
+    save_img('png/lockup-black-on-white-2400.png', solid(png_wide(SV['lockup-black'], 2400), WHITE))
+    save_img('png/lockup-white-on-black-2400.png', solid(png_wide(SV['lockup-white'], 2400), NEAR))
+    save_img('png/mark-black-on-white-1024.png', solid(png_square(SV['mark-black'], 1024, pad=128), WHITE))
+    save_img('png/mark-white-on-black-1024.png', solid(png_square(SV['mark-white'], 1024, pad=128), NEAR))
+    save_img('png/lockup-stacked-black-on-white-1200.png',
+             solid(png_square(stacked(BLACK_MONO, BLACK_MONO), 1200, pad=120), WHITE))
+    save_img('png/lockup-stacked-white-on-black-1200.png',
+             solid(png_square(stacked(WHITE_MONO, WHITE_MONO), 1200, pad=120), NEAR))
 
     write_text('favicon/favicon.svg', BA.favicon_svg_pairs(FAV_SVG, [(BLUE_L, BLUE_D)]) + '\n')
     fav = {}
@@ -359,6 +368,56 @@ def centred(lock, w, h, lh, cx=None):
     lw = lh * vw / vh
     cx = w / 2 if cx is None else cx
     return nest(lock, cx - lw / 2, h / 2 - lh / 2, lh)[0]
+
+
+GRAD_FROM, GRAD_TO = '#2B46A0', '#1B2E6E'    # social backgrounds only, never on the site
+
+
+def gradient(w, h):
+    """A diagonal gradient (top left to bottom right) as an RGB image, w x h, dithered against banding."""
+    import numpy as np
+    a = np.array([int(GRAD_FROM[i:i + 2], 16) for i in (1, 3, 5)], dtype=np.float64)
+    b = np.array([int(GRAD_TO[i:i + 2], 16) for i in (1, 3, 5)], dtype=np.float64)
+    ys, xs = np.mgrid[0:h, 0:w].astype(np.float64)
+    t = ((xs + 0.5) * w + (ys + 0.5) * h) / (w * w + h * h)       # projection on the diagonal, 0..1
+    img = a + (b - a) * t[..., None]
+    img += np.random.RandomState(7).uniform(-0.5, 0.5, img.shape)  # fixed seed: the build stays repeatable
+    return Image.fromarray(np.clip(np.round(img), 0, 255).astype(np.uint8), 'RGB')
+
+
+def gradient_jpg(rel, w, h, svg_text, box):
+    """Render at 2x: gradient plus white art fitted in box (x, y, bw, bh, in 1x pixels), then downsample."""
+    from PIL import ImageCms
+    big = gradient(w * 2, h * 2).convert('RGBA')
+    x, y, bw, bh = box
+    ratio = R.viewbox_ratio(svg_text)
+    aw, ah = (bw, bw / ratio) if bw / bh <= ratio else (bh * ratio, bh)
+    art = Image.open(io.BytesIO(R.render_png(svg_text, round(aw * 2), round(ah * 2)))).convert('RGBA')
+    big.alpha_composite(art, (round((x + (bw - aw) / 2) * 2), round((y + (bh - ah) / 2) * 2)))
+    out = big.convert('RGB').resize((w, h), Image.LANCZOS)
+    p = path_of(rel)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    srgb = bytearray(ImageCms.ImageCmsProfile(ImageCms.createProfile('sRGB')).tobytes())
+    srgb[24:36] = bytes(12)          # clear the profile's creation time so the build stays byte-identical
+    srgb = bytes(srgb)
+    out.save(p, 'JPEG', quality=90, subsampling=0, optimize=True, icc_profile=srgb)
+
+
+def build_gradient():
+    mark_w, lock_w = SV['mark-white'], SV['lockup-white']
+    lr = R.viewbox_ratio(lock_w)
+    g = 'social/gradient/'
+    gradient_jpg(g + 'instagram-square-1080.jpg', 1080, 1080, mark_w, (270, 270, 540, 540))
+    gradient_jpg(g + 'instagram-portrait-1080x1350.jpg', 1080, 1350, mark_w, (270, 405, 540, 540))
+    gradient_jpg(g + 'instagram-story-1080x1920.jpg', 1080, 1920, mark_w, (270, 690, 540, 540))
+    gradient_jpg(g + 'instagram-profile-320.jpg', 320, 320, mark_w, (68, 68, 184, 184))   # 21 percent margin
+    gradient_jpg(g + 'lockup-square-1080.jpg', 1080, 1080, lock_w, (140, 0, 800, 1080))
+    gradient_jpg(g + 'lockup-portrait-1080x1350.jpg', 1080, 1350, lock_w, (140, 0, 800, 1350))
+    lw = 52 * lr                                    # LinkedIn: 52 px tall, centred on 42 percent of the width
+    gradient_jpg(g + 'linkedin-banner-gradient-1128x191.jpg', 1128, 191, lock_w,
+                 (1128 * 0.42 - lw / 2, 69.5, lw, 52))
+    gradient_jpg(g + 'og-gradient-1200x630.jpg', 1200, 630, lock_w, (220, 0, 760, 630))
+    gradient_jpg(g + 'x-header-gradient-1500x500.jpg', 1500, 500, lock_w, (120, 208, 84 * lr, 84))
 
 
 def build_social():
@@ -489,6 +548,27 @@ def brand_sheet(sv, tk, rt, geo, files):
               ('header-strip-dark.png', 'Site header, dark, 1280 x 72')]
     figs = ''.join(f'<figure{" class=\"sq\"" if "avatar" in f else ""}><img src="social/{f}" alt="{_esc(c)}" loading="lazy"><figcaption>{c}</figcaption>'
                    f'</figure>' for f, c in social)
+    sq = ' class="sq"'
+    mono_list = [('lockup-black-on-white-2400.png', 'Lockup, black on white, 2400 wide'),
+                 ('lockup-white-on-black-2400.png', 'Lockup, white on near-black, 2400 wide'),
+                 ('mark-black-on-white-1024.png', 'Mark, black on white, 1024'),
+                 ('mark-white-on-black-1024.png', 'Mark, white on near-black, 1024'),
+                 ('lockup-stacked-black-on-white-1200.png', 'Stacked, black on white, 1200'),
+                 ('lockup-stacked-white-on-black-1200.png', 'Stacked, white on near-black, 1200')]
+    mono = ''.join(f'<figure{sq if ("mark" in f or "stacked" in f) else ""}><img src="png/{f}" '
+                   f'alt="{_esc(c)}" loading="lazy"><figcaption>{c}</figcaption></figure>' for f, c in mono_list)
+    grad_list = [('instagram-square-1080.jpg', 'Instagram square, mark, 1080'),
+                 ('lockup-square-1080.jpg', 'Instagram square, lockup, 1080'),
+                 ('instagram-portrait-1080x1350.jpg', 'Instagram portrait, mark, 1080 x 1350'),
+                 ('lockup-portrait-1080x1350.jpg', 'Instagram portrait, lockup, 1080 x 1350'),
+                 ('instagram-story-1080x1920.jpg', 'Instagram story, 1080 x 1920'),
+                 ('instagram-profile-320.jpg', 'Instagram profile, 320'),
+                 ('linkedin-banner-gradient-1128x191.jpg', 'LinkedIn banner, 1128 x 191'),
+                 ('og-gradient-1200x630.jpg', 'Open Graph, 1200 x 630'),
+                 ('x-header-gradient-1500x500.jpg', 'X header, 1500 x 500')]
+    grad = ''.join(f'<figure{sq if f.startswith(("instagram", "lockup-")) else ""}>'
+                   f'<img src="social/gradient/{f}" alt="{_esc(c)}" loading="lazy"><figcaption>{c}</figcaption>'
+                   f'</figure>' for f, c in grad_list)
     idx = []
     for folder, names in files.items():
         idx.append(f'<li class="h">{folder}/</li>')
@@ -561,6 +641,15 @@ blue in dark browser themes; the PNG and ICO files sit on a white tile so they r
 <h2>Social set</h2>
 <div class="shots">{figs}</div>
 
+<h2>Monochrome on solid</h2>
+<p>The one-colour versions flattened on white and near-black, for tools that cannot take a transparent file.</p>
+<div class="shots">{mono}</div>
+
+<h2>Gradient social</h2>
+<p>The all-white mark and lockup on a quiet signal-blue gradient ({GRAD_FROM} top left to {GRAD_TO} bottom
+right), JPEG with an sRGB profile. For social posts and profiles only, never on the site itself.</p>
+<div class="shots">{grad}</div>
+
 <h2>Colour</h2>
 <p>Four logo colours and two backgrounds. Contrast is the WCAG 2 ratio against the background the colour is used on
 (recomputed by the build).</p>
@@ -605,6 +694,8 @@ of the mark's height). Keep at least x empty on every side. At a 30 pixel tall l
 <li>Outline it, or add shadows, glows, gradients or other effects.</li>
 <li>Colour the tiles in more than one colour.</li>
 <li>Retype the name in another font or in capitals.</li>
+<li>Use the blue gradient anywhere but social backgrounds; never on the site itself.</li>
+<li>Put the blue mark on the gradient; use the all-white files there.</li>
 </ul></div>
 </div>
 
@@ -639,12 +730,20 @@ Open the brand sheet: http://localhost/user-and-product/research/mockups/final-l
   black, white), wordmark (black, white), and `mark-currentcolor.svg` for inline use. Clean SVG: viewBox,
   no width or height, no live text, explicit fills.
 - `png/`: every master on a transparent background (lockups and wordmarks 1200 and 2400 wide, stacked
-  1200 and 2400 square, marks 256, 512 and 1024), plus the lockup on solid white and near-black at 2400.
+  1200 and 2400 square, marks 256, 512 and 1024), plus flattened versions on solid backgrounds:
+  `lockup-light-on-white-2400.png`, `lockup-dark-on-black-2400.png`, `lockup-black-on-white-2400.png`,
+  `lockup-white-on-black-2400.png`, `mark-black-on-white-1024.png`, `mark-white-on-black-1024.png`,
+  `lockup-stacked-black-on-white-1200.png`, `lockup-stacked-white-on-black-1200.png`.
 - `favicon/`: `favicon.svg` (switches to the dark blue in dark themes), 16, 32 and 48 pixel PNGs,
   `favicon.ico` (16, 32, 48), Apple touch icon, 192 and 512 icons, a maskable 512 icon,
   `site.webmanifest` and `head-snippet.html` with the tags for the theme.
 - `social/`: Open Graph images (light, dark), LinkedIn banners (light, dark), avatars (light, dark),
   an X header, and the site header strip (light, dark).
+- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on a signal-blue gradient
+  (#2B46A0 top left to #1B2E6E bottom right; social backgrounds only, never on the site):
+  `instagram-square-1080.jpg`, `lockup-square-1080.jpg`, `instagram-portrait-1080x1350.jpg`,
+  `lockup-portrait-1080x1350.jpg`, `instagram-story-1080x1920.jpg`, `instagram-profile-320.jpg`,
+  `linkedin-banner-gradient-1128x191.jpg`, `og-gradient-1200x630.jpg`, `x-header-gradient-1500x500.jpg`.
 - `brand-sheet.html`: usage guide with colour, clear space, minimum sizes and a file index.
 - `build.py`: the one source script.
 
@@ -681,8 +780,8 @@ conditions apply only when the font file itself is shared. The outlined name is 
 
 def listing():
     out = {}
-    for folder in ('svg', 'png', 'favicon', 'social'):
-        out[folder] = sorted(os.listdir(path_of(folder)))
+    for folder in ('svg', 'png', 'favicon', 'social', 'social/gradient'):
+        out[folder] = sorted(f for f in os.listdir(path_of(folder)) if os.path.isfile(path_of(folder + '/' + f)))
     return out
 
 
@@ -702,6 +801,10 @@ def validate():
                     if fn == 'favicon.ico':
                         sizes = set(im.info.get('sizes', set()))
                         assert {(16, 16), (32, 32), (48, 48)} <= sizes, sizes
+            elif fn.endswith('.jpg'):
+                with Image.open(p) as im:
+                    im.load()
+                    assert im.format == 'JPEG' and im.mode == 'RGB' and 'icc_profile' in im.info, (fn, im.mode)
             elif fn.endswith('.webmanifest'):
                 with open(p, encoding='utf-8') as f:
                     json.load(f)
@@ -929,6 +1032,7 @@ def main():
         build_pngs()
     if 'all' in steps or 'social' in steps:
         build_social()
+        build_gradient()
     if 'all' in steps or 'sheet' in steps:
         tokens = dict(BLUE_L=BLUE_L, BLUE_D=BLUE_D, INK=INK, OFF=OFF, WHITE=WHITE, NEAR=NEAR)
         ratios = {'mark_light': ratio(BLUE_L, WHITE), 'mark_dark': ratio(BLUE_D, NEAR),

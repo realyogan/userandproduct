@@ -367,3 +367,24 @@ alignment C) and the mark-to-word gap widened to 0.40 of the mark height (40.74 
 now the build.py defaults; pack regenerated and committed. research/mockups/final-logo/alignment.html kept as the record.
 Wordmark tracking changed to 0 (the typeface as designed) after a comparison of -25, -10, 0 and +10; owner picked 0.
 Final spec: Inter Display Bold, lowercase, tracking 0; mark mid-aligned; gap 0.40. Pack regenerated and committed.
+
+## 9 Oct 2026 — mockups: the article page
+
+Owner: start the mockups with the reading (article) page. Building three variants on one sample article (a PRD
+how-to): A sidebar (Tiger Data layout, sticky TOC), B magazine (Smashing, serif body), C reader (Substack, narrow).
+Owner addition: design ad areas into every layout under Google rules (the fixed three-ads limit was removed in 2019;
+now: ads must not exceed content, must be labelled and distinguishable, no covering content; Better Ads Standards:
+mobile ad density under 30%, no pop-ups, no large stickies) plus the owner rule of at most three ad units in the
+viewport at once; each variant reports its max-in-view and mobile density. Owner also asked to use the Impeccable
+and Taste design skills; both are real (pbakaus/impeccable, Apache 2.0; Leonxlnx/taste-skill, MIT) and are being
+installed into .claude/skills/ for the second pass.
+Owner picked article variant A (sidebar). First fixes: the sticky rail ad overlapped the template block (rail must
+stop at the body end); add a featured hero image (16:9, editorial illustration, light and dark) and related-card
+thumbnails. Owner will give further changes one by one before the Impeccable and Taste pass.
+Owner: variant A follows the Tiger Data structure exactly: title full width, byline row (avatar, name, read time,
+share right), rule, then left rail (utility button, tag chips, numbered table of contents), centre (hero then body),
+right rail (ads). Date: Claude advised keeping a quiet "Updated <month year>" for search and trust; kept as one
+removable element. Header logo 236px wide on desktop (owner tried it in the inspector).
+Owner additions to the logo pack: monochrome black-on-white and white-on-black PNGs (flattened), and a gradient
+social set (white mark and lockup on a signal-blue gradient) as JPEGs in Instagram, LinkedIn, OG and X sizes; the
+gradient is for social backgrounds only, never the site. Building through build.py; commit after.

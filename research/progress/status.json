@@ -1,25 +1,32 @@
 {
   "version": 1,
-  "run_id": "logo-final-tracking",
-  "title": "Final logo pack regenerated: tracking 0",
+  "run_id": "mockup-article-header",
+  "title": "Variant A: Tiger Data structure",
   "state": "finished",
-  "started": "2026-10-09T18:13+05:30",
-  "updated": "2026-10-09T18:14+05:30",
-  "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical; lockup 874 units wide",
+  "started": "2026-10-09T19:07+05:30",
+  "updated": "2026-10-09T19:07+05:30",
+  "note": "Two rows and the gradient rule added to the sheet; README index updated; all SVG/PNG/ICO/JPEG open, JPEGs RGB with sRGB profile; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
   "steps": [
     {
       "n": 1,
-      "title": "Regenerate",
+      "title": "Top block",
       "status": "done",
-      "note": "Default tracking 0 (with mid, gap 0.40); 63 pack files, brand sheet, README and alignment.html notes regenerated",
-      "time": "18:14"
+      "note": "6 flattened monochrome PNGs",
+      "time": "19:07"
     },
     {
       "n": 2,
-      "title": "Checks",
+      "title": "Three columns",
       "status": "done",
-      "note": "13 SVG parse, 37 PNG and ICO open, ICO 16/32/48, manifest valid; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical; lockup 874 units wide",
-      "time": "18:14"
+      "note": "9 gradient JPEGs (q90, sRGB, 2x then downsampled, dithered)",
+      "time": "19:07"
+    },
+    {
+      "n": 3,
+      "title": "Ads re-measured and checks",
+      "status": "done",
+      "note": "Two rows and the gradient rule added to the sheet; README index updated; all SVG/PNG/ICO/JPEG open, JPEGs RGB with sRGB profile; shots at 1920 and 375, no horizontal scroll; rebuild byte-identical",
+      "time": "19:07"
     }
   ]
 }

@@ -18,12 +18,20 @@ Open the brand sheet: http://localhost/user-and-product/research/mockups/final-l
   black, white), wordmark (black, white), and `mark-currentcolor.svg` for inline use. Clean SVG: viewBox,
   no width or height, no live text, explicit fills.
 - `png/`: every master on a transparent background (lockups and wordmarks 1200 and 2400 wide, stacked
-  1200 and 2400 square, marks 256, 512 and 1024), plus the lockup on solid white and near-black at 2400.
+  1200 and 2400 square, marks 256, 512 and 1024), plus flattened versions on solid backgrounds:
+  `lockup-light-on-white-2400.png`, `lockup-dark-on-black-2400.png`, `lockup-black-on-white-2400.png`,
+  `lockup-white-on-black-2400.png`, `mark-black-on-white-1024.png`, `mark-white-on-black-1024.png`,
+  `lockup-stacked-black-on-white-1200.png`, `lockup-stacked-white-on-black-1200.png`.
 - `favicon/`: `favicon.svg` (switches to the dark blue in dark themes), 16, 32 and 48 pixel PNGs,
   `favicon.ico` (16, 32, 48), Apple touch icon, 192 and 512 icons, a maskable 512 icon,
   `site.webmanifest` and `head-snippet.html` with the tags for the theme.
 - `social/`: Open Graph images (light, dark), LinkedIn banners (light, dark), avatars (light, dark),
   an X header, and the site header strip (light, dark).
+- `social/gradient/`: JPEGs (quality 90, sRGB) with the all-white mark or lockup on a signal-blue gradient
+  (#2B46A0 top left to #1B2E6E bottom right; social backgrounds only, never on the site):
+  `instagram-square-1080.jpg`, `lockup-square-1080.jpg`, `instagram-portrait-1080x1350.jpg`,
+  `lockup-portrait-1080x1350.jpg`, `instagram-story-1080x1920.jpg`, `instagram-profile-320.jpg`,
+  `linkedin-banner-gradient-1128x191.jpg`, `og-gradient-1200x630.jpg`, `x-header-gradient-1500x500.jpg`.
 - `brand-sheet.html`: usage guide with colour, clear space, minimum sizes and a file index.
 - `build.py`: the one source script.
 
