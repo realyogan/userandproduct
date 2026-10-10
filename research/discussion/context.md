@@ -932,3 +932,6 @@ real artifacts in some launch pieces; never pay for inclusion in lists or AI men
 fifty-piece launch unchanged.
 Owner (10 Oct): synthesis reduced to about one in twenty; the owner's "write about this" brief followed by the owner
 reordering or cutting the outline counts as seeded, not synthesis. Rulebook and site layer updated.
+Owner (10 Oct): the author page will carry the owner's real photo, LinkedIn profile and other connected profiles
+(portfolio undecided) so it is clear a real person is behind the site; written into the site layer and the build
+checklist (sameAs in ProfilePage markup). Original-data pieces remain a separate item.

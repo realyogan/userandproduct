@@ -9,8 +9,10 @@ The owner, fifteen years in product design and product management, is the author
 fact: the owner directs each piece through a note or a seed, reviews every draft in the newsroom app,
 approves the positions it takes, and confirms each post once in local WordPress before it goes live.
 No first-person claim the owner did not give. No invented specifics of any kind. The author page
-states the owner's background plainly and verifiably; the About page says what the site is, who runs
-it, and how to reach it.
+states the owner's background plainly and verifiably and proves a real person: the owner's real photo,
+the LinkedIn profile and the other places the owner exists online (a portfolio if the owner decides
+to add it), all linked from the page and listed as `sameAs` in its ProfilePage markup; the About page
+says what the site is, who runs it, and how to reach it (owner, 10 October 2026).
 
 ## How the owner's judgment enters a page
 

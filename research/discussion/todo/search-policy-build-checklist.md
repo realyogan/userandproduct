@@ -6,8 +6,9 @@ plan it belongs to.
 
 ## Site design (now)
 
-- [ ] Author page design: byline target, verifiable background, real photo or none, links to real
-      external profiles. (Rule 5, 8)
+- [ ] Author page design: byline target, verifiable background, the owner's real photo, links to the LinkedIn
+      profile and the other places the owner exists online (portfolio if decided), the same links as `sameAs` in the
+      ProfilePage markup. (Rule 5, 8)
 - [ ] About page design: what the site is, who runs it, a contact route. (Rule 5)
 - [ ] Newsletter sign-up as an in-page box; no pop-up, no overlay, anywhere. (Rule 12)
 - [ ] Custom 404 with an explanation, search and useful links. (Rule 12)
