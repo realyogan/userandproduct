@@ -919,3 +919,14 @@ spaced out), --tracking-ui .01em on 13 to 15 px interface text; chips left at 50
 Owner (article byline): remove the avatar; 'By' plus the author name with no brackets (Yogan for now, one constant); all byline parts in one colour, the name one weight bolder. Being applied.
 Byline change committed: avatar removed, AUTHOR_NAME constant (Yogan for now), whole byline in --ink with the name at 600.
 Owner (10 Oct): remove all advertisement areas from the mockups for now (ads parked, can return later). Being applied to option-1 home, article and variants; .ad components kept unused.
+Ads removed and committed (10 Oct): home leaderboard and in-feed slot gone (eleven cards, last row short at two and
+three columns), article leaderboard, in-article, in-body, rail and anchor ads gone, variants too; .ad and .anchor
+components kept unused and marked parked; the article's right rail stays from 1200 px holding only the sticky "More
+in" list, since it balances the left rail and keeps the reading column centred.
+Owner shared a video transcript (Matt Kenyon on Google's 1 October helpful-content and AI-content changes) and asked
+for gaps. Notes saved under research/discussion/references/google-policies/; a fourth pass appended to the policy
+check. Gaps: review alone is not originality (the synthesis quarter is the exposed case; recommend every piece starts
+from something the model does not have); almost no original-data pieces planned (add a standing kind, plus the
+owner's own photos as experience evidence); a "sounds like a model" check beyond banned phrases; working tools and
+real artifacts in some launch pieces; never pay for inclusion in lists or AI mentions. Disclosure decision and the
+fifty-piece launch unchanged.

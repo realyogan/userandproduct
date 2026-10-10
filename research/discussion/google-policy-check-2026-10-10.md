@@ -224,3 +224,36 @@ Vitals, outbound links, SEO starter, do-you-need-an-SEO). The rulebook was rebui
 ### Decisions for the owner
 
 None new. Everything in the third pass is a rule or a build item.
+
+## Fourth pass: the owner's video on the October 1 changes
+
+Notes on the video are at `references/google-policies/video-notes-helpful-content-update-2026-10-10.md`. The two
+Google pages it discusses were already read in full and are in the rulebook. What the video adds is field evidence of
+what got demoted and how, and from that five adaptations:
+
+1. **Review is not originality.** Sites with human editors on every draft were demoted anyway. Our synthesis quarter
+   (pieces with no owner input before writing, reviewed after) is exactly the exposed case: a fresh take written from
+   public sources is still a remix of public sources. Recommendation: every piece starts from something the model does
+   not have (the seed, the owner's rules, the owner's own data or a test), and the synthesis allowance either goes or
+   is redefined as "the owner's opinion stated first, research around it". Owner's decision.
+2. **Original data is the strongest signal, and we have almost none planned.** The video's positive examples publish
+   their own photos, their own tests and studies from their own data. Our launch stock has one search-data report. Add
+   a standing kind of piece: an original-data piece from what the newsroom itself produces (the explorer's log of
+   what the field fails to teach, the keyword store's demand patterns, the owner's own project artifacts and
+   numbers), at a steady cadence, and the owner's own photos of real artifacts (whiteboards, documents, screens) as
+   experience evidence where they exist.
+3. **A "sounds like a model" check at the checker's station.** The writing-style rulebook bans phrases; add the
+   deeper tells the video names: hedging density, absence of a stated position, uniform paragraph lengths, circling a
+   point, "not X but Y" constructions, em dashes. The editor's positions list already forces opinions; this check
+   catches the prose around them.
+4. **Working tools and real artifacts count as skill.** Google's own example of talent or skill includes "page tools
+   that work". The BRD parks calculators and tools; pull a few forward so that some launch pieces ship a working
+   tool, a real template or a real worked example rather than text alone (article A's PRD interview block is the
+   model).
+5. **Never pay for inclusion.** The link rules ban bought links; add plainly that paid spots in other sites'
+   "best of" lists or in AI-answer mentions are the same thing and are never bought, and that our own books and
+   tools lists are never vendor-driven.
+
+Two things to note and not change: the owner decided against a disclosure page; the video argues disclosure earns
+respect, which is a reputational point, not a policy requirement. And a fifty-piece launch is nowhere near the
+"hundreds of thousands in a short window" pattern; it stays, with every piece seeded.
