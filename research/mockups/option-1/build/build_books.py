@@ -359,14 +359,14 @@ def shelf():
   <div class="shelves">
     {"\n    ".join(groups)}
   </div>
-  <p class="bk-note">The buy links on the topic pages are affiliate links. If you buy a book through one, this site earns a small commission at no extra cost to you. Commissions never decide which books are on the shelf. The <a href="{p}pages/advertising.html">advertising policy</a> has the details.</p>
+  <!-- affiliate links parked (owner, 10 Oct 2026) -->
 </div>'''
     comment = ('<!-- Books shelf page mockup (10 Oct 2026), written by build/build_books.py. What WordPress makes on its own: '
                'one tile per published topic page, grouped by domain, with its book count and the covers of its first three '
                'books. Each topic has its own tint. Only Product management links to a built page; the other nine go to '
                'the shared placeholder topic page. Counts on those nine are samples. -->')
     return page(SHELF, "Recommended books on UX, product management and business",
-                "The books worth reading on UX, product management and business, grouped into ten topic pages, with who each book is for and where it has aged.",
+                "The books worth reading on UX, product management and business, grouped by topic, with who each book is for and where it has aged.",
                 "bk--shelf", (comment, main), shelf_page=True)
 
 
@@ -381,8 +381,7 @@ def read_with(b, p):
 def book(b, p):
     hid = f'{b["id"]}-h'
     if b["read"]:
-        take = ('<aside class="take" aria-labelledby="' + b["id"] + '-take"><h3 id="' + b["id"] + '-take">What I took from it</h3>'
-                '<p class="slot">[Owner writes this after reading]</p></aside>')
+        take = ''
     else:
         take = ''
     q = b["title"].replace(" ", "+") + "+" + b["authors"].split(" and ")[0].replace(" ", "+")
@@ -406,7 +405,6 @@ def book(b, p):
       <dl class="fields">
         <div><dt>Read it with</dt><dd>{read_with(b, p)}</dd></div>
       </dl>
-      <div class="buy"><a class="btn" href="https://www.amazon.com/s?k={q}" rel="sponsored nofollow">Find the book<span class="vh">: {escape(b["title"])}</span></a><p>{DISCLOSURE}</p></div>
     </div>
   </div>
 </article>'''
