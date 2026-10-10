@@ -8,7 +8,7 @@ the thing that matters and are computed to pass 3:1 against the background (4.5:
 position that fails is rotated until it passes, else the image falls back to mono. BACKGROUNDS below are
 suggestions; any background whose ink passes 4.5:1 is allowed. The generator records backgrounds and schemes in
 research/mockups/thumbnail-history.json and avoids repeating a recent one.
-Brand: the full lockup, mark and wordmark (research/mockups/final-logo/svg/lockup-white.svg or lockup-black.svg,
+Brand: the full lockup, mark and wordmark (research/mockups/final-logo-2/svg/lockup-white.svg or lockup-black.svg,
 by contrast), on both sizes, sized so the wordmark reads where the image is shown (LOCKUP_PX below), in a corner
 clear of the subject.
 Icons: research/mockups/vendor/pixelarticons (24 px pixel set) and research/mockups/vendor/phosphor (regular, fill).
@@ -81,7 +81,7 @@ HERO, THUMB, CHECK_W = (1200, 675), (600, 338), 300
 INK = "#1D1B16"                        # outlines, shadows, dark ink
 CARD = "#FDFCF8"                       # the pale fill of flat shapes
 WHITE = "#FFFFFF"
-LOGO = MOCKUPS / "final-logo" / "svg"
+LOGO = MOCKUPS / "final-logo-2" / "svg"
 HISTORY = MOCKUPS / "thumbnail-history.json"
 # The full lockup (mark + wordmark) on both output sizes, at the same share of the width (about a fifth), so the
 # thumb is the hero at half size and the logo looks the same wherever the image is shown.
@@ -854,7 +854,10 @@ def dot_grid(color, opacity, step=30, r=2.4, uid="dg"):
 def _logo(name):
     t = (LOGO / name).read_text(encoding="utf-8")
     vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', t).group(1).split()]
-    return vb, re.findall(r'<path[^>]*\sd="([^"]+)"', t)
+    # the lockup's own markup, as drawn: the mark is one evenodd path (the figure is a true hole) inside a
+    # positioning group, so it is copied whole rather than re-filled path by path
+    inner = re.sub(r"^.*?<svg[^>]*>", "", t, flags=re.S).rsplit("</svg>", 1)[0]
+    return vb, re.sub(r"<title>.*?</title>", "", inner, flags=re.S)
 
 
 def brand_color(bg):
@@ -877,9 +880,7 @@ def brand(size, bg, corner="br"):
     """The full lockup for one output size ("hero" or "thumb"), white or black by contrast, quiet, in one corner."""
     col = brand_color(bg)
     x, y, w, h = brand_box(size, corner)
-    vb, paths = _logo(f"lockup-{col}.svg")
-    fill = WHITE if col == "white" else "#0B0B0C"
-    inner = "".join(f'<path fill="{fill}" d="{d}"/>' for d in paths)
+    vb, inner = _logo(f"lockup-{col}.svg")       # lockup-white.svg is all #FFFFFF, lockup-black.svg all #0B0B0C
     return (f'<svg x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" viewBox="{" ".join(f"{v:g}" for v in vb)}" '
             f'opacity="{LOCKUP_O}">{inner}</svg>')
 

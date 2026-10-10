@@ -254,7 +254,7 @@ def build():
 {chr(10).join(cards)}
   </ul>
 </main>
-<footer class="site-foot"><div class="site-foot__in"><div class="legal"><span>userandproduct mockups</span><a href="variants/index.html">Article variants</a><a href="../../final-logo/brand-sheet.html">Brand sheet</a></div></div></footer>
+<footer class="site-foot"><div class="site-foot__in"><div class="legal"><span>userandproduct mockups</span><a href="variants/index.html">Article variants</a><a href="../../final-logo-2/brand-sheet.html">Brand sheet</a></div></div></footer>
 </body>
 </html>
 """

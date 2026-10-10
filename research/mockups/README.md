@@ -9,10 +9,14 @@ changes. A later redesign would be `option-2/` beside it.
 
 ## What is here
 
-- `final-logo/`: the final logo pack (theme T08 "Signal", decided 9 Oct 2026). SVG masters, PNG renders,
-  favicons and web manifest, social images, and the brand sheet:
-  http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html. Rebuild everything with
-  `python build.py` in that folder (it uses only `tools/` and `fonts/inter/`).
+- `final-logo-2/`: the logo pack (decided by the owner, 10 Oct 2026): the owner's own mark from `Logo-3/` in option
+  C17, Electric blue, flat (disc `#2E5BFF` on light, `#7DB0FF` in dark mode, white figure where the mark is opaque),
+  with the name in Inter Display Bold. SVG masters, PNG renders, favicons and web manifest, the social set (blue and
+  near-black), and the brand sheet:
+  http://localhost/user-and-product/research/mockups/final-logo-2/brand-sheet.html. Rebuild with `python build.py`,
+  then `python check.py`, in that folder; details in `final-logo-2/README.md`.
+- `final-logo/`: the previous pack (theme T08 "Signal", the four-tile mark, 9 Oct 2026), kept for reference only.
+  Brand sheet: http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html.
 - `Logo-3/`: the owner's own mark (drawn in Illustrator, 10 Oct 2026: a disc with a person cut out, a rounded
   diamond head over a curved band), kept exactly as drawn. Clean master with the cut-outs as true holes, monochrome,
   twenty-two color options and fourteen gradient options (social only), side and stacked lockups, avatars, favicons and
@@ -39,8 +43,8 @@ changes. A later redesign would be `option-2/` beside it.
   - `sitemap.html`: every page with its status (built or placeholder), read from the files.
   - `css/`, `js/`: the site's own copies of `mockup.css` (font paths pointed at `assets/fonts/`) and `mockup.js`,
     plus `home.css` and `article.css`.
-  - `assets/logo/` (the two lockups the header and footer use, from `final-logo/svg/`), `assets/favicon/` (the
-    favicons the pages link, from `final-logo/favicon/`), `assets/fonts/` (only the nine `.woff2` files the css
+  - `assets/logo/` (the two lockups the header and footer use, from `final-logo-2/svg/`), `assets/favicon/` (the
+    favicons the pages link, from `final-logo-2/favicon/`), `assets/fonts/` (only the nine `.woff2` files the css
     loads, with their licence files).
   - `img/`: every image the home page and the article use, plus `thumbs/` (article rail and Just published) and
     `explainers/` (the explainer gallery); `img/README.md` records the home thumbnail styles.
@@ -79,8 +83,7 @@ themes, the feeling board and the reference logos, with every build script) is a
 ## Page-mockup plan
 
 One HTML file per page type, a shared `mockup.css`, variants side by side when choosing between looks. Use the
-final logo files from `final-logo/svg/` and the header strip in `final-logo/social/` as the starting point for the
-masthead.
+logo files from `final-logo-2/svg/` as the starting point for the masthead.
 
 ## Design decisions (owner, 9 Oct 2026)
 

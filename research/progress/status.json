@@ -1,67 +1,60 @@
 {
   "version": 1,
-  "run_id": "logo-3",
-  "title": "Logo 3: colour options and previews for the owner's mark",
+  "run_id": "final-logo-2",
+  "title": "Final logo pack 2: the owner's mark in electric blue",
   "state": "finished",
-  "started": "2026-10-10T15:37+05:30",
+  "started": "2026-10-10T16:15+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Source",
+      "title": "Masters",
       "status": "done",
-      "note": "Owner's Logo.svg copied to source/Logo-owner.svg, original untouched",
-      "time": "15:37"
+      "note": "Masters: mark, dark, black, white, currentColor, solid, from Logo-3/svg/mark.svg",
+      "time": "16:22"
     },
     {
       "n": 2,
-      "title": "Clean master",
+      "title": "Lockups",
       "status": "done",
-      "note": "Clean master: owner geometry verbatim, disc as four quarter arcs, cut-outs as evenodd holes",
-      "time": "15:44"
+      "note": "Lockups: side and stacked in light, dark, black, white; PNGs at 236/472/944 and 400/800",
+      "time": "16:22"
     },
     {
       "n": 3,
-      "title": "Colour options",
+      "title": "Favicons and app icons",
       "status": "done",
-      "note": "22 color options (C13 to C22 added: five blues, five vibrant) with dark-mode discs and contrast",
-      "time": "16:03"
+      "note": "Favicons 16 to 512, favicon.ico, favicon.svg with dark query, Apple touch, manifest",
+      "time": "16:22"
     },
     {
       "n": 4,
-      "title": "Gradients",
+      "title": "Social set",
       "status": "done",
-      "note": "14 gradients (G05 to G14 added: five blue, five vibrant), social only",
-      "time": "16:03"
+      "note": "Social set: 14 images, electric blue and near-black",
+      "time": "16:22"
     },
     {
       "n": 5,
-      "title": "Lockups",
+      "title": "Brand sheet",
       "status": "done",
-      "note": "Side lockups rebuilt at the first pack's geometry (disc 1.4 cap heights, centered 31.08 above the baseline, gap 0.40); stacked checked",
-      "time": "16:03"
+      "note": "Brand sheet written on the shared tokens, light and dark",
+      "time": "16:22"
     },
     {
       "n": 6,
-      "title": "Previews",
+      "title": "Wire into mockups",
       "status": "done",
-      "note": "Previews per option: avatars, monochrome, Instagram, LinkedIn page and feed, tabs, favicons, thumbnail, lockups",
-      "time": "15:45"
+      "note": "option-1 lockups and favicons replaced at the same names; thumbnail tooling points at final-logo-2",
+      "time": "16:21"
     },
     {
       "n": 7,
-      "title": "Board",
-      "status": "done",
-      "note": "Board written: 12 colour options, 4 gradients, export list",
-      "time": "15:46"
-    },
-    {
-      "n": 8,
       "title": "Checks",
       "status": "done",
-      "note": "All checks passed after the lockup fix and the twenty new options: 339 SVGs under 6 KB, no overflow at 375 px, board 200",
-      "time": "16:03"
+      "note": "All checks passed: masters match the owner's drawing, 15 SVGs under 5 KB, 200s, no broken images, header 236 and footer 168",
+      "time": "16:24"
     }
   ],
-  "updated": "2026-10-10T16:03+05:30",
-  "note": "All checks passed after the lockup fix and the twenty new options: 339 SVGs under 6 KB, no overflow at 375 px, board 200"
+  "updated": "2026-10-10T16:24+05:30",
+  "note": "All checks passed: masters match the owner's drawing, 15 SVGs under 5 KB, 200s, no broken images, header 236 and footer 168"
 }

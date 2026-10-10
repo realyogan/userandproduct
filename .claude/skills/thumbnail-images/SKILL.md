@@ -91,7 +91,7 @@ so prefer duo there:
 ## The brand
 
 Every image, hero and thumb, carries the **full lockup**, mark and wordmark (`lockup-white.svg` or
-`lockup-black.svg` from `research/mockups/final-logo/svg/`, whichever contrasts with the background), at
+`lockup-black.svg` from `research/mockups/final-logo-2/svg/`, whichever contrasts with the background), at
 92% opacity, in the first corner that is clear of the subject on both sizes. It takes the same share
 of the width on both sizes, about a fifth, so the thumb is the hero at half size and the logo looks the
 same wherever the image is shown:
@@ -169,6 +169,6 @@ Say so in your reply. Never force a weak picture to keep the rotation tidy.
   (rebuilt by `research/mockups/references/blog-thumbnails/build_gallery.py`).
 - Reference board: http://localhost/user-and-product/research/mockups/references/blog-thumbnails/index.html
 - Icons: `research/mockups/vendor/` (Pixelarticons and Phosphor, MIT). Font: Space Grotesk Bold in
-  `research/mockups/fonts/space-grotesk/`. Logo: `research/mockups/final-logo/svg/`.
+  `research/mockups/fonts/space-grotesk/`. Logo: `research/mockups/final-logo-2/svg/`.
 - `references/styles.md`: the eleven specs, kinds, backgrounds, schemes and the restraint examples.
   `references/subjects.md`: subjects. `references/sources.md`: icon sets, fonts and photo sources.

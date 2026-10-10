@@ -7,6 +7,9 @@ twenty-two color options, fourteen gradient options (numbered C01 to C22 and G01
 never reused or changed), lockups, avatars, favicons, a thumbnail tile, previews and
 an export folder to try for real.
 
+**Chosen (owner, 10 Oct 2026): C17 Electric blue, flat.** The final pack built from it is
+`../final-logo-2/` (brand sheet: http://localhost/user-and-product/research/mockups/final-logo-2/brand-sheet.html).
+
 Board: http://localhost/user-and-product/research/mockups/Logo-3/
 
 ## What is here

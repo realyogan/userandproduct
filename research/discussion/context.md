@@ -851,3 +851,12 @@ Owner on Logo 3 (10 Oct): the header lockup's mark is too small; use the previou
 tall as the wordmark's full height, vertically centered). Likes G01 signal blue to cobalt for now. Wants twenty more
 options: five flat blues, five blue gradients, five vibrant flats, five vibrant gradients, appended with stable
 numbering. Being built.
+Logo 3 updated and committed: side lockups rebuilt to the previous pack's geometry (disc 1.4 cap heights, centred
+between cap height and x-height, gap 0.40 of the disc), before-and-after on the board; twenty options appended
+(C13 to C22 flat blues and vibrants, G05 to G14 blue and vibrant gradients) with contrast; gradients still labelled
+social-only under the house rule. Owner currently likes G01 signal blue to cobalt.
+LOGO DECIDED (owner, 10 Oct 2026): the owner's own mark (solid disc with a head and a curved band cut out) in option C17
+Electric blue, flat: #2E5BFF on light, #7DB0FF disc in dark mode, white figure where opaque; Inter Display Bold
+wordmark, lockup geometry as the previous pack. Pack being built at research/mockups/final-logo-2/ and wired into
+option-1 and the thumbnail generator; final-logo stays as the previous pack. Open question for the owner: whether the
+site accent (signal blue #2B46A0 in the tokens) should become electric blue to match the mark.
