@@ -843,3 +843,11 @@ it at research/mockups/Logo-3/Logo.svg: a solid disc with a rounded diamond (hea
 also a smile) cut out; black mark only. It holds at 32 px. Asked for: the other versions, at least ten colour options,
 three or four gradient options, and previews of everything (browser favicon, Instagram, LinkedIn icon and mark). Being
 built in Logo-3/ with a clean master (true negative space), monochrome, lockups, exports and a board.
+Logo 3 board built and committed (10 Oct): research/mockups/Logo-3/ (clean evenodd master identical to the owner's
+drawing, twelve colour options with contrast on white and dark, four gradients labelled social-only under the house
+rule, side and stacked lockups, previews for every option, exports for the blue option). Builder flag: with the band's
+ends turning down under the head, the figure can read as a frown, more on dark grounds.
+Owner on Logo 3 (10 Oct): the header lockup's mark is too small; use the previous final pack's proportion (mark as
+tall as the wordmark's full height, vertically centered). Likes G01 signal blue to cobalt for now. Wants twenty more
+options: five flat blues, five blue gradients, five vibrant flats, five vibrant gradients, appended with stable
+numbering. Being built.

@@ -46,6 +46,9 @@ table.opts{border-collapse:collapse;font-size:14px;min-width:760px;width:100%}
 .g figcaption{width:100%;text-align:center;font-size:11px}
 .av{width:110px;height:110px}
 .av--c{border-radius:50%}
+.strip{justify-content:flex-start;gap:16px}
+.strip figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;width:120px}
+.strip a{display:block}
 .m160{width:160px;height:160px;max-width:100%;height:auto}
 .lk{width:236px;height:auto;max-width:100%}
 .st{width:120px;height:auto}
@@ -121,9 +124,9 @@ def facts(o):
                     dark_disc='same', need=need, second='none')
     w, d, dd = r(o['disc'], G.WHITE), r(o['disc'], G.NEAR), r(o['dark'], G.NEAR)
     ok_w, ok_d, ok_dd = w >= THRESHOLD, d >= THRESHOLD, dd >= THRESHOLD
-    if o['key'] == 'mustard':
-        need = ('Dark grounds, or the yellow used as a field. On white the disc edge is soft (%s) '
-                'but the ink figure carries the mark (%s on the yellow).' % (fmt_r(w), fmt_r(r(G.INK, o['disc']))))
+    if o['head'] == G.INK and o['band'] == G.INK:
+        need = ('Dark grounds, or the color used as a field. On white the disc edge is soft (%s) '
+                'but the ink figure carries the mark (%s on the disc).' % (fmt_r(w), fmt_r(r(G.INK, o['disc']))))
     elif o['key'] == 'twotone':
         need = ('White grounds (%s). On near-black the disc edge is soft (%s); the filled white head and '
                 'light band still read (head %s, band %s on the disc).' % (
@@ -152,34 +155,35 @@ def swatch(c):
     return '<span class="sw" style="background:%s" aria-hidden="true"></span>' % c
 
 
-def table():
+def table(items):
     rows = ''
-    for i, o in enumerate(G.OPTIONS, 1):
+    for o in items:
         f = facts(o)
-        rows += ('<tr><td class="n">C%02d</td><td><a href="#%s">%s</a></td><td class="n">%s<code>%s</code></td>'
+        rows += ('<tr><td class="n">%s</td><td><a href="#%s">%s</a></td><td class="n">%s<code>%s</code></td>'
                  '<td>%s</td><td class="n">%s</td><td class="n">%s</td><td>%s</td><td>%s</td></tr>' % (
-                     i, o['key'], e(o['name']), swatch(o['disc']), o['disc'], e(f['second']), f['white'],
+                     o['num'], o['key'], e(o['name']), swatch(o['disc']), o['disc'], e(f['second']), f['white'],
                      f['dark'], e(f['dark_disc']), e(f['need'])))
     return ('<div class="tw"><table class="opts"><thead><tr><th>No.</th><th>Option</th><th>Disc</th>'
             '<th>Second tone</th><th>On white</th><th>On #111</th><th>Dark-mode disc</th><th>Needs</th></tr>'
             '</thead><tbody>%s</tbody></table></div>' % rows)
 
 
-def grad_table():
+def grad_table(items):
     rows = ''
-    for i, o in enumerate(G.GRADIENTS, 1):
+    for o in items:
         f = facts(o)
-        rows += ('<tr><td class="n">G%02d</td><td><a href="#%s">%s</a></td>'
+        rows += ('<tr><td class="n">%s</td><td><a href="#%s">%s</a></td>'
                  '<td class="n">%s<code>%s</code> to %s<code>%s</code></td><td class="n">%s</td>'
                  '<td class="n">%s</td><td>%s</td></tr>' % (
-                     i, o['key'], e(o['name']), swatch(o['a']), o['a'], swatch(o['b']), o['b'],
+                     o['num'], o['key'], e(o['name']), swatch(o['a']), o['a'], swatch(o['b']), o['b'],
                      f['white'], f['dark'], e(f['need'])))
     return ('<div class="tw"><table class="opts"><thead><tr><th>No.</th><th>Gradient</th>'
             '<th>Top left to bottom right</th><th>On white</th><th>On #111</th><th>Use</th></tr></thead>'
             '<tbody>%s</tbody></table></div>' % rows)
 
 
-def section(o, num):
+def section(o):
+    num = o['num']
     k = o['key']
     s, p = 'svg/' + k, 'png/' + k
     alt = e('%s %s' % (num, o['name']))
@@ -278,11 +282,65 @@ EXPORTS = [
 ]
 
 
+def avatar_src(o):
+    if o['grad']:
+        return 'png/%s/avatar-circle-440.png' % o['key']
+    return 'svg/%s/avatar-circle.svg' % o['key']
+
+
+def strip(items):
+    """A row of circle avatars, for comparing a family at a glance."""
+    cells = ''.join('<figure><a href="#%s"><img class="av av--c" src="%s" width="110" height="110" alt="%s %s"></a>'
+                    '<figcaption>%s %s</figcaption></figure>' % (
+                        o['key'], avatar_src(o), o['num'], e(o['name']), o['num'], e(o['name'])) for o in items)
+    return '<div class="g g--w strip">%s</div>' % cells
+
+
+LOCKUP_FIX = """
+  <div class="grp" id="lockup-fix"><h2>Lockup fix: the mark at the first pack's size</h2>
+    <p>The first version set the disc 1.12 cap heights tall with its bottom on the baseline, and it looked small
+    beside the name. The side lockups now use the first pack's geometry: the disc is 1.4 cap heights across (1.09 of
+    the wordmark's full height, ascender top to descender bottom), and its center sits 31 units above the baseline,
+    midway between the cap and x-height bands, so the two are centered on each other. The gap is 0.40 of the disc.
+    Every side lockup on this board is rebuilt this way. The stacked lockup already matched the first pack.</p>
+    <div class="row"><h4>Signal blue at 236 px: before, after, and the first pack's lockup for comparison</h4>
+      <div class="trio">
+        <figure class="g g--w"><img class="lk" src="svg/signal/lockup-before.svg" width="236" alt="Before: the smaller disc"><figcaption>Before</figcaption></figure>
+        <figure class="g g--w"><img class="lk" src="svg/signal/lockup.svg" width="236" alt="After: the disc at the first pack's size"><figcaption>After</figcaption></figure>
+        <figure class="g g--w"><img class="lk" src="../final-logo/svg/lockup-light.svg" width="236" alt="The first pack's lockup"><figcaption>First pack</figcaption></figure>
+      </div>
+      <div class="trio" style="margin-top:12px">
+        <figure class="g g--k"><img class="lk" src="svg/signal/lockup-before-dark.svg" width="236" alt="Before, on near-black"><figcaption>Before</figcaption></figure>
+        <figure class="g g--k"><img class="lk" src="svg/signal/lockup-dark.svg" width="236" alt="After, on near-black"><figcaption>After</figcaption></figure>
+        <figure class="g g--k"><img class="lk" src="../final-logo/svg/lockup-dark.svg" width="236" alt="The first pack's lockup on near-black"><figcaption>First pack</figcaption></figure>
+      </div></div>
+    <div class="row"><h4>At the thumbnail size, 120 px: before and after</h4>
+      <div class="pair">
+        <figure class="g g--w"><img src="svg/signal/lockup-before.svg" width="120" alt="Before, 120 px"><figcaption>Before</figcaption></figure>
+        <figure class="g g--w"><img src="svg/signal/lockup.svg" width="120" alt="After, 120 px"><figcaption>After</figcaption></figure>
+      </div></div>
+  </div>"""
+
+
+def lockup_fix():
+    return LOCKUP_FIX
+
+
 def board():
     toc = ''.join('<li><a href="#%s"><img src="svg/%s/mark.svg" alt="" width="20" height="20">%s</a></li>' % (
         o['key'], o['key'], e(o['name'])) for o in G.OPTIONS + G.GRADIENTS)
-    opts = ''.join(section(o, 'C%02d' % i) for i, o in enumerate(G.OPTIONS, 1))
-    grads = ''.join(section(o, 'G%02d' % i) for i, o in enumerate(G.GRADIENTS, 1))
+    def grp(kind, group):
+        src = G.OPTIONS if kind == 'C' else G.GRADIENTS
+        return [o for o in src if o['group'] == group]
+
+    first_c, first_g = grp('C', 'first'), grp('G', 'first')
+    blue_c, blue_g = grp('C', 'blues'), grp('G', 'blues')
+    vib_c, vib_g = grp('C', 'vibrant'), grp('G', 'vibrant')
+    ref = [o for o in G.GRADIENTS if o['key'] == 'g-signal-cobalt']
+
+    def secs(items):
+        return ''.join(section(o) for o in items)
+
     files = ''.join('<li><code>%s</code>: %s</li>' % (a, e(b)) for a, b in EXPORTS)
     return f'''<!doctype html>
 <html lang="en">
@@ -307,24 +365,57 @@ def board():
   </div>
   <ul class="toc" aria-label="Options">{toc}</ul>
 
+  {lockup_fix()}
+
   <div class="grp" id="colors"><h2>Color options</h2>
-    <p>Twelve options. Each disc is checked against white and against near-black (#111111) for the 3:1 a graphic
+    <p>The first twelve. Each disc is checked against white and against near-black (#111111) for the 3:1 a graphic
     needs. Where a disc fails on dark, its dark-mode version is a lighter tone of the same color. The cut-outs are
-    true holes, so on any ground they show the ground, except in C11 and C12, where they are filled.
-    Avatars are opaque, like an upload, so the figure in them is white (ink in C11).</p>
-    {table()}
+    true holes, so on any ground they show the ground, except where they are filled (C11, C12, C22).
+    Avatars are opaque, like an upload, so the figure in them is white (ink in C11 and C22).</p>
+    {table(first_c)}
   </div>
-  {opts}
+  {secs(first_c)}
 
   <div class="grp" id="gradients"><h2>Gradient options</h2>
     <p>Four smooth two-stop gradients, diagonal from the top left. The house rule from the first logo pack still
-    stands: <b>gradients are for social backgrounds only, never on the site.</b> These are marked as social
-    candidates (avatars, banners, posts) unless the owner says otherwise.</p>
-    {grad_table()}
+    stands: <b>gradients are for social backgrounds only, never on the site.</b> These and the gradients further
+    down are marked as social candidates (avatars, banners, posts) unless the owner says otherwise.</p>
+    {grad_table(first_g)}
     <div class="note" role="note"><p>Banding: the board shows the gradient avatars as PNGs rendered at four times
     the size, stepped down and dithered by under one gray level; the exports in <code>export/gradient/</code> are made the same way.</p></div>
   </div>
-  {grads}
+  {secs(first_g)}
+
+  <div class="grp" id="blues"><h2>Blues (flat)</h2>
+    <p>Five more blues across the family, C13 to C17, shown beside the signal blue (C01). Navy (C02) and cobalt
+    (C03) are above. Each has its dark-mode lift.</p>
+    {strip(G.OPTIONS[:1] + blue_c)}
+    {table(blue_c)}
+  </div>
+  {secs(blue_c)}
+
+  <div class="grp" id="blue-gradients"><h2>Blue gradients</h2>
+    <p>Five two-stop diagonals inside the blue family, G05 to G09, with G01 (signal blue to cobalt, the one the
+    owner likes) first as the reference. Social candidates only.</p>
+    {strip(ref + blue_g)}
+    {grad_table(ref + blue_g)}
+  </div>
+  {secs(blue_g)}
+
+  <div class="grp" id="vibrant"><h2>Vibrant (flat)</h2>
+    <p>Five saturated, high-energy colors, C18 to C22. Four carry a white figure at 3:1 or better, so the disc
+    still reads as a confident badge; the lime is too light for that and takes an ink figure.</p>
+    {strip(vib_c)}
+    {table(vib_c)}
+  </div>
+  {secs(vib_c)}
+
+  <div class="grp" id="vibrant-gradients"><h2>Vibrant gradients</h2>
+    <p>Five two-stop diagonals across hues, G10 to G14. Social candidates only, under the house rule, unless the owner lifts it.</p>
+    {strip(vib_g)}
+    {grad_table(vib_g)}
+  </div>
+  {secs(vib_g)}
 
   <div class="grp" id="exports"><h2>What gets exported</h2>
     <p>The export folder holds the signal blue option (C01) ready to try for real. Every other option has its

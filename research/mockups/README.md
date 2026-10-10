@@ -15,7 +15,7 @@ changes. A later redesign would be `option-2/` beside it.
   `python build.py` in that folder (it uses only `tools/` and `fonts/inter/`).
 - `Logo-3/`: the owner's own mark (drawn in Illustrator, 10 Oct 2026: a disc with a person cut out, a rounded
   diamond head over a curved band), kept exactly as drawn. Clean master with the cut-outs as true holes, monochrome,
-  twelve color options and four gradient options (social only), side and stacked lockups, avatars, favicons and
+  twenty-two color options and fourteen gradient options (social only), side and stacked lockups, avatars, favicons and
   previews (Instagram, LinkedIn page and feed, browser tabs, thumbnail, header), and `export/` with the signal blue
   favicons and social images: http://localhost/user-and-product/research/mockups/Logo-3/. Rebuild with
   `python build.py`, then `python check.py`, in that folder; details in `Logo-3/README.md`.

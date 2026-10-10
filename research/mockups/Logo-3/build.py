@@ -109,6 +109,10 @@ def build_option(o):
     }
     if o['head'] or o['band']:
         files['single'] = G.single_svg(o)
+    if k == 'signal':
+        # the first side lockup, kept only for the before-and-after pair on the board
+        files['lockup-before'] = G.lockup_svg(o, 'light', before=True)
+        files['lockup-before-dark'] = G.lockup_svg(o, 'dark', before=True)
     for name, text in files.items():
         write('svg/%s/%s.svg' % (k, name), text)
     bleed_l = G.mark_svg(o, 'light', vb=G.VB_BLEED)
@@ -183,7 +187,7 @@ def main():
     build_export()
     from board import board
     write('index.html', board())
-    print('built %d options and %d gradients' % (len(G.OPTIONS), len(G.GRADIENTS)))
+    print('built %d color options and %d gradients' % (len(G.OPTIONS), len(G.GRADIENTS)))
 
 
 if __name__ == '__main__':

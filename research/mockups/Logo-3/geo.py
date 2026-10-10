@@ -76,6 +76,36 @@ OPTIONS = [
          note='Signal blue disc; the head in white, the band in the light blue, so the head carries the lighter tone.'),
 ]
 for _o in OPTIONS:
+    _o['group'] = 'first'
+
+# added 10 Oct 2026 after the owner's first look; numbering continues (C13 on), nothing is renumbered
+OPTIONS += [
+    # blues, flat
+    dict(key='azure', name='Azure', disc='#0B72D9', dark='#5BA8FF', group='blues',
+         note='A clear, bright mid blue; passes on both grounds, with a lighter azure on dark for more lift.'),
+    dict(key='royal', name='Royal blue', disc='#2F45C8', dark='#A8B8FF', group='blues',
+         note='Between the signal blue and cobalt: deeper than cobalt, brighter than signal.'),
+    dict(key='slate', name='Slate blue', disc='#475C80', dark='#B3C0DD', group='blues',
+         note='A grayed blue; the quietest of the blues, close to a printed ink.'),
+    dict(key='midnight', name='Midnight', disc='#0F1B3D', dark='#9AA7F0', group='blues',
+         note='Almost black with a blue cast; reads as black at small sizes.'),
+    dict(key='electric', name='Electric blue', disc='#2E5BFF', dark='#7DB0FF', group='blues',
+         note='The most saturated blue; passes on both grounds, with a lighter blue on dark for more lift.'),
+    # vibrant, flat
+    dict(key='coral', name='Hot coral', disc='#E5432F', dark='#E5432F', group='vibrant',
+         note='A hot red-orange; warmer than the vermilion and just as loud.'),
+    dict(key='emerald', name='Emerald', disc='#0B8F63', dark='#0B8F63', group='vibrant',
+         note='A bright, saturated green; one color for both grounds.'),
+    dict(key='magenta', name='Magenta', disc='#D6247A', dark='#D6247A', group='vibrant',
+         note='A strong pink-red; the most unusual of the vibrant set.'),
+    dict(key='tangerine', name='Tangerine', disc='#D9600A', dark='#D9600A', group='vibrant',
+         note='A deep orange, dark enough to carry a white figure.'),
+    dict(key='lime', name='Lime with a dark figure', disc='#B5E61D', dark='#B5E61D', head=INK, band=INK,
+         group='vibrant',
+         note='Too light for a white figure, so the cut-outs are filled with ink, like the mustard.'),
+]
+for _i, _o in enumerate(OPTIONS, 1):
+    _o['num'] = 'C%02d' % _i
     _o.setdefault('head', None)
     _o.setdefault('band', None)
     _o['grad'] = False
@@ -92,6 +122,33 @@ GRADIENTS = [
          note='Almost flat: a warm charcoal glow on near-black.'),
 ]
 for _g in GRADIENTS:
+    _g['group'] = 'first'
+GRADIENTS += [
+    # blue gradients
+    dict(key='g-azure-signal', name='Azure to signal blue', a='#0B72D9', b='#2B46A0', group='blues',
+         note='A brighter, cleaner blue in the top left, settling into the house blue.'),
+    dict(key='g-royal-midnight', name='Royal blue to midnight', a='#2F45C8', b='#0F1B3D', group='blues',
+         note='The deepest of the blue gradients: royal fading to near-black.'),
+    dict(key='g-electric-cobalt', name='Electric blue to cobalt', a='#2E5BFF', b='#2450D8', group='blues',
+         note='Barely a gradient: a glow of electric blue over cobalt.'),
+    dict(key='g-sky-navy', name='Sky to navy', a='#348FDD', b='#1B2A55', group='blues',
+         note='The widest blue range: a light sky blue down to deep navy.'),
+    dict(key='g-signal-indigo', name='Signal blue to indigo', a='#2B46A0', b='#3B2A8C', group='blues',
+         note='The house blue turning toward purple in the bottom right.'),
+    # vibrant gradients
+    dict(key='g-coral-magenta', name='Coral to magenta', a='#E5432F', b='#C81E78', group='vibrant',
+         note='Hot coral into a deep magenta.'),
+    dict(key='g-emerald-teal', name='Emerald to teal', a='#0B8F63', b='#0F766E', group='vibrant',
+         note='Green to blue-green; the calmest of the vibrant set.'),
+    dict(key='g-tangerine-coral', name='Tangerine to coral', a='#D9600A', b='#E5432F', group='vibrant',
+         note='Orange into red; the warmest gradient.'),
+    dict(key='g-violet-electric', name='Violet to electric blue', a='#7B3FE4', b='#2E5BFF', group='vibrant',
+         note='Purple to the most saturated blue.'),
+    dict(key='g-magenta-violet', name='Magenta to violet', a='#D6247A', b='#6B2FD6', group='vibrant',
+         note='Pink-red into a deep violet.'),
+]
+for _i, _g in enumerate(GRADIENTS, 1):
+    _g['num'] = 'G%02d' % _i
     _g.update(disc='url(#%s)' % _g['key'], dark='url(#%s)' % _g['key'], grad=True, head=None, band=None)
 
 
@@ -248,13 +305,20 @@ class RelPen:
 
 WORD_D, WB = _word()
 
-# side lockup: the disc a little taller than the cap height, its bottom on the baseline with the small
-# overshoot a round letter has; gap 0.40 of the disc, the first pack's gap
-SIDE_D = 1.12 * CAP
-OVERSHOOT = 0.012 * SIDE_D
+# side lockup, the first pack's geometry (final-logo/build.py, decided 9 Oct 2026, owner feedback on this
+# board 10 Oct 2026): the disc 1.4 cap heights across, about the wordmark's full ink height (ascender top
+# to descender bottom, 93.2 units, so 1.09 of it); its centre midway between the cap band and the
+# x-height band, 31.08 units above the baseline; gap 0.40 of the disc.
+SIDE_D = 1.4 * CAP
+SIDE_CY = -(CAP + XH) / 4
 SIDE_GAP = 0.40
+# the first version on this board, kept only for the before-and-after pair: the disc 1.12 cap heights,
+# its bottom on the baseline with a 1.2 percent overshoot
+BEFORE_D = 1.12 * CAP
+BEFORE_CY = 0.012 * BEFORE_D - BEFORE_D / 2
 # stacked lockup: the first pack's proportions, disc 3 cap heights, gap 0.76 cap heights
 STACK_D, STACK_GAP = 3.0 * CAP, 0.76 * CAP
+MARGIN = 4   # the first pack's margin around the ink
 
 
 def _place(o, mode, x, y, d):
@@ -265,23 +329,23 @@ def _place(o, mode, x, y, d):
         f1(x - (CX - R) * s), f1(y - (CY - R) * s), num(s), mark_body(disc, o.get('head'), o.get('band')))
 
 
-def lockup_svg(o, mode='light', word_fill=None, stacked=False):
+def lockup_svg(o, mode='light', word_fill=None, stacked=False, before=False):
     if word_fill is None:
         word_fill = INK if mode == 'light' else OFF
-    m = 3
+    m = MARGIN
     if stacked:
         d = STACK_D
         top = WB[1] - STACK_GAP - d
         body = _place(o, mode, (WB[2] - d) / 2, top, d) + '<path fill="%s" d="%s"/>' % (word_fill, WORD_D)
         vb = (-m, top - m, WB[2] + 2 * m, WB[3] - top + 2 * m)
     else:
-        d = SIDE_D
-        top = OVERSHOOT - d
+        d, cy = (BEFORE_D, BEFORE_CY) if before else (SIDE_D, SIDE_CY)
+        top = cy - d / 2
         gap = SIDE_GAP * d
         body = _place(o, mode, 0, top, d) + '<path fill="%s" transform="translate(%s 0)" d="%s"/>' % (
             word_fill, f1(d + gap), WORD_D)
-        bot = max(OVERSHOOT, WB[3])
-        vb = (-m, top - m, d + gap + WB[2] + 2 * m, bot - top + 2 * m)
+        top_all, bot = min(top, WB[1]), max(top + d, WB[3])
+        vb = (-m, top_all - m, d + gap + WB[2] + 2 * m, bot - top_all + 2 * m)
     return doc(' '.join(f1(v) for v in vb), body, 'userandproduct', grad_def(o))
 
 

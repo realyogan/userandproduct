@@ -23,22 +23,22 @@
       "n": 3,
       "title": "Colour options",
       "status": "done",
-      "note": "Twelve colour options with dark-mode discs and contrast checks",
-      "time": "15:45"
+      "note": "22 color options (C13 to C22 added: five blues, five vibrant) with dark-mode discs and contrast",
+      "time": "16:03"
     },
     {
       "n": 4,
       "title": "Gradients",
       "status": "done",
-      "note": "Four diagonal two-stop gradients, social only, dithered PNG avatars",
-      "time": "15:45"
+      "note": "14 gradients (G05 to G14 added: five blue, five vibrant), social only",
+      "time": "16:03"
     },
     {
       "n": 5,
       "title": "Lockups",
       "status": "done",
-      "note": "Side and stacked lockups, light and dark, black and white, per option",
-      "time": "15:45"
+      "note": "Side lockups rebuilt at the first pack's geometry (disc 1.4 cap heights, centered 31.08 above the baseline, gap 0.40); stacked checked",
+      "time": "16:03"
     },
     {
       "n": 6,
@@ -58,10 +58,10 @@
       "n": 8,
       "title": "Checks",
       "status": "done",
-      "note": "All checks passed: master matches the owner file, 156 SVGs under 6 KB, no overflow at 375 px, board 200",
-      "time": "15:50"
+      "note": "All checks passed after the lockup fix and the twenty new options: 339 SVGs under 6 KB, no overflow at 375 px, board 200",
+      "time": "16:03"
     }
   ],
-  "updated": "2026-10-10T15:50+05:30",
-  "note": "All checks passed: master matches the owner file, 156 SVGs under 6 KB, no overflow at 375 px, board 200"
+  "updated": "2026-10-10T16:03+05:30",
+  "note": "All checks passed after the lockup fix and the twenty new options: 339 SVGs under 6 KB, no overflow at 375 px, board 200"
 }
