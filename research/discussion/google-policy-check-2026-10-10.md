@@ -116,3 +116,64 @@ plans touch these. They are in the rulebook as standing rules so nothing drifts 
 - Do synthesis pieces exist at all, or does every page carry a seed, brief or note? (Recommendation:
   every page.)
 - A "How this site is made" page: yes or no.
+
+## Second pass: the generative-AI guidance page and everything it links to
+
+Read on the owner's request later the same day: Google's guidance on using generative AI content and
+every page it links to (the Search Quality Rater Guidelines PDF, the ranking systems guide, the title
+link, snippet, structured data, alt text, search gallery, image metadata, helpful-content and AI FAQ
+pages), plus the Article structured data page, the SEO starter guide and the page experience page.
+The rulebook was rewritten to carry them (sections 3, 5, 6, 9, 11 and the checklist grew).
+
+### What the second pass adds that the first did not say
+
+- **Metadata is reviewed like body text.** Google: the fact-check and review "also applies to
+  metadata like title elements, meta description elements, structured data, and alternate texts".
+  Our plan reviewed the article only. Change: the app's preview shows the title tag, meta description,
+  every alt text and a structured data summary beside the piece, so the owner's one review covers
+  them. Checklist items 7 and 8.
+- **Structured data was not in the plan at all.** Rank Math and the theme emit it, so it must be
+  configured and validated: Article markup with author as a Person linked to the author page, dates
+  in ISO 8601 with timezone, representative images in three ratios; ProfilePage on the author page;
+  BreadcrumbList, WebSite and Organization; markup only for what is visible; Rich Results Test on
+  every template change; URL Inspection by the publisher; rich-result reports watched by the campaign
+  manager. Goes into the WordPress build and the publisher's live-page check.
+- **Alt text has a method.** In-context, one or two sentences, no "image of", decorative images
+  alt="", and a diagram's meaning explained in the body text, not only in the alt. Our explainers are
+  diagrams, so this becomes a rule in the illustration rulebook: the illustrator writes the alt, the
+  writer places the explanation beside the figure.
+- **Filler is a rated fault.** Raters rate a page Low for helpful content buried under filler and want
+  the most helpful content near the top. The writing style already says answer first; the rulebook
+  makes it a check.
+- **Titles are main content.** Exaggerated or shocking titles are a Low rating on their own. The
+  house title rule now cites this.
+- **The paraphrase check has a method, with one limit.** Raters search exact sentences on Google. We
+  may not query Google by machine, so the checker compares against the listed sources and spot-checks
+  three sentences through the paid research API's search endpoint.
+- **No intrusive interstitials.** The newsletter sign-up is a box in the page, never a pop-up or
+  overlay. The owner's no-pop-up rule for ads extends to everything.
+- **Site diversity.** Google shows at most two pages from one site per query, so each piece in a
+  cluster must own a different question. The sits-beside rule already does this; now it has a reason.
+- **YMYL-adjacent pieces.** Pay, pricing, contracts, hiring, legal and financial decisions get a mark
+  on the card, primary sources for every number, and consistency with expert consensus.
+- **Conflict of interest.** Raters discount paid promotion. Book takes and tool mentions must be
+  honest, say what the thing is bad at, and disclose affiliate relationships.
+- **URLs and structure.** Words, not ids; lowercase, hyphenated; sections as folders where the
+  hierarchy helps; descriptive link text; nofollow on links we cannot vouch for; ugc and nofollow on
+  any comment links automatically.
+- **Image metadata.** The IPTC tag for AI-generated images does not apply, since our thumbnails and
+  illustrations are drawn by our own code, not by a generative model. If a generative image tool is
+  ever used, the tag goes in.
+- **Promotion.** Google's own list of good promotion is social media, community engagement, word of
+  mouth and a newsletter people asked for, with a warning not to overdo it.
+
+### Nothing to do
+
+Ranking systems such as BERT, MUM, passage ranking, neural matching, freshness and deduplication
+describe how Google reads pages; they ask nothing of us beyond clear writing and one canonical URL.
+The original-content system rewards being the original source, which the paraphrase check protects.
+Reviews, local news and crisis systems do not apply. Exact-match domain does not apply.
+
+### Decisions for the owner from the second pass
+
+None new. The additions are rules and build items, not choices.

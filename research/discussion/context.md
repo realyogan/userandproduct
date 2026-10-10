@@ -678,3 +678,24 @@ Rulebook updated accordingly.
 Owner decisions (10 Oct, afternoon): no "How this site is made" page. Order of work: finalize the design of the whole
 website first (every section's mockup, look and feel), then content creation; domain, hosting and WordPress come after
 the mockups are final. The council's build order is parked behind that. Committing everything from today.
+Owner: yes to the editor's positions list. After a draft is done the editor lists every position the piece takes (eight
+to fifteen lines); the owner marks each keep, reword (with the words) or strike before reading the prose; reworded
+rules go into the principles file; the list sits on the card in the app above the preview. For synthesis pieces this
+is the owner's judgment entering the piece. To be folded into the proposal with the seed, the synthesis rule, the
+search-policy rulebook and the parked build order when the publishing system comes back after the site design.
+Second policy pass (owner, 10 Oct): Google's guidance on using generative AI content and every page it links to read in
+full (rater guidelines PDF sections 2.4, 3.2, 3.4, 4.6, 5.1, 5.2, 7; ranking systems guide; title link, snippet,
+structured data intro and general guidelines, Article markup, alt text, search gallery, image metadata, page
+experience, SEO starter guide). Rulebook rewritten (.claude/skills/search-policy/SKILL.md, twelve sections, a
+twelve-point checklist); sources vendored into the skill. New rules: metadata reviewed like body text (title tag, meta
+description, alt text, structured data shown in the app preview); structured data configured and validated (Article
+with Person author linked to the author page, ISO dates, three image ratios, ProfilePage, BreadcrumbList, WebSite,
+Organization, Rich Results Test per template change, URL Inspection per page); alt text method and diagrams explained
+in body text (goes to the illustration rulebook); no filler, answer near the top; titles are main content; paraphrase
+spot-check through the paid API, never Google; no interstitials, newsletter as an in-page box; site diversity reason
+for sits-beside; YMYL-adjacent pieces marked with primary sources; honest book takes with disclosure; URL and link
+rules; IPTC tag not needed for code-drawn images. Check appended to research/discussion/google-policy-check-2026-10-10.md.
+Owner: structured data and metadata are basic WordPress plus Rank Math work. Agreed; noted that the install session sets
+Rank Math once (author schema to the author page, tag and date archives noindex, organization logo, real modified
+dates), alt text and meta descriptions are written per piece and shown in the app preview, and validation (Rich
+Results Test per template change, URL Inspection per page) is part of the publisher's live-page check.
