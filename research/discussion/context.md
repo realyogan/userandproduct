@@ -913,3 +913,7 @@ git-ignored and only the README is tracked; the GitHub repo is public. Builder's
 about 11 percent smaller than Inter's and it sets about 8 percent narrower, so body 18 px reads like 16 px (19 to 20
 px body and a 22 px deck would restore the look); small labels at 14 to 15 px look light. Owner to review the swap.
 Owner (Satoshi swap): small headings bolder (700 to 800); body paragraphs get a little letter spacing (owner liked about 0.05em in the inspector; to be set within the system). Being applied in the mockup CSS.
+Type tweaks committed (10 Oct): tokens --fw-h3 750 (h3, card titles, section names), --fw-label 700 (section labels),
+rail titles 600, h1 and h2 stay 700; --tracking-body .03em on paragraphs, lists, decks and captions (.05em read
+spaced out), --tracking-ui .01em on 13 to 15 px interface text; chips left at 500.
+Owner (article byline): remove the avatar; 'By' plus the author name with no brackets (Yogan for now, one constant); all byline parts in one colour, the name one weight bolder. Being applied.

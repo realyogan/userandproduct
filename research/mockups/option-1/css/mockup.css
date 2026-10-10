@@ -137,12 +137,10 @@ button,input{font:inherit;color:inherit}
 .crumbs [aria-current]{color:var(--ink)}
 
 /* ---------- Byline ---------- */
-.byline{display:flex;align-items:center;gap:var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);color:var(--ink-2)}
-.byline .avatar{width:44px;height:44px}
+.byline{display:flex;align-items:center;gap:var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);color:var(--ink)}
 .byline strong{font-weight:600;color:var(--ink)}
-.byline .when{display:flex;flex-wrap:wrap;column-gap:var(--s3);color:var(--ink-3);font-size:var(--fs-meta)}
+.byline .when{display:flex;flex-wrap:wrap;column-gap:var(--s3);color:var(--ink);font-size:var(--fs-meta)}
 .byline .when span+span{padding-left:var(--s3);border-left:1px solid var(--rule)}
-.avatar{display:block;border-radius:50%;background:var(--panel);border:1px solid var(--rule);flex:none;color:var(--ink-3)}
 
 /* ---------- Article prose ---------- */
 .prose>*+*{margin-top:1.1em}
@@ -220,8 +218,7 @@ button,input{font:inherit;color:inherit}
 .copy-status{font-size:var(--fs-meta);color:var(--signal);min-height:1.4em;margin:0}
 
 /* ---------- Author box ---------- */
-.author{display:grid;grid-template-columns:64px 1fr;gap:var(--s4);margin-top:var(--s8);padding-top:var(--s5);border-top:1px solid var(--rule-strong);font:400 var(--fs-ui)/1.55 var(--font-ui)}
-.author .avatar{width:64px;height:64px}
+.author{margin-top:var(--s8);padding-top:var(--s5);border-top:1px solid var(--rule-strong);font:400 var(--fs-ui)/1.55 var(--font-ui)}
 .author h2{font-size:20px;font-weight:var(--fw-h3);letter-spacing:-.01em}
 .author p{margin-top:var(--s2);color:var(--ink-2)}
 .author .links{display:flex;flex-wrap:wrap;gap:var(--s4);margin-top:var(--s3)}

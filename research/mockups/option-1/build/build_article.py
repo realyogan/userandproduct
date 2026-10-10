@@ -42,10 +42,8 @@ def logo(w, h):
 
 LOGO = logo(236, 30)       # header: CSS sets 236px from 768px, 168px on phones
 
-def avatar(size, title="Photo of [Author Name] (placeholder)"):
-    return (f'<svg class="avatar" width="{size}" height="{size}" viewBox="0 0 64 64" role="img"><title>{title}</title>'
-            '<circle cx="32" cy="25" r="11" fill="currentColor"/>'
-            '<path d="M11 56c2.5-11 11-17 21-17s18.5 6 21 17Z" fill="currentColor"/></svg>')
+# The author's name, in one place: the byline, the author box and the template credit all read it.
+AUTHOR_NAME = "Yogan"
 
 def head(variant, label, preload_serif=False):
     # Satoshi: one variable file carries the body, the labels and the headline, so one preload covers the fold.
@@ -83,11 +81,10 @@ def crumbs():
       <li><a href="{HOME_URL}">Home</a></li><li><a href="{CATEGORY_URL}">Product</a></li><li><a href="{CATEGORY_URL}" aria-current="page">Product discovery</a></li>
     </ol></nav>"""
 
-def byline(size=44):
+def byline():
     return f"""<div class="byline">
-      {avatar(size)}
       <div>
-        <div>userandproduct, by <a href="#author"><strong>[Author Name]</strong></a></div>
+        <div>userandproduct, by <a href="#author"><strong>{AUTHOR_NAME}</strong></a></div>
         <div class="when"><span><time datetime="2026-10-09">9 Oct 2026</time></span><span>9 min read</span></div>
       </div>
     </div>"""
@@ -315,7 +312,7 @@ grep -rn "TBD" docs/prd/ | sort | tee open-items.txt | wc -l</code></pre>
 """),
 ]
 
-INTERVIEW_TEXT = """PRD interview, v1.0, by [Author Name], userandproduct.com/prd-template (CC BY 4.0)
+INTERVIEW_TEXT = f"""PRD interview, v1.0, by {AUTHOR_NAME}, userandproduct.com/prd-template (CC BY 4.0)
 
 You are helping me write a product requirements document (PRD). Work in two steps.
 
@@ -375,11 +372,10 @@ def template_block(tid="template"):
 </section>"""
 
 AUTHOR = f"""<section class="author" id="author" aria-labelledby="author-h">
-  {avatar(64)}
   <div>
-    <h2 id="author-h">[Author Name]</h2>
+    <h2 id="author-h">{AUTHOR_NAME}</h2>
     <p>Fifteen years in product design and product management, shipping B2B and consumer software with teams from five people to five hundred. I write userandproduct to share the methods that held up in real teams, and the ones that did not.</p>
-    <div class="links"><a href="#">[Author Name] on LinkedIn</a><a href="#">About the author</a></div>
+    <div class="links"><a href="#">{AUTHOR_NAME} on LinkedIn</a><a href="#">About the author</a></div>
   </div>
 </section>"""
 
@@ -500,8 +496,7 @@ def variant_a():
     <h1>{TITLE}</h1>
     <div class="byrow">
       <div class="by">
-        {avatar(48)}
-        <span>By <a href="#">[Author Name]</a></span>
+        <span>By <a href="#">{AUTHOR_NAME}</a></span>
         <span class="dot" aria-hidden="true"></span>
         <span class="rt">{ICON_CLOCK}9 min</span>
         <span class="dot dot--2" aria-hidden="true"></span>
@@ -564,7 +559,7 @@ def variant_b():
     <a class="cat-link" href="{CATEGORY_URL}">Product discovery</a>
     <h1>{TITLE}</h1>
     <p class="deck">{DECK}</p>
-    {byline(48)}
+    {byline()}
     {HERO}
   </header>
   <div class="col">
