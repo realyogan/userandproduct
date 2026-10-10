@@ -17,11 +17,10 @@
 <link rel="stylesheet" href="home.css">
 <script src="../mockup.js" defer></script>
 </head>
-<!-- Home page mockup, simple version (10 Oct 2026). Everything below the masthead is what WordPress makes on its own:
-     the twelve newest posts (a loop, newest first, one in-feed ad after the sixth), the category list per domain with
-     counts, and four fixed links to the section pages. Nothing is picked by hand. The article titles and decks are
-     made-up samples; the counts are the planned pieces per category from research/seo/tree-simplified-v1.1.md, listed
-     by name as the taxonomy lists them. Every card links to article A, the one sample article; the other links go to the
+<!-- Home page mockup, third pass (10 Oct 2026). No visible masthead: the one h1 is visually hidden. Under the leaderboard
+     is what WordPress makes on its own: the twelve newest posts (a loop, newest first, one in-feed ad after the sixth),
+     then four fixed links to the section pages, then the footer (no newsletter box on the home page). Nothing is picked by hand. The article titles and
+     decks are made-up samples. Every card links to article A, the one sample article; the other links go to the
      placeholder pages written by ../placeholders.py. -->
 <body class="home">
 <a class="skip" href="#content">Skip to the main content</a><header class="site-head">
@@ -35,16 +34,12 @@
 <aside class="ad ad--leader" data-ad="leaderboard" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">320 &times; 100</span><span class="sz-1">728 &times; 90</span><span class="sz-2">970 &times; 90</span></div></aside>
 <main id="content" class="wrap">
 
-<!-- 1. Masthead: the one h1 and its deck (static text) -->
-<section class="mast" aria-labelledby="mast-h">
-  <h1 id="mast-h">Plain lessons in UX, product and business, <span class="mast__quiet">from fifteen years of shipping software.</span></h1>
-  <p class="mast__deck">For product managers, designers and founders. Each piece starts from a real project and ends with something you can use on Monday.</p>
-</section>
+<h1 class="vh">userandproduct: lessons in UX, product and business</h1>
 
-<!-- 2. Latest articles: the posts loop, newest first. The first post gets the large card; the next eleven fill the grid.
+<!-- 1. Latest articles: the posts loop, newest first. The first post gets the large card; the next eleven fill the grid.
      No dates: the date lives only on the article page. -->
 <section class="latest" id="latest" aria-labelledby="latest-h">
-  <h2 id="latest-h" class="sec-h">Latest articles</h2>
+  <h2 id="latest-h" class="vh">Latest articles</h2>
   <article class="lead">
     <a class="lead__link" href="../article/article-a.html">
       <img src="img/prd-engineers-read-hero.png" width="1200" height="675" alt="Illustration of a PRD page with a checklist, two items ticked." fetchpriority="high" decoding="async">
@@ -72,61 +67,15 @@
   <p class="latest__all"><a class="btn btn--ghost" href="../sections/articles.html">All articles</a></p>
 </section>
 
-<!-- 3. Topics: each domain and its categories with their counts, as the taxonomy lists them -->
-<section class="topics" aria-labelledby="topics-h">
-  <h2 id="topics-h" class="sec-h">Topics</h2>
-  <div class="topics__row">
-    <section class="domain" aria-labelledby="dom-design">
-      <h3 id="dom-design"><a href="../category/index.html">Design</a></h3>
-      <ul class="cats">
-        <li><a href="../category/index.html"><span>Accessibility</span><span class="chip chip--count">7<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Design systems</span><span class="chip chip--count">2<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>UI design</span><span class="chip chip--count">23<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>UX design</span><span class="chip chip--count">19<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>UX research</span><span class="chip chip--count">31<span class="vh"> planned pieces</span></span></a></li>
-      </ul>
-    </section>
-    <section class="domain" aria-labelledby="dom-product">
-      <h3 id="dom-product"><a href="../category/index.html">Product</a></h3>
-      <ul class="cats">
-        <li><a href="../category/index.html"><span>Product discovery</span><span class="chip chip--count">24<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Product management</span><span class="chip chip--count">16<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Product strategy</span><span class="chip chip--count">11<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Project management</span><span class="chip chip--count">33<span class="vh"> planned pieces</span></span></a></li>
-      </ul>
-    </section>
-    <section class="domain" aria-labelledby="dom-business">
-      <h3 id="dom-business"><a href="../category/index.html">Business</a></h3>
-      <ul class="cats">
-        <li><a href="../category/index.html"><span>Growth and pricing</span><span class="chip chip--count">11<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Leadership and teams</span><span class="chip chip--count">5<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Product marketing</span><span class="chip chip--count">5<span class="vh"> planned pieces</span></span></a></li>
-        <li><a href="../category/index.html"><span>Product metrics</span><span class="chip chip--count">23<span class="vh"> planned pieces</span></span></a></li>
-      </ul>
-    </section>
-  </div>
-  <p class="topics__note">The numbers are the pieces planned for each topic. Until the site is live, most of them are still being written.</p>
-</section>
-
-<!-- 4. Also on the site: fixed links to the four section pages -->
-<section class="also" aria-labelledby="also-h">
-  <h2 id="also-h" class="sec-h">Also on the site</h2>
-  <ul class="also__row">
-    <li><h3><a href="../sections/books.html">Books</a></h3><p>The books I hand to colleagues, with a note on what each one is good for.</p></li>
-    <li><h3><a href="../sections/templates.html">Templates</a></h3><p>Free templates to download, each with a worked example beside it.</p></li>
-    <li><h3><a href="../sections/tools.html">Tools</a></h3><p>Small calculators and checkers for everyday product work.</p></li>
-    <li><h3><a href="../sections/links.html">Links</a></h3><p>Useful sites and apps for design and product work, sorted by topic.</p></li>
+<!-- 2. The rest of the site: fixed links to the four section pages, one tile each -->
+<section class="secs" aria-labelledby="secs-h">
+  <h2 id="secs-h" class="vh">More from the site</h2>
+  <ul class="secs__row">
+    <li><a class="sec" href="../sections/books.html"><svg class="sec__mark" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true" focusable="false"><path class="svg-signal" d="M10 10h7v30h-7z"/><path class="sec__ln" d="M10 10h7v30h-7zM17 14h7v26h-7zM27.5 13.4l6.8-1.8 7.8 29-6.8 1.8zM6 40h37"/><path class="sec__ln" d="M10 16h7M17 34h7"/></svg><h3 class="sec__name">Books</h3><p class="sec__line">The books I hand to colleagues, with a note on what each one is good for.</p><span class="sec__open" aria-hidden="true">Open</span></a></li>
+    <li><a class="sec" href="../sections/templates.html"><svg class="sec__mark" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true" focusable="false"><path class="svg-signal" d="M15 13h18v6H15z"/><path class="sec__ln" d="M11 6h20l7 7v29H11zM31 6v7h7M15 13h18v6H15zM15 25h18M15 30h18M15 35h11"/></svg><h3 class="sec__name">Templates</h3><p class="sec__line">Free templates to download, each with a worked example beside it.</p><span class="sec__open" aria-hidden="true">Open</span></a></li>
+    <li><a class="sec" href="../sections/tools.html"><svg class="sec__mark" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true" focusable="false"><path class="svg-signal" d="M15 11h18v8H15z"/><path class="sec__ln" d="M11 6h26v36H11zM15 11h18v8H15z"/><g class="svg-ink"><circle cx="17" cy="26" r="1.9"/><circle cx="24" cy="26" r="1.9"/><circle cx="31" cy="26" r="1.9"/><circle cx="17" cy="32" r="1.9"/><circle cx="24" cy="32" r="1.9"/><circle cx="31" cy="32" r="1.9"/><circle cx="17" cy="38" r="1.9"/><circle cx="24" cy="38" r="1.9"/><circle cx="31" cy="38" r="1.9"/></g></svg><h3 class="sec__name">Tools</h3><p class="sec__line">Small calculators and checkers for everyday product work.</p><span class="sec__open" aria-hidden="true">Open</span></a></li>
+    <li><a class="sec" href="../sections/links.html"><svg class="sec__mark" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true" focusable="false"><path class="sec__ln" d="M21.5 26.5l-4.6 4.6a6 6 0 0 1-8.5-8.5l6-6a6 6 0 0 1 8.5 0"/><path class="sec__ln sec__ln--sig" d="M26.5 21.5l4.6-4.6a6 6 0 0 1 8.5 8.5l-6 6a6 6 0 0 1-8.5 0"/><path class="sec__ln" d="M19 29l10-10"/></svg><h3 class="sec__name">Links</h3><p class="sec__line">Useful sites and apps for design and product work, sorted by topic.</p><span class="sec__open" aria-hidden="true">Open</span></a></li>
   </ul>
-</section>
-
-<!-- 5. Newsletter: the same in-page box as article A, never a pop-up -->
-<section class="news" id="newsletter" aria-labelledby="news-h">
-  <h2 id="news-h" class="vh">Newsletter</h2>
-  <form data-news>
-    <label for="news-email"><b>One email a month</b> with new articles and templates. Unsubscribe any time.</label>
-    <div class="field"><input id="news-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required><button class="btn" type="submit">Subscribe</button></div>
-    <p class="status" role="status" aria-live="polite"></p>
-  </form>
 </section>
 </main>
 <footer class="site-foot">

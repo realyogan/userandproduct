@@ -756,3 +756,7 @@ bottom in Related's place; all mockup pages linked through mockups/placeholders.
 with ten placeholder pages and a site map at research/mockups/index.html (8 built, 10 placeholders). Noted for the
 owner: at 1200 to 1439 px the article rail is 160 px wide, so the compact list's titles wrap to several lines; the fix
 would be to stack thumbnail above title at that width.
+Owner (home, 10 Oct): remove the hero text (h1 kept only visually hidden for search and screen readers), remove the
+"Latest articles" heading so the cards start right under the leaderboard, remove the Topics section entirely, and
+redesign the section-links block (Books, Templates, Tools, Links) without the "Also on the site" title. Being applied.
+Owner: remove the newsletter sign-up from the home page for now (not needed yet). Passed to the builder mid-run.

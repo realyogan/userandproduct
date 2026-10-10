@@ -22,21 +22,13 @@ All pages link to each other so the mockups can be clicked through as one site (
 - `article/`: page 2, the single article page in three variants (A Sidebar, B Magazine, C Reader) with the ad
   rules they follow: http://localhost/user-and-product/research/mockups/article/. `article/build.py` writes the
   three pages from one copy of the sample article; `article/shots/` holds the 375px thumbnails.
-- `home/`: page 1, the home page mockup: http://localhost/user-and-product/research/mockups/home/. Rebuilt simple on
-  10 Oct 2026 after the owner's correction. The owner's rule: the home page is automatic, latest articles plus links
-  to the sections; nothing on it is picked by hand, everything comes from the posts and the taxonomy. Top to bottom:
-  the shared header and leaderboard; a short masthead (the one h1 and its deck, static); "Latest articles", the
-  posts loop newest first: the newest as a large card (thumbnail, category chip, title, one-line deck), the next
-  eleven as a uniform grid (thumbnail, chip, title), no dates, one labelled 300 x 250 in-feed unit sized as a card
-  in the sixth slot (after the sixth newest post) so every row stays full at one, two or three columns, then an
-  "All articles" link; "Topics", the three domains with their categories listed by name as the taxonomy lists them,
-  each with its planned count in a mono chip and a note that the counts are planned; "Also on the site", four plain
-  links (Books, Templates, Tools, Links); the newsletter box; the shared footer, whose line carries the author and
-  whose legal row has About. Hand-written `index.html` plus `home.css` (page rules only) on the shared `mockup.css`
-  and `mockup.js`; header and footer are the shell from `placeholders.py`. Titles and decks are made-up samples;
-  every card links to article A. `home/build.py` drew the twelve thumbnails into `home/img/` (styles and reasons in
-  `home/img/README.md`, rotated for the first layout); `home/shots.py` takes the 375px and 1280px screenshots,
-  light and dark, into `home/shots/` and prints the overflow, ads-in-view and ad-density checks.
+- `home/`: page 1, the home page mockup: http://localhost/user-and-product/research/mockups/home/. Third pass 10 Oct
+  2026: no visible masthead (one visually hidden h1), the latest twelve right under the leaderboard (newest large, eleven
+  in a grid, in-feed ad in slot six, "All articles"), then four section tiles (Books, Templates, Tools, Links: a drawn
+  mark, the name in display type, one line, a mono Open link), then the footer; no Topics block, no newsletter box.
+  Hand-written `index.html` plus `home.css` on the shared `mockup.css` and `mockup.js`, shell from `placeholders.py`;
+  `home/build.py` drew the thumbnails into `home/img/`; `home/shots.py` takes the screenshots into `home/shots/` and
+  prints the overflow, ads-in-view and ad-density checks.
 - `placeholders.py`: the shared page shell (link targets, header, footer) and the placeholder pages written from
   one template: `category/index.html`, `sections/` (articles, books, links, tools, templates) and `pages/` (about,
   privacy, advertising, contact). It also writes the site map `index.html`, reading each page's status from disk.

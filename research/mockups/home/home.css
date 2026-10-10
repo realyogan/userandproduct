@@ -1,5 +1,4 @@
-/* Home page mockup: page-specific layout only. Tokens, header, footer, chips, buttons, ads and the
-   newsletter box come from ../mockup.css. */
+/* Home page mockup: page-specific layout only. Tokens, header, footer, chips, buttons and ads come from ../mockup.css. */
 
 /* phones step the scale down, as on the article page */
 @media (max-width:599px){
@@ -12,18 +11,8 @@
 .wrap>section+section{margin-top:var(--s9)}
 @media (max-width:767px){.wrap>section+section{margin-top:var(--s8)}}
 
-/* section heading: a display h2 on a hairline */
-.sec-h{padding-top:var(--s4);border-top:1px solid var(--rule-strong);font-size:clamp(26px,calc(18px + 1.2vw),34px);line-height:1.1;letter-spacing:-.02em}
-
-/* ---------- 1. Masthead ---------- */
-.mast{padding-top:var(--s7)}
-.mast h1{font-size:clamp(32px,calc(16px + 3vw),56px);line-height:1.06;letter-spacing:-.03em;max-width:18em}
-.mast__quiet{color:var(--ink-3)}
-.mast__deck{margin-top:var(--s4);font:400 var(--fs-lead)/1.5 var(--font-ui);color:var(--ink-2);max-width:36em}
-.wrap>.mast+.latest{margin-top:var(--s7)}
-
-/* ---------- 2. Latest articles: the newest large, the next eleven in a grid ---------- */
-.lead{margin-top:var(--s5)}
+/* ---------- 1. Latest articles: right under the leaderboard, the newest large, the next eleven in a grid ---------- */
+.lead{margin-top:var(--s6)}
 .lead__link{display:grid;gap:var(--s4);color:var(--ink);text-decoration:none}
 @media (min-width:900px){.lead__link{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);column-gap:var(--s6);align-items:center}}
 .lead__text{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s3)}
@@ -45,27 +34,30 @@
 .feed__ad .ad{margin:0 auto}
 .latest__all{margin-top:var(--s7)}
 
-/* ---------- 3. Topics: three domains, each its category list with counts ---------- */
-.topics__row{display:grid;gap:var(--s7);margin-top:var(--s6)}
-@media (min-width:768px){.topics__row{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s6)}}
-.domain{min-width:0}
-.domain h3{font-size:22px;line-height:1.2;letter-spacing:-.015em}
-.domain h3 a,.cats a{color:var(--ink);text-decoration:none}
-.cats{list-style:none;margin:var(--s3) 0 0;padding:0;border-top:1px solid var(--rule)}
-.cats li{border-bottom:1px solid var(--rule)}
-.cats a{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);min-height:48px;padding:var(--s2) 0;font:500 var(--fs-ui)/1.3 var(--font-ui)}
-.domain h3 a:hover,.cats a:hover{color:var(--signal);text-decoration:underline;text-underline-offset:.18em}
-.chip--count{padding:5px 7px;color:var(--ink-3);border-color:var(--rule);font-variant-numeric:tabular-nums;flex:none}
-.cats a:hover .chip--count{color:var(--signal);border-color:var(--signal)}
-.topics__note{margin-top:var(--s5);font:400 var(--fs-meta)/1.5 var(--font-ui);color:var(--ink-3);max-width:44em}
+/* ---------- 2. The rest of the site (last block before the footer): four tiles, each a drawn mark, the name in display type, one line, Open ---------- */
+.secs__row{list-style:none;margin:0;padding:0;display:grid;gap:var(--s4);grid-template-columns:1fr}
+@media (min-width:600px){.secs__row{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s5)}}
+@media (min-width:1024px){.secs__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.secs__row li{display:flex}
+.sec{flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:var(--s3);padding:var(--s6) var(--s5) var(--s5);
+  background:var(--panel);border:1px solid var(--rule);border-top:3px solid var(--rule-strong);border-radius:0 0 var(--radius) var(--radius);
+  color:var(--ink);text-decoration:none}
+.sec__mark{display:block;width:64px;height:64px;margin-bottom:var(--s2)}
+.sec__ln{fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.sec__ln--sig{stroke:var(--signal);stroke-width:2.6}
+.sec__name{font-size:clamp(26px,calc(18px + 1vw),32px);line-height:1.05;letter-spacing:-.025em}
+.sec__line{font:400 var(--fs-ui)/1.5 var(--font-ui);color:var(--ink-2);max-width:26em}
+.sec__open{margin-top:auto;padding-top:var(--s3);font:500 12px/1 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--signal)}
+.sec__open::after{content:"\2192";display:inline-block;margin-left:.4em;transition:transform .15s ease}
+.sec:hover{border-top-color:var(--signal)}
+.sec:hover .sec__name{color:var(--signal)}
+.sec:hover .sec__open::after{transform:translateX(3px)}
+.sec:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+/* phones: the mark beside the text, so four tiles stay short */
+@media (max-width:599px){
+  .sec{display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:var(--s4);row-gap:var(--s1);padding:var(--s4)}
+  .sec__mark{grid-row:1/4;width:44px;height:44px;margin:2px 0 0}
+  .sec__name{font-size:24px}
+  .sec__open{padding-top:var(--s2)}
+}
 
-/* ---------- 4. Also on the site: four plain link blocks ---------- */
-.also__row{list-style:none;margin:var(--s6) 0 0;padding:0;display:grid;gap:var(--s5);grid-template-columns:1fr}
-@media (min-width:600px){.also__row{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1024px){.also__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.also__row li{padding-top:var(--s3);border-top:1px solid var(--rule)}
-.also__row h3{font-size:20px;line-height:1.2;letter-spacing:-.01em}
-.also__row p{margin-top:var(--s2);font:400 var(--fs-ui)/1.5 var(--font-ui);color:var(--ink-2)}
-
-/* ---------- 5. Newsletter: the shared box, given room ---------- */
-.wrap>.news{margin-top:var(--s9)}

@@ -1,39 +1,39 @@
 {
   "version": 1,
-  "run_id": "home-mockup-2",
-  "title": "Home page mockup, simple version",
+  "run_id": "home-mockup-3",
+  "title": "Home page mockup, third pass: no masthead, no topics, section links block",
   "state": "finished",
-  "started": "2026-10-10T12:08+05:30",
+  "started": "2026-10-10T12:27+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Read the system",
+      "title": "Read",
       "status": "done",
-      "note": "Current page, shared CSS and JS, article A, the tree and the writing rules read",
-      "time": "12:08"
+      "note": "CLAUDE.md, home page, home.css, placeholders.py, mockup.css and mockup.js read; shared shell matches placeholders.py",
+      "time": "12:27"
     },
     {
       "n": 2,
-      "title": "Restructure",
+      "title": "Strip",
       "status": "done",
-      "note": "Page restructured: masthead, latest twelve, topics, four section links, newsletter; placeholders and site map added",
-      "time": "12:12"
+      "note": "Masthead text, Latest heading and Topics removed; one visually hidden h1; cards start under the leaderboard",
+      "time": "12:28"
     },
     {
       "n": 3,
-      "title": "Build",
+      "title": "Section links design",
       "status": "done",
-      "note": "Built: index.html, home.css, placeholders and site map",
-      "time": "12:13"
+      "note": "Four tiles: drawn mark, display name, one line, mono Open link; newsletter box removed (owner)",
+      "time": "12:28"
     },
     {
       "n": 4,
       "title": "Checks",
       "status": "done",
-      "note": "One h1, no inline styles, links resolve, no overflow 375 to 1440, ad density 5.1 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/",
-      "time": "12:13"
+      "note": "One hidden h1, no inline styles, tags balanced, links resolve, no overflow 375 to 1440, at most 2 ads in view, ad density 6.6 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/",
+      "time": "12:30"
     }
   ],
-  "updated": "2026-10-10T12:13+05:30",
-  "note": "One h1, no inline styles, links resolve, no overflow 375 to 1440, ad density 5.1 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/"
+  "updated": "2026-10-10T12:30+05:30",
+  "note": "One hidden h1, no inline styles, tags balanced, links resolve, no overflow 375 to 1440, at most 2 ads in view, ad density 6.6 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/"
 }
