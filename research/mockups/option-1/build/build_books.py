@@ -436,7 +436,7 @@ def topic_pm():
   <section class="more" aria-labelledby="more-h">
     <h2 id="more-h">More shelves</h2>
     <ul class="plates plates--more">{"".join(plate(t, p) for t in neighbours)}</ul>
-    <p class="more__all"><a href="{p}{SHELF}">All ten topics on the shelf</a></p>
+    <p class="more__all"><a href="{p}{SHELF}">Back to all recommended books</a></p>
   </section>
 </div>'''
     comment = ('<!-- Books topic page mockup (10 Oct 2026), written by build/build_books.py: the topic page WordPress builds from '
