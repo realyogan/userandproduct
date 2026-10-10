@@ -17,10 +17,12 @@ it, and how to reach it.
 - **Seeded pieces (at least three quarters).** The card carries a seed (the owner's answers to two or
   three practice questions), a brief (the owner's rules as the spine), or a shaping note, before the
   piece is written.
-- **Synthesis pieces (up to a quarter; owner's decision, 10 October 2026).** Written from
-  understanding as a fresh take: own structure, own examples, own reasoning. Never a summary of the top
-  pages, never a stitch. Labeled on the board, never among the flagship launch pieces. The owner's
-  feedback on the draft and the keep-reword-strike on the positions list are the oversight.
+- **Synthesis pieces (about one in twenty at most; owner's decision, 10 October 2026, tightened from a
+  quarter).** A piece with nothing from the owner before it is written. Written from understanding as a fresh take,
+  never a summary or a stitch, labeled on the board, never among the flagship launch pieces; the owner's feedback on
+  the draft and the keep-reword-strike on the positions list are the oversight. The owner's "write about this"
+  brief followed by the owner reordering or cutting the outline is NOT synthesis: the order and the cuts are the
+  owner's judgment entering first, so it counts as seeded.
 - **The positions list.** After a draft is done the editor lists every position the piece takes; the
   owner keeps, rewords or strikes each before reading the prose. Reworded rules go into the principles
   file and become the canon later drafts are checked against.

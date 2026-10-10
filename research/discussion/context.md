@@ -930,3 +930,5 @@ from something the model does not have); almost no original-data pieces planned 
 owner's own photos as experience evidence); a "sounds like a model" check beyond banned phrases; working tools and
 real artifacts in some launch pieces; never pay for inclusion in lists or AI mentions. Disclosure decision and the
 fifty-piece launch unchanged.
+Owner (10 Oct): synthesis reduced to about one in twenty; the owner's "write about this" brief followed by the owner
+reordering or cutting the outline counts as seeded, not synthesis. Rulebook and site layer updated.
