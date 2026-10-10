@@ -813,3 +813,8 @@ two-tone blue with coral, teal and oxblood alternatives; authority check on each
 research/mockups/logo-2/hub.html. Main-session read: presence solved; several read as library icons (key, upright
 rocket, bookmark, switch, nib); brand ideas in the orbit, the frame, the breakout rocket, the clasp. Round 2
 (letterforms) in progress.
+Logo exploration 2, round 2 built (10 Oct): research/mockups/logo-2/round-2/ (ten letterform marks on U, D and P:
+shared stem, turned U to D, split ring up, D holds U, cut coin, two-hook U in green, stacked UP, lit D in a tile,
+ampersand in vermilion, folded-corner u in the wordmark). Main-session read: strongest at avatar size 02, 05, 06, 08;
+10 has the nicest idea but fades at 32 px; 01, 03, 04 carry too much; 07 thin. Suggested shortlist across both rounds
+for the originality check: R2-02, R2-05, R2-06, R2-08, R1-01, R1-02, R1-05. Waiting for the owner's reaction.

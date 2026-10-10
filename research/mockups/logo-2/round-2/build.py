@@ -72,10 +72,14 @@ def svg_doc(body, vb='0 0 512 512', label='userandproduct'):
             '<title>%s</title>\n%s</svg>\n' % (vb, label, label, body))
 
 
-def paths(layers, pal):
+def d_c(p):
+    return d_of(p, coarse=True)
+
+
+def paths(layers, pal, coarse=False):
     out = []
     for role, p in layers:
-        d = d_of(p)
+        d = d_of(p, coarse)
         if d:
             out.append('<path fill="%s" d="%s"/>' % (pal[role], d))
     return '\n'.join(out) + '\n'
@@ -154,7 +158,7 @@ def custom_u_word():
     return [('a', body), ('f', flap)], union(*glyphs[1:])
 
 
-def lockup_svg(layers, pal, ink, mono=None, custom=False):
+def lockup_svg(layers, pal, ink, mono=None, custom=False, keep=()):
     """Mark + wordmark with the final-logo geometry: mark 1.4 cap heights tall, centred 31.08 units
     above the baseline, gap 0.40 of the mark height. mono: one colour (contained marks knocked out)."""
     glyphs, adv = wordmark_glyphs()
@@ -162,9 +166,9 @@ def lockup_svg(layers, pal, ink, mono=None, custom=False):
     if custom:
         ul, rest = custom_u_word()
         if mono:
-            body = '<path fill="%s" d="%s"/>\n' % (mono, d_of(union(*[p for _, p in ul], rest)))
+            body = '<path fill="%s" d="%s"/>\n' % (mono, d_c(union(*[p for _, p in ul], rest)))
         else:
-            body = paths(ul, pal) + '<path fill="%s" d="%s"/>\n' % (ink, d_of(rest))
+            body = paths(ul, pal, True) + '<path fill="%s" d="%s"/>\n' % (ink, d_c(rest))
         x0, y0, x1, y1 = union(*[p for _, p in ul], rest).bounds
         vb = '%s %s %s %s' % (fmt(x0 - pad), fmt(y0 - pad), fmt(x1 - x0 + 2 * pad), fmt(y1 - y0 + 2 * pad))
         return svg_doc(body, vb)
@@ -179,12 +183,14 @@ def lockup_svg(layers, pal, ink, mono=None, custom=False):
     word = transform(union(*glyphs), tx=mw + gap)
     if mono:
         if cont:
-            mk = op(union(*[p for r, p in placed if r == 'c']), union(*[p for r, p in placed if r != 'c']), 'diff')
+            # knock the letter out of the container; parts that are counters (keep) stay filled
+            solid = union(*[p for r, p in placed if r == 'c' or r in keep])
+            mk = op(solid, union(*[p for r, p in placed if r != 'c' and r not in keep]), 'diff')
         else:
             mk = union(*[p for _, p in placed])
-        body = '<path fill="%s" d="%s"/>\n<path fill="%s" d="%s"/>\n' % (mono, d_of(mk), mono, d_of(word))
+        body = '<path fill="%s" d="%s"/>\n<path fill="%s" d="%s"/>\n' % (mono, d_c(mk), mono, d_c(word))
     else:
-        body = paths(placed, pal) + '<path fill="%s" d="%s"/>\n' % (ink, d_of(word))
+        body = paths(placed, pal, True) + '<path fill="%s" d="%s"/>\n' % (ink, d_c(word))
     top = cy - H / 2
     vb = '%s %s %s %s' % (fmt(-pad), fmt(top - pad), fmt(mw + gap + adv + 2 * pad), fmt(H + 2 * pad))
     return svg_doc(body, vb)
@@ -217,8 +223,8 @@ def build_mark(i, fn):
     custom = bool(meta.get('wordmark'))
     files['lockup'] = lockup_svg(layers, light, INK_LIGHT, custom=custom)
     files['lockup-dark'] = lockup_svg(layers, dark, INK_DARK, custom=custom)
-    files['lockup-white'] = lockup_svg(layers, light, None, mono='#FFFFFF', custom=custom)
-    files['lockup-black'] = lockup_svg(layers, light, None, mono='#0B0B0C', custom=custom)
+    files['lockup-white'] = lockup_svg(layers, light, None, mono='#FFFFFF', custom=custom, keep=meta.get('mono_keep', ()))
+    files['lockup-black'] = lockup_svg(layers, light, None, mono='#0B0B0C', custom=custom, keep=meta.get('mono_keep', ()))
     for k, v in files.items():
         write(os.path.join(SVG_DIR, '%s-%s.svg' % (stem, k)), v)
     # favicons on their grounds, rendered at size (never a scaled SVG)
@@ -244,6 +250,7 @@ def build_mark(i, fn):
 
 
 def main():
+    os.makedirs(PNG_DIR, exist_ok=True)
     built = [build_mark(i, fn) for i, fn in enumerate(M.MARKS)]
     from board import board
     write(os.path.join(HERE, 'index.html'), board(built))

@@ -120,10 +120,49 @@ def transform(p, sx=1, sy=None, tx=0, ty=0, rot=0, cx=0, cy=0):
     return out
 
 
-def d_of(p):
-    pen = SVGPathPen(None, ntos=f)
-    p.draw(pen)
-    return pen.getCommands()
+def f1(v):
+    return ('%.1f' % v).rstrip('0').rstrip('.')
+
+
+def d_of(p, coarse=False):
+    """Compact path data: absolute moves, relative lines and curves, measured from the rounded
+    previous point so rounding never drifts. coarse uses one decimal (lockups)."""
+    nd = 1 if coarse else 2
+    num = f1 if coarse else f
+    out = []
+    cur = (0.0, 0.0)
+    start = cur
+
+    def R(pt):
+        return (round(pt[0], nd), round(pt[1], nd))
+
+    def rel(pt):
+        return '%s %s' % (num(pt[0] - cur[0]), num(pt[1] - cur[1]))
+
+    for verb, pts in p.segments:
+        if verb == 'moveTo':
+            cur = start = R(pts[0])
+            out.append('M%s %s' % (num(cur[0]), num(cur[1])))
+        elif verb == 'lineTo':
+            q = R(pts[0])
+            out.append('l' + rel(q))
+            cur = q
+        elif verb in ('curveTo', 'qCurveTo'):
+            qs = [R(x) for x in pts]
+            if verb == 'qCurveTo' and len(qs) > 2:
+                # split implied on-curve points
+                ons = []
+                for k in range(len(qs) - 2):
+                    mid = R(((qs[k][0] + qs[k + 1][0]) / 2, (qs[k][1] + qs[k + 1][1]) / 2))
+                    out.append('q' + rel(qs[k]) + ' ' + rel(mid))
+                    cur = mid
+                qs = qs[-2:]
+            out.append(('c' if verb == 'curveTo' else 'q') + ' '.join(rel(x) for x in qs))
+            cur = qs[-1]
+        elif verb in ('closePath', 'endPath'):
+            out.append('Z')
+            cur = start
+    return ''.join(out).replace(' -', '-')
 
 
 def bounds(p):

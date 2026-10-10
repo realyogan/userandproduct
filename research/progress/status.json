@@ -1,53 +1,53 @@
 {
   "version": 1,
-  "run_id": "logo-2-round-1",
-  "title": "Logo exploration 2, round 1: twelve marks with mass and a fold",
+  "run_id": "logo-2-round-2",
+  "title": "Logo exploration 2, round 2: ten letterform marks from U, D and P",
   "state": "finished",
-  "started": "2026-10-10T13:15+05:30",
+  "started": "2026-10-10T13:17+05:30",
   "steps": [
     {
       "n": 1,
       "title": "Brief",
       "status": "done",
-      "note": "Brief read: skill, brand files, old rounds 1-7 and shortlist, reference image",
-      "time": "13:15"
+      "note": "Brief read: ten letterform marks from U, D and P",
+      "time": "13:20"
     },
     {
       "n": 2,
-      "title": "Ideas",
+      "title": "Letter studies",
       "status": "done",
-      "note": "Ten ideas, two rockets, no letterforms (round 2)",
-      "time": "13:15"
+      "note": "Ten constructions sketched; P bar-and-disc and solid P dropped (near Patreon and Pandora)",
+      "time": "13:20"
     },
     {
       "n": 3,
       "title": "Draw",
       "status": "done",
-      "note": "Ten marks drawn with true path overlaps, light and dark, three alternative colours",
-      "time": "13:15"
+      "note": "Ten masters with dark variants, avatars, four lockups each; 100 SVGs",
+      "time": "13:17"
     },
     {
       "n": 4,
       "title": "Board",
       "status": "done",
-      "note": "Board and hub written: logo-2/hub.html and logo-2/round-1/index.html",
-      "time": "13:15"
+      "note": "Board built and looked at section by section; no horizontal scroll at 375 or 1280",
+      "time": "13:18"
     },
     {
       "n": 5,
       "title": "Sizes",
       "status": "done",
-      "note": "Avatars 110 px (circle and rounded square), favicons 32 px and thumbs 600 rendered with resvg; favicons looked at 4x",
-      "time": "13:15"
+      "note": "32 and 16 px renders looked at: all ten read at 32; R2-07 Stack is the weakest (tall and narrow); avatars and thumbs fine",
+      "time": "13:20"
     },
     {
       "n": 6,
       "title": "Checks",
       "status": "done",
-      "note": "56 SVGs valid and under 6 KB after SVGO; no stroke under 8 px at 512 (only lens tips); favicons legible; board and hub 200; no overflow at 375 or 1280",
-      "time": "13:15"
+      "note": "All checks passed: 100 SVGs valid and under 6 KB, nothing under 8 units, 32 px legible, no shared core shape; 200 OK. Done: http://localhost/user-and-product/research/mockups/logo-2/round-2/",
+      "time": "13:20"
     }
   ],
-  "note": "Done: http://localhost/user-and-product/research/mockups/logo-2/hub.html and http://localhost/user-and-product/research/mockups/logo-2/round-1/",
-  "updated": "2026-10-10T13:15+05:30"
+  "updated": "2026-10-10T13:20+05:30",
+  "note": "All checks passed: 100 SVGs valid and under 6 KB, nothing under 8 units, 32 px legible, no shared core shape; 200 OK. Done: http://localhost/user-and-product/research/mockups/logo-2/round-2/"
 }
