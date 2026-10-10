@@ -177,3 +177,50 @@ Reviews, local news and crisis systems do not apply. Exact-match domain does not
 ### Decisions for the owner from the second pass
 
 None new. The additions are rules and build items, not choices.
+
+## Third pass: the whole rater guidelines document and the second ring of links
+
+Owner's instruction later on 10 October: read everything. The first two passes had read about a
+quarter of the 182-page rater guidelines; the full document has now been read, and a subagent read and
+extracted the second ring (technical requirements, content policies, breadcrumb, organization, profile
+page, site names, sitelinks search box, FAQ and HowTo status, image licensing, Merchant Center AI
+policy, Rich Results Test, image SEO, canonicalization, sitemaps, robots meta, interstitials, Core Web
+Vitals, outbound links, SEO starter, do-you-need-an-SEO). The rulebook was rebuilt as a general guide
+(`SKILL.md`) with a site layer (`SITE.md`) and a build to-do
+(`research/discussion/todo/search-policy-build-checklist.md`).
+
+### What the full read adds to our rules
+
+- The question-farm pattern is named by raters: collecting "People also ask" questions and answering
+  them with paraphrased content. Our cached reader questions stay an input, never a page per question.
+- Site purpose must match the About page; a site hosting articles outside its stated focus is rated
+  deceptive. All categories stay inside UX, product and business.
+- A hidden disclaimer that contradicts the pages is deception (the "AI enthusiasts" terms-of-service
+  example). Nothing on the site may say otherwise than what the pages are.
+- Overstated author claims are a Low rating; fabricated profiles with generated headshots are Lowest.
+  The author page is plain and verifiable.
+- Reputation is judged off-site; a small site with none is neutral. Authority signals are the measure.
+- Answer up front for specific questions; "incidental and indirect" answers rate down.
+- Sites that always show today's date are called out; dates must be real.
+- Ads disguised as content or navigation, ads following the scroll, and distracting sidebars rate
+  down; comments are main content if opened; custom 404 pages with help rate well.
+- Opinion is a beneficial purpose, so takes are legitimate when honest and never mean-spirited.
+
+### What the second ring adds
+
+- Noindex only works on crawlable URLs; robots.txt is not an indexing control. Archives and filters
+  are kept out with noindex.
+- Affiliate links are "paid placements": `rel="sponsored"` preferred, and the search-features policy
+  forbids concealed sponsored content.
+- `nosnippet` and `max-snippet` also limit input to AI Overviews and AI Mode; a site decides once.
+- FAQPage, HowTo and the sitelinks search box are retired; emit none of them.
+- Site name markup lives on the home page only, on all duplicate home pages, nested in one WebSite
+  node, not testable in the Rich Results Test; Organization name must match it.
+- ProfilePage must not carry a placeholder image; breadcrumbs show on desktop and follow a user path;
+  the preferred image is never the logo or an image with text; images are `<img>` elements, not CSS.
+- Local pages cannot be validated in the Rich Results Test; validation happens live.
+- Keep existing creator, credit and copyright image metadata; stripping it may be illegal.
+
+### Decisions for the owner
+
+None new. Everything in the third pass is a rule or a build item.

@@ -1,291 +1,369 @@
 ---
 name: search-policy
-description: Google Search policy rulebook for everything userandproduct.com publishes. Built from Google's spam policies, its guidance on using generative AI content and every page that guidance links to (the Search Quality Rater Guidelines, the helpful-content page, the ranking systems guide, the title link, snippet, structured data, alt text and page experience pages, the AI-content FAQ, the SEO starter guide), all saved in references/ and read in full on 10 October 2026. Load this skill whenever an article, template page, tools page, books page, category page or any indexable page is pitched, briefed, written, checked, SEO-reviewed, edited, published, refreshed or measured, whenever a title, meta description, structured data, alt text, internal link, outbound link, affiliate link, date, URL or redirect is set, whenever the theme or plugin emits metadata or markup, and whenever the owner says "spam policy", "scaled content", "helpful content", "E-E-A-T", "rater guidelines", "thin page", "filler", "AI content", "disclosure", "structured data", "schema", "rich results", "alt text", "affiliate links", "penalty" or "manual action". Every publishing agent (explorer, researcher, writer, illustrator, checker, SEO reviewer, editor, publisher, campaign manager) obeys it; the checker and the publisher run its checklist on every page.
+description: Google Search policy rulebook for an editorial site that publishes with software help. General guide, reusable on any project; the site-specific layer for userandproduct.com is in SITE.md beside it. Built from a full read of Google's spam policies, Search Essentials, technical requirements, content policies, the guidance on using generative AI content and every page it links to, the complete Search Quality Rater Guidelines (September 2025 edition, 182 pages), the helpful-content page, the ranking systems guide, and the title link, snippet, structured data (intro, general guidelines, Article, Breadcrumb, Organization, ProfilePage, site names, image metadata), Rich Results Test, image SEO, canonicalization, sitemaps, robots meta, interstitials, Core Web Vitals, outbound links, SEO starter and "do you need an SEO" pages, all saved in references/ with dates. Load this skill whenever any indexable page is pitched, briefed, written, illustrated, checked, SEO-reviewed, edited, published, refreshed or measured; whenever a title, meta description, structured data, alt text, image, internal link, outbound link, affiliate link, date, URL, redirect, robots rule or sitemap is set; whenever a theme or plugin emits metadata or markup; and whenever someone says "spam policy", "scaled content", "helpful content", "E-E-A-T", "rater guidelines", "needs met", "thin page", "filler", "AI content", "disclosure", "structured data", "schema", "rich results", "alt text", "canonical", "noindex", "affiliate links", "penalty" or "manual action".
 ---
 
-# Search policy rulebook for userandproduct.com
+# Search policy rulebook for an editorial site
 
 Google does not ban content made with software. It bans content made to game search, and it
-rewards content made to help the person who reads it. That is the whole rulebook in two sentences.
-Everything below says what it means for each station.
+rewards content made to help the person who reads it. Everything below says what that means at
+each step of making a page. The sources are in `references/`, extracted in full with the dates they
+were read; when a rule here and a source disagree, the source wins and this file gets fixed.
 
-The sources are in `references/` (plain-text extracts of the Google pages, with the dates they were
-read). When a rule here and the source disagree, the source wins; update this file. Google's own
-line on generative tools, from its guidance page: they are "particularly useful when researching a
-topic, and to add structure to original content", and "it is critical to manually factcheck and
-review all AI-generated content for accuracy and trustworthiness before publishing", metadata
-included.
+Three facts set the frame:
 
-## 1. The one test every page must pass
+- **Method is not the test.** "Appropriate use of AI or automation is not against our guidelines."
+  Raters are told "the use of Generative AI tools alone does not determine the level of effort or
+  Page Quality rating." What is judged is the page.
+- **Oversight is the test, and it must be real.** "It is critical to manually factcheck and review
+  all AI-generated content for accuracy and trustworthiness before publishing. This review also
+  applies to metadata." Raters rate Lowest when content is made "without any oversight, manual
+  curation, etc."
+- **The reader is the purpose.** "If you use automation, including AI-generation, to produce content
+  for the primary purpose of manipulating search rankings, that's a violation of our spam policies."
 
-A page exists because a reader who came straight to the site would be glad it is there. Not
-because a search engine might send visits. Google's words: using automation "to produce content for
-the primary purpose of manipulating search rankings" is a spam policy violation, and "content
-primarily made to attract visits from search engines" is the first warning sign of search-engine-
-first content.
+## 1. The one question every page must answer
 
-So on every pitch card the explorer answers, in one line, **"Why would our own readers want this if
-search did not exist?"** If the honest answer is "they wouldn't, but the phrase has volume", the card
-dies. Search volume ranks ideas that passed. It never admits one.
+Why would our own readers want this page if search engines did not exist? Google's first warning
+sign for search-engine-first content is "content primarily made to attract visits from search
+engines." Raters are told a page "created to benefit the owner of the website (e.g. to make money)
+with very little or no attempt to benefit website visitors" is Lowest. So every planned page carries
+one honest line answering the question before any research is spent on it. Search demand ranks
+ideas that passed; it never admits one. A page whose only reason is a phrase with volume is not made.
 
-## 2. Scaled content abuse: the policy that fits our method
+The site stays inside its stated purpose. Raters rate as deceptive a site whose About page claims
+one focus while it hosts "hundreds of articles on all sorts of topics." Every category sits inside
+what the About page says the site is, and inside what the author actually knows: entering "some
+niche topic area without any real expertise, mainly because you thought you'd get search traffic"
+is a named warning sign.
+
+## 2. How Google judges a page
+
+Raters rate every page from Lowest to Highest on how well it achieves its purpose. Four things
+decide most of it, and they are the standard for everything we make:
+
+- **Effort.** "The extent to which a human being actively worked to create satisfying content."
+  Editing, curation and checking count. "Generative AI to produce large amounts of text without
+  manual oversight or curation represents little to no effort. Attribution or giving credit to other
+  sources doesn't replace the need for original effort."
+- **Originality.** "Unique, original content that is not available on other websites." High: "a
+  personal perspective based on first-hand life experience." Low: "information summarized from
+  other sources with little added value."
+- **Talent or skill.** Clear writing, working features, well-organized pages.
+- **Accuracy.** "Mild inaccuracies on informational pages are evidence of Low quality." Many, or
+  harmful ones, are Lowest.
+
+Trust sits at the center of E-E-A-T. Experience, expertise and authoritativeness support it.
+Raters judge trust from three places: what the site says about itself (About page, author page),
+what others say about it off-site, and what is visible in the content itself. A small site with no
+reputation is neutral, "neither a positive nor a negative sign." Medium is where "nothing wrong,
+nothing special" pages land, and "typical and average pages on a topic generally have Medium."
+High needs visible effort and originality or a positive reputation. Highest needs very high
+E-E-A-T or a very positive reputation, which is earned off-site.
+
+For search results, raters also judge whether a page meets the query. Highly Meets pages are "easy
+to understand," "provide in-depth or insightful content," or are "representative of the opinions,
+perspectives and experience of real people." A page where the answer "is presented incidentally
+and indirectly, requiring the reader to infer the fact" rates down. Stale pages fail queries that
+want fresh information. A misleading or exaggerated title "should be rated Slightly Meets or lower."
+
+## 3. Scaled content and software-made text
 
 Google's definition: "many pages generated for the primary purpose of manipulating search rankings
 and not helping users ... large amounts of unoriginal content that provides little to no value, no
-matter how it's created." Its examples: generative tools making many pages without adding value;
-scraping or synonymizing; stitching content from different pages; pages that make little sense but
-carry keywords; several sites to hide the scale. The rater guidelines (section 4.6.5) add the
-defining attribute: "an abundance of content with little effort or originality with no editing or
-manual curation", and tell raters to rate a site Lowest on strong suspicion "even if unsure of the
-method of creation".
+matter how it's created." Raters add: "an abundance of content with little effort or originality
+with no editing or manual curation is often the defining attribute of spammy websites," and they
+rate a site Lowest on strong suspicion "even if unsure of the method of creation."
 
-Raters judge **effort, originality, talent or skill, and accuracy** (section 3.2). On effort:
-"generative AI to produce large amounts of text without manual oversight or curation represents
-little to no effort. Attribution or giving credit to other sources doesn't replace the need for
-original effort." Section 4.6.6: the Lowest rating applies when "all or almost all of the main
-content is copied, paraphrased, embedded, auto or AI generated, or reposted from other sources with
-little to no effort, little to no originality, and little to no added value", and "paraphrased"
-means "unoriginal content that exists on other pages, with different wording, organization or
-phrasing", by a person or a tool.
+The named patterns, each a rule:
 
-Our rules, which are what "oversight", "curation" and "original" mean here:
+- **No stitching.** "Stitching or combining content from different web pages without adding value."
+  A page is never assembled from passages of other pages.
+- **No paraphrase.** Raters call content paraphrased when it "contains content that is unoriginal and
+  exists on other pages, with different wording, organization or phrasing," by a person or a tool.
+  Lowest applies when "all or almost all of the main content ... is copied, paraphrased, embedded,
+  auto or AI generated, or reposted from other sources with little to no effort, little to no
+  originality, and little to no added value," and Low when "much of" it is, "even if the page
+  assigns credit."
+- **No question farms.** Raters name the pattern: "collecting questions (available from sources such
+  as Google Search's 'People also ask' feature) and answering the questions with unoriginal,
+  paraphrased content." Reader questions are a research input, never a page per question.
+- **No templated pages.** Pages "created automatically by filling in a template" with "little to no
+  manual editing or checking" are Lowest. Auto-generated affiliate lists built "using content from
+  Amazon and substituting different product names" are Lowest even with an affiliate disclosure.
+- **No keyword pages.** "Many pages where the content makes little or no sense to a reader but
+  contains search keywords."
+- **No hidden disclaimers.** A site whose terms of service said its articles were AI experiments "not
+  intended for the general public" was rated deceptive. What a site says about itself anywhere must
+  match what its pages are.
 
-- **Every page carries the owner's judgment.** At least three quarters of pieces carry a seed (the
-  owner's answers to the card's practice questions), a brief (the owner's rules as the spine) or a
-  note that shapes the piece before it is written. Up to a quarter may be synthesis pieces (owner's
-  decision, 10 October 2026): written from understanding as a fresh take, with the owner's feedback
-  on the draft and the owner's keep-reword-strike on its positions as the oversight, labeled on the
-  board, never among the flagship launch pieces. A synthesis piece is never a summary of the top five
-  pages and never a stitch of passages from them. The writer reads to understand, then writes its own
-  structure, examples and reasoning.
-- **Nothing publishes unreviewed.** The owner reads every piece in the app and confirms it once in
-  local WordPress before it goes live. The publisher refuses any post without that confirmation on
-  record. This is the "manual oversight" the policy asks for, and it must be true, not nominal. The
-  review covers the metadata too (section 6).
-- **No stitching, no scraping, no spinning, no close paraphrase.** The writer never assembles a piece
-  from passages of other pages, never restates a source in different words, never reproduces a
-  book's chapter or framework wholesale. The checker runs the paraphrase check in section 3.
-- **No filler.** Raters rate a page Low for "a large amount of low quality and unhelpful filler"
-  and for helpful content buried under it (section 5.2.2). The most helpful content sits near the
-  top. No throat-clearing introductions, no commonly known facts padded in, no history of the
-  topic before the answer. Length is never a target: "there's no magical word count".
-- **No page without a reason of its own.** No tag, date, author-archive, filter or search-result-like
-  pages in the index. Category and series pages are a browseable hierarchy with their own intro text.
-  Attachment pages are off. Filters never make indexable URLs.
-- **Volume is not the signal; value is.** A full launch of fifty reviewed pieces is an ordinary
-  launch. Fifty pieces that each fail section 3 would be scaled content abuse at any pace.
+What makes software-assisted pages legitimate: the author's judgment is in the piece, a person
+reads and approves every page before it goes live, the metadata is reviewed with it, and the page
+passes section 4. Volume is not the signal. A launch of many reviewed pieces is an ordinary launch;
+many unreviewed pieces are scaled content at any pace.
 
-## 3. Originality, value and accuracy, page by page
+## 4. Originality, value and accuracy, checked page by page
 
-From Google's self-assessment questions and the rater guidelines. The checker answers each one for
-every page; two "no" answers send the draft back.
+The checker answers each of these for every page. Two "no" answers send the draft back.
 
-- Does it give original information, analysis or a judgment from the owner's experience, beyond
-  what the top five pages say? (The learning sentence, delivered.) Raters' words for High: "a
-  personal perspective based on first-hand life experience"; for Low: "information summarized from
-  other sources with little added value".
-- When it draws on other sources, does it add substantial value rather than rewriting them?
-- Is it complete for its purpose, so the reader does not need to search again?
-- Is it something a reader would bookmark, share or expect in a printed magazine?
-- Does it have easily verified factual errors? Any error fails the page. "Mild inaccuracies on
-  informational pages are evidence of Low quality"; many, or harmful ones, are Lowest.
-- Is it produced with care: no spelling or style slips, nothing that reads hastily made, well
-  organized and edited?
+- Original information, analysis or a judgment from the author's experience, beyond what the top
+  pages say?
+- Where it draws on sources, "substantial additional value and originality" rather than rewriting?
+- Complete for its purpose, so the reader does not "need to search again"?
+- Something a reader "would want to bookmark, share with a friend, or recommend," or "expect to see in
+  or referenced by a printed magazine"?
+- Free of "easily-verified factual errors"? Any error fails the page.
+- Produced with care: no spelling or style slips, nothing that "appears sloppy or hastily produced"?
+- The most helpful content near the top? Raters rate Low "a large amount of low quality and
+  unhelpful filler" and helpful content that "requires significant scrolling." No throat-clearing,
+  no padding of commonly known facts, no history before the answer. "There's no magical word count."
+- For a piece that answers a specific question: the answer prominent in the first screen, not
+  implied.
 
 **The paraphrase check.** Raters find copied and paraphrased content by searching exact sentences
-and by asking whether the page "only contains commonly known information", "has high overlap with
-well established sources" or "appears to summarize a specific page without any added value". The
-checker does the same on every draft: it compares the draft against every source the brief lists
-and every book the piece draws on, and it spot-checks three distinctive sentences through the paid
-research API's search endpoint, never by querying Google directly (section 10). A draft that reads
-as a restatement of one source, or of several, goes back.
+and by asking whether the page "only contains commonly known information," "has high overlap with
+well established sources," or "appears to summarize a specific page ... without any added value."
+The checker compares the draft against every source the brief lists and every book it draws on, and
+spot-checks three distinctive sentences through a licensed search API, never by querying Google by
+machine (section 13). A draft that reads as a restatement of one source, or of several, goes back.
 
-**Accuracy and consensus.** Our topics are mostly not "Your Money or Your Life", but pieces that
-touch pay, pricing, contracts, hiring, legal or financial decisions edge toward it. The card marks
-those, the researcher cites primary sources for every number, and the piece stays "consistent with
-well-established expert consensus" where consensus exists. Generative tools "don't retrieve facts,
-but predict a likely sequence of words", so every fact, number, name and quote in a draft is treated
-as unverified until the checker has opened its origin.
+**Accuracy.** Generative tools "don't retrieve facts, but predict a likely sequence of words," so every
+fact, number, name, quote and example in a draft is unverified until the checker has opened its
+origin. Invented specifics of any kind, including third-person case studies and figures, do not
+pass. Pieces on "Your Money or Your Life" topics, or near them (health, money, safety, law, civic
+matters; also pay, pricing, contracts, hiring), are marked, cite primary sources for every number,
+and stay "consistent with well-established expert consensus" where it exists. Raters' test for YMYL:
+"Would a careful person seek out experts or highly trusted sources to prevent harm?"
 
-**Warning signs written as rules.** Do not produce pieces on many topics "in hopes that some might
-perform". Do not enter a topic "without any real expertise, mainly because you thought you'd get
-search traffic" (the cluster rule and the owner's categories keep us inside what the owner knows).
-Do not write about a thing "simply because it seems trending" (a take needs the owner to have lived
-the opposite, have evidence the source lacks, or see a case the source left out).
+**Three warning signs as rules.** No pieces "on many different topics in hopes that some of it might
+perform." No topic entered without real expertise for the traffic. Nothing written "simply because it
+seems trending." A response to someone else's piece is fine ("to express an opinion or point of
+view" is a beneficial purpose) when it is fact-based, quotes the source accurately, and is never
+mean-spirited toward a group of people.
 
-## 4. Who, how and why
+## 5. Who, how and why
 
-**Who.** Every article carries the owner's byline, and the byline links to an author page with real
-background. The About page says what the site is and who runs it. Raters start E-E-A-T from "the
-About us page ... or profile page of the content creator" and from "what is visible on the page",
-so the author page must show the fifteen years in fact, and the main content must show experience,
-which is what the seed and the positions list are for. Never fabricate a creator profile: no
-made-up names, no invented credentials, no generated headshots. The owner is the author of record
-because the owner directs, seeds, reviews and approves every piece, and that must stay true in
-fact. **Conflict of interest:** raters discount reviews "from an influencer who is paid to promote
-the product". Book takes and tool mentions are honest, disclose any affiliate relationship, and say
-what the thing is bad at.
+**Who.** "Is it self-evident to your visitors who authored your content?" Every article carries the
+real author's byline, linking to an author page with verifiable background: employers, work, years,
+and nothing inflated. Raters rate Low "claims of personal experience or expertise that seem
+overstated or included just to impress," and Lowest "fake owner or content creator profiles" such
+as "AI generated content with made up author profiles (AI generated images or deceptive creator
+descriptions)." The About page says what the site is and who runs it, with a way to contact the
+site; for a personal non-YMYL site "an email address or social media link alone may be sufficient,"
+but pages requiring trust need "who is responsible for the website." The author is the author of
+record only if the author actually directs, reviews and approves every piece.
 
-**How.** Google does not require an AI disclosure and says not to give AI a byline. It says
-disclosures "are useful for content where someone might think 'How was this created?'". Owner's
-decision (10 October 2026): no "How this site is made" page. No per-article label and no tool or
-model names appear anywhere a reader can see. Image metadata: Google's generative-AI page asks for
-IPTC `DigitalSourceType` of `TrainedAlgorithmicMedia` on AI-generated images (a Merchant Center
-requirement, a suggestion for Search). Our thumbnails and illustrations are drawn by our own code
-from our own rules, not by a generative image model, so the tag does not apply. If a generative
-image tool is ever used for a published image, embed that tag.
+**Conflict of interest.** Raters discount "reviews from an influencer who is paid to promote the
+product." Any recommendation that pays the site is honest about the thing's weaknesses and carries a
+visible disclosure beside it. Search feature policies forbid "sponsored content that's concealed or
+misrepresented as independent content."
 
-**Why.** Each piece is made to help the person reading it. Internally, the expectation line on a
-card names reader outcomes and leading signals (indexed, impressions on the target phrase, mentions,
-links), never a rank target as the purpose of the piece. "E-E-A-T is not a ranking factor"; it is
-what the page has to be.
+**How.** Google does not require an AI disclosure and says "giving AI an author byline is probably not
+the best way." It says disclosures "are useful for content where someone might think 'How was this
+created?'" and to "consider adding these when it would be reasonably expected." Each site decides
+once, records it, and keeps whatever it says consistent with its pages (section 3, hidden
+disclaimers). For images: the IPTC `DigitalSourceType` value `TrainedAlgorithmicMedia` is a Merchant
+Center requirement for product images and a suggestion for Search; images drawn by a site's own code
+from its own rules are not generative-model output and need no tag; images from a generative model
+keep the tag, and existing creator, credit and copyright metadata is never stripped ("removing
+metadata may be illegal in certain jurisdictions").
 
-## 5. Titles, headings and keywords
+**Why.** The page helps the person reading it. Internally, any expectation set for a page names
+reader outcomes and leading signals (indexed, impressions on its phrase, mentions, links), never a
+rank as the purpose. "Thinking E-E-A-T is a ranking factor: no, it's not." It is what the page has to be.
 
-- **The page title summarizes the page honestly.** Raters treat the title as main content and rate
-  "exaggerated or shocking titles" as Low "because of the poor user experience that results when
-  users see the actual MC". House rule: contrast and curiosity, not clickbait; the title states the
-  point and the first screen pays the promise.
-- **Every page has one `<title>`,** descriptive and concise, unique on the site, no boilerplate that
-  varies by one word, no vague words like "Home", the site name once at the end after a delimiter,
-  the same language as the page, no stale year. One visually dominant main heading, the first `<h1>`,
-  so Google does not pick another line as the title link.
-- **Use the words readers use,** in the title, the main heading, alt text and link text, once and
-  naturally. Never repeat a phrase until it sounds unnatural, never list variants, never add a block
-  of keywords; Google's title page calls that spammy and its starter guide says keyword stuffing
-  "is against Google's spam policies". The SEO reviewer strikes it. Expect both the expert's word and
-  the newcomer's word for a thing, and use each where it belongs; no meta keywords tag, no word
-  count target, no keyword-stuffed URLs.
-- **Title rewrites by the campaign manager** for a page with impressions and no clicks obey this
-  section. A clickier title that overpromises is refused.
-- **No hidden text or links.** Accordions, tabs, tooltips and screen-reader-only text that helps
-  accessibility are fine. Text hidden to feed search engines is not.
+## 6. Titles, headings, keywords
 
-## 6. Metadata is content: descriptions, alt text, structured data
+- **The title summarizes the page honestly.** Raters treat the title as main content; "exaggerated or
+  shocking titles are evidence of Low quality," "extremely misleading, shocking, or exaggerated" is
+  Lowest, and a misleading title drops a search result to Slightly Meets. Curiosity is fine;
+  overpromise is not.
+- **Every page has one `<title>`:** descriptive, concise, unique on the site, no boilerplate varying
+  by one word, no vague "Home," the site name once at the end after a delimiter, same language as the
+  page, no stale year. One visually dominant main heading, the first `<h1>`, so the title link is not
+  taken from elsewhere.
+- **Keywords once and naturally.** Use the words readers use, in the title, main heading, alt text and
+  link text. Never repeat a phrase until it sounds unnatural, never list variants, never add a block
+  of keywords: "keyword stuffing is against Google's spam policies." Expect both the expert's word and
+  the newcomer's word for a thing. No meta keywords tag, no word count target, no keyword domains.
+- **Title rewrites** for a page with impressions and no clicks obey this section.
+- **No hidden text or links.** Accordions, tabs, tooltips and screen-reader-only text are fine; text
+  hidden to feed search engines is not.
 
-Google's generative-AI page says the fact-check and review "also applies to metadata like `<title>`
-elements, meta description elements, structured data, and alternate texts for images, which can
-appear in Search results." So the app's preview shows the title tag, the meta description, every
-alt text and a summary of the structured data beside the article, and the owner's review covers
-them.
+## 7. Metadata is content: descriptions, alt text, images
 
-- **Meta description:** one or two sentences unique to the page, a true summary that would make a
-  reader click for the right reason; never a keyword list, never the same text across pages. The
-  home page and section pages get site-level descriptions; every article gets its own.
-- **Alt text:** describes the image in the context of the surrounding text, in one or two
-  sentences, no "image of", first word capitalized, final period, no all caps, consistent for a
-  repeated image. Decorative images get `alt=""`. A diagram or chart gets a short alt text and its
-  full meaning explained in the body text next to it, never only in the alt. The illustrator writes
-  the alt text with the figure; the writer places the explanation in the body.
-- **Structured data:** JSON-LD, emitted by the theme and the SEO plugin, never hand-pasted per post.
-  Articles carry `Article` (or `BlogPosting`) with `headline`, `image` (crawlable, representative,
-  16:9, 4:3 and 1:1, at least 50,000 pixels), `datePublished` and `dateModified` in ISO 8601 with
-  timezone, and `author` as a `Person` whose `name` is only the name and whose `url` is the author
-  page; the author page carries `ProfilePage`; section pages carry `BreadcrumbList`; the site carries
-  `WebSite` and `Organization` with the logo. Markup describes only what is visible on the page,
-  never ratings or reviews that are not there, never a misrepresented author or purpose; it is "a
-  true representation of the page content". `dateModified` moves only when the content substantially
-  changed (section 8). Every template change is validated with the Rich Results Test before deploy,
-  the publisher runs the URL Inspection check on each new page, and the campaign manager watches the
-  rich result reports in Search Console. A structured data manual action costs rich results, not
-  rank, but it is a trust signal lost for nothing.
-- **Open Graph and social images** describe the page honestly, same title, same image as the
-  featured image.
+The review that covers the article covers "title elements, meta description elements, structured
+data, and alternate texts for images." Whatever the author reads before approval shows all of them.
 
-## 7. Links
+- **Meta description:** one or two sentences unique to the page, a true summary; never a keyword
+  list, never the same text across pages. Page-level for every article; site-level only on the home
+  page and section pages.
+- **Alt text:** describes the image in the context of the surrounding text, one or two sentences, no
+  "image of," first word capitalized, final period, no all caps, consistent for a repeated image,
+  never keyword-filled. Decorative images get `alt=""`. A diagram or chart gets a short alt and its
+  full meaning in the body text beside it. Introduce diagrams in the body, not in the alt.
+- **Images:** standard `<img>` elements with a `src` fallback (CSS background images are not
+  indexed); near the text they belong to; short descriptive filenames; one consistent URL per image;
+  sharp and sized for the page. The preferred image for a page is set once through `og:image` and the
+  main entity's `image`, is "relevant and representative," and is never "a generic image (for example,
+  your site logo) or an image with text," nor an extreme aspect ratio.
+- **Open Graph and social tags** carry the same title and image as the page.
 
-- **Outbound links** go to sources worth reading, with descriptive link text that says what the
-  target is. Link when it helps the reader or corroborates a claim. A link to a source we cannot
-  vouch for carries `rel="nofollow"`. Links to books, tools or anything that pays us carry
-  `rel="sponsored"` and a visible disclosure near them. Nothing we are paid for passes ranking
-  credit.
-- **Never buy, sell, trade or automate links.** No link exchanges, no "write about us for a link",
-  no paid guest posts with optimized anchors, no links in widgets or footers distributed to other
-  sites, no directory submissions for ranking. Mentions and links are earned by pieces worth citing
-  and by the owner telling people about them. Google's own list of good promotion: social media,
-  community engagement, word of mouth, a newsletter people asked for; and "you can overdo promoting
-  your site and actually harm it".
-- **Internal links** connect each piece to the pieces it sits beside and to its category and series
-  pages, in plain words. A linking pass at the end of each window adds links from earlier pieces to
-  later ones. Links are crawlable `<a href>` elements, never JavaScript-only.
-- **The books shelf is not a thin affiliate page.** Every entry has the owner's own take, what the
-  book is good for and for whom, where it is wrong or dated, in the owner's words. Google's reviews
-  system rewards "insightful analysis and original research, written by experts or enthusiasts who
-  know the topic well"; a page of blurbs with buy links does not ship.
+## 8. Structured data
 
-## 8. Dates and refreshes
+Emitted by the theme and the SEO plugin as JSON-LD, never hand-pasted per post, and it "must be a
+true representation of the page content": only what is visible, never ratings or reviews that are
+not there, never a misrepresented author or purpose. A structured data manual action removes rich
+results, not rank, but it is trust lost for nothing.
 
-- A page shows one quiet "Updated <month year>" and it is the real date of the last substantial
-  change, matching `dateModified`. Never change a date to look fresh. Never backdate.
-- A refresh changes content because the world changed or the page was wrong, and only then does the
-  date move. Adding or removing lots of pages "to seem fresh" is not a strategy; Google says plainly
-  it does not work. "Check in on previously published content and update it as needed, or even
-  delete it if it's not relevant anymore": the campaign manager's review date does this.
+What an editorial site emits:
 
-## 9. One URL per page, site structure, no doorways, no sneaky anything
+- **Article** (or `BlogPosting`) on every article: `headline` (concise), `image` (crawlable,
+  representative, 16:9, 4:3 and 1:1, at least 50,000 pixels), `datePublished` and `dateModified` in
+  ISO 8601 with timezone, `author` as `Person` with `name` holding only the name and `url` pointing
+  to the author page. All authors shown on the page are in the markup, each in their own field.
+- **ProfilePage** on the author page, `mainEntity` a `Person` with `name`, `description` (the
+  byline or credential), `sameAs` to real external profiles, and `image` only if there is a real
+  photo: "don't include a default image, icon, or placeholder image."
+- **Organization** on the home page or About page only: `name` matching the site name, `url`,
+  `logo` (at least 112 by 112 pixels, readable on white), `sameAs`, and contact details where real.
+- **WebSite** on the home page only, with `name`, `url` set to the canonical home page and
+  `alternateName`; one site name per domain, the same markup on http/https and www/non-www
+  duplicates, nested in one `WebSite` node, consistent with `og:site_name` and the home page itself.
+  Not testable in the Rich Results Test; use the Schema Markup Validator and URL Inspection.
+- **BreadcrumbList** on pages below the home page, at least two `ListItem`s with `position`, `name`
+  and `item`, representing "a typical user path to a page, instead of mirroring the URL structure."
+  Shown on desktop only.
+- **Image license metadata** only if the site licenses images; otherwise keep `creator`, `credit` and
+  `copyright` metadata where it exists.
 
-- One canonical URL per page, set by the SEO plugin. No near-duplicate pages aimed at similar
-  queries; the "sits beside" field on every card exists so two of our pages never compete for one
-  question. Google's site diversity system shows at most two pages from one site for a query, so a
-  cluster's pieces must each own a different question.
-- URLs are short, in words a reader understands, lowercase, hyphenated, no dates or ids; sections as
-  folders where the hierarchy helps. Redirects only for real reasons (a moved page, two pages
-  merged), and search engines and readers see the same page.
-- The site is one domain, served over HTTPS. No subdomains or sister sites made to spread content or
-  to continue a practice after a warning.
-- The domain userandproduct.com has no prior history (no archived snapshots as of 10 October 2026),
-  so expired-domain abuse does not apply. If the site ever moves to a bought domain, check its
-  history first.
+What not to emit: `FAQPage` (no longer shown in Search since May 2026), `HowTo` (dropped 2023),
+sitelinks search box (removed 2024). Markup for features that no longer exist is dead weight at best.
 
-## 10. What our tools may and may not touch
+Validation: Rich Results Test on every template change, URL Inspection on each new page, the rich
+result and enhancement reports in Search Console after deploy and periodically. "Remove any comments
+from JSON-LD before publishing." Pages on a local machine cannot be tested without a tunnel, so
+validation happens on the live site.
 
-- **Never send automated queries to Google.** No rank checkers that query google.com, no scraping
-  of results pages, not even for the paraphrase check. Google calls this machine-generated traffic
-  and it violates both the spam policies and the terms of service. Keyword, SERP and sentence checks
-  go through the paid research API; our own performance data comes from Search Console and the
-  site's analytics.
-- Rival sitemaps and feeds are read for research only. Nothing from them is republished.
-- The explorer reads rival pages and books to find what is missing; the writer never works from
-  their text.
+## 9. Links
 
-## 11. Page experience, ads, comments
+- **Outbound links** go to sources worth reading, with link text that says what the target is. Link
+  when it helps the reader or corroborates a claim; "make sure you trust the resource you're linking
+  to." A link to a source the site cannot vouch for carries `rel="nofollow"`. "Advertisements or paid
+  placements (commonly called paid links)," which includes affiliate links, carry `rel="sponsored"`
+  (`nofollow` still accepted, `sponsored` preferred) and a visible disclosure near them.
+- **Never buy, sell, trade or automate links.** No exchanges, no "write about us for a link," no paid
+  guest posts with optimized anchors, no links in widgets or footers distributed to other sites, no
+  directory submissions for ranking, no "link popularity schemes." Mentions and links are earned by
+  pages worth citing and by telling people: Google's own list is "social media promotion, community
+  engagement, advertisement, word of mouth," and newsletters "with their permission," with the warning
+  that "you can overdo promoting your site and actually harm it."
+- **Internal links** connect each piece to its neighbours, its category and its series, in plain
+  words, as crawlable `<a href>` elements. Link to canonical URLs only. Every important page is
+  reachable through navigation or links.
+- **Recommendation pages** (books, tools) are never thin affiliation: each entry carries the author's
+  own take, what it is good for, for whom, and where it falls short. "Best lists based on existing
+  reviews and lists with little original content" rate Low; auto-built affiliate lists rate Lowest.
 
-- Good Core Web Vitals, HTTPS, mobile first, the main content easy to tell from everything else.
-- **No intrusive interstitials.** No pop-ups or full-screen overlays for the newsletter, for cookies
-  beyond what the law requires, or for anything else. The newsletter sign-up is a box in the page.
-- Ad units follow the layout rules already set (labelled, never covering content, at most three in
-  view, mobile density under thirty percent). Ads never pass ranking credit and never outweigh the
-  content on a page. Raters: "the presence or absence of Ads is not by itself a reason for a High or
-  Low rating", but ads that block or interfere with the main content are.
-- If comments are ever opened, they are moderated and links in them carry `rel="ugc"` and
-  `rel="nofollow"` automatically.
-- Nothing on the site tricks a reader: no fake tools, no "download" buttons that lead elsewhere, no
-  claims of a feature that does not exist. A template or calculator page is main content only when
-  it works and when the page explains when and how to use it.
+## 10. URLs, canonicals, redirects, indexing control
 
-## 12. The checklist the checker and the publisher run
+- One canonical URL per page, self-referential, absolute, in the `<head>`, set in the HTML and never
+  changed by JavaScript; redirects for moved or merged pages, HTTP to HTTPS with HSTS; the same page
+  never reachable under two URLs that both index. Google shows "no more than two web page listings
+  from the same site" for a query, so pages in one topic cluster each own a different question.
+- URLs in words a reader understands, lowercase, hyphenated, no ids or dates; sections as folders
+  where the hierarchy helps. Keywords in domains and paths "have hardly any effect."
+- **Keep thin pages out of the index with `noindex`, not robots.txt.** "To instruct Google not to
+  index a page, use noindex and allow Google to crawl the URL." A robots.txt block hides the rules and
+  the URL can still appear. Tag, date and author archives, internal search results, filter and
+  attachment URLs: noindex. Category and series pages index, with their own intro text, as a
+  "clearly defined, browseable hierarchy," never as pages "closer to search results."
+- **Snippet controls** (`nosnippet`, `max-snippet`, `data-nosnippet`) also limit what Google may use
+  "as a direct input for AI Overviews and AI Mode." A site decides this once; `data-nosnippet` is
+  never added or removed by JavaScript.
+- **Sitemap** submitted and kept current by the CMS, listing canonical HTTPS URLs only; an image
+  sitemap if images matter; Search Console connected on day one. Non-HTML files (PDF templates) get
+  `X-Robots-Tag` rules where needed.
+- Nothing served differently to crawlers than to readers. Paywalls and logins are not cloaking when
+  Google sees what a subscriber sees.
+- A new site's domain is checked for history before launch (expired-domain abuse).
 
-Before a draft reaches the editor, and again before the publisher pushes it live:
+## 11. Dates, freshness, refreshes
 
-1. Reader reason: the card's "why our readers want this" line is present and honest.
-2. Owner's judgment is in the piece: seed, brief, note or approved positions; named on the card.
-3. Originality: passes section 3; the paraphrase check against every listed source and book is
-   clean; no filler ahead of the answer.
+- A page shows the real date of its last substantial change, matching `dateModified`. Never change a
+  date to look fresh ("are you changing the date of pages to make them seem fresh when the content
+  has not substantially changed?"), never backdate, never show "the current date, regardless of when
+  the content was last updated."
+- Queries that "demand recent content" fail stale pages, so pieces with a shelf life carry a review
+  date and are refreshed when the world changed or the page was wrong. "Update it as needed, or even
+  delete it if it's not relevant anymore." Adding or removing pages "to seem fresh" does not work.
+
+## 12. Page experience, ads, overlays, comments, errors
+
+- Good Core Web Vitals (LCP within 2.5 s, INP under 200 ms, CLS under 0.1), HTTPS, mobile first, the
+  main content easy to tell from everything else.
+- **No intrusive interstitials.** "Don't obscure the entire page with interstitials," "don't redirect
+  the user to a separate page for their consent." Newsletter prompts and notices are "banners that
+  take up only a small fraction of the screen." Legally required consent dialogs overlay the content
+  and never redirect.
+- **Ads** are labelled, never disguised as content or navigation ("fake search pages," "fake directory
+  pages," "sponsored answer" styled like a real one are deceptive design), never follow the scroll,
+  never push the content down the page, never outweigh it. "The presence or absence of Ads alone is
+  not a consideration," but ads that "significantly distract from or interrupt the use of the MC" rate
+  Low and deliberately obscuring content rates Lowest. Shocking or racy ad content on a page is
+  distracting content.
+- **Comments and user content** are main content when present and are rated: low-effort threads drag
+  a page down. If opened: moderated for substance, links carry `rel="ugc"` (and `nofollow`) by
+  default.
+- **Error pages** help: a custom 404 with an explanation, search and useful links rates Medium to
+  High; a bare one or a server error rates Low, and a site full of them rates Lowest. Broken pages
+  are fixed before launch.
+
+## 13. What the site's own tools may and may not do
+
+- **Never send automated queries to Google.** No rank checkers that query google.com, no scraping of
+  results pages, not even to check for copied sentences. This is "machine-generated traffic," a spam
+  policy and terms-of-service violation. Keyword, SERP and sentence checks go through a licensed API;
+  the site's own data comes from Search Console and its analytics.
+- Competitor sitemaps, feeds and pages are read for research only. Nothing from them is republished;
+  the writer never works from their text.
+- No tool is "approved by Google." "No one can guarantee a #1 ranking." Check any third-party audit
+  "against official guidance from Google Search" before acting on it.
+
+## 14. The per-page checklist
+
+Run before a draft reaches the editor, and again before anything goes live. A page that fails any
+item does not publish; the failure is written down and the piece goes back to the step that owns it.
+
+1. Reader reason: the one-line answer to section 1 is present and honest, and the page is inside the
+   site's stated purpose and the author's expertise.
+2. Author's judgment is in the piece and named: a seed, a brief, a shaping note, or an approved list
+   of the positions the piece takes.
+3. Originality: passes section 4; paraphrase check clean against every listed source and book; no
+   question-farm or templated shape; no filler ahead of the answer; for a specific question, the
+   answer in the first screen.
 4. Accuracy: every fact, number, name, quote and example has an origin the checker opened; no
-   invented specifics; no easily verified errors; YMYL-adjacent pieces cite primary sources.
-5. Byline and author page link present; no fabricated authorship anywhere; affiliate relationships
-   disclosed where a book or tool is recommended.
+   invented specifics; YMYL-adjacent pieces marked, with primary sources and consensus.
+5. Byline and author page link present; no fabricated or inflated authorship; any paid relationship
+   disclosed beside the recommendation.
 6. Title and `<title>` honest, unique, one dominant `<h1>`, no stuffing, no hidden text.
-7. Meta description unique and true; every image has context-true alt text or `alt=""`; diagrams
-   explained in the body.
-8. Structured data present, true to the visible page, dates and author correct, Rich Results Test
-   clean on the template, URL Inspection clean on the page.
+7. Meta description unique and true; every image a real `<img>` with context-true alt text or
+   `alt=""`; diagrams explained in the body; preferred image set and representative.
+8. Structured data present and true to the visible page: Article with Person author linked to the
+   author page, correct dates; no markup for dead features; template validated, page inspected.
 9. Links: sources descriptive; paid links `rel="sponsored"` with disclosure; untrusted links
-   `nofollow`; internal links to neighbours, category and series; all crawlable.
-10. One canonical URL; no duplicate target; no indexable filter, tag, date or attachment pages
-    created; URL in words.
-11. Date is real and matches `dateModified`; refresh date moved only for a substantial change.
-12. Owner's confirmation on record before anything goes live.
+   `nofollow`; internal links to neighbours, category and series; all crawlable; targets canonical.
+10. One canonical URL, self-referential; no duplicate target; no indexable archive, filter, search or
+    attachment URLs created; URL in words.
+11. Date real and equal to `dateModified`; moved only for a substantial change.
+12. The responsible person's approval on record before it goes live.
 
-A page that fails any item does not publish. The publisher writes the failed item in the check
-report and the piece goes back to the station that owns it.
+## 15. Adapting this rulebook to a site
+
+The guide above is general. A site adds a short layer (see `SITE.md` here for an example) that
+records: who the author of record is and how their judgment enters each page; whether synthesis
+pieces exist and under what cap; the disclosure decision; which roles run the checklist and where
+the check report lives; the indexing rules chosen (archives, snippets); the affiliate and ad
+arrangements; the licensed API used for checks; and the build to-do that makes the technical rules
+true in the CMS. Re-read the live sources when Google announces a policy or feature change; the
+changelog at developers.google.com/search/updates is where features are retired.

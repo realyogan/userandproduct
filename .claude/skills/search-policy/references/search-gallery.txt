@@ -1,0 +1,20 @@
+- 
+
+ Home
+
+- 
+
+ Search Central
+
+- 
+
+ Documentation
+
+# Structured data markup that Google Search supports
+
+Google uses structured data
+ to understand the content on the page and show that content in a richer appearance in search
+ results, which is called a rich result. To make your site eligible for appearance as
+ one of these rich results, follow the guide to learn how to implement structured data on your site.
+ If you're just getting started, visit
+ Understand how structured data works.

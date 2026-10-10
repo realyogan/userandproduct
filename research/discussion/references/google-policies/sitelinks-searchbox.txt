@@ -1,0 +1,8 @@
+# NOTE: this URL no longer serves its own page. It redirects (301) to https://developers.google.com/search/updates. Relevant changelog entries follow; full changelog saved as updates-page.txt.
+
+## November 2024 (November 29)
+### Removing sitelinks search box documentation
+ What: Removed the sitelinks search box documentation and
+ archived the nositelinkssearchbox rule.
+ Why: The sitelinks search box feature is no longer available in Google Search
+ results.

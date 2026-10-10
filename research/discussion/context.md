@@ -699,3 +699,24 @@ Owner: structured data and metadata are basic WordPress plus Rank Math work. Agr
 Rank Math once (author schema to the author page, tag and date archives noindex, organization logo, real modified
 dates), alt text and meta descriptions are written per piece and shown in the app preview, and validation (Rich
 Results Test per template change, URL Inspection per page) is part of the publisher's live-page check.
+Owner (10 Oct, later): read the whole rater guidelines PDF and every article the generative-AI page links to, and make
+the rulebook good enough to reuse on other projects; also delegate reading and other simple work to Opus or Sonnet
+subagents and keep the thinking in the main session (saved as a standing preference). Correction to the earlier note:
+the first pass had read about a quarter of the PDF; the full 182 pages have now been read in the main session, and a
+subagent is reading the second ring of linked pages (technical requirements, content policies, breadcrumb,
+organization, profile page, site names, sitelinks search box, FAQ and HowTo availability, image licensing, Merchant
+Center AI policy, Rich Results Test, image SEO, canonicalization, sitemaps, robots meta, interstitials, Core Web
+Vitals, outbound link qualification). Rulebook to be rebuilt as a general guide plus a site-specific layer, with a
+build to-do checklist beside it.
+Third policy pass done (10 Oct): the whole rater guidelines PDF read in the main session; the second ring of linked
+pages read and extracted with quotes by a subagent (research/discussion/references/google-policies/
+extract-second-ring.md). Rulebook rebuilt for reuse on other projects: .claude/skills/search-policy/SKILL.md is the
+general guide (fifteen sections, twelve-point per-page checklist), SITE.md the userandproduct.com layer (author of
+record, seeded and synthesis pieces, no disclosure page, who runs which rule, indexing and feature decisions,
+affiliate and ads, licensed API), and research/discussion/todo/search-policy-build-checklist.md the build to-do
+(design, WordPress install, app and data, agent rulebooks). New rules from the full read: no question farms from
+"people also ask", site purpose must match the About page, no hidden disclaimers, verifiable author claims only,
+answer up front, real dates, ads never disguised, comments are main content, custom 404; from the second ring:
+noindex not robots.txt for archives, sponsored on affiliate links, snippet controls also govern AI Overviews input,
+FAQPage/HowTo/sitelinks box retired, site name markup on the home page only, no placeholder author image, validate
+live. Check doc appended. Nothing new for the owner to decide.

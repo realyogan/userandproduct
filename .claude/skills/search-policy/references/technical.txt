@@ -1,0 +1,52 @@
+ Google Search Technical Requirements | Google Search Central  |  Documentation  |  Google for Developers
+ Skip to main content
+ Home
+ Search Central
+ Documentation
+ Send feedback
+# Google Search technical requirements
+ It costs nothing to get your page in search results, no matter what anyone tries to tell you.
+ As long as your page meets the minimum technical requirements, it's eligible to be
+ indexed by Google Search:
+- Googlebot isn't blocked.
+- The page works, meaning that Google receives an HTTP 200 (success) status code.
+- The page has indexable content.
+ Just because a page meets these requirements doesn't
+ mean that a page will be indexed; indexing isn't guaranteed.
+## Googlebot isn't blocked (it can find and access the page)
+ Google only indexes pages on the web that are accessible to the public and which don't
+ block our crawler, Googlebot,
+ from crawling them. If a page is made private, such as requiring a log-in to view it,
+ Googlebot will not crawl it. Similarly, if one of the
+ several mechanisms are
+ used to block Google from indexing, the page will not be indexed.
+### Check if Googlebot can find and access your page
+ Pages that are blocked by robots.txt
+ are unlikely to show in Google Search results. To see a list of pages that are inaccessible to
+ Google (but that you would like to see in Search results), use both the
+ Page Indexing report
+ and Crawl Stats report
+ in Search Console. Each report may contain different information about your URLs, so it's a good idea to look at both reports.
+ To test a specific page, use the URL Inspection tool.
+## The page works (it's not an error page)
+ Google only indexes pages that are served with an
+ HTTP 200 (success) status code.
+ Client and server error pages aren't indexed. You can check the HTTP status code for a given
+ page with the URL Inspection tool.
+## The page has indexable content
+ Once Googlebot can find and access a working page, Google checks the page for indexable
+ content. Indexable content means:
+- The textual content is in a file type that Google Search supports.
+- The content doesn't violate our spam policies.
+ While blocking Googlebot with a robots.txt file will prevent crawling, a page's URL might still appear
+ in search results. To instruct Google not to index a page, use
+ noindex and allow Google
+ to crawl the URL.
+ Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2025-12-18 UTC.
+ Need to tell us more?
+ [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2025-12-18 UTC."],[],["To be eligible for Google Search indexing, a page must meet these technical requirements: Googlebot must not be blocked from accessing it, the page must function correctly with an HTTP 200 (success) status code, and it must contain indexable content. Blocking Googlebot prevents crawling, while utilizing a `noindex` tag prevents indexing, allowing crawling. The Page Indexing and Crawl Stats reports in Search Console, as well as the URL Inspection tool, can check page status.\n"]]
+### 
+### 
+### 

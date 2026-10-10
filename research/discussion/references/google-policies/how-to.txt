@@ -1,0 +1,7 @@
+# NOTE: this URL no longer serves its own page. It redirects (301) to https://developers.google.com/search/updates. Relevant changelog entries follow; full changelog saved as updates-page.txt.
+
+## September 2023 (September 14)
+- Removed the How-to rich result case study, as this feature is deprecated.
+- Removed the How-to structured data documentation,
+ as this rich result is no longer shown in search results, on both desktop and mobile devices.
+ Read more in the blog post.
