@@ -221,9 +221,13 @@ DISCLOSURE = ("Affiliate link: if you buy through it, this site earns a small co
 
 
 # ---------- drawn pieces ----------
-def spines(seed, w=1440, h=88):
+def spines(seed, w=3840, h=88):
     """A row of book spines standing on the shelf board, drawn once per page from a fixed seed. Decorative. The six
-    fills come from the band's spine palette (--sp1 to --sp6 in books.css), so each tint gets its own set."""
+    fills come from the band's spine palette (--sp1 to --sp6 in books.css), so each tint gets its own set.
+    The row is drawn 3840 wide so it is never scaled up: with "slice" the SVG scales to the wider of width/w and
+    height/h, so a 1440-wide row on a 1920 or 2560 screen grew 1.3 to 1.8 times, lost the top of every spine and
+    left a gap at the right end. At 3840 the height decides the scale on any screen up to 3840px, and the extra
+    spines are simply cut off on narrower screens. The first 1440px are the same spines as before (same seed)."""
     rnd = random.Random(seed)
     x, out = 6, []
     while x < w:

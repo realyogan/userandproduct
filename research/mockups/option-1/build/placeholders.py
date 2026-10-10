@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent   # option-1/
 
 # link targets, as paths from option-1/
-NAV = [("Articles", "index.html#latest"), ("Topics", "category/index.html"), ("Books", "sections/books.html"),
+NAV = [("Articles", "index.html#latest"), ("Topics", "category/index.html"), ("Recommended books", "sections/books.html"),
        ("Links", "sections/links.html"), ("Tools", "sections/tools.html"), ("Templates", "sections/templates.html")]
 DOMAINS = [("Design", "category/index.html"), ("Product", "category/index.html"), ("Business", "category/index.html")]
 LEGAL = [("About", "pages/about.html"), ("Privacy", "pages/privacy.html"),
@@ -34,7 +34,7 @@ LOGO_DARK = "assets/logo/lockup-dark.svg"
 PLACEHOLDERS = [
     ("category/index.html", "Category", "Category page (coming)", "The category page is the next mockup. It will list one topic's articles, grouped under headings."),
     ("sections/articles.html", "All articles", "All articles (coming)", "Every article, newest first, a page at a time. Until then, the latest twelve are on the home page."),
-    ("sections/books.html", "Books", "Books (coming)", "The books I hand to colleagues, with a note on what each one is good for."),
+    ("sections/books.html", "Recommended books", "Recommended books (coming)", "The books I hand to colleagues, with a note on what each one is good for."),
     ("books/topic.html", "Books topic", "Topic page (coming)", "This topic page is next. It will hold four to six books in reading order, laid out like the product management page."),
     ("sections/links.html", "Links", "Links (coming)", "Useful sites and apps for design and product work, sorted by topic."),
     ("sections/tools.html", "Tools", "Tools (coming)", "Small calculators and checkers for everyday product work."),

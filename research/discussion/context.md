@@ -997,3 +997,5 @@ Books redesign built (10 Oct): 169 of 181 covers local (git-ignored, README and 
 Owner: the link after 'More shelves' reads 'Back to all recommended books'; never name a count of topics or shelves.
 Owner: buy and affiliate links removed from the books pages (parked); 'What I took from it' slot removed entirely; shelf meta no longer names a count.
 Owner: hide 'Where it has aged' when a book is still current; where the note carries edition advice it shows as 'Which edition' instead.
+Owner: topic page content looks cropped with empty space on the right (large screens); nav label 'Books' becomes 'Recommended books' on every page. Fix running.
+Fixed (10 Oct): the spine row was drawn 1440 wide and scaled up on wider screens, cropping the spine tops and leaving a gap at the right; now drawn 3840 wide; book cards fill the container from 1200 px. Nav label 'Recommended books' on every page (nowrap, tighter gap at 900 to 1023 px).

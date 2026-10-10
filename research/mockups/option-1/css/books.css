@@ -178,7 +178,9 @@
 .books{margin-top:var(--s7);display:flex;flex-direction:column;gap:var(--s8)}
 .book{display:grid;gap:var(--s5);grid-template-columns:minmax(0,1fr);scroll-margin-top:24px}
 @media (min-width:860px){.book{grid-template-columns:220px minmax(0,1fr);column-gap:var(--s7);align-items:start}}
-@media (min-width:1200px){.book{grid-template-columns:240px minmax(0,860px)}}
+/* the card takes the rest of the frame, so cover and card fill the container like the masthead; the measure is kept
+   by the field text itself (.fields dd, 36em, about 70 characters), not by capping the card */
+@media (min-width:1200px){.book{grid-template-columns:240px minmax(0,1fr)}}
 .cover{margin:0;max-width:160px}
 @media (min-width:860px){.cover{max-width:none;position:sticky;top:24px;padding-top:8px}}
 .cover svg,.cover img{display:block;width:100%;height:auto;border-radius:2px 6px 6px 2px;

@@ -117,6 +117,10 @@ button,input{font:inherit;color:inherit}
 .site-nav ul{display:flex;gap:var(--s5);list-style:none;margin:0;padding:0}
 .site-nav a{color:var(--ink);text-decoration:none;font:500 var(--fs-ui)/1 var(--font-ui);letter-spacing:var(--tracking-ui)}
 .site-nav a:hover{color:var(--signal)}
+/* "Recommended books" is the one two-word item: it never breaks, and from 900 to 1023px the gaps close to 16px so
+   the six items still sit on one line between the logo and the theme toggle */
+.site-nav a{white-space:nowrap}
+@media (min-width:900px) and (max-width:1023px){.site-nav ul{gap:var(--s4)}}
 .menu{margin-left:auto;position:relative}
 .menu summary{list-style:none;cursor:pointer;font:500 var(--fs-ui)/1 var(--font-ui);padding:12px 14px;border:1px solid var(--rule);border-radius:var(--radius)}
 .menu summary::-webkit-details-marker{display:none}
