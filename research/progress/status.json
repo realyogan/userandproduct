@@ -1,53 +1,32 @@
 {
   "version": 1,
-  "run_id": "thumbnail-skill",
-  "title": "Thumbnail generator, gallery and skill",
+  "run_id": "council-proposal-5",
+  "title": "Council on publishing system proposal 5",
   "state": "finished",
-  "started": "2026-10-09T22:10+05:30",
-  "updated": "2026-10-09T22:29+05:30",
-  "note": "Owner changes applied: kinds, bold backgrounds, schemes, lockup, eleven styles; gallery rebuilt; four evals pass",
+  "started": "2026-10-10T10:28+05:30",
+  "updated": "2026-10-10T10:35+0530",
+  "note": "Council finished: question, advisor responses, peer reviews and verdict saved",
   "steps": [
     {
       "n": 1,
-      "title": "Read board and tools",
+      "title": "Five advisors answer independently",
       "status": "done",
-      "note": "Board, demos, tooling notes and 8 references read; icon sets vendored (89 pixel, 104 Phosphor)",
-      "time": "21:47"
+      "note": "Five responses saved: advisor-responses.md",
+      "time": "10:30"
     },
     {
       "n": 2,
-      "title": "Generator and helpers",
+      "title": "Anonymous peer review",
       "status": "done",
-      "note": "thumbnail.py: grain, square and dot grid, hard shadow, pixel upscale, Bayer dither, dot screen, palette map, mark, pick_style, checks",
-      "time": "21:54"
+      "note": "Five reviews saved: peer-reviews.md",
+      "time": "10:33"
     },
     {
       "n": 3,
-      "title": "Nine styles plus photo",
+      "title": "Chairman's verdict",
       "status": "done",
-      "note": "Ten styles render; all ten pass the 300 px read check and type contrast",
-      "time": "21:56"
-    },
-    {
-      "n": 4,
-      "title": "Gallery",
-      "status": "done",
-      "note": "gallery.html built and linked from the board and README; no sideways scroll at 375 px",
-      "time": "21:56"
-    },
-    {
-      "n": 5,
-      "title": "Skill and references",
-      "status": "done",
-      "note": "SKILL.md plus references styles, subjects, sources written",
-      "time": "21:59"
-    },
-    {
-      "n": 6,
-      "title": "Evals and checks",
-      "status": "done",
-      "note": "Owner changes applied: kinds, bold backgrounds, schemes, lockup, eleven styles; gallery rebuilt; four evals pass",
-      "time": "22:29"
+      "note": "verdict.md saved",
+      "time": "10:35"
     }
   ]
 }

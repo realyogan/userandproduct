@@ -1,0 +1,1367 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Publishing system proposal 5</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#1b1c1f; --ink-2:#4f5157; --muted:#73757c; --rule:#dfe1e6;
+  --blue:#2a78d6; --blue-tint:#e5effb; --orange:#eb6834; --orange-tint:#fdece4; --aqua:#1baf7a; --aqua-tint:#e1f5ed;
+  --violet:#7b5cd6; --violet-tint:#efeafb; --yellow:#c99a12; --yellow-tint:#faf2d9; --red:#c8322a;
+  --shelf:#8a8f99; --focus:#2a78d6; --warn:#b5361f; --warn-tint:#fbe7e3;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+    --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+    --violet:#9479e8; --violet-tint:#261f3a; --yellow:#d6aa2a; --yellow-tint:#332a12; --red:#e0533f;
+    --shelf:#6b6e75; --focus:#3987e5; --warn:#f08a74; --warn-tint:#3a1f1a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+  --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+  --violet:#9479e8; --violet-tint:#261f3a; --yellow:#d6aa2a; --yellow-tint:#332a12; --red:#e0533f;
+  --shelf:#6b6e75; --focus:#3987e5; --warn:#f08a74; --warn-tint:#3a1f1a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);overflow-x:hidden;
+  font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-wrap:break-word}
+@media (min-width:700px){body{font-size:17px}}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--surface);color:var(--ink);padding:8px 14px;border-radius:8px;z-index:9}
+.skip:focus{left:16px}
+.wrap{max-width:50rem;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;
+  line-height:1.2;letter-spacing:-0.01em;color:var(--ink);margin:0}
+h1{font-size:clamp(1.9rem,5.2vw,2.8rem);font-weight:800}
+h2{font-size:clamp(1.3rem,3.4vw,1.6rem);font-weight:760;margin:0 0 10px}
+h3{font-size:1.1rem;font-weight:720;margin:22px 0 8px}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:1.3em}
+li{margin:0 0 6px}
+a{color:var(--blue);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:8px}
+code{font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.86em;background:var(--surface);border:1px solid var(--rule);
+  border-radius:4px;padding:.05em .35em;overflow-wrap:anywhere}
+.muted{color:var(--muted)}
+
+/* top */
+header.top{padding-top:40px}
+.toprow{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.theme{flex:none;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);
+  font:600 .85rem/1.3 system-ui,sans-serif;cursor:pointer;margin-top:6px}
+.theme:hover{border-color:var(--blue);color:var(--blue)}
+.answer{font-size:1.15rem;color:var(--ink-2);max-width:40rem;margin:12px 0 4px}
+.date{color:var(--muted);font-size:.92rem;margin:0 0 6px}
+.hand{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;font-weight:700;
+  color:var(--orange);font-size:1.1rem;margin:10px 0 0}
+
+/* summary box */
+.summary{background:var(--surface);border:1px solid var(--rule);border-top:5px solid var(--blue);border-radius:14px;padding:16px 20px 6px;margin:24px 0 0}
+.summary h2{font-size:1.2rem;margin:0 0 8px}
+.summary ul{padding-left:1.2em}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:6px 0 14px}
+@media (max-width:520px){.stats{grid-template-columns:minmax(0,1fr)}}
+.stat{background:var(--blue-tint);border-radius:10px;padding:10px 14px;min-width:0}
+.stat b{display:block;font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;font-size:1.35rem;line-height:1.2}
+.stat span{font-size:.92rem;color:var(--ink-2)}
+
+/* toc */
+nav.toc{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 20px;margin:18px 0 0}
+nav.toc h2{font-size:1rem;margin:0 0 6px}
+nav.toc ol{margin:0;padding-left:1.4em;columns:2 15rem;column-gap:24px;font-size:.98rem}
+nav.toc li{margin:2px 0;break-inside:avoid}
+
+/* sections */
+.block{margin:40px 0 0;scroll-margin-top:16px}
+.lead{font-size:1.06rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:16px;margin:16px 0}
+.fig figcaption{margin-top:10px;color:var(--ink-2);font-size:.95rem}
+.fig figcaption b{color:var(--ink)}
+@media (max-width:520px){.fig{margin-left:-16px;margin-right:-16px;border-radius:0;border-left:0;border-right:0;padding:12px 8px}
+  .fig figcaption{padding:0 8px}}
+.irl{background:var(--aqua-tint);border-radius:12px;padding:12px 18px 4px;margin:14px 0}
+.irl h3{margin:0 0 6px;font-size:1rem}
+.irl ul{padding-left:1.1em}
+.rulebox{border-left:5px solid var(--blue);background:var(--blue-tint);border-radius:0 12px 12px 0;padding:10px 16px;margin:16px 0 0;font-weight:600}
+.rulebox b{color:var(--blue);margin-right:6px}
+.quote{border-left:3px solid var(--orange);padding:4px 0 4px 14px;margin:6px 0 14px;font-style:italic;color:var(--ink)}
+.example{background:var(--surface);border:1px dashed var(--shelf);border-radius:12px;padding:12px 16px;margin:12px 0}
+.example .tag{display:inline-block;font-size:.8rem;font-weight:700;color:var(--muted);margin:0 0 6px}
+dl.fields{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:0 14px;margin:0 0 14px;font-size:.95rem}
+dl.fields dt,dl.fields dd{padding:6px 0;border-top:1px solid var(--rule);min-width:0}
+dl.fields dt{font-weight:650}
+dl.fields dd{margin:0;color:var(--ink-2)}
+.example dl.fields{margin:0}
+@media (max-width:520px){dl.fields{grid-template-columns:minmax(0,1fr)} dl.fields dd{border-top:0;padding-top:0}}
+.kinds{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:8px 0 14px}
+@media (max-width:640px){.kinds{grid-template-columns:minmax(0,1fr)}}
+.kind{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;min-width:0}
+.kind b{display:block;margin:0 0 2px}
+.kind span{font-size:.93rem;color:var(--ink-2)}
+ol.sources > li{margin-bottom:12px}
+ol.steps > li{margin-bottom:8px}
+.folder{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 16px;margin:10px 0 14px;
+  font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.88rem;line-height:1.7;overflow-wrap:anywhere}
+.folder span{color:var(--muted);font-family:system-ui,sans-serif}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:700px){.two{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:14px 18px 4px;min-width:0}
+.panel h3{margin:0 0 8px}
+.panel li{font-size:.95rem}
+
+/* agents table: a table on wide screens, stacked cards on phones */
+.tablebox{margin:14px 0;overflow-x:auto}
+table.agents{width:100%;border-collapse:collapse;font-size:.9rem;background:var(--surface);border:1px solid var(--rule)}
+table.agents th,table.agents td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--rule)}
+table.agents th{font-weight:700;background:var(--bg);border-top:0}
+table.agents td:first-child{font-weight:650}
+table.agents tr.later td{color:var(--ink-2)}
+table.agents .todo{color:var(--warn);font-weight:600}
+@media (max-width:760px){
+  table.agents,table.agents tbody,table.agents tr,table.agents td{display:block;width:100%}
+  table.agents{border:0;background:none}
+  table.agents thead{display:none}
+  table.agents tr{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:6px 14px;margin:0 0 10px}
+  table.agents td{display:grid;grid-template-columns:minmax(0,6.5rem) minmax(0,1fr);gap:10px;padding:5px 0;border-top:1px solid var(--rule)}
+  table.agents td:first-child{border-top:0;display:block;font-size:1.02rem}
+  table.agents td::before{content:attr(data-label);font-weight:600;color:var(--muted)}
+  table.agents td:first-child::before{content:none}
+}
+
+/* decisions and window tables reuse the agents table */
+table.agents td.num{white-space:nowrap}
+.open{background:var(--yellow-tint);border-radius:12px;padding:12px 18px 4px;margin:14px 0}
+.open h3{margin:0 0 6px;font-size:1rem}
+footer{border-top:1px solid var(--rule);margin-top:44px;padding:22px 0 56px;font-size:.9rem;color:var(--ink-2)}
+
+/* pictures */
+svg.pic{display:block;width:100%;height:auto;max-width:600px;margin:0 auto}
+svg.pic.narrow{max-width:500px}
+.pic text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:15px}
+.pic .lb{font-size:16px;font-weight:700}
+.pic .lb14{font-size:14px;font-weight:700}
+.pic .sm{font-size:14px;fill:var(--ink-2)}
+.pic .xs{font-size:12.5px;fill:var(--muted)}
+.pic .tw{fill:#ffffff;font-weight:800;font-size:14px}
+.pic .stop{fill:#ffffff;font-weight:800;font-size:10px;letter-spacing:.04em}
+.pic .warnt{fill:var(--warn);font-weight:600}
+.pic .tick{fill:var(--aqua);font-weight:800}
+.ln{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.w2{stroke-width:2}
+.dash{stroke-dasharray:6 5}
+.soft{stroke:var(--muted)}
+.belt{fill:none;stroke:var(--shelf);stroke-width:8;stroke-linecap:round}
+.chev{fill:none;stroke:var(--surface);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fs{fill:var(--surface)} .fb{fill:var(--blue-tint)} .fa{fill:var(--aqua-tint)} .fo{fill:var(--orange-tint)}
+.fv{fill:var(--violet-tint)} .fy{fill:var(--yellow-tint)}
+.Fb{fill:var(--blue)} .Fa{fill:var(--aqua)} .Fo{fill:var(--orange)} .Fv{fill:var(--violet)} .Fy{fill:var(--yellow)}
+.Fred{fill:var(--red)} .Fink{fill:var(--ink)} .Fmuted{fill:var(--muted)}
+.ink{stroke:var(--ink)} .sb{stroke:var(--blue)} .sa{stroke:var(--aqua)} .so{stroke:var(--orange)} .sv{stroke:var(--violet)} .sy{stroke:var(--yellow)} .sr{stroke:var(--red)}
+.va{fill:var(--aqua);fill-opacity:.14;stroke:var(--aqua);stroke-width:2}
+.vo{fill:var(--orange);fill-opacity:.14;stroke:var(--orange);stroke-width:2}
+.vb{fill:var(--blue);fill-opacity:.14;stroke:var(--blue);stroke-width:2}
+.pp-ink{fill:var(--surface);stroke:var(--ink);stroke-width:1.6}
+.pp-a{fill:var(--aqua-tint);stroke:var(--aqua);stroke-width:1.6}
+.pp-b{fill:var(--blue-tint);stroke:var(--blue);stroke-width:1.6}
+.pp-o{fill:var(--orange-tint);stroke:var(--orange);stroke-width:1.6}
+.pp-v{fill:var(--violet-tint);stroke:var(--violet);stroke-width:1.6}
+.pp-y{fill:var(--yellow-tint);stroke:var(--yellow);stroke-width:1.6}
+.dsh{stroke-dasharray:3 3}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" class="Fink"/></marker>
+<marker id="arm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" class="Fmuted"/></marker>
+<symbol id="person" viewBox="0 0 24 40"><circle cx="12" cy="8" r="7"/><path d="M2 39V25a10 10 0 0 1 20 0v14z"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">Skip to the proposal</a>
+
+<header class="top wrap">
+<div class="toprow">
+<h1>The publishing system, as a newsroom: proposal 5</h1>
+<button class="theme" type="button" id="themebtn" aria-label="Switch color theme">Theme: auto</button>
+</div>
+<p class="answer">How articles get made, in its final shape. A small newsroom of agents finds ideas, then writes, draws and checks each piece. A campaign manager directs the plan from day one. You give direction: at the start of each short build window you read the cards and say how each piece should go. Then you read every draft before its date.</p>
+<p class="date">October 10, 2026. Proposal 5, the final proposal: nothing on this page is built yet.</p>
+<p class="date">This builds on <a href="publishing-system-proposal-4-2026-10-10.html">proposal 4</a>. What changed: all sixteen questions are answered or withdrawn. Your role is now direction, with stories optional. A rolling rhythm of short build windows replaces the monthly meeting. A newsroom app becomes your one screen. The campaign manager acts as a director. There are three ways onto the board, and there is a launch plan.</p>
+<p class="hand">Think of the system as a magazine newsroom: the window meeting, the press run, then the proofs.</p>
+
+<section class="summary" aria-labelledby="h-sum">
+<h2 id="h-sum">The one-screen version</h2>
+<p>The system is a small newsroom of agents. An agent is a program that does one job and follows a written rulebook.</p>
+<ul>
+<li>An <b>explorer</b> keeps a backlog (a list of article ideas waiting to be written) full. Ideas reach it three ways: its own weekly reading, a book you name, and your brief, when you say &#8220;we should write about X&#8221;.</li>
+<li>At the start of each <b>build window</b> you type one command, <code>/go</code>. You get the campaign manager&#8217;s report, then one card for each publishing slot in the coming block. You approve, kill, change or park each card, and write your note on how the piece should go.</li>
+<li>The window runs for two or three days. The desks make everything for the approved cards.</li>
+<li>You read each draft in the <b>newsroom app</b>, styled as it will look on the site, in publishing order, before its date.</li>
+<li>The <b>publisher</b> creates the real post in a local copy of WordPress. You confirm it once, and it goes live on its date. Then the publisher checks the live page.</li>
+<li>A <b>campaign manager</b> directs from day one. At first it counts what is published against the plan. As numbers arrive, it scores pages and says which categories deserve the next windows. It proposes and never changes the site.</li>
+<li>The <b>launch</b>: about fifty articles in six or seven deep categories, a soft launch two weeks before you announce the site, then a steady drip.</li>
+<li>LinkedIn posts and reels wait until the article pipeline is settled.</li>
+</ul>
+<div class="stats">
+<div class="stat"><b>10 agents</b><span>in the first build. Two more later, for LinkedIn and reels: 12 in all.</span></div>
+<div class="stat"><b>30 to 40 minutes</b><span>to read one draft. The window meeting itself is short: one card per slot.</span></div>
+<div class="stat"><b>3 or 4 a week</b><span>for the first couple of weeks. One a day once the process has settled in.</span></div>
+<div class="stat"><b>About 50 articles</b><span>live before you announce the site, then the drip.</span></div>
+</div>
+</section>
+
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#s1">The newsroom at a glance</a></li>
+<li><a href="#s2">The backlog, and three ways onto it</a></li>
+<li><a href="#s3">How the explorer finds ideas</a></li>
+<li><a href="#s4">The window meeting and the newsroom app</a></li>
+<li><a href="#s5">Rolling build windows</a></li>
+<li><a href="#s6">One article, station by station</a></li>
+<li><a href="#s7">From the app to the live page</a></li>
+<li><a href="#s8">The campaign manager, as director</a></li>
+<li><a href="#s9">The agents, counted</a></li>
+<li><a href="#s10">What exists, and what we build next</a></li>
+<li><a href="#s11">The launch plan</a></li>
+<li><a href="#s12">Decisions, and what is still open</a></li>
+</ol>
+</nav>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+<!-- 1 -->
+<section class="block" id="s1" aria-labelledby="h1s">
+<h2 id="h1s">1. The newsroom at a glance</h2>
+<p class="lead">Five desks sit around one board. The board holds the backlog of ideas, and you see it in one app. Three desks pass the work along. The fourth, Performance, directs the plan and sends direction back to the board. The fifth, Distribution, waits until later. One person in the middle hands every job from desk to desk.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 440" role="img" aria-labelledby="f1t">
+<title id="f1t">Five desks around a central board shown in the newsroom app. Planning sends ideas to the board, the board feeds Making, and Making passes to Publishing. Distribution is drawn dashed, for later. Performance, the campaign manager, directs from day one and sends direction to the board and to the editor on the Making desk. The managing editor stands in the middle with dashed lines to the board and the desks.</title>
+<rect x="10" y="10" width="140" height="80" rx="10" class="fa sa w2"/>
+<text x="24" y="40" class="lb">Planning</text>
+<text x="24" y="62" class="sm">explorer</text>
+<rect x="300" y="10" width="170" height="195" rx="10" class="fb sb w2"/>
+<text x="314" y="38" class="lb">Making</text>
+<text x="314" y="62" class="sm">researcher</text>
+<text x="314" y="81" class="sm">writer</text>
+<text x="314" y="100" class="sm">illustrator</text>
+<text x="314" y="119" class="sm">thumbnail maker</text>
+<text x="314" y="138" class="sm">checker</text>
+<text x="314" y="157" class="sm">SEO reviewer</text>
+<text x="314" y="176" class="sm">editor</text>
+<rect x="170" y="105" width="115" height="70" rx="6" class="fs ink w2"/>
+<text x="227" y="126" text-anchor="middle" class="lb">The board</text>
+<text x="227" y="142" text-anchor="middle" class="xs">in the app</text>
+<rect x="181" y="150" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="206" y="153" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="231" y="149" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="256" y="152" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="10" y="125" width="140" height="95" rx="10" class="fy sy w2"/>
+<text x="22" y="152" class="lb">Performance</text>
+<text x="22" y="174" class="sm">campaign manager</text>
+<text x="22" y="196" class="xs">director, from day one</text>
+<rect x="10" y="300" width="140" height="90" rx="10" class="fv sv w2 dash"/>
+<text x="24" y="328" class="lb">Distribution</text>
+<text x="24" y="350" class="sm">LinkedIn writer</text>
+<text x="24" y="370" class="xs">and reel maker, later</text>
+<rect x="330" y="300" width="140" height="90" rx="10" class="fo so w2"/>
+<text x="344" y="328" class="lb">Publishing</text>
+<text x="344" y="350" class="sm">publisher</text>
+<text x="344" y="370" class="xs">and live-page check</text>
+<path class="ln" d="M150 50H228V99" marker-end="url(#ar)"/>
+<text x="189" y="43" text-anchor="middle" class="xs">ideas</text>
+<path class="ln" d="M285 140H295" marker-end="url(#ar)"/>
+<path class="ln" d="M150 150H164" marker-end="url(#ar)"/>
+<path class="ln" d="M150 192H294" marker-end="url(#ar)"/>
+<text x="190" y="208" text-anchor="middle" class="xs">direction</text>
+<path class="ln" d="M400 205V294" marker-end="url(#ar)"/>
+<path class="ln dash" d="M400 390V416H80V396" marker-end="url(#ar)"/>
+<text x="240" y="434" text-anchor="middle" class="xs">publish, then share (later)</text>
+<path class="ln soft dash" d="M236 228L228 181M256 236L330 209M256 252L332 297M224 252L148 297M222 242L152 216"/>
+<use href="#person" x="226" y="230" width="28" height="46" class="pp-ink"/>
+<text x="240" y="300" text-anchor="middle" class="lb">Managing editor</text>
+<text x="240" y="319" text-anchor="middle" class="sm">the main session</text>
+</svg>
+<figcaption><b>Look at the middle first.</b> Every dashed line runs to the managing editor. The solid arrows carry paper: finished work moving along, and the direction Performance writes for the board and the editor. The dashed desk at the bottom left comes later.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>Planning desk:</b> the explorer, which finds and ranks ideas.</li>
+<li><b>Making desk:</b> seven agents. Researcher, writer, illustrator, thumbnail maker, checker, SEO reviewer and editor.</li>
+<li><b>Publishing desk:</b> the publisher, which creates the post in WordPress and checks the live page.</li>
+<li><b>Performance desk:</b> the campaign manager, the director, from day one. It counts what is published against the plan, reads the numbers as they arrive, and points the next windows at the categories that need them.</li>
+<li><b>Distribution desk, later:</b> the LinkedIn writer and the reel maker. Each one is decided on its own once the article pipeline is settled (section 9).</li>
+<li><b>The board in the app:</b> the backlog is data the agents write. You see it in one local app page (section 4).</li>
+<li><b>Managing editor:</b> the main session, the conversation you have with the assistant. It runs the meeting when you type <code>/go</code>, runs the window, and keeps the progress page.</li>
+</ul>
+</div>
+<p>One rule shapes the room. Agents cannot call each other directly. When the writer needs a figure, it asks the managing editor, and the managing editor sends the job to the illustrator.</p>
+<p>That is one level flatter than desks talking to desks. Every hand-off shows up in one place, the progress page, where you can see it. The campaign manager&#8217;s direction follows the same rule: it is written on the board, never sent straight to a desk.</p>
+<p class="rulebox"><b>Rule</b> Every hand-off passes the managing editor, so you can always see who is doing what.</p>
+</section>
+
+<!-- 2 -->
+<section class="block" id="s2" aria-labelledby="h2s">
+<h2 id="h2s">2. The backlog, and three ways onto it</h2>
+<p class="lead">Every article starts as one card on the board. A dry board leaves the desks idle. A board full of weak ideas gives you weak articles. So the backlog gets three doors, a gate, two water marks and a bin.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 430" role="img" aria-labelledby="f2t">
+<title id="f2t">A bucket of ideas with three doors above it: the explorer&#8217;s weekly reading, a book you name, and your brief, which skips the queue. All three pass a gate at the top; an idea without a learning sentence bounces off and falls out. Inside the bucket are two lines: the top mark, about six weeks of output, and the bottom mark, where the explorer runs again. Killed cards go sideways into an ideas bin, and a dashed arrow shows the explorer may retry one from a new angle. A tap at the bottom sends approved cards to the build window.</title>
+<rect x="10" y="10" width="140" height="50" rx="10" class="fa sa w2"/>
+<text x="80" y="32" text-anchor="middle" class="lb14">Explorer</text>
+<text x="80" y="50" text-anchor="middle" class="xs">weekly reading</text>
+<rect x="170" y="10" width="140" height="50" rx="10" class="fy sy w2"/>
+<text x="240" y="32" text-anchor="middle" class="lb14">A book</text>
+<text x="240" y="50" text-anchor="middle" class="xs">you name it</text>
+<rect x="330" y="10" width="140" height="50" rx="10" class="fo so w2"/>
+<text x="400" y="32" text-anchor="middle" class="lb14">Your brief</text>
+<text x="400" y="50" text-anchor="middle" class="xs">any day, in chat</text>
+<path class="ln" d="M80 60L176 106" marker-end="url(#ar)"/>
+<path class="ln" d="M240 60V106" marker-end="url(#ar)"/>
+<path class="ln" d="M400 60L314 106" marker-end="url(#ar)"/>
+<text x="470" y="80" text-anchor="end" class="xs">skips the queue</text>
+<polygon points="150,120 370,120 345,380 175,380" class="fs"/>
+<polygon points="155.3,175 364.7,175 345,380 175,380" class="fb"/>
+<path class="ln sb w2" d="M155.3 175H364.7"/>
+<polygon points="150,120 370,120 345,380 175,380" class="ln w2"/>
+<path class="ln" d="M150 114H370" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="378" y="128" class="lb14">the gate</text>
+<path class="ln soft dash" d="M152 116Q122 122 108 144" marker-end="url(#arm)"/>
+<g transform="rotate(-14 76 170)">
+<rect x="40" y="150" width="72" height="40" rx="4" class="fs sr w2"/>
+<path class="ln sr" stroke-width="2.5" d="M64 160l24 20M88 160l-24 20"/>
+</g>
+<text x="76" y="222" text-anchor="middle" class="sm">no learning</text>
+<text x="76" y="240" text-anchor="middle" class="sm">sentence: out</text>
+<path class="ln dash w2" d="M159.6 220H360.4"/>
+<text x="260" y="212" text-anchor="middle" class="lb">top mark</text>
+<text x="260" y="238" text-anchor="middle" class="xs">about six weeks of output</text>
+<path class="ln dash w2" d="M167.3 300H352.7"/>
+<text x="260" y="292" text-anchor="middle" class="lb">bottom mark</text>
+<text x="260" y="318" text-anchor="middle" class="xs">explorer runs again</text>
+<rect x="195" y="345" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="232" y="350" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="270" y="343" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="306" y="349" width="22" height="15" rx="2" class="fy sy"/>
+<path class="ln" stroke-width="2.5" d="M347 355H420V384" marker-end="url(#ar)"/>
+<rect x="380" y="390" width="90" height="32" rx="8" class="fb sb w2"/>
+<text x="425" y="411" text-anchor="middle" class="lb14">window</text>
+<rect x="10" y="330" width="120" height="56" rx="8" class="fs ink w2"/>
+<text x="70" y="353" text-anchor="middle" class="lb14">Ideas bin</text>
+<text x="70" y="373" text-anchor="middle" class="xs">kept, with reason</text>
+<path class="ln" d="M171 360H136" marker-end="url(#ar)"/>
+<path class="ln soft dash" d="M100 330Q110 290 160 270" marker-end="url(#arm)"/>
+<text x="70" y="404" text-anchor="middle" class="xs">may retry from</text>
+<text x="70" y="420" text-anchor="middle" class="xs">a new angle</text>
+</svg>
+<figcaption><b>Three doors, one gate.</b> Every idea passes the same gate, whichever door it came through. Above the top line, all is well. Below the bottom line, the explorer goes back out for more. A card you kill goes to the bin, not the trash.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The board</b> is data: a backlog file the agents write, under <code>research/editorial/</code>. You see it in the newsroom app (section 4), which replaces the old <code>backlog.html</code> idea.</li>
+<li><b>Top water mark:</b> about six weeks of output. That is 20 approved ideas at two or three pieces a week, 50 at one a day, 100 at two a day.</li>
+<li><b>Bottom water mark:</b> about 60 percent of the top: 12, 30 or 60. Below it, the explorer runs again.</li>
+<li><b>The gate:</b> an idea without a believable learning sentence is dropped, whatever its search volume.</li>
+<li><b>The ideas bin:</b> killed cards, kept with your reason, in their own section of the board. Nothing is deleted.</li>
+</ul>
+</div>
+<p>The learning sentence is the test. It reads: &#8220;the reader learns X, which the top five pages do not teach.&#8221; If the explorer cannot write that sentence honestly, the idea does not get on the board.</p>
+<p>Volume (searches a month) and difficulty (how hard it is to reach Google&#8217;s first page) put the ideas that pass in order. They never let an idea in.</p>
+
+<h3>Door 1: the explorer&#8217;s weekly reading</h3>
+<p>Most cards come this way. The explorer reads its sources every week and pitches what it finds (section 3).</p>
+
+<h3>Door 2: a book you name</h3>
+<p>You name a book, and the explorer mines it on demand. It works in four moves:</p>
+<ol class="steps">
+<li>It lists the book&#8217;s ideas. For a famous book it works from what it knows. A lesser-known book needs its table of contents or your notes.</li>
+<li>It turns each idea into a reader&#8217;s question, the way someone would type it.</li>
+<li>It checks the keyword store first, then runs one paid batch for the rest, under the spending cap.</li>
+<li>The ideas that pass become cards with the source &#8220;book: title&#8221;. The rest are logged, so no book is mined twice.</li>
+</ol>
+<p>The guards are strict. No summaries, and no lifting a whole framework. The piece teaches one idea in our words, with your experience, and credits and links to the book. No invented quotes, and no page numbers we have not seen.</p>
+<p>This opens a series: one book, one idea per piece, each tested against practice. It also feeds the books directory planned for later, with its affiliate links.</p>
+
+<h3>Door 3: your brief</h3>
+<p>Any day, you say in chat: &#8220;we should write about X&#8221;, with the rules you already know. The managing editor puts it on the board at once, with the source &#8220;your brief&#8221;. Your rules are saved word for word, as the seed of the piece.</p>
+<div class="example">
+<span class="tag">An example brief, made up for this page</span>
+<dl class="fields">
+<dt>What you said</dt><dd>&#8220;We should write about dashboard and table design. Numbers right-aligned, text left-aligned.&#8221;</dd>
+<dt>Source</dt><dd>your brief</dd>
+<dt>Seed</dt><dd>Your two rules, word for word, in your order.</dd>
+<dt>Reader&#8217;s question</dt><dd>How should I align numbers in a table?</dd>
+<dt>Explorer&#8217;s legwork</dt><dd>Keyword fit, the top five pages and what they miss, and each of your rules checked against sources.</dd>
+<dt>Where sources disagree</dt><dd>The card shows both sides. Your rule stands, marked &#8220;from experience&#8221;.</dd>
+<dt>Status</dt><dd>Top of the next meeting, or into the current window if you say &#8220;now&#8221;.</dd>
+</dl>
+</div>
+<p>A brief skips the queue, not the card. It still gets a card with an outline, an expectation and your note. Your rules form the spine of the piece, in your order. The research fills in the why and the examples.</p>
+
+<h3>What one card holds</h3>
+<div class="example">
+<span class="tag">An example card, made up for this page</span>
+<dl class="fields">
+<dt>Working title</dt><dd>How to write a PRD engineers read to the end</dd>
+<dt>Reader&#8217;s question</dt><dd>How long should a PRD be?</dd>
+<dt>Learning sentence</dt><dd>The reader learns to cut a product requirements document (PRD) to one page in five sections, which the top five pages do not teach: they hand out 12-section templates.</dd>
+<dt>Kind</dt><dd>gap</dd>
+<dt>Your note</dt><dd>Lead with the one-page rule. Drop the history of templates. Keep the example from a real product team, not a made-up one.</dd>
+<dt>Story</dt><dd>None on this card. That is normal.</dd>
+<dt>Expectation</dt><dd>Top 10 for &#8220;how long should a PRD be&#8221; within 90 days of publishing, and 50 clicks a month by day 120.</dd>
+<dt>Status</dt><dd>pitched</dd>
+</dl>
+</div>
+<p>Look at the learning sentence first. That one line decides whether the other fields matter at all. Then look at your note: it is the line only you can write. The full list of fields:</p>
+<dl class="fields">
+<dt>Working title</dt><dd>The headline for now.</dd>
+<dt>Category</dt><dd>One of the planned categories. A category opens only as a cluster (below).</dd>
+<dt>Reader&#8217;s question</dt><dd>What the reader typed or asked, in their words.</dd>
+<dt>Learning sentence</dt><dd>&#8220;The reader learns X, which the top five pages do not teach.&#8221;</dd>
+<dt>Kind</dt><dd>Gap, better, expansion, take, or refresh.</dd>
+<dt>Angle</dt><dd>Our way into the topic.</dd>
+<dt>Sits beside</dt><dd>The existing piece of ours this one stands next to, if any, so the two never compete and link to each other.</dd>
+<dt>Demand</dt><dd>Searches a month.</dd>
+<dt>Difficulty</dt><dd>How hard the first page is to reach.</dd>
+<dt>Trend</dt><dd>Rising, flat or falling.</dd>
+<dt>Intent</dt><dd>What the searcher wants: to learn, to compare, to get a template.</dd>
+<dt>Competitors</dt><dd>The three best pages, and what each one misses.</dd>
+<dt>Format</dt><dd>Article, explainer-led, template page, part of a series, or a refresh of an old page.</dd>
+<dt>Outline</dt><dd>The headings, and one line on what each section says. Written before the window meeting.</dd>
+<dt>Images planned</dt><dd>The figures the piece needs, and its thumbnail style.</dd>
+<dt>Your note</dt><dd>A text box for how the piece should go: write it this way, lead with that, drop this. Filled in at the meeting.</dd>
+<dt>Story</dt><dd>Optional, and many cards have none. If you give one, it is saved here and in the story bank.</dd>
+<dt>Seed</dt><dd>For a brief only: your rules, word for word.</dd>
+<dt>Expectation</dt><dd>What we expect this article to do, and by when, in one line. Set when you approve the card. The campaign manager measures against it.</dd>
+<dt>Review date</dt><dd>When the campaign manager looks at the page again. Six months after publishing by default, sooner when a trigger fires (section 8).</dd>
+<dt>Status</dt><dd>idea, pitched, approved, writing, in review, confirmed, scheduled, published, parked (&#8220;publish later&#8221;), or in the ideas bin.</dd>
+<dt>Source</dt><dd>Keyword store, competitor sitemap, reader question, the newsroom mailbox, Reddit or Hacker News, the campaign manager, a take on a named rival page, forwarded by you, book: title, your brief, or ideas bin.</dd>
+</dl>
+
+<h3>A category opens only as a cluster</h3>
+<p>One idea never opens a category. The explorer may open any planned category, but only when it can put at least seven or eight planned pieces on the board for it at once. Those pieces are then scheduled over the coming windows. So there are no thin categories with one lonely piece in them.</p>
+<p>The explorer gives its reason in one sentence:</p>
+<p class="quote">&#8220;Opening Product marketing: eight planned pieces are ready for it, and Product management already has twelve.&#8221;</p>
+<p class="rulebox"><b>Rule</b> No learning sentence, no place on the board. Search volume only decides the order.</p>
+</section>
+
+<!-- 3 -->
+<section class="block" id="s3" aria-labelledby="h3s">
+<h2 id="h3s">3. How the explorer finds ideas</h2>
+<p class="lead">The explorer is the reporter on the planning desk who reads the rival papers every week. It lays three things over each other and looks for the spots where they do not match.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 410" role="img" aria-labelledby="f3t">
+<title id="f3t">Three overlapping circles: what people search, what competitors wrote, and what we have. Marked spots: 1, a gap, searched but not written well by anyone; 2, a live topic, searched and written by competitors but not by us; 3, better, where all three meet because we see an angle none of the top pages cover; 4, expansion, a planned category of ours that is still empty; 5, a take, written by competitors and answered by your experience, but not searched; and a cross, skip, written by competitors, not searched, and with no take from you.</title>
+<circle cx="175" cy="140" r="105" class="va"/>
+<circle cx="305" cy="140" r="105" class="vo"/>
+<circle cx="240" cy="250" r="105" class="vb"/>
+<text x="10" y="22" class="lb">What people search</text>
+<text x="470" y="22" text-anchor="end" class="lb">What competitors wrote</text>
+<text x="240" y="382" text-anchor="middle" class="lb">What we have</text>
+<text x="240" y="401" text-anchor="middle" class="xs">our pages and your experience</text>
+<circle cx="110" cy="110" r="14" class="Fb"/><text x="110" y="115" text-anchor="middle" class="tw">1</text>
+<text x="110" y="142" text-anchor="middle" class="sm">gap</text>
+<circle cx="240" cy="82" r="14" class="Fb"/><text x="240" y="87" text-anchor="middle" class="tw">2</text>
+<text x="240" y="114" text-anchor="middle" class="sm">live topic</text>
+<circle cx="240" cy="172" r="14" class="Fb"/><text x="240" y="177" text-anchor="middle" class="tw">3</text>
+<text x="240" y="204" text-anchor="middle" class="sm">better</text>
+<rect x="190" y="262" width="100" height="62" rx="8" class="ln dash"/>
+<circle cx="240" cy="284" r="14" class="Fb"/><text x="240" y="289" text-anchor="middle" class="tw">4</text>
+<text x="240" y="315" text-anchor="middle" class="sm">expansion</text>
+<circle cx="370" cy="110" r="14" class="Fmuted"/><text x="370" y="115" text-anchor="middle" class="tw">&#215;</text>
+<text x="370" y="142" text-anchor="middle" class="sm">skip</text>
+<circle cx="322" cy="205" r="14" class="Fb"/><text x="322" y="210" text-anchor="middle" class="tw">5</text>
+<text x="322" y="237" text-anchor="middle" class="sm">take</text>
+</svg>
+<figcaption><b>Read the numbers.</b> 1, a gap: people search it and nobody answers it well. 2, a live topic: competitors wrote it, so we write it only if our learning sentence beats theirs. 3, better: they cover the topic, and we see an angle none of the top pages cover. 4, expansion: a planned category of ours with nothing in it yet. 5, a take: a rival just wrote it, few people search it, and your experience answers it with facts. The cross: competitors wrote it, nobody searches it, and you have no take, so we skip it.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life: the circles</h3>
+<ul>
+<li><b>What people search</b> is the keyword store and the stored Google questions.</li>
+<li><b>What competitors wrote</b> is their sitemaps, their feeds, and the newsletters in the newsroom mailbox.</li>
+<li><b>What we have</b> is our published list, the planned tree, and what you know from fifteen years of the work.</li>
+</ul>
+</div>
+
+<h3>Two passes over every new rival page</h3>
+<p>A sitemap gives only an address. So the explorer reads each new page in two passes:</p>
+<ol class="steps">
+<li><b>First pass, cheap triage.</b> It opens every new page and reads only the title, the description and the headings.</li>
+<li><b>Second pass, in full.</b> It reads the candidates from the first pass all the way through. A possible take is always read in full.</li>
+</ol>
+<p>Some pages are blocked or behind a paywall. For those it uses only the feed&#8217;s title and summary, and the card says so.</p>
+<p>Each new rival page then lands in one of three places:</p>
+<ul>
+<li><b>Gap:</b> we have nothing on it, and people search for it. It becomes an ordinary card, with its source noted.</li>
+<li><b>Take:</b> it makes a claim your experience answers, with facts. It becomes a take card.</li>
+<li><b>Nothing:</b> we cover it already, or nobody searches it and you have no take. It is logged and dropped, so the same address never comes back.</li>
+</ul>
+
+<h3>Its sources, cheapest first</h3>
+<p>Seven sources it reads on its own. Four come from you, and the explorer reads them the same way.</p>
+<ol class="sources" type="a">
+<li><b>Our keyword store</b> (<code>research/seo/</code>). More than 200 scored phrases, each with its intent (what the searcher wants), trend, difficulty and category. We paid for this research already. Reading it is free.</li>
+<li><b>Competitor sitemaps and feeds.</b> A sitemap is a public file a site publishes that lists all its pages. An RSS feed is a site&#8217;s running list of new posts. Every Saturday night the campaign manager pulls them again and compares them with last week&#8217;s copy (section 8). Each new address comes to the explorer as a candidate, and the explorer does the judging, in two passes. No paid service is needed.</li>
+<li><b>Our cached search results.</b> The &#8220;people also ask&#8221; questions and related searches we already stored from Google. They are reader questions in the reader&#8217;s own words.</li>
+<li><b>The live pages.</b> For each candidate idea, the explorer opens the top five pages and reads them in full. It writes down what each answers, its headings, and what is missing: no example, no numbers, no template, or the wrong reader. The angle and the learning sentence come from that list.</li>
+<li><b>The coverage map.</b> Our own published list, counted per category, with the campaign manager&#8217;s direction on which categories need the next windows.</li>
+<li><b>The newsroom mailbox.</b> A mailbox of its own, which you subscribe once to the newsletters worth following. The explorer reads it on its weekly pass. A LinkedIn newsletter edition is a public article, readable without a login (we tested one today). The notice email carries its title, an excerpt and the link. The explorer strips the tracking parts from the link and fetches the article. If an edition is gated, the card says &#8220;excerpt only&#8221;.</li>
+<li><b>Reddit and Hacker News.</b> Public subreddit feeds and Hacker News, both readable with no login. They are reader questions in the reader&#8217;s own words.</li>
+<li><b>What you forward.</b> The side door, for a stray post or article you come across. The explorer reads it like a new rival page: gap, take or nothing.</li>
+<li><b>A book you name</b> (door 2, section 2).</li>
+<li><b>Your brief</b> (door 3, section 2).</li>
+<li><b>Your story bank</b> (<code>research/editorial/stories.md</code>), optional. A file of the stories you have chosen to tell. An idea that matches one is a strong candidate.</li>
+</ol>
+<p>The list of subreddits and newsletters to follow is one you approve once.</p>
+<h3>What it does not read</h3>
+<p>Ordinary LinkedIn posts. They sit behind a login wall, reading them by script is against LinkedIn&#8217;s terms, and it would put your account at risk. There is no fake profile either. LinkedIn voices come in through their newsletters, their own blogs, or what you forward.</p>
+
+<h3>Four kinds of idea come out</h3>
+<div class="kinds">
+<div class="kind"><b>A gap</b><span>People search it. Nobody answers it well.</span></div>
+<div class="kind"><b>A better</b><span>Rivals cover the topic, and we take a perspective none of the top pages cover. The learning sentence judges it.</span></div>
+<div class="kind"><b>An expansion</b><span>A planned category with nothing in it yet, opened as a cluster.</span></div>
+<div class="kind"><b>A take</b><span>A rival published something notable, and your experience answers it with facts. We link to it and say what they missed.</span></div>
+</div>
+<p>The rival feed is inspiration. Its usual result is a better: the same topic from a different perspective. That counts only when none of the top pages cover it.</p>
+
+<h3>The take, and its rule</h3>
+<p>A take is a response to something notable a rival just published. Its value is your disagreement, your counter-example, or the part they missed. It links to the source. It is not a me-too piece that says the same thing again.</p>
+<p>A take earns a slot only when one of three things is true:</p>
+<ul>
+<li>You have lived the opposite.</li>
+<li>You have evidence the source lacks.</li>
+<li>The source left out a case that changes the answer.</li>
+</ul>
+<p>Takes are fact-based. Disagreement for its own sake is banned. If you mostly agree, the take says so: &#8220;they are right, here is the part they skipped.&#8221; Otherwise there is no card at all. The checker confirms the rival&#8217;s claim is quoted accurately and in context, so we never argue against a straw man (a weaker version of their point).</p>
+<p>Takes are rare: two to four in fifty pieces. They ride the normal window like any card. There is no fast lane.</p>
+<p>Most takes have little search demand. So they are measured on authority, not rank: shares, mentions, links, and readers who come straight to the site or come back.</p>
+
+<h3>An angle, not a topic</h3>
+<p>The explorer pitches an angle, not a bare topic: &#8220;We have the how-to on X and nothing on when X fails. Here are two ways to write that.&#8221; Each card names the piece of ours it sits beside. So no two of our pages compete for one search, and the new piece links into the old one from day one.</p>
+<p>&#8220;Already covered&#8221; is a normal outcome, and a cheap one. It should be common.</p>
+<p>For the cards at the top of the board, the explorer also drafts the outline and the images planned, so each one is ready for the window meeting (section 4).</p>
+<p>Pages we already published belong to the campaign manager (section 8), which adds its follow-ups and refreshes to the same board.</p>
+<p>Paid keyword checks, for phrases the store has never seen, run in one batch at a time, under the spending cap you already set.</p>
+<p class="rulebox"><b>Rule</b> A rival&#8217;s new article tells us a topic is live. We write it only when our learning sentence beats theirs.</p>
+</section>
+
+<!-- 4 -->
+<section class="block" id="s4" aria-labelledby="h4s">
+<h2 id="h4s">4. The window meeting and the newsroom app</h2>
+<p class="lead">Each build window starts with a short meeting. In a newsroom, reporters pitch stories and the editor picks the ones that run. Here the cards come to you, one for each publishing slot in the block the window feeds, and you see them in one app.</p>
+<p>You type one command, <code>/go</code> (the name is a placeholder). The managing editor answers in two parts.</p>
+<ol class="steps">
+<li><b>What happened since the last window.</b> This is the campaign manager&#8217;s report (section 8). In the early months it is mostly a coverage report: what is live against the plan.</li>
+<li><b>Then the planned pieces, as cards.</b> One card for each slot in the coming block, from the top of the backlog.</li>
+</ol>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 450" role="img" aria-labelledby="f4t">
+<title id="f4t">A pitch card with its parts labelled: title and category; the reader&#8217;s question and the learning sentence; the short outline, headings with one line each; the images planned; format and evidence, meaning demand, difficulty, trend and rival pages; the expectation line; and your note, a text box for how the piece should go. Below, a row of ten small cards, one per slot: six ticked, two crossed out, one marked changed and one marked publish later.</title>
+<rect x="10" y="10" width="220" height="322" rx="12" class="fs ink w2"/>
+<path d="M10 22a12 12 0 0 1 12-12h196a12 12 0 0 1 12 12v38H10z" class="fb"/>
+<text x="24" y="33" class="lb14">How to write a PRD</text>
+<text x="24" y="51" class="xs">Product management</text>
+<path class="ln soft" d="M10 60H230M10 104H230M10 186H230M10 222H230M10 262H230M10 290H230"/>
+<text x="24" y="78" class="xs">&#8220;How long should a PRD be?&#8221;</text>
+<text x="24" y="96" class="xs">Learns: one page, five sections</text>
+<text x="24" y="122" class="xs">1 Why PRDs go unread</text><path class="ln soft" d="M38 130H200"/>
+<text x="24" y="146" class="xs">2 The five sections</text><path class="ln soft" d="M38 154H190"/>
+<text x="24" y="170" class="xs">3 Cutting to one page</text><path class="ln soft" d="M38 178H205"/>
+<rect x="24" y="194" width="30" height="20" rx="2" class="fb sb" stroke-width="1.4"/><path d="M27 211l8-9 6 6 4-3 8 6z" class="Fb"/>
+<rect x="60" y="194" width="30" height="20" rx="2" class="fb sb" stroke-width="1.4"/><path d="M63 211l8-9 6 6 4-3 8 6z" class="Fb"/>
+<rect x="96" y="194" width="36" height="20" rx="2" class="fo so" stroke-width="1.4"/>
+<text x="140" y="209" class="xs">2 + thumb</text>
+<rect x="24" y="242" width="6" height="12" class="Fmuted"/><rect x="33" y="236" width="6" height="18" class="Fmuted"/><rect x="42" y="230" width="6" height="24" class="Fmuted"/>
+<text x="56" y="246" class="xs">article, rising</text>
+<path d="M150 232h10l4 4v16h-14z" class="fs ink" stroke-width="1.2"/>
+<path d="M168 232h10l4 4v16h-14z" class="fs ink" stroke-width="1.2"/>
+<path d="M186 232h10l4 4v16h-14z" class="fs ink" stroke-width="1.2"/>
+<text x="24" y="281" class="xs">Top 10 within 90 days</text>
+<rect x="18" y="297" width="204" height="28" rx="6" class="fo so" stroke-width="1.6"/>
+<text x="28" y="316" class="xs">Your note: lead with the one-page rule</text>
+<path class="ln soft" d="M234 33H254"/>
+<text x="260" y="38" class="lb14">title, category</text>
+<path class="ln soft" d="M234 84H254"/>
+<text x="260" y="81" class="lb14">reader&#8217;s question,</text>
+<text x="260" y="98" class="sm">learning sentence</text>
+<path class="ln soft" d="M234 145H254"/>
+<text x="260" y="142" class="lb14">short outline:</text>
+<text x="260" y="159" class="sm">headings, one line each</text>
+<path class="ln soft" d="M234 204H254"/>
+<text x="260" y="209" class="lb14">images planned</text>
+<path class="ln soft" d="M234 242H254"/>
+<text x="260" y="239" class="lb14">format and evidence:</text>
+<text x="260" y="256" class="sm">demand, difficulty, rivals</text>
+<path class="ln soft" d="M234 276H254"/>
+<text x="260" y="281" class="lb14">expectation line</text>
+<path class="ln soft" d="M234 311H254"/>
+<text x="260" y="308" class="lb14">your note:</text>
+<text x="260" y="325" class="sm">how the piece should go</text>
+<rect x="10" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M17 368H41M17 376H37"/>
+<path class="ln sa" stroke-width="3" d="M21 392l6 6 10-12"/>
+<rect x="56" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M63 368H87M63 376H83"/>
+<path class="ln sa" stroke-width="3" d="M67 392l6 6 10-12"/>
+<rect x="102" y="356" width="38" height="50" rx="5" class="fs soft" stroke-width="1.6"/>
+<path class="ln soft" d="M109 368H133M109 376H129"/>
+<path class="ln sr" stroke-width="3" d="M114 385l14 14M128 385l-14 14"/>
+<rect x="148" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M155 368H179M155 376H175"/>
+<path class="ln sa" stroke-width="3" d="M159 392l6 6 10-12"/>
+<rect x="194" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M201 368H225M201 376H221"/>
+<path class="ln sy" stroke-width="3" d="M204 392q4.5-7 9 0t9 0"/>
+<rect x="240" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M247 368H271M247 376H267"/>
+<path class="ln sa" stroke-width="3" d="M251 392l6 6 10-12"/>
+<rect x="286" y="356" width="38" height="50" rx="5" class="fs ink dash" stroke-width="1.6"/>
+<path class="ln soft" d="M293 368H317M293 376H313"/>
+<path class="ln sv" stroke-width="3" d="M300 384V400M310 384V400"/>
+<rect x="332" y="356" width="38" height="50" rx="5" class="fs soft" stroke-width="1.6"/>
+<path class="ln soft" d="M339 368H363M339 376H359"/>
+<path class="ln sr" stroke-width="3" d="M344 385l14 14M358 385l-14 14"/>
+<rect x="378" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M385 368H409M385 376H405"/>
+<path class="ln sa" stroke-width="3" d="M389 392l6 6 10-12"/>
+<rect x="424" y="356" width="38" height="50" rx="5" class="fs ink" stroke-width="1.6"/>
+<path class="ln soft" d="M431 368H455M431 376H451"/>
+<path class="ln sa" stroke-width="3" d="M435 392l6 6 10-12"/>
+<text x="240" y="432" text-anchor="middle" class="sm">one card per slot: approve, kill, change or publish later</text>
+</svg>
+<figcaption><b>One card, one decision.</b> Everything you need to say yes or no sits on the card. The orange box at the bottom is yours: how the piece should go, in your words.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life: what one card holds</h3>
+<ul>
+<li><b>Working title</b> and <b>category</b>.</li>
+<li><b>The kind:</b> gap, better, expansion, take or refresh.</li>
+<li><b>Sits beside:</b> the piece of ours it stands next to, if any.</li>
+<li><b>The reader&#8217;s question</b>, in their words.</li>
+<li><b>The learning sentence:</b> what the reader learns that the top five pages do not teach.</li>
+<li><b>A short outline:</b> the headings, and one line on what each section says. It is the shape of the piece, not the article.</li>
+<li><b>The images planned:</b> the figures, and the thumbnail style.</li>
+<li><b>The format.</b></li>
+<li><b>The evidence:</b> demand, difficulty, trend, and the three competitor pages with what each one misses.</li>
+<li><b>The expectation line:</b> what we expect the piece to do, and by when.</li>
+<li><b>Your note:</b> an empty text box for how the piece should go.</li>
+<li><b>A story, optional:</b> a box you may fill or leave empty.</li>
+<li><b>For a take,</b> also the rival&#8217;s claim, quoted accurately with a link, and what your experience says instead.</li>
+<li><b>For a brief,</b> also your rules, word for word, and where sources agree or disagree with them.</li>
+</ul>
+</div>
+<h3>Your four answers</h3>
+<ul>
+<li><b>Approve.</b> Write your note if you have one. The card moves to &#8220;approved&#8221;.</li>
+<li><b>Kill.</b> The card goes to the ideas bin with your reason. The next card from the top of the backlog takes its slot on the spot, so the block stays full.</li>
+<li><b>Change.</b> Say what to change. The managing editor updates the card while you wait.</li>
+<li><b>Publish later.</b> The card is parked with a note and comes back at a later meeting.</li>
+</ul>
+<p>Since a kill pulls the next card at once, the backlog always holds more than one window needs. That is what the water marks are for.</p>
+<h3>Your note: direction, with stories optional</h3>
+<p>Your job at the meeting is to give direction. The note says how the piece should go: write it this way, lead with that, drop this. A sentence is often enough.</p>
+<p>A story is an extra, never a requirement. Many cards will have none. When you do give one, it is saved on the card and in the story bank.</p>
+<p>One hard rule stays. The writer never makes a first-person claim you did not give. No &#8220;when I ran this team&#8221; unless you said it.</p>
+<p>You can also talk instead of typing. Say it in chat when you want to, and it is transcribed and written into the card&#8217;s data.</p>
+
+<h3>The newsroom app: your one screen</h3>
+<p>Everything you look at lives in one local app page. The agents never make pages for you to read. They write data files only, and the app reads them.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 330" role="img" aria-labelledby="f4at">
+<title id="f4at">On the left, the agents write into a stack of data files: backlog, cards, report, window plans, decisions and snapshots. An arrow marked reads goes to a browser window, the newsroom app, with five tabs: Board, Cards, Report, Timeline and Preview. The Board tab shows four columns of cards: idea, approved, review and live. Below it, a draft preview has one paragraph marked with your correction. An arrow from the app back to the data files carries your clicks, notes and corrections.</title>
+<rect x="10" y="14" width="140" height="46" rx="10" class="fa sa w2"/>
+<text x="80" y="42" text-anchor="middle" class="lb14">Agents</text>
+<path class="ln" d="M80 60V92" marker-end="url(#ar)"/>
+<text x="90" y="81" class="xs">write</text>
+<rect x="10" y="98" width="140" height="170" rx="8" class="fy sy w2"/>
+<text x="80" y="122" text-anchor="middle" class="lb14">Data files</text>
+<text x="24" y="146" class="xs">backlog</text>
+<text x="24" y="166" class="xs">cards</text>
+<text x="24" y="186" class="xs">report</text>
+<text x="24" y="206" class="xs">window plans</text>
+<text x="24" y="226" class="xs">decisions</text>
+<text x="24" y="246" class="xs">snapshots</text>
+<path class="ln" d="M150 150H184" marker-end="url(#ar)"/>
+<text x="167" y="140" text-anchor="middle" class="xs">reads</text>
+<rect x="190" y="14" width="280" height="290" rx="8" class="fs ink w2"/>
+<path class="ln" d="M190 34H470"/>
+<circle cx="202" cy="24" r="3" class="Fmuted"/><circle cx="212" cy="24" r="3" class="Fmuted"/><circle cx="222" cy="24" r="3" class="Fmuted"/>
+<text x="240" y="28" class="xs">newsroom app</text>
+<text x="200" y="52" class="xs">Board</text>
+<text x="248" y="52" class="xs">Cards</text>
+<text x="296" y="52" class="xs">Report</text>
+<text x="350" y="52" class="xs">Timeline</text>
+<text x="414" y="52" class="xs">Preview</text>
+<path class="ln sb w2" d="M200 58H232"/>
+<rect x="200" y="68" width="60" height="130" rx="4" class="fs soft" stroke-width="1.2"/>
+<rect x="267" y="68" width="60" height="130" rx="4" class="fs soft" stroke-width="1.2"/>
+<rect x="334" y="68" width="60" height="130" rx="4" class="fs soft" stroke-width="1.2"/>
+<rect x="401" y="68" width="60" height="130" rx="4" class="fs soft" stroke-width="1.2"/>
+<text x="230" y="84" text-anchor="middle" class="xs">idea</text>
+<text x="297" y="84" text-anchor="middle" class="xs">approved</text>
+<text x="364" y="84" text-anchor="middle" class="xs">review</text>
+<text x="431" y="84" text-anchor="middle" class="xs">live</text>
+<rect x="207" y="94" width="46" height="18" rx="3" class="fy sy"/>
+<rect x="207" y="118" width="46" height="18" rx="3" class="fy sy"/>
+<rect x="207" y="142" width="46" height="18" rx="3" class="fy sy"/>
+<rect x="207" y="166" width="46" height="18" rx="3" class="fy sy"/>
+<rect x="274" y="94" width="46" height="18" rx="3" class="fb sb"/>
+<rect x="274" y="118" width="46" height="18" rx="3" class="fb sb"/>
+<rect x="274" y="142" width="46" height="18" rx="3" class="fb sb"/>
+<rect x="341" y="94" width="46" height="18" rx="3" class="fo so"/>
+<rect x="341" y="118" width="46" height="18" rx="3" class="fo so"/>
+<rect x="408" y="94" width="46" height="18" rx="3" class="fa sa"/>
+<rect x="200" y="210" width="260" height="84" rx="6" class="fs ink" stroke-width="1.4"/>
+<text x="212" y="230" class="lb14">Draft preview</text>
+<path class="ln soft" d="M212 246H448M212 260H420"/>
+<rect x="208" y="268" width="150" height="16" rx="3" class="fo so" stroke-width="1.2"/>
+<path class="ln soft" d="M214 276H350"/>
+<text x="366" y="281" class="xs">your fix</text>
+<path class="ln" d="M190 290H80V274" marker-end="url(#ar)"/>
+<text x="110" y="314" text-anchor="middle" class="xs">your clicks, notes, fixes</text>
+</svg>
+<figcaption><b>Follow the two arrows.</b> The agents write data, and the app reads it. Your clicks and fixes go back as data too. No agent makes a page for you, so there is one screen to learn.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life: the app</h3>
+<ul>
+<li><b>One local page</b> on this computer, served by XAMPP, in plain HTML and a little JavaScript. No build step. It replaces the old <code>backlog.html</code> idea and grows out of the tree and build-plan app idea.</li>
+<li><b>Board:</b> every card by status, in columns, the way a project board works (a kanban board).</li>
+<li><b>Cards:</b> the cards for the current window, with approve, kill, change and publish later, and your note box.</li>
+<li><b>Report:</b> the campaign manager&#8217;s report for this window.</li>
+<li><b>Timeline:</b> past windows, each kept as a snapshot you can replay.</li>
+<li><b>Preview:</b> each draft shown in the article page design (mockup A), so you read it as readers will. You mark a fix on the paragraph itself.</li>
+<li><b>Decisions and fixes</b> are saved as data. The writer and the editor read them and act on them.</li>
+</ul>
+</div>
+<p>The article folders on disk still exist, for the agents. They are never your reading surface.</p>
+<p class="rulebox"><b>Rule</b> Nothing gets written until you have seen its card, and you see it all in one app.</p>
+</section>
+
+<!-- 5 -->
+<section class="block" id="s5" aria-labelledby="h5s">
+<h2 id="h5s">5. Rolling build windows</h2>
+<p class="lead">The desks run for two or three days and make one block of pieces in one go. A few days before that block runs out, the next window builds the next block. In a newsroom this is the press run, and here it rolls every ten or fifteen days.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 270" role="img" aria-labelledby="f5t">
+<title id="f5t">A timeline from December 28 to January 30. Three short orange build windows, December 28 to 30, January 7 to 9 and January 18 to 20, each start with a blue meeting dot. An arrow runs from each window down to the ten-day purple block it builds: January 1 to 10, January 11 to 20 and January 21 to 30. The second and third windows fall inside the block before the one they build.</title>
+<text x="20" y="22" class="lb14">Build windows, two or three days</text>
+<text x="40" y="50" text-anchor="middle" class="xs">Dec 28-30</text>
+<text x="170" y="50" text-anchor="middle" class="xs">Jan 7-9</text>
+<text x="313" y="50" text-anchor="middle" class="xs">Jan 18-20</text>
+<rect x="20" y="58" width="39" height="32" rx="4" class="fo so w2"/>
+<rect x="150" y="58" width="39" height="32" rx="4" class="fo so w2"/>
+<rect x="293" y="58" width="39" height="32" rx="4" class="fo so w2"/>
+<circle cx="20" cy="58" r="7" class="Fb"/>
+<circle cx="150" cy="58" r="7" class="Fb"/>
+<circle cx="293" cy="58" r="7" class="Fb"/>
+<path class="ln" d="M40 90C40 118 137 108 137 132" marker-end="url(#ar)"/>
+<path class="ln" d="M170 90C170 118 267 108 267 132" marker-end="url(#ar)"/>
+<path class="ln" d="M313 90C313 118 397 108 397 132" marker-end="url(#ar)"/>
+<rect x="72" y="140" width="130" height="34" rx="4" class="fv sv w2"/>
+<rect x="202" y="140" width="130" height="34" rx="4" class="fv sv w2"/>
+<rect x="332" y="140" width="130" height="34" rx="4" class="fv sv w2"/>
+<text x="137" y="162" text-anchor="middle" class="lb14">Jan 1-10</text>
+<text x="267" y="162" text-anchor="middle" class="lb14">Jan 11-20</text>
+<text x="397" y="162" text-anchor="middle" class="lb14">Jan 21-30</text>
+<text x="20" y="200" class="lb14">Blocks of ten publishing days</text>
+<circle cx="28" cy="226" r="7" class="Fb"/><text x="42" y="231" class="sm">meeting: <tspan font-family="ui-monospace,Consolas,monospace">/go</tspan></text>
+<rect x="150" y="218" width="16" height="16" rx="3" class="fo so" stroke-width="1.4"/><text x="172" y="231" class="sm">build window</text>
+<rect x="290" y="218" width="16" height="16" rx="3" class="fv sv" stroke-width="1.4"/><text x="312" y="231" class="sm">block it builds</text>
+<text x="240" y="258" text-anchor="middle" class="xs">later windows run while the block before is going out</text>
+</svg>
+<figcaption><b>Read top to bottom, then left to right.</b> Each orange window builds the purple block below it. The second window runs while the first block is still going out, so the schedule never runs dry.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The meeting</b> is your <code>/go</code> session at the start of each window (section 4).</li>
+<li><b>The press run</b> is the build window: the desks make every piece for the approved cards in one run. The progress page and its chime run through it.</li>
+<li><b>The proofs</b> are the drafts in the app&#8217;s preview, which you read in publishing order (section 7).</li>
+<li><b>The issue going out</b> is the live site, one block of pieces at a time.</li>
+</ul>
+</div>
+<h3>An example with ten-day blocks</h3>
+<div class="tablebox">
+<table class="agents">
+<thead><tr><th scope="col">Window</th><th scope="col">Builds the block</th></tr></thead>
+<tbody>
+<tr><td data-label="Window">Dec 28 to 30</td><td data-label="Builds">Jan 1 to 10</td></tr>
+<tr><td data-label="Window">Jan 7 to 9</td><td data-label="Builds">Jan 11 to 20</td></tr>
+<tr><td data-label="Window">Jan 18 to 20</td><td data-label="Builds">Jan 21 to 30</td></tr>
+</tbody>
+</table>
+</div>
+<p>Two settings shape this, and you fix both later:</p>
+<ul>
+<li><b>Block length:</b> ten or fifteen days of publishing.</li>
+<li><b>Window length:</b> two or three days of desk work.</li>
+</ul>
+<p>The number of cards at each meeting equals the slots in the block. So the window size follows the cadence.</p>
+<p>Refresh jobs from the campaign manager ride the same window, next to the new pieces.</p>
+
+<h3>Review, in publishing order</h3>
+<p>You read the drafts in the order they will go out. Each piece must be approved before its own date. A proper read of one draft takes 30 to 40 minutes.</p>
+<p>The publisher never pushes a piece you have not approved. If you read one late, only that slot slides. The rest of the block keeps its dates.</p>
+
+<h3>The pace, and what gates it</h3>
+<div class="stats">
+<div class="stat"><b>3 or 4 a week</b><span>for the first couple of weeks, while the process settles in and the gaps show.</span></div>
+<div class="stat"><b>1 a day</b><span>once the process has gelled. Maybe two a day later.</span></div>
+</div>
+<p>The ramp is gated by your time, not by the agents. Your notes at the meeting and your reading add up. At two or three a week that is about 5 to 7 hours a month. At one a day it is 15 to 20 hours.</p>
+<p>So the condition for the next step up is not a date. It is this: the process has gelled, and your review time per piece has come down.</p>
+<p>The water marks scale with the pace, at about six weeks of output:</p>
+<div class="tablebox">
+<table class="agents">
+<thead><tr><th scope="col">Pace</th><th scope="col">Top mark</th><th scope="col">Bottom mark</th></tr></thead>
+<tbody>
+<tr><td data-label="Pace">2 or 3 a week</td><td data-label="Top">20</td><td data-label="Bottom">12</td></tr>
+<tr><td data-label="Pace">1 a day</td><td data-label="Top">50</td><td data-label="Bottom">30</td></tr>
+<tr><td data-label="Pace">2 a day</td><td data-label="Top">100</td><td data-label="Bottom">60</td></tr>
+</tbody>
+</table>
+</div>
+<p>The first window stays small, three or four pieces, to prove the belt and to time your reading.</p>
+<h3>Two earlier choices that stand</h3>
+<ul>
+<li>The managing editor, the main session, runs the meeting.</li>
+<li>The explorer drafts the outline and the images planned for the top cards before each meeting.</li>
+</ul>
+<p>The third earlier choice, a monthly meeting, gives way to the meeting at the start of each window.</p>
+<p class="rulebox"><b>Rule</b> Each window builds the next block, and you approve every piece before its own date.</p>
+</section>
+
+<!-- 6 -->
+<section class="block" id="s6" aria-labelledby="h6s">
+<h2 id="h6s">6. One article, station by station</h2>
+<p class="lead">Inside the build window, each approved card rides a belt past seven stations, the way copy moves from desk to desk in a newsroom. Two stop signs hold it for your eyes: the window meeting before the belt starts, and your review in the app after it ends. A refresh job from the campaign manager rides the same belt.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 345" role="img" aria-labelledby="f6t">
+<title id="f6t">A conveyor belt in two rows. Top row, left to right: stop sign 1, the window meeting, then researcher writes the brief, writer drafts, illustrator draws figures, thumbnail maker draws the hero and thumb. The belt turns down. Bottom row, right to left: checker checks facts and links, SEO reviewer checks title and links, editor signs off, stop sign 2, your review in the app, and you, fix or approve. Every station writes into one folder per article.</title>
+<path class="belt" d="M14 117H462"/>
+<path class="belt" d="M462 117A14 80 0 0 1 462 277"/>
+<path class="belt" d="M462 277H14"/>
+<path class="chev" d="M152 114l4 3-4 3M298 114l4 3-4 3M418 114l4 3-4 3M412 274l-4 3 4 3M302 274l-4 3 4 3M90 274l-4 3 4 3"/>
+<text x="30" y="38" text-anchor="middle" class="xs">stop 1</text>
+<path class="ln" d="M30 94V112"/>
+<polygon points="48.5,67.4 48.5,82.6 37.7,93.5 22.3,93.5 11.5,82.6 11.5,67.4 22.3,56.5 37.7,56.5" class="Fred"/>
+<text x="30" y="79" text-anchor="middle" class="stop">STOP</text>
+<text x="30" y="142" text-anchor="middle" class="xs">the window</text>
+<text x="30" y="157" text-anchor="middle" class="xs">meeting</text>
+<rect x="58" y="45" width="90" height="60" rx="8" class="fb sb w2"/>
+<text x="103" y="71" text-anchor="middle" class="lb14">Researcher</text>
+<text x="103" y="91" text-anchor="middle" class="xs">the brief</text>
+<rect x="155" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="202" y="71" text-anchor="middle" class="lb14">Writer</text>
+<text x="202" y="91" text-anchor="middle" class="xs">the draft</text>
+<rect x="260" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="307" y="71" text-anchor="middle" class="lb14">Illustrator</text>
+<text x="307" y="91" text-anchor="middle" class="xs">the figures</text>
+<rect x="365" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="412" y="65" text-anchor="middle" class="lb14">Thumbnail</text>
+<text x="412" y="82" text-anchor="middle" class="lb14">maker</text>
+<text x="412" y="99" text-anchor="middle" class="xs">hero, thumb</text>
+<rect x="365" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="412" y="226" text-anchor="middle" class="lb14">Checker</text>
+<text x="412" y="246" text-anchor="middle" class="xs">facts, links</text>
+<rect x="260" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="307" y="220" text-anchor="middle" class="lb14">SEO</text>
+<text x="307" y="237" text-anchor="middle" class="lb14">reviewer</text>
+<text x="307" y="254" text-anchor="middle" class="xs">title, links</text>
+<rect x="155" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="202" y="226" text-anchor="middle" class="lb14">Editor</text>
+<text x="202" y="246" text-anchor="middle" class="xs">signs off</text>
+<text x="130" y="193" text-anchor="middle" class="xs">stop 2</text>
+<path class="ln" d="M130 249V272"/>
+<polygon points="148.5,222.4 148.5,237.6 137.7,248.5 122.3,248.5 111.5,237.6 111.5,222.4 122.3,211.5 137.7,211.5" class="Fred"/>
+<text x="130" y="234" text-anchor="middle" class="stop">STOP</text>
+<text x="130" y="300" text-anchor="middle" class="xs">review in the app</text>
+<rect x="10" y="200" width="95" height="60" rx="8" class="fs ink w2"/>
+<text x="57" y="226" text-anchor="middle" class="lb14">You</text>
+<text x="57" y="246" text-anchor="middle" class="xs">fix or approve</text>
+<path d="M10 318h12l4 4h18v16H10z" class="fy sy" stroke-width="1.6"/>
+<text x="54" y="334" class="sm">every station writes into one folder per article</text>
+</svg>
+<figcaption><b>Follow the belt.</b> Along the top row the article gets made. Along the bottom row it gets checked. You saw its card at the first stop sign, the window meeting. You read the finished draft at the second, in the app.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>Researcher</b> writes the brief from the approved card and your note: what the top pages answer, what we will answer, the structure, the sources.</li>
+<li><b>Writer</b> drafts in the house voice from the brief and your note, plus your story or your rules when the card has them. The draft ends with a list of figures needed and a thumbnail request.</li>
+<li><b>Illustrator</b> draws the figures with our illustration generator, in the article&#8217;s tint (its one assigned color).</li>
+<li><b>Thumbnail maker</b> draws the hero image and the small thumbnail with our thumbnail rulebook.</li>
+<li><b>Checker</b> verifies every claim, number and link against the sources, and the text against the banned-words list. It also confirms there is no first-person claim you did not give. For a take, it checks the rival&#8217;s claim is quoted accurately and in context.</li>
+<li><b>SEO reviewer</b> checks the title, the slug (the short web address, like <code>prd-template</code>), the headings, the first paragraph, internal links and intent against the keyword store.</li>
+<li><b>Editor</b> signs off against one question, and writes your one-page summary, shown beside the draft in the app.</li>
+<li><b>Stop sign 1</b> is the window meeting. You approve the card and write your note before the researcher starts. <b>Stop sign 2</b> is your review in the app, after the editor, every time.</li>
+</ul>
+</div>
+<p>Everything for one article lives in one folder, for the agents:</p>
+<div class="folder">research/articles/&lt;slug&gt;/<br>
+&nbsp;&nbsp;brief.md <span>the researcher&#8217;s plan</span><br>
+&nbsp;&nbsp;draft.md <span>the writer&#8217;s draft</span><br>
+&nbsp;&nbsp;figures/ <span>the illustrator&#8217;s pictures</span><br>
+&nbsp;&nbsp;thumbnail/ <span>hero and thumb</span><br>
+&nbsp;&nbsp;checks.md <span>the checker&#8217;s findings</span><br>
+&nbsp;&nbsp;seo-review.md <span>the SEO reviewer&#8217;s notes</span><br>
+&nbsp;&nbsp;final.md <span>the signed-off article</span></div>
+<p>The app reads <code>final.md</code> and shows it to you in the article design. If a run stops halfway, it picks up from the last file written.</p>
+<p class="rulebox"><b>Rule</b> The editor asks one question: does it deliver the learning the card promised?</p>
+</section>
+
+<!-- 7 -->
+<section class="block" id="s7" aria-labelledby="h7s">
+<h2 id="h7s">7. From the app to the live page</h2>
+<p class="lead">Three screens stand between a finished draft and a reader: the preview in the app, the post in local WordPress, then the live page. You read in the first, you confirm once in the second, and the publisher checks the third. In a newsroom this is the proof, the plate, and the first copy off the press.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 270" role="img" aria-labelledby="f7t">
+<title id="f7t">Four boxes in a row. The app preview, in the article design, where you read and mark fixes. An arrow to the local post, a real post in local WordPress, marked not installed yet. Between it and the next box stands you, confirming once. Then live on its own date. Then the check, with a magnifying glass. Below, the live-page check list: title, canonical address, alt text, Open Graph tags, no broken links and speed basics.</title>
+<rect x="10" y="30" width="95" height="100" rx="8" class="fb sb w2"/>
+<text x="57" y="56" text-anchor="middle" class="lb14">Preview</text>
+<text x="57" y="76" text-anchor="middle" class="xs">in the app,</text>
+<text x="57" y="92" text-anchor="middle" class="xs">article design</text>
+<path class="ln soft" d="M22 106H92M22 116H80"/>
+<rect x="135" y="30" width="95" height="100" rx="8" class="fs ink w2 dash"/>
+<text x="182" y="56" text-anchor="middle" class="lb14">Local post</text>
+<text x="182" y="76" text-anchor="middle" class="xs">real post in</text>
+<text x="182" y="92" text-anchor="middle" class="xs">local WordPress</text>
+<text x="182" y="116" text-anchor="middle" class="xs warnt">not installed yet</text>
+<rect x="260" y="30" width="95" height="100" rx="8" class="fo so w2"/>
+<text x="307" y="56" text-anchor="middle" class="lb14">Live</text>
+<text x="307" y="76" text-anchor="middle" class="xs">on its own</text>
+<text x="307" y="92" text-anchor="middle" class="xs">date</text>
+<rect x="385" y="30" width="85" height="100" rx="8" class="fs ink w2"/>
+<text x="427" y="56" text-anchor="middle" class="lb14">Check</text>
+<circle cx="420" cy="90" r="16" class="fb ink" stroke-width="3" fill-opacity=".6"/>
+<path class="ln" stroke-width="5" d="M432 102l10 10"/>
+<path class="ln" d="M105 70H129" marker-end="url(#ar)"/>
+<path class="ln" d="M230 70H254" marker-end="url(#ar)"/>
+<path class="ln" d="M355 70H379" marker-end="url(#ar)"/>
+<use href="#person" x="232" y="94" width="20" height="34" class="pp-o"/>
+<text x="242" y="150" text-anchor="middle" class="xs">you confirm once</text>
+<text x="57" y="150" text-anchor="middle" class="xs">you read here</text>
+<path class="ln soft dash" d="M427 130V160"/>
+<text x="20" y="184" class="lb14">The live-page check</text>
+<text x="20" y="210" class="xs"><tspan class="tick">&#10003;</tspan> title</text>
+<text x="20" y="232" class="xs"><tspan class="tick">&#10003;</tspan> canonical address</text>
+<text x="20" y="254" class="xs"><tspan class="tick">&#10003;</tspan> alt text</text>
+<text x="250" y="210" class="xs"><tspan class="tick">&#10003;</tspan> Open Graph tags</text>
+<text x="250" y="232" class="xs"><tspan class="tick">&#10003;</tspan> no broken links</text>
+<text x="250" y="254" class="xs"><tspan class="tick">&#10003;</tspan> speed basics</text>
+</svg>
+<figcaption><b>Find the small figure.</b> You stand between the local post and the live site. Nothing crosses that gap without your one confirmation. After it, the publisher turns checker and reads the page a visitor would see.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The preview</b> is the app showing <code>final.md</code> in the article page design (mockup A). You mark fixes on the paragraph. They are saved as data the writer and editor act on, and the draft comes back to you.</li>
+<li><b>The local post:</b> once you are happy, the publisher creates the real post in local WordPress with WP-CLI (WordPress&#8217;s command line: setting up a post by typed commands instead of clicks). It sets the category, tags, featured image, the Rank Math title and description (what Google shows in its results) and the date.</li>
+<li><b>Your confirmation:</b> you confirm once. That confirmation sends the piece live on its date.</li>
+<li><b>A refresh</b> updates the existing post instead of making a new one, and the page shows a quiet &#8220;Updated &lt;month year&gt;&#8221; line.</li>
+<li><b>The live-page check:</b> as each page goes live, the publisher fetches it and checks the title, the canonical URL (the one official address of the page), images with alt text (a description for people who cannot see the image), Open Graph tags (what LinkedIn shows when the link is shared), broken links, and page speed basics.</li>
+</ul>
+</div>
+<p>WordPress is not installed yet, locally or live. Until it is, an article&#8217;s path ends at the preview in the app.</p>
+<p class="rulebox"><b>Rule</b> A piece goes live only after you confirm it, and it is done when the live page passes its check.</p>
+</section>
+
+<!-- 8 -->
+<section class="block" id="s8" aria-labelledby="h8s">
+<h2 id="h8s">8. The campaign manager, as director</h2>
+<p class="lead">From day one a campaign manager directs the plan. In a newsroom this is the circulation manager who also tells the editor which sections to grow. It always holds three things: the site&#8217;s age, the full publishing history, and the keyword data. From them it decides for itself what it can judge yet.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 310" role="img" aria-labelledby="f8t">
+<title id="f8t">Four inputs on the left, the site&#8217;s age, the publishing history, the keyword data and the live data from Search Console, analytics and rival sitemaps, feed the campaign manager. It writes two things: a report that opens every window meeting, and direction on categories and rising terms. The direction goes down to the board and on to the explorer, who turns it into the next windows&#8217; cards. To the right, a dashed gate marked proposes, never changes stands before the live site, and the arrow to the site is crossed out.</title>
+<rect x="10" y="20" width="120" height="40" rx="8" class="fs ink" stroke-width="1.6"/>
+<text x="70" y="45" text-anchor="middle" class="sm">Site&#8217;s age</text>
+<rect x="10" y="70" width="120" height="40" rx="8" class="fs ink" stroke-width="1.6"/>
+<text x="70" y="95" text-anchor="middle" class="sm">Publishing history</text>
+<rect x="10" y="120" width="120" height="40" rx="8" class="fs ink" stroke-width="1.6"/>
+<text x="70" y="145" text-anchor="middle" class="sm">Keyword data</text>
+<rect x="10" y="170" width="120" height="40" rx="8" class="fs ink dash" stroke-width="1.6"/>
+<text x="70" y="195" text-anchor="middle" class="sm">Live data</text>
+<path class="ln soft" d="M130 40H150M130 90H150M130 140H150M130 190H150M150 40V190"/>
+<path class="ln" d="M150 115H174" marker-end="url(#ar)"/>
+<use href="#person" x="180" y="84" width="30" height="50" class="pp-y"/>
+<text x="195" y="152" text-anchor="middle" class="xs">Campaign</text>
+<text x="195" y="167" text-anchor="middle" class="xs">manager</text>
+<path class="ln" d="M214 100L234 62" marker-end="url(#ar)"/>
+<path class="ln" d="M214 124L234 150" marker-end="url(#ar)"/>
+<rect x="240" y="20" width="115" height="70" rx="8" class="fy sy w2"/>
+<text x="297" y="44" text-anchor="middle" class="lb14">Report</text>
+<text x="297" y="62" text-anchor="middle" class="xs">opens every</text>
+<text x="297" y="78" text-anchor="middle" class="xs">window meeting</text>
+<rect x="240" y="120" width="115" height="70" rx="8" class="fa sa w2"/>
+<text x="297" y="144" text-anchor="middle" class="lb14">Direction</text>
+<text x="297" y="162" text-anchor="middle" class="xs">categories and</text>
+<text x="297" y="178" text-anchor="middle" class="xs">rising terms</text>
+<path class="ln" stroke-width="3" stroke-dasharray="9 6" d="M372 20V200"/>
+<path class="ln" d="M355 155H366"/>
+<path class="ln sr" stroke-width="2.5" d="M375 149l10 10M385 149l-10 10"/>
+<rect x="392" y="120" width="78" height="70" rx="8" class="fs ink w2"/>
+<text x="431" y="146" text-anchor="middle" class="lb14">Live site</text>
+<text x="431" y="166" text-anchor="middle" class="xs">never edited</text>
+<text x="431" y="80" text-anchor="middle" class="xs">proposes,</text>
+<text x="431" y="96" text-anchor="middle" class="xs">never changes</text>
+<path class="ln" d="M297 190V234" marker-end="url(#ar)"/>
+<rect x="240" y="240" width="115" height="50" rx="8" class="fs ink w2"/>
+<text x="297" y="262" text-anchor="middle" class="lb14">The board</text>
+<text x="297" y="280" text-anchor="middle" class="xs">it waits here</text>
+<path class="ln" d="M240 265H206" marker-end="url(#ar)"/>
+<rect x="80" y="240" width="120" height="50" rx="8" class="fa sa w2"/>
+<text x="140" y="262" text-anchor="middle" class="lb14">Explorer</text>
+<text x="140" y="280" text-anchor="middle" class="xs">the next cards</text>
+</svg>
+<figcaption><b>Follow the paper.</b> Everything the campaign manager knows flows into two outputs, a report for you and direction for the explorer. Nothing crosses the dashed gate to the site.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life: what it reads</h3>
+<ul>
+<li><b>The site&#8217;s age and our published list,</b> with the tree, so it can count what is planned against what is published.</li>
+<li><b>The keyword store,</b> so it knows what each article was meant to rank for, and which terms are rising.</li>
+<li><b>Search Console</b> (Google&#8217;s free report on how a site does in search), for every page: whether it is indexed, then impressions (how often the page showed in results), clicks, position, and the queries each page gets.</li>
+<li><b>Site analytics:</b> time on page, what readers click next, and direct and returning visits.</li>
+<li><b>Core Web Vitals</b> (Google&#8217;s three measures of how fast and steady a page feels), from the free page-speed check.</li>
+<li><b>Rival sitemaps.</b> The weekly pull, Saturday night, and the compare with last week&#8217;s copy are its job. It hands each new address to the explorer, and the judging is the explorer&#8217;s (section 3).</li>
+</ul>
+</div>
+<h3>Three modes, switched by data</h3>
+<p>A new site has little to score at first. On a fresh domain, Search Console shows which pages are indexed (stored by Google, so they can show up in results) within days. Impressions on long-tail searches (long, exact phrases that few people type) come after about four to eight weeks. Clicks worth reading take months.</p>
+<p>So the campaign manager has three modes. It decides itself when each one applies, from the data it holds. It is not a setting you keep.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 196" role="img" aria-labelledby="f9mt">
+<title id="f9mt">Three boxes on a line. Coverage, from day one. An arrow marked pages get impressions leads to Early signal. An arrow marked about 100 impressions in 28 days, its rule of thumb, leads to Performance, page by page. A bracket under all three says same agent, it decides by the data, not by a date.</title>
+<rect x="10" y="30" width="130" height="64" rx="10" class="fa sa w2"/>
+<text x="75" y="58" text-anchor="middle" class="lb14">Coverage</text>
+<text x="75" y="79" text-anchor="middle" class="xs">from day one</text>
+<rect x="175" y="30" width="130" height="64" rx="10" class="fb sb w2"/>
+<text x="240" y="58" text-anchor="middle" class="lb14">Early signal</text>
+<text x="240" y="79" text-anchor="middle" class="xs">once impressions come</text>
+<rect x="340" y="30" width="130" height="64" rx="10" class="fy sy w2"/>
+<text x="405" y="58" text-anchor="middle" class="lb14">Performance</text>
+<text x="405" y="79" text-anchor="middle" class="xs">page by page</text>
+<path class="ln" d="M140 62H169" marker-end="url(#ar)"/>
+<path class="ln" d="M305 62H334" marker-end="url(#ar)"/>
+<path class="ln soft dash" d="M157 68V104M322 68V104"/>
+<text x="157" y="122" text-anchor="middle" class="xs">pages get</text>
+<text x="157" y="138" text-anchor="middle" class="xs">impressions</text>
+<text x="322" y="122" text-anchor="middle" class="xs">about 100 in 28 days,</text>
+<text x="322" y="138" text-anchor="middle" class="xs">its rule of thumb</text>
+<path class="ln" d="M10 156V162H470V156"/>
+<text x="240" y="184" text-anchor="middle" class="sm">same agent, it decides by the data, not by a date</text>
+</svg>
+<figcaption><b>Read the arrows, not a calendar.</b> Each mode applies once the data under its arrow arrives. On a new site the first arrow takes weeks, and the second takes months.</figcaption>
+</figure>
+<p><b>Coverage mode, from day one.</b> It checks where we are against the plan:</p>
+<ul>
+<li>Planned against published, per category.</li>
+<li>Thin categories: fewer than seven or eight pieces. Internal links only start to work once a cluster of pieces exists.</li>
+<li>Orphan pages (pages no other page links to) and missing internal links.</li>
+<li>Index coverage in Search Console: is each page indexed, and if not, why.</li>
+<li>The weekly rival sitemap pull and compare, handed to the explorer.</li>
+<li>Authority signals: links, mentions, direct visits and returning readers.</li>
+</ul>
+<p><b>Early-signal mode, once pages have impressions.</b> It looks for:</p>
+<ul>
+<li>Pages that are indexed but do not show in results.</li>
+<li>Titles with impressions and no clicks.</li>
+<li>Striking-distance phrases: searches where a page sits at positions 8 to 20, so a small edit could lift it onto the first page.</li>
+</ul>
+<p><b>Performance mode, once a page&#8217;s numbers mean something.</b> Its rule of thumb is about 100 impressions over 28 days. Now it scores the page against the expectation on its card, writes nudges and refresh jobs, and can propose pausing a category.</p>
+
+<h3>Direction, forward</h3>
+<p>The campaign manager does more than score. It looks ahead: which categories and which rising terms deserve the next windows. It writes that direction on the board, and the explorer turns it into cards.</p>
+<h3>Its report opens every window</h3>
+<p>The report is the first thing you see after <code>/go</code>. In the early months it is mostly a coverage report.</p>
+<div class="example">
+<span class="tag">An example report line, made up for this page</span>
+<p class="quote">&#8220;Day 40. 18 pieces live in 3 categories. UX research has 4 of its 8 planned pieces, so it should get two slots in the next block. Two pages are not indexed yet.&#8221;</p>
+</div>
+<p>Later the report carries the scorecard too, at three levels: the whole site, each category, and each article against its expectation. Takes are measured on authority signals, not rank.</p>
+<h3>Old pages are its pages too</h3>
+<p>Every published article gets a review date, six months after publishing by default. A trigger brings the date forward: a rival publishes on the same question, the page slips in rank, a fact or tool in it goes out of date, or readers&#8217; queries on the page shift.</p>
+<p>When a review is due, it writes a refresh job: what changed in the world, what the page now gets wrong or misses, and what to keep. The job is pitched like any card and rides the making desk in the next window. So no separate refresh agent is needed.</p>
+<h3>The limit</h3>
+<p>It proposes. It never changes the site itself. Its nudges and refresh jobs land on the board and in the report, and you say which ones run.</p>
+<h3>The small loop: your fixes</h3>
+<p>Every fix you mark in the app is saved as data for that desk, in <code>research/editorial/feedback/</code>. The agent reads it before its next run.</p>
+<p>This is where your taste builds up. Tell the writer once that an opening is too slow, and the next draft starts faster. The same mistake does not come back.</p>
+<p class="rulebox"><b>Rule</b> The campaign manager directs, with evidence. You decide what runs.</p>
+</section>
+
+<!-- 9 -->
+<section class="block" id="s9" aria-labelledby="h9s">
+<h2 id="h9s">9. The agents, counted</h2>
+<p class="lead">Ten agents in the first build, the campaign manager among them. Two more come later, once the article pipeline is settled: the LinkedIn writer and the reel maker. That makes twelve in all.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 150" role="img" aria-labelledby="f10t">
+<title id="f10t">Twelve figures in a row: one planning agent, seven making agents, one publishing agent and the campaign manager on the Performance desk form the first build of ten. Two dashed figures follow: the LinkedIn writer and the reel maker, later.</title>
+<use href="#person" x="14" y="30" width="22" height="36" class="pp-a"/>
+<use href="#person" x="52" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="82" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="112" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="142" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="172" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="202" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="232" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="276" y="30" width="22" height="36" class="pp-o"/>
+<use href="#person" x="320" y="30" width="22" height="36" class="pp-y"/>
+<use href="#person" x="404" y="30" width="22" height="36" class="pp-v dsh"/>
+<use href="#person" x="440" y="30" width="22" height="36" class="pp-v dsh"/>
+<text x="4" y="90" class="xs">Planning</text>
+<path class="ln soft" d="M52 76H254"/>
+<text x="153" y="92" text-anchor="middle" class="xs">Making: 7</text>
+<text x="287" y="90" text-anchor="middle" class="xs">Publishing</text>
+<text x="331" y="108" text-anchor="middle" class="xs">Performance</text>
+<text x="474" y="90" text-anchor="end" class="xs">LinkedIn, reels</text>
+<path class="ln" d="M10 120V126H350V120"/>
+<text x="180" y="144" text-anchor="middle" class="sm">first build: 10</text>
+<path class="ln soft" d="M398 120V126H468V120"/>
+<text x="474" y="144" text-anchor="end" class="sm">later: 2</text>
+</svg>
+<figcaption><b>The color is the desk.</b> Seven of the ten sit at the making desk, because that is where an article is made, checked and later refreshed. The two dashed figures wait for their own decision.</figcaption>
+</figure>
+<div class="tablebox">
+<table class="agents">
+<thead><tr><th scope="col">Agent</th><th scope="col">Desk</th><th scope="col">Reads</th><th scope="col">Writes</th><th scope="col">Rulebook</th></tr></thead>
+<tbody>
+<tr><td data-label="Agent">1. Explorer</td><td data-label="Desk">Planning</td><td data-label="Reads">Keyword store, the tree and our published list, new rival pages from the sitemap compare (two passes), competitor feeds, stored search questions, the top five live pages, the coverage map and the campaign manager&#8217;s direction, the newsroom mailbox, Reddit and Hacker News, what you forward, a book you name, your brief, the story bank (optional)</td><td data-label="Writes">Backlog and card data for the app, the outline and images planned for the top cards, take cards, a log of dropped rival pages and mined books</td><td data-label="Rulebook">SEO research store</td></tr>
+<tr><td data-label="Agent">2. Researcher</td><td data-label="Desk">Making</td><td data-label="Reads">The approved card, its outline and your note, the top five pages, keyword store</td><td data-label="Writes"><code>brief.md</code></td><td data-label="Rulebook">SEO research store</td></tr>
+<tr><td data-label="Agent">3. Writer</td><td data-label="Desk">Making</td><td data-label="Reads">The brief, your note, your story or your rules when the card has them, the writer&#8217;s feedback</td><td data-label="Writes"><code>draft.md</code>, figure list, thumbnail request</td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">4. Illustrator</td><td data-label="Desk">Making</td><td data-label="Reads">The figure list, the draft</td><td data-label="Writes"><code>figures/</code></td><td data-label="Rulebook"><span class="todo">Illustrations (to write)</span></td></tr>
+<tr><td data-label="Agent">5. Thumbnail maker</td><td data-label="Desk">Making</td><td data-label="Reads">The thumbnail request, the title</td><td data-label="Writes"><code>thumbnail/</code></td><td data-label="Rulebook">Thumbnails</td></tr>
+<tr><td data-label="Agent">6. Checker</td><td data-label="Desk">Making</td><td data-label="Reads">The draft, the brief&#8217;s sources, the banned-words list, your note, and for a take the rival page</td><td data-label="Writes"><code>checks.md</code></td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">7. SEO reviewer</td><td data-label="Desk">Making</td><td data-label="Reads">The draft, keyword store, our published list</td><td data-label="Writes"><code>seo-review.md</code></td><td data-label="Rulebook"><span class="todo">Article SEO review (to write)</span></td></tr>
+<tr><td data-label="Agent">8. Editor</td><td data-label="Desk">Making</td><td data-label="Reads">Everything in the article folder, the card&#8217;s promise, your fixes from the app</td><td data-label="Writes"><code>final.md</code>, your one-page summary for the app</td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">9. Publisher</td><td data-label="Desk">Publishing</td><td data-label="Reads"><code>final.md</code>, figures, thumbnail, your approval in the app, then the live page</td><td data-label="Writes">The real post in local WordPress, which goes live on its date after your confirmation (or the updated post, for a refresh), a live-page check report</td><td data-label="Rulebook"><span class="todo">WordPress publishing (to write)</span></td></tr>
+<tr><td data-label="Agent">10. Campaign manager</td><td data-label="Desk">Performance</td><td data-label="Reads">The site&#8217;s age, the full publishing history and the tree, the keyword store, Search Console (index coverage first, then impressions and clicks), site analytics, Core Web Vitals, rival sitemaps (it runs the Saturday pull and compare), each article&#8217;s expectation and review date</td><td data-label="Writes">The report that opens each window meeting, direction for the next windows, new rival addresses for the explorer, and later scorecards, nudges with evidence and refresh jobs. All on the board</td><td data-label="Rulebook"><span class="todo">Performance review (to write)</span></td></tr>
+<tr class="later"><td data-label="Agent">11. LinkedIn writer, later</td><td data-label="Desk">Distribution</td><td data-label="Reads"><code>final.md</code>, figures</td><td data-label="Writes">Posts for a separate LinkedIn page you will create</td><td data-label="Rulebook">Written when it is built</td></tr>
+<tr class="later"><td data-label="Agent">12. Reel maker, later</td><td data-label="Desk">Distribution</td><td data-label="Reads"><code>final.md</code>, figures, the thumbnail look</td><td data-label="Writes">Script, storyboard, voiceover, video</td><td data-label="Rulebook">Written when it is built</td></tr>
+</tbody>
+</table>
+</div>
+<p>The managing editor (the main session) is not on the list. It runs the room, runs the meeting when you type <code>/go</code>, and is not an agent file. There is no refresh agent either: refreshes run through the making desk.</p>
+<p>A rulebook is the written instruction an agent loads before it works; in the system it is called a skill. Three exist today: writing style, thumbnails and the SEO research store. Four are still to write for the first build: illustrations (the rules already exist as a document), article SEO review, WordPress publishing and performance review.</p>
+<h3>Later: LinkedIn and reels</h3>
+<p>Both wait until the article pipeline is settled. Then each social pipeline is decided on its own, one at a time.</p>
+<ul>
+<li><b>LinkedIn:</b> posts will go out from a separate LinkedIn page that you will create, not from your profile. What the LinkedIn pack holds, and when it reaches you, is parked until then.</li>
+<li><b>Reels:</b> a short script, a storyboard from the figures and a voiceover, put together with code in the same look as the thumbnails.</li>
+</ul>
+<p>The honest limits still hold. Posting by API (letting a program post for you) needs app approval and a business account. A voiceover needs a speech service; free ones that run on this computer sound fine for reels.</p>
+<p class="rulebox"><b>Rule</b> Each agent does one job and loads its own rulebook.</p>
+</section>
+
+<!-- 10 -->
+<section class="block" id="s10" aria-labelledby="h10s">
+<h2 id="h10s">10. What exists, and what we build next</h2>
+<p class="lead">A good part of the newsroom is already furnished. Seven steps take us to launch, one at a time, each starting with your &#8220;go&#8221;. Two more follow after it.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 470" role="img" aria-labelledby="f11t">
+<title id="f11t">A road of numbered stops, top to bottom, starting from a box labelled already built, eight parts. 1, the board, the app and the explorer, with coverage mode, the /go command and the window runner. 2, two rulebooks. 3, the making desk, proven on a first small window. 4, WordPress and the publisher. 5, the launch stock, built in windows. 6, the soft launch with Search Console. 7, the announcement and the drip. Then two dashed stops: the social pipelines one by one, and the campaign manager&#8217;s later modes as data arrives.</title>
+<rect x="10" y="10" width="460" height="40" rx="8" class="fa sa w2"/>
+<text x="24" y="35" class="lb14">Already built: 8 parts (listed below)</text>
+<path d="M290 22h20l-5 6 5 6H290z" class="Fo"/>
+<text x="316" y="35" class="xs">a &#8220;go&#8221; before each step</text>
+<path class="ln soft" d="M40 50V444"/>
+<circle cx="40" cy="80" r="14" class="Fb"/><text x="40" y="85" text-anchor="middle" class="tw">1</text>
+<text x="66" y="78" class="lb14">The board, the app and the explorer</text>
+<text x="66" y="95" class="xs">its sources, coverage mode, the /go command, the window runner</text>
+<circle cx="40" cy="124" r="14" class="Fb"/><text x="40" y="129" text-anchor="middle" class="tw">2</text>
+<text x="66" y="122" class="lb14">Two rulebooks</text>
+<text x="66" y="139" class="xs">illustrations and article SEO review</text>
+<circle cx="40" cy="168" r="14" class="Fb"/><text x="40" y="173" text-anchor="middle" class="tw">3</text>
+<text x="66" y="166" class="lb14">The making desk</text>
+<text x="66" y="183" class="xs">proven on a first window of three or four pieces</text>
+<circle cx="40" cy="212" r="14" class="Fb"/><text x="40" y="217" text-anchor="middle" class="tw">4</text>
+<text x="66" y="210" class="lb14">WordPress and the publisher</text>
+<text x="66" y="227" class="xs">local first, scheduled posts, preview to local to live</text>
+<circle cx="40" cy="256" r="14" class="Fo"/><text x="40" y="261" text-anchor="middle" class="tw">5</text>
+<text x="66" y="254" class="lb14">The launch stock</text>
+<text x="66" y="271" class="xs">about fifty pieces, built window by window</text>
+<circle cx="40" cy="300" r="14" class="Fo"/><text x="40" y="305" text-anchor="middle" class="tw">6</text>
+<text x="66" y="298" class="lb14">Soft launch</text>
+<text x="66" y="315" class="xs">live with Search Console, two weeks before the announcement</text>
+<circle cx="40" cy="344" r="14" class="Fo"/><text x="40" y="349" text-anchor="middle" class="tw">7</text>
+<text x="66" y="342" class="lb14">Announcement and the drip</text>
+<text x="66" y="359" class="xs">two or three a week, growing with the ramp</text>
+<circle cx="40" cy="388" r="13" class="fs sv w2 dash"/>
+<text x="66" y="386" class="lb14">Then: social pipelines, one by one</text>
+<text x="66" y="403" class="xs">the LinkedIn writer, then the reel maker</text>
+<circle cx="40" cy="432" r="13" class="fs sy w2 dash"/>
+<text x="66" y="430" class="lb14">As data arrives: the later modes</text>
+<text x="66" y="447" class="xs">the campaign manager&#8217;s early signal, then performance</text>
+</svg>
+<figcaption><b>Blue builds the newsroom, orange launches the site.</b> Each stop stands on the one before. The making desk needs the board and the rulebooks. The launch needs WordPress. The dashed stops come after launch.</figcaption>
+</figure>
+<div class="two">
+<div class="panel">
+<h3>Already built</h3>
+<ul>
+<li>The keyword store and the topic scores</li>
+<li>The category tree</li>
+<li>Competitor lists and their sitemap pulls</li>
+<li>The writing-style rulebook</li>
+<li>The thumbnail rulebook and generator</li>
+<li>The illustration generator and its rules</li>
+<li>The progress page</li>
+<li>The article page mockup (design A, which the app preview uses)</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Build order</h3>
+<ol>
+<li>The editorial folder, the backlog data, the app, the explorer with its sources, the campaign manager&#8217;s coverage mode, the <code>/go</code> command and the window runner.</li>
+<li>The illustration rulebook and the article SEO rulebook.</li>
+<li>The making desk, proven on a first small window of three or four pieces.</li>
+<li>WordPress locally, the publisher with scheduled posts, and the flow from preview to local post to live.</li>
+<li>The launch stock, built in windows.</li>
+<li>The soft launch, with Search Console.</li>
+<li>The announcement, and the drip.</li>
+</ol>
+<p>Then the social pipelines, one by one. The campaign manager&#8217;s later modes switch on as the data arrives.</p>
+</div>
+</div>
+<p>Each build step is a session or two.</p>
+<p class="rulebox"><b>Rule</b> Nothing gets built until you say go.</p>
+</section>
+
+<!-- 11 -->
+<section class="block" id="s11" aria-labelledby="h11s">
+<h2 id="h11s">11. The launch plan</h2>
+<p class="lead">The site goes public full, not thin. About fifty articles are live before you announce it on LinkedIn. Then a steady drip takes over.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 270" role="img" aria-labelledby="f12t">
+<title id="f12t">A timeline in three bands: build the stock in windows, then a two-week soft launch at three or four a day, then the drip at two or three a week, growing. A dashed line marks the day you announce, between the soft launch and the drip. Below, a line shows articles live: flat at zero while the stock is built, climbing steeply during the soft launch to about fifty, then rising slowly.</title>
+<rect x="20" y="30" width="180" height="34" rx="6" class="fo so w2"/>
+<text x="110" y="52" text-anchor="middle" class="lb14">Build the stock</text>
+<rect x="200" y="30" width="100" height="34" rx="6" class="fb sb w2"/>
+<text x="250" y="52" text-anchor="middle" class="lb14">Soft launch</text>
+<rect x="300" y="30" width="160" height="34" rx="6" class="fv sv w2"/>
+<text x="380" y="52" text-anchor="middle" class="lb14">The drip</text>
+<text x="110" y="84" text-anchor="middle" class="xs">in windows</text>
+<text x="250" y="84" text-anchor="middle" class="xs">3 or 4 a day, 2 weeks</text>
+<text x="380" y="84" text-anchor="middle" class="xs">2 or 3 a week, growing</text>
+<path class="ln dash" d="M300 20V214"/>
+<path d="M300 8h20l-5 6 5 6H300z" class="Fo"/>
+<text x="326" y="19" class="xs">you announce</text>
+<path class="ln soft" d="M20 210H460"/>
+<path d="M20 208H200L300 112C360 106 420 98 460 92" fill="none" stroke="var(--blue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="110" y="200" text-anchor="middle" class="xs">nothing live yet</text>
+<text x="292" y="104" text-anchor="end" class="xs">about 50 live</text>
+<text x="24" y="124" class="xs">articles live</text>
+<text x="240" y="236" text-anchor="middle" class="sm">real dates only, no backdating</text>
+</svg>
+<figcaption><b>Read the blue line.</b> Nothing is live while the windows build the stock. In the soft launch it climbs fast, with real dates. By the day you announce, about fifty pieces stand on the site, and the drip takes over.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The stock:</b> about fifty finished posts, built window by window, approved by you, waiting as scheduled posts.</li>
+<li><b>The soft launch:</b> the site is live and connected to Search Console two weeks before the announcement. The stock goes out three or four a day across those weeks, so the dates are real and spread out, and we watch indexing before the audience arrives.</li>
+<li><b>The announcement:</b> your post on LinkedIn that tells people the site is open.</li>
+<li><b>The drip:</b> two or three new pieces a week after that, growing with the ramp (section 5).</li>
+</ul>
+</div>
+<h3>Why launch full</h3>
+<p>When you announce the site, visitors judge it in seconds. A site with a handful of posts reads as a hobby. A full one reads as a publication.</p>
+<p>Those first visitors matter more than their number. They are where a new domain gets its first mentions and links, and search needs those more than anything in year one.</p>
+<p>The Printables launch did the same: a few hundred pages live, then a daily drip. Google did it no harm.</p>
+<h3>The shape of the stock</h3>
+<div class="stats">
+<div class="stat"><b>About 50 articles</b><span>before the announcement.</span></div>
+<div class="stat"><b>6 or 7 categories</b><span>deep ones, seven or eight pieces each, not thirteen thin ones.</span></div>
+</div>
+<ul>
+<li><b>A books section page:</b> the shelf, with your one-paragraph take on each book. Affiliate links come later.</li>
+<li><b>A templates and tools section,</b> with a few templates.</li>
+</ul>
+<p>Both sections are scoped separately, outside this proposal.</p>
+<h3>Your time is the gate</h3>
+<p>Fifty pieces take about 30 hours of your notes and reviews. So the stock may go live at thirty to forty pieces, with the rest as the first drip buffer.</p>
+<p>The first window stays small anyway, three or four pieces, to prove the belt.</p>
+<h3>Real dates, a finished feel</h3>
+<p>No backdated dates. The site feels established because of its depth and its finish:</p>
+<ul>
+<li>Full category pages and series pages.</li>
+<li>A start-here page.</li>
+<li>An author page that carries your fifteen years.</li>
+<li>The books shelf and the templates.</li>
+<li>A newsletter sign-up.</li>
+<li>No empty corners anywhere.</li>
+</ul>
+<h3>Dates on the site</h3>
+<p>There is no sort-by-date anywhere. Lists are ordered by series or by importance. An article shows only a quiet &#8220;Updated &lt;month year&gt;&#8221; line, there for its own sake and never the focus.</p>
+<p class="rulebox"><b>Rule</b> Launch full, with real dates, then drip.</p>
+</section>
+
+<!-- 12 -->
+<section class="block" id="s12" aria-labelledby="h12s">
+<h2 id="h12s">12. Decisions, and what is still open</h2>
+<p class="lead">All sixteen questions from proposal 4 are settled. Fourteen have answers, one is parked until later, and one is withdrawn. A short list is still open.</p>
+<div class="tablebox">
+<table class="agents">
+<thead><tr><th scope="col">Question</th><th scope="col">Decision</th></tr></thead>
+<tbody>
+<tr><td data-label="Question">1. The pace</td><td data-label="Decision">Start smaller. Ramp toward one a day once the process has gelled and your review time per piece is down; maybe two a day later.</td></tr>
+<tr><td data-label="Question">2. Water marks</td><td data-label="Decision">They scale with the pace, at about six weeks of output: 20, 50 or 100 at the top, and about 60 percent of that at the bottom.</td></tr>
+<tr><td data-label="Question">3. Opening categories</td><td data-label="Decision">Any planned category, but only as a cluster: at least seven or eight planned pieces at once.</td></tr>
+<tr><td data-label="Question">4. A stop at the brief</td><td data-label="Decision">No. The card is enough, and you read every draft before its date.</td></tr>
+<tr><td data-label="Question">5. Sitemap pulls</td><td data-label="Decision">Weekly, on Saturday night.</td></tr>
+<tr><td data-label="Question">6. Sources beyond sites</td><td data-label="Decision">Everything that needs no login: sites, feeds, the newsroom mailbox, Reddit and Hacker News. No ordinary LinkedIn posts by script.</td></tr>
+<tr><td data-label="Question">7. When the report reaches you</td><td data-label="Decision">At the start of each build window, as the opening of <code>/go</code>.</td></tr>
+<tr><td data-label="Question">8. Pitches per meeting</td><td data-label="Decision">One per slot in the block. A killed card is replaced from the top of the backlog; &#8220;publish later&#8221; parks a card.</td></tr>
+<tr><td data-label="Question">9. Window size</td><td data-label="Decision">It follows the cadence: rolling blocks of ten or fifteen days, built in windows of two or three days.</td></tr>
+<tr><td data-label="Question">10. Publish cadence</td><td data-label="Decision">Three or four a week for the first couple of weeks, then one a day once the process has gelled.</td></tr>
+<tr><td data-label="Question">11. Where to review</td><td data-label="Decision">In the app, in the article design; then one confirmation of the real post in local WordPress sends it live on its date.</td></tr>
+<tr><td data-label="Question">12. Your input on each card</td><td data-label="Decision">Direction, through &#8220;your note&#8221;. Stories are optional. Voice through chat when you want it, transcribed into the data.</td></tr>
+<tr><td data-label="Question">13. Killed cards</td><td data-label="Decision">To the ideas bin with your reason. The explorer may retry one from a new angle. Nothing is deleted.</td></tr>
+<tr><td data-label="Question">14. The LinkedIn pack</td><td data-label="Decision">Parked. Posts will go from a separate LinkedIn page; social pipelines come one by one after the article pipeline.</td></tr>
+<tr><td data-label="Question">15. A fast lane for takes</td><td data-label="Decision">None. Takes are rare, two to four in fifty, and ride the normal window.</td></tr>
+<tr><td data-label="Question">16. When performance mode starts</td><td data-label="Decision">Withdrawn. The campaign manager decides from the data; about 100 impressions over 28 days is its own rule of thumb.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="open">
+<h3>Still open</h3>
+<ul>
+<li><b>Block and window lengths:</b> ten or fifteen days of publishing, and two or three days of desk work.</li>
+<li><b>Launch stock size:</b> thirty to forty pieces, or the full fifty.</li>
+<li><b>Voice notes:</b> later.</li>
+<li><b>The LinkedIn pack and the social pipelines:</b> after the article pipeline is settled.</li>
+<li><b>Back burner, before launch:</b> how LinkedIn newsletter notices reach the newsroom mailbox without access to your personal email. Two routes to research: a mail filter that forwards only those notices, or a second address on your LinkedIn account.</li>
+<li><b>Back burner, before launch:</b> the follow list of fifteen to twenty product, UX and business newsletters, with their subscribe links.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> The decisions are settled. Each open item waits for your call, one at a time.</p>
+</section>
+
+</div>
+</main>
+<footer class="wrap"><p>The final proposal, built on the owner&#8217;s brief (<code>research/discussion/brd-v1-2026-10-08.md</code>) and the running record in <code>research/discussion/context.md</code>, whose session of October 10 holds every decision on this page. The files named here under <code>research/editorial/</code> and <code>research/articles/</code>, and the newsroom app, do not exist yet; they come with build steps 1 and 3. The block and window lengths, the launch stock size and the items in section 12&#8217;s open list are still to be fixed. Proposals 1 to 4 are kept as they were, for comparison. The command name <code>/go</code> is a placeholder.</p></footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById("themebtn"), K="ups-theme", modes=["auto","light","dark"], m="auto";
+  try{ m=localStorage.getItem(K)||"auto"; }catch(e){}
+  if(modes.indexOf(m)<0) m="auto";
+  function apply(){ if(m==="auto"){ root.removeAttribute("data-theme"); } else { root.setAttribute("data-theme",m); } btn.textContent="Theme: "+m; }
+  apply();
+  btn.addEventListener("click",function(){ m=modes[(modes.indexOf(m)+1)%3]; try{ localStorage.setItem(K,m); }catch(e){} apply(); });
+})();
+</script>
+</body>
+</html>

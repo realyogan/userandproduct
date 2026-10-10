@@ -45,3 +45,23 @@ short sentences, with simple charts and diagrams.
   WordPress; a review week (30 to 40 minutes per draft); scheduled publishing at about two a week; and the arithmetic
   (8 to 10 pieces a window, the first window 3 or 4). 12 sections, with a new pitch-meeting section and a build-window
   section, and 14 questions (proposal 2's seven plus seven on the rhythm).
+- [publishing-system-proposal-4-2026-10-10.html](http://localhost/user-and-product/research/explainers/publishing-system-proposal-4-2026-10-10.html):
+  proposal 4, built on proposal 3 with every agent, desk and the monthly rhythm kept (proposals 1 to 3 kept as they were).
+  A fourth kind of idea, the take (the owner's answer to a rival's notable new piece, allowed only when he has lived the
+  opposite, has evidence the source lacks, or the source left out a case that changes the answer; measured on authority,
+  not rank; a proposed fast lane of one a month). The explorer pitches angles, names the piece each card sits beside,
+  and judges every new rival page as gap, take or nothing. The campaign manager now starts on day one, in three modes
+  switched by data (coverage, early signal, performance), runs the weekly sitemap pull and compare, and is in the first
+  build: 11 agents, 12 with reels. New backlog fields kind and sits beside, a seventh source (what the owner forwards),
+  and 16 questions (two new: the fast lane, and when performance mode switches on); answers saved on proposal 3 carry over.
+- [publishing-system-proposal-5-2026-10-10.html](http://localhost/user-and-product/research/explainers/publishing-system-proposal-5-2026-10-10.html):
+  proposal 5, the final proposal, carrying every decision of 10 Oct (proposals 1 to 4 kept as they were). The owner gives
+  direction, not stories: each card has "your note", stories are optional, no first-person claim he did not give. Rolling
+  build windows (block of ten or fifteen publishing days, window of two or three days) opened by one command (`/go`, a
+  placeholder) with the campaign manager's report, then one card per slot; review in publishing order before each date.
+  A newsroom app (one local page reading the agents' data files: board, cards, report, timeline, draft preview in the
+  article design). Three ways onto the board (the explorer's reading, a book the owner names, the owner's brief), an
+  ideas bin, categories opened only as clusters of seven or eight, water marks scaled to the pace, eleven explorer
+  sources with a newsroom mailbox. The campaign manager as director. 10 agents in the first build, LinkedIn writer and
+  reel maker later (12). Build order to launch, a launch plan (about fifty articles, soft launch, then the drip), and a
+  decisions table for the sixteen questions with a still-open list. 12 sections; no answers form.

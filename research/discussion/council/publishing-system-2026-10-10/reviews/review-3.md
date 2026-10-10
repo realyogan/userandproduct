@@ -1,0 +1,7 @@
+# Review 3
+
+**1. Strongest: D.** It asks the right question for goal one: where does the owner's judgment enter the page? It shows every input is public except a note about form, and uses the proposal's own "real product team" example as proof. Its fix is cheap: two or three practice questions per card, answered by voice in minutes, with cards labeled "seeded" or "synthesis". It also sees that a ramp gated on less owner time trades authority for volume. B gives the same diagnosis plus the best guard (no invented third-person examples), but D says how X gets supplied, not only how fakes get blocked.
+
+**2. Biggest blind spot: C.** Its build points are sound (the app needs a save endpoint, the theme is unscheduled, the explorer can wait), but all of them serve throughput. Its fastest path makes the same synthesis sooner and never asks whether the first three drafts carry the author. It even cuts takes, the ideas built on lived experience.
+
+**3. What all five missed: positions, not just facts.** The hard rule covers first-person claims; B adds invented examples. But every "do this, never that" under his byline reads as his judgment, with or without an "I". An agent's recommendation he does not hold is a borrowed opinion with his name on it; his network will notice. The editor should list each position a draft takes; the owner approves, rewords or strikes each one before reading the prose. That list is also his fastest review.

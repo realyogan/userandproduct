@@ -489,3 +489,192 @@ owner-written baseline plus three test pieces through plain prompts before any a
 invented first-person detail and a confidentiality check on every story; four making agents not seven; measure
 authority signals not 90-day rank; add a newsletter; park reels, the public newsroom series and the gap-map
 dataset until month six. Owner has not yet responded to the verdict.
+
+Session 10 Oct 2026. Yesterday's work committed and pushed (bc46bbf). Owner reviewing proposal 3.
+Performance desk (owner, 10 Oct): on a fresh domain there is nothing to score for the first quarter (index
+coverage within days, impressions after four to eight weeks, clicks after months), so the campaign manager's
+duties switch on by data, not by calendar. Three modes, same agent: coverage mode from day one (planned versus
+published per category and pillar; thin pillars, fewer than about five supporting pieces; orphan pages and
+missing internal links; Search Console index coverage; rival sitemap diffs as backlog candidates tagged with their
+source; authority signals: links, mentions, direct and returning visits); early-signal mode once pages have
+impressions (indexed but not showing, impressions without clicks, striking-distance terms at positions eight to
+twenty); performance mode once a page has about a hundred impressions over 28 days (the v2 duties: scoring,
+nudges, refreshes, pruning). Rival feed guard, owner agreed: the manager flags gaps with evidence, the explorer
+judges fit against the tree and the owner's experience, only then a pitch card; the backlog carries a source
+field. Early Sunday status is mostly a coverage report. To be folded into the proposal with the fourteen answers.
+Explorer (owner, 10 Oct): add a pitch kind, "the take": a response to something notable just published, where the
+value is the owner's disagreement, counter-example or the part they missed; links to the source; not me-too. Card:
+what they claimed, what experience says instead, the title (states the take, never teases; promise paid in the
+first screen). Story slot answered on the spot; no take, no card. Fast lane proposed: a take approved on Sunday is
+drafted that week and takes the next scheduled slot, at most one a month. Measured on authority signals (shares,
+mentions, links), not rank. Sources: rival sitemap diffs, the owner's reading, what the owner forwards.
+Owner: takes must be fact-based, never disagreement for its own sake. Rule: a take earns a slot only when the owner
+has lived the opposite, has evidence the source lacks, or the source left out a case that changes the answer.
+Mostly agreeing is fine ("they're right, here is the part they skipped") or no card. Verifier adds a check for
+takes: the source's claim is quoted accurately and in context, no straw man.
+Owner: the competitor sitemap pull is inspiration for the explorer, read together with the tree and the keyword map.
+Each new rival URL lands on one of three outcomes: gap (we have nothing and demand exists: ordinary pitch card,
+source noted), take (a claim the owner's experience answers: take card), or nothing (covered or no demand: logged
+and dropped, never resurfaces). The Performance desk runs the pull and the diff only; the judgment is the explorer's.
+Owner: the explorer compares three things, what rivals wrote, what we already published, what the keyword map wants,
+and pitches an angle, not just a topic ("we have the how-to on X, nothing on when X fails, two ways to write that").
+Each pitch card names the existing piece it sits beside, so no two of ours compete for one query and the new piece
+links into the old from day one. "Already covered" is a normal, cheap outcome.
+Owner asked to update the proposal with the morning's points so it can be read again. Decision: proposal 4
+(new file, pattern of one file per revision), reading the same browser key as proposal 3 so the saved answers carry
+over. Edits: the take as a fourth idea kind with its rule and the straw-man check; rival URLs land on gap, take or
+nothing; angle not topic, cards name the piece they sit beside; "what you forward" as a seventh explorer source;
+campaign manager in three modes switched by data (coverage from day one, early signal, performance), which puts it
+in the first build (eleven agents, twelve with reels) and moves only its later modes to build step 7; backlog gains
+kind and sits-beside fields; pitch card gains kind, sits-beside and the quoted claim for takes; questions 15 (fast
+lane) and 16 (performance-mode threshold) added.
+Explorer, two passes (owner question): the sitemap gives only the address, so the explorer opens every new page for
+title, description and headings (first pass, cheap triage), then reads the candidates in full (second pass), a take
+always in full; blocked or paywalled pages get the RSS title and summary only and the card says so. To be written
+into source (b).
+Owner: books as a backlog gateway. Eighth explorer source, "a book you name", run on demand: list the book's ideas
+(famous books from knowledge; lesser-known ones need the table of contents or the owner's notes), turn each into a
+reader question, check the keyword store then one paid batch under the cap, cards with source "book: title", rest
+logged so a book is not mined twice. Guards: no summaries or wholesale frameworks, the article teaches the idea in our
+words with the owner's experience, credits and links to the book; no invented quotes or page numbers. Series idea:
+one book, one idea per piece, tested against practice; feeds the later books directory with affiliate links.
+Owner: third backlog gateway, "your brief": the owner says in chat, any day, "we should write about X" with the rules
+they know (example: dashboard and table design, numbers right-aligned, text left-aligned). The main session puts it
+on the board at once, source "your brief", the owner's rules saved word for word as the seed. The explorer does the
+legwork (reader question, keyword fit, top five and what they miss, each rule checked against sources; where sources
+disagree the card shows both and the owner's rule stands as "from experience"). It skips the queue, not the card: top
+of the next pitch meeting, or straight into the window on "now"; the card still sets outline, expectation and story.
+The owner's rules form the spine of the piece, in the owner's order, research fills in the why and the examples.
+Proposal answers (owner, 10 Oct). Q1 pace: start smaller, two or three a week, until the process has gelled and the
+gaps are found; then ramp toward one a day, possibly two a day later. Noted for the proposal: the ramp is gated by the
+owner's own time (stories at the pitch meeting, review week at 30 to 40 minutes a draft: about 5 to 7 hours a month at
+two or three a week, 15 to 20 hours at one a day), so the condition for ramping is "process gelled and review time per
+piece down", not a date.
+Q2 water marks: scale with the pace, about a month and a half of output: 20 at two or three a week (as now), 50 at one
+a day, 100 at two a day; bottom mark about sixty percent of the top (12, 30, 60). A formula tied to pace, not fixed.
+Q3: a category opens only as a cluster. The explorer may open any planned category when it can put at least seven or
+eight planned pieces on the board for it at once, to be scheduled over the coming windows; one idea never opens a
+category; no thin categories floating around. The campaign manager's thin-pillar threshold becomes seven or eight.
+Q4: the pitch card is enough; no stop at the brief. The writer starts, everything is published to local WordPress
+first, the owner gets the list of links, reads, suggests changes, and only the owner's "push" moves a piece live.
+(Implies Q11: review in local WordPress.)
+Q5: weekly sitemap pull, Saturday night so the diff is ready for Sunday.
+Q6: the explorer reads everything that needs no login: rival sites and feeds, newsletters (Substack, Beehiiv, Medium
+feeds), Hacker News (public API), Reddit (public subreddit feeds or JSON at low volume, a source of reader questions
+in their words). LinkedIn cannot be read by script (login wall, no feed, against its terms); LinkedIn voices come in
+through "what you forward" or through their own newsletter feeds. The list of subreddits and newsletters is approved
+once by the owner.
+Q6 refined (owner wants no routine copy-pasting): a dedicated newsroom mailbox, subscribed once by the owner to the
+newsletters worth following, read by the explorer on its weekly pass over a standard mail connection; LinkedIn
+newsletters arrive there by email with full text, which is the legal route for that part of LinkedIn. Ordinary
+LinkedIn posts: not readable by API, bot accounts or driving the owner's logged-in browser break the terms and risk the
+owner's account, advised against. LinkedIn voices followed through their own newsletter, blog or Substack feeds plus
+Google Alerts on names delivered to the mailbox. Forwarding stays as the side door for stray posts only.
+Correction on LinkedIn newsletters: subscribing needs a LinkedIn account (no email-only box); the notice email carries
+title, excerpt and link, not the full text; the newsletter edition itself is a LinkedIn article with a public address,
+usually readable without login (short feed posts are the gated ones). Setup: the owner subscribes from their own
+account, one mail filter forwards LinkedIn newsletter notices to the newsroom mailbox, the explorer fetches the public
+article from the link; a gated edition is marked "excerpt only" on the card.
+Verified (10 Oct): a LinkedIn newsletter edition from the owner's notice email was fetched logged-out, with and without
+tracking parameters, status 200, full body (about 6,100 characters). Newsletter editions are readable without a login;
+the explorer strips the tracking parameters and fetches the public article. Short feed posts remain gated.
+Back burner, before launch (owner, 10 Oct): how LinkedIn newsletter notices reach the newsroom mailbox without giving
+access to the owner's personal email. No fake or anonymous profile (against LinkedIn's terms). Routes to research: a
+mail filter in the owner's mailbox forwarding only LinkedIn newsletter notices to the newsroom mailbox; a secondary
+address on the owner's LinkedIn account if notifications can go there. Also: research a follow list of product, UX and
+business newsletters (LinkedIn and elsewhere), fifteen to twenty with subscribe links, since LinkedIn has no
+newsletter directory (help page: search, My Network trending and recommendations, profile Interests, feed only).
+Q7: the scorecard comes at the start of each build window, not weekly; scorecards mean little in the early months. One
+command (placeholder "/go") opens with what happened since the last window, then the planned pieces as cards.
+Owner: a newsroom app, project-management style, as the front end: agents update data files only (backlog, cards,
+scorecard, window plans, decisions), one local app page (plain HTML and vanilla JS on XAMPP, no build step) reads them
+with views for the board by status, the pitch cards with approve, kill, change and the story box, the scorecard, and a
+timeline of past windows; the owner's clicks and text are saved as a decisions file the agents read; each window keeps
+a snapshot for replay. No agent generates HTML for the owner to read. Grows out of the tree and build-plan app idea and
+replaces backlog.html; becomes part of build step 1.
+Q8: pitches per meeting equal the slots in the block the window feeds; a killed card is replaced on the spot by the
+next card from the top of the backlog; "publish later" parks the card with a note for a later meeting; hence the
+backlog always holds more than a window needs.
+Q9: the window size follows the cadence. Rolling schedule with two settings the owner fixes later (block length, e.g.
+ten or fifteen days of publishing; window length, two or three days). Example with ten-day blocks: Dec 28-30 builds
+Jan 1-10, Jan 7-9 builds Jan 11-20, Jan 18-20 builds Jan 21-30. Rule added: review in publishing order, each piece
+approved before its own date; the publisher never pushes an unapproved piece, a late read slides that slot only.
+Q10: three or four a week for the first couple of weeks, then one a day once the process has gelled (ramp conditions
+as in Q1).
+Q11: review in the app, confirm in local WordPress. The app renders the draft with the article page design (mockup A)
+so the owner reads it as it will look; corrections are marked on the paragraph in the app and saved as data the writer
+and editor act on; once the owner is happy the publisher creates the real post in local WordPress, the owner confirms
+once, and that confirmation sends it live on its date. Folder files are never the owner's reading surface.
+Q12: the owner's input is direction, not stories. The card's "story slot" becomes "your note", a plain text box for
+how the piece should go (write it this way, lead with that, drop this); a story is an optional extra and many cards
+will have none; no first-person claim the owner did not give. Voice through chat when the owner wants, transcribed and
+written into the data.
+Q13: killed cards go to an ideas bin, their own section of the board, kept with the owner's reason; when the backlog
+runs thin the explorer may retry one from a different angle. Nothing deleted.
+Q14: deferred. Posting will go from a separate LinkedIn page the owner will create, not the profile. Social pipelines
+are decided one by one after the article pipeline is settled; the LinkedIn pack is parked until then.
+Q15: no fast lane. The rival feed is inspiration; the usual result is a piece in a different perspective on the same
+topic, valid only when none of the top pages cover it (the "better" kind, judged by the learning sentence). Real takes
+are rare, two to four in fifty, and ride the normal window.
+Q16: the campaign manager is a director, not a switch. It always holds the site's age, the full publishing history and
+the keyword data, decides itself when per-page scoring means something (the hundred-impression figure is its rule of
+thumb, not an owner setting), and gives direction forward: which categories and rising terms deserve the next windows,
+handed to the explorer through the board. Question 16 is withdrawn.
+Launch plan (owner, 10 Oct): as with Printables, launch with a full-feeling site, then drip. Target about fifty
+articles live before the public announcement, plus a books section and a few templates (scoped separately), then two
+or three a week. Agreed shape: fifty pieces in six or seven deep categories (seven or eight each, per Q3), not thirteen
+thin ones; the owner's time is the gate (about 30 hours of notes and reviews for fifty), so the stock may launch at
+thirty to forty with the rest as the first drip buffer; the first window stays small (three or four pieces) to prove
+the belt; no backdated dates, the established feel comes from depth and finish (full category and series pages,
+start-here, author page, books shelf with the owner's takes, templates, newsletter, no empty corners); soft launch two
+weeks before the announcement with the stock scheduled across those weeks, three or four a day, so dates are real and
+spread and indexing is watched before the audience arrives.
+Dates in the UI (owner): no sort-by-date anywhere, lists are just lists ordered by series or importance; the article
+shows only a quiet "Updated <month year>", present for its own sake and never a focus.
+Proposal 5 written (research/explainers/publishing-system-proposal-5-2026-10-10.html): every decision of the day, the
+owner's role as direction, rolling windows, the app, three doors, the director, the launch plan, a decisions table.
+Council on proposal 5 run (research/discussion/council/publishing-system-2026-10-10/: question, advisor-responses,
+peer-reviews, verdict). Verdict in short: keep the shape; the central gap is that nothing is required to supply the X in
+the learning sentence once the owner gives direction rather than stories, so add a seed on every card (two or three
+practice questions answered by voice in minutes, traced on the card; cards labeled seeded or synthesis, synthesis capped
+at about a quarter and kept out of the ten flagship launch pieces); widen the hard rule to every invented specific, add a
+close-paraphrase check, and have the editor list the positions a draft takes for the owner to approve or strike; reorder
+the build to run the making desk first on three hand-written cards with timing and a cold reader, then the app (needs a
+PHP save endpoint and stable paragraph ids), with WordPress, theme, plugin and section pages in parallel and domain and
+hosting bought now; a principles file from day one; leading-signal expectations and a ramp gated on fixes per draft; set
+the stock from the first window (expect thirty to forty), soft launch spread over three or four weeks at one or two a day
+because four reviewers raised Google's scaled-content policy; buffer and slipped-date rule; linking pass per window.
+Owner has not yet responded to the verdict.
+Owner on the council verdict (first response, 10 Oct): the launch stock stands at fifty as the bar, ten articles in each
+of five categories, plus a templates section and a books section, all present on the public launch day; the site is never
+announced with a handful of posts. Pages may be indexable from the first one (sitemap and Search Console on day one,
+dripped at about two a day, nobody told) while the stock builds; "live to Google" and "launched to people" are different
+days. The first window measures the owner's real minutes per piece and sets the date fifty is reached, not the target.
+Owner clarifies the launch (10 Oct): "launch" means the site goes live and is indexed with all fifty articles present at
+once (not dripped out beforehand), plus the books and templates sections; the LinkedIn page opens about a week later with
+the announcement; from then on build windows prepare a block in two or three days and the publisher schedules it to open
+one a day. On the scaled-content question: the policy targets pages made to manipulate rankings rather than help readers,
+not the count on launch day or the method; a fifty-page launch of substantive, reviewed articles with author and about
+pages is an ordinary launch (Printables precedent); the real defense is the owner's judgment visible in each piece and no
+invented specifics, which is the council's central finding.
+Owner (10 Oct): build a rulebook from Google's spam policies so no agent produces content for publishing's sake, and
+check everything planned against it. Four Google pages read in full and saved (research/discussion/references/
+google-policies/, owner's screenshot beside them). Rulebook written as a skill: .claude/skills/search-policy/ (one
+test per page: why our readers would want it if search did not exist; scaled-content rules: every page carries the
+owner's judgment, nothing publishes unreviewed, no stitching or paraphrase, no reason-less pages; originality and
+accuracy questions; who/how/why; honest titles and no stuffing; links: sponsored marking, never bought or traded;
+one URL, no doorways; real dates; never query Google by machine; a ten-point checklist for checker and publisher).
+Check written at research/discussion/google-policy-check-2026-10-10.md: the plan is clear on launch size, pace,
+bylines, the gate, dates, the books shelf, tooling (API only, no Google scraping) and the domain (no history);
+changes: synthesis pieces conflict with the policy's own low-effort example (recommend every page carries a seed,
+brief or note), the owner's oversight must be real per piece, close-paraphrase check added, title rewrites bound to
+honest titles, template pages must be real pages, tag/date/author archives noindex, affiliate links sponsored with
+disclosure. Two decisions for the owner: synthesis pieces at all; a "How this site is made" page.
+Owner on synthesis (10 Oct): up to a quarter of pieces may be synthesis, but synthesis means a fresh take written from
+understanding (own structure, examples, reasoning), never a summary and never paragraphs stitched from sources, which
+is what Google's scaled-content and scraping policies describe. The owner's feedback on the draft is the oversight for
+those pieces; a seed is not required on every card. The other three quarters carry a seed, a brief or the owner's note.
+Rulebook updated accordingly.
+Owner decisions (10 Oct, afternoon): no "How this site is made" page. Order of work: finalize the design of the whole
+website first (every section's mockup, look and feel), then content creation; domain, hosting and WordPress come after
+the mockups are final. The council's build order is parked behind that. Committing everything from today.

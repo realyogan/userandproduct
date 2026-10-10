@@ -1,0 +1,909 @@
+Publishing system proposal 5
+
+Skip to the proposal
+
+## The publishing system, as a newsroom: proposal 5
+
+Theme: auto
+
+How articles get made, in its final shape. A small newsroom of agents finds ideas, then writes, draws and checks each piece. A campaign manager directs the plan from day one. You give direction: at the start of each short build window you read the cards and say how each piece should go. Then you read every draft before its date.
+
+October 10, 2026. Proposal 5, the final proposal: nothing on this page is built yet.
+
+This builds on proposal 4. What changed: all sixteen questions are answered or withdrawn. Your role is now direction, with stories optional. A rolling rhythm of short build windows replaces the monthly meeting. A newsroom app becomes your one screen. The campaign manager acts as a director. There are three ways onto the board, and there is a launch plan.
+
+Think of the system as a magazine newsroom: the window meeting, the press run, then the proofs.
+
+## The one-screen version
+
+The system is a small newsroom of agents. An agent is a program that does one job and follows a written rulebook.
+
+An explorer keeps a backlog (a list of article ideas waiting to be written) full. Ideas reach it three ways: its own weekly reading, a book you name, and your brief, when you say “we should write about X”.
+
+At the start of each build window you type one command, /go. You get the campaign manager’s report, then one card for each publishing slot in the coming block. You approve, kill, change or park each card, and write your note on how the piece should go.
+
+The window runs for two or three days. The desks make everything for the approved cards.
+
+You read each draft in the newsroom app, styled as it will look on the site, in publishing order, before its date.
+
+The publisher creates the real post in a local copy of WordPress. You confirm it once, and it goes live on its date. Then the publisher checks the live page.
+
+A campaign manager directs from day one. At first it counts what is published against the plan. As numbers arrive, it scores pages and says which categories deserve the next windows. It proposes and never changes the site.
+
+The launch: about fifty articles in six or seven deep categories, a soft launch two weeks before you announce the site, then a steady drip.
+
+LinkedIn posts and reels wait until the article pipeline is settled.
+
+10 agentsin the first build. Two more later, for LinkedIn and reels: 12 in all.
+
+30 to 40 minutesto read one draft. The window meeting itself is short: one card per slot.
+
+3 or 4 a weekfor the first couple of weeks. One a day once the process has settled in.
+
+About 50 articleslive before you announce the site, then the drip.
+
+## 1. The newsroom at a glance
+
+Five desks sit around one board. The board holds the backlog of ideas, and you see it in one app. Three desks pass the work along. The fourth, Performance, directs the plan and sends direction back to the board. The fifth, Distribution, waits until later. One person in the middle hands every job from desk to desk.
+
+[Figure: Five desks around a central board shown in the newsroom app. Planning sends ideas to the board, the board feeds Making, and Making passes to Publishing. Distribution is drawn dashed, for later. Performance, the campaign manager, directs from day one and sends direction to the board and to the editor on the Making desk. The managing editor stands in the middle with dashed lines to the board and the desks.]
+
+Look at the middle first. Every dashed line runs to the managing editor. The solid arrows carry paper: finished work moving along, and the direction Performance writes for the board and the editor. The dashed desk at the bottom left comes later.
+
+## In real life
+
+Planning desk: the explorer, which finds and ranks ideas.
+
+Making desk: seven agents. Researcher, writer, illustrator, thumbnail maker, checker, SEO reviewer and editor.
+
+Publishing desk: the publisher, which creates the post in WordPress and checks the live page.
+
+Performance desk: the campaign manager, the director, from day one. It counts what is published against the plan, reads the numbers as they arrive, and points the next windows at the categories that need them.
+
+Distribution desk, later: the LinkedIn writer and the reel maker. Each one is decided on its own once the article pipeline is settled (section 9).
+
+The board in the app: the backlog is data the agents write. You see it in one local app page (section 4).
+
+Managing editor: the main session, the conversation you have with the assistant. It runs the meeting when you type /go, runs the window, and keeps the progress page.
+
+One rule shapes the room. Agents cannot call each other directly. When the writer needs a figure, it asks the managing editor, and the managing editor sends the job to the illustrator.
+
+That is one level flatter than desks talking to desks. Every hand-off shows up in one place, the progress page, where you can see it. The campaign manager’s direction follows the same rule: it is written on the board, never sent straight to a desk.
+
+Rule Every hand-off passes the managing editor, so you can always see who is doing what.
+
+## 2. The backlog, and three ways onto it
+
+Every article starts as one card on the board. A dry board leaves the desks idle. A board full of weak ideas gives you weak articles. So the backlog gets three doors, a gate, two water marks and a bin.
+
+[Figure: A bucket of ideas with three doors above it: the explorer’s weekly reading, a book you name, and your brief, which skips the queue. All three pass a gate at the top; an idea without a learning sentence bounces off and falls out. Inside the bucket are two lines: the top mark, about six weeks of output, and the bottom mark, where the explorer runs again. Killed cards go sideways into an ideas bin, and a dashed arrow shows the explorer may retry one from a new angle. A tap at the bottom sends approved cards to the build window.]
+
+Three doors, one gate. Every idea passes the same gate, whichever door it came through. Above the top line, all is well. Below the bottom line, the explorer goes back out for more. A card you kill goes to the bin, not the trash.
+
+## In real life
+
+The board is data: a backlog file the agents write, under research/editorial/. You see it in the newsroom app (section 4), which replaces the old backlog.html idea.
+
+Top water mark: about six weeks of output. That is 20 approved ideas at two or three pieces a week, 50 at one a day, 100 at two a day.
+
+Bottom water mark: about 60 percent of the top: 12, 30 or 60. Below it, the explorer runs again.
+
+The gate: an idea without a believable learning sentence is dropped, whatever its search volume.
+
+The ideas bin: killed cards, kept with your reason, in their own section of the board. Nothing is deleted.
+
+The learning sentence is the test. It reads: “the reader learns X, which the top five pages do not teach.” If the explorer cannot write that sentence honestly, the idea does not get on the board.
+
+Volume (searches a month) and difficulty (how hard it is to reach Google’s first page) put the ideas that pass in order. They never let an idea in.
+
+## Door 1: the explorer’s weekly reading
+
+Most cards come this way. The explorer reads its sources every week and pitches what it finds (section 3).
+
+## Door 2: a book you name
+
+You name a book, and the explorer mines it on demand. It works in four moves:
+
+It lists the book’s ideas. For a famous book it works from what it knows. A lesser-known book needs its table of contents or your notes.
+
+It turns each idea into a reader’s question, the way someone would type it.
+
+It checks the keyword store first, then runs one paid batch for the rest, under the spending cap.
+
+The ideas that pass become cards with the source “book: title”. The rest are logged, so no book is mined twice.
+
+The guards are strict. No summaries, and no lifting a whole framework. The piece teaches one idea in our words, with your experience, and credits and links to the book. No invented quotes, and no page numbers we have not seen.
+
+This opens a series: one book, one idea per piece, each tested against practice. It also feeds the books directory planned for later, with its affiliate links.
+
+## Door 3: your brief
+
+Any day, you say in chat: “we should write about X”, with the rules you already know. The managing editor puts it on the board at once, with the source “your brief”. Your rules are saved word for word, as the seed of the piece.
+
+An example brief, made up for this page
+
+What you said
+“We should write about dashboard and table design. Numbers right-aligned, text left-aligned.”
+
+Source
+your brief
+
+Seed
+Your two rules, word for word, in your order.
+
+Reader’s question
+How should I align numbers in a table?
+
+Explorer’s legwork
+Keyword fit, the top five pages and what they miss, and each of your rules checked against sources.
+
+Where sources disagree
+The card shows both sides. Your rule stands, marked “from experience”.
+
+Status
+Top of the next meeting, or into the current window if you say “now”.
+
+A brief skips the queue, not the card. It still gets a card with an outline, an expectation and your note. Your rules form the spine of the piece, in your order. The research fills in the why and the examples.
+
+## What one card holds
+
+An example card, made up for this page
+
+Working title
+How to write a PRD engineers read to the end
+
+Reader’s question
+How long should a PRD be?
+
+Learning sentence
+The reader learns to cut a product requirements document (PRD) to one page in five sections, which the top five pages do not teach: they hand out 12-section templates.
+
+Kind
+gap
+
+Your note
+Lead with the one-page rule. Drop the history of templates. Keep the example from a real product team, not a made-up one.
+
+Story
+None on this card. That is normal.
+
+Expectation
+Top 10 for “how long should a PRD be” within 90 days of publishing, and 50 clicks a month by day 120.
+
+Status
+pitched
+
+Look at the learning sentence first. That one line decides whether the other fields matter at all. Then look at your note: it is the line only you can write. The full list of fields:
+
+Working title
+The headline for now.
+
+Category
+One of the planned categories. A category opens only as a cluster (below).
+
+Reader’s question
+What the reader typed or asked, in their words.
+
+Learning sentence
+“The reader learns X, which the top five pages do not teach.”
+
+Kind
+Gap, better, expansion, take, or refresh.
+
+Angle
+Our way into the topic.
+
+Sits beside
+The existing piece of ours this one stands next to, if any, so the two never compete and link to each other.
+
+Demand
+Searches a month.
+
+Difficulty
+How hard the first page is to reach.
+
+Trend
+Rising, flat or falling.
+
+Intent
+What the searcher wants: to learn, to compare, to get a template.
+
+Competitors
+The three best pages, and what each one misses.
+
+Format
+Article, explainer-led, template page, part of a series, or a refresh of an old page.
+
+Outline
+The headings, and one line on what each section says. Written before the window meeting.
+
+Images planned
+The figures the piece needs, and its thumbnail style.
+
+Your note
+A text box for how the piece should go: write it this way, lead with that, drop this. Filled in at the meeting.
+
+Story
+Optional, and many cards have none. If you give one, it is saved here and in the story bank.
+
+Seed
+For a brief only: your rules, word for word.
+
+Expectation
+What we expect this article to do, and by when, in one line. Set when you approve the card. The campaign manager measures against it.
+
+Review date
+When the campaign manager looks at the page again. Six months after publishing by default, sooner when a trigger fires (section 8).
+
+Status
+idea, pitched, approved, writing, in review, confirmed, scheduled, published, parked (“publish later”), or in the ideas bin.
+
+Source
+Keyword store, competitor sitemap, reader question, the newsroom mailbox, Reddit or Hacker News, the campaign manager, a take on a named rival page, forwarded by you, book: title, your brief, or ideas bin.
+
+## A category opens only as a cluster
+
+One idea never opens a category. The explorer may open any planned category, but only when it can put at least seven or eight planned pieces on the board for it at once. Those pieces are then scheduled over the coming windows. So there are no thin categories with one lonely piece in them.
+
+The explorer gives its reason in one sentence:
+
+“Opening Product marketing: eight planned pieces are ready for it, and Product management already has twelve.”
+
+Rule No learning sentence, no place on the board. Search volume only decides the order.
+
+## 3. How the explorer finds ideas
+
+The explorer is the reporter on the planning desk who reads the rival papers every week. It lays three things over each other and looks for the spots where they do not match.
+
+[Figure: Three overlapping circles: what people search, what competitors wrote, and what we have. Marked spots: 1, a gap, searched but not written well by anyone; 2, a live topic, searched and written by competitors but not by us; 3, better, where all three meet because we see an angle none of the top pages cover; 4, expansion, a planned category of ours that is still empty; 5, a take, written by competitors and answered by your experience, but not searched; and a cross, skip, written by competitors, not searched, and with no take from you.]
+
+Read the numbers. 1, a gap: people search it and nobody answers it well. 2, a live topic: competitors wrote it, so we write it only if our learning sentence beats theirs. 3, better: they cover the topic, and we see an angle none of the top pages cover. 4, expansion: a planned category of ours with nothing in it yet. 5, a take: a rival just wrote it, few people search it, and your experience answers it with facts. The cross: competitors wrote it, nobody searches it, and you have no take, so we skip it.
+
+## In real life: the circles
+
+What people search is the keyword store and the stored Google questions.
+
+What competitors wrote is their sitemaps, their feeds, and the newsletters in the newsroom mailbox.
+
+What we have is our published list, the planned tree, and what you know from fifteen years of the work.
+
+## Two passes over every new rival page
+
+A sitemap gives only an address. So the explorer reads each new page in two passes:
+
+First pass, cheap triage. It opens every new page and reads only the title, the description and the headings.
+
+Second pass, in full. It reads the candidates from the first pass all the way through. A possible take is always read in full.
+
+Some pages are blocked or behind a paywall. For those it uses only the feed’s title and summary, and the card says so.
+
+Each new rival page then lands in one of three places:
+
+Gap: we have nothing on it, and people search for it. It becomes an ordinary card, with its source noted.
+
+Take: it makes a claim your experience answers, with facts. It becomes a take card.
+
+Nothing: we cover it already, or nobody searches it and you have no take. It is logged and dropped, so the same address never comes back.
+
+## Its sources, cheapest first
+
+Seven sources it reads on its own. Four come from you, and the explorer reads them the same way.
+
+Our keyword store (research/seo/). More than 200 scored phrases, each with its intent (what the searcher wants), trend, difficulty and category. We paid for this research already. Reading it is free.
+
+Competitor sitemaps and feeds. A sitemap is a public file a site publishes that lists all its pages. An RSS feed is a site’s running list of new posts. Every Saturday night the campaign manager pulls them again and compares them with last week’s copy (section 8). Each new address comes to the explorer as a candidate, and the explorer does the judging, in two passes. No paid service is needed.
+
+Our cached search results. The “people also ask” questions and related searches we already stored from Google. They are reader questions in the reader’s own words.
+
+The live pages. For each candidate idea, the explorer opens the top five pages and reads them in full. It writes down what each answers, its headings, and what is missing: no example, no numbers, no template, or the wrong reader. The angle and the learning sentence come from that list.
+
+The coverage map. Our own published list, counted per category, with the campaign manager’s direction on which categories need the next windows.
+
+The newsroom mailbox. A mailbox of its own, which you subscribe once to the newsletters worth following. The explorer reads it on its weekly pass. A LinkedIn newsletter edition is a public article, readable without a login (we tested one today). The notice email carries its title, an excerpt and the link. The explorer strips the tracking parts from the link and fetches the article. If an edition is gated, the card says “excerpt only”.
+
+Reddit and Hacker News. Public subreddit feeds and Hacker News, both readable with no login. They are reader questions in the reader’s own words.
+
+What you forward. The side door, for a stray post or article you come across. The explorer reads it like a new rival page: gap, take or nothing.
+
+A book you name (door 2, section 2).
+
+Your brief (door 3, section 2).
+
+Your story bank (research/editorial/stories.md), optional. A file of the stories you have chosen to tell. An idea that matches one is a strong candidate.
+
+The list of subreddits and newsletters to follow is one you approve once.
+
+## What it does not read
+
+Ordinary LinkedIn posts. They sit behind a login wall, reading them by script is against LinkedIn’s terms, and it would put your account at risk. There is no fake profile either. LinkedIn voices come in through their newsletters, their own blogs, or what you forward.
+
+## Four kinds of idea come out
+
+A gapPeople search it. Nobody answers it well.
+
+A betterRivals cover the topic, and we take a perspective none of the top pages cover. The learning sentence judges it.
+
+An expansionA planned category with nothing in it yet, opened as a cluster.
+
+A takeA rival published something notable, and your experience answers it with facts. We link to it and say what they missed.
+
+The rival feed is inspiration. Its usual result is a better: the same topic from a different perspective. That counts only when none of the top pages cover it.
+
+## The take, and its rule
+
+A take is a response to something notable a rival just published. Its value is your disagreement, your counter-example, or the part they missed. It links to the source. It is not a me-too piece that says the same thing again.
+
+A take earns a slot only when one of three things is true:
+
+You have lived the opposite.
+
+You have evidence the source lacks.
+
+The source left out a case that changes the answer.
+
+Takes are fact-based. Disagreement for its own sake is banned. If you mostly agree, the take says so: “they are right, here is the part they skipped.” Otherwise there is no card at all. The checker confirms the rival’s claim is quoted accurately and in context, so we never argue against a straw man (a weaker version of their point).
+
+Takes are rare: two to four in fifty pieces. They ride the normal window like any card. There is no fast lane.
+
+Most takes have little search demand. So they are measured on authority, not rank: shares, mentions, links, and readers who come straight to the site or come back.
+
+## An angle, not a topic
+
+The explorer pitches an angle, not a bare topic: “We have the how-to on X and nothing on when X fails. Here are two ways to write that.” Each card names the piece of ours it sits beside. So no two of our pages compete for one search, and the new piece links into the old one from day one.
+
+“Already covered” is a normal outcome, and a cheap one. It should be common.
+
+For the cards at the top of the board, the explorer also drafts the outline and the images planned, so each one is ready for the window meeting (section 4).
+
+Pages we already published belong to the campaign manager (section 8), which adds its follow-ups and refreshes to the same board.
+
+Paid keyword checks, for phrases the store has never seen, run in one batch at a time, under the spending cap you already set.
+
+Rule A rival’s new article tells us a topic is live. We write it only when our learning sentence beats theirs.
+
+## 4. The window meeting and the newsroom app
+
+Each build window starts with a short meeting. In a newsroom, reporters pitch stories and the editor picks the ones that run. Here the cards come to you, one for each publishing slot in the block the window feeds, and you see them in one app.
+
+You type one command, /go (the name is a placeholder). The managing editor answers in two parts.
+
+What happened since the last window. This is the campaign manager’s report (section 8). In the early months it is mostly a coverage report: what is live against the plan.
+
+Then the planned pieces, as cards. One card for each slot in the coming block, from the top of the backlog.
+
+[Figure: A pitch card with its parts labelled: title and category; the reader’s question and the learning sentence; the short outline, headings with one line each; the images planned; format and evidence, meaning demand, difficulty, trend and rival pages; the expectation line; and your note, a text box for how the piece should go. Below, a row of ten small cards, one per slot: six ticked, two crossed out, one marked changed and one marked publish later.]
+
+One card, one decision. Everything you need to say yes or no sits on the card. The orange box at the bottom is yours: how the piece should go, in your words.
+
+## In real life: what one card holds
+
+Working title and category.
+
+The kind: gap, better, expansion, take or refresh.
+
+Sits beside: the piece of ours it stands next to, if any.
+
+The reader’s question, in their words.
+
+The learning sentence: what the reader learns that the top five pages do not teach.
+
+A short outline: the headings, and one line on what each section says. It is the shape of the piece, not the article.
+
+The images planned: the figures, and the thumbnail style.
+
+The format.
+
+The evidence: demand, difficulty, trend, and the three competitor pages with what each one misses.
+
+The expectation line: what we expect the piece to do, and by when.
+
+Your note: an empty text box for how the piece should go.
+
+A story, optional: a box you may fill or leave empty.
+
+For a take, also the rival’s claim, quoted accurately with a link, and what your experience says instead.
+
+For a brief, also your rules, word for word, and where sources agree or disagree with them.
+
+## Your four answers
+
+Approve. Write your note if you have one. The card moves to “approved”.
+
+Kill. The card goes to the ideas bin with your reason. The next card from the top of the backlog takes its slot on the spot, so the block stays full.
+
+Change. Say what to change. The managing editor updates the card while you wait.
+
+Publish later. The card is parked with a note and comes back at a later meeting.
+
+Since a kill pulls the next card at once, the backlog always holds more than one window needs. That is what the water marks are for.
+
+## Your note: direction, with stories optional
+
+Your job at the meeting is to give direction. The note says how the piece should go: write it this way, lead with that, drop this. A sentence is often enough.
+
+A story is an extra, never a requirement. Many cards will have none. When you do give one, it is saved on the card and in the story bank.
+
+One hard rule stays. The writer never makes a first-person claim you did not give. No “when I ran this team” unless you said it.
+
+You can also talk instead of typing. Say it in chat when you want to, and it is transcribed and written into the card’s data.
+
+## The newsroom app: your one screen
+
+Everything you look at lives in one local app page. The agents never make pages for you to read. They write data files only, and the app reads them.
+
+[Figure: On the left, the agents write into a stack of data files: backlog, cards, report, window plans, decisions and snapshots. An arrow marked reads goes to a browser window, the newsroom app, with five tabs: Board, Cards, Report, Timeline and Preview. The Board tab shows four columns of cards: idea, approved, review and live. Below it, a draft preview has one paragraph marked with your correction. An arrow from the app back to the data files carries your clicks, notes and corrections.]
+
+Follow the two arrows. The agents write data, and the app reads it. Your clicks and fixes go back as data too. No agent makes a page for you, so there is one screen to learn.
+
+## In real life: the app
+
+One local page on this computer, served by XAMPP, in plain HTML and a little JavaScript. No build step. It replaces the old backlog.html idea and grows out of the tree and build-plan app idea.
+
+Board: every card by status, in columns, the way a project board works (a kanban board).
+
+Cards: the cards for the current window, with approve, kill, change and publish later, and your note box.
+
+Report: the campaign manager’s report for this window.
+
+Timeline: past windows, each kept as a snapshot you can replay.
+
+Preview: each draft shown in the article page design (mockup A), so you read it as readers will. You mark a fix on the paragraph itself.
+
+Decisions and fixes are saved as data. The writer and the editor read them and act on them.
+
+The article folders on disk still exist, for the agents. They are never your reading surface.
+
+Rule Nothing gets written until you have seen its card, and you see it all in one app.
+
+## 5. Rolling build windows
+
+The desks run for two or three days and make one block of pieces in one go. A few days before that block runs out, the next window builds the next block. In a newsroom this is the press run, and here it rolls every ten or fifteen days.
+
+[Figure: A timeline from December 28 to January 30. Three short orange build windows, December 28 to 30, January 7 to 9 and January 18 to 20, each start with a blue meeting dot. An arrow runs from each window down to the ten-day purple block it builds: January 1 to 10, January 11 to 20 and January 21 to 30. The second and third windows fall inside the block before the one they build.]
+
+Read top to bottom, then left to right. Each orange window builds the purple block below it. The second window runs while the first block is still going out, so the schedule never runs dry.
+
+## In real life
+
+The meeting is your /go session at the start of each window (section 4).
+
+The press run is the build window: the desks make every piece for the approved cards in one run. The progress page and its chime run through it.
+
+The proofs are the drafts in the app’s preview, which you read in publishing order (section 7).
+
+The issue going out is the live site, one block of pieces at a time.
+
+## An example with ten-day blocks
+
+ | 
+ | Window | Builds the block
+
+ | Dec 28 to 30 | Jan 1 to 10
+
+ | Jan 7 to 9 | Jan 11 to 20
+
+ | Jan 18 to 20 | Jan 21 to 30
+
+Two settings shape this, and you fix both later:
+
+Block length: ten or fifteen days of publishing.
+
+Window length: two or three days of desk work.
+
+The number of cards at each meeting equals the slots in the block. So the window size follows the cadence.
+
+Refresh jobs from the campaign manager ride the same window, next to the new pieces.
+
+## Review, in publishing order
+
+You read the drafts in the order they will go out. Each piece must be approved before its own date. A proper read of one draft takes 30 to 40 minutes.
+
+The publisher never pushes a piece you have not approved. If you read one late, only that slot slides. The rest of the block keeps its dates.
+
+## The pace, and what gates it
+
+3 or 4 a weekfor the first couple of weeks, while the process settles in and the gaps show.
+
+1 a dayonce the process has gelled. Maybe two a day later.
+
+The ramp is gated by your time, not by the agents. Your notes at the meeting and your reading add up. At two or three a week that is about 5 to 7 hours a month. At one a day it is 15 to 20 hours.
+
+So the condition for the next step up is not a date. It is this: the process has gelled, and your review time per piece has come down.
+
+The water marks scale with the pace, at about six weeks of output:
+
+ | 
+ | Pace | Top mark | Bottom mark
+
+ | 2 or 3 a week | 20 | 12
+
+ | 1 a day | 50 | 30
+
+ | 2 a day | 100 | 60
+
+The first window stays small, three or four pieces, to prove the belt and to time your reading.
+
+## Two earlier choices that stand
+
+The managing editor, the main session, runs the meeting.
+
+The explorer drafts the outline and the images planned for the top cards before each meeting.
+
+The third earlier choice, a monthly meeting, gives way to the meeting at the start of each window.
+
+Rule Each window builds the next block, and you approve every piece before its own date.
+
+## 6. One article, station by station
+
+Inside the build window, each approved card rides a belt past seven stations, the way copy moves from desk to desk in a newsroom. Two stop signs hold it for your eyes: the window meeting before the belt starts, and your review in the app after it ends. A refresh job from the campaign manager rides the same belt.
+
+[Figure: A conveyor belt in two rows. Top row, left to right: stop sign 1, the window meeting, then researcher writes the brief, writer drafts, illustrator draws figures, thumbnail maker draws the hero and thumb. The belt turns down. Bottom row, right to left: checker checks facts and links, SEO reviewer checks title and links, editor signs off, stop sign 2, your review in the app, and you, fix or approve. Every station writes into one folder per article.]
+
+Follow the belt. Along the top row the article gets made. Along the bottom row it gets checked. You saw its card at the first stop sign, the window meeting. You read the finished draft at the second, in the app.
+
+## In real life
+
+Researcher writes the brief from the approved card and your note: what the top pages answer, what we will answer, the structure, the sources.
+
+Writer drafts in the house voice from the brief and your note, plus your story or your rules when the card has them. The draft ends with a list of figures needed and a thumbnail request.
+
+Illustrator draws the figures with our illustration generator, in the article’s tint (its one assigned color).
+
+Thumbnail maker draws the hero image and the small thumbnail with our thumbnail rulebook.
+
+Checker verifies every claim, number and link against the sources, and the text against the banned-words list. It also confirms there is no first-person claim you did not give. For a take, it checks the rival’s claim is quoted accurately and in context.
+
+SEO reviewer checks the title, the slug (the short web address, like prd-template), the headings, the first paragraph, internal links and intent against the keyword store.
+
+Editor signs off against one question, and writes your one-page summary, shown beside the draft in the app.
+
+Stop sign 1 is the window meeting. You approve the card and write your note before the researcher starts. Stop sign 2 is your review in the app, after the editor, every time.
+
+Everything for one article lives in one folder, for the agents:
+
+research/articles/<slug>/
+  brief.md the researcher’s plan
+  draft.md the writer’s draft
+  figures/ the illustrator’s pictures
+  thumbnail/ hero and thumb
+  checks.md the checker’s findings
+  seo-review.md the SEO reviewer’s notes
+  final.md the signed-off article
+
+The app reads final.md and shows it to you in the article design. If a run stops halfway, it picks up from the last file written.
+
+Rule The editor asks one question: does it deliver the learning the card promised?
+
+## 7. From the app to the live page
+
+Three screens stand between a finished draft and a reader: the preview in the app, the post in local WordPress, then the live page. You read in the first, you confirm once in the second, and the publisher checks the third. In a newsroom this is the proof, the plate, and the first copy off the press.
+
+[Figure: Four boxes in a row. The app preview, in the article design, where you read and mark fixes. An arrow to the local post, a real post in local WordPress, marked not installed yet. Between it and the next box stands you, confirming once. Then live on its own date. Then the check, with a magnifying glass. Below, the live-page check list: title, canonical address, alt text, Open Graph tags, no broken links and speed basics.]
+
+Find the small figure. You stand between the local post and the live site. Nothing crosses that gap without your one confirmation. After it, the publisher turns checker and reads the page a visitor would see.
+
+## In real life
+
+The preview is the app showing final.md in the article page design (mockup A). You mark fixes on the paragraph. They are saved as data the writer and editor act on, and the draft comes back to you.
+
+The local post: once you are happy, the publisher creates the real post in local WordPress with WP-CLI (WordPress’s command line: setting up a post by typed commands instead of clicks). It sets the category, tags, featured image, the Rank Math title and description (what Google shows in its results) and the date.
+
+Your confirmation: you confirm once. That confirmation sends the piece live on its date.
+
+A refresh updates the existing post instead of making a new one, and the page shows a quiet “Updated <month year>” line.
+
+The live-page check: as each page goes live, the publisher fetches it and checks the title, the canonical URL (the one official address of the page), images with alt text (a description for people who cannot see the image), Open Graph tags (what LinkedIn shows when the link is shared), broken links, and page speed basics.
+
+WordPress is not installed yet, locally or live. Until it is, an article’s path ends at the preview in the app.
+
+Rule A piece goes live only after you confirm it, and it is done when the live page passes its check.
+
+## 8. The campaign manager, as director
+
+From day one a campaign manager directs the plan. In a newsroom this is the circulation manager who also tells the editor which sections to grow. It always holds three things: the site’s age, the full publishing history, and the keyword data. From them it decides for itself what it can judge yet.
+
+[Figure: Four inputs on the left, the site’s age, the publishing history, the keyword data and the live data from Search Console, analytics and rival sitemaps, feed the campaign manager. It writes two things: a report that opens every window meeting, and direction on categories and rising terms. The direction goes down to the board and on to the explorer, who turns it into the next windows’ cards. To the right, a dashed gate marked proposes, never changes stands before the live site, and the arrow to the site is crossed out.]
+
+Follow the paper. Everything the campaign manager knows flows into two outputs, a report for you and direction for the explorer. Nothing crosses the dashed gate to the site.
+
+## In real life: what it reads
+
+The site’s age and our published list, with the tree, so it can count what is planned against what is published.
+
+The keyword store, so it knows what each article was meant to rank for, and which terms are rising.
+
+Search Console (Google’s free report on how a site does in search), for every page: whether it is indexed, then impressions (how often the page showed in results), clicks, position, and the queries each page gets.
+
+Site analytics: time on page, what readers click next, and direct and returning visits.
+
+Core Web Vitals (Google’s three measures of how fast and steady a page feels), from the free page-speed check.
+
+Rival sitemaps. The weekly pull, Saturday night, and the compare with last week’s copy are its job. It hands each new address to the explorer, and the judging is the explorer’s (section 3).
+
+## Three modes, switched by data
+
+A new site has little to score at first. On a fresh domain, Search Console shows which pages are indexed (stored by Google, so they can show up in results) within days. Impressions on long-tail searches (long, exact phrases that few people type) come after about four to eight weeks. Clicks worth reading take months.
+
+So the campaign manager has three modes. It decides itself when each one applies, from the data it holds. It is not a setting you keep.
+
+[Figure: Three boxes on a line. Coverage, from day one. An arrow marked pages get impressions leads to Early signal. An arrow marked about 100 impressions in 28 days, its rule of thumb, leads to Performance, page by page. A bracket under all three says same agent, it decides by the data, not by a date.]
+
+Read the arrows, not a calendar. Each mode applies once the data under its arrow arrives. On a new site the first arrow takes weeks, and the second takes months.
+
+Coverage mode, from day one. It checks where we are against the plan:
+
+Planned against published, per category.
+
+Thin categories: fewer than seven or eight pieces. Internal links only start to work once a cluster of pieces exists.
+
+Orphan pages (pages no other page links to) and missing internal links.
+
+Index coverage in Search Console: is each page indexed, and if not, why.
+
+The weekly rival sitemap pull and compare, handed to the explorer.
+
+Authority signals: links, mentions, direct visits and returning readers.
+
+Early-signal mode, once pages have impressions. It looks for:
+
+Pages that are indexed but do not show in results.
+
+Titles with impressions and no clicks.
+
+Striking-distance phrases: searches where a page sits at positions 8 to 20, so a small edit could lift it onto the first page.
+
+Performance mode, once a page’s numbers mean something. Its rule of thumb is about 100 impressions over 28 days. Now it scores the page against the expectation on its card, writes nudges and refresh jobs, and can propose pausing a category.
+
+## Direction, forward
+
+The campaign manager does more than score. It looks ahead: which categories and which rising terms deserve the next windows. It writes that direction on the board, and the explorer turns it into cards.
+
+## Its report opens every window
+
+The report is the first thing you see after /go. In the early months it is mostly a coverage report.
+
+An example report line, made up for this page
+
+“Day 40. 18 pieces live in 3 categories. UX research has 4 of its 8 planned pieces, so it should get two slots in the next block. Two pages are not indexed yet.”
+
+Later the report carries the scorecard too, at three levels: the whole site, each category, and each article against its expectation. Takes are measured on authority signals, not rank.
+
+## Old pages are its pages too
+
+Every published article gets a review date, six months after publishing by default. A trigger brings the date forward: a rival publishes on the same question, the page slips in rank, a fact or tool in it goes out of date, or readers’ queries on the page shift.
+
+When a review is due, it writes a refresh job: what changed in the world, what the page now gets wrong or misses, and what to keep. The job is pitched like any card and rides the making desk in the next window. So no separate refresh agent is needed.
+
+## The limit
+
+It proposes. It never changes the site itself. Its nudges and refresh jobs land on the board and in the report, and you say which ones run.
+
+## The small loop: your fixes
+
+Every fix you mark in the app is saved as data for that desk, in research/editorial/feedback/. The agent reads it before its next run.
+
+This is where your taste builds up. Tell the writer once that an opening is too slow, and the next draft starts faster. The same mistake does not come back.
+
+Rule The campaign manager directs, with evidence. You decide what runs.
+
+## 9. The agents, counted
+
+Ten agents in the first build, the campaign manager among them. Two more come later, once the article pipeline is settled: the LinkedIn writer and the reel maker. That makes twelve in all.
+
+[Figure: Twelve figures in a row: one planning agent, seven making agents, one publishing agent and the campaign manager on the Performance desk form the first build of ten. Two dashed figures follow: the LinkedIn writer and the reel maker, later.]
+
+The color is the desk. Seven of the ten sit at the making desk, because that is where an article is made, checked and later refreshed. The two dashed figures wait for their own decision.
+
+ | 
+ | Agent | Desk | Reads | Writes | Rulebook
+
+ | 1. Explorer | Planning | Keyword store, the tree and our published list, new rival pages from the sitemap compare (two passes), competitor feeds, stored search questions, the top five live pages, the coverage map and the campaign manager’s direction, the newsroom mailbox, Reddit and Hacker News, what you forward, a book you name, your brief, the story bank (optional) | Backlog and card data for the app, the outline and images planned for the top cards, take cards, a log of dropped rival pages and mined books | SEO research store
+
+ | 2. Researcher | Making | The approved card, its outline and your note, the top five pages, keyword store | brief.md | SEO research store
+
+ | 3. Writer | Making | The brief, your note, your story or your rules when the card has them, the writer’s feedback | draft.md, figure list, thumbnail request | Writing style
+
+ | 4. Illustrator | Making | The figure list, the draft | figures/ | Illustrations (to write)
+
+ | 5. Thumbnail maker | Making | The thumbnail request, the title | thumbnail/ | Thumbnails
+
+ | 6. Checker | Making | The draft, the brief’s sources, the banned-words list, your note, and for a take the rival page | checks.md | Writing style
+
+ | 7. SEO reviewer | Making | The draft, keyword store, our published list | seo-review.md | Article SEO review (to write)
+
+ | 8. Editor | Making | Everything in the article folder, the card’s promise, your fixes from the app | final.md, your one-page summary for the app | Writing style
+
+ | 9. Publisher | Publishing | final.md, figures, thumbnail, your approval in the app, then the live page | The real post in local WordPress, which goes live on its date after your confirmation (or the updated post, for a refresh), a live-page check report | WordPress publishing (to write)
+
+ | 10. Campaign manager | Performance | The site’s age, the full publishing history and the tree, the keyword store, Search Console (index coverage first, then impressions and clicks), site analytics, Core Web Vitals, rival sitemaps (it runs the Saturday pull and compare), each article’s expectation and review date | The report that opens each window meeting, direction for the next windows, new rival addresses for the explorer, and later scorecards, nudges with evidence and refresh jobs. All on the board | Performance review (to write)
+
+ | 11. LinkedIn writer, later | Distribution | final.md, figures | Posts for a separate LinkedIn page you will create | Written when it is built
+
+ | 12. Reel maker, later | Distribution | final.md, figures, the thumbnail look | Script, storyboard, voiceover, video | Written when it is built
+
+The managing editor (the main session) is not on the list. It runs the room, runs the meeting when you type /go, and is not an agent file. There is no refresh agent either: refreshes run through the making desk.
+
+A rulebook is the written instruction an agent loads before it works; in the system it is called a skill. Three exist today: writing style, thumbnails and the SEO research store. Four are still to write for the first build: illustrations (the rules already exist as a document), article SEO review, WordPress publishing and performance review.
+
+## Later: LinkedIn and reels
+
+Both wait until the article pipeline is settled. Then each social pipeline is decided on its own, one at a time.
+
+LinkedIn: posts will go out from a separate LinkedIn page that you will create, not from your profile. What the LinkedIn pack holds, and when it reaches you, is parked until then.
+
+Reels: a short script, a storyboard from the figures and a voiceover, put together with code in the same look as the thumbnails.
+
+The honest limits still hold. Posting by API (letting a program post for you) needs app approval and a business account. A voiceover needs a speech service; free ones that run on this computer sound fine for reels.
+
+Rule Each agent does one job and loads its own rulebook.
+
+## 10. What exists, and what we build next
+
+A good part of the newsroom is already furnished. Seven steps take us to launch, one at a time, each starting with your “go”. Two more follow after it.
+
+[Figure: A road of numbered stops, top to bottom, starting from a box labelled already built, eight parts. 1, the board, the app and the explorer, with coverage mode, the /go command and the window runner. 2, two rulebooks. 3, the making desk, proven on a first small window. 4, WordPress and the publisher. 5, the launch stock, built in windows. 6, the soft launch with Search Console. 7, the announcement and the drip. Then two dashed stops: the social pipelines one by one, and the campaign manager’s later modes as data arrives.]
+
+Blue builds the newsroom, orange launches the site. Each stop stands on the one before. The making desk needs the board and the rulebooks. The launch needs WordPress. The dashed stops come after launch.
+
+## Already built
+
+The keyword store and the topic scores
+
+The category tree
+
+Competitor lists and their sitemap pulls
+
+The writing-style rulebook
+
+The thumbnail rulebook and generator
+
+The illustration generator and its rules
+
+The progress page
+
+The article page mockup (design A, which the app preview uses)
+
+## Build order
+
+The editorial folder, the backlog data, the app, the explorer with its sources, the campaign manager’s coverage mode, the /go command and the window runner.
+
+The illustration rulebook and the article SEO rulebook.
+
+The making desk, proven on a first small window of three or four pieces.
+
+WordPress locally, the publisher with scheduled posts, and the flow from preview to local post to live.
+
+The launch stock, built in windows.
+
+The soft launch, with Search Console.
+
+The announcement, and the drip.
+
+Then the social pipelines, one by one. The campaign manager’s later modes switch on as the data arrives.
+
+Each build step is a session or two.
+
+Rule Nothing gets built until you say go.
+
+## 11. The launch plan
+
+The site goes public full, not thin. About fifty articles are live before you announce it on LinkedIn. Then a steady drip takes over.
+
+[Figure: A timeline in three bands: build the stock in windows, then a two-week soft launch at three or four a day, then the drip at two or three a week, growing. A dashed line marks the day you announce, between the soft launch and the drip. Below, a line shows articles live: flat at zero while the stock is built, climbing steeply during the soft launch to about fifty, then rising slowly.]
+
+Read the blue line. Nothing is live while the windows build the stock. In the soft launch it climbs fast, with real dates. By the day you announce, about fifty pieces stand on the site, and the drip takes over.
+
+## In real life
+
+The stock: about fifty finished posts, built window by window, approved by you, waiting as scheduled posts.
+
+The soft launch: the site is live and connected to Search Console two weeks before the announcement. The stock goes out three or four a day across those weeks, so the dates are real and spread out, and we watch indexing before the audience arrives.
+
+The announcement: your post on LinkedIn that tells people the site is open.
+
+The drip: two or three new pieces a week after that, growing with the ramp (section 5).
+
+## Why launch full
+
+When you announce the site, visitors judge it in seconds. A site with a handful of posts reads as a hobby. A full one reads as a publication.
+
+Those first visitors matter more than their number. They are where a new domain gets its first mentions and links, and search needs those more than anything in year one.
+
+The Printables launch did the same: a few hundred pages live, then a daily drip. Google did it no harm.
+
+## The shape of the stock
+
+About 50 articlesbefore the announcement.
+
+6 or 7 categoriesdeep ones, seven or eight pieces each, not thirteen thin ones.
+
+A books section page: the shelf, with your one-paragraph take on each book. Affiliate links come later.
+
+A templates and tools section, with a few templates.
+
+Both sections are scoped separately, outside this proposal.
+
+## Your time is the gate
+
+Fifty pieces take about 30 hours of your notes and reviews. So the stock may go live at thirty to forty pieces, with the rest as the first drip buffer.
+
+The first window stays small anyway, three or four pieces, to prove the belt.
+
+## Real dates, a finished feel
+
+No backdated dates. The site feels established because of its depth and its finish:
+
+Full category pages and series pages.
+
+A start-here page.
+
+An author page that carries your fifteen years.
+
+The books shelf and the templates.
+
+A newsletter sign-up.
+
+No empty corners anywhere.
+
+## Dates on the site
+
+There is no sort-by-date anywhere. Lists are ordered by series or by importance. An article shows only a quiet “Updated <month year>” line, there for its own sake and never the focus.
+
+Rule Launch full, with real dates, then drip.
+
+## 12. Decisions, and what is still open
+
+All sixteen questions from proposal 4 are settled. Fourteen have answers, one is parked until later, and one is withdrawn. A short list is still open.
+
+ | 
+ | Question | Decision
+
+ | 1. The pace | Start smaller. Ramp toward one a day once the process has gelled and your review time per piece is down; maybe two a day later.
+
+ | 2. Water marks | They scale with the pace, at about six weeks of output: 20, 50 or 100 at the top, and about 60 percent of that at the bottom.
+
+ | 3. Opening categories | Any planned category, but only as a cluster: at least seven or eight planned pieces at once.
+
+ | 4. A stop at the brief | No. The card is enough, and you read every draft before its date.
+
+ | 5. Sitemap pulls | Weekly, on Saturday night.
+
+ | 6. Sources beyond sites | Everything that needs no login: sites, feeds, the newsroom mailbox, Reddit and Hacker News. No ordinary LinkedIn posts by script.
+
+ | 7. When the report reaches you | At the start of each build window, as the opening of /go.
+
+ | 8. Pitches per meeting | One per slot in the block. A killed card is replaced from the top of the backlog; “publish later” parks a card.
+
+ | 9. Window size | It follows the cadence: rolling blocks of ten or fifteen days, built in windows of two or three days.
+
+ | 10. Publish cadence | Three or four a week for the first couple of weeks, then one a day once the process has gelled.
+
+ | 11. Where to review | In the app, in the article design; then one confirmation of the real post in local WordPress sends it live on its date.
+
+ | 12. Your input on each card | Direction, through “your note”. Stories are optional. Voice through chat when you want it, transcribed into the data.
+
+ | 13. Killed cards | To the ideas bin with your reason. The explorer may retry one from a new angle. Nothing is deleted.
+
+ | 14. The LinkedIn pack | Parked. Posts will go from a separate LinkedIn page; social pipelines come one by one after the article pipeline.
+
+ | 15. A fast lane for takes | None. Takes are rare, two to four in fifty, and ride the normal window.
+
+ | 16. When performance mode starts | Withdrawn. The campaign manager decides from the data; about 100 impressions over 28 days is its own rule of thumb.
+
+## Still open
+
+Block and window lengths: ten or fifteen days of publishing, and two or three days of desk work.
+
+Launch stock size: thirty to forty pieces, or the full fifty.
+
+Voice notes: later.
+
+The LinkedIn pack and the social pipelines: after the article pipeline is settled.
+
+Back burner, before launch: how LinkedIn newsletter notices reach the newsroom mailbox without access to your personal email. Two routes to research: a mail filter that forwards only those notices, or a second address on your LinkedIn account.
+
+Back burner, before launch: the follow list of fifteen to twenty product, UX and business newsletters, with their subscribe links.
+
+Rule The decisions are settled. Each open item waits for your call, one at a time.
+
+The final proposal, built on the owner’s brief (research/discussion/brd-v1-2026-10-08.md) and the running record in research/discussion/context.md, whose session of October 10 holds every decision on this page. The files named here under research/editorial/ and research/articles/, and the newsroom app, do not exist yet; they come with build steps 1 and 3. The block and window lengths, the launch stock size and the items in section 12’s open list are still to be fixed. Proposals 1 to 4 are kept as they were, for comparison. The command name /go is a placeholder.
