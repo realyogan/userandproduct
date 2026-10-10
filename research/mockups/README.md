@@ -13,6 +13,12 @@ changes. A later redesign would be `option-2/` beside it.
   favicons and web manifest, social images, and the brand sheet:
   http://localhost/user-and-product/research/mockups/final-logo/brand-sheet.html. Rebuild everything with
   `python build.py` in that folder (it uses only `tools/` and `fonts/inter/`).
+- `Logo-3/`: the owner's own mark (drawn in Illustrator, 10 Oct 2026: a disc with a person cut out, a rounded
+  diamond head over a curved band), kept exactly as drawn. Clean master with the cut-outs as true holes, monochrome,
+  twelve color options and four gradient options (social only), side and stacked lockups, avatars, favicons and
+  previews (Instagram, LinkedIn page and feed, browser tabs, thumbnail, header), and `export/` with the signal blue
+  favicons and social images: http://localhost/user-and-product/research/mockups/Logo-3/. Rebuild with
+  `python build.py`, then `python check.py`, in that folder; details in `Logo-3/README.md`.
 - `fonts/`: OFL fonts with their licence files (Inter Display is the logo face). Added 9 Oct for the page
   mockups: Inter text cuts (Regular, Italic, Medium, SemiBold, from the same Inter 4.1 release) and Fraunces 9pt
   (Regular, Italic, SemiBold, from the same Fraunces 1.000 release), plus Latin-subset `.woff2` files for the web.

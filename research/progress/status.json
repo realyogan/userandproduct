@@ -1,67 +1,67 @@
 {
   "version": 1,
-  "run_id": "logo-2-round-4",
-  "title": "Logo exploration 2, round 4: refinement of the shortlist, and fresh marks",
+  "run_id": "logo-3",
+  "title": "Logo 3: colour options and previews for the owner's mark",
   "state": "finished",
-  "started": "2026-10-10T14:26+05:30",
+  "started": "2026-10-10T15:37+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Brief",
+      "title": "Source",
       "status": "done",
-      "note": "Brief read: four shortlisted families, three figurative candidates, eight to ten fresh marks",
-      "time": "14:26"
+      "note": "Owner's Logo.svg copied to source/Logo-owner.svg, original untouched",
+      "time": "15:37"
     },
     {
       "n": 2,
-      "title": "Cup and ball family",
+      "title": "Clean master",
       "status": "done",
-      "note": "Cup and ball drawn at 0, 30, 45, 60 degrees, free and in a disc, plus the ball lifted at 45",
-      "time": "14:31"
+      "note": "Clean master: owner geometry verbatim, disc as four quarter arcs, cut-outs as evenodd holes",
+      "time": "15:44"
     },
     {
       "n": 3,
-      "title": "Speech mark tails",
+      "title": "Colour options",
       "status": "done",
-      "note": "Five speech-mark tails tested at 32 and 16 px; the longer tail survives smallest",
-      "time": "14:31"
+      "note": "Twelve colour options with dark-mode discs and contrast checks",
+      "time": "15:45"
     },
     {
       "n": 4,
-      "title": "Square coin and Shelf",
+      "title": "Gradients",
       "status": "done",
-      "note": "Square coin and Shelf variants drawn",
-      "time": "14:31"
+      "note": "Four diagonal two-stop gradients, social only, dithered PNG avatars",
+      "time": "15:45"
     },
     {
       "n": 5,
-      "title": "Fresh marks",
+      "title": "Lockups",
       "status": "done",
-      "note": "Eight fresh marks: lens, dividers, desk lamp, rook, anvil, signpost, funnel, one block",
-      "time": "14:31"
+      "note": "Side and stacked lockups, light and dark, black and white, per option",
+      "time": "15:45"
     },
     {
       "n": 6,
-      "title": "Board",
+      "title": "Previews",
       "status": "done",
-      "note": "Board built: 33 marks in six groups",
-      "time": "14:35"
+      "note": "Previews per option: avatars, monochrome, Instagram, LinkedIn page and feed, tabs, favicons, thumbnail, lockups",
+      "time": "15:45"
     },
     {
       "n": 7,
-      "title": "Checks",
+      "title": "Board",
       "status": "done",
-      "note": "Checks passed: 462 SVGs, nothing under 8 units, 264 favicons",
-      "time": "14:35"
+      "note": "Board written: 12 colour options, 4 gradients, export list",
+      "time": "15:46"
     },
     {
       "n": 8,
-      "title": "Hub and README",
+      "title": "Checks",
       "status": "done",
-      "note": "Hub card added; README written. Done: http://localhost/user-and-product/research/mockups/logo-2/round-4/",
-      "time": "14:35"
+      "note": "All checks passed: master matches the owner file, 156 SVGs under 6 KB, no overflow at 375 px, board 200",
+      "time": "15:50"
     }
   ],
-  "updated": "2026-10-10T14:35+05:30",
-  "note": "Hub card added; README written. Done: http://localhost/user-and-product/research/mockups/logo-2/round-4/"
+  "updated": "2026-10-10T15:50+05:30",
+  "note": "All checks passed: master matches the owner file, 156 SVGs under 6 KB, no overflow at 375 px, board 200"
 }

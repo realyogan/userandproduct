@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Three Colors</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="export/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../mockup.css">
+<style>
+.l3{max-width:1180px;margin:0 auto;padding:24px var(--gutter) 96px}
+.l3 a{color:var(--signal)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 24px}
+.bar p{margin:0;font-size:var(--fs-meta)}
+.toggle{border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer;font:500 14px/1 var(--font-ui)}
+.l3 h1{font-family:var(--font-display);font-weight:700;font-size:clamp(32px,5vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0 0 12px}
+.lede{font-size:18px;line-height:1.5;color:var(--ink-2);max-width:68ch;margin:0 0 24px}
+.hero{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 12px}
+.hero .g{min-height:280px}
+.hero img{width:220px;height:220px;max-width:100%;height:auto}
+.toc{margin:24px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.toc a{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);border-radius:999px;padding:5px 12px 5px 6px;text-decoration:none;color:var(--ink);font-size:14px}
+.toc img{width:20px;height:20px}
+.tw{overflow-x:auto;margin:16px 0 0;-webkit-overflow-scrolling:touch}
+table.opts{border-collapse:collapse;font-size:14px;min-width:760px;width:100%}
+.opts th,.opts td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:middle}
+.opts th{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
+.opts td.n{white-space:nowrap;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;margin-right:6px;border:1px solid rgba(128,128,128,.4)}
+.pass{color:var(--ink)}.fail{color:var(--ink-3)}
+.grp{margin-top:72px;padding:20px 0 0;border-top:4px solid var(--ink)}
+.grp h2{font-family:var(--font-display);font-size:clamp(26px,4vw,36px);margin:0 0 6px}
+.grp p{margin:0 0 8px;color:var(--ink-2);max-width:72ch}
+.mk{border-top:2px solid var(--rule-strong);margin-top:48px;padding-top:20px}
+.mk__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;margin-bottom:8px}
+.mk__num{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--signal);margin:0}
+.mk h3{font-family:var(--font-display);font-weight:700;font-size:30px;line-height:1.1;margin:0}
+.mk__note{margin:0 0 6px;color:var(--ink-2);max-width:72ch}
+.mk__facts{margin:0 0 18px;font-size:var(--fs-meta);color:var(--ink-2)}
+.mk__facts code{font-size:13px}
+.row{margin:0 0 22px}
+.row h4{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px;color:var(--ink-2)}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g{min-width:0;border-radius:var(--radius);padding:18px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:18px;min-height:100px;margin:0}
+.g--w{background:#FFFFFF;border:1px solid #E3E3E6;color:#55555C}
+.g--k{background:#111111;border:1px solid #2A2A2E;color:#9A9AA2}
+.g--pk{background:#000000;border:1px solid #2A2A2E;color:#9A9AA2}
+.g img{display:block}
+.g figcaption{width:100%;text-align:center;font-size:11px}
+.av{width:110px;height:110px}
+.av--c{border-radius:50%}
+.m160{width:160px;height:160px;max-width:100%;height:auto}
+.lk{width:236px;height:auto;max-width:100%}
+.st{width:120px;height:auto}
+.fav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px}
+.fav .z{width:96px;height:96px;image-rendering:pixelated}
+.prev{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:900px){.prev{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.mock{border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel);color:var(--ink);overflow:hidden;min-width:0}
+.mock__label{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:8px 12px 0;margin:0}
+.ig{display:flex;gap:18px;align-items:center;padding:14px 16px 16px}
+.ig__av{width:110px;height:110px;border-radius:50%;flex:none}
+.ig__user{font:600 17px/1.2 var(--font-ui);margin:0 0 8px}
+.ig__stats{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px}
+.ig__stats li{white-space:nowrap}
+.ig__stats b{font-weight:700}
+.ig__name{font:600 13px/1.3 var(--font-ui);margin:0}
+.ig__bio{font-size:13px;line-height:1.35;margin:2px 0 0;color:var(--ink-2)}
+.li__banner{height:72px;margin-top:8px}
+.li__body{padding:0 16px 12px;display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap}
+.li__logo{width:100px;height:100px;border-radius:4px;border:3px solid var(--panel);margin-top:-44px;display:block;flex:none}
+.li__name{font:700 18px/1.2 var(--font-ui);margin:0 0 2px}
+.li__meta{font-size:13px;color:var(--ink-2);margin:0 0 4px}
+.li__post{border-top:1px solid var(--rule);margin:0 16px;padding:12px 0 14px;display:flex;gap:10px;align-items:flex-start}
+.li__post img{width:48px;height:48px;border-radius:2px;flex:none}
+.li__post b{display:block;font:600 14px/1.25 var(--font-ui)}
+.li__post small{display:block;font-size:12px;color:var(--ink-3)}
+.li__post p{margin:6px 0 0;font-size:13px;line-height:1.4;color:var(--ink-2)}
+.tabs{display:flex;align-items:flex-end;gap:2px;padding:10px 10px 0;overflow:hidden}
+.tabs--l{background:#DEE1E6}
+.tabs--d{background:#202124}
+.tab{display:flex;align-items:center;gap:8px;height:34px;padding:0 12px;border-radius:8px 8px 0 0;font:400 12px/1 var(--font-ui);min-width:0}
+.tab img{width:16px;height:16px;flex:none}
+.tab span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tabs--l .tab--on{background:#FFFFFF;color:#202124}
+.tabs--d .tab--on{background:#35363A;color:#E8EAED}
+.tabs--l .tab--off{color:#5F6368}
+.tabs--d .tab--off{color:#9AA0A6}
+.tab .x{margin-left:6px;opacity:.6}
+.tabs__url{height:10px}
+.tabs--l + .tabs__url{background:#FFFFFF}
+.tabs--d + .tabs__url{background:#35363A}
+.thumb{display:block;width:100%;max-width:600px;height:auto;border-radius:4px}
+.note{border:1px solid var(--signal);background:var(--signal-wash);border-radius:var(--radius);padding:12px 16px;margin:12px 0 0;font-size:15px;line-height:1.5;color:var(--ink)}
+.note p{margin:0}
+.files{font-size:15px;line-height:1.55;color:var(--ink-2);padding-left:20px;max-width:90ch}
+.files code{font-size:13px;color:var(--ink);white-space:normal;overflow-wrap:anywhere}
+.files li{margin:0 0 6px}
+.foot{margin-top:64px;font-size:var(--fs-meta);color:var(--ink-3)}
+@media (max-width:640px){.pair,.trio{grid-template-columns:minmax(0,1fr)}.hero{grid-template-columns:minmax(0,1fr)}.hero .g{min-height:220px}.fav .z{width:64px;height:64px}.ig{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<main class="l3">
+  <div class="bar"><p>Mockups · Logo 3</p><button class="toggle" type="button" data-theme-toggle>Theme</button></div>
+  <h1>Logo 3: the owner's mark, in color</h1>
+  <p class="lede">The owner's own drawing: a disc with a person cut out of it, a rounded diamond for the head over a wide
+  curved band for the shoulders. The same band also reads as a smile or a bowl. The shapes are exactly as drawn; only the color changes below.</p>
+  <div class="hero">
+    <div class="g g--w"><img src="svg/mark-black.svg" width="220" height="220" alt="The mark in black on white"></div>
+    <div class="g g--pk"><img src="svg/mark-white.svg" width="220" height="220" alt="The mark in white on black"></div>
+  </div>
+  <ul class="toc" aria-label="Options"><li><a href="#signal"><img src="svg/signal/mark.svg" alt="" width="20" height="20">Signal blue</a></li><li><a href="#navy"><img src="svg/navy/mark.svg" alt="" width="20" height="20">Deep navy</a></li><li><a href="#cobalt"><img src="svg/cobalt/mark.svg" alt="" width="20" height="20">Cobalt</a></li><li><a href="#ink"><img src="svg/ink/mark.svg" alt="" width="20" height="20">Near-black ink</a></li><li><a href="#charcoal"><img src="svg/charcoal/mark.svg" alt="" width="20" height="20">Warm charcoal</a></li><li><a href="#green"><img src="svg/green/mark.svg" alt="" width="20" height="20">Deep green</a></li><li><a href="#oxblood"><img src="svg/oxblood/mark.svg" alt="" width="20" height="20">Oxblood</a></li><li><a href="#vermilion"><img src="svg/vermilion/mark.svg" alt="" width="20" height="20">Vermilion</a></li><li><a href="#plum"><img src="svg/plum/mark.svg" alt="" width="20" height="20">Plum</a></li><li><a href="#teal"><img src="svg/teal/mark.svg" alt="" width="20" height="20">Teal</a></li><li><a href="#mustard"><img src="svg/mustard/mark.svg" alt="" width="20" height="20">Mustard with a dark figure</a></li><li><a href="#twotone"><img src="svg/twotone/mark.svg" alt="" width="20" height="20">Two-tone blue</a></li><li><a href="#g-signal-cobalt"><img src="svg/g-signal-cobalt/mark.svg" alt="" width="20" height="20">Signal blue to cobalt</a></li><li><a href="#g-navy-teal"><img src="svg/g-navy-teal/mark.svg" alt="" width="20" height="20">Navy to teal</a></li><li><a href="#g-plum-vermilion"><img src="svg/g-plum-vermilion/mark.svg" alt="" width="20" height="20">Plum to vermilion</a></li><li><a href="#g-charcoal-ink"><img src="svg/g-charcoal-ink/mark.svg" alt="" width="20" height="20">Charcoal to ink</a></li></ul>
+
+  <div class="grp" id="colors"><h2>Color options</h2>
+    <p>Twelve options. Each disc is checked against white and against near-black (#111111) for the 3:1 a graphic
+    needs. Where a disc fails on dark, its dark-mode version is a lighter tone of the same color. The cut-outs are
+    true holes, so on any ground they show the ground, except in C11 and C12, where they are filled.
+    Avatars are opaque, like an upload, so the figure in them is white (ink in C11).</p>
+    <div class="tw"><table class="opts"><thead><tr><th>No.</th><th>Option</th><th>Disc</th><th>Second tone</th><th>On white</th><th>On #111</th><th>Dark-mode disc</th><th>Needs</th></tr></thead><tbody><tr><td class="n">C01</td><td><a href="#signal">Signal blue</a></td><td class="n"><span class="sw" style="background:#2B46A0" aria-hidden="true"></span><code>#2B46A0</code></td><td>none (cut-outs show the ground)</td><td class="n">8.4:1</td><td class="n">2.2:1</td><td>#8EA2FF (7.9:1)</td><td>White grounds. On near-black it fails (2.2:1), so dark mode uses #8EA2FF (7.9:1).</td></tr><tr><td class="n">C02</td><td><a href="#navy">Deep navy</a></td><td class="n"><span class="sw" style="background:#1B2A55" aria-hidden="true"></span><code>#1B2A55</code></td><td>none (cut-outs show the ground)</td><td class="n">13.9:1</td><td class="n">1.4:1</td><td>#A9B8E8 (9.6:1)</td><td>White grounds. On near-black it fails (1.4:1), so dark mode uses #A9B8E8 (9.6:1).</td></tr><tr><td class="n">C03</td><td><a href="#cobalt">Cobalt</a></td><td class="n"><span class="sw" style="background:#2450D8" aria-hidden="true"></span><code>#2450D8</code></td><td>none (cut-outs show the ground)</td><td class="n">6.5:1</td><td class="n">2.9:1</td><td>#7A96FF (6.9:1)</td><td>White grounds. On near-black it fails (2.9:1), so dark mode uses #7A96FF (6.9:1).</td></tr><tr><td class="n">C04</td><td><a href="#ink">Near-black ink</a></td><td class="n"><span class="sw" style="background:#0B0B0C" aria-hidden="true"></span><code>#0B0B0C</code></td><td>none (cut-outs show the ground)</td><td class="n">19.7:1</td><td class="n">1.0:1</td><td>#F1EEE7 (16.3:1)</td><td>White grounds. On near-black it fails (1.0:1), so dark mode uses #F1EEE7 (16.3:1).</td></tr><tr><td class="n">C05</td><td><a href="#charcoal">Warm charcoal</a></td><td class="n"><span class="sw" style="background:#3A3532" aria-hidden="true"></span><code>#3A3532</code></td><td>none (cut-outs show the ground)</td><td class="n">12.1:1</td><td class="n">1.6:1</td><td>#D8D0C8 (12.4:1)</td><td>White grounds. On near-black it fails (1.6:1), so dark mode uses #D8D0C8 (12.4:1).</td></tr><tr><td class="n">C06</td><td><a href="#green">Deep green</a></td><td class="n"><span class="sw" style="background:#0E5A49" aria-hidden="true"></span><code>#0E5A49</code></td><td>none (cut-outs show the ground)</td><td class="n">8.1:1</td><td class="n">2.3:1</td><td>#5FC7A6 (9.2:1)</td><td>White grounds. On near-black it fails (2.3:1), so dark mode uses #5FC7A6 (9.2:1).</td></tr><tr><td class="n">C07</td><td><a href="#oxblood">Oxblood</a></td><td class="n"><span class="sw" style="background:#6E1F2A" aria-hidden="true"></span><code>#6E1F2A</code></td><td>none (cut-outs show the ground)</td><td class="n">11.1:1</td><td class="n">1.7:1</td><td>#E48593 (7.3:1)</td><td>White grounds. On near-black it fails (1.7:1), so dark mode uses #E48593 (7.3:1).</td></tr><tr><td class="n">C08</td><td><a href="#vermilion">Vermilion</a></td><td class="n"><span class="sw" style="background:#D9411E" aria-hidden="true"></span><code>#D9411E</code></td><td>none (cut-outs show the ground)</td><td class="n">4.4:1</td><td class="n">4.2:1</td><td>same</td><td>Both grounds: the one color passes on white and on near-black.</td></tr><tr><td class="n">C09</td><td><a href="#plum">Plum</a></td><td class="n"><span class="sw" style="background:#4B2A7A" aria-hidden="true"></span><code>#4B2A7A</code></td><td>none (cut-outs show the ground)</td><td class="n">11.0:1</td><td class="n">1.7:1</td><td>#B9A0EC (8.4:1)</td><td>White grounds. On near-black it fails (1.7:1), so dark mode uses #B9A0EC (8.4:1).</td></tr><tr><td class="n">C10</td><td><a href="#teal">Teal</a></td><td class="n"><span class="sw" style="background:#0F766E" aria-hidden="true"></span><code>#0F766E</code></td><td>none (cut-outs show the ground)</td><td class="n">5.5:1</td><td class="n">3.5:1</td><td>#3DC2B5 (8.6:1)</td><td>Both grounds: the one color passes on white and on near-black. The brighter #3DC2B5 on dark gives more lift (8.6:1).</td></tr><tr><td class="n">C11</td><td><a href="#mustard">Mustard with a dark figure</a></td><td class="n"><span class="sw" style="background:#E3A72F" aria-hidden="true"></span><code>#E3A72F</code></td><td>head #0B0B0C, band #0B0B0C</td><td class="n">2.1:1</td><td class="n">8.8:1</td><td>same</td><td>Dark grounds, or the yellow used as a field. On white the disc edge is soft (2.1:1) but the ink figure carries the mark (9.2:1 on the yellow).</td></tr><tr><td class="n">C12</td><td><a href="#twotone">Two-tone blue</a></td><td class="n"><span class="sw" style="background:#2B46A0" aria-hidden="true"></span><code>#2B46A0</code></td><td>head #FFFFFF, band #8EA2FF</td><td class="n">8.4:1</td><td class="n">2.2:1</td><td>same</td><td>White grounds (8.4:1). On near-black the disc edge is soft (2.2:1); the filled white head and light band still read (head 8.4:1, band 3.5:1 on the disc).</td></tr></tbody></table></div>
+  </div>
+  
+<section class="mk" id="signal" aria-labelledby="h-signal">
+  <div class="mk__head"><p class="mk__num">C01</p><h3 id="h-signal">Signal blue</h3></div>
+  <p class="mk__note">The house blue from the first logo pack; on dark it switches to the house dark-mode blue.</p>
+  <p class="mk__facts">disc <code>#2B46A0</code>, second tone: none (cut-outs show the ground), dark-mode disc: #8EA2FF (7.9:1). Contrast on white 8.4:1, on near-black 2.2:1. White grounds. On near-black it fails (2.2:1), so dark mode uses #8EA2FF (7.9:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/signal/avatar-circle.svg" width="110" height="110" alt="C01 Signal blue, circle avatar on white"><img class="av" src="svg/signal/avatar-rounded.svg" width="110" height="110" alt="C01 Signal blue, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/signal/avatar-circle.svg" width="110" height="110" alt="C01 Signal blue, circle avatar on near-black"><img class="av" src="svg/signal/avatar-rounded.svg" width="110" height="110" alt="C01 Signal blue, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/signal/mark.svg" width="160" height="160" alt="C01 Signal blue, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/signal/mark.svg" width="160" height="160" alt="C01 Signal blue, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/signal/mark-dark.svg" width="160" height="160" alt="C01 Signal blue, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/signal/avatar-circle.svg" width="110" height="110" alt="C01 Signal blue as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/signal/avatar-square.svg" width="100" height="100" alt="C01 Signal blue as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/signal/avatar-square.svg" width="48" height="48" alt="C01 Signal blue at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/signal/tab-16-light.png" width="16" height="16" alt="C01 Signal blue, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/signal/tab-16-dark.png" width="16" height="16" alt="C01 Signal blue, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/signal/fav-32-light.png" width="32" height="32" alt="C01 Signal blue, 32 px favicon on white"><img class="z" src="png/signal/fav-32-light.png" alt=""><img src="png/signal/fav-16-light.png" width="16" height="16" alt="C01 Signal blue, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/signal/fav-32-dark.png" width="32" height="32" alt="C01 Signal blue, 32 px favicon on near-black"><img class="z" src="png/signal/fav-32-dark.png" alt=""><img src="png/signal/fav-16-dark.png" width="16" height="16" alt="C01 Signal blue, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/signal/thumb.png" width="600" height="338" alt="C01 Signal blue, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/signal/lockup.svg" width="236" alt="C01 Signal blue, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/signal/lockup-dark.svg" width="236" alt="C01 Signal blue, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/signal/stacked.svg" width="120" alt="C01 Signal blue, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/signal/stacked-dark.svg" width="120" alt="C01 Signal blue, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="navy" aria-labelledby="h-navy">
+  <div class="mk__head"><p class="mk__num">C02</p><h3 id="h-navy">Deep navy</h3></div>
+  <p class="mk__note">Darker and quieter than the signal blue; close to black at 16 px.</p>
+  <p class="mk__facts">disc <code>#1B2A55</code>, second tone: none (cut-outs show the ground), dark-mode disc: #A9B8E8 (9.6:1). Contrast on white 13.9:1, on near-black 1.4:1. White grounds. On near-black it fails (1.4:1), so dark mode uses #A9B8E8 (9.6:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/navy/avatar-circle.svg" width="110" height="110" alt="C02 Deep navy, circle avatar on white"><img class="av" src="svg/navy/avatar-rounded.svg" width="110" height="110" alt="C02 Deep navy, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/navy/avatar-circle.svg" width="110" height="110" alt="C02 Deep navy, circle avatar on near-black"><img class="av" src="svg/navy/avatar-rounded.svg" width="110" height="110" alt="C02 Deep navy, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/navy/mark.svg" width="160" height="160" alt="C02 Deep navy, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/navy/mark.svg" width="160" height="160" alt="C02 Deep navy, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/navy/mark-dark.svg" width="160" height="160" alt="C02 Deep navy, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/navy/avatar-circle.svg" width="110" height="110" alt="C02 Deep navy as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#1B2A55"></div>
+        <div class="li__body"><img class="li__logo" src="svg/navy/avatar-square.svg" width="100" height="100" alt="C02 Deep navy as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/navy/avatar-square.svg" width="48" height="48" alt="C02 Deep navy at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/navy/tab-16-light.png" width="16" height="16" alt="C02 Deep navy, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/navy/tab-16-dark.png" width="16" height="16" alt="C02 Deep navy, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/navy/fav-32-light.png" width="32" height="32" alt="C02 Deep navy, 32 px favicon on white"><img class="z" src="png/navy/fav-32-light.png" alt=""><img src="png/navy/fav-16-light.png" width="16" height="16" alt="C02 Deep navy, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/navy/fav-32-dark.png" width="32" height="32" alt="C02 Deep navy, 32 px favicon on near-black"><img class="z" src="png/navy/fav-32-dark.png" alt=""><img src="png/navy/fav-16-dark.png" width="16" height="16" alt="C02 Deep navy, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/navy/thumb.png" width="600" height="338" alt="C02 Deep navy, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/navy/lockup.svg" width="236" alt="C02 Deep navy, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/navy/lockup-dark.svg" width="236" alt="C02 Deep navy, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/navy/stacked.svg" width="120" alt="C02 Deep navy, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/navy/stacked-dark.svg" width="120" alt="C02 Deep navy, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="cobalt" aria-labelledby="h-cobalt">
+  <div class="mk__head"><p class="mk__num">C03</p><h3 id="h-cobalt">Cobalt</h3></div>
+  <p class="mk__note">A brighter blue; the most energy of the three blues.</p>
+  <p class="mk__facts">disc <code>#2450D8</code>, second tone: none (cut-outs show the ground), dark-mode disc: #7A96FF (6.9:1). Contrast on white 6.5:1, on near-black 2.9:1. White grounds. On near-black it fails (2.9:1), so dark mode uses #7A96FF (6.9:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/cobalt/avatar-circle.svg" width="110" height="110" alt="C03 Cobalt, circle avatar on white"><img class="av" src="svg/cobalt/avatar-rounded.svg" width="110" height="110" alt="C03 Cobalt, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/cobalt/avatar-circle.svg" width="110" height="110" alt="C03 Cobalt, circle avatar on near-black"><img class="av" src="svg/cobalt/avatar-rounded.svg" width="110" height="110" alt="C03 Cobalt, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/cobalt/mark.svg" width="160" height="160" alt="C03 Cobalt, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/cobalt/mark.svg" width="160" height="160" alt="C03 Cobalt, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/cobalt/mark-dark.svg" width="160" height="160" alt="C03 Cobalt, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/cobalt/avatar-circle.svg" width="110" height="110" alt="C03 Cobalt as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#2450D8"></div>
+        <div class="li__body"><img class="li__logo" src="svg/cobalt/avatar-square.svg" width="100" height="100" alt="C03 Cobalt as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/cobalt/avatar-square.svg" width="48" height="48" alt="C03 Cobalt at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/cobalt/tab-16-light.png" width="16" height="16" alt="C03 Cobalt, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/cobalt/tab-16-dark.png" width="16" height="16" alt="C03 Cobalt, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/cobalt/fav-32-light.png" width="32" height="32" alt="C03 Cobalt, 32 px favicon on white"><img class="z" src="png/cobalt/fav-32-light.png" alt=""><img src="png/cobalt/fav-16-light.png" width="16" height="16" alt="C03 Cobalt, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/cobalt/fav-32-dark.png" width="32" height="32" alt="C03 Cobalt, 32 px favicon on near-black"><img class="z" src="png/cobalt/fav-32-dark.png" alt=""><img src="png/cobalt/fav-16-dark.png" width="16" height="16" alt="C03 Cobalt, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/cobalt/thumb.png" width="600" height="338" alt="C03 Cobalt, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/cobalt/lockup.svg" width="236" alt="C03 Cobalt, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/cobalt/lockup-dark.svg" width="236" alt="C03 Cobalt, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/cobalt/stacked.svg" width="120" alt="C03 Cobalt, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/cobalt/stacked-dark.svg" width="120" alt="C03 Cobalt, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="ink" aria-labelledby="h-ink">
+  <div class="mk__head"><p class="mk__num">C04</p><h3 id="h-ink">Near-black ink</h3></div>
+  <p class="mk__note">The same ink as the wordmark; flips to off-white on dark.</p>
+  <p class="mk__facts">disc <code>#0B0B0C</code>, second tone: none (cut-outs show the ground), dark-mode disc: #F1EEE7 (16.3:1). Contrast on white 19.7:1, on near-black 1.0:1. White grounds. On near-black it fails (1.0:1), so dark mode uses #F1EEE7 (16.3:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/ink/avatar-circle.svg" width="110" height="110" alt="C04 Near-black ink, circle avatar on white"><img class="av" src="svg/ink/avatar-rounded.svg" width="110" height="110" alt="C04 Near-black ink, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/ink/avatar-circle.svg" width="110" height="110" alt="C04 Near-black ink, circle avatar on near-black"><img class="av" src="svg/ink/avatar-rounded.svg" width="110" height="110" alt="C04 Near-black ink, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/ink/mark.svg" width="160" height="160" alt="C04 Near-black ink, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/ink/mark.svg" width="160" height="160" alt="C04 Near-black ink, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/ink/mark-dark.svg" width="160" height="160" alt="C04 Near-black ink, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/ink/avatar-circle.svg" width="110" height="110" alt="C04 Near-black ink as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#0B0B0C"></div>
+        <div class="li__body"><img class="li__logo" src="svg/ink/avatar-square.svg" width="100" height="100" alt="C04 Near-black ink as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/ink/avatar-square.svg" width="48" height="48" alt="C04 Near-black ink at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/ink/tab-16-light.png" width="16" height="16" alt="C04 Near-black ink, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/ink/tab-16-dark.png" width="16" height="16" alt="C04 Near-black ink, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/ink/fav-32-light.png" width="32" height="32" alt="C04 Near-black ink, 32 px favicon on white"><img class="z" src="png/ink/fav-32-light.png" alt=""><img src="png/ink/fav-16-light.png" width="16" height="16" alt="C04 Near-black ink, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/ink/fav-32-dark.png" width="32" height="32" alt="C04 Near-black ink, 32 px favicon on near-black"><img class="z" src="png/ink/fav-32-dark.png" alt=""><img src="png/ink/fav-16-dark.png" width="16" height="16" alt="C04 Near-black ink, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/ink/thumb.png" width="600" height="338" alt="C04 Near-black ink, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/ink/lockup.svg" width="236" alt="C04 Near-black ink, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/ink/lockup-dark.svg" width="236" alt="C04 Near-black ink, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/ink/stacked.svg" width="120" alt="C04 Near-black ink, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/ink/stacked-dark.svg" width="120" alt="C04 Near-black ink, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="charcoal" aria-labelledby="h-charcoal">
+  <div class="mk__head"><p class="mk__num">C05</p><h3 id="h-charcoal">Warm charcoal</h3></div>
+  <p class="mk__note">Softer than ink, with a warm cast.</p>
+  <p class="mk__facts">disc <code>#3A3532</code>, second tone: none (cut-outs show the ground), dark-mode disc: #D8D0C8 (12.4:1). Contrast on white 12.1:1, on near-black 1.6:1. White grounds. On near-black it fails (1.6:1), so dark mode uses #D8D0C8 (12.4:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/charcoal/avatar-circle.svg" width="110" height="110" alt="C05 Warm charcoal, circle avatar on white"><img class="av" src="svg/charcoal/avatar-rounded.svg" width="110" height="110" alt="C05 Warm charcoal, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/charcoal/avatar-circle.svg" width="110" height="110" alt="C05 Warm charcoal, circle avatar on near-black"><img class="av" src="svg/charcoal/avatar-rounded.svg" width="110" height="110" alt="C05 Warm charcoal, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/charcoal/mark.svg" width="160" height="160" alt="C05 Warm charcoal, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/charcoal/mark.svg" width="160" height="160" alt="C05 Warm charcoal, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/charcoal/mark-dark.svg" width="160" height="160" alt="C05 Warm charcoal, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/charcoal/avatar-circle.svg" width="110" height="110" alt="C05 Warm charcoal as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#3A3532"></div>
+        <div class="li__body"><img class="li__logo" src="svg/charcoal/avatar-square.svg" width="100" height="100" alt="C05 Warm charcoal as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/charcoal/avatar-square.svg" width="48" height="48" alt="C05 Warm charcoal at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/charcoal/tab-16-light.png" width="16" height="16" alt="C05 Warm charcoal, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/charcoal/tab-16-dark.png" width="16" height="16" alt="C05 Warm charcoal, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/charcoal/fav-32-light.png" width="32" height="32" alt="C05 Warm charcoal, 32 px favicon on white"><img class="z" src="png/charcoal/fav-32-light.png" alt=""><img src="png/charcoal/fav-16-light.png" width="16" height="16" alt="C05 Warm charcoal, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/charcoal/fav-32-dark.png" width="32" height="32" alt="C05 Warm charcoal, 32 px favicon on near-black"><img class="z" src="png/charcoal/fav-32-dark.png" alt=""><img src="png/charcoal/fav-16-dark.png" width="16" height="16" alt="C05 Warm charcoal, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/charcoal/thumb.png" width="600" height="338" alt="C05 Warm charcoal, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/charcoal/lockup.svg" width="236" alt="C05 Warm charcoal, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/charcoal/lockup-dark.svg" width="236" alt="C05 Warm charcoal, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/charcoal/stacked.svg" width="120" alt="C05 Warm charcoal, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/charcoal/stacked-dark.svg" width="120" alt="C05 Warm charcoal, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="green" aria-labelledby="h-green">
+  <div class="mk__head"><p class="mk__num">C06</p><h3 id="h-green">Deep green</h3></div>
+  <p class="mk__note">Calm and serious, a publisher green.</p>
+  <p class="mk__facts">disc <code>#0E5A49</code>, second tone: none (cut-outs show the ground), dark-mode disc: #5FC7A6 (9.2:1). Contrast on white 8.1:1, on near-black 2.3:1. White grounds. On near-black it fails (2.3:1), so dark mode uses #5FC7A6 (9.2:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/green/avatar-circle.svg" width="110" height="110" alt="C06 Deep green, circle avatar on white"><img class="av" src="svg/green/avatar-rounded.svg" width="110" height="110" alt="C06 Deep green, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/green/avatar-circle.svg" width="110" height="110" alt="C06 Deep green, circle avatar on near-black"><img class="av" src="svg/green/avatar-rounded.svg" width="110" height="110" alt="C06 Deep green, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/green/mark.svg" width="160" height="160" alt="C06 Deep green, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/green/mark.svg" width="160" height="160" alt="C06 Deep green, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/green/mark-dark.svg" width="160" height="160" alt="C06 Deep green, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/green/avatar-circle.svg" width="110" height="110" alt="C06 Deep green as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#0E5A49"></div>
+        <div class="li__body"><img class="li__logo" src="svg/green/avatar-square.svg" width="100" height="100" alt="C06 Deep green as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/green/avatar-square.svg" width="48" height="48" alt="C06 Deep green at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/green/tab-16-light.png" width="16" height="16" alt="C06 Deep green, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/green/tab-16-dark.png" width="16" height="16" alt="C06 Deep green, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/green/fav-32-light.png" width="32" height="32" alt="C06 Deep green, 32 px favicon on white"><img class="z" src="png/green/fav-32-light.png" alt=""><img src="png/green/fav-16-light.png" width="16" height="16" alt="C06 Deep green, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/green/fav-32-dark.png" width="32" height="32" alt="C06 Deep green, 32 px favicon on near-black"><img class="z" src="png/green/fav-32-dark.png" alt=""><img src="png/green/fav-16-dark.png" width="16" height="16" alt="C06 Deep green, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/green/thumb.png" width="600" height="338" alt="C06 Deep green, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/green/lockup.svg" width="236" alt="C06 Deep green, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/green/lockup-dark.svg" width="236" alt="C06 Deep green, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/green/stacked.svg" width="120" alt="C06 Deep green, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/green/stacked-dark.svg" width="120" alt="C06 Deep green, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="oxblood" aria-labelledby="h-oxblood">
+  <div class="mk__head"><p class="mk__num">C07</p><h3 id="h-oxblood">Oxblood</h3></div>
+  <p class="mk__note">Deep red-brown; bookish and warm.</p>
+  <p class="mk__facts">disc <code>#6E1F2A</code>, second tone: none (cut-outs show the ground), dark-mode disc: #E48593 (7.3:1). Contrast on white 11.1:1, on near-black 1.7:1. White grounds. On near-black it fails (1.7:1), so dark mode uses #E48593 (7.3:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/oxblood/avatar-circle.svg" width="110" height="110" alt="C07 Oxblood, circle avatar on white"><img class="av" src="svg/oxblood/avatar-rounded.svg" width="110" height="110" alt="C07 Oxblood, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/oxblood/avatar-circle.svg" width="110" height="110" alt="C07 Oxblood, circle avatar on near-black"><img class="av" src="svg/oxblood/avatar-rounded.svg" width="110" height="110" alt="C07 Oxblood, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/oxblood/mark.svg" width="160" height="160" alt="C07 Oxblood, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/oxblood/mark.svg" width="160" height="160" alt="C07 Oxblood, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/oxblood/mark-dark.svg" width="160" height="160" alt="C07 Oxblood, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/oxblood/avatar-circle.svg" width="110" height="110" alt="C07 Oxblood as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#6E1F2A"></div>
+        <div class="li__body"><img class="li__logo" src="svg/oxblood/avatar-square.svg" width="100" height="100" alt="C07 Oxblood as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/oxblood/avatar-square.svg" width="48" height="48" alt="C07 Oxblood at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/oxblood/tab-16-light.png" width="16" height="16" alt="C07 Oxblood, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/oxblood/tab-16-dark.png" width="16" height="16" alt="C07 Oxblood, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/oxblood/fav-32-light.png" width="32" height="32" alt="C07 Oxblood, 32 px favicon on white"><img class="z" src="png/oxblood/fav-32-light.png" alt=""><img src="png/oxblood/fav-16-light.png" width="16" height="16" alt="C07 Oxblood, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/oxblood/fav-32-dark.png" width="32" height="32" alt="C07 Oxblood, 32 px favicon on near-black"><img class="z" src="png/oxblood/fav-32-dark.png" alt=""><img src="png/oxblood/fav-16-dark.png" width="16" height="16" alt="C07 Oxblood, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/oxblood/thumb.png" width="600" height="338" alt="C07 Oxblood, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/oxblood/lockup.svg" width="236" alt="C07 Oxblood, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/oxblood/lockup-dark.svg" width="236" alt="C07 Oxblood, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/oxblood/stacked.svg" width="120" alt="C07 Oxblood, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/oxblood/stacked-dark.svg" width="120" alt="C07 Oxblood, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="vermilion" aria-labelledby="h-vermilion">
+  <div class="mk__head"><p class="mk__num">C08</p><h3 id="h-vermilion">Vermilion</h3></div>
+  <p class="mk__note">The loudest option; the same red passes on white and on near-black.</p>
+  <p class="mk__facts">disc <code>#D9411E</code>, second tone: none (cut-outs show the ground), dark-mode disc: same. Contrast on white 4.4:1, on near-black 4.2:1. Both grounds: the one color passes on white and on near-black.</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/vermilion/avatar-circle.svg" width="110" height="110" alt="C08 Vermilion, circle avatar on white"><img class="av" src="svg/vermilion/avatar-rounded.svg" width="110" height="110" alt="C08 Vermilion, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/vermilion/avatar-circle.svg" width="110" height="110" alt="C08 Vermilion, circle avatar on near-black"><img class="av" src="svg/vermilion/avatar-rounded.svg" width="110" height="110" alt="C08 Vermilion, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/vermilion/mark.svg" width="160" height="160" alt="C08 Vermilion, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/vermilion/mark.svg" width="160" height="160" alt="C08 Vermilion, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/vermilion/mark-dark.svg" width="160" height="160" alt="C08 Vermilion, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/vermilion/avatar-circle.svg" width="110" height="110" alt="C08 Vermilion as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#D9411E"></div>
+        <div class="li__body"><img class="li__logo" src="svg/vermilion/avatar-square.svg" width="100" height="100" alt="C08 Vermilion as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/vermilion/avatar-square.svg" width="48" height="48" alt="C08 Vermilion at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/vermilion/tab-16-light.png" width="16" height="16" alt="C08 Vermilion, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/vermilion/tab-16-dark.png" width="16" height="16" alt="C08 Vermilion, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/vermilion/fav-32-light.png" width="32" height="32" alt="C08 Vermilion, 32 px favicon on white"><img class="z" src="png/vermilion/fav-32-light.png" alt=""><img src="png/vermilion/fav-16-light.png" width="16" height="16" alt="C08 Vermilion, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/vermilion/fav-32-dark.png" width="32" height="32" alt="C08 Vermilion, 32 px favicon on near-black"><img class="z" src="png/vermilion/fav-32-dark.png" alt=""><img src="png/vermilion/fav-16-dark.png" width="16" height="16" alt="C08 Vermilion, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/vermilion/thumb.png" width="600" height="338" alt="C08 Vermilion, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/vermilion/lockup.svg" width="236" alt="C08 Vermilion, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/vermilion/lockup-dark.svg" width="236" alt="C08 Vermilion, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/vermilion/stacked.svg" width="120" alt="C08 Vermilion, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/vermilion/stacked-dark.svg" width="120" alt="C08 Vermilion, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="plum" aria-labelledby="h-plum">
+  <div class="mk__head"><p class="mk__num">C09</p><h3 id="h-plum">Plum</h3></div>
+  <p class="mk__note">Dark purple; rare in the UX and product space.</p>
+  <p class="mk__facts">disc <code>#4B2A7A</code>, second tone: none (cut-outs show the ground), dark-mode disc: #B9A0EC (8.4:1). Contrast on white 11.0:1, on near-black 1.7:1. White grounds. On near-black it fails (1.7:1), so dark mode uses #B9A0EC (8.4:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/plum/avatar-circle.svg" width="110" height="110" alt="C09 Plum, circle avatar on white"><img class="av" src="svg/plum/avatar-rounded.svg" width="110" height="110" alt="C09 Plum, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/plum/avatar-circle.svg" width="110" height="110" alt="C09 Plum, circle avatar on near-black"><img class="av" src="svg/plum/avatar-rounded.svg" width="110" height="110" alt="C09 Plum, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/plum/mark.svg" width="160" height="160" alt="C09 Plum, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/plum/mark.svg" width="160" height="160" alt="C09 Plum, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/plum/mark-dark.svg" width="160" height="160" alt="C09 Plum, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/plum/avatar-circle.svg" width="110" height="110" alt="C09 Plum as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#4B2A7A"></div>
+        <div class="li__body"><img class="li__logo" src="svg/plum/avatar-square.svg" width="100" height="100" alt="C09 Plum as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/plum/avatar-square.svg" width="48" height="48" alt="C09 Plum at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/plum/tab-16-light.png" width="16" height="16" alt="C09 Plum, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/plum/tab-16-dark.png" width="16" height="16" alt="C09 Plum, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/plum/fav-32-light.png" width="32" height="32" alt="C09 Plum, 32 px favicon on white"><img class="z" src="png/plum/fav-32-light.png" alt=""><img src="png/plum/fav-16-light.png" width="16" height="16" alt="C09 Plum, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/plum/fav-32-dark.png" width="32" height="32" alt="C09 Plum, 32 px favicon on near-black"><img class="z" src="png/plum/fav-32-dark.png" alt=""><img src="png/plum/fav-16-dark.png" width="16" height="16" alt="C09 Plum, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/plum/thumb.png" width="600" height="338" alt="C09 Plum, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/plum/lockup.svg" width="236" alt="C09 Plum, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/plum/lockup-dark.svg" width="236" alt="C09 Plum, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/plum/stacked.svg" width="120" alt="C09 Plum, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/plum/stacked-dark.svg" width="120" alt="C09 Plum, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="teal" aria-labelledby="h-teal">
+  <div class="mk__head"><p class="mk__num">C10</p><h3 id="h-teal">Teal</h3></div>
+  <p class="mk__note">Blue-green; passes on both grounds, with a brighter teal on dark for more lift.</p>
+  <p class="mk__facts">disc <code>#0F766E</code>, second tone: none (cut-outs show the ground), dark-mode disc: #3DC2B5 (8.6:1). Contrast on white 5.5:1, on near-black 3.5:1. Both grounds: the one color passes on white and on near-black. The brighter #3DC2B5 on dark gives more lift (8.6:1).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/teal/avatar-circle.svg" width="110" height="110" alt="C10 Teal, circle avatar on white"><img class="av" src="svg/teal/avatar-rounded.svg" width="110" height="110" alt="C10 Teal, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/teal/avatar-circle.svg" width="110" height="110" alt="C10 Teal, circle avatar on near-black"><img class="av" src="svg/teal/avatar-rounded.svg" width="110" height="110" alt="C10 Teal, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/teal/mark.svg" width="160" height="160" alt="C10 Teal, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/teal/mark.svg" width="160" height="160" alt="C10 Teal, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/teal/mark-dark.svg" width="160" height="160" alt="C10 Teal, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/teal/avatar-circle.svg" width="110" height="110" alt="C10 Teal as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#0F766E"></div>
+        <div class="li__body"><img class="li__logo" src="svg/teal/avatar-square.svg" width="100" height="100" alt="C10 Teal as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/teal/avatar-square.svg" width="48" height="48" alt="C10 Teal at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/teal/tab-16-light.png" width="16" height="16" alt="C10 Teal, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/teal/tab-16-dark.png" width="16" height="16" alt="C10 Teal, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/teal/fav-32-light.png" width="32" height="32" alt="C10 Teal, 32 px favicon on white"><img class="z" src="png/teal/fav-32-light.png" alt=""><img src="png/teal/fav-16-light.png" width="16" height="16" alt="C10 Teal, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/teal/fav-32-dark.png" width="32" height="32" alt="C10 Teal, 32 px favicon on near-black"><img class="z" src="png/teal/fav-32-dark.png" alt=""><img src="png/teal/fav-16-dark.png" width="16" height="16" alt="C10 Teal, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/teal/thumb.png" width="600" height="338" alt="C10 Teal, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/teal/lockup.svg" width="236" alt="C10 Teal, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/teal/lockup-dark.svg" width="236" alt="C10 Teal, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/teal/stacked.svg" width="120" alt="C10 Teal, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/teal/stacked-dark.svg" width="120" alt="C10 Teal, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="mustard" aria-labelledby="h-mustard">
+  <div class="mk__head"><p class="mk__num">C11</p><h3 id="h-mustard">Mustard with a dark figure</h3></div>
+  <p class="mk__note">The cut-outs are filled with ink, so the person is dark on yellow. The disc edge is soft on white.</p>
+  <p class="mk__facts">disc <code>#E3A72F</code>, second tone: head #0B0B0C, band #0B0B0C, dark-mode disc: same. Contrast on white 2.1:1, on near-black 8.8:1. Dark grounds, or the yellow used as a field. On white the disc edge is soft (2.1:1) but the ink figure carries the mark (9.2:1 on the yellow).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/mustard/avatar-circle.svg" width="110" height="110" alt="C11 Mustard with a dark figure, circle avatar on white"><img class="av" src="svg/mustard/avatar-rounded.svg" width="110" height="110" alt="C11 Mustard with a dark figure, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/mustard/avatar-circle.svg" width="110" height="110" alt="C11 Mustard with a dark figure, circle avatar on near-black"><img class="av" src="svg/mustard/avatar-rounded.svg" width="110" height="110" alt="C11 Mustard with a dark figure, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/mustard/single.svg" width="160" height="160" alt="C11 Mustard with a dark figure, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/mustard/mark.svg" width="160" height="160" alt="C11 Mustard with a dark figure, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/mustard/mark-dark.svg" width="160" height="160" alt="C11 Mustard with a dark figure, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/mustard/avatar-circle.svg" width="110" height="110" alt="C11 Mustard with a dark figure as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#E3A72F"></div>
+        <div class="li__body"><img class="li__logo" src="svg/mustard/avatar-square.svg" width="100" height="100" alt="C11 Mustard with a dark figure as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/mustard/avatar-square.svg" width="48" height="48" alt="C11 Mustard with a dark figure at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/mustard/tab-16-light.png" width="16" height="16" alt="C11 Mustard with a dark figure, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/mustard/tab-16-dark.png" width="16" height="16" alt="C11 Mustard with a dark figure, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/mustard/fav-32-light.png" width="32" height="32" alt="C11 Mustard with a dark figure, 32 px favicon on white"><img class="z" src="png/mustard/fav-32-light.png" alt=""><img src="png/mustard/fav-16-light.png" width="16" height="16" alt="C11 Mustard with a dark figure, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/mustard/fav-32-dark.png" width="32" height="32" alt="C11 Mustard with a dark figure, 32 px favicon on near-black"><img class="z" src="png/mustard/fav-32-dark.png" alt=""><img src="png/mustard/fav-16-dark.png" width="16" height="16" alt="C11 Mustard with a dark figure, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/mustard/thumb.png" width="600" height="338" alt="C11 Mustard with a dark figure, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/mustard/lockup.svg" width="236" alt="C11 Mustard with a dark figure, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/mustard/lockup-dark.svg" width="236" alt="C11 Mustard with a dark figure, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/mustard/stacked.svg" width="120" alt="C11 Mustard with a dark figure, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/mustard/stacked-dark.svg" width="120" alt="C11 Mustard with a dark figure, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="twotone" aria-labelledby="h-twotone">
+  <div class="mk__head"><p class="mk__num">C12</p><h3 id="h-twotone">Two-tone blue</h3></div>
+  <p class="mk__note">Signal blue disc; the head in white, the band in the light blue, so the head carries the lighter tone.</p>
+  <p class="mk__facts">disc <code>#2B46A0</code>, second tone: head #FFFFFF, band #8EA2FF, dark-mode disc: same. Contrast on white 8.4:1, on near-black 2.2:1. White grounds (8.4:1). On near-black the disc edge is soft (2.2:1); the filled white head and light band still read (head 8.4:1, band 3.5:1 on the disc).</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="svg/twotone/avatar-circle.svg" width="110" height="110" alt="C12 Two-tone blue, circle avatar on white"><img class="av" src="svg/twotone/avatar-rounded.svg" width="110" height="110" alt="C12 Two-tone blue, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="svg/twotone/avatar-circle.svg" width="110" height="110" alt="C12 Two-tone blue, circle avatar on near-black"><img class="av" src="svg/twotone/avatar-rounded.svg" width="110" height="110" alt="C12 Two-tone blue, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/twotone/single.svg" width="160" height="160" alt="C12 Two-tone blue, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/twotone/mark.svg" width="160" height="160" alt="C12 Two-tone blue, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/twotone/mark-dark.svg" width="160" height="160" alt="C12 Two-tone blue, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/twotone/avatar-circle.svg" width="110" height="110" alt="C12 Two-tone blue as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/twotone/avatar-square.svg" width="100" height="100" alt="C12 Two-tone blue as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="svg/twotone/avatar-square.svg" width="48" height="48" alt="C12 Two-tone blue at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/twotone/tab-16-light.png" width="16" height="16" alt="C12 Two-tone blue, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/twotone/tab-16-dark.png" width="16" height="16" alt="C12 Two-tone blue, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/twotone/fav-32-light.png" width="32" height="32" alt="C12 Two-tone blue, 32 px favicon on white"><img class="z" src="png/twotone/fav-32-light.png" alt=""><img src="png/twotone/fav-16-light.png" width="16" height="16" alt="C12 Two-tone blue, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/twotone/fav-32-dark.png" width="32" height="32" alt="C12 Two-tone blue, 32 px favicon on near-black"><img class="z" src="png/twotone/fav-32-dark.png" alt=""><img src="png/twotone/fav-16-dark.png" width="16" height="16" alt="C12 Two-tone blue, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/twotone/thumb.png" width="600" height="338" alt="C12 Two-tone blue, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/twotone/lockup.svg" width="236" alt="C12 Two-tone blue, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/twotone/lockup-dark.svg" width="236" alt="C12 Two-tone blue, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/twotone/stacked.svg" width="120" alt="C12 Two-tone blue, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/twotone/stacked-dark.svg" width="120" alt="C12 Two-tone blue, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+
+  <div class="grp" id="gradients"><h2>Gradient options</h2>
+    <p>Four smooth two-stop gradients, diagonal from the top left. The house rule from the first logo pack still
+    stands: <b>gradients are for social backgrounds only, never on the site.</b> These are marked as social
+    candidates (avatars, banners, posts) unless the owner says otherwise.</p>
+    <div class="tw"><table class="opts"><thead><tr><th>No.</th><th>Gradient</th><th>Top left to bottom right</th><th>On white</th><th>On #111</th><th>Use</th></tr></thead><tbody><tr><td class="n">G01</td><td><a href="#g-signal-cobalt">Signal blue to cobalt</a></td><td class="n"><span class="sw" style="background:#3B63E6" aria-hidden="true"></span><code>#3B63E6</code> to <span class="sw" style="background:#2B46A0" aria-hidden="true"></span><code>#2B46A0</code></td><td class="n">5.1:1 to 8.4:1</td><td class="n">2.2:1 to 3.7:1</td><td>Social backgrounds and avatars only. White figure on the gradient: 5.1:1 to 8.4:1.</td></tr><tr><td class="n">G02</td><td><a href="#g-navy-teal">Navy to teal</a></td><td class="n"><span class="sw" style="background:#0F766E" aria-hidden="true"></span><code>#0F766E</code> to <span class="sw" style="background:#1B2A55" aria-hidden="true"></span><code>#1B2A55</code></td><td class="n">5.5:1 to 13.9:1</td><td class="n">1.4:1 to 3.5:1</td><td>Social backgrounds and avatars only. White figure on the gradient: 5.5:1 to 13.9:1.</td></tr><tr><td class="n">G03</td><td><a href="#g-plum-vermilion">Plum to vermilion</a></td><td class="n"><span class="sw" style="background:#D9411E" aria-hidden="true"></span><code>#D9411E</code> to <span class="sw" style="background:#4B2A7A" aria-hidden="true"></span><code>#4B2A7A</code></td><td class="n">4.4:1 to 11.0:1</td><td class="n">1.7:1 to 4.2:1</td><td>Social backgrounds and avatars only. White figure on the gradient: 4.4:1 to 11.0:1.</td></tr><tr><td class="n">G04</td><td><a href="#g-charcoal-ink">Charcoal to ink</a></td><td class="n"><span class="sw" style="background:#4A4440" aria-hidden="true"></span><code>#4A4440</code> to <span class="sw" style="background:#0B0B0C" aria-hidden="true"></span><code>#0B0B0C</code></td><td class="n">9.6:1 to 19.7:1</td><td class="n">1.0:1 to 2.0:1</td><td>Social backgrounds and avatars only. White figure on the gradient: 9.6:1 to 19.7:1.</td></tr></tbody></table></div>
+    <div class="note" role="note"><p>Banding: the board shows the gradient avatars as PNGs rendered at four times
+    the size, stepped down and dithered by under one gray level; the exports in <code>export/gradient/</code> are made the same way.</p></div>
+  </div>
+  
+<section class="mk" id="g-signal-cobalt" aria-labelledby="h-g-signal-cobalt">
+  <div class="mk__head"><p class="mk__num">G01</p><h3 id="h-g-signal-cobalt">Signal blue to cobalt</h3></div>
+  <p class="mk__note">The smallest step: the house blue, lifted to cobalt in the top left corner. <b>Gradient: a social candidate only.</b> The tab, favicon, thumbnail and header rows are shown for comparison; on the site the flat color is used.</p>
+  <p class="mk__facts"><code>#3B63E6</code> to <code>#2B46A0</code>, diagonal. Contrast on white 5.1:1 to 8.4:1, on near-black 2.2:1 to 3.7:1. Social backgrounds and avatars only. White figure on the gradient: 5.1:1 to 8.4:1.</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="png/g-signal-cobalt/avatar-circle-440.png" width="110" height="110" alt="G01 Signal blue to cobalt, circle avatar on white"><img class="av" src="png/g-signal-cobalt/avatar-rounded-440.png" width="110" height="110" alt="G01 Signal blue to cobalt, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="png/g-signal-cobalt/avatar-circle-440.png" width="110" height="110" alt="G01 Signal blue to cobalt, circle avatar on near-black"><img class="av" src="png/g-signal-cobalt/avatar-rounded-440.png" width="110" height="110" alt="G01 Signal blue to cobalt, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/g-signal-cobalt/mark.svg" width="160" height="160" alt="G01 Signal blue to cobalt, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/g-signal-cobalt/mark.svg" width="160" height="160" alt="G01 Signal blue to cobalt, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/g-signal-cobalt/mark-dark.svg" width="160" height="160" alt="G01 Signal blue to cobalt, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="png/g-signal-cobalt/avatar-circle-440.png" width="110" height="110" alt="G01 Signal blue to cobalt as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:linear-gradient(135deg,#3B63E6,#2B46A0)"></div>
+        <div class="li__body"><img class="li__logo" src="png/g-signal-cobalt/avatar-square-440.png" width="100" height="100" alt="G01 Signal blue to cobalt as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="png/g-signal-cobalt/avatar-square-440.png" width="48" height="48" alt="G01 Signal blue to cobalt at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/g-signal-cobalt/tab-16-light.png" width="16" height="16" alt="G01 Signal blue to cobalt, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/g-signal-cobalt/tab-16-dark.png" width="16" height="16" alt="G01 Signal blue to cobalt, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/g-signal-cobalt/fav-32-light.png" width="32" height="32" alt="G01 Signal blue to cobalt, 32 px favicon on white"><img class="z" src="png/g-signal-cobalt/fav-32-light.png" alt=""><img src="png/g-signal-cobalt/fav-16-light.png" width="16" height="16" alt="G01 Signal blue to cobalt, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/g-signal-cobalt/fav-32-dark.png" width="32" height="32" alt="G01 Signal blue to cobalt, 32 px favicon on near-black"><img class="z" src="png/g-signal-cobalt/fav-32-dark.png" alt=""><img src="png/g-signal-cobalt/fav-16-dark.png" width="16" height="16" alt="G01 Signal blue to cobalt, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/g-signal-cobalt/thumb.png" width="600" height="338" alt="G01 Signal blue to cobalt, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/g-signal-cobalt/lockup.svg" width="236" alt="G01 Signal blue to cobalt, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/g-signal-cobalt/lockup-dark.svg" width="236" alt="G01 Signal blue to cobalt, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/g-signal-cobalt/stacked.svg" width="120" alt="G01 Signal blue to cobalt, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/g-signal-cobalt/stacked-dark.svg" width="120" alt="G01 Signal blue to cobalt, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="g-navy-teal" aria-labelledby="h-g-navy-teal">
+  <div class="mk__head"><p class="mk__num">G02</p><h3 id="h-g-navy-teal">Navy to teal</h3></div>
+  <p class="mk__note">Teal in the top left, deep navy in the bottom right. <b>Gradient: a social candidate only.</b> The tab, favicon, thumbnail and header rows are shown for comparison; on the site the flat color is used.</p>
+  <p class="mk__facts"><code>#0F766E</code> to <code>#1B2A55</code>, diagonal. Contrast on white 5.5:1 to 13.9:1, on near-black 1.4:1 to 3.5:1. Social backgrounds and avatars only. White figure on the gradient: 5.5:1 to 13.9:1.</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="png/g-navy-teal/avatar-circle-440.png" width="110" height="110" alt="G02 Navy to teal, circle avatar on white"><img class="av" src="png/g-navy-teal/avatar-rounded-440.png" width="110" height="110" alt="G02 Navy to teal, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="png/g-navy-teal/avatar-circle-440.png" width="110" height="110" alt="G02 Navy to teal, circle avatar on near-black"><img class="av" src="png/g-navy-teal/avatar-rounded-440.png" width="110" height="110" alt="G02 Navy to teal, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/g-navy-teal/mark.svg" width="160" height="160" alt="G02 Navy to teal, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/g-navy-teal/mark.svg" width="160" height="160" alt="G02 Navy to teal, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/g-navy-teal/mark-dark.svg" width="160" height="160" alt="G02 Navy to teal, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="png/g-navy-teal/avatar-circle-440.png" width="110" height="110" alt="G02 Navy to teal as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:linear-gradient(135deg,#0F766E,#1B2A55)"></div>
+        <div class="li__body"><img class="li__logo" src="png/g-navy-teal/avatar-square-440.png" width="100" height="100" alt="G02 Navy to teal as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="png/g-navy-teal/avatar-square-440.png" width="48" height="48" alt="G02 Navy to teal at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/g-navy-teal/tab-16-light.png" width="16" height="16" alt="G02 Navy to teal, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/g-navy-teal/tab-16-dark.png" width="16" height="16" alt="G02 Navy to teal, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/g-navy-teal/fav-32-light.png" width="32" height="32" alt="G02 Navy to teal, 32 px favicon on white"><img class="z" src="png/g-navy-teal/fav-32-light.png" alt=""><img src="png/g-navy-teal/fav-16-light.png" width="16" height="16" alt="G02 Navy to teal, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/g-navy-teal/fav-32-dark.png" width="32" height="32" alt="G02 Navy to teal, 32 px favicon on near-black"><img class="z" src="png/g-navy-teal/fav-32-dark.png" alt=""><img src="png/g-navy-teal/fav-16-dark.png" width="16" height="16" alt="G02 Navy to teal, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/g-navy-teal/thumb.png" width="600" height="338" alt="G02 Navy to teal, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/g-navy-teal/lockup.svg" width="236" alt="G02 Navy to teal, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/g-navy-teal/lockup-dark.svg" width="236" alt="G02 Navy to teal, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/g-navy-teal/stacked.svg" width="120" alt="G02 Navy to teal, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/g-navy-teal/stacked-dark.svg" width="120" alt="G02 Navy to teal, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="g-plum-vermilion" aria-labelledby="h-g-plum-vermilion">
+  <div class="mk__head"><p class="mk__num">G03</p><h3 id="h-g-plum-vermilion">Plum to vermilion</h3></div>
+  <p class="mk__note">The warmest and the loudest: vermilion fading into plum. <b>Gradient: a social candidate only.</b> The tab, favicon, thumbnail and header rows are shown for comparison; on the site the flat color is used.</p>
+  <p class="mk__facts"><code>#D9411E</code> to <code>#4B2A7A</code>, diagonal. Contrast on white 4.4:1 to 11.0:1, on near-black 1.7:1 to 4.2:1. Social backgrounds and avatars only. White figure on the gradient: 4.4:1 to 11.0:1.</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="png/g-plum-vermilion/avatar-circle-440.png" width="110" height="110" alt="G03 Plum to vermilion, circle avatar on white"><img class="av" src="png/g-plum-vermilion/avatar-rounded-440.png" width="110" height="110" alt="G03 Plum to vermilion, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="png/g-plum-vermilion/avatar-circle-440.png" width="110" height="110" alt="G03 Plum to vermilion, circle avatar on near-black"><img class="av" src="png/g-plum-vermilion/avatar-rounded-440.png" width="110" height="110" alt="G03 Plum to vermilion, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/g-plum-vermilion/mark.svg" width="160" height="160" alt="G03 Plum to vermilion, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/g-plum-vermilion/mark.svg" width="160" height="160" alt="G03 Plum to vermilion, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/g-plum-vermilion/mark-dark.svg" width="160" height="160" alt="G03 Plum to vermilion, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="png/g-plum-vermilion/avatar-circle-440.png" width="110" height="110" alt="G03 Plum to vermilion as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:linear-gradient(135deg,#D9411E,#4B2A7A)"></div>
+        <div class="li__body"><img class="li__logo" src="png/g-plum-vermilion/avatar-square-440.png" width="100" height="100" alt="G03 Plum to vermilion as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="png/g-plum-vermilion/avatar-square-440.png" width="48" height="48" alt="G03 Plum to vermilion at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/g-plum-vermilion/tab-16-light.png" width="16" height="16" alt="G03 Plum to vermilion, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/g-plum-vermilion/tab-16-dark.png" width="16" height="16" alt="G03 Plum to vermilion, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/g-plum-vermilion/fav-32-light.png" width="32" height="32" alt="G03 Plum to vermilion, 32 px favicon on white"><img class="z" src="png/g-plum-vermilion/fav-32-light.png" alt=""><img src="png/g-plum-vermilion/fav-16-light.png" width="16" height="16" alt="G03 Plum to vermilion, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/g-plum-vermilion/fav-32-dark.png" width="32" height="32" alt="G03 Plum to vermilion, 32 px favicon on near-black"><img class="z" src="png/g-plum-vermilion/fav-32-dark.png" alt=""><img src="png/g-plum-vermilion/fav-16-dark.png" width="16" height="16" alt="G03 Plum to vermilion, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/g-plum-vermilion/thumb.png" width="600" height="338" alt="G03 Plum to vermilion, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/g-plum-vermilion/lockup.svg" width="236" alt="G03 Plum to vermilion, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/g-plum-vermilion/lockup-dark.svg" width="236" alt="G03 Plum to vermilion, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/g-plum-vermilion/stacked.svg" width="120" alt="G03 Plum to vermilion, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/g-plum-vermilion/stacked-dark.svg" width="120" alt="G03 Plum to vermilion, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+<section class="mk" id="g-charcoal-ink" aria-labelledby="h-g-charcoal-ink">
+  <div class="mk__head"><p class="mk__num">G04</p><h3 id="h-g-charcoal-ink">Charcoal to ink</h3></div>
+  <p class="mk__note">Almost flat: a warm charcoal glow on near-black. <b>Gradient: a social candidate only.</b> The tab, favicon, thumbnail and header rows are shown for comparison; on the site the flat color is used.</p>
+  <p class="mk__facts"><code>#4A4440</code> to <code>#0B0B0C</code>, diagonal. Contrast on white 9.6:1 to 19.7:1, on near-black 1.0:1 to 2.0:1. Social backgrounds and avatars only. White figure on the gradient: 9.6:1 to 19.7:1.</p>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square, on white and on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av av--c" src="png/g-charcoal-ink/avatar-circle-440.png" width="110" height="110" alt="G04 Charcoal to ink, circle avatar on white"><img class="av" src="png/g-charcoal-ink/avatar-rounded-440.png" width="110" height="110" alt="G04 Charcoal to ink, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av av--c" src="png/g-charcoal-ink/avatar-circle-440.png" width="110" height="110" alt="G04 Charcoal to ink, circle avatar on near-black"><img class="av" src="png/g-charcoal-ink/avatar-rounded-440.png" width="110" height="110" alt="G04 Charcoal to ink, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: black on white, white on black, the option in one color</h4>
+    <div class="trio">
+      <figure class="g g--w"><img class="m160" src="svg/mark-black.svg" width="160" height="160" alt="The mark in black on white"></figure>
+      <figure class="g g--pk"><img class="m160" src="svg/mark-white.svg" width="160" height="160" alt="The mark in white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/g-charcoal-ink/mark.svg" width="160" height="160" alt="G04 Charcoal to ink, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px, the cut-outs empty: on white, and the dark-mode version on near-black</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/g-charcoal-ink/mark.svg" width="160" height="160" alt="G04 Charcoal to ink, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/g-charcoal-ink/mark-dark.svg" width="160" height="160" alt="G04 Charcoal to ink, dark-mode mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Instagram and LinkedIn</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="png/g-charcoal-ink/avatar-circle-440.png" width="110" height="110" alt="G04 Charcoal to ink as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page and feed</p>
+        <div class="li__banner" style="background:linear-gradient(135deg,#4A4440,#0B0B0C)"></div>
+        <div class="li__body"><img class="li__logo" src="png/g-charcoal-ink/avatar-square-440.png" width="100" height="100" alt="G04 Charcoal to ink as a LinkedIn company logo">
+          <div><p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+        <div class="li__post"><img src="png/g-charcoal-ink/avatar-square-440.png" width="48" height="48" alt="G04 Charcoal to ink at 48 px in the LinkedIn feed">
+          <div><b>userandproduct</b><small>2,340 followers · 1h</small><p>Why most roadmaps fail before the first sprint, and the one question that fixes it.</p></div></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Browser tab with the 16 px favicon, light and dark</h4>
+    <div class="mock">
+      <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/g-charcoal-ink/tab-16-light.png" width="16" height="16" alt="G04 Charcoal to ink, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/g-charcoal-ink/tab-16-dark.png" width="16" height="16" alt="G04 Charcoal to ink, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+    </div></div>
+  <div class="row"><h4>Favicon: 32 px and 16 px, rendered at size; the 32 px enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/g-charcoal-ink/fav-32-light.png" width="32" height="32" alt="G04 Charcoal to ink, 32 px favicon on white"><img class="z" src="png/g-charcoal-ink/fav-32-light.png" alt=""><img src="png/g-charcoal-ink/fav-16-light.png" width="16" height="16" alt="G04 Charcoal to ink, 16 px favicon on white"></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/g-charcoal-ink/fav-32-dark.png" width="32" height="32" alt="G04 Charcoal to ink, 32 px favicon on near-black"><img class="z" src="png/g-charcoal-ink/fav-32-dark.png" alt=""><img src="png/g-charcoal-ink/fav-16-dark.png" width="16" height="16" alt="G04 Charcoal to ink, 16 px favicon on near-black"></div></div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: the lockup 120 px wide in the corner of a 600 x 338 tile</h4>
+    <img class="thumb" src="png/g-charcoal-ink/thumb.png" width="600" height="338" alt="G04 Charcoal to ink, lockup on a thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px, Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/g-charcoal-ink/lockup.svg" width="236" alt="G04 Charcoal to ink, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/g-charcoal-ink/lockup-dark.svg" width="236" alt="G04 Charcoal to ink, header lockup on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Stacked lockup at 120 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="st" src="svg/g-charcoal-ink/stacked.svg" width="120" alt="G04 Charcoal to ink, stacked lockup on white"></div>
+      <div class="g g--k"><img class="st" src="svg/g-charcoal-ink/stacked-dark.svg" width="120" alt="G04 Charcoal to ink, stacked lockup on near-black"></div>
+    </div></div>
+</section>
+
+  <div class="grp" id="exports"><h2>What gets exported</h2>
+    <p>The export folder holds the signal blue option (C01) ready to try for real. Every other option has its
+    masters in <code>svg/</code> and its renders in <code>png/</code>; any of them can be exported the same way
+    once one is chosen.</p>
+    <ul class="files"><li><code>export/favicon.svg</code>: the signal blue disc with empty cut-outs; switches to #8EA2FF in dark themes.</li><li><code>export/favicon.ico, favicon-16.png, favicon-32.png, favicon-48.png</code>: the disc with the figure filled white, so it holds in light and dark tabs.</li><li><code>export/apple-touch-icon-180.png</code>: opaque full square, signal blue with the white figure; iOS rounds the corners.</li><li><code>export/social-square-1080.png, social-square-400.png</code>: the square avatar for Instagram, LinkedIn and X uploads.</li><li><code>export/social-circle-1080.png, social-circle-400.png</code>: the disc edge to edge, transparent corners.</li><li><code>export/gradient/</code>: each gradient as a 1080 square and circle, dithered against banding; social only.</li><li><code>export/head-snippet.html</code>: the three tags for the theme head.</li><li><code>svg/mark.svg</code>: the clean master: the owner&#x27;s geometry exactly, one compound path, the cut-outs true holes.</li><li><code>svg/mark-solid.svg</code>: the same with the cut-outs filled white, for photos.</li><li><code>svg/mark-black.svg, mark-white.svg, mark-currentcolor.svg</code>: monochrome and inline masters.</li><li><code>svg/lockup-black.svg, lockup-white.svg, stacked-black.svg, stacked-white.svg</code>: monochrome lockups.</li><li><code>svg/&lt;option&gt;/</code>: per option: mark, mark-dark, single (when the cut-outs are filled), avatar-circle, avatar-rounded, avatar-square, lockup, lockup-dark, stacked, stacked-dark.</li><li><code>png/&lt;option&gt;/</code>: per option: favicons at 16 and 32 px on white and near-black, transparent tab icons, the thumbnail tile; for gradients also the avatars as PNG.</li></ul>
+  </div>
+  <p class="foot">Built by <code>build.py</code> in this folder from <code>source/Logo-owner.svg</code> (the owner's
+  <code>Logo.svg</code> is never touched). Checks in <code>check.py</code>. The Instagram, LinkedIn and tab previews are plain HTML
+  mocks, the same for every option. Rebuild notes in README.md.</p>
+</main>
+<script src="../mockup.js"></script>
+</body>
+</html>

@@ -838,3 +838,8 @@ figurative carry-overs (at the screen, doorway, raised hand), eight fresh marks 
 signpost, funnel, block) that read as library icons. Main-session read: live candidates are the tilted cup, the speech
 mark once its tail is solid and breaks the outline, the square coin and the shelf. Round 3 closed with a numbering map
 note and the no-renumbering rule. Waiting for the owner.
+Owner (10 Oct, later): rounds 1 to 4 all rejected ("all of it"). The owner drew their own mark in Illustrator and put
+it at research/mockups/Logo-3/Logo.svg: a solid disc with a rounded diamond (head) and a wide curved band (shoulders,
+also a smile) cut out; black mark only. It holds at 32 px. Asked for: the other versions, at least ten colour options,
+three or four gradient options, and previews of everything (browser favicon, Instagram, LinkedIn icon and mark). Being
+built in Logo-3/ with a clean master (true negative space), monochrome, lockups, exports and a board.
