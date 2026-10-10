@@ -737,3 +737,22 @@ importance with one in-feed ad, a five-step Start-here rail, author strip, Templ
 shared footer. Twelve generated thumbnails across all ten code-drawn styles. .chip and .chips moved into the shared
 mockup.css. Article A's rail rebuilt with "More in <category>", the ad, "New on the site". Owner to review and give
 changes one at a time; noted for review: the lone in-feed ad in the middle column, the uneven stacked shelves.
+Owner on the home page (10 Oct): too fancy. The home page is just the latest published articles and links to the
+other parts of the site; no "pieces I would hand a colleague", no Start-here path, no stacked shelves. Think about how
+the functionality works: everything must come from WordPress automatically (latest posts, category lists, section
+links), nothing for the owner to curate. Rebuilding in place: masthead line, latest articles (newest larger, then a
+grid, no dates), topics as three plain category lists with counts, a row of section links, newsletter, footer.
+Standing rule for every page from here on.
+Owner (article A, 10 Oct): the rail's "More in <category>" list goes small and compact with small thumbnails; "New on
+the site" leaves the rail (rail = compact list plus ad); the bottom "// Related" section becomes the new-articles
+section with three large cards, named in one constant ("Just published" for now; alternatives "Fresh from the desk",
+"New this week", "Latest"; the owner will pick a name).
+Owner: link all the mockup pages together so the site can be navigated as one. Link map set: home at mockups/home/,
+article A, category page at mockups/category/ (next to build), sections at mockups/sections/{books,links,tools,
+templates}.html, pages at mockups/pages/{about,privacy,advertising,contact}.html; pages not yet built get a minimal
+placeholder in the shared shell from mockups/placeholders.py; mockups/index.html becomes the site map with status per page.
+Home page rebuilt simple and automatic; article A rail compact with small thumbnails, "// Just published" row at the
+bottom in Related's place; all mockup pages linked through mockups/placeholders.py (shared header, footer, link map)
+with ten placeholder pages and a site map at research/mockups/index.html (8 built, 10 placeholders). Noted for the
+owner: at 1200 to 1439 px the article rail is 160 px wide, so the compact list's titles wrap to several lines; the fix
+would be to stack thumbnail above title at that width.

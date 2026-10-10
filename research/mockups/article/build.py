@@ -24,8 +24,28 @@ ICON_SUN = ('<svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable
             'fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>')
 TOGGLE = f'<button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">{ICON_MOON}{ICON_SUN}</button>'
 
+# ---------------------------------------------------------------- links between the mockup pages
+# One map, so every mockup page can be walked as one site. Targets outside this folder are placeholders.
+HOME_URL = "../home/index.html"
+CATEGORY_URL = "../category/index.html"
+ARTICLE_URL = "article-a.html"   # the only article so far; every article link points here
+NAV_LINKS = [
+    ("Articles", "../home/index.html#latest"),
+    ("Topics", CATEGORY_URL),
+    ("Books", "../sections/books.html"),
+    ("Links", "../sections/links.html"),
+    ("Tools", "../sections/tools.html"),
+    ("Templates", "../sections/templates.html"),
+]
+LEGAL_LINKS = [
+    ("About", "../pages/about.html"),
+    ("Privacy", "../pages/privacy.html"),
+    ("Advertising policy", "../pages/advertising.html"),
+    ("Contact", "../pages/contact.html"),
+]
+
 def logo(w, h):
-    return ('<a class="logo" href="#" aria-label="userandproduct home">'
+    return (f'<a class="logo" href="{HOME_URL}" aria-label="userandproduct home">'
             f'<img class="l-light" src="../final-logo/svg/lockup-light.svg" alt="userandproduct" width="{w}" height="{h}">'
             f'<img class="l-dark" src="../final-logo/svg/lockup-dark.svg" alt="userandproduct" width="{w}" height="{h}">'
             '</a>')
@@ -33,10 +53,8 @@ def logo(w, h):
 LOGO = logo(236, 30)       # header: CSS sets 236px from 768px, 168px on phones
 LOGO_FOOT = logo(168, 21)  # footer stays at 168px
 
-SECTIONS_NAV = ["Articles", "Topics", "Books", "Links", "Tools", "Templates"]
-
 def nav_items():
-    return "".join(f'<li><a href="#">{s}</a></li>' for s in SECTIONS_NAV)
+    return "".join(f'<li><a href="{u}">{s}</a></li>' for s, u in NAV_LINKS)
 
 def avatar(size, title="Photo of [Author Name] (placeholder)"):
     return (f'<svg class="avatar" width="{size}" height="{size}" viewBox="0 0 64 64" role="img"><title>{title}</title>'
@@ -88,7 +106,7 @@ def footer():
     </div>
     <nav aria-label="Domains">
       <h2>Domains</h2>
-      <ul><li><a href="#">Design</a></li><li><a href="#">Product</a></li><li><a href="#">Business</a></li></ul>
+      <ul><li><a href="{CATEGORY_URL}">Design</a></li><li><a href="{CATEGORY_URL}">Product</a></li><li><a href="{CATEGORY_URL}">Business</a></li></ul>
     </nav>
     <nav aria-label="Site sections">
       <h2>Sections</h2>
@@ -96,14 +114,14 @@ def footer():
     </nav>
     <div class="legal">
       <span>&copy; 2026 userandproduct</span>
-      <a href="#">About</a><a href="#">Privacy</a><a href="#">Advertising policy</a><a href="#">Contact</a>
+      {"".join(f'<a href="{u}">{t}</a>' for t, u in LEGAL_LINKS)}
     </div>
   </div>
 </footer>"""
 
 def crumbs():
-    return """<nav class="crumbs" aria-label="Breadcrumb"><ol>
-      <li><a href="#">Home</a></li><li><a href="#">Product</a></li><li><a href="#" aria-current="page">Product discovery</a></li>
+    return f"""<nav class="crumbs" aria-label="Breadcrumb"><ol>
+      <li><a href="{HOME_URL}">Home</a></li><li><a href="{CATEGORY_URL}">Product</a></li><li><a href="{CATEGORY_URL}" aria-current="page">Product discovery</a></li>
     </ol></nav>"""
 
 def byline(size=44):
@@ -408,18 +426,31 @@ AUTHOR = f"""<section class="author" id="author" aria-labelledby="author-h">
 RELATED = f"""<section class="related" aria-labelledby="related-h">
   <h2 id="related-h">Related</h2>
   <ul>
-    <li><a class="rel-thumb" href="#" tabindex="-1" aria-hidden="true">{themed_img("img/related-user-stories.png", "img/related-user-stories-dark.png", "Three stacked story cards, the last one marked in blue", 600, 338)}</a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="#">User stories that survive sprint planning</a></h3><p>Why most stories get rewritten in the room, and the three lines that stop it.</p><p class="rt">8 min read</p></div></li>
-    <li><a class="rel-thumb" href="#" tabindex="-1" aria-hidden="true">{themed_img("img/related-discovery-plan.png", "img/related-discovery-plan-dark.png", "A two-week grid with five days filled in blue", 600, 338)}</a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="#">The discovery plan I run in the first two weeks</a></h3><p>Interviews, data pulls and one decision memo, day by day.</p><p class="rt">11 min read</p></div></li>
-    <li><a class="rel-thumb" href="#" tabindex="-1" aria-hidden="true">{themed_img("img/related-usability-test.png", "img/related-usability-test-dark.png", "Five user figures, the fifth in blue", 600, 338)}</a><div class="rel-body"><span class="cat">UX research</span><h3><a href="#">How many users do you need for a usability test?</a></h3><p>Five is a starting point, not a rule. When to test more, and when fewer will do.</p><p class="rt">7 min read</p></div></li>
+    <li><a class="rel-thumb" href="{ARTICLE_URL}" tabindex="-1" aria-hidden="true">{themed_img("img/related-user-stories.png", "img/related-user-stories-dark.png", "Three stacked story cards, the last one marked in blue", 600, 338)}</a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="{ARTICLE_URL}">User stories that survive sprint planning</a></h3><p>Why most stories get rewritten in the room, and the three lines that stop it.</p><p class="rt">8 min read</p></div></li>
+    <li><a class="rel-thumb" href="{ARTICLE_URL}" tabindex="-1" aria-hidden="true">{themed_img("img/related-discovery-plan.png", "img/related-discovery-plan-dark.png", "A two-week grid with five days filled in blue", 600, 338)}</a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="{ARTICLE_URL}">The discovery plan I run in the first two weeks</a></h3><p>Interviews, data pulls and one decision memo, day by day.</p><p class="rt">11 min read</p></div></li>
+    <li><a class="rel-thumb" href="{ARTICLE_URL}" tabindex="-1" aria-hidden="true">{themed_img("img/related-usability-test.png", "img/related-usability-test-dark.png", "Five user figures, the fifth in blue", 600, 338)}</a><div class="rel-body"><span class="cat">UX research</span><h3><a href="{ARTICLE_URL}">How many users do you need for a usability test?</a></h3><p>Five is a starting point, not a rule. When to test more, and when fewer will do.</p><p class="rt">7 min read</p></div></li>
   </ul>
 </section>"""
 
-RELATED_A = """<section class="rel2" aria-labelledby="rel2-h">
-  <h2 id="rel2-h" class="rel2__h">// Related</h2>
-  <ul>
-    <li><a href="#"><img src="img/user-stories-thumb.png" width="600" height="338" alt="" loading="lazy" decoding="async"><span class="chips"><span>Discovery</span><span>User stories</span></span><h3>User stories that survive sprint planning</h3></a></li>
-    <li><a href="#"><img src="img/discovery-plan-thumb.png" width="600" height="338" alt="" loading="lazy" decoding="async"><span class="chips"><span>Discovery</span></span><h3>The discovery plan I run in the first two weeks</h3></a></li>
-    <li><a href="#"><img src="img/usability-test-thumb.png" width="600" height="338" alt="" loading="lazy" decoding="async"><span class="chips"><span>UX research</span></span><h3>How many users do you need for a usability test?</h3></a></li>
+# After the body on A: the newest pieces, three large cards in the Tiger Data style. No dates on the cards.
+# The heading lives in one place so it can be renamed here. Alternatives the owner may pick:
+#   "// Fresh from the desk", "// New this week", "// Latest"
+JUST_PUBLISHED_HEADING = "// Just published"
+JUST_PUBLISHED = [
+    # (thumbnail, chips, title)
+    ("img/thumbs/card-sorting-thumb.png", ["UX research"], "Card sorting with twelve people and a spreadsheet"),
+    ("img/thumbs/now-next-later-thumb.png", ["Roadmaps"], "Now, next, later: a roadmap that lasts the quarter"),
+    ("img/thumbs/pricing-page-thumb.png", ["Pricing"], "How to read a pricing page as a designer"),
+]
+
+def just_published_a():
+    cards = "".join(
+        f'\n    <li><a href="{ARTICLE_URL}"><img src="{img}" width="600" height="338" alt="" loading="lazy" decoding="async">'
+        f'<span class="chips">{"".join(f"<span>{c}</span>" for c in chips)}</span><h3>{t}</h3></a></li>'
+        for img, chips, t in JUST_PUBLISHED)
+    return f"""<section class="rel2" aria-labelledby="new-h">
+  <h2 id="new-h" class="rel2__h">{JUST_PUBLISHED_HEADING}</h2>
+  <ul>{cards}
   </ul>
 </section>"""
 
@@ -471,27 +502,24 @@ ICON_LINK = ('<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><pat
 
 TAGS = '<ul class="chips" aria-label="Tags"><li><a href="#">PRD</a></li><li><a href="#">Discovery</a></li><li><a href="#">Templates</a></li></ul>'
 
-# Right rail, top to bottom: more from the article's category, the rail ad, new pieces. No dates (plain lists).
+# Right rail, top to bottom: a compact "More in <category>" list (small thumbnail, title at meta size), then the
+# rail ad, which sticks in the space left below the list. No dates.
 CATEGORY = "Product discovery"
 MORE_IN_CAT = [
-    "How to run a customer interview without leading the answers",
-    "A problem statement the whole team can repeat",
-    "Turning interview notes into choices with an opportunity tree",
-    "When to stop discovery and start building",
-]
-NEW_ON_SITE = [
-    ("UX research", "Card sorting with twelve people and a spreadsheet"),
-    ("Roadmaps", "Now, next, later: a roadmap that lasts the quarter"),
-    ("Pricing", "How to read a pricing page as a designer"),
+    # (thumbnail, title)
+    ("img/thumbs/customer-interview-thumb.png", "How to run a customer interview without leading the answers"),
+    ("img/thumbs/problem-statement-thumb.png", "A problem statement the whole team can repeat"),
+    ("img/thumbs/opportunity-tree-thumb.png", "Turning interview notes into choices with an opportunity tree"),
+    ("img/thumbs/stop-discovery-thumb.png", "When to stop discovery and start building"),
 ]
 
 def rail_a():
-    more = "".join(f'<li><a href="#">{t}</a></li>' for t in MORE_IN_CAT)
-    new = "".join(f'<li><a href="#"><span class="rail-chip">{c}</span><span class="rail-t">{t}</span></a></li>' for c, t in NEW_ON_SITE)
+    more = "".join(
+        f'<li><a href="{ARTICLE_URL}"><img src="{img}" width="72" height="41" alt="" loading="lazy" decoding="async">'
+        f'<span class="rail-t">{t}</span></a></li>' for img, t in MORE_IN_CAT)
     return f"""<aside class="rail" aria-label="More to read">
-      <nav class="rail-list" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in {CATEGORY}</h2><ul>{more}</ul></nav>
+      <nav class="rail-list rail-list--compact" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in {CATEGORY}</h2><ul>{more}</ul></nav>
       <div class="rail__track"><div class="rail__sticky">{ad("sky", "rail-unit")}</div></div>
-      <nav class="rail-list rail-list--new" aria-labelledby="rail-new-h"><h2 id="rail-new-h">New on the site</h2><ul>{new}</ul></nav>
     </aside>"""
 
 def toc_numbered():
@@ -508,7 +536,7 @@ def variant_a():
 <article>
   <header class="top">
     {crumbs()}
-    <a class="chip chip--cat" href="#">{CATEGORY}</a>
+    <a class="chip chip--cat" href="{CATEGORY_URL}">{CATEGORY}</a>
     <h1>{TITLE}</h1>
     <div class="byrow">
       <div class="by">
@@ -545,12 +573,12 @@ def variant_a():
     </div>
     {rail_a()}
   </div>
-  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's two lists
-       scroll with the page; only the ad is sticky, inside its own track between them. -->
-  <!-- After the body the page uses the full container: template, related, newsletter. No author box (the byline carries the author). -->
+  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's list
+       scrolls with the page; only the ad is sticky, inside its own track below the list. -->
+  <!-- After the body the page uses the full container: template, just published, newsletter. No author box (the byline carries the author). -->
   <div class="after">
     {template_block()}
-    {RELATED_A}
+    {just_published_a()}
     {NEWS}
   </div>
 </article>
@@ -573,7 +601,7 @@ def variant_b():
 <article>
   <header class="hero">
     {crumbs()}
-    <a class="cat-link" href="#">Product discovery</a>
+    <a class="cat-link" href="{CATEGORY_URL}">Product discovery</a>
     <h1>{TITLE}</h1>
     <p class="deck">{DECK}</p>
     {byline(48)}

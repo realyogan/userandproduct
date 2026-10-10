@@ -1,53 +1,39 @@
 {
   "version": 1,
-  "run_id": "home-mockup",
-  "title": "Home page mockup",
+  "run_id": "home-mockup-2",
+  "title": "Home page mockup, simple version",
   "state": "finished",
-  "started": "2026-10-10T11:43+05:30",
-  "updated": "2026-10-10T12:40+05:30",
-  "note": "Home page mockup done: http://localhost/user-and-product/research/mockups/home/",
+  "started": "2026-10-10T12:08+05:30",
   "steps": [
     {
       "n": 1,
       "title": "Read the system",
       "status": "done",
-      "note": "Shared CSS and JS, article A, the tree, four skills read",
-      "time": "11:55"
+      "note": "Current page, shared CSS and JS, article A, the tree and the writing rules read",
+      "time": "12:08"
     },
     {
       "n": 2,
-      "title": "Structure and copy",
+      "title": "Restructure",
       "status": "done",
-      "note": "Sections, copy and an own composition planned",
-      "time": "12:05"
+      "note": "Page restructured: masthead, latest twelve, topics, four section links, newsletter; placeholders and site map added",
+      "time": "12:12"
     },
     {
       "n": 3,
-      "title": "Thumbnails",
+      "title": "Build",
       "status": "done",
-      "note": "12 thumbnails, all ten code styles, every check passed",
-      "time": "12:15"
+      "note": "Built: index.html, home.css, placeholders and site map",
+      "time": "12:13"
     },
     {
       "n": 4,
-      "title": "Build and styles",
+      "title": "Checks",
       "status": "done",
-      "note": "index.html and home.css written, chips moved to the shared CSS",
-      "time": "12:40"
-    },
-    {
-      "n": 5,
-      "title": "Dark mode and phones",
-      "status": "done",
-      "note": "No horizontal scroll from 375 to 1440, light and dark checked in screenshots",
-      "time": "12:40"
-    },
-    {
-      "n": 6,
-      "title": "Checks and README",
-      "status": "done",
-      "note": "Tags balanced, one h1, no inline styles or external requests, README entry, 200 OK",
-      "time": "12:40"
+      "note": "One h1, no inline styles, links resolve, no overflow 375 to 1440, ad density 5.1 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/",
+      "time": "12:13"
     }
-  ]
+  ],
+  "updated": "2026-10-10T12:13+05:30",
+  "note": "One h1, no inline styles, links resolve, no overflow 375 to 1440, ad density 5.1 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/"
 }
