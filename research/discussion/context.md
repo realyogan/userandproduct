@@ -938,3 +938,6 @@ checklist (sameAs in ProfilePage markup). Original-data pieces remain a separate
 Owner: write the "sounds like a model" tells into the writing rules. Added "The model test" to the writing-style
 skill (no position, hedge density, circling, uniform shape, nothing only this author could know, too tidy) and a
 checklist item; the checker runs it on every draft, two trips send it back.
+Owner (10 Oct): at launch, tools instead of templates: ship at least ten working tools with the fifty articles and the
+books shelf; templates come later. Each tool is a real page (what, when, how) around a plain-JavaScript calculator or
+checker. A candidate list of ten tools to be drafted from the keyword store and the tree when that step comes.

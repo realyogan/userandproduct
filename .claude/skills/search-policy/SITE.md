@@ -66,7 +66,8 @@ never scores a rank target as a page's purpose. Takes are measured on those sign
   Not emitted: FAQPage, HowTo, sitelinks search box (features retired).
 - Dates in the UI: a quiet "Updated <month year>" only, equal to `dateModified`; no sort-by-date
   anywhere; lists ordered by series or importance.
-- Launch: about fifty reviewed articles live at once, plus books and templates sections; sitemap and
+- Launch: about fifty reviewed articles live at once, plus the books shelf and at least ten working tools (owner,
+  10 October 2026: tools rather than templates at launch; templates come later); sitemap and
   Search Console on day one; the announcement about a week later; then one a day from scheduled
   posts. Volume is not the signal; each page passes the checklist.
 
