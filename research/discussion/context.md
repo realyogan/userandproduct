@@ -760,3 +760,11 @@ Owner (home, 10 Oct): remove the hero text (h1 kept only visually hidden for sea
 "Latest articles" heading so the cards start right under the leaderboard, remove the Topics section entirely, and
 redesign the section-links block (Books, Templates, Tools, Links) without the "Also on the site" title. Being applied.
 Owner: remove the newsletter sign-up from the home page for now (not needed yet). Passed to the builder mid-run.
+Owner (article A, 10 Oct): remove the category chip above the title; make the three-column layout flexible for laptop
+screens (1366x768, 1440x900 and the like): right rail fixed at 300 px from 1200 px, left rail fluid 200 to 260 px,
+reading column within its measure; if the three cannot fit, the left rail folds into the compact table of contents
+rather than squeezing. Verification at ten viewports, light and dark, with screenshots and a width table. Being applied.
+Article A tuned (10 Oct): chip removed; fluid grid: 1024 to 1199 two columns with the rail block after the body, 1200
+to 1279 the left rail folds into the compact contents and the right rail keeps 300 px, from 1280 three columns
+(left 200 to 244, reading 560 to 720, right 300); rail ad now 300x600; verified at ten viewports light and dark with
+screenshots and a width table in article/shots/README.md.

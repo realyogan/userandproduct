@@ -36,7 +36,6 @@
     <nav class="crumbs" aria-label="Breadcrumb"><ol>
       <li><a href="../home/index.html">Home</a></li><li><a href="../category/index.html">Product</a></li><li><a href="../category/index.html" aria-current="page">Product discovery</a></li>
     </ol></nav>
-    <a class="chip chip--cat" href="../category/index.html">Product discovery</a>
     <h1>How to Write a PRD That Engineers Actually Read</h1>
     <div class="byrow">
       <div class="by">
@@ -58,10 +57,10 @@
   </header>
   <hr class="top-rule">
   <div class="layout">
-    <aside class="side" aria-label="Article tools and contents">
+    <div class="side-col"><aside class="side" aria-label="Article tools and contents">
       <ul class="chips" aria-label="Tags"><li><a href="#">PRD</a></li><li><a href="#">Discovery</a></li><li><a href="#">Templates</a></li></ul>
       <nav class="toc toc--num" data-toc aria-labelledby="toc-h"><h2 id="toc-h">Table of contents</h2><ol><li><a href="#why-prds-fail"><span class="n">01</span>Why most PRDs fail</a></li><li><a href="#twelve-questions"><span class="n">02</span>The twelve questions to answer first</a></li><li><a href="#structure"><span class="n">03</span>The structure that works</a></li><li><a href="#worked-example"><span class="n">04</span>A worked example</a></li><li><a href="#acceptance"><span class="n">05</span>Acceptance lines and open questions</a></li><li><a href="#leave-out"><span class="n">06</span>What to leave out</a></li><li><a href="#template"><span class="n">07</span>Get the PRD template</a></li></ol></nav>
-    </aside>
+    </aside></div>
     <div class="main">
       <figure class="hero-fig">
       <picture><source srcset="img/hero-prd-dark.png" media="(prefers-color-scheme: dark)" data-dark><img class="" src="img/hero-prd-light.png" width="1200" height="675" alt="Illustration: a PRD page with twelve question lines, three of them marked in blue, beside four blue tiles" fetchpriority="high" decoding="async"></picture>
@@ -176,10 +175,11 @@ grep -rn "TBD" docs/prd/ | sort | tee open-items.txt | wc -l</code></pre>
     </div>
     <aside class="rail" aria-label="More to read">
       <nav class="rail-list rail-list--compact" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in Product discovery</h2><ul><li><a href="article-a.html"><img src="img/thumbs/customer-interview-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">How to run a customer interview without leading the answers</span></a></li><li><a href="article-a.html"><img src="img/thumbs/problem-statement-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">A problem statement the whole team can repeat</span></a></li><li><a href="article-a.html"><img src="img/thumbs/opportunity-tree-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">Turning interview notes into choices with an opportunity tree</span></a></li><li><a href="article-a.html"><img src="img/thumbs/stop-discovery-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">When to stop discovery and start building</span></a></li></ul></nav>
-      <div class="rail__track"><div class="rail__sticky"><aside class="ad ad--sky" data-ad="rail-unit" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">160 &times; 600</span><span class="sz-1">300 &times; 600 half page</span></div></aside></div></div>
+      <div class="rail__track"><div class="rail__sticky"><aside class="ad ad--rail" data-ad="rail-unit" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">300 &times; 250</span><span class="sz-1">300 &times; 600 half page</span></div></aside></div></div>
     </aside>
   </div>
-  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's list
+  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The left rail sticks inside
+       .side-col, which spans only the body's row, so it also stops there when the right rail's block follows the body. The right rail's list
        scrolls with the page; only the ad is sticky, inside its own track below the list. -->
   <!-- After the body the page uses the full container: template, just published, newsletter. No author box (the byline carries the author). -->
   <div class="after">

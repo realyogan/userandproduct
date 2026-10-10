@@ -157,7 +157,8 @@ def ad(kind, name):
         "rect": '<span class="sz-0">336 &times; 280</span>',
         "side": '<span class="sz-0">300 &times; 250</span>',
         "half": '<span class="sz-0">300 &times; 600 half page</span>',
-        "sky": '<span class="sz-0">160 &times; 600</span><span class="sz-1">300 &times; 600 half page</span>',
+        # A's rail unit: 300x600 half page on the 300px rail from 1200px; 300x250 when the rail drops below the body (1024 to 1199px)
+        "rail": '<span class="sz-0">300 &times; 250</span><span class="sz-1">300 &times; 600 half page</span>',
     }[kind]
     return (f'<aside class="ad ad--{kind}" data-ad="{name}" aria-label="Advertisement">'
             f'<span class="ad__label">{AD_LABEL}</span><div class="ad__box">{sizes}</div></aside>')
@@ -503,7 +504,9 @@ ICON_LINK = ('<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><pat
 TAGS = '<ul class="chips" aria-label="Tags"><li><a href="#">PRD</a></li><li><a href="#">Discovery</a></li><li><a href="#">Templates</a></li></ul>'
 
 # Right rail, top to bottom: a compact "More in <category>" list (small thumbnail, title at meta size), then the
-# rail ad, which sticks in the space left below the list. No dates.
+# rail ad, which sticks in the space left below the list. No dates. From 1200px it is a fixed 300px column;
+# from 1024 to 1199px the same block sits after the body in the reading column (list beside a 300x250, not sticky).
+# The category shows in the breadcrumb only; there is no category chip above the title.
 CATEGORY = "Product discovery"
 MORE_IN_CAT = [
     # (thumbnail, title)
@@ -519,7 +522,7 @@ def rail_a():
         f'<span class="rail-t">{t}</span></a></li>' for img, t in MORE_IN_CAT)
     return f"""<aside class="rail" aria-label="More to read">
       <nav class="rail-list rail-list--compact" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in {CATEGORY}</h2><ul>{more}</ul></nav>
-      <div class="rail__track"><div class="rail__sticky">{ad("sky", "rail-unit")}</div></div>
+      <div class="rail__track"><div class="rail__sticky">{ad("rail", "rail-unit")}</div></div>
     </aside>"""
 
 def toc_numbered():
@@ -536,7 +539,6 @@ def variant_a():
 <article>
   <header class="top">
     {crumbs()}
-    <a class="chip chip--cat" href="{CATEGORY_URL}">{CATEGORY}</a>
     <h1>{TITLE}</h1>
     <div class="byrow">
       <div class="by">
@@ -558,10 +560,10 @@ def variant_a():
   </header>
   <hr class="top-rule">
   <div class="layout">
-    <aside class="side" aria-label="Article tools and contents">
+    <div class="side-col"><aside class="side" aria-label="Article tools and contents">
       {TAGS}
       <nav class="toc toc--num" data-toc aria-labelledby="toc-h"><h2 id="toc-h">Table of contents</h2><ol>{toc_numbered()}</ol></nav>
-    </aside>
+    </aside></div>
     <div class="main">
       {HERO}
       <p class="deck">{DECK}</p>
@@ -573,7 +575,8 @@ def variant_a():
     </div>
     {rail_a()}
   </div>
-  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's list
+  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The left rail sticks inside
+       .side-col, which spans only the body's row, so it also stops there when the right rail's block follows the body. The right rail's list
        scrolls with the page; only the ad is sticky, inside its own track below the list. -->
   <!-- After the body the page uses the full container: template, just published, newsletter. No author box (the byline carries the author). -->
   <div class="after">
