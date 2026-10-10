@@ -1,60 +1,67 @@
 {
   "version": 1,
-  "run_id": "books-mockup",
-  "title": "Books section: shelf page and sample topic page",
+  "run_id": "books-redesign",
+  "title": "Books section: all covers, shelf redesign, topic colours",
   "state": "finished",
-  "started": "2026-10-10T20:53+05:30",
+  "started": "2026-10-10T21:11+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Read",
+      "title": "Five covers",
       "status": "done",
-      "note": "Read the mockup files, plan, book facts and house skills",
-      "time": "20:53"
+      "note": "Five sample covers saved locally, page points at them, no external requests",
+      "time": "21:11"
     },
     {
       "n": 2,
-      "title": "Direction",
+      "title": "Fetch all covers",
       "status": "done",
-      "note": "Direction: library green, spine-row masthead, tiles standing on shelves, catalogue-card entries",
-      "time": "20:53"
+      "note": "169 of 181 covers fetched, 12 without a cover",
+      "time": "21:39"
     },
     {
       "n": 3,
-      "title": "Shelf page",
+      "title": "Read design skills",
       "status": "done",
-      "note": "Building the shelf page: masthead with the spine row, three shelves of topic tiles",
-      "time": "20:55"
+      "note": "Read the design skills: brief-led, code-led build of a Read surface on the site's existing world",
+      "time": "21:14"
     },
     {
       "n": 4,
-      "title": "Topic page",
+      "title": "Direction",
       "status": "done",
-      "note": "",
-      "time": "20:58"
+      "note": "Direction: tinted topic plates with the topic's real covers standing in a staggered trio; calm auto-fill grid",
+      "time": "21:14"
     },
     {
       "n": 5,
-      "title": "Wire links",
+      "title": "Shelf page",
       "status": "done",
-      "note": "Shelf page and topic page built; placeholder topic page and site map entry written",
-      "time": "20:58"
+      "note": "Shelf page: tinted topic plates with real covers, renamed Recommended books",
+      "time": "21:23"
     },
     {
       "n": 6,
-      "title": "Checks",
+      "title": "Topic page colours",
       "status": "done",
-      "note": "Checks clear: one h1, alt and SVG titles, no overflow at 375 to 1440, no external requests, all links resolve, HTTP 200",
-      "time": "21:01"
+      "note": "Topic page: blue tint masthead and accents, cover accents, 3D covers with settle-in motion",
+      "time": "21:23"
     },
     {
       "n": 7,
+      "title": "Rebuild and checks",
+      "status": "done",
+      "note": "Checks clear: one h1, alt on every image, no overflow 375 to 1440, no external requests, links resolve, HTTP 200",
+      "time": "21:41"
+    },
+    {
+      "n": 8,
       "title": "Finished",
       "status": "done",
-      "note": "Finished: sections/books.html and books/product-management.html",
-      "time": "21:01"
+      "note": "Finished: shelf and topic page rebuilt with multicolour spine mastheads, covers, tints",
+      "time": "21:43"
     }
   ],
-  "updated": "2026-10-10T21:01+05:30",
-  "note": "Finished: sections/books.html and books/product-management.html"
+  "note": "Finished: shelf and topic page rebuilt with multicolour spine mastheads, covers, tints",
+  "updated": "2026-10-10T21:43+05:30"
 }

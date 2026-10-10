@@ -32,3 +32,9 @@ __pycache__/
 /research/mockups/fonts/satoshi/*
 !/research/mockups/fonts/satoshi/README.md
 /research/mockups/option-1/assets/fonts/satoshi/
+
+# Book covers for the Books mockup: the art is the publishers' copyright and this repo is public, so the
+# image files stay local. The README beside them (tracked) lists each file's ISBN, Open Library cover id and
+# source URL so they can be fetched again.
+/research/mockups/option-1/img/books/covers/*
+!/research/mockups/option-1/img/books/covers/README.md

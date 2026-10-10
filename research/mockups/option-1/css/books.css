@@ -1,132 +1,197 @@
 /* Books section: the shelf page and the topic pages. Tokens, header, footer, buttons and crumbs come from
-   ../mockup.css. Everything here is scoped to body.bk, so the section's identity never leaks into the rest of the site.
+   ../mockup.css. Everything here is scoped to body.bk, so the section's look never leaks into the rest of the site.
 
    The section's own pieces:
-   - library green, one hue beside the site blue: #0D6B5C on white 6.4:1, #5CCFB8 on the dark page 10.4:1
-   - the masthead: a pale green band whose bottom edge is a shelf, with a row of drawn spines standing on it
-   - topic tiles shaped as books standing on a shelf: a thick spine edge on the left, square at the bottom where it
-     meets the shelf board, one shelf board per group
-   - book entries as catalogue cards: an index tab with the reading position, ruled field lines, a drawn cover */
+   - colour by topic: each topic owns one of the eight Printables tints (research/mockups/illustration-rules.md), as
+     its tile on the shelf and as its page's masthead and accents. The shelf page itself stays ink on paper.
+   - topic tiles as tinted plates: the topic's name and count, and the covers of its first three books standing in a
+     staggered row that rises out of the foot of the tile. The grid has no rows to fill: it reads at ten topics or forty.
+   - book entries as catalogue cards: ruled field lines, the cover beside it
+     (our copy of the Open Library cover; the drawn card where there is none), and a quiet accent from that cover. */
 
-.bk{
-  --bk:#0D6B5C;          /* section green: links, spine edges, tab text; 6.4:1 on white */
-  --bk-deep:#0A4F44;     /* the shelf board; 9.5:1 on white */
-  --bk-wash:#EDF5F1;     /* masthead band, index tabs; --bk on it is 5.8:1 */
-  --bk-line:#C9DED6;     /* card rules and tile outlines */
-  --bk-on:#FFFFFF;       /* text on a --bk fill */
-  --sp-a:#0D6B5C; --sp-b:#0A4F44; --sp-c:#7FB8A8; --sp-d:#1B1D1C; --sp-e:#D3E6DE; --sp-band:#EDF5F1;
-}
+/* ---------- The eight tints ----------
+   Light: the Printables pastel as the ground, its deep highlight darkened until it passes as text (5.2:1 or more on
+   the tint and on white). Dark: the deep highlight mixed 30% into the dark page as the ground, the mid highlight as
+   the accent (6:1 or more on the ground). Ink on every ground passes 11:1. */
+.t-teal{--t-bg:#D7F0EE;--t-acc:#236A64;--t-line:#A5CAC7;--t-hi:#88DDD6}     /* accent 5.3:1 on the tint, 6.3:1 on white */
+.t-yellow{--t-bg:#FFF3C4;--t-acc:#776317;--t-line:#D9CB94;--t-hi:#FFE066}   /* 5.3:1, 5.9:1 */
+.t-pink{--t-bg:#FBE0E6;--t-acc:#A11736;--t-line:#E2A8B5;--t-hi:#EE7792}     /* 6.3:1, 7.8:1 */
+.t-blue{--t-bg:#DBE8FB;--t-acc:#174FA1;--t-line:#A4BDE2;--t-hi:#75A7F0}     /* 6.3:1, 7.9:1 */
+.t-green{--t-bg:#DCEFD8;--t-acc:#326C23;--t-line:#ACCAA5;--t-hi:#97DD88}    /* 5.3:1, 6.4:1 */
+.t-purple{--t-bg:#E8E0F7;--t-acc:#4B2692;--t-line:#BCACDB;--t-hi:#A585E0}   /* 8.3:1, 10.5:1 */
+.t-peach{--t-bg:#FDE3D0;--t-acc:#914B17;--t-line:#DFB89C;--t-hi:#F9A86C}    /* 5.3:1, 6.5:1 */
+.t-slate{--t-bg:#E0E6EE;--t-acc:#29558E;--t-line:#ADBDD3;--t-hi:#88ACDD}    /* 6.0:1, 7.5:1 */
+.t-teal,.t-yellow,.t-pink,.t-blue,.t-green,.t-purple,.t-peach,.t-slate{--t-ink:#1D1B16;--t-muted:color-mix(in srgb,var(--t-acc) 55%,#1D1B16);--t-on:#FFFFFF}             /* muted text is the accent darkened (light) or lightened (dark): never a plain grey on a tint */
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]) .bk{
-    --bk:#5CCFB8; --bk-deep:#3E9C8A; --bk-wash:#0F1A17; --bk-line:#22362F; --bk-on:#0B0B0C;
-    --sp-a:#5CCFB8; --sp-b:#2E7D6E; --sp-c:#1D4B42; --sp-d:#CFCCC5; --sp-e:#16302A; --sp-band:#0F1A17;
-  }
+  :root:not([data-theme="light"]) .t-teal{--t-bg:#132D2C;--t-acc:#88DDD6;--t-line:#36625F;--t-hi:#257E77}
+  :root:not([data-theme="light"]) .t-yellow{--t-bg:#38300F;--t-acc:#FFE066;--t-line:#746529;--t-hi:#A18517}
+  :root:not([data-theme="light"]) .t-pink{--t-bg:#380F19;--t-acc:#EE7792;--t-line:#6F2E3D;--t-hi:#A11736}
+  :root:not([data-theme="light"]) .t-blue{--t-bg:#0F1F39;--t-acc:#75A7F0;--t-line:#2E4870;--t-hi:#174FA1}
+  :root:not([data-theme="light"]) .t-green{--t-bg:#183014;--t-acc:#97DD88;--t-line:#3E6437;--t-hi:#388627}
+  :root:not([data-theme="light"]) .t-purple{--t-bg:#1E1334;--t-acc:#AE91E3;--t-line:#463568;--t-hi:#4B2692}
+  :root:not([data-theme="light"]) .t-peach{--t-bg:#38200F;--t-acc:#F9A86C;--t-line:#72492B;--t-hi:#A15117}
+  :root:not([data-theme="light"]) .t-slate{--t-bg:#142133;--t-acc:#88ACDD;--t-line:#374B66;--t-hi:#29558E}
+  :root:not([data-theme="light"]) .t-teal,:root:not([data-theme="light"]) .t-yellow,:root:not([data-theme="light"]) .t-pink,:root:not([data-theme="light"]) .t-blue,:root:not([data-theme="light"]) .t-green,:root:not([data-theme="light"]) .t-purple,:root:not([data-theme="light"]) .t-peach,:root:not([data-theme="light"]) .t-slate{--t-ink:#F1EEE7;--t-muted:color-mix(in srgb,var(--t-acc) 35%,#F1EEE7);--t-on:#0B0B0C}
 }
-:root[data-theme="dark"] .bk{
-  --bk:#5CCFB8; --bk-deep:#3E9C8A; --bk-wash:#0F1A17; --bk-line:#22362F; --bk-on:#0B0B0C;
-  --sp-a:#5CCFB8; --sp-b:#2E7D6E; --sp-c:#1D4B42; --sp-d:#CFCCC5; --sp-e:#16302A; --sp-band:#0F1A17;
-}
+:root[data-theme="dark"] .t-teal{--t-bg:#132D2C;--t-acc:#88DDD6;--t-line:#36625F;--t-hi:#257E77}
+:root[data-theme="dark"] .t-yellow{--t-bg:#38300F;--t-acc:#FFE066;--t-line:#746529;--t-hi:#A18517}
+:root[data-theme="dark"] .t-pink{--t-bg:#380F19;--t-acc:#EE7792;--t-line:#6F2E3D;--t-hi:#A11736}
+:root[data-theme="dark"] .t-blue{--t-bg:#0F1F39;--t-acc:#75A7F0;--t-line:#2E4870;--t-hi:#174FA1}
+:root[data-theme="dark"] .t-green{--t-bg:#183014;--t-acc:#97DD88;--t-line:#3E6437;--t-hi:#388627}
+:root[data-theme="dark"] .t-purple{--t-bg:#1E1334;--t-acc:#AE91E3;--t-line:#463568;--t-hi:#4B2692}
+:root[data-theme="dark"] .t-peach{--t-bg:#38200F;--t-acc:#F9A86C;--t-line:#72492B;--t-hi:#A15117}
+:root[data-theme="dark"] .t-slate{--t-bg:#142133;--t-acc:#88ACDD;--t-line:#374B66;--t-hi:#29558E}
+:root[data-theme="dark"] .t-teal,:root[data-theme="dark"] .t-yellow,:root[data-theme="dark"] .t-pink,:root[data-theme="dark"] .t-blue,:root[data-theme="dark"] .t-green,:root[data-theme="dark"] .t-purple,:root[data-theme="dark"] .t-peach,:root[data-theme="dark"] .t-slate{--t-ink:#F1EEE7;--t-muted:color-mix(in srgb,var(--t-acc) 35%,#F1EEE7);--t-on:#0B0B0C}
+
+/* ---------- Section tokens ----------
+   The shelf page is ink on paper; a topic page maps the section tokens onto its tint. */
+.bk{--bk:var(--ink);--bk-wash:var(--panel);--bk-line:var(--rule);--bk-on:var(--paper);--frame:1280px}
+.bk--topic{--bk:var(--t-acc);--bk-wash:var(--t-bg);--bk-line:var(--t-line);--bk-on:var(--t-on)}
 @media (max-width:599px){:root{--fs-body:17px;--fs-lead:18px}}
 
-.bk{--frame:1280px}
 .bk main a{color:var(--bk)}
 .bk .btn{background:var(--bk);border-color:var(--bk);color:var(--bk-on)}
 .bk :focus-visible{outline-color:var(--bk)}
-/* the section is marked in the shared header by colour only; the markup stays the shared one */
+.bk ::selection{background:var(--t-hi,var(--signal-wash));color:var(--ink)}
+/* the section is marked in the shared header by an underline only; the markup stays the shared one */
 .bk .site-nav a[href$="sections/books.html"]{color:var(--bk);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.5em}
 .bk-in{max-width:var(--frame);margin:0 auto;padding:0 var(--gutter)}
 
-/* ---------- Masthead: pale band, spines on a shelf board ---------- */
-.bk-mast{background:var(--bk-wash);padding-top:var(--s6)}
+/* ---------- Masthead ---------- */
+.bk-mast{padding-top:var(--s6)}
 @media (min-width:1024px){.bk-mast{padding-top:var(--s7)}}
+.bk--topic .bk-mast{background:var(--t-bg)}
 .bk main .bk-mast .crumbs a{color:var(--ink-3)}
+.bk--topic main .bk-mast .crumbs a,.bk--topic .bk-mast .crumbs span{color:var(--t-muted)}
 .bk-mast__grid{display:grid;gap:var(--s5);margin-top:var(--s5);padding-bottom:var(--s6)}
 @media (min-width:960px){.bk-mast__grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:var(--s8);align-items:end;padding-bottom:var(--s7)}}
 .bk-mark{display:flex;align-items:center;gap:var(--s3)}
 .bk-mark svg{width:44px;height:44px;flex:none}
 .bk-mark__ln{fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.bk-mark__fill{fill:var(--bk)}
-.bk-mast h1{font-size:clamp(52px,calc(24px + 6vw),104px);line-height:.92;letter-spacing:-.045em}
-.bk-mast--topic h1{font-size:clamp(36px,calc(18px + 3.6vw),64px);line-height:1.04;letter-spacing:-.03em;max-width:14em}
+.bk-mark__fill{fill:var(--ink)}
+.bk-mast h1{font-size:clamp(40px,calc(16px + 3.8vw),64px);line-height:.92;letter-spacing:-.04em;text-wrap:balance}
+.bk-mast--topic h1{font-size:clamp(36px,calc(18px + 3.6vw),64px);line-height:1.04;letter-spacing:-.03em;max-width:14em;color:var(--t-ink)}
 .bk-intro{display:flex;flex-direction:column;gap:var(--s3);max-width:36em}
 .bk-intro p{font:400 var(--fs-lead)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-2)}
 .bk-intro p:first-child{color:var(--ink)}
+.bk--topic .bk-intro p{color:var(--t-muted)}
+.bk--topic .bk-intro p:first-child{color:var(--t-ink)}
+.bk--shelf .bk-mast__grid{align-items:start}
+.bk--shelf .bk-intro p{font-size:19px}
+@media (max-width:599px){.bk--shelf .bk-intro p{font-size:var(--fs-body)}}
 .bk-mast--topic .bk-mast__grid{grid-template-columns:minmax(0,1fr);row-gap:var(--s4)}
 @media (min-width:960px){.bk-mast--topic .bk-mast__grid{grid-template-columns:minmax(0,1fr);padding-bottom:var(--s6)}}
 .bk-mast--topic .bk-intro{max-width:40em}
 
-.spines{display:block;width:100%;height:88px}
-.bk-mast--topic .spines{height:56px}
-@media (max-width:599px){.spines{height:64px}.bk-mast--topic .spines{height:44px}}
-.sp-a{fill:var(--sp-a)} .sp-b{fill:var(--sp-b)} .sp-c{fill:var(--sp-c)} .sp-d{fill:var(--sp-d)} .sp-e{fill:var(--sp-e)}
-.sp-band{fill:var(--sp-band);opacity:.75}
-.bk-board{height:10px;background:var(--bk-deep);border-bottom:3px solid color-mix(in srgb,var(--bk-deep) 55%,var(--ink))}
+/* both mastheads end in the same full-width row of drawn spines standing on a board */
+.spines{display:block;width:100%;height:64px}
+@media (max-width:599px){.spines{height:44px}}
+.sp-1{fill:var(--sp1)} .sp-2{fill:var(--sp2)} .sp-3{fill:var(--sp3)} .sp-4{fill:var(--sp4)} .sp-5{fill:var(--sp5)} .sp-6{fill:var(--sp6)}
+.sp-band{fill:var(--t-bg,var(--paper));opacity:.55}
+.bk-board{height:8px;background:var(--t-acc,color-mix(in srgb,var(--ink) 78%,var(--paper)))}
 
-/* ---------- Shelves of topic tiles ---------- */
-.shelves{margin-top:var(--s8)}
+/* ---------- Spine palettes ----------
+   The masthead spines take a restrained multicolour set per band: a dusty blue, an ochre, a terracotta, a sage, a
+   plum and an ink, each leaned a little toward its band's own hue (and moved off it where it would vanish), then
+   darkened until it reads at 2.6:1 or more on the band. On the dark bands the tones are lifted to 3.2:1 or more and
+   the ink spine turns into a pale paper one. The shelf page uses the plain set on paper. */
+.t-teal{--sp1:#5B8099;--sp2:#8C932F;--sp3:#A68943;--sp4:#7A9A7C;--sp5:#725A7D;--sp6:#2E2C29}  /* min 2.6:1 on the band */
+.t-yellow{--sp1:#5B9899;--sp2:#829B31;--sp3:#B8724F;--sp4:#849A7A;--sp5:#7D5A6F;--sp6:#2E2C29}  /* min 2.7:1 on the band */
+.t-pink{--sp1:#5B6199;--sp2:#C1813D;--sp3:#B85E4F;--sp4:#80916E;--sp5:#7D5A76;--sp6:#2E2C29}  /* min 2.6:1 on the band */
+.t-blue{--sp1:#5F5B99;--sp2:#7F932F;--sp3:#B84F69;--sp4:#74967A;--sp5:#775A7D;--sp6:#2E2C29}  /* min 2.7:1 on the band */
+.t-green{--sp1:#5B8D99;--sp2:#9B8E31;--sp3:#B8854F;--sp4:#749682;--sp5:#7D5A69;--sp6:#2E2C29}  /* min 2.7:1 on the band */
+.t-purple{--sp1:#5B7199;--sp2:#C46545;--sp3:#B84F5B;--sp4:#6E917A;--sp5:#7B5A7D;--sp6:#2E2C29}  /* min 2.7:1 on the band */
+.t-peach{--sp1:#5D5B99;--sp2:#82932F;--sp3:#9E8C40;--sp4:#819674;--sp5:#7D5A72;--sp6:#2E2C29}  /* min 2.6:1 on the band */
+.t-slate{--sp1:#5E5B99;--sp2:#80932F;--sp3:#B84F69;--sp4:#74967A;--sp5:#765A7D;--sp6:#2E2C29}  /* min 2.6:1 on the band */
+.bk--shelf{--sp1:#5B7A99;--sp2:#C49A45;--sp3:#B8674F;--sp4:#7E9A7A;--sp5:#7D5A7A;--sp6:#2E2C29}  /* min 2.6:1 on the band */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .t-teal{--sp1:#718898;--sp2:#A5AC5D;--sp3:#A59364;--sp4:#809481;--sp5:#8A7891;--sp6:#B7C2C2}  /* min 3.6:1 on the band */
+  :root:not([data-theme="light"]) .t-yellow{--sp1:#719798;--sp2:#9AAC5D;--sp3:#A57A64;--sp4:#869480;--sp5:#917887;--sp6:#C2C0B7}  /* min 3.3:1 on the band */
+  :root:not([data-theme="light"]) .t-pink{--sp1:#717598;--sp2:#AC855D;--sp3:#A56E64;--sp4:#8A9480;--sp5:#91788C;--sp6:#C2B7BA}  /* min 3.8:1 on the band */
+  :root:not([data-theme="light"]) .t-blue{--sp1:#747198;--sp2:#9CAC5D;--sp3:#A56474;--sp4:#809484;--sp5:#8D7891;--sp6:#B7BBC2}  /* min 3.6:1 on the band */
+  :root:not([data-theme="light"]) .t-green{--sp1:#719098;--sp2:#ACA35D;--sp3:#A58664;--sp4:#809488;--sp5:#917883;--sp6:#B9C2B7}  /* min 3.5:1 on the band */
+  :root:not([data-theme="light"]) .t-purple{--sp1:#717F98;--sp2:#AC715D;--sp3:#A5646C;--sp4:#809486;--sp5:#907891;--sp6:#BBB7C2}  /* min 3.9:1 on the band */
+  :root:not([data-theme="light"]) .t-peach{--sp1:#727198;--sp2:#9FAC5D;--sp3:#A59864;--sp4:#889480;--sp5:#917889;--sp6:#C2BCB7}  /* min 3.3:1 on the band */
+  :root:not([data-theme="light"]) .t-slate{--sp1:#737198;--sp2:#9DAC5D;--sp3:#A56474;--sp4:#809484;--sp5:#8C7891;--sp6:#B7BCC2}  /* min 3.5:1 on the band */
+  :root:not([data-theme="light"]) .bk--shelf{--sp1:#718598;--sp2:#AC925D;--sp3:#A57364;--sp4:#839480;--sp5:#91788F;--sp6:#B7B7C2}  /* min 4.9:1 on the band */
+}
+:root[data-theme="dark"] .t-teal{--sp1:#718898;--sp2:#A5AC5D;--sp3:#A59364;--sp4:#809481;--sp5:#8A7891;--sp6:#B7C2C2}  /* min 3.6:1 on the band */
+:root[data-theme="dark"] .t-yellow{--sp1:#719798;--sp2:#9AAC5D;--sp3:#A57A64;--sp4:#869480;--sp5:#917887;--sp6:#C2C0B7}  /* min 3.3:1 on the band */
+:root[data-theme="dark"] .t-pink{--sp1:#717598;--sp2:#AC855D;--sp3:#A56E64;--sp4:#8A9480;--sp5:#91788C;--sp6:#C2B7BA}  /* min 3.8:1 on the band */
+:root[data-theme="dark"] .t-blue{--sp1:#747198;--sp2:#9CAC5D;--sp3:#A56474;--sp4:#809484;--sp5:#8D7891;--sp6:#B7BBC2}  /* min 3.6:1 on the band */
+:root[data-theme="dark"] .t-green{--sp1:#719098;--sp2:#ACA35D;--sp3:#A58664;--sp4:#809488;--sp5:#917883;--sp6:#B9C2B7}  /* min 3.5:1 on the band */
+:root[data-theme="dark"] .t-purple{--sp1:#717F98;--sp2:#AC715D;--sp3:#A5646C;--sp4:#809486;--sp5:#907891;--sp6:#BBB7C2}  /* min 3.9:1 on the band */
+:root[data-theme="dark"] .t-peach{--sp1:#727198;--sp2:#9FAC5D;--sp3:#A59864;--sp4:#889480;--sp5:#917889;--sp6:#C2BCB7}  /* min 3.3:1 on the band */
+:root[data-theme="dark"] .t-slate{--sp1:#737198;--sp2:#9DAC5D;--sp3:#A56474;--sp4:#809484;--sp5:#8C7891;--sp6:#B7BCC2}  /* min 3.5:1 on the band */
+:root[data-theme="dark"] .bk--shelf{--sp1:#718598;--sp2:#AC925D;--sp3:#A57364;--sp4:#839480;--sp5:#91788F;--sp6:#B7B7C2}  /* min 4.9:1 on the band */
+
+/* ---------- Shelf page: groups of topic plates ---------- */
+.shelves{margin-top:var(--s7)}
 .shelf+.shelf{margin-top:var(--s8)}
-.shelf__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--s1) var(--s4);margin-bottom:var(--s5)}
+.shelf__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--s1) var(--s4);margin-bottom:var(--s4)}
 .shelf__head h2{font-size:var(--fs-h2);line-height:1.1;letter-spacing:-.02em}
 .shelf__head p{font:400 var(--fs-ui)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
-.shelf__row{list-style:none;margin:0;padding:0 var(--s2);display:grid;gap:var(--s4);grid-template-columns:minmax(0,1fr);
-  border-bottom:10px solid var(--bk-deep);box-shadow:0 3px 0 color-mix(in srgb,var(--bk-deep) 55%,var(--ink))}
-@media (min-width:600px){.shelf__row{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 var(--s4);gap:var(--s5)}}
-@media (min-width:1024px){.shelf__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.shelf__row li{display:flex;align-items:flex-end}
 
-/* a topic tile is a book standing on the shelf: spine edge left, rounded at the top only, square where it meets the board */
-.tt{flex:1;display:flex;flex-direction:column;gap:var(--s3);padding:var(--s3) var(--s4) var(--s5) var(--s3);
-  background:var(--paper);border:1px solid var(--bk-line);border-bottom:0;border-left:10px solid var(--bk);border-radius:3px 10px 0 0;
-  color:var(--ink);text-decoration:none;transition:transform .18s ease-out}
-.bk main a.tt{color:var(--ink)}
-.tt img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:4px;background:var(--panel)}
-.tt__name{font:var(--fw-h3) 21px/1.2 var(--font-display);letter-spacing:-.015em}
-.tt__count{font:500 var(--fs-meta)/1.3 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
-.tt:hover{transform:translateY(-6px)}
-.tt:hover .tt__name{color:var(--bk);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.15em}
-.tt:focus-visible{outline:2px solid var(--bk);outline-offset:3px}
-/* phones: the thumbnail beside the name, so ten tiles stay short */
+/* one calm grid: as many columns as fit, no row to fill, so the shelf reads the same at ten topics and at forty */
+.plates{list-style:none;margin:0;padding:0;display:grid;gap:var(--s4);grid-template-columns:repeat(auto-fill,minmax(min(100%,264px),1fr))}
+.plates li{display:flex}
+
+/* a topic plate: the tint, the name, the count, and three covers rising out of the foot of the tile */
+.tp{flex:1;display:grid;grid-template-rows:auto auto 1fr;padding:var(--s5) var(--s5) 0;overflow:hidden;
+  background:var(--t-bg);border-radius:14px;color:var(--t-ink);text-decoration:none}
+.bk main a.tp{color:var(--t-ink)}
+.tp__name{font:var(--fw-h3) 22px/1.15 var(--font-display);letter-spacing:-.015em;max-width:12em;text-wrap:balance}
+.tp__count{margin-top:6px;font:500 var(--fs-meta)/1.3 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--t-muted)}
+.tp__covers{align-self:end;display:flex;justify-content:center;align-items:flex-end;margin-top:var(--s5);margin-bottom:-26px;min-height:150px}
+.tp__bk{flex:none;width:38%;max-width:124px;margin-left:-9%;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.tp__bk:first-child{margin-left:0;transform:translateY(14px) rotate(-4deg);transform-origin:bottom right}
+.tp__bk:nth-child(2){position:relative;z-index:1}
+.tp__bk:nth-child(3){transform:translateY(20px) rotate(4deg);transform-origin:bottom left}
+.tp__bk img{display:block;width:100%;height:auto;border-radius:2px 4px 4px 2px;background:var(--t-line);
+  box-shadow:0 1px 2px color-mix(in srgb,var(--t-ink) 18%,transparent),0 14px 24px -10px color-mix(in srgb,var(--t-acc) 55%,transparent)}
+/* the one motion: on hover the three covers lean apart, like books eased off a shelf */
+.tp:hover .tp__bk:first-child{transform:translate(-8px,8px) rotate(-8deg)}
+.tp:hover .tp__bk:nth-child(2){transform:translateY(-10px)}
+.tp:hover .tp__bk:nth-child(3){transform:translate(8px,12px) rotate(8deg)}
+.tp:hover .tp__name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.15em}
+.tp:focus-visible{outline:3px solid var(--t-acc);outline-offset:3px}
+/* phones: the covers sit beside the name, so the tiles stay short */
 @media (max-width:599px){
-  .tt{display:grid;grid-template-columns:116px minmax(0,1fr);column-gap:var(--s3);row-gap:var(--s1);align-items:center;padding:var(--s3)}
-  .tt img{grid-row:1/3}
-  .tt__name{font-size:18px;align-self:end}
-  .tt__count{align-self:start}
+  .tp{grid-template-columns:minmax(0,1fr) 150px;grid-template-rows:auto 1fr;column-gap:var(--s3);min-height:136px;padding:var(--s4) var(--s4) 0}
+  .tp__name{font-size:19px;align-self:end}
+  .tp__count{grid-column:1;align-self:start}
+  .tp__covers{grid-column:2;grid-row:1/3;margin:0 0 -18px;min-height:0}
+  .tp__bk{width:46%;margin-left:-16%}
 }
 
 .bk-note{margin-top:var(--s8);padding-top:var(--s4);border-top:1px solid var(--rule);max-width:44em;
   font:400 var(--fs-meta)/1.55 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
 .bk main .bk-note a{color:var(--ink-2)}
 
-/* ---------- Topic page: the reading order ---------- */
-.order{margin-top:var(--s7)}
-.order h2,.more h2{font-size:22px;letter-spacing:-.01em}
-.order ol{list-style:none;margin:var(--s4) 0 0;padding:0;display:grid;gap:var(--s2);grid-template-columns:minmax(0,1fr)}
-@media (min-width:700px){.order ol{grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s3)}}
-.order a{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:var(--s3);align-items:baseline;height:100%;
-  padding:var(--s3) var(--s3) var(--s4);border-top:5px solid var(--c,var(--bk));background:var(--panel);border-radius:0 0 6px 6px;text-decoration:none}
-.bk main .order a{color:var(--ink)}
-.order .n{font:700 22px/1 var(--font-display);color:var(--bk);font-variant-numeric:tabular-nums}
-.order .t{font:var(--fw-h3) 16px/1.25 var(--font-display);letter-spacing:-.005em}
-.order .a{grid-column:2;font:400 13px/1.4 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3);margin-top:2px}
-.order a:hover .t{color:var(--bk);text-decoration:underline}
+/* ---------- Topic page: each entry's accent comes from its cover ---------- */
+.book{--acc:var(--ba,var(--bk))}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .book{--acc:var(--ba-d,var(--bk))}}
+:root[data-theme="dark"] .book{--acc:var(--ba-d,var(--bk))}
+.more h2{font-size:22px;letter-spacing:-.01em}
 
-/* ---------- A book entry: drawn cover beside a catalogue card ---------- */
-.books{margin-top:var(--s8);display:flex;flex-direction:column;gap:var(--s8)}
+/* ---------- A book entry: the cover beside a catalogue card ---------- */
+.books{margin-top:var(--s7);display:flex;flex-direction:column;gap:var(--s8)}
 .book{display:grid;gap:var(--s5);grid-template-columns:minmax(0,1fr);scroll-margin-top:24px}
 @media (min-width:860px){.book{grid-template-columns:220px minmax(0,1fr);column-gap:var(--s7);align-items:start}}
 @media (min-width:1200px){.book{grid-template-columns:240px minmax(0,860px)}}
 .cover{margin:0;max-width:160px}
-@media (min-width:860px){.cover{max-width:none;position:sticky;top:24px;padding-top:44px}}
-.cover svg{display:block;width:100%;height:auto;border-radius:2px 6px 6px 2px;box-shadow:8px 8px 0 var(--bk-line)}
+@media (min-width:860px){.cover{max-width:none;position:sticky;top:24px;padding-top:8px}}
+.cover svg,.cover img{display:block;width:100%;height:auto;border-radius:2px 6px 6px 2px;
+  box-shadow:0 1px 2px color-mix(in srgb,var(--ink) 14%,transparent),0 18px 32px -14px color-mix(in srgb,var(--acc) 60%,transparent)}
+/* a hairline so a white cover does not melt into the page */
+.cover img{background:var(--panel);outline:1px solid color-mix(in srgb,var(--ink) 10%,transparent);outline-offset:-1px}
 .cover figcaption{margin-top:var(--s4);font:400 12px/1.4 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
 .cv-t{font-family:var(--font-display);font-weight:800;letter-spacing:-.02em}
 .cv-a{font-family:var(--font-ui);font-weight:500;letter-spacing:.01em}
 
-/* the index tab names the reading position; the card below it is ruled like a catalogue card */
+/* the card is ruled like a catalogue card */
 .cat{position:relative;min-width:0}
-.cat__tab{display:inline-block;padding:10px 16px 8px;background:var(--bk-wash);border:1px solid var(--bk-line);border-bottom:0;border-radius:8px 8px 0 0;
-  font:600 var(--fs-meta)/1.2 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--bk)}
-.cat__card{border:1px solid var(--bk-line);border-top:3px solid var(--bk);border-radius:0 10px 10px 10px;background:var(--paper);padding:var(--s5) var(--s5) var(--s5)}
+.cat__card{border:1px solid var(--bk-line);border-top:3px solid var(--acc);border-radius:10px;background:var(--paper);padding:var(--s5) var(--s5) var(--s5)}
 @media (min-width:860px){.cat__card{padding:var(--s6) var(--s6) var(--s5)}}
 .cat__card h2{font-size:clamp(28px,calc(18px + 1.6vw),40px);line-height:1.05;letter-spacing:-.03em}
 .cat__by{margin-top:var(--s2);font:500 var(--fs-ui)/1.45 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink)}
@@ -140,19 +205,41 @@
 .fields ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--s1)}
 
 /* the owner's take: a labelled block, only on books the owner has read */
-.take{margin-top:var(--s2);padding:var(--s4) var(--s5);background:var(--bk-wash);border-left:4px solid var(--bk);border-radius:0 6px 6px 0}
-.take h3{font:var(--fw-h3) 17px/1.3 var(--font-display);letter-spacing:-.005em}
-.take p{margin-top:var(--s2);font:400 var(--fs-body)/1.55 var(--font-body);letter-spacing:var(--tracking-body);color:var(--ink-2)}
+.take{margin-top:var(--s2);padding:var(--s4) var(--s5);background:var(--bk-wash);border-radius:8px}
+.take h3{font:var(--fw-h3) 17px/1.3 var(--font-display);letter-spacing:-.005em;color:var(--t-ink,var(--ink))}
+.take p{margin-top:var(--s2);font:400 var(--fs-body)/1.55 var(--font-body);letter-spacing:var(--tracking-body);color:var(--t-muted,var(--ink-2))}
 .take .slot{font-style:italic}
-.unread{margin-top:var(--s2);padding:var(--s3) 0 0;border-top:1px solid var(--bk-line);font:400 var(--fs-ui)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
 
 .buy{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s5);margin-top:var(--s5);padding-top:var(--s5);border-top:1px solid var(--bk-line)}
 .buy p{flex:1 1 22em;font:400 var(--fs-meta)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
 
 /* ---------- More shelves ---------- */
 .more{margin-top:var(--s9)}
-.more .shelf__row{margin-top:var(--s5)}
-@media (min-width:1024px){.more .shelf__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.more .plates{margin-top:var(--s5)}
 .more__all{margin-top:var(--s5);font:600 var(--fs-ui)/1.4 var(--font-ui)}
 
-@media (prefers-reduced-motion:reduce){.tt{transition:none}.tt:hover{transform:none}}
+@media (prefers-reduced-motion:reduce){.tp__bk{transition:none}}
+
+/* on the dark page a coloured shadow reads as a glow; covers cast a plain shadow there */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bk .cover img,:root:not([data-theme="light"]) .bk .tp__bk img{box-shadow:0 1px 2px rgb(0 0 0 / .5),0 16px 28px -12px rgb(0 0 0 / .7)}}
+:root[data-theme="dark"] .bk .cover img,:root[data-theme="dark"] .bk .tp__bk img{box-shadow:0 1px 2px rgb(0 0 0 / .5),0 16px 28px -12px rgb(0 0 0 / .7)}
+
+/* ---------- The cover as a book in 3D ----------
+   The cover image is the front face; a hinge shades its left edge; the page block is a thin face turned back from
+   the right edge; a soft shadow sits on the ground. At rest the book stands turned about 13 degrees. books.js adds
+   .is-pre to each book on load and removes it as the book scrolls into view, so it rises a few pixels and turns from
+   25 degrees to rest. Transforms only: the box is the image's own, so nothing shifts. Without the script, or with
+   reduced motion, the books are simply at rest. */
+.cover{perspective:1100px}
+.b3d{display:block;position:relative;transform-style:preserve-3d;transform:rotateY(var(--ry,-13deg));
+  transition:transform .65s cubic-bezier(.16,1,.3,1)}
+.b3d.is-pre{transform:translateY(8px) rotateY(calc(var(--ry,-13deg) - 12deg));transition:none}
+.book:hover .b3d,.book:focus-within .b3d{transform:rotateY(-6deg);transition-delay:0s!important}
+.b3d img{position:relative;border-radius:1px 3px 3px 1px}
+.b3d::before{content:"";position:absolute;inset:0 auto 0 0;width:8%;z-index:1;pointer-events:none;border-radius:1px 0 0 1px;
+  background:linear-gradient(90deg,rgb(0 0 0 / .26),rgb(255 255 255 / .2) 38%,rgb(0 0 0 / .14) 62%,transparent)}
+.b3d::after{content:"";position:absolute;top:1%;bottom:1%;left:100%;width:var(--bw,16px);transform-origin:left center;transform:rotateY(90deg);
+  background:linear-gradient(90deg,rgb(0 0 0 / .18),transparent 40%),repeating-linear-gradient(90deg,#F6F3EC 0 1px,#DCD6CA 1px 2px)}
+.cover:has(.b3d)::after{content:"";display:block;height:18px;margin:-6px 4% 0 10%;pointer-events:none;
+  background:radial-gradient(closest-side,color-mix(in srgb,var(--ink) 24%,transparent),transparent)}
+@media (prefers-reduced-motion:reduce){.b3d{transition:none}}
