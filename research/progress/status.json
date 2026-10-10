@@ -1,53 +1,39 @@
 {
   "version": 1,
-  "run_id": "illustration-rules-2",
-  "title": "Explainer figures: legible type and a wider range of pictures",
+  "run_id": "explainer-colour",
+  "title": "Explainer figures: accent colours where meaning needs them",
   "state": "finished",
-  "started": "2026-10-10T16:53+05:30",
-  "updated": "2026-10-10T17:01+05:30",
-  "note": "Finished: Inter 27/24 floors as outlines, contrast checked, 17 figures regenerated, two new gallery figures",
+  "started": "2026-10-10T17:06+05:30",
+  "updated": "2026-10-10T17:08+05:30",
+  "note": "Finished: rules and generator open to accents; figures untouched",
   "steps": [
     {
       "n": 1,
       "title": "Rules",
       "status": "done",
-      "note": "One open-season sentence (the picture is whatever the article needs); no list of kinds; new Type section",
-      "time": "16:53"
+      "note": "Colour section: mono default, accent under the thumbnail scheme rule, 3:1 pairs, named per figure with its reason; the eight-tints-only rule now covers the ground only",
+      "time": "17:07"
     },
     {
       "n": 2,
-      "title": "Type",
+      "title": "Generator",
       "status": "done",
-      "note": "Inter Medium labels 27, Inter Regular notes 24, as outlines; floors raise and warn; thumbs double",
-      "time": "16:58"
+      "note": "illustration.py: accent on shapes, icons, badges (fire, warning, success, hex or hue); 3:1 on tint and ink; fire core; at most two; warns above a fifth",
+      "time": "17:07"
     },
     {
       "n": 3,
-      "title": "Generator",
-      "status": "done",
-      "note": "illustration.py: Inter outlines via wordmark.FontRef, FitError, readable_on 4.5:1, circle/rrect/polygon/path/glyph/badge/band, check_contrast",
-      "time": "16:58"
+      "title": "Regenerate",
+      "status": "skipped",
+      "note": "Owner update: figures not regenerated; the option-1 changes made before the update were restored to the committed files",
+      "time": "17:08"
     },
     {
       "n": 4,
-      "title": "Regenerate",
-      "status": "done",
-      "note": "12 gallery explainers, fig-twelve-questions and fig-where-prds-fail (PNG + SVG), 3 figure-style thumbs at double floors; no label shrunk",
-      "time": "17:01"
-    },
-    {
-      "n": 5,
-      "title": "Two new kinds",
-      "status": "done",
-      "note": "ex-ticket (analogy scene, green) and ex-prd-sheet (object, purple) added; explainers.html rebuilt",
-      "time": "17:01"
-    },
-    {
-      "n": 6,
       "title": "Checks",
       "status": "done",
-      "note": "Steps, matrix, ticket, PRD sheet and both article figures read at 720px; 174 text runs, lowest 4.56:1, no fill changed; pages 200, all images 200; shots_article.py no overflow",
-      "time": "17:01"
+      "note": "Throwaway render in the scratchpad: fire flame on green, 3.03:1 on the tint, 4.70:1 on ink, core 3.01:1 on the body; deleted",
+      "time": "17:08"
     }
   ]
 }

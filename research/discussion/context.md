@@ -884,3 +884,10 @@ white text in the matrix's blue box fails). Fix in progress: a "kinds of picture
 of 27 units for labels and 24 for notes in Inter (not monospace), a 4.5:1 check for text on fills, new drawing
 primitives for scenes and objects, every figure regenerated, two non-diagram figures added to the gallery.
 Owner: no rules on what to draw; the illustration rules cover only the background tint, the dots, the lockup, type floors and the canvas; the picture is whatever the article demands. Passed to the builder.
+Figures fixed and committed (10 Oct): illustration rules reduced to the fixed things with one sentence that the picture
+is whatever the article needs; type in Inter Medium 27 units for labels (16 px at the 720 px column) and Inter
+Regular 24 for notes, floors enforced, labels wider than their box stop the build, text as outlines so no font is
+needed; 4.5:1 check on every fill (lowest 4.56); new primitives (shapes, twelve line icons, badges, caption band);
+all 17 figures regenerated; two range examples added (restaurant ticket analogy, PRD sheet object).
+Owner: explainer figures must not be locked to the tint's family (the ticket figure's flame came out green); apply the thumbnail colour-scheme rule: mono by default, an accent on the part that matters with restraint, contrast checked. Being applied to rules, generator and figures.
+Owner: no need to regenerate the figures for the colour change; only make sure the rules and generator do not restrict colour. Passed to the builder.

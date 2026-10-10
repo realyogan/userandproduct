@@ -5,11 +5,12 @@ Generator: `research/mockups/tools/illustration.py`. Source of the palette: `ref
 Printables site's tile tints and dot grid). Examples: http://localhost/user-and-product/research/mockups/option-1/build/explainers.html
 
 The picture is whatever the article needs: a scene, an object, a chart, a diagram, anything; the rules below cover
-only the ground, the dots, the lockup and the type.
+only the ground, the dots, the lockup, the type and the colours.
 
 ## The rules in short
 
-1. The palette is the eight Printables tints, nothing else.
+1. The ground is one of the eight Printables tints, nothing else. The picture is mono by default; an accent is
+   allowed where meaning needs it (see Colour).
 2. One tint per article: every explainer in an article uses the article's tint.
 3. The tint comes from rotation, so neighbouring articles differ and an article always keeps its colour.
 4. Related-card thumbnails use their own article's tint.
@@ -33,6 +34,20 @@ On every tint: ink #1D1B16 (13.5 to 15.5:1), muted #5F5B52 (5.3 to 6.1:1), plain
 #1D1B16 border, rules and arrows in #1D1B16. Highlights are the saturated cousins of the pastel (same hue): A a mid
 shade with the dark label, B a deep shade with a white label; the generator adjusts their lightness until the label
 passes 4.5:1. Use at most one or two highlights per image, A first.
+
+## Colour
+
+- **Mono by default**: ink, muted, the plain box and the tint's two highlights. Most figures need nothing else.
+- **An accent** where an element's meaning needs a colour of its own: a flame is warm, a warning is red, a tick is
+  green. The thumbnail scheme rule applies: one accent when one element must stand out, two rarely, never more;
+  only on the part that matters, never on decoration (ground, dots, rules, arrows, the lockup); on at most about a
+  fifth of the drawn elements. If in doubt, fewer colours.
+- **Contrast on every pair**: an accent shape passes 3:1 on the tint and against the ink outline beside it, two
+  accents in one figure pass 3:1 against each other (else drop one), and a label on an accent passes 4.5:1. The
+  generator moves the accent's lightness until each pair passes, warns on a pair it cannot fix, and logs the values.
+- **Name it in the spec**: each accent is set per element (`"accent": "fire"`, `"warning"`, `"success"`, a hex or a
+  hue) with a comment giving its reason. Fire draws a deep orange body with a yellow core, because a yellow alone
+  cannot reach 3:1 on a pastel tint.
 
 ## Choosing the tint
 
@@ -92,7 +107,7 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 ## What an illustration is not
 
 - No frame, card outline, border, notches or title inside the image; the point goes in the `<figcaption>`.
-- No colour outside the eight tints and their derived colours.
+- No accent without a reason in the spec, none on decoration, no more than two.
 
 ## Export, names, use on the page
 
@@ -124,7 +139,8 @@ png(svg, "fig-example.png", 1200)   # 600 for a thumbnail
 
 Besides box, arrow, rule, hrule, polyline, dot and text, the generator draws filled shapes (`circle`, `rrect`,
 `polygon`, `path`), small line glyphs from paths (`glyph`, with `GLYPHS` listing the names), number badges (`badge`)
-and a caption band (`band`). The docstring at the top of `illustration.py` lists every field. Text takes `weight`
+and a caption band (`band`). Shapes, glyphs, badges, dots and polylines take `accent` (see Colour);
+`ACCENT_LOG` holds every accent pair and its ratio. The docstring at the top of `illustration.py` lists every field. Text takes `weight`
 (`regular`, `medium`, `semibold`), `code` for monospace, and `
 ` for a second line.
 
