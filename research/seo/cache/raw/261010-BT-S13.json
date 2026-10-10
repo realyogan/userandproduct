@@ -1,0 +1,1431 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0295 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-ecaaabf4dfa8",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0245 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-ecaaabf4dfa8"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "startup books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-startup",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "startup books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=startup%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:07 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "Best",
+        "url": "https://www.google.com/search?q=best+startup+books&hl=en&gl=US&shoprs=EgViAwiQAxgTKg1zdGFydHVwIGJvb2tzMg8IExIEQmVzdCIFYgMIkANgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAF6BAgwEDw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCAgSEgRGcmVlYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAJ6BAgwED0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyGwgBEgtOb24tZmljdGlvbjoKCMupOhDNqTowAljbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAN6BAgwED4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCggSEgZPbmxpbmVgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAR6BAgwED8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=startup+books+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqDXN0YXJ0dXAgYm9va3MyEwgGEgdPbiBzYWxlGAIiBEoCGAFY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAV6BAgwEEA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=startup+books+nearby&hl=en&gl=US&shoprs=GAMqDXN0YXJ0dXAgYm9va3MyDAgDEgZOZWFyYnkYAljbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAZ6BAgwEEE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCwgSEgdSZXZpZXdzYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAd6BAgwEEI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyBwgSEgNCdXlgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAh6BAgwEEM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "audible.com",
+        "url": "https://www.google.com/search?q=audible.com+startup+books&hl=en&gl=US&shoprs=GAIqDXN0YXJ0dXAgYm9va3MyDwgCEgthdWRpYmxlLmNvbVjbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAl6BAgwEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Barnes & Noble",
+        "url": "https://www.google.com/search?q=barnes+%26+noble+startup+books&hl=en&gl=US&shoprs=GAIqDXN0YXJ0dXAgYm9va3MyEggCEg5CYXJuZXMgJiBOb2JsZVjbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAp6BAgwEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=startup+books&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFABkgBGBQqDXN0YXJ0dXAgYm9va3MyJQgUEgxHZXQgaXQgdG9kYXkiDZoBCgoIEAA4AUAGSAEqBBABGAFgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAt6BAgwEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Adult",
+        "url": "https://www.google.com/search?q=adult+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCQgSEgVBZHVsdGAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKAx6BAgwEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=startup+books+for+sale&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyDAgSEghGb3IgU2FsZWAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKA16BAgwEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Pink",
+        "url": "https://www.google.com/search?q=pink+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyFggBEgRQaW5rOgwI2Iz1ARDpivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKA56BAgwEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyFwgBEgVCbGFjazoMCNiM9QEQ5Yr1ATALWNupIGAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKA96BAgwEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+startup+books&hl=en&gl=US&shoprs=GAoqDXN0YXJ0dXAgYm9va3MyBwgKEgNOZXdY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBB6BAgwEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+startup+books&hl=en&gl=US&shoprs=GAoqDXN0YXJ0dXAgYm9va3MyCAgKEgRVc2VkWNupIGAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBF6BAgwEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $9",
+        "url": "https://www.google.com/search?q=startup+books+under+$9&hl=en&gl=US&shoprs=Eg0SCxEAAAAAiCphQRgBGAUqDXN0YXJ0dXAgYm9va3MyIQgFEghVbmRlciAkORgCIg0SCxEAAAAAiCphQRgBKgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBJ6BAgwEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Target",
+        "url": "https://www.google.com/search?q=target+startup+books&hl=en&gl=US&shoprs=GAIqDXN0YXJ0dXAgYm9va3MyCggCEgZUYXJnZXRY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBN6BAgwEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyFggBEgRCbHVlOgwI2Iz1ARDmivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBR6BAgwEFI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyFQgBEgNSZWQ6DAjYjPUBEOeK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBV6BAgwEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Woman",
+        "url": "https://www.google.com/search?q=woman+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCQgSEgVXb21hbmAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBZ6BAgwEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Business",
+        "url": "https://www.google.com/search?q=business+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyGAgBEghCdXNpbmVzczoKCM6pOhDWqTowAljbqSBgAQ&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBd6BAgwEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Store",
+        "url": "https://www.google.com/search?q=store+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCQgSEgVTdG9yZWAB&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBh6BAgwEFY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Self-help",
+        "url": "https://www.google.com/search?q=self-help+startup+books&hl=en&gl=US&shoprs=GAEqDXN0YXJ0dXAgYm9va3MyGQgBEglTZWxmLWhlbHA6CgjOqToQka06MAJY26kgYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBl6BAgwEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Classic",
+        "url": "https://www.google.com/search?q=classic+startup+books&hl=en&gl=US&shoprs=GBIqDXN0YXJ0dXAgYm9va3MyCwgSEgdDbGFzc2ljYAE&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4Qip4GKBp6BAgwEFg",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 188,
+     "pages_count": 1,
+     "items_count": 14,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "The best startup books span `foundational strategy, customer discovery, leadership resilience, and scaling operations`:[[1]](https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/)[[2]](https://www.thevccorner.com/p/best-books-for-founders)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:6)\n**The Lean Startup** by Eric Ries \u2013 Focuses on validated learning, rapid prototyping, and iterative product releases to minimize waste under uncertainty.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:7)\n**Zero to One** by Peter Thiel \u2013 Explores how to build unique, monopolistic technology companies rather than incremental copies of existing businesses.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:8)\n**The Hard Thing About Hard Things** by Ben Horowitz \u2013 Offers raw, pragmatic advice on managing the brutal, high-stress decisions CEOs face when things go wrong.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:9518625948640233492,catalogid:18357483296350473234,gpcid:8243862485805506233,mid:576462884955964995&ibp=oshop)[[3]](https://divbyzero.com/blog/best-startup-books/)\n\n### Customer Discovery & Product\n\n- **The Mom Test** by Rob Fitzpatrick \u2013 Teaches how to talk to customers and extract honest feedback without leading them or falling in love with your own bias.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://divbyzero.com/blog/best-startup-books/)\n- **The Startup Owner's Manual** by Steve Blank and Bob Dorf \u2013 A step-by-step operational guide for executing customer development and hypothesis testing.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://divbyzero.com/blog/best-startup-books/)\n- **Inspired** by Marty Cagan \u2013 Outlines how top tech companies design, build, and launch products customers genuinely love.[[1]](https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/)[[2]](https://www.goodreads.com/shelf/show/startup)\n\n### Leadership & Mental Resilience\n\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuQ_4PbdlI6hSQrHOy5XbKykqe4GeGjTe2mIQSEb3F-FLjNQC5naDgTgyBKw)\n**Reboot** by Jerry Colonna \u2013 Written by a former VC-turned-executive coach, blending vulnerability, childhood history, and conscious leadership to help founders navigate mental strain ([Chris Neumann](https://chrisneumann.com/archives/10-books-every-founder-should-read)).\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuDqVowdB2_6tglM6Z7-Wl1pyfHP580z7Apek07SVUb9Z7Y1D1m8mm9c-d2pU)\n**Lost and Founder** by Rand Fishkin \u2013 A transparent look at the unglamorous emotional and financial realities of growing a tech company ([Div by Zero](https://divbyzero.com/blog/best-startup-books/)).[[1]](https://chrisneumann.com/archives/10-books-every-founder-should-read)[[2]](https://divbyzero.com/blog/best-startup-books/)\n\n### Scaling, Sales & Operations\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQK6-1SJxUpv3pz2okIrdzKp7TouAzjXLwIu01TyNVcZ6BWW7MT91vf0Xzf8YA)\n**Traction** by Gabriel Weinberg and Justin Mares \u2013 Details 19 channels to help founders systematically test and grow their customer base.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBKmKZKbF9PKzaTQesS8sqmv5bbjiy_pZSa6QRXtc3Lie4ug74NLdAj6EIGLU)\n**Predictable Revenue** by Aaron Ross and Marylou Tyler \u2013 The blueprint for building out outbound sales engines and scalable revenue pipelines.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVRAd54pi5t7_NildJFvbpWnzCfEZg65YdEDPSO9p4s_sxYzgOWwjonplY7E)\n**Venture Deals** by Brad Feld and Jason Mendelson \u2013 Demystifies the term sheet, cap tables, and how venture capital negotiations actually work.[[1]](https://www.thevccorner.com/p/best-books-for-founders)[[2]](https://www.goodreads.com/shelf/show/startup)[[3]](https://divbyzero.com/blog/best-startup-books/)If you'd like to narrow down this list, tell me:\n\n- What **stage** your startup is in (ideation, pre-seed, scaling, etc.)\n- What **specific challenge** you are facing right now (fundraising, product-market fit, hiring, or leadership)",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The best startup books span foundational strategy, customer discovery, leadership resilience, and scaling operations :",
+         "markdown": "The best startup books span `foundational strategy, customer discovery, leadership resilience, and scaling operations`:[[1]](https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/)[[2]](https://www.thevccorner.com/p/best-books-for-founders)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/",
+           "title": "Please suggest some books related to startups - Reddit",
+           "text": "Diverse Reading List: Beyond foundational texts, recommended books address specific startup areas including management (The Hard T..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The VC Corner",
+           "domain": "www.thevccorner.com",
+           "url": "https://www.thevccorner.com/p/best-books-for-founders",
+           "title": "Best Books for Founders: What Startup Leaders Actually Read",
+           "text": "Essential Foundations: The Lean Startup (Eric Ries), Zero to One (Peter Thiel), Lost and Founder (Rand Fishkin), The Hard Thing Ab..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Lean Startup by Eric Ries \u2013 Focuses on validated learning, rapid prototyping, and iterative product releases to minimize waste under uncertainty. Zero to One by Peter Thiel \u2013 Explores how to build unique, monopolistic technology companies rather than incremental copies of existing businesses. The Hard Thing About Hard Things by Ben Horowitz \u2013 Offers raw, pragmatic advice on managing the brutal, high-stress decisions CEOs face when things go wrong.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:3)\n**The Lean Startup** by Eric Ries \u2013 Focuses on validated learning, rapid prototyping, and iterative product releases to minimize waste under uncertainty.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:4)\n**Zero to One** by Peter Thiel \u2013 Explores how to build unique, monopolistic technology companies rather than incremental copies of existing businesses.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:5)\n**The Hard Thing About Hard Things** by Ben Horowitz \u2013 Offers raw, pragmatic advice on managing the brutal, high-stress decisions CEOs face when things go wrong.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:9518625948640233492,catalogid:18357483296350473234,gpcid:8243862485805506233,mid:576462884955964995&ibp=oshop)[[3]](https://divbyzero.com/blog/best-startup-books/)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Customer Discovery & Product",
+         "markdown": "### Customer Discovery & Product",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Mom Test by Rob Fitzpatrick \u2013 Teaches how to talk to customers and extract honest feedback without leading them or falling in love with your own bias. The Startup Owner's Manual by Steve Blank and Bob Dorf \u2013 A step-by-step operational guide for executing customer development and hypothesis testing. Inspired by Marty Cagan \u2013 Outlines how top tech companies design, build, and launch products customers genuinely love.",
+         "markdown": "- **The Mom Test** by Rob Fitzpatrick \u2013 Teaches how to talk to customers and extract honest feedback without leading them or falling in love with your own bias.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://divbyzero.com/blog/best-startup-books/)\n- **The Startup Owner's Manual** by Steve Blank and Bob Dorf \u2013 A step-by-step operational guide for executing customer development and hypothesis testing.[[1]](https://www.goodreads.com/shelf/show/startup)[[2]](https://divbyzero.com/blog/best-startup-books/)\n- **Inspired** by Marty Cagan \u2013 Outlines how top tech companies design, build, and launch products customers genuinely love.[[1]](https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/)[[2]](https://www.goodreads.com/shelf/show/startup)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Goodreads",
+           "domain": "www.goodreads.com",
+           "url": "https://www.goodreads.com/shelf/show/startup",
+           "title": "Popular Startup Books",
+           "text": "Popular Startup Books: The Lean Startup (Eric Ries); Zero to One (Peter Thiel); The Hard Thing About Hard Things (Ben Horowitz); T..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "DivByZero",
+           "domain": "divbyzero.com",
+           "url": "https://divbyzero.com/blog/best-startup-books/",
+           "title": "The 18 Best Startup Books for Founders in 2026",
+           "text": "Startup Books Catalog: Lost and Founder (Rand Fishkin, emotional reality); Zero to One (Peter Thiel, innovative building); The Mom..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/",
+           "title": "Please suggest some books related to startups - Reddit",
+           "text": "Diverse Reading List: Beyond foundational texts, recommended books address specific startup areas including management (The Hard T..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Leadership & Mental Resilience",
+         "markdown": "### Leadership & Mental Resilience",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Reboot by Jerry Colonna \u2013 Written by a former VC-turned-executive coach, blending vulnerability, childhood history, and conscious leadership to help founders navigate mental strain ( Chris Neumann ). Lost and Founder by Rand Fishkin \u2013 A transparent look at the unglamorous emotional and financial realities of growing a tech company ( Div by Zero ).",
+         "markdown": "---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuQ_4PbdlI6hSQrHOy5XbKykqe4GeGjTe2mIQSEb3F-FLjNQC5naDgTgyBKw)\n**Reboot** by Jerry Colonna \u2013 Written by a former VC-turned-executive coach, blending vulnerability, childhood history, and conscious leadership to help founders navigate mental strain ([Chris Neumann](https://chrisneumann.com/archives/10-books-every-founder-should-read)).\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuDqVowdB2_6tglM6Z7-Wl1pyfHP580z7Apek07SVUb9Z7Y1D1m8mm9c-d2pU)\n**Lost and Founder** by Rand Fishkin \u2013 A transparent look at the unglamorous emotional and financial realities of growing a tech company ([Div by Zero](https://divbyzero.com/blog/best-startup-books/)).[[1]](https://chrisneumann.com/archives/10-books-every-founder-should-read)[[2]](https://divbyzero.com/blog/best-startup-books/)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Scaling, Sales & Operations",
+         "markdown": "### Scaling, Sales & Operations",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Traction by Gabriel Weinberg and Justin Mares \u2013 Details 19 channels to help founders systematically test and grow their customer base. Predictable Revenue by Aaron Ross and Marylou Tyler \u2013 The blueprint for building out outbound sales engines and scalable revenue pipelines. Venture Deals by Brad Feld and Jason Mendelson \u2013 Demystifies the term sheet, cap tables, and how venture capital negotiations actually work.",
+         "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQK6-1SJxUpv3pz2okIrdzKp7TouAzjXLwIu01TyNVcZ6BWW7MT91vf0Xzf8YA)\n**Traction** by Gabriel Weinberg and Justin Mares \u2013 Details 19 channels to help founders systematically test and grow their customer base.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBKmKZKbF9PKzaTQesS8sqmv5bbjiy_pZSa6QRXtc3Lie4ug74NLdAj6EIGLU)\n**Predictable Revenue** by Aaron Ross and Marylou Tyler \u2013 The blueprint for building out outbound sales engines and scalable revenue pipelines.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHVRAd54pi5t7_NildJFvbpWnzCfEZg65YdEDPSO9p4s_sxYzgOWwjonplY7E)\n**Venture Deals** by Brad Feld and Jason Mendelson \u2013 Demystifies the term sheet, cap tables, and how venture capital negotiations actually work.[[1]](https://www.thevccorner.com/p/best-books-for-founders)[[2]](https://www.goodreads.com/shelf/show/startup)[[3]](https://divbyzero.com/blog/best-startup-books/)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like to narrow down this list, tell me:What stage your startup is in (ideation, pre-seed, scaling, etc.)\nWhat specific challenge you are facing right now (fundraising, product-market fit, hiring, or leadership)",
+         "markdown": "If you'd like to narrow down this list, tell me:\n\n- What **stage** your startup is in (ideation, pre-seed, scaling, etc.)\n- What **specific challenge** you are facing right now (fundraising, product-market fit, hiring, or leadership)",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/",
+         "title": "Please suggest some books related to startups - Reddit",
+         "text": "Diverse Reading List: Beyond foundational texts, recommended books address specific startup areas including management (The Hard T..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Chris Neumann",
+         "domain": "chrisneumann.com",
+         "url": "https://chrisneumann.com/archives/10-books-every-founder-should-read",
+         "title": "10 Books Every Founder Should Read - Chris Neumann",
+         "text": "Jerry Colonna is a former VC-turned-executive coach, who for many years has run transformational founder and executive bootcamps. ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "DivByZero",
+         "domain": "divbyzero.com",
+         "url": "https://divbyzero.com/blog/best-startup-books/",
+         "title": "The 18 Best Startup Books for Founders in 2026",
+         "text": "Startup Books Catalog: Lost and Founder (Rand Fishkin, emotional reality); Zero to One (Peter Thiel, innovative building); The Mom..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Goodreads",
+         "domain": "www.goodreads.com",
+         "url": "https://www.goodreads.com/shelf/show/startup",
+         "title": "Popular Startup Books",
+         "text": "Popular Startup Books: The Lean Startup (Eric Ries); Zero to One (Peter Thiel); The Hard Thing About Hard Things (Ben Horowitz); T..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "The VC Corner",
+         "domain": "www.thevccorner.com",
+         "url": "https://www.thevccorner.com/p/best-books-for-founders",
+         "title": "Best Books for Founders: What Startup Leaders Actually Read",
+         "text": "Essential Foundations: The Lean Startup (Eric Ries), Zero to One (Peter Thiel), Lost and Founder (Rand Fishkin), The Hard Thing Ab..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:9518625948640233492,catalogid:18357483296350473234,gpcid:8243862485805506233,mid:576462884955964995&ibp=oshop",
+         "title": "The Lean Startup: How Constant Innovation Creates Radically Successful",
+         "text": "Most startups fail. But many of those failures are preventable. The Lean Startup is a new approach being adopted across the globe,"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Please suggest some books related to startups",
+       "url": "https://www.reddit.com/r/startups/comments/16u7h7y/please_suggest_some_books_related_to_startups/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "40+ comments  \u00b7  3 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/startups",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "books: \"The Lean Startup\" by Eric Ries: This book is a must-read for anyone looking to start a company. \"Zero to One\" by Peter Thiel:",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Lean Startup\" by Eric Ries"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What are the best books to learn and understand how ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/startup/comments/1ovwmdj/what_are_the_best_books_to_learn_and_understand/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "What books actually helped you start/grow your business?",
+         "description": null,
+         "url": "https://www.reddit.com/r/startups/comments/167ei6v/what_books_actually_helped_you_startgrow_your/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=startup+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnsGxhiBHogLdFDztQptHGR5SDg9ig:1791643805514&sa=X&ved=2ahUKEwjhud2k2a-XAxXXHhAIHXT9AN4QrQIoAnoECB4QAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "chrisneumann.com",
+       "title": "10 Books Every Founder Should Read",
+       "url": "https://chrisneumann.com/archives/10-books-every-founder-should-read",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://chrisneumann.com \u203a archives \u203a 10-books-every-...",
+       "website_name": "Chris Neumann",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 10, 2023 \u2014 How to \u201cStartup\u201d \u00b7 4. The Lean Startup \u00b7 5. The Cold Start Problem \u00b7 6. Venture Deals \u00b7 7. Startup Communities / The Startup Community Way. Read more",
+       "pre_snippet": "05/10/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How to \u201cStartup\u201d"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://chrisneumann.com/archives/10-books-every-founder-should-read#:~:text=How%20to%20%E2%80%9CStartup%E2%80%9D&text=4.%20The%20Lean%20Startup&text=5.%20The%20Cold%20Start%20Problem&text=6.%20Venture%20Deals&text=7.%20Startup%20Communities%20%2F%20The,Startup%20Community%20Way",
+         "domain": "chrisneumann.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-05-10 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Popular Startup Books",
+       "url": "https://www.goodreads.com/shelf/show/startup",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a shelf \u203a show \u203a startup",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Popular Startup Books \u00b7 The Lean Startup Eric Ries. The Lean Startup \u00b7 Zero to One: Notes on Startups, or How to Build the Future Peter Thiel \u00b7 The Hard Thing\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Popular Startup Books"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.goodreads.com/shelf/show/startup#:~:text=Popular%20Startup%20Books&text=Want%20to%20Read&text=Want%20to%20Read&text=Want%20to%20Read",
+         "domain": "www.goodreads.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "The Startup",
+         "url": null,
+         "domain": null,
+         "description": "Pioneer Book & more",
+         "more_sellers": true,
+         "seller": "Pioneer Book",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:9",
+         "price": {
+          "current": 8.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$8.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 154,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9311344396123192863",
+          "data_docid": "785649413064693089",
+          "gid": "357807372704222219"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Startup: The Complete Entrepreneur's Guide to Starting a Business (How to Turbocharge Your Startup Growth Without Complicated Growth Hacks)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery on $60+",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:10",
+         "price": {
+          "current": 19.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17146468306163691254",
+          "data_docid": "12732849138503956042",
+          "gid": "13220669434140882040"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Lean Startup (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Blackwell's & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Blackwell's",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:11",
+         "price": {
+          "current": 21.03,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$21.03"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.6,
+          "votes_count": 227,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "14104684226625649728",
+          "data_docid": "11963073337225664603",
+          "gid": "6038696502296281260"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Startup Owner's Manual (The Step-By-Step Guide for Building a Great Company)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery on $60+",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:12",
+         "price": {
+          "current": 42,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$42.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 14,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "18338309216618000797",
+          "data_docid": "18096390162237161725",
+          "gid": "3926148072152264670"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Tech Startup Toolkit",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:13",
+         "price": {
+          "current": 40.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$40.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4735119895992325649",
+          "data_docid": "148431445450837881",
+          "gid": "11813043897967456515"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Startup Way",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:14",
+         "price": {
+          "current": 30,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$30.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10335905119353856826",
+          "data_docid": "2776350779912959989",
+          "gid": "6059025807865858227"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Lean Startup : Lo que debes saber para Emprender con Xito (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:15",
+         "price": {
+          "current": 9.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "1879011676235444099",
+          "data_docid": "12577031935735954354",
+          "gid": "1452752150933939007"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Radical Candor : Be a Kick-Ass Boss Without Losing Your Humanity",
+         "url": null,
+         "domain": null,
+         "description": "eBooks.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "eBooks.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-ecaaabf4dfa8:16",
+         "price": {
+          "current": 2.99,
+          "regular": null,
+          "max_value": 17,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$2.99 Was $17"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 56,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9660040789157337630",
+          "data_docid": "12323394880453612538",
+          "gid": "313416658829864356"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What business will boom in 2026?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 10 books for startup founders?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the 80/20 rule for startups?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 10 startups?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "news.ycombinator.com",
+       "title": "Ask HN: Must-Read Books for Startups?",
+       "url": "https://news.ycombinator.com/item?id=41545633",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://news.ycombinator.com \u203a item",
+       "website_name": "Hacker News",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 15, 2024 \u2014 I highly recommend \"The Lean Startup\" by Eric Ries, which offers good insights into building a successful startup through continuous innovation. Read more",
+       "pre_snippet": "09/15/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Lean Startup\" by Eric Ries"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://news.ycombinator.com/item?id=41545633#:~:text=I%20highly%20recommend%20%22The%20Lean,successful%20startup%20through%20continuous%20innovation.",
+         "domain": "news.ycombinator.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-09-15 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "divbyzero.com",
+       "title": "The 18 Best Startup Books for Founders in 2026",
+       "url": "https://divbyzero.com/blog/best-startup-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://divbyzero.com \u203a blog \u203a best-startup-books",
+       "website_name": "DivByZero",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 16, 2026 \u2014 The startup books I actually recommend to founders in 2026 \u2014 classics that still hold up, plus new picks on product, growth, fundraising,\u00a0...",
+       "pre_snippet": "07/16/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "classics that still hold up"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-16 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "steveblank.com",
+       "title": "Books for Startups",
+       "url": "https://steveblank.com/books-for-startups/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://steveblank.com \u203a books-for-startups",
+       "website_name": "Steve Blank",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Start ups and Entrepreneurship 1. The Four Steps to the Epiphany by Steve Blank 2. Founders at Work by Jessica Livingston 3. Rework by 37signals people 4. How\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Start ups and Entrepreneurship"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "bulkbooks.com",
+       "title": "Entrepreneurships & Startups",
+       "url": "https://bulkbooks.com/categories/business/entrepreneurships-and-startups?srsltid=AU7gw4VVu9TAS8LoA_jIjmorC6DFc5luGmkGWsW_IXn6Lv-uhFc0tHn0",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bulkbooks.com \u203a categories \u203a business \u203a entrepre...",
+       "website_name": "BulkBooks",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Entrepreneurships & Startups ; Radical Candor: Fully Revised & Updated Edition. Kim Scott. $32.00 ; Building a Storybrand 2.0. Donald Miller. $29.99 ; Traction. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 18,
+        "regular": null,
+        "max_value": 36,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$18 to $36"
+       },
+       "highlighted": [
+        "Entrepreneurships & Startups"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://bulkbooks.com/categories/business/entrepreneurships-and-startups?srsltid=AU7gw4VVu9TAS8LoA_jIjmorC6DFc5luGmkGWsW_IXn6Lv-uhFc0tHn0#:~:text=Entrepreneurships%20%26%20Startups&text=Radical%20Candor%3A%20Fully%20Revised%20%26,%2432.00%20retail&text=Building%20a%20Storybrand%202.0,%2429.99%20retail&text=Traction",
+         "domain": "bulkbooks.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "The Lean Startup: How Constant Innovation Creates Radically Successful",
+         "url": null,
+         "domain": null,
+         "description": "bkstr.com & more",
+         "more_sellers": true,
+         "seller": "bkstr.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSNy8X5ehYs6E5WmkU3HfAY770TVE76ChRNHGC0tCH-Rc5WPcG5bpSqYr8szny-btpxtcBScJlBUADjOHDagHRdt2DeYVG94rA4xy9aJ5kcrJl2iJDFidK2Yw",
+         "price": {
+          "current": 11.99,
+          "regular": null,
+          "max_value": 19,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$11.99 Usually $19"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 355,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "18357483296350473234",
+          "data_docid": "9518625948640233492",
+          "gid": "8243862485805506233"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Startup Playbook - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSEIsk1GwJto1eSZ3eFB4fHq8H9YdeGzKLdxlAXbPxpYZxBy5sGdwwi_qOFoNdbfEP1ggo6wQR6UzRDRWWNiuzA89xeWZnS44Cyk50xTJDxjxRDQPhxsbHY",
+         "price": {
+          "current": 20.36,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.36"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "15715039256660880346",
+          "data_docid": "12052306917801466404",
+          "gid": "11218650274527698762"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "HBR's 10 Must Reads on Entrepreneurship and Startups (featuring Bonus Article \u201cWhy the Lean Startup Changes Everything\u201d by Steve Blank) eBook",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery on $60+",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSMXEJIdF7fR1oI3tQf-DekOLcTcNT33ixSzC0M-D8g5M1_Ntx2mChnPb6UQx1V_sENKcWTEZ_qGN4X-2y-aEti2off8g2ZBtHlulXjf6GDyZMFmWts5Xw1",
+         "price": {
+          "current": 24.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.2,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9885026932365116194",
+          "data_docid": "8043262694770248027",
+          "gid": "499937356076462608"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Startup (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTtgcSd2dTQLo2dabd1PwS-lhVyqLUryvW_PioPsvvjBa3NYjytzVndRSphJ6QgUvgSx8095eghHL2jnuZJtD5xgjfuzDzLXBkb20xcewbs",
+         "price": {
+          "current": 9.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17173674679717923446",
+          "data_docid": "2989457781928409203",
+          "gid": "11239700425140633383"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Startup Campus",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTiK3sJtiYT6WtBte7BqSUUIaCgdSgrg9aN23QvYPQKL1QFxdxtDTm3LvF9Kk6Mkt6u6ZTgXE9MMwqm0-3zi0nIp0Rsu2Lyb59zFI4w4cD8_3EKsJv4qDQD",
+         "price": {
+          "current": 20,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6928138784967550532",
+          "data_docid": "17687514668279229094",
+          "gid": "391588875220331222"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Startup : The Complete Handbook for Launching a Company for Less",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery on $60+",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQa_z7fh4VBRo2s5BbZ8YZ85vJGbV8Ub-EFLzxqcoDs0TRekm2OWKZRICEnklZpvpLr8u3Jht-2n8ya976caYpR0tUN9uet7I7uMydMS6A",
+         "price": {
+          "current": 29.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$29.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3466482855754758852",
+          "data_docid": "6332697853890563093",
+          "gid": "10483453084643431661"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Explosive Growth : A Few Things I Learned While Growing To 100 Million Users - And Losing Million",
+         "url": null,
+         "domain": null,
+         "description": "Bookshop.org & more",
+         "more_sellers": true,
+         "seller": "Bookshop.org",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhqtn2Atp0SsOXajf0-Oq8bYEqsAP46GoMMTf1v9Mz_5X8iZa2BjmugN2gRmMGPCwjepsITWZmar8kkHkOX6XSE_3F_QI4JnYvo5dpsgfri2NRxsZHKQuD",
+         "price": {
+          "current": 24.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8037879624198394997",
+          "data_docid": "9602642032320562196",
+          "gid": "16608938385434953273"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Ultimate Startup Book Find Your Big Idea; Write Your Business Plan",
+         "url": null,
+         "domain": null,
+         "description": "Microcosm Publishing & Distribution & more",
+         "more_sellers": true,
+         "seller": "Microcosm Publishing & Distribution",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcToBVSmOlySI0zh_5KFBjQx334_X3sP495cJVCpVDNjHSZGdH0mfxugF_Fex67lItjQUkZBjH4oiZquq7naaKuAEZfn5V-db4RleqyZJ8Y4",
+         "price": {
+          "current": 19.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10813092906211390261",
+          "data_docid": "9199121143407701489",
+          "gid": "11226985256914812653"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+       "domain": "www.uschamber.com",
+       "title": "20 Must-Read Books for Entrepreneurs This Year | CO",
+       "url": "https://www.uschamber.com/co/grow/thrive/books-for-entrepreneurs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.uschamber.com \u203a Grow \u203a Thrive",
+       "website_name": "US Chamber",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 7, 2026 \u2014 \u201cThe Greater Good\u201d by Madeleine Shaw \u00b7 \u201cThe Lean Startup\u201d by Eric Ries \u00b7 \u201c48-Hour Start-up\u201d by Fraser Doherty. Read more",
+       "pre_snippet": "08/07/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "\u201cThe Greater Good\u201d by Madeleine Shaw"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Startup Stage",
+         "description": null,
+         "url": "https://www.uschamber.com/co/grow/thrive/books-for-entrepreneurs#:~:text=Startup%20stage",
+         "domain": "www.uschamber.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Growth Stage",
+         "description": null,
+         "url": "https://www.uschamber.com/co/grow/thrive/books-for-entrepreneurs#:~:text=Growth%20stage,-%60%60Dare%20to%20Lead%27%27",
+         "domain": "www.uschamber.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Founder Mindset And Leader...",
+         "description": null,
+         "url": "https://www.uschamber.com/co/grow/thrive/books-for-entrepreneurs#:~:text=Founder%20mindset%20and%20leader%20inspiration",
+         "domain": "www.uschamber.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-07 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Startup Books",
+       "url": "https://www.amazon.com/startup-books/s?k=startup+books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a startup-books \u203a k=startup+bo...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "LLC Beginner's Guide [All-in-1]: Everything on How to Start, Run, and Grow Your First Company Without Prior Experience. Includes Essential Tax Hacks,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "LLC Beginner's Guide"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.amazon.com/startup-books/s?k=startup+books#:~:text=LLC%20Beginner's%20Guide%20%5BAll-in-1%5D%3A%20Everything,Legal%20Strategies%2C%20and%20Expert%20Insights",
+         "domain": "www.amazon.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Startup books pdf",
+        "Top 5 startup books",
+        "Startup books for beginners",
+        "Best books for startup entrepreneurs",
+        "Best startup books reddit",
+        "Startup books free",
+        "Best startup books for beginners",
+        "Best books for Startup entrepreneurs pdf"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

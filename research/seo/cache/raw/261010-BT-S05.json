@@ -1,0 +1,1146 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0193 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-9944a3ac859d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0161 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-9944a3ac859d"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "project management books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-pjm",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "project management books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=project%20management%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "discussions_and_forums",
+      "popular_products",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 119,
+     "pages_count": 1,
+     "items_count": 14,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Top project management books vary depending on your experience level and focus:\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:6)\n**Project Management: A Systems Approach to Planning, Scheduling, and Controlling** by Harold Kerzner (14th Edition)\n\n- *Best for:* Comprehensive mastery and PMP exam preparation. Covers AI, agile, hybrid, and traditional methodologies. (Price: ~$45\u2013$102)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:7)\n**A Guide to the Project Management Body of Knowledge (PMBOK Guide)** by Project Management Institute (PMI)\n\n- *Best for:* Standardized industry terminology and reference.\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:8)\n**Fundamentals of Project Management** by Joseph Heagney (5th Edition)\n\n- *Best for:* Beginners wanting a clear, concise introduction to core processes. (Price: ~$11)[[1]](https://www.goodreads.com/shelf/show/project-management)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:5873204247077391591,catalogid:889250734962500004,gpcid:8848651130013884612,mid:576460832408020716&ibp=oshop)[[3]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)[[4]](https://www.google.com/search?q=product&prds=pvt:hg,productid:15574105723937817621,catalogid:16358262091857154900,gpcid:4834240661191594067,mid:576462367109359110&ibp=oshop)\n\n### For Agile & Specialized Methods\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKx6x_9jLmGe32z93N9BkRhCxHMp-Rtlkb2tTXx6Vr9F5Qds-33lCEO3vknkc)\n**Scrum: The Art of Doing Twice the Work in Half the Time** by Jeff Sutherland and JJ Sutherland\n\n- *Best for:* Learning agile Scrum frameworks and increasing team efficiency.\n\n\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs8dsTP7OUewUxgdU5IzeGqSK6slDWFWTgHj90V3Gr9IQH4nm0FiSJlq1g6Cc)\n**Agile Project Management with Scrum** by Ken Schwaber\n\n- *Best for:* Practical implementation of Agile software and team workflows.[[1]](https://www.coursera.org/articles/project-management-books)[[2]](https://www.goodreads.com/shelf/show/project-management)\n\n### For Beginners & Unofficial Project Managers\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuZG1G0_NwqgJ2ygU1Rw0die_Oeas1k8vpFCWj27glyB0iDJPHtNQBzIOIcOg)\n**DK Essential Managers: Project Management** \n\n- *Best for:* Quick, visual, bite-sized guidance on managing remote or local teams. (Price: ~$10)\n\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTPle8VL_4JuDt4EBmDCsFxWrX4QjMZJ1F3M6PuS7zulVrglB0lqVtu-hvM-Y)\n**Project Management for the Unofficial Project Manager** by Kory Kogon, Suzette Blakemore, and James Wood\n\n- *Best for:* People tasked with managing projects without an official \"project manager\" title.\n\n\n\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN3kuqH8w6ZiQqS9aR4KfKh149JP2O_oxHhUm-P5UCtn0MvGSgp3Wg0DID8k8)\n**Project Management for Humans** by Brett Harned\n\n- *Best for:* Developing the interpersonal and empathy skills needed to lead teams.[[1]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13282382940185542519,catalogid:8854626849361459756,gpcid:2837943290769723825,mid:576462358912887951&ibp=oshop)[[3]](https://www.coursera.org/articles/project-management-books)\n\n### For Leadership & Strategy\n\n- **The Five Dysfunctions of a Team** by Patrick Lencioni\n\t- *Best for:* Overcoming trust and accountability issues within project teams.[[1]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)\n- **How Big Things Get Done** by Bent Flyvbjerg\n\t- *Best for:* Understanding why large-scale projects succeed or fail and how to deliver on budget.[[1]](https://www.reddit.com/r/projectmanagement/comments/1rc1c02/if_i_wanted_to_be_the_absolute_best_pm_what_books/)\n\nIf you'd like to narrow this list down, tell me:\n\n- What is your **current experience level** (beginner, PMP candidate, or seasoned lead)?\n- Are you focusing on **Agile/Scrum** or **traditional/hybrid** methods?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top project management books vary depending on your experience level and focus:",
+         "markdown": "Top project management books vary depending on your experience level and focus:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Project Management: A Systems Approach to Planning, Scheduling, and Controlling by Harold Kerzner (14th Edition)Best for: Comprehensive mastery and PMP exam preparation. Covers AI, agile, hybrid, and traditional methodologies. (Price: ~$45\u2013$102)\nA Guide to the Project Management Body of Knowledge (PMBOK Guide) by Project Management Institute (PMI)Best for: Standardized industry terminology and reference.\nFundamentals of Project Management by Joseph Heagney (5th Edition)Best for: Beginners wanting a clear, concise introduction to core processes. (Price: ~$11)",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:3)\n**Project Management: A Systems Approach to Planning, Scheduling, and Controlling** by Harold Kerzner (14th Edition)\n\n- *Best for:* Comprehensive mastery and PMP exam preparation. Covers AI, agile, hybrid, and traditional methodologies. (Price: ~$45\u2013$102)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:4)\n**A Guide to the Project Management Body of Knowledge (PMBOK Guide)** by Project Management Institute (PMI)\n\n- *Best for:* Standardized industry terminology and reference.\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:5)\n**Fundamentals of Project Management** by Joseph Heagney (5th Edition)\n\n- *Best for:* Beginners wanting a clear, concise introduction to core processes. (Price: ~$11)[[1]](https://www.goodreads.com/shelf/show/project-management)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:5873204247077391591,catalogid:889250734962500004,gpcid:8848651130013884612,mid:576460832408020716&ibp=oshop)[[3]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)[[4]](https://www.google.com/search?q=product&prds=pvt:hg,productid:15574105723937817621,catalogid:16358262091857154900,gpcid:4834240661191594067,mid:576462367109359110&ibp=oshop)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "For Agile & Specialized Methods",
+         "markdown": "### For Agile & Specialized Methods",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland and JJ SutherlandBest for: Learning agile Scrum frameworks and increasing team efficiency.\nAgile Project Management with Scrum by Ken SchwaberBest for: Practical implementation of Agile software and team workflows.",
+         "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKx6x_9jLmGe32z93N9BkRhCxHMp-Rtlkb2tTXx6Vr9F5Qds-33lCEO3vknkc)\n**Scrum: The Art of Doing Twice the Work in Half the Time** by Jeff Sutherland and JJ Sutherland\n\n- *Best for:* Learning agile Scrum frameworks and increasing team efficiency.\n\n\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs8dsTP7OUewUxgdU5IzeGqSK6slDWFWTgHj90V3Gr9IQH4nm0FiSJlq1g6Cc)\n**Agile Project Management with Scrum** by Ken Schwaber\n\n- *Best for:* Practical implementation of Agile software and team workflows.[[1]](https://www.coursera.org/articles/project-management-books)[[2]](https://www.goodreads.com/shelf/show/project-management)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "For Beginners & Unofficial Project Managers",
+         "markdown": "### For Beginners & Unofficial Project Managers",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "DK Essential Managers: Project ManagementBest for: Quick, visual, bite-sized guidance on managing remote or local teams. (Price: ~$10)\nProject Management for the Unofficial Project Manager by Kory Kogon, Suzette Blakemore, and James WoodBest for: People tasked with managing projects without an official \"project manager\" title.\nProject Management for Humans by Brett HarnedBest for: Developing the interpersonal and empathy skills needed to lead teams.",
+         "markdown": "---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuZG1G0_NwqgJ2ygU1Rw0die_Oeas1k8vpFCWj27glyB0iDJPHtNQBzIOIcOg)\n**DK Essential Managers: Project Management** \n\n- *Best for:* Quick, visual, bite-sized guidance on managing remote or local teams. (Price: ~$10)\n\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTPle8VL_4JuDt4EBmDCsFxWrX4QjMZJ1F3M6PuS7zulVrglB0lqVtu-hvM-Y)\n**Project Management for the Unofficial Project Manager** by Kory Kogon, Suzette Blakemore, and James Wood\n\n- *Best for:* People tasked with managing projects without an official \"project manager\" title.\n\n\n\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN3kuqH8w6ZiQqS9aR4KfKh149JP2O_oxHhUm-P5UCtn0MvGSgp3Wg0DID8k8)\n**Project Management for Humans** by Brett Harned\n\n- *Best for:* Developing the interpersonal and empathy skills needed to lead teams.[[1]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13282382940185542519,catalogid:8854626849361459756,gpcid:2837943290769723825,mid:576462358912887951&ibp=oshop)[[3]](https://www.coursera.org/articles/project-management-books)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "For Leadership & Strategy",
+         "markdown": "### For Leadership & Strategy",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Five Dysfunctions of a Team by Patrick LencioniBest for: Overcoming trust and accountability issues within project teams. Best for: Overcoming trust and accountability issues within project teams. How Big Things Get Done by Bent FlyvbjergBest for: Understanding why large-scale projects succeed or fail and how to deliver on budget. Best for: Understanding why large-scale projects succeed or fail and how to deliver on budget.",
+         "markdown": "- **The Five Dysfunctions of a Team** by Patrick Lencioni\n\t- *Best for:* Overcoming trust and accountability issues within project teams.[[1]](https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51)\n- **How Big Things Get Done** by Bent Flyvbjerg\n\t- *Best for:* Understanding why large-scale projects succeed or fail and how to deliver on budget.[[1]](https://www.reddit.com/r/projectmanagement/comments/1rc1c02/if_i_wanted_to_be_the_absolute_best_pm_what_books/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51",
+           "title": "The PM Toolkit Starts With These 7 Books",
+           "text": "skills we're going to look at seven books that can transform your approach to project management there's a link for each book in t..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/projectmanagement/comments/1rc1c02/if_i_wanted_to_be_the_absolute_best_pm_what_books/",
+           "title": "If I wanted to be the absolute best PM, what books should I read? - Reddit",
+           "text": "Leadership and Soft Skills Books: Several books emphasizing leadership, personal development, and understanding human behavior are..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like to narrow this list down, tell me:What is your current experience level (beginner, PMP candidate, or seasoned lead)?\nAre you focusing on Agile/Scrum or traditional/hybrid methods?",
+         "markdown": "If you'd like to narrow this list down, tell me:\n\n- What is your **current experience level** (beginner, PMP candidate, or seasoned lead)?\n- Are you focusing on **Agile/Scrum** or **traditional/hybrid** methods?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/projectmanagement/comments/1rc1c02/if_i_wanted_to_be_the_absolute_best_pm_what_books/",
+         "title": "If I wanted to be the absolute best PM, what books should I read? - Reddit",
+         "text": "Leadership and Soft Skills Books: Several books emphasizing leadership, personal development, and understanding human behavior are..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Coursera",
+         "domain": "www.coursera.org",
+         "url": "https://www.coursera.org/articles/project-management-books",
+         "title": "12 Project Management Books for Beginners | Coursera",
+         "text": "* 4. For learning Scrum. Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland and JJ Sutherland. Written by ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Goodreads",
+         "domain": "www.goodreads.com",
+         "url": "https://www.goodreads.com/shelf/show/project-management",
+         "title": "Popular Project Management Books",
+         "text": "Popular Project Management Books: A Guide to the Project Management Body of Knowledge and Agile Practice Guide (Project Management..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=MjvDfsIAjbo&vl=en-US&t=51",
+         "title": "The PM Toolkit Starts With These 7 Books",
+         "text": "skills we're going to look at seven books that can transform your approach to project management there's a link for each book in t..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:5873204247077391591,catalogid:889250734962500004,gpcid:8848651130013884612,mid:576460832408020716&ibp=oshop",
+         "title": "Project Management : A Systems Approach to Planning, Scheduling, and Controlling",
+         "text": "The gold standard for project management students and professionals\u2014enhanced with AI, agile, and data-driven strategies in this la..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:15574105723937817621,catalogid:16358262091857154900,gpcid:4834240661191594067,mid:576462367109359110&ibp=oshop",
+         "title": "Fundamentals of Project Management",
+         "text": "Boasting sales of more than 200,000 copies, Fundamentals of Project Management has helped generations of project managers navigate..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:13282382940185542519,catalogid:8854626849361459756,gpcid:2837943290769723825,mid:576462358912887951&ibp=oshop",
+         "title": "DK Essential Managers Project Management",
+         "text": "Discover the ultimate practical guide to effective project management. Packed with clear, expert advice, bold graphics, and bite-s..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "6 Project Management Book Recommendations. NOT the ...",
+       "url": "https://www.youtube.com/watch?v=c-WCQNdxXZg",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "5K+ views  \u00b7  4 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Online PM Courses - Mike Clayton",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-11-25 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "What are helpful books to read about project management?",
+       "url": "https://www.quora.com/What-are-helpful-books-to-read-about-project-management",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "60+ answers",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What are helpful books to read about project management?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "66 answers",
+         "description": null,
+         "url": "https://www.quora.com/What-are-helpful-books-to-read-about-project-management?top_ans=70411612",
+         "domain": "www.quora.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "If I wanted to be the absolute best PM, what books should I read?",
+         "url": "https://www.reddit.com/r/projectmanagement/comments/1rc1c02/if_i_wanted_to_be_the_absolute_best_pm_what_books/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2026-03-10 14:49:57 +00:00",
+         "posts_count": 50
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "What are some recommendations of resources/books for project ...",
+         "url": "https://www.quora.com/What-are-some-recommendations-of-resources-books-for-project-management",
+         "domain": "www.quora.com",
+         "source": "Quora",
+         "description": null,
+         "timestamp": "2015-10-10 14:49:57 +00:00",
+         "posts_count": 50
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+       "domain": "www.teamgantt.com",
+       "title": "14 Best Project Management Books for Beginners to Experts",
+       "url": "https://www.teamgantt.com/blog/project-management-books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.teamgantt.com \u203a blog \u203a project-manageme...",
+       "website_name": "TeamGantt",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 3, 2019 \u2014 Beginner project management books \u00b7 1. A Guide to the Project Management Body of Knowledge \u00b7 2. Project Management for Non-Project Managers \u00b7 3. Read more",
+       "pre_snippet": "01/03/2019 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1. A Guide to the Project Management Body of Knowledge"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.teamgantt.com/blog/project-management-books#:~:text=Beginner%20project%20management%20books&text=1.%20A%20Guide%20to%20the,Project%20Management%20Body%20of%20Knowledge&text=2.%20Project%20Management%20for%20Non-Project,Managers&text=3.%20Project%20Management%3A%20Absolute%20Beginner's,Guide",
+         "domain": "www.teamgantt.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2019-01-03 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Best book on project management? : r/projectmanagement",
+       "url": "https://www.reddit.com/r/projectmanagement/comments/2g425y/best_book_on_project_management/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ comments  \u00b7  12 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/projectmanagement",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Heart of Change. Gives really good examples for different project management styles and how effective vs. ineffective they can be.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Heart of Change"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Best books for project management : r/projectmanagement",
+         "description": null,
+         "url": "https://www.reddit.com/r/projectmanagement/comments/oy20u5/best_books_for_project_management/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Books you recommend for project management - Reddit",
+         "description": null,
+         "url": "https://www.reddit.com/r/ExperiencedDevs/comments/m0u0q8/books_you_recommend_for_project_management/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=project+management+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnsi9IV0utFUwPhQzn6SJ9b5Mty37A:1791643796129&sa=X&ved=2ahUKEwjW7Z-g2a-XAxXtm-EIHS3DF9UQrQIoAnoECC4QAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Project Management for the Unofficial Project Manager",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:9",
+         "price": {
+          "current": 14.99,
+          "regular": 18,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99 $18"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 10,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10535064577871382212",
+          "data_docid": "9261651767578603005",
+          "gid": "11518287777999554148"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "DK Essential Managers Project Management",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:10",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "8854626849361459756",
+          "data_docid": "13282382940185542519",
+          "gid": "2837943290769723825"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management All-In-One For Dummies - Ebook",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:11",
+         "price": {
+          "current": 24.13,
+          "regular": null,
+          "max_value": 27,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$24.13 Usually $27"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.2,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "16031872138983875208",
+          "data_docid": "5079752565226364548",
+          "gid": "14743333326932040400"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management",
+         "url": null,
+         "domain": null,
+         "description": "Pearson eBook & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Pearson eBook",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:12",
+         "price": {
+          "current": 64.98,
+          "regular": null,
+          "max_value": 100,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$64.98 Usually $100"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6157604542483018663",
+          "data_docid": "14032550999888436015",
+          "gid": "6238285699304289109"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management Lite : Just Enough to Get the Job Done...Nothing More",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:13",
+         "price": {
+          "current": 14.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "10614681400254714097",
+          "data_docid": "11563873998819316065",
+          "gid": "7008883272754892236"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Project Management Institute Project Management Handbook",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:14",
+         "price": {
+          "current": 55,
+          "regular": 110,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$55.00 $110"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "2507584109335853897",
+          "data_docid": "12091592477273473443",
+          "gid": "5318371496502494967"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management Handbook : Agile - Traditional - Hybrid",
+         "url": null,
+         "domain": null,
+         "description": "Springer Nature & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Springer Nature",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:15",
+         "price": {
+          "current": 69.99,
+          "regular": 100,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$69.99 $100"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "14650985994803730461",
+          "data_docid": "13674541409954701008",
+          "gid": "17891818028625569913"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management For Dummies",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-9944a3ac859d:16",
+         "price": {
+          "current": 24.49,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.49"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12162383573133294035",
+          "data_docid": "13135733979061660223",
+          "gid": "17933457019423671932"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best project management book?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is 90% of a project manager's job?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 7 essential skills for project managers?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What's the best project management course?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+       "domain": "www.shortcut.com",
+       "title": "10 must-read books for Project Managers",
+       "url": "https://www.shortcut.com/blog/10-must-read-books-for-project-managers-c7f375606aa4/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.shortcut.com \u203a blog \u203a 10-must-read-books...",
+       "website_name": "Shortcut",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 6, 2017 \u2014 Manage It!: Your Guide to Modern, Pragmatic Project Management. Project Management Coaching Workbook: Six Steps to. Agile and Lean Program \u00a0...",
+       "pre_snippet": "04/06/2017 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Manage It!: Your Guide to Modern, Pragmatic Project"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2017-04-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Best Technical Project Management",
+       "url": "https://www.amazon.com/Best-Sellers-Technical-Project-Management/zgbs/books/8298061011",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a zgbs \u203a books",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Effective Project Management : Traditional, Agile, Extreme, Hybrid Practical Guide to Planning, Leading, and Delivering Better Projects with Artificial\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Effective Project Management"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Project Management Toolkit: The Basics for Project Success",
+         "url": null,
+         "domain": null,
+         "description": "Elsevier & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Elsevier",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS7W8vLWfN3tPxdIriM-OHsxI28IOZM8QIPXiCuyvcipLp5h0EbckygOVuaFJQz6FMYtR6_BuDEENSljG4GKwLIc4vOD0H50VCvvwPwbwMGC56zRroBanYNBg",
+         "price": {
+          "current": 67.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$67.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16935463719128139522",
+          "data_docid": "8898660355102058132",
+          "gid": "9038193064366157047"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management in Practice",
+         "url": null,
+         "domain": null,
+         "description": "bkstr.com & more",
+         "more_sellers": true,
+         "seller": "bkstr.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSIeLLojwLrPp1PAgffiUVZt6Vi7_J0-D03k8mMBhQd58w6XTToaj7DUdxuhjnYIP0jmU7f3fdpqXLKSrH7yuL7zaJrHpIpD7nWgUeSjR2QSg3c5MKD6vmcyQ",
+         "price": {
+          "current": 49,
+          "regular": null,
+          "max_value": 112,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$49.00 Usually $112"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.2,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "8468953635445054263",
+          "data_docid": "137604619669302644",
+          "gid": "9511142679011834123"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Everyday Project Management",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxcDhmXrp-Us0qWUHN1hcnlNmpx2cW_SMbi2c54mZCbPeOTcn14YtUj4pg0vlqeRpaAhE-y8EXSHdWS8Nhmb0zxcwmgpi2xyrko--SmxEl",
+         "price": {
+          "current": 22.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$22.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "8948115568544382919",
+          "data_docid": "9834937638483489743",
+          "gid": "10937411547887820768"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management: An Essential Guide for Beginners Who Want to Understand Agile, Scrum, Lean Six Sigma, Kanban and Kaizen When Applied t",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQfwjgtWLHaQhKHUvrfAMprp0nYXQUup0batF_yO0mZdOm3pDGQzz9mvekGroxUzYDPGsMwUaevJi2uN0XOAPSpkKxjG4dURT9ALw4eOd9hUQdvLOT7OlrxoA",
+         "price": {
+          "current": 24.46,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.46"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "1335046384063875314",
+          "data_docid": "8612438287846885677",
+          "gid": "18217656591625905435"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "A Comprehensive Project Management Guide : Quality Management, Integrated Six-Sigma and Change Management Compilation",
+         "url": null,
+         "domain": null,
+         "description": "Springer Nature & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Springer Nature",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRCsB1L-ZK1BNf334QzC2n_JRsWfGEacp4hfqxNABKziHl6mJYhi2nOYzqh-eVIyZfVb3oHe_0JqX_ecOv4rmUGhqwb9alB-_Rzsc-8bB0",
+         "price": {
+          "current": 76.99,
+          "regular": 110,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$76.99 $110"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "4618016795030469490",
+          "data_docid": "14408775128487073460",
+          "gid": "221623553641894254"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Project Management for Planners (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "barnesandnoble.com & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "barnesandnoble.com",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSqkuZRcR1Vc66j2mQHDP1gJJHKWW3kLB5WdRR-AN2BM0EJqnQ5RvDri4A6LcbkRxxFBDSWgl5o1EUoxO6JDeSrDF-9vsMRYp9W1upd-nzt1QZlSC8GwSnbYw",
+         "price": {
+          "current": 68.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$68.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "15488526813802118050",
+          "data_docid": "1582390240051677740",
+          "gid": "9819047283602271602"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Art and Science of Project Management 3rd Edition",
+         "url": null,
+         "domain": null,
+         "description": "Lulu Press & more",
+         "more_sellers": true,
+         "seller": "Lulu Press",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS0xRWDCTNvrfy8RsUfVh-o6VI-_6qg5bHS7h8BvR7XZuJ3KZFw_EDcMnCDznXwkZc-WDK27SWX3guJtanv-4FtxFLxdWsSE1d7wVNHY7qLJibQACw-r8f4hg",
+         "price": {
+          "current": 28.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$28.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "15930072102085964722",
+          "data_docid": "16119953618988321415",
+          "gid": "10946671766049792846"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Complete Project Manager (2nd ed.) : Integrating People, Organizational, and Technical Skills (16pt Large Print Edition)",
+         "url": null,
+         "domain": null,
+         "description": "Berrett-Koehler Publishers & more",
+         "more_sellers": true,
+         "seller": "Berrett-Koehler Publishers",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRlnIBmbIitQco1EmXLeGrV3_sjhgCyGFgOdnNKyH82bX_owTAxZ_EB-mq5ZMmPce1_bjY-K2ZPvS-iWBshvHOAfrcqps7YOx0J0okWLoPC7qdxy8NicY7N4A",
+         "price": {
+          "current": 69.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$69.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6688858142566114869",
+          "data_docid": "4876744530241913880",
+          "gid": "10516474234212610167"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]/div[1]",
+       "domain": "www.betterworldbooks.com",
+       "title": "List of books by author Project Management Institute",
+       "url": "https://www.betterworldbooks.com/author/project-management-institute/5453740?srsltid=AU7gw4U6QDBtFldv-Hz2EwW93Oxo4g4f3kc4cUYntSfMPE3QoC2LdeIu",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.betterworldbooks.com \u203a author \u203a project-...",
+       "website_name": "Better World Books",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "These include titles such as Agile Practice Guide and Standard for Project Risk Management.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 15,
+        "regular": null,
+        "max_value": null,
+        "currency": "USD",
+        "is_price_range": false,
+        "displayed_price": "Free delivery over $15"
+       },
+       "highlighted": [
+        "Agile Practice Guide"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[23]/div[1]/div[1]",
+       "domain": "www.ntaskmanager.com",
+       "title": "5 Best Project Management Books for Beginners and ...",
+       "url": "https://www.ntaskmanager.com/blog/best-project-management-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.ntaskmanager.com \u203a blog \u203a best-project-ma...",
+       "website_name": "nTask",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 17, 2020 \u2014 A Guide to Project Management Body of Knowledge 2. Project Management: Absolute Beginner's Guide 3. Project Management: A Systems Approach to\u00a0...",
+       "pre_snippet": "01/17/2020 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "A Guide to Project Management Body of Knowledge"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2020-01-17 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Project management books pdf",
+        "Best project management books"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

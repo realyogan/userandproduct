@@ -1,0 +1,992 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0353 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-0777ea3d3ea5",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0138 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-0777ea3d3ea5"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "accessibility books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-a11y",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "accessibility books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=accessibility%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "images",
+      "related_searches"
+     ],
+     "se_results_count": 199,
+     "pages_count": 1,
+     "items_count": 14,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Popular Accessibility Books",
+       "url": "https://www.goodreads.com/shelf/show/accessibility",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a shelf \u203a show \u203a accessibility",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "How Inclusion Shapes Design. Everyone: Designing Accessible User Experiences. What to Know, What to Say, A History of Disability",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How Inclusion Shapes Design"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Accessibility - The Illustrated Guide : Making digital communication inclusive for everyone",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - NOOK & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - NOOK",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:0",
+         "price": {
+          "current": 35.99,
+          "regular": null,
+          "max_value": 45,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$35.99 Usually $45"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "64850184656585459",
+          "data_docid": "16028433335809980481",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Fast Guide to Accessibility Design",
+         "url": null,
+         "domain": null,
+         "description": "Third Eye Comics & more",
+         "more_sellers": true,
+         "seller": "Third Eye Comics",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:1",
+         "price": {
+          "current": 16.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$16.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "17263787288186933555",
+          "data_docid": "1204700880833546713",
+          "gid": "12941540090944267926"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Accessible Home Designing for All Ages and Abilities",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:2",
+         "price": {
+          "current": 21.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$21.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9627050546197573118",
+          "data_docid": "11289097461610504113",
+          "gid": "17300814123603202044"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "ACCESSIBILITY A transformative Guide of Self-discovery and Personal Empowerment",
+         "url": null,
+         "domain": null,
+         "description": "Walmart",
+         "more_sellers": false,
+         "seller": "Walmart",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:3",
+         "price": {
+          "current": 15.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$15.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "15469170300655235471",
+          "data_docid": "12023469610186330219",
+          "gid": "9997748574424397252"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Demystifying Disability (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:4",
+         "price": {
+          "current": 18.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$18.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "6603410645613256038",
+          "data_docid": "2305510624383068201",
+          "gid": "17726152039807872964"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Accessibility for Everyone (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Walmart - BooksRun & more",
+         "more_sellers": true,
+         "seller": "Walmart - BooksRun",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:5",
+         "price": {
+          "current": 4.87,
+          "regular": 38,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$4.87 $38"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5610931455279498652",
+          "data_docid": "3954125731829256270",
+          "gid": "11406131877373541897"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Accessible Home: Updating Your Home for Changing Physical Needs",
+         "url": null,
+         "domain": null,
+         "description": "Buildersbook",
+         "more_sellers": false,
+         "seller": "Buildersbook",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:6",
+         "price": {
+          "current": 17.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9735497956014463938",
+          "data_docid": "312184110825467107",
+          "gid": "15427587836756652969"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Beyond Accessibility: Toward Full Inclusion of People with Disabilities in Faith Communities",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0777ea3d3ea5:7",
+         "price": {
+          "current": 24.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "10278177372323750101",
+          "data_docid": "419388840560721488",
+          "gid": null
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+       "domain": "accessability.substack.com",
+       "title": "My favourite books on accessibility and related topics",
+       "url": "https://accessability.substack.com/p/my-favourite-books-on-accessibility",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "4 likes  \u00b7  2 years ago",
+       "website_name": "Substack\u00a0\u00b7\u00a0Access * Ability",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Regine Gilbert, Inclusive Design for a Digital World: Designing with Accessibility in Mind. Strategic IT Accessibility: Enabling the\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Accessibility"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+       "domain": "alastore.ala.org",
+       "title": "The Digital Accessibility Handbook for Libraries - ALA Store",
+       "url": "https://alastore.ala.org/dahdbkl",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://alastore.ala.org \u203a dahdbkl",
+       "website_name": "American Library Association",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Providing concrete guidance on integrating accessibility into all aspects of a library's digital work, this book will serve as your one-stop guide to \u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "accessibility",
+        "book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+       "domain": "vispero.com",
+       "title": "Digital Accessibility Books",
+       "url": "https://vispero.com/resources/digital-accessibility-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://vispero.com \u203a Resources",
+       "website_name": "Vispero",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Nov 3, 2023 \u2014 \u201cInclusive Components\u201d is a detailed, practical handbook for building fully accessible interfaces. The book examines common interface patterns.\u00a0...",
+       "pre_snippet": "11/03/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-11-03 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Agile Accessibility Handbook: A Practical Guide to Accessible Software Development at Scale by Dylan Barrell",
+         "url": null,
+         "domain": null,
+         "description": "Amplify Publishing Group & more",
+         "more_sellers": true,
+         "seller": "Amplify Publishing Group",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzRTJpxIIiNqOyG97B1_6tpd5Xth7e37QFEcUUz5qrJwywlBY0NLaM8F2_d_XL1iStNW81CwweUDa2kwQHz2awaq4TE-3f_MWF3pduh3aJlkiTcpC5U_4k",
+         "price": {
+          "current": 16.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$16.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "7376498975325834981",
+          "data_docid": "17395969816657719660",
+          "gid": "460561127298189490"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Accessibility",
+         "url": null,
+         "domain": null,
+         "description": "barnesandnoble.com & more\nFree delivery on $60+",
+         "more_sellers": true,
+         "seller": "barnesandnoble.com",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTDjG2IOJxl1geYDUsJIy2R08GN3bXn6pTv1-6vj10V34gepDYGIdrhLE1lP74EMBjEppwZe45IsJTIyB7_1MLngxDToHJ2EIOL9_Cj0NYCWFH0UIqIjNnXQg",
+         "price": {
+          "current": 49.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$49.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16948793458262807520",
+          "data_docid": "1248014374638525144",
+          "gid": "15266546897422792391"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Assistive Technologies : Principles and Practice",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRqGvFomzlF6FsUYfqV5B0rAZojfVa4IVO9VcSpzMLod5BivK-fvLmAjvueNd3IwceH_WcjaTX0sJFQbKpwKLDOyLWqmCBTlsfZrMlGChGoNabYI_liHItF",
+         "price": {
+          "current": 115.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$115.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12408145379003020465",
+          "data_docid": "1358021345952237662",
+          "gid": "12558393102561287878"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Unlearning Ableism - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Kindred Stories & more",
+         "more_sellers": true,
+         "seller": "Kindred Stories",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSav9rVJNpqUUoBpS6mZfo-tDc07qmVcBhSjG8fV1vvnwMOArlsyos5KU_rjTevn5eKlRym1MY3ygYEFRkODwsX6fZJDoX8ZONumgdaV8wT2tIrw3oKNyTMlg",
+         "price": {
+          "current": 24.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "446064335425711323",
+          "data_docid": "8985405895751868515",
+          "gid": "11511679846196476263"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Digital Accessibility Ethics : Disability Inclusion in All Things Tech",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7qsdrB1twg3C3PkBxXysJO6mw355VdyCLX4yM7zdIHBztcOeeDF4N76wZDRgg3OFpj1dtvQQMGWOyCOOowg9CSLJWYgtwJAl_fPobb9_q5-jqu2ZlKHIj",
+         "price": {
+          "current": 31.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$31.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6336791719817387992",
+          "data_docid": "17353142956467127887",
+          "gid": "6860871432494320398"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Approachable Accessibility (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "springer.com & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "springer.com",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTLeh-8MZ745_YgbeLil1T6ZouIh6yv2Gzi37PRoo2RGrQMzYjA5CIpOMltXif2kSJ46I1lRoOnk9Sw6uzCmkEk_RA6lVS7",
+         "price": {
+          "current": 39.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$39.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3066443874333343836",
+          "data_docid": "15432680700025844036",
+          "gid": "13568416993654112913"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Practical Web Accessibility: A Comprehensive Guide to Digital Inclusion by Ashley Firth (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR8ZHuDIMwmtmw1A7LF-1_EPkj-4gmLCWIPU_XxSlAQ-6KymCmcNsLQPEbJc_CwKroJAtTHNV51qSiUkznLA6A3V-EDbEIdMzkYdtgowZLA_Fh_i9v3b1Pt",
+         "price": {
+          "current": 49.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$49.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8784159619227811254",
+          "data_docid": "4729164254850621429",
+          "gid": "11423676901970455304"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Accessibility Handbook",
+         "url": null,
+         "domain": null,
+         "description": "eBooks.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "eBooks.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSq2eEKjXnpdInvi-lg1jzPdfBAcpnkA3TKAqO1nRMDshhPG2SvAFBo636Q55wUHUFGwi8AWb8BM-oMHOTMlfwq-j271ayyJIu6UsAgg-4",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11288183360994589304",
+          "data_docid": "12746147010560077692",
+          "gid": null
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "Is WCAG legally required?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 10 accessibility testing tools?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are some good books for disabled adults?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the four types of accessibility?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]/div[1]",
+       "domain": "guides.dml.georgetown.edu",
+       "title": "Accessibility and Disability: Books - Guides",
+       "url": "https://guides.dml.georgetown.edu/accessibility/books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://guides.dml.georgetown.edu \u203a accessibility \u203a books",
+       "website_name": "Georgetown University",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 22, 2026 \u2014 Accessibility, Inclusion, and Action in Medical Education by Association of American Medical Colleges ISBN: 9781984260314",
+       "pre_snippet": "09/22/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Accessibility, Inclusion, and Action in Medical Education"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-22 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]",
+       "domain": "www.hachettebookgroup.com",
+       "title": "4 Books to Read If You Want to Learn More About ...",
+       "url": "https://www.hachettebookgroup.com/book-list/books-to-read-if-you-want-to-learn-more-about-accessibility/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.hachettebookgroup.com \u203a book-list \u203a book...",
+       "website_name": "Hachette Book Group",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "4 Books to Read If You Want to Learn More About Accessibility \u00b7 Haben \u00b7 Lightning Flowers \u00b7 Blue Dreams \u00b7 For the Benefit of Those Who See \u00b7 What to Read Next\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Haben"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.hachettebookgroup.com/book-list/books-to-read-if-you-want-to-learn-more-about-accessibility/#:~:text=4%20Books%20to%20Read%20If,to%20Learn%20More%20About%20Accessibility&text=Haben&text=Lightning%20Flowers&text=Blue%20Dreams&text=For%20the%20Benefit%20of%20Those,Who%20See&text=What%20to%20Read%20Next",
+         "domain": "www.hachettebookgroup.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnuuVbaI2RihGkVBkALZ7KaOEvcbbA:1791643796318&q=accessibility+books&udm=2&source=univ&fir=wB9MMynCE6-3QM%252CvDUm34fZiaOVkM%252C_%253Bjb_iScBbypJkPM%252CaDLGP19_MgnCeM%252C_%253B5i-4N-dCMXaJLM%252C01Q1fZHrlcPjAM%252C_%253BTF3kMGpMg4VApM%252C5tLLUYB1W2v3nM%252C_%253BBlUjshz-I6gbsM%252CeN1q4sdB3iYKWM%252C_%253BppFt0g-r9ZEweM%252CjacOamB3hMZmfM%252C_%253Bu4hdagkKpxxJ9M%252C2r1SiV2IjJRYKM%252C_%253Be-MsgGA3WTdvYM%252C9fugjdD121Vf1M%252C_%253BK3e16ih7J36QmM%252CvDUm34fZiaOVkM%252C_&usg=AI4_-kQfdqpEQfi_4bL_vV7KoBOTAZA4HA&sa=X&ved=2ahUKEwi2lqyg2a-XAxVJlFYBHW_jCJ8Q7Al6BAhHEAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Accessibility for Everyone, A Book Apart",
+         "url": "https://abookapart.com/products/accessibility-for-everyone.html",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZKE0BLd5oLlreBKqgtFcYqGcWRhPi7vioF69AzxNyF-qF8KL4CKfE3r0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "More Digital Accessibility Books \u2013 OZeWAI",
+         "url": "https://ozewai.org/blog/technical-articles/more-digital-accessibility-books/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEtbmm7--ANLAJxqQrsow-p5bhalVpVGTH6HhV3WDcsPjeculwaFGS2QI&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The Digital Accessibility Handbook for Libraries",
+         "url": "https://alastore.ala.org/dahdbkl",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYv8kSRdyOOZ6fWBId0LGjCwnOgqY5nolfuEXI-7FcFYMqA-vdNPBYY4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "5 book recommendations to help drive accessibility adoption ...",
+         "url": "https://www.deque.com/blog/5-book-recommendations-to-help-drive-accessibility-adoption-and-strategy/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUx15qkbig2t7ieYrPDOCfNXXW--3tJfhsmLC0wNcVTowN2ygcFN6wEEk&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "10 Awesome Books for Adults about Disabilities and ...",
+         "url": "https://easterseals.ca/en/10-awesome-books-for-adults-about-disabilities-and-accessibility/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBQ6ELFrGpMJsPO8qxi-hE2L7S6rJ73YWk-UG0-AUaVJRi6U3j9XEBuo&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "What Is an Accessible Book? \u2014 Laura Brady",
+         "url": "https://laurabrady.ca/blog/what-is-an-accessible-book",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIl5Jvm0k6D5S0p1gvgNLEl0ngdN-78sIDI7-Ez_wj5Int2DYGHul9J3o&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Guide to Digital Accessibility",
+         "url": "https://www.routledge.com/Guide-to-Digital-Accessibility-Policies-Practices-and-Professional-Development/Mancilla-Frey/p/book/9781642674538",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLIDj8Cppw8ciuxKQSNK5vxuj5cxJ8YZEXYbwqz1so6xsKKB7k1leEYDs&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Digital Accessibility Ethics",
+         "url": "https://www.routledge.com/Digital-Accessibility-Ethics-Disability-Inclusion-in-All-Things-Tech/Feingold-Gilbert-Fleet/p/book/9781041018681",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSna736VdkSie79Wp4BFMsxpvplJYI4uDnVPAoC5W_xc3U0lSmRe4-D1AE&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Accessibility for Everyone, A Book Apart",
+         "url": "https://abookapart.com/products/accessibility-for-everyone.html",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrbGn5V5MQuebGyUf2YnfV-JyK6FPi6mYQDH2A_rEKtPsOhqwUuEFYrk&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[21]/div[1]/div[1]",
+       "domain": "www.a11ybookclub.com",
+       "title": "Accessibility Book Club Bookshelf | Curated Titles",
+       "url": "https://www.a11ybookclub.com/bookshelf",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.a11ybookclub.com \u203a bookshelf",
+       "website_name": "Accessibility Book Club",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Our book list features a diverse collection of titles covering accessibility and inclusion, memoirs from disability advocates, design and development insights,",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "accessibility and inclusion"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[23]/div[1]/div[1]",
+       "domain": "www.deque.com",
+       "title": "5 book recommendations to help drive accessibility ...",
+       "url": "https://www.deque.com/blog/5-book-recommendations-to-help-drive-accessibility-adoption-and-strategy/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.deque.com \u203a blog \u203a 5-book-recommendati...",
+       "website_name": "Deque Systems",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 24, 2023 \u2014 Recommended reading \u00b7 Agile Accessibility Handbook by Dylan Barrell (2020) \u00b7 Change Management: The Essentials by Lena Ross (2020) \u00b7 The\u00a0... Read more",
+       "pre_snippet": "05/24/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Agile Accessibility Handbook by Dylan Barrell (2020"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Share Story",
+         "description": null,
+         "url": "https://www.deque.com/blog/5-book-recommendations-to-help-drive-accessibility-adoption-and-strategy/#:~:text=Share%20Story%3A",
+         "domain": "www.deque.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Recommended Reading",
+         "description": null,
+         "url": "https://www.deque.com/blog/5-book-recommendations-to-help-drive-accessibility-adoption-and-strategy/#:~:text=Recommended%20reading",
+         "domain": "www.deque.com"
+        },
+        {
+         "type": "link_element",
+         "title": "How Coaching Supports A...",
+         "description": null,
+         "url": "https://www.deque.com/blog/5-book-recommendations-to-help-drive-accessibility-adoption-and-strategy/#:~:text=How%20coaching%20supports%20a%20difficult%20change",
+         "domain": "www.deque.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-05-24 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Accessibility books pdf",
+        "Accessibility books free",
+        "Accessibility books pdf free",
+        "Best accessibility books",
+        "Accessibility for Everyone",
+        "The digital Accessibility Handbook for Libraries",
+        "Web Accessibility Cookbook",
+        "Digital accessibility in libraries"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

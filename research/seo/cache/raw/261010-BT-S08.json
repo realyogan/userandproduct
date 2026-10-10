@@ -1,0 +1,1166 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0784 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-cc8305149a02",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0252 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-cc8305149a02"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "growth books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-growth",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "growth books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=growth%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:00 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "popular_products",
+      "discussions_and_forums",
+      "organic",
+      "people_also_ask",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 114,
+     "pages_count": 1,
+     "items_count": 14,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Top personal growth and self-improvement books help build better habits, shift mindsets, and achieve long-term goals.[[1]](https://www.barnesandnoble.com/collections/books/self-help-relationships/personal-growth)\n\n- **Atomic Habits** by James Clear: Explains how tiny, everyday changes compound into massive results through proven habit-building systems.[[1]](https://notesbythalia.com/best-self-improvement-books/)[[2]](https://www.goodreads.com/shelf/show/personal-development)\n- **The 7 Habits of Highly Effective People** by Stephen R. Covey: A classic framework for personal and professional effectiveness, focusing on principles of integrity and character.[[1]](https://www.goodreads.com/shelf/show/personal-development)[[2]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)\n- **[Mindset](https://www.goodreads.com/shelf/show/personal-development)** by Carol S. Dweck: Explores the power of a \"growth mindset\" and how believing that your abilities can be developed leads to success.[[1]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)[[2]](https://www.goodreads.com/shelf/show/personal-development)\n- **Think and Grow Rich** by Napoleon Hill: The foundational motivational text that examines the mindsets and habits of historical high-achievers.[[1]](https://www.goodreads.com/shelf/show/personal-development)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13589239705671567928,catalogid:5465795868857666455,gpcid:16272557287374239110,mid:576462319242001386&ibp=oshop)\n- **Man's Search for Meaning** by Viktor E. Frankl: A powerful psychological memoir about finding purpose and resilience through extreme adversity.[[1]](https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/)[[2]](https://www.goodreads.com/shelf/show/personal-development)\n\n### Quick Tips for Choosing a Book\n\n- **For building routines:** Pick *Atomic Habits* or *The Power of Habit*.\n- **For changing your outlook:** Read *Mindset* or *The 7 Habits of Highly Effective People*.\n- **For finding direction:** Try *Man's Search for Meaning*.[[1]](https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/)[[2]](https://notesbythalia.com/best-self-improvement-books/)[[3]](https://www.goodreads.com/shelf/show/personal-development)[[4]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top personal growth and self-improvement books help build better habits, shift mindsets, and achieve long-term goals.",
+         "markdown": "Top personal growth and self-improvement books help build better habits, shift mindsets, and achieve long-term goals.[[1]](https://www.barnesandnoble.com/collections/books/self-help-relationships/personal-growth)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Barnes & Noble",
+           "domain": "www.barnesandnoble.com",
+           "url": "https://www.barnesandnoble.com/collections/books/self-help-relationships/personal-growth",
+           "title": "Best Personal Growth & Self Improvement Books | Barnes & Noble\u00ae",
+           "text": "Personal Growth: Self-improvement through new behaviors, habits, and attitudes impacting mindset and well-being. Five Areas: Menta..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Atomic Habits by James Clear: Explains how tiny, everyday changes compound into massive results through proven habit-building systems. The 7 Habits of Highly Effective People by Stephen R. Covey: A classic framework for personal and professional effectiveness, focusing on principles of integrity and character. Mindset by Carol S. Dweck: Explores the power of a \"growth mindset\" and how believing that your abilities can be developed leads to success. Think and Grow Rich by Napoleon Hill: The foundational motivational text that examines the mindsets and habits of historical high-achievers. Man's Search for Meaning by Viktor E. Frankl: A powerful psychological memoir about finding purpose and resilience through extreme adversity.",
+         "markdown": "- **Atomic Habits** by James Clear: Explains how tiny, everyday changes compound into massive results through proven habit-building systems.[[1]](https://notesbythalia.com/best-self-improvement-books/)[[2]](https://www.goodreads.com/shelf/show/personal-development)\n- **The 7 Habits of Highly Effective People** by Stephen R. Covey: A classic framework for personal and professional effectiveness, focusing on principles of integrity and character.[[1]](https://www.goodreads.com/shelf/show/personal-development)[[2]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)\n- **[Mindset](https://www.goodreads.com/shelf/show/personal-development)** by Carol S. Dweck: Explores the power of a \"growth mindset\" and how believing that your abilities can be developed leads to success.[[1]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)[[2]](https://www.goodreads.com/shelf/show/personal-development)\n- **Think and Grow Rich** by Napoleon Hill: The foundational motivational text that examines the mindsets and habits of historical high-achievers.[[1]](https://www.goodreads.com/shelf/show/personal-development)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13589239705671567928,catalogid:5465795868857666455,gpcid:16272557287374239110,mid:576462319242001386&ibp=oshop)\n- **Man's Search for Meaning** by Viktor E. Frankl: A powerful psychological memoir about finding purpose and resilience through extreme adversity.[[1]](https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/)[[2]](https://www.goodreads.com/shelf/show/personal-development)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Mindset",
+           "description": null,
+           "url": "https://www.goodreads.com/shelf/show/personal-development",
+           "domain": "www.goodreads.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Notes by Thalia",
+           "domain": "notesbythalia.com",
+           "url": "https://notesbythalia.com/best-self-improvement-books/",
+           "title": "The 5 Best Self-Improvement Books I Keep Coming Back To",
+           "text": "Recommended Books: The Mountain Is You by Brianna Wiest (addresses self-sabotage and protection from change); The Gifts of Imperfe..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Goodreads",
+           "domain": "www.goodreads.com",
+           "url": "https://www.goodreads.com/shelf/show/personal-development",
+           "title": "Popular Personal Development Books",
+           "text": "Popular Personal Development Books: Atomic Habits by James Clear; The 7 Habits of Highly Effective People by Stephen R. Covey; How..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Soundview Executive Book Summaries",
+           "domain": "www.summary.com",
+           "url": "https://www.summary.com/the-20-best-personal-development-books-of-all-time/",
+           "title": "Top 20 Personal Development Books of All Time",
+           "text": "Our Top 20 Personal Development Books of All Time * Mindset Carol Dweck * The 7 Habits of Highly Effective People Stephen R. Covey..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:13589239705671567928,catalogid:5465795868857666455,gpcid:16272557287374239110,mid:576462319242001386&ibp=oshop",
+           "title": "Think and Grow Rich (The Landmark Bestseller Now Revised and Updated for The 21st Century)",
+           "text": "Think and Grow Rich has been called the \"Granddaddy of All Motivational Literature.\" It was the first book to boldly ask, \"What ma..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Ryan Gottfredson",
+           "domain": "ryangottfredson.com",
+           "url": "https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/",
+           "title": "The 27 Best Self-Help & Personal Improvement Books",
+           "text": "High Performance Habits by Brendon Burchard Be Your Future Self Now by Ben Hardy Deep-Level: The Art of Possibility by Rosamund St..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Quick Tips for Choosing a Book",
+         "markdown": "### Quick Tips for Choosing a Book",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "For building routines: Pick Atomic Habits or The Power of Habit. For changing your outlook: Read Mindset or The 7 Habits of Highly Effective People. For finding direction: Try Man's Search for Meaning.",
+         "markdown": "- **For building routines:** Pick *Atomic Habits* or *The Power of Habit*.\n- **For changing your outlook:** Read *Mindset* or *The 7 Habits of Highly Effective People*.\n- **For finding direction:** Try *Man's Search for Meaning*.[[1]](https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/)[[2]](https://notesbythalia.com/best-self-improvement-books/)[[3]](https://www.goodreads.com/shelf/show/personal-development)[[4]](https://www.summary.com/the-20-best-personal-development-books-of-all-time/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Ryan Gottfredson",
+           "domain": "ryangottfredson.com",
+           "url": "https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/",
+           "title": "The 27 Best Self-Help & Personal Improvement Books",
+           "text": "High Performance Habits by Brendon Burchard Be Your Future Self Now by Ben Hardy Deep-Level: The Art of Possibility by Rosamund St..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Notes by Thalia",
+           "domain": "notesbythalia.com",
+           "url": "https://notesbythalia.com/best-self-improvement-books/",
+           "title": "The 5 Best Self-Improvement Books I Keep Coming Back To",
+           "text": "Recommended Books: The Mountain Is You by Brianna Wiest (addresses self-sabotage and protection from change); The Gifts of Imperfe..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Goodreads",
+           "domain": "www.goodreads.com",
+           "url": "https://www.goodreads.com/shelf/show/personal-development",
+           "title": "Popular Personal Development Books",
+           "text": "Popular Personal Development Books: Atomic Habits by James Clear; The 7 Habits of Highly Effective People by Stephen R. Covey; How..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Soundview Executive Book Summaries",
+           "domain": "www.summary.com",
+           "url": "https://www.summary.com/the-20-best-personal-development-books-of-all-time/",
+           "title": "Top 20 Personal Development Books of All Time",
+           "text": "Our Top 20 Personal Development Books of All Time * Mindset Carol Dweck * The 7 Habits of Highly Effective People Stephen R. Covey..."
+          }
+         ]
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Ryan Gottfredson",
+         "domain": "ryangottfredson.com",
+         "url": "https://ryangottfredson.com/blog/2025/03/31/the-27-best-self-help-personal-improvement-books/",
+         "title": "The 27 Best Self-Help & Personal Improvement Books",
+         "text": "High Performance Habits by Brendon Burchard Be Your Future Self Now by Ben Hardy Deep-Level: The Art of Possibility by Rosamund St..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Notes by Thalia",
+         "domain": "notesbythalia.com",
+         "url": "https://notesbythalia.com/best-self-improvement-books/",
+         "title": "The 5 Best Self-Improvement Books I Keep Coming Back To",
+         "text": "Recommended Books: The Mountain Is You by Brianna Wiest (addresses self-sabotage and protection from change); The Gifts of Imperfe..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Barnes & Noble",
+         "domain": "www.barnesandnoble.com",
+         "url": "https://www.barnesandnoble.com/collections/books/self-help-relationships/personal-growth",
+         "title": "Best Personal Growth & Self Improvement Books | Barnes & Noble\u00ae",
+         "text": "Personal Growth: Self-improvement through new behaviors, habits, and attitudes impacting mindset and well-being. Five Areas: Menta..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Goodreads",
+         "domain": "www.goodreads.com",
+         "url": "https://www.goodreads.com/shelf/show/personal-development",
+         "title": "Popular Personal Development Books",
+         "text": "Popular Personal Development Books: Atomic Habits by James Clear; The 7 Habits of Highly Effective People by Stephen R. Covey; How..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Soundview Executive Book Summaries",
+         "domain": "www.summary.com",
+         "url": "https://www.summary.com/the-20-best-personal-development-books-of-all-time/",
+         "title": "Top 20 Personal Development Books of All Time",
+         "text": "Our Top 20 Personal Development Books of All Time * Mindset Carol Dweck * The 7 Habits of Highly Effective People Stephen R. Covey..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:13589239705671567928,catalogid:5465795868857666455,gpcid:16272557287374239110,mid:576462319242001386&ibp=oshop",
+         "title": "Think and Grow Rich (The Landmark Bestseller Now Revised and Updated for The 21st Century)",
+         "text": "Think and Grow Rich has been called the \"Granddaddy of All Motivational Literature.\" It was the first book to boldly ask, \"What ma..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "The Laws of Lifetime Growth (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:0",
+         "price": {
+          "current": 10.72,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$10.72"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 2,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "14353683922060330074",
+          "data_docid": "8331678361963403078",
+          "gid": "4040363015580233442"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Growth Mindset Code: Cracking the Secrets to Success: Comprehensive Guide to Breaking Limits with a Growth Mindset, Cultivating Unlimited Possibil",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:1",
+         "price": {
+          "current": 13.54,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.54"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "3713859213424808141",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Intentional Growth: A Proven Guide to Higher Performance and Better Outcomes for Your Company; Hardcover; Author - Matt Andersen",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:2",
+         "price": {
+          "current": 25.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$25.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "10574185363718356658",
+          "data_docid": "2212097430569615282",
+          "gid": "7317621252944404694"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "14 Laws of Growth (Hardcover)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy",
+         "more_sellers": false,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:3",
+         "price": {
+          "current": 15,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$15.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3767043936585993691",
+          "data_docid": "2204742590930078046",
+          "gid": "12248295048739868667"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Mindset (The New Psychology of Success)",
+         "url": null,
+         "domain": null,
+         "description": "Walmart - ZBK International & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Walmart - ZBK International",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:4",
+         "price": {
+          "current": 6.15,
+          "regular": 9.53,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$6.15 $9.53"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 844,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4077833875099965282",
+          "data_docid": "15197486799524692618",
+          "gid": "4818506620647159015"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Hidden Treasures of Personal Growth : Discover What You Never Knew",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:5",
+         "price": {
+          "current": 7.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$7.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17683596931739523074",
+          "data_docid": "4553535933931539527",
+          "gid": "17925261906343897813"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Beginner's Guide to Personal Growth : A Simple Path to Mindset, Habits, Emotional Awareness & Self-Discipline",
+         "url": null,
+         "domain": null,
+         "description": "Lulu Press & more",
+         "more_sellers": true,
+         "seller": "Lulu Press",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:6",
+         "price": {
+          "current": 12.1,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.10"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "10635138232856135397",
+          "data_docid": "5697965775953314993",
+          "gid": "3083348763128387122"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Growth mindset : la actitud mental que te har crecer",
+         "url": null,
+         "domain": null,
+         "description": "ElevenReader & more\nFree next-day delivery",
+         "more_sellers": true,
+         "seller": "ElevenReader",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:7",
+         "price": {
+          "current": 12,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17468125065624228303",
+          "data_docid": "4935314382043514200",
+          "gid": "235662629309743160"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "You Become What You Think : Master Your Mind, Master Your Liife",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:8",
+         "price": {
+          "current": 12.11,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.11"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15356198746990801367",
+          "data_docid": "10907807815897049271",
+          "gid": "11377128144943824302"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The 15 Invaluable Laws of Growth (10th Anniversary Edition)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:9",
+         "price": {
+          "current": 19.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "13614175438535270809",
+          "data_docid": "7905968925714020347",
+          "gid": "11366045922813769952"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Laws of Lifetime Growth - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Audible.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:10",
+         "price": {
+          "current": 11.29,
+          "regular": null,
+          "max_value": 30,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$11.29 Usually $30"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9514933537738602165",
+          "data_docid": "4128632189932505702",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Growth : A Journal to Welcome Personal Change",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:11",
+         "price": {
+          "current": 17.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11465786110257557511",
+          "data_docid": "1203749258606939782",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "A Guide to Personal Growth & Development: From Ordinary to Exceptional",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:12",
+         "price": {
+          "current": 10.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$10.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11622700503028498386",
+          "data_docid": "11400589140591848069",
+          "gid": "12882408905133909484"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Growth Mindset: A Practical Guide to Rewiring Your Thoughts, Building Grit, and Thriving Through Challenges - Audiobook by Lucas Brenner",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:13",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": 11,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$9.99 Usually $11"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9339954999113762410",
+          "data_docid": "18172554559318721476",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Growth Mindset (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:14",
+         "price": {
+          "current": 23.49,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$23.49"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12026306638689194113",
+          "data_docid": "10904016403363159784",
+          "gid": "10938400860081891582"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Growth by Marvin Simpson (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Bookshop.org & more",
+         "more_sellers": true,
+         "seller": "Bookshop.org",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-cc8305149a02:15",
+         "price": {
+          "current": 10.24,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$10.24"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9017089317799548228",
+          "data_docid": "17119934124414037771",
+          "gid": "15936490751506703270"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[6]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "Self-help books that ACTUALLY helped you?",
+         "url": "https://www.reddit.com/r/suggestmeabook/comments/1093r0x/selfhelp_books_that_actually_helped_you/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2023-10-10 14:49:59 +00:00",
+         "posts_count": 730
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "What are the best books for self improvement?",
+         "url": "https://www.reddit.com/r/selfimprovement/comments/19bjdsc/what_are_the_best_books_for_self_improvement/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2024-10-10 14:49:59 +00:00",
+         "posts_count": 60
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "What are some good books on personal growth?",
+         "url": "https://www.quora.com/What-are-some-good-books-on-personal-growth?no_redirect=1",
+         "domain": "www.quora.com",
+         "source": "Quora",
+         "description": null,
+         "timestamp": "2025-12-10 14:49:59 +00:00",
+         "posts_count": 40
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+       "domain": "bookshop.org",
+       "title": "Best Self-Help & Personal Growth Books",
+       "url": "https://bookshop.org/lists/best-self-help-personal-growth-books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bookshop.org \u203a lists \u203a best-self-help-personal-gro...",
+       "website_name": "Bookshop.org",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "These books have had an impact on my personal self-growth journey. The Power of Now Eckhart Tolle Paperback $18.64 $20.00. Rising Strong Bren\u00e9 Brown Paperback\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 18,
+        "regular": null,
+        "max_value": 28,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$18 to $28"
+       },
+       "highlighted": [
+        "The Power of Now Eckhart Tolle"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "What are the best books for personal growth and success?",
+       "url": "https://www.quora.com/What-are-the-best-books-for-personal-growth-and-success",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "50+ answers  \u00b7  1 year ago",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What are the best books for personal growth and success?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "55 answers",
+         "description": null,
+         "url": "https://www.quora.com/What-are-the-best-books-for-personal-growth-and-success?top_ans=17516504",
+         "domain": "www.quora.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the best self-improvement books of all time in PDF format?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the book Limits to Growth about?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Does reading books lower cortisol?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the 5 finger rule for books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+       "domain": "makeheadway.com",
+       "title": "39 Growth Mindset Books for Unlocking Your Potential",
+       "url": "https://makeheadway.com/library/topics/growth-mindset/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://makeheadway.com \u203a Library",
+       "website_name": "makeheadway.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Explore a curated selection of growth mindset books to transform your mindset, achieve success, and unleash your full potential.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Explore a curated selection of growth mindset books"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Personal Growth Books",
+       "url": "https://www.goodreads.com/genres/personal-growth",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a genres \u203a personal-growth",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad. The Alchemist by Paulo Coelho The Prophet by Kahlil Gibran The Little Prince by Antoine\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "What are some must-read books or resources for personal ...",
+       "url": "https://www.quora.com/What-are-some-must-read-books-or-resources-for-personal-growth-and-self-improvement-this-year",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "50+ answers  \u00b7  3 years ago",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What are some must-read books or resources for personal growth and self-improvement this year?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "52 answers",
+         "description": null,
+         "url": "https://www.quora.com/What-are-some-must-read-books-or-resources-for-personal-growth-and-self-improvement-this-year?top_ans=409030759",
+         "domain": "www.quora.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]",
+       "domain": "makeheadway.com",
+       "title": "27 Personal Growth Books for Self-Improvement and Lasting ...",
+       "url": "https://makeheadway.com/library/topics/selfimprovement/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://makeheadway.com \u203a Library",
+       "website_name": "makeheadway.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Explore a diverse selection of personal growth books. Never Split the Difference by Chris Voss. The 7 Habits of Highly Effective People by Stephen R. Covey.\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Explore a diverse selection of personal growth books"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[22]/div[1]/div[1]",
+       "domain": "bookshop.org",
+       "title": "Personal Growth/ Self-Help/ Motivational",
+       "url": "https://bookshop.org/lists/personal-growth-self-help-motivational",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bookshop.org \u203a lists \u203a personal-growth-self-help-...",
+       "website_name": "Bookshop.org",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "My Perfect Life: How Depression Almost Ended It and How I Found Purpose Through Pain. Paperback. $12.99. Add to Cart. The Collected Schizophrenias book\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 12,
+        "regular": null,
+        "max_value": 28,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$12 to $28"
+       },
+       "highlighted": [
+        "My Perfect Life: How Depression Almost Ended It and How I Found Purpose Through Pain"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://bookshop.org/lists/personal-growth-self-help-motivational#:~:text=My%20Perfect%20Life%3A%20How%20Depression,Add%20to%20Cart",
+         "domain": "bookshop.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[24]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Clark Kegley",
+         "title": "I Read 400 Self-Improvement Books: Only These 40 Are Worth ...",
+         "timestamp": "2026-06-01 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=HjB2UPqDLw4"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Clark Kegley",
+         "title": "I read 400 self improvement books. These 10 will CHANGE ...",
+         "timestamp": "2025-12-03 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=wmRnm-36Mz8"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Dianne Glava\u0161",
+         "title": "The BEST books for personal growth. ...",
+         "timestamp": "2026-01-04 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=P1buZEz6oEw"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Self growth books",
+        "Growth books for women",
+        "Growth books for adults",
+        "Success book",
+        "Headway books",
+        "Top best business books",
+        "Top 100 psychology books",
+        "Headway app book list"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

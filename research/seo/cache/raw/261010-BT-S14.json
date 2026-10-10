@@ -1,0 +1,856 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0341 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-22fe40f93aed",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0260 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-22fe40f93aed"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "productivity books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-prod",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "productivity books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=productivity%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:06 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "discussions_and_forums",
+      "images",
+      "popular_products",
+      "people_also_ask"
+     ],
+     "se_results_count": 114,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Top productivity books help you manage your time, build better habits, and focus on meaningful work:[[1]](https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/)[[2]](https://www.goodreads.com/shelf/show/productivity)\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:8)\n**Getting Things Done** by David Allen: Teaches a full-capture workflow system to get tasks out of your head and into a reliable organizer.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:9)\n**Atomic Habits** by James Clear: Explains how tiny, consistent routine shifts compound into massive long-term results through practical neuroscience.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:10)\n**The 7 Habits of Highly Effective People** by Stephen R. Covey: Focuses on character-driven effectiveness, personal leadership, and prioritizing what truly matters.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:11)\n**Deep Work** by Cal Newport: Offers strategies for distraction-free concentration to master hard things quickly.[[1]](https://anthonysanni.com/blog/5-productivity-books-you-simply-must-read)[[2]](https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/)[[3]](https://celadonbooks.com/booklists/productivity-books/)[[4]](https://www.youtube.com/shorts/7l8BRhxi-Rc)\n\n### Systems, Energy, and Focus\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5RiZDfqeHsZfEvU0ts2VU2QsewT2w6XLSyZMpMy7U21ZZmou5F4lKIOOKKcI)\n**The Power of Full Engagement** by Jim Loehr and Tony Schwartz: Shifts the focus from managing time to managing physical, emotional, and mental energy rhythms.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTet88lNZmwFm27jaXf9uk3ewHp0wy4pobpVi4-0SOnrQsK5cJRnzPFjzFeeyI)\n**Essentialism** by Greg McKeown: Guides you through the disciplined pursuit of less to stop spreading yourself too thin.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQLbFpzbZIfllrAPv64FqFvQ2xaXCZTrbdPggHKU4cFN9eNry5xRLDIA8rpnuA)\n**Building a Second Brain** by Tiago Forte: Shows how to build a digital system to capture and organize ideas so you never lose useful information.\n\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_0mLVLS5XoB5K0RII2LN2-N0ZsE5v94CrVg8nL5bXQeDOBKamKJ3ZuS2tXNI)\n**The 80/20 Principle** by Richard Koch: Demonstrates how 80% of your results come from just 20% of your efforts, helping you cut nonessential tasks.[[1]](https://celadonbooks.com/booklists/productivity-books/)[[2]](https://anthonysanni.com/blog/5-productivity-books-you-simply-must-read)If you want to narrow down the list, let me know:\n\n- What **specific challenge** you are facing (procrastination, burnout, poor focus, or task overload)?\n- Do you prefer **short, tactical guides** or **deep psychological frameworks**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top productivity books help you manage your time, build better habits, and focus on meaningful work :",
+         "markdown": "Top productivity books help you manage your time, build better habits, and focus on meaningful work:[[1]](https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/)[[2]](https://www.goodreads.com/shelf/show/productivity)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Scott H. Young",
+           "domain": "www.scotthyoung.com",
+           "url": "https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/",
+           "title": "The Key Lessons from 10 Important Books on Productivity - Scott H Young",
+           "text": "Core Takeaways: Enthusiasm and energy management outperform stress and time management; progress drives inner work life; cognitive..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Goodreads",
+           "domain": "www.goodreads.com",
+           "url": "https://www.goodreads.com/shelf/show/productivity",
+           "title": "Popular Productivity Books",
+           "text": "Popular Productivity Books: Atomic Habits by James Clear; Deep Work, Digital Minimalism, Slow Productivity, and So Good They Can't..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Getting Things Done by David Allen: Teaches a full-capture workflow system to get tasks out of your head and into a reliable organizer. Atomic Habits by James Clear: Explains how tiny, consistent routine shifts compound into massive long-term results through practical neuroscience. The 7 Habits of Highly Effective People by Stephen R. Covey: Focuses on character-driven effectiveness, personal leadership, and prioritizing what truly matters. Deep Work by Cal Newport: Offers strategies for distraction-free concentration to master hard things quickly.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:4)\n**Getting Things Done** by David Allen: Teaches a full-capture workflow system to get tasks out of your head and into a reliable organizer.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:5)\n**Atomic Habits** by James Clear: Explains how tiny, consistent routine shifts compound into massive long-term results through practical neuroscience.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:6)\n**The 7 Habits of Highly Effective People** by Stephen R. Covey: Focuses on character-driven effectiveness, personal leadership, and prioritizing what truly matters.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-22fe40f93aed:7)\n**Deep Work** by Cal Newport: Offers strategies for distraction-free concentration to master hard things quickly.[[1]](https://anthonysanni.com/blog/5-productivity-books-you-simply-must-read)[[2]](https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/)[[3]](https://celadonbooks.com/booklists/productivity-books/)[[4]](https://www.youtube.com/shorts/7l8BRhxi-Rc)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Systems, Energy, and Focus",
+         "markdown": "### Systems, Energy, and Focus",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Power of Full Engagement by Jim Loehr and Tony Schwartz: Shifts the focus from managing time to managing physical, emotional, and mental energy rhythms. Essentialism by Greg McKeown: Guides you through the disciplined pursuit of less to stop spreading yourself too thin. Building a Second Brain by Tiago Forte: Shows how to build a digital system to capture and organize ideas so you never lose useful information. The 80/20 Principle by Richard Koch: Demonstrates how 80% of your results come from just 20% of your efforts, helping you cut nonessential tasks.",
+         "markdown": "---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR5RiZDfqeHsZfEvU0ts2VU2QsewT2w6XLSyZMpMy7U21ZZmou5F4lKIOOKKcI)\n**The Power of Full Engagement** by Jim Loehr and Tony Schwartz: Shifts the focus from managing time to managing physical, emotional, and mental energy rhythms.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTet88lNZmwFm27jaXf9uk3ewHp0wy4pobpVi4-0SOnrQsK5cJRnzPFjzFeeyI)\n**Essentialism** by Greg McKeown: Guides you through the disciplined pursuit of less to stop spreading yourself too thin.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQLbFpzbZIfllrAPv64FqFvQ2xaXCZTrbdPggHKU4cFN9eNry5xRLDIA8rpnuA)\n**Building a Second Brain** by Tiago Forte: Shows how to build a digital system to capture and organize ideas so you never lose useful information.\n\n---\n\n![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_0mLVLS5XoB5K0RII2LN2-N0ZsE5v94CrVg8nL5bXQeDOBKamKJ3ZuS2tXNI)\n**The 80/20 Principle** by Richard Koch: Demonstrates how 80% of your results come from just 20% of your efforts, helping you cut nonessential tasks.[[1]](https://celadonbooks.com/booklists/productivity-books/)[[2]](https://anthonysanni.com/blog/5-productivity-books-you-simply-must-read)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want to narrow down the list, let me know:What specific challenge you are facing (procrastination, burnout, poor focus, or task overload)?\nDo you prefer short, tactical guides or deep psychological frameworks ?",
+         "markdown": "If you want to narrow down the list, let me know:\n\n- What **specific challenge** you are facing (procrastination, burnout, poor focus, or task overload)?\n- Do you prefer **short, tactical guides** or **deep psychological frameworks**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Scott H. Young",
+         "domain": "www.scotthyoung.com",
+         "url": "https://www.scotthyoung.com/blog/2024/11/19/10-important-books-productivity/",
+         "title": "The Key Lessons from 10 Important Books on Productivity - Scott H Young",
+         "text": "Core Takeaways: Enthusiasm and energy management outperform stress and time management; progress drives inner work life; cognitive..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Goodreads",
+         "domain": "www.goodreads.com",
+         "url": "https://www.goodreads.com/shelf/show/productivity",
+         "title": "Popular Productivity Books",
+         "text": "Popular Productivity Books: Atomic Habits by James Clear; Deep Work, Digital Minimalism, Slow Productivity, and So Good They Can't..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Anthony Sanni",
+         "domain": "anthonysanni.com",
+         "url": "https://anthonysanni.com/blog/5-productivity-books-you-simply-must-read",
+         "title": "5 Productivity Books That Can Change Your Life \u2014 Anthony Sanni| Productivity Expert, Coach and Speaker",
+         "text": "In no particular order, let us begin. * 1. Getting Things Done: The Art of Stress-Free Productivity \u2013 David Allen. There are many ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Celadon Books",
+         "domain": "celadonbooks.com",
+         "url": "https://celadonbooks.com/booklists/productivity-books/",
+         "title": "Books About Productivity You Should Read",
+         "text": "Featured Productivity Books: Feel-Good Productivity by Ali Abdaal (intuitive system of energizers, blockers, sustainers); Atomic H..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/7l8BRhxi-Rc",
+         "title": "5 Books That Changed Everything #theorganizedmoney #productivity",
+         "text": "5 Books That Changed Everything #theorganizedmoney #productivity five books that changed everything atomic Habits everyone talks a..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "bookoftheday.nextbigideaclub.com",
+       "title": "The 12 Best Productivity Books of 2025",
+       "url": "https://bookoftheday.nextbigideaclub.com/p/the-12-best-productivity-books-of",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bookoftheday.nextbigideaclub.com \u203a the-12-best...",
+       "website_name": "Next Big Idea Club",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 6, 2025 \u2014 From focus to flow to finally finishing what you start, these are the year's smartest guides to getting things done.",
+       "pre_snippet": "12/06/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "these are the year's smartest guides to getting things done"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-12-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The Most Important Productivity Book Ever Written?",
+       "url": "https://www.youtube.com/watch?v=vWcgXdJ_E18",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "3.8K+ views  \u00b7  1 year ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Mike Schmitz",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-06-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "[Advice] A very selective list of the absolute best productivity books. Add ...",
+         "url": "https://www.reddit.com/r/productivity/comments/114i3gb/advice_a_very_selective_list_of_the_absolute_best/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2023-10-10 14:50:05 +00:00",
+         "posts_count": 100
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "These are all the productivity books I've read and that have helped me a ...",
+         "url": "https://www.reddit.com/r/productivity/comments/1klprl4/these_are_all_the_productivity_books_ive_read_and/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2025-10-10 14:50:05 +00:00",
+         "posts_count": 20
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "5 Books that can practically help you to increase your ...",
+       "url": "https://www.reddit.com/r/productivity/comments/2bqeqj/5_books_that_can_practically_help_you_to_increase/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "7 comments  \u00b7  12 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/productivity",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "I've been making lists and spreading the word about several books to allow and increase the Creative and Productive flow in the past months.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "allow and increase the Creative and Productive flow"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+       "domain": "facilethings.com",
+       "title": "5 Books That Will Help You Be More Productive",
+       "url": "https://facilethings.com/blog/en/five-books-on-productivity",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://facilethings.com \u203a five-books-on-productivity",
+       "website_name": "FacileThings",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The 7 Habits of Highly Effective People, by Stephen R. Covey. More than a book about productivity, it is a comprehensive guide to go through life. Covey talks\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The 7 Habits of Highly Effective People, by Stephen R. Covey"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://facilethings.com/blog/en/five-books-on-productivity#:~:text=The%207%20Habits%20of%20Highly,truths%20that%20have%20universal%20application.",
+         "domain": "facilethings.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]",
+       "domain": "www.alibris.com",
+       "title": "7 Productivity Books to Make This Your Best Year Ever",
+       "url": "https://www.alibris.com/blog/productivity-books-best-year-ever/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.alibris.com \u203a blog \u203a productivity-books-be...",
+       "website_name": "Alibris",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 30, 2015 \u2014 What Color Is Your Parachute?: The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change by Dr. Stephen R Covey",
+       "pre_snippet": "01/30/2015 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "What Color Is Your Parachute?: The 7 Habits of Highly Effective People"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2015-01-30 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnveVaOV2Xj-PkcKi1PkvmUF-Dhbeg:1791643804393&q=productivity+books&udm=2&source=univ&fir=hSzhtJyhN4XOvM%252C79GPQ_5vKe-2EM%252C_%253BqOLy-gUDmpzEhM%252C0SnrKPT77X4ihM%252C_%253Bp3cw3uLtPpZK0M%252C7Kuzx4iWDP_aBM%252C_%253BV2UYtEJaHcERSM%252C4NhTFDq7zhdGYM%252C_%253B3Nlu2aA1b7R8gM%252CLpTpMvONaDFdGM%252C_%253BaokBdvZErGow0M%252Cmh-XaHssxFWzDM%252C_%253BmoW1cxIJUupuFM%252CDMLSMdHekDqeFM%252C_%253BhlFnjHw9mj8G3M%252C21lnc8iVIb5UAM%252C_%253B-BliRAdNpoY6lM%252CD_K1R-F6oiP47M%252C_&usg=AI4_-kQ45pUgxqTAf_H-ApuZrwVJ2aJV-w&sa=X&ved=2ahUKEwjj75ik2a-XAxVpr5UCHTqjMSIQ7Al6BAhDEAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "11 Productivity Books For Creatives | Best Books for ...",
+         "url": "https://studio-wallflower.com/productivity-books-creative-business/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS65un2PzGt5vx9YwLjoXsDrLAyLk6QDaXuF2t4VUQ5pz5JXsrUA8emgjU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "31+ Best Productivity Books of All Time - FocusCommit",
+         "url": "https://focuscommit.com/productivity-books/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53_rpyVOYrSkkBHYd78kT_EBJfkaJstO7hXsOL4UuhdSPFIk1A5vuXlg&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "17 Inspiring Books About Life, Productivity & Business to ...",
+         "url": "https://www.strangecharmed.com/2017/17-inspiring-books-life-productivity-business-read-2017/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZEw_PYsD8uOvWKvhAKGGAwIhTW_4pibvRze0CBAtR7dhfDLLgI9O-I0c&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "I Read 107 Productivity Books. Here's What Actually Works.",
+         "url": "https://www.youtube.com/watch?v=poc4ctbnDYA",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy5FsGp4z2pGEtZj2MiPUN9YkDHprZhKgpIWbSDN9N&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The 7 Best Books That Will Level Up Your Productivity",
+         "url": "https://notesbythalia.com/best-productivity-books/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP0hUfZh0sGAeeQbLP5v9SAXm-El-opm9ZSJ25JwAISbOfCDyd5hnh3uA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "8 Productivity Books Time-Management Experts Actually Use ...",
+         "url": "https://www.nytimes.com/2024/06/17/well/live/productivity-time-management-skills-books.html",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-34zoWkroFU1pjE-hNY63IhXJUSxD0LxltOl9NBH1xCoMAATzee3mSgk&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "10 Best Books on Organization \u2022 Christina All Day",
+         "url": "https://christinaallday.com/10-best-books-on-organization/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRDSvZVtZxXdWH-0Y8e1w_coZqYLCZXVpBuHQDFTqafxa0iCTrBw4FdI0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Productivity books summarised for all the tips, tricks and ...",
+         "url": "https://mindsetup.co.uk/2020/08/10/productivity-books-summarised-for-all-the-tips-tricks-and-hacks/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJDHvRW_nbjRi3BvXT8EWg5h-gkHNFA2jbEHhsiJ2LtVGIKCIsNHLTn4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "The Productivity Project by Chris Bailey: 9781101904053 |  PenguinRandomHouse.com: Books",
+         "url": "https://www.penguinrandomhouse.com/books/253099/the-productivity-project-by-chris-bailey/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqhf-pvKQdLS6xNUWAIwvE-mjfyWe5JwaBf_gZ6ySv-om0u-JqJfpp7Y&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Productivity: Overcome Procrastination & Achieve More in Less Time",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS2_Y1ckH0to-zuf-p8jremN1pjyXNHsSeKU1L9qzwXEU6Gr10ZcYgr7JhtaZok2ZzbPnNXjxlI5ffEBaqdUHjNsLLZPp40ZGQQSIRl-mpojAM4xPSgayAE",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "47972107033324264",
+          "data_docid": "16016202586355898498",
+          "gid": "4795975063929753234"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Time Wise (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Hamilton Book & more",
+         "more_sellers": true,
+         "seller": "Hamilton Book",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRO6mYxO536eZffFdPrhro1enmtC7XpcErU0LgHOZOtrr7gNpXbkY0xsq6wWYJqB7mpHfyVX0PJWzN5PNBS9wqohMdyedlb6g",
+         "price": {
+          "current": 5.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$5.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "2464681048364228071",
+          "data_docid": "11514855163845564543",
+          "gid": "7505058826865126703"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Productivity Project: Accomplishing More by Managing Your Time, Attention, and Energy",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRI_AARlSkXz5XyFmDh6thDfpKQmEqqEpNgN76Cg0yKPniC_8RUWq9SSyk9PzklmiWvrgzUOM5ftwQ3E_Uxqf6O5bhswTUiqD_7p2AXEFjQo-_dtID3aZ4SfA",
+         "price": {
+          "current": 4.24,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$4.24"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.2,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "16661513410861646551",
+          "data_docid": "11570263813241552777",
+          "gid": "6823141279681241255"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZi6oaL7UsNK0K78HCzufGYMrThLJfn_nl8XmraIl9keKQLGES8yb51kTbcSRzyjHUfDs1AKJ0jpCfRCk-bpBeDSBMUXKCGTdxOrEpGS2uL-73mVrcO6XY",
+         "price": {
+          "current": 18.29,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$18.29"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 20,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "5540170250750190671",
+          "data_docid": "1499803194335204545",
+          "gid": "12044482303085247499"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Productivity Reset : A 30-Day System to Focus Better, Eliminate Overwhelm, and Work Without Burnout",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSR0RkmxrytGORVRTckHgOS5ysE47ppBcSovxk_c3ENUgB7pwIjApr3FDnqIruKSDDhZ2ss6NPrzDGq6RyM1-l348IS1u4owa7anvhXwr4VxDZz-gZHZmYU6g",
+         "price": {
+          "current": 18.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$18.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8294707510889798922",
+          "data_docid": "17537329990720003458",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Secrets Of Productive People (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRuIKX3fuuE14DSxw4IdGg00wSN41j4LVLg7r6lAIzWd2xUeQBLc-edPfSEsCtoV4ELkeiCiI6iTH8JX1RuHAbzfo3Pq01GM4vaUC9BxPwfhvq6WQXIzmFQ",
+         "price": {
+          "current": 14.6,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.60"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9716644293246642529",
+          "data_docid": "7458656358089929367",
+          "gid": "16791955477462414614"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Productivity : Productivity - The 2 in 1 Master Productivity Guide to Manage Your Time and Self Discipline, Stop Procrastinating, Learn How to",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQHN9jNJEC-ybHwAr77CZqmNWcMzoCCg4PlB_Wed86tbuTbrFHYwu5Hwp5vCsovbwM9C16i-6E71EJGxWeIRi4v2JzeQpFSm0o5iwOIejIbAf-fYCM-Rijb",
+         "price": {
+          "current": 20.74,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.74"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "2421013881957308256",
+          "data_docid": "3254652277124488900",
+          "gid": "9194240660891788129"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "20 Principles of Productivity : Focus, Motivation, Organization, Habit Building, Time Management, Apps, Psychology, Goal Setting, Procrastination & Mo",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSDjNF6FKep2jFa0ZmSK7unOgLYeBKLAF-HgCFFCKCOty-lRU4Ca6DJbhdArIJaaVhtILj3w7Z_55J5RtHF51Bxfj-_nuobSzTUFrvtpMuezvCS8wdz-sdUng",
+         "price": {
+          "current": 12.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8527067112915692787",
+          "data_docid": "13453006883398236949",
+          "gid": "9659550246370488284"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book for productivity?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are 5 books everyone should read?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best productivity method?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the #1 most read book of all time?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Productivity Books (28 books)",
+       "url": "https://www.goodreads.com/list/show/86361.Productivity_Books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a list \u203a show \u203a 86361.Prod...",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Here are some books I have found very useful to help me stave off procrastination and get more stuff done. 1. Procrasdemon. The Power of Habit: Why We Do What\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Here are some books I have found very useful"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "You MUST read these 5 Productivity Books!",
+       "url": "https://www.youtube.com/watch?v=NGByvUWuej8",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "170+ views  \u00b7  1 year ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Ahana Batabyal",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-03-31 00:00:00 +00:00",
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

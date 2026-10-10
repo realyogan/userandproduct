@@ -1,0 +1,1522 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0599 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-f65a429c93d4",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0368 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-f65a429c93d4"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product marketing books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-pmm",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "product marketing books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=product%20marketing%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:00 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "Best",
+        "url": "https://www.google.com/search?q=best+product+marketing+books&hl=en&gl=US&shoprs=EgViAwiQAxgTKhdwcm9kdWN0IG1hcmtldGluZyBib29rczIPCBMSBEJlc3QiBWIDCJADYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAF6BAgcEDo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgoIEhIGT25saW5lYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAJ6BAgcEDs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMggIEhIERnJlZWAB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAN6BAgcEDw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=product+marketing+books+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhMIBhIHT24gc2FsZRgCIgRKAhgBWNupIGAB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAR6BAgcED0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=product+marketing+books+nearby&hl=en&gl=US&shoprs=GAMqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgwIAxIGTmVhcmJ5GAJY26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAV6BAgcED4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhsIARILTm9uLWZpY3Rpb246CgjLqToQzak6MAJY26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAZ6BAgcED8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Barnes & Noble",
+        "url": "https://www.google.com/search?q=barnes+%26+noble+product+marketing+books&hl=en&gl=US&shoprs=GAIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhIIAhIOQmFybmVzICYgTm9ibGVY26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAd6BAgcEEA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgcIEhIDQnV5YAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAh6BAgcEEI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgsIEhIHUmV2aWV3c2AB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAl6BAgcEEM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=product+marketing+books+for+sale&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgwIEhIIRm9yIFNhbGVgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAp6BAgcEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+product+marketing+books&hl=en&gl=US&shoprs=GAoqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgcIChIDTmV3WNupIGAB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAt6BAgcEEU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+product+marketing+books&hl=en&gl=US&shoprs=GAoqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMggIChIEVXNlZFjbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKAx6BAgcEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=product+marketing+books&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFABkgBGBQqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMiUIFBIMR2V0IGl0IHRvZGF5Ig2aAQoKCBAAOAFABkgBKgQQARgBYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKA16BAgcEEc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $200",
+        "url": "https://www.google.com/search?q=product+marketing+books+under+$200&hl=en&gl=US&shoprs=Eg0SCxEAAAAAhNenQRgBGAUqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMiMIBRIKVW5kZXIgJDIwMBgCIg0SCxEAAAAAhNenQRgBKgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKA56BAgcEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Walmart",
+        "url": "https://www.google.com/search?q=walmart+product+marketing+books&hl=en&gl=US&shoprs=GAIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgsIAhIHV2FsbWFydFjbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKA96BAgcEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhcIARIFQmxhY2s6DAjYjPUBEOWK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBB6BAgcEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Adult",
+        "url": "https://www.google.com/search?q=adult+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgkIEhIFQWR1bHRgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBF6BAgcEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhYIARIEQmx1ZToMCNiM9QEQ5or1ATALWNupIGAB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBJ6BAgcEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Brown",
+        "url": "https://www.google.com/search?q=brown+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhcIARIFQnJvd246DAjYjPUBEOuK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBN6BAgcEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Price",
+        "url": "https://www.google.com/search?q=price+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgkIEhIFUHJpY2VgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBR6BAgcEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Green",
+        "url": "https://www.google.com/search?q=green+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhcIARIFR3JlZW46DAjYjPUBEOiK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBV6BAgcEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhUIARIDUmVkOgwI2Iz1ARDnivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBZ6BAgcEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Store",
+        "url": "https://www.google.com/search?q=store+product+marketing+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgkIEhIFU3RvcmVgAQ&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBd6BAgcEFI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Target",
+        "url": "https://www.google.com/search?q=target+product+marketing+books&hl=en&gl=US&shoprs=GAIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMgoIAhIGVGFyZ2V0WNupIGAB&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBh6BAgcEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Business",
+        "url": "https://www.google.com/search?q=business+product+marketing+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMhgIARIIQnVzaW5lc3M6CgjOqToQ1qk6MAJY26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBl6BAgcEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "audible.com",
+        "url": "https://www.google.com/search?q=audible.com+product+marketing+books&hl=en&gl=US&shoprs=GAIqF3Byb2R1Y3QgbWFya2V0aW5nIGJvb2tzMg8IAhILYXVkaWJsZS5jb21Y26kgYAE&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4Qip4GKBp6BAgcEFY",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "discussions_and_forums",
+      "related_searches"
+     ],
+     "se_results_count": 188,
+     "pages_count": 1,
+     "items_count": 15,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Top product marketing books cover essential areas like positioning, go-to-market strategy, and customer psychology:\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:8)\n**Obviously Awesome** by April Dunford \u2013 A practical guide to nailing product positioning, finding your right market, and making sure customers get your value.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:9)\n**Crossing the Chasm** by Geoffrey Moore \u2013 The classic blueprint for marketing and selling disruptive, high-tech products to mainstream customers.[[1]](https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/)[[2]](https://goconsensus.com/blog/product-marketing-reading-list)[[3]](https://www.quora.com/Whats-the-best-reading-on-Product-marketing)\n\n### Strategy & Go-To-Market\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:10)\n**Loved: How to Rethink Marketing for Tech Products** by Martina Lauchengco \u2013 Offers frameworks and canvases for tech product marketing. Opinions on this book vary: some readers find its templates helpful for beginners, while others note it leans heavily toward big-tech or FAANG playrooms.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:11)\n**Product Marketing Misunderstood** by Richard King \u2013 Explains how to establish your role, build cross-functional influence, and prove the strategic value of product marketing.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVU7STsNXbgS1aISeLpBRFoX2t00mD0CRpekGEBnDd4MNYiqAq5VoIh30L0g)\n**Product Marketing Debunked** by Yasmeen Turayhi and Cali Schmidt \u2013 Features actionable go-to-market checklists and strategies for turning rough ideas into complete launches.[[1]](https://www.reddit.com/r/ProductMarketing/comments/17e3v67/loved_book_product_marketing_for_tech_products_my/)[[2]](https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/)[[3]](https://www.goodreads.com/shelf/show/product-marketing)[[4]](https://goconsensus.com/blog/product-marketing-reading-list)\n\n### Psychology & Growth\n\n- **Hooked** by Nir Eyal \u2013 Examines the four-step behavioral model used to design habit-forming products.\n- **Product-Led Growth** by Wes Bush \u2013 Teaches how to let your actual product experience drive user acquisition, activation, and expansion.[[1]](https://www.goodreads.com/shelf/show/product-marketing)[[2]](https://getwpfunnels.com/product-marketing-books/)\n\nTo help narrow down the best choice for you, tell me:\n\n- Are you **just starting out** in product marketing or an **experienced PMM**?\n- Are you focused more on **B2B tech**, **consumer apps** , or **early-stage startups**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top product marketing books cover essential areas like positioning, go-to-market strategy, and customer psychology:",
+         "markdown": "Top product marketing books cover essential areas like positioning, go-to-market strategy, and customer psychology:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Obviously Awesome by April Dunford \u2013 A practical guide to nailing product positioning, finding your right market, and making sure customers get your value. Crossing the Chasm by Geoffrey Moore \u2013 The classic blueprint for marketing and selling disruptive, high-tech products to mainstream customers.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:4)\n**Obviously Awesome** by April Dunford \u2013 A practical guide to nailing product positioning, finding your right market, and making sure customers get your value.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:5)\n**Crossing the Chasm** by Geoffrey Moore \u2013 The classic blueprint for marketing and selling disruptive, high-tech products to mainstream customers.[[1]](https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/)[[2]](https://goconsensus.com/blog/product-marketing-reading-list)[[3]](https://www.quora.com/Whats-the-best-reading-on-Product-marketing)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Strategy & Go-To-Market",
+         "markdown": "### Strategy & Go-To-Market",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Loved: How to Rethink Marketing for Tech Products by Martina Lauchengco \u2013 Offers frameworks and canvases for tech product marketing. Opinions on this book vary: some readers find its templates helpful for beginners, while others note it leans heavily toward big-tech or FAANG playrooms. Product Marketing Misunderstood by Richard King \u2013 Explains how to establish your role, build cross-functional influence, and prove the strategic value of product marketing. Product Marketing Debunked by Yasmeen Turayhi and Cali Schmidt \u2013 Features actionable go-to-market checklists and strategies for turning rough ideas into complete launches.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:6)\n**Loved: How to Rethink Marketing for Tech Products** by Martina Lauchengco \u2013 Offers frameworks and canvases for tech product marketing. Opinions on this book vary: some readers find its templates helpful for beginners, while others note it leans heavily toward big-tech or FAANG playrooms.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:7)\n**Product Marketing Misunderstood** by Richard King \u2013 Explains how to establish your role, build cross-functional influence, and prove the strategic value of product marketing.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVU7STsNXbgS1aISeLpBRFoX2t00mD0CRpekGEBnDd4MNYiqAq5VoIh30L0g)\n**Product Marketing Debunked** by Yasmeen Turayhi and Cali Schmidt \u2013 Features actionable go-to-market checklists and strategies for turning rough ideas into complete launches.[[1]](https://www.reddit.com/r/ProductMarketing/comments/17e3v67/loved_book_product_marketing_for_tech_products_my/)[[2]](https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/)[[3]](https://www.goodreads.com/shelf/show/product-marketing)[[4]](https://goconsensus.com/blog/product-marketing-reading-list)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Psychology & Growth",
+         "markdown": "### Psychology & Growth",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Hooked by Nir Eyal \u2013 Examines the four-step behavioral model used to design habit-forming products. Product-Led Growth by Wes Bush \u2013 Teaches how to let your actual product experience drive user acquisition, activation, and expansion.",
+         "markdown": "- **Hooked** by Nir Eyal \u2013 Examines the four-step behavioral model used to design habit-forming products.\n- **Product-Led Growth** by Wes Bush \u2013 Teaches how to let your actual product experience drive user acquisition, activation, and expansion.[[1]](https://www.goodreads.com/shelf/show/product-marketing)[[2]](https://getwpfunnels.com/product-marketing-books/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Goodreads",
+           "domain": "www.goodreads.com",
+           "url": "https://www.goodreads.com/shelf/show/product-marketing",
+           "title": "Popular Product Marketing Books",
+           "text": "Product Marketing Books: Positioning and Messaging: April Dunford (Obviously Awesome, Sales Pitch); Al Ries (Positioning); Donald ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "WPFunnels",
+           "domain": "getwpfunnels.com",
+           "url": "https://getwpfunnels.com/product-marketing-books/",
+           "title": "15 Must",
+           "text": "15 Must-Read Product Marketing Books * Continuous Discovery Habits by Teresa Torres. In Continuous Discovery Habits, Teresa Torres..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "To help narrow down the best choice for you, tell me:Are you just starting out in product marketing or an experienced PMM ?\nAre you focused more on B2B tech, consumer apps, or early-stage startups ?",
+         "markdown": "To help narrow down the best choice for you, tell me:\n\n- Are you **just starting out** in product marketing or an **experienced PMM**?\n- Are you focused more on **B2B tech**, **consumer apps** , or **early-stage startups**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/ProductMarketing/comments/17e3v67/loved_book_product_marketing_for_tech_products_my/",
+         "title": "\"Loved\" book, Product Marketing for tech Products - My take as a PM ...",
+         "text": "Product Marketing Book Review: The book \"Loved\" is considered a good resource, particularly for beginners and those transitioning ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Product Marketing Alliance",
+         "domain": "www.productmarketingalliance.com",
+         "url": "https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/",
+         "title": "Top 100+ product marketing books: Your definitive guide",
+         "text": "Top 100+ product marketing books: Your definitive guide * Product marketing books to get your hands on * Top 100+ product marketin..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Consensus: Interactive Product Demo Software With AI",
+         "domain": "goconsensus.com",
+         "url": "https://goconsensus.com/blog/product-marketing-reading-list",
+         "title": "The 2024 Product Marketing Reading List",
+         "text": "The 2024 Product Marketing Reading List * The Launch: A Product Marketer's Guide: 50 key questions & lessons for a successful laun..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Goodreads",
+         "domain": "www.goodreads.com",
+         "url": "https://www.goodreads.com/shelf/show/product-marketing",
+         "title": "Popular Product Marketing Books",
+         "text": "Product Marketing Books: Positioning and Messaging: April Dunford (Obviously Awesome, Sales Pitch); Al Ries (Positioning); Donald ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "WPFunnels",
+         "domain": "getwpfunnels.com",
+         "url": "https://getwpfunnels.com/product-marketing-books/",
+         "title": "15 Must",
+         "text": "15 Must-Read Product Marketing Books * Continuous Discovery Habits by Teresa Torres. In Continuous Discovery Habits, Teresa Torres..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Quora",
+         "domain": "www.quora.com",
+         "url": "https://www.quora.com/Whats-the-best-reading-on-Product-marketing",
+         "title": "What's the best reading on Product marketing?",
+         "text": "Originally Answered: What are the best books about product marketing? 7. \"Product Strategy for High Technology Companies\" by Micha..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "Starting out in product marketing? | Aatir Abdul Rauf",
+       "url": "https://www.linkedin.com/posts/aatirar_starting-out-in-product-marketing-here-are-activity-7384570113464893440-HfIi",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "490+ reactions  \u00b7  11 months ago",
+       "website_name": "LinkedIn\u00a0\u00b7\u00a0Aatir Abdul Rauf",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Starting out in product marketing? Here are 16 books that shaped how I think about the role. (Note: PMM is an intensely cross-functional\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Here are 16 books that shaped how I think about the role"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.productmarketingalliance.com",
+       "title": "Top 100+ product marketing books: Your definitive guide",
+       "url": "https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productmarketingalliance.com \u203a definitive-p...",
+       "website_name": "Product Marketing Alliance",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 6, 2023 \u2014 Top 100+ product marketing books: 1 - 10 \u00b7 1) Obviously Awesome \u2013 April Dunford \u00b7 2) MisUnderstood \u2013 Product Marketing Alliance \u00b7 3) Loved: How\u00a0... Read more",
+       "pre_snippet": "10/06/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1) Obviously Awesome \u2013 April Dunford"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.productmarketingalliance.com/definitive-product-marketing-reading-list/#:~:text=Top%20100%2B%20product%20marketing%20books%3A,1%20-%2010&text=1)%20Obviously%20Awesome%20%E2%80%93%20April,Dunford&text=2)%20MisUnderstood%20%E2%80%93%20Product%20Marketing,Alliance&text=3)%20Loved%3A%20How%20to%20Rethink,Tech%20Products%20%E2%80%93%20Martina%20Lauchengco",
+         "domain": "www.productmarketingalliance.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-10-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "\"Loved\" book, Product Marketing for tech Products",
+       "url": "https://www.reddit.com/r/ProductMarketing/comments/17e3v67/loved_book_product_marketing_for_tech_products_my/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ comments  \u00b7  2 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/ProductMarketing",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "It's a pretty good book, with some useful templates, such as the one-sheet product go-to-market canvas and the one-sheet messaging canvas. But\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "one-sheet product go-to-market canvas"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "r/marketing on Reddit: Does anyone have any good ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/marketing/comments/12n8jxa/does_anyone_have_any_good_book_recommendations/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Suggest a good pmm book for B2B SaaS : r ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/ProductMarketing/comments/1gpffhc/suggest_a_good_pmm_book_for_b2b_saas/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=product+marketing+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQns90bjyyaVowCgKpYumgDjb6ASePA:1791643796973&sa=X&ved=2ahUKEwjmjNSg2a-XAxWxhSsGHQGGAO4QrQIoAnoECCEQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing: A Practical Playbook to Launch, Position, and Grow Products That Customers Love - Audiobook by Gregory Harmon",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:12",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": 13,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$9.99 Usually $13"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13113933238859600911",
+          "data_docid": "11671494284985147474",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing Debunked : The Essential Go-To-Market Guide",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:13",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16706675594124710382",
+          "data_docid": "2704201914127775581",
+          "gid": "10972224757128955670"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing: Mastering the art and science of PMM",
+         "url": null,
+         "domain": null,
+         "description": "Lulu Press",
+         "more_sellers": false,
+         "seller": "Lulu Press",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:14",
+         "price": {
+          "current": 17,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6356658021518282884",
+          "data_docid": "9466621318329988416",
+          "gid": "4825215624189768480"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing Misunderstood - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Walmart - Alibris Books & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Walmart - Alibris Books",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:15",
+         "price": {
+          "current": 8.08,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$8.08 Pre-owned"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6853202540801267447",
+          "data_docid": "2089837558436761319",
+          "gid": "8417783252136386813"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing Wisdom : Real World Lessons on Market Research, Competitive Analysis, Go-To-Market, Storytelling, Sales Enablement, KPIs, and more",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:16",
+         "price": {
+          "current": 4.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$4.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "18083722784992540105",
+          "data_docid": "11960806809846898698",
+          "gid": "14663450130213408738"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "42 Rules of Product Marketing (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Librairie Club & more",
+         "more_sellers": true,
+         "seller": "Librairie Club",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:17",
+         "price": {
+          "current": 17.31,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.31"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3162547584801100853",
+          "data_docid": "13837165813234329660",
+          "gid": "5447860668738055059"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Practical Marketer: Your Ultimate Guide to Consumer Product Marketing",
+         "url": null,
+         "domain": null,
+         "description": "Desi Gabbar & more\nFree delivery on $49+",
+         "more_sellers": true,
+         "seller": "Desi Gabbar",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:18",
+         "price": {
+          "current": 13.99,
+          "regular": null,
+          "max_value": 22,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$13.99 Usually $22"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "7836066261443721482",
+          "data_docid": "8352354563771500030",
+          "gid": "14044798671773721663"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing, Simplified : A Customer-Centric Approach to Take A Product to Market",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f65a429c93d4:19",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16518234271853466602",
+          "data_docid": "11909842587883798767",
+          "gid": "11320944199673892534"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "goconsensus.com",
+       "title": "The 2024 Product Marketing Reading List",
+       "url": "https://goconsensus.com/blog/product-marketing-reading-list",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://goconsensus.com \u203a blog \u203a product-marketing-rea...",
+       "website_name": "Consensus: Interactive Product Demo Software With AI",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 10, 2025 \u2014 We assembled 11 books to help you hone both your technical and your go-to-market skills to make product launches, competitive research, analyst\u00a0...",
+       "pre_snippet": "10/10/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "11 books"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-10-10 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Popular Product Marketing Books",
+       "url": "https://www.goodreads.com/shelf/show/product-marketing",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a shelf \u203a show \u203a product-m...",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Popular Product Marketing Books \u00b7 The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback \u00b7 Escaping the Build Trap:\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Popular Product Marketing Books"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.goodreads.com/shelf/show/product-marketing#:~:text=Popular%20Product%20Marketing%20Books&text=Want%20to%20Read&text=Want%20to%20Read",
+         "domain": "www.goodreads.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "The Product-Led Playbook - Audiobook, by Wes Bush",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpafHiLgVWN56MmR6w5R5Jh1isT4OyjfVCvb-Grj-mOGK7rkJRkrcT4oBweWZWGKMJ57uyTojCyxgMWa7T76viQ9XG86Oqspz4hcCI-1JuwUYsS2bWuQqJ",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5730432941581856547",
+          "data_docid": "1967015073441917569",
+          "gid": "13429841490680421036"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Product Marketing Blueprint",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy\nFree delivery",
+         "more_sellers": false,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNzSgquXtPytosOYifDnZjiYgiLz6Vq6bGNQHaXOE6QyWRKhwRIT2ye59MZ78Tu9lrLLuexnFmW7219ywyet7hXBzLGxuP9c3L1ArQpu1JSYKCgsa69qJnMQ",
+         "price": {
+          "current": 6.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$6.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6071771572499293343",
+          "data_docid": "12670281661931728466",
+          "gid": "3178903798599503479"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing for Technology Companies (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "routledge.com & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "routledge.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSTKo1rko6YouuOk2AmH7bNmlG73Ne1L81IMZgHzjqXA9lMTyRyHmGZ2cakb8cYLDWSPmAzt3j4iQaV_l9Ptw_WdCLLPHLa",
+         "price": {
+          "current": 61.59,
+          "regular": 77,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$61.59 $77"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6683518298742885510",
+          "data_docid": "14818656455800087167",
+          "gid": "4520346563174349029"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Lean Product Playbook - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRXVhXD0FwbtpjMF72XgvQslaTydyc1Y6vAgfGhinmDr_OpsHpBVjvDu_EiSQSX2CPvOiLGmzIpUEddldvVUwrmb5BhRlrYNlMFNKK-pyQ",
+         "price": {
+          "current": 20.28,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.28"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "18308582680610543454",
+          "data_docid": "6508046719650075036",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing Effective Go To Market Strategy by Sadanand Pujari",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTBvrRq75IqgfnQVPAHE1LCkWh9cS7TBHOklqDiRXxFktlTjwz5nNm_G_BiF2PH-jovddKXas5jJoD5fZGeSHUbnO1Cj0rvM_uyPi7KM9y24qVd8nuaKtvN",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12472315592974630150",
+          "data_docid": "17365818068652858408",
+          "gid": "3885891136451527287"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Basics of Product Marketing: Essential Product Marketing; eBook; Author - Cybellium",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy\nFree delivery",
+         "more_sellers": false,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSIzgzA2hWItlzw4GxUHyTcZCfoec8_5YykSXz4cizeU40NkDPC1iBG8XHaqJOsob35jiiO7ghMrIFo23aPA0DunE6p-QDTzcBp6yxfqcH8tVzur93eIZhM",
+         "price": {
+          "current": 17.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "7140537393287232481",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Launch (Updated & Expanded Edition) : How to Sell Almost Anything Online, Build a Business You Love, and Live the Life of Your Dreams",
+         "url": null,
+         "domain": null,
+         "description": "Strand Book Store & more",
+         "more_sellers": true,
+         "seller": "Strand Book Store",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHUAcMrXR5WJxNnJEN_d6xTaatReyV5ShuJ56ShH4Mu61aVnGb0By5Ek8YBN5_-gvHu9gNmWBSIG3yc5TfubaDaf6WFYZbyDGxc2YSGtevAOcewoADf7iVrw",
+         "price": {
+          "current": 10,
+          "regular": null,
+          "max_value": 16,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$10.00 Usually $16"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 2,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "1904566810580188224",
+          "data_docid": "16767296756318470465",
+          "gid": "9190724460571012822"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Deliver Great Products That Customers Love : The Guide to Product Management for Innovators, Leaders, and Entrepreneurs",
+         "url": null,
+         "domain": null,
+         "description": "Half Price Books & more",
+         "more_sellers": true,
+         "seller": "Half Price Books",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ7xSCBsL284-FhCiS1x6e8NFENvbI7AgThVRY2VDEBMJJMx8ZvqwAevXCP1m2xVUveLVOv0dnVcmpUZLql6ddWD6ZkIXUVNdRPfuMuA2DN7oa8uWReYM24",
+         "price": {
+          "current": 24.13,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.13"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "2877729081875589686",
+          "data_docid": "9020529639244253748",
+          "gid": "14473588692422690548"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book for learning about product marketing?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 5 P's of product marketing?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 5 marketing books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 10 product management books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "The Product Marketing Manager: Responsibilities and Best ...",
+       "url": "https://www.amazon.com/Product-Marketing-Manager-Responsibilities-Technology/dp/1973317036",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a Product-Marketing-Manager-...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Product Marketing Manager plays the crucial role of defining the positioning, messaging, and unique selling proposition of a product or product line. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Product Marketing"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.amazon.com/Product-Marketing-Manager-Responsibilities-Technology/dp/1973317036#:~:text=The%20Product%20Marketing%20Manager%20plays,a%20product%20or%20product%20line.",
+         "domain": "www.amazon.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 3,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Marketing Made Simple A Step-By-Step Storybrand Guide for Any Business",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRHmQGCSL0xMMTAz2C3nhFIbaX7Xtr-GpwP3V3KqWWNC44ViUa8z4BQHn_wtltoUo99DukK5LfQYAirGBgVdKgGUpaeZxhE-KaiJ9725wzyieRjAZFaGOY5hw",
+         "price": {
+          "current": 13.37,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.37"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 15,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "12458564205954786068",
+          "data_docid": "15884224465702901362",
+          "gid": "6500736261644805757"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Product Book: How to Become a Great Product Manager",
+         "url": null,
+         "domain": null,
+         "description": "Strand Book Store",
+         "more_sellers": false,
+         "seller": "Strand Book Store",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSZpBzO7jaopEQPed3r-ExP4eox80eckBLEH15qxuonT2KroytsEWKpwqdED7Ewa3bKBh_AAx9k3wbjMcuYbW6bJmbImHp4h_IOBFlJdIPwKTJ449zJFjx9",
+         "price": {
+          "current": 16,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$16.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 2,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10749368392112374152",
+          "data_docid": "1033370437708806117",
+          "gid": "10781500083592560115"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Marketing: Mastering the Art and Science of PMM - Audiobook by Div Manickam",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStFwHT4AZxayygqW1h4HJj_HFsPAgt8tGgt5qgX0HTuVyaEVxzrdYNMV6udw2_Q9TyhaOAOmDushJjH36cmrdcbj20DREmPRJHy9ey19g",
+         "price": {
+          "current": 12.64,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.64"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "3266749203020767021",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "[25+ Copies] Loved: How to Rethink Marketing for Tech Products (Silicon Valley Product Group) [9781119703648] in Bulk - Hardcover",
+         "url": null,
+         "domain": null,
+         "description": "BookPal\nFree delivery",
+         "more_sellers": false,
+         "seller": "BookPal",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyGuxkmTuJFD3rtX8mMuYS78rNllj6Fo52QRm95qsZbKYD4q7RFBeQ0D8X6aJCPylyPTtGa-L2ICO0VyqGchxR6jpRMaxgEKhWYpW39zr8",
+         "price": {
+          "current": 594,
+          "regular": 24,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$594.00 $24/ct"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "1750863796367786841",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Development Advice: A Practical 10-Step Playbook to Go From Idea to In-Market Product That Customers Actually Want - Audiobook by Thomas",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRkbvqyUYQwfyYv6MZvyUTWavwckL0blDL9_OqEredUGdVpAG_rvtlQc5ykgDd5-Tp36zsu7YRgTxS4cvaHW7HhQVr964pQWr__E28Or-_NQFR-HywgswsU",
+         "price": {
+          "current": 13.14,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.14"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12159180244083780191",
+          "data_docid": "6061532273881629885",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Management For Dummies - Audiobook by Brian Lawley",
+         "url": null,
+         "domain": null,
+         "description": "Audiobooks.com & more\nFree next-day delivery",
+         "more_sellers": true,
+         "seller": "Audiobooks.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLgqDFElGv6-akop2kPWWweEY_CNugdMEcxDbDXz-KtIsa9CAQexRfc8nogRLu2ivVYQz3O6sBQtcfs2o-qngAmhnb__ksuzeG87pCiW5V",
+         "price": {
+          "current": 13,
+          "regular": 26,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.00 $26"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13331575505243443428",
+          "data_docid": "1591322296518157063",
+          "gid": "7558064883739898878"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Marketing Your Product: Strategies for Leveraging Social Media, Influencers, and Paid Ads - Audiobook by Barrett Williams",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQfJgOxOc1ydffgT0V3b69jjGMGRlooDVw4RCa6koNEITs8_R0XnJ4btJ3Nw9SCxvu5Q7SgrdYp_kQr5k2DdW24DwbVzCF2uqFkZT8TSbRN-Skf-Dj48lOTIg",
+         "price": {
+          "current": 4.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$4.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "15380045216136452089",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Development Guides: A Practical Playbook to Turn Ideas Into Successful Products From Concept to Launch - Audiobook by Robert Lindstrom",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR-HIzeiFADHZYzxrefvbvZeYSxvfxno2l5OMyiXokPl06V7YHH7BHUI_J56gdiDJuqZlELRibQLA-m944Rhz76vZ6OTVUu1vnPN8XLEvCkym8h-dDZ-o9uCQ",
+         "price": {
+          "current": 13.14,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.14"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9716771742436924613",
+          "data_docid": "2843570173270824894",
+          "gid": null
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+       "domain": "www.audible.com",
+       "title": "Product Marketing Books | Listen on Audible",
+       "url": "https://www.audible.com/topic/audiobooks-product-marketing?srsltid=AU7gw4WJ11obucu45E0bAbHL9Jg0NDPhEYIaCW15iYRGp8Vw-qSiTaOD",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.audible.com \u203a topic \u203a audiobooks-product-...",
+       "website_name": "Audible",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Lean Product Playbook is a practical guide to building products that customers love. Hooked: How to Build Habit-Forming Products By: Nir Eyal, Ryan Hoover",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 4,
+        "regular": null,
+        "max_value": 25,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$4 to $25"
+       },
+       "highlighted": [
+        "Product",
+        "products",
+        "Products"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+       "domain": "buildingmomentum.io",
+       "title": "9+ book recommendations for curious product marketers",
+       "url": "https://buildingmomentum.io/product-marketing-book-recommendations/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://buildingmomentum.io \u203a product-marketing-boo...",
+       "website_name": "buildingmomentum.io",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "a standard 'top 10 books that every product marketer should read' with the usuals like Positioning (Ries & Trout), Obviously Awesome (April Dunford), and Play,\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "books",
+        "product"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[26]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "Does anyone have any good book recommendations for Product Marketing?",
+         "url": "https://www.reddit.com/r/marketing/comments/12n8jxa/does_anyone_have_any_good_book_recommendations/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2023-10-10 14:49:59 +00:00",
+         "posts_count": 8
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "What's the best reading on Product marketing?",
+         "url": "https://www.quora.com/Whats-the-best-reading-on-Product-marketing",
+         "domain": "www.quora.com",
+         "source": "Quora",
+         "description": null,
+         "timestamp": "2017-10-10 14:49:59 +00:00",
+         "posts_count": 30
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 15,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Product marketing books pdf",
+        "Best product marketing books",
+        "Product marketing books for beginners",
+        "LOVED product marketing",
+        "Product marketing Debunked",
+        "Loved: how to Rethink marketing for tech products",
+        "Product marketing Debunked PDF",
+        "Loved: How to Rethink marketing for Tech Products pdf"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

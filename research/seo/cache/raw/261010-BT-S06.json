@@ -1,0 +1,676 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0187 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-06023c67e8d3",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0142 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-06023c67e8d3"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "okr books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-okr",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "okr books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=okr%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:00 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "discussions_and_forums",
+      "related_searches"
+     ],
+     "se_results_count": 126,
+     "pages_count": 1,
+     "items_count": 11,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "The best OKR (`Objectives and Key Results` ) books cover everything from beginner guides to deep organizational case studies.[[1]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[2]](https://okrinstitute.org/okr-books/)\n\n- **The Beginner\u2019s Guide to OKRs** by Felipe Castro: A short, 50-page practical \"how-to\" manual that explains how to write and track OKRs.\n- **Radical Focus** by Christina Wodtke: A quick, 100-page business fable about a struggling startup that turns things around with OKRs, followed by 50 pages of actionable advice.[[1]](https://mcleanonline.medium.com/the-best-okr-reading-list-in-the-world-4344fb4781f7)[[2]](https://businessmap.io/okr-resources/okr/books)[[3]](https://okrinstitute.org/okr-books/)\n\n### Essential & Foundational OKR Books\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-06023c67e8d3:4)\n**Measure What Matters** by John Doerr: The cornerstone theory book by Google's investor and advisor, featuring case studies from Google, Intel, the Bill Gates Foundation, and Bono.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-06023c67e8d3:5)\n**High Output Management** by Andrew Grove: Written by the former Intel CEO who created the foundation of the OKR methodology, focusing on managerial leverage and high-performance teams.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcInX6LzjCFi0mQ77ab8_nAbbrVUS3z6xtWQyxrzzOeq7KMQX4mPgUjNDtpEg)\n**Objectives and Key Results: Driving Focus, Alignment, and Engagement with OKRs** by Paul Niven and Ben Lamorte: A comprehensive handbook designed for leaders implementing OKRs across teams.[[1]](https://mooncamp.com/blog/okr-books)[[2]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[3]](https://businessmap.io/okr-resources/okr/books)[[4]](https://peoplelogic.ai/blog/50-resources-about-okr-methodology-for-2023)[[5]](https://www.workpath.com/en/magazine/okr-books)\n\n### Specialized OKR Books\n\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl84veRvghjt2CiZju-Urp8oVPZmh4t2xD5ndcijJ26xZ6U1oWmPIM2_6huiI)\n**The OKRs Field Book** by Ben Lamorte: A step-by-step coaching guide covering deployment, training, and cycle check-ins.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqGVrR-Idlr3ezz7qA5kS6WIPr-srIP8-Z1o-Mf1DjZpZgQe8oK6db3Aq32s)\n**Succeeding with OKRs in Agile** by Allan Kelly: Focuses on integrating and delivering OKRs within agile software and product development teams.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNa7A3Ql_DsWRYCTucuAJhrhFbg8YdWJGEftZLSdxGCnmRCckbeiqJOXNvCqc)\n**How to Measure Anything** by Douglas W. Hubbard: Helps quantify intangible goals so you can write better, measurable Key Results.[[1]](https://okrs.com/resources/books-on-okrs/)[[2]](https://www.youtube.com/watch?v=hyEaMuH5MN0&t=438)[[3]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[4]](https://mooncamp.com/blog/okr-books)[[5]](https://www.workpath.com/en/magazine/okr-books)Are you looking for a **quick introductory read** , a **practical guide for rolling OKRs out to your team** , or a book tailored to a specific environment like **Agile/product management**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The best OKR ( Objectives and Key Results ) books cover everything from beginner guides to deep organizational case studies.",
+         "markdown": "The best OKR (`Objectives and Key Results` ) books cover everything from beginner guides to deep organizational case studies.[[1]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[2]](https://okrinstitute.org/okr-books/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Oboard",
+           "domain": "oboard.io",
+           "url": "https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals",
+           "title": "Top 7 OKR Books You Need to Read | Oboard",
+           "text": "Benefits: Alignment and clarity, increased transparency, enhanced accountability, agility and adaptability by turning goals into h..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "OKR Institute",
+           "domain": "okrinstitute.org",
+           "url": "https://okrinstitute.org/okr-books/",
+           "title": "The Complete OKR Books Guide: Every Must-Read on Objectives and ...",
+           "text": "Frequently Asked Questions: OKR Books. What is the best OKR book for beginners? The two best OKR books for beginners are The Begin..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Beginner\u2019s Guide to OKRs by Felipe Castro: A short, 50-page practical \"how-to\" manual that explains how to write and track OKRs. Radical Focus by Christina Wodtke: A quick, 100-page business fable about a struggling startup that turns things around with OKRs, followed by 50 pages of actionable advice.",
+         "markdown": "- **The Beginner\u2019s Guide to OKRs** by Felipe Castro: A short, 50-page practical \"how-to\" manual that explains how to write and track OKRs.\n- **Radical Focus** by Christina Wodtke: A quick, 100-page business fable about a struggling startup that turns things around with OKRs, followed by 50 pages of actionable advice.[[1]](https://mcleanonline.medium.com/the-best-okr-reading-list-in-the-world-4344fb4781f7)[[2]](https://businessmap.io/okr-resources/okr/books)[[3]](https://okrinstitute.org/okr-books/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Medium",
+           "domain": "mcleanonline.medium.com",
+           "url": "https://mcleanonline.medium.com/the-best-okr-reading-list-in-the-world-4344fb4781f7",
+           "title": "The best OKR reading list in the world? - Richard McLean",
+           "text": "Background: Why I'm doing this * Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results, by Christina ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Businessmap",
+           "domain": "businessmap.io",
+           "url": "https://businessmap.io/okr-resources/okr/books",
+           "title": "10 Best OKR Books for Beginners and Advanced",
+           "text": "Recommended OKR Books: The Beginner's Guide to OKRs by Felipe Castro (basics, building blocks, 50 pages); Measure What Matters by ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "OKR Institute",
+           "domain": "okrinstitute.org",
+           "url": "https://okrinstitute.org/okr-books/",
+           "title": "The Complete OKR Books Guide: Every Must-Read on Objectives and ...",
+           "text": "Frequently Asked Questions: OKR Books. What is the best OKR book for beginners? The two best OKR books for beginners are The Begin..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Essential & Foundational OKR Books",
+         "markdown": "### Essential & Foundational OKR Books",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Measure What Matters by John Doerr: The cornerstone theory book by Google's investor and advisor, featuring case studies from Google, Intel, the Bill Gates Foundation, and Bono. High Output Management by Andrew Grove: Written by the former Intel CEO who created the foundation of the OKR methodology, focusing on managerial leverage and high-performance teams. Objectives and Key Results: Driving Focus, Alignment, and Engagement with OKRs by Paul Niven and Ben Lamorte: A comprehensive handbook designed for leaders implementing OKRs across teams.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-06023c67e8d3:2)\n**Measure What Matters** by John Doerr: The cornerstone theory book by Google's investor and advisor, featuring case studies from Google, Intel, the Bill Gates Foundation, and Bono.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-06023c67e8d3:3)\n**High Output Management** by Andrew Grove: Written by the former Intel CEO who created the foundation of the OKR methodology, focusing on managerial leverage and high-performance teams.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRcInX6LzjCFi0mQ77ab8_nAbbrVUS3z6xtWQyxrzzOeq7KMQX4mPgUjNDtpEg)\n**Objectives and Key Results: Driving Focus, Alignment, and Engagement with OKRs** by Paul Niven and Ben Lamorte: A comprehensive handbook designed for leaders implementing OKRs across teams.[[1]](https://mooncamp.com/blog/okr-books)[[2]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[3]](https://businessmap.io/okr-resources/okr/books)[[4]](https://peoplelogic.ai/blog/50-resources-about-okr-methodology-for-2023)[[5]](https://www.workpath.com/en/magazine/okr-books)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Specialized OKR Books",
+         "markdown": "### Specialized OKR Books",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The OKRs Field Book by Ben Lamorte: A step-by-step coaching guide covering deployment, training, and cycle check-ins. Succeeding with OKRs in Agile by Allan Kelly: Focuses on integrating and delivering OKRs within agile software and product development teams. How to Measure Anything by Douglas W. Hubbard: Helps quantify intangible goals so you can write better, measurable Key Results.",
+         "markdown": "---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl84veRvghjt2CiZju-Urp8oVPZmh4t2xD5ndcijJ26xZ6U1oWmPIM2_6huiI)\n**The OKRs Field Book** by Ben Lamorte: A step-by-step coaching guide covering deployment, training, and cycle check-ins.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqGVrR-Idlr3ezz7qA5kS6WIPr-srIP8-Z1o-Mf1DjZpZgQe8oK6db3Aq32s)\n**Succeeding with OKRs in Agile** by Allan Kelly: Focuses on integrating and delivering OKRs within agile software and product development teams.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNa7A3Ql_DsWRYCTucuAJhrhFbg8YdWJGEftZLSdxGCnmRCckbeiqJOXNvCqc)\n**How to Measure Anything** by Douglas W. Hubbard: Helps quantify intangible goals so you can write better, measurable Key Results.[[1]](https://okrs.com/resources/books-on-okrs/)[[2]](https://www.youtube.com/watch?v=hyEaMuH5MN0&t=438)[[3]](https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals)[[4]](https://mooncamp.com/blog/okr-books)[[5]](https://www.workpath.com/en/magazine/okr-books)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Are you looking for a quick introductory read, a practical guide for rolling OKRs out to your team, or a book tailored to a specific environment like Agile/product management ?",
+         "markdown": "Are you looking for a **quick introductory read** , a **practical guide for rolling OKRs out to your team** , or a book tailored to a specific environment like **Agile/product management**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Medium",
+         "domain": "mcleanonline.medium.com",
+         "url": "https://mcleanonline.medium.com/the-best-okr-reading-list-in-the-world-4344fb4781f7",
+         "title": "The best OKR reading list in the world? - Richard McLean",
+         "text": "Background: Why I'm doing this * Radical Focus: Achieving Your Most Important Goals with Objectives and Key Results, by Christina ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Oboard",
+         "domain": "oboard.io",
+         "url": "https://oboard.io/blog/7-okr-books-that-will-change-the-way-you-set-business-goals",
+         "title": "Top 7 OKR Books You Need to Read | Oboard",
+         "text": "Benefits: Alignment and clarity, increased transparency, enhanced accountability, agility and adaptability by turning goals into h..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Mooncamp",
+         "domain": "mooncamp.com",
+         "url": "https://mooncamp.com/blog/okr-books",
+         "title": "10 best OKR Books of 2026 [+ Summaries]",
+         "text": "The 11 best OKR Books of 2026 * \u201eMeasure What Matters\u201c by John Doerr. * \u201eYou Are A Strategist\u201c by Sara Lobkovich. * \u201eHigh Output M..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Businessmap",
+         "domain": "businessmap.io",
+         "url": "https://businessmap.io/okr-resources/okr/books",
+         "title": "10 Best OKR Books for Beginners and Advanced",
+         "text": "Recommended OKR Books: The Beginner's Guide to OKRs by Felipe Castro (basics, building blocks, 50 pages); Measure What Matters by ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "OKRs.com",
+         "domain": "okrs.com",
+         "url": "https://okrs.com/resources/books-on-okrs/",
+         "title": "Books on OKRs - OKRS",
+         "text": "Books: The OKRs Field Book by Ben Lamorte (coaching framework); Objectives and Key Results by Paul Niven & Ben Lamorte (reference ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Workpath",
+         "domain": "www.workpath.com",
+         "url": "https://www.workpath.com/en/magazine/okr-books",
+         "title": "OKR books for beginners | Workpath Magazine",
+         "text": "Books: Measure What Matters by John Doerr ($12, framework overview and Google/Intel case studies); High Output Management by Andre..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "OKR Institute",
+         "domain": "okrinstitute.org",
+         "url": "https://okrinstitute.org/okr-books/",
+         "title": "The Complete OKR Books Guide: Every Must-Read on Objectives and ...",
+         "text": "Frequently Asked Questions: OKR Books. What is the best OKR book for beginners? The two best OKR books for beginners are The Begin..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Peoplelogic.ai",
+         "domain": "peoplelogic.ai",
+         "url": "https://peoplelogic.ai/blog/50-resources-about-okr-methodology-for-2023",
+         "title": "50 articles, books, and resources that will make you an OKR master ...",
+         "text": "Books * \"Measure What Matters\" by John Doerr. One of the first popular books about OKR methodology. John Doerr shares how he intro..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=hyEaMuH5MN0&t=438",
+         "title": "The OKRs Field Book: A Step-by-Step Guide for\u2026 by Ben Lamorte",
+         "text": "The OKRs Field Book: A Step-by-Step Guide for\u2026 by Ben Lamorte \u00b7 Audiobook preview for example this book includes a sample handout ..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Measure What Matters by John Doerr - Book Summary",
+       "url": "https://www.youtube.com/watch?v=o-I9bK3G-gA&xstg=CAMSBhUDze3xHw%3D%3D",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "370+ views  \u00b7  8 months ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Famous Labs",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-02-01 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "What is the best book outlining how to deploy OKRs?",
+       "url": "https://www.quora.com/What-is-the-best-book-outlining-how-to-deploy-OKRs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ answers  \u00b7  12 years ago",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What is the best book outlining how to deploy OKRs?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "38 answers",
+         "description": null,
+         "url": "https://www.quora.com/What-is-the-best-book-outlining-how-to-deploy-OKRs?top_ans=70575645",
+         "domain": "www.quora.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+       "domain": "agile-strategies.com",
+       "title": "OKR Book: Start Less Finish More",
+       "url": "https://agile-strategies.com/okr-book/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://agile-strategies.com \u203a okr-book",
+       "website_name": "Agile Strategies",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Start Less Finish More is a systematic approach to building strategic agility. Start creating your objectives and key results with our book today!",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Start Less Finish More"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+       "domain": "www.davidtuite.com",
+       "title": "Measure What Matters summary - Learn OKRs in 5 minutes",
+       "url": "https://www.davidtuite.com/measure-what-matters-notes/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.davidtuite.com \u203a measure-what-matters-notes",
+       "website_name": "davidtuite.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Measure What Matters by John Doerr is a guide to introducing and using Objectives and Key Results (OKRs) in organizations, interspersed with interviews with\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Measure What Matters by John Doerr"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.davidtuite.com/measure-what-matters-notes/#:~:text=Measure%20What%20Matters%20by%20John,used%20OKRs%20to%20great%20effect.",
+         "domain": "www.davidtuite.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+       "domain": "weekplan.net",
+       "title": "8 Best OKR Books for Better Understanding",
+       "url": "https://weekplan.net/best-okr-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://weekplan.net \u203a best-okr-books",
+       "website_name": "Week Plan",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 13, 2026 \u2014 8 Best OKR Books for Better Understanding \u00b7 1 - The Beginner's Guide to OKR by Felipe Castro \u00b7 2 - Measure What Matters by John Doer \u00b7 3 -\u00a0... Read more",
+       "pre_snippet": "07/13/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1 - The Beginner's Guide to OKR by Felipe Castro"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://weekplan.net/best-okr-books/#:~:text=8%20Best%20OKR%20Books%20for,Better%20Understanding&text=1%20-%20The%20Beginner's%20Guide,to%20OKR%20by%20Felipe%20Castro&text=2%20-%20Measure%20What%20Matters,by%20John%20Doer&text=3%20-%20Radical%20Focus%3A%20Achieving,with%20OKRs%20by%20Christina%20Wodtke",
+         "domain": "weekplan.net"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "[By Doerr John] Measure What Matters: OKRs: The Simple ...",
+       "url": "https://www.amazon.com/Doerr-John-Measure-What-Matters/dp/B07R4657XT",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a Doerr-John-Measure-What-...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A book that teaches how to set goals and measure progress using OKRs, a system that has helped tech giants like Google achieve explosive growth. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "how to set goals and measure progress using OKRs"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.amazon.com/Doerr-John-Measure-What-Matters/dp/B07R4657XT#:~:text=A%20book%20that%20teaches%20how,like%20Google%20achieve%20explosive%20growth.",
+         "domain": "www.amazon.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "Introduction to OKRs by Christina Wodtke",
+       "url": "https://www.goodreads.com/en/book/show/30849320-introduction-to-okrs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a book \u203a show \u203a 3084932...",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jun 3, 2016 \u2014 This O'Reilly report explains how companies use OKRs to create focus, unity, and velocity within their teams, and how your company can succeed\u00a0...",
+       "pre_snippet": "06/03/2016 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 3.8,
+        "votes_count": 95,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "how companies use OKRs to create focus, unity, and velocity"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2016-06-03 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+       "domain": "okrinstitute.org",
+       "title": "60+ resources that will make you an OKR champion 2024 -",
+       "url": "https://okrinstitute.org/60-resources-that-will-make-you-an-okr-champion-2023/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://okrinstitute.org \u203a 60-resources-that-will-make-yo...",
+       "website_name": "OKR Institute",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "To deepen your knowledge of OKRs and leadership, consider reading the following books: \u201cMeasure What Matters\u201d by John Doerr, \u201cRadical Focus\u201d by Christina Wodtke\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "\u201cMeasure What Matters\u201d by John Doerr"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://okrinstitute.org/60-resources-that-will-make-you-an-okr-champion-2023/#:~:text=To%20deepen%20your%20knowledge%20of,%E2%80%9CRadical%20Focus%E2%80%9D%20by%20Christina%20Wodtke",
+         "domain": "okrinstitute.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "The best books on OKRs, planning and strategy?",
+         "url": "https://www.reddit.com/r/ProductManagement/comments/18qg9oi/the_best_books_on_okrs_planning_and_strategy/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2024-10-10 14:49:59 +00:00",
+         "posts_count": 10
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "OKR books",
+         "url": "https://www.reddit.com/r/humanresources/comments/frns8h/okr_books/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2020-10-10 14:49:59 +00:00",
+         "posts_count": 7
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Okr books pdf",
+        "Best okr books",
+        "Measure What Matters PDF",
+        "Measure What Matters book",
+        "OKRs meaning",
+        "Measure What Matters summary PDF",
+        "Okr guidance",
+        "Measure What Matters Amazon"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

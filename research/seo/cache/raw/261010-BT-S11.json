@@ -1,0 +1,1097 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0252 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-7a66f2e2214d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0202 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-7a66f2e2214d"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "leadership books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-lead",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "leadership books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=leadership%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 201,
+     "pages_count": 1,
+     "items_count": 13,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Here are some of the most influential and practical books on leadership, broken down by core focus:\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:10)\n**The 7 Habits of Highly Effective People** by Stephen R. Covey \u2013 A timeless guide on personal character, integrity, and proactive habits.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:11)\n**How to Win Friends and Influence People** by Dale Carnegie \u2013 The classic manual on building trust, communicating well, and gaining cooperation.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:12)\n**On Becoming a Leader** by Warren G. Bennis \u2013 Explores the core traits and self-discovery needed to step into a leadership role.[[1]](https://www.summary.com/pricing-leadership-books/)[[2]](https://elon.libguides.com/c.php?g=964540&p=8145827)[[3]](https://www.youtube.com/shorts/0vyrgUnKKRQ)\n\n### Purpose, Vision & Culture\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:13)\n**Start with Why** by Simon Sinek \u2013 Focuses on how great leaders inspire action by leading with a clear sense of purpose.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:14)\n**Leaders Eat Last** by Simon Sinek \u2013 Examines how to build environments of safety, trust, and genuine care for your team.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU593APYtLyV8xe8bgVTjSh13Aeom94EkXQVq2uNdjy2vsn5hRKqRPQJCggjo)\n**The Five Dysfunctions of a Team** by Patrick Lencioni \u2013 A leadership fable that addresses trust, conflict, and accountability within teams.[[1]](https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey)[[2]](https://www.youtube.com/shorts/GdEuBqrlTDI)[[3]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[4]](https://www.youtube.com/shorts/VBU4KUSrxzE)[[5]](https://www.porchlightbooks.com/collections/leadership)[[6]](https://www.instagram.com/reel/C61OwCSLKtG/?hl=en)\n\n### Strategy & Execution\n\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzRRtjE8IRq_mIGtVmcbKaJ7Meq4GpYOlx2xo0OYdbBn_7wjdl_twG8geKDLA)\n**Good to Great** by Jim Collins \u2013 Research-backed insights on what drives ordinary companies to achieve sustained excellence.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqmjzydRLBzPrNm605M0hTWUtJ8YvVCxavjEjSVRPX2NN246p_Y_qy8m5qHs)\n**The First 90 Days** by Michael D. Watkins \u2013 A tactical playbook for navigating career transitions and stepping into a new leadership position.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ToZxTkCsHckyP7n6rI3jFJin-RDyqIp-LwiN-UlKAZ0lGa58avWRGSSjXWw)\n**Extreme Ownership** by Jocko Willink and Leif Babin \u2013 Lessons from Navy SEALs on taking total responsibility for team performance and results.[[1]](https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/)[[2]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[3]](https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey)[[4]](https://leadershipbooks.com/)[[5]](https://www.youtube.com/shorts/VBU4KUSrxzE)\n\n### Modern & Emotional Intelligence\n\n- **Dare to Lead** by Bren\u00e9 Brown \u2013 Focuses on the role of courage, empathy, and vulnerability in modern workplaces.\n- **Primal Leadership** by Daniel Goleman, Richard Boyatzis, and Annie McKee \u2013 Explores how emotional intelligence (EQ) drives climate and performance.\n- You can explore curated catalogs and collections like the [Harvard Business Review Top 25 Leadership Books](https://store.hbr.org/top-25-leadership-books/) for deeper reading lists.[[1]](https://store.hbr.org/top-25-leadership-books/)[[2]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[3]](https://therightquestions.co/the-best-books-on-leadership-management-strategy-decision-making-and-more/)[[4]](https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/)\n\nIf you'd like to narrow down these options, tell me:\n\n- Are you looking for advice on **managing a brand-new team**, **leading senior leaders** , or **personal growth**?\n- Do you prefer **story-driven books** or **tactical frameworks**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Here are some of the most influential and practical books on leadership, broken down by core focus:",
+         "markdown": "Here are some of the most influential and practical books on leadership, broken down by core focus:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The 7 Habits of Highly Effective People by Stephen R. Covey \u2013 A timeless guide on personal character, integrity, and proactive habits. How to Win Friends and Influence People by Dale Carnegie \u2013 The classic manual on building trust, communicating well, and gaining cooperation. On Becoming a Leader by Warren G. Bennis \u2013 Explores the core traits and self-discovery needed to step into a leadership role.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:5)\n**The 7 Habits of Highly Effective People** by Stephen R. Covey \u2013 A timeless guide on personal character, integrity, and proactive habits.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:6)\n**How to Win Friends and Influence People** by Dale Carnegie \u2013 The classic manual on building trust, communicating well, and gaining cooperation.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:7)\n**On Becoming a Leader** by Warren G. Bennis \u2013 Explores the core traits and self-discovery needed to step into a leadership role.[[1]](https://www.summary.com/pricing-leadership-books/)[[2]](https://elon.libguides.com/c.php?g=964540&p=8145827)[[3]](https://www.youtube.com/shorts/0vyrgUnKKRQ)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Purpose, Vision & Culture",
+         "markdown": "### Purpose, Vision & Culture",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Start with Why by Simon Sinek \u2013 Focuses on how great leaders inspire action by leading with a clear sense of purpose. Leaders Eat Last by Simon Sinek \u2013 Examines how to build environments of safety, trust, and genuine care for your team. The Five Dysfunctions of a Team by Patrick Lencioni \u2013 A leadership fable that addresses trust, conflict, and accountability within teams.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:8)\n**Start with Why** by Simon Sinek \u2013 Focuses on how great leaders inspire action by leading with a clear sense of purpose.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:9)\n**Leaders Eat Last** by Simon Sinek \u2013 Examines how to build environments of safety, trust, and genuine care for your team.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU593APYtLyV8xe8bgVTjSh13Aeom94EkXQVq2uNdjy2vsn5hRKqRPQJCggjo)\n**The Five Dysfunctions of a Team** by Patrick Lencioni \u2013 A leadership fable that addresses trust, conflict, and accountability within teams.[[1]](https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey)[[2]](https://www.youtube.com/shorts/GdEuBqrlTDI)[[3]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[4]](https://www.youtube.com/shorts/VBU4KUSrxzE)[[5]](https://www.porchlightbooks.com/collections/leadership)[[6]](https://www.instagram.com/reel/C61OwCSLKtG/?hl=en)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Strategy & Execution",
+         "markdown": "### Strategy & Execution",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Good to Great by Jim Collins \u2013 Research-backed insights on what drives ordinary companies to achieve sustained excellence. The First 90 Days by Michael D. Watkins \u2013 A tactical playbook for navigating career transitions and stepping into a new leadership position. Extreme Ownership by Jocko Willink and Leif Babin \u2013 Lessons from Navy SEALs on taking total responsibility for team performance and results.",
+         "markdown": "---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzRRtjE8IRq_mIGtVmcbKaJ7Meq4GpYOlx2xo0OYdbBn_7wjdl_twG8geKDLA)\n**Good to Great** by Jim Collins \u2013 Research-backed insights on what drives ordinary companies to achieve sustained excellence.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqmjzydRLBzPrNm605M0hTWUtJ8YvVCxavjEjSVRPX2NN246p_Y_qy8m5qHs)\n**The First 90 Days** by Michael D. Watkins \u2013 A tactical playbook for navigating career transitions and stepping into a new leadership position.\n\n---\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ToZxTkCsHckyP7n6rI3jFJin-RDyqIp-LwiN-UlKAZ0lGa58avWRGSSjXWw)\n**Extreme Ownership** by Jocko Willink and Leif Babin \u2013 Lessons from Navy SEALs on taking total responsibility for team performance and results.[[1]](https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/)[[2]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[3]](https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey)[[4]](https://leadershipbooks.com/)[[5]](https://www.youtube.com/shorts/VBU4KUSrxzE)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Modern & Emotional Intelligence",
+         "markdown": "### Modern & Emotional Intelligence",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Dare to Lead by Bren\u00e9 Brown \u2013 Focuses on the role of courage, empathy, and vulnerability in modern workplaces. Primal Leadership by Daniel Goleman, Richard Boyatzis, and Annie McKee \u2013 Explores how emotional intelligence (EQ) drives climate and performance. You can explore curated catalogs and collections like the Harvard Business Review Top 25 Leadership Books for deeper reading lists.",
+         "markdown": "- **Dare to Lead** by Bren\u00e9 Brown \u2013 Focuses on the role of courage, empathy, and vulnerability in modern workplaces.\n- **Primal Leadership** by Daniel Goleman, Richard Boyatzis, and Annie McKee \u2013 Explores how emotional intelligence (EQ) drives climate and performance.\n- You can explore curated catalogs and collections like the [Harvard Business Review Top 25 Leadership Books](https://store.hbr.org/top-25-leadership-books/) for deeper reading lists.[[1]](https://store.hbr.org/top-25-leadership-books/)[[2]](https://www.youtube.com/watch?v=FMIuZApufWw&t=11)[[3]](https://therightquestions.co/the-best-books-on-leadership-management-strategy-decision-making-and-more/)[[4]](https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Harvard Business Review Top 25 Leadership Books",
+           "description": null,
+           "url": "https://store.hbr.org/top-25-leadership-books/",
+           "domain": "store.hbr.org"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Harvard Business Review",
+           "domain": "store.hbr.org",
+           "url": "https://store.hbr.org/top-25-leadership-books/",
+           "title": "Top 25 Leadership Books",
+           "text": "LEADERSHIP CLASSICS: Primal Leadership (emotional intelligence), Leadership on the Line (navigating change risks), Act Like a Lead..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=FMIuZApufWw&t=11",
+           "title": "10 Leadership Books to Read to Become a Better Leader",
+           "text": "10 Leadership Books to Read to Become a Better Leader 10 great leadership books all leaders should read most leaders don't fail be..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The Right Questions",
+           "domain": "therightquestions.co",
+           "url": "https://therightquestions.co/the-best-books-on-leadership-management-strategy-decision-making-and-more/",
+           "title": "The Best Books on Leadership, Management, Strategy, Decision-making (and More!) - The Right Questions",
+           "text": "Leadership & Management: The 21 Irrefutable Laws of Leadership (Maxwell); Dare to Lead (Brown). Purpose & Strategy: Start with Why..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/",
+           "title": "What is the most practical leadership book you've read? - Reddit",
+           "text": "Additional Book Recommendations: Other practical leadership books suggested include The 21 Irrefutable Laws of Leadership, The 7 H..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like to narrow down these options, tell me:Are you looking for advice on managing a brand-new team, leading senior leaders, or personal growth ?\nDo you prefer story-driven books or tactical frameworks ?",
+         "markdown": "If you'd like to narrow down these options, tell me:\n\n- Are you looking for advice on **managing a brand-new team**, **leading senior leaders** , or **personal growth**?\n- Do you prefer **story-driven books** or **tactical frameworks**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/",
+         "title": "What is the most practical leadership book you've read? - Reddit",
+         "text": "Additional Book Recommendations: Other practical leadership books suggested include The 21 Irrefutable Laws of Leadership, The 7 H..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Harvard Business Review",
+         "domain": "store.hbr.org",
+         "url": "https://store.hbr.org/top-25-leadership-books/",
+         "title": "Top 25 Leadership Books",
+         "text": "LEADERSHIP CLASSICS: Primal Leadership (emotional intelligence), Leadership on the Line (navigating change risks), Act Like a Lead..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Harvard University",
+         "domain": "coache.gse.harvard.edu",
+         "url": "https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey",
+         "title": "Ten Books to Inspire and Support Your Leadership Journey | Collaborative on Academic Careers in Higher Education",
+         "text": "COACHE Curated Reading List: How to Chair a Department by Kevin Dettmar (department leadership); What We Value by Emily Falk (neur..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "LeadershipBooks.com",
+         "domain": "leadershipbooks.com",
+         "url": "https://leadershipbooks.com/",
+         "title": "Selling Best Leadership Books for All Time | LeadershipBooks.com",
+         "text": "LeadershipBooks.com offers international bestselling and curated leadership, business, and personal development books ranging from..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Soundview Executive Book Summaries",
+         "domain": "www.summary.com",
+         "url": "https://www.summary.com/pricing-leadership-books/",
+         "title": "Top 20 Leadership Books | Executive Book Summaries",
+         "text": "Our Top 20 Leadership Books of All Time * The First 90 Days Michael Watkins * The Speed of Trust Stephen M.R. Covey * Execution Ra..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Porchlight Book Company",
+         "domain": "www.porchlightbooks.com",
+         "url": "https://www.porchlightbooks.com/collections/leadership",
+         "title": "Leadership Books",
+         "text": "Leadership Books * Inviting Genius: How Good Leaders Use Conflict to Become Great Matthew Abrams Hardcover \u2014 Merack Publishing $25..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "LibGuides",
+         "domain": "elon.libguides.com",
+         "url": "https://elon.libguides.com/c.php?g=964540&p=8145827",
+         "title": "Classic Leadership Books",
+         "text": "Leadership Classics * Man's search for meaning : an introduction to logotherapy by Harold S. Kushner (Foreword by); William J. Win..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "The Right Questions",
+         "domain": "therightquestions.co",
+         "url": "https://therightquestions.co/the-best-books-on-leadership-management-strategy-decision-making-and-more/",
+         "title": "The Best Books on Leadership, Management, Strategy, Decision-making (and More!) - The Right Questions",
+         "text": "Leadership & Management: The 21 Irrefutable Laws of Leadership (Maxwell); Dare to Lead (Brown). Purpose & Strategy: Start with Why..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/GdEuBqrlTDI",
+         "title": "The Top 3 Leadership Books",
+         "text": "The Top 3 Leadership Books here are my top three leadership. books of all time first is Start with Why. by Simon Synynic it's abou..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=FMIuZApufWw&t=11",
+         "title": "10 Leadership Books to Read to Become a Better Leader",
+         "text": "10 Leadership Books to Read to Become a Better Leader 10 great leadership books all leaders should read most leaders don't fail be..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/VBU4KUSrxzE",
+         "title": "5 Books That Separate Great Leaders from Good Ones #business ...",
+         "text": "5 Books That Separate Great Leaders from Good Ones #business #motivation want to become a better leader. then start with these fiv..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Instagram",
+         "domain": "www.instagram.com",
+         "url": "https://www.instagram.com/reel/C61OwCSLKtG/?hl=en",
+         "title": "BOOKS DETAILS \ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb 10 Best Books on Leadership & Management",
+         "text": "The video introduces a list of ten notable books on leadership and management. These books include \"The Effective Executive\" by Pe..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/0vyrgUnKKRQ",
+         "title": "Books Every Aspiring Leader Should Read | TKM Institute of Management",
+         "text": "Books Every Aspiring Leader Should Read | TKM Institute of Management hello everyone my name is Dr Muhammad Nofal Assistant Profes..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "davidburkus.com",
+       "title": "The 14 Best Leadership Books That Actually Changed My ...",
+       "url": "https://davidburkus.com/2025/09/14-best-leadership-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://davidburkus.com \u203a 2025/09 \u203a 14-best-leadership...",
+       "website_name": "David Burkus",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 15, 2025 \u2014 Best Leadership Books \u00b7 1. The Opposable Mind by Roger Martin \u00b7 2. The Culture Map by Erin Meyer \u00b7 3. The Coaching Habit by Michael Bungay\u00a0... Read more",
+       "pre_snippet": "09/15/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1. The Opposable Mind by Roger Martin"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://davidburkus.com/2025/09/14-best-leadership-books/#:~:text=Best%20Leadership%20Books&text=1.%20The%20Opposable%20Mind%20by,Roger%20Martin&text=2.%20The%20Culture%20Map%20by,Erin%20Meyer&text=3.%20The%20Coaching%20Habit%20by,Michael%20Bungay%20Stanier",
+         "domain": "davidburkus.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-09-15 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the top 10 leadership books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book on leadership?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 7 C's of leadership?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book to be come a leader?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "What is the most practical leadership book you've read?",
+       "url": "https://www.reddit.com/r/Leadership/comments/15yhc8k/what_is_the_most_practical_leadership_book_youve/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "50+ comments  \u00b7  3 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/Leadership",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "For added context I read leadership books daily, but often struggle to find more than 1 or 2 practical suggestions. My areas of interest are sales leadership, ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What books on leadership do you recommend? - Reddit",
+         "description": null,
+         "url": "https://www.reddit.com/r/Leadership/comments/1muah8u/what_books_on_leadership_do_you_recommend/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Compilation of Recommended Leadership Books : r ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/managers/comments/1q121aw/compilation_of_recommended_leadership_books/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=leadership+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnumKGwkpVnC4Rnd8Vf9wKzNQHhDaQ:1791643796264&sa=X&ved=2ahUKEwi52aig2a-XAxVZsFYBHVnFJ0gQrQIoAnoECCgQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+       "domain": "store.hbr.org",
+       "title": "Top 25 Leadership Books - HBR Store",
+       "url": "https://store.hbr.org/top-25-leadership-books/?srsltid=AU7gw4XaAUkL5y-TaBrj2SLuyVZR5jOrRuKXgLRfc1wxvHI7dDeylCJs",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://store.hbr.org \u203a top-25-leadership-books",
+       "website_name": "Harvard Business Review",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Primal Leadership, Leadership on the Line, Think Like a Leader Total Leadership: Be a Better Leader, Have a Richer Life",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Primal Leadership"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Extreme Ownership (How U.S. Navy SEALs Lead and Win)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:15",
+         "price": {
+          "current": 25.65,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$25.65"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 133,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15834696277862971796",
+          "data_docid": "11185635985709029532",
+          "gid": "11304007393434497756"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Strengths Based Leadership Great Leaders, Teams, and Why People Follow",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:16",
+         "price": {
+          "current": 49.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$49.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.4,
+          "votes_count": 43,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15413825039803006436",
+          "data_docid": "17970746259081244311",
+          "gid": "6773663006293346323"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Leaders Eat Last : Why Some Teams Pull Together and Others Don't",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:17",
+         "price": {
+          "current": 32,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$32.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 227,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "3544143972434213261",
+          "data_docid": "780514707108824811",
+          "gid": "12451394780561773672"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Start with Why : How Great Leaders Inspire Everyone to Take Action",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:18",
+         "price": {
+          "current": 21,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$21.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 1500,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "8807311248152631482",
+          "data_docid": "11337652797598963002",
+          "gid": "4224200043629884197"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Leadership Handbook: 26 Critical Lessons Every Leader Needs",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:19",
+         "price": {
+          "current": 11.74,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$11.74"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15554767574509952195",
+          "data_docid": "1226195591544398843",
+          "gid": "336164364500099743"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Leadership from the Inside Out (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:20",
+         "price": {
+          "current": 30.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$30.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.3,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4382043068378501370",
+          "data_docid": "15358015337012028877",
+          "gid": "1630402018614823340"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Inspiring Leadership : A Guide To Mastering Leadership, Business Management, Organisation, Development and Building High Performance Teams",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:21",
+         "price": {
+          "current": 18.69,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$18.69"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12082438337000952547",
+          "data_docid": "4555596616784621057",
+          "gid": "14573953987435420087"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Nobody Believes You : Become a Leader People Will Follow",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-7a66f2e2214d:22",
+         "price": {
+          "current": 16.98,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$16.98"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "696714930266199905",
+          "data_docid": "14559196034283571001",
+          "gid": "9850228950486409832"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+       "domain": "elon.libguides.com",
+       "title": "Classic Leadership Books",
+       "url": "https://elon.libguides.com/c.php?g=964540&p=8145827",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://elon.libguides.com \u203a c.php",
+       "website_name": "LibGuides",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 11, 2026 \u2014 Leadership Classics \u00b7 Man's search for meaning : an introduction to logotherapy by Harold S. \u00b7 The Art of War by Sun-tzu; Lionel Giles (\u00a0... Read more",
+       "pre_snippet": "08/11/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Leadership Classics"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://elon.libguides.com/c.php?g=964540&p=8145827#:~:text=Leadership%20Classics&text=Man's%20search%20for%20meaning%20%3A,to%20logotherapy%20by%20Harold%20S.&text=The%20Art%20of%20War%20by,Sun-tzu%3B%20Lionel%20Giles%20(Translator)",
+         "domain": "elon.libguides.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-11 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+       "domain": "leadershipbooks.com",
+       "title": "Selling Best Leadership Books for All Time | LeadershipBooks ...",
+       "url": "https://leadershipbooks.com/?srsltid=AU7gw4XFnMjkDsxvQTgCD1ZYs6QVW20TjJa5DDWAe8ma7mL0wg9uWwbO",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://leadershipbooks.com",
+       "website_name": "LeadershipBooks.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Leadership books sells thoughtful relevant business, finance, thought Leader and Christian leadership books of all time.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 17,
+        "regular": null,
+        "max_value": 122,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$17 to $122"
+       },
+       "highlighted": [
+        "Leadership books",
+        "leadership books"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Autographed Books",
+         "description": null,
+         "url": "https://leadershipbooks.com/collections/autographed-books",
+         "domain": "leadershipbooks.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Books by Thought Leaders",
+         "description": null,
+         "url": "https://leadershipbooks.com/collections/thought-leaders",
+         "domain": "leadershipbooks.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Books by Business Leaders",
+         "description": null,
+         "url": "https://leadershipbooks.com/collections/business-books-2026",
+         "domain": "leadershipbooks.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+       "domain": "coache.gse.harvard.edu",
+       "title": "Ten Books to Inspire and Support Your Leadership Journey",
+       "url": "https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://coache.gse.harvard.edu \u203a news \u203a 2025/08 \u203a ten-b...",
+       "website_name": "Harvard University",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 26, 2025 \u2014 Ten Books to Inspire and Support Your Leadership Journey \u00b7 How to Chair a Department (Higher Ed Leadership Essentials) by Kevin Dettmar \u00b7 What\u00a0... Read more",
+       "pre_snippet": "08/26/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How to Chair a Department (Higher Ed Leadership Essentials) by Kevin Dettmar"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://coache.gse.harvard.edu/news/2025/08/ten-books-inspire-and-support-your-leadership-journey#:~:text=Ten%20Books%20to%20Inspire%20and,Support%20Your%20Leadership%20Journey&text=How%20to%20Chair%20a%20Department,Leadership%20Essentials)%20by%20Kevin%20Dettmar&text=What%20We%20Value%3A%20The%20Neuroscience,and%20Change%20by%20Emily%20Falk",
+         "domain": "coache.gse.harvard.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-08-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+       "domain": "www.porchlightbooks.com",
+       "title": "Leadership Books",
+       "url": "https://www.porchlightbooks.com/collections/leadership",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.porchlightbooks.com \u203a collections \u203a leaders...",
+       "website_name": "Porchlight Book Company",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Lessons of Daring Leadership, the Tenacity of Paradox, and the Wisdom of the Human Spirit Bren\u00e9 Brown. Browse our book customization options and ideas here.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 25,
+        "regular": null,
+        "max_value": 45,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$25 to $45"
+       },
+       "highlighted": [
+        "Leadership",
+        "book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+       "domain": "shop.ccl.org",
+       "title": "Leadership Development Books | Shop Now - CCL.org",
+       "url": "https://shop.ccl.org/usa/books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://shop.ccl.org \u203a usa \u203a books",
+       "website_name": "Center for Creative Leadership",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Our books on leadership development help leaders meet the challenges of today's organizations and turn those challenges into\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1,
+        "rating_max": 5
+       },
+       "price": {
+        "current": 16,
+        "regular": null,
+        "max_value": 495,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$16 to $495"
+       },
+       "highlighted": [
+        "help leaders meet the challenges of today's organizations"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://shop.ccl.org/usa/books#:~:text=Our%20books%20on%20leadership%20development,turn%20those%20challenges%20into%20opportunities.",
+         "domain": "shop.ccl.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[20]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The 3 Best Leadership Books That Changed My Work & Life",
+       "url": "https://www.youtube.com/watch?v=UxgLCTB65EU",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "7.1K+ views  \u00b7  1 year ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Eric Partaker",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-10-27 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Top 5 leadership books of all time",
+        "Leadership books PDF",
+        "Leadership books John Maxwell",
+        "Best leadership books",
+        "Leadership books for women",
+        "Leadership books for managers",
+        "Best leadership books for new leaders",
+        "Free Leadership books"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

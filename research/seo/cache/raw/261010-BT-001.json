@@ -1,0 +1,6209 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0 sec.",
+ "cost": 0,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101448-2633-0110-0000-5f87b8a25338",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0 sec.",
+   "cost": 0,
+   "result_count": 86,
+   "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "task_get",
+    "10101448-2633-0110-0000-5f87b8a25338"
+   ],
+   "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "location_code": 2840,
+    "language_code": "en",
+    "tag": "book-topics-2026-10-10",
+    "keywords": [
+     "ux research books",
+     "best ux research books",
+     "books on ux research",
+     "user research books",
+     "usability books",
+     "ux design books",
+     "best ux design books",
+     "books for ux designers",
+     "books on ux design",
+     "ui design books",
+     "best ui design books",
+     "ui ux books",
+     "books on ui design",
+     "web design books",
+     "interaction design books",
+     "design systems books",
+     "design system book",
+     "best design systems books",
+     "books on design systems",
+     "atomic design book",
+     "accessibility books",
+     "web accessibility books",
+     "best accessibility books",
+     "books on accessibility",
+     "inclusive design books",
+     "books for product managers",
+     "books on product management",
+     "product manager books",
+     "product management book recommendations",
+     "product strategy books",
+     "best product strategy books",
+     "books on product strategy",
+     "strategy books",
+     "business strategy books",
+     "product discovery books",
+     "best product discovery books",
+     "books on product discovery",
+     "customer discovery books",
+     "lean startup books",
+     "project management books",
+     "best project management books",
+     "books on project management",
+     "agile books",
+     "scrum books",
+     "books for project managers",
+     "product analytics books",
+     "okr books",
+     "data analytics books",
+     "books on metrics",
+     "best okr books",
+     "analytics books",
+     "growth books",
+     "pricing books",
+     "growth hacking books",
+     "books on pricing",
+     "best pricing books",
+     "saas books",
+     "product marketing books",
+     "best product marketing books",
+     "marketing books",
+     "best marketing books",
+     "books on marketing",
+     "leadership books",
+     "management books",
+     "best leadership books",
+     "best management books",
+     "books on leadership",
+     "books for new managers",
+     "behavioral design books",
+     "behavioral economics books",
+     "behavioral psychology books",
+     "psychology books for designers",
+     "books on behavioral science",
+     "behavioral science books",
+     "startup books",
+     "best startup books",
+     "entrepreneurship books",
+     "best business books",
+     "books for entrepreneurs",
+     "business books",
+     "productivity books",
+     "best productivity books",
+     "self improvement books",
+     "personal development books",
+     "books on productivity",
+     "self help books"
+    ]
+   },
+   "result": [
+    {
+     "keyword": "ux research books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 90,
+     "search_volume": 90,
+     "low_top_of_page_bid": 0.97,
+     "high_top_of_page_bid": 7.72,
+     "cpc": 3.4,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 260
+      }
+     ]
+    },
+    {
+     "keyword": "best ux research books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 47,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "books on ux research",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "user research books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 48,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "usability books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "ux design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 61,
+     "search_volume": 390,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 5.79,
+     "cpc": 1.15,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "best ux design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 26,
+     "search_volume": 140,
+     "low_top_of_page_bid": 0.38,
+     "high_top_of_page_bid": 5.54,
+     "cpc": 4.36,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 140
+      }
+     ]
+    },
+    {
+     "keyword": "books for ux designers",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 29,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "books on ux design",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 61,
+     "search_volume": 390,
+     "low_top_of_page_bid": 0.37,
+     "high_top_of_page_bid": 5.79,
+     "cpc": 1.15,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "ui design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 13,
+     "search_volume": 140,
+     "low_top_of_page_bid": 1.89,
+     "high_top_of_page_bid": 12.53,
+     "cpc": 2.13,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "best ui design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 17,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.36,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "ui ux books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 20,
+     "search_volume": 40,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 9.2,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "books on ui design",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 13,
+     "search_volume": 140,
+     "low_top_of_page_bid": 1.89,
+     "high_top_of_page_bid": 12.53,
+     "cpc": 2.13,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "web design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 66,
+     "search_volume": 210,
+     "low_top_of_page_bid": 2.72,
+     "high_top_of_page_bid": 15,
+     "cpc": 2.18,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "interaction design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 80,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.65,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "design systems books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 28,
+     "search_volume": 70,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 1.24,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "design system book",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 28,
+     "search_volume": 70,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 1.24,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 70
+      }
+     ]
+    },
+    {
+     "keyword": "best design systems books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "books on design systems",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 33,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 0
+      }
+     ]
+    },
+    {
+     "keyword": "atomic design book",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 90,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 90
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 110
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 90
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "accessibility books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 1,
+     "search_volume": 390,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 390
+      }
+     ]
+    },
+    {
+     "keyword": "web accessibility books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "best accessibility books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "books on accessibility",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "inclusive design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 31,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.06,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "books for product managers",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 93,
+     "search_volume": 590,
+     "low_top_of_page_bid": 1.07,
+     "high_top_of_page_bid": 4.83,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "books on product management",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 93,
+     "search_volume": 590,
+     "low_top_of_page_bid": 1.07,
+     "high_top_of_page_bid": 4.83,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "product manager books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 93,
+     "search_volume": 590,
+     "low_top_of_page_bid": 1.07,
+     "high_top_of_page_bid": 4.83,
+     "cpc": 1.12,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "product management book recommendations",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 0
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "product strategy books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 49,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.53,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 30
+      }
+     ]
+    },
+    {
+     "keyword": "best product strategy books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "books on product strategy",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 81,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "strategy books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 79,
+     "search_volume": 590,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 6.15,
+     "cpc": 1.21,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "business strategy books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 90,
+     "search_volume": 480,
+     "low_top_of_page_bid": 2.39,
+     "high_top_of_page_bid": 7.96,
+     "cpc": 1.83,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 590
+      }
+     ]
+    },
+    {
+     "keyword": "product discovery books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 80,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.35,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "best product discovery books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "books on product discovery",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "customer discovery books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "lean startup books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 52,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.62,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "project management books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.48,
+     "high_top_of_page_bid": 6.59,
+     "cpc": 1.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "best project management books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 94,
+     "search_volume": 480,
+     "low_top_of_page_bid": 0.46,
+     "high_top_of_page_bid": 5.8,
+     "cpc": 2.8,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "books on project management",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.48,
+     "high_top_of_page_bid": 6.59,
+     "cpc": 1.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "agile books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 88,
+     "search_volume": 170,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 6.43,
+     "cpc": 0.4,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 260
+      }
+     ]
+    },
+    {
+     "keyword": "scrum books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 91,
+     "search_volume": 320,
+     "low_top_of_page_bid": 0.31,
+     "high_top_of_page_bid": 3.43,
+     "cpc": 1.05,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 480
+      }
+     ]
+    },
+    {
+     "keyword": "books for project managers",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.48,
+     "high_top_of_page_bid": 6.59,
+     "cpc": 1.32,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "product analytics books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 61,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 17.24,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 20
+      }
+     ]
+    },
+    {
+     "keyword": "okr books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 27,
+     "search_volume": 390,
+     "low_top_of_page_bid": 0.27,
+     "high_top_of_page_bid": 5.52,
+     "cpc": 1.23,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 590
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 720
+      }
+     ]
+    },
+    {
+     "keyword": "data analytics books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 390,
+     "low_top_of_page_bid": 2.77,
+     "high_top_of_page_bid": 8.76,
+     "cpc": 5.08,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 390
+      }
+     ]
+    },
+    {
+     "keyword": "books on metrics",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 0,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 0
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "best okr books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 29,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "analytics books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 60,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.28,
+     "high_top_of_page_bid": 7.38,
+     "cpc": 12.06,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "growth books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 32,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 1.84,
+     "high_top_of_page_bid": 14.79,
+     "cpc": 1.68,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "pricing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 14,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.28,
+     "high_top_of_page_bid": 3.26,
+     "cpc": 3.42,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 70
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "growth hacking books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 36,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.29,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 90
+      }
+     ]
+    },
+    {
+     "keyword": "books on pricing",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 43,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 2.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "best pricing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 32,
+     "search_volume": 20,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.45,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 20
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "saas books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 37,
+     "search_volume": 50,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.5,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 40
+      }
+     ]
+    },
+    {
+     "keyword": "product marketing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 78,
+     "search_volume": 50,
+     "low_top_of_page_bid": 0.2,
+     "high_top_of_page_bid": 6.29,
+     "cpc": 1.34,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 40
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 50
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 50
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 70
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "best product marketing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 46,
+     "search_volume": 30,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 30
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 20
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 30
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 50
+      }
+     ]
+    },
+    {
+     "keyword": "marketing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 86,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 1.01,
+     "high_top_of_page_bid": 9.94,
+     "cpc": 3.01,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "best marketing books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 53,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 0.35,
+     "high_top_of_page_bid": 9.05,
+     "cpc": 3.27,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1300
+      }
+     ]
+    },
+    {
+     "keyword": "books on marketing",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 86,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 1.01,
+     "high_top_of_page_bid": 9.94,
+     "cpc": 3.01,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "leadership books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 84,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.13,
+     "high_top_of_page_bid": 1.92,
+     "cpc": 0.71,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "management books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 59,
+     "search_volume": 2900,
+     "low_top_of_page_bid": 0.47,
+     "high_top_of_page_bid": 4.93,
+     "cpc": 2.66,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 3600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2900
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2900
+      }
+     ]
+    },
+    {
+     "keyword": "best leadership books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 95,
+     "search_volume": 5400,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 2.33,
+     "cpc": 1.08,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 6600
+      }
+     ]
+    },
+    {
+     "keyword": "best management books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 95,
+     "search_volume": 1000,
+     "low_top_of_page_bid": 0.15,
+     "high_top_of_page_bid": 2.44,
+     "cpc": 1.19,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "books on leadership",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 84,
+     "search_volume": 14800,
+     "low_top_of_page_bid": 0.13,
+     "high_top_of_page_bid": 1.92,
+     "cpc": 0.71,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 14800
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 18100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 22200
+      }
+     ]
+    },
+    {
+     "keyword": "books for new managers",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 100,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.28,
+     "high_top_of_page_bid": 3.68,
+     "cpc": 0.88,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 590
+      }
+     ]
+    },
+    {
+     "keyword": "behavioral design books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 20,
+     "search_volume": 10,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": 0.17,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 10
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 10
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 10
+      }
+     ]
+    },
+    {
+     "keyword": "behavioral economics books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 20,
+     "search_volume": 1300,
+     "low_top_of_page_bid": 0.22,
+     "high_top_of_page_bid": 0.89,
+     "cpc": 0.46,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1000
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 1300
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1600
+      }
+     ]
+    },
+    {
+     "keyword": "behavioral psychology books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 96,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.24,
+     "high_top_of_page_bid": 2.81,
+     "cpc": 1.05,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 210
+      }
+     ]
+    },
+    {
+     "keyword": "psychology books for designers",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": null,
+     "competition_index": null,
+     "search_volume": null,
+     "low_top_of_page_bid": null,
+     "high_top_of_page_bid": null,
+     "cpc": null,
+     "monthly_searches": null
+    },
+    {
+     "keyword": "books on behavioral science",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 62,
+     "search_volume": 320,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 3,
+     "cpc": 0.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "behavioral science books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 62,
+     "search_volume": 320,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 3,
+     "cpc": 0.69,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 110
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 140
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 480
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 210
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 170
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 140
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 170
+      }
+     ]
+    },
+    {
+     "keyword": "startup books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "LOW",
+     "competition_index": 28,
+     "search_volume": 8100,
+     "low_top_of_page_bid": 0.34,
+     "high_top_of_page_bid": 8.13,
+     "cpc": 0.39,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 880
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 22200
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 33100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 22200
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 6600
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 320
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "best startup books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 44,
+     "search_volume": 260,
+     "low_top_of_page_bid": 0.29,
+     "high_top_of_page_bid": 3.13,
+     "cpc": 2.9,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 210
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 320
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 170
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 260
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 320
+      }
+     ]
+    },
+    {
+     "keyword": "entrepreneurship books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 94,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 4.46,
+     "cpc": 1.07,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "best business books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 82,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.12,
+     "high_top_of_page_bid": 1.75,
+     "cpc": 1.01,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "books for entrepreneurs",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 94,
+     "search_volume": 1900,
+     "low_top_of_page_bid": 0.23,
+     "high_top_of_page_bid": 4.46,
+     "cpc": 1.07,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 1600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 2400
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1900
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 1900
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 2400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 2400
+      }
+     ]
+    },
+    {
+     "keyword": "business books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 83,
+     "search_volume": 3600,
+     "low_top_of_page_bid": 0.86,
+     "high_top_of_page_bid": 42.14,
+     "cpc": 15.94,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 2900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 3600
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 4400
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 4400
+      }
+     ]
+    },
+    {
+     "keyword": "productivity books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 72,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.05,
+     "high_top_of_page_bid": 0.7,
+     "cpc": 0.38,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "best productivity books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 42,
+     "search_volume": 590,
+     "low_top_of_page_bid": 0.06,
+     "high_top_of_page_bid": 0.82,
+     "cpc": 0.43,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 260
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 480
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 390
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 880
+      }
+     ]
+    },
+    {
+     "keyword": "self improvement books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 48,
+     "search_volume": 12100,
+     "low_top_of_page_bid": 0.08,
+     "high_top_of_page_bid": 1.43,
+     "cpc": 0.65,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 33100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 12100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 14800
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 12100
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 9900
+      }
+     ]
+    },
+    {
+     "keyword": "personal development books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "MEDIUM",
+     "competition_index": 62,
+     "search_volume": 9900,
+     "low_top_of_page_bid": 0.08,
+     "high_top_of_page_bid": 1.42,
+     "cpc": 0.67,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 5400
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 4400
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 9900
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 8100
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 8100
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 5400
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 40500
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 14800
+      }
+     ]
+    },
+    {
+     "keyword": "books on productivity",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 72,
+     "search_volume": 880,
+     "low_top_of_page_bid": 0.05,
+     "high_top_of_page_bid": 0.7,
+     "cpc": 0.38,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 390
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 590
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 720
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 1300
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 1000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 1600
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 880
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 720
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 1000
+      }
+     ]
+    },
+    {
+     "keyword": "self help books",
+     "spell": null,
+     "location_code": 2840,
+     "language_code": "en",
+     "search_partners": false,
+     "competition": "HIGH",
+     "competition_index": 91,
+     "search_volume": 60500,
+     "low_top_of_page_bid": 0.06,
+     "high_top_of_page_bid": 0.52,
+     "cpc": 0.6,
+     "monthly_searches": [
+      {
+       "year": 2026,
+       "month": 8,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 7,
+       "search_volume": 18100
+      },
+      {
+       "year": 2026,
+       "month": 6,
+       "search_volume": 27100
+      },
+      {
+       "year": 2026,
+       "month": 5,
+       "search_volume": 49500
+      },
+      {
+       "year": 2026,
+       "month": 4,
+       "search_volume": 49500
+      },
+      {
+       "year": 2026,
+       "month": 3,
+       "search_volume": 49500
+      },
+      {
+       "year": 2026,
+       "month": 2,
+       "search_volume": 74000
+      },
+      {
+       "year": 2026,
+       "month": 1,
+       "search_volume": 90500
+      },
+      {
+       "year": 2025,
+       "month": 12,
+       "search_volume": 90500
+      },
+      {
+       "year": 2025,
+       "month": 11,
+       "search_volume": 60500
+      },
+      {
+       "year": 2025,
+       "month": 10,
+       "search_volume": 74000
+      },
+      {
+       "year": 2025,
+       "month": 9,
+       "search_volume": 110000
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

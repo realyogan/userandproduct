@@ -1,0 +1,1374 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0453 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-4bae5b66e8c5",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0229 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-4bae5b66e8c5"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "pricing books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-price",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "pricing books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=pricing%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:00 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=pricing+books+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqDXByaWNpbmcgYm9va3MyEwgGEgdPbiBzYWxlGAIiBEoCGAFY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAF6BAggED4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyGwgBEgtOb24tZmljdGlvbjoKCMupOhDNqTowAljbqSBgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAJ6BAggED8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=pricing+books+nearby&hl=en&gl=US&shoprs=GAMqDXByaWNpbmcgYm9va3MyDAgDEgZOZWFyYnkYAljbqSBgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAN6BAggEEA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCggSEgZPbmxpbmVgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAR6BAggEEE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCAgSEgRGcmVlYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAV6BAggEEI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $60",
+        "url": "https://www.google.com/search?q=pricing+books+under+$60&hl=en&gl=US&shoprs=Eg0SCxEAAAAAOJyMQRgBGAUqDXByaWNpbmcgYm9va3MyIggFEglVbmRlciAkNjAYAiINEgsRAAAAADicjEEYASoCGAFY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAZ6BAggEEM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+pricing+books&hl=en&gl=US&shoprs=GAoqDXByaWNpbmcgYm9va3MyBwgKEgNOZXdY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAd6BAggEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+pricing+books&hl=en&gl=US&shoprs=GAoqDXByaWNpbmcgYm9va3MyCAgKEgRVc2VkWNupIGAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAh6BAggEEU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Barnes & Noble",
+        "url": "https://www.google.com/search?q=barnes+%26+noble+pricing+books&hl=en&gl=US&shoprs=GAIqDXByaWNpbmcgYm9va3MyEggCEg5CYXJuZXMgJiBOb2JsZVjbqSBgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAl6BAggEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCwgSEgdSZXZpZXdzYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAp6BAggEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "History",
+        "url": "https://www.google.com/search?q=history+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyFwgBEgdIaXN0b3J5OgoIzqk6EOOpOjACWNupIGAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAt6BAggEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Store",
+        "url": "https://www.google.com/search?q=store+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCQgSEgVTdG9yZWAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKAx6BAggEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyFwgBEgVCbGFjazoMCNiM9QEQ5Yr1ATALWNupIGAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKA16BAggEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyBwgSEgNCdXlgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKA56BAggEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Classic",
+        "url": "https://www.google.com/search?q=classic+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCwgSEgdDbGFzc2ljYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKA96BAggEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=pricing+books&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFABkgBGBQqDXByaWNpbmcgYm9va3MyJQgUEgxHZXQgaXQgdG9kYXkiDZoBCgoIEAA4AUAGSAEqBBABGAFgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBB6BAggEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=pricing+books+for+sale&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyDAgSEghGb3IgU2FsZWAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBF6BAggEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Adult",
+        "url": "https://www.google.com/search?q=adult+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCQgSEgVBZHVsdGAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBJ6BAggEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Woman",
+        "url": "https://www.google.com/search?q=woman+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCQgSEgVXb21hbmAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBN6BAggEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Custom",
+        "url": "https://www.google.com/search?q=custom+pricing+books&hl=en&gl=US&shoprs=GBIqDXByaWNpbmcgYm9va3MyCggSEgZDdXN0b21gAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBR6BAggEFI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Self-help",
+        "url": "https://www.google.com/search?q=self-help+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyGQgBEglTZWxmLWhlbHA6CgjOqToQka06MAJY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBV6BAggEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyFggBEgRCbHVlOgwI2Iz1ARDmivUBMAtY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBZ6BAggEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Target",
+        "url": "https://www.google.com/search?q=target+pricing+books&hl=en&gl=US&shoprs=GAIqDXByaWNpbmcgYm9va3MyCggCEgZUYXJnZXRY26kgYAE&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBd6BAggEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "audible.com",
+        "url": "https://www.google.com/search?q=audible.com+pricing+books&hl=en&gl=US&shoprs=GAIqDXByaWNpbmcgYm9va3MyDwgCEgthdWRpYmxlLmNvbVjbqSBgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBh6BAggEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyFQgBEgNSZWQ6DAjYjPUBEOeK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBl6BAggEFk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "White",
+        "url": "https://www.google.com/search?q=white+pricing+books&hl=en&gl=US&shoprs=GAEqDXByaWNpbmcgYm9va3MyFwgBEgVXaGl0ZToMCNiM9QEQoYv1ATALWNupIGAB&sa=X&ved=2ahUKEwiS1pOh2a-XAxXKB7kGHVDCPVMQip4GKBp6BAggEFo",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 122,
+     "pages_count": 1,
+     "items_count": 14,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "You can compare and track book prices across online sellers using [BookFinder.com](https://www.bookfinder.com/) or [DealOz](https://www.dealoz.com/).[[1]](https://www.dealoz.com/)[[2]](https://www.bookfinder.com/)\n\n- **Paperback books:** Usually range from **$8 to $20** , depending on the publisher and release date.\n- **Hardcover books:** Typically cost **$25 to $30+** for new releases.\n- **Used or peer-to-peer copies:** Often available for **$2 to $10** through secondary marketplaces.[[1]](https://www.facebook.com/usatodayvideo/videos/as-book-prices-climb-publishers-authors-and-readers-grapple-with-inflation-chang/1668012131149084/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop)[[3]](https://www.google.com/search?q=product&prds=pvt:hg,productid:4287797567860555580,catalogid:7400695790023927102,gpcid:12728760204550666775,mid:576462531153706702&ibp=oshop)\n\n### Best Websites to Find and Compare Book Prices\n\n- **General Price Comparison:** BookFinder.com searches dozens of booksellers at once for new, used, rare, and out-of-print editions.[[1]](https://www.bookfinder.com/)\n- **Multi-Category Deals:** DealOz helps you compare prices for fiction, non-fiction, and academic titles.[[1]](https://www.dealoz.com/)\n- **Book Price Aggregator:** [AllBookstores](https://www.allbookstores.com/) compares online prices to show the lowest available cost and list price savings.[[1]](https://www.allbookstores.com/)\n- **Textbook Savings:** [SlugBooks](https://www.slugbooks.com/) compares prices across textbook rental and purchase sites to find cheap student options.[[1]](https://www.slugbooks.com/)\n- **Used Peer-to-Peer:** Platforms like [PangoBooks](https://pangobooks.com/) let readers buy and sell second-hand or new copies directly from other people at steep discounts.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop)\n\nIf you want a specific price check, tell me:\n\n- The **title and author** of the book you want\n- Whether you prefer **paperback, hardcover, or e-book** \n- If you are looking for **new or used**",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "You can compare and track book prices across online sellers using BookFinder.com or DealOz.",
+         "markdown": "You can compare and track book prices across online sellers using [BookFinder.com](https://www.bookfinder.com/) or [DealOz](https://www.dealoz.com/).[[1]](https://www.dealoz.com/)[[2]](https://www.bookfinder.com/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "BookFinder.com",
+           "description": null,
+           "url": "https://www.bookfinder.com/",
+           "domain": "www.bookfinder.com"
+          },
+          {
+           "type": "link_element",
+           "title": "DealOz",
+           "description": null,
+           "url": "https://www.dealoz.com/",
+           "domain": "www.dealoz.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "DealOz",
+           "domain": "www.dealoz.com",
+           "url": "https://www.dealoz.com/",
+           "title": "DealOz",
+           "text": "DealOz * Mystery, Thriller & Suspense More $6.49 $14.95 $9.63 $17.99 $7.75 $18.99 $2.62 $6.49 $18.99 * Law More $7.85 $35.00 $8.98..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "BookFinder.com",
+           "domain": "www.bookfinder.com",
+           "url": "https://www.bookfinder.com/",
+           "title": "BookFinder.com",
+           "text": "Compare Book Prices Online Croatian Kuna Czech Koruna Danish Krone East Caribbean Dollar Euro Fiji Dollar Hong Kong Dollar Hungari..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Paperback books: Usually range from $8 to $20, depending on the publisher and release date. Hardcover books: Typically cost $25 to $30+ for new releases. Used or peer-to-peer copies: Often available for $2 to $10 through secondary marketplaces.",
+         "markdown": "- **Paperback books:** Usually range from **$8 to $20** , depending on the publisher and release date.\n- **Hardcover books:** Typically cost **$25 to $30+** for new releases.\n- **Used or peer-to-peer copies:** Often available for **$2 to $10** through secondary marketplaces.[[1]](https://www.facebook.com/usatodayvideo/videos/as-book-prices-climb-publishers-authors-and-readers-grapple-with-inflation-chang/1668012131149084/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop)[[3]](https://www.google.com/search?q=product&prds=pvt:hg,productid:4287797567860555580,catalogid:7400695790023927102,gpcid:12728760204550666775,mid:576462531153706702&ibp=oshop)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Facebook",
+           "domain": "www.facebook.com",
+           "url": "https://www.facebook.com/usatodayvideo/videos/as-book-prices-climb-publishers-authors-and-readers-grapple-with-inflation-chang/1668012131149084/",
+           "title": "As book prices climb, publishers, authors and readers grapple with ...",
+           "text": "As book prices climb, publishers, authors and readers grapple with inflation, changing habits and what a novel is really worth. | ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop",
+           "title": "The Alchemist by Paulo Coelho",
+           "text": "Paulo Coelho's novel, The Alchemist, 25th Anniversary Edition, continues to captivate readers around the globe with its enchanting..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:4287797567860555580,catalogid:7400695790023927102,gpcid:12728760204550666775,mid:576462531153706702&ibp=oshop",
+           "title": "The Great Gatsby",
+           "text": "The only edition of the beloved classic that is authorized by Fitzgerald\u2019s family and from his lifelong publisher. This edition is..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Best Websites to Find and Compare Book Prices",
+         "markdown": "### Best Websites to Find and Compare Book Prices",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "General Price Comparison: BookFinder.com searches dozens of booksellers at once for new, used, rare, and out-of-print editions. Multi-Category Deals: DealOz helps you compare prices for fiction, non-fiction, and academic titles. Book Price Aggregator: AllBookstores compares online prices to show the lowest available cost and list price savings. Textbook Savings: SlugBooks compares prices across textbook rental and purchase sites to find cheap student options. Used Peer-to-Peer: Platforms like PangoBooks let readers buy and sell second-hand or new copies directly from other people at steep discounts.",
+         "markdown": "- **General Price Comparison:** BookFinder.com searches dozens of booksellers at once for new, used, rare, and out-of-print editions.[[1]](https://www.bookfinder.com/)\n- **Multi-Category Deals:** DealOz helps you compare prices for fiction, non-fiction, and academic titles.[[1]](https://www.dealoz.com/)\n- **Book Price Aggregator:** [AllBookstores](https://www.allbookstores.com/) compares online prices to show the lowest available cost and list price savings.[[1]](https://www.allbookstores.com/)\n- **Textbook Savings:** [SlugBooks](https://www.slugbooks.com/) compares prices across textbook rental and purchase sites to find cheap student options.[[1]](https://www.slugbooks.com/)\n- **Used Peer-to-Peer:** Platforms like [PangoBooks](https://pangobooks.com/) let readers buy and sell second-hand or new copies directly from other people at steep discounts.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "AllBookstores",
+           "description": null,
+           "url": "https://www.allbookstores.com/",
+           "domain": "www.allbookstores.com"
+          },
+          {
+           "type": "link_element",
+           "title": "SlugBooks",
+           "description": null,
+           "url": "https://www.slugbooks.com/",
+           "domain": "www.slugbooks.com"
+          },
+          {
+           "type": "link_element",
+           "title": "PangoBooks",
+           "description": null,
+           "url": "https://pangobooks.com/",
+           "domain": "pangobooks.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "BookFinder.com",
+           "domain": "www.bookfinder.com",
+           "url": "https://www.bookfinder.com/",
+           "title": "BookFinder.com",
+           "text": "Compare Book Prices Online Croatian Kuna Czech Koruna Danish Krone East Caribbean Dollar Euro Fiji Dollar Hong Kong Dollar Hungari..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "DealOz",
+           "domain": "www.dealoz.com",
+           "url": "https://www.dealoz.com/",
+           "title": "DealOz",
+           "text": "DealOz * Mystery, Thriller & Suspense More $6.49 $14.95 $9.63 $17.99 $7.75 $18.99 $2.62 $6.49 $18.99 * Law More $7.85 $35.00 $8.98..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AllBookstores",
+           "domain": "www.allbookstores.com",
+           "url": "https://www.allbookstores.com/",
+           "title": "AllBookstores",
+           "text": "Table_title: Featured Books Table_content: | In Stock Now! | Best Price | List Price | Save! | | --- | --- | --- | --- | | INNER E..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "SlugBooks",
+           "domain": "www.slugbooks.com",
+           "url": "https://www.slugbooks.com/",
+           "title": "SlugBooks",
+           "text": "Compare prices between all of our online options including: * Textbooks are overpriced ...but they don't have to be. SlugBooks lev..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop",
+           "title": "The Alchemist by Paulo Coelho",
+           "text": "Paulo Coelho's novel, The Alchemist, 25th Anniversary Edition, continues to captivate readers around the globe with its enchanting..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want a specific price check, tell me:The title and author of the book you want\nWhether you prefer paperback, hardcover, or e-book\nIf you are looking for new or used",
+         "markdown": "If you want a specific price check, tell me:\n\n- The **title and author** of the book you want\n- Whether you prefer **paperback, hardcover, or e-book** \n- If you are looking for **new or used**",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "BookFinder.com",
+         "domain": "www.bookfinder.com",
+         "url": "https://www.bookfinder.com/",
+         "title": "BookFinder.com",
+         "text": "Compare Book Prices Online Croatian Kuna Czech Koruna Danish Krone East Caribbean Dollar Euro Fiji Dollar Hong Kong Dollar Hungari..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "DealOz",
+         "domain": "www.dealoz.com",
+         "url": "https://www.dealoz.com/",
+         "title": "DealOz",
+         "text": "DealOz * Mystery, Thriller & Suspense More $6.49 $14.95 $9.63 $17.99 $7.75 $18.99 $2.62 $6.49 $18.99 * Law More $7.85 $35.00 $8.98..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "AllBookstores",
+         "domain": "www.allbookstores.com",
+         "url": "https://www.allbookstores.com/",
+         "title": "AllBookstores",
+         "text": "Table_title: Featured Books Table_content: | In Stock Now! | Best Price | List Price | Save! | | --- | --- | --- | --- | | INNER E..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "SlugBooks",
+         "domain": "www.slugbooks.com",
+         "url": "https://www.slugbooks.com/",
+         "title": "SlugBooks",
+         "text": "Compare prices between all of our online options including: * Textbooks are overpriced ...but they don't have to be. SlugBooks lev..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Facebook",
+         "domain": "www.facebook.com",
+         "url": "https://www.facebook.com/usatodayvideo/videos/as-book-prices-climb-publishers-authors-and-readers-grapple-with-inflation-chang/1668012131149084/",
+         "title": "As book prices climb, publishers, authors and readers grapple with ...",
+         "text": "As book prices climb, publishers, authors and readers grapple with inflation, changing habits and what a novel is really worth. | ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:12857820148734661180,catalogid:508029339336427792,gpcid:16695165909218956280,mid:4657621&ibp=oshop",
+         "title": "The Alchemist by Paulo Coelho",
+         "text": "Paulo Coelho's novel, The Alchemist, 25th Anniversary Edition, continues to captivate readers around the globe with its enchanting..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:4287797567860555580,catalogid:7400695790023927102,gpcid:12728760204550666775,mid:576462531153706702&ibp=oshop",
+         "title": "The Great Gatsby",
+         "text": "The only edition of the beloved classic that is authorized by Fitzgerald\u2019s family and from his lifelong publisher. This edition is..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "Street Pricing Blue Ocean Strategy\u2026 | Marcos Rivera",
+       "url": "https://www.linkedin.com/posts/marcoslrivera_the-best-pricing-leaders-are-readers-activity-7305565800604606465-cXPt",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "140+ reactions  \u00b7  1 year ago",
+       "website_name": "LinkedIn\u00a0\u00b7\u00a0Marcos Rivera",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "12 books every SaaS pricing expert should read. The Pricing Roadmap \u2192 Month 2: Street Pricing Blue Ocean Strategy \u2192 Month 3: The Cold Start\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "12 books every SaaS pricing expert should read"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.quora.com",
+       "title": "What are the best books on pricing strategy?",
+       "url": "https://www.quora.com/What-are-the-best-books-on-pricing-strategy",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ answers  \u00b7  10 years ago",
+       "website_name": "Quora",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What are the best books on pricing strategy?",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "36 answers",
+         "description": null,
+         "url": "https://www.quora.com/What-are-the-best-books-on-pricing-strategy?top_ans=110796430",
+         "domain": "www.quora.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Fearless Pricing: Ignite Your Team, Own Your Value, and Command What You Deserve (Hardcover) by Brown, Casey",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:0",
+         "price": {
+          "current": 12.27,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.27"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "4487461218181467229",
+          "data_docid": "16288040324490695289",
+          "gid": "5694263178264389694"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Art of Pricing, New Edition: How to Find The Hidden Profits to Gro",
+         "url": null,
+         "domain": null,
+         "description": "Professional Pricing Society & more",
+         "more_sellers": true,
+         "seller": "Professional Pricing Society",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:1",
+         "price": {
+          "current": 20,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12486051450745097694",
+          "data_docid": "14699630267990687773",
+          "gid": "1667867549112819663"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Pricing Book : Why you're undercharging, What it's costing you and The exact framework to fix it.",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:2",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17357049159781204067",
+          "data_docid": "9883322799228990876",
+          "gid": "4177317853541348920"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Pricing",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:3",
+         "price": {
+          "current": 38.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$38.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13900206670641198091",
+          "data_docid": "686363852344895667",
+          "gid": "3447543913295177896"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Confessions Of The Pricing Man: : How Price Affects Everything - Audiobook",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:4",
+         "price": {
+          "current": 37.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$37.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "12918633178594668776",
+          "data_docid": "15832731345124310751",
+          "gid": "465428137333959909"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Pricing for Success: The 7-step plan for winning more customers at better prices by Mark Peacock",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy\nFree delivery",
+         "more_sellers": false,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:5",
+         "price": {
+          "current": 22.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$22.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9489511012570535033",
+          "data_docid": "5326382349822694861",
+          "gid": "200775723590049696"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Price and Value (eBook)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:6",
+         "price": {
+          "current": 37.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$37.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10190208621592044733",
+          "data_docid": "8378947122212037027",
+          "gid": "9125432055778546757"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Cost Estimating and Pricing (Actionpack) (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Berrett-Koehler Publishers & more",
+         "more_sellers": true,
+         "seller": "Berrett-Koehler Publishers",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:7",
+         "price": {
+          "current": 15.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$15.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16775805098970188873",
+          "data_docid": "14907145938933462049",
+          "gid": "6123851509020444639"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Pricing Done Right (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Professional Pricing Society & more",
+         "more_sellers": true,
+         "seller": "Professional Pricing Society",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:8",
+         "price": {
+          "current": 65,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$65.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "1475319709264675014",
+          "data_docid": "15287659967184697028",
+          "gid": "1451224662228835702"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Profitable Pricing Guide",
+         "url": null,
+         "domain": null,
+         "description": "Dreamless Hair\nFree delivery on $350+",
+         "more_sellers": false,
+         "seller": "Dreamless Hair",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:9",
+         "price": {
+          "current": 19.97,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.97"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "1623375408247511282",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Pricing Playbook : A Practical Guide to Revenue Growth Management in The Age of AI",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:10",
+         "price": {
+          "current": 36.49,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$36.49"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6239069426758383810",
+          "data_docid": "7540757574854823833",
+          "gid": "10317287271824946366"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Pricing Power How to Set Prices That Maximize Profit Without Losing Customers",
+         "url": null,
+         "domain": null,
+         "description": "Bookshop.org & more",
+         "more_sellers": true,
+         "seller": "Bookshop.org",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:11",
+         "price": {
+          "current": 29.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$29.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13089508391176543277",
+          "data_docid": "13826031463388253025",
+          "gid": "8928917442820627696"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Pricing Decoded How Leading Pricing Practitioners Manage Price to Boost Profits",
+         "url": null,
+         "domain": null,
+         "description": "Professional Pricing Society & more",
+         "more_sellers": true,
+         "seller": "Professional Pricing Society",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:12",
+         "price": {
+          "current": 33.95,
+          "regular": null,
+          "max_value": 42,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$33.95 Usually $42"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6075823750601614905",
+          "data_docid": "7557053639921273327",
+          "gid": "16104408755926793910"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Artists & Profit Makers Guide to Pricing: Master The numbers, shift your mindset, and price your art",
+         "url": null,
+         "domain": null,
+         "description": "Walmart - Alibris Books & more",
+         "more_sellers": true,
+         "seller": "Walmart - Alibris Books",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:13",
+         "price": {
+          "current": 24.61,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.61"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16478704105214203567",
+          "data_docid": "17553458095958068834",
+          "gid": "7208959938914286192"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Fearless Pricing",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:14",
+         "price": {
+          "current": 29.49,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$29.49"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5807022979809984284",
+          "data_docid": "15423908929130182638",
+          "gid": "18279990042345985979"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Price Advantage",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-4bae5b66e8c5:15",
+         "price": {
+          "current": 50,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$50.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5131142609979048744",
+          "data_docid": "5480903127317509384",
+          "gid": "13923173874485970213"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the average price of books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the 5 finger rule for books?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book on price action?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to get books in cheap rate?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "pressbooks.lib.vt.edu",
+       "title": "Chapter 15 Pricing Strategy \u2013 Fundamentals of Business, ...",
+       "url": "https://pressbooks.lib.vt.edu/fundamentalsofbusiness4e/chapter/chapter-15-pricing-strategy/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://pressbooks.lib.vt.edu \u203a chapter \u203a chapter-15-pric...",
+       "website_name": "Virginia Tech",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Identify pricing strategies that are appropriate for new and existing products. [1] Skimming and Penetration Pricing \u2026 cost-based pricing, demand-based pricing ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "pricing",
+        "Pricing"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Pricing for Profit: How to Develop a Powerful ...",
+       "url": "https://www.amazon.com/Pricing-Profit-Powerful-Strategy-Business/dp/0749467673",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a Pricing-Profit-Powerful-Strat...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Pricing for Profit is the most practical guide on pricing available. Using a firm, profit-focused framework developed running real projects for real businesses\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Pricing for Profit"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "blog.blackcurve.com",
+       "title": "What Pricing Books Should I Be Reading? - Blog - BlackCurve",
+       "url": "https://blog.blackcurve.com/what-pricing-books-should-i-be-reading",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://blog.blackcurve.com \u203a what-pricing-books-shou...",
+       "website_name": "BlackCurve",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 31, 2018 \u2014 The Secrets to Not Competing on Price by James T Squire. The Strategy and Tactics of Pricing: A Guide to Growing. Confessions of the Pricing\u00a0...",
+       "pre_snippet": "01/31/2018 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Secrets to Not Competing on Price by James T Squire"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2018-01-31 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "iipbooks.com",
+       "title": "Book Pricing Strategies That Actually Work in Publishing",
+       "url": "https://iipbooks.com/blogs/view/book-pricing-strategies-that-actually-work-in-publishing",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://iipbooks.com \u203a blogs \u203a view \u203a book-pricing-strate...",
+       "website_name": "Iterative International Publishers",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The most successful method of pricing a book is to combine the three principles of pricing: Market Evaluation, Reader Sentiment/Market Emotion, and Long-Term\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "pricing",
+        "book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "verde-beach.com",
+       "title": "Pricing Strategy Book The Strategy and Tactics of Pricing ...",
+       "url": "https://verde-beach.com/products/pricing-strategy-book-the-strategy-and-tactics-of-pricing-6th-edition-37fd88",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://verde-beach.com \u203a products \u203a pricing-strategy-bo...",
+       "website_name": "verde-beach.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "6th Edition 1 $35.00 $174.99Save \u2026 guide on setting profitable price points. This textbook bridges academic theories and real-world executive decisions to help\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.2,
+        "votes_count": 448,
+        "rating_max": 5
+       },
+       "price": {
+        "current": 35,
+        "regular": null,
+        "max_value": null,
+        "currency": "USD",
+        "is_price_range": false,
+        "displayed_price": "$35.00"
+       },
+       "highlighted": [
+        "guide on setting profitable price points"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Pricing Strategy: How to price a product - Books",
+       "url": "https://www.amazon.com/Pricing-Strategy-How-price-product/dp/146818119X",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a Pricing-Strategy-How-price-...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "With the 9 rules and other information on how to price a product in this book you should have a strategy which will help increase sales and profits.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "how to price a product"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+       "domain": "www.facebook.com",
+       "title": "Easy pricing model for books?",
+       "url": "https://www.facebook.com/groups/496943608606523/posts/1473133974320810/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "3 comments  \u00b7  7 months ago",
+       "website_name": "Facebook\u00a0\u00b7\u00a0PangoBooks Users",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Does anyone have a easy pricing model?\nLike set prices for kids, paperback, bundles, adult\u2026. Etc etc",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Pricing strategy book PDF",
+        "Best pricing books",
+        "Pricing strategy PDF",
+        "Pricing strategies",
+        "Pricing strategy in marketing",
+        "The Strategy and Tactics of Pricing",
+        "Basics of business book"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

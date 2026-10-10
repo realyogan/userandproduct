@@ -1,46 +1,53 @@
 {
   "version": 1,
-  "run_id": "book-tree",
-  "title": "Book shelf tree",
+  "run_id": "book-topics-seo",
+  "title": "Book topics: search demand",
   "state": "finished",
-  "started": "2026-10-10T20:05+05:30",
-  "updated": "2026-10-10T20:32+05:30",
-  "note": "Finished: book-shelf-tree-2026-10-10.html in research/explainers/",
+  "started": "2026-10-10T20:18+05:30",
+  "updated": "2026-10-10T20:24+05:30",
+  "note": "Finished: book-topics-summary-2026-10-10.md in research/seo/keywords/",
   "steps": [
     {
       "n": 1,
-      "title": "Read",
+      "title": "Cache check",
       "status": "done",
-      "note": "181 books, 16 categories and shelves, tokens read",
-      "time": "20:10"
+      "note": "90 phrases; 4 volumes and 3 head SERPs fresh in cache (8 Oct); 86 volumes and 13 SERPs to fetch",
+      "time": "20:18"
     },
     {
       "n": 2,
-      "title": "Map",
+      "title": "Volumes",
       "status": "done",
-      "note": "All 181 placed; no remaps needed; 43 books flagged with a second home",
-      "time": "20:25"
+      "note": "86 volumes back ($0.060); 4 reused; balance $20.12592",
+      "time": "20:19"
     },
     {
       "n": 3,
-      "title": "Build",
+      "title": "SERPs",
       "status": "done",
-      "note": "Page built: four branches, 16 categories and shelves, cards, filters",
-      "time": "20:25"
+      "note": "14 new SERPs collected, 4 reused; all 18 pages carry an AI overview",
+      "time": "20:21"
     },
     {
       "n": 4,
-      "title": "Checks",
+      "title": "Rank",
       "status": "done",
-      "note": "181 once each; counts add to 181; keyboard ok; no overflow at 375 px; HTTP 200",
-      "time": "20:32"
+      "note": "Ranked: ten to launch, six to follow",
+      "time": "20:24"
     },
     {
       "n": 5,
+      "title": "Write",
+      "status": "done",
+      "note": "Summary written",
+      "time": "20:24"
+    },
+    {
+      "n": 6,
       "title": "Finished",
       "status": "done",
-      "note": "Page and README entry written",
-      "time": "20:32"
+      "note": "Finished: book-topics-summary-2026-10-10.md in research/seo/keywords/",
+      "time": "20:24"
     }
   ]
 }

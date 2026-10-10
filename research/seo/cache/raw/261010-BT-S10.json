@@ -1,0 +1,1588 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0360 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-babe8ff16535",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0182 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-babe8ff16535"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "management books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-mgmt",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "management books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=management%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:57 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "Best",
+        "url": "https://www.google.com/search?q=best+management+books&hl=en&gl=US&shoprs=CAESBWIDCJADGBMqEG1hbmFnZW1lbnQgYm9va3MyDwgTEgRCZXN0IgViAwiQA2AB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAF6BAgdEEE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczIICBISBEZyZWVgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAJ6BAgdEEI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczIKCBISBk9ubGluZWAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAN6BAgdEEM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=management+books+nearby&hl=en&gl=US&shoprs=CAEYAyoQbWFuYWdlbWVudCBib29rczIMCAMSBk5lYXJieRgCWNupIGAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAR6BAgdEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=management+books+sale&hl=en&gl=US&shoprs=CAESBEoCGAEYBioQbWFuYWdlbWVudCBib29rczITCAYSB09uIHNhbGUYAiIESgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAV6BAgdEEU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIbCAESC05vbi1maWN0aW9uOgoIy6k6EM2pOjACWNupIGAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAZ6BAgdEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Adult",
+        "url": "https://www.google.com/search?q=adult+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczIJCBISBUFkdWx0YAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAd6BAgdEEc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczILCBISB1Jldmlld3NgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAh6BAgdEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIXCAESBUJsYWNrOgwI2Iz1ARDlivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAl6BAgdEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=management+books&hl=en&gl=US&shoprs=CAESDZoBCgoIEAA4AUAGSAEYFCoQbWFuYWdlbWVudCBib29rczIlCBQSDEdldCBpdCB0b2RheSINmgEKCggQADgBQAZIASoEEAEYAWAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAp6BAgdEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $100",
+        "url": "https://www.google.com/search?q=management+books+under+$100&hl=en&gl=US&shoprs=CAESDRILEQAAAACE15dBGAEYBSoQbWFuYWdlbWVudCBib29rczIjCAUSClVuZGVyICQxMDAYAiINEgsRAAAAAITXl0EYASoCGAFY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAt6BAgdEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+management+books&hl=en&gl=US&shoprs=CAEYCioQbWFuYWdlbWVudCBib29rczIHCAoSA05ld1jbqSBgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKAx6BAgdEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+management+books&hl=en&gl=US&shoprs=CAEYCioQbWFuYWdlbWVudCBib29rczIICAoSBFVzZWRY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKA16BAgdEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczIHCBISA0J1eWAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKA56BAgdEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Target",
+        "url": "https://www.google.com/search?q=target+management+books&hl=en&gl=US&shoprs=CAEYAioQbWFuYWdlbWVudCBib29rczIKCAISBlRhcmdldFjbqSBgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKA96BAgdEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIWCAESBEJsdWU6DAjYjPUBEOaK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBB6BAgdEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Barnes & Noble",
+        "url": "https://www.google.com/search?q=barnes+%26+noble+management+books&hl=en&gl=US&shoprs=CAEYAioQbWFuYWdlbWVudCBib29rczISCAISDkJhcm5lcyAmIE5vYmxlWNupIGAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBF6BAgdEFI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=management+books+for+sale&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczIMCBISCEZvciBTYWxlYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBJ6BAgdEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Toddler",
+        "url": "https://www.google.com/search?q=toddler+management+books&hl=en&gl=US&shoprs=CAEYEioQbWFuYWdlbWVudCBib29rczILCBISB1RvZGRsZXJgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBN6BAgdEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Green",
+        "url": "https://www.google.com/search?q=green+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIXCAESBUdyZWVuOgwI2Iz1ARDoivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBR6BAgdEFY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Brown",
+        "url": "https://www.google.com/search?q=brown+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIXCAESBUJyb3duOgwI2Iz1ARDrivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBV6BAgdEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Gray",
+        "url": "https://www.google.com/search?q=gray+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIWCAESBEdyYXk6DAjYjPUBEOqK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBZ6BAgdEFg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "audible.com",
+        "url": "https://www.google.com/search?q=audible.com+management+books&hl=en&gl=US&shoprs=CAEYAioQbWFuYWdlbWVudCBib29rczIPCAISC2F1ZGlibGUuY29tWNupIGAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBd6BAgdEFk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Business",
+        "url": "https://www.google.com/search?q=business+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIYCAESCEJ1c2luZXNzOgoIzqk6ENapOjACWNupIGAB&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBh6BAgdEFs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Walmart",
+        "url": "https://www.google.com/search?q=walmart+management+books&hl=en&gl=US&shoprs=CAEYAioQbWFuYWdlbWVudCBib29rczILCAISB1dhbG1hcnRY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBl6BAgdEFw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Science",
+        "url": "https://www.google.com/search?q=science+management+books&hl=en&gl=US&shoprs=CAEYASoQbWFuYWdlbWVudCBib29rczIXCAESB1NjaWVuY2U6CgjOqToQkK06MAJY26kgYAE&sa=X&ved=2ahUKEwjdvpeg2a-XAxUCrZUCHejRELwQip4GKBp6BAgdEF4",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "discussions_and_forums",
+      "related_searches"
+     ],
+     "se_results_count": 124,
+     "pages_count": 1,
+     "items_count": 15,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "blog.uwcped.org",
+       "title": "21 Must-Read Books for Managers",
+       "url": "https://blog.uwcped.org/must-read-books-for-managers-this-summer/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://blog.uwcped.org \u203a Culture & Leadership",
+       "website_name": "UWCPED.Org",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 13, 2023 \u2014 The Manager's Dilemma: A Manager's Guide to Change Management. By Steve King. When an organization enacts a change, managers can often feel\u00a0... Read more",
+       "pre_snippet": "12/13/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Manager's Dilemma: A Manager's Guide to Change Management"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://blog.uwcped.org/must-read-books-for-managers-this-summer/#:~:text=The%20Manager's%20Dilemma%3A%20A%20Manager's,to%20getting%20teams%20on%20board.",
+         "domain": "blog.uwcped.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-12-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+       "domain": "bulkbooks.com",
+       "title": "Management & Leadership",
+       "url": "https://bulkbooks.com/categories/business/management-and-leadership?srsltid=AU7gw4VDjdmA1PZfpS7S-JOpwNFoy9ZaVf2-wddTGDkqUpf33r7fyz8x",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bulkbooks.com \u203a categories \u203a business \u203a manage...",
+       "website_name": "BulkBooks",
+       "is_image": true,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_image"
+       ],
+       "description": "Buy Management & Leadership books in bulk: Big Little Breakthroughs, On the Edge, Leading from the Middle. 205 titles at wholesale prices,\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": [
+        {
+         "type": "images_element",
+         "alt": "management books from bulkbooks.com",
+         "url": "https://bulkbooks.com/categories/business/management-and-leadership?srsltid=AU7gw4VDjdmA1PZfpS7S-JOpwNFoy9ZaVf2-wddTGDkqUpf33r7fyz8x",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:0"
+        }
+       ],
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 371,
+        "regular": null,
+        "max_value": 472,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$371 to $472"
+       },
+       "highlighted": [
+        "Management & Leadership books in bulk"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Management 16th Edition",
+         "url": null,
+         "domain": null,
+         "description": "Pearson eBook & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Pearson eBook",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:1",
+         "price": {
+          "current": 64.98,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$64.98"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3644673599978439293",
+          "data_docid": "13277328860895896690",
+          "gid": "10826474273208902760"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Fundamentals of Management",
+         "url": null,
+         "domain": null,
+         "description": "bkstr.com & more",
+         "more_sellers": true,
+         "seller": "bkstr.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:2",
+         "price": {
+          "current": 77.49,
+          "regular": null,
+          "max_value": 102,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$77.49 Usually $102"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "17354590943070838254",
+          "data_docid": "12016643170007016807",
+          "gid": "719877709603420852"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management",
+         "url": null,
+         "domain": null,
+         "description": "Pearson.com & more",
+         "more_sellers": true,
+         "seller": "Pearson.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:3",
+         "price": {
+          "current": 64.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$64.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10726773509216996244",
+          "data_docid": "11457771025849148220",
+          "gid": "5761367583929363205"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management (The Brian Tracy Success Library)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:4",
+         "price": {
+          "current": 10.58,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$10.58"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9374229446827462006",
+          "data_docid": "6093260861827330360",
+          "gid": "756983105775240812"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Making of a Manager : What to Do When Everyone Looks to You",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:5",
+         "price": {
+          "current": 20,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 272,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "7510719482136008440",
+          "data_docid": "690346824775912470",
+          "gid": "8787860269065621501"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management: Leading & Collaborating in a Competitive World",
+         "url": null,
+         "domain": null,
+         "description": "Walmart - ThriftBooks & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Walmart - ThriftBooks",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:6",
+         "price": {
+          "current": 9.11,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.11"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.4,
+          "votes_count": 7,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "17547778065848121760",
+          "data_docid": "8878005978928454060",
+          "gid": "7413535755045119849"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Manager Method: A Practical Framework to Lead, Support, and Get Results by Ashley Herd (Hardcover)",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:7",
+         "price": {
+          "current": 27.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$27.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "9725509236736823720",
+          "data_docid": "16491209884025690981",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Welcome to Management",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:8",
+         "price": {
+          "current": 6,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$6.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.4,
+          "votes_count": 7,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "3511806173107818475",
+          "data_docid": "7481601977142712478",
+          "gid": "7275991319778892037"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Manager's Handbook (Five Simple Steps to Build a Team, Stay Focused, Make Better Decisions, and Crush Your Competition)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - NOOK & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - NOOK",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:9",
+         "price": {
+          "current": 18,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$18.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.2,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4673653193455642093",
+          "data_docid": "3325670868749290265",
+          "gid": "17546860141265167828"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "First, Break All The Rules - What the World's Greatest Managers Do Differently - Hardback",
+         "url": null,
+         "domain": null,
+         "description": "ReaderHouse & more",
+         "more_sellers": true,
+         "seller": "ReaderHouse",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-babe8ff16535:10",
+         "price": {
+          "current": 36,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$36.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.9,
+          "votes_count": 8,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "18307388323909900665",
+          "data_docid": "873388025961880035",
+          "gid": "5192902709261748533"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The 5 Best Management Books To Read in 2025",
+       "url": "https://www.youtube.com/watch?v=VAG8fII9Tso",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "22.1K+ views  \u00b7  5 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Rick Kettner",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-05-19 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+       "domain": "www.dummies.com",
+       "title": "Best Management Books and Articles",
+       "url": "https://www.dummies.com/category/books/management-34242/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.dummies.com \u203a ... \u203a Business",
+       "website_name": "Dummies books",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Articles & Books From Management \u00b7 Leading When You Have No Authority, Which Is Most of the Time \u00b7 Leading with Empathy For Dummies \u00b7 Leading with Empathy For\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Articles & Books From Management"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.dummies.com/category/books/management-34242/#:~:text=Quick%20Links&text=Quick%20Links&text=Quick%20Links&text=Quick%20Links",
+         "domain": "www.dummies.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]",
+       "domain": "appfluence.com",
+       "title": "Top 5 Best Management Books",
+       "url": "https://appfluence.com/productivity/top-5-best-management-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://appfluence.com \u203a Blog",
+       "website_name": "Priority Matrix",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "How to Win Friends and Influence People by Dale Carnegie \u00b7 On Becoming a Leader by Warren G. Bennis \u00b7 Growing a Business by Paul Hawken \u00b7 Management: Tasks,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How to Win Friends and Influence People by Dale Carnegie"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://appfluence.com/productivity/top-5-best-management-books/#:~:text=How%20to%20Win%20Friends%20and,Influence%20People%20by%20Dale%20Carnegie&text=On%20Becoming%20a%20Leader%20by,Warren%20G.%20Bennis&text=Growing%20a%20Business%20by%20Paul,Hawken&text=Management%3A%20Tasks%2C%20Responsibilities%2C%20Practices%20by,Peter%20Drucker",
+         "domain": "appfluence.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What books do CEO's read?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What's the best management style?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Which book is best for money management?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are 5 books everyone should read?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "discussions_and_forums",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]",
+       "title": "Discussions and forums",
+       "items": [
+        {
+         "type": "discussions_and_forums_element",
+         "title": "Name some influential books you've read which helped shape you as a ...",
+         "url": "https://www.reddit.com/r/managers/comments/1m7k033/name_some_influential_books_youve_read_which/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2025-10-10 14:49:57 +00:00",
+         "posts_count": 40
+        },
+        {
+         "type": "discussions_and_forums_element",
+         "title": "Any book recommendations for new managers?",
+         "url": "https://www.reddit.com/r/managers/comments/17irnab/any_book_recommendations_for_new_managers/",
+         "domain": "www.reddit.com",
+         "source": "Reddit",
+         "description": null,
+         "timestamp": "2024-10-10 14:49:57 +00:00",
+         "posts_count": 160
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]",
+       "domain": "www.everand.com",
+       "title": "Management Best Sellers: Books & Audiobooks",
+       "url": "https://www.everand.com/bestsellers/Business/Management",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.everand.com \u203a bestsellers \u203a Business \u203a Mana...",
+       "website_name": "Everand",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Management \u00b7 The 7 Habits of Highly Effective People \u00b7 Never Split the Difference \u00b7 Difficult Conversations \u00b7 The Effective Executive \u00b7 Measure What Matters. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Management"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.everand.com/bestsellers/Business/Management#:~:text=Management&text=The%207%20Habits%20of%20Highly,Effective%20People&text=Never%20Split%20the%20Difference&text=Difficult%20Conversations&text=The%20Effective%20Executive&text=Measure%20What%20Matters",
+         "domain": "www.everand.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Common Sense Management (ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2UZmEObd9lLOnt0X20QxUB7w94H-u1MAFaNRX0_JHx5aN7xfHEUyTIbfhOEmKLwkgrv2Zc7Y9lKsMznhS_TZcTteiUdVkyjQKm6RiV2v1fQVo0qAVVJye",
+         "price": {
+          "current": 12.39,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.39"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "14466854724600726503",
+          "data_docid": "11396324603325192486",
+          "gid": "8161614504758270136"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Myth of Management",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSHw1nZDpwbu0mkXdP4YAfxXm8FNxXHBYeeEmll_t9IWWsug5O9A-rb5ScPuU9udZ4OfO--LBcAyBH0wQLg_MPvlFM6FUEG3SK4TbE57jAkE0AcYz4ORP-L",
+         "price": {
+          "current": 34.9,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$34.90"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6832265585933616860",
+          "data_docid": "6140692052112854425",
+          "gid": "2297530538487711639"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Five Management Principles in One Cread: A Management Guide to Live By",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1OxYzAPJ9XOJYpZs8Lt6fuLxaSH6ZWQ9_QlhsISxCFzTFEitx3s-NlsO4_ybjx7HGRRgyg2_0uH2zLTfXI9eIRnNM8drfwuHmcQtg-s4z_pDZyctCISBP2w",
+         "price": {
+          "current": 9.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "10045487266650087818",
+          "data_docid": "11932211052979996396",
+          "gid": "14246304589546463143"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Manager Method: A Practical Framework to Lead, Support, and Get Results; Audiobook (Digital); Author - Ashley Herd",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - NOOK & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - NOOK",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSapVwSfk4aDBr1Ku4Jcs8zxHJNvcsmWQcFXR108X_sELLQ2nmYgTKgGWyaQMwgTTzepIVAg6BpsPHX_-GoCJRhmPGCAEes61fM39MysEg",
+         "price": {
+          "current": 16.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$16.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11733383453852207147",
+          "data_docid": "17163388649471673553",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Principles of Management",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR6O8dz6Pss_yuA-r_cNjNOazO4jP3pIkPfPBN0JTkEmThW2oWJkD5llQntGgn-bF1VvKUEh_3CQjixEjPMfe-vBp_w1brLGBmEtogO9dIg4NcM07onCU8v",
+         "price": {
+          "current": 234.62,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$234.62"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "3382166875462668053",
+          "data_docid": "2433332011376822929",
+          "gid": "14560287350668583344"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management Mess to Leadership Success (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcThIDlSsiurQbGjvCtO3lGo8bsXw50U6eV8MTLXV0qD0IFr2JX4Q0xjCEswPCAkODbyIrS-Jov5MwZT9z25OqI8P0A07vWfbnU23ueOFCH4rpqBSC2RT3a1EA",
+         "price": {
+          "current": 14.53,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.53"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 3,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10325766176230496012",
+          "data_docid": "1804643732310310398",
+          "gid": "8219403853834625822"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management (Tasks, Responsibilities, Practices)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQi_kJ790jUTXYQ_mcynWsgZRnluU2XyzAXQYPU5rzxDDyIx-pn5cLT-dP201MLPVH3IlRY3RebvWBv8S75den1M20vV0qbGj55G_Qfean8LIp6Zldf62RV",
+         "price": {
+          "current": 21.24,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$21.24"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.5,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "11736925255369823662",
+          "data_docid": "7413390941522348693",
+          "gid": "766129451960363621"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Little Black Book of Management : Essential Tools for Getting Results NOW",
+         "url": null,
+         "domain": null,
+         "description": "Strand Book Store & more",
+         "more_sellers": true,
+         "seller": "Strand Book Store",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRll7p-18Z_RAg4CK1pPAKN7ikqc4yl63hQOeiP85LSzVNsqsBiU-Cvwqfzanq3Uo-vJRJsFfAVWR0jnZI1_EjNefMcesnqF6h5gvd0gTU",
+         "price": {
+          "current": 30,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$30.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "1276994391081462521",
+          "data_docid": "7119697302364394888",
+          "gid": "2864198969996761"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management Reimagined - by Kenneth Anderson (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzrxPjjv_fNrAWCNlH8LUKXnVyd6dByEKUcwV-SErQrg4POTNKww7EKdbmr0IuBstI-mC08vc8HVh6pIVG6KH-eFGmGqQooNNHPI03QJbnwfUhmWJchwqkRg",
+         "price": {
+          "current": 20.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12521926814566158580",
+          "data_docid": "200581543110453973",
+          "gid": "9193784512111646240"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Practical Management for Everyday Success : A Hands-On Guide for New and Experienced Managers",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTAIpsyQCSKRDN-TTSwxk_Sdv_CwRs6pvTy99UrE5D3yxGYAYBBQHW1VuV0oTxYwNd0NXRtcSxpGNKKX_C0C4dwXi_n4Ci_TP5tw0nzo_HcXQZB-IbPnh3EzA",
+         "price": {
+          "current": 13.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17852734997955863860",
+          "data_docid": "1830469555762727611",
+          "gid": "8600197281048022475"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]",
+       "domain": "www.proofhub.com",
+       "title": "12 Best books that every manager should read to grow",
+       "url": "https://www.proofhub.com/articles/books-every-manager-should-read",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.proofhub.com \u203a articles \u203a books-every-man...",
+       "website_name": "ProofHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 18, 2024 \u2014 1. How to win friends and influence people \u00b7 2. The five dysfunctions of a team \u00b7 3. The 21 irrefutable laws of leadership \u00b7 4. The art of war \u00b7 5. Read more",
+       "pre_snippet": "09/18/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How to win friends and influence people"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.proofhub.com/articles/books-every-manager-should-read#:~:text=1.%20How%20to%20win%20friends,and%20influence%20people&text=2.%20The%20five%20dysfunctions%20of,a%20team&text=3.%20The%2021%20irrefutable%20laws,of%20leadership&text=4.%20The%20art%20of%20war&text=5.%20Becoming%20a%20Manager",
+         "domain": "www.proofhub.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-09-18 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 3,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[23]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "The Effective Manager : Completely Revised and Updated",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSUuoSA7hNRFL9o8Ln8583x7Y3sbaeNGv4Qw4Rtw379EvMa0hwozSWWnDIhc4yJzwDWydS1tNomk47ebBTzQchYXUcOjmbY2rKpkimDm4ZQzDoWooFYtrgDEw",
+         "price": {
+          "current": 15.56,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$15.56"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 3.5,
+          "votes_count": 2,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4537236141349175723",
+          "data_docid": "10722343491635463817",
+          "gid": "10167047626444793973"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Shitty Truth About Management : Lessons in Leadership, Logistics, and Absolute Absurdity",
+         "url": null,
+         "domain": null,
+         "description": "Bookshop.org & more",
+         "more_sellers": true,
+         "seller": "Bookshop.org",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpcxGaz6tw6JikWDioUn5d1G0fjvsP09WjIFdN6RvESGX1Ly1npAL98zfG4fcW0EokJYEu5H1Jpxv2cErxEVID77tEpXVEEhy9ztKMiBTFGKyaoRTAA8qw5g",
+         "price": {
+          "current": 15.83,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$15.83"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13274361123042134460",
+          "data_docid": "2980919430151059496",
+          "gid": "3073993895167664132"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "HBR's 10 Must Reads 2025",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQplQRy4agGHLHywH7ZKPdL5baOxpCn15AubhMTh7MAhDBqEGnf9sX_bmSHaFNuv83O-_1_2SJJK8zDYnqDWIv9X1zbmmBoe3FdfrK5zZ0TAHPZlNTIO2PSqQ",
+         "price": {
+          "current": 23.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$23.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11595906850727950663",
+          "data_docid": "13645614775089523798",
+          "gid": "14522228622679047797"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Ultimate Management Book (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Audible.com & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Audible.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiVnrc4a8in07uu6EuSPxfGPfVdLtQe1NF6Ch6b_QG7xwwh-vYfxpJZTtoLLph88Ad-f5wSeVLVLND-w0Y-IIESI1Y6qy5Uja8WpN2UM9ug9qAgRpk5HD9",
+         "price": {
+          "current": 20.21,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$20.21"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9624742979986029919",
+          "data_docid": "7126363321116687563",
+          "gid": "6364562159981391494"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management 101 (Ebook)",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT67XNzA8F9Bq1cKonDUiR_tqn06LSSfmAKQdSv_kHfII_rM7T0fZvq4Cfsw5irO4ESwIAQ8vXzQaWBqoW3-PSfLvJIQWkd4plc_E3VGw4",
+         "price": {
+          "current": 14.11,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.11"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 79,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "6071918969951841277",
+          "data_docid": "8651270916639265967",
+          "gid": "7405245570729040245"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management (eBook Rental)",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4EpmGSuugHXWFjRc-6wsR4GGwDLhuW8d_sEIApKqC9kjnVjSrmmGMf8WLnVJo0QcHyNOkWlJVdk8q3F98c2AjMfvw0zoBq266Mlm6WV_lAvgVmluw31tVdQ",
+         "price": {
+          "current": 4.29,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$4.29"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16130558208486955966",
+          "data_docid": "13784291862544930567",
+          "gid": "17835649170624918345"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Effective Manager - Skills And Strategies",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWPwtlqPvUzCwWneyKbpYxHZ7JDaeWJWa352_b9O-7Mwmeg3Fb6lihV0AZf2jdZfK77knYjpKT7LtiwMpDWQu1b2GrRiSeDoIzlZDNzwtYV4pIO7z1sMR-",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8265858757500028219",
+          "data_docid": "6684125115557623940",
+          "gid": "13518034583650669636"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Little Book of Big Management Theories (eBook)",
+         "url": null,
+         "domain": null,
+         "description": "bkstr.com & more",
+         "more_sellers": true,
+         "seller": "bkstr.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcShKgA5gCIRM9nCiWmbBPdYvKUQH2F5Hj1qyvvRRGzDjO5wgQBGMIqfoop3b_PqEX1JLb13ydf1MLOCPkwjhjC0zlPSuXsCjHv7mb7heGo",
+         "price": {
+          "current": 17.25,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$17.25"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "10878147715133864855",
+          "data_docid": "13553931914792311579",
+          "gid": "522407908535306731"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Management Fundamentals (eBook)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - Barnes and Noble - Heavy & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSfshKIE_kTooJia4xTl63DlKLh5yOBb9QALBztf0MdWPABJ0YbrcdtVbOvADIy7RAc6gnaesAqKEiLKYZHjUTvAbOXphzjxQfh5WL7klqlWpASwjzbQa3e",
+         "price": {
+          "current": 26.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$26.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17097527602300617324",
+          "data_docid": "15592858676464248166",
+          "gid": "6420733792994238115"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The New One Minute Manager",
+         "url": null,
+         "domain": null,
+         "description": "bkstr.com & more",
+         "more_sellers": true,
+         "seller": "bkstr.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgzUgjT5JJCXKz9Ikudf9Gf7gcp4d_YvBqaS0LYwmTmCK5IWy-JTz4fYDlAZnnqpnbak2tz90mtPLwxYFhAHj0HOb8MU3v",
+         "price": {
+          "current": 15.19,
+          "regular": null,
+          "max_value": 19,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$15.19 Usually $19"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.5,
+          "votes_count": 89,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "16620261202259096768",
+          "data_docid": "258073848688488728",
+          "gid": "11392371280319595419"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 14,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]",
+       "domain": "bookoutlet.com",
+       "title": "Discounted Management Books",
+       "url": "https://bookoutlet.com/collections/management?page=1&srsltid=AU7gw4W-wUVQZoQQNaz1vU7KaYed7SYGRIXuFpfV0IkfQFMGRWzaY1VQ",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bookoutlet.com \u203a Management",
+       "website_name": "Book Outlet",
+       "is_image": true,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_image"
+       ],
+       "description": "Find a wide selection of discounted Management books at Book Outlet. Shop our collection of well-loved titles and newer releases from your favorite authors.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": [
+        {
+         "type": "images_element",
+         "alt": "management books from bookoutlet.com",
+         "url": "https://bookoutlet.com/collections/management?page=1&srsltid=AU7gw4W-wUVQZoQQNaz1vU7KaYed7SYGRIXuFpfV0IkfQFMGRWzaY1VQ",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-z0sNewmQ_DN-CE2ByeFc1RHN_X8Ho2XaBwlp9mZ9B-LvclzGJat&usqp=CAE&s=10"
+        }
+       ],
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 4,
+        "regular": null,
+        "max_value": 12,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$4 to $12"
+       },
+       "highlighted": [
+        "discounted Management books at Book Outlet"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 15,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Management books pdf",
+        "Best management books",
+        "Management books free",
+        "The Making of a manager"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

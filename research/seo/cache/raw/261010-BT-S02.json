@@ -1,0 +1,1210 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0415 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-322174cd23c1",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0190 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-322174cd23c1"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "design systems books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-ds",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "design systems books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=design%20systems%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "images",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 171,
+     "pages_count": 1,
+     "items_count": 13,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Top books on **system design** , distributed architecture, and technical interviews include:\n\n\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:18)\n**Designing Data-Intensive Applications** by Martin Kleppmann: The gold standard for understanding the core technologies behind reliable, scalable, and maintainable data systems (covering replication, partitioning, and consistency models).\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:19)\n**System Design Interview: An Insider's Guide (Volumes 1 & 2)** by Alex Xu: A practical, structured breakdown of real-world architecture problems and interview frameworks.\n\n---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:20)\n**Fundamentals of Software Architecture** by Mark Richards and Neal Ford: An introduction to architectural characteristics, trade-offs, and structural patterns.\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMQLrQ8BmXYBABNkBfkLgrbTX4Q5G3is8mNfT4I0fb3KNytM4-cJFm2_ofDOk)\n**Understanding Distributed Systems** by Roberto Vitillo: A concise, modern guide to building and reasoning about distributed infrastructure.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQq-MtfcjOjT-fkxpjDSSzhNvp-ICdx82rpheHJOLTF-Y_ojRbgU9kbZlGINm8)\n**Building Microservices** by Sam Newman: Essential reading on service splitting, decomposition, and operational costs.\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhdAMuXEkLx9L2JbGwxg3mEdrnLAWFzJrS-uKQqszQdA5z_ikLxPe2UAkekcE)\n**Domain-Driven Design (\"The Blue Book\")** by Eric Evans: Focuses on tackling complex business domains and building modular, testable software models.[[1]](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/)[[2]](https://www.linkedin.com/posts/fernando-franco-4696708_six-books-that-will-teach-you-system-design-activity-7478818190555320321-la_Y)[[3]](https://www.geeksforgeeks.org/blogs/system-design-books/)[[4]](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/)[[5]](https://www.youtube.com/shorts/MnpMPLgrHiw)[[6]](https://www.youtube.com/shorts/xARnTy3KJTQ)\n\nAccording to community consensus on [Reddit](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/), *Designing Data-Intensive Applications* and *System Design Interview* form the most reliable foundation for both daily engineering and interviews.[[1]](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/)If you'd like to narrow this down, let me know:\n\n- Are you reading for a **technical interview** or **real-world architecture**?\n- What is your **current experience level** (mid-level, senior, etc.)?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top books on system design, distributed architecture, and technical interviews include:",
+         "markdown": "Top books on **system design** , distributed architecture, and technical interviews include:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Designing Data-Intensive Applications by Martin Kleppmann: The gold standard for understanding the core technologies behind reliable, scalable, and maintainable data systems (covering replication, partitioning, and consistency models).",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:9)\n**Designing Data-Intensive Applications** by Martin Kleppmann: The gold standard for understanding the core technologies behind reliable, scalable, and maintainable data systems (covering replication, partitioning, and consistency models).",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:10"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "System Design Interview: An Insider's Guide (Volumes 1 & 2) by Alex Xu: A practical, structured breakdown of real-world architecture problems and interview frameworks.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:11)\n**System Design Interview: An Insider's Guide (Volumes 1 & 2)** by Alex Xu: A practical, structured breakdown of real-world architecture problems and interview frameworks.",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:12"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Fundamentals of Software Architecture by Mark Richards and Neal Ford: An introduction to architectural characteristics, trade-offs, and structural patterns.",
+         "markdown": "---\n\n![](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:13)\n**Fundamentals of Software Architecture** by Mark Richards and Neal Ford: An introduction to architectural characteristics, trade-offs, and structural patterns.",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:14"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Understanding Distributed Systems by Roberto Vitillo: A concise, modern guide to building and reasoning about distributed infrastructure.",
+         "markdown": "---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMQLrQ8BmXYBABNkBfkLgrbTX4Q5G3is8mNfT4I0fb3KNytM4-cJFm2_ofDOk)\n**Understanding Distributed Systems** by Roberto Vitillo: A concise, modern guide to building and reasoning about distributed infrastructure.",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:15"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Building Microservices by Sam Newman: Essential reading on service splitting, decomposition, and operational costs.",
+         "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQq-MtfcjOjT-fkxpjDSSzhNvp-ICdx82rpheHJOLTF-Y_ojRbgU9kbZlGINm8)\n**Building Microservices** by Sam Newman: Essential reading on service splitting, decomposition, and operational costs.",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:16"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Domain-Driven Design (\"The Blue Book\") by Eric Evans: Focuses on tackling complex business domains and building modular, testable software models.",
+         "markdown": "---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhdAMuXEkLx9L2JbGwxg3mEdrnLAWFzJrS-uKQqszQdA5z_ikLxPe2UAkekcE)\n**Domain-Driven Design (\"The Blue Book\")** by Eric Evans: Focuses on tackling complex business domains and building modular, testable software models.[[1]](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/)[[2]](https://www.linkedin.com/posts/fernando-franco-4696708_six-books-that-will-teach-you-system-design-activity-7478818190555320321-la_Y)[[3]](https://www.geeksforgeeks.org/blogs/system-design-books/)[[4]](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/)[[5]](https://www.youtube.com/shorts/MnpMPLgrHiw)[[6]](https://www.youtube.com/shorts/xARnTy3KJTQ)",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": null,
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:17"
+          }
+         ],
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "According to community consensus on Reddit, Designing Data-Intensive Applications and System Design Interview form the most reliable foundation for both daily engineering and interviews.",
+         "markdown": "According to community consensus on [Reddit](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/), *Designing Data-Intensive Applications* and *System Design Interview* form the most reliable foundation for both daily engineering and interviews.[[1]](https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Reddit",
+           "description": null,
+           "url": "https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/",
+           "domain": "www.reddit.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Reddit",
+           "domain": "www.reddit.com",
+           "url": "https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/",
+           "title": "I need a book on Systems Design on which I can rely fully ... - Reddit",
+           "text": "Alternative Book Recommendations: Beyond *Designing Data-Intensive Applications*, other highly recommended books for systems desig..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like to narrow this down, let me know:Are you reading for a technical interview or real-world architecture ?\nWhat is your current experience level (mid-level, senior, etc.)?",
+         "markdown": "If you'd like to narrow this down, let me know:\n\n- Are you reading for a **technical interview** or **real-world architecture**?\n- What is your **current experience level** (mid-level, senior, etc.)?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/",
+         "title": "I need a book on Systems Design on which I can rely fully ... - Reddit",
+         "text": "Alternative Book Recommendations: Beyond *Designing Data-Intensive Applications*, other highly recommended books for systems desig..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "The Pragmatic Engineer",
+         "domain": "blog.pragmaticengineer.com",
+         "url": "https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/",
+         "title": "System Design Interview Book Review: Finally, a Book for Getting Better at Architecting Systems - The Pragmatic Engineer",
+         "text": "Book Review: System Design Interview: An Insider's Guide by Alex Xu (Volume 1 and 2); provides structured, real-world case studies..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "LinkedIn",
+         "domain": "www.linkedin.com",
+         "url": "https://www.linkedin.com/posts/fernando-franco-4696708_six-books-that-will-teach-you-system-design-activity-7478818190555320321-la_Y",
+         "title": "6 Books for System Design Knowledge Beyond Interviews | Fernando Franco posted on the topic | LinkedIn",
+         "text": "Recommended System Design Books: Designing Data-Intensive Applications by Martin Kleppmann (replication, partitioning, consistency..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "GeeksforGeeks",
+         "domain": "www.geeksforgeeks.org",
+         "url": "https://www.geeksforgeeks.org/blogs/system-design-books/",
+         "title": "System Design Books - GeeksforGeeks",
+         "text": "Recommended Books for System Design. The following books cover different areas of system design, software architecture, distribute..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/MnpMPLgrHiw",
+         "title": "5 books I'd recommend to every software engineer \ud83d\udc68\u200d\ud83d\udcbb\ud83d\udcda",
+         "text": "5 books I\u2019d recommend to every software engineer \ud83d\udc68\u200d\ud83d\udcbb\ud83d\udcda here are my top five recommendation of books for every software engineer ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/shorts/xARnTy3KJTQ",
+         "title": "5 Books Every Software Engineer MUST READ! \ud83d\udcda",
+         "text": "5 Books Every Software Engineer MUST READ! \ud83d\udcda five books that I think will help you to improve as a software developer. at number ..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "any good books out there on Design Systems? : r/UI_Design",
+       "url": "https://www.reddit.com/r/UI_Design/comments/prtwlx/any_good_books_out_there_on_design_systems/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "20+ comments  \u00b7  5 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/UI_Design",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Curious if there are any resources out there on mastering Design Systems.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "System design book recommendations? : r ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/ExperiencedDevs/comments/thh2x1/system_design_book_recommendations/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "I need a book on Systems Design on which I can rely ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/softwarearchitecture/comments/1rbltmo/i_need_a_book_on_systems_design_on_which_i_can/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=design+systems+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnug8heWRBO1vUFT5Gcq-nTd2vXBSg:1791643796069&sa=X&ved=2ahUKEwiO7pyg2a-XAxVTYPUHHZGKJBoQrQIoAnoECCQQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "The 10 best design system books",
+       "url": "https://medium.com/design-bootcamp/design-systems-books-8170a60d03b7",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "3 years ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Luda Boss",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The 10 best design system books \u00b7 01. Thinking in Systems \u00b7 02. Atomic Design \u00b7 03. Design Systems \u00b7 04. Design Systems Handbook \u00b7 05. Expressive\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "01. Thinking in Systems"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Design Systems",
+         "description": null,
+         "url": "https://medium.com/design-bootcamp/design-systems-books-8170a60d03b7#f9bf",
+         "domain": "medium.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Expressive Design Systems",
+         "description": null,
+         "url": "https://medium.com/design-bootcamp/design-systems-books-8170a60d03b7#a5cd",
+         "domain": "medium.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Building Design Systems...",
+         "description": null,
+         "url": "https://medium.com/design-bootcamp/design-systems-books-8170a60d03b7#7def",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.smashingmagazine.com",
+       "title": "Meet \u201cDesign Systems\u201d, A New Smashing Book",
+       "url": "https://www.smashingmagazine.com/design-systems-book/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.smashingmagazine.com \u203a design-systems-b...",
+       "website_name": "Smashing Magazine",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "\u201cDesign Systems\u201d is about how to approach your design process more systematically, and ensure your design system helps to achieve the purpose of your product\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 48.75,
+        "regular": null,
+        "max_value": null,
+        "currency": "USD",
+        "is_price_range": false,
+        "displayed_price": "$48.75"
+       },
+       "highlighted": [
+        "how to approach your design process more systematically"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.smashingmagazine.com/design-systems-book/#:~:text=%E2%80%9CDesign%20Systems%E2%80%9D%20is%20about%20how,the%20culture%20of%20your%20team.",
+         "domain": "www.smashingmagazine.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Design Systems: A practical guide for creating ...",
+       "url": "https://www.amazon.com/Design-Systems-practical-creating-languages/dp/3945749581",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a Design-Systems-practical-cre...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Design Systems : A practical guide for creating design languages for digital products [Kholmatova, Alla] on Amazon.com. *FREE* shipping on qualifying offers.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Design Systems"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnug8heWRBO1vUFT5Gcq-nTd2vXBSg:1791643796069&q=design+systems+books&udm=2&source=univ&fir=sXmayIAgV0L90M%252CcVZGcNM3M8LW0M%252C_%253BNNBGvrNk3scezM%252Cmtkx1Rho4fZTkM%252C_%253B5FtPE7LEfeplZM%252CEONjaB6RWx03BM%252C_%253B3TrIsSSN-FPIVM%252CcVZGcNM3M8LW0M%252C_%253BsIyAGyYB-QfukM%252CzlFz01GIVlC7WM%252C_%253BolxW-kyauogDtM%252CzlFz01GIVlC7WM%252C_%253BAr68if1QDx9NeM%252CcVZGcNM3M8LW0M%252C_%253BPkifOa_Z1QXarM%252C6lV4QDSFSTLuoM%252C_%253BDy_jlHH6_K1g7M%252C28p7sTN8xS5XKM%252C_&usg=AI4_-kQWOuTNc09L9myCNBWKTV8N79WM6g&sa=X&ved=2ahUKEwiO7pyg2a-XAxVTYPUHHZGKJBoQ7Al6BAhqEAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Meet \u201cDesign Systems\u201d, A New Smashing Book \u2014 Smashing Magazine",
+         "url": "https://www.smashingmagazine.com/design-systems-book/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:21"
+        },
+        {
+         "type": "images_element",
+         "alt": "Design Systems: A practical guide to creating design ...",
+         "url": "https://www.goodreads.com/book/show/35857970-design-systems",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:22"
+        },
+        {
+         "type": "images_element",
+         "alt": "The 10 best design system books. Books that help you ...",
+         "url": "https://medium.com/design-bootcamp/design-systems-books-8170a60d03b7",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:23"
+        },
+        {
+         "type": "images_element",
+         "alt": "Meet \u201cDesign Systems\u201d, A New Smashing Book \u2014 Smashing Magazine",
+         "url": "https://www.smashingmagazine.com/design-systems-book/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHFxF3oTxI40AxRiM8kELKRLMDQvD1pNXbfKq-QQmL3JaqK0pTwtb3TU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Books | Design Systems Repo",
+         "url": "https://designsystemsrepo.com/books/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEI-_Z7ghA0AJy_FQnsN2uNLKEUYDatYFmJEkgl4m58NIxfDwMBi7TGR0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Books | Design Systems Repo",
+         "url": "https://designsystemsrepo.com/books/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKNMzeiZ134TS-x9NArydgqWJ8y6SufZKujbNLtJEwrOaCAY167Vc2EE&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Meet \u201cDesign Systems\u201d, A New Smashing Book \u2014 Smashing Magazine",
+         "url": "https://www.smashingmagazine.com/design-systems-book/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3w_Sd4NalkgZkEL58ZmTNvxOIA6bQCGGz43D5IoKvdeGDu8ljA_8UPTY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "24 Books Every Modern UI Designer Should Read (2026 ...",
+         "url": "https://www.untitledui.com/blog/ui-design-books",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsGYywvIs1hmFKZ9JC8agxCWXI_SDyxLeCC4Lgj2SU3XCToyp2SQkERg&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "My Handpicked List With The Best Books On System Design ...",
+         "url": "https://engineerseekingfire.com/best-books-on-system-design/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWf3DbXJeDclIeE_-WQ_QmniwgNbO_OwoU3CAMQrl1rZ9e7LL94orzZk&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Design Systems - Ebook",
+         "url": "https://www.abebooks.com/servlet/BookDetailsPL?bi=32519733591&dest=USA",
+         "domain": "www.abebooks.com",
+         "description": "AbeBooks.com More",
+         "more_sellers": false,
+         "seller": "AbeBooks.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:24",
+         "price": {
+          "current": 27.92,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$27.92 Pre-owned"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6535273467540266610",
+          "data_docid": "17056760460124927973",
+          "gid": "12118313571701024100"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Modern Systems Analysis and Design",
+         "url": "https://www.pearson.com/en-us/subject-catalog/p/modern-systems-analysis-and-design/P200000011446/9780138180447?srsltid=AU7gw4Wli3F38yEEBUzTKrLlJoN7MxDRug59isogy8RReYneldkzIEw5DbI",
+         "domain": "www.pearson.com",
+         "description": "Pearson eBook More\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Pearson eBook",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:25",
+         "price": {
+          "current": 64.98,
+          "regular": null,
+          "max_value": 95,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$64.98 Usually $95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.5,
+          "votes_count": 11,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9808662389681599581",
+          "data_docid": "10588497874213075075",
+          "gid": "2962679346984966383"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Systems Analysis and Design",
+         "url": "https://www.barnesandnoble.com/w/systems-analysis-and-design-alan-dennis/1119277030?ean=9781119803782",
+         "domain": "www.barnesandnoble.com",
+         "description": "Barnes & Noble More\nFree delivery by Tue",
+         "more_sellers": false,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:26",
+         "price": {
+          "current": 151.75,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$151.75"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.3,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "5575459318285797961",
+          "data_docid": "5948376807508251647",
+          "gid": "16165614865740749738"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Building Design Systems (eBook)",
+         "url": "https://link.springer.com/book/10.1007/979-8-8688-2512-5?source=shoppingads&locale=en-us&srsltid=AU7gw4UIBr_Inb1hWTuQBlls7IY6ihHH8ZCyVHpWsYM6zc_iNZhCvExXL2A",
+         "domain": "link.springer.com",
+         "description": "Springer Nature More\nFree delivery",
+         "more_sellers": false,
+         "seller": "Springer Nature",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:27",
+         "price": {
+          "current": 24.49,
+          "regular": 35,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.49 $35"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12668639796678170539",
+          "data_docid": "14160859959268082089",
+          "gid": "15951651509443883143"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Design Systems Handbook",
+         "url": "https://www.audible.com/en_US/pd/design-systems-handbook-Audiobook/1987139615?ipRedirectOverride=true&overrideBaseCountry=true&bp_o=true&language=en_US&srsltid=AU7gw4XxfUZcdwvK-frzgO9mBpoZnrXQvAncucg2aVQSf4D6c-7BssxcePo",
+         "domain": "www.audible.com",
+         "description": "Audible.com More\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Audible.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:28",
+         "price": {
+          "current": 12.61,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.61"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12049073728169606968",
+          "data_docid": "14846272952536246790",
+          "gid": "450209731383726742"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Practical UI Patterns for Design Systems (eBook)",
+         "url": "https://www.abebooks.com/Practical-Patterns-Design-Systems-Fast-track-Interaction/30357759950/bd",
+         "domain": "www.abebooks.com",
+         "description": "AbeBooks.com More",
+         "more_sellers": false,
+         "seller": "AbeBooks.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:29",
+         "price": {
+          "current": 31.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$31.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6816533495045404587",
+          "data_docid": "10791297142016259678",
+          "gid": "13778560467444714792"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Systems Design",
+         "url": "https://www.ebay.com/itm/385267991233?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item",
+         "domain": "www.ebay.com",
+         "description": "eBay More",
+         "more_sellers": false,
+         "seller": "eBay",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:30",
+         "price": {
+          "current": 36.97,
+          "regular": null,
+          "max_value": 56,
+          "currency": "USD",
+          "is_price_range": true,
+          "displayed_price": "$36.97 Usually $56"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "7415194988489069946",
+          "data_docid": "9523929729847504939",
+          "gid": "107324745819616086"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Essentials of Systems Analysis and Design",
+         "url": "https://www.pearson.com/en-us/subject-catalog/p/essentials-of-systems-analysis-and-design/P200000001975/9780137612420?srsltid=AU7gw4X0m7iLPvWvYDNZYQq_gCI69waATq21y9eTG7LqG6H7D_2TtYVV0WA",
+         "domain": "www.pearson.com",
+         "description": "Pearson eBook More\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Pearson eBook",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-322174cd23c1:31",
+         "price": {
+          "current": 64.98,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$64.98"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 10,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "17486248740136756276",
+          "data_docid": "6399335910964950073",
+          "gid": "6194041210073385530"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+       "domain": "dev.to",
+       "title": "Top 10 Books on Design System that i Read last year",
+       "url": "https://dev.to/biomathcode/top-10-books-on-design-system-that-i-read-last-year-3n7i",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dev.to \u203a biomathcode \u203a top-10-books-on-design...",
+       "website_name": "DEV Community",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 13, 2024 \u2014 1. Frontend Architecture for Design Systems \u00b7 2. Design System for Developers - By Michael Mangialardi \u00b7 3. Building Design Systems - by Sarrah\u00a0... Read more",
+       "pre_snippet": "12/13/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Frontend Architecture for Design Systems"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://dev.to/biomathcode/top-10-books-on-design-system-that-i-read-last-year-3n7i#:~:text=1.%20Frontend%20Architecture%20for%20Design,Systems&text=2.%20Design%20System%20for%20Developers,-%20By%20Michael%20Mangialardi&text=3.%20Building%20Design%20Systems%20-,Sarrah%20Vesselov%20and%20Taurie%20Davis",
+         "domain": "dev.to"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-12-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "6 Design System Books Everyone's Talking About that You ...",
+       "url": "https://www.youtube.com/shorts/Is6rHqZkaLU",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "8.1K+ views  \u00b7  4 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Dan Mall",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-09-16 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "designbetterpodcast.com",
+       "title": "Design Systems Handbook - by The Curiosity Department",
+       "url": "https://designbetterpodcast.com/p/design-systems-handbook",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://designbetterpodcast.com \u203a Books",
+       "website_name": "Design Better",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jun 4, 2025 \u2014 The Design Systems Handbook is a practical guide to building and scaling design systems that improve consistency, speed, and collaboration\u00a0... Read more",
+       "pre_snippet": "06/04/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Design Systems",
+        "design systems"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://designbetterpodcast.com/p/design-systems-handbook#:~:text=The%20Design%20Systems%20Handbook%20is,speed%2C%20and%20collaboration%20across%20teams.",
+         "domain": "designbetterpodcast.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-06-04 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "imperavi.com",
+       "title": "Designing Design Systems \u2014 Practical Guide to Scalable ...",
+       "url": "https://imperavi.com/books/designing-design-systems/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://imperavi.com \u203a books \u203a designing-design-systems",
+       "website_name": "Imperavi",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A practical, structured book on building design systems \u2014 from naming and tokens to documentation, components, and patterns. Clear principles and real-world\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "A practical, structured book on building design systems"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Everything You Need To Know...",
+         "description": null,
+         "url": "https://imperavi.com/books/designing-design-systems/#:~:text=Everything%20you%20need%20to%20know%20about",
+         "domain": "imperavi.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Don't Reinvent Your System...",
+         "description": null,
+         "url": "https://imperavi.com/books/designing-design-systems/#:~:text=Don%27t%20reinvent%20your%20system%20from",
+         "domain": "imperavi.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Buy The Book",
+         "description": null,
+         "url": "https://imperavi.com/books/designing-design-systems/#:~:text=Buy%20the%20book,-Choose%20the%20version%20that%20fits",
+         "domain": "imperavi.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "System Design, Modeling, and Simulation",
+         "url": "https://www.lulu.com/shop/claudius-ptolemaeus-and-edward-lee/system-design-modeling-and-simulation/paperback/product-mrpzdk.html?page=1&pageSize=4&srsltid=AU7gw4XTymvPLkxyTQH0P0LSX8wC5T9dqtcui5loCdyG3sL87AHoDpo4f1o",
+         "domain": "www.lulu.com",
+         "description": "Lulu Press",
+         "more_sellers": false,
+         "seller": "Lulu Press",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTsXN0b0tGrqTLmhlkUXCJ7FAWW1pSTg_7Zh9fh4AwrMqJRwvUx7cnxDunbfrvxUVFChgIJvIu0Lt0F4043HhYRClCTfgEK__cXOIRWIso",
+         "price": {
+          "current": 40.08,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$40.08"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17305982863756195256",
+          "data_docid": "16104961555725484112",
+          "gid": "9433007179981266962"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Modern Systems Analysis and Design (Subscription)",
+         "url": "https://www.abebooks.com/servlet/BookDetailsPL?bi=32421282333&dest=USA",
+         "domain": "www.abebooks.com",
+         "description": "AbeBooks.com More",
+         "more_sellers": false,
+         "seller": "AbeBooks.com",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQXFENEoPaHWsVx467tBkBLeglGygG-LhE_GeUoMX1OOhtgzywvLm-197Qevvu3LxBWIwNBRyKeexde0ao_Im63-Mt4JoGK2vZiSM8kTR3yKapgg4ODZugtzQ",
+         "price": {
+          "current": 43.32,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$43.32 Pre-owned"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.6,
+          "votes_count": 31,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "9251182372832490021",
+          "data_docid": "18367944362022123706",
+          "gid": "11366224900880831535"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Digital Access - 180 Days",
+         "url": "https://www.barnesandnoble.com/w/systems-engineering-dahai-liu/1147504906?ean=9781032524238",
+         "domain": "www.barnesandnoble.com",
+         "description": "Barnes & Noble - Barnes and Noble - Heavy More\nFree delivery by Tue",
+         "more_sellers": false,
+         "seller": "Barnes & Noble - Barnes and Noble - Heavy",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTvPmTAdtIF7g2kuCtUvs52lHoiof-7TOSo45xv8GJRNOr94J-AckW7t-tQk7e8pgW0NckaOpZlBYKE55Tu0qiM0sGNBahK_n13Ej90DwGekTm0wKRX67sq",
+         "price": {
+          "current": 140.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$140.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "878430867586653438",
+          "data_docid": "14605735394013305875",
+          "gid": "10614187191053112338"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Systems Analysis and Design in a Changing World",
+         "url": "https://www.bkstr.com/illinoisstatestore/product/systems-analysis---design-in-a-changing-world-647538-1",
+         "domain": "www.bkstr.com",
+         "description": "bkstr.com More",
+         "more_sellers": false,
+         "seller": "bkstr.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR0X3oF70qVY17q6qpR1VfMmpUtzxrrR0IfV0QHhmkABigj_GAaFZC5B0PIp4eJQ13tDGY8PXpvSVLaN5DBCsdgA7zQrw138-rZuvsGxa0e2iHIW0fkxfrv_w",
+         "price": {
+          "current": 125.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$125.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.8,
+          "votes_count": 5,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "8152894417850508609",
+          "data_docid": "5801889432059122289",
+          "gid": "13772279937812261780"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "System Design Interview: Volume 1 (Full Colour Edition)",
+         "url": "https://www.ebay.com/itm/168630699101?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item&srsltid=AU7gw4WmYdtRZsjZ_gaIsQ97S8klH2mgfCM4HzdJRzQw1MeJfJg-UcDVEeM",
+         "domain": "www.ebay.com",
+         "description": "eBay - music_and_gaming_mania More",
+         "more_sellers": false,
+         "seller": "eBay - music_and_gaming_mania",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSsoVncabTXFjjAhp7ihFkYOHCYJil0Mg77uNdwMRZKjldoNmruILGR9zyml7FMyMPD2Codr2TYirT49sYvM4lAIZ5Yh_ce-9wuDt90IcTbxuHwhv3tcvW7Lw",
+         "price": {
+          "current": 28.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$28.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "58797342539094579",
+          "data_docid": "8014100601545925480",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Control Systems Design (ebook)",
+         "url": "https://www.abebooks.com/servlet/BookDetailsPL?bi=32312131667&dest=USA",
+         "domain": "www.abebooks.com",
+         "description": "AbeBooks.com More\nFree delivery",
+         "more_sellers": false,
+         "seller": "AbeBooks.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOJVhRCBSNfGaMlQK0DBSlITPumucN_jRrtI2Pr3kr9ODoXo9G6eEcUed6V0oQjQDjNEy1146FyM8IwSq9sW6exY5vSUx4adyUjrvOlaiXeEtOOvd-NU9k",
+         "price": {
+          "current": 94.79,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$94.79 Pre-owned"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "16331855959377897093",
+          "data_docid": "14551730229794468567",
+          "gid": "15168972576157033892"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Human Centred Design for Systems by Vivek Kant (Hardcover)",
+         "url": "https://link.springer.com/book/10.1007/978-3-032-30376-9?source=shoppingads&locale=en-us&srsltid=AU7gw4Ui2RRXEwgN_DKWuuDIL6MyarcpIun6rMPEplRLbUYq2ZCFAl9KGJ8",
+         "domain": "link.springer.com",
+         "description": "Springer Nature More\nFree delivery",
+         "more_sellers": false,
+         "seller": "Springer Nature",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS5gTeFz_vS8n0TdEe4by0tjXhWjmx5hiWz91jXLAM7rOg9x9RG7Bi35QQ_N3CUEdGtcKhLQNPS6fRw0v1H9LTrK8HV-giOjZ28M0ybq0SM",
+         "price": {
+          "current": 161.99,
+          "regular": 180,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$161.99 $180"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "17562898867286769454",
+          "data_docid": "15852569201563632567",
+          "gid": "5874388802070086844"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "System Design for Data Engineers : Design Scalable Data Systems, Pipelines, Lakehouses & Cloud Architectures for Real-World Projects and Interviews",
+         "url": "https://www.booksamillion.com/p/System-Design-Data-Engineers/Masud-Mondal/9798183934342",
+         "domain": "www.booksamillion.com",
+         "description": "Books A Million More",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ4jjWgvAgt_AO1VO15HSLzh59Z1FaQljzVWtycHQyISMpAi18Dg8oZ63JB1DNlIWVSS9U-69MRcwiDjVH0mj-JOi7z28GRjbat5_GHy8BraVB4cXxLJ9zFtQ",
+         "price": {
+          "current": 24.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6920066724824595317",
+          "data_docid": "8650528755696431539",
+          "gid": "16274435572070794563"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Design systems books pdf",
+        "Design systems books free download",
+        "Design systems books pdf free download",
+        "Design systems books free",
+        "Design systems books for beginners",
+        "Best design systems books",
+        "Design systems: a practical guide to creating design languages for digital products",
+        "Design systems Handbook pdf"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

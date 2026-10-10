@@ -1,0 +1,1372 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0410 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-f8e4eb50ee64",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0171 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-f8e4eb50ee64"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "ui design books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-ui",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "ui design books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=ui%20design%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:01 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczILCBISB1Jldmlld3NgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAF6BAgaEDw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=ui+design+books+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqD3VpIGRlc2lnbiBib29rczITCAYSB09uIHNhbGUYAiIESgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAJ6BAgaED0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIKCBISBk9ubGluZWAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAN6BAgaED4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIICBISBEZyZWVgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAR6BAgaED8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=ui+design+books+nearby&hl=en&gl=US&shoprs=GAMqD3VpIGRlc2lnbiBib29rczIMCAMSBk5lYXJieRgCWNupIGAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAV6BAgaEEA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIHCBISA0J1eWAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAZ6BAgaEEE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIXCAESBUJsYWNrOgwI2Iz1ARDlivUBMAtY26kgYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAd6BAgaEEI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=ui+design+books+for+sale&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIMCBISCEZvciBTYWxlYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAh6BAgaEEM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Barnes & Noble",
+        "url": "https://www.google.com/search?q=barnes+%26+noble+ui+design+books&hl=en&gl=US&shoprs=GAIqD3VpIGRlc2lnbiBib29rczISCAISDkJhcm5lcyAmIE5vYmxlWNupIGAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAl6BAgaEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "eBay",
+        "url": "https://www.google.com/search?q=ebay+ui+design+books&hl=en&gl=US&shoprs=GAIqD3VpIGRlc2lnbiBib29rczIICAISBGVCYXlY26kgYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAp6BAgaEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Pink",
+        "url": "https://www.google.com/search?q=pink+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIWCAESBFBpbms6DAjYjPUBEOmK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAt6BAgaEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+ui+design+books&hl=en&gl=US&shoprs=GAoqD3VpIGRlc2lnbiBib29rczIHCAoSA05ld1jbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKAx6BAgaEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+ui+design+books&hl=en&gl=US&shoprs=GAoqD3VpIGRlc2lnbiBib29rczIICAoSBFVzZWRY26kgYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKA16BAgaEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIbCAESC05vbi1maWN0aW9uOgoIy6k6EM2pOjACWNupIGAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKA56BAgaEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=ui+design+books&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFABkgBGBQqD3VpIGRlc2lnbiBib29rczIlCBQSDEdldCBpdCB0b2RheSINmgEKCggQADgBQAZIASoEEAEYAWAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKA96BAgaEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Architecture",
+        "url": "https://www.google.com/search?q=architecture+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIcCAESDEFyY2hpdGVjdHVyZToKCM6pOhDRqTowAljbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBB6BAgaEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $50",
+        "url": "https://www.google.com/search?q=ui+design+books+under+$50&hl=en&gl=US&shoprs=Eg0SCxEAAAAAhNeHQRgBGAUqD3VpIGRlc2lnbiBib29rczIiCAUSCVVuZGVyICQ1MBgCIg0SCxEAAAAAhNeHQRgBKgIYAVjbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBF6BAgaEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "White",
+        "url": "https://www.google.com/search?q=white+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIXCAESBVdoaXRlOgwI2Iz1ARChi_UBMAtY26kgYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBJ6BAgaEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIWCAESBEJsdWU6DAjYjPUBEOaK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBN6BAgaEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Target",
+        "url": "https://www.google.com/search?q=target+ui+design+books&hl=en&gl=US&shoprs=GAIqD3VpIGRlc2lnbiBib29rczIKCAISBlRhcmdldFjbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBR6BAgaEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Store",
+        "url": "https://www.google.com/search?q=store+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIJCBISBVN0b3JlYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBV6BAgaEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIVCAESA1JlZDoMCNiM9QEQ54r1ATALWNupIGAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBZ6BAgaEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Price",
+        "url": "https://www.google.com/search?q=price+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIJCBISBVByaWNlYAE&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBd6BAgaEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Art",
+        "url": "https://www.google.com/search?q=art+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczITCAESA0FydDoKCM6pOhDSqTowAljbqSBgAQ&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBh6BAgaEFY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Computer",
+        "url": "https://www.google.com/search?q=computer+ui+design+books&hl=en&gl=US&shoprs=GAEqD3VpIGRlc2lnbiBib29rczIYCAESCENvbXB1dGVyOgoIzqk6ENmpOjACWNupIGAB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBl6BAgaEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Images",
+        "url": "https://www.google.com/search?q=images+ui+design+books&hl=en&gl=US&shoprs=GBIqD3VpIGRlc2lnbiBib29rczIKCBISBkltYWdlc2AB&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQip4GKBp6BAgaEFg",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 195,
+     "pages_count": 1,
+     "items_count": 13,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "I collected top 10 UI/UX books (based on designers' ...",
+       "url": "https://www.reddit.com/r/UXDesign/comments/1cubzbg/i_collected_top_10_uiux_books_based_on_designers/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ comments  \u00b7  2 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/UXDesign",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "#1. The Design of Everyday Things by Don Norman \u00b7 #2. UX for Beginners: A Crash Course in 100 Short Lessons by Joel Marsh \u00b7 #3. Designing Products\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Design of Everyday Things by Don Norman"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What UI/UX book do you recommend? : r/web_design",
+         "description": null,
+         "url": "https://www.reddit.com/r/web_design/comments/v5xkfu/what_uiux_book_do_you_recommend/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Books you recommend for learning the basics (with ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/userexperience/comments/18tk0q6/books_you_recommend_for_learning_the_basics_with/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=ui+design+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnuBdqAysheaYt8Jwnn0GYQaQ8U5nQ:1791643797853&sa=X&ved=2ahUKEwiO-Imh2a-XAxU2X_EDHWegEfwQrQIoAnoECCQQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "uxplanet.org",
+       "title": "My favorite UI design books & Why I love them",
+       "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://uxplanet.org \u203a my-favorite-ui-design-books-why...",
+       "website_name": "UX Planet",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Mar 6, 2023 \u2014 Refactoring UI by Adam \u2728Practical UI Practical UI by Adham \u2728The UI Professional's Design Manual The UI Professional's Design Manual (iOS +\u00a0...",
+       "pre_snippet": "03/06/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Refactoring UI by Adam"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "\u2728Refactoring UI",
+         "description": null,
+         "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5#5bf9",
+         "domain": "uxplanet.org"
+        },
+        {
+         "type": "link_element",
+         "title": "\u2728The UI Professional's Design...",
+         "description": null,
+         "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5#b726",
+         "domain": "uxplanet.org"
+        },
+        {
+         "type": "link_element",
+         "title": "\u2728Making Design Decisions",
+         "description": null,
+         "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5#fc9d",
+         "domain": "uxplanet.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-03-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Here are the top user interface (UI) design books to build your visual craft, layout skills, and understanding of human-computer interaction:[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11091919392941262402,catalogid:8324225985632337541,gpcid:10845339292654597731,mid:576460832400488424&ibp=oshop)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n\n- **[Refactoring UI](https://refactoringui.com/)** by Adam Wathan and Steve Schoger\n\t- Focuses on visual hierarchy, color palettes, spacing, and CSS/design tactics specifically for developers and designers who want to make interfaces look great without needing a formal art degree.[[1]](https://blog.uxfol.io/ux-design-books/)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n- **[Practical UI](https://www.practical-ui.com/)** by Adham Dannaway\n\t- Covers 8 concise chapters with over 100 practical guidelines on typography, layout, color, forms, and buttons, backed by 300+ visual examples and a Figma design system starter kit.[[1]](https://www.practical-ui.com/)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n- **[Designing User Interfaces](https://www.designinguserinterfaces.com/)** by Michal and Diana Malewicz\n\t- A comprehensive guide that covers practical screen creation, design audits, and working effectively with developers.[[1]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n\n### Psychology & Core Principles\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOQXrF-tf5MeHYBlXu-qKlxuoFRa8KO4CtR48533Hc4J8vosiX5Vcm10S6qZc)\n**Designing with the Mind in Mind** by Jeff Johnson\n\n- Explains the perceptual and cognitive psychology behind classic UI rules so that design guidelines make intuitive sense rather than feeling like arbitrary rules to memorize.\n\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQv3ng87ezx2yjcIRseVbVyEYGWO7CAxoLXmkKePaW8SVbogtOXM2WHPvRPnvYxrcCseUEDZ4aT)\n**The Design of Everyday Things** by Don Norman\n\n- A foundational classic on design thinking, affordances, and how people interact with physical and digital objects (though some readers note older editions can feel dry or awkwardly laid out).\n\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSAq8_KvmHeUiTrGTKrDvlkXfbYVkuJka5xRdOyVBBdwBkioXolegIPHbVxOI)\n**Don't Make Me Think, Revisited** by Steve Krug\n\n- The gold standard for web usability, intuitive navigation, and making digital experiences friction-free.\n\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyUqK0430rC2dBpxKMsIfphUhHZSkbo5EFa_W65Arja7ersoLfcnU9vKota34)\n**Laws of UX** by Jon Yablonski\n\n- Breaks down 10 core psychological principles (like Hick's Law and Fitts's Law) and how to apply them directly to digital interface design.[[1]](https://www.reddit.com/r/UXDesign/comments/1cubzbg/i_collected_top_10_uiux_books_based_on_designers/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13936210576046531557,catalogid:4148471868132398823,gpcid:745019992115372127,mid:576462884632418001&ibp=oshop)[[3]](https://blog.uxfol.io/ux-design-books/)[[4]](https://www.amazon.com/ui-ux-design-book/s?k=ui+ux+design+book)\n\nIf you want to narrow down this list, tell me:\n\n- Are you a **complete beginner** or an **experienced designer** looking to level up?\n- Are you focusing more on **visual/Figma execution** or **usability and research**?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Here are the top user interface (UI) design books to build your visual craft, layout skills, and understanding of human-computer interaction :",
+         "markdown": "Here are the top user interface (UI) design books to build your visual craft, layout skills, and understanding of human-computer interaction:[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:11091919392941262402,catalogid:8324225985632337541,gpcid:10845339292654597731,mid:576460832400488424&ibp=oshop)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11091919392941262402,catalogid:8324225985632337541,gpcid:10845339292654597731,mid:576460832400488424&ibp=oshop",
+           "title": "The Essential Guide to User Interface Design (eBook)",
+           "text": "Bringing together the results of more than 300 new design studies, an understanding of people, knowledge of hardware and software ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UX Planet",
+           "domain": "uxplanet.org",
+           "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5",
+           "title": "My favorite UI design books & why I love them | by Krisztina Szerovay | UX Planet",
+           "text": "Recommended UI Design Books: Refactoring UI by Adam Wathan & Steve Schoger (visual hierarchy, de-emphasizing, sketching first, col..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Refactoring UI by Adam Wathan and Steve SchogerFocuses on visual hierarchy, color palettes, spacing, and CSS/design tactics specifically for developers and designers who want to make interfaces look great without needing a formal art degree. Focuses on visual hierarchy, color palettes, spacing, and CSS/design tactics specifically for developers and designers who want to make interfaces look great without needing a formal art degree. Practical UI by Adham DannawayCovers 8 concise chapters with over 100 practical guidelines on typography, layout, color, forms, and buttons, backed by 300+ visual examples and a Figma design system starter kit. Covers 8 concise chapters with over 100 practical guidelines on typography, layout, color, forms, and buttons, backed by 300+ visual examples and a Figma design system starter kit. Designing User Interfaces by Michal and Diana MalewiczA comprehensive guide that covers practical screen creation, design audits, and working effectively with developers. A comprehensive guide that covers practical screen creation, design audits, and working effectively with developers.",
+         "markdown": "- **[Refactoring UI](https://refactoringui.com/)** by Adam Wathan and Steve Schoger\n\t- Focuses on visual hierarchy, color palettes, spacing, and CSS/design tactics specifically for developers and designers who want to make interfaces look great without needing a formal art degree.[[1]](https://blog.uxfol.io/ux-design-books/)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n- **[Practical UI](https://www.practical-ui.com/)** by Adham Dannaway\n\t- Covers 8 concise chapters with over 100 practical guidelines on typography, layout, color, forms, and buttons, backed by 300+ visual examples and a Figma design system starter kit.[[1]](https://www.practical-ui.com/)[[2]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)\n- **[Designing User Interfaces](https://www.designinguserinterfaces.com/)** by Michal and Diana Malewicz\n\t- A comprehensive guide that covers practical screen creation, design audits, and working effectively with developers.[[1]](https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Refactoring UI",
+           "description": null,
+           "url": "https://refactoringui.com/",
+           "domain": "refactoringui.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Practical UI",
+           "description": null,
+           "url": "https://www.practical-ui.com/",
+           "domain": "www.practical-ui.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Designing User Interfaces",
+           "description": null,
+           "url": "https://www.designinguserinterfaces.com/",
+           "domain": "www.designinguserinterfaces.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UXfolio Blog",
+           "domain": "blog.uxfol.io",
+           "url": "https://blog.uxfol.io/ux-design-books/",
+           "title": "The 15 Absolute Best UX/UI Design Books in 2026 - UXfolio Blog",
+           "text": "General UX/UI books: Refactoring UI (Adam Wathan, Steve Schoger; practical UI/UX, PDF-only), Laws of UX (Jon Yablonski; 10 behavio..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UX Planet",
+           "domain": "uxplanet.org",
+           "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5",
+           "title": "My favorite UI design books & why I love them | by Krisztina Szerovay | UX Planet",
+           "text": "Recommended UI Design Books: Refactoring UI by Adam Wathan & Steve Schoger (visual hierarchy, de-emphasizing, sketching first, col..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Practical UI",
+           "domain": "www.practical-ui.com",
+           "url": "https://www.practical-ui.com/",
+           "title": "UI design book - Practical UI",
+           "text": "Book Overview: Practical UI by Adham Dannaway offers 8 concise chapters on interface design, usability, and accessibility using lo..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Psychology & Core Principles",
+         "markdown": "### Psychology & Core Principles",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Designing with the Mind in Mind by Jeff JohnsonExplains the perceptual and cognitive psychology behind classic UI rules so that design guidelines make intuitive sense rather than feeling like arbitrary rules to memorize.\nThe Design of Everyday Things by Don NormanA foundational classic on design thinking, affordances, and how people interact with physical and digital objects (though some readers note older editions can feel dry or awkwardly laid out).\nDon't Make Me Think, Revisited by Steve KrugThe gold standard for web usability, intuitive navigation, and making digital experiences friction-free.\nLaws of UX by Jon YablonskiBreaks down 10 core psychological principles (like Hick's Law and Fitts's Law) and how to apply them directly to digital interface design.",
+         "markdown": "---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOQXrF-tf5MeHYBlXu-qKlxuoFRa8KO4CtR48533Hc4J8vosiX5Vcm10S6qZc)\n**Designing with the Mind in Mind** by Jeff Johnson\n\n- Explains the perceptual and cognitive psychology behind classic UI rules so that design guidelines make intuitive sense rather than feeling like arbitrary rules to memorize.\n\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQv3ng87ezx2yjcIRseVbVyEYGWO7CAxoLXmkKePaW8SVbogtOXM2WHPvRPnvYxrcCseUEDZ4aT)\n**The Design of Everyday Things** by Don Norman\n\n- A foundational classic on design thinking, affordances, and how people interact with physical and digital objects (though some readers note older editions can feel dry or awkwardly laid out).\n\n\n\n---\n\n![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSAq8_KvmHeUiTrGTKrDvlkXfbYVkuJka5xRdOyVBBdwBkioXolegIPHbVxOI)\n**Don't Make Me Think, Revisited** by Steve Krug\n\n- The gold standard for web usability, intuitive navigation, and making digital experiences friction-free.\n\n\n\n---\n\n![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyUqK0430rC2dBpxKMsIfphUhHZSkbo5EFa_W65Arja7ersoLfcnU9vKota34)\n**Laws of UX** by Jon Yablonski\n\n- Breaks down 10 core psychological principles (like Hick's Law and Fitts's Law) and how to apply them directly to digital interface design.[[1]](https://www.reddit.com/r/UXDesign/comments/1cubzbg/i_collected_top_10_uiux_books_based_on_designers/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:13936210576046531557,catalogid:4148471868132398823,gpcid:745019992115372127,mid:576462884632418001&ibp=oshop)[[3]](https://blog.uxfol.io/ux-design-books/)[[4]](https://www.amazon.com/ui-ux-design-book/s?k=ui+ux+design+book)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want to narrow down this list, tell me:Are you a complete beginner or an experienced designer looking to level up?\nAre you focusing more on visual/Figma execution or usability and research ?",
+         "markdown": "If you want to narrow down this list, tell me:\n\n- Are you a **complete beginner** or an **experienced designer** looking to level up?\n- Are you focusing more on **visual/Figma execution** or **usability and research**?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Reddit",
+         "domain": "www.reddit.com",
+         "url": "https://www.reddit.com/r/UXDesign/comments/1cubzbg/i_collected_top_10_uiux_books_based_on_designers/",
+         "title": "I collected top 10 UI/UX books (based on designers' recommendations)",
+         "text": "The Design of Everyday Things: Don Norman's 'The Design of Everyday Things' is considered a fundamental book that inspires many to..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "UX Planet",
+         "domain": "uxplanet.org",
+         "url": "https://uxplanet.org/my-favorite-ui-design-books-why-i-love-them-afabaec218f5",
+         "title": "My favorite UI design books & why I love them | by Krisztina Szerovay | UX Planet",
+         "text": "Recommended UI Design Books: Refactoring UI by Adam Wathan & Steve Schoger (visual hierarchy, de-emphasizing, sketching first, col..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Practical UI",
+         "domain": "www.practical-ui.com",
+         "url": "https://www.practical-ui.com/",
+         "title": "UI design book - Practical UI",
+         "text": "Book Overview: Practical UI by Adham Dannaway offers 8 concise chapters on interface design, usability, and accessibility using lo..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "UXfolio Blog",
+         "domain": "blog.uxfol.io",
+         "url": "https://blog.uxfol.io/ux-design-books/",
+         "title": "The 15 Absolute Best UX/UI Design Books in 2026 - UXfolio Blog",
+         "text": "General UX/UI books: Refactoring UI (Adam Wathan, Steve Schoger; practical UI/UX, PDF-only), Laws of UX (Jon Yablonski; 10 behavio..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Amazon.com",
+         "domain": "www.amazon.com",
+         "url": "https://www.amazon.com/ui-ux-design-book/s?k=ui+ux+design+book",
+         "title": "Amazon.com: Ui Ux Design Book",
+         "text": "Book Listings: Universal Principles of UX by Irene Pereyra; UX/UI Graphic Design For Beginners Made Simple by Drew Reeves; Don't M..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:11091919392941262402,catalogid:8324225985632337541,gpcid:10845339292654597731,mid:576460832400488424&ibp=oshop",
+         "title": "The Essential Guide to User Interface Design (eBook)",
+         "text": "Bringing together the results of more than 300 new design studies, an understanding of people, knowledge of hardware and software ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:13936210576046531557,catalogid:4148471868132398823,gpcid:745019992115372127,mid:576462884632418001&ibp=oshop",
+         "title": "Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines",
+         "text": "Book Synopsis User interface (UI) design rules and guidelines, developed by early HCI gurus and recognized throughout the field, w..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.untitledui.com",
+       "title": "24 Books Every Modern UI Designer Should Read (2026)",
+       "url": "https://www.untitledui.com/blog/ui-design-books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.untitledui.com \u203a Blog",
+       "website_name": "Untitled UI",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 5, 2026 \u2014 The best UI design books in 2026 are Refactoring UI, Practical UI, How to Design Better UI Components, Designing Interfaces and Better Web\u00a0...",
+       "pre_snippet": "09/05/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Refactoring UI"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "How we chose the best UI...",
+         "description": null,
+         "url": "https://www.untitledui.com/blog/ui-design-books#how-we-chose-the-best-ui-design-books",
+         "domain": "www.untitledui.com"
+        },
+        {
+         "type": "link_element",
+         "title": "UI design books",
+         "description": null,
+         "url": "https://www.untitledui.com/blog/ui-design-books#ui-design-books",
+         "domain": "www.untitledui.com"
+        },
+        {
+         "type": "link_element",
+         "title": "How to Design Better UI...",
+         "description": null,
+         "url": "https://www.untitledui.com/blog/ui-design-books#3-how-to-design-better-ui-components-30-by-adrian-kuleszo",
+         "domain": "www.untitledui.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-05 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.practical-ui.com",
+       "title": "Practical UI: UI design book",
+       "url": "https://www.practical-ui.com/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.practical-ui.com",
+       "website_name": "Practical UI",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A UI design book to learn a logic-driven approach to design intuitive, accessible, and beautiful interfaces using quick and practical guidelines.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "A UI design book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "smart-interface-design-patterns.com",
+       "title": "Free Books For Interface & UX Designers",
+       "url": "https://smart-interface-design-patterns.com/articles/interface-design-books/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://smart-interface-design-patterns.com \u203a articles \u203a i...",
+       "website_name": "Smart Interface Design Patterns",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Shape of Design, by Frank Chimero, Mandy Brown \u00b7 How To Design a Dashboard, by Matt David \u00b7 A Practical Guide to Information Architecture, by Donna Spencer\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The Shape of Design, by Frank Chimero, Mandy Brown"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://smart-interface-design-patterns.com/articles/interface-design-books/#:~:text=The%20Shape%20of%20Design%2C%20by,Frank%20Chimero%2C%20Mandy%20Brown&text=How%20To%20Design%20a%20Dashboard%2C,by%20Matt%20David&text=A%20Practical%20Guide%20to%20Information,Architecture%2C%20by%20Donna%20Spencer",
+         "domain": "smart-interface-design-patterns.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "UX UI Design A Complete Guide - 2019 Edition (eBook)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble",
+         "more_sellers": false,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:0",
+         "price": {
+          "current": 44.5,
+          "regular": 89,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$44.50 $89"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "7244855801824539872",
+          "data_docid": "542115165478809617",
+          "gid": "285566504233554898"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Mastering Ui/Ux Design: a Comprehensive Guide to Creating Exceptional User Experiences",
+         "url": null,
+         "domain": null,
+         "description": "Lulu Press",
+         "more_sellers": false,
+         "seller": "Lulu Press",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:1",
+         "price": {
+          "current": 25.43,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$25.43"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "7080385922129340166",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Designing Interfaces",
+         "url": null,
+         "domain": null,
+         "description": "Strand Book Store",
+         "more_sellers": false,
+         "seller": "Strand Book Store",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:2",
+         "price": {
+          "current": 25,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$25.00"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 4.7,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15544875990760561771",
+          "data_docid": "16490616246907488228",
+          "gid": "8288868111258762968"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Ultimate Figma for UI/UX Design : Transform Your UI/UX Design, Craft User-Centric Interfaces, and Create Stunning Experiences with Ease (English",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - NOOK & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - NOOK",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:3",
+         "price": {
+          "current": 19.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "12754616391934747901",
+          "data_docid": "3436722064386617499",
+          "gid": "15060727071339643487"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Ui/UX Design for Beginners : The Complete Beginner's Guide to Ui/UX Design: Learn Figma, Wireframing, Prototyping & High-Converting Interfaces.",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:4",
+         "price": {
+          "current": 19.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "8093900589228794948",
+          "data_docid": "668051994753671206",
+          "gid": "8792332322254693279"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:5",
+         "price": {
+          "current": 54.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$54.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "4148471868132398823",
+          "data_docid": "13936210576046531557",
+          "gid": "745019992115372127"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "UI is Communication",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:6",
+         "price": {
+          "current": 44.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$44.95"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 3,
+          "votes_count": 1,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "12993892017896002825",
+          "data_docid": "13271626543060154972",
+          "gid": "13215880071059002593"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Practical UI Patterns for Design Systems (eBook)",
+         "url": null,
+         "domain": null,
+         "description": "AbeBooks.com & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "AbeBooks.com",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-f8e4eb50ee64:7",
+         "price": {
+          "current": 9.81,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.81 Pre-owned"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "6816533495045404587",
+          "data_docid": "10791297142016259678",
+          "gid": "13778560467444714792"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Ui Ux Design Book",
+       "url": "https://www.amazon.com/ui-ux-design-book/s?k=ui+ux+design+book",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a ui-ux-design-book \u203a k=ui+u...",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "UI/UX DESIGN FOR BEGINNERS: The Complete Beginner's Guide to UI/UX Design: Learn Figma, Wireframing, Prototyping & High-Converting Interfaces. by\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn Figma, Wireframing, Prototyping & High-Converting Interfaces"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.amazon.com/ui-ux-design-book/s?k=ui+ux+design+book#:~:text=UI%2FUX%20DESIGN%20FOR%20BEGINNERS%3A%20The,by%20TECHSTUDIO%20HUB",
+         "domain": "www.amazon.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 2,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]",
+       "title": "More products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "UI UX Design: A Beginner's Guide to Mastering Layouts, Interactions, and User Testing (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT-GW8EorawBOGOL06WfQqNImYPdl49zdLa8OT3nUHEvQfGBgkj-eHTFc7c8dnlKrbSWjxjRlxBQP46h9Ba8cYo0ASotMlRunPBPX77zHY",
+         "price": {
+          "current": 19.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$19.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "7225660797140375412",
+          "data_docid": "7380837874558519812",
+          "gid": "12832317614089242786"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Designing the User Interface Strategies for Effective Human-Computer Interaction",
+         "url": null,
+         "domain": null,
+         "description": "Pearson eBook & more\nFree same-day delivery",
+         "more_sellers": true,
+         "seller": "Pearson eBook",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSKjiErpcN4Oa1cFfEEHqO0Ky-RWEcZZNzYcZL3tzyTf3QifqDh1lsuEJqqcQhD01VBTeoUhrdmXcYmG7hSm-IglE8AHbEU9kMKupJRZjA",
+         "price": {
+          "current": 64.98,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$64.98"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "7090727922042653993",
+          "data_docid": "4629631149924320992",
+          "gid": "13153265973593017723"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "UI Design Sketchbook",
+         "url": null,
+         "domain": null,
+         "description": "Better World Books & more\nFree delivery on $15+",
+         "more_sellers": true,
+         "seller": "Better World Books",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT9tROWAUoDuZZfTa-2LLVaqXA_YVIZNeYCB0msQYsMQwwShFnsOeWzkihj02Tp9ZyooctCPUis62bgPdoVdKO2y9uvqH-AOIgckV6UJQA",
+         "price": {
+          "current": 13.14,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$13.14"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "2519398610864070434",
+          "data_docid": "694551416418618599",
+          "gid": "6132267324326183709"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Practical Techniques for UI Designers (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQok6s9Tq8JBCtLypiWEAgIBxSmDDUQPNwWnaS3z9RxA4dZumM3e75CqAiyms8O4mdlqsiemyPLGlc32kwcLLVaXfpDoM9brXg8uGzrbupLuftV5wPa1Y2-",
+         "price": {
+          "current": 25,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$25.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5396515816971250408",
+          "data_docid": "4883916580065303814",
+          "gid": "10209987273380923993"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Ultimate Handbook of UI/UX Product Design : How to Thrive in The Age of Artificial Intelligence",
+         "url": null,
+         "domain": null,
+         "description": "AbeBooks.com & more",
+         "more_sellers": true,
+         "seller": "AbeBooks.com",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIcW8Nfmr1eayXjd27Um3UtBA8C8Ael7EjyblXIKINNxiicQN9p_MIW_PuVW0uIOu4iPchkFmDyqwISnARtbqg7VGiqvRu",
+         "price": {
+          "current": 30.35,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$30.35"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "11183543338366051921",
+          "data_docid": "17422218010700509008",
+          "gid": "15235173297123977889"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Conquering UI Design eBook: Master Design Principles (PDF)",
+         "url": null,
+         "domain": null,
+         "description": "Etsy",
+         "more_sellers": false,
+         "seller": "Etsy",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQqvuMi4CTWQyPRp8_eTqUBZXWrvQQLOuG2jqpO_cQ9jee95n4vRukebzS7ISQPRDGmcF9QQQPLIxQuqvGm6uSCfc-LTRKaXSlc23_7D5jT7uUYnXJGIgtX_g",
+         "price": {
+          "current": 8,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$8.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "12965146348038783660",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Conquering UI Design: Core Skills for New Designer",
+         "url": null,
+         "domain": null,
+         "description": "Skillshare\nFree same-day delivery",
+         "more_sellers": false,
+         "seller": "Skillshare",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQTAPQtoPaW31AhCpLZApVCcea_WrgJj1tJTtGPZu3vuTETNLtZ-hgTpDGZxrUTFY9IWJL-oaZ3eWHpbqWExXNOQYH40yZ7BAL9-2IOhEMIhWPzV9BLrTXAbg",
+         "price": {
+          "current": 12,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$12.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": null,
+          "data_docid": "3207167430613042452",
+          "gid": null
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "UX / UI Wireframe Design Sketchbook: Mobile, Tablet and Desktop templates for responsive designs with project planning",
+         "url": null,
+         "domain": null,
+         "description": "AbeBooks.com & more",
+         "more_sellers": true,
+         "seller": "AbeBooks.com",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxlZvgoJy3flbrcX0RTEfV2YoDe0roSxsUa1jqs0NEt5MXo5NI9a4W2_tGOCs1QGFdEkazOt8pBhyH8dadi0-h5TNmq8S2rs__NnJAPtKo",
+         "price": {
+          "current": 9.17,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.17 Pre-owned"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "4234283725631618805",
+          "data_docid": "525374313496866651",
+          "gid": "14563437525271197931"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "schoolofux.com",
+       "title": "Books on UX and UI design recommended by The ...",
+       "url": "https://schoolofux.com/pages/books?srsltid=AU7gw4VNEC0ZqNI6ZrjYEECF0SIySYW87hKHXSaWEqLeaUFTdIepP7s_",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://schoolofux.com \u203a pages \u203a books",
+       "website_name": "The School of UX",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Books on UX & UI design. Keep learning after the course. \u00b7 The Lean Startup \u00b7 Designing Interactions \u00b7 Designing for Emotion \u00b7 A Project Guide to UX Design \u00b7 Mobile\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Books on UX & UI design"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://schoolofux.com/pages/books?srsltid=AU7gw4VNEC0ZqNI6ZrjYEECF0SIySYW87hKHXSaWEqLeaUFTdIepP7s_#:~:text=Books%20on%20UX%20%26%20UI,Keep%20learning%20after%20the%20course.&text=The%20Lean%20Startup&text=Designing%20Interactions&text=Designing%20for%20Emotion&text=A%20Project%20Guide%20to%20UX,Design&text=Mobile%20First",
+         "domain": "schoolofux.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "The best UI/UX Books.",
+       "url": "https://medium.com/@LarsHunziker/the-best-ui-ux-books-6b013a2fbc8c",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "180+ likes  \u00b7  2 years ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Lars Hunziker",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "my favorite UI design books are, Practical UI by Adham Dannaway. You can download a free preview (28 pages) of the book here. Designing User\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Practical UI by Adham Dannaway"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "\u2728refactoring Ui",
+         "description": null,
+         "url": "https://medium.com/@LarsHunziker/the-best-ui-ux-books-6b013a2fbc8c#:~:text=%E2%9C%A8Refactoring%20UI,-Refactoring%20UI%20by",
+         "domain": "medium.com"
+        },
+        {
+         "type": "link_element",
+         "title": "\u2728practical Ui",
+         "description": null,
+         "url": "https://medium.com/@LarsHunziker/the-best-ui-ux-books-6b013a2fbc8c#:~:text=%E2%9C%A8Practical%20UI,-Practical%20UI%20by",
+         "domain": "medium.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Ui Design Systems Mastery",
+         "description": null,
+         "url": "https://medium.com/@LarsHunziker/the-best-ui-ux-books-6b013a2fbc8c#:~:text=UI%20Design%20Systems%20Mastery,-I%20discovered",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+       "domain": "www.adhamdannaway.com",
+       "title": "Best UI design books - User interface design books for 2026",
+       "url": "https://www.adhamdannaway.com/blog/ui-design/ui-design-books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.adhamdannaway.com \u203a blog",
+       "website_name": "Adham Dannaway",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 20, 2026 \u2014 My top 3 UI design books \u00b7 1. UI is Communication \u00b7 2. Designing with the Mind in Mind \u00b7 3. Evil by Design. By Chris Nodder. In this fun\u00a0... Read more",
+       "pre_snippet": "05/20/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1. UI is Communication"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What Is Ui Design?",
+         "description": null,
+         "url": "https://www.adhamdannaway.com/blog/ui-design/ui-design-books#:~:text=What%20is%20UI%20design%3F",
+         "domain": "www.adhamdannaway.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Practical Ui Book",
+         "description": null,
+         "url": "https://www.adhamdannaway.com/blog/ui-design/ui-design-books#:~:text=Practical%20UI%20book",
+         "domain": "www.adhamdannaway.com"
+        },
+        {
+         "type": "link_element",
+         "title": "My Top 3 Ui Design Books",
+         "description": null,
+         "url": "https://www.adhamdannaway.com/blog/ui-design/ui-design-books#:~:text=My%20top%203%20UI%20design%20books",
+         "domain": "www.adhamdannaway.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-05-20 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Ui design books pdf",
+        "Ui design books pdf free download",
+        "Ui design books for beginners",
+        "Ui design books free",
+        "Ui design books pdf free",
+        "Ui design books free download",
+        "Best ui design books",
+        "UX UI design books"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

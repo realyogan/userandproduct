@@ -1,0 +1,941 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0162 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-7773bdf403bd",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0115 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-7773bdf403bd"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "product discovery books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-disc",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "product discovery books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=product%20discovery%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:49:56 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgoIEhIGT25saW5lYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAF6BAgqEEQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=product+discovery+books+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhMIBhIHT24gc2FsZRgCIgRKAhgBWNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAJ6BAgqEEU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Kids' Books",
+        "url": "https://www.google.com/search?q=kids'+books+product+discovery&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhsIARILS2lkcycgQm9va3M6CgjOqToQ9cA6MAJY26kgYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAN6BAgqEEY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Free",
+        "url": "https://www.google.com/search?q=free+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMggIEhIERnJlZWAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAR6BAgqEEc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=product+discovery+books+for+sale&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgwIEhIIRm9yIFNhbGVgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAV6BAgqEEg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=product+discovery+books+nearby&hl=en&gl=US&shoprs=GAMqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgwIAxIGTmVhcmJ5GAJY26kgYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAZ6BAgqEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgcIEhIDQnV5YAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAd6BAgqEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Non-fiction",
+        "url": "https://www.google.com/search?q=non-fiction+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhsIARILTm9uLWZpY3Rpb246CgjLqToQzak6MAJY26kgYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAh6BAgqEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Reviews",
+        "url": "https://www.google.com/search?q=reviews+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgsIEhIHUmV2aWV3c2AB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAl6BAgqEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Adult",
+        "url": "https://www.google.com/search?q=adult+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgkIEhIFQWR1bHRgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAp6BAgqEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "New",
+        "url": "https://www.google.com/search?q=new+product+discovery+books&hl=en&gl=US&shoprs=GAoqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgcIChIDTmV3WNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAt6BAgqEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Used",
+        "url": "https://www.google.com/search?q=used+product+discovery+books&hl=en&gl=US&shoprs=GAoqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMggIChIEVXNlZFjbqSBgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKAx6BAgqEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it today",
+        "url": "https://www.google.com/search?q=product+discovery+books&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFABkgBGBQqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMiUIFBIMR2V0IGl0IHRvZGF5Ig2aAQoKCBAAOAFABkgBKgQQARgBYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKA16BAgqEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $35",
+        "url": "https://www.google.com/search?q=product+discovery+books+under+$35&hl=en&gl=US&shoprs=Eg0SCxEAAAAAdrCAQRgBGAUqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMiIIBRIJVW5kZXIgJDM1GAIiDRILEQAAAAB2sIBBGAEqAhgBWNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKA56BAgqEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Pink",
+        "url": "https://www.google.com/search?q=pink+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhYIARIEUGluazoMCNiM9QEQ6Yr1ATALWNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKA96BAgqEFI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Black",
+        "url": "https://www.google.com/search?q=black+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhcIARIFQmxhY2s6DAjYjPUBEOWK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBB6BAgqEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Price",
+        "url": "https://www.google.com/search?q=price+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgkIEhIFUHJpY2VgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBF6BAgqEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Science",
+        "url": "https://www.google.com/search?q=science+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhcIARIHU2NpZW5jZToKCM6pOhCQrTowAljbqSBgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBJ6BAgqEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Blue",
+        "url": "https://www.google.com/search?q=blue+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhYIARIEQmx1ZToMCNiM9QEQ5or1ATALWNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBN6BAgqEFY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Law",
+        "url": "https://www.google.com/search?q=law+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhMIARIDTGF3OgoIzqk6EP-sOjACWNupIGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBR6BAgqEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Green",
+        "url": "https://www.google.com/search?q=green+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhcIARIFR3JlZW46DAjYjPUBEOiK9QEwC1jbqSBgAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBV6BAgqEFg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Woman",
+        "url": "https://www.google.com/search?q=woman+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgkIEhIFV29tYW5gAQ&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBZ6BAgqEFk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Girl",
+        "url": "https://www.google.com/search?q=girl+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMggIEhIER2lybGAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBd6BAgqEFo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Toddler",
+        "url": "https://www.google.com/search?q=toddler+product+discovery+books&hl=en&gl=US&shoprs=GBIqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMgsIEhIHVG9kZGxlcmAB&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBh6BAgqEFs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+product+discovery+books&hl=en&gl=US&shoprs=GAEqF3Byb2R1Y3QgZGlzY292ZXJ5IGJvb2tzMhUIARIDUmVkOgwI2Iz1ARDnivUBMAtY26kgYAE&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQip4GKBl6BAgqEFw",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "popular_products",
+      "related_searches"
+     ],
+     "se_results_count": 120,
+     "pages_count": 1,
+     "items_count": 13,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Is anyone actually doing continuous discovery?",
+       "url": "https://www.reddit.com/r/ProductManagement/comments/x9unml/is_anyone_actually_doing_continuous_discovery/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ comments  \u00b7  4 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/ProductManagement",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "I read the book, love the concept, have begun designing a system to keep our team accountable and execute continuous discovery. I hear a lot of people ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What are some books that I can read during my initial ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/ProductManagement/comments/1hiypnk/what_are_some_books_that_i_can_read_during_my/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "What are some good books you would recommend ...",
+         "description": null,
+         "url": "https://www.reddit.com/r/ProductManagement/comments/1glrvus/what_are_some_good_books_you_would_recommend/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=product+discovery+books+site:www.reddit.com&sca_esv=85be49cb45338bd0&hl=en&gl=US&sxsrf=APpeQnuooWAg6J2jZrf4gHoHJn2Lln3keg:1791643795268&sa=X&ved=2ahUKEwjX_euf2a-XAxVQg_0HHWRTAFkQrQIoAnoECCgQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.productboard.com",
+       "title": "15 best books for product managers",
+       "url": "https://www.productboard.com/blog/15-best-books-for-product-managers/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productboard.com \u203a blog \u203a 15-best-books-...",
+       "website_name": "Productboard",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 27, 2021 \u2014 15 best books for product managers ; 1. Inspired: How to Create Tech Products Customers Love \u00b7 Marty Cagan ; 5. Interviewing Users: How to Uncover\u00a0... Read more",
+       "pre_snippet": "01/27/2021 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "1. Inspired: How to Create Tech Products Customers Love"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.productboard.com/blog/15-best-books-for-product-managers/#:~:text=15%20best%20books%20for%20product,managers&text=1.%20Inspired%3A%20How%20to%20Create,Tech%20Products%20Customers%20Love&text=Author%3A%20Marty%20Cagan&text=5.%20Interviewing%20Users%3A%20How%20to,Uncover%20Compelling%20Insights",
+         "domain": "www.productboard.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-01-27 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "herbig.co",
+       "title": "Update Product Discovery Main Guide PDF",
+       "url": "https://herbig.co/wp-content/uploads/2021/12/A-Practical-Guide-to-Product-Discovery-2022-v1.pdf",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://herbig.co \u203a wp-content \u203a uploads \u203a 2021/12",
+       "website_name": "Tim Herbig",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What Product Discovery is and how it connects to Product. Management domains like Product Strategy, Scrum, and OKRs. How to structure your Product Discovery\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Product Discovery"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://herbig.co/wp-content/uploads/2021/12/A-Practical-Guide-to-Product-Discovery-2022-v1.pdf#:~:text=What%20Product%20Discovery%20is%20and,Product%20Discovery%20without%20losing%20the",
+         "domain": "herbig.co"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "screeb.app",
+       "title": "The 8 Books Every Product Manager Must Read to be ...",
+       "url": "https://screeb.app/blog/the-8-books-every-product-manager-must-read-to-be-successful",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://screeb.app \u203a blog \u203a the-8-books-every-product-...",
+       "website_name": "Screeb",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Hooked - Nir Eyal \u00b7 The Mom Test - Rob Fitzpatrick \u00b7 The Cold Start Problem - Andrew Chen \u00b7 When Coffee and Kale Compete - Alan Klement \u00b7 Empowered - Marty Cagan. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Hooked - Nir Eyal"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://screeb.app/blog/the-8-books-every-product-manager-must-read-to-be-successful#:~:text=Hooked%20-%20Nir%20Eyal&text=The%20Mom%20Test%20-%20Rob,Fitzpatrick&text=The%20Cold%20Start%20Problem%20-,Andrew%20Chen&text=When%20Coffee%20and%20Kale%20Compete,-%20Alan%20Klement&text=Empowered%20-%20Marty%20Cagan",
+         "domain": "screeb.app"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.producttalk.org",
+       "title": "Continuous Discovery Habits",
+       "url": "https://www.producttalk.org/continuous-discovery-habits-book/?srsltid=AU7gw4VH0_gaCLiIQt2xdsiamdX5CdeDNqAiXaDQjOJHP4c1F-trpQ7V",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.producttalk.org \u203a continuous-discovery-ha...",
+       "website_name": "Product Talk",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Get the product trio's guide to a structured and sustainable approach to continuous discovery. Over 135,000 people have bought the book.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "product",
+        "discovery",
+        "book"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "www.amazon.com",
+       "title": "Product Development Books",
+       "url": "https://www.amazon.com/product-development-books/s?k=product+development+books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.amazon.com \u203a product-development-books",
+       "website_name": "Amazon.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Discovery Habits : Discover Products that Create Customer Value and Business Value. A high quality digital reading experience.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Discovery Habits"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "www.goodreads.com",
+       "title": "TOP-15 Product Management Books",
+       "url": "https://www.goodreads.com/list/show/198001.TOP_15_Product_Management_Books",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.goodreads.com \u203a list \u203a show \u203a 198001.TO...",
+       "website_name": "Goodreads",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Top 15 Product Management Books ; 1. Product Management in Practice: A Real-World Guide to the Key Connective Role of the 21st Century ; 2. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Product",
+        "Books"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.goodreads.com/list/show/198001.TOP_15_Product_Management_Books#:~:text=Top%2015%20Product%20Management%20Books&text=1.,Role%20of%20the%2021st%20Century&text=2.",
+         "domain": "www.goodreads.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "www.bringthedonuts.com",
+       "title": "Best Books for Product Managers [2026] | Ken Norton",
+       "url": "https://www.bringthedonuts.com/essays/books-for-product-managers.html",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.bringthedonuts.com \u203a essays \u203a books-for-p...",
+       "website_name": "Bring the Donuts",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Ken Norton shares his recommended books for product managers. The best books on product leadership, innovation, management, shipping winning products,\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "recommended books for product managers"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "www.alibris.com",
+       "title": "Product management Books",
+       "url": "https://www.alibris.com/search/books/subject/Product-management",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.alibris.com \u203a search \u203a books \u203a subject \u203a Pr...",
+       "website_name": "Alibris",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Find a huge variety of new & used Product management books online including bestsellers & rare titles at the best prices. Shop Product management books at\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 1,
+        "regular": null,
+        "max_value": 20,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$1 to $20"
+       },
+       "highlighted": [
+        "Product management books"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "Top 20 Must-Read Books for Every Product Manager in 2024",
+       "url": "https://medium.com/@productandrew/top-20-must-read-books-for-every-product-manager-in-2024-617123d42f52",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "2 years ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Andrew Clark",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Escaping the Build Trap \u00b7 Continuous Discovery Habits \u00b7 Hacking Growth \u00b7 The Lean Startup \u00b7 The Cold Start Problem \u00b7 Sprint \u00b7 Strategize \u00b7 Outcomes\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Escaping the Build Trap"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://medium.com/@productandrew/top-20-must-read-books-for-every-product-manager-in-2024-617123d42f52#:~:text=Escaping%20the%20Build%20Trap%20Summary&text=Continuous%20Discovery%20Habits%20Summary&text=Hacking%20Growth%20Summary&text=The%20Lean%20Startup%20Summary&text=The%20Cold%20Start%20Problem%20Summary&text=Sprint%20Summary&text=Strategize%20Summary&text=Outcomes%20Over%20Output%20Summary",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "popular_products",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]",
+       "title": "Popular products",
+       "items": [
+        {
+         "type": "popular_products_element",
+         "title": "Continuous Discovery Habits (Discover Products that Create Customer Value and Business Value)",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble - NOOK & more\nFree delivery",
+         "more_sellers": true,
+         "seller": "Barnes & Noble - NOOK",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRoCQxX_XZHgw_cFwrHk6LBt4WIKokMGbWgChB8RL8-vBAfSyAANa7EyuuofI2owemcZ4oFmAwaR08Y8w1atzSaF10uyk4fBRXZ38JJ8u97UWMoun4SGs853Q",
+         "price": {
+          "current": 9.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$9.99"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 5,
+          "votes_count": 3,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "5432396896650611555",
+          "data_docid": "8292002253652751621",
+          "gid": "10198493221075981433"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The COMPLETE BOOK of Product Design, Development, Manufacturing, and Sales (Paperback)",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million & more",
+         "more_sellers": true,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTPuDHW7n5QsCnaS3ovJ0ffDaFVlLOKe_tIKrLAKBpznSDlT7g2R05qFNwI7jEkqbAMvsb7RPa_7ViO4RY3INK_mL2E4W4LqmS2KCeWeeO9GzpV9O4xklI2sg",
+         "price": {
+          "current": 34.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$34.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "4517127657327087415",
+          "data_docid": "1250316424011871474",
+          "gid": "13987526813492437076"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "The Product-Led Playbook - Audiobook, by Wes Bush",
+         "url": null,
+         "domain": null,
+         "description": "Target & more\nFree delivery on $35+",
+         "more_sellers": true,
+         "seller": "Target",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpafHiLgVWN56MmR6w5R5Jh1isT4OyjfVCvb-Grj-mOGK7rkJRkrcT4oBweWZWGKMJ57uyTojCyxgMWa7T76viQ9XG86Oqspz4hcCI-1JuwUYsS2bWuQqJ",
+         "price": {
+          "current": 14.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$14.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5730432941581856547",
+          "data_docid": "1967015073441917569",
+          "gid": "13429841490680421036"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "FBA Product Research 101 : A First-Time FBA Sellers Guide to Understanding Product Research Behind Amazon's Most Profitable Products",
+         "url": null,
+         "domain": null,
+         "description": "Half Price Books & more",
+         "more_sellers": true,
+         "seller": "Half Price Books",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQXQA0bK5R1Kr9IsSBYmjZrSxbvI3pjmuatElxwDnXheEpoTYhsUBGabehWsL2WPxK7AUMXgx4Mx6i1eLhZd1Tc6VRlrmDSZohTTo3DOprD4Wv71aRdomyg4A",
+         "price": {
+          "current": 11.99,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$11.99"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5776267343620215884",
+          "data_docid": "9696501973839348244",
+          "gid": "13864681462290347927"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Discovery Thinking",
+         "url": null,
+         "domain": null,
+         "description": "Barnes & Noble & more",
+         "more_sellers": true,
+         "seller": "Barnes & Noble",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDHAvrAwPe7BNstNTCuvhEwgf1RlsMEBE5XGEzeKTveaICQIQRryW04tc79JZT1GoyoOKNdkPBPDDIXjuUcjJLYWRugAuxt6rKPkLfdEnAJ7kI_wkrtUWS",
+         "price": {
+          "current": 40.49,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$40.49"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "13985387976804336837",
+          "data_docid": "1298791104403224471",
+          "gid": "13988063714401960198"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "(25 copies) Paperback Radical Product Thinking (The New Mindset for Innovating Smarter) - 9781523003471 by R. Dutt",
+         "url": null,
+         "domain": null,
+         "description": "Penguin Random House & more\nFree delivery by Thu",
+         "more_sellers": true,
+         "seller": "Penguin Random House",
+         "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcREMloK6HEROOKTZJqni-FVyepKVwCl0oHZnv4PXk4t-ouPmnC8DgXr9mSaIMJX9HgvUlrZe1sOFRHlHhHUBaFbnwkF-P4ZVmhH2qhom0WMq4Mwzg-Q5kgxHA",
+         "price": {
+          "current": 24.95,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$24.95"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "7366953199681113692",
+          "data_docid": "7634299296353316388",
+          "gid": "11241217458071491722"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Product Research 101 : Find Winning Products to Sell on Amazon and Beyond, by Renae Clark",
+         "url": null,
+         "domain": null,
+         "description": "Walmart & more",
+         "more_sellers": true,
+         "seller": "Walmart",
+         "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRDzZEGgw18ox9i30bFiyJ0Kv1OieU7D5GP81HDOdFjkdHpzRkWFpi14loX1UZS8pzgHTKARR0IhCpxRRxTNkzihBWRKwkYOR3KJDZhvPLgWzAQlGKGsXaiIg",
+         "price": {
+          "current": 6.91,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$6.91"
+         },
+         "rating": {
+          "rating_type": "Max5",
+          "value": 3,
+          "votes_count": 4,
+          "rating_max": 5
+         },
+         "product_identifiers": {
+          "product_id": "15939861016981397803",
+          "data_docid": "2805907927134857848",
+          "gid": "12615265572747838870"
+         }
+        },
+        {
+         "type": "popular_products_element",
+         "title": "Natural Products and Drug Discovery Set",
+         "url": null,
+         "domain": null,
+         "description": "Books A Million",
+         "more_sellers": false,
+         "seller": "Books A Million",
+         "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnUCjHVXJWpNi2oKAs_j1foElij9irMkEa3ZL402mnf0X0NRidRIBwQmVrTGx83DggPoWmRradMKw09mxUMoM9U1igEluXaAwr2TX1Uiuh",
+         "price": {
+          "current": 910,
+          "regular": null,
+          "max_value": null,
+          "currency": "USD",
+          "is_price_range": false,
+          "displayed_price": "$910.00"
+         },
+         "rating": null,
+         "product_identifiers": {
+          "product_id": "5377373549265735134",
+          "data_docid": "232807304356544001",
+          "gid": "2980433612672949235"
+         }
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Product discovery books pdf",
+        "Top 10 product management books",
+        "Continuous discovery Habits",
+        "Product management books PDF",
+        "The product Book",
+        "Continuous Discovery Habits PDF",
+        "Product manager book",
+        "Best product management books 2025"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

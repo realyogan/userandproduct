@@ -1,0 +1,752 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0197 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101449-2633-0066-0000-0ac31d8b116b",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0151 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101449-2633-0066-0000-0ac31d8b116b"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "behavioral economics books",
+    "location_code": 2840,
+    "language_code": "en",
+    "depth": 10,
+    "tag": "bt-behav",
+    "device": "desktop",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "behavioral economics books",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=behavioral%20economics%20books&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 14:50:01 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 99,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "![The 10 Most Influential Behavioral Economics Books [Updated ...](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0ac31d8b116b:4)\nTop behavioral economics books range from accessible introductions to foundational academic texts that explore how psychology shapes human decision-making.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop)[[3]](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)\n\n- **Nudge** by Richard H. Thaler and Cass R. Sunstein\n\t- *Overview:* Explores \"choice architecture\"\u2014how the presentation of options subtly guides people toward better decisions regarding health, wealth, and happiness without taking away freedom of choice.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Predictably Irrational](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)** by Dan Ariely\n\t- *Overview:* A lighthearted look at the hidden, systematic emotional and psychological forces that regularly cause people to act against their own best rational interest.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **Thinking, Fast and Slow** by Daniel Kahneman\n\t- *Overview:* A massive best-seller by a Nobel Prize winner breaking down the two systems of thought: System 1 (fast, intuitive, and emotional) versus System 2 (slow, deliberative, and logical).[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Misbehaving: The Making of Behavioral Economics](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)** by Richard H. Thaler\n\t- *Overview:* Richard Thaler\u2019s personal and humorous account of how traditional economic theory slowly acknowledged that real-world humans do not act like purely rational \"Econs\".[[1]](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:5142733868177638259,catalogid:16419327445354844126,gpcid:3388038968906798929,mid:576462203676746635&ibp=oshop)\n\n### Deep Dives & Specialized Applications\n\n- **Influence: The Psychology of Persuasion** by Robert B. Cialdini\n\t- *Overview:* The classic text on the six universal principles of influence and why people comply with requests.[[1]](https://www.youtube.com/watch?v=to7HiRjoE5A)[[2]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **Scarcity: Why Having Too Little Means So Much** by Sendhil Mullainathan and Eldar Shafir\n\t- *Overview:* Examines how the mental bandwidth consumed by a lack of resources (money, time) fundamentally alters decision-making and problem-solving.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **The Paradox of Choice** by Barry Schwartz\n\t- *Overview:* Explores why an abundance of options often leads to anxiety, paralysis, and dissatisfaction rather than freedom.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Behavioral Economics: The Basics](https://www.routledge.com/Behavioral-Economics-The-Basics/Corr-Plagnol/p/book/9780367764326?source=shoppingads&locale=en-USD&srsltid=AU7gw4VH8xBPV6QSeCBYoZPP9ghe9Yvbe54_RaGFGXIVUWeZJg66wQNp4K0)** by Philip Corr and Anke Plagnol\n\t- *Overview:* A compact, academic introduction bridging psychological theory and real-world economic behavior.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop)",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Top behavioral economics books range from accessible introductions to foundational academic texts that explore how psychology shapes human decision-making.",
+         "markdown": "![The 10 Most Influential Behavioral Economics Books [Updated ...](https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0ac31d8b116b:2)\nTop behavioral economics books range from accessible introductions to foundational academic texts that explore how psychology shapes human decision-making.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop)[[3]](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)",
+         "links": null,
+         "images": [
+          {
+           "type": "images_element",
+           "alt": "The 10 Most Influential Behavioral Economics Books [Updated ...",
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10101449-2633-0066-0000-0ac31d8b116b:3"
+          }
+         ],
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Irrational Labs",
+           "domain": "irrationallabs.com",
+           "url": "https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/",
+           "title": "The 10 Most Influential Behavioral Economics Books [Updated for 2026] - Irrational Labs",
+           "text": "The 10 Most Influential Behavioral Economics Books * Influence: The Psychology of Persuasion (Dr. Robert Cialdini) ... * Predictab..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop",
+           "title": "Behavioral Economics",
+           "text": "The second edition of \"Behavioral Economics: The Basics\" provides a comprehensive overview of behavioral economics. This academic ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Amazon.com",
+           "domain": "www.amazon.com",
+           "url": "https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X",
+           "title": "Misbehaving: The Making of Behavioral Economics: Thaler, Richard H.: 9780393352795: Amazon.com: Books",
+           "text": "Book: Misbehaving: The Making of Behavioral Economics (ISBN-13: 978-0393352795, ISBN-10: 039335279X, 432 pages, reprint edition, W..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Nudge by Richard H. Thaler and Cass R. SunsteinOverview: Explores \"choice architecture\"\u2014how the presentation of options subtly guides people toward better decisions regarding health, wealth, and happiness without taking away freedom of choice. Overview: Explores \"choice architecture\"\u2014how the presentation of options subtly guides people toward better decisions regarding health, wealth, and happiness without taking away freedom of choice. Predictably Irrational by Dan ArielyOverview: A lighthearted look at the hidden, systematic emotional and psychological forces that regularly cause people to act against their own best rational interest. Overview: A lighthearted look at the hidden, systematic emotional and psychological forces that regularly cause people to act against their own best rational interest. Thinking, Fast and Slow by Daniel KahnemanOverview: A massive best-seller by a Nobel Prize winner breaking down the two systems of thought: System 1 (fast, intuitive, and emotional) versus System 2 (slow, deliberative, and logical). Overview: A massive best-seller by a Nobel Prize winner breaking down the two systems of thought: System 1 (fast, intuitive, and emotional) versus System 2 (slow, deliberative, and logical). Misbehaving: The Making of Behavioral Economics by Richard H. ThalerOverview: Richard Thaler\u2019s personal and humorous account of how traditional economic theory slowly acknowledged that real-world humans do not act like purely rational \"Econs\". Overview: Richard Thaler\u2019s personal and humorous account of how traditional economic theory slowly acknowledged that real-world humans do not act like purely rational \"Econs\".",
+         "markdown": "- **Nudge** by Richard H. Thaler and Cass R. Sunstein\n\t- *Overview:* Explores \"choice architecture\"\u2014how the presentation of options subtly guides people toward better decisions regarding health, wealth, and happiness without taking away freedom of choice.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Predictably Irrational](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)** by Dan Ariely\n\t- *Overview:* A lighthearted look at the hidden, systematic emotional and psychological forces that regularly cause people to act against their own best rational interest.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **Thinking, Fast and Slow** by Daniel Kahneman\n\t- *Overview:* A massive best-seller by a Nobel Prize winner breaking down the two systems of thought: System 1 (fast, intuitive, and emotional) versus System 2 (slow, deliberative, and logical).[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Misbehaving: The Making of Behavioral Economics](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)** by Richard H. Thaler\n\t- *Overview:* Richard Thaler\u2019s personal and humorous account of how traditional economic theory slowly acknowledged that real-world humans do not act like purely rational \"Econs\".[[1]](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X)[[2]](https://www.google.com/search?q=product&prds=pvt:hg,productid:5142733868177638259,catalogid:16419327445354844126,gpcid:3388038968906798929,mid:576462203676746635&ibp=oshop)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Predictably Irrational",
+           "description": null,
+           "url": "https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/",
+           "domain": "irrationallabs.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Misbehaving: The Making of Behavioral Economics",
+           "description": null,
+           "url": "https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X",
+           "domain": "www.amazon.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Irrational Labs",
+           "domain": "irrationallabs.com",
+           "url": "https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/",
+           "title": "The 10 Most Influential Behavioral Economics Books [Updated for 2026] - Irrational Labs",
+           "text": "The 10 Most Influential Behavioral Economics Books * Influence: The Psychology of Persuasion (Dr. Robert Cialdini) ... * Predictab..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Amazon.com",
+           "domain": "www.amazon.com",
+           "url": "https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X",
+           "title": "Misbehaving: The Making of Behavioral Economics: Thaler, Richard H.: 9780393352795: Amazon.com: Books",
+           "text": "Book: Misbehaving: The Making of Behavioral Economics (ISBN-13: 978-0393352795, ISBN-10: 039335279X, 432 pages, reprint edition, W..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:5142733868177638259,catalogid:16419327445354844126,gpcid:3388038968906798929,mid:576462203676746635&ibp=oshop",
+           "title": "Misbehaving : The Making of Behavioral Economics",
+           "text": "Misbehaving is Richard Thaler's captivating and often humorous account of the struggle to bring an academic discipline back to rea..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Deep Dives & Specialized Applications",
+         "markdown": "### Deep Dives & Specialized Applications",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Influence: The Psychology of Persuasion by Robert B. CialdiniOverview: The classic text on the six universal principles of influence and why people comply with requests. Overview: The classic text on the six universal principles of influence and why people comply with requests. Scarcity: Why Having Too Little Means So Much by Sendhil Mullainathan and Eldar ShafirOverview: Examines how the mental bandwidth consumed by a lack of resources (money, time) fundamentally alters decision-making and problem-solving. Overview: Examines how the mental bandwidth consumed by a lack of resources (money, time) fundamentally alters decision-making and problem-solving. The Paradox of Choice by Barry SchwartzOverview: Explores why an abundance of options often leads to anxiety, paralysis, and dissatisfaction rather than freedom. Overview: Explores why an abundance of options often leads to anxiety, paralysis, and dissatisfaction rather than freedom. Behavioral Economics: The Basics by Philip Corr and Anke PlagnolOverview: A compact, academic introduction bridging psychological theory and real-world economic behavior. Overview: A compact, academic introduction bridging psychological theory and real-world economic behavior.",
+         "markdown": "- **Influence: The Psychology of Persuasion** by Robert B. Cialdini\n\t- *Overview:* The classic text on the six universal principles of influence and why people comply with requests.[[1]](https://www.youtube.com/watch?v=to7HiRjoE5A)[[2]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **Scarcity: Why Having Too Little Means So Much** by Sendhil Mullainathan and Eldar Shafir\n\t- *Overview:* Examines how the mental bandwidth consumed by a lack of resources (money, time) fundamentally alters decision-making and problem-solving.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **The Paradox of Choice** by Barry Schwartz\n\t- *Overview:* Explores why an abundance of options often leads to anxiety, paralysis, and dissatisfaction rather than freedom.[[1]](https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/)\n- **[Behavioral Economics: The Basics](https://www.routledge.com/Behavioral-Economics-The-Basics/Corr-Plagnol/p/book/9780367764326?source=shoppingads&locale=en-USD&srsltid=AU7gw4VH8xBPV6QSeCBYoZPP9ghe9Yvbe54_RaGFGXIVUWeZJg66wQNp4K0)** by Philip Corr and Anke Plagnol\n\t- *Overview:* A compact, academic introduction bridging psychological theory and real-world economic behavior.[[1]](https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Behavioral Economics: The Basics",
+           "description": null,
+           "url": "https://www.routledge.com/Behavioral-Economics-The-Basics/Corr-Plagnol/p/book/9780367764326?source=shoppingads&locale=en-USD&srsltid=AU7gw4VH8xBPV6QSeCBYoZPP9ghe9Yvbe54_RaGFGXIVUWeZJg66wQNp4K0",
+           "domain": "www.routledge.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=to7HiRjoE5A&t=0",
+           "title": "The BEST 6 BOOKS for Beginners in Behavioral Economics",
+           "text": "one of the most common questions I get asked is \"Hey Pete I'm new to behavioral. economics/behavioral. science what books do you r..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Irrational Labs",
+           "domain": "irrationallabs.com",
+           "url": "https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/",
+           "title": "The 10 Most Influential Behavioral Economics Books [Updated for 2026] - Irrational Labs",
+           "text": "The 10 Most Influential Behavioral Economics Books * Influence: The Psychology of Persuasion (Dr. Robert Cialdini) ... * Predictab..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Google",
+           "domain": "www.google.com",
+           "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop",
+           "title": "Behavioral Economics",
+           "text": "The second edition of \"Behavioral Economics: The Basics\" provides a comprehensive overview of behavioral economics. This academic ..."
+          }
+         ]
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Irrational Labs",
+         "domain": "irrationallabs.com",
+         "url": "https://irrationallabs.com/blog/the-ten-most-influential-behavioral-economics-books/",
+         "title": "The 10 Most Influential Behavioral Economics Books [Updated for 2026] - Irrational Labs",
+         "text": "The 10 Most Influential Behavioral Economics Books * Influence: The Psychology of Persuasion (Dr. Robert Cialdini) ... * Predictab..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Amazon.com",
+         "domain": "www.amazon.com",
+         "url": "https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X",
+         "title": "Misbehaving: The Making of Behavioral Economics: Thaler, Richard H.: 9780393352795: Amazon.com: Books",
+         "text": "Book: Misbehaving: The Making of Behavioral Economics (ISBN-13: 978-0393352795, ISBN-10: 039335279X, 432 pages, reprint edition, W..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=to7HiRjoE5A&t=0",
+         "title": "The BEST 6 BOOKS for Beginners in Behavioral Economics",
+         "text": "one of the most common questions I get asked is \"Hey Pete I'm new to behavioral. economics/behavioral. science what books do you r..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:2304063052282262072,catalogid:13139836604611188067,gpcid:6644291665720485828,mid:576462295938018918&ibp=oshop",
+         "title": "Behavioral Economics",
+         "text": "The second edition of \"Behavioral Economics: The Basics\" provides a comprehensive overview of behavioral economics. This academic ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Google",
+         "domain": "www.google.com",
+         "url": "https://www.google.com/search?q=product&prds=pvt:hg,productid:5142733868177638259,catalogid:16419327445354844126,gpcid:3388038968906798929,mid:576462203676746635&ibp=oshop",
+         "title": "Misbehaving : The Making of Behavioral Economics",
+         "text": "Misbehaving is Richard Thaler's captivating and often humorous account of the struggle to bring an academic discipline back to rea..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+       "domain": "en.wikipedia.org",
+       "title": "Behavioral economics",
+       "url": "https://en.wikipedia.org/wiki/Behavioral_economics",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://en.wikipedia.org \u203a wiki \u203a Behavioral_economics",
+       "website_name": "Wikipedia",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A Little History of Economics written by Niall Kishtainy ; Misbehaving written by Richard H. Thaler ; The Behavioral Economics Guide 2023 (multiple authors)\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "A Little History of Economics written by Niall Kishtainy"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://en.wikipedia.org/wiki/Behavioral_economics#:~:text=A%20Little%20History%20of%20Economics,written%20by%20Niall%20Kishtainy&text=Misbehaving%20written%20by%20Richard%20H.,Thaler&text=The%20Behavioral%20Economics%20Guide%202023,(multiple%20authors)",
+         "domain": "en.wikipedia.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+       "domain": "www.bu.edu",
+       "title": "Behavioral Economics In Context",
+       "url": "https://www.bu.edu/eci/files/2020/05/Behavioral-Economics_final.pdf",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.bu.edu \u203a eci \u203a files \u203a 2020/05 \u203a Beh...",
+       "website_name": "Boston University",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "We begin by developing a toolkit of concepts and principles in behavioral economics. This toolkit will provide the basis for looking at economic development,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "behavioral economics"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.bu.edu/eci/files/2020/05/Behavioral-Economics_final.pdf#:~:text=We%20begin%20by%20developing%20a,economic%20development%2C%20environmental%20issues%2C%20financial",
+         "domain": "www.bu.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+       "domain": "www.renascence.io",
+       "title": "Behavioral Economics Best Book: The Must-Read List 2026",
+       "url": "https://www.renascence.io/journal/behavioral-economics-best-book-the-must-read-list-2026",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.renascence.io \u203a Journal",
+       "website_name": "renascence.io",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 13, 2025 \u2014 Thinking, Fast and Slow \u2013 Daniel Kahneman \u00b7 Nudge \u2013 Richard Thaler & Cass Sunstein (Updated Final Edition 2021) \u00b7 The Art of Thinking Clearly \u2013\u00a0... Read more",
+       "pre_snippet": "04/13/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Thinking, Fast and Slow \u2013 Daniel Kahneman"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.renascence.io/journal/behavioral-economics-best-book-the-must-read-list-2026#:~:text=Thinking%2C%20Fast%20and%20Slow%20%E2%80%93,Daniel%20Kahneman&text=Nudge%20%E2%80%93%20Richard%20Thaler%20%26,Sunstein%20(Updated%20Final%20Edition%202021)&text=The%20Art%20of%20Thinking%20Clearly,%E2%80%93%20Rolf%20Dobelli",
+         "domain": "www.renascence.io"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-04-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[6]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "The BEST 6 BOOKS for Beginners in Behavioral Economics",
+       "url": "https://www.youtube.com/watch?v=to7HiRjoE5A",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10.6K+ views  \u00b7  3 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Pete Judo",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-10-17 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[8]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Best behavioral economics textbook? : r/AskEconomics",
+       "url": "https://www.reddit.com/r/AskEconomics/comments/788cne/best_behavioral_economics_textbook/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "5 comments  \u00b7  8 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/AskEconomics",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "I say textbook because the popular ones are too much filler, if you read the reviews of Thaler's books, and others, they say the content can be trimmed ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "5 answers",
+         "description": null,
+         "url": "https://www.reddit.com/r/AskEconomics/comments/788cne/comment/dorz14e/",
+         "domain": "www.reddit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What books should I read to understand economics?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is behavioural economic theory?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the best book in behavioral finance?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Why is behavioral finance important?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[12]/div[1]/div[1]",
+       "domain": "www.audible.com",
+       "title": "Behavioural Economics Psychology Books",
+       "url": "https://www.audible.com/topic/audiobooks-behavioural-economics-psychology?srsltid=AU7gw4XLILS_M8kE1dFv4zIuZI2_GNe9vpOJN9JII74V-N5indeE2aRE",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.audible.com \u203a topic \u203a audiobooks-behavio...",
+       "website_name": "Audible",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Behavioural Economics. By: David Orrell; Narrated by: Al Kessel; Length: 5 hrs and 45 mins ; Influence, New and Expanded. By: Robert B. Cialdini; Narrated by:\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": {
+        "current": 4,
+        "regular": null,
+        "max_value": 41,
+        "currency": "USD",
+        "is_price_range": true,
+        "displayed_price": "$4 to $41"
+       },
+       "highlighted": [
+        "Behavioural Economics"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.audible.com/topic/audiobooks-behavioural-economics-psychology?srsltid=AU7gw4XLILS_M8kE1dFv4zIuZI2_GNe9vpOJN9JII74V-N5indeE2aRE#:~:text=Behavioural%20Economics,5%20hrs%20and%2045%20mins&text=Influence%2C%20New%20and%20Expanded,Narrated%20by%3A%20Robert%20B.",
+         "domain": "www.audible.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[14]/div[1]/div[1]",
+       "domain": "inomics.com",
+       "title": "The Best Behavioral Economics Books",
+       "url": "https://inomics.com/es/advice/the-best-behavioral-economics-books-1478422",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://inomics.com \u203a advice \u203a the-best-behavioral-econ...",
+       "website_name": "INOMICS",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 29, 2020 \u2014 Misbehaving: The Making of Behavioral Economics - Richard Thaler Nobel Prize. Irrational: The Hidden Forces That Shape Our Decisions - Dan\u00a0...",
+       "pre_snippet": "07/29/2020 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Behavioral Economics"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2020-07-29 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[16]/div[1]/div[1]",
+       "domain": "www.barnesandnoble.com",
+       "title": "Behavioral Economics",
+       "url": "https://www.barnesandnoble.com/w/behavioral-economics-introbooks-team/1134631184",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.barnesandnoble.com \u203a behavioral-economi...",
+       "website_name": "Barnes & Noble",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "When it comes to economics, it has a number of branches which can help a business to run in a proper way so that it can be successful and gain more re.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "economics"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[18]/div[1]/div[1]",
+       "domain": "impactually.se",
+       "title": "Your essential Behavioral Economics reading list",
+       "url": "https://impactually.se/your-essential-behavioral-economics-reading-list/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://impactually.se \u203a your-essential-behavioral-econo...",
+       "website_name": "Impactually",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A a list of Behavioral Economics books that we have found most inspiring and helpful in getting a grip on this field. Including sub-lists for all levels of\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Behavioral Economics books"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "7 principles of behavioural economics",
+        "Behavioral economics examples",
+        "Behavioral economics books for beginners",
+        "Introduction to behavioral economics pdf",
+        "Behavioral economics PDF free download",
+        "Behavioral economics models",
+        "Best books on behavioral economics",
+        "Behavioral economics Richard Thaler"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
