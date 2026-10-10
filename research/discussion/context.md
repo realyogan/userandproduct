@@ -935,3 +935,6 @@ reordering or cutting the outline counts as seeded, not synthesis. Rulebook and 
 Owner (10 Oct): the author page will carry the owner's real photo, LinkedIn profile and other connected profiles
 (portfolio undecided) so it is clear a real person is behind the site; written into the site layer and the build
 checklist (sameAs in ProfilePage markup). Original-data pieces remain a separate item.
+Owner: write the "sounds like a model" tells into the writing rules. Added "The model test" to the writing-style
+skill (no position, hedge density, circling, uniform shape, nothing only this author could know, too tidy) and a
+checklist item; the checker runs it on every draft, two trips send it back.

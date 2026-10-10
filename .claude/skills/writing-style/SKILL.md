@@ -216,6 +216,25 @@ of".
 - A rhetorical question answered by itself: "The result? Chaos."
 - "Here's the thing", "Here's why", "The kicker", "Spoiler alert".
 
+## The model test
+
+Banned phrases catch the surface. These tells sit deeper, and a draft can pass the banned list and still read as
+a language model's output. The checker runs this test on every draft; a draft that trips two of these goes back.
+
+- **No position.** Every paragraph is a survey of possibilities and none says what to do. A piece from this author
+  takes positions and gives the reason (the editor's positions list is where they are approved).
+- **Hedge density.** "Can", "may", "often", "tends to", "it depends" on most sentences. Hedge once where the evidence is
+  honestly mixed, and say why there; state the rest.
+- **Circling.** The same idea restated three ways across a section without adding a fact, an example or a step.
+  Say it once, then move.
+- **Uniform shape.** Every paragraph the same length, every section the same three-part build, every list the same
+  number of items. Real explanation is uneven: a long worked example, a one-line verdict.
+- **Nothing only this author could know.** General knowledge any model produces, with no number, no named
+  situation, no mistake, no artifact from practice. The seed exists so this never happens; if the draft has not used
+  it, that is the failure.
+- **Too tidy.** Perfect symmetry, every claim balanced by its opposite, a closing that sums up what was just said.
+  End when the content ends.
+
 ## Pre-flight checklist
 
 Run this before a piece ships. Every answer should be yes.
@@ -230,6 +249,8 @@ Run this before a piece ships. Every answer should be yes.
 8. Does every technical term get its plain meaning the first time?
 9. Is every picture doing work, with a caption that states its point and full alt text?
 10. Is the banned list clear, structural tells included?
+11. Does it pass the model test: a position taken, hedges rare and explained, no circling, uneven
+    shape, something only this author could know, no tidy summing-up?
 11. Does the piece end on something usable and a named way on, with no restating summary?
 12. Is it US English throughout (color, prioritize, center, -ize spellings)?
 
