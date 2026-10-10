@@ -25,3 +25,10 @@ Thumbs.db
 __pycache__/
 /.claude/settings.local.json
 /.claude/**/evals/outputs/
+
+# Satoshi (ITF Free Font License): the licence bars making the files available through a public
+# repository, so the font files stay local. Get them from https://www.fontshare.com/fonts/satoshi.
+# The README beside them is tracked. The owner decides if this changes.
+/research/mockups/fonts/satoshi/*
+!/research/mockups/fonts/satoshi/README.md
+/research/mockups/option-1/assets/fonts/satoshi/

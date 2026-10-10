@@ -48,11 +48,9 @@ def avatar(size, title="Photo of [Author Name] (placeholder)"):
             '<path d="M11 56c2.5-11 11-17 21-17s18.5 6 21 17Z" fill="currentColor"/></svg>')
 
 def head(variant, label, preload_serif=False):
-    pre = ('<link rel="preload" href="assets/fonts/inter/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>\n'
-           '<link rel="preload" href="assets/fonts/inter/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>\n')
-    if preload_serif:
-        pre = ('<link rel="preload" href="assets/fonts/fraunces/Fraunces9pt-Regular.woff2" as="font" type="font/woff2" crossorigin>\n'
-               '<link rel="preload" href="assets/fonts/inter/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>\n')
+    # Satoshi: one variable file carries the body, the labels and the headline, so one preload covers the fold.
+    # preload_serif is kept for the call in variant B; the serif body is gone since the switch to Satoshi.
+    pre = '<link rel="preload" href="assets/fonts/satoshi/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin>\n'
     return f"""<!doctype html>
 <html lang="en-US">
 <head>

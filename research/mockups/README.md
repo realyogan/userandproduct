@@ -26,6 +26,13 @@ changes. A later redesign would be `option-2/` beside it.
 - `fonts/`: OFL fonts with their licence files (Inter Display is the logo face). Added 9 Oct for the page
   mockups: Inter text cuts (Regular, Italic, Medium, SemiBold, from the same Inter 4.1 release) and Fraunces 9pt
   (Regular, Italic, SemiBold, from the same Fraunces 1.000 release), plus Latin-subset `.woff2` files for the web.
+  From 10 Oct 2026 the page mockups use Satoshi (`fonts/satoshi/`, Satoshi 2.000 from Fontshare, ITF Free Font
+  License 2.0 in `FFL.txt`) for body, UI and headings: `--font-ui`, `--font-body` and `--font-display` point at it,
+  loaded from the variable `.woff2` (weights 300 to 900, roman and italic). The licence forbids redistribution
+  through a public repository, so the Satoshi font files are git-ignored and only `fonts/satoshi/README.md` is
+  tracked; see that README for the licence wording and how to fetch the files. Inter stays for the logo wordmark
+  (Inter Display Bold, outlined in `final-logo-2/`) and the figure and thumbnail generators. Fraunces is kept but
+  unused (variant B's serif body and deck now use Satoshi); its `@font-face` rules remain and are never fetched.
 - `tools/`: `wordmark.py` (text to SVG paths), `render.py` (SVG to PNG), `brand_assets.py` (favicons, app icons,
   social and LinkedIn images), `build_typeboard.py` (builder for the archived type board; it writes into
   `logos/typeboard/`, so it only runs against an unpacked archive).
@@ -44,8 +51,9 @@ changes. A later redesign would be `option-2/` beside it.
   - `css/`, `js/`: the site's own copies of `mockup.css` (font paths pointed at `assets/fonts/`) and `mockup.js`,
     plus `home.css` and `article.css`.
   - `assets/logo/` (the two lockups the header and footer use, from `final-logo-2/svg/`), `assets/favicon/` (the
-    favicons the pages link, from `final-logo-2/favicon/`), `assets/fonts/` (only the nine `.woff2` files the css
-    loads, with their licence files).
+    favicons the pages link, from `final-logo-2/favicon/`), `assets/fonts/` (the `.woff2` files the css
+    loads, with their licence files: `satoshi/` holds the two Satoshi variable files the pages use, git-ignored under
+    the font licence; the Inter and Fraunces files stay but are no longer loaded).
   - `img/`: every image the home page and the article use, plus `thumbs/` (article rail and Just published) and
     `explainers/` (the explainer gallery); `img/README.md` records the home thumbnail styles.
   - `shots/`: screenshots and their README (home at 375 and 1280, article A at ten viewports, the variant thumbnails).

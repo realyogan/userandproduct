@@ -902,3 +902,7 @@ the background it is drawn on. Rules rewritten; the generator's accent limits be
 Owner: image file names (and alt text) follow the SEO brief: the article's SEO slug from the target phrase plus words
 that say what the image shows, set by the researcher or SEO reviewer, never generic. Written into illustration-rules.md
 and the thumbnail skill.
+Committed (10 Oct): illustration generator with no accent caps (any element kind can take a colour; 3:1 shapes and
+4.5:1 labels still enforced; adjacency notes only); rules foundation-only; SEO image names in both rule sets.
+Owner (10 Oct): use the Satoshi family from Fontshare for the mockups instead of the current type (Inter text and Fraunces). Being self-hosted under research/mockups/fonts/satoshi/ with its licence and switched in both mockup.css files; the logo wordmark (Inter Display Bold) and the figure generator's Inter unchanged for now.
+Owner: the Satoshi change is a plain font swap in the CSS only; logo, images and generators untouched; no scale retuning yet.

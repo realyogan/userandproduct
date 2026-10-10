@@ -162,15 +162,15 @@
 
 /* =========================================================
    B: Magazine. One centred 760px column, display headline,
-   Fraunces body, figures out to 1000px, pull quote into the margin.
+   Satoshi body (was Fraunces before the switch), figures out to 1000px, pull quote into the margin.
    ========================================================= */
-.vb{--frame:1280px;--font-body:var(--font-serif);--fs-body:20px;--lh-body:1.65}
+.vb{--frame:1280px;--fs-body:20px;--lh-body:1.65}
 @media (max-width:599px){.vb{--fs-body:18px}}
 .vb .site-head{border-bottom:2px solid var(--rule-strong)}
 .vb .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
 .vb .hero{max-width:calc(1000px + 2 * var(--gutter));margin:0 auto;padding:var(--s7) var(--gutter) 0}
 .vb .hero h1{font-size:clamp(40px,8vw,84px);line-height:.98;letter-spacing:-.04em;text-wrap:balance}
-.vb .hero .deck{font:400 23px/1.45 var(--font-serif);color:var(--ink-2);max-width:760px;margin-top:var(--s5)}
+.vb .hero .deck{font:400 23px/1.45 var(--font-ui);color:var(--ink-2);max-width:760px;margin-top:var(--s5)}
 @media (max-width:599px){.vb .hero .deck{font-size:19px}}
 .vb .hero .byline{padding-top:var(--s4);border-top:1px solid var(--rule);max-width:760px}
 .vb .col{max-width:calc(760px + 2 * var(--gutter));margin:0 auto;padding:0 var(--gutter)}

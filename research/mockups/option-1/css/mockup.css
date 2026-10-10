@@ -1,7 +1,13 @@
 /* userandproduct mockups: shared tokens, type and components.
    Plain CSS, no build step. Page-specific layout lives next to each page. */
 
-/* ---------- Fonts (self-hosted, SIL OFL) ---------- */
+/* ---------- Fonts (self-hosted) ---------- */
+/* Satoshi (ITF Free Font License, fonts/satoshi/): the mockup face for text, UI and headings.
+   One variable file per style covers the 300 to 900 weight axis (400 body, 500 labels, 600, 700 and 900 headings). */
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/satoshi/Satoshi-Variable.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Satoshi";src:url("../assets/fonts/satoshi/Satoshi-VariableItalic.woff2") format("woff2");font-weight:300 900;font-style:italic;font-display:swap}
+/* Inter and Fraunces (SIL OFL): kept but no longer used by any token; the browser does not fetch an unused face.
+   The logo wordmark is outlined SVG (Inter Display Bold) and does not depend on these rules. */
 @font-face{font-family:"Inter Display";src:url("../assets/fonts/inter/InterDisplay-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
 @font-face{font-family:"Inter Display";src:url("../assets/fonts/inter/InterDisplay-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
 @font-face{font-family:"Inter";src:url("../assets/fonts/inter/Inter-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
@@ -31,9 +37,9 @@
   --focus:#2B46A0;
   --logo-light:block; --logo-dark:none;
 
-  --font-display:"Inter Display","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --font-ui:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --font-serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --font-display:"Satoshi",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-ui:"Satoshi",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-serif:"Fraunces",Georgia,"Times New Roman",serif;   /* unused since the switch to Satoshi */
   --font-body:var(--font-ui);
 
   /* type scale (desktop; pages step down on phones) */

@@ -1,39 +1,46 @@
 {
   "version": 1,
-  "run_id": "explainer-colour",
-  "title": "Explainer figures: accent colours where meaning needs them",
+  "run_id": "satoshi",
+  "title": "Mockups switch to Satoshi",
   "state": "finished",
-  "started": "2026-10-10T17:06+05:30",
-  "updated": "2026-10-10T17:08+05:30",
-  "note": "Finished: rules and generator open to accents; figures untouched",
+  "started": "2026-10-10T18:00+05:30",
+  "updated": "2026-10-10T17:31+05:30",
+  "note": "Finished: plain font swap to Satoshi; scale untouched, tuning notes in the report",
   "steps": [
     {
       "n": 1,
-      "title": "Rules",
+      "title": "Download and licence",
       "status": "done",
-      "note": "Colour section: mono default, accent under the thumbnail scheme rule, 3:1 pairs, named per figure with its reason; the eight-tints-only rule now covers the ground only",
-      "time": "17:07"
+      "note": "Satoshi 2.000 package from Fontshare; variable + 8 static woff2, 8 OTF, 2 variable TTF, FFL 2.0 saved; licence bars public repositories, so the files are git-ignored",
+      "time": "17:16"
     },
     {
       "n": 2,
-      "title": "Generator",
+      "title": "Font-face",
       "status": "done",
-      "note": "illustration.py: accent on shapes, icons, badges (fire, warning, success, hex or hue); 3:1 on tint and ink; fire core; at most two; warns above a fifth",
-      "time": "17:07"
+      "note": "Satoshi variable roman and italic (weights 300 to 900) in both mockup.css files; Inter and Fraunces rules kept, unused",
+      "time": "17:24"
     },
     {
       "n": 3,
-      "title": "Regenerate",
-      "status": "skipped",
-      "note": "Owner update: figures not regenerated; the option-1 changes made before the update were restored to the committed files",
-      "time": "17:08"
+      "title": "Tokens and scale",
+      "status": "done",
+      "note": "--font-display and --font-ui (so --font-body) now Satoshi; variant B serif body and deck switched to Satoshi; type scale untouched per owner update (plain font swap)",
+      "time": "17:24"
     },
     {
       "n": 4,
+      "title": "Pages",
+      "status": "done",
+      "note": "Preloads now Satoshi-Variable.woff2 in index.html, build_article.py (article.html, variants rebuilt) and the variants hub; placeholders carry no preload",
+      "time": "17:25"
+    },
+    {
+      "n": 5,
       "title": "Checks",
       "status": "done",
-      "note": "Throwaway render in the scratchpad: fire flame on green, 3.03:1 on the tint, 4.70:1 on ink, core 3.01:1 on the body; deleted",
-      "time": "17:08"
+      "note": "Shots rerun; 0px overflow 375 to 1440 (home) and all article viewports; index, article, variant B and both font files 200; only localhost requests; Satoshi the only face loaded",
+      "time": "17:31"
     }
   ]
 }
