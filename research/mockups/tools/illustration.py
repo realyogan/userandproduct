@@ -19,16 +19,18 @@ shape less 16 units a side raises FitError: enlarge the shape or shorten the lab
 Fills ("tint"): None or "card" (the plain box), "a" (mid highlight), "b" (deep highlight), "ink", "bg" (the tint
 itself), "none". The older names "blue"/"yellow" mean "a" and "red" means "b".
 
-Accents ("accent", on box, rrect, circle, polygon, path, glyph, badge, dot and polyline only; never on the ground, the
-dots, rules, arrows, text, bands or the lockup). Mono is the default: ink and the tint's two highlights. An accent is
-for the one element whose meaning needs a colour of its own, under the thumbnail scheme rule (one accent, two rarely):
+Accents ("accent"): colour is open. The rules fix only the tint ground with its dot grid and the lockup bottom-right;
+those three never take an accent. Any drawn element may: box, rrect, circle, polygon, path, glyph, badge, dot,
+polyline, band, rule, hrule, arrow and text. There is no cap on how many accents a figure uses or on how many elements
+carry one; the only requirement is that what is drawn reads on what it sits on. Accent names:
   "fire"     warm orange body with a yellow core (glyphs that have a core, such as "flame")
   "warning"  red          "success"  green          "#RRGGBB" or a hue in degrees (0 to 360): derived the same way
 The generator moves the accent's lightness until it passes 3:1 on its ground (the tint, or "accent_on": a fill hex)
-and 3:1 against the ink outline beside it; a label on an accent fill passes 4.5:1 as on any fill; a core passes 3:1
-on its body. More than two distinct accents raise AccentError; accented elements above ACCENT_SHARE (a fifth) of the
-drawn elements warn, and so do two accents under 3:1 against each other. Every pair is logged in ACCENT_LOG. A glyph takes the accent on its fill, or on its stroke for
-the line glyphs (check, cross, question); "accent_part": "fill" | "stroke" overrides.
+and 3:1 against the ink outline beside it; a label on an accent fill (box, circle, badge, band) passes 4.5:1 as on any
+fill; an accented text colour passes 4.5:1 on its ground; a core passes 3:1 on its body. Every pair is logged in
+ACCENT_LOG. Two distinct accents under 3:1 against each other are logged in ACCENT_NOTES (a note, not a warning): if
+those two shapes touch, separate or outline them so the edge still reads. A glyph takes the accent on its fill, or on
+its stroke for the line glyphs (check, cross, question); "accent_part": "fill" | "stroke" overrides.
 
 Primitives (canvas units):
   {"type": "box", "x", "y", "w", "h", "label", "tint", "size", "anchor", "weight", "dash": bool, "r": 4, "stroke": bool}
@@ -317,13 +319,13 @@ class AccentError(ValueError):
     pass
 
 
-ACCENT_SHARE = 1 / 5     # accented elements over drawn elements; above this the figure warns (the thumbnail rule)
-ACCENT_MAX = 2           # distinct accents per figure: one by default, two rarely
-SHAPE_MIN = 3.0          # shapes against their ground and against each other
+SHAPE_MIN = 3.0          # shapes against their ground and against what they touch
+TEXT_MIN = 4.5           # text against its ground
 # name: (hue in degrees, saturation, starting lightness). The lightness moves until the pair passes.
 ACCENTS = {"fire": (24, 0.95, 0.50), "warning": (2, 0.72, 0.46), "success": (128, 0.55, 0.40)}
 FIRE_CORE = (46, 1.0, 0.62)   # the yellow core inside a fire accent, checked on the fire body
 ACCENT_LOG = []   # (uid, element, accent, colour, against, ratio)
+ACCENT_NOTES = []  # (uid, note): two accents under 3:1 against each other; matters only where they touch
 
 
 def _hls_hex(h, l, s):
@@ -383,7 +385,9 @@ GLYPHS = {
 # inner shapes drawn in an accent's second colour (the yellow core of a fire accent), no stroke
 GLYPH_CORES = {"flame": "M50 40c6 10 14 15 14 27a14 14 0 0 1-28 0c0-7 4-11 6-15 3 5 5 7 8 7-2-7 0-13 0-19Z"}
 LINE_GLYPHS = {"check", "cross", "question"}
-ACCENT_TYPES = {"box", "rrect", "circle", "polygon", "path", "glyph", "badge", "dot", "polyline"}   # glyphs drawn as lines: an accent colours the stroke
+# every drawn kind; the ground, the dot grid and the lockup are not items and never take an accent
+ACCENT_TYPES = {"box", "rrect", "circle", "polygon", "path", "glyph", "badge", "dot", "polyline", "band", "rule", "hrule",
+                "arrow", "text"}
 
 
 # ---------- drawing ----------
@@ -443,22 +447,20 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
         return (f'<g data-on="{on}">' + text_svg(it["label"], tx, round(ty, 1), size, anchor, weight, col, it.get("code"), lh=lh)
                 + "</g>"), fill
 
-    used = {}        # accent name -> colour, for the pairwise check
-    n_acc = 0
+    used = {}        # accent name -> colour, for the pairwise legibility note
 
-    def accent_of(it, outline=True, element=""):
-        """The accent colour for an element, or None. Checked for SHAPE_MIN on its ground and the ink outline."""
-        nonlocal n_acc
+    def accent_of(it, outline=True, element="", minimum=SHAPE_MIN):
+        """The accent colour for an element, or None. Checked for `minimum` on its ground (SHAPE_MIN for shapes,
+        TEXT_MIN for text) and for SHAPE_MIN against the ink outline beside it."""
         name = it.get("accent")
         if name is None:
             return None
         if it["type"] not in ACCENT_TYPES:
-            raise AccentError(f"{uid}: no accent on {it['type']!r} (accents go on shapes, icons and badges only).")
+            raise AccentError(f"{uid}: unknown kind {it['type']!r} for an accent.")
         ground = it.get("accent_on", c["bg"])
-        col = accent_colour(name, ground, also=(INK,) if outline else ())
+        col = accent_colour(name, ground, minimum, also=(INK,) if outline else ())
         key = str(name)
         used[key] = col
-        n_acc += 1
         what = element or it["type"]
         ACCENT_LOG.append((uid, what, key, col, ground, round(contrast(col, ground), 2)))
         if outline:
@@ -523,23 +525,26 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
             h = it.get("h", 56 * k)
             lbl, fill = label_in({"label": it["text"], "size": it.get("size"), "weight": it.get("weight", "semibold"),
                                   "anchor": it.get("anchor", "middle")}, it["x"], it["y"], it["w"], h,
-                                 fill_of(it, "ink"), "middle")
+                                 accent_of(it, False, f"band {it['text']!r}") or fill_of(it, "ink"), "middle")
             o.append(f'<rect x="{it["x"]}" y="{it["y"]}" width="{it["w"]}" height="{h}" rx="{h / 2:g}" fill="{fill}"/>' + lbl)
             zone_check(it["x"], it["y"], it["x"] + it["w"], it["y"] + h, f"band {it['text']!r}")
         elif t == "rule":
-            o.append(f'<path d="M{it["x"]} {it["y1"]}V{it["y2"]}" stroke="{c["rule"]}" stroke-width="{STROKE}"/>')
+            rc = accent_of(it, False, "rule") or c["rule"]
+            o.append(f'<path d="M{it["x"]} {it["y1"]}V{it["y2"]}" stroke="{rc}" stroke-width="{STROKE}"/>')
         elif t == "hrule":
+            rc = accent_of(it, False, "hrule") or c["rule"]
             dash = ' stroke-dasharray="10 8"' if it.get("dash") else ""
-            o.append(f'<path d="M{it["x1"]} {it["y"]}H{it["x2"]}" stroke="{c["rule"]}" stroke-width="{STROKE}"{dash}/>')
+            o.append(f'<path d="M{it["x1"]} {it["y"]}H{it["x2"]}" stroke="{rc}" stroke-width="{STROKE}"{dash}/>')
         elif t == "arrow":
             x1, y1, x2, y2 = it["x1"], it["y1"], it["x2"], it["y2"]
             a = math.atan2(y2 - y1, x2 - x1)
             hl, hw = 14, 7
             bx, by = x2 - hl * math.cos(a), y2 - hl * math.sin(a)
             dash = ' stroke-dasharray="10 8"' if it.get("dash") else ""
-            o.append(f'<path d="M{x1} {y1}L{bx:.1f} {by:.1f}" stroke="{c["rule"]}" stroke-width="{STROKE}"{dash}/>'
+            rc = accent_of(it, False, "arrow") or c["rule"]
+            o.append(f'<path d="M{x1} {y1}L{bx:.1f} {by:.1f}" stroke="{rc}" stroke-width="{STROKE}"{dash}/>'
                      f'<path d="M{x2} {y2}L{bx + hw * math.sin(a):.1f} {by - hw * math.cos(a):.1f}'
-                     f'L{bx - hw * math.sin(a):.1f} {by + hw * math.cos(a):.1f}Z" fill="{c["rule"]}"/>')
+                     f'L{bx - hw * math.sin(a):.1f} {by + hw * math.cos(a):.1f}Z" fill="{rc}"/>')
         elif t == "polyline":
             col = c["b"] if _legacy(it.get("tint")) else c["rule"]
             if it.get("on"):
@@ -552,12 +557,11 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
             fill = accent_of(it, True) or (c["b"] if _legacy(it.get("tint")) else c["box"])
             o.append(f'<circle cx="{it["x"]}" cy="{it["y"]}" r="{it.get("r", 7)}" fill="{fill}" stroke="{INK}" stroke-width="2"/>')
         elif t == "text":
-            if "accent" in it:
-                accent_of(it)   # raises: no accent on text
             muted = it.get("muted", True)
-            col = c["muted"] if muted else c["ink"]
-            if contrast(col, c["bg"]) < 4.5:
-                raise TintError(f"{uid}: text colour {col} fails 4.5:1 on {c['bg']}.")
+            col = accent_of(it, False, f"text {it['text']!r}", TEXT_MIN) or (c["muted"] if muted else c["ink"])
+            ground = it.get("accent_on", c["bg"]) if "accent" in it else c["bg"]
+            if contrast(col, ground) < TEXT_MIN:
+                raise TintError(f"{uid}: text colour {col} fails {TEXT_MIN}:1 on {ground}.")
             role = it.get("role", "note")
             size = _floor(it.get("size"), role, k, uid)
             weight = it.get("weight", "regular" if (role == "note" and muted) else "medium")
@@ -570,21 +574,15 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
             zone_check(x0, it["y"] - size, x0 + tw, it["y"], f"text {it['text']!r}")
         else:
             raise ValueError(f"{uid}: unknown primitive {t!r}")
-        if "accent" in it and t not in ACCENT_TYPES:
-            accent_of(it)       # raises for rules, arrows, bands and anything else that is not a shape
-    # the scheme rule: one accent, two rarely, on at most about a fifth of the drawn elements
-    if len(used) > ACCENT_MAX:
-        raise AccentError(f"{uid}: {len(used)} accents ({', '.join(used)}); two at most, one by default.")
+    # colour is open: any number of accents. Every pair is logged; a pair under 3:1 gets a note about touching edges.
     names = list(used)
     for i in range(len(names)):
         for j in range(i + 1, len(names)):
             a, b = used[names[i]], used[names[j]]
             ACCENT_LOG.append((uid, f"{names[i]} against {names[j]}", "pair", a, b, round(contrast(a, b), 2)))
             if contrast(a, b) < SHAPE_MIN:
-                warnings.warn(f"{uid}: accents {names[i]} {a} and {names[j]} {b} are {contrast(a, b):.2f}:1 against "
-                              f"each other, under {SHAPE_MIN}:1; drop one (fewer colours).")
-    if items and n_acc / len(items) > ACCENT_SHARE:
-        warnings.warn(f"{uid}: accents on {n_acc} of {len(items)} drawn elements, above a fifth; use fewer.")
+                ACCENT_NOTES.append((uid, f"accents {names[i]} {a} and {names[j]} {b} are {contrast(a, b):.2f}:1 "
+                                          f"against each other; where they touch, separate or outline them."))
     # the full lockup, bottom-right, quiet (see lockup())
     o.append(lockup(c["bg"], width, height, c["mark_o"]))
     o.append("</svg>")

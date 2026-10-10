@@ -138,7 +138,11 @@ licence for any photo that is not the owner's. Terms in `references/sources.md`.
    python research/mockups/tools/thumbnail.py --palettes      # suggested backgrounds and their duo accent
    ```
 5. **Files**: `<slug>-hero.png` (1200 x 675) and `<slug>-thumb.png` (600 x 338), both with the full
-   lockup, `<slug>.svg` (the hero's vector source, without grain) and `<slug>-check-300.png`.
+   lockup, `<slug>.svg` (the hero's vector source, without grain) and `<slug>-check-300.png`. The slug is the
+   article's SEO slug from the brief (set by the researcher or SEO reviewer from the target phrase), never a
+   made-up or generic name, so the image file name carries the words a reader would search; no dates, sizes,
+   ids or keyword padding (the search-policy rulebook's image rules apply). The `alt` text comes from the brief
+   too and describes the image in context.
 6. **Run the checks**: the result's `checks.pass` must be true (subject reads at 300 px on both sizes,
    type and lockup contrast, and `lockup_clear`: the lockup of both sizes is clear of the subject). Then open the 300 px check image and ask: can I name the subject in one
    word? One subject, with room around it? Lockup clear of it? Accent only on the thing that matters?

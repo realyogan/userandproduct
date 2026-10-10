@@ -9,8 +9,8 @@ only the ground, the dots, the lockup, the type and the colours.
 
 ## The rules in short
 
-1. The ground is one of the eight Printables tints, nothing else. The picture is mono by default; an accent is
-   allowed where meaning needs it (see Colour).
+1. The ground is one of the eight Printables tints with the dot grid, nothing else is fixed about the picture. Draw
+   whatever the article needs, in whatever colours it needs, and make sure it reads on the tint it sits on.
 2. One tint per article: every explainer in an article uses the article's tint.
 3. The tint comes from rotation, so neighbouring articles differ and an article always keeps its colour.
 4. Related-card thumbnails use their own article's tint.
@@ -37,17 +37,11 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 
 ## Colour
 
-- **Mono by default**: ink, muted, the plain box and the tint's two highlights. Most figures need nothing else.
-- **An accent** where an element's meaning needs a colour of its own: a flame is warm, a warning is red, a tick is
-  green. The thumbnail scheme rule applies: one accent when one element must stand out, two rarely, never more;
-  only on the part that matters, never on decoration (ground, dots, rules, arrows, the lockup); on at most about a
-  fifth of the drawn elements. If in doubt, fewer colours.
-- **Contrast on every pair**: an accent shape passes 3:1 on the tint and against the ink outline beside it, two
-  accents in one figure pass 3:1 against each other (else drop one), and a label on an accent passes 4.5:1. The
-  generator moves the accent's lightness until each pair passes, warns on a pair it cannot fix, and logs the values.
-- **Name it in the spec**: each accent is set per element (`"accent": "fire"`, `"warning"`, `"success"`, a hex or a
-  hue) with a comment giving its reason. Fire draws a deep orange body with a yellow core, because a yellow alone
-  cannot reach 3:1 on a pastel tint.
+The foundation is the tint. Everything drawn on it is open: use the colours the picture calls for. The one
+requirement is that it works with the background it is on: every shape passes 3:1 against the tint and against
+what it touches, every label passes 4.5:1 on whatever it sits on. The generator checks these pairs and adjusts
+lightness until they pass; `"accent"` on an element takes a named colour (`fire`, `warning`, `success`), a hex or a
+hue, and the tint's own ink, muted and highlight colours remain available as the plain palette.
 
 ## Choosing the tint
 
@@ -107,13 +101,16 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 ## What an illustration is not
 
 - No frame, card outline, border, notches or title inside the image; the point goes in the `<figcaption>`.
-- No accent without a reason in the spec, none on decoration, no more than two.
 
 ## Export, names, use on the page
 
 - Figures 1200 x 675 PNG, with the SVG next to it as the source. Thumbnails 600 x 338 PNG.
-- Names: `fig-<slug>.png` / `.svg` (the slug says the point, for example `fig-where-prds-fail`);
-  `<article-slug>-thumb.png` for thumbnails. Lowercase, hyphens, no dates or sizes.
+- Names come from the SEO brief, not from the drawing. The researcher or SEO reviewer sets the article's slug from
+  its target phrase and names each figure with that slug plus two or three words that say what the figure shows, in
+  words a reader would search: `<article-slug>-<what-it-shows>.png` / `.svg` (for example
+  `how-to-write-a-prd-twelve-questions.png`), `<article-slug>-thumb.png` for thumbnails. Lowercase, hyphens, no
+  dates, sizes or ids, no keyword padding (the search-policy rulebook's image rules apply). The `alt` text is set the
+  same way, from the brief, describing the figure in context.
 - On the page: `<img>` with `width` and `height` (1200 x 675 or 600 x 338) so the space is reserved, `loading="lazy"`,
   a full `alt` that says what the diagram shows, and a 6px corner radius from the theme CSS (not in the image).
   Number figures in reading order in the figcaption ("Figure 1.").

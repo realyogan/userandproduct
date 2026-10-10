@@ -891,3 +891,14 @@ needed; 4.5:1 check on every fill (lowest 4.56); new primitives (shapes, twelve 
 all 17 figures regenerated; two range examples added (restaurant ticket analogy, PRD sheet object).
 Owner: explainer figures must not be locked to the tint's family (the ticket figure's flame came out green); apply the thumbnail colour-scheme rule: mono by default, an accent on the part that matters with restraint, contrast checked. Being applied to rules, generator and figures.
 Owner: no need to regenerate the figures for the colour change; only make sure the rules and generator do not restrict colour. Passed to the builder.
+Explainer colour rule committed (10 Oct): the tint-family lock is gone; mono by default, an accent where meaning needs
+it under the thumbnail restraint rule (one accent, two rarely, never on decoration, about a fifth of elements at most),
+contrast checked on every pair (3:1 shapes, 4.5:1 labels); generator takes "accent": fire, warning, success, a hex or
+a hue, with fire drawn as an orange body and a yellow core because yellow alone fails on pastel tints. Figures not
+regenerated, per the owner.
+Owner: the illustration rules fix only the foundation (the tint background with the dots) and the lockup bottom-right;
+no "mono by default", no accent counting, no "where needed"; the only requirement on the picture is that it matches
+the background it is drawn on. Rules rewritten; the generator's accent limits being removed (contrast checks stay).
+Owner: image file names (and alt text) follow the SEO brief: the article's SEO slug from the target phrase plus words
+that say what the image shows, set by the researcher or SEO reviewer, never generic. Written into illustration-rules.md
+and the thumbnail skill.
