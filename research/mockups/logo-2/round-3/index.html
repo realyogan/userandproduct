@@ -1,0 +1,1122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Round Three</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../../mockup.css">
+<style>
+.r3{max-width:1180px;margin:0 auto;padding:24px var(--gutter) 96px}
+.r3 a{color:var(--signal)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 24px}
+.bar p{margin:0;font-size:var(--fs-meta)}
+.toggle{border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer;font:500 14px/1 var(--font-ui)}
+.r3 h1{font-family:var(--font-display);font-weight:700;font-size:clamp(32px,5vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0 0 20px}
+.top{display:grid;gap:24px;grid-template-columns:minmax(0,1fr);margin-bottom:8px}
+@media (min-width:900px){.top{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}}
+.top h2{font-size:15px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin:0 0 10px;color:var(--ink-2)}
+.top ol,.top ul{margin:0;padding-left:20px;font-size:16px;line-height:1.5;color:var(--ink-2)}
+.top li{margin:0 0 6px}
+.top li b{color:var(--ink)}
+.toc{margin:28px 0 0;display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:800px){.toc{grid-template-columns:repeat(3,1fr)}}
+.toc h3{font-size:14px;margin:0 0 6px}
+.toc ol{list-style:none;margin:0;padding:0;font-size:var(--fs-ui)}
+.toc a{text-decoration:none;color:var(--ink)}
+.toc b{font-family:var(--font-display);color:var(--signal);margin-right:6px}
+.grp{margin-top:72px;padding:20px 0 0;border-top:4px solid var(--ink)}
+.grp h2{font-family:var(--font-display);font-size:clamp(26px,4vw,36px);margin:0 0 6px}
+.grp p{margin:0;color:var(--ink-2);max-width:70ch}
+.mk{border-top:2px solid var(--rule-strong);margin-top:48px;padding-top:20px}
+.mk__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;margin-bottom:18px}
+.mk__num{font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--signal);margin:0}
+.mk h3.mk__name{font-family:var(--font-display);font-weight:700;font-size:30px;line-height:1.1;margin:0}
+.mk__tags{margin:0;font-size:var(--fs-meta);color:var(--ink-2)}
+.row{margin:0 0 22px}
+.row h4{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px;color:var(--ink-2)}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g{min-width:0;border-radius:var(--radius);padding:18px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:18px;min-height:100px}
+.g--w{background:#FFFFFF;border:1px solid #E3E3E6;color:#55555C}
+.g--k{background:#0B0B0C;border:1px solid #26262B;color:#9A9AA2}
+.g--pk{background:#000000;border:1px solid #26262B}
+.g img{display:block}
+.g figcaption{width:100%;text-align:center;font-size:11px}
+.g figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:8px}
+.av{width:110px;height:110px}
+.m160{width:160px;height:160px;max-width:100%;height:auto}
+.lk{width:236px;height:auto;max-width:100%}
+.fav{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px}
+.fav .z{width:96px;height:96px;image-rendering:pixelated;image-rendering:crisp-edges}
+.fav small{font-size:11px}
+.prev{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:900px){.prev{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,1fr)}}
+.mock{border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel);color:var(--ink);overflow:hidden}
+.mock__label{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);padding:8px 12px 0;margin:0}
+.ig{display:flex;gap:18px;align-items:center;padding:14px 16px 16px}
+.ig__av{width:110px;height:110px;border-radius:50%;flex:none}
+.ig__user{font:600 17px/1.2 var(--font-ui);margin:0 0 8px}
+.ig__stats{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px}
+.ig__stats li{white-space:nowrap}
+.ig__stats b{font-weight:700}
+.ig__name{font:600 13px/1.3 var(--font-ui);margin:0}
+.ig__bio{font-size:13px;line-height:1.35;margin:2px 0 0;color:var(--ink-2)}
+.li__banner{height:64px;margin-top:8px}
+.li__body{padding:0 16px 16px}
+.li__logo{width:100px;height:100px;border-radius:4px;border:3px solid var(--panel);margin-top:-44px;display:block;background:#fff}
+.li__name{font:700 18px/1.2 var(--font-ui);margin:8px 0 2px}
+.li__meta{font-size:13px;color:var(--ink-2);margin:0}
+.tabs{display:flex;align-items:flex-end;gap:2px;padding:10px 10px 0;overflow:hidden}
+.tabs--l{background:#DEE1E6}
+.tabs--d{background:#202124}
+.tab{display:flex;align-items:center;gap:8px;height:34px;padding:0 12px;border-radius:8px 8px 0 0;font:400 12px/1 var(--font-ui);min-width:0}
+.tab img{width:16px;height:16px;flex:none}
+.tab span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tabs--l .tab--on{background:#FFFFFF;color:#202124}
+.tabs--d .tab--on{background:#35363A;color:#E8EAED}
+.tabs--l .tab--off{color:#5F6368}
+.tabs--d .tab--off{color:#9AA0A6}
+.tab .x{margin-left:6px;opacity:.6}
+.tabs__url{height:10px}
+.tabs--l + .tabs__url{background:#FFFFFF}
+.tabs--d + .tabs__url{background:#35363A}
+.thumb{display:block;width:100%;max-width:600px;height:auto;border-radius:4px}
+.words{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:8px 20px;margin:8px 0 0;font-size:var(--fs-ui);line-height:1.5;max-width:900px}
+.words dt{font-weight:600}
+.words dd{margin:0}
+.words dd.means{font-size:17px;line-height:1.5;color:var(--ink)}
+.words ul{margin:0;padding-left:18px}
+.note{border:1px solid var(--signal);background:var(--signal-wash);border-radius:var(--radius);padding:12px 16px;margin:0 0 24px;font-size:15px;line-height:1.5;color:var(--ink)}
+.note p{margin:0}
+.foot{margin-top:64px;font-size:var(--fs-meta);color:var(--ink-3)}
+@media (max-width:640px){.pair,.trio{grid-template-columns:minmax(0,1fr)}.fav .z{width:64px;height:64px}.words{grid-template-columns:1fr}.words dd{margin-bottom:8px}.ig{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<main class="r3">
+  <div class="bar"><p><a href="../hub.html">&larr; Logo exploration 2, hub</a></p><button class="toggle" type="button" data-theme-toggle>Theme</button></div>
+  <h1>Round 3: the coin, the orbit, and fresh marks</h1>
+  <div class="note" role="note"><p><b>Numbering changed on 10 Oct.</b> The owner reviewed an earlier version of this board. Earlier numbers, then now:
+  R3-05 Square coin (removed here, carried into round 4), R3-06 Bead in the track (now R3-05), R3-07 Broken ring (now R3-06), R3-08 Heavy arc (now R3-07),
+  R3-09 Linked rings (now R3-08), R3-10 Square orbit (now R3-09), R3-11 Eclipse (now R3-10), R3-12 Reader (now R3-11), R3-13 Crossing (now R3-17),
+  R3-14 Shelf (now R3-16); R3-15 Shield, R3-16 T-shaped and R3-17 Phi were dropped. R3-01 to R3-04 did not move. R3-12 to R3-15 and R3-18 are new.
+  From now on boards are never renumbered after review: new marks go at the end and dropped marks stay, marked as dropped.</p></div>
+  <div class="top">
+    <div><h2>The brief</h2>
+      <ol>
+        <li><b>Authority and trust first:</b> a serious publication a professional would cite.</li>
+        <li><b>Mass, one idea, a two-tone fold</b> where forms overlap; nothing thinner than 8 at 512.</li>
+        <li><b>App-icon feel:</b> most marks led by a circle or rounded square, a few standing free; legible at 32 px.</li>
+        <li><b>Every mark in monochrome:</b> white on black, black on white, and one color with no fold.</li>
+        <li><b>Blue by default</b> (signal blue with a lighter fold); four marks in an alternative color.</li>
+      </ol>
+      <p style="margin:12px 0 0;font-size:15px;color:var(--ink-2)">The standard for cleanness: a solid disc with one sharp figure cut from it, no fuss. Letters are a minority here: two of eighteen marks are letter-based (R3-01, R3-02); group C is figurative.</p></div>
+    <div><h2>Dropped after rounds 1 and 2</h2>
+      <ul>
+        <li>Rockets, all of them.</li>
+        <li>The folder bust ("some kind of stamp").</li>
+        <li>The switch ("doesn't make sense").</li>
+        <li>The bookmark (nice, not strong, seen before).</li>
+        <li>Also kept out: cursors, folders, keys, pens, library icons, and a profile head in a disc (the old exploration tried it).</li>
+      </ul></div>
+  </div>
+  <nav class="toc" aria-label="Marks"><div><h3>Group A: the coin, evolved</h3><ol><li><a href="#r3-01"><b>R3-01</b>Magnet</a></li><li><a href="#r3-02"><b>R3-02</b>Lid and cup</a></li><li><a href="#r3-03"><b>R3-03</b>Cup and ball</a></li><li><a href="#r3-04"><b>R3-04</b>Speech mark</a></li></ol></div><div><h3>Group B: the orbit, evolved</h3><ol><li><a href="#r3-05"><b>R3-05</b>Bead in the track</a></li><li><a href="#r3-06"><b>R3-06</b>Broken ring</a></li><li><a href="#r3-07"><b>R3-07</b>Heavy arc</a></li><li><a href="#r3-08"><b>R3-08</b>Linked rings</a></li><li><a href="#r3-09"><b>R3-09</b>Square orbit</a></li><li><a href="#r3-10"><b>R3-10</b>Eclipse</a></li></ol></div><div><h3>Group C: fresh, mostly figurative</h3><ol><li><a href="#r3-11"><b>R3-11</b>Reader</a></li><li><a href="#r3-12"><b>R3-12</b>At the screen</a></li><li><a href="#r3-13"><b>R3-13</b>In hand</a></li><li><a href="#r3-14"><b>R3-14</b>Doorway</a></li><li><a href="#r3-15"><b>R3-15</b>Glasses</a></li><li><a href="#r3-16"><b>R3-16</b>Shelf</a></li><li><a href="#r3-17"><b>R3-17</b>Crossing</a></li><li><a href="#r3-18"><b>R3-18</b>Raised hand</a></li></ol></div></nav>
+  <div class="grp" id="group-a"><h2>Group A: the coin, evolved</h2><p>From R2-05. The container and the mark are one object: take the coin away and the idea is gone. One cut per mark, heavy and calm. Trimmed to four so letters stay a minority of the round.</p></div>
+<section class="mk" id="r3-01" aria-labelledby="h-01">
+  <div class="mk__head"><p class="mk__num">R3-01</p><h3 class="mk__name" id="h-01">Magnet</h3><p class="mk__tags">Group A · Letter-based: a U that reads as a magnet · Coin (circle) · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-01-avatar-circle.svg" alt="R3-01 Magnet, circle avatar on white"><img class="av" src="svg/r3-01-avatar-square.svg" alt="R3-01 Magnet, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-01-avatar-circle-dark.svg" alt="R3-01 Magnet, circle avatar on near-black"><img class="av" src="svg/r3-01-avatar-square-dark.svg" alt="R3-01 Magnet, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-01-mono-white.svg" width="160" height="160" alt="R3-01 Magnet, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-01-mono-black.svg" width="160" height="160" alt="R3-01 Magnet, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-01-single.svg" width="160" height="160" alt="R3-01 Magnet, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-01-mark.svg" width="160" height="160" alt="R3-01 Magnet, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-01-mark-dark.svg" width="160" height="160" alt="R3-01 Magnet, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-01-32-light.png" width="32" height="32" alt="R3-01 Magnet, 32 px favicon on white"><img class="z" src="png/r3-01-32-light.png" alt=""><img src="png/r3-01-32-mono-light.png" width="32" height="32" alt="R3-01 Magnet, 32 px black favicon on white"><img class="z" src="png/r3-01-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-01-32-dark.png" width="32" height="32" alt="R3-01 Magnet, 32 px favicon on near-black"><img class="z" src="png/r3-01-32-dark.png" alt=""><img src="png/r3-01-32-mono-dark.png" width="32" height="32" alt="R3-01 Magnet, 32 px white favicon on black"><img class="z" src="png/r3-01-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-01-avatar-circle.svg" width="110" height="110" alt="R3-01 Magnet as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-01-avatar-linkedin.svg" width="100" height="100" alt="R3-01 Magnet as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-01-16-tab-light.png" width="16" height="16" alt="R3-01 Magnet, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-01-16-tab-dark.png" width="16" height="16" alt="R3-01 Magnet, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-01-thumb.png" width="600" height="338" alt="R3-01 Magnet, lockup on a #FF5A36 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-01-lockup.svg" alt="R3-01 Magnet, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-01-lockup-dark.svg" alt="R3-01 Magnet, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>The coin with a deep U slot cut from the top; the two pole caps are the lighter tone, so the coin reads as a magnet.</dd>
+    <dt>Why "oh nice"</dt><dd>A product that pulls people in, and the pull is drawn with nothing but one cut in a coin.</dd>
+    <dt>What it means</dt><dd class="means">The coin is the product. The slot is cut so the coin pulls like a magnet. A good product draws people back, and the site is about how to make one.</dd>
+    <dt>Authority check</dt><dd>A full, heavy disc with one clean slot: it sits like a seal or a coin, not a toy. The magnet reading is quiet enough not to look like a novelty.</dd>
+    <dt>Construction</dt><dd>Disc 512. Slot 128 wide with a round foot at y 364. The caps above y 150 are the second tone; in monochrome an 18-unit gap separates them, so the poles survive in one color.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Udemy (a heavy U as the mark)</li><li>the magnet icon in common icon sets</li><li>a slotted disc in the old exploration, round 5 (a thin slot ending in a hole)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-02" aria-labelledby="h-02">
+  <div class="mk__head"><p class="mk__num">R3-02</p><h3 class="mk__name" id="h-02">Lid and cup</h3><p class="mk__tags">Group A · Letter-based: a U made by a gap · Coin (circle) · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-02-avatar-circle.svg" alt="R3-02 Lid and cup, circle avatar on white"><img class="av" src="svg/r3-02-avatar-square.svg" alt="R3-02 Lid and cup, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-02-avatar-circle-dark.svg" alt="R3-02 Lid and cup, circle avatar on near-black"><img class="av" src="svg/r3-02-avatar-square-dark.svg" alt="R3-02 Lid and cup, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-02-mono-white.svg" width="160" height="160" alt="R3-02 Lid and cup, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-02-mono-black.svg" width="160" height="160" alt="R3-02 Lid and cup, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-02-single.svg" width="160" height="160" alt="R3-02 Lid and cup, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-02-mark.svg" width="160" height="160" alt="R3-02 Lid and cup, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-02-mark-dark.svg" width="160" height="160" alt="R3-02 Lid and cup, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-02-32-light.png" width="32" height="32" alt="R3-02 Lid and cup, 32 px favicon on white"><img class="z" src="png/r3-02-32-light.png" alt=""><img src="png/r3-02-32-mono-light.png" width="32" height="32" alt="R3-02 Lid and cup, 32 px black favicon on white"><img class="z" src="png/r3-02-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-02-32-dark.png" width="32" height="32" alt="R3-02 Lid and cup, 32 px favicon on near-black"><img class="z" src="png/r3-02-32-dark.png" alt=""><img src="png/r3-02-32-mono-dark.png" width="32" height="32" alt="R3-02 Lid and cup, 32 px white favicon on black"><img class="z" src="png/r3-02-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-02-avatar-circle.svg" width="110" height="110" alt="R3-02 Lid and cup as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-02-avatar-linkedin.svg" width="100" height="100" alt="R3-02 Lid and cup as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-02-16-tab-light.png" width="16" height="16" alt="R3-02 Lid and cup, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-02-16-tab-dark.png" width="16" height="16" alt="R3-02 Lid and cup, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-02-thumb.png" width="600" height="338" alt="R3-02 Lid and cup, lockup on a #14B8A6 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-02-lockup.svg" alt="R3-02 Lid and cup, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-02-lockup-dark.svg" alt="R3-02 Lid and cup, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>The coin as two solid pieces: a cup below (the product) and a lid whose tongue hangs into it (the user). The cut is only the U-shaped space between them.</dd>
+    <dt>Why "oh nice"</dt><dd>Take the coin away and there is no U: the letter exists only as the gap between two pieces that fit.</dd>
+    <dt>What it means</dt><dd class="means">The coin is made of two pieces that fit. The lower piece is the product, the upper piece is the person using it. The U for user is only the space where they meet.</dd>
+    <dt>Authority check</dt><dd>Still one round object, level and symmetrical; the gap is wide enough to read, narrow enough to stay calm.</dd>
+    <dt>Construction</dt><dd>Disc 512. Tongue 172 wide with a round foot (radius 86) at y 386; a 24-unit gap runs around it and out to the rim at y 120. Lid in the second tone, cup in the main tone. Monochrome needs nothing extra: the gap is the drawing.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Tesla (a T with a curved cap)</li><li>Udemy (a U letter mark)</li><li>R2-05 the cut coin in round 2 (its own ancestor)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-03" aria-labelledby="h-03">
+  <div class="mk__head"><p class="mk__num">R3-03</p><h3 class="mk__name" id="h-03">Cup and ball</h3><p class="mk__tags">Group A · Figurative: an object · Coin (circle) · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-03-avatar-circle.svg" alt="R3-03 Cup and ball, circle avatar on white"><img class="av" src="svg/r3-03-avatar-square.svg" alt="R3-03 Cup and ball, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-03-avatar-circle-dark.svg" alt="R3-03 Cup and ball, circle avatar on near-black"><img class="av" src="svg/r3-03-avatar-square-dark.svg" alt="R3-03 Cup and ball, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-03-mono-white.svg" width="160" height="160" alt="R3-03 Cup and ball, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-03-mono-black.svg" width="160" height="160" alt="R3-03 Cup and ball, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-03-single.svg" width="160" height="160" alt="R3-03 Cup and ball, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-03-mark.svg" width="160" height="160" alt="R3-03 Cup and ball, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-03-mark-dark.svg" width="160" height="160" alt="R3-03 Cup and ball, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-03-32-light.png" width="32" height="32" alt="R3-03 Cup and ball, 32 px favicon on white"><img class="z" src="png/r3-03-32-light.png" alt=""><img src="png/r3-03-32-mono-light.png" width="32" height="32" alt="R3-03 Cup and ball, 32 px black favicon on white"><img class="z" src="png/r3-03-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-03-32-dark.png" width="32" height="32" alt="R3-03 Cup and ball, 32 px favicon on near-black"><img class="z" src="png/r3-03-32-dark.png" alt=""><img src="png/r3-03-32-mono-dark.png" width="32" height="32" alt="R3-03 Cup and ball, 32 px white favicon on black"><img class="z" src="png/r3-03-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-03-avatar-circle.svg" width="110" height="110" alt="R3-03 Cup and ball as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-03-avatar-linkedin.svg" width="100" height="100" alt="R3-03 Cup and ball as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-03-16-tab-light.png" width="16" height="16" alt="R3-03 Cup and ball, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-03-16-tab-dark.png" width="16" height="16" alt="R3-03 Cup and ball, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-03-thumb.png" width="600" height="338" alt="R3-03 Cup and ball, lockup on a #6B4CFF thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-03-lockup.svg" alt="R3-03 Cup and ball, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-03-lockup-dark.svg" alt="R3-03 Cup and ball, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>The top of the coin is carved into a bowl, and a ball (the user) rests in it.</dd>
+    <dt>Why "oh nice"</dt><dd>The product is literally shaped around the person: the bowl is cut to the size of the ball.</dd>
+    <dt>What it means</dt><dd class="means">The bowl is the product and the ball is the person. The bowl is cut to the size of the ball, which is the whole job: build the product around the person.</dd>
+    <dt>Authority check</dt><dd>A heavy round base and a centered ball: balanced, steady, almost like a weight on a scale.</dd>
+    <dt>Construction</dt><dd>Disc 512. The bowl is a circle of radius 150 at y 190 plus a 300-wide cut to the top. Ball radius 104 at y 214, leaving a 20-unit gap below and 43 at the sides.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Target (a dot held by a round form)</li><li>Ubisoft (a swirl around a dot)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-04" aria-labelledby="h-04">
+  <div class="mk__head"><p class="mk__num">R3-04</p><h3 class="mk__name" id="h-04">Speech mark</h3><p class="mk__tags">Group A · Symbol: a quote mark, not a letter · Shaped as the icon · Alternative: vermilion</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-04-avatar-circle.svg" alt="R3-04 Speech mark, circle avatar on white"><img class="av" src="svg/r3-04-avatar-square.svg" alt="R3-04 Speech mark, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-04-avatar-circle-dark.svg" alt="R3-04 Speech mark, circle avatar on near-black"><img class="av" src="svg/r3-04-avatar-square-dark.svg" alt="R3-04 Speech mark, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-04-mono-white.svg" width="160" height="160" alt="R3-04 Speech mark, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-04-mono-black.svg" width="160" height="160" alt="R3-04 Speech mark, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-04-single.svg" width="160" height="160" alt="R3-04 Speech mark, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-04-mark.svg" width="160" height="160" alt="R3-04 Speech mark, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-04-mark-dark.svg" width="160" height="160" alt="R3-04 Speech mark, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-04-32-light.png" width="32" height="32" alt="R3-04 Speech mark, 32 px favicon on white"><img class="z" src="png/r3-04-32-light.png" alt=""><img src="png/r3-04-32-mono-light.png" width="32" height="32" alt="R3-04 Speech mark, 32 px black favicon on white"><img class="z" src="png/r3-04-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-04-32-dark.png" width="32" height="32" alt="R3-04 Speech mark, 32 px favicon on near-black"><img class="z" src="png/r3-04-32-dark.png" alt=""><img src="png/r3-04-32-mono-dark.png" width="32" height="32" alt="R3-04 Speech mark, 32 px white favicon on black"><img class="z" src="png/r3-04-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-04-avatar-circle.svg" width="110" height="110" alt="R3-04 Speech mark as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#B8321C"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-04-avatar-linkedin.svg" width="100" height="100" alt="R3-04 Speech mark as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-04-16-tab-light.png" width="16" height="16" alt="R3-04 Speech mark, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-04-16-tab-dark.png" width="16" height="16" alt="R3-04 Speech mark, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-04-thumb.png" width="600" height="338" alt="R3-04 Speech mark, lockup on a #E9FF3B thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-04-lockup.svg" alt="R3-04 Speech mark, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-04-lockup-dark.svg" alt="R3-04 Speech mark, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>One notch bitten from the coin leaves a tail, and the disc becomes a speech mark. The wall of the notch is lit.</dd>
+    <dt>Why "oh nice"</dt><dd>A quotation mark is what a publication is cited with; the site would carry its own.</dd>
+    <dt>What it means</dt><dd class="means">It is a closing quote mark, cut from a coin. A quote is what you use when you cite someone. The aim is for this site to be the thing people quote.</dd>
+    <dt>Authority check</dt><dd>A closing quote is the sign of being quoted, which is the goal. Heavy and round, it reads as editorial, not as a chat app.</dd>
+    <dt>Construction</dt><dd>Head disc radius 186; the tail is the part of a 226 circle left after a 236 notch is cut from the lower left. The lit wall is a 52-unit band along the notch. Monochrome is the silhouette alone.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>WhatsApp (a bubble with a tail at the lower left)</li><li>Disqus (a speech-bubble letter)</li></ul></dd>
+  </dl>
+</section><div class="grp" id="group-b"><h2>Group B: the orbit, evolved</h2><p>From R1-01. Two forms meet and the fold sits where they meet. Weight everywhere, no thin rings.</p></div>
+<section class="mk" id="r3-05" aria-labelledby="h-05">
+  <div class="mk__head"><p class="mk__num">R3-05</p><h3 class="mk__name" id="h-05">Bead in the track</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-05-avatar-circle.svg" alt="R3-05 Bead in the track, circle avatar on white"><img class="av" src="svg/r3-05-avatar-square.svg" alt="R3-05 Bead in the track, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-05-avatar-circle-dark.svg" alt="R3-05 Bead in the track, circle avatar on near-black"><img class="av" src="svg/r3-05-avatar-square-dark.svg" alt="R3-05 Bead in the track, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-05-mono-white.svg" width="160" height="160" alt="R3-05 Bead in the track, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-05-mono-black.svg" width="160" height="160" alt="R3-05 Bead in the track, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-05-single.svg" width="160" height="160" alt="R3-05 Bead in the track, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-05-mark.svg" width="160" height="160" alt="R3-05 Bead in the track, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-05-mark-dark.svg" width="160" height="160" alt="R3-05 Bead in the track, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-05-32-light.png" width="32" height="32" alt="R3-05 Bead in the track, 32 px favicon on white"><img class="z" src="png/r3-05-32-light.png" alt=""><img src="png/r3-05-32-mono-light.png" width="32" height="32" alt="R3-05 Bead in the track, 32 px black favicon on white"><img class="z" src="png/r3-05-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-05-32-dark.png" width="32" height="32" alt="R3-05 Bead in the track, 32 px favicon on near-black"><img class="z" src="png/r3-05-32-dark.png" alt=""><img src="png/r3-05-32-mono-dark.png" width="32" height="32" alt="R3-05 Bead in the track, 32 px white favicon on black"><img class="z" src="png/r3-05-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-05-avatar-circle.svg" width="110" height="110" alt="R3-05 Bead in the track as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-05-avatar-linkedin.svg" width="100" height="100" alt="R3-05 Bead in the track as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-05-16-tab-light.png" width="16" height="16" alt="R3-05 Bead in the track, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-05-16-tab-dark.png" width="16" height="16" alt="R3-05 Bead in the track, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-05-thumb.png" width="600" height="338" alt="R3-05 Bead in the track, lockup on a #121A3A thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-05-lockup.svg" alt="R3-05 Bead in the track, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-05-lockup-dark.svg" alt="R3-05 Bead in the track, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A heavy ring (the product) with one bead (the user) riding inside its stroke, a little wider than the track.</dd>
+    <dt>Why "oh nice"</dt><dd>The user is part of the product&#x27;s loop, not orbiting outside it; the bead bulges where it does not quite fit.</dd>
+    <dt>What it means</dt><dd class="means">The ring is the product, the loop people go round every day. The bead is the person riding in it. It is a little too big for the track, because people never quite fit the plan.</dd>
+    <dt>Authority check</dt><dd>A centered ring in a disc is an old, trusted form (a seal, a dial); the single bead keeps it from being only geometry.</dd>
+    <dt>Construction</dt><dd>Ring radius 184 to 96 (88 thick) in a circle. Bead radius 80 on the ring&#x27;s center line at the upper right. The ring is the second tone; the bead is white, lighter where it sits in the stroke. Monochrome cuts an 18-unit gap around the bead.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Ubuntu (dots riding a ring)</li><li>Target (a ring around a center)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-06" aria-labelledby="h-06">
+  <div class="mk__head"><p class="mk__num">R3-06</p><h3 class="mk__name" id="h-06">Broken ring</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Stands free · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-06-avatar-circle.svg" alt="R3-06 Broken ring, circle avatar on white"><img class="av" src="svg/r3-06-avatar-square.svg" alt="R3-06 Broken ring, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-06-avatar-circle-dark.svg" alt="R3-06 Broken ring, circle avatar on near-black"><img class="av" src="svg/r3-06-avatar-square-dark.svg" alt="R3-06 Broken ring, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-06-mono-white.svg" width="160" height="160" alt="R3-06 Broken ring, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-06-mono-black.svg" width="160" height="160" alt="R3-06 Broken ring, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-06-single.svg" width="160" height="160" alt="R3-06 Broken ring, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-06-mark.svg" width="160" height="160" alt="R3-06 Broken ring, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-06-mark-dark.svg" width="160" height="160" alt="R3-06 Broken ring, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-06-32-light.png" width="32" height="32" alt="R3-06 Broken ring, 32 px favicon on white"><img class="z" src="png/r3-06-32-light.png" alt=""><img src="png/r3-06-32-mono-light.png" width="32" height="32" alt="R3-06 Broken ring, 32 px black favicon on white"><img class="z" src="png/r3-06-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-06-32-dark.png" width="32" height="32" alt="R3-06 Broken ring, 32 px favicon on near-black"><img class="z" src="png/r3-06-32-dark.png" alt=""><img src="png/r3-06-32-mono-dark.png" width="32" height="32" alt="R3-06 Broken ring, 32 px white favicon on black"><img class="z" src="png/r3-06-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-06-avatar-circle.svg" width="110" height="110" alt="R3-06 Broken ring as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-06-avatar-linkedin.svg" width="100" height="100" alt="R3-06 Broken ring as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-06-16-tab-light.png" width="16" height="16" alt="R3-06 Broken ring, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-06-16-tab-dark.png" width="16" height="16" alt="R3-06 Broken ring, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-06-thumb.png" width="600" height="338" alt="R3-06 Broken ring, lockup on a #FF8A1F thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-06-lockup.svg" alt="R3-06 Broken ring, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-06-lockup-dark.svg" alt="R3-06 Broken ring, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>The ring ends where the disc begins: the user completes the product&#x27;s circle. The ring&#x27;s ends tuck under the disc and light up.</dd>
+    <dt>Why "oh nice"</dt><dd>Without the disc the ring is broken; the person is the missing piece.</dd>
+    <dt>What it means</dt><dd class="means">The ring is the product and the disc at the top is the person. Without the person the ring is broken. They are the piece that closes it.</dd>
+    <dt>Authority check</dt><dd>Symmetrical, standing upright, heavy at the base. It reads as a figure or a seal, which is a sober pair.</dd>
+    <dt>Construction</dt><dd>Ring radius 190 to 104 (86 thick). Disc radius 98 at the top of the ring&#x27;s center line; the ring is cut back to a radius of 76 around the disc so its ends overlap by 22.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Ubuntu (a ring broken by dots)</li><li>the power symbol (a ring broken at the top)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-07" aria-labelledby="h-07">
+  <div class="mk__head"><p class="mk__num">R3-07</p><h3 class="mk__name" id="h-07">Heavy arc</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Stands free · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-07-avatar-circle.svg" alt="R3-07 Heavy arc, circle avatar on white"><img class="av" src="svg/r3-07-avatar-square.svg" alt="R3-07 Heavy arc, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-07-avatar-circle-dark.svg" alt="R3-07 Heavy arc, circle avatar on near-black"><img class="av" src="svg/r3-07-avatar-square-dark.svg" alt="R3-07 Heavy arc, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-07-mono-white.svg" width="160" height="160" alt="R3-07 Heavy arc, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-07-mono-black.svg" width="160" height="160" alt="R3-07 Heavy arc, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-07-single.svg" width="160" height="160" alt="R3-07 Heavy arc, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-07-mark.svg" width="160" height="160" alt="R3-07 Heavy arc, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-07-mark-dark.svg" width="160" height="160" alt="R3-07 Heavy arc, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-07-32-light.png" width="32" height="32" alt="R3-07 Heavy arc, 32 px favicon on white"><img class="z" src="png/r3-07-32-light.png" alt=""><img src="png/r3-07-32-mono-light.png" width="32" height="32" alt="R3-07 Heavy arc, 32 px black favicon on white"><img class="z" src="png/r3-07-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-07-32-dark.png" width="32" height="32" alt="R3-07 Heavy arc, 32 px favicon on near-black"><img class="z" src="png/r3-07-32-dark.png" alt=""><img src="png/r3-07-32-mono-dark.png" width="32" height="32" alt="R3-07 Heavy arc, 32 px white favicon on black"><img class="z" src="png/r3-07-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-07-avatar-circle.svg" width="110" height="110" alt="R3-07 Heavy arc as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-07-avatar-linkedin.svg" width="100" height="100" alt="R3-07 Heavy arc as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-07-16-tab-light.png" width="16" height="16" alt="R3-07 Heavy arc, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-07-16-tab-dark.png" width="16" height="16" alt="R3-07 Heavy arc, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-07-thumb.png" width="600" height="338" alt="R3-07 Heavy arc, lockup on a #3DDC84 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-07-lockup.svg" alt="R3-07 Heavy arc, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-07-lockup-dark.svg" alt="R3-07 Heavy arc, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A ring (the product) and a thicker arc over its upper right (the user), lit where they overlap.</dd>
+    <dt>Why "oh nice"</dt><dd>The user is the heavier part of the same circle: the product is the loop, the user is the weight on it.</dd>
+    <dt>What it means</dt><dd class="means">The thin ring is the product. The heavy arc over it is the user, the part that carries the weight. Where they overlap is where the work happens.</dd>
+    <dt>Authority check</dt><dd>Reads as a dial or a gauge on the move: measured, technical, calm.</dd>
+    <dt>Construction</dt><dd>Ring radius 186 to 114 (72 thick). Arc on the same center line, 132 thick with round ends, from 238 to 338 degrees. Monochrome cuts an 18-unit gap around the arc.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Opera (a heavy ring)</li><li>progress rings in interface kits</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-08" aria-labelledby="h-08">
+  <div class="mk__head"><p class="mk__num">R3-08</p><h3 class="mk__name" id="h-08">Linked rings</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Stands free · Alternative: deep green</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-08-avatar-circle.svg" alt="R3-08 Linked rings, circle avatar on white"><img class="av" src="svg/r3-08-avatar-square.svg" alt="R3-08 Linked rings, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-08-avatar-circle-dark.svg" alt="R3-08 Linked rings, circle avatar on near-black"><img class="av" src="svg/r3-08-avatar-square-dark.svg" alt="R3-08 Linked rings, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-08-mono-white.svg" width="160" height="160" alt="R3-08 Linked rings, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-08-mono-black.svg" width="160" height="160" alt="R3-08 Linked rings, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-08-single.svg" width="160" height="160" alt="R3-08 Linked rings, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-08-mark.svg" width="160" height="160" alt="R3-08 Linked rings, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-08-mark-dark.svg" width="160" height="160" alt="R3-08 Linked rings, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-08-32-light.png" width="32" height="32" alt="R3-08 Linked rings, 32 px favicon on white"><img class="z" src="png/r3-08-32-light.png" alt=""><img src="png/r3-08-32-mono-light.png" width="32" height="32" alt="R3-08 Linked rings, 32 px black favicon on white"><img class="z" src="png/r3-08-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-08-32-dark.png" width="32" height="32" alt="R3-08 Linked rings, 32 px favicon on near-black"><img class="z" src="png/r3-08-32-dark.png" alt=""><img src="png/r3-08-32-mono-dark.png" width="32" height="32" alt="R3-08 Linked rings, 32 px white favicon on black"><img class="z" src="png/r3-08-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-08-avatar-circle.svg" width="110" height="110" alt="R3-08 Linked rings as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#0E5A49"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-08-avatar-linkedin.svg" width="100" height="100" alt="R3-08 Linked rings as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-08-16-tab-light.png" width="16" height="16" alt="R3-08 Linked rings, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-08-16-tab-dark.png" width="16" height="16" alt="R3-08 Linked rings, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-08-thumb.png" width="600" height="338" alt="R3-08 Linked rings, lockup on a #2F5BFF thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-08-lockup.svg" alt="R3-08 Linked rings, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-08-lockup-dark.svg" alt="R3-08 Linked rings, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>Two heavy rings, interlocked: user and product, each passing through the other. The crossing on top is lit.</dd>
+    <dt>Why "oh nice"</dt><dd>In one color the rings still lock: one passes over at the top, the other at the bottom.</dd>
+    <dt>What it means</dt><dd class="means">Two rings, each passing through the other: the user and the product. Pull one and you move the other. In one color you can still see which ring goes over and which goes under.</dd>
+    <dt>Authority check</dt><dd>Interlocked rings are a promise of partnership; heavy and level, they read as an institution.</dd>
+    <dt>Construction</dt><dd>Two rings radius 152 to 84 (68 thick), centers 132 apart. Color: the top crossing is the fold. Monochrome: 18-unit gaps where each ring passes under.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Mastercard (two overlapping discs)</li><li>Audi (interlocked rings)</li><li>the link icon (two chain links)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-09" aria-labelledby="h-09">
+  <div class="mk__head"><p class="mk__num">R3-09</p><h3 class="mk__name" id="h-09">Square orbit</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Stands free · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-09-avatar-circle.svg" alt="R3-09 Square orbit, circle avatar on white"><img class="av" src="svg/r3-09-avatar-square.svg" alt="R3-09 Square orbit, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-09-avatar-circle-dark.svg" alt="R3-09 Square orbit, circle avatar on near-black"><img class="av" src="svg/r3-09-avatar-square-dark.svg" alt="R3-09 Square orbit, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-09-mono-white.svg" width="160" height="160" alt="R3-09 Square orbit, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-09-mono-black.svg" width="160" height="160" alt="R3-09 Square orbit, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-09-single.svg" width="160" height="160" alt="R3-09 Square orbit, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-09-mark.svg" width="160" height="160" alt="R3-09 Square orbit, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-09-mark-dark.svg" width="160" height="160" alt="R3-09 Square orbit, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-09-32-light.png" width="32" height="32" alt="R3-09 Square orbit, 32 px favicon on white"><img class="z" src="png/r3-09-32-light.png" alt=""><img src="png/r3-09-32-mono-light.png" width="32" height="32" alt="R3-09 Square orbit, 32 px black favicon on white"><img class="z" src="png/r3-09-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-09-32-dark.png" width="32" height="32" alt="R3-09 Square orbit, 32 px favicon on near-black"><img class="z" src="png/r3-09-32-dark.png" alt=""><img src="png/r3-09-32-mono-dark.png" width="32" height="32" alt="R3-09 Square orbit, 32 px white favicon on black"><img class="z" src="png/r3-09-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-09-avatar-circle.svg" width="110" height="110" alt="R3-09 Square orbit as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-09-avatar-linkedin.svg" width="100" height="100" alt="R3-09 Square orbit as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-09-16-tab-light.png" width="16" height="16" alt="R3-09 Square orbit, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-09-16-tab-dark.png" width="16" height="16" alt="R3-09 Square orbit, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-09-thumb.png" width="600" height="338" alt="R3-09 Square orbit, lockup on a #FF5CA8 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-09-lockup.svg" alt="R3-09 Square orbit, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-09-lockup-dark.svg" alt="R3-09 Square orbit, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>The orbit squared: a rounded-square ring (the product, a screen) with a heavy disc riding its top-right corner.</dd>
+    <dt>Why "oh nice"</dt><dd>The square ring is a screen; the person sits on its corner like the badge on an app.</dd>
+    <dt>What it means</dt><dd class="means">The square ring is a screen, the product. The disc on its corner is the person, sitting where an app shows its badge. It is the product with someone in it.</dd>
+    <dt>Authority check</dt><dd>Square and steady; the disc adds weight without breaking the frame.</dd>
+    <dt>Construction</dt><dd>Rounded square 384 with a 184 opening (100 thick). Disc radius 98 at 372, 140. Monochrome cuts an 18-unit gap around the disc.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Instagram (a rounded-square ring with a circle and a dot)</li><li>app icons with a notification badge</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-10" aria-labelledby="h-10">
+  <div class="mk__head"><p class="mk__num">R3-10</p><h3 class="mk__name" id="h-10">Eclipse</h3><p class="mk__tags">Group B · Abstract: two forms meeting · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-10-avatar-circle.svg" alt="R3-10 Eclipse, circle avatar on white"><img class="av" src="svg/r3-10-avatar-square.svg" alt="R3-10 Eclipse, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-10-avatar-circle-dark.svg" alt="R3-10 Eclipse, circle avatar on near-black"><img class="av" src="svg/r3-10-avatar-square-dark.svg" alt="R3-10 Eclipse, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-10-mono-white.svg" width="160" height="160" alt="R3-10 Eclipse, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-10-mono-black.svg" width="160" height="160" alt="R3-10 Eclipse, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-10-single.svg" width="160" height="160" alt="R3-10 Eclipse, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-10-mark.svg" width="160" height="160" alt="R3-10 Eclipse, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-10-mark-dark.svg" width="160" height="160" alt="R3-10 Eclipse, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-10-32-light.png" width="32" height="32" alt="R3-10 Eclipse, 32 px favicon on white"><img class="z" src="png/r3-10-32-light.png" alt=""><img src="png/r3-10-32-mono-light.png" width="32" height="32" alt="R3-10 Eclipse, 32 px black favicon on white"><img class="z" src="png/r3-10-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-10-32-dark.png" width="32" height="32" alt="R3-10 Eclipse, 32 px favicon on near-black"><img class="z" src="png/r3-10-32-dark.png" alt=""><img src="png/r3-10-32-mono-dark.png" width="32" height="32" alt="R3-10 Eclipse, 32 px white favicon on black"><img class="z" src="png/r3-10-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-10-avatar-circle.svg" width="110" height="110" alt="R3-10 Eclipse as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-10-avatar-linkedin.svg" width="100" height="100" alt="R3-10 Eclipse as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-10-16-tab-light.png" width="16" height="16" alt="R3-10 Eclipse, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-10-16-tab-dark.png" width="16" height="16" alt="R3-10 Eclipse, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-10-thumb.png" width="600" height="338" alt="R3-10 Eclipse, lockup on a #F4F1E8 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-10-lockup.svg" alt="R3-10 Eclipse, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-10-lockup-dark.svg" alt="R3-10 Eclipse, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A smaller disc slides over a bright one; the lit crescent is the meeting of the two.</dd>
+    <dt>Why "oh nice"</dt><dd>The fold is the whole drawing: what you see is only where the two do not overlap.</dd>
+    <dt>What it means</dt><dd class="means">One disc slides over another, like an eclipse. The bright crescent is where the person and the product meet. Take either away and the crescent is gone.</dd>
+    <dt>Authority check</dt><dd>Astronomical and quiet; a disc in a disc reads as a seal at any size.</dd>
+    <dt>Construction</dt><dd>In a circle: a white disc radius 166 and a disc radius 150 offset 82 up and right. The crescent&#x27;s tips are trimmed by a 172 circle so nothing runs under 8 units. The overlap is the second tone. Monochrome is the crescent cut out.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>the crescent of Do Not Disturb modes and dark-mode switches</li><li>moon-phase icons in weather apps</li></ul></dd>
+  </dl>
+</section><div class="grp" id="group-c"><h2>Group C: fresh, mostly figurative</h2><p>Figures cut cleanly from a solid disc or rounded square: a person at a screen, a hand holding a block, a figure in a door frame, a head and a page, glasses on a page, books on a shelf. One cut, one idea. The last one is the overlap diagram of the subject of the site.</p></div>
+<section class="mk" id="r3-11" aria-labelledby="h-11">
+  <div class="mk__head"><p class="mk__num">R3-11</p><h3 class="mk__name" id="h-11">Reader</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-11-avatar-circle.svg" alt="R3-11 Reader, circle avatar on white"><img class="av" src="svg/r3-11-avatar-square.svg" alt="R3-11 Reader, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-11-avatar-circle-dark.svg" alt="R3-11 Reader, circle avatar on near-black"><img class="av" src="svg/r3-11-avatar-square-dark.svg" alt="R3-11 Reader, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-11-mono-white.svg" width="160" height="160" alt="R3-11 Reader, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-11-mono-black.svg" width="160" height="160" alt="R3-11 Reader, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-11-single.svg" width="160" height="160" alt="R3-11 Reader, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-11-mark.svg" width="160" height="160" alt="R3-11 Reader, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-11-mark-dark.svg" width="160" height="160" alt="R3-11 Reader, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-11-32-light.png" width="32" height="32" alt="R3-11 Reader, 32 px favicon on white"><img class="z" src="png/r3-11-32-light.png" alt=""><img src="png/r3-11-32-mono-light.png" width="32" height="32" alt="R3-11 Reader, 32 px black favicon on white"><img class="z" src="png/r3-11-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-11-32-dark.png" width="32" height="32" alt="R3-11 Reader, 32 px favicon on near-black"><img class="z" src="png/r3-11-32-dark.png" alt=""><img src="png/r3-11-32-mono-dark.png" width="32" height="32" alt="R3-11 Reader, 32 px white favicon on black"><img class="z" src="png/r3-11-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-11-avatar-circle.svg" width="110" height="110" alt="R3-11 Reader as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-11-avatar-linkedin.svg" width="100" height="100" alt="R3-11 Reader as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-11-16-tab-light.png" width="16" height="16" alt="R3-11 Reader, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-11-16-tab-dark.png" width="16" height="16" alt="R3-11 Reader, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-11-thumb.png" width="600" height="338" alt="R3-11 Reader, lockup on a #16151A thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-11-lockup.svg" alt="R3-11 Reader, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-11-lockup-dark.svg" alt="R3-11 Reader, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A head (the user) set over the top of a page (the product); together, a person reading.</dd>
+    <dt>Why "oh nice"</dt><dd>The page is the body: the reader and the thing read are one figure.</dd>
+    <dt>What it means</dt><dd class="means">A head over a page: someone reading. The page is the product, the head is the person. It is the reader this site is written for.</dd>
+    <dt>Authority check</dt><dd>A plain portrait in a circle, like an author photo; very clear, perhaps too familiar.</dd>
+    <dt>Construction</dt><dd>In a circle: a page 212 by 226 (radius 26) and a head radius 84 overlapping its top by 44. Monochrome cuts an 18-unit gap around the head.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>the account icon in most interface kits</li><li>Google Classroom (a figure in front of a board)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-12" aria-labelledby="h-12">
+  <div class="mk__head"><p class="mk__num">R3-12</p><h3 class="mk__name" id="h-12">At the screen</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-12-avatar-circle.svg" alt="R3-12 At the screen, circle avatar on white"><img class="av" src="svg/r3-12-avatar-square.svg" alt="R3-12 At the screen, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-12-avatar-circle-dark.svg" alt="R3-12 At the screen, circle avatar on near-black"><img class="av" src="svg/r3-12-avatar-square-dark.svg" alt="R3-12 At the screen, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-12-mono-white.svg" width="160" height="160" alt="R3-12 At the screen, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-12-mono-black.svg" width="160" height="160" alt="R3-12 At the screen, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-12-single.svg" width="160" height="160" alt="R3-12 At the screen, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-12-mark.svg" width="160" height="160" alt="R3-12 At the screen, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-12-mark-dark.svg" width="160" height="160" alt="R3-12 At the screen, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-12-32-light.png" width="32" height="32" alt="R3-12 At the screen, 32 px favicon on white"><img class="z" src="png/r3-12-32-light.png" alt=""><img src="png/r3-12-32-mono-light.png" width="32" height="32" alt="R3-12 At the screen, 32 px black favicon on white"><img class="z" src="png/r3-12-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-12-32-dark.png" width="32" height="32" alt="R3-12 At the screen, 32 px favicon on near-black"><img class="z" src="png/r3-12-32-dark.png" alt=""><img src="png/r3-12-32-mono-dark.png" width="32" height="32" alt="R3-12 At the screen, 32 px white favicon on black"><img class="z" src="png/r3-12-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-12-avatar-circle.svg" width="110" height="110" alt="R3-12 At the screen as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-12-avatar-linkedin.svg" width="100" height="100" alt="R3-12 At the screen as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-12-16-tab-light.png" width="16" height="16" alt="R3-12 At the screen, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-12-16-tab-dark.png" width="16" height="16" alt="R3-12 At the screen, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-12-thumb.png" width="600" height="338" alt="R3-12 At the screen, lockup on a #1C1426 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-12-lockup.svg" alt="R3-12 At the screen, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-12-lockup-dark.svg" alt="R3-12 At the screen, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A person seen from behind, in front of a screen; their head crosses the screen&#x27;s lower edge.</dd>
+    <dt>Why "oh nice"</dt><dd>You are standing behind the user, which is exactly where a good researcher stands.</dd>
+    <dt>What it means</dt><dd class="means">This is someone sitting in front of a product, using it. You see them from behind, the way a designer watches a test session. The site is about that moment: a real person and the thing on their screen.</dd>
+    <dt>Authority check</dt><dd>Two calm solids cut from a disc, no gesture and no expression; it reads like a pictogram on a sign.</dd>
+    <dt>Construction</dt><dd>In a circle: a screen 352 by 236 (radius 26) and a head (radius 68) with shoulders (a dome of radius 132) running out of the disc. The head overlaps the screen by 70. Monochrome cuts an 18-unit gap around the person.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>video-call and screen-sharing icons in interface kits</li><li>Loom (a person on a screen)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-13" aria-labelledby="h-13">
+  <div class="mk__head"><p class="mk__num">R3-13</p><h3 class="mk__name" id="h-13">In hand</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-13-avatar-circle.svg" alt="R3-13 In hand, circle avatar on white"><img class="av" src="svg/r3-13-avatar-square.svg" alt="R3-13 In hand, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-13-avatar-circle-dark.svg" alt="R3-13 In hand, circle avatar on near-black"><img class="av" src="svg/r3-13-avatar-square-dark.svg" alt="R3-13 In hand, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-13-mono-white.svg" width="160" height="160" alt="R3-13 In hand, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-13-mono-black.svg" width="160" height="160" alt="R3-13 In hand, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-13-single.svg" width="160" height="160" alt="R3-13 In hand, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-13-mark.svg" width="160" height="160" alt="R3-13 In hand, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-13-mark-dark.svg" width="160" height="160" alt="R3-13 In hand, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-13-32-light.png" width="32" height="32" alt="R3-13 In hand, 32 px favicon on white"><img class="z" src="png/r3-13-32-light.png" alt=""><img src="png/r3-13-32-mono-light.png" width="32" height="32" alt="R3-13 In hand, 32 px black favicon on white"><img class="z" src="png/r3-13-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-13-32-dark.png" width="32" height="32" alt="R3-13 In hand, 32 px favicon on near-black"><img class="z" src="png/r3-13-32-dark.png" alt=""><img src="png/r3-13-32-mono-dark.png" width="32" height="32" alt="R3-13 In hand, 32 px white favicon on black"><img class="z" src="png/r3-13-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-13-avatar-circle.svg" width="110" height="110" alt="R3-13 In hand as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-13-avatar-linkedin.svg" width="100" height="100" alt="R3-13 In hand as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-13-16-tab-light.png" width="16" height="16" alt="R3-13 In hand, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-13-16-tab-dark.png" width="16" height="16" alt="R3-13 In hand, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-13-thumb.png" width="600" height="338" alt="R3-13 In hand, lockup on a #FF5A36 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-13-lockup.svg" alt="R3-13 In hand, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-13-lockup-dark.svg" alt="R3-13 In hand, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>An open hand (the user) carrying a block (the product) on its palm, the thumb over its side.</dd>
+    <dt>Why "oh nice"</dt><dd>The product is carried, not shown off: the hand does the work.</dd>
+    <dt>What it means</dt><dd class="means">The block is the product and the hand is the person holding it. A product only matters once it is in someone&#x27;s hand. That is where the author has spent fifteen years looking.</dd>
+    <dt>Authority check</dt><dd>Steady and plain, like a sign on a delivery box; the weakest of the figurative marks for cleanness.</dd>
+    <dt>Construction</dt><dd>In a circle: a block 176 square (radius 18), a palm 344 by 84, a thumb 64 wide turned 24 degrees, and a wrist running out of the disc. The palm and thumb overlap the block. Monochrome cuts an 18-unit gap around the hand.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>&quot;handle with care&quot; and delivery pictograms</li><li>hand-holding-box icons in interface kits</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-14" aria-labelledby="h-14">
+  <div class="mk__head"><p class="mk__num">R3-14</p><h3 class="mk__name" id="h-14">Doorway</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Rounded square · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-14-avatar-circle.svg" alt="R3-14 Doorway, circle avatar on white"><img class="av" src="svg/r3-14-avatar-square.svg" alt="R3-14 Doorway, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-14-avatar-circle-dark.svg" alt="R3-14 Doorway, circle avatar on near-black"><img class="av" src="svg/r3-14-avatar-square-dark.svg" alt="R3-14 Doorway, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-14-mono-white.svg" width="160" height="160" alt="R3-14 Doorway, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-14-mono-black.svg" width="160" height="160" alt="R3-14 Doorway, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-14-single.svg" width="160" height="160" alt="R3-14 Doorway, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-14-mark.svg" width="160" height="160" alt="R3-14 Doorway, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-14-mark-dark.svg" width="160" height="160" alt="R3-14 Doorway, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-14-32-light.png" width="32" height="32" alt="R3-14 Doorway, 32 px favicon on white"><img class="z" src="png/r3-14-32-light.png" alt=""><img src="png/r3-14-32-mono-light.png" width="32" height="32" alt="R3-14 Doorway, 32 px black favicon on white"><img class="z" src="png/r3-14-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-14-32-dark.png" width="32" height="32" alt="R3-14 Doorway, 32 px favicon on near-black"><img class="z" src="png/r3-14-32-dark.png" alt=""><img src="png/r3-14-32-mono-dark.png" width="32" height="32" alt="R3-14 Doorway, 32 px white favicon on black"><img class="z" src="png/r3-14-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-14-avatar-circle.svg" width="110" height="110" alt="R3-14 Doorway as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-14-avatar-linkedin.svg" width="100" height="100" alt="R3-14 Doorway as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-14-16-tab-light.png" width="16" height="16" alt="R3-14 Doorway, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-14-16-tab-dark.png" width="16" height="16" alt="R3-14 Doorway, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-14-thumb.png" width="600" height="338" alt="R3-14 Doorway, lockup on a #14B8A6 thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-14-lockup.svg" alt="R3-14 Doorway, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-14-lockup-dark.svg" alt="R3-14 Doorway, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A person (the user) standing in a door frame (the product), shoulders wider than the door.</dd>
+    <dt>Why "oh nice"</dt><dd>The shoulders overlap the frame: the person does not quite fit, which is the whole job.</dd>
+    <dt>What it means</dt><dd class="means">The arch is the product, the way in. The person standing in it is a little too wide for the opening. Good products are built for the people who actually turn up, not for the door you planned.</dd>
+    <dt>Authority check</dt><dd>An arch is the architecture of institutions; one figure in it reads as a welcome, not a joke.</dd>
+    <dt>Construction</dt><dd>In a rounded square: an arched frame 272 wide with a 144 opening (jambs 64 wide), a head radius 50 and shoulders of radius 118 that cross both jambs. Monochrome cuts an 18-unit gap around the person.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>emergency exit signs (a figure in a doorway)</li><li>arched-door marks of museums and libraries</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-15" aria-labelledby="h-15">
+  <div class="mk__head"><p class="mk__num">R3-15</p><h3 class="mk__name" id="h-15">Glasses</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-15-avatar-circle.svg" alt="R3-15 Glasses, circle avatar on white"><img class="av" src="svg/r3-15-avatar-square.svg" alt="R3-15 Glasses, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-15-avatar-circle-dark.svg" alt="R3-15 Glasses, circle avatar on near-black"><img class="av" src="svg/r3-15-avatar-square-dark.svg" alt="R3-15 Glasses, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-15-mono-white.svg" width="160" height="160" alt="R3-15 Glasses, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-15-mono-black.svg" width="160" height="160" alt="R3-15 Glasses, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-15-single.svg" width="160" height="160" alt="R3-15 Glasses, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-15-mark.svg" width="160" height="160" alt="R3-15 Glasses, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-15-mark-dark.svg" width="160" height="160" alt="R3-15 Glasses, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-15-32-light.png" width="32" height="32" alt="R3-15 Glasses, 32 px favicon on white"><img class="z" src="png/r3-15-32-light.png" alt=""><img src="png/r3-15-32-mono-light.png" width="32" height="32" alt="R3-15 Glasses, 32 px black favicon on white"><img class="z" src="png/r3-15-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-15-32-dark.png" width="32" height="32" alt="R3-15 Glasses, 32 px favicon on near-black"><img class="z" src="png/r3-15-32-dark.png" alt=""><img src="png/r3-15-32-mono-dark.png" width="32" height="32" alt="R3-15 Glasses, 32 px white favicon on black"><img class="z" src="png/r3-15-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-15-avatar-circle.svg" width="110" height="110" alt="R3-15 Glasses as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-15-avatar-linkedin.svg" width="100" height="100" alt="R3-15 Glasses as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-15-16-tab-light.png" width="16" height="16" alt="R3-15 Glasses, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-15-16-tab-dark.png" width="16" height="16" alt="R3-15 Glasses, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-15-thumb.png" width="600" height="338" alt="R3-15 Glasses, lockup on a #6B4CFF thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-15-lockup.svg" alt="R3-15 Glasses, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-15-lockup-dark.svg" alt="R3-15 Glasses, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>Reading glasses (the reader) resting across the foot of a page (the product).</dd>
+    <dt>Why "oh nice"</dt><dd>Two discs and a bridge are enough to put a reader in the room.</dd>
+    <dt>What it means</dt><dd class="means">A pair of glasses put down on a page. Someone has been reading closely. This is a site you read with your glasses on, not one you skim.</dd>
+    <dt>Authority check</dt><dd>Glasses and a page are the plainest sign of study; it reads like a library card.</dd>
+    <dt>Construction</dt><dd>In a circle: a page 220 by 290 (radius 22), two lenses radius 70 joined by a 28-unit bridge, overlapping the foot of the page. Monochrome cuts an 18-unit gap around the glasses.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>reading-glasses marks of opticians and book clubs</li><li>Warby Parker (glasses)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-16" aria-labelledby="h-16">
+  <div class="mk__head"><p class="mk__num">R3-16</p><h3 class="mk__name" id="h-16">Shelf</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Rounded square · Alternative: oxblood</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-16-avatar-circle.svg" alt="R3-16 Shelf, circle avatar on white"><img class="av" src="svg/r3-16-avatar-square.svg" alt="R3-16 Shelf, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-16-avatar-circle-dark.svg" alt="R3-16 Shelf, circle avatar on near-black"><img class="av" src="svg/r3-16-avatar-square-dark.svg" alt="R3-16 Shelf, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-16-mono-white.svg" width="160" height="160" alt="R3-16 Shelf, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-16-mono-black.svg" width="160" height="160" alt="R3-16 Shelf, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-16-single.svg" width="160" height="160" alt="R3-16 Shelf, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-16-mark.svg" width="160" height="160" alt="R3-16 Shelf, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-16-mark-dark.svg" width="160" height="160" alt="R3-16 Shelf, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-16-32-light.png" width="32" height="32" alt="R3-16 Shelf, 32 px favicon on white"><img class="z" src="png/r3-16-32-light.png" alt=""><img src="png/r3-16-32-mono-light.png" width="32" height="32" alt="R3-16 Shelf, 32 px black favicon on white"><img class="z" src="png/r3-16-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-16-32-dark.png" width="32" height="32" alt="R3-16 Shelf, 32 px favicon on near-black"><img class="z" src="png/r3-16-32-dark.png" alt=""><img src="png/r3-16-32-mono-dark.png" width="32" height="32" alt="R3-16 Shelf, 32 px white favicon on black"><img class="z" src="png/r3-16-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-16-avatar-circle.svg" width="110" height="110" alt="R3-16 Shelf as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#6E1F2A"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-16-avatar-linkedin.svg" width="100" height="100" alt="R3-16 Shelf as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-16-16-tab-light.png" width="16" height="16" alt="R3-16 Shelf, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-16-16-tab-dark.png" width="16" height="16" alt="R3-16 Shelf, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-16-thumb.png" width="600" height="338" alt="R3-16 Shelf, lockup on a #E9FF3B thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-16-lockup.svg" alt="R3-16 Shelf, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-16-lockup-dark.svg" alt="R3-16 Shelf, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>Two books: one upright, one leaning on it. Where the leaning one rests, the corner is lit.</dd>
+    <dt>Why "oh nice"</dt><dd>A shelf of a serious library, drawn with two slabs; the lean is the &quot;oh nice&quot;.</dd>
+    <dt>What it means</dt><dd class="means">Two books on a shelf, one leaning on the other. It is a reference library, the kind of place you go for an answer you can trust. Fifteen years of practice, put on the shelf.</dd>
+    <dt>Authority check</dt><dd>Books are the sign of a reference you can cite; the oxblood is a library binding.</dd>
+    <dt>Construction</dt><dd>In a rounded square: two books 116 by 330 (radius 18); the right one turned 24 degrees and set against the first. Monochrome cuts an 18-unit gap where they touch.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>Apple Books (a book form)</li><li>library icons in interface kits (books on a shelf)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-17" aria-labelledby="h-17">
+  <div class="mk__head"><p class="mk__num">R3-17</p><h3 class="mk__name" id="h-17">Crossing</h3><p class="mk__tags">Group C · Abstract: a diagram · Stands free · Alternative: plum</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-17-avatar-circle.svg" alt="R3-17 Crossing, circle avatar on white"><img class="av" src="svg/r3-17-avatar-square.svg" alt="R3-17 Crossing, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-17-avatar-circle-dark.svg" alt="R3-17 Crossing, circle avatar on near-black"><img class="av" src="svg/r3-17-avatar-square-dark.svg" alt="R3-17 Crossing, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-17-mono-white.svg" width="160" height="160" alt="R3-17 Crossing, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-17-mono-black.svg" width="160" height="160" alt="R3-17 Crossing, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-17-single.svg" width="160" height="160" alt="R3-17 Crossing, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-17-mark.svg" width="160" height="160" alt="R3-17 Crossing, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-17-mark-dark.svg" width="160" height="160" alt="R3-17 Crossing, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-17-32-light.png" width="32" height="32" alt="R3-17 Crossing, 32 px favicon on white"><img class="z" src="png/r3-17-32-light.png" alt=""><img src="png/r3-17-32-mono-light.png" width="32" height="32" alt="R3-17 Crossing, 32 px black favicon on white"><img class="z" src="png/r3-17-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-17-32-dark.png" width="32" height="32" alt="R3-17 Crossing, 32 px favicon on near-black"><img class="z" src="png/r3-17-32-dark.png" alt=""><img src="png/r3-17-32-mono-dark.png" width="32" height="32" alt="R3-17 Crossing, 32 px white favicon on black"><img class="z" src="png/r3-17-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-17-avatar-circle.svg" width="110" height="110" alt="R3-17 Crossing as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#4B2A7A"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-17-avatar-linkedin.svg" width="100" height="100" alt="R3-17 Crossing as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-17-16-tab-light.png" width="16" height="16" alt="R3-17 Crossing, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-17-16-tab-dark.png" width="16" height="16" alt="R3-17 Crossing, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (white, 92 percent)</h4>
+    <img class="thumb" src="png/r3-17-thumb.png" width="600" height="338" alt="R3-17 Crossing, lockup on a #121A3A thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-17-lockup.svg" alt="R3-17 Crossing, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-17-lockup-dark.svg" alt="R3-17 Crossing, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>Three heavy discs, design, product and business, overlap; the place where all three meet is lit.</dd>
+    <dt>Why "oh nice"</dt><dd>The site&#x27;s own subject drawn as its mark: the crossing of UX, product and business is the light in the middle.</dd>
+    <dt>What it means</dt><dd class="means">The three circles are design, product and business. Most people work in one or two of them. This site sits in the middle, where all three cross, and that is the bright part.</dd>
+    <dt>Authority check</dt><dd>The overlap diagram is how product people already explain the job, so a professional reads it at once; heavy and symmetrical, it sits like a seal.</dd>
+    <dt>Construction</dt><dd>Three discs radius 150, centers 96 from the middle at 120-degree steps. Single areas in the main tone, the pair overlaps in the second tone, the triple overlap is the fold. Monochrome cuts the triple overlap out.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>the design, technology and business overlap diagram used to explain product management</li><li>the Ballantine three rings</li><li>Mastercard (two overlapping discs)</li></ul></dd>
+  </dl>
+</section>
+<section class="mk" id="r3-18" aria-labelledby="h-18">
+  <div class="mk__head"><p class="mk__num">R3-18</p><h3 class="mk__name" id="h-18">Raised hand</h3><p class="mk__tags">Group C · Figurative: a cut-out silhouette · Circle · Signal blue with a lighter fold</p></div>
+  <div class="row"><h4>Avatars: 110 px circle and rounded square</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="av" src="svg/r3-18-avatar-circle.svg" alt="R3-18 Raised hand, circle avatar on white"><img class="av" src="svg/r3-18-avatar-square.svg" alt="R3-18 Raised hand, rounded-square avatar on white"></div>
+      <div class="g g--k"><img class="av" src="svg/r3-18-avatar-circle-dark.svg" alt="R3-18 Raised hand, circle avatar on near-black"><img class="av" src="svg/r3-18-avatar-square-dark.svg" alt="R3-18 Raised hand, rounded-square avatar on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Monochrome at 160 px: white on black, black on white, one color with no fold</h4>
+    <div class="trio">
+      <figure class="g g--pk"><img class="m160" src="svg/r3-18-mono-white.svg" width="160" height="160" alt="R3-18 Raised hand, pure white on black"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-18-mono-black.svg" width="160" height="160" alt="R3-18 Raised hand, pure black on white"></figure>
+      <figure class="g g--w"><img class="m160" src="svg/r3-18-single.svg" width="160" height="160" alt="R3-18 Raised hand, one color only"></figure>
+    </div></div>
+  <div class="row"><h4>Color mark at 160 px</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="m160" src="svg/r3-18-mark.svg" width="160" height="160" alt="R3-18 Raised hand, mark on white"></div>
+      <div class="g g--k"><img class="m160" src="svg/r3-18-mark-dark.svg" width="160" height="160" alt="R3-18 Raised hand, dark mark on near-black"></div>
+    </div></div>
+  <div class="row"><h4>Favicons: rendered 32 px PNGs, color and monochrome, each also enlarged three times</h4>
+    <div class="pair">
+      <div class="g g--w"><div class="fav"><img src="png/r3-18-32-light.png" width="32" height="32" alt="R3-18 Raised hand, 32 px favicon on white"><img class="z" src="png/r3-18-32-light.png" alt=""><img src="png/r3-18-32-mono-light.png" width="32" height="32" alt="R3-18 Raised hand, 32 px black favicon on white"><img class="z" src="png/r3-18-32-mono-light.png" alt=""></div></div>
+      <div class="g g--k"><div class="fav"><img src="png/r3-18-32-dark.png" width="32" height="32" alt="R3-18 Raised hand, 32 px favicon on near-black"><img class="z" src="png/r3-18-32-dark.png" alt=""><img src="png/r3-18-32-mono-dark.png" width="32" height="32" alt="R3-18 Raised hand, 32 px white favicon on black"><img class="z" src="png/r3-18-32-mono-dark.png" alt=""></div></div>
+    </div></div>
+  <div class="row"><h4>Previews: Instagram profile, LinkedIn page, browser tab at 16 px</h4>
+    <div class="prev">
+      <div class="mock"><p class="mock__label">Instagram profile</p>
+        <div class="ig"><img class="ig__av" src="svg/r3-18-avatar-circle.svg" width="110" height="110" alt="R3-18 Raised hand as an Instagram profile picture">
+          <div><p class="ig__user">userandproduct</p>
+            <ul class="ig__stats"><li><b>128</b> posts</li><li><b>4,210</b> followers</li><li><b>180</b> following</li></ul>
+            <p class="ig__name">User and Product</p><p class="ig__bio">UX, product and business, from 15 years of practice.</p></div></div></div>
+      <div class="mock"><p class="mock__label">LinkedIn company page</p>
+        <div class="li__banner" style="background:#2B46A0"></div>
+        <div class="li__body"><img class="li__logo" src="svg/r3-18-avatar-linkedin.svg" width="100" height="100" alt="R3-18 Raised hand as a LinkedIn company logo">
+          <p class="li__name">userandproduct</p><p class="li__meta">Online publishing · 2,340 followers</p></div></div>
+      <div class="mock"><p class="mock__label">Browser tab, light and dark</p>
+        <div class="tabs tabs--l"><div class="tab tab--on"><img src="png/r3-18-16-tab-light.png" width="16" height="16" alt="R3-18 Raised hand, 16 px favicon in a light tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+        <div class="tabs tabs--d"><div class="tab tab--on"><img src="png/r3-18-16-tab-dark.png" width="16" height="16" alt="R3-18 Raised hand, 16 px favicon in a dark tab"><span>userandproduct</span><span class="x" aria-hidden="true">&times;</span></div><div class="tab tab--off"><span>New tab</span></div></div><div class="tabs__url"></div>
+      </div>
+    </div></div>
+  <div class="row"><h4>Thumbnail: lockup 120 px wide in the corner of a 600 x 338 tile (black, 92 percent)</h4>
+    <img class="thumb" src="png/r3-18-thumb.png" width="600" height="338" alt="R3-18 Raised hand, lockup on a #FF8A1F thumbnail tile" loading="lazy"></div>
+  <div class="row"><h4>Header lockup at 236 px with the Inter Display Bold wordmark</h4>
+    <div class="pair">
+      <div class="g g--w"><img class="lk" src="svg/r3-18-lockup.svg" alt="R3-18 Raised hand, header lockup on white"></div>
+      <div class="g g--k"><img class="lk" src="svg/r3-18-lockup-dark.svg" alt="R3-18 Raised hand, header lockup on near-black"></div>
+    </div></div>
+  <dl class="words">
+    <dt>The idea</dt><dd>A person (head and shoulders) with one arm raised; the arm crosses the shoulder, lit where it does.</dd>
+    <dt>Why "oh nice"</dt><dd>One raised arm turns a stock figure into a person with something to ask.</dd>
+    <dt>What it means</dt><dd class="means">Someone in the room has put their hand up with a question. Most of this site starts there: a real question from someone doing the work. The answer comes from fifteen years of having asked it too.</dd>
+    <dt>Authority check</dt><dd>Calm and level, a classroom gesture rather than a wave; reads at once as a question from the floor.</dd>
+    <dt>Construction</dt><dd>In a circle: a head radius 64 and shoulders (a dome of radius 156) running out of the disc, an arm 76 wide turned 20 degrees and crossing the shoulder. Monochrome cuts an 18-unit gap around the arm.</dd>
+    <dt>Nearest existing logos</dt><dd><ul><li>the raised-hand button in video-call apps</li><li>classroom and Q&amp;A pictograms</li></ul></dd>
+  </dl>
+</section>
+  <p class="foot">Built by <code>build.py</code> in this folder. Masters in <code>svg/</code> (512 canvas, paths only),
+  rendered favicons and thumbs in <code>png/</code>. The Instagram, LinkedIn and tab previews are plain HTML mocks, the same
+  for every mark. Rebuild notes in README.md.</p>
+</main>
+<script src="../../mockup.js"></script>
+</body>
+</html>

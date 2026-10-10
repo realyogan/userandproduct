@@ -1,53 +1,67 @@
 {
   "version": 1,
-  "run_id": "logo-2-round-2",
-  "title": "Logo exploration 2, round 2: ten letterform marks from U, D and P",
+  "run_id": "logo-2-round-4",
+  "title": "Logo exploration 2, round 4: refinement of the shortlist, and fresh marks",
   "state": "finished",
-  "started": "2026-10-10T13:17+05:30",
+  "started": "2026-10-10T14:26+05:30",
   "steps": [
     {
       "n": 1,
       "title": "Brief",
       "status": "done",
-      "note": "Brief read: ten letterform marks from U, D and P",
-      "time": "13:20"
+      "note": "Brief read: four shortlisted families, three figurative candidates, eight to ten fresh marks",
+      "time": "14:26"
     },
     {
       "n": 2,
-      "title": "Letter studies",
+      "title": "Cup and ball family",
       "status": "done",
-      "note": "Ten constructions sketched; P bar-and-disc and solid P dropped (near Patreon and Pandora)",
-      "time": "13:20"
+      "note": "Cup and ball drawn at 0, 30, 45, 60 degrees, free and in a disc, plus the ball lifted at 45",
+      "time": "14:31"
     },
     {
       "n": 3,
-      "title": "Draw",
+      "title": "Speech mark tails",
       "status": "done",
-      "note": "Ten masters with dark variants, avatars, four lockups each; 100 SVGs",
-      "time": "13:17"
+      "note": "Five speech-mark tails tested at 32 and 16 px; the longer tail survives smallest",
+      "time": "14:31"
     },
     {
       "n": 4,
-      "title": "Board",
+      "title": "Square coin and Shelf",
       "status": "done",
-      "note": "Board built and looked at section by section; no horizontal scroll at 375 or 1280",
-      "time": "13:18"
+      "note": "Square coin and Shelf variants drawn",
+      "time": "14:31"
     },
     {
       "n": 5,
-      "title": "Sizes",
+      "title": "Fresh marks",
       "status": "done",
-      "note": "32 and 16 px renders looked at: all ten read at 32; R2-07 Stack is the weakest (tall and narrow); avatars and thumbs fine",
-      "time": "13:20"
+      "note": "Eight fresh marks: lens, dividers, desk lamp, rook, anvil, signpost, funnel, one block",
+      "time": "14:31"
     },
     {
       "n": 6,
+      "title": "Board",
+      "status": "done",
+      "note": "Board built: 33 marks in six groups",
+      "time": "14:35"
+    },
+    {
+      "n": 7,
       "title": "Checks",
       "status": "done",
-      "note": "All checks passed: 100 SVGs valid and under 6 KB, nothing under 8 units, 32 px legible, no shared core shape; 200 OK. Done: http://localhost/user-and-product/research/mockups/logo-2/round-2/",
-      "time": "13:20"
+      "note": "Checks passed: 462 SVGs, nothing under 8 units, 264 favicons",
+      "time": "14:35"
+    },
+    {
+      "n": 8,
+      "title": "Hub and README",
+      "status": "done",
+      "note": "Hub card added; README written. Done: http://localhost/user-and-product/research/mockups/logo-2/round-4/",
+      "time": "14:35"
     }
   ],
-  "updated": "2026-10-10T13:20+05:30",
-  "note": "All checks passed: 100 SVGs valid and under 6 KB, nothing under 8 units, 32 px legible, no shared core shape; 200 OK. Done: http://localhost/user-and-product/research/mockups/logo-2/round-2/"
+  "updated": "2026-10-10T14:35+05:30",
+  "note": "Hub card added; README written. Done: http://localhost/user-and-product/research/mockups/logo-2/round-4/"
 }

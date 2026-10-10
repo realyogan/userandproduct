@@ -818,3 +818,23 @@ shared stem, turned U to D, split ring up, D holds U, cut coin, two-hook U in gr
 ampersand in vermilion, folded-corner u in the wordmark). Main-session read: strongest at avatar size 02, 05, 06, 08;
 10 has the nicest idea but fades at 32 px; 01, 03, 04 carry too much; 07 thin. Suggested shortlist across both rounds
 for the originality check: R2-02, R2-05, R2-06, R2-08, R1-01, R1-02, R1-05. Waiting for the owner's reaction.
+Owner on rounds 1 and 2 (10 Oct): R2-05 the cut coin "kind of okay", R1-01 the orbit okay, "like is a strong word";
+round 1 lacked monochrome (white on black, black on white), which is important; no rockets; the folder bust looked like
+a stamp; the switch makes no sense; the bookmark is nice but not strong and looks seen before; do not limit a round to
+ten. Round 3 started: sixteen to twenty marks in three groups (the coin evolved, the orbit evolved, fresh ideas), every
+mark shown in monochrome and single colour as well as two-tone, same first-row avatar test, authority check on each.
+Owner: every mark on a board must show its previews in context: monochrome, Instagram profile, LinkedIn company page, browser favicon tab, thumbnail corner, header lockup. Passed to the round 3 builder; standing rule for later rounds.
+Owner: each logo on a board gets a short plain 'what it means' paragraph the owner can say to a friend (brand meaning in everyday words). Passed to the round 3 builder; standing rule.
+Owner: not everything U and D; the Tiger Data mark's cleanliness and authority (a figurative silhouette cut from a solid disc, one idea) is the bar, as a standard not a shape. Round 3's fresh group becomes mostly figurative negative-space silhouettes; letters a minority. Passed to the builder.
+Owner on round 3 (10 Oct): shortlist R3-03 cup and ball (wants it tilted about 45 degrees left so it reads as a
+person raising a hand, a U and a hint of a D), R3-04 speech mark (likes it; the bottom tail must be more prominent, at
+small sizes it reads as a cricket ball), R3-05 square coin and R3-14 shelf; the rest dropped; the figurative Tiger
+Data-standard group still wanted. Round 4 = refinement families of the four plus two or three figurative candidates.
+Round 3 was renumbered by the figurative pass after the owner had reviewed it (square coin removed, shelf moved to R3-16). Builder told: restore the square coin for round 4, use names in the hub, add a mapping note on the board; rule: never renumber a board after the owner has seen it.
+Owner: round 4 must also bring eight to ten entirely fresh marks, not only refinements of the four. Passed to the builder.
+Round 4 built (10 Oct): 33 marks: cup and ball family (45 degrees recommended, reads as raised hand, U and a hint of
+D), speech mark tails (still thin lit crescents, not yet solid), square coin and shelf proportion variants, three
+figurative carry-overs (at the screen, doorway, raised hand), eight fresh marks (lens, dividers, lamp, rook, anvil,
+signpost, funnel, block) that read as library icons. Main-session read: live candidates are the tilted cup, the speech
+mark once its tail is solid and breaks the outline, the square coin and the shelf. Round 3 closed with a numbering map
+note and the no-renumbering rule. Waiting for the owner.
