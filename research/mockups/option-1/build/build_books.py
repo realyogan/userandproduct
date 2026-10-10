@@ -249,7 +249,7 @@ def book(b, i, p):
         take = ('<aside class="take" aria-labelledby="' + b["id"] + '-take"><h3 id="' + b["id"] + '-take">What I took from it</h3>'
                 '<p class="slot">[Owner writes this after reading]</p></aside>')
     else:
-        take = f'<p class="unread">Not yet read by the author; on the shelf because {escape(b["reason"])}</p>'
+        take = ''
     q = b["title"].replace(" ", "+") + "+" + b["authors"].split(" and ")[0].replace(" ", "+")
     return f'''<article class="book" id="{b["id"]}" aria-labelledby="{hid}">
   {cover(b)}
