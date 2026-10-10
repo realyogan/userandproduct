@@ -960,3 +960,16 @@ analytics, AI in UX and for PMs (nothing), pricing, product operations. Eight ti
 second list before the site quotes them. Owner to cut the list.
 Owner: show the 181 books as an HTML tree by domain and category with tier labels (the canon everyone names, widely recommended, good but niche), hover details and article potential. Being built at research/explainers/book-shelf-tree-2026-10-10.html.
 Book shelf tree page built and committed: research/explainers/book-shelf-tree-2026-10-10.html (no remapping needed; 43 books flagged with a second possible home; 34 marked aged). Build script being moved into research/books/.
+Books section structure proposed (10 Oct): one substantive shelf page (owner's intro, sections by domain and
+category with two or three framing sentences each, compact entries: title, author, who it is for, tier; client-side
+filters, no URLs); a book page only where there is substance (covers, for whom and who should skip, which part
+matters, where dated, related articles, sponsored link with disclosure), launch with ten to fifteen pages and
+twenty-five entries without pages; reading paths (three to five books per situation, five or six at launch); no tag
+or author archives. Drip one book a week, a page when earned; sixty to eighty is a complete shelf. WordPress: book
+and reading-path post types in the plugin, site categories as taxonomy, no indexable term pages. Owner to pick the
+thirty to forty and the ten to fifteen with pages.
+Owner: category pages for books too, since the categories recur across articles. Agreed as one page per category that
+holds everything on the subject: articles, a "Books on <category>" section with framing and entries, tools later; the
+shelf page links into those sections with anchors; a separate books-only category page only when a category's shelf
+grows large enough (about fifteen or more) to need its own framing.
+Launch shelf proposal of 40 books written to research/books/launch-shelf-proposal-2026-10-10.md (Design 12, Product 14, Business 11, supporting 3; 13 with pages). Owner to adjust.
