@@ -941,3 +941,14 @@ checklist item; the checker runs it on every draft, two trips send it back.
 Owner (10 Oct): at launch, tools instead of templates: ship at least ten working tools with the fifty articles and the
 books shelf; templates come later. Each tool is a real page (what, when, how) around a plain-JavaScript calculator or
 checker. A candidate list of ten tools to be drafted from the keyword store and the tree when that step comes.
+Owner (10 Oct): books section for launch: research the famous books to recommend, no cap; the owner's ideal is a book
+name, a page on what it is about, what the owner liked and which section, to show the owner read it, though "in most
+cases I would not have read the book". Main session's answer: never fake having read a book (raters rate "false claim
+of personal testing" Lowest; our no-invented-first-person rule). Proposed structure: a shelf grouped by category; a
+book page only where there is something substantive to say (what it covers in our words, who it is for and not,
+which part matters for a product person, related articles, sponsored buy link with disclosure); the owner's "what I
+took from it" only on books actually read, labelled; honest lines for the rest ("the standard reference for X",
+"recommended by people I trust"); the shelf grows as the owner reads. Research started at research/books/.
+Owner: the book list is also a foundation for article inspiration. Ties to the "book you name" backlog door: the
+shelf list becomes its standing supply; each book-inspired piece is in our words with the owner's experience, credits
+the book, never reproduces it, and still needs the owner's seed. Candidates list to flag article potential per book.

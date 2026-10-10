@@ -1,46 +1,46 @@
 {
   "version": 1,
-  "run_id": "satoshi",
-  "title": "Mockups switch to Satoshi",
+  "run_id": "books-research",
+  "title": "Books shelf candidates",
   "state": "finished",
-  "started": "2026-10-10T18:00+05:30",
-  "updated": "2026-10-10T17:31+05:30",
-  "note": "Finished: plain font swap to Satoshi; scale untouched, tuning notes in the report",
+  "started": "2026-10-10T19:21+05:30",
+  "updated": "2026-10-10T19:42+05:30",
+  "note": "Finished: 181 candidates (45 A, 105 B, 31 C), CSV and section notes in research/books/",
   "steps": [
     {
       "n": 1,
-      "title": "Download and licence",
+      "title": "List from knowledge",
       "status": "done",
-      "note": "Satoshi 2.000 package from Fontshare; variable + 8 static woff2, 8 OTF, 2 variable TTF, FFL 2.0 saved; licence bars public repositories, so the files are git-ignored",
-      "time": "17:16"
+      "note": "About 230 candidates drafted",
+      "time": "19:42"
     },
     {
       "n": 2,
-      "title": "Font-face",
+      "title": "Verify",
       "status": "done",
-      "note": "Satoshi variable roman and italic (weights 300 to 900) in both mockup.css files; Inter and Fraunces rules kept, unused",
-      "time": "17:24"
+      "note": "Open Library pass on all titles; editions checked; 20 reading lists read",
+      "time": "19:42"
     },
     {
       "n": 3,
-      "title": "Tokens and scale",
+      "title": "Enrich",
       "status": "done",
-      "note": "--font-display and --font-ui (so --font-body) now Satoshi; variant B serif body and deck switched to Satoshi; type scale untouched per owner update (plain font swap)",
-      "time": "17:24"
+      "note": "181 books kept: 45 A, 105 B, 31 C; list backing for every A",
+      "time": "19:42"
     },
     {
       "n": 4,
-      "title": "Pages",
+      "title": "Write",
       "status": "done",
-      "note": "Preloads now Satoshi-Variable.woff2 in index.html, build_article.py (article.html, variants rebuilt) and the variants hub; placeholders carry no preload",
-      "time": "17:25"
+      "note": "candidates md, csv and section notes written",
+      "time": "19:42"
     },
     {
       "n": 5,
-      "title": "Checks",
+      "title": "Finished",
       "status": "done",
-      "note": "Shots rerun; 0px overflow 375 to 1440 (home) and all article viewports; index, article, variant B and both font files 200; only localhost requests; Satoshi the only face loaded",
-      "time": "17:31"
+      "note": "Report sent",
+      "time": "19:42"
     }
   ]
 }
