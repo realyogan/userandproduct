@@ -1,0 +1,293 @@
+[
+  {
+    "place": "featured",
+    "slug": "prd-engineers-read",
+    "title": "How to Write a PRD That Engineers Actually Read",
+    "kind": "howto",
+    "candidates": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "style": 1,
+    "style_name": "Flat vector, square grid",
+    "palette": "red-orange",
+    "bg": "#FF5A36",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "a how-to with one nameable object, the document; the flat cut-out reads largest at hero size",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "secondary 1",
+    "slug": "usability-test-size",
+    "title": "How many users do you need for a usability test?",
+    "kind": "concept",
+    "candidates": [
+      1,
+      6,
+      3,
+      9,
+      7,
+      10,
+      2,
+      8
+    ],
+    "style": 6,
+    "style_name": "Dark line diagram",
+    "palette": "night",
+    "bg": "#16151A",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "a concept about sample size; the dark line diagram sets it apart from the bright featured card",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "secondary 2",
+    "slug": "retention-truth",
+    "title": "Retention is the number that tells you the truth",
+    "kind": "data",
+    "candidates": [
+      6,
+      9,
+      7,
+      10,
+      8
+    ],
+    "style": 8,
+    "style_name": "Light grid diagram",
+    "palette": "paper",
+    "bg": "#F4F1E8",
+    "scheme": "duo",
+    "accents": [
+      "blue"
+    ],
+    "corner": "br",
+    "reason": "a data piece; the light grid diagram with one accent on the flat part of the curve, unlike the dark card above it",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 1",
+    "slug": "price-before-customers",
+    "title": "How to price a B2B product before your first customer",
+    "kind": "howto",
+    "candidates": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "style": 3,
+    "style_name": "Pixel icon and panel",
+    "palette": "acid-yellow",
+    "bg": "#E9FF3B",
+    "scheme": "duo",
+    "accents": [
+      "indigo"
+    ],
+    "corner": "br",
+    "reason": "a how-to; the pixel icon suits a practical method and opens the grid on a bright ground",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 2",
+    "slug": "roadmap-sales-call",
+    "title": "Why most roadmaps break on the first sales call",
+    "kind": "opinion",
+    "candidates": [
+      1,
+      7,
+      5,
+      2
+    ],
+    "style": 5,
+    "style_name": "Typographic cover",
+    "palette": "violet",
+    "bg": "#6B4CFF",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "an opinion piece; the typographic cover carries a judgment, deep violet beside the yellow",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 3",
+    "slug": "dashboard-one-question",
+    "title": "Dashboard design starts with one question",
+    "kind": "opinion",
+    "candidates": [
+      1,
+      7,
+      5,
+      2
+    ],
+    "style": 1,
+    "style_name": "Flat vector, square grid",
+    "palette": "tangerine",
+    "bg": "#FF8A1F",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "an opinion piece about one object, the gauge; the flat square-grid style on a warm ground",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 4",
+    "slug": "information-architecture-growth",
+    "title": "Information architecture for a product that keeps growing",
+    "kind": "concept",
+    "candidates": [
+      1,
+      6,
+      3,
+      9,
+      7,
+      10,
+      2,
+      8
+    ],
+    "style": 9,
+    "style_name": "Particle field",
+    "palette": "midnight",
+    "bg": "#121A3A",
+    "scheme": "duo",
+    "accents": [
+      "yellow"
+    ],
+    "corner": "br",
+    "reason": "an abstract concept about scale; the particle field, the stream in the accent",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 5",
+    "slug": "kanban-or-scrum",
+    "title": "Kanban or Scrum for a team of five",
+    "kind": "comparison",
+    "candidates": [
+      1,
+      6,
+      2,
+      8
+    ],
+    "style": 2,
+    "style_name": "Flat vector, dot grid",
+    "palette": "teal",
+    "bg": "#14B8A6",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "a comparison drawn as the sprint loop; the dot-grid flat style, cool bright between two deep grounds",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 6",
+    "slug": "product-manager-week",
+    "title": "What a product manager does all week",
+    "kind": "concept",
+    "candidates": [
+      1,
+      6,
+      3,
+      9,
+      7,
+      10,
+      2,
+      8
+    ],
+    "style": 7,
+    "style_name": "Dark glow diagram",
+    "palette": "night",
+    "bg": "#16151A",
+    "scheme": "duo",
+    "accents": [
+      "lime"
+    ],
+    "corner": "br",
+    "reason": "a concept with one key idea; the glow diagram, the bulb glowing in the accent",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 7",
+    "slug": "accessibility-afternoon",
+    "title": "Four accessibility checks you can run in an afternoon",
+    "kind": "list",
+    "candidates": [
+      1,
+      4,
+      10,
+      2
+    ],
+    "style": 4,
+    "style_name": "Icon sequence",
+    "palette": "hot-pink",
+    "bg": "#FF5CA8",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "a list of four real checks; the icon sequence numbers them",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 8",
+    "slug": "design-tokens",
+    "title": "What a design token is, and why engineers ask for them",
+    "kind": "concept",
+    "candidates": [
+      1,
+      6,
+      3,
+      9,
+      7,
+      10,
+      2,
+      8
+    ],
+    "style": 10,
+    "style_name": "Bright particle field",
+    "palette": "electric-blue",
+    "bg": "#2F5BFF",
+    "scheme": "duo",
+    "accents": [
+      "yellow"
+    ],
+    "corner": "br",
+    "reason": "an abstract concept, many small values becoming one system; the bright particle field",
+    "notes": [],
+    "pass": true
+  },
+  {
+    "place": "grid 9",
+    "slug": "first-product-designer",
+    "title": "Hiring your first product designer",
+    "kind": "howto",
+    "candidates": [
+      1,
+      3,
+      4,
+      2
+    ],
+    "style": 1,
+    "style_name": "Flat vector, square grid",
+    "palette": "mint",
+    "bg": "#3DDC84",
+    "scheme": "mono",
+    "accents": [],
+    "corner": "br",
+    "reason": "a how-to with one object, the briefcase; flat square grid on mint, apart from the dark and blue neighbours",
+    "notes": [],
+    "pass": true
+  }
+]

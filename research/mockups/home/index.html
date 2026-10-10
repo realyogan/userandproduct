@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UX, product and business lessons from fifteen years of shipping | userandproduct</title>
+<meta name="description" content="Practical writing on UX, product management and the business side of software, by one author with fifteen years in product design and product management.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2B46A0">
+<link rel="icon" href="../final-logo/favicon/favicon.ico" sizes="48x48">
+<link rel="icon" href="../final-logo/favicon/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../final-logo/favicon/apple-touch-icon-180.png">
+<script>try{var t=localStorage.getItem("uap-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}</script>
+<link rel="preload" href="../fonts/inter/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/inter/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../mockup.css">
+<link rel="stylesheet" href="home.css">
+<script src="../mockup.js" defer></script>
+</head>
+<!-- Home page mockup. Every article title, deck, reading time, the margin note and the Start-here path are made-up
+     samples to show the layout; they are not real pieces yet. The counts on the shelves are the planned pieces per
+     category from research/seo/tree-simplified-v1.1.md. Only the featured card links to a page (article A). -->
+<body class="home">
+<a class="skip" href="#content">Skip to the main content</a>
+<header class="site-head">
+  <div class="site-head__in">
+    <a class="logo" href="#" aria-label="userandproduct home"><img class="l-light" src="../final-logo/svg/lockup-light.svg" alt="userandproduct" width="236" height="30"><img class="l-dark" src="../final-logo/svg/lockup-dark.svg" alt="userandproduct" width="236" height="30"></a>
+    <nav class="site-nav" aria-label="Sections"><ul><li><a href="#">Articles</a></li><li><a href="#">Topics</a></li><li><a href="#">Books</a></li><li><a href="#">Links</a></li><li><a href="#">Tools</a></li><li><a href="#">Templates</a></li></ul></nav>
+    <details class="menu"><summary>Menu</summary><ul><li><a href="#">Articles</a></li><li><a href="#">Topics</a></li><li><a href="#">Books</a></li><li><a href="#">Links</a></li><li><a href="#">Tools</a></li><li><a href="#">Templates</a></li></ul></details>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 14.6A8.5 8.5 0 0 1 9.4 3.7a8.5 8.5 0 1 0 10.9 10.9Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg></button>
+  </div>
+</header>
+<aside class="ad ad--leader" data-ad="leaderboard" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">320 &times; 100</span><span class="sz-1">728 &times; 90</span><span class="sz-2">970 &times; 90</span></div></aside>
+<main id="content" class="wrap">
+
+<!-- 1. Masthead: the promise, then the desk (the pick, the author's margin note beside it, two more) -->
+<section class="mast" aria-labelledby="mast-h">
+  <p class="kicker">UX &middot; Product &middot; Business</p>
+  <h1 id="mast-h">Plain lessons in UX, product and business, <span class="mast__quiet">from fifteen years of shipping software.</span></h1>
+  <p class="mast__deck">For product managers, designers and founders. Each piece starts from a real project and ends with something you can use on Monday.</p>
+</section>
+
+<section class="desk" aria-labelledby="desk-h">
+  <h2 id="desk-h" class="vh">On the desk</h2>
+  <article class="lead">
+    <a class="lead__link" href="../article/article-a.html">
+      <img src="img/prd-engineers-read-hero.png" width="1200" height="675" alt="Illustration of a PRD page with a checklist, two items ticked." fetchpriority="high" decoding="async">
+      <span class="chip chip--cat">Product discovery</span>
+      <h3>How to Write a PRD That Engineers Actually Read</h3>
+      <span class="lead__deck">Twelve questions before the first heading, six parts in a fixed order, and acceptance lines a tester can check. The template is at the end.</span>
+      <span class="meta">9 min read</span>
+    </a>
+  </article>
+  <div class="desk__side">
+    <aside class="note" aria-label="A note from the author">
+      <p>If you write specs, read this one first. It is the structure I use on every project now, and the one I would have wanted in my first product job.</p>
+      <p class="note__by">[Author Name]</p>
+    </aside>
+    <ul class="side-cards">
+      <li class="card card--side"><a href="#"><img src="img/usability-test-size-thumb.png" width="600" height="338" alt="Illustration of a magnifier over a screen." loading="lazy" decoding="async"><span class="chip">UX research</span><h3>How many users do you need for a usability test?</h3></a></li>
+      <li class="card card--side"><a href="#"><img src="img/retention-truth-thumb.png" width="600" height="338" alt="Chart of a retention curve that falls, then flattens." loading="lazy" decoding="async"><span class="chip">Product metrics</span><h3>Retention is the number that tells you the truth</h3></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2. Three shelves: each domain is a stack of books, one book per category, its width set by the planned pieces -->
+<section class="shelves" id="shelves" aria-labelledby="shelves-h">
+  <header class="sec-head">
+    <p class="kicker">Topics</p>
+    <h2 id="shelves-h">Three shelves, thirteen topics</h2>
+    <p>Every piece sits on one shelf. Pick the one closest to your work this week.</p>
+  </header>
+  <div class="shelves__row">
+    <section class="shelf" aria-labelledby="shelf-design">
+      <h3 id="shelf-design"><a href="#">Design</a></h3>
+      <p class="shelf__what">How people use the product, and how it looks and works.</p>
+      <ul class="stack">
+        <li class="b1"><a href="#"><span class="book__name">Design systems</span><span class="chip chip--count">2<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b1"><a href="#"><span class="book__name">Accessibility</span><span class="chip chip--count">7<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b3"><a href="#"><span class="book__name">UX design</span><span class="chip chip--count">19<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b4"><a href="#"><span class="book__name">UI design</span><span class="chip chip--count">23<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b5"><a href="#"><span class="book__name">UX research</span><span class="chip chip--count">31<span class="vh"> planned pieces</span></span></a></li>
+      </ul>
+      <p class="shelf__all"><a href="#">All of Design</a> <span class="meta">82 planned</span></p>
+    </section>
+    <section class="shelf" aria-labelledby="shelf-product">
+      <h3 id="shelf-product"><a href="#">Product</a></h3>
+      <p class="shelf__what">Deciding what to build, and getting it built.</p>
+      <ul class="stack">
+        <li class="b2"><a href="#"><span class="book__name">Product strategy</span><span class="chip chip--count">11<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b3"><a href="#"><span class="book__name">Product management</span><span class="chip chip--count">16<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b4"><a href="#"><span class="book__name">Product discovery</span><span class="chip chip--count">24<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b5"><a href="#"><span class="book__name">Project management</span><span class="chip chip--count">33<span class="vh"> planned pieces</span></span></a></li>
+      </ul>
+      <p class="shelf__all"><a href="#">All of Product</a> <span class="meta">84 planned</span></p>
+    </section>
+    <section class="shelf" aria-labelledby="shelf-business">
+      <h3 id="shelf-business"><a href="#">Business</a></h3>
+      <p class="shelf__what">Whether it works: the numbers, the price, the launch and the team.</p>
+      <ul class="stack">
+        <li class="b1"><a href="#"><span class="book__name">Product marketing</span><span class="chip chip--count">5<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b1"><a href="#"><span class="book__name">Leadership and teams</span><span class="chip chip--count">5<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b2"><a href="#"><span class="book__name">Growth and pricing</span><span class="chip chip--count">11<span class="vh"> planned pieces</span></span></a></li>
+        <li class="b4"><a href="#"><span class="book__name">Product metrics</span><span class="chip chip--count">23<span class="vh"> planned pieces</span></span></a></li>
+      </ul>
+      <p class="shelf__all"><a href="#">All of Business</a> <span class="meta">44 planned</span></p>
+    </section>
+  </div>
+  <p class="shelves__note">The numbers are the pieces planned for each topic. The site is still being written, so most shelves are filling up.</p>
+</section>
+
+<!-- 3. Nine pieces, most useful first: ordered by importance, never by date -->
+<section class="picks" aria-labelledby="picks-h">
+  <header class="sec-head">
+    <p class="kicker">Worth your time</p>
+    <h2 id="picks-h">Nine pieces I would hand a colleague</h2>
+    <p>From all three shelves, the most useful first.</p>
+  </header>
+  <ol class="grid">
+    <li class="card"><a href="#"><img src="img/price-before-customers-thumb.png" width="600" height="338" alt="Pixel drawing of banknotes in a window." loading="lazy" decoding="async"><span class="card__row"><span class="n">01</span><span class="chip">Growth and pricing</span></span><h3>How to price a B2B product before your first customer</h3></a></li>
+    <li class="card"><a href="#"><img src="img/roadmap-sales-call-thumb.png" width="600" height="338" alt="Cover with the words The roadmap meets sales and a pixel flag." loading="lazy" decoding="async"><span class="card__row"><span class="n">02</span><span class="chip">Product strategy</span></span><h3>Why most roadmaps break on the first sales call</h3></a></li>
+    <li class="card"><a href="#"><img src="img/dashboard-one-question-thumb.png" width="600" height="338" alt="Illustration of a gauge." loading="lazy" decoding="async"><span class="card__row"><span class="n">03</span><span class="chip">UI design</span></span><h3>Dashboard design starts with one question</h3></a></li>
+    <li class="card"><a href="#"><img src="img/information-architecture-growth-thumb.png" width="600" height="338" alt="A stream of dots gathering into a site tree." loading="lazy" decoding="async"><span class="card__row"><span class="n">04</span><span class="chip">UX design</span></span><h3>Information architecture for a product that keeps growing</h3></a></li>
+    <li class="card"><a href="#"><img src="img/kanban-or-scrum-thumb.png" width="600" height="338" alt="Illustration of a task board inside a loop of arrows." loading="lazy" decoding="async"><span class="card__row"><span class="n">05</span><span class="chip">Project management</span></span><h3>Kanban or Scrum for a team of five</h3></a></li>
+    <li class="card"><a href="#"><img src="img/product-manager-week-thumb.png" width="600" height="338" alt="A glowing light bulb drawn in lines." loading="lazy" decoding="async"><span class="card__row"><span class="n">06</span><span class="chip">Product management</span></span><h3>What a product manager does all week</h3></a></li>
+    <li class="grid__ad"><aside class="ad ad--rect" data-ad="in-feed" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside></li>
+    <li class="card"><a href="#"><img src="img/accessibility-afternoon-thumb.png" width="600" height="338" alt="Four numbered icons on a track: an eye, a cursor, a palette and a tick." loading="lazy" decoding="async"><span class="card__row"><span class="n">07</span><span class="chip">Accessibility</span></span><h3>Four accessibility checks you can run in an afternoon</h3></a></li>
+    <li class="card"><a href="#"><img src="img/design-tokens-thumb.png" width="600" height="338" alt="A stream of dots gathering into a stack of layers." loading="lazy" decoding="async"><span class="card__row"><span class="n">08</span><span class="chip">Design systems</span></span><h3>What a design token is, and why engineers ask for them</h3></a></li>
+    <li class="card"><a href="#"><img src="img/first-product-designer-thumb.png" width="600" height="338" alt="Illustration of a briefcase with a name badge." loading="lazy" decoding="async"><span class="card__row"><span class="n">09</span><span class="chip">Leadership and teams</span></span><h3>Hiring your first product designer</h3></a></li>
+  </ol>
+</section>
+
+<!-- 4. Start here: a short course, five lessons in order, ending by handing the reader to the shelves -->
+<section class="path" aria-labelledby="path-h">
+  <header class="path__intro">
+    <p class="kicker">Start here</p>
+    <h2 id="path-h">New here? Read these five in order</h2>
+    <p>They cover the ground the rest of the site stands on. About half an hour in all, and you can stop after any one.</p>
+  </header>
+  <ol class="lessons">
+    <li><span class="lessons__n" aria-hidden="true">01</span><div><h3><a href="#">What a product team is for</a></h3><p>You leave with the three questions every product decision answers, and who owns each one.</p><p class="meta">6 min &middot; Product management</p></div></li>
+    <li><span class="lessons__n" aria-hidden="true">02</span><div><h3><a href="#">Talk to five users before you write a spec</a></h3><p>You leave with a one-page interview guide and the questions that do most of the work.</p><p class="meta">8 min &middot; UX research</p></div></li>
+    <li><span class="lessons__n" aria-hidden="true">03</span><div><h3><a href="#">Write the problem down in one sentence</a></h3><p>You leave with a test for any problem statement, and three rewrites that pass it.</p><p class="meta">5 min &middot; Product discovery</p></div></li>
+    <li><span class="lessons__n" aria-hidden="true">04</span><div><h3><a href="#">Pick one number and look at it every week</a></h3><p>You leave with a way to choose the number, and a weekly check that takes 10 minutes.</p><p class="meta">7 min &middot; Product metrics</p></div></li>
+    <li><span class="lessons__n" aria-hidden="true">05</span><div><h3><a href="#">Ship the small version first</a></h3><p>You leave with a way to cut a feature down to its first release and keep the point of it.</p><p class="meta">6 min &middot; Product strategy</p></div></li>
+    <li class="lessons__end"><span class="lessons__n" aria-hidden="true"></span><div><p>Then choose a shelf and go deeper. <a href="#shelves">Back to the three shelves</a></p></div></li>
+  </ol>
+</section>
+
+<!-- 5. The author -->
+<section class="byme" aria-labelledby="byme-h">
+  <svg class="avatar" width="96" height="96" viewBox="0 0 64 64" role="img"><title>Photo of [Author Name] (placeholder)</title><circle cx="32" cy="25" r="11" fill="currentColor"/><path d="M11 56c2.5-11 11-17 21-17s18.5 6 21 17Z" fill="currentColor"/></svg>
+  <div class="byme__text">
+    <h2 id="byme-h">Written by [Author Name]</h2>
+    <p>I have worked in product design and product management for fifteen years.</p>
+    <p>Everything on this site comes from that work, and where a piece is my opinion, it says so.</p>
+  </div>
+  <a class="btn btn--ghost" href="#">About the author</a>
+</section>
+
+<!-- 6. Templates and Books. The book covers are drawn placeholders, never real covers. -->
+<div class="shop">
+  <section class="tease" aria-labelledby="tpl-h">
+    <header class="tease__head">
+      <h2 id="tpl-h">Templates</h2>
+      <p>Free to download, each with a worked example beside it.</p>
+    </header>
+    <ul class="tiles">
+      <li><a href="#"><span class="doc" aria-hidden="true"></span><span class="tiles__name">PRD template</span><span class="meta">Docs and Word</span></a></li>
+      <li><a href="#"><span class="doc doc--table" aria-hidden="true"></span><span class="tiles__name">Usability test plan</span><span class="meta">Docs and Word</span></a></li>
+      <li><a href="#"><span class="doc doc--grid" aria-hidden="true"></span><span class="tiles__name">OKR worksheet</span><span class="meta">Sheets and Excel</span></a></li>
+    </ul>
+    <p class="tease__all"><a href="#">All templates</a></p>
+  </section>
+  <section class="tease" aria-labelledby="books-h">
+    <header class="tease__head">
+      <h2 id="books-h">Books</h2>
+      <p>The books I hand to colleagues, with a note on what each one is good for.</p>
+    </header>
+    <ul class="tiles">
+      <li><a href="#"><span class="cover" aria-hidden="true"><span>Research</span></span><span class="tiles__name">Books on user research</span></a></li>
+      <li><a href="#"><span class="cover cover--b" aria-hidden="true"><span>Strategy</span></span><span class="tiles__name">Books on product strategy</span></a></li>
+      <li><a href="#"><span class="cover cover--c" aria-hidden="true"><span>Pricing</span></span><span class="tiles__name">Books on pricing</span></a></li>
+    </ul>
+    <p class="tease__all"><a href="#">The full book list</a></p>
+  </section>
+</div>
+
+<!-- 7. Newsletter: the same in-page box as article A, never a pop-up -->
+<section class="news" id="newsletter" aria-labelledby="news-h">
+  <h2 id="news-h" class="vh">Newsletter</h2>
+  <form data-news>
+    <label for="news-email"><b>One email a month</b> with new articles and templates. Unsubscribe any time.</label>
+    <div class="field"><input id="news-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required><button class="btn" type="submit">Subscribe</button></div>
+    <p class="status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="site-foot__in">
+    <div class="site-foot__brand">
+      <a class="logo" href="#" aria-label="userandproduct home"><img class="l-light" src="../final-logo/svg/lockup-light.svg" alt="userandproduct" width="168" height="21"><img class="l-dark" src="../final-logo/svg/lockup-dark.svg" alt="userandproduct" width="168" height="21"></a>
+      <p>Practical writing on UX, product management and the business decisions between them, from fifteen years of shipping software.</p>
+    </div>
+    <nav aria-label="Domains">
+      <h2>Domains</h2>
+      <ul><li><a href="#">Design</a></li><li><a href="#">Product</a></li><li><a href="#">Business</a></li></ul>
+    </nav>
+    <nav aria-label="Site sections">
+      <h2>Sections</h2>
+      <ul><li><a href="#">Articles</a></li><li><a href="#">Topics</a></li><li><a href="#">Books</a></li><li><a href="#">Links</a></li><li><a href="#">Tools</a></li><li><a href="#">Templates</a></li></ul>
+    </nav>
+    <div class="legal">
+      <span>&copy; 2026 userandproduct</span>
+      <a href="#">About</a><a href="#">Privacy</a><a href="#">Advertising policy</a><a href="#">Contact</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

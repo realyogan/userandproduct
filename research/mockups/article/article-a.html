@@ -174,11 +174,14 @@ grep -rn "TBD" docs/prd/ | sort | tee open-items.txt | wc -l</code></pre>
 
       </div>
     </div>
-    <aside class="rail" aria-label="Advertising">
-      <div class="rail__sticky"><aside class="ad ad--sky" data-ad="rail-unit" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">160 &times; 600</span><span class="sz-1">300 &times; 600 half page</span></div></aside></div>
+    <aside class="rail" aria-label="More to read">
+      <nav class="rail-list" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in Product discovery</h2><ul><li><a href="#">How to run a customer interview without leading the answers</a></li><li><a href="#">A problem statement the whole team can repeat</a></li><li><a href="#">Turning interview notes into choices with an opportunity tree</a></li><li><a href="#">When to stop discovery and start building</a></li></ul></nav>
+      <div class="rail__track"><div class="rail__sticky"><aside class="ad ad--sky" data-ad="rail-unit" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">160 &times; 600</span><span class="sz-1">300 &times; 600 half page</span></div></aside></div></div>
+      <nav class="rail-list rail-list--new" aria-labelledby="rail-new-h"><h2 id="rail-new-h">New on the site</h2><ul><li><a href="#"><span class="rail-chip">UX research</span><span class="rail-t">Card sorting with twelve people and a spreadsheet</span></a></li><li><a href="#"><span class="rail-chip">Roadmaps</span><span class="rail-t">Now, next, later: a roadmap that lasts the quarter</span></a></li><li><a href="#"><span class="rail-chip">Pricing</span><span class="rail-t">How to read a pricing page as a designer</span></a></li></ul></nav>
     </aside>
   </div>
-  <!-- The sticky rails live only inside .layout, so they stop where the body ends. -->
+  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's two lists
+       scroll with the page; only the ad is sticky, inside its own track between them. -->
   <!-- After the body the page uses the full container: template, related, newsletter. No author box (the byline carries the author). -->
   <div class="after">
     <section class="tpl" aria-labelledby="template">

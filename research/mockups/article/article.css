@@ -44,10 +44,7 @@
 .va .top .crumbs+*{margin-top:var(--s5)}
 /* 34px on phones, about 44px at 768, 60px from 1200; two lines like the Tiger Data headline */
 .va .top h1{font-size:clamp(34px,calc(15.6px + 3.7vw),60px);line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
-.chip{display:inline-block;font:500 12px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
-  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
-a.chip:hover{color:var(--signal);border-color:var(--signal)}
-.chip--cat{color:var(--signal);border-color:var(--signal)}
+/* .chip and .chips live in ../mockup.css (shared with the home page) */
 .byrow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--s4) var(--s5);margin-top:var(--s6)!important}
 .by{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2) var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);color:var(--ink)}
 .by .avatar{width:48px;height:48px}
@@ -73,10 +70,6 @@ a.chip:hover{color:var(--signal);border-color:var(--signal)}
 .va .main .hero-fig{margin-top:0}
 .va .main>.deck{margin-top:var(--s5);font-size:19px;line-height:1.55}
 .va .m-only{margin-top:var(--s5)}
-.chips{display:flex;flex-wrap:wrap;gap:var(--s2);list-style:none;margin:0;padding:0}
-.chips a{display:inline-block;font:500 12px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
-  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
-.chips a:hover{color:var(--signal);border-color:var(--signal)}
 .util-btn{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:8px 14px;border:1px solid var(--ad-line);border-radius:4px;
   background:transparent;color:var(--ink);font:500 var(--fs-ui)/1 var(--font-ui);cursor:pointer}
 .util-btn svg{width:18px;height:18px}
@@ -100,13 +93,26 @@ a.chip:hover{color:var(--signal);border-color:var(--signal)}
   .va .main{grid-column:2;grid-row:1;padding-top:var(--s6)}
   .va .m-only,.va .toc-m{display:none}
 }
-/* one rail unit: 160x600 from 1200 to 1439px, 300x600 from 1440px; sticky inside .layout so it stops at the body end */
+/* right rail from 1200px, three blocks: "More in <category>", the rail unit, "New on the site".
+   The rail is as tall as the body. The two lists scroll with the page; the ad's track fills the space between
+   them and only the ad sticks inside it, so it stops above "New on the site", which sits at the body end.
+   Rail unit: 160x600 from 1200 to 1439px, 300x600 from 1440px. */
 @media (min-width:1200px){
   .va .layout{grid-template-columns:240px minmax(0,720px) 160px}
-  .va .rail{display:block;grid-column:3;grid-row:1;padding-top:var(--s6)}
+  .va .rail{display:flex;flex-direction:column;gap:var(--s6);grid-column:3;grid-row:1;padding-top:var(--s6);min-width:0}
   .va .rail .ad{margin:0}
+  .va .rail__track{flex:1 0 auto}
   .va .rail__sticky{position:sticky;top:24px}
 }
+.rail-list h2{font:500 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:0;padding-bottom:var(--s2);border-bottom:1px solid var(--rule)}
+.rail-list ul{list-style:none;margin:0;padding:0}
+.rail-list li{border-bottom:1px solid var(--rule)}
+.rail-list a{display:block;padding:var(--s3) 0;color:var(--ink);text-decoration:none;font:500 14px/1.35 var(--font-ui)}
+.rail-list a:hover{color:var(--signal)}
+.rail-list:not(.rail-list--new) a:hover,.rail-list--new a:hover .rail-t{text-decoration:underline;text-underline-offset:.18em}
+.rail-list--new a{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s2)}
+.rail-chip{font:500 11px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--ad-line);border-radius:4px;padding:5px 7px}
+@media (min-width:1440px){.rail-list a{font-size:15px}}
 @media (min-width:1360px){
   .va{--frame:1440px}
   .va .page{max-width:1440px}

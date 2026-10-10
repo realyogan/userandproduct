@@ -21,6 +21,17 @@ http://localhost/user-and-product/research/mockups/ (index to come).
 - `article/`: page 2, the single article page in three variants (A Sidebar, B Magazine, C Reader) with the ad
   rules they follow: http://localhost/user-and-product/research/mockups/article/. `article/build.py` writes the
   three pages from one copy of the sample article; `article/shots/` holds the 375px thumbnails.
+- `home/`: page 1, the home page mockup: http://localhost/user-and-product/research/mockups/home/. Hand-written
+  `index.html` plus `home.css` (page rules only) on the shared `mockup.css` and `mockup.js`, with article A's header,
+  footer, chips, ad slots and newsletter box. Top to bottom: the promise (the one h1), the desk (the featured piece,
+  the author's margin note beside it, two more), three shelves (each domain a stack of books, one per category, its
+  width set by the planned pieces, with the count in a mono chip and a note that the counts are planned), nine
+  pieces ordered by importance with one labelled in-feed ad, a five-lesson Start-here course that ends by handing the
+  reader back to the shelves, the author strip, Templates and Books teasers (drawn placeholder covers, never real
+  ones), the newsletter box. No dates, no "latest". All titles, decks, reading times, the margin note and the path
+  are made-up samples. `home/build.py` draws the twelve thumbnails into `home/img/` (styles and reasons in
+  `home/img/README.md`); `home/shots/` holds 375px and 1280px screenshots, light and dark. The `.chip` and `.chips`
+  rules moved from `article/article.css` into `mockup.css` so both pages share them.
 - `references/tigerdata/`: screenshots and notes on the Tiger Data article page the owner likes for the single
   article layout: [references/tigerdata/notes.md](references/tigerdata/notes.md).
 - `references/blog-thumbnails/`: the owner's 35 reference thumbnails and the "Thumbnail styles" board, which
@@ -54,7 +65,8 @@ masthead.
 
 ## Page list, in build order
 
-1. Home: masthead, three domains as entry points, latest pieces, author strip, Start here path.
+1. Home: masthead, three domains as entry points, pieces worth reading, author strip, Start here path.
+   Done 10 Oct 2026: [home/index.html](home/index.html) (http://localhost/user-and-product/research/mockups/home/).
 2. Article page: typography, reading width, the template-plus-interview block, author box, related.
    Done 9 Oct 2026, three variants to choose from: [article/index.html](article/index.html)
    (http://localhost/user-and-product/research/mockups/article/).

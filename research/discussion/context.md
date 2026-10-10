@@ -720,3 +720,20 @@ answer up front, real dates, ads never disguised, comments are main content, cus
 noindex not robots.txt for archives, sponsored on affiliate links, snippet controls also govern AI Overviews input,
 FAQPage/HowTo/sitelinks box retired, site name markup on the home page only, no placeholder author image, validate
 live. Check doc appended. Nothing new for the owner to decide.
+Site design phase started (owner, 10 Oct): build the whole site's mockups on article A, one page at a time: home,
+category page, About, terms of service, privacy policy and the other pages, bringing everything together. Home page
+first, being built at research/mockups/home/ on the shared mockup.css, article A's header and footer, the tree's three
+domains and thirteen categories, thumbnails from the generator, copy in the house voice; no dates or "latest" labels;
+newsletter as an in-page box; ad slots within the layout rules.
+Owner (home page): do not copy Tiger Data or any existing site; references set the feel, the layout and section ideas
+must be our own. Passed to the builder mid-run; standing rule for every page from here on.
+Owner (article A, 10 Oct): the right rail is not only ads: three stacked blocks, "More in <category>" (three or four
+titles from the same category) at the top, the ad unit in the middle, "New on the site" (three pieces, chips and
+titles, no dates shown) at the bottom. Being applied through article/build.py in parallel with the home page build.
+Home page mockup built (10 Oct): research/mockups/home/ (http://localhost/user-and-product/research/mockups/home/).
+Masthead with one h1, the desk (featured piece plus the author's margin note and two secondary cards), three shelves
+with thirteen topics drawn as stacked books sized by planned-piece count (original idea), nine pieces numbered by
+importance with one in-feed ad, a five-step Start-here rail, author strip, Templates and Books teasers, newsletter box,
+shared footer. Twelve generated thumbnails across all ten code-drawn styles. .chip and .chips moved into the shared
+mockup.css. Article A's rail rebuilt with "More in <category>", the ad, "New on the site". Owner to review and give
+changes one at a time; noted for review: the lone in-feed ad in the middle column, the uneven stacked shelves.

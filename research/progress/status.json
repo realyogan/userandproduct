@@ -1,32 +1,53 @@
 {
   "version": 1,
-  "run_id": "council-proposal-5",
-  "title": "Council on publishing system proposal 5",
+  "run_id": "home-mockup",
+  "title": "Home page mockup",
   "state": "finished",
-  "started": "2026-10-10T10:28+05:30",
-  "updated": "2026-10-10T10:35+0530",
-  "note": "Council finished: question, advisor responses, peer reviews and verdict saved",
+  "started": "2026-10-10T11:43+05:30",
+  "updated": "2026-10-10T12:40+05:30",
+  "note": "Home page mockup done: http://localhost/user-and-product/research/mockups/home/",
   "steps": [
     {
       "n": 1,
-      "title": "Five advisors answer independently",
+      "title": "Read the system",
       "status": "done",
-      "note": "Five responses saved: advisor-responses.md",
-      "time": "10:30"
+      "note": "Shared CSS and JS, article A, the tree, four skills read",
+      "time": "11:55"
     },
     {
       "n": 2,
-      "title": "Anonymous peer review",
+      "title": "Structure and copy",
       "status": "done",
-      "note": "Five reviews saved: peer-reviews.md",
-      "time": "10:33"
+      "note": "Sections, copy and an own composition planned",
+      "time": "12:05"
     },
     {
       "n": 3,
-      "title": "Chairman's verdict",
+      "title": "Thumbnails",
       "status": "done",
-      "note": "verdict.md saved",
-      "time": "10:35"
+      "note": "12 thumbnails, all ten code styles, every check passed",
+      "time": "12:15"
+    },
+    {
+      "n": 4,
+      "title": "Build and styles",
+      "status": "done",
+      "note": "index.html and home.css written, chips moved to the shared CSS",
+      "time": "12:40"
+    },
+    {
+      "n": 5,
+      "title": "Dark mode and phones",
+      "status": "done",
+      "note": "No horizontal scroll from 375 to 1440, light and dark checked in screenshots",
+      "time": "12:40"
+    },
+    {
+      "n": 6,
+      "title": "Checks and README",
+      "status": "done",
+      "note": "Tags balanced, one h1, no inline styles or external requests, README entry, 200 OK",
+      "time": "12:40"
     }
   ]
 }

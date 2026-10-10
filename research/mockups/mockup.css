@@ -232,6 +232,17 @@ button,input{font:inherit;color:inherit}
 .news input{flex:1;min-width:0;min-height:44px;padding:10px 12px;border:1px solid var(--ad-line);border-radius:var(--radius);background:var(--paper)}
 .news .status{flex-basis:100%;font-size:var(--fs-meta);color:var(--ink-3);min-height:1.4em;margin:0}
 
+/* ---------- Chips (mono labels: category, tags, counts) ----------
+   Moved here from article/article.css on 10 Oct 2026 so the home page shares them. */
+.chip{display:inline-block;font:500 12px/1 var(--mono,var(--font-mono));letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
+a.chip:hover{color:var(--signal);border-color:var(--signal)}
+.chip--cat{color:var(--signal);border-color:var(--signal)}
+.chips{display:flex;flex-wrap:wrap;gap:var(--s2);list-style:none;margin:0;padding:0}
+.chips a{display:inline-block;font:500 12px/1 var(--mono,var(--font-mono));letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);
+  border:1px solid var(--ad-line);border-radius:4px;padding:6px 8px;text-decoration:none}
+.chips a:hover{color:var(--signal);border-color:var(--signal)}
+
 /* ---------- Footer ---------- */
 .site-foot{margin-top:var(--s9);border-top:1px solid var(--rule);background:var(--paper)}
 .site-foot__in{max-width:var(--frame,1280px);margin:0 auto;padding:var(--s7) var(--gutter) var(--s6);display:grid;gap:var(--s6);grid-template-columns:1fr 1fr;font:400 var(--fs-ui)/1.5 var(--font-ui)}

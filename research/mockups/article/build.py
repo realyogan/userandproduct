@@ -471,6 +471,29 @@ ICON_LINK = ('<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><pat
 
 TAGS = '<ul class="chips" aria-label="Tags"><li><a href="#">PRD</a></li><li><a href="#">Discovery</a></li><li><a href="#">Templates</a></li></ul>'
 
+# Right rail, top to bottom: more from the article's category, the rail ad, new pieces. No dates (plain lists).
+CATEGORY = "Product discovery"
+MORE_IN_CAT = [
+    "How to run a customer interview without leading the answers",
+    "A problem statement the whole team can repeat",
+    "Turning interview notes into choices with an opportunity tree",
+    "When to stop discovery and start building",
+]
+NEW_ON_SITE = [
+    ("UX research", "Card sorting with twelve people and a spreadsheet"),
+    ("Roadmaps", "Now, next, later: a roadmap that lasts the quarter"),
+    ("Pricing", "How to read a pricing page as a designer"),
+]
+
+def rail_a():
+    more = "".join(f'<li><a href="#">{t}</a></li>' for t in MORE_IN_CAT)
+    new = "".join(f'<li><a href="#"><span class="rail-chip">{c}</span><span class="rail-t">{t}</span></a></li>' for c, t in NEW_ON_SITE)
+    return f"""<aside class="rail" aria-label="More to read">
+      <nav class="rail-list" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in {CATEGORY}</h2><ul>{more}</ul></nav>
+      <div class="rail__track"><div class="rail__sticky">{ad("sky", "rail-unit")}</div></div>
+      <nav class="rail-list rail-list--new" aria-labelledby="rail-new-h"><h2 id="rail-new-h">New on the site</h2><ul>{new}</ul></nav>
+    </aside>"""
+
 def toc_numbered():
     items = [(sid, h2) for sid, h2, _ in SECTIONS] + [("template", "Get the PRD template")]
     return "".join(f'<li><a href="#{sid}"><span class="n">{i:02d}</span>{h2}</a></li>' for i, (sid, h2) in enumerate(items, 1))
@@ -485,7 +508,7 @@ def variant_a():
 <article>
   <header class="top">
     {crumbs()}
-    <a class="chip chip--cat" href="#">Product discovery</a>
+    <a class="chip chip--cat" href="#">{CATEGORY}</a>
     <h1>{TITLE}</h1>
     <div class="byrow">
       <div class="by">
@@ -520,11 +543,10 @@ def variant_a():
 {body_sections({1: ad("rect", "in-article-1"), 2: ad("side", "in-body-300x250"), 3: ad("rect", "in-article-2")}, figs="frame")}
       </div>
     </div>
-    <aside class="rail" aria-label="Advertising">
-      <div class="rail__sticky">{ad("sky", "rail-unit")}</div>
-    </aside>
+    {rail_a()}
   </div>
-  <!-- The sticky rails live only inside .layout, so they stop where the body ends. -->
+  <!-- The sticky rails live only inside .layout, so they stop where the body ends. The right rail's two lists
+       scroll with the page; only the ad is sticky, inside its own track between them. -->
   <!-- After the body the page uses the full container: template, related, newsletter. No author box (the byline carries the author). -->
   <div class="after">
     {template_block()}
