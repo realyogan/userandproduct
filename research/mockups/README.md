@@ -37,14 +37,18 @@ changes. A later redesign would be `option-2/` beside it.
   social and LinkedIn images), `build_typeboard.py` (builder for the archived type board; it writes into
   `logos/typeboard/`, so it only runs against an unpacked archive).
 - `mockup.css` and `mockup.js`: shared tokens (light, dark via `prefers-color-scheme`, and a `data-theme`
-  override), the type scale, spacing, components, placeholder ad slots, the theme toggle (remembered in
+  override), the type scale, spacing, components, placeholder ad slots (parked 10 Oct 2026: kept in the css, used by no page), the theme toggle (remembered in
   localStorage), the contents highlight and the copy button. Kept here for the other mockup folders (the brand
   sheet, the thumbnail board); `option-1/` carries its own copy.
 - `option-1/`: the site, design option 1: http://localhost/user-and-product/research/mockups/option-1/.
   - `index.html`: the home page (third pass, 10 Oct 2026: one visually hidden h1, the latest twelve under the
-    leaderboard, newest large, in-feed ad in slot six, "All articles", then four section tiles, then the footer).
+    header, newest large, the other eleven in the grid, "All articles", then four section tiles, then the footer).
     Hand-written, on `css/mockup.css` and `css/home.css`.
   - `article.html`: the single article page, variant A (Sidebar), the chosen layout, on `css/article.css`.
+  - Ads are parked (owner, 10 Oct 2026: "remove all the advertisement areas from the markup; we can do that later"):
+    no leaderboard, in-feed, in-body, rail or anchor slot on any page, variants B and C included. The `.ad` and
+    `.anchor` components stay in `css/mockup.css` and `ad()`/`ANCHOR` in `build_article.py`, unused, so they can
+    come back. Article A's right rail now holds the "More in" list alone, sticky, stopping at the body end.
   - `category/index.html`, `sections/` (articles, books, links, tools, templates) and `pages/` (about, privacy,
     advertising, contact): placeholder pages in the shared shell until each page is built.
   - `sitemap.html`: every page with its status (built or placeholder), read from the files.
@@ -66,7 +70,7 @@ changes. A later redesign would be `option-2/` beside it.
     the site. `build_home.py` draws the home thumbnails, `build_images.py` the article hero and Related thumbnails,
     `figures.py` the article figures and rail thumbnails, `explainers.py` the explainer gallery
     (`build/explainers.html`, a research page, not a site page). `shots_home.py` and `shots_article.py` take the
-    screenshots into `shots/` and print the overflow, ads-in-view and ad-density checks (XAMPP must be serving).
+    screenshots into `shots/` and print the overflow, ads-in-view and ad-density checks (the ad counts read zero while ads are parked) (XAMPP must be serving).
     Rebuild: `python placeholders.py`, `python build_article.py`, and the image scripts only when the art changes.
 - `references/tigerdata/`: screenshots and notes on the Tiger Data article page the owner likes for the single
   article layout: [references/tigerdata/notes.md](references/tigerdata/notes.md).

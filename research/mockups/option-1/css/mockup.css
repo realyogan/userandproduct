@@ -271,7 +271,7 @@ a.chip:hover{color:var(--signal);border-color:var(--signal)}
 .site-foot .legal{grid-column:1/-1;padding-top:var(--s4);border-top:1px solid var(--rule);font-size:var(--fs-meta);color:var(--ink-3);display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5)}
 .site-foot .legal a{color:var(--ink-3)}
 
-/* ---------- Ad slots (placeholders) ----------
+/* ---------- Ad slots (placeholders) ---------- PARKED 10 Oct 2026: no page uses these until ads come back.
    Height is reserved up front so nothing shifts when an ad loads.
    A label sits above every unit; the dashed outline and grey fill keep it apart from content. */
 .ad{display:block;margin:var(--s7) auto;width:fit-content;max-width:100%;font-family:var(--font-ui)}

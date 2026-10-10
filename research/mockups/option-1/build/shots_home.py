@@ -4,7 +4,8 @@ Run: python shots_home.py   (from option-1/build/; the page must be served at
 http://localhost/user-and-product/research/mockups/option-1/)
 Writes option-1/shots/home-<width>-<light|dark>.png (full page) for 375 and 1280, then prints:
 horizontal overflow at each width from 375 to 1440, the ad units in each viewport-sized slice of the page,
-and the mobile ad density (ad heights over page height at 375).
+and the mobile ad density (ad heights over page height at 375). Ads are parked (10 Oct 2026), so the ad counts
+read zero until they come back.
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright

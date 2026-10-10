@@ -16,8 +16,9 @@
 <link rel="stylesheet" href="css/home.css">
 <script src="js/mockup.js" defer></script>
 </head>
-<!-- Home page mockup, third pass (10 Oct 2026). No visible masthead: the one h1 is visually hidden. Under the leaderboard
-     is what WordPress makes on its own: the twelve newest posts (a loop, newest first, one in-feed ad after the sixth),
+<!-- Home page mockup, third pass (10 Oct 2026). No visible masthead: the one h1 is visually hidden. Under the header
+     is what WordPress makes on its own: the twelve newest posts (a loop, newest first; ads are parked, so no leaderboard
+     and no in-feed unit),
      then four fixed links to the section pages, then the footer (no newsletter box on the home page). Nothing is picked by hand. The article titles and
      decks are made-up samples. Every card links to article A, the one sample article; the other links go to the
      placeholder pages written by build/placeholders.py. -->
@@ -30,7 +31,6 @@
     <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 14.6A8.5 8.5 0 0 1 9.4 3.7a8.5 8.5 0 1 0 10.9 10.9Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg></button>
   </div>
 </header>
-<aside class="ad ad--leader" data-ad="leaderboard" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">320 &times; 100</span><span class="sz-1">728 &times; 90</span><span class="sz-2">970 &times; 90</span></div></aside>
 <main id="content" class="wrap">
 
 <h1 class="vh">userandproduct: lessons in UX, product and business</h1>
@@ -55,7 +55,6 @@
     <li class="card"><a href="article.html"><img src="img/price-before-customers-thumb.png" width="600" height="338" alt="Pixel drawing of banknotes in a window." loading="lazy" decoding="async"><span class="chip">Growth and pricing</span><h3>How to price a B2B product before your first customer</h3></a></li>
     <li class="card"><a href="article.html"><img src="img/roadmap-sales-call-thumb.png" width="600" height="338" alt="Cover with the words The roadmap meets sales and a pixel flag." loading="lazy" decoding="async"><span class="chip">Product strategy</span><h3>Why most roadmaps break on the first sales call</h3></a></li>
     <li class="card"><a href="article.html"><img src="img/dashboard-one-question-thumb.png" width="600" height="338" alt="Illustration of a gauge." loading="lazy" decoding="async"><span class="chip">UI design</span><h3>Dashboard design starts with one question</h3></a></li>
-    <li class="feed__ad"><aside class="ad ad--side" data-ad="in-feed" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">300 &times; 250</span></div></aside></li>
     <li class="card"><a href="article.html"><img src="img/information-architecture-growth-thumb.png" width="600" height="338" alt="A stream of dots gathering into a site tree." loading="lazy" decoding="async"><span class="chip">UX design</span><h3>Information architecture for a product that keeps growing</h3></a></li>
     <li class="card"><a href="article.html"><img src="img/kanban-or-scrum-thumb.png" width="600" height="338" alt="Illustration of a task board inside a loop of arrows." loading="lazy" decoding="async"><span class="chip">Project management</span><h3>Kanban or Scrum for a team of five</h3></a></li>
     <li class="card"><a href="article.html"><img src="img/product-manager-week-thumb.png" width="600" height="338" alt="A glowing light bulb drawn in lines." loading="lazy" decoding="async"><span class="chip">Product management</span><h3>What a product manager does all week</h3></a></li>

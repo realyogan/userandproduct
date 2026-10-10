@@ -4,8 +4,9 @@ Run: python shots_article.py   (from option-1/build/; the page must be served at
 http://localhost/user-and-product/research/mockups/option-1/article.html)
 Writes option-1/shots/a-<width>x<height>-<light|dark>.png (the top 1200px of the page) for each viewport below and
 prints, per viewport: horizontal overflow, the three column widths, the running-text measure, the lines of the
-longest title in the compact list, the most ad units in one view, whether the sticky rails stop at the body end,
-and the mobile ad density (ad heights over page height at 375).
+longest title in the compact list, the most ad units in one view, whether the sticky rails (the left rail, the right rail's list) stop at the body end,
+and the mobile ad density (ad heights over page height at 375). Ads are parked (10 Oct 2026), so the ad counts
+read zero until they come back.
 """
 import json
 from pathlib import Path
@@ -31,17 +32,17 @@ MEASURE = """() => {
             ? Math.round(document.querySelector('.rail').getBoundingClientRect().top - document.querySelector('.main').getBoundingClientRect().bottom) : null,
           text: w(p), ch: p ? Math.round(p.getBoundingClientRect().width / (parseFloat(getComputedStyle(p).fontSize) * 0.5)) : 0,
           lines, ads, h: document.documentElement.scrollHeight,
-          anchor: getComputedStyle(document.querySelector('.anchor')).display !== 'none' ? 84 : 0,
+          anchor: document.querySelector('.anchor') && getComputedStyle(document.querySelector('.anchor')).display !== 'none' ? 84 : 0,
           railInList: titles.length ? Math.round(titles[0].closest('.rail-list').getBoundingClientRect().width) : 0};
 }"""
 
 # scroll so the body's end sits mid-screen, then check the sticky blocks have not passed it
 STICKY = """() => {
-  const main = document.querySelector('.main'), side = document.querySelector('.side'), ad = document.querySelector('.rail__sticky');
+  const main = document.querySelector('.main'), side = document.querySelector('.side'), list = document.querySelector('.rail-list');
   scrollTo({top: main.getBoundingClientRect().bottom + scrollY - innerHeight / 2, behavior: 'instant'});
   const mb = main.getBoundingClientRect().bottom, out = {};
   if (side && side.offsetParent) out.side = Math.round(side.getBoundingClientRect().bottom - mb);
-  if (ad && ad.offsetParent && getComputedStyle(ad).position === 'sticky') out.ad = Math.round(ad.getBoundingClientRect().bottom - mb);
+  if (list && list.offsetParent && getComputedStyle(list).position === 'sticky') out.list = Math.round(list.getBoundingClientRect().bottom - mb);
   return out;
 }"""
 

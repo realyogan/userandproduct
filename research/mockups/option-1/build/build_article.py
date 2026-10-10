@@ -103,6 +103,8 @@ HERO = f"""<figure class="hero-fig">
     </figure>"""
 
 # ---------------------------------------------------------------- ad slots
+# Parked (owner, 10 Oct 2026: "remove all the advertisement areas; we can do that later"). No variant calls
+# ad() or ANCHOR now; they stay here, with the .ad components in ../css/mockup.css, so the slots can come back.
 # Google allows only "Advertisements" or "Sponsored Links" as the label above an ad unit.
 AD_LABEL = "Advertisements"
 
@@ -458,9 +460,10 @@ ICON_LINK = ('<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><pat
 
 TAGS = '<ul class="chips" aria-label="Tags"><li><a href="#">PRD</a></li><li><a href="#">Discovery</a></li><li><a href="#">Templates</a></li></ul>'
 
-# Right rail, top to bottom: a compact "More in <category>" list (small thumbnail, title at meta size), then the
-# rail ad, which sticks in the space left below the list. No dates. From 1200px it is a fixed 300px column;
-# from 1024 to 1199px the same block sits after the body in the reading column (list beside a 300x250, not sticky).
+# Right rail: a compact "More in <category>" list (small thumbnail, title at meta size), no dates. With the ads
+# parked the list is the rail's only block, and it is sticky itself, inside a rail as tall as the body, so it stops
+# at the body end. From 1200px it is a fixed 300px column; from 1024 to 1199px the list follows the body in the
+# reading column, two items to a row, not sticky.
 # The category shows in the breadcrumb only; there is no category chip above the title.
 CATEGORY = "Product discovery"
 MORE_IN_CAT = [
@@ -477,7 +480,6 @@ def rail_a():
         f'<span class="rail-t">{t}</span></a></li>' for img, t in MORE_IN_CAT)
     return f"""<aside class="rail" aria-label="More to read">
       <nav class="rail-list rail-list--compact" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in {CATEGORY}</h2><ul>{more}</ul></nav>
-      <div class="rail__track"><div class="rail__sticky">{ad("rail", "rail-unit")}</div></div>
     </aside>"""
 
 def toc_numbered():
@@ -485,9 +487,8 @@ def toc_numbered():
     return "".join(f'<li><a href="#{sid}"><span class="n">{i:02d}</span>{h2}</a></li>' for i, (sid, h2) in enumerate(items, 1))
 
 def variant_a():
-    return head("A", "Sidebar") + f"""<body class="va has-anchor">
+    return head("A", "Sidebar") + f"""<body class="va">
 {site_header()}
-{ad("leader", "leaderboard")}
 <div class="page">
 <main id="content">
 <article>
@@ -523,14 +524,14 @@ def variant_a():
       <div class="m-only">{TAGS}</div>
       <details class="toc-m"><summary>Table of contents</summary><nav aria-label="Table of contents (compact)"><ol>{toc_links()}</ol></nav></details>
       <div class="prose">
-{body_sections({1: ad("rect", "in-article-1"), 2: ad("side", "in-body-300x250"), 3: ad("rect", "in-article-2")}, figs="frame")}
+{body_sections({}, figs="frame")}
       </div>
     </div>
     {rail_a()}
   </div>
   <!-- The sticky rails live only inside .layout, so they stop where the body ends. The left rail sticks inside
        .side-col, which spans only the body's row, so it also stops there when the right rail's block follows the body. The right rail's list
-       scrolls with the page; only the ad is sticky, inside its own track below the list. -->
+       is sticky inside the rail, which is as tall as the body, so it stops there too. -->
   <!-- After the body the page uses the full container: template, just published, newsletter. No author box (the byline carries the author). -->
   <div class="after">
     {template_block()}
@@ -541,7 +542,6 @@ def variant_a():
 </main>
 </div>
 {footer()}
-{ANCHOR}
 </body>
 </html>
 """
@@ -551,7 +551,6 @@ def variant_a():
 def variant_b():
     return head("B", "Magazine", preload_serif=True) + f"""<body class="vb">
 {site_header()}
-{ad("leader", "leaderboard")}
 <main id="content">
 <article>
   <header class="hero">
@@ -565,7 +564,7 @@ def variant_b():
   <div class="col">
     <nav class="intoc" aria-labelledby="intoc-h"><h2 id="intoc-h">In this article</h2><ol>{toc_links()}</ol></nav>
     <div class="prose">
-{body_sections({0: ad("rect", "in-article-1"), 2: ad("rect", "in-article-2"), 4: ad("rect", "in-article-3")})}
+{body_sections({})}
     </div>
     {after_article()}
   </div>
@@ -597,9 +596,8 @@ def variant_c():
     {byline()}
     {HERO}
   </header>
-  {ad("rect", "after-deck")}
   <div class="prose">
-{body_sections({2: ad("rect", "in-article-1")})}
+{body_sections({})}
   </div>
   {after_article()}
 </article>

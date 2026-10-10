@@ -917,3 +917,5 @@ Type tweaks committed (10 Oct): tokens --fw-h3 750 (h3, card titles, section nam
 rail titles 600, h1 and h2 stay 700; --tracking-body .03em on paragraphs, lists, decks and captions (.05em read
 spaced out), --tracking-ui .01em on 13 to 15 px interface text; chips left at 500.
 Owner (article byline): remove the avatar; 'By' plus the author name with no brackets (Yogan for now, one constant); all byline parts in one colour, the name one weight bolder. Being applied.
+Byline change committed: avatar removed, AUTHOR_NAME constant (Yogan for now), whole byline in --ink with the name at 600.
+Owner (10 Oct): remove all advertisement areas from the mockups for now (ads parked, can return later). Being applied to option-1 home, article and variants; .ad components kept unused.

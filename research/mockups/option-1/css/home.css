@@ -1,4 +1,5 @@
-/* Home page mockup: page-specific layout only. Tokens, header, footer, chips, buttons and ads come from ../mockup.css. */
+/* Home page mockup: page-specific layout only. Tokens, header, footer, chips and buttons come from ../mockup.css
+   (the parked ad components too). Ads are parked: no leaderboard, no in-feed unit. */
 
 /* phones step the scale down, as on the article page */
 @media (max-width:599px){
@@ -6,12 +7,11 @@
 }
 
 .home{--frame:1280px}
-.home .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
 .wrap{max-width:var(--frame);margin:0 auto;padding:0 var(--gutter)}
 .wrap>section+section{margin-top:var(--s9)}
 @media (max-width:767px){.wrap>section+section{margin-top:var(--s8)}}
 
-/* ---------- 1. Latest articles: right under the leaderboard, the newest large, the next eleven in a grid ---------- */
+/* ---------- 1. Latest articles: right under the header, the newest large, the next eleven in a grid ---------- */
 .lead{margin-top:var(--s6)}
 .lead__link{display:grid;gap:var(--s4);color:var(--ink);text-decoration:none}
 @media (min-width:900px){.lead__link{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);column-gap:var(--s6);align-items:center}}
@@ -20,8 +20,8 @@
 .lead__deck{font:400 var(--fs-lead)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-2);max-width:32em}
 .lead img,.card img{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel)}
 
-/* one column on phones, two from 680px, three from 1100px: each cell stays at least 300px wide, so the
-   300 x 250 in-feed unit fits a cell like a card and every row stays full (11 cards + 1 ad = 12) */
+/* one column on phones, two from 680px, three from 1100px; each cell stays at least 300px wide. With the in-feed
+   ad parked, 11 cards leave the last row short (one card in two columns, two in three): 12 would fill every row. */
 .feed{list-style:none;margin:var(--s7) 0 0;padding:0;display:grid;gap:var(--s7) var(--s5);grid-template-columns:1fr}
 @media (min-width:680px){.feed{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (min-width:1100px){.feed{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:var(--s6)}}
@@ -30,8 +30,6 @@
 @media (max-width:599px){.card h3{font-size:19px}}
 .lead__link:hover .lead__title,.card a:hover h3{color:var(--signal);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.15em}
 .lead__link:focus-visible,.card a:focus-visible{outline:2px solid var(--focus);outline-offset:4px;border-radius:var(--radius)}
-.feed__ad{display:grid;justify-items:center;align-content:start}
-.feed__ad .ad{margin:0 auto}
 .latest__all{margin-top:var(--s7)}
 
 /* ---------- 2. The rest of the site (last block before the footer): four tiles, each a drawn mark, the name in display type, one line, Open ---------- */

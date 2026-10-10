@@ -38,7 +38,6 @@
    ========================================================= */
 .va{--frame:1280px;--mono:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,Menlo,monospace}
 .va .page{max-width:1280px}
-.va .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
 .va .top{padding-top:var(--s6)}
 @media (min-width:1024px){.va .top{padding-top:var(--s7)}}
 .va .top>*+*{margin-top:var(--s4)}
@@ -81,15 +80,11 @@
 .toc--num li a[aria-current]{color:var(--ink);font-weight:600}
 .toc--num li a[aria-current] .n{color:var(--signal)}
 
-/* in-body units: two 336x280 below 1024px; from 1024px one 300x250 between the third and fourth H2 */
-.va [data-ad="in-body-300x250"]{display:none}
-.ad--rail .ad__box{--w:300px;--h:250px}
-/* Content box = min(viewport, 1280 or 1440 from 1360) minus two 40px gutters.
-   1024 to 1199: 240px left rail + 32px + reading column (672 to 720px). The right rail's block follows the body
-   in the reading column: the compact list beside a 300x250, not sticky. */
+/* Ads are parked (10 Oct 2026): no leaderboard, in-body units, rail unit or anchor; the components stay in ../mockup.css.
+   Content box = min(viewport, 1280 or 1440 from 1360) minus two 40px gutters.
+   1024 to 1199: 240px left rail + 32px + reading column (672 to 720px). The right rail's list follows the body
+   in the reading column, two items to a row, not sticky. */
 @media (min-width:1024px){
-  .va [data-ad="in-article-1"],.va [data-ad="in-article-2"]{display:none}
-  .va [data-ad="in-body-300x250"]{display:block}
   .va .layout{grid-template-columns:240px minmax(0,720px);column-gap:32px}
   /* .side-col spans only the body's row, so the sticky rail inside it stops where the body ends */
   .va .side-col{display:block;grid-column:1;grid-row:1;min-width:0}
@@ -97,26 +92,21 @@
     max-height:calc(100vh - 48px);overflow:auto;padding-top:var(--s6)}
   .va .main{grid-column:2;grid-row:1;padding-top:var(--s6)}
   .va .m-only,.va .toc-m{display:none}
-  .va .rail{display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:32px;align-items:start;
-    grid-column:2;grid-row:2;margin-top:var(--s8);min-width:0}
-  .va .rail .ad{margin:0}
+  .va .rail{display:block;grid-column:2;grid-row:2;margin-top:var(--s8);min-width:0}
+  .va .rail-list ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px}
 }
 /* 1200 to 1279: the content box is 1120 to 1199px, and three columns need 200 + 560 + 300 + 2 x 32 = 1124px,
    so the left rail folds into the compact contents above the body and the right rail keeps its full 300px.
-   From 1200px the rail is two blocks: the compact "More in <category>" list, then the 300x600 rail unit.
-   The rail is as tall as the body; the list scrolls with the page, the ad's track fills the rest of the rail
-   and only the ad sticks inside it, so it stops at the body end. */
+   From 1200px the rail holds the compact "More in <category>" list alone. The rail is as tall as the body and the
+   list sticks inside it, so it stops at the body end, as the left rail does. */
 @media (min-width:1200px){
   .va .layout{grid-template-columns:minmax(0,1fr) 300px;column-gap:32px}
   .va .side-col{display:none}
   .va .main{grid-column:1}
   .va .m-only,.va .toc-m{display:block}
-  .va .rail{display:flex;flex-direction:column;gap:var(--s6);grid-column:2;grid-row:1;margin-top:0;padding-top:var(--s6)}
-  .va .rail__track{flex:1 0 auto}
-  .va .rail__sticky{position:sticky;top:24px}
-  .ad--rail .ad__box{--h:600px}
-  .ad--rail .sz-0{display:none}
-  .ad--rail .sz-1{display:block}
+  .va .rail{display:block;grid-column:2;grid-row:1;margin-top:0;padding-top:var(--s6)}
+  .va .rail-list{position:sticky;top:24px}
+  .va .rail-list ul{display:block}
 }
 /* from 1280px: three fluid columns. The right rail is fixed at the ad's 300px; the reading column grows first,
    up to its 720px measure; the left rail takes what is left (200px at 1280, 244px at 1440 and up).
@@ -166,7 +156,6 @@
 .vb{--frame:1280px;--fs-body:20px;--lh-body:1.65}
 @media (max-width:599px){.vb{--fs-body:18px}}
 .vb .site-head{border-bottom:2px solid var(--rule-strong)}
-.vb .ad--leader{margin:var(--s5) auto 0;padding:0 var(--gutter)}
 .vb .hero{max-width:calc(1000px + 2 * var(--gutter));margin:0 auto;padding:var(--s7) var(--gutter) 0}
 .vb .hero h1{font-size:clamp(40px,8vw,84px);line-height:.98;letter-spacing:-.04em;text-wrap:balance}
 .vb .hero .deck{font:400 23px/1.45 var(--font-ui);color:var(--ink-2);max-width:760px;margin-top:var(--s5)}

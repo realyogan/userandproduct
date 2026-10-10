@@ -17,7 +17,7 @@
 <script src="js/mockup.js" defer></script>
 </head>
 <!-- Mockup variant A: Sidebar -->
-<body class="va has-anchor">
+<body class="va">
 <a class="skip" href="#content">Skip to the article</a><header class="site-head">
   <div class="site-head__in">
     <a class="logo" href="index.html" aria-label="userandproduct home"><img class="l-light" src="assets/logo/lockup-light.svg" alt="userandproduct" width="236" height="30"><img class="l-dark" src="assets/logo/lockup-dark.svg" alt="userandproduct" width="236" height="30"></a>
@@ -26,7 +26,6 @@
     <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 14.6A8.5 8.5 0 0 1 9.4 3.7a8.5 8.5 0 1 0 10.9 10.9Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg></button>
   </div>
 </header>
-<aside class="ad ad--leader" data-ad="leaderboard" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">320 &times; 100</span><span class="sz-1">728 &times; 90</span><span class="sz-2">970 &times; 90</span></div></aside>
 <div class="page">
 <main id="content">
 <article>
@@ -91,7 +90,6 @@
 </div>
 <p>Questions 7, 9 and 12 do most of the work. They are the ones skipped most often, and they are the ones engineers ask about in the ticket thread three weeks later, when changing course costs real time.</p>
 
-<aside class="ad ad--rect" data-ad="in-article-1" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside>
 <h2 id="structure">The structure that works</h2>
 <p>Once the answers exist, the document has six parts, always in the same order. Keeping the order fixed matters more than the headings themselves: an engineer who has read one of my PRDs knows where to look in the next one.</p>
 <figure class="fig fig--plain" id="fig-questions">
@@ -104,7 +102,6 @@
 <p>In scope and out of scope are two short lists, side by side if the tool allows it. Each line is short enough to become a ticket title. Out of scope gets as much care as in scope, because it is the list that protects the estimate.</p>
 <p>Flows come next, written as numbered steps with the system's response on each step, then acceptance lines, then open questions. That is the whole document. For a mid-sized feature it runs three to five screens.</p>
 
-<aside class="ad ad--side" data-ad="in-body-300x250" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">300 &times; 250</span></div></aside>
 <h2 id="worked-example">A worked example</h2>
 <p>Here is a short excerpt from a real PRD, with the product details changed. The feature let analysts in a B2B reporting tool save a set of filters and reuse it. The first draft was eleven pages. This version is four screens, and it is the one the team built from.</p>
 <div class="excerpt" role="group" aria-label="Excerpt from the saved filters PRD">
@@ -133,7 +130,6 @@
 <p>Notice what is not in the excerpt: no market sizing, no persona poster, no competitor screenshot. Those existed, in a separate one-page brief for leadership, and the PRD links to it in one line.</p>
 
 
-<aside class="ad ad--rect" data-ad="in-article-2" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside>
 <h2 id="acceptance">Acceptance lines and open questions</h2>
 <h3 id="tester-can-check">Write acceptance lines a tester can check</h3>
 <p>An acceptance line describes something a person can observe, in a given state, after an action. "Saved filters should be easy to use" is a wish. "Applying a saved filter restores every filter exactly as saved, including date ranges" is a line someone can test. I use Given, When, Then when the starting state matters and a plain sentence when it does not. I aim for five to twelve lines per feature; more than that usually means the feature should be split.</p>
@@ -172,12 +168,11 @@ grep -rn "TBD" docs/prd/ | sort | tee open-items.txt | wc -l</code></pre>
     </div>
     <aside class="rail" aria-label="More to read">
       <nav class="rail-list rail-list--compact" aria-labelledby="rail-more-h"><h2 id="rail-more-h">More in Product discovery</h2><ul><li><a href="article.html"><img src="img/thumbs/customer-interview-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">How to run a customer interview without leading the answers</span></a></li><li><a href="article.html"><img src="img/thumbs/problem-statement-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">A problem statement the whole team can repeat</span></a></li><li><a href="article.html"><img src="img/thumbs/opportunity-tree-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">Turning interview notes into choices with an opportunity tree</span></a></li><li><a href="article.html"><img src="img/thumbs/stop-discovery-thumb.png" width="72" height="41" alt="" loading="lazy" decoding="async"><span class="rail-t">When to stop discovery and start building</span></a></li></ul></nav>
-      <div class="rail__track"><div class="rail__sticky"><aside class="ad ad--rail" data-ad="rail-unit" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">300 &times; 250</span><span class="sz-1">300 &times; 600 half page</span></div></aside></div></div>
     </aside>
   </div>
   <!-- The sticky rails live only inside .layout, so they stop where the body ends. The left rail sticks inside
        .side-col, which spans only the body's row, so it also stops there when the right rail's block follows the body. The right rail's list
-       scrolls with the page; only the ad is sticky, inside its own track below the list. -->
+       is sticky inside the rail, which is as tall as the body, so it stops there too. -->
   <!-- After the body the page uses the full container: template, just published, newsletter. No author box (the byline carries the author). -->
   <div class="after">
     <section class="tpl" aria-labelledby="template">
@@ -263,10 +258,5 @@ End the PRD with: "Structured with the PRD interview, userandproduct.com/prd-tem
     <div class="legal"><span>&copy; 2026 userandproduct</span><a href="pages/about.html">About</a><a href="pages/privacy.html">Privacy</a><a href="pages/advertising.html">Advertising policy</a><a href="pages/contact.html">Contact</a></div>
   </div>
 </footer>
-<aside class="anchor" data-ad="anchor" data-anchor data-anchor-until=".tpl" aria-label="Advertisement">
-  <div class="anchor__bar"><span class="ad__label">Advertisements</span>
-  <button class="anchor__toggle" type="button" data-anchor-toggle aria-expanded="true">Hide ad</button></div>
-  <div class="ad__box"><span class="sz-0">320 &times; 50 anchor</span></div>
-</aside>
 </body>
 </html>
