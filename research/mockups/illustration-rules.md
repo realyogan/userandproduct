@@ -57,8 +57,11 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 
 ## Mark
 
-- Our mark (`final-logo/svg/mark-currentcolor.svg`), 34 units square, 32 units in from the bottom and right edges, in
-  the ink at 35% opacity (about 2.1:1 on the tint: visible, quiet, decorative). Never on the diagram.
+- Our mark, the owner's disc from the final pack (`final-logo-2/svg/mark-black.svg`, or `mark-white.svg` if a ground
+  is ever dark enough to need it; on the eight pastel tints it is always the black one), 34 units square, 32 units in
+  from the bottom and right edges, at 35% opacity (about 2.3:1 on the tint: visible, quiet, decorative). Never on the
+  diagram, never in the blue, never recoloured. The head and band are true holes in the pack file, so the generator
+  backs them with the flat tint: the dot grid never runs through the figure.
 
 ## What an illustration is not
 

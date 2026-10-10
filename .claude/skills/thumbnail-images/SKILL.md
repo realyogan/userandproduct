@@ -104,6 +104,14 @@ same wherever the image is shown:
 It is never over the subject, and it is always black or white, never an accent. If no corner is clear,
 move or shrink the subject, never the lockup.
 
+The mark is the owner's: a disc with a head and a curved band cut out of it. In the pack those cut-outs
+are true negative space (`fill-rule="evenodd"`), so whatever is under the mark shows through the figure.
+On a thumbnail the lockup is therefore always a solid variant from the pack: the one-colour
+`lockup-black.svg` or `lockup-white.svg` (disc and wordmark in one colour, never recoloured) or, where the
+mark stands alone, `mark-solid.svg`. Never the hole version over a busy ground: the generator backs the
+head and the band with the flat background colour, so a grid line, dot or particle never runs through the
+figure. Never `lockup-light` or `lockup-dark` (those carry the blue disc and are for pages, not images).
+
 ## The photo style (11)
 
 Only when the owner supplies a photo. Owner's photos first (workshops, whiteboards, sticky notes,
@@ -159,7 +167,8 @@ Say so in your reply. Never force a weak picture to keep the rotation tidy.
 - Gradients, except style 7's soft glow (one bloom, or two in a trio).
 - Clip-art, or mixing icon sets in one image.
 - More than one subject; more than two accents; accent on decoration (except the particle stream) or
-  on the logo; the logo without its wordmark.
+  on the logo; the logo without its wordmark; the blue disc on a thumbnail; grid, dots or grain showing
+  through the mark's head or band.
 - Text over the subject, or baked-in headlines (except style 5), dates or prices.
 
 ## Files and pointers

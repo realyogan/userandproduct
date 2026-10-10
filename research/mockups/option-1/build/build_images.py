@@ -2,11 +2,14 @@
 into option-1/img/ from inline SVG compositions, with resvg. No stock imagery, no text in the art.
 Run: python build_images.py
 """
+import sys
 from pathlib import Path
 import resvg_py
 
 HERE = Path(__file__).resolve().parent   # option-1/build/
 OUT = HERE.parent / "img"
+sys.path.insert(0, str(HERE.parents[1] / "tools"))   # research/mockups/tools/
+from illustration import MARK, MARK_FIGURE, MARK_X0, MARK_SPAN  # noqa: E402  the final-logo-2 mark
 
 THEMES = {
     "light": dict(bg="#FFFFFF", page="#FFFFFF", page2="#F1F1F3", edge="#D9D9DE", ink="#0B0B0C",
@@ -17,10 +20,17 @@ THEMES = {
 
 
 def tile(cx, cy, size, fill, rx=None):
-    """A square turned 45 degrees: the brand mark's tile."""
-    r = rx if rx is not None else size * 0.14
-    return (f'<rect x="{cx - size / 2:.1f}" y="{cy - size / 2:.1f}" width="{size}" height="{size}" rx="{r:.1f}" '
-            f'fill="{fill}" transform="rotate(45 {cx} {cy})"/>')
+    """A small solid disc, the brand mark's outline (the final-logo-2 mark is a disc), used as a bullet."""
+    return f'<circle cx="{cx}" cy="{cy}" r="{size * 0.5:.1f}" fill="{fill}"/>'
+
+
+def brand_mark(cx, cy, d, fill, ground):
+    """The final-logo-2 mark, d units across, centred on (cx, cy). The head and band are true holes in the pack,
+    so they are backed with the flat ground first: nothing behind runs through the figure."""
+    s = d / MARK_SPAN
+    tr = f"translate({cx - d / 2:.1f} {cy - d / 2:.1f}) scale({s:.5f}) translate({-MARK_X0} {-MARK_X0})"
+    return (f'<g transform="{tr}">' + "".join(f'<path fill="{ground}" d="{p}"/>' for p in MARK_FIGURE) + "</g>"
+            f'<g transform="{tr}"><path fill="{fill}" fill-rule="evenodd" d="{MARK}"/></g>')
 
 
 def hero(t):
@@ -44,11 +54,8 @@ def hero(t):
         if key:
             out.append(f'<rect x="418" y="{y - 5}" width="{round(ln * 0.38)}" height="10" rx="5" fill="{c["sig"]}"/>')
         y += 34
-    # the mark's four tiles, large, to the right of the page; one small tile to the left
-    out.append(tile(992, 300, 84, c["sig"]))
-    out.append(tile(1064, 372, 84, c["sig"]))
-    out.append(tile(992, 444, 84, c["sig"]))
-    out.append(tile(920, 372, 46, c["sig"]))
+    # the mark, large, to the right of the page; small discs to the left
+    out.append(brand_mark(1004, 372, 220, c["sig"], c["bg"]))
     out.append(tile(214, 520, 46, c["sig"]))
     out.append(tile(262, 472, 22, c["line"]))
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">{"".join(out)}</svg>'

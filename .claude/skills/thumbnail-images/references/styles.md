@@ -82,7 +82,8 @@ drum), ref-33 (one blue arrow among white lines), ref-01 (one halftone object, n
   from a 2400-wide render. The SVG source is the hero without grain.
 - Grain: monochrome Gaussian noise after the downsample, seed from the slug (sigma 10 on bright flat
   styles, 4 to 7 on others, none on 3, 8 and 11).
-- Brand: the full lockup, mark and wordmark, white or black by contrast at 92%, in the first corner
+- Brand: the full lockup, mark and wordmark (`research/mockups/final-logo-2/svg/lockup-white.svg` or
+  `lockup-black.svg`, the owner's disc mark), white or black by contrast at 92%, in the first corner
   (bottom-right, bottom-left, top-right, top-left) clear of the subject on both sizes. Same share of
   the width on both sizes, about a fifth, so the thumb is the hero at half size and the logo looks the
   same wherever the image is shown (`LOCKUP_PX` in the generator):
@@ -90,6 +91,9 @@ drum), ref-33 (one blue arrow among white lines), ref-01 (one halftone object, n
     x-height (5.9% of the lockup's width) is about 7.8 px (13 px in the file);
   - thumb: 120 px wide (20%, a touch above the hero's share), 20 px in.
   If no corner is clear, `checks.lockup_clear` is false: move or shrink the subject, never the lockup.
+  The mark's head and band are true holes in the pack files, so the lockup is always the solid one-colour
+  variant (or `mark-solid.svg` for a lone mark), and the generator fills the holes with the flat background
+  colour at full opacity under the lockup: no grid line, dot or particle runs through the figure.
 - Subject about 72 units inside the edges.
 
 ## 1. Flat vector, square grid

@@ -1,60 +1,53 @@
 {
   "version": 1,
-  "run_id": "final-logo-2",
-  "title": "Final logo pack 2: the owner's mark in electric blue",
+  "run_id": "logo-rollout",
+  "title": "Logo rollout: every image rule and generator on final-logo-2",
   "state": "finished",
-  "started": "2026-10-10T16:15+05:30",
+  "started": "2026-10-10T16:32+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Masters",
+      "title": "Find references",
       "status": "done",
-      "note": "Masters: mark, dark, black, white, currentColor, solid, from Logo-3/svg/mark.svg",
-      "time": "16:22"
+      "note": "Path references to the old pack: illustration-rules.md (mark), mockups/README.md (history line, kept); inline old marks in illustration.py, make_demos.py, build_images.py",
+      "time": "16:33"
     },
     {
       "n": 2,
-      "title": "Lockups",
+      "title": "Update rules",
       "status": "done",
-      "note": "Lockups: side and stacked in light, dark, black, white; PNGs at 236/472/944 and 400/800",
-      "time": "16:22"
+      "note": "Thumbnail skill: negative-space rule, solid lockups only; illustration rules: final-logo-2 mark-black, 34 units, 35%",
+      "time": "16:34"
     },
     {
       "n": 3,
-      "title": "Favicons and app icons",
+      "title": "Update generators",
       "status": "done",
-      "note": "Favicons 16 to 512, favicon.ico, favicon.svg with dark query, Apple touch, manifest",
-      "time": "16:22"
+      "note": "thumbnail.py backs the figure holes with the flat ground; illustration.py, make_demos.py and build_images.py draw the final-logo-2 mark",
+      "time": "16:36"
     },
     {
       "n": 4,
-      "title": "Social set",
+      "title": "Regenerate thumbnails",
       "status": "done",
-      "note": "Social set: 14 images, electric blue and near-black",
-      "time": "16:22"
+      "note": "23 option-1 thumbnails: 12 home (plus the featured hero), 7 rail, all with only the lockup changed",
+      "time": "16:37"
     },
     {
       "n": 5,
-      "title": "Brand sheet",
+      "title": "Regenerate explainers, galleries and mockups",
       "status": "done",
-      "note": "Brand sheet written on the shared tokens, light and dark",
-      "time": "16:22"
+      "note": "Explainers (12 + 2 figures + 3 figure thumbs), hero art (5), gallery (44 files), demos (4); shots retaken",
+      "time": "16:39"
     },
     {
       "n": 6,
-      "title": "Wire into mockups",
-      "status": "done",
-      "note": "option-1 lockups and favicons replaced at the same names; thumbnail tooling points at final-logo-2",
-      "time": "16:21"
-    },
-    {
-      "n": 7,
       "title": "Checks",
       "status": "done",
-      "note": "All checks passed: masters match the owner's drawing, 15 SVGs under 5 KB, 200s, no broken images, header 236 and footer 168",
-      "time": "16:24"
+      "note": "No old-pack references outside final-logo/, logos/, logo-2/, Logo-3/ and context.md; all pages 200, no broken images",
+      "time": "16:39"
     }
   ],
-  "updated": "2026-10-10T16:24+05:30",
-  "note": "All checks passed: masters match the owner's drawing, 15 SVGs under 5 KB, 200s, no broken images, header 236 and footer 168"
+  "updated": "2026-10-10T16:39+05:30",
+  "note": "No old-pack references outside final-logo/, logos/, logo-2/, Logo-3/ and context.md; all pages 200, no broken images"
 }

@@ -7,7 +7,7 @@ in `thumbs/`, the explainer gallery's `explainers/`) come from `../build/build_i
 ## Home page thumbnails
 
 Made with `research/mockups/tools/thumbnail.py` by `../build/build_home.py` (run `python build_home.py` in `option-1/build/`). The titles are
-made-up samples for the mockup, so the history file was not written. Thumb size, 600 x 338, with the 120 px lockup;
+made-up samples for the mockup, so the history file was not written. Thumb size, 600 x 338, with the 120 px lockup (the final-logo-2 lockup; all thumbnails here were redrawn with it on 10 Oct 2026, same subjects, styles and colours);
 the featured piece also has its 1200 x 675 hero. The same PNGs serve the light and the dark page. Every check passed.
 
 Styles were chosen fit-first (only the styles that suit the piece's kind), then rotated by hand across the page so no

@@ -881,8 +881,18 @@ def brand(size, bg, corner="br"):
     col = brand_color(bg)
     x, y, w, h = brand_box(size, corner)
     vb, inner = _logo(f"lockup-{col}.svg")       # lockup-white.svg is all #FFFFFF, lockup-black.svg all #0B0B0C
-    return (f'<svg x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" viewBox="{" ".join(f"{v:g}" for v in vb)}" '
-            f'opacity="{LOCKUP_O}">{inner}</svg>')
+    # The head and band are true holes in the pack's lockup, so whatever is under them (a grid line, dots, the
+    # particle stream) would run through the figure. Back them with the flat background colour at full opacity,
+    # under the lockup: the figure then reads as clean ground, as on the pack's own one-colour lockups.
+    tr = re.search(r'<g transform="([^"]+)"', inner).group(1)
+    backing = f'<g transform="{tr}">' + "".join(f'<path fill="{bg}" d="{d}"/>' for d in _figure()) + "</g>"
+    return (f'<svg x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" viewBox="{" ".join(f"{v:g}" for v in vb)}">'
+            f'{backing}<g opacity="{LOCKUP_O}">{inner}</g></svg>')
+
+
+def _figure():
+    """The mark's figure (head and band) as the pack draws it filled: the white paths of mark-solid.svg."""
+    return re.findall(r'<path fill="#FFFFFF" d="([^"]+)"', (LOGO / "mark-solid.svg").read_text(encoding="utf-8"))
 
 
 def free_corner(img, bg):

@@ -16,7 +16,7 @@ import resvg_py
 HERE = Path(__file__).resolve().parent
 MOCKUPS = HERE.parents[2]                      # research/mockups
 sys.path.insert(0, str(MOCKUPS / "tools"))
-from illustration import TINTS, INK, CARD, MARK, palette_for  # noqa: E402
+from illustration import TINTS, INK, CARD, MARK, MARK_FIGURE, MARK_X0, MARK_SPAN, palette_for  # noqa: E402
 
 W, H, OUT = 1200, 675, (600, 338)
 SRC = Path(r"C:\xampp\htdocs\Printables\research\mockups\collections-strip\_screens\A1-desktop.png")
@@ -51,11 +51,15 @@ def dots(color, opacity, step=22, r=1.9):
             f'<rect width="{W}" height="{H}" fill="url(#dg)"/>')
 
 
-def mark(color, opacity=0.35, size=34, inset=32):
-    s = size / 102
+def mark(color, opacity=0.35, size=34, inset=32, bg=None):
+    """Our mark (research/mockups/final-logo-2/svg/mark-black.svg geometry), small and quiet in the bottom-right
+    corner. The head and band are true holes; with bg they are backed by the flat ground so no grid runs through."""
+    s = size / MARK_SPAN
     x, y = W - inset - size, H - inset - size
-    return (f'<g transform="translate({x},{y}) scale({s}) translate(1,1)" fill="{color}" fill-opacity="{opacity}">'
-            f'<path d="{MARK}"/></g>')
+    tr = f"translate({x},{y}) scale({s:.6f}) translate({-MARK_X0},{-MARK_X0})"
+    back = (f'<g transform="{tr}">' + "".join(f'<path fill="{bg}" d="{d}"/>' for d in MARK_FIGURE) + "</g>") if bg else ""
+    return back + (f'<g transform="{tr}" fill="{color}" fill-opacity="{opacity}">'
+                   f'<path fill-rule="evenodd" d="{MARK}"/></g>')
 
 
 # ---------- (a) flat vector, hard shadows, grained grid ----------
@@ -93,7 +97,7 @@ def demo_a():
     s += shape("path", CARD, d="M690 360 l0 170 l42 -40 l30 66 l34 -16 l-30 -64 l58 -6 z")  # cursor
     for cx, cy, r in ((235, 170, 16), (1000, 450, 20), (1060, 380, 11)):
         s += f'<path d="M{cx - r} {cy} h{2 * r} M{cx} {cy - r} v{2 * r}" stroke="{INK}" stroke-width="5" stroke-linecap="round"/>'
-    s += mark(INK) + "</svg>"
+    s += mark(INK, bg=bg) + "</svg>"
     finish(render(s), "demo-a-flat-vector.png", grain=11)
 
 
@@ -180,7 +184,7 @@ def demo_b():
     for (x, y) in ((560, 170), (1070, 140), (110, 530), (990, 540)):   # pixel sparks
         for dx, dy in ((0, 0), (-8, -8), (8, -8), (-8, 8), (8, 8)):
             s += px(x + dx, y + dy, INK, 8)
-    s += mark(INK) + "</svg>"
+    s += mark(INK, bg=bg) + "</svg>"
     finish(render(s), "demo-b-pixel-icon.png")
 
 
@@ -212,7 +216,7 @@ def demo_c():
           f'<path d="M{lx2 - 9} {ly + 31} L{lx2} {ly + 16} L{lx2 + 9} {ly + 31}" fill="none" stroke="{acc}" stroke-width="3"/>'
           f'<text x="{(lx1 + lx2) / 2}" y="{ly + 160}" text-anchor="middle" font-family="{MONO}" font-size="24" '
           f'fill="{acc}">what users did</text>')
-    s += mark("#FFFFFF") + "</svg>"
+    s += mark("#FFFFFF", bg=INK) + "</svg>"
     finish(render(s), "demo-c-dark-diagram.png")
 
 
@@ -254,6 +258,9 @@ def demo_d():
                 if k > .03:
                     r = cell * .72 * math.sqrt(k)
                     d.ellipse((x - r, y - r, x + r, y + r), fill=INK)
+    fig = mark("#000000", 0, bg="#000000")         # the figure alone, to back the holes with the flat ground
+    fmsk = render(svg_open() + fig + "</svg>", "RGBA").split()[-1]
+    img.paste(Image.new("RGB", img.size, bg), (0, 0), fmsk)
     msk = render(svg_open() + mark("#000000", 1) + "</svg>", "RGBA").split()[-1]
     img.paste(Image.new("RGB", img.size, INK), (0, 0), msk.point(lambda a: int(a * .35)))
     finish(img, "demo-d-halftone.png")

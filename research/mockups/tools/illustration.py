@@ -24,17 +24,21 @@ Usage:
 import colorsys
 import hashlib
 import math
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 W, H = 1200, 675
-MARK = ("M58.01 2.66 69.42 20.21C71.19 22.94 70.41 26.58 67.68 28.36L50.13 39.76C47.4 41.53 43.76 40.75 41.99 38.03L30.58 20.47"
-        "C28.81 17.74 29.59 14.1 32.32 12.33L49.87 0.93C52.6 -0.85 56.24 -0.07 58.01 2.66ZM41.99 97.34 30.58 79.79C28.81 77.06 29.59 "
-        "73.42 32.32 71.64L49.87 60.24C52.6 58.47 56.24 59.25 58.01 61.97L69.42 79.53C71.19 82.26 70.41 85.9 67.68 87.67L50.13 99.07"
-        "C47.4 100.85 43.76 100.07 41.99 97.34ZM92.39 55.77 79.75 63.98C77.79 65.25 75.16 64.7 73.89 62.73L65.68 50.09C64.41 48.13 "
-        "64.96 45.5 66.93 44.23L79.57 36.02C81.53 34.75 84.15 35.3 85.43 37.27L93.64 49.91C94.91 51.87 94.36 54.5 92.39 55.77ZM7.61 "
-        "44.23 20.25 36.02C22.21 34.75 24.84 35.3 26.11 37.27L34.32 49.91C35.59 51.87 35.04 54.5 33.07 55.77L20.43 63.98C18.47 65.25 "
-        "15.85 64.7 14.57 62.73L6.36 50.09C5.09 48.13 5.64 45.5 7.61 44.23Z")
+# Our mark: the owner's disc from the final pack (research/mockups/final-logo-2/svg/mark-black.svg), read from the
+# file so it never drifts from the pack. One evenodd path on the owner's 1920 canvas; the disc spans 88 to 1832.
+# Its figure (head and band) are the paths filled white in mark-solid.svg.
+_PACK = Path(__file__).resolve().parent.parent / "final-logo-2" / "svg"
+_mb = (_PACK / "mark-black.svg").read_text(encoding="utf-8")
+MARK = re.search(r'<path[^>]*\sd="([^"]+)"', _mb).group(1)
+MARK_BLACK = re.search(r'fill="(#[0-9A-Fa-f]{6})"', _mb).group(1)          # #0B0B0C
+MARK_WHITE = re.search(r'fill="(#[0-9A-Fa-f]{6})"', (_PACK / "mark-white.svg").read_text(encoding="utf-8")).group(1)
+MARK_FIGURE = re.findall(r'<path fill="#FFFFFF" d="([^"]+)"', (_PACK / "mark-solid.svg").read_text(encoding="utf-8"))
+MARK_X0, MARK_SPAN = 88, 1744                                              # the disc's edge and width, pack units
 
 # The eight Printables tints (main.css lines 72 to 79). Nothing else is allowed.
 TINTS = {
@@ -121,7 +125,7 @@ def palette_for(tint):
         lb -= 0.02
         b = _hex(colorsys.hls_to_rgb(h, lb, min(0.75, sat)))
     pal = dict(name=tint, bg=bg, ink=INK, muted=muted, dots=INK, dots_o=DOT_O, box=CARD, box_s=INK, rule=INK,
-               a=a, a_s=INK, b=b, b_s=INK, mark=INK, mark_o=MARK_O)
+               a=a, a_s=INK, b=b, b_s=INK, mark=MARK_BLACK, mark_o=MARK_O)
     for key in ("ink", "muted"):
         if contrast(pal[key], bg) < 4.5:
             raise TintError(f"{key} fails 4.5:1 on {tint}.")
@@ -141,8 +145,8 @@ def report():
     return rows
 
 
-def MARK_INK_ON(p):  # the mark as it renders: ink at 35% over the tint
-    return mix(p["bg"], INK, MARK_O)
+def MARK_INK_ON(p):  # the mark as it renders: the black mark at 35% over the tint
+    return mix(p["bg"], p["mark"], MARK_O)
 
 
 # ---------- drawing ----------
@@ -204,9 +208,13 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
             col = c["muted"] if it.get("muted", True) else c["ink"]
             o.append(f'<text x="{it["x"]}" y="{it["y"]}" font-family="{MONO}" font-size="{it.get("size", NOTE)}" '
                      f'text-anchor="{it.get("anchor", "start")}" fill="{col}">{escape(it["text"])}</text>')
-    s = MARK_SIZE / 102
-    o.append(f'<g transform="translate({width - MARK_INSET - MARK_SIZE} {height - MARK_INSET - MARK_SIZE}) scale({s:.4f}) translate(1 1)" '
-             f'opacity="{c["mark_o"]}"><path fill="{c["mark"]}" d="{MARK}"/></g>')
+    # the mark, bottom-right: the head and band backed with the flat tint first, so the dot grid never runs through
+    # the figure, then the pack's one-colour mark at 35%
+    s = MARK_SIZE / MARK_SPAN
+    tr = (f'translate({width - MARK_INSET - MARK_SIZE} {height - MARK_INSET - MARK_SIZE}) scale({s:.6f}) '
+          f'translate({-MARK_X0} {-MARK_X0})')
+    o.append(f'<g transform="{tr}">' + "".join(f'<path fill="{c["bg"]}" d="{d}"/>' for d in MARK_FIGURE) + '</g>')
+    o.append(f'<g transform="{tr}" opacity="{c["mark_o"]}"><path fill="{c["mark"]}" fill-rule="evenodd" d="{MARK}"/></g>')
     o.append("</svg>")
     return "".join(o)
 

@@ -80,6 +80,15 @@ The logo exploration (rounds 1 to 7, the type board, the hub, the shortlist, the
 themes, the feeling board and the reference logos, with every build script) is archived at
 `research/archive/logo-exploration-2026-10-09.zip` and shared at https://claude.ai/artifact/SzuFfTLWniQDMSeaXGt5oj.
 
+## Images
+
+As of 10 October 2026 every image generator uses the final logo pack in `final-logo-2/` (the owner's disc mark):
+`tools/thumbnail.py` puts the one-colour `lockup-black.svg` or `lockup-white.svg` on every thumbnail and hero, with
+the mark's head and band backed by the flat ground so nothing busy shows through them; `tools/illustration.py` puts
+the small quiet `mark-black.svg` in the corner of every explainer figure; `option-1/build/build_images.py` and
+`references/blog-thumbnails/demo/make_demos.py` draw the same mark. Rules: the thumbnail-images skill
+(`.claude/skills/thumbnail-images/`) and `illustration-rules.md`. The previous pack in `final-logo/` is history only.
+
 ## Page-mockup plan
 
 One HTML file per page type, a shared `mockup.css`, variants side by side when choosing between looks. Use the

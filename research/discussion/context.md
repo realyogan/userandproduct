@@ -860,3 +860,9 @@ Electric blue, flat: #2E5BFF on light, #7DB0FF disc in dark mode, white figure w
 wordmark, lockup geometry as the previous pack. Pack being built at research/mockups/final-logo-2/ and wired into
 option-1 and the thumbnail generator; final-logo stays as the previous pack. Open question for the owner: whether the
 site accent (signal blue #2B46A0 in the tokens) should become electric blue to match the mark.
+Final logo pack 2 built and committed (10 Oct): research/mockups/final-logo-2/ (masters, lockups, favicons and app
+icons with manifest, social set light and dark, brand sheet at research/mockups/final-logo-2/brand-sheet.html); wired
+into option-1 (lockups, favicons, logo aspect ratio in both mockup.css files) and the thumbnail generator (lockup
+source now final-logo-2; a bug fixed where the generator dropped the mark's transform and holes). Still old lockup
+baked into previously generated thumbnails in option-1; regenerate when the accent is decided. Accent question open.
+Owner: update the image generation rules (thumbnails, explainers) to the new logo and regenerate. Rollout running: skills, illustration rules, generators, option-1 images, thumbnail gallery.
