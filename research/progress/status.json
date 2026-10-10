@@ -1,60 +1,67 @@
 {
   "version": 1,
-  "run_id": "tools-research",
-  "title": "Tool opportunities: personas, store, ideas, web scan, ranking",
+  "run_id": "tools-seo",
+  "title": "Tool ideas: paid keyword check",
   "state": "finished",
-  "started": "2026-10-10T22:12+05:30",
+  "started": "2026-10-10T22:31+05:30",
+  "updated": "2026-10-10T22:43+05:30",
+  "note": "Finished: $0.226 spent, balance $19.89; three swaps into the launch ten",
   "steps": [
     {
       "n": 1,
-      "title": "Personas",
+      "title": "Cache check",
       "status": "done",
-      "note": "Fourteen personas listed with their recurring small jobs",
-      "time": "22:12"
+      "note": "Store check: 1 US volume reused (prioritization matrix), 2 page-one results reused (SUS, churn); 198 phrases to measure",
+      "time": "22:32"
     },
     {
       "n": 2,
-      "title": "Keyword store",
+      "title": "US volumes",
       "status": "done",
-      "note": "Store read: 1,592 tool-intent phrases pulled; most calculator phrases have no data yet",
-      "time": "22:12"
+      "note": "US volumes in",
+      "time": "22:33"
     },
     {
       "n": 3,
-      "title": "Ideas",
+      "title": "UK and CA volumes",
       "status": "done",
-      "note": "82 ideas written with persona, job, in and out, repeat use, phrases, build hours, nearest tool",
-      "time": "22:24"
+      "note": "UK and Canada volumes in",
+      "time": "22:33"
     },
     {
       "n": 4,
-      "title": "Web scan",
+      "title": "Difficulty",
       "status": "done",
-      "note": "Web scan: 22 searches, top free tool and page-one shape noted for the twenty most promising",
-      "time": "22:14"
+      "note": "Difficulty: 198 phrases in one task ($0.036)",
+      "time": "22:32"
     },
     {
       "n": 5,
-      "title": "Rank",
+      "title": "Page one",
       "status": "done",
-      "note": "Scored on five marks; launch ten, second ten, folds and parks chosen",
-      "time": "22:24"
+      "note": "Page one: 17 new, 2 reused; AI Overview on 18 of 19",
+      "time": "22:37"
     },
     {
       "n": 6,
-      "title": "Write",
+      "title": "Rescore",
       "status": "done",
-      "note": "Report, CSV, paid-check list and the board written; explainers README updated",
-      "time": "22:25"
+      "note": "Rescored: three swaps into the launch ten (PRD, NPS, survey question checker)",
+      "time": "22:40"
     },
     {
       "n": 7,
+      "title": "Write",
+      "status": "done",
+      "note": "Summary, opportunities file and board written",
+      "time": "22:43"
+    },
+    {
+      "n": 8,
       "title": "Finished",
       "status": "done",
-      "note": "Finished: 82 ideas, launch ten chosen, paid check 199 phrases about $0.23",
-      "time": "22:25"
+      "note": "Finished: $0.226 spent, balance $19.89; three swaps into the launch ten",
+      "time": "22:43"
     }
-  ],
-  "note": "Finished: 82 ideas, launch ten chosen, paid check 199 phrases about $0.23",
-  "updated": "2026-10-10T22:25+05:30"
+  ]
 }

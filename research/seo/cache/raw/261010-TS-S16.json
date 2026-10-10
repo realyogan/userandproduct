@@ -1,0 +1,553 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0139 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-5b42ba2a3e22",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0097 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-5b42ba2a3e22"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "usability test sample size",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "usability test sample size",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "usability test sample size",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=usability%20test%20sample%20size&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:47 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 127,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "uxarmy.com",
+       "title": "Are 5 Participants Enough For Usability Testing?",
+       "url": "https://uxarmy.com/blog/usability-testing-are-5-participants-enough/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://uxarmy.com \u203a Resources \u203a Blog \u203a Usability Testing",
+       "website_name": "UXArmy",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 20, 2026 \u2014 the sample size for unmoderated remote usability testing must be 5 \u2013 8% larger than the same study when conducted under supervision.",
+       "pre_snippet": "05/20/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "must be 5 \u2013 8% larger than the same study"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-05-20 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.userinterviews.com",
+       "title": "How Many Participants Do You Need for a Usability Study?",
+       "url": "https://www.userinterviews.com/blog/how-many-participants-do-you-need-for-a-usability-study",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.userinterviews.com \u203a blog \u203a how-many-pa...",
+       "website_name": "User Interviews",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Feb 15, 2022 \u2014 Nielsen Norman Group says 40 participants is usually appropriate, with some exceptions.) TL;DR\u2014you're probably set with 5\u201310 participants. For\u00a0...",
+       "pre_snippet": "02/15/2022 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-02-15 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "dl.acm.org",
+       "title": "Sample sizes for usability tests",
+       "url": "https://dl.acm.org/doi/pdf/10.1145/1167948.1167973",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dl.acm.org \u203a doi \u203a pdf",
+       "website_name": "ACM Digital Library",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "by JR Lewis \u00b7 2006 \u00b7 Cited by 166 \u2014 WHY DO WE KEEP TALKING about appropriate sample sizes for usability tests? Perhaps the most important factor is the economics of usability testing. Read more",
+       "pre_snippet": "by JR Lewis \u00b7 2006 \u00b7 Cited by 166",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "appropriate sample sizes for usability tests"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://dl.acm.org/doi/pdf/10.1145/1167948.1167973#:~:text=WHY%20DO%20WE%20KEEP%20TALKING,the%20economics%20of%20usability%20testing.",
+         "domain": "dl.acm.org"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "www.useberry.com",
+       "title": "How to find the right sample size for Qualitative Usability ...",
+       "url": "https://www.useberry.com/blog/sample-size-for-qualitative-usability-testing/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.useberry.com \u203a blog \u203a sample-size-for-qua...",
+       "website_name": "Useberry",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 25, 2021 \u2014 The most known rule \u00b7 With 5 users you can observe 85% of the usability problems that have a probability of occurrence greater than 31% per user. Read more",
+       "pre_snippet": "10/25/2021 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "usability"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.useberry.com/blog/sample-size-for-qualitative-usability-testing/#:~:text=The%20most%20known%20rule&text=With%205%20users%20you%20can,greater%20than%2031%25%20per%20user",
+         "domain": "www.useberry.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-10-25 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "What is and is not user testing? What is an acceptable ...",
+       "url": "https://www.reddit.com/r/userexperience/comments/8ept4q/what_is_and_is_not_user_testing_what_is_an/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "20+ comments  \u00b7  8 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/userexperience",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The general advice is to have 5 users for a usability study, Usability testing = 5 to 7 people. More than that doesn't work for one design\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Usability testing = 5 to 7 people"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "ux.stackexchange.com",
+       "title": "What to report when conducting a usability testing ...",
+       "url": "https://ux.stackexchange.com/questions/143297/what-to-report-when-conducting-a-usability-testing-with-a-small-sample-5-partic",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ux.stackexchange.com \u203a questions \u203a what-to-rep...",
+       "website_name": "User Experience Stack Exchange",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 5, 2022 \u2014 We are going to conduct a usability testing with a small sample (5 participants) as part of an iterative design process meaning we understand that the ...",
+       "pre_snippet": "05/05/2022 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "4 answers",
+         "description": null,
+         "url": "https://ux.stackexchange.com/a/143298",
+         "domain": "ux.stackexchange.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-05-05 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "Is 10,000 a good sample size?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the steps involved in the usability testing process?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is a SUS score of 68 considered good?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the 30 sample size rule?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "www.loop11.com",
+       "title": "How many participants should be used for online ...",
+       "url": "https://www.loop11.com/how-many-participants/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.loop11.com \u203a how-many-participants",
+       "website_name": "Loop 11",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Qualitative usability testing has traditionally been based around small sample sizes of 5-20 participants.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "small sample sizes of 5-20 participants"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "www.nngroup.com",
+       "title": "How Many Participants for a UX Interview?",
+       "url": "https://www.nngroup.com/articles/interview-sample-size/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.nngroup.com \u203a interview-sample-size",
+       "website_name": "Nielsen Norman Group",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 31, 2021 \u2014 the sample size ranged from as little as 1 to as many as 95. Although the median sample was 31, the standard deviation was large: 18.7. These\u00a0...",
+       "pre_snippet": "10/31/2021 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "sample size",
+        "sample"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Common Misconceptions",
+         "description": null,
+         "url": "https://www.nngroup.com/articles/interview-sample-size/#toc-common-misconceptions-1",
+         "domain": "www.nngroup.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Saturation",
+         "description": null,
+         "url": "https://www.nngroup.com/articles/interview-sample-size/#toc-saturation-2",
+         "domain": "www.nngroup.com"
+        },
+        {
+         "type": "link_element",
+         "title": "Start Small and Analyze as...",
+         "description": null,
+         "url": "https://www.nngroup.com/articles/interview-sample-size/#toc-start-small-and-analyze-as-you-go-3",
+         "domain": "www.nngroup.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2021-10-31 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "hal.science",
+       "title": "The Optimal Sample Size for Usability Testing, From the ...",
+       "url": "https://hal.science/hal-03778112v1/document",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://hal.science \u203a document",
+       "website_name": "Archive ouverte HAL",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 22, 2024 \u2014 However, the methods currently used to determine the sample size for a usability test have major statistical limitations and lack a clear\u00a0... Read more",
+       "pre_snippet": "07/22/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "sample size",
+        "usability test"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://hal.science/hal-03778112v1/document#:~:text=However%2C%20the%20methods%20currently%20used,lack%20a%20clear%20decision-making%20perspective.",
+         "domain": "hal.science"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-07-22 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Google Scholar",
+        "Nielsen J 2000 Why You only need to test with 5 users Nielsen Norman Group",
+        "5 participants in qualitative research"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,506 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0154 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-c31711ac09ff",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0103 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-c31711ac09ff"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "okr checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "okr checker",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "okr checker",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=okr%20checker&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:46 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video"
+     ],
+     "se_results_count": 51,
+     "pages_count": 1,
+     "items_count": 11,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.profit.co",
+       "title": "test blog | Best OKR Software by Profit.co",
+       "url": "https://www.profit.co/uncategorized/test-blog/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.profit.co \u203a uncategorized \u203a test-blog",
+       "website_name": "profit.co",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Learn the craft from certified experts OKR Certification OKR University. Trust our OKR Software Get Started. Teams closest to execution often have the most\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn the craft from certified experts"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "Are OKRs KPIs?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What should an OKR look like?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Do companies still use OKRs?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is OKR tool?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "How to Measure the Success of Your OKRs",
+       "url": "https://www.linkedin.com/pulse/how-measure-success-your-okrs-jeff-gothelf-mig1e",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ reactions  \u00b7  1 year ago",
+       "website_name": "LinkedIn\u00a0\u00b7\u00a0Jeff Gothelf",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Option 1: Is the OKR adoption taking hold? We wanted to measure whether OKRs were actually being written and used. measuring the creation and\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "OKR",
+        "OKRs"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+       "domain": "www.polly.ai",
+       "title": "OKR Evaluation - Polly",
+       "url": "https://www.polly.ai/template/okr-evaluation",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.polly.ai \u203a template \u203a okr-evaluation",
+       "website_name": "polly.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Evaluate the effectiveness of your Objectives and Key Results (OKRs) process. The feedback will help in understanding how well OKRs are set, tracked,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Evaluate the effectiveness of your Objectives and Key Results (OKRs) process"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.polly.ai/template/okr-evaluation#:~:text=Evaluate%20the%20effectiveness%20of%20your,with%20team%20and%20company%20goals.",
+         "domain": "www.polly.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+       "domain": "datalligence.ai",
+       "title": "OKR Tracking: How to Set and Monitor Your Goals Effectively",
+       "url": "https://datalligence.ai/blogs/okr-tracking-progress/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://datalligence.ai \u203a Blogs",
+       "website_name": "Datalligence",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 2, 2025 \u2014 Learn how to set and do OKR tracking effectively with OKR software for seamless progress monitoring to drive growth.",
+       "pre_snippet": "04/02/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn how to set and do OKR tracking"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-04-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+       "domain": "www.forcerank.it",
+       "title": "OKR Ranking & Prioritization Tool",
+       "url": "https://www.forcerank.it/use-cases/okr-ranking",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.forcerank.it \u203a use-cases \u203a okr-ranking",
+       "website_name": "ForceRank",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "ForceRank calculates the optimal group ranking using the Schulze method, showing you which OKRs the team truly prioritizes and where there is disagreement.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "ForceRank calculates the optimal group ranking"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+       "domain": "www.capterra.com",
+       "title": "Best OKR Progress Tracking Software",
+       "url": "https://www.capterra.com/okr-software/features/progress-tracking/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.capterra.com \u203a OKR Software",
+       "website_name": "Capterra",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Weekdone is the market leader in OKR software since 2013. It uses OKR methodology to help businesses focus on getting real results.Learn more about Weekdone. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Weekdone is the market leader in OKR software"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.capterra.com/okr-software/features/progress-tracking/#:~:text=Weekdone%20is%20the%20market%20leader,real%20results.Learn%20more%20about%20Weekdone",
+         "domain": "www.capterra.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 ThriveSparrow",
+         "title": "Best OKR Software 2026: Top 5 Tools for Goal Tracking",
+         "timestamp": "2026-05-03 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=4HURpxfcbrE"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Oboard OKR Software",
+         "title": "OKR Check-in | OKR Accelerator",
+         "timestamp": "2024-10-12 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=Zni0nXVvLPo"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 OKR Quickstart",
+         "title": "Make Your Weekly OKR Check-Ins Actually Work",
+         "timestamp": "2025-07-03 00:00:00 +00:00",
+         "url": "https://www.youtube.com/shorts/b2V32rXWCQY"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]",
+       "domain": "vindaris.com",
+       "title": "Best OKR software in 2026 (and the one that grows with you)",
+       "url": "https://vindaris.com/blog/best-okr-software",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://vindaris.com \u203a Blog",
+       "website_name": "vindaris.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 12, 2026 \u2014 OKR software runs the objectives-and-key-results cadence: write objectives, attach measurable key results, and track progress on a rhythm. Read more",
+       "pre_snippet": "08/12/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "OKR software"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://vindaris.com/blog/best-okr-software#:~:text=OKR%20software%20runs%20the%20objectives-and-key-results,track%20progress%20on%20a%20rhythm.",
+         "domain": "vindaris.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-12 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "Top OKR Scoring Methods: How Teams Measure Progress ...",
+       "url": "https://medium.com/@synergitasoftware/top-okr-scoring-methods-how-teams-measure-progress-effectively-0cc8071fc727",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "7 months ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Synergita",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "OKR scoring provides a structured way to measure how well objectives and key results have been achieved.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "OKR"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

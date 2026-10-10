@@ -1,0 +1,792 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0150 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-024ce3b8d8a4",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0106 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-024ce3b8d8a4"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "customer lifetime value calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "customer lifetime value calculator",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "customer lifetime value calculator",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=customer%20lifetime%20value%20calculator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:56 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 117,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "Customer Lifetime Value (CLV or LTV) is `the total net profit or revenue a business expects to earn from a customer throughout their entire relationship`.[[1]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)[[2]](https://www.productlift.dev/clv-calculator/)[[3]](https://www.flowlu.com/tools/clv-calculator/)\n\nCLV=Average Purchase Value\u00d7Purchase Frequency\u00d7Customer Lifespan\u00d7Profit Margin CLV equals Average Purchase Value cross Purchase Frequency cross Customer Lifespan cross Profit Margin C L V=A v e r a g e P u r c h a s e V a l u e\u00d7P u r c h a s e F r e q u e n c y\u00d7C u s t o m e r L i f e s p a n\u00d7P r o f i t M a r g i n\n\n- **Average Purchase Value:** Total revenue divided by the total number of purchases.\n- **Purchase Frequency:** Average number of purchases a customer makes per year.\n- **Customer Lifespan:** How many years (or months) a typical customer stays with your business.\n- **Profit Margin:** The share of revenue that remains as profit after costs.[[1]](https://www.productlift.dev/clv-calculator/)[[2]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)\n\n\n\n---\n\n### Alternative Formula (Using Churn Rate)\n\nFor subscription or SaaS businesses, CLV is often calculated using monthly or annual churn (the rate at which customers cancel):[[1]](https://www.youtube.com/watch?v=NPNoEqR70W0)[[2]](https://usermaven.com/free-tools/clv-calculator)\n\nCLV=Average Revenue Per Account (ARPA)\u00d7Gross Margin %Churn Rate %CLV equals the fraction with numerator Average Revenue Per Account (ARPA) cross Gross Margin % and denominator Churn Rate % end-fraction C L V=A v e r a g e R e v e n u e P e r A c c o u n t(A R P A)\u00d7G r o s s M a r g i n%C h u r n R a t e%\n\n---\n\n### Free Online CLV Calculators\nYou can compute your metrics quickly using these free online tools:\n\n- Use the [Yotpo CLV Calculator](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/) for standard e-commerce transaction data.\n- Use the [Usermaven CLV Calculator](https://usermaven.com/free-tools/clv-calculator) for subscription-based or monthly churn metrics.\n- Use the [Flowlu CLV Calculator](https://www.flowlu.com/tools/clv-calculator/) to factor in Customer Acquisition Cost (CAC).[[1]](https://www.flowlu.com/tools/clv-calculator/)[[2]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)[[3]](https://usermaven.com/free-tools/clv-calculator)\n\nIf you want to run a calculation right now, tell me:\n\n- Your **average order/purchase value** \n- How many **times per year** a customer buys\n- Your **gross profit margin (%)** and **customer lifespan** \n\nI can calculate your exact CLV for you.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Customer Lifetime Value (CLV or LTV) is the total net profit or revenue a business expects to earn from a customer throughout their entire relationship.",
+         "markdown": "Customer Lifetime Value (CLV or LTV) is `the total net profit or revenue a business expects to earn from a customer throughout their entire relationship`.[[1]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)[[2]](https://www.productlift.dev/clv-calculator/)[[3]](https://www.flowlu.com/tools/clv-calculator/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Yotpo",
+           "domain": "www.yotpo.com",
+           "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+           "title": "Customer Lifetime Value (CLV) Calculator",
+           "text": "How the CLV Calculator Works * Step 1 \u2013 Enter your average purchase value \u2014 the typical amount a customer spends in a single trans..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "ProductLift",
+           "domain": "www.productlift.dev",
+           "url": "https://www.productlift.dev/clv-calculator/",
+           "title": "CLV Calculator - Calculate Your Customer Lifetime Value - ProductLift",
+           "text": "Customer Lifetime Value (CLV) is a prediction of the net profit attributed to the entire future relationship with a customer. It h..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Flowlu",
+           "domain": "www.flowlu.com",
+           "url": "https://www.flowlu.com/tools/clv-calculator/",
+           "title": "Free Customer Lifetime Value (CLV) Calculator",
+           "text": "Understanding the CLV-to-CAC Ratio * What is Customer Lifetime Value (CLV)? Customer Lifetime Value, or CLV, is the total profit y..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "CLV = Average Purchase Value \u00d7 Purchase Frequency \u00d7 Customer Lifespan \u00d7 Profit Margin CLV equals Average Purchase Value cross Purchase Frequency cross Customer Lifespan cross Profit Margin C L V = A v e r a g e P u r c h a s e V a l u e \u00d7 P u r c h a s e F r e q u e n c y \u00d7 C u s t o m e r L i f e s p a n \u00d7 P r o f i t M a r g i n",
+         "markdown": "CLV=Average Purchase Value\u00d7Purchase Frequency\u00d7Customer Lifespan\u00d7Profit Margin CLV equals Average Purchase Value cross Purchase Frequency cross Customer Lifespan cross Profit Margin C L V=A v e r a g e P u r c h a s e V a l u e\u00d7P u r c h a s e F r e q u e n c y\u00d7C u s t o m e r L i f e s p a n\u00d7P r o f i t M a r g i n",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Average Purchase Value: Total revenue divided by the total number of purchases. Purchase Frequency: Average number of purchases a customer makes per year. Customer Lifespan: How many years (or months) a typical customer stays with your business. Profit Margin: The share of revenue that remains as profit after costs.",
+         "markdown": "- **Average Purchase Value:** Total revenue divided by the total number of purchases.\n- **Purchase Frequency:** Average number of purchases a customer makes per year.\n- **Customer Lifespan:** How many years (or months) a typical customer stays with your business.\n- **Profit Margin:** The share of revenue that remains as profit after costs.[[1]](https://www.productlift.dev/clv-calculator/)[[2]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "ProductLift",
+           "domain": "www.productlift.dev",
+           "url": "https://www.productlift.dev/clv-calculator/",
+           "title": "CLV Calculator - Calculate Your Customer Lifetime Value - ProductLift",
+           "text": "Customer Lifetime Value (CLV) is a prediction of the net profit attributed to the entire future relationship with a customer. It h..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Yotpo",
+           "domain": "www.yotpo.com",
+           "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+           "title": "Customer Lifetime Value (CLV) Calculator",
+           "text": "How the CLV Calculator Works * Step 1 \u2013 Enter your average purchase value \u2014 the typical amount a customer spends in a single trans..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Alternative Formula (Using Churn Rate)",
+         "markdown": "### Alternative Formula (Using Churn Rate)",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "For subscription or SaaS businesses, CLV is often calculated using monthly or annual churn (the rate at which customers cancel) :",
+         "markdown": "For subscription or SaaS businesses, CLV is often calculated using monthly or annual churn (the rate at which customers cancel):[[1]](https://www.youtube.com/watch?v=NPNoEqR70W0)[[2]](https://usermaven.com/free-tools/clv-calculator)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=NPNoEqR70W0",
+           "title": "What is Customer Lifetime Value and how to calculate it? | Chargebee",
+           "text": "it's usually expressed as a percentage of total revenue the average customer contract duration is the average value of how long yo..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Usermaven",
+           "domain": "usermaven.com",
+           "url": "https://usermaven.com/free-tools/clv-calculator",
+           "title": "Free customer lifetime value (CLV) calculator",
+           "text": "Steps to calculate CLV Your gross margin percentage reflects the portion of revenue retained as profit. Enter your churn rate. The..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "CLV = Average Revenue Per Account (ARPA) \u00d7 Gross Margin % Churn Rate % CLV equals the fraction with numerator Average Revenue Per Account (ARPA) cross Gross Margin % and denominator Churn Rate % end-fraction C L V = A v e r a g e R e v e n u e P e r A c c o u n t ( A R P A ) \u00d7 G r o s s M a r g i n % C h u r n R a t e %",
+         "markdown": "CLV=Average Revenue Per Account (ARPA)\u00d7Gross Margin %Churn Rate %CLV equals the fraction with numerator Average Revenue Per Account (ARPA) cross Gross Margin % and denominator Churn Rate % end-fraction C L V=A v e r a g e R e v e n u e P e r A c c o u n t(A R P A)\u00d7G r o s s M a r g i n%C h u r n R a t e%",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Free Online CLV Calculators",
+         "markdown": "### Free Online CLV Calculators",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "You can compute your metrics quickly using these free online tools:",
+         "markdown": "You can compute your metrics quickly using these free online tools:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Use the Yotpo CLV Calculator for standard e-commerce transaction data. Use the Usermaven CLV Calculator for subscription-based or monthly churn metrics. Use the Flowlu CLV Calculator to factor in Customer Acquisition Cost (CAC).",
+         "markdown": "- Use the [Yotpo CLV Calculator](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/) for standard e-commerce transaction data.\n- Use the [Usermaven CLV Calculator](https://usermaven.com/free-tools/clv-calculator) for subscription-based or monthly churn metrics.\n- Use the [Flowlu CLV Calculator](https://www.flowlu.com/tools/clv-calculator/) to factor in Customer Acquisition Cost (CAC).[[1]](https://www.flowlu.com/tools/clv-calculator/)[[2]](https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/)[[3]](https://usermaven.com/free-tools/clv-calculator)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Yotpo CLV Calculator",
+           "description": null,
+           "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+           "domain": "www.yotpo.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Usermaven CLV Calculator",
+           "description": null,
+           "url": "https://usermaven.com/free-tools/clv-calculator",
+           "domain": "usermaven.com"
+          },
+          {
+           "type": "link_element",
+           "title": "Flowlu CLV Calculator",
+           "description": null,
+           "url": "https://www.flowlu.com/tools/clv-calculator/",
+           "domain": "www.flowlu.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Flowlu",
+           "domain": "www.flowlu.com",
+           "url": "https://www.flowlu.com/tools/clv-calculator/",
+           "title": "Free Customer Lifetime Value (CLV) Calculator",
+           "text": "Understanding the CLV-to-CAC Ratio * What is Customer Lifetime Value (CLV)? Customer Lifetime Value, or CLV, is the total profit y..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Yotpo",
+           "domain": "www.yotpo.com",
+           "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+           "title": "Customer Lifetime Value (CLV) Calculator",
+           "text": "How the CLV Calculator Works * Step 1 \u2013 Enter your average purchase value \u2014 the typical amount a customer spends in a single trans..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Usermaven",
+           "domain": "usermaven.com",
+           "url": "https://usermaven.com/free-tools/clv-calculator",
+           "title": "Free customer lifetime value (CLV) calculator",
+           "text": "Steps to calculate CLV Your gross margin percentage reflects the portion of revenue retained as profit. Enter your churn rate. The..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want to run a calculation right now, tell me:Your average order/purchase value\nHow many times per year a customer buys\nYour gross profit margin (%) and customer lifespan\nI can calculate your exact CLV for you.",
+         "markdown": "If you want to run a calculation right now, tell me:\n\n- Your **average order/purchase value** \n- How many **times per year** a customer buys\n- Your **gross profit margin (%)** and **customer lifespan** \n\nI can calculate your exact CLV for you.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Yotpo",
+         "domain": "www.yotpo.com",
+         "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+         "title": "Customer Lifetime Value (CLV) Calculator",
+         "text": "How the CLV Calculator Works * Step 1 \u2013 Enter your average purchase value \u2014 the typical amount a customer spends in a single trans..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Flowlu",
+         "domain": "www.flowlu.com",
+         "url": "https://www.flowlu.com/tools/clv-calculator/",
+         "title": "Free Customer Lifetime Value (CLV) Calculator",
+         "text": "Understanding the CLV-to-CAC Ratio * What is Customer Lifetime Value (CLV)? Customer Lifetime Value, or CLV, is the total profit y..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=NPNoEqR70W0",
+         "title": "What is Customer Lifetime Value and how to calculate it? | Chargebee",
+         "text": "it's usually expressed as a percentage of total revenue the average customer contract duration is the average value of how long yo..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "ProductLift",
+         "domain": "www.productlift.dev",
+         "url": "https://www.productlift.dev/clv-calculator/",
+         "title": "CLV Calculator - Calculate Your Customer Lifetime Value - ProductLift",
+         "text": "Customer Lifetime Value (CLV) is a prediction of the net profit attributed to the entire future relationship with a customer. It h..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Usermaven",
+         "domain": "usermaven.com",
+         "url": "https://usermaven.com/free-tools/clv-calculator",
+         "title": "Free customer lifetime value (CLV) calculator",
+         "text": "Steps to calculate CLV Your gross margin percentage reflects the portion of revenue retained as profit. Enter your churn rate. The..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.wallstreetprep.com",
+       "title": "Customer Lifetime Value (CLV) | Formula + Calculator",
+       "url": "https://www.wallstreetprep.com/knowledge/lifetime-value-ltv/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.wallstreetprep.com \u203a knowledge \u203a lifetime-...",
+       "website_name": "Wall Street Prep",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Customer Lifetime Value (CLV ) = (ARPA \u00d7 Gross Margin) \u00f7 Churn Rate The as needed.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Customer Lifetime Value (CLV"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "What is Customer Lifetime...",
+         "description": null,
+         "url": "https://www.wallstreetprep.com/knowledge/lifetime-value-ltv/#h2_1",
+         "domain": "www.wallstreetprep.com"
+        },
+        {
+         "type": "link_element",
+         "title": "How to Calculate Customer...",
+         "description": null,
+         "url": "https://www.wallstreetprep.com/knowledge/lifetime-value-ltv/#h2_2",
+         "domain": "www.wallstreetprep.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.salesforce.com",
+       "title": "What Is Customer Lifetime Value (CLV) and How to ...",
+       "url": "https://www.salesforce.com/blog/sales/customer-lifetime-value/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.salesforce.com \u203a blog \u203a sales \u203a customer-lif...",
+       "website_name": "Salesforce",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 13, 2025 \u2014 There's no single formula for customer lifetime value, but this is the one most CLV = (Average Revenue Per Customer \u00d7 Customer Lifespan) \u2212\u00a0...",
+       "pre_snippet": "10/13/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "CLV = (Average Revenue Per Customer \u00d7 Customer Lifespan"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-10-13 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.clv-calculator.com",
+       "title": "Quick Online CLV Calculator | Customer Lifetime Value",
+       "url": "https://www.clv-calculator.com/free-online-clv-calculators/online-clv-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.clv-calculator.com \u203a online-clv-calculator",
+       "website_name": "clv-calculator.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The following free online CLV calculator is ideal for quick calculations of customer lifetime value. You only need to enter three numbers \u2013 into the white\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "free online CLV calculator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "How do I calculate customer lifetime value?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is a good customer LTV?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is a good CLV to CAC ratio?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is customer lifetime value?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.yotpo.com",
+       "title": "Customer Lifetime Value (CLV) Calculator",
+       "url": "https://www.yotpo.com/tools/customer-lifetime-value-clv-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.yotpo.com \u203a Tools",
+       "website_name": "Yotpo",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Calculate your Customer Lifetime Value instantly. Enter your average purchase value, frequency, customer lifespan, and profit margin to see your CLV in\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Enter your average purchase value, frequency, customer lifespan, and profit margin"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "How to Calculate Customer Lifetime Value",
+       "url": "https://www.youtube.com/watch?v=eHi875QuVcA",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "169.1K+ views  \u00b7  6 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Eric Andrews",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2020-05-25 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+       "domain": "www.webfx.com",
+       "title": "CLV Calculator | Customer Lifetime Value Tool",
+       "url": "https://www.webfx.com/tools/clv-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.webfx.com \u203a Tools",
+       "website_name": "WebFX",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Just use this simple CLV formula : CLV = (Revenue from a single customer over their lifetime) \u2013 (The cost of acquiring them)",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Just use this simple CLV formula"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+       "domain": "www.fjsolutions.com",
+       "title": "Online CLV Calculator | Customer Lifetime Value Formula",
+       "url": "https://www.fjsolutions.com/blog/clv-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.fjsolutions.com \u203a blog \u203a clv-calculator",
+       "website_name": "FJ Solutions",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jul 21, 2026 \u2014 CLV calculator to easily calculate your Customer Lifetime Value and optimize your ecommerce marketing strategies. Free Tool!",
+       "pre_snippet": "07/21/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "easily calculate your Customer Lifetime Value"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-07-21 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+       "domain": "upgrowth.in",
+       "title": "Free Customer Lifetime Value Calculator",
+       "url": "https://upgrowth.in/calculator/customer-lifetime-value-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://upgrowth.in \u203a calculator \u203a customer-lifetime-val...",
+       "website_name": "upGrowth",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Step-by-Step: \u00b7 1. Enter Annual Revenue per Customer Estimate how much revenue you earn per user each year. \u00b7 2. Enter Average Relationship Duration Input the\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Enter Annual Revenue per Customer"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://upgrowth.in/calculator/customer-lifetime-value-calculator/#:~:text=Step-by-Step%3A&text=1.%20Enter%20Annual%20Revenue%20per,earn%20per%20user%20each%20year.&text=2.%20Enter%20Average%20Relationship%20Duration,typically%20stays%20with%20your%20business.",
+         "domain": "upgrowth.in"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+       "domain": "www.productlift.dev",
+       "title": "CLV Calculator - Calculate Your Customer Lifetime Value",
+       "url": "https://www.productlift.dev/clv-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productlift.dev \u203a clv-calculator",
+       "website_name": "ProductLift",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Free CLV Calculator. Enter your revenue, retention, and margin data to instantly calculate Customer Lifetime Value and guide acquisition budgets.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "instantly calculate Customer Lifetime Value"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Customer lifetime value calculator excel",
+        "Free customer lifetime value calculator",
+        "Customer lifetime value example",
+        "Lifetime value formula",
+        "Customer lifetime value Definition",
+        "Customer lifetime value analysis",
+        "How to calculate lifetime value of a customer SaaS",
+        "How to increase customer lifetime value"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

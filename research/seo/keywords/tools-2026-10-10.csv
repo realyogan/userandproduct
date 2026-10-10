@@ -1,0 +1,200 @@
+phrase,idea_id,tools,us_volume,uk_volume,ca_volume,difficulty,cpc,competition,trend_6m_vs_prior_6m,intent,shortlist_uk_ca,serp_head,source,note
+8pt grid,16,Spacing scale and token export,10,10,10,10,,LOW,1.12,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+ab test duration calculator,21,A/B test sample size and duration planner,20,10,10,46,30.8,LOW,0.82,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+ab test hypothesis template,45,Experiment brief builder,,,,,,,,template or examples,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+ab test significance calculator,32,A/B test significance checker,50,,,0,8.87,LOW,0.86,tool,,,261010-TS-V01; 261010-TS-K01,
+acceptance criteria generator,2,User story and acceptance criteria builder,10,10,10,,,,0.67,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+accessibility checklist,51,Focus order and keyboard checklist,170,,,27,16.29,MEDIUM,0.84,template or examples,,,261010-TS-V01; 261010-TS-K01,
+accessible color palette,14,Palette contrast checker,480,50,70,49,,LOW,0.98,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+affinity diagram,63,Affinity map sorter,5400,,,24,34.53,LOW,0.70,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+affinity diagram generator,63,Affinity map sorter,10,,,,,,1.00,tool,,,261010-TS-V01; 261010-TS-K01,difficulty no data
+affinity map,63,Affinity map sorter,1600,,,27,10.25,LOW,0.67,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+affinity mapping tool,63,Affinity map sorter,40,,,0,,LOW,0.58,tool,,,261010-TS-V01; 261010-TS-K01,
+agile release forecast,6,Delivery forecast (velocity range and Monte Carlo),,,,,,,,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+alt text,34,Alt text helper,5400,,,70,4.8,LOW,1.06,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+alt text examples,34,Alt text helper,1300,,,35,5.6,LOW,1.19,template or examples,,,261010-TS-V01; 261010-TS-K01,
+aspect ratio calculator,74,Aspect ratio calculator,14800,,,16,4.88,LOW,1.16,tool,,,261010-TS-V01; 261010-TS-K01,
+assumption map template,44,Assumption mapper,,,,,,,,template or examples,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+assumption mapping,44,Assumption mapper,110,,,6,,LOW,0.69,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+best line height for body text,55,Line height calculator,,,,,,,,learn (definition),,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+burn rate calculator,43,Runway calculator,590,,,3,,LOW,0.73,tool,,,261010-TS-V01; 261010-TS-K01,
+burn up chart,76,Burn-down chart maker,1000,,,12,,LOW,0.81,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+burndown chart,76,Burn-down chart maker,33100,,,26,2.05,LOW,1.11,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+burndown chart template,76,Burn-down chart maker,90,,,0,,LOW,0.65,template or examples,,,261010-TS-V01; 261010-TS-K01,
+button label length,12,Microcopy length checker,,,,,,,,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+cac payback calculator,17,"Unit economics: LTV, CAC and payback",,,,18,,,,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data
+capacity planning scrum,4,Sprint capacity calculator,140,10,10,0,6.22,LOW,2.21,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+characters per line,23,Line length and measure calculator,210,,,7,,LOW,0.60,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+chart chooser,66,Dashboard chart picker,40,,,0,,LOW,0.79,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+churn rate calculator,7,Retention and churn calculator,260,70,30,18,13.35,LOW,0.83,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+cohort retention analysis,7,Retention and churn calculator,90,20,10,11,19.57,LOW,1.43,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+color contrast checker,14,Palette contrast checker,12100,2400,1600,56,10.58,LOW,1.01,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+color palette contrast checker,14,Palette contrast checker,140,10,10,29,2.77,LOW,1.02,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+color palette generator,18,Tint and shade scale generator,74000,3600,6600,100,3.35,LOW,0.91,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+color shade generator,18,Tint and shade scale generator,480,110,110,35,5.64,LOW,1.06,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+competitive analysis template,65,Competitive feature matrix,1300,,,4,10.9,LOW,0.89,template or examples,,,261010-TS-V01; 261010-TS-K01,
+confidence interval for completion rate,25,Task success and time-on-task calculator,,,,,,,,learn (definition),,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+contrast checker,14,Palette contrast checker,8100,2400,1900,59,8.99,LOW,1.08,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+conversion rate calculator,53,Funnel conversion calculator,1600,,,29,0.74,LOW,0.79,tool,,,261010-TS-V01; 261010-TS-K01,
+csat calculator,50,CSAT and CES calculator,590,,,0,26.39,LOW,1.10,tool,,,261010-TS-V01; 261010-TS-K01,
+css clamp calculator,42,Fluid size clamp() calculator,40,,,0,5.42,LOW,1.04,tool,,,261010-TS-V01; 261010-TS-K01,
+css grid generator,64,Breakpoint and layout grid calculator,3600,,,14,,LOW,0.84,tool,,,261010-TS-V01; 261010-TS-K01,
+customer acquisition cost calculator,17,"Unit economics: LTV, CAC and payback",390,40,20,26,5.61,LOW,1.50,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+customer churn calculator,7,Retention and churn calculator,30,10,10,13,,LOW,3.44,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+customer interview questions,28,Interview guide builder,40,,,0,,LOW,1.05,template or examples,,,261010-TS-V01; 261010-TS-K01,
+customer journey map generator,54,Journey map grid builder,10,,,,29.72,HIGH,1.40,tool,,,261010-TS-V01; 261010-TS-K01,difficulty no data
+customer lifetime value calculator,17,"Unit economics: LTV, CAC and payback",2400,390,260,27,8.23,LOW,0.75,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+cycle time calculator,27;41,Cycle time and lead time calculator; WIP limit and flow calculator (Little's law),390,,,0,9.58,LOW,0.94,tool,,,261010-TS-V01; 261010-TS-K01,
+dau mau ratio,73,Stickiness calculator (DAU/MAU),140,,,12,,LOW,0.95,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+design token naming convention,36,Design token naming helper,20,,,11,,LOW,0.87,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+design tokens,36,Design token naming helper,720,,,29,0.03,LOW,1.07,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+design tokens generator,16,Spacing scale and token export,20,10,10,50,,LOW,0.91,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+discount break even calculator,81,Discount break-even calculator,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+double barreled question checker,20,Survey question checker,,,,,,,,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+empty states,35,Component state checklist,260,,,3,,LOW,0.87,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+error message examples,12;29,Microcopy length checker; Error message builder,,,,,,,,template or examples,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+error message generator,29,Error message builder,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+feature comparison chart,65,Competitive feature matrix,110,,,22,,LOW,0.72,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+flesch kincaid calculator,70,Readability checker for UI and docs,1300,,,34,,LOW,0.89,tool,,,261010-TS-V01; 261010-TS-K01,
+fluid typography calculator,42,Fluid size clamp() calculator,20,,,19,,LOW,0.85,tool,,,261010-TS-V01; 261010-TS-K01,
+font size scale,9,Type scale generator,90,10,10,30,,LOW,1.15,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+free to paid conversion rate,52,Freemium conversion model,20,,,31,,LOW,1.12,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+freemium conversion rate,52,Freemium conversion model,20,,,21,,LOW,1.09,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+funnel conversion rate calculator,53,Funnel conversion calculator,10,,,,,,1.33,tool,,,261010-TS-V01; 261010-TS-K01,difficulty no data
+grid calculator,64,Breakpoint and layout grid calculator,480,,,0,,LOW,0.93,tool,,,261010-TS-V01; 261010-TS-K01,
+heuristic evaluation checklist,46,Heuristic evaluation scorer,20,,,2,,LOW,0.76,template or examples,,,261010-TS-V01; 261010-TS-K01,
+heuristic evaluation template,46,Heuristic evaluation scorer,110,,,18,8.42,LOW,0.68,template or examples,,,261010-TS-V01; 261010-TS-K01,
+how many participants usability test,5,Usability test sample size calculator,,,,,,,,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+how many users for usability testing,5,Usability test sample size calculator,10,10,0,43,,LOW,0.60,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+how to calculate csat,50,CSAT and CES calculator,170,,,17,5.83,LOW,0.86,how-to,,,261010-TS-V01; 261010-TS-K01,
+how to calculate nps,15,NPS calculator with margin of error,1900,590,210,35,4.63,LOW,0.90,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+how to calculate sus score,1,SUS score calculator,30,10,10,8,,LOW,0.84,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+how to write alt text,34,Alt text helper,590,,,54,3.47,LOW,0.92,how-to,,,261010-TS-V01; 261010-TS-K01,
+how to write error messages,29,Error message builder,,,,,,,,how-to,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+how to write okrs,10,OKR checker,170,40,10,17,0.82,LOW,0.85,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+how to write survey questions,20,Survey question checker,480,20,10,37,5.32,LOW,1.43,template or examples,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+hypothesis statement,45,Experiment brief builder,720,,,3,,LOW,0.60,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+ice score prioritization,3,"Backlog prioritization scorer (RICE, ICE, WSJF)",10,10,10,,,LOW,3.00,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+icon grid,72,Icon size and stroke calculator,590,,,0,,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+icon size guidelines,72,Icon size and stroke calculator,,,,,,,,learn (definition),,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+job story template,37,Job story builder,30,,,0,,LOW,0.94,template or examples,,,261010-TS-V01; 261010-TS-K01,
+jobs to be done statement,37,Job story builder,70,,,14,,LOW,0.91,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+journey map maker,54,Journey map grid builder,20,,,55,6.63,MEDIUM,0.79,tool,,,261010-TS-V01; 261010-TS-K01,
+kano analysis calculator,38,Kano survey analyzer,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+kano model,38,Kano survey analyzer,3600,,,33,6,LOW,0.79,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+kano survey,38,Kano survey analyzer,70,,,41,0.11,LOW,0.87,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+keyboard accessibility testing,51,Focus order and keyboard checklist,10,,,,,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,difficulty no data
+kpi template,58,Metric definition card,590,,,8,6.47,MEDIUM,0.66,template or examples,,,261010-TS-V01; 261010-TS-K01,
+launch plan template,22,Launch checklist builder,140,,,14,5.39,LOW,0.46,template or examples,,,261010-TS-V01; 261010-TS-K01,
+lead time vs cycle time,27,Cycle time and lead time calculator,720,,,0,,LOW,0.90,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+leading question checker,20,Survey question checker,,,,,,,,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+likert scale 5 point,39,Likert scale label builder,1600,,,17,5.67,LOW,0.85,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+likert scale examples,39,Likert scale label builder,4400,,,21,5.73,LOW,0.76,template or examples,,,261010-TS-V01; 261010-TS-K01,
+likert scale generator,39,Likert scale label builder,170,,,0,9.92,LOW,0.71,tool,,,261010-TS-V01; 261010-TS-K01,
+line height calculator,55,Line height calculator,30,,,12,,LOW,0.95,tool,,,261010-TS-V01; 261010-TS-K01,
+line length calculator,23,Line length and measure calculator,90,,,0,,LOW,0.70,tool,,,261010-TS-V01; 261010-TS-K01,
+littles law calculator,41,WIP limit and flow calculator (Little's law),70,,,1,,LOW,0.40,tool,,,261010-TS-V01; 261010-TS-K01,
+ltv cac ratio calculator,17,"Unit economics: LTV, CAC and payback",10,10,10,,,LOW,1.17,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+margin of error calculator,11,Survey sample size and margin of error calculator,,,,,,,,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+market size calculator,56,"Market size (TAM, SAM, SOM) calculator",50,,,6,20.27,LOW,0.67,tool,,,261010-TS-V01; 261010-TS-K01,
+meeting cost calculator,57,Meeting cost calculator,320,,,2,14.22,LOW,0.86,tool,,,261010-TS-V01; 261010-TS-K01,
+metric definition template,58,Metric definition card,10,,,,,LOW,0.86,template or examples,,,261010-TS-V01; 261010-TS-K01,difficulty no data
+microcopy checker,12,Microcopy length checker,,,,,,,,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+minimum tap target size,26,Touch target checker,10,,,,,LOW,1.29,learn (definition),,,261010-TS-V01; 261010-TS-K01,difficulty no data
+mission statement generator,79,Mission and vision statement builder,480,,,2,4.7,LOW,0.50,tool,,,261010-TS-V01; 261010-TS-K01,
+modular scale calculator,9,Type scale generator,10,10,10,54,,LOW,0.70,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+monte carlo forecast agile,6,Delivery forecast (velocity range and Monte Carlo),,,,,,,,learn (definition),yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+moscow method,19,MoSCoW sorter,4400,,,16,4.38,LOW,0.87,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+moscow prioritization template,19,MoSCoW sorter,70,,,0,,LOW,0.74,template or examples,,,261010-TS-V01; 261010-TS-K01,
+mrr calculator,49,SaaS MRR and ARR calculator,140,,,5,5,LOW,1.34,tool,,,261010-TS-V01; 261010-TS-K01,
+mvp feature prioritization,30,MVP scope cutter,10,,,,,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,difficulty no data
+mvp scope,30,MVP scope cutter,,,,0,,,,learn (definition),,,261010-TS-V01; 261010-TS-K01,no data
+net promoter score calculator,15,NPS calculator with margin of error,1300,320,170,19,7.41,LOW,1.04,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+net revenue retention calculator,7,Retention and churn calculator,20,10,10,20,9.78,LOW,1.22,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+north star metric,47,North Star metric worksheet,590,,,5,22.28,LOW,0.97,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+north star metric examples,47,North Star metric worksheet,50,,,10,,LOW,0.69,template or examples,,,261010-TS-V01; 261010-TS-K01,
+now next later roadmap,40,"Roadmap now, next, later builder",320,,,1,6.23,LOW,0.71,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+nps calculator,15,NPS calculator with margin of error,8100,5400,720,16,8.25,LOW,1.64,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+okr checker,10,OKR checker,,,,,,,,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+okr generator,10,OKR checker,10,10,10,0,,MEDIUM,1.00,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+opportunity score formula,77,Opportunity score calculator,10,,,,,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,difficulty no data
+optimal line length,23,Line length and measure calculator,390,,,22,,LOW,0.63,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+outcome driven innovation,77,Opportunity score calculator,170,,,17,,LOW,1.04,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+persona generator,31,Proto-persona worksheet,480,,,28,2,HIGH,0.90,tool,,,261010-TS-V01; 261010-TS-K01,
+persona template,31,Proto-persona worksheet,1600,,,32,9.83,LOW,0.67,template or examples,,,261010-TS-V01; 261010-TS-K01,
+pert calculator,68,Three-point estimate (PERT) calculator,480,,,16,1.71,LOW,0.76,tool,,,261010-TS-V01; 261010-TS-K01,
+planning poker,69,Planning poker (local),3600,,,26,0.45,LOW,0.81,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+positioning statement examples,13,Positioning statement builder,1300,210,140,5,23.74,LOW,0.61,template or examples,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+positioning statement generator,13,Positioning statement builder,20,10,10,0,,LOW,0.67,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+positioning statement template,13,Positioning statement builder,390,90,40,23,12.71,LOW,0.78,template or examples,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+prd generator,8,PRD outline generator,110,20,20,5,7.63,MEDIUM,0.34,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+price sensitivity meter,59,Price sensitivity analyzer (Van Westendorp),390,,,10,9.02,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+pricing page best practices,78,Pricing page copy checker,10,,,18,,MEDIUM,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+pricing tiers,60,Price tier builder,2900,,,27,10.11,LOW,1.67,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+prioritization matrix,3,"Backlog prioritization scorer (RICE, ICE, WSJF)",2400,1300,480,21,3.41,LOW,0.79,learn (definition),yes,,261008-161; 261010-TS-V02; 261010-TS-V03,US volume reused from keywords/ads-volumes-2026-10-08.csv; difficulty reused from harvest-articles-1b-2026-10-08.csv
+product launch checklist,22,Launch checklist builder,260,,,14,4.51,LOW,0.79,template or examples,,,261010-TS-V01; 261010-TS-K01,
+px to rem,75,"px, rem and em converter",2900,,,3,,LOW,0.80,tool,,,261010-TS-V01; 261010-TS-K01,
+raci chart template,80,RACI builder,3600,,,9,5.37,LOW,0.83,template or examples,,,261010-TS-V01; 261010-TS-K01,
+raci matrix,80,RACI builder,33100,,,48,4.67,LOW,1.06,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+readability checker,70,Readability checker for UI and docs,3600,,,34,5.86,LOW,0.77,tool,,,261010-TS-V01; 261010-TS-K01,
+readability score,70,Readability checker for UI and docs,880,,,48,3.05,LOW,0.66,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+release notes generator,33,Release notes formatter,70,,,21,4.82,LOW,0.27,tool,,,261010-TS-V01; 261010-TS-K01,
+release notes template,33,Release notes formatter,720,,,2,8.42,LOW,1.15,template or examples,,,261010-TS-V01; 261010-TS-K01,
+rem to px,75,"px, rem and em converter",1900,,,1,,LOW,0.75,tool,,,261010-TS-V01; 261010-TS-K01,
+research question generator ux,48,Research question generator,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+responsive breakpoints,64,Breakpoint and layout grid calculator,210,,,36,,LOW,0.54,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+retro template,61,Retro format picker,210,,,13,2.38,LOW,0.77,template or examples,,,261010-TS-V01; 261010-TS-K01,
+retrospective ideas,61,Retro format picker,260,,,7,0.13,LOW,0.72,template or examples,,,261010-TS-V01; 261010-TS-K01,
+rice prioritization calculator,3,"Backlog prioritization scorer (RICE, ICE, WSJF)",10,10,10,,4.71,LOW,1.00,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+rice score calculator,3,"Backlog prioritization scorer (RICE, ICE, WSJF)",50,50,10,0,,LOW,0.74,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+roadmap maker,40,"Roadmap now, next, later builder",210,,,0,17.72,MEDIUM,0.76,tool,,,261010-TS-V01; 261010-TS-K01,
+saas pricing tiers,60,Price tier builder,20,,,17,,LOW,2.62,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+saas quick ratio,49,SaaS MRR and ARR calculator,90,,,3,,LOW,0.91,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+spacing scale generator,16,Spacing scale and token export,10,10,10,,,,0.20,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+sprint capacity calculator,4,Sprint capacity calculator,30,10,10,0,,LOW,1.00,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+sprint planning capacity,4,Sprint capacity calculator,40,10,10,0,2.48,LOW,0.96,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+sprint retrospective formats,61,Retro format picker,10,,,16,2.08,LOW,1.00,template or examples,,,261010-TS-V01; 261010-TS-K01,
+sprint velocity calculator,6,Delivery forecast (velocity range and Monte Carlo),50,10,10,0,,LOW,0.78,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+stakeholder map template,67,Stakeholder map,1300,,,3,10.97,LOW,0.69,template or examples,,,261010-TS-V01; 261010-TS-K01,
+stakeholder mapping,67,Stakeholder map,4400,,,7,12.54,LOW,0.69,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+startup runway calculator,43,Runway calculator,20,,,47,22.66,LOW,1.88,tool,,,261010-TS-V01; 261010-TS-K01,
+statistical significance calculator,32,A/B test significance checker,2900,,,26,10.65,LOW,0.81,tool,,,261010-TS-V01; 261010-TS-K01,
+stickiness ratio,73,Stickiness calculator (DAU/MAU),20,,,0,,LOW,0.83,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+story point calculator,24,Story points to time estimator,30,,,0,,LOW,0.85,tool,,,261010-TS-V01; 261010-TS-K01,
+story points to hours,24,Story points to time estimator,320,,,0,0.17,LOW,0.95,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+survey margin of error calculator,11,Survey sample size and margin of error calculator,,,,,,,,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+survey question checker,20,Survey question checker,,,,,,,,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+sus calculator,1,SUS score calculator,40,10,10,2,,LOW,0.81,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+sus score calculator,1,SUS score calculator,50,20,10,2,,LOW,1.00,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+sus score interpretation,1,SUS score calculator,30,10,10,15,,LOW,1.06,learn (definition),yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+system usability scale calculator,1,SUS score calculator,10,10,10,0,,LOW,0.88,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+tailwind color generator,18,Tint and shade scale generator,210,70,50,18,,LOW,0.71,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+tam sam som calculator,56,"Market size (TAM, SAM, SOM) calculator",50,,,13,10.28,LOW,0.61,tool,,,261010-TS-V01; 261010-TS-K01,
+task completion rate calculator,25,Task success and time-on-task calculator,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+team capacity calculator,4,Sprint capacity calculator,10,10,10,,7.44,MEDIUM,0.83,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,difficulty no data
+three point estimate,68,Three-point estimate (PERT) calculator,590,,,2,,LOW,0.87,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+tiered pricing,60,Price tier builder,2900,,,27,10.11,LOW,1.67,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+tint and shade generator,18,Tint and shade scale generator,590,140,90,6,,LOW,0.93,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+touch target size,26,Touch target checker,70,,,48,,LOW,1.32,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+type scale generator,9,Type scale generator,110,30,20,30,,LOW,0.94,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+typography scale generator,9,Type scale generator,30,10,10,0,,LOW,0.93,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+ui component states,35,Component state checklist,,,,,,,,learn (definition),,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+usability test sample size,5,Usability test sample size calculator,10,10,10,0,,LOW,1.00,learn (definition),yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+usability testing sample size calculator,5,Usability test sample size calculator,,,,,,,,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,no data; UK/CA no data; difficulty no data
+user interview questions,28,Interview guide builder,140,,,22,,LOW,0.89,template or examples,,,261010-TS-V01; 261010-TS-K01,
+user interview script template,28,Interview guide builder,10,,,48,,,1.25,template or examples,,,261010-TS-V01; 261010-TS-K01,
+user research incentives,71,Research participant incentive calculator,10,,,47,,LOW,1.50,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+user story generator,2,User story and acceptance criteria builder,30,10,10,0,,LOW,0.45,tool,yes,yes,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+ux research incentive calculator,71,Research participant incentive calculator,,,,,,,,tool,,,261010-TS-V01; 261010-TS-K01,no data; difficulty no data
+ux research questions,48,Research question generator,30,,,3,,LOW,0.68,template or examples,,,261010-TS-V01; 261010-TS-K01,
+ux writing tool,12,Microcopy length checker,20,10,10,12,,LOW,0.73,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+value proposition canvas,62,Value proposition canvas,1900,,,15,12.16,LOW,0.66,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+value proposition canvas template,62,Value proposition canvas,210,,,5,3.93,LOW,0.48,template or examples,,,261010-TS-V01; 261010-TS-K01,
+van westendorp calculator,59,Price sensitivity analyzer (Van Westendorp),10,,,52,,,1.00,tool,,,261010-TS-V01; 261010-TS-K01,
+wcag checklist,51,Focus order and keyboard checklist,170,,,44,12.49,MEDIUM,0.78,template or examples,,,261010-TS-V01; 261010-TS-K01,
+wcag contrast checker,14,Palette contrast checker,1300,480,260,56,9.96,LOW,1.00,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,
+wcag target size,26,Touch target checker,40,,,21,,LOW,1.00,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+when will it be done,6,Delivery forecast (velocity range and Monte Carlo),2400,10,10,21,,LOW,22.41,how-to,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,volume is not tool demand (song and general queries; spike in the last six months)
+which chart to use,66,Dashboard chart picker,10,,,70,,LOW,0.86,how-to,,,261010-TS-V01; 261010-TS-K01,
+wip limit,41,WIP limit and flow calculator (Little's law),260,,,10,,LOW,0.80,learn (definition),,,261010-TS-V01; 261010-TS-K01,
+wsjf calculator,3,"Backlog prioritization scorer (RICE, ICE, WSJF)",40,20,10,0,,LOW,0.73,tool,yes,,261010-TS-V01; 261010-TS-V02; 261010-TS-V03; 261010-TS-K01,

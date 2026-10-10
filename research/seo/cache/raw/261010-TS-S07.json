@@ -1,0 +1,878 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0216 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-7ff38f67fb7d",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0167 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-7ff38f67fb7d"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "positioning statement template",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "positioning statement template",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "positioning statement template",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=positioning%20statement%20template&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:48 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "images",
+      "people_also_ask",
+      "organic",
+      "related_searches"
+     ],
+     "se_results_count": 116,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "title": "Market Positioning Statement Template",
+       "url": null,
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Market Positioning Statement Template",
+         "url": "https://www.sorenkaplan.com/market-positioning-statement-template/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "How to Create a Winning Brand Positioning Strategy | Crayon",
+         "url": "https://www.crayon.co/blog/brand-positioning",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "16 Examples of Positioning Statements & How to Craft Your Own",
+         "url": "https://blog.hubspot.com/sales/positioning-statement",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "Ultimate Guide to Writing a Brand Positioning Statement ...",
+         "url": "https://gurulocity.com/ultimate-guide-brand-positioning-statement/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:3"
+        },
+        {
+         "type": "images_element",
+         "alt": "Marketing Positioning Template - Argentum Strategy",
+         "url": "https://www.argentumstrategy.com/resources/free-marketing-templates/marketing-positioning-template/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:4"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement: Definition, Template and Examples",
+         "url": "https://marketingmadeclear.com/writing-a-marketing-positioning-statement/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:5"
+        },
+        {
+         "type": "images_element",
+         "alt": "How To Write A Positioning Statement in 2026",
+         "url": "https://www.ebaqdesign.com/blog/positioning-statement",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:6"
+        },
+        {
+         "type": "images_element",
+         "alt": "How to Craft the Perfect Brand Positioning Statement",
+         "url": "https://online.hbs.edu/blog/post/brand-positioning-statement",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-7ff38f67fb7d:7"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRG0fm7oySAICtp9UAw1Hd4SkAuT-vZmhDx5KBBpMmXIUCDRVqXiofwJk&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "16 Examples of Positioning Statements & How to Craft Your Own",
+         "url": "https://blog.hubspot.com/sales/positioning-statement",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQheLFCpH4ZU_MGBAg27EOoxVgqjSM3pv1V2_BJEKDZHgB4a1F9vbjnowM&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Brand Positioning Strategy for the Professional Services ...",
+         "url": "https://hingemarketing.com/blog/story/brand-positioning-strategy-for-the-professional-services",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38I2hnaWtEBtKgeQ8fOPloF7LNYSB-WZLw26WGVWnnNQetbJuQBMw1Ho&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Do we really need a positioning statement?\u201d \u2013 Marketing ...",
+         "url": "https://marketingcampaigndevelopment.wordpress.com/2009/12/08/do-we-really-need-a-positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShNDmJBM3fKPgmoA3_CcJpQS3ndvpxO0jO4nuEAbibm4hakVayuCbKxJg&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and Examples",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNR4S_nPBSszaCEwFY3jI6hIIRwZgavKrFpsq9IRNUyJDZDaZKi8jl1FU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Product Positioning Statement Template and Examples - York IE",
+         "url": "https://york.ie/blog/product-positioning-statement-template-examples/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNkOAnR4ou7-ADVUao9WuQNAkvfLMKjyQk_wBPA2GIJpxKVwV4LPftUM&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUGTCIfC-kVlcZsG6SHkDAKd_BfJayUukL5JcbPOizMk153TuzdTgFL4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "How To Write A Positioning Statement in 2026",
+         "url": "https://www.ebaqdesign.com/blog/positioning-statement",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEr1uyKBpLvL-cEHtL-JhyMFuXJfPNn1THdmVtLxTI2mCB-tlgVmjdBcY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Writing Your Brand Positioning Statement | Zoho Academy",
+         "url": "https://www.zoho.com/academy/marketing/brand-positioning/writing-your-brand-positioning-statement.html",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyCHpts2DjhRRL1wppuAG0CL1v06fwUO88NmM6v9WX-p-NWO4vNQHGi8&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and Examples",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsxmNh0KJxivAfIMClQ1yNJJgXoa2zf5yrW6QayLnVWJDDeIGdbmOID34&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Ultimate Guide to Writing a Brand Positioning Statement ...",
+         "url": "https://gurulocity.com/ultimate-guide-brand-positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMnaA-Hbz-0koV1mFe-93DlLMSjVCnzbIB7cbtJJGtAjpuJydwA1VloE&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMqu_DLUTFjVlqWU8KIDnAHivpweWAepbUyKFtNcOHUNzF80tx-EqkG8&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and Examples",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUOcbGMDjTg8g4c0tHs1h-UMv86ZQhJFmYT102kpL7JG-66QzrOQU68PQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Brand positioning strategy framework | PDF download",
+         "url": "https://www.productmarketingalliance.com/brand-positioning-strategy-framework-template/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpdBt5qBKcFXJsRQTh468IgV6f2u5Fa8ox3QKItNO56sA-spqpc0kTiA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTesrXQ2Orw3JhUvbTUvWotNUGvff8Skzky8scXnppVi-zPqDFipXZ5vn8&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Market Positioning Statement Template",
+         "url": "https://www.sorenkaplan.com/market-positioning-statement-template/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDckYSq1w0kUAurJl7NlnTbAkSitPXbogVVjGJe962uDcbZ463lFJt6M&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Product Positioning Statement Template and Examples - York IE",
+         "url": "https://york.ie/blog/product-positioning-statement-template-examples/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ--OJrQIXRmabghM9ro1ATqw3FXM3N052wC2PszQ-Op8eeHlRq8e92EA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "How to Create a Winning Brand Positioning Strategy | Crayon",
+         "url": "https://www.crayon.co/blog/brand-positioning",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDM6XVnuvdkkwe1c8dOurf2VzIsXYaSAOap0lgXWkkJrZd0mwr8HeEycU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "How to Craft the Perfect Brand Positioning Statement",
+         "url": "https://online.hbs.edu/blog/post/brand-positioning-statement",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR912yNcwY3jO6IP5ZKKUxxuyX4YnjQYLvtyuYaNKTTfdWzo6FxBl99zq4&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and Examples",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1RE00TykzXw2S-N_U9HgF5HgWos4iU_JEJY6zD6JuPiVwbSeA8ti9fo&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Brand positioning strategy framework | PDF download",
+         "url": "https://www.productmarketingalliance.com/brand-positioning-strategy-framework-template/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDt6ZMQIf2Vioi47p23laQ4zJCFMV33GR6KZYl2eLJIiM-RKc-f_Ozt0&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Ultimate Guide to Writing a Brand Positioning Statement ...",
+         "url": "https://gurulocity.com/ultimate-guide-brand-positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4bXAOdIDfuBmOOVBhxmc9ttO_qYuJzOQCGgxWGU5cQVCDH-pbdgHRq5A&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "How to Create a Winning Brand Positioning Strategy | Crayon",
+         "url": "https://www.crayon.co/blog/brand-positioning",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsnEsslngCajrYM-YYDcwnASj9s2VYfREdn3kz83Vrx4GzfUYj2qBY-fA&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6zKQerMuABmMrZ8CncCgmDEvw3CP7542Qsf2wJCsZA1M2D5aZ259XVo&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "16 Examples of Positioning Statements & How to Craft Your Own",
+         "url": "https://blog.hubspot.com/sales/positioning-statement",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq0Hd-kqWVXHCuv8NhMcztYtxrC9rOIb0UtuQ7JZbSOkAV70AVhJ4FsNQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and Examples",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3CVlaeodWjygvrdj3MOBMn_htdfsJ7aaWYfBc-FH0ata_ODlE0B_x324&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Top 10 Positioning Statement Templates with Samples and ...",
+         "url": "https://www.slideteam.net/blog/positioning-statement-templates-ppt-presentation",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9IA4AfoYtQaRIVmM8VH-rZljlPuVJF6Zjr72E5jqqTeOkR35LyqMe47c&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Positioning Statement Template | 7,000+ Editable Business Slides",
+         "url": "https://powerslides.com/powerpoint-marketing/analytics-templates/positioning-statement/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKXsx0QE0IIK5nC08HT_38Eh6dn1Di2tm710x7Vho2v1sqHMDXd40Bg8&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "A positioning statement template is an internal strategic guide that defines how your brand or product should be perceived relative to your competitors.\n\n> \"For **[target audience]** who **[statement of need or opportunity]** , the **[product or brand name]** is a **[product category]** that **[key benefit]** . Unlike **[primary competitive alternative]** , our product **[unique selling proposition / differentiation statement]**.\"\n\n\n\n---\n\n#### Core Elements of the Template\n\n- **Target Audience:** The specific market segment you serve.\n- **Need or Opportunity:** The pain point or goal your audience faces.\n- **Product Category:** The industry or market space where you compete.\n- **Key Benefit:** The primary value your product provides.\n- **Competitive Alternative:** The main rival or status quo.\n- **Unique Differentiation:** What sets you apart from the competition.\n\n\n\n---\n\n#### Example in Practice\nFor a practical illustration like the TecCarry laptop bag example\u2014combining style and functionality for busy professionals\u2014you can find the full application and wording in the referenced materials.Learn more about building your brand framework through the [Harvard Business School Online Guide](https://online.hbs.edu/blog/post/brand-positioning-statement) or explore practical examples on [Zendesk](https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/).If you'd like, share:\n\n- **What product or service** you are building\n- **Who your main customers** are\n- **What makes you different** from competitors\n\nI can help you draft a custom positioning statement for your brand.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "A positioning statement template is an internal strategic guide that defines how your brand or product should be perceived relative to your competitors.",
+         "markdown": "A positioning statement template is an internal strategic guide that defines how your brand or product should be perceived relative to your competitors.",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "\"For [target audience] who [statement of need or opportunity], the [product or brand name] is a [product category] that [key benefit]. Unlike [primary competitive alternative], our product [unique selling proposition / differentiation statement].\"",
+         "markdown": "\"For **[target audience]** who **[statement of need or opportunity]** , the **[product or brand name]** is a **[product category]** that **[key benefit]** . Unlike **[primary competitive alternative]** , our product **[unique selling proposition / differentiation statement]**.\"",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Core Elements of the Template",
+         "text": "Target Audience: The specific market segment you serve. Need or Opportunity: The pain point or goal your audience faces. Product Category: The industry or market space where you compete. Key Benefit: The primary value your product provides. Competitive Alternative: The main rival or status quo. Unique Differentiation: What sets you apart from the competition.",
+         "markdown": "- **Target Audience:** The specific market segment you serve.\n- **Need or Opportunity:** The pain point or goal your audience faces.\n- **Product Category:** The industry or market space where you compete.\n- **Key Benefit:** The primary value your product provides.\n- **Competitive Alternative:** The main rival or status quo.\n- **Unique Differentiation:** What sets you apart from the competition.",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Example in Practice",
+         "text": "For a practical illustration like the TecCarry laptop bag example\u2014combining style and functionality for busy professionals\u2014you can find the full application and wording in the referenced materials.",
+         "markdown": "For a practical illustration like the TecCarry laptop bag example\u2014combining style and functionality for busy professionals\u2014you can find the full application and wording in the referenced materials.",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Learn more about building your brand framework through the Harvard Business School Online Guide or explore practical examples on Zendesk.",
+         "markdown": "Learn more about building your brand framework through the [Harvard Business School Online Guide](https://online.hbs.edu/blog/post/brand-positioning-statement) or explore practical examples on [Zendesk](https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/).",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Harvard Business School Online Guide",
+           "description": null,
+           "url": "https://online.hbs.edu/blog/post/brand-positioning-statement",
+           "domain": "online.hbs.edu"
+          },
+          {
+           "type": "link_element",
+           "title": "Zendesk",
+           "description": null,
+           "url": "https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/",
+           "domain": "www.zendesk.com"
+          }
+         ],
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like, share:What product or service you are building\nWho your main customers are\nWhat makes you different from competitors\nI can help you draft a custom positioning statement for your brand.",
+         "markdown": "If you'd like, share:\n\n- **What product or service** you are building\n- **Who your main customers** are\n- **What makes you different** from competitors\n\nI can help you draft a custom positioning statement for your brand.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Harvard Business School Online",
+         "domain": "online.hbs.edu",
+         "url": "https://online.hbs.edu/blog/post/brand-positioning-statement",
+         "title": "How to Craft the Perfect Brand Positioning Statement",
+         "text": "Definition: Brand positioning describes establishing competitive advantages and differentiated customer value in consumers' minds ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Zendesk",
+         "domain": "www.zendesk.com",
+         "url": "https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/",
+         "title": "12 good positioning statement examples + how to write one",
+         "text": "Positioning statement template * Ecommerce company Payhip has cornered the e-direct sales market with clear messaging on how easy ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Cornell University",
+         "domain": "ecornell-impact.cornell.edu",
+         "url": "https://ecornell-impact.cornell.edu/how-to-write-market-positioning-statements/",
+         "title": "How to Write Market Positioning Statements",
+         "text": "Guidelines for Good Positioning Statements Template for Writing a Positioning Statement Here's a basic template for writing a posi..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Zendesk",
+         "domain": "www.zendesk.com",
+         "url": "https://www.zendesk.com/in/blog/sales/sales-and-marketing/positioning-statement-examples/",
+         "title": "What is a positioning statement? Examples, template + tips | Zendesk India",
+         "text": "Positioning statement template. Once you're ready to write your own statement, you might want to think about using a template. A c..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=SI0XD9e9Tl8&t=180",
+         "title": "How To Write A Positioning Statement (Brand Template + Example)",
+         "text": "How To Write A Positioning Statement (Brand Template + Example) and the difference that your brand offers what is that difference ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Monday.com",
+         "domain": "monday.com",
+         "url": "https://monday.com/blog/crm-and-sales/positioning-statement-template/",
+         "title": "Positioning Statement Template: Examples, Frameworks, & Guide",
+         "text": "Table_title: Positioning statement vs. value proposition vs. mission statement Table_content: | | Positioning statement | Value pr..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Brandwatch",
+         "domain": "www.brandwatch.com",
+         "url": "https://www.brandwatch.com/blog/write-brand-positioning-statement/",
+         "title": "Brand Positioning Statement: Template & Tips | Brandwatch",
+         "text": "The core components of a brand positioning statement. A strong positioning statement typically includes four key elements: * Targe..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "York IE",
+         "domain": "york.ie",
+         "url": "https://york.ie/blog/product-positioning-statement-template-examples/",
+         "title": "Product Positioning Statement Template and Examples",
+         "text": "What Are 5 Elements of a Positioning Statement? How Do You Write a Positioning Statement? To write a positioning statement, answer..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is an example of positioning in marketing?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to make a position statement?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are some good examples of personal brand statements?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What does a good positioning statement look like?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "professional.dce.harvard.edu",
+       "title": "Creating a Positioning Statement? Position the Problem, Not ...",
+       "url": "https://professional.dce.harvard.edu/blog/creating-a-positioning-statement-position-the-problem-not-the-product/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://professional.dce.harvard.edu \u203a blog \u203a creating-a-...",
+       "website_name": "Professional & Executive Development | Harvard DCE",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 8, 2024 \u2014 A good positioning statement makes it clear who the customer is and what business problem they need to solve. If you do a good job of defining\u00a0... Read more",
+       "pre_snippet": "01/08/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "makes it clear who the customer is and what business problem they need to solve"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://professional.dce.harvard.edu/blog/creating-a-positioning-statement-position-the-problem-not-the-product/#:~:text=A%20good%20positioning%20statement%20makes,need%20to%20describe%20your%20product.",
+         "domain": "professional.dce.harvard.edu"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-01-08 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "mailchimp.com",
+       "title": "Craft Winning Positioning Statements: Examples & Tips",
+       "url": "https://mailchimp.com/resources/positioning-statement-examples/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://mailchimp.com \u203a resources \u203a positioning-stateme...",
+       "website_name": "Mailchimp",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Learn the key components to writing a brand positioning statement. Follow these tips and examples when you go to write your own.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn the key components to writing a brand positioning statement"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.productmarketingalliance.com",
+       "title": "Product positioning template | Free Download",
+       "url": "https://www.productmarketingalliance.com/product-positioning-template-framework/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productmarketingalliance.com \u203a product-po...",
+       "website_name": "Product Marketing Alliance",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 12, 2022 \u2014 A structured approach for developing a clear and compelling value proposition, ensuring your product stands out in the market.",
+       "pre_snippet": "12/12/2022 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2022-12-12 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+       "domain": "www.pinterest.com",
+       "title": "Positioning Statement Format",
+       "url": "https://www.pinterest.com/ideas/positioning-statement-format/932180366853/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.pinterest.com \u203a ideas \u203a positioning-stateme...",
+       "website_name": "Pinterest",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Discover Pinterest's best ideas and inspiration for Positioning statement format. Get inspired and try out new things. Last updated 1d. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Positioning statement format"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.pinterest.com/ideas/positioning-statement-format/932180366853/#:~:text=Discover%20Pinterest's%20best%20ideas%20and,Last%20updated%201d",
+         "domain": "www.pinterest.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+       "domain": "www.wordstream.com",
+       "title": "18 Great Positioning Statement Examples + How to Write ...",
+       "url": "https://www.wordstream.com/blog/positioning-statement",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.wordstream.com \u203a Blog",
+       "website_name": "WordStream",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 23, 2024 \u2014 Use these positioning statement examples and templates to craft a positioning statement that sets your business apart from your competitors.",
+       "pre_snippet": "10/23/2024 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use these positioning statement examples and templates"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2024-10-23 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+       "domain": "www.zendesk.kr",
+       "title": "12 good positioning statement examples + how to write one",
+       "url": "https://www.zendesk.kr/blog/sales/sales-and-marketing/positioning-statement-examples/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.zendesk.kr \u203a ... \u203a Sales \u203a Sales vs. marketing",
+       "website_name": "zendesk.kr",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Positioning statement template. Once you're ready to write your own statement, use this resource to guide you\u2014our free positioning statement template . Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Positioning statement template"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.zendesk.kr/blog/sales/sales-and-marketing/positioning-statement-examples/#:~:text=Positioning%20statement%20template,.",
+         "domain": "www.zendesk.kr"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+       "domain": "www.argentumstrategy.com",
+       "title": "Marketing Positioning Template",
+       "url": "https://www.argentumstrategy.com/resources/free-marketing-templates/marketing-positioning-template/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.argentumstrategy.com \u203a resources \u203a marketi...",
+       "website_name": "Argentum Strategy",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Strategic Positioning Statement Format : To TARGET that has UNMET NEED, COMPANY NAME is the COMPETITIVE SET that UNIQUE POINT OF DIFFERENCE because it REASON\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Strategic Positioning Statement Format"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.argentumstrategy.com/resources/free-marketing-templates/marketing-positioning-template/#:~:text=Strategic%20Positioning%20Statement%20Format%3A,2%2C%20REASON%20TO%20BELIEVE%203.",
+         "domain": "www.argentumstrategy.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "How To Create A Positioning Statement",
+       "url": "https://www.youtube.com/watch?v=Xrb9os34EEE",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "2K+ views  \u00b7  5 years ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Solve It Like A Marketer",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2020-10-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Positioning statement template word",
+        "Positioning statement in marketing",
+        "Positioning statement framework",
+        "Brand positioning statement examples",
+        "Positioning statement formula",
+        "Product positioning statement",
+        "Positioning statement vs value proposition",
+        "Product positioning template"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

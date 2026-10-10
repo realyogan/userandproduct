@@ -1,0 +1,512 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0163 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-253f5af42be4",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0110 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-253f5af42be4"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "microcopy checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "microcopy checker",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "microcopy checker",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=microcopy%20checker&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:57 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 55,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "knowadays.com",
+       "title": "Microcopy: What Is It, and Why Is It Important?",
+       "url": "https://knowadays.com/blog/microcopy-what-is-it-and-why-is-it-important/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://knowadays.com \u203a blog \u203a microcopy-what-is-it-a...",
+       "website_name": "Knowadays",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Jan 6, 2025 \u2014 Microcopy is the small pieces of copy found on a website or app that guide users through their digital journey.",
+       "pre_snippet": "01/06/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "small pieces of copy found on a website or app"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-01-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "How do you write copy for microcopy and user interface text?",
+       "url": "https://www.linkedin.com/advice/1/how-do-you-write-copy-microcopy-user-interface-text-wy60c",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.linkedin.com \u203a ... \u203a Copywriting",
+       "website_name": "LinkedIn",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Nov 6, 2023 \u2014 How do you write copy for microcopy and user interface text? ; 1. Know your users ; 2. Be clear and concise ; 3. Be consistent and coherent ; 4. Be\u00a0... Read more",
+       "pre_snippet": "11/06/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "How do you write copy for microcopy and user interface text"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.linkedin.com/advice/1/how-do-you-write-copy-microcopy-user-interface-text-wy60c#:~:text=How%20do%20you%20write%20copy,microcopy%20and%20user%20interface%20text%3F&text=1,Know%20your%20users&text=2,Be%20clear%20and%20concise&text=3,Be%20consistent%20and%20coherent&text=4,Be%20helpful%20and%20friendly",
+         "domain": "www.linkedin.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-11-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "The UX Microcopy Improver : r/xclusiveprompt_free",
+       "url": "https://www.reddit.com/r/xclusiveprompt_free/comments/1x1k3zk/the_ux_microcopy_improver/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 comment  \u00b7  1 day ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/xclusiveprompt_free",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The UX Microcopy Improver \ud83c\udfa8Aesthetic \u2026 messages that sound robotic. Rewrite them to match the brand voice. accessible, ethical, and free to use!",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Microcopy"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is a micro copy?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are some examples of microcopy?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the size of a micro copy?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is microcopy in UX?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "How to Write Microcopy (Buttons, Errors, Tooltips).",
+       "url": "https://medium.com/@NabaasaElijah/how-to-write-microcopy-buttons-errors-tooltips-1575f31c18a3",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10 months ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Nabaasa Elijah",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The most revealing test of microcopy effectiveness is watching actual users interact with your interface. User testing sessions, where you\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "watching actual users interact with your interface"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://medium.com/@NabaasaElijah/how-to-write-microcopy-buttons-errors-tooltips-1575f31c18a3#:~:text=The%20most%20revealing%20test%20of,discover%20through%20your%20own%20review.",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "little.midatel.com",
+       "title": "Microcopy \u00b7 Little Glossary - Midatel",
+       "url": "https://little.midatel.com/en/glossary/microcopy",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://little.midatel.com \u203a glossary \u203a microcopy",
+       "website_name": "Midatel",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "5 days ago \u2014 Microcopy is the short interface text that guides users: buttons, form labels, error messages, notices, contextual help and confirmations.",
+       "pre_snippet": "5 days ago",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Microcopy"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-10-05 17:02:56 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 CXL",
+         "title": "Generate more leads with clear microcopy for your website",
+         "timestamp": "2025-04-30 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=Op5hGN5SfEw"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Userpilot",
+         "title": "How to write in-app microcopy that your users *will* actually read",
+         "timestamp": "2022-06-08 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=ptMRW4-VzEM"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 UXLx - User Experience Lisbon",
+         "title": "Microcopy: How to write small, deadly copy for all occasions",
+         "timestamp": "2014-10-02 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=pkbO6hwLbpc"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "The UX Microcopy Improver : r/xclusiveprompt_free",
+       "url": "https://www.reddit.com/r/xclusiveprompt_free/comments/1qxgc95/the_ux_microcopy_improver/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 comment  \u00b7  8 months ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/xclusiveprompt_free",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The UX Microcopy Improver \u2026 your hub for free, creative, and exclusive AI prompts!",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "The UX Microcopy Improver"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "The UX Microcopy Improver : r/xclusiveprompt_free",
+       "url": "https://www.reddit.com/r/xclusiveprompt_free/comments/1tr0dvd/the_ux_microcopy_improver/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 comment  \u00b7  4 months ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/xclusiveprompt_free",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The UX Microcopy Improver as a UX Writer for a mobile app. system messages that sound robotic. Rewrite them to match the brand voice. Wiki\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Microcopy"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "The UX Microcopy Improver : r/xclusiveprompt_free",
+       "url": "https://www.reddit.com/r/xclusiveprompt_free/comments/1vuf1e8/the_ux_microcopy_improver/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 comment  \u00b7  1 month ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/xclusiveprompt_free",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The UX Microcopy Improver as a UX Writer for a mobile app. system messages that sound robotic. Rewrite them to match the brand voice. Wiki\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Microcopy"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Microcopy checker free",
+        "Microcopy checker app",
+        "Microcopy checker reddit"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

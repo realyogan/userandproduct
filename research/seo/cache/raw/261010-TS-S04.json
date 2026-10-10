@@ -1,0 +1,520 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0185 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-52457d46e753",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0134 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-52457d46e753"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "monte carlo forecast agile",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "monte carlo forecast agile",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "monte carlo forecast agile",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=monte%20carlo%20forecast%20agile&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:03:02 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "video",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 119,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "dl.acm.org",
+       "title": "An analysis of Monte Carlo simulations for forecasting ...",
+       "url": "https://dl.acm.org/doi/10.1145/3412841.3442030",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://dl.acm.org \u203a doi",
+       "website_name": "ACM Digital Library",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Monte Carlo simulations may be used in practice for delivery date and effort forecasting in agile projects, after a few initial sprints.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Monte Carlo",
+        "forecasting",
+        "agile"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "is there a easy way to forecast feature duration with ...",
+       "url": "https://www.reddit.com/r/agile/comments/1ba0l39/is_there_a_easy_way_to_forecast_feature_duration/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ comments  \u00b7  2 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/agile",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Monte Carlo simulations have been great for driving the forecasts and also highlighting opportunities for improvement. There are obviously ways\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Monte Carlo simulations have been great for driving the forecasts"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.reddit.com/r/agile/comments/1ba0l39/is_there_a_easy_way_to_forecast_feature_duration/#:~:text=Monte%20Carlo%20simulations%20have%20been,ways%20to%20forecast%20without%20it.",
+         "domain": "www.reddit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "www.55degrees.se",
+       "title": "Monte Carlo Simulations and Forecasting",
+       "url": "https://www.55degrees.se/blog/post/monte-carlo-simulations-and-forecasting",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.55degrees.se \u203a blog \u203a post \u203a monte-carlo-si...",
+       "website_name": "55 Degrees AB",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "In ActionableAgile you can use Monte Carlo Simulations to provide forecasts for fixed scope and fixed date efforts.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Monte Carlo",
+        "forecasts"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Everyday Agile",
+         "title": "How Agile Teams Use Monte Carlo Simulation to Predict Delivery",
+         "timestamp": "2026-03-23 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=yK7ojgZrI6E"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Agile State of Mind",
+         "title": "Forecasting Sprints & Features | Simulation Explained in Monte ...",
+         "timestamp": "2025-06-07 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=iUwMUr5x14o"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Agile State of Mind",
+         "title": "Monte Carlo Simulation 101 w/ Benji Huser-Berta",
+         "timestamp": "2025-06-05 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=D5BwaNjHLa8"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.infoq.com",
+       "title": "Web-Based Monte Carlo Simulation for Agile Estimation",
+       "url": "https://www.infoq.com/news/2019/04/monte-carlo-agile-estimation/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.infoq.com \u203a news \u203a 2019/04 \u203a monte-carlo...",
+       "website_name": "infoq.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 2, 2019 \u2014 The Monte Carlo analysis creates a range of possible outcomes, along with a corresponding probability, and displays the results as a histogram.",
+       "pre_snippet": "04/02/2019 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "creates a range of possible outcomes"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2019-04-02 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "How many iterations for a Monte Carlo simulation?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 7 steps of forecasting?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can you do Monte Carlo simulation in Excel?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How is the Monte Carlo simulation used in forecasting?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "johncolemanirl.medium.com",
+       "title": "Setting Expectations in Scrum and Monte Carlo Probabilistic ...",
+       "url": "https://johncolemanirl.medium.com/setting-expectations-in-scrum-and-monte-carlo-probabilistic-forecasting-2de6072df497",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "4 years ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0John Anthony Coleman",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Monte Carlo probabilistic forecasting. You run random number generation on how big could your backlog be? could it be? 90% chance you're right,\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Monte Carlo probabilistic forecasting"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "When Will It Be Done? | Monte Carlo Forecasting Explained",
+       "url": "https://www.youtube.com/watch?v=wks_Rzh2i-U",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "170+ views  \u00b7  8 months ago",
+       "website_name": "YouTube\u00a0\u00b7\u00a0Benjamin Day",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-01-23 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "Forecasting software project's completion date through ...",
+       "url": "https://medium.com/data-science/forecasting-software-projects-completion-date-through-monte-carlo-simulation-c1baa5bcf976",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "9 years ago",
+       "website_name": "Medium\u00a0\u00b7\u00a0Lucas Colucci",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "What Monte Carlo does is to simulate thousands dice rolls and then analyze the outcome. For example, to know the probability of finishing the\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "simulate thousands dice rolls and then analyze the outcome"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://medium.com/data-science/forecasting-software-projects-completion-date-through-monte-carlo-simulation-c1baa5bcf976#:~:text=What%20Monte%20Carlo%20does%20is,points%20and%20store%20that%20result.",
+         "domain": "medium.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+       "domain": "www.coursehero.com",
+       "title": "Provide your opinion and analyze the following document",
+       "url": "https://www.coursehero.com/tutors-problems/Financial-Accounting/48376947-Provide-your-opinion-and-analyze-the-following-document/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.coursehero.com \u203a Financial-Accounting",
+       "website_name": "Course Hero",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Feb 3, 2023 \u2014 Provide your opinion and analyze the following document: Monte Carlo Analysis in Project Management Monte Carlo simulations are invaluable for anticipating ...",
+       "pre_snippet": "02/03/2023 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": [
+        {
+         "type": "link_element",
+         "title": "1 answer",
+         "description": null,
+         "url": "https://www.coursehero.com/tutors-problems/Financial-Accounting/48376947-Provide-your-opinion-and-analyze-the-following-document-Monte/",
+         "domain": "www.coursehero.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2023-02-03 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Monte carlo forecast agile template",
+        "Monte carlo forecast agile github"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

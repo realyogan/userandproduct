@@ -1,0 +1,558 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0143 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-d9e8bca4af15",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0096 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-d9e8bca4af15"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user story generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "user story generator",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "user story generator",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=user%20story%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:47 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 130,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "kollabe.com",
+       "title": "Free AI User Story Generator - Agile Development Tools",
+       "url": "https://kollabe.com/tools/user-story-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://kollabe.com \u203a tools \u203a user-story-generator",
+       "website_name": "Kollabe",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Generate user stories with acceptance criteria instantly using AI. Create well-formatted Agile user stories for product development. based on your input.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Generate user stories with acceptance criteria instantly using AI"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+       "domain": "easyretro.io",
+       "title": "User Story Generator (Simple and Easy)",
+       "url": "https://easyretro.io/tools/user-story-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://easyretro.io \u203a tools \u203a user-story-generator",
+       "website_name": "EasyRetro",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "User stories are the building blocks of agile! Use our simple user story generator to turn a vague feature idea into a well-defined user story.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use our simple user story generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Gen AI for User Stories : r/ProductManagement",
+       "url": "https://www.reddit.com/r/ProductManagement/comments/1e7z2z4/gen_ai_for_user_stories/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "50+ comments  \u00b7  2 years ago",
+       "website_name": "Reddit\u00a0\u00b7\u00a0r/ProductManagement",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Regarding user stories that means you can converse with it via slack or email and ask if a story (or bug ticket) exists already and to create\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "user",
+        "story"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Best ai tools for writing user stories? : r/agile",
+         "description": null,
+         "url": "https://www.reddit.com/r/agile/comments/1hrcnle/best_ai_tools_for_writing_user_stories/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "AI User Story Generator : r/businessanalysis",
+         "description": null,
+         "url": "https://www.reddit.com/r/businessanalysis/comments/1d91p3t/ai_user_story_generator/",
+         "domain": "www.reddit.com"
+        },
+        {
+         "type": "link_element",
+         "title": "More results from www.reddit.com",
+         "description": null,
+         "url": "https://www.google.com/search?q=user+story+generator+site:www.reddit.com&sca_esv=7301c7e82f0d791a&hl=en&gl=US&sxsrf=APpeQnvtR-kPz4DDTrYBI6xnPzDhn8G8Tw:1791651766046&sa=X&ved=2ahUKEwiE2M349q-XAxV5MTQIHchYD3gQrQIoAnoECCYQAw",
+         "domain": "www.google.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+       "domain": "miro.com",
+       "title": "AI User Story Generator | Create with Miro AI",
+       "url": "https://miro.com/ai/ai-user-story-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://miro.com \u203a Ai Overview",
+       "website_name": "Miro",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Generate user stories with AI that understands your team's context. Transform research and brainstorms into structured requirements in minutes with Miro.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Generate user stories with AI"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+       "domain": "copilot4devops.com",
+       "title": "How to generate AI user stories like a pro using AI",
+       "url": "https://copilot4devops.com/ai-user-stories/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://copilot4devops.com \u203a ai-user-stories",
+       "website_name": "Copilot4DevOps",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 9, 2025 \u2014 In this blog, we will cover what a user story is and how to generate user stories using generative AI tools.",
+       "pre_snippet": "05/09/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "how to generate user stories using generative AI tools"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-05-09 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+       "domain": "easy-peasy.ai",
+       "title": "Free AI Agile User Story Generator",
+       "url": "https://easy-peasy.ai/templates/user-story",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://easy-peasy.ai \u203a templates \u203a user-story",
+       "website_name": "Easy-Peasy.AI",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Agile User Story Generator is an AI-powered tool that helps you quickly create well-structured user stories. Simply provide a brief description of your\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "AI-powered tool that helps you quickly create well-structured user stories"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://easy-peasy.ai/templates/user-story#:~:text=Can%20I%20customize%20the%20user",
+         "domain": "easy-peasy.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+       "domain": "marketplace.atlassian.com",
+       "title": "AI Test Case and User Story Issue Auto Generator for Jira",
+       "url": "https://marketplace.atlassian.com/apps/1231182/ai-test-case-and-user-story-issue-auto-generator-for-jira",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://marketplace.atlassian.com \u203a apps \u203a ai-test-case-a...",
+       "website_name": "Atlassian Marketplace",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "POPal uses enterprise-grade Generative AI to instantly convert epics into detailed user stories and test cases, ensuring alignment, completeness, and quality\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.1,
+        "votes_count": 11,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "instantly convert epics into detailed user stories"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://marketplace.atlassian.com/apps/1231182/ai-test-case-and-user-story-issue-auto-generator-for-jira#:~:text=POPal%20uses%20enterprise-grade%20Generative%20AI,and%20quality%20from%20the%20start.",
+         "domain": "marketplace.atlassian.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]/div[1]",
+       "domain": "www.leiga.com",
+       "title": "Free Agile Methodology User Story Generator - Leiga",
+       "url": "https://www.leiga.com/free-tools/agile-methodology-user-story-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.leiga.com \u203a free-tools \u203a agile-methodology...",
+       "website_name": "leiga.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The Agile Methodology User Stories Generator is an AI-driven tool that quickly creates clear and consistent user stories based on project requirements,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "quickly creates clear and consistent user stories"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.leiga.com/free-tools/agile-methodology-user-story-generator#:~:text=The%20Agile%20Methodology%20User%20Stories,and%20enhancing%20project%20management%20efficiency.",
+         "domain": "www.leiga.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the 3 C's of user stories?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How do I create a user story?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can ChatGPT generate stories?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Can AI be used to create user stories?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]",
+       "domain": "www.figma.com",
+       "title": "Your AI user story generator, in Figma Make",
+       "url": "https://www.figma.com/solutions/ai-user-story-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.figma.com \u203a Solutions",
+       "website_name": "Figma",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Use Figma Make as your AI user story generator. Turn product ideas into structured user stories, flows, and prototypes\u2014no PRD writing required.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use Figma Make as your AI user story generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "User story Generator AI",
+        "User story generator free",
+        "User story generator agile",
+        "Easy user story Generator",
+        "User story template",
+        "Kollabe user story generator",
+        "User story Writer",
+        "Best user story generator"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

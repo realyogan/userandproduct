@@ -1,0 +1,504 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0900 sec.",
+ "cost": 0.0102,
+ "tasks_count": 17,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-609026b578c5",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "color contrast checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "color contrast checker",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-024ce3b8d8a4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "customer lifetime value calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "customer lifetime value calculator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-253f5af42be4",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "microcopy checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "microcopy checker",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-52457d46e753",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "monte carlo forecast agile",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "monte carlo forecast agile",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-15cf637c2592",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "net promoter score calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "net promoter score calculator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-c31711ac09ff",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "okr checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "okr checker",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-7ff38f67fb7d",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "positioning statement template",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "positioning statement template",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-b216aa6423dc",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "prd generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "prd generator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-2ff54fa04613",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "rice score calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "rice score calculator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-4abb5dff2ef1",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "spacing scale generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "spacing scale generator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-425a9dbd6d4f",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "sprint capacity calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "sprint capacity calculator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-08acf20f0afa",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "survey margin of error calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "survey margin of error calculator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-e9450eebd624",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "survey question checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "survey question checker",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-4d94021a90b5",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "tint and shade generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "tint and shade generator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-6c6c656d29f7",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "type scale generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "type scale generator",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-5b42ba2a3e22",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0000 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "usability test sample size",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "usability test sample size",
+    "os": "windows"
+   },
+   "result": null
+  },
+  {
+   "id": "10101702-2633-0066-0000-d9e8bca4af15",
+   "status_code": 20100,
+   "status_message": "Task Created.",
+   "time": "0.0232 sec.",
+   "cost": 0.0006,
+   "result_count": 0,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_post"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_post",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "user story generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "user story generator",
+    "os": "windows"
+   },
+   "result": null
+  }
+ ]
+}

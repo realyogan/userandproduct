@@ -1,0 +1,543 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0154 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-e9450eebd624",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0103 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-e9450eebd624"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "survey question checker",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "survey question checker",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "survey question checker",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=survey%20question%20checker&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:49 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "video",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 112,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": true,
+       "markdown": null,
+       "items": null,
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+       "domain": "surveymars.com",
+       "title": "Free Survey Maker with AI Test Generator",
+       "url": "https://surveymars.com/knowledge/free-survey-maker-with-ai-test-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://surveymars.com \u203a Knowledge",
+       "website_name": "SurveyMars",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Tired of clunky surveys? Try our free survey maker with a working AI test generator. Create, share, and analyze with ease. No strings attached.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "free survey maker with a working AI test generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "domain": "www.akiosurvey.com",
+       "title": "AkioSurvey.com: Free AI powered online survey tool",
+       "url": "https://www.akiosurvey.com/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.akiosurvey.com",
+       "website_name": "akiosurvey.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Just create a survey and add questions from 14 predefined question types. Or just let our AI survey generator produce a survey for you. It is possible to\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Just create a survey and add questions from 14 predefined question types"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.akiosurvey.com/#:~:text=Just%20create%20a%20survey%20and,produce%20a%20survey%20for%20you.",
+         "domain": "www.akiosurvey.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.involve.me",
+       "title": "AI Survey Builder & Free Survey Maker",
+       "url": "https://www.involve.me/survey-builder",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.involve.me \u203a survey-builder",
+       "website_name": "Involve.me",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Chat with AI to build and tweak your surveys. Describe the survey you need and the AI Agent builds it: question flow, content elements, copy,\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 452,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "Chat with AI to build and tweak your surveys"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.involve.me/survey-builder#:~:text=Chat%20with%20AI%20to%20build,copy%2C%20conditional%20logic%2C%20and%20design.",
+         "domain": "www.involve.me"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "www.besthunt.ai",
+       "title": "Free AI Survey Question Generator - BestHunt.ai",
+       "url": "https://www.besthunt.ai/agents/survey-question-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.besthunt.ai \u203a agents \u203a survey-question-gener...",
+       "website_name": "besthunt.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Use our survey question generator to craft effective questions that boost responses and gather valuable insights.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use our survey question generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+       "domain": "surveymars.com",
+       "title": "Create Engaging & Clear Survey Questions Using Free Tools",
+       "url": "https://surveymars.com/blog/engaging-survey-questions-tips/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://surveymars.com \u203a Blog",
+       "website_name": "SurveyMars",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Learn to craft unbiased, effective survey questions with free tools like SurveyMars. Boost response rates and collect quality data with ease. | SurveyMars.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn to craft unbiased, effective survey questions"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Weavely",
+         "title": "Free Survey Responses Using Synthetic Users in ChatGPT",
+         "timestamp": "2025-03-12 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=9tFgtwLFcWU"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Patech",
+         "title": "Free Online Survey Tools | Best Options for Teachers & ...",
+         "timestamp": "2024-08-12 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=BRaChDoJtCM"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube \u00b7 Weavely",
+         "title": "How to Get Free Survey Responses Using ChatGPT Agent Mode",
+         "timestamp": "2025-08-21 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=9019m4oW4Q4"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+       "domain": "uteach.io",
+       "title": "10 Best AI Survey Makers to Question Students and Clients",
+       "url": "https://uteach.io/articles/best-ai-survey-builder-tools",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://uteach.io \u203a articles \u203a best-ai-survey-builder-tools",
+       "website_name": "Uteach",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Dec 11, 2025 \u2014 Typeform is a survey and form-building platform that uses AI to automate the creation, distribution, and analysis of forms and surveys. You can\u00a0... Read more",
+       "pre_snippet": "12/11/2025 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Typeform"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://uteach.io/articles/best-ai-survey-builder-tools#:~:text=Typeform%20is%20a%20survey%20and,quizzes%2C%20to%20deeper%20research%20surveys.",
+         "domain": "uteach.io"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2025-12-11 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+       "domain": "aidaform.com",
+       "title": "Free Online Survey Maker | Easy, Secure & Customizable",
+       "url": "https://aidaform.com/forms/online-survey-maker.html",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://aidaform.com \u203a Forms",
+       "website_name": "AidaForm",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Easily design, publish, and analyze online surveys. AidaForm Builder includes advanced fields, GDPR-compliant storage, and real-time reports.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 237,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "Easily design, publish, and analyze online surveys"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "What is the easiest free survey tool?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How many questions to put in a survey?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the different types of surveys?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is a survey questionnaire?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+       "domain": "www.siliform.ai",
+       "title": "AI Survey Question Generator (Free, No Signup) - SiliForm",
+       "url": "https://www.siliform.ai/tools/ai-question-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.siliform.ai \u203a Tools",
+       "website_name": "siliform.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Choose 5\u201315 questions and click Generate. The AI writes neutral, one-idea-per-question survey questions in seconds. 3. Copy or build a live form. Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Choose 5\u201315 questions and click Generate"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.siliform.ai/tools/ai-question-generator#:~:text=Choose%205%E2%80%9315%20questions%20and%20click,or%20build%20a%20live%20form",
+         "domain": "www.siliform.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Survey question checker online",
+        "Free survey question checker",
+        "Survey question checker app",
+        "Questionnaire response generator",
+        "Upload survey online free",
+        "Fake survey",
+        "Post survey online",
+        "Response survey"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

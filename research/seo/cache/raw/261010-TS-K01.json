@@ -1,0 +1,1234 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.2649 sec.",
+ "cost": 0.03576,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0392-0000-a8606a8fc4cb",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.2300 sec.",
+   "cost": 0.03576,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "bulk_keyword_difficulty",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "bulk_keyword_difficulty",
+    "se_type": "google",
+    "keywords": [
+     "8pt grid",
+     "ab test duration calculator",
+     "ab test hypothesis template",
+     "ab test significance calculator",
+     "acceptance criteria generator",
+     "accessibility checklist",
+     "accessible color palette",
+     "affinity diagram",
+     "affinity diagram generator",
+     "affinity map",
+     "affinity mapping tool",
+     "agile release forecast",
+     "alt text",
+     "alt text examples",
+     "aspect ratio calculator",
+     "assumption map template",
+     "assumption mapping",
+     "best line height for body text",
+     "burn rate calculator",
+     "burn up chart",
+     "burndown chart",
+     "burndown chart template",
+     "button label length",
+     "cac payback calculator",
+     "capacity planning scrum",
+     "characters per line",
+     "chart chooser",
+     "churn rate calculator",
+     "cohort retention analysis",
+     "color contrast checker",
+     "color palette contrast checker",
+     "color palette generator",
+     "color shade generator",
+     "competitive analysis template",
+     "confidence interval for completion rate",
+     "contrast checker",
+     "conversion rate calculator",
+     "csat calculator",
+     "css clamp calculator",
+     "css grid generator",
+     "customer acquisition cost calculator",
+     "customer churn calculator",
+     "customer interview questions",
+     "customer journey map generator",
+     "customer lifetime value calculator",
+     "cycle time calculator",
+     "dau mau ratio",
+     "design token naming convention",
+     "design tokens",
+     "design tokens generator",
+     "discount break even calculator",
+     "double barreled question checker",
+     "empty states",
+     "error message examples",
+     "error message generator",
+     "feature comparison chart",
+     "flesch kincaid calculator",
+     "fluid typography calculator",
+     "font size scale",
+     "free to paid conversion rate",
+     "freemium conversion rate",
+     "funnel conversion rate calculator",
+     "grid calculator",
+     "heuristic evaluation checklist",
+     "heuristic evaluation template",
+     "how many participants usability test",
+     "how many users for usability testing",
+     "how to calculate csat",
+     "how to calculate nps",
+     "how to calculate sus score",
+     "how to write alt text",
+     "how to write error messages",
+     "how to write okrs",
+     "how to write survey questions",
+     "hypothesis statement",
+     "ice score prioritization",
+     "icon grid",
+     "icon size guidelines",
+     "job story template",
+     "jobs to be done statement",
+     "journey map maker",
+     "kano analysis calculator",
+     "kano model",
+     "kano survey",
+     "keyboard accessibility testing",
+     "kpi template",
+     "launch plan template",
+     "lead time vs cycle time",
+     "leading question checker",
+     "likert scale 5 point",
+     "likert scale examples",
+     "likert scale generator",
+     "line height calculator",
+     "line length calculator",
+     "littles law calculator",
+     "ltv cac ratio calculator",
+     "margin of error calculator",
+     "market size calculator",
+     "meeting cost calculator",
+     "metric definition template",
+     "microcopy checker",
+     "minimum tap target size",
+     "mission statement generator",
+     "modular scale calculator",
+     "monte carlo forecast agile",
+     "moscow method",
+     "moscow prioritization template",
+     "mrr calculator",
+     "mvp feature prioritization",
+     "mvp scope",
+     "net promoter score calculator",
+     "net revenue retention calculator",
+     "north star metric",
+     "north star metric examples",
+     "now next later roadmap",
+     "nps calculator",
+     "okr checker",
+     "okr generator",
+     "opportunity score formula",
+     "optimal line length",
+     "outcome driven innovation",
+     "persona generator",
+     "persona template",
+     "pert calculator",
+     "planning poker",
+     "positioning statement examples",
+     "positioning statement generator",
+     "positioning statement template",
+     "prd generator",
+     "price sensitivity meter",
+     "pricing page best practices",
+     "pricing tiers",
+     "product launch checklist",
+     "px to rem",
+     "raci chart template",
+     "raci matrix",
+     "readability checker",
+     "readability score",
+     "release notes generator",
+     "release notes template",
+     "rem to px",
+     "research question generator ux",
+     "responsive breakpoints",
+     "retro template",
+     "retrospective ideas",
+     "rice prioritization calculator",
+     "rice score calculator",
+     "roadmap maker",
+     "saas pricing tiers",
+     "saas quick ratio",
+     "spacing scale generator",
+     "sprint capacity calculator",
+     "sprint planning capacity",
+     "sprint retrospective formats",
+     "sprint velocity calculator",
+     "stakeholder map template",
+     "stakeholder mapping",
+     "startup runway calculator",
+     "statistical significance calculator",
+     "stickiness ratio",
+     "story point calculator",
+     "story points to hours",
+     "survey margin of error calculator",
+     "survey question checker",
+     "sus calculator",
+     "sus score calculator",
+     "sus score interpretation",
+     "system usability scale calculator",
+     "tailwind color generator",
+     "tam sam som calculator",
+     "task completion rate calculator",
+     "team capacity calculator",
+     "three point estimate",
+     "tiered pricing",
+     "tint and shade generator",
+     "touch target size",
+     "type scale generator",
+     "typography scale generator",
+     "ui component states",
+     "usability test sample size",
+     "usability testing sample size calculator",
+     "user interview questions",
+     "user interview script template",
+     "user research incentives",
+     "user story generator",
+     "ux research incentive calculator",
+     "ux research questions",
+     "ux writing tool",
+     "value proposition canvas",
+     "value proposition canvas template",
+     "van westendorp calculator",
+     "wcag checklist",
+     "wcag contrast checker",
+     "wcag target size",
+     "when will it be done",
+     "which chart to use",
+     "wip limit",
+     "wsjf calculator"
+    ],
+    "location_code": 2840,
+    "language_code": "en"
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 198,
+     "items_count": 198,
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "mission statement generator",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "modular scale calculator",
+       "keyword_difficulty": 54
+      },
+      {
+       "se_type": "google",
+       "keyword": "moscow method",
+       "keyword_difficulty": 16
+      },
+      {
+       "se_type": "google",
+       "keyword": "moscow prioritization template",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "mrr calculator",
+       "keyword_difficulty": 5
+      },
+      {
+       "se_type": "google",
+       "keyword": "mvp feature prioritization",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "mvp scope",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "net revenue retention calculator",
+       "keyword_difficulty": 20
+      },
+      {
+       "se_type": "google",
+       "keyword": "north star metric",
+       "keyword_difficulty": 5
+      },
+      {
+       "se_type": "google",
+       "keyword": "north star metric examples",
+       "keyword_difficulty": 10
+      },
+      {
+       "se_type": "google",
+       "keyword": "now next later roadmap",
+       "keyword_difficulty": 1
+      },
+      {
+       "se_type": "google",
+       "keyword": "nps calculator",
+       "keyword_difficulty": 16
+      },
+      {
+       "se_type": "google",
+       "keyword": "okr generator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "opportunity score formula",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "optimal line length",
+       "keyword_difficulty": 22
+      },
+      {
+       "se_type": "google",
+       "keyword": "outcome driven innovation",
+       "keyword_difficulty": 17
+      },
+      {
+       "se_type": "google",
+       "keyword": "persona generator",
+       "keyword_difficulty": 28
+      },
+      {
+       "se_type": "google",
+       "keyword": "persona template",
+       "keyword_difficulty": 32
+      },
+      {
+       "se_type": "google",
+       "keyword": "pert calculator",
+       "keyword_difficulty": 16
+      },
+      {
+       "se_type": "google",
+       "keyword": "planning poker",
+       "keyword_difficulty": 26
+      },
+      {
+       "se_type": "google",
+       "keyword": "positioning statement examples",
+       "keyword_difficulty": 5
+      },
+      {
+       "se_type": "google",
+       "keyword": "positioning statement generator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "positioning statement template",
+       "keyword_difficulty": 23
+      },
+      {
+       "se_type": "google",
+       "keyword": "prd generator",
+       "keyword_difficulty": 5
+      },
+      {
+       "se_type": "google",
+       "keyword": "pricing page best practices",
+       "keyword_difficulty": 18
+      },
+      {
+       "se_type": "google",
+       "keyword": "product launch checklist",
+       "keyword_difficulty": 14
+      },
+      {
+       "se_type": "google",
+       "keyword": "px to rem",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "raci chart template",
+       "keyword_difficulty": 9
+      },
+      {
+       "se_type": "google",
+       "keyword": "raci matrix",
+       "keyword_difficulty": 48
+      },
+      {
+       "se_type": "google",
+       "keyword": "readability checker",
+       "keyword_difficulty": 34
+      },
+      {
+       "se_type": "google",
+       "keyword": "readability score",
+       "keyword_difficulty": 48
+      },
+      {
+       "se_type": "google",
+       "keyword": "release notes generator",
+       "keyword_difficulty": 21
+      },
+      {
+       "se_type": "google",
+       "keyword": "release notes template",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "rem to px",
+       "keyword_difficulty": 1
+      },
+      {
+       "se_type": "google",
+       "keyword": "responsive breakpoints",
+       "keyword_difficulty": 36
+      },
+      {
+       "se_type": "google",
+       "keyword": "retrospective ideas",
+       "keyword_difficulty": 7
+      },
+      {
+       "se_type": "google",
+       "keyword": "rice prioritization calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "rice score calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "roadmap maker",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "saas pricing tiers",
+       "keyword_difficulty": 17
+      },
+      {
+       "se_type": "google",
+       "keyword": "saas quick ratio",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "spacing scale generator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "sprint capacity calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "sprint planning capacity",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "sprint retrospective formats",
+       "keyword_difficulty": 16
+      },
+      {
+       "se_type": "google",
+       "keyword": "sprint velocity calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "stakeholder mapping",
+       "keyword_difficulty": 7
+      },
+      {
+       "se_type": "google",
+       "keyword": "startup runway calculator",
+       "keyword_difficulty": 47
+      },
+      {
+       "se_type": "google",
+       "keyword": "statistical significance calculator",
+       "keyword_difficulty": 26
+      },
+      {
+       "se_type": "google",
+       "keyword": "stickiness ratio",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "story point calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "story points to hours",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "survey question checker",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "sus calculator",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "sus score calculator",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "sus score interpretation",
+       "keyword_difficulty": 15
+      },
+      {
+       "se_type": "google",
+       "keyword": "system usability scale calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "tailwind color generator",
+       "keyword_difficulty": 18
+      },
+      {
+       "se_type": "google",
+       "keyword": "tam sam som calculator",
+       "keyword_difficulty": 13
+      },
+      {
+       "se_type": "google",
+       "keyword": "team capacity calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "three point estimate",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "tiered pricing",
+       "keyword_difficulty": 27
+      },
+      {
+       "se_type": "google",
+       "keyword": "tint and shade generator",
+       "keyword_difficulty": 6
+      },
+      {
+       "se_type": "google",
+       "keyword": "touch target size",
+       "keyword_difficulty": 48
+      },
+      {
+       "se_type": "google",
+       "keyword": "type scale generator",
+       "keyword_difficulty": 30
+      },
+      {
+       "se_type": "google",
+       "keyword": "typography scale generator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "usability test sample size",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "user interview questions",
+       "keyword_difficulty": 22
+      },
+      {
+       "se_type": "google",
+       "keyword": "user interview script template",
+       "keyword_difficulty": 48
+      },
+      {
+       "se_type": "google",
+       "keyword": "user research incentives",
+       "keyword_difficulty": 47
+      },
+      {
+       "se_type": "google",
+       "keyword": "user story generator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "ux research questions",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "ux writing tool",
+       "keyword_difficulty": 12
+      },
+      {
+       "se_type": "google",
+       "keyword": "value proposition canvas",
+       "keyword_difficulty": 15
+      },
+      {
+       "se_type": "google",
+       "keyword": "value proposition canvas template",
+       "keyword_difficulty": 5
+      },
+      {
+       "se_type": "google",
+       "keyword": "van westendorp calculator",
+       "keyword_difficulty": 52
+      },
+      {
+       "se_type": "google",
+       "keyword": "wcag checklist",
+       "keyword_difficulty": 44
+      },
+      {
+       "se_type": "google",
+       "keyword": "wcag contrast checker",
+       "keyword_difficulty": 56
+      },
+      {
+       "se_type": "google",
+       "keyword": "wcag target size",
+       "keyword_difficulty": 21
+      },
+      {
+       "se_type": "google",
+       "keyword": "when will it be done",
+       "keyword_difficulty": 21
+      },
+      {
+       "se_type": "google",
+       "keyword": "which chart to use",
+       "keyword_difficulty": 70
+      },
+      {
+       "se_type": "google",
+       "keyword": "wip limit",
+       "keyword_difficulty": 10
+      },
+      {
+       "se_type": "google",
+       "keyword": "wsjf calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "8pt grid",
+       "keyword_difficulty": 10
+      },
+      {
+       "se_type": "google",
+       "keyword": "ab test duration calculator",
+       "keyword_difficulty": 46
+      },
+      {
+       "se_type": "google",
+       "keyword": "ab test significance calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "acceptance criteria generator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "accessibility checklist",
+       "keyword_difficulty": 27
+      },
+      {
+       "se_type": "google",
+       "keyword": "accessible color palette",
+       "keyword_difficulty": 49
+      },
+      {
+       "se_type": "google",
+       "keyword": "affinity diagram",
+       "keyword_difficulty": 24
+      },
+      {
+       "se_type": "google",
+       "keyword": "affinity diagram generator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "affinity map",
+       "keyword_difficulty": 27
+      },
+      {
+       "se_type": "google",
+       "keyword": "affinity mapping tool",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "agile release forecast",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "alt text",
+       "keyword_difficulty": 70
+      },
+      {
+       "se_type": "google",
+       "keyword": "alt text examples",
+       "keyword_difficulty": 35
+      },
+      {
+       "se_type": "google",
+       "keyword": "aspect ratio calculator",
+       "keyword_difficulty": 16
+      },
+      {
+       "se_type": "google",
+       "keyword": "assumption mapping",
+       "keyword_difficulty": 6
+      },
+      {
+       "se_type": "google",
+       "keyword": "burn rate calculator",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "burn up chart",
+       "keyword_difficulty": 12
+      },
+      {
+       "se_type": "google",
+       "keyword": "burndown chart",
+       "keyword_difficulty": 26
+      },
+      {
+       "se_type": "google",
+       "keyword": "burndown chart template",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "cac payback calculator",
+       "keyword_difficulty": 18
+      },
+      {
+       "se_type": "google",
+       "keyword": "capacity planning scrum",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "characters per line",
+       "keyword_difficulty": 7
+      },
+      {
+       "se_type": "google",
+       "keyword": "chart chooser",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "cohort retention analysis",
+       "keyword_difficulty": 11
+      },
+      {
+       "se_type": "google",
+       "keyword": "color contrast checker",
+       "keyword_difficulty": 56
+      },
+      {
+       "se_type": "google",
+       "keyword": "color palette contrast checker",
+       "keyword_difficulty": 29
+      },
+      {
+       "se_type": "google",
+       "keyword": "color palette generator",
+       "keyword_difficulty": 100
+      },
+      {
+       "se_type": "google",
+       "keyword": "color shade generator",
+       "keyword_difficulty": 35
+      },
+      {
+       "se_type": "google",
+       "keyword": "competitive analysis template",
+       "keyword_difficulty": 4
+      },
+      {
+       "se_type": "google",
+       "keyword": "contrast checker",
+       "keyword_difficulty": 59
+      },
+      {
+       "se_type": "google",
+       "keyword": "conversion rate calculator",
+       "keyword_difficulty": 29
+      },
+      {
+       "se_type": "google",
+       "keyword": "csat calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "css clamp calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "css grid generator",
+       "keyword_difficulty": 14
+      },
+      {
+       "se_type": "google",
+       "keyword": "customer churn calculator",
+       "keyword_difficulty": 13
+      },
+      {
+       "se_type": "google",
+       "keyword": "customer interview questions",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "customer journey map generator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "cycle time calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "dau mau ratio",
+       "keyword_difficulty": 12
+      },
+      {
+       "se_type": "google",
+       "keyword": "design token naming convention",
+       "keyword_difficulty": 11
+      },
+      {
+       "se_type": "google",
+       "keyword": "design tokens",
+       "keyword_difficulty": 29
+      },
+      {
+       "se_type": "google",
+       "keyword": "design tokens generator",
+       "keyword_difficulty": 50
+      },
+      {
+       "se_type": "google",
+       "keyword": "empty states",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "error message examples",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "error message generator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "feature comparison chart",
+       "keyword_difficulty": 22
+      },
+      {
+       "se_type": "google",
+       "keyword": "flesch kincaid calculator",
+       "keyword_difficulty": 34
+      },
+      {
+       "se_type": "google",
+       "keyword": "fluid typography calculator",
+       "keyword_difficulty": 19
+      },
+      {
+       "se_type": "google",
+       "keyword": "font size scale",
+       "keyword_difficulty": 30
+      },
+      {
+       "se_type": "google",
+       "keyword": "free to paid conversion rate",
+       "keyword_difficulty": 31
+      },
+      {
+       "se_type": "google",
+       "keyword": "freemium conversion rate",
+       "keyword_difficulty": 21
+      },
+      {
+       "se_type": "google",
+       "keyword": "funnel conversion rate calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "grid calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "heuristic evaluation checklist",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "heuristic evaluation template",
+       "keyword_difficulty": 18
+      },
+      {
+       "se_type": "google",
+       "keyword": "how many participants usability test",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "how many users for usability testing",
+       "keyword_difficulty": 43
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to calculate csat",
+       "keyword_difficulty": 17
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to calculate nps",
+       "keyword_difficulty": 35
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to calculate sus score",
+       "keyword_difficulty": 8
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to write alt text",
+       "keyword_difficulty": 54
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to write survey questions",
+       "keyword_difficulty": 37
+      },
+      {
+       "se_type": "google",
+       "keyword": "hypothesis statement",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "icon grid",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "job story template",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "jobs to be done statement",
+       "keyword_difficulty": 14
+      },
+      {
+       "se_type": "google",
+       "keyword": "journey map maker",
+       "keyword_difficulty": 55
+      },
+      {
+       "se_type": "google",
+       "keyword": "kano model",
+       "keyword_difficulty": 33
+      },
+      {
+       "se_type": "google",
+       "keyword": "kano survey",
+       "keyword_difficulty": 41
+      },
+      {
+       "se_type": "google",
+       "keyword": "keyboard accessibility testing",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "kpi template",
+       "keyword_difficulty": 8
+      },
+      {
+       "se_type": "google",
+       "keyword": "launch plan template",
+       "keyword_difficulty": 14
+      },
+      {
+       "se_type": "google",
+       "keyword": "lead time vs cycle time",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "likert scale examples",
+       "keyword_difficulty": 21
+      },
+      {
+       "se_type": "google",
+       "keyword": "likert scale generator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "line height calculator",
+       "keyword_difficulty": 12
+      },
+      {
+       "se_type": "google",
+       "keyword": "line length calculator",
+       "keyword_difficulty": 0
+      },
+      {
+       "se_type": "google",
+       "keyword": "littles law calculator",
+       "keyword_difficulty": 1
+      },
+      {
+       "se_type": "google",
+       "keyword": "ltv cac ratio calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "margin of error calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "market size calculator",
+       "keyword_difficulty": 6
+      },
+      {
+       "se_type": "google",
+       "keyword": "meeting cost calculator",
+       "keyword_difficulty": 2
+      },
+      {
+       "se_type": "google",
+       "keyword": "net promoter score calculator",
+       "keyword_difficulty": 19
+      },
+      {
+       "se_type": "google",
+       "keyword": "retro template",
+       "keyword_difficulty": 13
+      },
+      {
+       "se_type": "google",
+       "keyword": "stakeholder map template",
+       "keyword_difficulty": 3
+      },
+      {
+       "se_type": "google",
+       "keyword": "pricing tiers",
+       "keyword_difficulty": 27
+      },
+      {
+       "se_type": "google",
+       "keyword": "price sensitivity meter",
+       "keyword_difficulty": 10
+      },
+      {
+       "se_type": "google",
+       "keyword": "microcopy checker",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "minimum tap target size",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "monte carlo forecast agile",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "okr checker",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "research question generator ux",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "survey margin of error calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "task completion rate calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "ui component states",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "usability testing sample size calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "ux research incentive calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "likert scale 5 point",
+       "keyword_difficulty": 17
+      },
+      {
+       "se_type": "google",
+       "keyword": "churn rate calculator",
+       "keyword_difficulty": 18
+      },
+      {
+       "se_type": "google",
+       "keyword": "customer acquisition cost calculator",
+       "keyword_difficulty": 26
+      },
+      {
+       "se_type": "google",
+       "keyword": "customer lifetime value calculator",
+       "keyword_difficulty": 27
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to write okrs",
+       "keyword_difficulty": 17
+      },
+      {
+       "se_type": "google",
+       "keyword": "ab test hypothesis template",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "assumption map template",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "best line height for body text",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "button label length",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "confidence interval for completion rate",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "discount break even calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "double barreled question checker",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to write error messages",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "ice score prioritization",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "icon size guidelines",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "kano analysis calculator",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "leading question checker",
+       "keyword_difficulty": null
+      },
+      {
+       "se_type": "google",
+       "keyword": "metric definition template",
+       "keyword_difficulty": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

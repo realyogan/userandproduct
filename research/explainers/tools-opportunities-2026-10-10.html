@@ -183,23 +183,23 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <h1>Ten tools for launch, and seventy-two more</h1>
 <button class="theme" type="button" id="themebtn" aria-label="Switch color theme">Theme: auto</button>
 </div>
-<p class="answer">These are the ten small tools to build first: four for designers and researchers, four for product owners and delivery, two for metrics. Each one does a job people repeat every sprint, study or quarter, and each pastes into Jira, Figma or a spreadsheet. Another 72 ideas wait behind them. One paid check, about $0.23, would put a search number on the phrases the store does not cover yet.</p>
-<p class="date">October 10, 2026. Research only: nothing on this page is built yet. No paid calls were made.</p>
+<p class="answer">These are the ten small tools to build first: four for product owners and delivery, three for metrics, three for designers and researchers. Each one does a job people repeat every sprint, study or quarter, and each pastes into Jira, Figma or a spreadsheet. The paid search check is done: three tools swapped in because people search for them, and two stay in with little search because people use them every week.</p>
+<p class="date">October 10, 2026. Research only: nothing on this page is built yet. Search numbers measured on October 10 (Google US, with the UK and Canada for the shortlist).</p>
 <p class="hand">Think of the tools as the calculator in a teacher's drawer: small, used every week, and kept because it gives the right answer fast.</p>
 <section class="summary block" id="s1" aria-labelledby="h1s">
 <h2 id="h1s">1. The one-screen version</h2>
 <ul>
-<li><b>The ten:</b> SUS score calculator, user story builder, backlog prioritization scorer, sprint capacity calculator, usability test sample size, delivery forecast, retention and churn calculator, type scale generator, survey sample size and margin of error, OKR checker.</li>
-<li><b>Why these:</b> each scored highest on repeat use, then on search demand and on how open Google&#8217;s first page is. Each also sits in a category we write about at launch.</li>
-<li><b>What beats the AI answer:</b> on all 12 calculator searches we pulled on October 8, Google&#8217;s AI Overview offered to do the maths itself. A one-line formula loses to that. A tool that takes a pasted list, draws a chart or exports to Jira does not.</li>
-<li><b>The store is thin here.</b> It was built for articles, so most tool phrases have no volume yet. The ones it has are strong: user story template (2,900), PRD template (2,900), sample size calculator (8,100), retention rate formula (1,600), OKR examples (1,300).</li>
-<li><b>Every tool page</b> has the working tool on top, then what it is, when to use it, how it works, a worked example and links to the articles beside it. Google treats a tool page as real content only when the tool works and the page explains it.</li>
+<li><b>The ten:</b> PRD outline generator, User story and acceptance criteria builder, Type scale generator, OKR checker, NPS calculator with margin of error, Survey question checker, SUS score calculator, Backlog prioritization scorer (RICE, ICE, WSJF), Sprint capacity calculator, Retention and churn calculator.</li>
+<li><b>What the search check changed:</b> three swaps. The PRD outline generator, the NPS calculator and the survey question checker come in; the delivery forecast and the survey sample size calculator move to the drip; the usability test sample size calculator moves to later.</li>
+<li><b>The tool phrases are small.</b> Most calculator and generator searches are 10 to 110 a month in the US. People search for the template, the examples or the formula instead: PRD template (2,900), user story template (2,900), OKR examples (1,300), product survey questions (1,600).</li>
+<li><b>One real tool search:</b> NPS calculator, 8,100 a month in the US and 5,400 in the UK, at difficulty 16. The contrast checkers are bigger (12,100) but their first page is held by WebAIM, Adobe and accessibility vendors.</li>
+<li><b>What beats the AI answer:</b> Google shows an AI Overview on 18 of the 19 first pages we pulled. A one-line formula loses to that. A tool that takes a pasted list, draws a chart or exports to Jira does not.</li>
 </ul>
 <div class="stats">
-<div class="stat"><b>82 ideas</b><span>scored and ranked; 32 have a store volume behind their best phrase.</span></div>
-<div class="stat"><b>about 76 hours</b><span>of plain JavaScript for the launch ten, before page copy.</span></div>
-<div class="stat"><b>199 phrases</b><span>with no search data yet, ready for one paid check.</span></div>
-<div class="stat"><b>about $0.23</b><span>for that check: US volumes, UK and Canada for the shortlist, difficulty, 20 first pages.</span></div>
+<div class="stat"><b>82 ideas</b><span>rescored with measured search numbers; usefulness still weighs most.</span></div>
+<div class="stat"><b>about 75 hours</b><span>of plain JavaScript for the launch ten, before page copy.</span></div>
+<div class="stat"><b>199 phrases</b><span>measured: 171 with a US volume, 19 first pages read.</span></div>
+<div class="stat"><b>$0.226</b><span>spent on the check, against an estimate of $0.23.</span></div>
 </div>
 <p class="rulebox"><b>Rule</b> Build the tool someone opens every sprint, not the one someone searches once.</p>
 </section>
@@ -213,7 +213,7 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <li><a href="#s5">Every idea, by who it serves</a></li>
 <li><a href="#s6">The people and their small jobs</a></li>
 <li><a href="#s7">How the ideas were scored</a></li>
-<li><a href="#s8">The paid check</a></li>
+<li><a href="#s8">The paid check: what it found</a></li>
 </ol>
 </nav>
 </header>
@@ -223,17 +223,18 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <h2 id="h2s">2. The launch ten</h2>
 <p class="lead">Read each card as a promise to one person: here is the job, here is what you type, here is what you get to paste.</p>
 <ol class="cards">
-<li class="card"><span class="no">1</span><h3>SUS score calculator</h3><span class="cat">UX research &#183; about 6 hours &#183; pastes as: Spreadsheet (paste in, CSV out)</span>
+<li class="card"><span class="no">1</span><h3>PRD outline generator</h3><span class="cat">Product discovery &#183; about 6 hours &#183; pastes as: Markdown for Notion, Confluence, Google Docs</span>
 <dl>
-<dt>For</dt><dd>UX researcher, product designer</dd>
-<dt>The job</dt><dd>Score a System Usability Scale study and say what the number means</dd>
-<dt>You type</dt><dd>Paste the 10 answers per person from a spreadsheet (one row each)</dd>
-<dt>You get</dt><dd>SUS score, grade and percentile against the 68 average, a confidence interval, per-item averages, flags for straight-lined rows</dd>
-<dt>Why they come back</dt><dd>Every usability round ends with a SUS score; teams re-run it each release to compare</dd>
-<dt>Closest free tool today</dt><dd>Trymata free SUS calculator; Lyssna Google Sheets template. Ours: Paste a whole sheet instead of typing 10 boxes per person; confidence interval and straight-lining check that the free ones skip.</dd>
-<dt>Search</dt><dd>sus score calculator; system usability scale calculator; how to calculate sus score (no store data)</dd>
+<dt>For</dt><dd>Product manager, founder</dd>
+<dt>The job</dt><dd>Start a product requirements document with the right sections for the size of the work</dd>
+<dt>You type</dt><dd>Size of change, audience, open questions</dd>
+<dt>You get</dt><dd>A PRD skeleton (problem, goals, non-goals, users, scope, metrics, risks) with prompts; markdown</dd>
+<dt>Why they come back</dt><dd>Every new initiative</dd>
+<dt>Closest free tool today</dt><dd>Template galleries (Notion, Atlassian, Productboard). Ours: Scales the template to the size of the work: one page for small, full for big.</dd>
+<dt>Searches a month (measured)</dt><dd>prd template 2,900 a month (US), difficulty 6; prd generator 110 (UK 20, Canada 20), difficulty 5. Page one for &#8216;prd generator&#8217;: 6 SaaS calculator or content, 3 forum or UGC; top three brilworks.com, chatprd.ai, telos-ai.org. AI Overview: yes.</dd>
+<dt>Score</dt><dd>92 (was 84 before the check)</dd>
 </dl>
-<p class="why">The most open tool page we have seen: on page one Nielsen Norman Group ranks with an article and only one or two real calculators appear. Researchers use it after every round.</p></li>
+<p class="why">Measured: PRD template 2,900 a month at difficulty 6, the easiest strong phrase in the set. Page one for &#x27;prd generator&#x27; is all AI writing apps and forum threads; a structured, no-sign-up outline that scales to the size of the work stands apart. Ships with its own template page.</p></li>
 <li class="card"><span class="no">2</span><h3>User story and acceptance criteria builder</h3><span class="cat">Product discovery &#183; about 8 hours &#183; pastes as: Jira markup; markdown; Gherkin</span>
 <dl>
 <dt>For</dt><dd>Product owner, product manager, business analyst</dd>
@@ -242,65 +243,11 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <dt>You get</dt><dd>&#x27;As a / I want / so that&#x27; story, Given-When-Then criteria, INVEST warnings, copy as Jira markup or markdown</dd>
 <dt>Why they come back</dt><dd>Several times a week for a product owner</dd>
 <dt>Closest free tool today</dt><dd>Figr and Kollabe acceptance criteria generators (AI). Ours: No AI, no sign-up: a structured builder with edge-case prompts and INVEST checks, pasted straight into Jira.</dd>
-<dt>Search</dt><dd>user story template (2,900); user story format (2,900); user stories examples with acceptance criteria (1,600); acceptance criteria user story template (1,600)</dd>
+<dt>Searches a month (measured)</dt><dd>user story template 2,900 a month (US), difficulty 18; user story generator 30 (UK 10, Canada 10), difficulty 0. Page one for &#8216;user story generator&#8217;: 3 big product, 5 SaaS calculator or content, 1 forum or UGC; top three kollabe.com, easyretro.io, reddit.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>90 (was 90 before the check)</dd>
 </dl>
-<p class="why">The strongest searched demand in the product set (user story template and format, 2,900 each; KD 10 to 21) and a weekly job for every product owner. Output pastes straight into Jira.</p></li>
-<li class="card"><span class="no">3</span><h3>Backlog prioritization scorer (RICE, ICE, WSJF)</h3><span class="cat">Product strategy &#183; about 10 hours &#183; pastes as: CSV for Jira, Sheets, Notion</span>
-<dl>
-<dt>For</dt><dd>Product manager, product owner, founder</dd>
-<dt>The job</dt><dd>Score and rank a whole list of ideas with RICE, ICE or WSJF, and see the order change as you tweak</dd>
-<dt>You type</dt><dd>Paste a list from a spreadsheet or a Jira export; pick the method</dd>
-<dt>You get</dt><dd>Ranked table, score breakdown, a flag when one shaky guess decides the order, CSV for Jira or Sheets</dd>
-<dt>Why they come back</dt><dd>Every planning cycle and quarterly review</dd>
-<dt>Closest free tool today</dt><dd>EasyRetro, ProductLift, Kollabe RICE calculators (one item at a time). Ours: A whole backlog, three methods, and a warning when the order hangs on one guess.</dd>
-<dt>Search</dt><dd>moscow prioritization (4,400); rice score (1,900, mixed meanings); rice prioritization (880); wsjf prioritization (210); prioritization tool (140)</dd>
-</dl>
-<p class="why">Every planning cycle. The free RICE calculators score one item at a time; ours ranks the whole backlog and warns when one guess decides the order. MoSCoW folds in as a fourth mode (4,400 searches).</p></li>
-<li class="card"><span class="no">4</span><h3>Sprint capacity calculator</h3><span class="cat">Project management &#183; about 6 hours &#183; pastes as: Text for Jira or Confluence; CSV</span>
-<dl>
-<dt>For</dt><dd>Scrum master, delivery lead, engineering manager, product owner</dd>
-<dt>The job</dt><dd>Work out how much the team can take on this sprint</dd>
-<dt>You type</dt><dd>People, days in the sprint, days off, meeting hours, focus factor; optional points-per-day history</dd>
-<dt>You get</dt><dd>Hours and points of capacity, per person and total, with a commitment range; a line for the sprint planning notes</dd>
-<dt>Why they come back</dt><dd>Every sprint, every two weeks</dd>
-<dt>Closest free tool today</dt><dd>Vendor articles and spreadsheet templates (ONES, Xebia); no standard free tool. Ours: Days off per person and a range, not a single number; remembers the team in the browser.</dd>
-<dt>Search</dt><dd>sprint capacity calculator (no data)</dd>
-</dl>
-<p class="why">Used every two weeks by every scrum team. The web scan found vendor articles and spreadsheets, no standard free tool. The repeat-use champion.</p></li>
-<li class="card"><span class="no">5</span><h3>Usability test sample size calculator</h3><span class="cat">UX research &#183; about 5 hours &#183; pastes as: Text summary for the research plan</span>
-<dl>
-<dt>For</dt><dd>UX researcher, product designer, product manager</dd>
-<dt>The job</dt><dd>Decide how many people to test so you see the problems that matter</dd>
-<dt>You type</dt><dd>How common a problem must be before you care (e.g. 1 in 10 users), the share of those problems you want to see, number of user groups</dd>
-<dt>You get</dt><dd>Number of participants, a curve of problems found per added participant, the plan as rounds (e.g. 3 rounds of 5)</dd>
-<dt>Why they come back</dt><dd>Asked at the start of every study and in every budget conversation</dd>
-<dt>Closest free tool today</dt><dd>MeasuringU tables and articles (no calculator surfaced in the scan). Ours: Turns the &#x27;five users&#x27; debate into a slider: shows what five finds and what it misses for rare problems.</dd>
-<dt>Search</dt><dd>usability testing (2,400); how many users for usability testing (no data)</dd>
-</dl>
-<p class="why">Answers the oldest question in research (&#x27;how many users?&#x27;) with the maths behind the five-user rule. No calculator surfaced in the scan.</p></li>
-<li class="card"><span class="no">6</span><h3>Delivery forecast (velocity range and Monte Carlo)</h3><span class="cat">Project management &#183; about 10 hours &#183; pastes as: Text and PNG for the stakeholder update</span>
-<dl>
-<dt>For</dt><dd>Scrum master, delivery lead, product manager, engineering manager</dd>
-<dt>The job</dt><dd>Answer &#x27;when will it be done&#x27; with a range instead of a single date</dd>
-<dt>You type</dt><dd>Backlog size, past sprint velocities or weekly throughput, start date</dd>
-<dt>You get</dt><dd>Dates at 50%, 85% and 95% likelihood, a histogram, and a sentence to share with stakeholders</dd>
-<dt>Why they come back</dt><dd>Every release conversation</dd>
-<dt>Closest free tool today</dt><dd>Jira marketplace forecasting apps (Monte Carlo is a paid tier); spreadsheets. Ours: Free, in the browser, numbers pasted from Jira; the 85% line explained in plain words.</dd>
-<dt>Search</dt><dd>story points (9,900, a definition search); release forecast (no data)</dd>
-</dl>
-<p class="why">Turns &#x27;when will it be done&#x27; into dates at 50, 85 and 95 percent. The Jira apps put Monte Carlo behind a paid tier; no free web tool surfaced. Pairs with sprint capacity.</p></li>
-<li class="card"><span class="no">7</span><h3>Retention and churn calculator</h3><span class="cat">Product metrics &#183; about 10 hours &#183; pastes as: CSV in and out; PNG chart</span>
-<dl>
-<dt>For</dt><dd>Product analyst, growth lead, product manager, founder</dd>
-<dt>The job</dt><dd>Turn a cohort table into retention curves, churn and net revenue retention</dd>
-<dt>You type</dt><dd>Paste a cohort table (users or revenue by start month and month since start), or three numbers for a quick rate</dd>
-<dt>You get</dt><dd>Retention per cohort as a heatmap and curves, the average curve, churn rate, gross and net revenue retention, CSV</dd>
-<dt>Why they come back</dt><dd>Monthly metrics review and board decks</dd>
-<dt>Closest free tool today</dt><dd>Founderpath cohort analysis; MetricGate; Amplitude churn calculator. Ours: A quick-rate mode for the &#x27;how to calculate&#x27; searcher and a cohort mode for the analyst, on one page.</dd>
-<dt>Search</dt><dd>retention rate formula (1,600); how to calculate retention rate (1,300); customer retention rate calculator (210); net retention rate formula (210); retention rate calculator (140)</dd>
-</dl>
-<p class="why">The business domain&#x27;s anchor: retention rate formula (1,600) and how to calculate retention rate (1,300) at KD 16 to 18, and a page one of SaaS lead magnets and thin calculator sites.</p></li>
-<li class="card"><span class="no">8</span><h3>Type scale generator</h3><span class="cat">UI design &#183; about 8 hours &#183; pastes as: CSS variables; JSON tokens; Figma table</span>
+<p class="why">Measured: the demand is template demand (user story template and format, 2,900 each, difficulty 18); &#x27;user story generator&#x27; itself is only 30 a month and its page one is AI generators from Miro, Atlassian and Figma. Still the weekly job of every product owner, so it stays: the page answers the template search and the builder does the work.</p></li>
+<li class="card"><span class="no">3</span><h3>Type scale generator</h3><span class="cat">UI design &#183; about 8 hours &#183; pastes as: CSS variables; JSON tokens; Figma table</span>
 <dl>
 <dt>For</dt><dd>UI designer, product designer, design system lead, front-end engineer</dd>
 <dt>The job</dt><dd>Build a consistent set of font sizes and line heights from one base and one ratio</dd>
@@ -308,21 +255,11 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <dt>You get</dt><dd>Sizes in px and rem, line heights snapped to a 4px grid, CSS variables, clamp() values, a Figma text-style table</dd>
 <dt>Why they come back</dt><dd>Every new product, brand refresh or design system change</dd>
 <dt>Closest free tool today</dt><dd>typescale.com (Jeremy Church); Utopia fluid type. Ours: Static scale, fluid clamp() and snapped line heights on one page, previewed in real interface text.</dd>
-<dt>Search</dt><dd>type scale generator (no data); font size accessibility (3,600)</dd>
+<dt>Searches a month (measured)</dt><dd>type scale generator 110 a month (US), difficulty 30; UK 30, Canada 20. Page one for &#8216;type scale generator&#8217;: 1 SaaS calculator or content, 4 thin calculator site, 1 editorial, 3 forum or UGC; top three illustration.app, news.ycombinator.com, gist.github.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>86 (was 82 before the check)</dd>
 </dl>
-<p class="why">The design tool people bookmark. One page gives the scale, fluid clamp() values and snapped line heights, as CSS variables and a Figma table. Line height, clamp and px-to-rem fold in here.</p></li>
-<li class="card"><span class="no">9</span><h3>Survey sample size and margin of error calculator</h3><span class="cat">UX research &#183; about 5 hours &#183; pastes as: Text line for the readout</span>
-<dl>
-<dt>For</dt><dd>UX researcher, product manager, product marketer</dd>
-<dt>The job</dt><dd>Find how many responses a survey needs, or how far to trust the responses you have</dd>
-<dt>You type</dt><dd>Population size, confidence level, margin you can live with; or the responses you got and the percentage you saw</dd>
-<dt>You get</dt><dd>Responses needed; margin of error for your result; the range in plain words (&#x27;between 55% and 65%&#x27;)</dd>
-<dt>Why they come back</dt><dd>Every survey, before sending and when reporting</dd>
-<dt>Closest free tool today</dt><dd>SurveyMonkey and Qualtrics margin of error calculators; Raosoft. Ours: Both directions on one page, the result written as a sentence you can paste into a readout.</dd>
-<dt>Search</dt><dd>sample size calculator (8,100); power analysis sample size calculator (880); sample size calculator for survey (390); survey sample size calculator (390)</dd>
-</dl>
-<p class="why">The biggest tool phrase in the store (sample size calculator, 8,100). The head is crowded, so the page aims at the survey tail (KD 25) and writes the result as a sentence for the readout.</p></li>
-<li class="card"><span class="no">10</span><h3>OKR checker</h3><span class="cat">Product metrics &#183; about 8 hours &#183; pastes as: Markdown; spreadsheet</span>
+<p class="why">Measured: type scale generator 110 a month (difficulty 30), plus font size scale 90. Small, but page one is thin single-purpose sites, a Hacker News thread and a GitHub gist: the most beatable design page in the check.</p></li>
+<li class="card"><span class="no">4</span><h3>OKR checker</h3><span class="cat">Product metrics &#183; about 8 hours &#183; pastes as: Markdown; spreadsheet</span>
 <dl>
 <dt>For</dt><dd>Product manager, engineering manager, founder, growth lead</dd>
 <dt>The job</dt><dd>Check that objectives are qualitative and key results are measurable outcomes, not tasks</dd>
@@ -330,9 +267,82 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <dt>You get</dt><dd>Flags per line (task not outcome, no number, no baseline, too many KRs), a score, rewrite hints; clean copy for Notion or Sheets</dd>
 <dt>Why they come back</dt><dd>Every quarter&#x27;s OKR setting and review</dd>
 <dt>Closest free tool today</dt><dd>goalsandprogress OKR builder; spreadsheet checklists. Ours: Rule-based and explained, with an example library by product role.</dd>
-<dt>Search</dt><dd>okr examples (1,300); okr template (880); okr tracker (320); okr planner (210); how to write okr (170)</dd>
+<dt>Searches a month (measured)</dt><dd>okr examples 1,300 a month (US), difficulty 5; how to write okrs 170 (UK 40, Canada 10), difficulty 17. Page one for &#8216;okr checker&#8217;: 1 big product, 5 SaaS calculator or content, 2 forum or UGC; top three profit.co, linkedin.com, polly.ai. AI Overview: yes.</dd>
+<dt>Score</dt><dd>86 (was 82 before the check)</dd>
 </dl>
-<p class="why">Every quarter, for product, engineering and founders. OKR examples (1,300, KD 5) and OKR template (880) show demand; the scan found no standard checker.</p></li>
+<p class="why">Measured: OKR examples 1,300 at difficulty 5 and OKR template 880 carry it; &#x27;okr checker&#x27; has no volume and its page one is OKR software listings. A checker on an examples page answers both.</p></li>
+<li class="card"><span class="no">5</span><h3>NPS calculator with margin of error</h3><span class="cat">Product metrics &#183; about 5 hours &#183; pastes as: Text line; CSV</span>
+<dl>
+<dt>For</dt><dd>Product manager, product marketer, UX researcher</dd>
+<dt>The job</dt><dd>Compute Net Promoter Score and say whether a change between two surveys is real</dd>
+<dt>You type</dt><dd>Counts of 0 to 10 answers, or the raw scores pasted; an optional second survey</dd>
+<dt>You get</dt><dd>NPS, promoter, passive and detractor shares, margin of error, whether the change is beyond noise</dd>
+<dt>Why they come back</dt><dd>Every NPS survey wave</dd>
+<dt>Closest free tool today</dt><dd>Hotjar, QuestionPro, Youform NPS calculators. Ours: The margin of error and the &#x27;is this change real&#x27; check that vendor calculators skip.</dd>
+<dt>Searches a month (measured)</dt><dd>nps calculator 8,100 a month (US), difficulty 16; UK 5,400, Canada 720. Page one for &#8216;net promoter score calculator&#8217;: 2 big product, 5 SaaS calculator or content, 1 thin calculator site, 1 forum or UGC; top three npscalculator.com, surveymonkey.com, gainsight.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>86 (was 78 before the check)</dd>
+</dl>
+<p class="why">Measured: the surprise of the check. NPS calculator 8,100 a month in the US, 5,400 in the UK, 720 in Canada, difficulty 16; &#x27;how to calculate nps&#x27; adds 1,900. Page one is survey vendors&#x27; lead magnets plus one thin calculator site. The margin-of-error check and the CSAT and CES tab are what they skip.</p></li>
+<li class="card"><span class="no">6</span><h3>Survey question checker</h3><span class="cat">UX research &#183; about 8 hours &#183; pastes as: Text, ready for Google Forms or Typeform</span>
+<dl>
+<dt>For</dt><dd>UX researcher, product manager, product marketer</dd>
+<dt>The job</dt><dd>Catch leading, loaded and double-barreled questions before a survey goes out</dd>
+<dt>You type</dt><dd>Paste the questions, one per line</dd>
+<dt>You get</dt><dd>Each question flagged (two questions in one, leading words, absolutes, jargon, no &#x27;none&#x27; option) with a rewrite hint</dd>
+<dt>Why they come back</dt><dd>Every survey draft, and every review of a colleague&#x27;s survey</dd>
+<dt>Closest free tool today</dt><dd>General grammar checkers; vendor articles on bad survey questions. Ours: Rule-based and explained (no AI): each flag names the rule and links the article.</dd>
+<dt>Searches a month (measured)</dt><dd>product survey questions 1,600 a month (US), difficulty 8; how to write survey questions 480 (UK 20, Canada 10), difficulty 37. Page one for &#8216;survey question checker&#8217;: 5 SaaS calculator or content, 3 thin calculator site; top three surveymars.com, akiosurvey.com, involve.me. AI Overview: yes.</dd>
+<dt>Score</dt><dd>86 (was 74 before the check)</dd>
+</dl>
+<p class="why">Measured: product survey questions 1,600 at difficulty 8; &#x27;how to write survey questions&#x27; 480. Page one for &#x27;survey question checker&#x27; is AI survey makers only; a rule-based checker that explains each flag is the only one of its kind there.</p></li>
+<li class="card"><span class="no">7</span><h3>SUS score calculator</h3><span class="cat">UX research &#183; about 6 hours &#183; pastes as: Spreadsheet (paste in, CSV out)</span>
+<dl>
+<dt>For</dt><dd>UX researcher, product designer</dd>
+<dt>The job</dt><dd>Score a System Usability Scale study and say what the number means</dd>
+<dt>You type</dt><dd>Paste the 10 answers per person from a spreadsheet (one row each)</dd>
+<dt>You get</dt><dd>SUS score, grade and percentile against the 68 average, a confidence interval, per-item averages, flags for straight-lined rows</dd>
+<dt>Why they come back</dt><dd>Every usability round ends with a SUS score; teams re-run it each release to compare</dd>
+<dt>Closest free tool today</dt><dd>Trymata free SUS calculator; Lyssna Google Sheets template. Ours: Paste a whole sheet instead of typing 10 boxes per person; confidence interval and straight-lining check that the free ones skip.</dd>
+<dt>Searches a month (measured)</dt><dd>sus score calculator 50 a month (US), difficulty 2; UK 20, Canada 10. Page one for &#8216;sus score calculator&#8217;: 3 SaaS calculator or content, 1 thin calculator site, 1 editorial, 2 forum or UGC; top three nngroup.com, yourcx.io, stackoverflow.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>84 (was 92 before the check)</dd>
+</dl>
+<p class="why">Measured: small demand (SUS score calculator 50, SUS calculator 40, how to calculate SUS score 30 a month) but the most open page one in the check, difficulty 2, with NN/g&#x27;s article on top. Kept for the reader it serves and the authority it earns, not for traffic.</p></li>
+<li class="card"><span class="no">8</span><h3>Backlog prioritization scorer (RICE, ICE, WSJF)</h3><span class="cat">Product strategy &#183; about 10 hours &#183; pastes as: CSV for Jira, Sheets, Notion</span>
+<dl>
+<dt>For</dt><dd>Product manager, product owner, founder</dd>
+<dt>The job</dt><dd>Score and rank a whole list of ideas with RICE, ICE or WSJF, and see the order change as you tweak</dd>
+<dt>You type</dt><dd>Paste a list from a spreadsheet or a Jira export; pick the method</dd>
+<dt>You get</dt><dd>Ranked table, score breakdown, a flag when one shaky guess decides the order, CSV for Jira or Sheets</dd>
+<dt>Why they come back</dt><dd>Every planning cycle and quarterly review</dd>
+<dt>Closest free tool today</dt><dd>EasyRetro, ProductLift, Kollabe RICE calculators (one item at a time). Ours: A whole backlog, three methods, and a warning when the order hangs on one guess.</dd>
+<dt>Searches a month (measured)</dt><dd>rice score calculator 50 a month (US), difficulty 0; prioritization matrix 2,400 (UK 1,300, Canada 480), difficulty 21. Page one for &#8216;rice score calculator&#8217;: 8 SaaS calculator or content, 1 thin calculator site; top three productlift.dev, easyretro.io, userpilot.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>84 (was 88 before the check)</dd>
+</dl>
+<p class="why">Measured: prioritization matrix 2,400 (UK 1,300) at difficulty 21 and MoSCoW method 4,400 at 16 carry it; &#x27;rice score calculator&#x27; is 50 a month and its page one is nine vendor calculators. The whole-backlog ranking and the MoSCoW mode are the angle.</p></li>
+<li class="card"><span class="no">9</span><h3>Sprint capacity calculator</h3><span class="cat">Project management &#183; about 6 hours &#183; pastes as: Text for Jira or Confluence; CSV</span>
+<dl>
+<dt>For</dt><dd>Scrum master, delivery lead, engineering manager, product owner</dd>
+<dt>The job</dt><dd>Work out how much the team can take on this sprint</dd>
+<dt>You type</dt><dd>People, days in the sprint, days off, meeting hours, focus factor; optional points-per-day history</dd>
+<dt>You get</dt><dd>Hours and points of capacity, per person and total, with a commitment range; a line for the sprint planning notes</dd>
+<dt>Why they come back</dt><dd>Every sprint, every two weeks</dd>
+<dt>Closest free tool today</dt><dd>Vendor articles and spreadsheet templates (ONES, Xebia); no standard free tool. Ours: Days off per person and a range, not a single number; remembers the team in the browser.</dd>
+<dt>Searches a month (measured)</dt><dd>sprint capacity calculator 30 a month (US), difficulty 0; capacity planning scrum 140 (UK 10, Canada 10), difficulty 0. Page one for &#8216;sprint capacity calculator&#8217;: 2 big product, 4 SaaS calculator or content, 1 editorial, 2 forum or UGC; top three float.com, atlassian.com, pawelrola.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>84 (was 88 before the check)</dd>
+</dl>
+<p class="why">Measured: tiny demand (capacity planning scrum 140, sprint capacity calculator 30), page one of vendor articles and spreadsheets with no standard tool, difficulty 0. Kept on repeat use: every scrum team, every two weeks.</p></li>
+<li class="card"><span class="no">10</span><h3>Retention and churn calculator</h3><span class="cat">Product metrics &#183; about 10 hours &#183; pastes as: CSV in and out; PNG chart</span>
+<dl>
+<dt>For</dt><dd>Product analyst, growth lead, product manager, founder</dd>
+<dt>The job</dt><dd>Turn a cohort table into retention curves, churn and net revenue retention</dd>
+<dt>You type</dt><dd>Paste a cohort table (users or revenue by start month and month since start), or three numbers for a quick rate</dd>
+<dt>You get</dt><dd>Retention per cohort as a heatmap and curves, the average curve, churn rate, gross and net revenue retention, CSV</dd>
+<dt>Why they come back</dt><dd>Monthly metrics review and board decks</dd>
+<dt>Closest free tool today</dt><dd>Founderpath cohort analysis; MetricGate; Amplitude churn calculator. Ours: A quick-rate mode for the &#x27;how to calculate&#x27; searcher and a cohort mode for the analyst, on one page.</dd>
+<dt>Searches a month (measured)</dt><dd>churn rate calculator 260 a month (US), difficulty 18; UK 70, Canada 30. Page one for &#8216;churn rate calculator&#8217;: 7 SaaS calculator or content, 2 thin calculator site; top three mailmodo.com, amplitude.com, saaselevate.com. AI Overview: yes.</dd>
+<dt>Score</dt><dd>84 (was 84 before the check)</dd>
+</dl>
+<p class="why">Measured: retention rate formula 1,600 at difficulty 18 holds; churn rate calculator 260 (difficulty 18) with a page one of SaaS lead magnets and thin calculator sites. The cohort paste and the chart are what they lack.</p></li>
 </ol>
 <div class="irl">
 <h3>In real life</h3>
@@ -342,23 +352,23 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <li><b>The monthly metrics review:</b> the analyst pastes the cohort table and copies the retention chart into the deck.</li>
 </ul>
 </div>
-<p>No accessibility tool made the ten. The palette contrast checker is the first reserve: if you want one on day one, swap it in for the survey sample size calculator, whose head phrase is the most crowded of the ten.</p>
+<p>No accessibility tool made the ten. The palette contrast checker is still the first reserve: the biggest demand in the set (12,100 a month) but a first page held by WebAIM, Adobe and accessibility vendors. If you want it on day one, swap it in for the sprint capacity calculator, the launch tool with the least search behind it.</p>
 <p class="rulebox"><b>Rule</b> Each tool ends in something to paste: a CSV, a Jira block, CSS variables or a sentence for the readout.</p>
 </section>
 <section class="block" id="s3" aria-labelledby="h3s">
 <h2 id="h3s">3. The second ten, for the drip</h2>
-<p class="lead">One or two a month after launch, in this order. Seven smaller ideas fold into these and the launch ten as extra modes, so they never need pages of their own.</p>
+<p class="lead">One or two a month after launch, in this order. Four ideas rose into this list on easy template searches; four fell to later for lack of any search. Seven smaller ideas fold into these and the launch ten as extra modes, so they never need pages of their own.</p>
 <ol class="drip">
-<li><b>PRD outline generator</b> <span class="muted">(Product discovery, score 84)</span>. Start a product requirements document with the right sections for the size of the work. PRD template, 2,900 at KD 6. Template-shaped, so it ships beside the first templates.</li>
-<li><b>Palette contrast checker</b> <span class="muted">(Accessibility, score 78)</span>. Check every text and background pair in a palette against WCAG at once, and get the nearest passing color. First reserve for launch: swap it in if you want accessibility on day one.</li>
-<li><b>Microcopy length checker</b> <span class="muted">(UX design, score 80)</span>. Check button labels, errors and toasts against length limits and plain-language rules. No dedicated tool found; a clear gap for UX writers.</li>
-<li><b>Positioning statement builder</b> <span class="muted">(Product marketing, score 80)</span>. Write a positioning statement from the parts that make it up. Positioning statement, 2,900 at KD 12; no generator found.</li>
-<li><b>NPS calculator with margin of error</b> <span class="muted">(Product metrics, score 78)</span>. Compute Net Promoter Score and say whether a change between two surveys is real. Adds the &#x27;is this change real&#x27; check; CSAT and CES as a second tab.</li>
-<li><b>Unit economics: LTV, CAC and payback</b> <span class="muted">(Growth and pricing, score 78)</span>. See whether each customer pays back what it cost to win. Customer lifetime value and acquisition cost, 4,400 each; the founder&#x27;s page.</li>
-<li><b>Spacing scale and token export</b> <span class="muted">(Design systems, score 78)</span>. Pick a spacing scale and export it as tokens. Design system leads; W3C token format.</li>
-<li><b>Tint and shade scale generator</b> <span class="muted">(UI design, score 76)</span>. Make a 50 to 950 color ramp from one brand color, with contrast labels on each step. Pairs with the contrast checker: ramps with contrast labels.</li>
-<li><b>A/B test sample size and duration planner</b> <span class="muted">(Product metrics, score 72)</span>. Find how many users and how many days a test needs before you start it. Power analysis sample size calculator, 880 at KD 7; significance check as a second tab.</li>
-<li><b>Survey question checker</b> <span class="muted">(UX research, score 74)</span>. Catch leading, loaded and double-barreled questions before a survey goes out. Product survey questions, 1,600 at KD 8; rule-based, explained flags.</li>
+<li><b>Tint and shade scale generator</b> <span class="muted">(UI design, score 84, was 76)</span>. Make a 50 to 950 color ramp from one brand color, with contrast labels on each step. Measured: tint and shade generator 590 a month at difficulty 6, color shade generator 480; page one is thin tool sites and Tumblr and Facebook posts. The 74,000 &#x27;color palette generator&#x27; is out of reach (difficulty 100).</li>
+<li><b>A/B test sample size and duration planner</b> <span class="muted">(Product metrics, score 84, was 72)</span>. Find how many users and how many days a test needs before you start it. Measured from the store: power analysis sample size calculator 880 at difficulty 7; &#x27;ab test duration calculator&#x27; only 20 a month. Significance check as a second tab (statistical significance calculator, 2,900 at difficulty 26).</li>
+<li><b>Positioning statement builder</b> <span class="muted">(Product marketing, score 84, was 80)</span>. Write a positioning statement from the parts that make it up. Measured: positioning statement examples 1,300 at difficulty 5 (UK 210, Canada 140); template 390. Page one mixes Harvard, Mailchimp and marketing blogs, no builder.</li>
+<li><b>Palette contrast checker</b> <span class="muted">(Accessibility, score 82, was 78)</span>. Check every text and background pair in a palette against WCAG at once, and get the nearest passing color. Measured: the biggest tool demand in the set (color contrast checker 12,100, contrast checker 8,100, WCAG contrast checker 1,300) but difficulty 56 to 59 and a page one held by WebAIM, Adobe and accessibility vendors. First reserve for launch if you want accessibility on day one; the whole-palette check is the angle.</li>
+<li><b>Delivery forecast (velocity range and Monte Carlo)</b> <span class="muted">(Project management, score 80, was 84)</span>. Answer &#x27;when will it be done&#x27; with a range instead of a single date. Measured: almost no searches for the tool itself (sprint velocity calculator 50; the Monte Carlo and release forecast phrases had no data; &#x27;when will it be done&#x27; is 2,400 but a song). Page one for Monte Carlo is papers and forum threads. A strong tool with weak search: build it for readers after launch.</li>
+<li><b>Release notes formatter</b> <span class="muted">(Product management, score 80, was 68)</span>. Turn a list of merged changes into readable release notes. Measured: release notes template 720 a month at difficulty 2; generator 70. Promoted from later: the easiest template-shaped phrase after PRD.</li>
+<li><b>Survey sample size and margin of error calculator</b> <span class="muted">(UX research, score 78, was 82)</span>. Find how many responses a survey needs, or how far to trust the responses you have. Measured: the head (sample size calculator, 8,100) stays at difficulty 39 and page one is survey vendors (SurveyMonkey twice); the survey margin of error phrases came back with no data. Drops out of the launch ten.</li>
+<li><b>Cycle time and lead time calculator</b> <span class="muted">(Project management, score 78, was 70)</span>. Get cycle-time percentiles from a ticket export. Measured: lead time vs cycle time 720 and cycle time calculator 390, both at difficulty 0. Promoted from later; pairs with the delivery forecast.</li>
+<li><b>Runway calculator</b> <span class="muted">(Growth and pricing, score 78, was 66)</span>. See months of cash left and the month you run out, under growth scenarios. Measured: burn rate calculator 590 at difficulty 3. Promoted from later; the founder&#x27;s page.</li>
+<li><b>Stakeholder map</b> <span class="muted">(Leadership and teams, score 78, was 62)</span>. Place stakeholders on a power and interest grid and plan how to engage each. Measured: stakeholder mapping 4,400 at difficulty 7 and stakeholder map template 1,300 at difficulty 3. Promoted from later; a grid builder on a teaching page.</li>
 </ol>
 <h3>Folded in</h3>
 <ul>
@@ -389,56 +399,56 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 </section>
 <section class="block" id="s5" aria-labelledby="h5s">
 <h2 id="h5s">5. Every idea, by who it serves</h2>
-<p class="lead">All 82 ideas, filed under the person who would use them most. Open a group to see each tool's job, its search evidence, the closest free tool and how we would differ.</p>
-<details class="pg"><summary>Product manager <span>&#183; 17 ideas, 2 at launch</span></summary>
-<div class="idea"><div class="h"><b>Backlog prioritization scorer (RICE, ICE, WSJF)</b><span class="pill launch">Launch 3</span><span class="meta">score 88 &#183; Product strategy &#183; about 10 h</span></div>
-<p>Score and rank a whole list of ideas with RICE, ICE or WSJF, and see the order change as you tweak. <span class="muted">In:</span> Paste a list from a spreadsheet or a Jira export; pick the method. <span class="muted">Out:</span> Ranked table, score breakdown, a flag when one shaky guess decides the order, CSV for Jira or Sheets.</p>
-<p class="meta">Search: moscow prioritization (4,400); rice score (1,900, mixed meanings); rice prioritization (880); wsjf prioritization (210); prioritization tool (140). Nearest: EasyRetro, ProductLift, Kollabe RICE calculators (one item at a time). Ours: A whole backlog, three methods, and a warning when the order hangs on one guess.</p></div>
-<div class="idea"><div class="h"><b>PRD outline generator</b><span class="pill drip">Drip 1</span><span class="meta">score 84 &#183; Product discovery &#183; about 6 h</span></div>
+<p class="lead">All 82 ideas, filed under the person who would use them most. Open a group to see each tool's job, its search evidence (with the numbers measured on October 10), the closest free tool and how we would differ.</p>
+<details class="pg"><summary>Product manager <span>&#183; 17 ideas, 4 at launch</span></summary>
+<div class="idea"><div class="h"><b>PRD outline generator</b><span class="pill launch">Launch 1</span><span class="meta">score 92 &#183; Product discovery &#183; about 6 h</span></div>
 <p>Start a product requirements document with the right sections for the size of the work. <span class="muted">In:</span> Size of change, audience, open questions. <span class="muted">Out:</span> A PRD skeleton (problem, goals, non-goals, users, scope, metrics, risks) with prompts; markdown.</p>
-<p class="meta">Search: prd template (2,900); product requirements document template (2,900). Nearest: Template galleries (Notion, Atlassian, Productboard). Ours: Scales the template to the size of the work: one page for small, full for big.</p></div>
-<div class="idea"><div class="h"><b>OKR checker</b><span class="pill launch">Launch 10</span><span class="meta">score 82 &#183; Product metrics &#183; about 8 h</span></div>
+<p class="meta">Search: prd template (2,900); product requirements document template (2,900). Nearest: Template galleries (Notion, Atlassian, Productboard). Ours: Scales the template to the size of the work: one page for small, full for big. Measured: prd template 2,900 a month (US), difficulty 6; prd generator 110 (UK 20, Canada 20), difficulty 5. Page one for &#8216;prd generator&#8217;: 6 SaaS calculator or content, 3 forum or UGC; top three brilworks.com, chatprd.ai, telos-ai.org. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>OKR checker</b><span class="pill launch">Launch 4</span><span class="meta">score 86 &#183; Product metrics &#183; about 8 h</span></div>
 <p>Check that objectives are qualitative and key results are measurable outcomes, not tasks. <span class="muted">In:</span> Paste objectives and key results. <span class="muted">Out:</span> Flags per line (task not outcome, no number, no baseline, too many KRs), a score, rewrite hints; clean copy for Notion or Sheets.</p>
-<p class="meta">Search: okr examples (1,300); okr template (880); okr tracker (320); okr planner (210); how to write okr (170). Nearest: goalsandprogress OKR builder; spreadsheet checklists. Ours: Rule-based and explained, with an example library by product role.</p></div>
-<div class="idea"><div class="h"><b>NPS calculator with margin of error</b><span class="pill drip">Drip 5</span><span class="meta">score 78 &#183; Product metrics &#183; about 5 h</span></div>
+<p class="meta">Search: okr examples (1,300); okr template (880); okr tracker (320); okr planner (210); how to write okr (170). Nearest: goalsandprogress OKR builder; spreadsheet checklists. Ours: Rule-based and explained, with an example library by product role. Measured: okr examples 1,300 a month (US), difficulty 5; how to write okrs 170 (UK 40, Canada 10), difficulty 17. Page one for &#8216;okr checker&#8217;: 1 big product, 5 SaaS calculator or content, 2 forum or UGC; top three profit.co, linkedin.com, polly.ai. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>NPS calculator with margin of error</b><span class="pill launch">Launch 5</span><span class="meta">score 86 &#183; Product metrics &#183; about 5 h</span></div>
 <p>Compute Net Promoter Score and say whether a change between two surveys is real. <span class="muted">In:</span> Counts of 0 to 10 answers, or the raw scores pasted; an optional second survey. <span class="muted">Out:</span> NPS, promoter, passive and detractor shares, margin of error, whether the change is beyond noise.</p>
-<p class="meta">Search: net promoter score calculator; nps calculator (no data). Nearest: Hotjar, QuestionPro, Youform NPS calculators. Ours: The margin of error and the &#x27;is this change real&#x27; check that vendor calculators skip.</p></div>
-<div class="idea"><div class="h"><b>Release notes formatter</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Product management &#183; about 5 h</span></div>
+<p class="meta">Search: net promoter score calculator; nps calculator (no data). Nearest: Hotjar, QuestionPro, Youform NPS calculators. Ours: The margin of error and the &#x27;is this change real&#x27; check that vendor calculators skip. Measured: nps calculator 8,100 a month (US), difficulty 16; UK 5,400, Canada 720. Page one for &#8216;net promoter score calculator&#8217;: 2 big product, 5 SaaS calculator or content, 1 thin calculator site, 1 forum or UGC; top three npscalculator.com, surveymonkey.com, gainsight.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Backlog prioritization scorer (RICE, ICE, WSJF)</b><span class="pill launch">Launch 8</span><span class="meta">score 84 &#183; Product strategy &#183; about 10 h</span></div>
+<p>Score and rank a whole list of ideas with RICE, ICE or WSJF, and see the order change as you tweak. <span class="muted">In:</span> Paste a list from a spreadsheet or a Jira export; pick the method. <span class="muted">Out:</span> Ranked table, score breakdown, a flag when one shaky guess decides the order, CSV for Jira or Sheets.</p>
+<p class="meta">Search: moscow prioritization (4,400); rice score (1,900, mixed meanings); rice prioritization (880); wsjf prioritization (210); prioritization tool (140). Nearest: EasyRetro, ProductLift, Kollabe RICE calculators (one item at a time). Ours: A whole backlog, three methods, and a warning when the order hangs on one guess. Measured: rice score calculator 50 a month (US), difficulty 0; prioritization matrix 2,400 (UK 1,300, Canada 480), difficulty 21. Page one for &#8216;rice score calculator&#8217;: 8 SaaS calculator or content, 1 thin calculator site; top three productlift.dev, easyretro.io, userpilot.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Release notes formatter</b><span class="pill drip">Drip 6</span><span class="meta">score 80 &#183; Product management &#183; about 5 h</span></div>
 <p>Turn a list of merged changes into readable release notes. <span class="muted">In:</span> Paste ticket titles with a type tag. <span class="muted">Out:</span> Grouped notes (new, improved, fixed), plain-language prompts, markdown and HTML.</p>
-<p class="meta">Search: release notes template (no data). Nearest: Changelog SaaS (Beamer, LaunchNotes). Ours: A free formatter with a style check (no ticket numbers, user benefit first).</p></div>
-<div class="idea"><div class="h"><b>Job story builder</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Product discovery &#183; about 4 h</span></div>
+<p class="meta">Search: release notes template (no data). Nearest: Changelog SaaS (Beamer, LaunchNotes). Ours: A free formatter with a style check (no ticket numbers, user benefit first). Measured: release notes template 720 a month (US), difficulty 2.</p></div>
+<div class="idea"><div class="h"><b>CSAT and CES calculator</b><span class="pill fold">Folds in</span><span class="meta">score 80 &#183; Product metrics &#183; about 3 h</span></div>
+<p>Compute CSAT and customer effort scores from raw answers. <span class="muted">In:</span> Paste answers. <span class="muted">Out:</span> CSAT %, CES average, distribution.</p>
+<p class="meta">Search: customer satisfaction survey (4,400); customer satisfaction index meaning (3,600). Nearest: Vendor calculators. Ours: Best as a second tab on the NPS page. Fold into the NPS calculator. Measured: csat calculator 590 a month (US), difficulty 0.</p></div>
+<div class="idea"><div class="h"><b>Stakeholder map</b><span class="pill drip">Drip 10</span><span class="meta">score 78 &#183; Leadership and teams &#183; about 5 h</span></div>
+<p>Place stakeholders on a power and interest grid and plan how to engage each. <span class="muted">In:</span> Names with power and interest scores. <span class="muted">Out:</span> The grid as an image and a contact plan table.</p>
+<p class="meta">Search: project management stakeholder map (110). Nearest: Miro and Lucid templates. Ours: A plan table attached to the grid. Measured: stakeholder map template 1,300 a month (US), difficulty 3; stakeholder mapping 4,400, difficulty 7.</p></div>
+<div class="idea"><div class="h"><b>Roadmap now, next, later builder</b><span class="pill later">Later</span><span class="meta">score 76 &#183; Product strategy &#183; about 8 h</span></div>
+<p>Turn a list of bets into a now, next, later roadmap you can share. <span class="muted">In:</span> Items with horizon, theme, confidence. <span class="muted">Out:</span> A clean three-column roadmap image and a markdown version.</p>
+<p class="meta">Search: product roadmap template (1,000); product roadmap examples (1,000); roadmap tools (390). Nearest: Roadmap SaaS (ProductPlan, Aha!) and slide templates. Ours: Outcome-led, free, no account; the SaaS tools gate exports. Measured: product roadmap template 1,000 a month (US), difficulty 13; now next later roadmap 320, difficulty 1.</p></div>
+<div class="idea"><div class="h"><b>North Star metric worksheet</b><span class="pill later">Later</span><span class="meta">score 74 &#183; Product metrics &#183; about 6 h</span></div>
+<p>Pick a North Star metric and its input metrics. <span class="muted">In:</span> Product type, the value moment, candidate metrics. <span class="muted">Out:</span> A checked North Star with an input-metric tree; markdown and PNG.</p>
+<p class="meta">Search: north star metric (no data). Nearest: Amplitude North Star playbook. Ours: Checks candidates against the usual traps (vanity, lagging). Measured: north star metric examples 50 a month (US), difficulty 10; north star metric 590, difficulty 5.</p></div>
+<div class="idea"><div class="h"><b>Competitive feature matrix</b><span class="pill later">Later</span><span class="meta">score 74 &#183; Product marketing &#183; about 5 h</span></div>
+<p>Lay out a feature comparison and see where you lead or trail. <span class="muted">In:</span> Competitors and features with marks. <span class="muted">Out:</span> A comparison grid image and a gap summary.</p>
+<p class="meta">Search: competitive analysis template (no data). Nearest: Template galleries. Ours: A gap summary. Measured: competitive analysis template 1,300 a month (US), difficulty 4.</p></div>
+<div class="idea"><div class="h"><b>Job story builder</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Product discovery &#183; about 4 h</span></div>
 <p>Write job statements in a consistent form from interview notes. <span class="muted">In:</span> Situation, motivation, outcome. <span class="muted">Out:</span> &#x27;When... I want to... so I can...&#x27; statements, checked for solution words.</p>
-<p class="meta">Search: jobs to be done (no data). Nearest: Articles and templates. Ours: Flags solution words inside the job.</p></div>
+<p class="meta">Search: jobs to be done (no data). Nearest: Articles and templates. Ours: Flags solution words inside the job. Measured: job story template 30 a month (US), difficulty 0; jobs to be done statement 70, difficulty 14.</p></div>
+<div class="idea"><div class="h"><b>Value proposition canvas</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Product marketing &#183; about 8 h</span></div>
+<p>Fill a value proposition canvas and check the fit. <span class="muted">In:</span> Jobs, pains, gains; products, pain relievers, gain creators. <span class="muted">Out:</span> The canvas drawing with fit lines; PNG and markdown.</p>
+<p class="meta">Search: value proposition (22,200, a definition search); value proposition example (1,600). Nearest: Strategyzer (owner of the canvas); Miro templates. Ours: Strategyzer owns the name; ours would be the fit check. Measured: value proposition example 1,600 a month (US), difficulty 26; value proposition canvas 1,900, difficulty 15.</p></div>
+<div class="idea"><div class="h"><b>Assumption mapper</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Product discovery &#183; about 5 h</span></div>
+<p>Rank assumptions by importance and evidence to choose what to test first. <span class="muted">In:</span> Assumptions with importance and evidence scores. <span class="muted">Out:</span> A 2x2 map and a test-first list.</p>
+<p class="meta">Search: assumption mapping (no data). Nearest: Miro templates. Ours: Turns the board into a ranked test plan. Measured: assumption mapping 110 a month (US), difficulty 6.</p></div>
+<div class="idea"><div class="h"><b>RACI builder</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Leadership and teams &#183; about 4 h</span></div>
+<p>Assign who is responsible, accountable, consulted and informed. <span class="muted">In:</span> Tasks and people. <span class="muted">Out:</span> RACI table with checks (one A per row), CSV.</p>
+<p class="meta">Search: raci chart (no data). Nearest: Spreadsheet templates. Ours: Validation rules. Measured: raci chart template 3,600 a month (US), difficulty 9; raci matrix 33,100, difficulty 48.</p></div>
 <div class="idea"><div class="h"><b>Kano survey analyzer</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Product strategy &#183; about 8 h</span></div>
 <p>Classify features from Kano survey answers. <span class="muted">In:</span> Paste paired functional and dysfunctional answers. <span class="muted">Out:</span> Category per feature (must-be, performance, attractive, indifferent), better and worse coefficients, chart.</p>
-<p class="meta">Search: kano model (no data). Nearest: Spreadsheet templates; few calculators. Ours: Paste-in analysis that most Kano articles leave to Excel.</p></div>
-<div class="idea"><div class="h"><b>Roadmap now, next, later builder</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Product strategy &#183; about 8 h</span></div>
-<p>Turn a list of bets into a now, next, later roadmap you can share. <span class="muted">In:</span> Items with horizon, theme, confidence. <span class="muted">Out:</span> A clean three-column roadmap image and a markdown version.</p>
-<p class="meta">Search: product roadmap template (1,000); product roadmap examples (1,000); roadmap tools (390). Nearest: Roadmap SaaS (ProductPlan, Aha!) and slide templates. Ours: Outcome-led, free, no account; the SaaS tools gate exports.</p></div>
-<div class="idea"><div class="h"><b>Assumption mapper</b><span class="pill later">Later</span><span class="meta">score 66 &#183; Product discovery &#183; about 5 h</span></div>
-<p>Rank assumptions by importance and evidence to choose what to test first. <span class="muted">In:</span> Assumptions with importance and evidence scores. <span class="muted">Out:</span> A 2x2 map and a test-first list.</p>
-<p class="meta">Search: assumption mapping (no data). Nearest: Miro templates. Ours: Turns the board into a ranked test plan.</p></div>
-<div class="idea"><div class="h"><b>North Star metric worksheet</b><span class="pill later">Later</span><span class="meta">score 66 &#183; Product metrics &#183; about 6 h</span></div>
-<p>Pick a North Star metric and its input metrics. <span class="muted">In:</span> Product type, the value moment, candidate metrics. <span class="muted">Out:</span> A checked North Star with an input-metric tree; markdown and PNG.</p>
-<p class="meta">Search: north star metric (no data). Nearest: Amplitude North Star playbook. Ours: Checks candidates against the usual traps (vanity, lagging).</p></div>
-<div class="idea"><div class="h"><b>CSAT and CES calculator</b><span class="pill fold">Folds in</span><span class="meta">score 64 &#183; Product metrics &#183; about 3 h</span></div>
-<p>Compute CSAT and customer effort scores from raw answers. <span class="muted">In:</span> Paste answers. <span class="muted">Out:</span> CSAT %, CES average, distribution.</p>
-<p class="meta">Search: customer satisfaction survey (4,400); customer satisfaction index meaning (3,600). Nearest: Vendor calculators. Ours: Best as a second tab on the NPS page. Fold into the NPS calculator.</p></div>
-<div class="idea"><div class="h"><b>Value proposition canvas</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Product marketing &#183; about 8 h</span></div>
-<p>Fill a value proposition canvas and check the fit. <span class="muted">In:</span> Jobs, pains, gains; products, pain relievers, gain creators. <span class="muted">Out:</span> The canvas drawing with fit lines; PNG and markdown.</p>
-<p class="meta">Search: value proposition (22,200, a definition search); value proposition example (1,600). Nearest: Strategyzer (owner of the canvas); Miro templates. Ours: Strategyzer owns the name; ours would be the fit check.</p></div>
-<div class="idea"><div class="h"><b>Competitive feature matrix</b><span class="pill later">Later</span><span class="meta">score 62 &#183; Product marketing &#183; about 5 h</span></div>
-<p>Lay out a feature comparison and see where you lead or trail. <span class="muted">In:</span> Competitors and features with marks. <span class="muted">Out:</span> A comparison grid image and a gap summary.</p>
-<p class="meta">Search: competitive analysis template (no data). Nearest: Template galleries. Ours: A gap summary.</p></div>
-<div class="idea"><div class="h"><b>Stakeholder map</b><span class="pill later">Later</span><span class="meta">score 62 &#183; Leadership and teams &#183; about 5 h</span></div>
-<p>Place stakeholders on a power and interest grid and plan how to engage each. <span class="muted">In:</span> Names with power and interest scores. <span class="muted">Out:</span> The grid as an image and a contact plan table.</p>
-<p class="meta">Search: project management stakeholder map (110). Nearest: Miro and Lucid templates. Ours: A plan table attached to the grid.</p></div>
+<p class="meta">Search: kano model (no data). Nearest: Spreadsheet templates; few calculators. Ours: Paste-in analysis that most Kano articles leave to Excel. Measured: kano model 3,600 a month (US), difficulty 33.</p></div>
 <div class="idea"><div class="h"><b>Opportunity score calculator</b><span class="pill later">Later</span><span class="meta">score 56 &#183; Product strategy &#183; about 5 h</span></div>
 <p>Score outcomes by importance and satisfaction to find underserved needs. <span class="muted">In:</span> Importance and satisfaction ratings. <span class="muted">Out:</span> Opportunity scores, a ranked list, a scatter chart.</p>
-<p class="meta">Search: opportunity score (no data). Nearest: Templates. Ours: Rare as a free tool.</p></div>
-<div class="idea"><div class="h"><b>RACI builder</b><span class="pill later">Later</span><span class="meta">score 54 &#183; Leadership and teams &#183; about 4 h</span></div>
-<p>Assign who is responsible, accountable, consulted and informed. <span class="muted">In:</span> Tasks and people. <span class="muted">Out:</span> RACI table with checks (one A per row), CSV.</p>
-<p class="meta">Search: raci chart (no data). Nearest: Spreadsheet templates. Ours: Validation rules.</p></div>
+<p class="meta">Search: opportunity score (no data). Nearest: Templates. Ours: Rare as a free tool. Measured: outcome driven innovation 170 a month (US), difficulty 17.</p></div>
 <div class="idea"><div class="h"><b>Offer comparer for product roles</b><span class="pill park">Parked</span><span class="meta">score 44 &#183; Leadership and teams &#183; about 5 h</span></div>
 <p>Compare two job offers on total yearly value. <span class="muted">In:</span> Base, bonus, equity, benefits. <span class="muted">Out:</span> Side-by-side yearly value.</p>
 <p class="meta">Search: product management jobs (3,600, a job search). Nearest: Levels.fyi. Ours: Weak; Levels.fyi owns it. Park: off the core reader, Levels.fyi owns it.</p></div>
@@ -446,223 +456,223 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <details class="pg"><summary>Product owner <span>&#183; 3 ideas, 1 at launch</span></summary>
 <div class="idea"><div class="h"><b>User story and acceptance criteria builder</b><span class="pill launch">Launch 2</span><span class="meta">score 90 &#183; Product discovery &#183; about 8 h</span></div>
 <p>Write a user story and its acceptance criteria in a clean, testable format. <span class="muted">In:</span> Who, what, why; then rules and edge cases as short lines. <span class="muted">Out:</span> &#x27;As a / I want / so that&#x27; story, Given-When-Then criteria, INVEST warnings, copy as Jira markup or markdown.</p>
-<p class="meta">Search: user story template (2,900); user story format (2,900); user stories examples with acceptance criteria (1,600); acceptance criteria user story template (1,600). Nearest: Figr and Kollabe acceptance criteria generators (AI). Ours: No AI, no sign-up: a structured builder with edge-case prompts and INVEST checks, pasted straight into Jira.</p></div>
-<div class="idea"><div class="h"><b>MoSCoW sorter</b><span class="pill fold">Folds in</span><span class="meta">score 76 &#183; Product strategy &#183; about 4 h</span></div>
+<p class="meta">Search: user story template (2,900); user story format (2,900); user stories examples with acceptance criteria (1,600); acceptance criteria user story template (1,600). Nearest: Figr and Kollabe acceptance criteria generators (AI). Ours: No AI, no sign-up: a structured builder with edge-case prompts and INVEST checks, pasted straight into Jira. Measured: user story template 2,900 a month (US), difficulty 18; user story generator 30 (UK 10, Canada 10), difficulty 0. Page one for &#8216;user story generator&#8217;: 3 big product, 5 SaaS calculator or content, 1 forum or UGC; top three kollabe.com, easyretro.io, reddit.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>MoSCoW sorter</b><span class="pill fold">Folds in</span><span class="meta">score 84 &#183; Product strategy &#183; about 4 h</span></div>
 <p>Sort requirements into Must, Should, Could, Won&#x27;t and check the Must share. <span class="muted">In:</span> List of items. <span class="muted">Out:</span> Four columns, a warning above 60% Must, export.</p>
-<p class="meta">Search: moscow prioritization (4,400); prioritization moscow method template (480). Nearest: Miro templates; ProductPlan glossary. Ours: The 60% Must rule enforced; better as a mode of the prioritization scorer. Fold into the prioritization scorer.</p></div>
-<div class="idea"><div class="h"><b>Story points to time estimator</b><span class="pill fold">Folds in</span><span class="meta">score 72 &#183; Project management &#183; about 3 h</span></div>
+<p class="meta">Search: moscow prioritization (4,400); prioritization moscow method template (480). Nearest: Miro templates; ProductPlan glossary. Ours: The 60% Must rule enforced; better as a mode of the prioritization scorer. Fold into the prioritization scorer. Measured: moscow prioritization template 70 a month (US), difficulty 0; moscow method 4,400, difficulty 16.</p></div>
+<div class="idea"><div class="h"><b>Story points to time estimator</b><span class="pill fold">Folds in</span><span class="meta">score 68 &#183; Project management &#183; about 3 h</span></div>
 <p>Translate a backlog in points into sprints and calendar dates. <span class="muted">In:</span> Points, velocity range, sprint length. <span class="muted">Out:</span> Sprint count and date range.</p>
-<p class="meta">Search: story points (9,900). Nearest: Spreadsheets. Ours: A simple mode of the delivery forecast. Fold into the delivery forecast.</p></div>
+<p class="meta">Search: story points (9,900). Nearest: Spreadsheets. Ours: A simple mode of the delivery forecast. Fold into the delivery forecast. Measured: story points 9,900 a month (US), difficulty 21; story points to hours 320, difficulty 0.</p></div>
 </details>
 <details class="pg"><summary>Product designer <span>&#183; 6 ideas</span></summary>
-<div class="idea"><div class="h"><b>Touch target checker</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Accessibility &#183; about 4 h</span></div>
-<p>Check that tap targets meet the size and spacing rules for web, iOS and Android. <span class="muted">In:</span> Target size, spacing to neighbors, platform. <span class="muted">Out:</span> Pass or fail against WCAG 2.2 (24px minimum, 44px enhanced), Apple 44pt and Material 48dp; the padding needed.</p>
-<p class="meta">Search: touch target size (no data). Nearest: Guideline pages (Apple HIG, Material, W3C). Ours: All three rulebooks side by side, with unit conversion (pt, dp, px).</p></div>
-<div class="idea"><div class="h"><b>Proto-persona worksheet</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UX research &#183; about 6 h</span></div>
+<div class="idea"><div class="h"><b>Journey map grid builder</b><span class="pill later">Later</span><span class="meta">score 76 &#183; UX research &#183; about 10 h</span></div>
+<p>Lay out stages, actions, thoughts, feelings and opportunities as a clean grid. <span class="muted">In:</span> Stages and rows as text. <span class="muted">Out:</span> A printable journey map with an emotion line; PNG, SVG and CSV.</p>
+<p class="meta">Search: customer journey map template (1,000); journey map template (590). Nearest: Miro, Figma community and Canva templates. Ours: Text in, drawing out; no canvas skills needed. Measured: customer journey map template 1,000 a month (US), difficulty 19; journey map maker 20, difficulty 55.</p></div>
+<div class="idea"><div class="h"><b>Proto-persona worksheet</b><span class="pill later">Later</span><span class="meta">score 74 &#183; UX research &#183; about 6 h</span></div>
 <p>Write an assumption-based persona that is clearly marked as a hypothesis. <span class="muted">In:</span> Role, goals, frustrations, context, what you have evidence for. <span class="muted">Out:</span> A one-page persona card with an evidence mark on each line; PNG and markdown.</p>
-<p class="meta">Search: user persona template (1,600); user persona generator (320); user persona creator (320); user persona maker (260). Nearest: HubSpot Make My Persona; Xtensio. Ours: Marks each line as evidence or guess, so the persona does not pass as research.</p></div>
-<div class="idea"><div class="h"><b>Component state checklist</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Design systems &#183; about 4 h</span></div>
+<p class="meta">Search: user persona template (1,600); user persona generator (320); user persona creator (320); user persona maker (260). Nearest: HubSpot Make My Persona; Xtensio. Ours: Marks each line as evidence or guess, so the persona does not pass as research. Measured: user persona template 1,600 a month (US), difficulty 22; persona template 1,600, difficulty 32.</p></div>
+<div class="idea"><div class="h"><b>Component state checklist</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Design systems &#183; about 4 h</span></div>
 <p>List every state a component needs (empty, loading, error, disabled, focus) before handoff. <span class="muted">In:</span> Component type. <span class="muted">Out:</span> A state checklist with notes; markdown for the ticket.</p>
-<p class="meta">Search: ui states (no data). Nearest: Blog checklists. Ours: Lists per component, with accessibility states.</p></div>
+<p class="meta">Search: ui states (no data). Nearest: Blog checklists. Ours: Lists per component, with accessibility states. Measured: empty states 260 a month (US), difficulty 3.</p></div>
+<div class="idea"><div class="h"><b>Dashboard chart picker</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UI design &#183; about 5 h</span></div>
+<p>Pick the right chart for the comparison you want to show. <span class="muted">In:</span> What you compare (over time, parts of a whole, ranking, distribution), number of series. <span class="muted">Out:</span> Recommended chart, what to avoid, a small example.</p>
+<p class="meta">Search: dashboard design (5,400); dashboard examples (1,900). Nearest: Chart catalogues (Data Viz Catalogue, FT Visual Vocabulary). Ours: Product-metric examples (funnels, cohorts) instead of general charts. Measured: dashboard design 5,400 a month (US), difficulty 24; chart chooser 40, difficulty 0.</p></div>
 <div class="idea"><div class="h"><b>Heuristic evaluation scorer</b><span class="pill later">Later</span><span class="meta">score 66 &#183; UX design &#183; about 6 h</span></div>
 <p>Log issues against the ten usability heuristics and rate severity. <span class="muted">In:</span> Issues with heuristic and severity (0 to 4). <span class="muted">Out:</span> Severity table, counts per heuristic, a ranked fix list as CSV or Jira-ready text.</p>
-<p class="meta">Search: heuristic evaluation (no data). Nearest: Spreadsheet workbooks (NN/g). Ours: Severity maths and a Jira export in one place.</p></div>
-<div class="idea"><div class="h"><b>Journey map grid builder</b><span class="pill later">Later</span><span class="meta">score 64 &#183; UX research &#183; about 10 h</span></div>
-<p>Lay out stages, actions, thoughts, feelings and opportunities as a clean grid. <span class="muted">In:</span> Stages and rows as text. <span class="muted">Out:</span> A printable journey map with an emotion line; PNG, SVG and CSV.</p>
-<p class="meta">Search: customer journey map template (1,000); journey map template (590). Nearest: Miro, Figma community and Canva templates. Ours: Text in, drawing out; no canvas skills needed.</p></div>
-<div class="idea"><div class="h"><b>Dashboard chart picker</b><span class="pill later">Later</span><span class="meta">score 62 &#183; UI design &#183; about 5 h</span></div>
-<p>Pick the right chart for the comparison you want to show. <span class="muted">In:</span> What you compare (over time, parts of a whole, ranking, distribution), number of series. <span class="muted">Out:</span> Recommended chart, what to avoid, a small example.</p>
-<p class="meta">Search: dashboard design (5,400); dashboard examples (1,900). Nearest: Chart catalogues (Data Viz Catalogue, FT Visual Vocabulary). Ours: Product-metric examples (funnels, cohorts) instead of general charts.</p></div>
+<p class="meta">Search: heuristic evaluation (no data). Nearest: Spreadsheet workbooks (NN/g). Ours: Severity maths and a Jira export in one place. Measured: heuristic evaluation template 110 a month (US), difficulty 18.</p></div>
+<div class="idea"><div class="h"><b>Touch target checker</b><span class="pill later">Later</span><span class="meta">score 60 &#183; Accessibility &#183; about 4 h</span></div>
+<p>Check that tap targets meet the size and spacing rules for web, iOS and Android. <span class="muted">In:</span> Target size, spacing to neighbors, platform. <span class="muted">Out:</span> Pass or fail against WCAG 2.2 (24px minimum, 44px enhanced), Apple 44pt and Material 48dp; the padding needed.</p>
+<p class="meta">Search: touch target size (no data). Nearest: Guideline pages (Apple HIG, Material, W3C). Ours: All three rulebooks side by side, with unit conversion (pt, dp, px). Measured: touch target size 70 a month (US), difficulty 48.</p></div>
 </details>
 <details class="pg"><summary>UI designer <span>&#183; 10 ideas, 1 at launch</span></summary>
-<div class="idea"><div class="h"><b>Type scale generator</b><span class="pill launch">Launch 8</span><span class="meta">score 82 &#183; UI design &#183; about 8 h</span></div>
+<div class="idea"><div class="h"><b>Type scale generator</b><span class="pill launch">Launch 3</span><span class="meta">score 86 &#183; UI design &#183; about 8 h</span></div>
 <p>Build a consistent set of font sizes and line heights from one base and one ratio. <span class="muted">In:</span> Base size, ratio, steps, optional fluid range (min and max screen width). <span class="muted">Out:</span> Sizes in px and rem, line heights snapped to a 4px grid, CSS variables, clamp() values, a Figma text-style table.</p>
-<p class="meta">Search: type scale generator (no data); font size accessibility (3,600). Nearest: typescale.com (Jeremy Church); Utopia fluid type. Ours: Static scale, fluid clamp() and snapped line heights on one page, previewed in real interface text.</p></div>
-<div class="idea"><div class="h"><b>Palette contrast checker</b><span class="pill drip">Drip 2</span><span class="meta">score 78 &#183; Accessibility &#183; about 8 h</span></div>
-<p>Check every text and background pair in a palette against WCAG at once, and get the nearest passing color. <span class="muted">In:</span> Paste a palette (hex list or CSS variables). <span class="muted">Out:</span> A pass/fail grid for AA and AAA, normal and large text, APCA as a reference column, a suggested fix for each failing pair.</p>
-<p class="meta">Search: contrast checker (no data); high contrast accessibility (2,900). Nearest: WebAIM contrast checker (one pair at a time); Coolors. Ours: The whole palette as a grid instead of one pair at a time, with a fix.</p></div>
-<div class="idea"><div class="h"><b>Tint and shade scale generator</b><span class="pill drip">Drip 8</span><span class="meta">score 76 &#183; UI design &#183; about 6 h</span></div>
+<p class="meta">Search: type scale generator (no data); font size accessibility (3,600). Nearest: typescale.com (Jeremy Church); Utopia fluid type. Ours: Static scale, fluid clamp() and snapped line heights on one page, previewed in real interface text. Measured: type scale generator 110 a month (US), difficulty 30; UK 30, Canada 20. Page one for &#8216;type scale generator&#8217;: 1 SaaS calculator or content, 4 thin calculator site, 1 editorial, 3 forum or UGC; top three illustration.app, news.ycombinator.com, gist.github.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Tint and shade scale generator</b><span class="pill drip">Drip 1</span><span class="meta">score 84 &#183; UI design &#183; about 6 h</span></div>
 <p>Make a 50 to 950 color ramp from one brand color, with contrast labels on each step. <span class="muted">In:</span> One or more hex colors. <span class="muted">Out:</span> An 11-step ramp in OKLCH, contrast with white and black on each step, CSS variables, JSON tokens, a Tailwind block.</p>
-<p class="meta">Search: tint and shade generator; color palette generator (no data). Nearest: 66colorful; tints.dev; MagicPattern. Ours: Contrast labels on every step tie the ramp to accessibility, which most generators leave out.</p></div>
-<div class="idea"><div class="h"><b>Line length and measure calculator</b><span class="pill later">Later</span><span class="meta">score 72 &#183; UI design &#183; about 4 h</span></div>
+<p class="meta">Search: tint and shade generator; color palette generator (no data). Nearest: 66colorful; tints.dev; MagicPattern. Ours: Contrast labels on every step tie the ramp to accessibility, which most generators leave out. Measured: tint and shade generator 590 a month (US), difficulty 6; UK 140, Canada 90. Page one for &#8216;tint and shade generator&#8217;: 3 SaaS calculator or content, 2 thin calculator site, 3 forum or UGC; top three toolbox-kit.com, tumblr.com, prototypr.io. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Palette contrast checker</b><span class="pill drip">Drip 4</span><span class="meta">score 82 &#183; Accessibility &#183; about 8 h</span></div>
+<p>Check every text and background pair in a palette against WCAG at once, and get the nearest passing color. <span class="muted">In:</span> Paste a palette (hex list or CSS variables). <span class="muted">Out:</span> A pass/fail grid for AA and AAA, normal and large text, APCA as a reference column, a suggested fix for each failing pair.</p>
+<p class="meta">Search: contrast checker (no data); high contrast accessibility (2,900). Nearest: WebAIM contrast checker (one pair at a time); Coolors. Ours: The whole palette as a grid instead of one pair at a time, with a fix. Measured: color contrast checker 12,100 a month (US), difficulty 56; UK 2,400, Canada 1,600. Page one for &#8216;color contrast checker&#8217;: 1 big product, 6 SaaS calculator or content, 1 thin calculator site, 1 editorial; top three webaim.org, coolors.co, colourcontrast.cc. AI Overview: no.</p></div>
+<div class="idea"><div class="h"><b>Line length and measure calculator</b><span class="pill later">Later</span><span class="meta">score 76 &#183; UI design &#183; about 4 h</span></div>
 <p>Set a text column width that gives 45 to 75 characters per line. <span class="muted">In:</span> Font, font size, target characters. <span class="muted">Out:</span> Container width in px, rem and ch, with a live sample.</p>
-<p class="meta">Search: optimal line length (no data). Nearest: everycalculators line length calculator. Ours: Measures the real font in the browser instead of assuming half an em per character.</p></div>
-<div class="idea"><div class="h"><b>Fluid size clamp() calculator</b><span class="pill fold">Folds in</span><span class="meta">score 66 &#183; UI design &#183; about 3 h</span></div>
+<p class="meta">Search: optimal line length (no data). Nearest: everycalculators line length calculator. Ours: Measures the real font in the browser instead of assuming half an em per character. Measured: line length calculator 90 a month (US), difficulty 0; optimal line length 390, difficulty 22.</p></div>
+<div class="idea"><div class="h"><b>Breakpoint and layout grid calculator</b><span class="pill later">Later</span><span class="meta">score 74 &#183; UI design &#183; about 6 h</span></div>
+<p>Work out column widths, gutters and margins for each breakpoint. <span class="muted">In:</span> Breakpoints, columns, gutter, margin. <span class="muted">Out:</span> Column width per breakpoint, CSS grid code, a Figma layout-grid table.</p>
+<p class="meta">Search: grid system in graphic design (880). Nearest: gridcalculator.dk; Figma layout grids. Ours: One table for all breakpoints with the matching Figma settings. Measured: css grid generator 3,600 a month (US), difficulty 14.</p></div>
+<div class="idea"><div class="h"><b>Aspect ratio calculator</b><span class="pill park">Parked</span><span class="meta">score 72 &#183; UI design &#183; about 2 h</span></div>
+<p>Resize an image or frame keeping the ratio, and name the ratio. <span class="muted">In:</span> Width and height, or a ratio and one side. <span class="muted">Out:</span> The other side, the simplified ratio, a CSS aspect-ratio line.</p>
+<p class="meta">Search: aspect ratio calculator (no data); golden ratio number (2,400). Nearest: calculator.net and many others. Ours: A crowded utility; fine as a quiet extra. Park: crowded utility. Measured: aspect ratio calculator 14,800 a month (US), difficulty 16.</p></div>
+<div class="idea"><div class="h"><b>Fluid size clamp() calculator</b><span class="pill fold">Folds in</span><span class="meta">score 70 &#183; UI design &#183; about 3 h</span></div>
 <p>Turn a min and max size into a CSS clamp() that scales between two widths. <span class="muted">In:</span> Min size, max size, min and max screen width. <span class="muted">Out:</span> clamp() expression, slope and intercept, live preview.</p>
-<p class="meta">Search: clamp calculator (no data). Nearest: Utopia; Flavio Copes clamp calculator. Ours: Better folded into the type scale generator than a page of its own. Fold into the type scale generator.</p></div>
+<p class="meta">Search: clamp calculator (no data). Nearest: Utopia; Flavio Copes clamp calculator. Ours: Better folded into the type scale generator than a page of its own. Fold into the type scale generator. Measured: css clamp calculator 40 a month (US), difficulty 0.</p></div>
+<div class="idea"><div class="h"><b>px, rem and em converter</b><span class="pill fold">Folds in</span><span class="meta">score 68 &#183; UI design &#183; about 2 h</span></div>
+<p>Convert between px, rem, em and pt. <span class="muted">In:</span> A value and the root size. <span class="muted">Out:</span> All units; a table for a whole scale.</p>
+<p class="meta">Search: px to rem (no data). Nearest: Many developer sites. Ours: Crowded; only as part of the type scale generator. Fold into the type scale generator. Measured: px to rem 2,900 a month (US), difficulty 3.</p></div>
 <div class="idea"><div class="h"><b>Line height calculator</b><span class="pill fold">Folds in</span><span class="meta">score 64 &#183; UI design &#183; about 3 h</span></div>
 <p>Snap line heights to a 4px grid for every size. <span class="muted">In:</span> Font sizes, base grid. <span class="muted">Out:</span> Line heights in px and unitless, snapped to the grid.</p>
-<p class="meta">Search: line height calculator (no data). Nearest: Small calculator sites. Ours: Fold into the type scale generator. Fold into the type scale generator.</p></div>
-<div class="idea"><div class="h"><b>Breakpoint and layout grid calculator</b><span class="pill later">Later</span><span class="meta">score 62 &#183; UI design &#183; about 6 h</span></div>
-<p>Work out column widths, gutters and margins for each breakpoint. <span class="muted">In:</span> Breakpoints, columns, gutter, margin. <span class="muted">Out:</span> Column width per breakpoint, CSS grid code, a Figma layout-grid table.</p>
-<p class="meta">Search: grid system in graphic design (880). Nearest: gridcalculator.dk; Figma layout grids. Ours: One table for all breakpoints with the matching Figma settings.</p></div>
-<div class="idea"><div class="h"><b>Icon size and stroke calculator</b><span class="pill later">Later</span><span class="meta">score 58 &#183; UI design &#183; about 4 h</span></div>
+<p class="meta">Search: line height calculator (no data). Nearest: Small calculator sites. Ours: Fold into the type scale generator. Fold into the type scale generator. Measured: line height calculator 30 a month (US), difficulty 12.</p></div>
+<div class="idea"><div class="h"><b>Icon size and stroke calculator</b><span class="pill later">Later</span><span class="meta">score 62 &#183; UI design &#183; about 4 h</span></div>
 <p>Pick icon sizes, padding and stroke weights that stay consistent across sizes. <span class="muted">In:</span> Base icon size, grid, stroke. <span class="muted">Out:</span> Size set (16, 20, 24, 32), live area, stroke per size, export table.</p>
-<p class="meta">Search: icon sizes (no data). Nearest: Material icon guidelines. Ours: A small niche.</p></div>
-<div class="idea"><div class="h"><b>Aspect ratio calculator</b><span class="pill park">Parked</span><span class="meta">score 56 &#183; UI design &#183; about 2 h</span></div>
-<p>Resize an image or frame keeping the ratio, and name the ratio. <span class="muted">In:</span> Width and height, or a ratio and one side. <span class="muted">Out:</span> The other side, the simplified ratio, a CSS aspect-ratio line.</p>
-<p class="meta">Search: aspect ratio calculator (no data); golden ratio number (2,400). Nearest: calculator.net and many others. Ours: A crowded utility; fine as a quiet extra. Park: crowded utility.</p></div>
-<div class="idea"><div class="h"><b>px, rem and em converter</b><span class="pill fold">Folds in</span><span class="meta">score 56 &#183; UI design &#183; about 2 h</span></div>
-<p>Convert between px, rem, em and pt. <span class="muted">In:</span> A value and the root size. <span class="muted">Out:</span> All units; a table for a whole scale.</p>
-<p class="meta">Search: px to rem (no data). Nearest: Many developer sites. Ours: Crowded; only as part of the type scale generator. Fold into the type scale generator.</p></div>
+<p class="meta">Search: icon sizes (no data). Nearest: Material icon guidelines. Ours: A small niche. Measured: icon grid 590 a month (US), difficulty 0.</p></div>
 </details>
-<details class="pg"><summary>UX researcher <span>&#183; 10 ideas, 3 at launch</span></summary>
-<div class="idea"><div class="h"><b>SUS score calculator</b><span class="pill launch">Launch 1</span><span class="meta">score 92 &#183; UX research &#183; about 6 h</span></div>
-<p>Score a System Usability Scale study and say what the number means. <span class="muted">In:</span> Paste the 10 answers per person from a spreadsheet (one row each). <span class="muted">Out:</span> SUS score, grade and percentile against the 68 average, a confidence interval, per-item averages, flags for straight-lined rows.</p>
-<p class="meta">Search: sus score calculator; system usability scale calculator; how to calculate sus score (no store data). Nearest: Trymata free SUS calculator; Lyssna Google Sheets template. Ours: Paste a whole sheet instead of typing 10 boxes per person; confidence interval and straight-lining check that the free ones skip.</p></div>
-<div class="idea"><div class="h"><b>Usability test sample size calculator</b><span class="pill launch">Launch 5</span><span class="meta">score 86 &#183; UX research &#183; about 5 h</span></div>
-<p>Decide how many people to test so you see the problems that matter. <span class="muted">In:</span> How common a problem must be before you care (e.g. 1 in 10 users), the share of those problems you want to see, number of user groups. <span class="muted">Out:</span> Number of participants, a curve of problems found per added participant, the plan as rounds (e.g. 3 rounds of 5).</p>
-<p class="meta">Search: usability testing (2,400); how many users for usability testing (no data). Nearest: MeasuringU tables and articles (no calculator surfaced in the scan). Ours: Turns the &#x27;five users&#x27; debate into a slider: shows what five finds and what it misses for rare problems.</p></div>
-<div class="idea"><div class="h"><b>Survey sample size and margin of error calculator</b><span class="pill launch">Launch 9</span><span class="meta">score 82 &#183; UX research &#183; about 5 h</span></div>
-<p>Find how many responses a survey needs, or how far to trust the responses you have. <span class="muted">In:</span> Population size, confidence level, margin you can live with; or the responses you got and the percentage you saw. <span class="muted">Out:</span> Responses needed; margin of error for your result; the range in plain words (&#x27;between 55% and 65%&#x27;).</p>
-<p class="meta">Search: sample size calculator (8,100); power analysis sample size calculator (880); sample size calculator for survey (390); survey sample size calculator (390). Nearest: SurveyMonkey and Qualtrics margin of error calculators; Raosoft. Ours: Both directions on one page, the result written as a sentence you can paste into a readout.</p></div>
-<div class="idea"><div class="h"><b>Survey question checker</b><span class="pill drip">Drip 10</span><span class="meta">score 74 &#183; UX research &#183; about 8 h</span></div>
+<details class="pg"><summary>UX researcher <span>&#183; 10 ideas, 2 at launch</span></summary>
+<div class="idea"><div class="h"><b>Survey question checker</b><span class="pill launch">Launch 6</span><span class="meta">score 86 &#183; UX research &#183; about 8 h</span></div>
 <p>Catch leading, loaded and double-barreled questions before a survey goes out. <span class="muted">In:</span> Paste the questions, one per line. <span class="muted">Out:</span> Each question flagged (two questions in one, leading words, absolutes, jargon, no &#x27;none&#x27; option) with a rewrite hint.</p>
-<p class="meta">Search: product survey questions (1,600); qualitative survey questions (1,000). Nearest: General grammar checkers; vendor articles on bad survey questions. Ours: Rule-based and explained (no AI): each flag names the rule and links the article.</p></div>
-<div class="idea"><div class="h"><b>Task success and time-on-task calculator</b><span class="pill later">Later</span><span class="meta">score 72 &#183; UX research &#183; about 5 h</span></div>
+<p class="meta">Search: product survey questions (1,600); qualitative survey questions (1,000). Nearest: General grammar checkers; vendor articles on bad survey questions. Ours: Rule-based and explained (no AI): each flag names the rule and links the article. Measured: product survey questions 1,600 a month (US), difficulty 8; how to write survey questions 480 (UK 20, Canada 10), difficulty 37. Page one for &#8216;survey question checker&#8217;: 5 SaaS calculator or content, 3 thin calculator site; top three surveymars.com, akiosurvey.com, involve.me. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>SUS score calculator</b><span class="pill launch">Launch 7</span><span class="meta">score 84 &#183; UX research &#183; about 6 h</span></div>
+<p>Score a System Usability Scale study and say what the number means. <span class="muted">In:</span> Paste the 10 answers per person from a spreadsheet (one row each). <span class="muted">Out:</span> SUS score, grade and percentile against the 68 average, a confidence interval, per-item averages, flags for straight-lined rows.</p>
+<p class="meta">Search: sus score calculator; system usability scale calculator; how to calculate sus score (no store data). Nearest: Trymata free SUS calculator; Lyssna Google Sheets template. Ours: Paste a whole sheet instead of typing 10 boxes per person; confidence interval and straight-lining check that the free ones skip. Measured: sus score calculator 50 a month (US), difficulty 2; UK 20, Canada 10. Page one for &#8216;sus score calculator&#8217;: 3 SaaS calculator or content, 1 thin calculator site, 1 editorial, 2 forum or UGC; top three nngroup.com, yourcx.io, stackoverflow.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Survey sample size and margin of error calculator</b><span class="pill drip">Drip 7</span><span class="meta">score 78 &#183; UX research &#183; about 5 h</span></div>
+<p>Find how many responses a survey needs, or how far to trust the responses you have. <span class="muted">In:</span> Population size, confidence level, margin you can live with; or the responses you got and the percentage you saw. <span class="muted">Out:</span> Responses needed; margin of error for your result; the range in plain words (&#x27;between 55% and 65%&#x27;).</p>
+<p class="meta">Search: sample size calculator (8,100); power analysis sample size calculator (880); sample size calculator for survey (390); survey sample size calculator (390). Nearest: SurveyMonkey and Qualtrics margin of error calculators; Raosoft. Ours: Both directions on one page, the result written as a sentence you can paste into a readout. Measured: sample size calculator 8,100 a month (US), difficulty 39. Page one for &#8216;survey margin of error calculator&#8217;: 2 big product, 5 SaaS calculator or content, 1 thin calculator site, 1 forum or UGC; top three npscalculator.com, surveymonkey.com, surveysparrow.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Likert scale label builder</b><span class="pill later">Later</span><span class="meta">score 76 &#183; UX research &#183; about 3 h</span></div>
+<p>Get balanced labels for a 5- or 7-point scale on agreement, importance, frequency or satisfaction. <span class="muted">In:</span> Scale type and number of points. <span class="muted">Out:</span> Balanced labels, the scoring map (1 to 5), a copy block for a form tool.</p>
+<p class="meta">Search: importance likert scale (720). Nearest: Lists in survey vendor blogs (SurveyMonkey, Qualtrics). Ours: Copyable sets with the scoring key and a note on when to drop the middle point. Measured: likert scale examples 4,400 a month (US), difficulty 21.</p></div>
+<div class="idea"><div class="h"><b>Usability test sample size calculator</b><span class="pill later">Later</span><span class="meta">score 74 &#183; UX research &#183; about 5 h</span></div>
+<p>Decide how many people to test so you see the problems that matter. <span class="muted">In:</span> How common a problem must be before you care (e.g. 1 in 10 users), the share of those problems you want to see, number of user groups. <span class="muted">Out:</span> Number of participants, a curve of problems found per added participant, the plan as rounds (e.g. 3 rounds of 5).</p>
+<p class="meta">Search: usability testing (2,400); how many users for usability testing (no data). Nearest: MeasuringU tables and articles (no calculator surfaced in the scan). Ours: Turns the &#x27;five users&#x27; debate into a slider: shows what five finds and what it misses for rare problems. Measured: usability testing 2,400 a month (US), difficulty 35; how many users for usability testing 10 (UK 10, Canada 0), difficulty 43. Page one for &#8216;usability test sample size&#8217;: 4 SaaS calculator or content, 3 editorial, 2 forum or UGC; top three uxarmy.com, userinterviews.com, dl.acm.org. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Interview guide builder</b><span class="pill later">Later</span><span class="meta">score 74 &#183; UX research &#183; about 8 h</span></div>
+<p>Turn a research goal into an interview script with warm-up, core and wrap-up questions. <span class="muted">In:</span> Research goal, who you talk to, session length. <span class="muted">Out:</span> A timed script: intro, consent line, open questions from a vetted bank, probes, wrap-up; markdown.</p>
+<p class="meta">Search: user interviews (49,500, mostly the brand); user interview questions (no data). Nearest: Vendor templates (User Interviews, Dovetail, Maze). Ours: Times each block to the session length and flags leading phrasings; no sign-up. Measured: user interview questions 140 a month (US), difficulty 22.</p></div>
+<div class="idea"><div class="h"><b>Research question generator</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UX research &#183; about 6 h</span></div>
+<p>Turn a vague ask into research questions and a method. <span class="muted">In:</span> The decision the team must make, what is unknown. <span class="muted">Out:</span> Three to five research questions and a suggested method for each.</p>
+<p class="meta">Search: research question generator (390). Nearest: Academic thesis-question generators (a different reader). Ours: Product decision first, method second; the academic tools answer a student&#x27;s thesis. Measured: research question generator 390 a month (US), difficulty 0; ux research questions 30, difficulty 3.</p></div>
+<div class="idea"><div class="h"><b>Task success and time-on-task calculator</b><span class="pill later">Later</span><span class="meta">score 68 &#183; UX research &#183; about 5 h</span></div>
 <p>Report completion rate and task time with honest error bars from a small test. <span class="muted">In:</span> Successes out of attempts; task times. <span class="muted">Out:</span> Completion rate with an adjusted-Wald interval, geometric mean time with interval, a one-line summary.</p>
 <p class="meta">Search: task completion rate; time on task (no data). Nearest: MeasuringU calculators (paid). Ours: Free, small-sample-correct maths explained in plain words.</p></div>
-<div class="idea"><div class="h"><b>Interview guide builder</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UX research &#183; about 8 h</span></div>
-<p>Turn a research goal into an interview script with warm-up, core and wrap-up questions. <span class="muted">In:</span> Research goal, who you talk to, session length. <span class="muted">Out:</span> A timed script: intro, consent line, open questions from a vetted bank, probes, wrap-up; markdown.</p>
-<p class="meta">Search: user interviews (49,500, mostly the brand); user interview questions (no data). Nearest: Vendor templates (User Interviews, Dovetail, Maze). Ours: Times each block to the session length and flags leading phrasings; no sign-up.</p></div>
-<div class="idea"><div class="h"><b>Likert scale label builder</b><span class="pill later">Later</span><span class="meta">score 68 &#183; UX research &#183; about 3 h</span></div>
-<p>Get balanced labels for a 5- or 7-point scale on agreement, importance, frequency or satisfaction. <span class="muted">In:</span> Scale type and number of points. <span class="muted">Out:</span> Balanced labels, the scoring map (1 to 5), a copy block for a form tool.</p>
-<p class="meta">Search: importance likert scale (720). Nearest: Lists in survey vendor blogs (SurveyMonkey, Qualtrics). Ours: Copyable sets with the scoring key and a note on when to drop the middle point.</p></div>
-<div class="idea"><div class="h"><b>Research question generator</b><span class="pill later">Later</span><span class="meta">score 66 &#183; UX research &#183; about 6 h</span></div>
-<p>Turn a vague ask into research questions and a method. <span class="muted">In:</span> The decision the team must make, what is unknown. <span class="muted">Out:</span> Three to five research questions and a suggested method for each.</p>
-<p class="meta">Search: research question generator (390). Nearest: Academic thesis-question generators (a different reader). Ours: Product decision first, method second; the academic tools answer a student&#x27;s thesis.</p></div>
-<div class="idea"><div class="h"><b>Affinity map sorter</b><span class="pill later">Later</span><span class="meta">score 62 &#183; UX research &#183; about 12 h</span></div>
+<div class="idea"><div class="h"><b>Affinity map sorter</b><span class="pill later">Later</span><span class="meta">score 66 &#183; UX research &#183; about 12 h</span></div>
 <p>Turn a pile of interview notes into rough groups to start synthesis. <span class="muted">In:</span> Paste notes, one per line, optional tags. <span class="muted">Out:</span> Notes grouped by shared words and tags, drag to fix, export as CSV or a markdown outline.</p>
-<p class="meta">Search: affinity diagram; affinity map (no data; &#x27;affinity designer&#x27; pollutes the store). Nearest: FigJam and Miro boards; Dovetail (paid). Ours: A fast first pass in the browser with no account and no upload; plain word matching, not AI.</p></div>
-<div class="idea"><div class="h"><b>Research participant incentive calculator</b><span class="pill park">Parked</span><span class="meta">score 58 &#183; UX research &#183; about 4 h</span></div>
+<p class="meta">Search: affinity diagram; affinity map (no data; &#x27;affinity designer&#x27; pollutes the store). Nearest: FigJam and Miro boards; Dovetail (paid). Ours: A fast first pass in the browser with no account and no upload; plain word matching, not AI. Measured: affinity diagram 5,400 a month (US), difficulty 24.</p></div>
+<div class="idea"><div class="h"><b>Research participant incentive calculator</b><span class="pill park">Parked</span><span class="meta">score 54 &#183; UX research &#183; about 4 h</span></div>
 <p>Set a fair incentive for a session. <span class="muted">In:</span> Session length, audience (consumer, professional, specialist), remote or in person. <span class="muted">Out:</span> Suggested range and a budget for the whole study.</p>
-<p class="meta">Search: user research incentive calculator (no data). Nearest: User Interviews incentive calculator (built on its own project data). Ours: Weak: the recruiting vendors own the data; ours would rest on published rates. Park: the recruiting vendors own the data.</p></div>
+<p class="meta">Search: user research incentive calculator (no data). Nearest: User Interviews incentive calculator (built on its own project data). Ours: Weak: the recruiting vendors own the data; ours would rest on published rates. Park: the recruiting vendors own the data. Measured: user research incentives 10 a month (US), difficulty 47.</p></div>
 </details>
 <details class="pg"><summary>UX writer <span>&#183; 4 ideas</span></summary>
-<div class="idea"><div class="h"><b>Microcopy length checker</b><span class="pill drip">Drip 3</span><span class="meta">score 80 &#183; UX design &#183; about 6 h</span></div>
+<div class="idea"><div class="h"><b>Microcopy length checker</b><span class="pill later">Later</span><span class="meta">score 76 &#183; UX design &#183; about 6 h</span></div>
 <p>Check button labels, errors and toasts against length limits and plain-language rules. <span class="muted">In:</span> Paste strings, pick the element type (button, error, toast, tooltip). <span class="muted">Out:</span> Character and word counts against limits; flags for blame words, jargon, passive voice and a missing next step; a translation expansion estimate.</p>
-<p class="meta">Search: ux writing (group 4,740; no tool phrase in the store). Nearest: Hemingway Editor (general prose). Ours: Built for interface strings, not prose: limits per element and translation expansion.</p></div>
-<div class="idea"><div class="h"><b>Error message builder</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UX design &#183; about 5 h</span></div>
+<p class="meta">Search: ux writing (group 4,740; no tool phrase in the store). Nearest: Hemingway Editor (general prose). Ours: Built for interface strings, not prose: limits per element and translation expansion. Measured: ux writing tool 20 a month (US), difficulty 12; UK 10, Canada 10. Page one for &#8216;microcopy checker&#8217;: 1 SaaS calculator or content, 1 thin calculator site, 6 forum or UGC; top three knowadays.com, linkedin.com, reddit.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Alt text helper</b><span class="pill later">Later</span><span class="meta">score 76 &#183; Accessibility &#183; about 4 h</span></div>
+<p>Decide whether an image needs alt text and what kind. <span class="muted">In:</span> Answers to a short decision tree (decorative? a link? a chart?). <span class="muted">Out:</span> The right treatment (empty alt, short alt, long description), a pattern to fill, a length check.</p>
+<p class="meta">Search: alt text (no data). Nearest: W3C alt decision tree. Ours: The decision tree plus a length check and product examples (charts, screenshots, logos). Measured: alt text examples 1,300 a month (US), difficulty 35.</p></div>
+<div class="idea"><div class="h"><b>Readability checker for UI and docs</b><span class="pill later">Later</span><span class="meta">score 70 &#183; UX design &#183; about 5 h</span></div>
+<p>See the reading grade of help text, onboarding or a PRD. <span class="muted">In:</span> Paste text. <span class="muted">Out:</span> Grade level, long sentences highlighted, hard words with plain swaps.</p>
+<p class="meta">Search: readability checker (no data). Nearest: Hemingway Editor; readable.com. Ours: A swap list tuned to product jargon; otherwise a crowded field. Measured: readability checker 3,600 a month (US), difficulty 34.</p></div>
+<div class="idea"><div class="h"><b>Error message builder</b><span class="pill later">Later</span><span class="meta">score 66 &#183; UX design &#183; about 5 h</span></div>
 <p>Write an error message that says what happened, why, and what to do. <span class="muted">In:</span> What failed, whether the user can fix it, the fix. <span class="muted">Out:</span> Three drafts in the house pattern, checked for blame and jargon, with length.</p>
 <p class="meta">Search: error message examples; how to write error messages (no data). Nearest: Content style guides (Atlassian, Mailchimp). Ours: A rule-driven builder, not a rewrite engine; shows the rule behind each line.</p></div>
-<div class="idea"><div class="h"><b>Alt text helper</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Accessibility &#183; about 4 h</span></div>
-<p>Decide whether an image needs alt text and what kind. <span class="muted">In:</span> Answers to a short decision tree (decorative? a link? a chart?). <span class="muted">Out:</span> The right treatment (empty alt, short alt, long description), a pattern to fill, a length check.</p>
-<p class="meta">Search: alt text (no data). Nearest: W3C alt decision tree. Ours: The decision tree plus a length check and product examples (charts, screenshots, logos).</p></div>
-<div class="idea"><div class="h"><b>Readability checker for UI and docs</b><span class="pill later">Later</span><span class="meta">score 58 &#183; UX design &#183; about 5 h</span></div>
-<p>See the reading grade of help text, onboarding or a PRD. <span class="muted">In:</span> Paste text. <span class="muted">Out:</span> Grade level, long sentences highlighted, hard words with plain swaps.</p>
-<p class="meta">Search: readability checker (no data). Nearest: Hemingway Editor; readable.com. Ours: A swap list tuned to product jargon; otherwise a crowded field.</p></div>
 </details>
 <details class="pg"><summary>Design system lead <span>&#183; 2 ideas</span></summary>
-<div class="idea"><div class="h"><b>Spacing scale and token export</b><span class="pill drip">Drip 7</span><span class="meta">score 78 &#183; Design systems &#183; about 5 h</span></div>
+<div class="idea"><div class="h"><b>Spacing scale and token export</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Design systems &#183; about 5 h</span></div>
 <p>Pick a spacing scale and export it as tokens. <span class="muted">In:</span> Base unit (4 or 8), scale type (linear, ratio, t-shirt), names. <span class="muted">Out:</span> Spacing tokens with names, CSS variables, JSON in the W3C token format, a visual ruler.</p>
-<p class="meta">Search: spacing scale; design tokens (no data). Nearest: figr.design spacing generator; bushe.co. Ours: Naming advice and the W3C token format built in.</p></div>
-<div class="idea"><div class="h"><b>Design token naming helper</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Design systems &#183; about 8 h</span></div>
+<p class="meta">Search: spacing scale; design tokens (no data). Nearest: figr.design spacing generator; bushe.co. Ours: Naming advice and the W3C token format built in. Measured: design tokens generator 20 a month (US), difficulty 50; UK 10, Canada 10. Page one for &#8216;spacing scale generator&#8217;: 1 big product, 7 thin calculator site, 1 editorial; top three illustration.app, figma.com, utopia.fyi. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Design token naming helper</b><span class="pill later">Later</span><span class="meta">score 60 &#183; Design systems &#183; about 8 h</span></div>
 <p>Name tokens in a consistent tiered pattern (base, semantic, component). <span class="muted">In:</span> A list of raw values and where they are used. <span class="muted">Out:</span> Suggested names by tier, a lint of inconsistent names, JSON export.</p>
-<p class="meta">Search: design token naming (no data). Nearest: Articles (Nathan Curtis); Tokens Studio (Figma plugin). Ours: A naming linter in the browser; none found free.</p></div>
+<p class="meta">Search: design token naming (no data). Nearest: Articles (Nathan Curtis); Tokens Studio (Figma plugin). Ours: A naming linter in the browser; none found free. Measured: design tokens 720 a month (US), difficulty 29.</p></div>
 </details>
 <details class="pg"><summary>Accessibility specialist <span>&#183; 1 ideas</span></summary>
 <div class="idea"><div class="h"><b>Focus order and keyboard checklist</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Accessibility &#183; about 5 h</span></div>
 <p>Walk a page with a checklist for focus order, visible focus and keyboard traps. <span class="muted">In:</span> Ticks as you test. <span class="muted">Out:</span> A pass/fail report with the WCAG criterion on each line; markdown.</p>
-<p class="meta">Search: wcag accessibility (5,400 KD 62); accessibility checker (4,400 KD 76). Nearest: A11Y Project checklist; WebAIM WCAG checklist. Ours: A tickable report rather than a reading list.</p></div>
+<p class="meta">Search: wcag accessibility (5,400 KD 62); accessibility checker (4,400 KD 76). Nearest: A11Y Project checklist; WebAIM WCAG checklist. Ours: A tickable report rather than a reading list. Measured: accessibility checklist 170 a month (US), difficulty 27.</p></div>
 </details>
-<details class="pg"><summary>Scrum master or delivery lead <span>&#183; 8 ideas, 2 at launch</span></summary>
-<div class="idea"><div class="h"><b>Sprint capacity calculator</b><span class="pill launch">Launch 4</span><span class="meta">score 88 &#183; Project management &#183; about 6 h</span></div>
+<details class="pg"><summary>Scrum master or delivery lead <span>&#183; 8 ideas, 1 at launch</span></summary>
+<div class="idea"><div class="h"><b>Sprint capacity calculator</b><span class="pill launch">Launch 9</span><span class="meta">score 84 &#183; Project management &#183; about 6 h</span></div>
 <p>Work out how much the team can take on this sprint. <span class="muted">In:</span> People, days in the sprint, days off, meeting hours, focus factor; optional points-per-day history. <span class="muted">Out:</span> Hours and points of capacity, per person and total, with a commitment range; a line for the sprint planning notes.</p>
-<p class="meta">Search: sprint capacity calculator (no data). Nearest: Vendor articles and spreadsheet templates (ONES, Xebia); no standard free tool. Ours: Days off per person and a range, not a single number; remembers the team in the browser.</p></div>
-<div class="idea"><div class="h"><b>Delivery forecast (velocity range and Monte Carlo)</b><span class="pill launch">Launch 6</span><span class="meta">score 84 &#183; Project management &#183; about 10 h</span></div>
+<p class="meta">Search: sprint capacity calculator (no data). Nearest: Vendor articles and spreadsheet templates (ONES, Xebia); no standard free tool. Ours: Days off per person and a range, not a single number; remembers the team in the browser. Measured: sprint capacity calculator 30 a month (US), difficulty 0; capacity planning scrum 140 (UK 10, Canada 10), difficulty 0. Page one for &#8216;sprint capacity calculator&#8217;: 2 big product, 4 SaaS calculator or content, 1 editorial, 2 forum or UGC; top three float.com, atlassian.com, pawelrola.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Delivery forecast (velocity range and Monte Carlo)</b><span class="pill drip">Drip 5</span><span class="meta">score 80 &#183; Project management &#183; about 10 h</span></div>
 <p>Answer &#x27;when will it be done&#x27; with a range instead of a single date. <span class="muted">In:</span> Backlog size, past sprint velocities or weekly throughput, start date. <span class="muted">Out:</span> Dates at 50%, 85% and 95% likelihood, a histogram, and a sentence to share with stakeholders.</p>
-<p class="meta">Search: story points (9,900, a definition search); release forecast (no data). Nearest: Jira marketplace forecasting apps (Monte Carlo is a paid tier); spreadsheets. Ours: Free, in the browser, numbers pasted from Jira; the 85% line explained in plain words.</p></div>
-<div class="idea"><div class="h"><b>Cycle time and lead time calculator</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Project management &#183; about 8 h</span></div>
+<p class="meta">Search: story points (9,900, a definition search); release forecast (no data). Nearest: Jira marketplace forecasting apps (Monte Carlo is a paid tier); spreadsheets. Ours: Free, in the browser, numbers pasted from Jira; the 85% line explained in plain words. Measured: sprint velocity calculator 50 a month (US), difficulty 0; UK 10, Canada 10. Page one for &#8216;monte carlo forecast agile&#8217;: 1 SaaS calculator or content, 3 editorial, 4 forum or UGC; top three dl.acm.org, reddit.com, 55degrees.se. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Cycle time and lead time calculator</b><span class="pill drip">Drip 8</span><span class="meta">score 78 &#183; Project management &#183; about 8 h</span></div>
 <p>Get cycle-time percentiles from a ticket export. <span class="muted">In:</span> Paste start and end dates from a Jira CSV. <span class="muted">Out:</span> 50th, 85th and 95th percentile cycle time, a scatter chart, outliers listed.</p>
-<p class="meta">Search: cycle time (no data). Nearest: Jira apps (paid tiers). Ours: Free paste-in percentiles.</p></div>
-<div class="idea"><div class="h"><b>WIP limit and flow calculator (Little&#x27;s law)</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Project management &#183; about 4 h</span></div>
+<p class="meta">Search: cycle time (no data). Nearest: Jira apps (paid tiers). Ours: Free paste-in percentiles. Measured: cycle time calculator 390 a month (US), difficulty 0; lead time vs cycle time 720, difficulty 0.</p></div>
+<div class="idea"><div class="h"><b>WIP limit and flow calculator (Little&#x27;s law)</b><span class="pill later">Later</span><span class="meta">score 76 &#183; Project management &#183; about 4 h</span></div>
 <p>Set a WIP limit and see how it changes cycle time. <span class="muted">In:</span> Throughput, current work in progress, target cycle time. <span class="muted">Out:</span> Cycle time from Little&#x27;s law, a suggested WIP limit, a what-if slider.</p>
-<p class="meta">Search: work in progress formula (210). Nearest: Articles (Kanban University). Ours: Rare as a tool.</p></div>
-<div class="idea"><div class="h"><b>Retro format picker</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Project management &#183; about 5 h</span></div>
+<p class="meta">Search: work in progress formula (210). Nearest: Articles (Kanban University). Ours: Rare as a tool. Measured: cycle time calculator 390 a month (US), difficulty 0.</p></div>
+<div class="idea"><div class="h"><b>Retro format picker</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Project management &#183; about 5 h</span></div>
 <p>Pick a retrospective format for the team&#x27;s mood and time box. <span class="muted">In:</span> Team size, time, mood (tired, tense, upbeat), remote or in the room. <span class="muted">Out:</span> A format with a timed agenda and prompts; copy for Miro or Confluence.</p>
-<p class="meta">Search: sprint retrospective (no data). Nearest: Retromat; EasyRetro templates. Ours: Matches the format to mood and time; Retromat picks at random.</p></div>
-<div class="idea"><div class="h"><b>Three-point estimate (PERT) calculator</b><span class="pill later">Later</span><span class="meta">score 60 &#183; Project management &#183; about 3 h</span></div>
+<p class="meta">Search: sprint retrospective (no data). Nearest: Retromat; EasyRetro templates. Ours: Matches the format to mood and time; Retromat picks at random. Measured: retrospective ideas 260 a month (US), difficulty 7.</p></div>
+<div class="idea"><div class="h"><b>Three-point estimate (PERT) calculator</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Project management &#183; about 3 h</span></div>
 <p>Turn optimistic, likely and pessimistic guesses into an estimate with a range. <span class="muted">In:</span> Three estimates per task. <span class="muted">Out:</span> PERT mean, spread, total with an 85% range.</p>
-<p class="meta">Search: three point estimate (no data). Nearest: Calculator sites. Ours: Totals a task list, not one task.</p></div>
-<div class="idea"><div class="h"><b>Planning poker (local)</b><span class="pill park">Parked</span><span class="meta">score 58 &#183; Project management &#183; about 20 h</span></div>
-<p>Run an estimation round with cards. <span class="muted">In:</span> Players, deck (Fibonacci, t-shirt). <span class="muted">Out:</span> Revealed votes, spread, agreed estimate.</p>
-<p class="meta">Search: planning poker (no data). Nearest: planningpokeronline, Parabol, EasyRetro. Ours: Real-time voting needs a server, which breaks the no-dependency rule; park. Park: real-time voting needs a server.</p></div>
-<div class="idea"><div class="h"><b>Burn-down chart maker</b><span class="pill later">Later</span><span class="meta">score 56 &#183; Project management &#183; about 5 h</span></div>
+<p class="meta">Search: three point estimate (no data). Nearest: Calculator sites. Ours: Totals a task list, not one task. Measured: pert calculator 480 a month (US), difficulty 16; three point estimate 590, difficulty 2.</p></div>
+<div class="idea"><div class="h"><b>Burn-down chart maker</b><span class="pill later">Later</span><span class="meta">score 68 &#183; Project management &#183; about 5 h</span></div>
 <p>Draw a burn-down or burn-up from daily remaining work. <span class="muted">In:</span> Daily remaining points or tasks. <span class="muted">Out:</span> Chart with the ideal line; PNG and SVG.</p>
-<p class="meta">Search: burndown chart (no data). Nearest: Jira built-in; spreadsheet templates. Ours: Useful only to teams without Jira.</p></div>
+<p class="meta">Search: burndown chart (no data). Nearest: Jira built-in; spreadsheet templates. Ours: Useful only to teams without Jira. Measured: burndown chart template 90 a month (US), difficulty 0; burndown chart 33,100, difficulty 26.</p></div>
+<div class="idea"><div class="h"><b>Planning poker (local)</b><span class="pill park">Parked</span><span class="meta">score 66 &#183; Project management &#183; about 20 h</span></div>
+<p>Run an estimation round with cards. <span class="muted">In:</span> Players, deck (Fibonacci, t-shirt). <span class="muted">Out:</span> Revealed votes, spread, agreed estimate.</p>
+<p class="meta">Search: planning poker (no data). Nearest: planningpokeronline, Parabol, EasyRetro. Ours: Real-time voting needs a server, which breaks the no-dependency rule; park. Park: real-time voting needs a server. Measured: planning poker 3,600 a month (US), difficulty 26.</p></div>
 </details>
 <details class="pg"><summary>Product analyst <span>&#183; 3 ideas, 1 at launch</span></summary>
-<div class="idea"><div class="h"><b>Retention and churn calculator</b><span class="pill launch">Launch 7</span><span class="meta">score 84 &#183; Product metrics &#183; about 10 h</span></div>
+<div class="idea"><div class="h"><b>Retention and churn calculator</b><span class="pill launch">Launch 10</span><span class="meta">score 84 &#183; Product metrics &#183; about 10 h</span></div>
 <p>Turn a cohort table into retention curves, churn and net revenue retention. <span class="muted">In:</span> Paste a cohort table (users or revenue by start month and month since start), or three numbers for a quick rate. <span class="muted">Out:</span> Retention per cohort as a heatmap and curves, the average curve, churn rate, gross and net revenue retention, CSV.</p>
-<p class="meta">Search: retention rate formula (1,600); how to calculate retention rate (1,300); customer retention rate calculator (210); net retention rate formula (210); retention rate calculator (140). Nearest: Founderpath cohort analysis; MetricGate; Amplitude churn calculator. Ours: A quick-rate mode for the &#x27;how to calculate&#x27; searcher and a cohort mode for the analyst, on one page.</p></div>
-<div class="idea"><div class="h"><b>Metric definition card</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Product metrics &#183; about 4 h</span></div>
+<p class="meta">Search: retention rate formula (1,600); how to calculate retention rate (1,300); customer retention rate calculator (210); net retention rate formula (210); retention rate calculator (140). Nearest: Founderpath cohort analysis; MetricGate; Amplitude churn calculator. Ours: A quick-rate mode for the &#x27;how to calculate&#x27; searcher and a cohort mode for the analyst, on one page. Measured: churn rate calculator 260 a month (US), difficulty 18; UK 70, Canada 30. Page one for &#8216;churn rate calculator&#8217;: 7 SaaS calculator or content, 2 thin calculator site; top three mailmodo.com, amplitude.com, saaselevate.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Metric definition card</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Product metrics &#183; about 4 h</span></div>
 <p>Write a metric definition everyone reads the same way. <span class="muted">In:</span> Name, formula, source, filters, owner. <span class="muted">Out:</span> A definition card in markdown with a checklist.</p>
-<p class="meta">Search: kpi examples (14,800); kpi metrics (2,900). Nearest: Data catalog tools. Ours: A shared format for metrics.</p></div>
+<p class="meta">Search: kpi examples (14,800); kpi metrics (2,900). Nearest: Data catalog tools. Ours: A shared format for metrics. Measured: kpi examples 14,800 a month (US), difficulty 43; kpi template 590, difficulty 8.</p></div>
 <div class="idea"><div class="h"><b>Stickiness calculator (DAU/MAU)</b><span class="pill later">Later</span><span class="meta">score 58 &#183; Product metrics &#183; about 3 h</span></div>
 <p>Compute DAU/MAU from counts and compare with typical ranges. <span class="muted">In:</span> Daily and monthly active users. <span class="muted">Out:</span> Stickiness ratio with ranges by product type.</p>
-<p class="meta">Search: dau mau ratio (no data). Nearest: Analytics vendors. Ours: Small.</p></div>
+<p class="meta">Search: dau mau ratio (no data). Nearest: Analytics vendors. Ours: Small. Measured: dau mau ratio 140 a month (US), difficulty 12.</p></div>
 </details>
 <details class="pg"><summary>Growth or pricing lead <span>&#183; 6 ideas</span></summary>
-<div class="idea"><div class="h"><b>A/B test sample size and duration planner</b><span class="pill drip">Drip 9</span><span class="meta">score 72 &#183; Product metrics &#183; about 6 h</span></div>
+<div class="idea"><div class="h"><b>A/B test sample size and duration planner</b><span class="pill drip">Drip 2</span><span class="meta">score 84 &#183; Product metrics &#183; about 6 h</span></div>
 <p>Find how many users and how many days a test needs before you start it. <span class="muted">In:</span> Baseline conversion, smallest lift worth finding, daily traffic, number of variants. <span class="muted">Out:</span> Users per variant, days to run, and a warning when the test cannot finish in a sensible time.</p>
-<p class="meta">Search: power analysis sample size calculator (880); a/b testing calculator (480); ab test calculator (480); a/b testing sample size calculator (140). Nearest: Evan Miller sample size calculator; Optimizely. Ours: Leads with days to run and the &#x27;not worth testing&#x27; warning; plain-language result.</p></div>
-<div class="idea"><div class="h"><b>A/B test significance checker</b><span class="pill fold">Folds in</span><span class="meta">score 68 &#183; Product metrics &#183; about 6 h</span></div>
+<p class="meta">Search: power analysis sample size calculator (880); a/b testing calculator (480); ab test calculator (480); a/b testing sample size calculator (140). Nearest: Evan Miller sample size calculator; Optimizely. Ours: Leads with days to run and the &#x27;not worth testing&#x27; warning; plain-language result. Measured: power analysis sample size calculator 880 a month (US), difficulty 7; ab test duration calculator 20 (UK 10, Canada 10), difficulty 46.</p></div>
+<div class="idea"><div class="h"><b>A/B test significance checker</b><span class="pill fold">Folds in</span><span class="meta">score 76 &#183; Product metrics &#183; about 6 h</span></div>
 <p>Check if a finished test&#x27;s difference is real. <span class="muted">In:</span> Visitors and conversions per variant. <span class="muted">Out:</span> Lift, p-value and confidence interval, chance to beat control, a plain verdict, a sample-ratio check.</p>
-<p class="meta">Search: ab test calculator (480); ab split test calculator (480). Nearest: VWO, Dynamic Yield, ABTestGuide. Ours: Sample-ratio mismatch check and a plain verdict; but page one is crowded. Fold into the A/B test planner.</p></div>
-<div class="idea"><div class="h"><b>Experiment brief builder</b><span class="pill later">Later</span><span class="meta">score 66 &#183; Product metrics &#183; about 5 h</span></div>
-<p>Write a test hypothesis with metric, size and stop rule. <span class="muted">In:</span> Change, expected effect, metric, guardrails. <span class="muted">Out:</span> A brief (hypothesis, primary and guardrail metrics, size, duration, decision rule); markdown.</p>
-<p class="meta">Search: hypothesis statement (no data). Nearest: Vendor templates. Ours: Links into the sample size planner.</p></div>
-<div class="idea"><div class="h"><b>Funnel conversion calculator</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Growth and pricing &#183; about 4 h</span></div>
+<p class="meta">Search: ab test calculator (480); ab split test calculator (480). Nearest: VWO, Dynamic Yield, ABTestGuide. Ours: Sample-ratio mismatch check and a plain verdict; but page one is crowded. Fold into the A/B test planner. Measured: statistical significance calculator 2,900 a month (US), difficulty 26.</p></div>
+<div class="idea"><div class="h"><b>Funnel conversion calculator</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Growth and pricing &#183; about 4 h</span></div>
 <p>See step and overall conversion and where the biggest drop is. <span class="muted">In:</span> Counts at each funnel step. <span class="muted">Out:</span> Step and cumulative conversion, the biggest drop highlighted, what a 10% lift at each step would add.</p>
-<p class="meta">Search: marketing funnel (9,900, a definition search); sales funnel stages (720). Nearest: SaaS lead magnets. Ours: The what-if on each step shows where to work.</p></div>
+<p class="meta">Search: marketing funnel (9,900, a definition search); sales funnel stages (720). Nearest: SaaS lead magnets. Ours: The what-if on each step shows where to work. Measured: conversion rate calculator 1,600 a month (US), difficulty 29.</p></div>
+<div class="idea"><div class="h"><b>Experiment brief builder</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Product metrics &#183; about 5 h</span></div>
+<p>Write a test hypothesis with metric, size and stop rule. <span class="muted">In:</span> Change, expected effect, metric, guardrails. <span class="muted">Out:</span> A brief (hypothesis, primary and guardrail metrics, size, duration, decision rule); markdown.</p>
+<p class="meta">Search: hypothesis statement (no data). Nearest: Vendor templates. Ours: Links into the sample size planner. Measured: hypothesis statement 720 a month (US), difficulty 3.</p></div>
 <div class="idea"><div class="h"><b>Price sensitivity analyzer (Van Westendorp)</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Growth and pricing &#183; about 8 h</span></div>
 <p>Find an acceptable price range from four survey questions. <span class="muted">In:</span> Paste the four price answers per respondent. <span class="muted">Out:</span> The four curves, the optimal and indifference price points, the acceptable range, a chart.</p>
-<p class="meta">Search: van westendorp (no data). Nearest: MetricGate; Conjointly Excel template; an R package. Ours: A free paste-in chart with a plain explanation and a sample-size warning.</p></div>
-<div class="idea"><div class="h"><b>Discount break-even calculator</b><span class="pill park">Parked</span><span class="meta">score 50 &#183; Growth and pricing &#183; about 3 h</span></div>
+<p class="meta">Search: van westendorp (no data). Nearest: MetricGate; Conjointly Excel template; an R package. Ours: A free paste-in chart with a plain explanation and a sample-size warning. Measured: price sensitivity meter 390 a month (US), difficulty 10.</p></div>
+<div class="idea"><div class="h"><b>Discount break-even calculator</b><span class="pill park">Parked</span><span class="meta">score 46 &#183; Growth and pricing &#183; about 3 h</span></div>
 <p>See how much more volume a discount needs to keep profit flat. <span class="muted">In:</span> Price, margin, discount. <span class="muted">Out:</span> Break-even volume increase.</p>
 <p class="meta">Search: (no data). Nearest: Finance calculator sites. Ours: Small and generic. Park: generic finance.</p></div>
 </details>
 <details class="pg"><summary>Product marketer <span>&#183; 3 ideas</span></summary>
-<div class="idea"><div class="h"><b>Positioning statement builder</b><span class="pill drip">Drip 4</span><span class="meta">score 80 &#183; Product marketing &#183; about 5 h</span></div>
+<div class="idea"><div class="h"><b>Positioning statement builder</b><span class="pill drip">Drip 3</span><span class="meta">score 84 &#183; Product marketing &#183; about 5 h</span></div>
 <p>Write a positioning statement from the parts that make it up. <span class="muted">In:</span> Target customer, alternatives, unique attributes, value, category. <span class="muted">Out:</span> Statements in two forms (the classic &#x27;For... who...&#x27; and a component table), checked for vague words.</p>
-<p class="meta">Search: positioning statement (2,900); product positioning (1,000); examples of market positioning (880). Nearest: Miro positioning template; AI skill listings. Ours: No standalone builder surfaced in the scan; ours checks for empty words.</p></div>
-<div class="idea"><div class="h"><b>Launch checklist builder</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Product marketing &#183; about 6 h</span></div>
+<p class="meta">Search: positioning statement (2,900); product positioning (1,000); examples of market positioning (880). Nearest: Miro positioning template; AI skill listings. Ours: No standalone builder surfaced in the scan; ours checks for empty words. Measured: positioning statement examples 1,300 a month (US), difficulty 5; UK 210, Canada 140. Page one for &#8216;positioning statement template&#8217;: 1 big product, 4 SaaS calculator or content, 1 editorial, 2 forum or UGC; top three professional.dce.harvard.edu, mailchimp.com, productmarketingalliance.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>Launch checklist builder</b><span class="pill later">Later</span><span class="meta">score 76 &#183; Product marketing &#183; about 6 h</span></div>
 <p>Build a launch checklist sized to the launch tier. <span class="muted">In:</span> Launch tier (big, medium, small), channels, date. <span class="muted">Out:</span> A dated checklist by team, CSV for Asana or Jira, markdown.</p>
-<p class="meta">Search: product launch (1,600); go to market plan (880); product launch strategy (320). Nearest: HubSpot and Asana templates. Ours: Tiered and dated backwards from launch day.</p></div>
+<p class="meta">Search: product launch (1,600); go to market plan (880); product launch strategy (320). Nearest: HubSpot and Asana templates. Ours: Tiered and dated backwards from launch day. Measured: product launch checklist 260 a month (US), difficulty 14.</p></div>
 <div class="idea"><div class="h"><b>Pricing page copy checker</b><span class="pill later">Later</span><span class="meta">score 56 &#183; Growth and pricing &#183; about 5 h</span></div>
 <p>Check a pricing page draft for the common mistakes. <span class="muted">In:</span> Paste tier names, prices, feature lines. <span class="muted">Out:</span> Flags (no recommended tier, feature names users will not know, no annual price) with fix hints.</p>
-<p class="meta">Search: pricing page (no data). Nearest: Agency checklists. Ours: A rule-based check; low demand.</p></div>
+<p class="meta">Search: pricing page (no data). Nearest: Agency checklists. Ours: A rule-based check; low demand. Measured: pricing page best practices 10 a month (US), difficulty 18.</p></div>
 </details>
 <details class="pg"><summary>Founder <span>&#183; 8 ideas</span></summary>
-<div class="idea"><div class="h"><b>Unit economics: LTV, CAC and payback</b><span class="pill drip">Drip 6</span><span class="meta">score 78 &#183; Growth and pricing &#183; about 5 h</span></div>
-<p>See whether each customer pays back what it cost to win. <span class="muted">In:</span> Revenue per account, gross margin, monthly churn, sales and marketing spend, new customers. <span class="muted">Out:</span> LTV, CAC, LTV:CAC ratio, payback months, and a warning when inputs mix monthly and yearly.</p>
-<p class="meta">Search: customer lifetime value (4,400); customer acquisition cost (4,400). Nearest: Founderpath, xgenious, MetricGate calculators. Ours: One page for the three numbers, with the unit-mixing trap caught.</p></div>
-<div class="idea"><div class="h"><b>MVP scope cutter</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Product strategy &#183; about 6 h</span></div>
-<p>Cut a feature list to the smallest set that tests the riskiest assumption. <span class="muted">In:</span> Features with value, effort and the assumption each tests. <span class="muted">Out:</span> The keep list, the cut list with reasons, a scope summary.</p>
-<p class="meta">Search: mvp minimum viable product (720). Nearest: No direct tool; templates. Ours: Original framing tied to assumption testing.</p></div>
-<div class="idea"><div class="h"><b>Runway calculator</b><span class="pill later">Later</span><span class="meta">score 66 &#183; Growth and pricing &#183; about 5 h</span></div>
+<div class="idea"><div class="h"><b>Runway calculator</b><span class="pill drip">Drip 9</span><span class="meta">score 78 &#183; Growth and pricing &#183; about 5 h</span></div>
 <p>See months of cash left and the month you run out, under growth scenarios. <span class="muted">In:</span> Cash, monthly costs, revenue, revenue growth. <span class="muted">Out:</span> Runway months, zero-cash month, breakeven month, three scenarios side by side.</p>
-<p class="meta">Search: runway calculator; burn rate (no data). Nearest: Pilot runway calculator; Kruze. Ours: Scenarios side by side, explained without finance jargon.</p></div>
-<div class="idea"><div class="h"><b>SaaS MRR and ARR calculator</b><span class="pill later">Later</span><span class="meta">score 66 &#183; Growth and pricing &#183; about 5 h</span></div>
+<p class="meta">Search: runway calculator; burn rate (no data). Nearest: Pilot runway calculator; Kruze. Ours: Scenarios side by side, explained without finance jargon. Measured: burn rate calculator 590 a month (US), difficulty 3.</p></div>
+<div class="idea"><div class="h"><b>Unit economics: LTV, CAC and payback</b><span class="pill later">Later</span><span class="meta">score 74 &#183; Growth and pricing &#183; about 5 h</span></div>
+<p>See whether each customer pays back what it cost to win. <span class="muted">In:</span> Revenue per account, gross margin, monthly churn, sales and marketing spend, new customers. <span class="muted">Out:</span> LTV, CAC, LTV:CAC ratio, payback months, and a warning when inputs mix monthly and yearly.</p>
+<p class="meta">Search: customer lifetime value (4,400); customer acquisition cost (4,400). Nearest: Founderpath, xgenious, MetricGate calculators. Ours: One page for the three numbers, with the unit-mixing trap caught. Measured: customer lifetime value calculator 2,400 a month (US), difficulty 27; UK 390, Canada 260. Page one for &#8216;customer lifetime value calculator&#8217;: 1 big product, 6 SaaS calculator or content, 1 thin calculator site, 1 forum or UGC; top three wallstreetprep.com, salesforce.com, clv-calculator.com. AI Overview: yes.</p></div>
+<div class="idea"><div class="h"><b>SaaS MRR and ARR calculator</b><span class="pill later">Later</span><span class="meta">score 70 &#183; Growth and pricing &#183; about 5 h</span></div>
 <p>Compute MRR movements (new, expansion, contraction, churn) and ARR. <span class="muted">In:</span> Monthly revenue movements. <span class="muted">Out:</span> MRR bridge chart, ARR, quick ratio.</p>
-<p class="meta">Search: arr formula (1,600). Nearest: Baremetrics and ChartMogul (paid). Ours: A free bridge chart.</p></div>
-<div class="idea"><div class="h"><b>Freemium conversion model</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Growth and pricing &#183; about 6 h</span></div>
-<p>Model how many free users you need for a revenue target. <span class="muted">In:</span> Signups per month, activation and conversion rates, price, churn. <span class="muted">Out:</span> Paying users and revenue over 24 months; the conversion rate that hits the target.</p>
-<p class="meta">Search: freemium conversion rate (no data). Nearest: Spreadsheet models. Ours: Rare as a free web tool.</p></div>
+<p class="meta">Search: arr formula (1,600). Nearest: Baremetrics and ChartMogul (paid). Ours: A free bridge chart. Measured: mrr calculator 140 a month (US), difficulty 5.</p></div>
+<div class="idea"><div class="h"><b>Mission and vision statement builder</b><span class="pill park">Parked</span><span class="meta">score 70 &#183; Leadership and teams &#183; about 4 h</span></div>
+<p>Draft a mission and a vision and test them against simple rules. <span class="muted">In:</span> Who you serve, what you do, the change you want. <span class="muted">Out:</span> Drafts in standard forms, length and jargon checks.</p>
+<p class="meta">Search: mission statement (22,200); mission statement examples (12,100); vision statement examples (6,600). Nearest: Many AI generators and template sites. Ours: High demand but generic, rare use and far from the core reader. Park: big demand but generic and rare use. Measured: mission statement generator 480 a month (US), difficulty 2.</p></div>
 <div class="idea"><div class="h"><b>Market size (TAM, SAM, SOM) calculator</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Product strategy &#183; about 4 h</span></div>
 <p>Estimate market size bottom up. <span class="muted">In:</span> Number of customers, price, reachable share. <span class="muted">Out:</span> TAM, SAM, SOM with the working shown.</p>
-<p class="meta">Search: tam sam som (no data). Nearest: Investor blog calculators. Ours: Bottom-up only, working shown.</p></div>
+<p class="meta">Search: tam sam som (no data). Nearest: Investor blog calculators. Ours: Bottom-up only, working shown. Measured: market size calculator 50 a month (US), difficulty 6.</p></div>
 <div class="idea"><div class="h"><b>Price tier builder</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Growth and pricing &#183; about 8 h</span></div>
 <p>Sketch good, better, best tiers and check the gaps between them. <span class="muted">In:</span> Features, value metric, price points. <span class="muted">Out:</span> Tier table, price ratios between tiers, warnings (too close, too much in the bottom tier); HTML and markdown.</p>
-<p class="meta">Search: tiered pricing strategy (210); pricing strategy (6,600, a definition search). Nearest: Pricing page galleries. Ours: Checks, not just a table.</p></div>
-<div class="idea"><div class="h"><b>Mission and vision statement builder</b><span class="pill park">Parked</span><span class="meta">score 54 &#183; Leadership and teams &#183; about 4 h</span></div>
-<p>Draft a mission and a vision and test them against simple rules. <span class="muted">In:</span> Who you serve, what you do, the change you want. <span class="muted">Out:</span> Drafts in standard forms, length and jargon checks.</p>
-<p class="meta">Search: mission statement (22,200); mission statement examples (12,100); vision statement examples (6,600). Nearest: Many AI generators and template sites. Ours: High demand but generic, rare use and far from the core reader. Park: big demand but generic and rare use.</p></div>
+<p class="meta">Search: tiered pricing strategy (210); pricing strategy (6,600, a definition search). Nearest: Pricing page galleries. Ours: Checks, not just a table. Measured: pricing tiers 2,900 a month (US), difficulty 27.</p></div>
+<div class="idea"><div class="h"><b>MVP scope cutter</b><span class="pill later">Later</span><span class="meta">score 58 &#183; Product strategy &#183; about 6 h</span></div>
+<p>Cut a feature list to the smallest set that tests the riskiest assumption. <span class="muted">In:</span> Features with value, effort and the assumption each tests. <span class="muted">Out:</span> The keep list, the cut list with reasons, a scope summary.</p>
+<p class="meta">Search: mvp minimum viable product (720). Nearest: No direct tool; templates. Ours: Original framing tied to assumption testing. Measured: mvp minimum viable product 720 a month (US), difficulty 37; mvp feature prioritization 10, difficulty n/a.</p></div>
+<div class="idea"><div class="h"><b>Freemium conversion model</b><span class="pill later">Later</span><span class="meta">score 56 &#183; Growth and pricing &#183; about 6 h</span></div>
+<p>Model how many free users you need for a revenue target. <span class="muted">In:</span> Signups per month, activation and conversion rates, price, churn. <span class="muted">Out:</span> Paying users and revenue over 24 months; the conversion rate that hits the target.</p>
+<p class="meta">Search: freemium conversion rate (no data). Nearest: Spreadsheet models. Ours: Rare as a free web tool. Measured: freemium conversion rate 20 a month (US), difficulty 21; free to paid conversion rate 20, difficulty 31.</p></div>
 </details>
 <details class="pg"><summary>Engineering manager who works with product <span>&#183; 1 ideas</span></summary>
-<div class="idea"><div class="h"><b>Meeting cost calculator</b><span class="pill later">Later</span><span class="meta">score 64 &#183; Product management &#183; about 3 h</span></div>
+<div class="idea"><div class="h"><b>Meeting cost calculator</b><span class="pill later">Later</span><span class="meta">score 72 &#183; Product management &#183; about 3 h</span></div>
 <p>Show what a meeting costs per session and per year. <span class="muted">In:</span> People and rough salaries or roles, length, how often. <span class="muted">Out:</span> Cost per meeting and per year, cost per minute, a line for the calendar invite.</p>
-<p class="meta">Search: meeting cost calculator (no data). Nearest: Omni Calculator; Fellow; Koalendar. Ours: Recovery time and a yearly view per recurring meeting; but the field is crowded.</p></div>
+<p class="meta">Search: meeting cost calculator (no data). Nearest: Omni Calculator; Fellow; Koalendar. Ours: Recovery time and a yearly view per recurring meeting; but the field is crowded. Measured: meeting cost calculator 320 a month (US), difficulty 2.</p></div>
 </details>
 </section>
 <section class="block" id="s6" aria-labelledby="h6s">
@@ -690,25 +700,47 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <p class="lead">Five marks from 1 to 5, weighted toward repeat use, added up and doubled to a score out of 100.</p>
 <div class="tablebox"><table class="t"><thead><tr><th>Mark</th><th>Weight</th><th>What a 5 means</th></tr></thead><tbody>
 <tr><td data-label="Mark">Usefulness</td><td data-label="Weight">3</td><td data-label="A 5 means">Opened every sprint, study or quarter by the people we write for</td></tr>
-<tr><td data-label="Mark">Search intent</td><td data-label="Weight">2</td><td data-label="A 5 means">A tool phrase in the store with real volume, or strong signs on the web</td></tr>
-<tr><td data-label="Mark">Openness</td><td data-label="Weight">2</td><td data-label="A 5 means">Page one has no big product and few real tools</td></tr>
+<tr><td data-label="Mark">Search intent</td><td data-label="Weight">2</td><td data-label="A 5 means">5,000 or more measured US searches a month across the tool&#8217;s phrases (tool and template phrases in full, how-to half, definitions a fifth)</td></tr>
+<tr><td data-label="Mark">Openness</td><td data-label="Weight">2</td><td data-label="A 5 means">The phrase worth targeting has difficulty 10 or less; one up when page one is mostly thin sites and forum posts, one down when big products and SaaS pages hold it</td></tr>
 <tr><td data-label="Mark">Fit</td><td data-label="Weight">2</td><td data-label="A 5 means">Sits in a launch category and serves a core reader</td></tr>
 <tr><td data-label="Mark">Build cost</td><td data-label="Weight">1</td><td data-label="A 5 means">A few hours of plain JavaScript, no server</td></tr>
 </tbody></table></div>
-<p>Then a hand pass for balance. The PRD outline generator scored 84, the same as the retention calculator, but it is a template with a form on top, and you set templates for after launch. It opens the drip instead.</p>
+<p>The first ranking used the store and a free web scan. On October 10 the paid check replaced the intent and openness marks with measured numbers; usefulness, fit and build cost did not change. The PRD outline generator, held back at first as template-shaped, came out top at 92 once its first page (AI writing apps and forum threads) was read, so it now leads the ten and ships with its template page.</p>
 <p>What the store says, in one line: the tool phrases it holds are mostly templates and definitions (user story template, PRD template, OKR examples, retention rate formula, positioning statement). People who search those want an answer and something to fill in, and a builder on a teaching page gives both.</p>
 </section>
 <aside class="paid block" id="s8" aria-labelledby="h8s">
-<h2 id="h8s">8. The paid check, for your go</h2>
-<p>199 phrases have no search data in the store. One batch on the standard queue would cover them all:</p>
+<h2 id="h8s">8. The paid check: what it found</h2>
+<p>You said go on October 10. The 199 phrases the store did not cover were measured in one batch on the standard queue, for $0.226 (balance after: $19.89).</p>
 <div class="tablebox"><table class="t"><thead><tr><th>Call</th><th>What</th><th>Cost</th></tr></thead><tbody>
-<tr><td data-label="Call">Search volume, US</td><td data-label="What">all 199 phrases, one task</td><td data-label="Cost" class="num">$0.06</td></tr>
+<tr><td data-label="Call">Search volume, US</td><td data-label="What">198 phrases, one task (1 reused)</td><td data-label="Cost" class="num">$0.06</td></tr>
 <tr><td data-label="Call">Search volume, UK and Canada</td><td data-label="What">the 69 phrases behind the launch ten and the drip</td><td data-label="Cost" class="num">$0.12</td></tr>
-<tr><td data-label="Call">Keyword difficulty, US</td><td data-label="What">all 199 phrases</td><td data-label="Cost" class="num">$0.036</td></tr>
-<tr><td data-label="Call">Google page one, US</td><td data-label="What">the 20 head phrases of the launch ten and the drip</td><td data-label="Cost" class="num">$0.012</td></tr>
-<tr><td data-label="Call"><b>Total</b></td><td data-label="What"></td><td data-label="Cost" class="num"><b>about $0.23</b></td></tr>
+<tr><td data-label="Call">Keyword difficulty, US</td><td data-label="What">198 phrases (1 reused)</td><td data-label="Cost" class="num">$0.036</td></tr>
+<tr><td data-label="Call">Google page one, US</td><td data-label="What">19 head phrases of the launch ten and the drip (2 reused from October 8)</td><td data-label="Cost" class="num">$0.010</td></tr>
+<tr><td data-label="Call"><b>Total</b></td><td data-label="What">estimate about $0.23</td><td data-label="Cost" class="num"><b>$0.226 spent</b></td></tr>
 </tbody></table></div>
-<p>What it would change: whether the type scale, contrast, SUS, NPS and sprint capacity phrases carry real volume, and whether the first pages for the head phrases look as open as the free scan suggests. It would not change the launch ten unless a phrase turns out empty and its tool is weak on repeat use too.</p>
+<p>The 19 first pages, Google US, top ten results. &#8220;Thin&#8221; means a single-purpose calculator site; &#8220;SaaS&#8221; a vendor&#8217;s calculator or article that sells its product.</p>
+<div class="tablebox"><table class="t"><thead><tr><th>Search</th><th>US a month</th><th>Difficulty</th><th>Who holds page one</th><th>AI Overview</th></tr></thead><tbody>
+<tr><td data-label="Search">color contrast checker</td><td data-label="US a month" class="num">12,100</td><td data-label="Difficulty" class="num">56</td><td data-label="Who holds page one">1 big product, 6 SaaS, 1 thin, 1 editorial</td><td data-label="AI Overview">no</td></tr>
+<tr><td data-label="Search">customer lifetime value calculator</td><td data-label="US a month" class="num">2,400</td><td data-label="Difficulty" class="num">27</td><td data-label="Who holds page one">1 big product, 6 SaaS, 1 thin, 1 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">net promoter score calculator</td><td data-label="US a month" class="num">1,300</td><td data-label="Difficulty" class="num">19</td><td data-label="Who holds page one">2 big product, 5 SaaS, 1 thin, 1 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">tint and shade generator</td><td data-label="US a month" class="num">590</td><td data-label="Difficulty" class="num">6</td><td data-label="Who holds page one">3 SaaS, 2 thin, 3 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">positioning statement template</td><td data-label="US a month" class="num">390</td><td data-label="Difficulty" class="num">23</td><td data-label="Who holds page one">1 big product, 4 SaaS, 1 editorial, 2 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">churn rate calculator</td><td data-label="US a month" class="num">260</td><td data-label="Difficulty" class="num">18</td><td data-label="Who holds page one">7 SaaS, 2 thin</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">prd generator</td><td data-label="US a month" class="num">110</td><td data-label="Difficulty" class="num">5</td><td data-label="Who holds page one">6 SaaS, 3 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">type scale generator</td><td data-label="US a month" class="num">110</td><td data-label="Difficulty" class="num">30</td><td data-label="Who holds page one">1 SaaS, 4 thin, 1 editorial, 3 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">rice score calculator</td><td data-label="US a month" class="num">50</td><td data-label="Difficulty" class="num">0</td><td data-label="Who holds page one">8 SaaS, 1 thin</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">sus score calculator</td><td data-label="US a month" class="num">50</td><td data-label="Difficulty" class="num">2</td><td data-label="Who holds page one">3 SaaS, 1 thin, 1 editorial, 2 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">sprint capacity calculator</td><td data-label="US a month" class="num">30</td><td data-label="Difficulty" class="num">0</td><td data-label="Who holds page one">2 big product, 4 SaaS, 1 editorial, 2 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">user story generator</td><td data-label="US a month" class="num">30</td><td data-label="Difficulty" class="num">0</td><td data-label="Who holds page one">3 big product, 5 SaaS, 1 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">spacing scale generator</td><td data-label="US a month" class="num">10</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">1 big product, 7 thin, 1 editorial</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">usability test sample size</td><td data-label="US a month" class="num">10</td><td data-label="Difficulty" class="num">0</td><td data-label="Who holds page one">4 SaaS, 3 editorial, 2 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">microcopy checker</td><td data-label="US a month" class="num">no data</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">1 SaaS, 1 thin, 6 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">monte carlo forecast agile</td><td data-label="US a month" class="num">no data</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">1 SaaS, 3 editorial, 4 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">okr checker</td><td data-label="US a month" class="num">no data</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">1 big product, 5 SaaS, 2 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">survey margin of error calculator</td><td data-label="US a month" class="num">no data</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">2 big product, 5 SaaS, 1 thin, 1 forum</td><td data-label="AI Overview">yes</td></tr>
+<tr><td data-label="Search">survey question checker</td><td data-label="US a month" class="num">no data</td><td data-label="Difficulty" class="num">n/a</td><td data-label="Who holds page one">5 SaaS, 3 thin</td><td data-label="AI Overview">yes</td></tr>
+</tbody></table></div>
+<p>What it changed: the launch ten took three swaps (see section 2), the drip took four new ideas on easy template searches, and every card now shows its measured numbers. The full write-up is in <code>research/tools/seo-check-summary-2026-10-10.md</code>.</p>
 <details class="pg"><summary>The phrases <span>&#183; 199</span></summary>
 <ul class="phr"><li>8pt grid</li><li>ab test duration calculator</li><li>ab test hypothesis template</li><li>ab test significance calculator</li><li>acceptance criteria generator</li><li>accessibility checklist</li><li>accessible color palette</li><li>affinity diagram</li><li>affinity diagram generator</li><li>affinity map</li><li>affinity mapping tool</li><li>agile release forecast</li><li>alt text</li><li>alt text examples</li><li>aspect ratio calculator</li><li>assumption map template</li><li>assumption mapping</li><li>best line height for body text</li><li>burn rate calculator</li><li>burn up chart</li><li>burndown chart</li><li>burndown chart template</li><li>button label length</li><li>cac payback calculator</li><li>capacity planning scrum</li><li>characters per line</li><li>chart chooser</li><li>churn rate calculator</li><li>cohort retention analysis</li><li>color contrast checker</li><li>color palette contrast checker</li><li>color palette generator</li><li>color shade generator</li><li>competitive analysis template</li><li>confidence interval for completion rate</li><li>contrast checker</li><li>conversion rate calculator</li><li>csat calculator</li><li>css clamp calculator</li><li>css grid generator</li><li>customer acquisition cost calculator</li><li>customer churn calculator</li><li>customer interview questions</li><li>customer journey map generator</li><li>customer lifetime value calculator</li><li>cycle time calculator</li><li>dau mau ratio</li><li>design token naming convention</li><li>design tokens</li><li>design tokens generator</li><li>discount break even calculator</li><li>double barreled question checker</li><li>empty states</li><li>error message examples</li><li>error message generator</li><li>feature comparison chart</li><li>flesch kincaid calculator</li><li>fluid typography calculator</li><li>font size scale</li><li>free to paid conversion rate</li><li>freemium conversion rate</li><li>funnel conversion rate calculator</li><li>grid calculator</li><li>heuristic evaluation checklist</li><li>heuristic evaluation template</li><li>how many participants usability test</li><li>how many users for usability testing</li><li>how to calculate csat</li><li>how to calculate nps</li><li>how to calculate sus score</li><li>how to write alt text</li><li>how to write error messages</li><li>how to write okrs</li><li>how to write survey questions</li><li>hypothesis statement</li><li>ice score prioritization</li><li>icon grid</li><li>icon size guidelines</li><li>job story template</li><li>jobs to be done statement</li><li>journey map maker</li><li>kano analysis calculator</li><li>kano model</li><li>kano survey</li><li>keyboard accessibility testing</li><li>kpi template</li><li>launch plan template</li><li>lead time vs cycle time</li><li>leading question checker</li><li>likert scale 5 point</li><li>likert scale examples</li><li>likert scale generator</li><li>line height calculator</li><li>line length calculator</li><li>littles law calculator</li><li>ltv cac ratio calculator</li><li>margin of error calculator</li><li>market size calculator</li><li>meeting cost calculator</li><li>metric definition template</li><li>microcopy checker</li><li>minimum tap target size</li><li>mission statement generator</li><li>modular scale calculator</li><li>monte carlo forecast agile</li><li>moscow method</li><li>moscow prioritization template</li><li>mrr calculator</li><li>mvp feature prioritization</li><li>mvp scope</li><li>net promoter score calculator</li><li>net revenue retention calculator</li><li>north star metric</li><li>north star metric examples</li><li>now next later roadmap</li><li>nps calculator</li><li>okr checker</li><li>okr generator</li><li>opportunity score formula</li><li>optimal line length</li><li>outcome driven innovation</li><li>persona generator</li><li>persona template</li><li>pert calculator</li><li>planning poker</li><li>positioning statement examples</li><li>positioning statement generator</li><li>positioning statement template</li><li>prd generator</li><li>price sensitivity meter</li><li>pricing page best practices</li><li>pricing tiers</li><li>prioritization matrix</li><li>product launch checklist</li><li>px to rem</li><li>raci chart template</li><li>raci matrix</li><li>readability checker</li><li>readability score</li><li>release notes generator</li><li>release notes template</li><li>rem to px</li><li>research question generator ux</li><li>responsive breakpoints</li><li>retro template</li><li>retrospective ideas</li><li>rice prioritization calculator</li><li>rice score calculator</li><li>roadmap maker</li><li>saas pricing tiers</li><li>saas quick ratio</li><li>spacing scale generator</li><li>sprint capacity calculator</li><li>sprint planning capacity</li><li>sprint retrospective formats</li><li>sprint velocity calculator</li><li>stakeholder map template</li><li>stakeholder mapping</li><li>startup runway calculator</li><li>statistical significance calculator</li><li>stickiness ratio</li><li>story point calculator</li><li>story points to hours</li><li>survey margin of error calculator</li><li>survey question checker</li><li>sus calculator</li><li>sus score calculator</li><li>sus score interpretation</li><li>system usability scale calculator</li><li>tailwind color generator</li><li>tam sam som calculator</li><li>task completion rate calculator</li><li>team capacity calculator</li><li>three point estimate</li><li>tiered pricing</li><li>tint and shade generator</li><li>touch target size</li><li>type scale generator</li><li>typography scale generator</li><li>ui component states</li><li>usability test sample size</li><li>usability testing sample size calculator</li><li>user interview questions</li><li>user interview script template</li><li>user research incentives</li><li>user story generator</li><li>ux research incentive calculator</li><li>ux research questions</li><li>ux writing tool</li><li>value proposition canvas</li><li>value proposition canvas template</li><li>van westendorp calculator</li><li>wcag checklist</li><li>wcag contrast checker</li><li>wcag target size</li><li>when will it be done</li><li>which chart to use</li><li>wip limit</li><li>wsjf calculator</li></ul>
 </details>
@@ -720,6 +752,7 @@ details.pg[open] summary{border-bottom:1px solid var(--rule);margin-bottom:8px}
 <ul>
 <li><code>research/tools/opportunities-2026-10-10.md</code> and <code>.csv</code>: the personas, the store findings, the full scored list, the web scan notes and the ranking.</li>
 <li><code>research/tools/paid-check-phrases-2026-10-10.csv</code>: the phrases for the paid check.</li>
+<li><code>research/seo/keywords/tools-2026-10-10.csv</code> and <code>research/seo/serps/tools-2026-10-10.csv</code>: the paid check, October 10 (Google Ads volumes US, UK, Canada; keyword difficulty; 19 first pages, Google US). Summary in <code>research/tools/seo-check-summary-2026-10-10.md</code>.</li>
 <li><code>research/seo/keywords/</code>: the keyword store, read on October 10 (US volumes and difficulty from October 8).</li>
 <li><code>research/seo/serps/phase0-tools-summary-2026-10-08.md</code>: twelve calculator searches, Google US, October 8 (AI Overview on 12 of 12, 93 domains in 100 results).</li>
 <li>Free web searches on October 10, one per scanned idea; prices from <code>research/seo/README.md</code>.</li>

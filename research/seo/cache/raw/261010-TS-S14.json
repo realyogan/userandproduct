@@ -1,0 +1,610 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0178 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-4d94021a90b5",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0137 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-4d94021a90b5"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "tint and shade generator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "tint and shade generator",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "tint and shade generator",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=tint%20and%20shade%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:47 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "images"
+     ],
+     "se_results_count": 120,
+     "pages_count": 1,
+     "items_count": 10,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.toolbox-kit.com",
+       "title": "Color Shade Generator Online - Light & Dark Shades Free",
+       "url": "https://www.toolbox-kit.com/tools/color-shades",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.toolbox-kit.com \u203a Design Tools",
+       "website_name": "toolbox-kit.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Enter a HEX code or pick a color and get 10+ carefully calculated tints and shades from near-white to near-black, mapped to a Tailwind CSS 50 to 950 color scale\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Enter a HEX code or pick a color"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.toolbox-kit.com/tools/color-shades#:~:text=Enter%20a%20HEX%20code%20or,50%20to%20950%20color%20scale.",
+         "domain": "www.toolbox-kit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "You can `create lighter and darker color variations` using the online [Tint & Shade Generator](https://www.colors.tools/tints-and-shades/).[[1]](https://www.colors.tools/tints-and-shades/)\n\n- **Tints:** Made by mixing a base color with **white** to make it lighter.[[1]](https://tintsshades.web-toolbox.dev/)\n- **Shades:** Made by mixing a base color with **black** to make it darker.[[1]](https://tintsshades.web-toolbox.dev/)\n- **Steps:** Most generators use percentage increments (like 5%, 10%, or 20%) to build a smooth gradient scale.[[1]](https://maketintsandshades.com/about/)[[2]](https://tintsshades.web-toolbox.dev/)\n\n### Key Uses\n\n- **UI Design:** Build cohesive palettes for hover states, active states, and backgrounds.[[1]](https://www.colors.tools/tints-and-shades/)\n- **Exporting:** Copy data instantly as HEX codes, RGB, CSS variables, or JSON.[[1]](https://www.magicpattern.design/tools/color-tints-shades-generator)\n\nIf you want, tell me:\n\n- What **base color (HEX code)** are you starting with?\n- How many **steps or percentages** do you need in your scale?\n\nI can help you calculate or plan your custom palette.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "You can create lighter and darker color variations using the online Tint & Shade Generator.",
+         "markdown": "You can `create lighter and darker color variations` using the online [Tint & Shade Generator](https://www.colors.tools/tints-and-shades/).[[1]](https://www.colors.tools/tints-and-shades/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Tint & Shade Generator",
+           "description": null,
+           "url": "https://www.colors.tools/tints-and-shades/",
+           "domain": "www.colors.tools"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "colors.tools",
+           "domain": "www.colors.tools",
+           "url": "https://www.colors.tools/tints-and-shades/",
+           "title": "Tint & Shade Generator | colors.tools",
+           "text": "Core Function: Generates tints (mixing HEX color with white) and shades (mixing HEX color with black) alongside the original color..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Tints: Made by mixing a base color with white to make it lighter. Shades: Made by mixing a base color with black to make it darker. Steps: Most generators use percentage increments (like 5%, 10%, or 20%) to build a smooth gradient scale.",
+         "markdown": "- **Tints:** Made by mixing a base color with **white** to make it lighter.[[1]](https://tintsshades.web-toolbox.dev/)\n- **Shades:** Made by mixing a base color with **black** to make it darker.[[1]](https://tintsshades.web-toolbox.dev/)\n- **Steps:** Most generators use percentage increments (like 5%, 10%, or 20%) to build a smooth gradient scale.[[1]](https://maketintsandshades.com/about/)[[2]](https://tintsshades.web-toolbox.dev/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Web ToolBox",
+           "domain": "tintsshades.web-toolbox.dev",
+           "url": "https://tintsshades.web-toolbox.dev/",
+           "title": "Tints and Shades Generator",
+           "text": "What is Tints and Shades Generator? * Tints and Shades Generator is a web tool that creates color variations that look truly natur..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "maketintsandshades.com",
+           "domain": "maketintsandshades.com",
+           "url": "https://maketintsandshades.com/about/",
+           "title": "About | Tint & Shade Generator",
+           "text": "Tool: Tint & Shade Generator produces lighter tints and darker shades from hex colors in 5%, 10%, or 20% increments, matching Chro..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Key Uses",
+         "markdown": "### Key Uses",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "UI Design: Build cohesive palettes for hover states, active states, and backgrounds. Exporting: Copy data instantly as HEX codes, RGB, CSS variables, or JSON.",
+         "markdown": "- **UI Design:** Build cohesive palettes for hover states, active states, and backgrounds.[[1]](https://www.colors.tools/tints-and-shades/)\n- **Exporting:** Copy data instantly as HEX codes, RGB, CSS variables, or JSON.[[1]](https://www.magicpattern.design/tools/color-tints-shades-generator)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "colors.tools",
+           "domain": "www.colors.tools",
+           "url": "https://www.colors.tools/tints-and-shades/",
+           "title": "Tint & Shade Generator | colors.tools",
+           "text": "Core Function: Generates tints (mixing HEX color with white) and shades (mixing HEX color with black) alongside the original color..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "MagicPattern",
+           "domain": "www.magicpattern.design",
+           "url": "https://www.magicpattern.design/tools/color-tints-shades-generator",
+           "title": "Color Tint & Shades Generator",
+           "text": "Pick a base color, choose a scale mode, then copy individual colors, the full hex list, CSS variables or JSON for design systems. ..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want, tell me:What base color (HEX code) are you starting with?\nHow many steps or percentages do you need in your scale?\nI can help you calculate or plan your custom palette.",
+         "markdown": "If you want, tell me:\n\n- What **base color (HEX code)** are you starting with?\n- How many **steps or percentages** do you need in your scale?\n\nI can help you calculate or plan your custom palette.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "colors.tools",
+         "domain": "www.colors.tools",
+         "url": "https://www.colors.tools/tints-and-shades/",
+         "title": "Tint & Shade Generator | colors.tools",
+         "text": "Core Function: Generates tints (mixing HEX color with white) and shades (mixing HEX color with black) alongside the original color..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Web ToolBox",
+         "domain": "tintsshades.web-toolbox.dev",
+         "url": "https://tintsshades.web-toolbox.dev/",
+         "title": "Tints and Shades Generator",
+         "text": "What is Tints and Shades Generator? * Tints and Shades Generator is a web tool that creates color variations that look truly natur..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "MagicPattern",
+         "domain": "www.magicpattern.design",
+         "url": "https://www.magicpattern.design/tools/color-tints-shades-generator",
+         "title": "Color Tint & Shades Generator",
+         "text": "Pick a base color, choose a scale mode, then copy individual colors, the full hex list, CSS variables or JSON for design systems. ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "maketintsandshades.com",
+         "domain": "maketintsandshades.com",
+         "url": "https://maketintsandshades.com/about/",
+         "title": "About | Tint & Shade Generator",
+         "text": "Tool: Tint & Shade Generator produces lighter tints and darker shades from hex colors in 5%, 10%, or 20% increments, matching Chro..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+       "domain": "www.tumblr.com",
+       "title": "Tint and Shade Generator \u2013 @code-lab on Tumblr",
+       "url": "https://www.tumblr.com/code-lab/645189915945172992/tint-and-shade-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.tumblr.com \u203a code-lab \u203a tint-and-shade-ge...",
+       "website_name": "Tumblr",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Easily make tints and shades that match the output of Chrome DevTools, PostCSS, and Sass. A great website to generate tints and shades... based on hex colors.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Easily make tints and shades that match the output of Chrome DevTools, PostCSS, and Sass"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+       "domain": "prototypr.io",
+       "title": "Tint and Shade Generator 2.0 - An open source colour ...",
+       "url": "https://prototypr.io/toolbox/tint-shade-generator-2-0",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://prototypr.io \u203a toolbox \u203a tint-shade-generator-2-0",
+       "website_name": "Prototypr",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Easily make tints and shades that match the output of Chrome DevTools, PostCSS, and Sass. An open source color generator.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "tints and shades",
+        "generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+       "domain": "nextgenailearning.com",
+       "title": "Generate Tints and Shades from a Brand Color | The ID Toolbox",
+       "url": "https://nextgenailearning.com/tools/tint-and-shade-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://nextgenailearning.com \u203a tint-and-shade-generator",
+       "website_name": "nextgenailearning.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Tint and Shade Generator. You are handed a single hex code and told it is the brand. Then you need a hover state, a disabled state, a light background for a\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Tint and Shade Generator"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://nextgenailearning.com/tools/tint-and-shade-generator#:~:text=Tint%20and%20Shade%20Generator,dark%20one%20for%20a%20footer.",
+         "domain": "nextgenailearning.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+       "domain": "tools.en.softonic.com",
+       "title": "Color Shade Generator: darker variants of any colour",
+       "url": "https://tools.en.softonic.com/color-shade-generator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://tools.en.softonic.com \u203a color-shade-generator",
+       "website_name": "Softonic Tools",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The generator takes a base HEX colour and produces 3 to 20 steps (10 by default) of increasingly dark shades, plus the lighter tints of the same base.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "produces 3 to 20 steps (10 by default) of increasingly dark shades"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+       "domain": "www.facebook.com",
+       "title": "Shades and Tints Generator Tools and Tips",
+       "url": "https://www.facebook.com/fb-answers/shades-and-tints-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.facebook.com \u203a fb-answers \u203a shades-and-ti...",
+       "website_name": "Facebook",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "ColorDesigner is a top shades and tints generator at colordesigner.io. For paint, Tintolac lets you mix custom shades for your walls.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "ColorDesigner is a top shades and tints generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+       "domain": "bushe.co",
+       "title": "Tint and Shade Generator | Bushe.co",
+       "url": "https://bushe.co/tools/tint-and-shade-generator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://bushe.co \u203a Tools",
+       "website_name": "bushe.co",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Free tint and shade generator : create lighter tints and darker shades of any color, in your browser. Practical browser tools, privacy tips, and Chrome.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Free tint and shade generator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=7301c7e82f0d791a&hl=en&gl=US&sxsrf=APpeQnvvB02lHfi6OJ7tjUnv1oWCZvIvdw:1791651765101&q=tint+and+shade+generator&udm=2&source=univ&fir=P05ZlvZQU7zCNM%252CpCgPrnWQPgrhHM%252C_%253BfJIvG4leSk2RmM%252CVbZnEwNa9YjFdM%252C_%253BBBGAe2a6aKiLeM%252C0N0G8yFqW5qt3M%252C_%253BbXFM7oOkl8A0-M%252CD_8eNBQv5G7giM%252C_%253BhckkcMxzSaElaM%252CekvbA-QZ-BK8QM%252C_%253BuOHFytNy6WVGPM%252C9q0chhg8hI93mM%252C_%253BDcvG60ztdIryRM%252CyRz6HFFgEMdzpM%252C_%253BYmta16Trzj1TaM%252Cfj6u2P9Wn6KxEM%252C_%253Bym-8j6OisjtmeM%252COqAV-YbFLXmF5M%252C_&usg=AI4_-kTDrbXNekm7ItOzG--37NOtHGCsKQ&sa=X&ved=2ahUKEwjNmpT49q-XAxX35MkDHatuJyQQ7Al6BAg6EAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "Tint & Shade Generator - From your color in 10% increments",
+         "url": "https://toolsweekly.com/resource/tint-shade-generator/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-4d94021a90b5:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "Color, Tint & Shade Generator | Figma",
+         "url": "https://www.figma.com/community/plugin/1143464892862229742/color-tint-shade-generator",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-4d94021a90b5:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "Create Stunning Color Variations with Colorkit's Color ...",
+         "url": "https://diablodesign.eu/tools/colors-palete/color-shades-generator",
+         "image_url": "https://api.dataforseo.com/cdn/i/10101702-2633-0066-0000-4d94021a90b5:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "Tints and Shades Generator",
+         "url": "https://tintsshades.web-toolbox.dev/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9ShvgxT3pZEudkGPiAiBVXHRa1VxaDlLtBj16gKInydxsItuzqW50rU&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Tint & Shade Generator | Figma",
+         "url": "https://www.figma.com/community/plugin/1580658889126377365/tint-shade-generator",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5YCFQyR2JEANjBvL7tYNiFmEqxZU06liMI6WxZjCq_Xz_73Hn4Kpo_zc&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "ColorKit - Color blender, shades and tints generator - Awwwards",
+         "url": "https://www.awwwards.com/inspiration/colorkit-color-blender-shades-and-tints-generator",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLYNaSh6B7JCcAp1nOG8a1j-1pFKwcHHTbudKkUH9_jybETT8xRpMUjIQ&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Shades and tones of #7686a5 (blue) color. Online color tones ...",
+         "url": "https://gradients.app/en/shades",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CJcW0dfZGZ28uB5yL7X_-i8I8a6rmgQ76wyC2mEQle7mbcGEnyg8Fiw&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "tint - Hypershoot",
+         "url": "https://hypershoot.com/collection/tint-B3tp0VVOBi",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPIHNTS7lYkigP_uh6Wf3TyZQ2vkCnEQhHhoZ0X-1FULckHUg4WRn2-7c&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Tint and Shade Generator - bookmarks.design",
+         "url": "https://www.bookmarks.design/product/maketintsandshades/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREbvymyb-3qKZQw3SNXGLo1b9XeKlTUYarygWtd-yu52hP98yWOD6C45w&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]",
+       "domain": "www.are.na",
+       "title": "Tint and Shade Generator",
+       "url": "https://www.are.na/block/12027941",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.are.na \u203a block",
+       "website_name": "Are.na",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Easily make tints and shades that match the output of Chrome DevTools, PostCSS, and Sass.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Easily make tints and shades"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

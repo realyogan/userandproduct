@@ -1,0 +1,746 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0379 sec.",
+ "cost": 0.0006,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10101702-2633-0066-0000-2ff54fa04613",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0119 sec.",
+   "cost": 0.0006,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "task_get",
+    "advanced",
+    "10101702-2633-0066-0000-2ff54fa04613"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "task_get",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "rice score calculator",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "tag": "rice score calculator",
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "rice score calculator",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=rice%20score%20calculator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-10 17:02:50 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 95,
+     "pages_count": 1,
+     "items_count": 12,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "The RICE score can be calculated using free browser tools like the [ProductLift RICE Calculator](https://www.productlift.dev/rice-calculator/) or the [EasyRetro RICE Calculator](https://easyretro.io/tools/rice-calculator/).[[1]](https://www.productlift.dev/rice-calculator/)[[2]](https://easyretro.io/tools/rice-calculator/)\n\nThe RICE framework scores projects or features using this formula:[[1]](https://riceprioritization.com/)\n\nRICE Score=Reach\u00d7Impact\u00d7Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e=R e a c h\u00d7I m p a c t\u00d7C o n f i d e n c e E f f o r t\n\nHigher scores mean higher priority.[[1]](https://easyretro.io/tools/rice-calculator/)\n\n### The Four Components\n\n- **Reach** : Number of users or customers affected by the feature in a set time period (such as per quarter).\n- **Impact** : How much the feature helps each user. It often uses a scale from 0.25 (minimal) to 3 (massive).\n- **Confidence** : How sure you are about your estimates, entered as a percentage from 50% (low) to 100% (high).\n- **Effort** : Total time required by the team, measured in person-months or person-weeks.[[1]](https://pmtoolkit.ai/calculators/rice-scoring)[[2]](https://sleekplan.com/tools/rice-score-calculator)[[3]](https://easyretro.io/tools/rice-calculator/)[[4]](https://www.productlift.dev/prioritization/rice/)\n\nIf you have specific numbers for a project, tell me your **Reach**, **Impact**, **Confidence** , and **Effort** , and I can calculate the RICE score for you.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The RICE score can be calculated using free browser tools like the ProductLift RICE Calculator or the EasyRetro RICE Calculator.",
+         "markdown": "The RICE score can be calculated using free browser tools like the [ProductLift RICE Calculator](https://www.productlift.dev/rice-calculator/) or the [EasyRetro RICE Calculator](https://easyretro.io/tools/rice-calculator/).[[1]](https://www.productlift.dev/rice-calculator/)[[2]](https://easyretro.io/tools/rice-calculator/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "ProductLift RICE Calculator",
+           "description": null,
+           "url": "https://www.productlift.dev/rice-calculator/",
+           "domain": "www.productlift.dev"
+          },
+          {
+           "type": "link_element",
+           "title": "EasyRetro RICE Calculator",
+           "description": null,
+           "url": "https://easyretro.io/tools/rice-calculator/",
+           "domain": "easyretro.io"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "ProductLift",
+           "domain": "www.productlift.dev",
+           "url": "https://www.productlift.dev/rice-calculator/",
+           "title": "Free RICE Score Calculator (2026) | Instantly Prioritize Features",
+           "text": "Instantly calculate your RICE score with the formula (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. Free, no signup, works in your browse..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "EasyRetro",
+           "domain": "easyretro.io",
+           "url": "https://easyretro.io/tools/rice-calculator/",
+           "title": "RICE Calculator - Reach Impact Confidence Effort Prioritization Tool | EasyRetro",
+           "text": "Framework: RICE (Reach, Impact, Confidence, Effort) prioritization tool developed by Intercom for product teams. Formula: RICE = ("
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The RICE framework scores projects or features using this formula:",
+         "markdown": "The RICE framework scores projects or features using this formula:[[1]](https://riceprioritization.com/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "riceprioritization.com",
+           "domain": "riceprioritization.com",
+           "url": "https://riceprioritization.com/",
+           "title": "RICE Prioritization Framework app",
+           "text": "Overview: Online RICE Prioritization Framework app calculates a single ranking score for tasks or projects using the formula (Reac..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "RICE Score = Reach \u00d7 Impact \u00d7 Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e = R e a c h \u00d7 I m p a c t \u00d7 C o n f i d e n c e E f f o r t",
+         "markdown": "RICE Score=Reach\u00d7Impact\u00d7Confidence Effort RICE Score equals the fraction with numerator Reach cross Impact cross Confidence and denominator Effort end-fraction R I C E S c o r e=R e a c h\u00d7I m p a c t\u00d7C o n f i d e n c e E f f o r t",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Higher scores mean higher priority.",
+         "markdown": "Higher scores mean higher priority.[[1]](https://easyretro.io/tools/rice-calculator/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "EasyRetro",
+           "domain": "easyretro.io",
+           "url": "https://easyretro.io/tools/rice-calculator/",
+           "title": "RICE Calculator - Reach Impact Confidence Effort Prioritization Tool | EasyRetro",
+           "text": "Framework: RICE (Reach, Impact, Confidence, Effort) prioritization tool developed by Intercom for product teams. Formula: RICE = ("
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The Four Components",
+         "markdown": "### The Four Components",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Reach : Number of users or customers affected by the feature in a set time period (such as per quarter). Impact : How much the feature helps each user. It often uses a scale from 0.25 (minimal) to 3 (massive). Confidence : How sure you are about your estimates, entered as a percentage from 50% (low) to 100% (high). Effort : Total time required by the team, measured in person-months or person-weeks.",
+         "markdown": "- **Reach** : Number of users or customers affected by the feature in a set time period (such as per quarter).\n- **Impact** : How much the feature helps each user. It often uses a scale from 0.25 (minimal) to 3 (massive).\n- **Confidence** : How sure you are about your estimates, entered as a percentage from 50% (low) to 100% (high).\n- **Effort** : Total time required by the team, measured in person-months or person-weeks.[[1]](https://pmtoolkit.ai/calculators/rice-scoring)[[2]](https://sleekplan.com/tools/rice-score-calculator)[[3]](https://easyretro.io/tools/rice-calculator/)[[4]](https://www.productlift.dev/prioritization/rice/)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "pmtoolkit.ai",
+           "domain": "pmtoolkit.ai",
+           "url": "https://pmtoolkit.ai/calculators/rice-scoring",
+           "title": "Free RICE Scoring Calculator | Prioritize Features Fast",
+           "text": "RICE Formula: (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort Components: Reach (users per quarter), Impact (0.25 minimal to 3 massive), Co..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Sleekplan",
+           "domain": "sleekplan.com",
+           "url": "https://sleekplan.com/tools/rice-score-calculator",
+           "title": "RICE Score Calculator: Copy the Ranked List | Sleekplan",
+           "text": "Rule for the fourth column A count and its source, or the row does not get scored. \"Customers have asked for this\" is not a Reach ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "EasyRetro",
+           "domain": "easyretro.io",
+           "url": "https://easyretro.io/tools/rice-calculator/",
+           "title": "RICE Calculator - Reach Impact Confidence Effort Prioritization Tool | EasyRetro",
+           "text": "Framework: RICE (Reach, Impact, Confidence, Effort) prioritization tool developed by Intercom for product teams. Formula: RICE = ("
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "ProductLift",
+           "domain": "www.productlift.dev",
+           "url": "https://www.productlift.dev/prioritization/rice/",
+           "title": "Free RICE Calculator & Scoring Template - Prioritization - ProductLift",
+           "text": "The Formula How to Calculate RICE Score: The Formula RICE Score = (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. The RICE framework was d..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you have specific numbers for a project, tell me your Reach, Impact, Confidence, and Effort, and I can calculate the RICE score for you.",
+         "markdown": "If you have specific numbers for a project, tell me your **Reach**, **Impact**, **Confidence** , and **Effort** , and I can calculate the RICE score for you.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "ProductLift",
+         "domain": "www.productlift.dev",
+         "url": "https://www.productlift.dev/rice-calculator/",
+         "title": "Free RICE Score Calculator (2026) | Instantly Prioritize Features",
+         "text": "Instantly calculate your RICE score with the formula (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. Free, no signup, works in your browse..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "EasyRetro",
+         "domain": "easyretro.io",
+         "url": "https://easyretro.io/tools/rice-calculator/",
+         "title": "RICE Calculator - Reach Impact Confidence Effort Prioritization Tool | EasyRetro",
+         "text": "Framework: RICE (Reach, Impact, Confidence, Effort) prioritization tool developed by Intercom for product teams. Formula: RICE = ("
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "riceprioritization.com",
+         "domain": "riceprioritization.com",
+         "url": "https://riceprioritization.com/",
+         "title": "RICE Prioritization Framework app",
+         "text": "Overview: Online RICE Prioritization Framework app calculates a single ranking score for tasks or projects using the formula (Reac..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "pmtoolkit.ai",
+         "domain": "pmtoolkit.ai",
+         "url": "https://pmtoolkit.ai/calculators/rice-scoring",
+         "title": "Free RICE Scoring Calculator | Prioritize Features Fast",
+         "text": "RICE Formula: (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort Components: Reach (users per quarter), Impact (0.25 minimal to 3 massive), Co..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Sleekplan",
+         "domain": "sleekplan.com",
+         "url": "https://sleekplan.com/tools/rice-score-calculator",
+         "title": "RICE Score Calculator: Copy the Ranked List | Sleekplan",
+         "text": "Rule for the fourth column A count and its source, or the row does not get scored. \"Customers have asked for this\" is not a Reach ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "ProductLift",
+         "domain": "www.productlift.dev",
+         "url": "https://www.productlift.dev/prioritization/rice/",
+         "title": "Free RICE Calculator & Scoring Template - Prioritization - ProductLift",
+         "text": "The Formula How to Calculate RICE Score: The Formula RICE Score = (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. The RICE framework was d..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "www.productlift.dev",
+       "title": "Free RICE Score Calculator",
+       "url": "https://www.productlift.dev/rice-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productlift.dev \u203a rice-calculator",
+       "website_name": "ProductLift",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Free RICE score calculator with the RICE formula built in. Enter Reach, Impact, Confidence, Effort. Get an instant RICE score to rank features and backlog\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Free RICE score calculator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "easyretro.io",
+       "title": "RICE Calculator - Reach Impact Confidence Effort ...",
+       "url": "https://easyretro.io/tools/rice-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://easyretro.io \u203a tools \u203a rice-calculator",
+       "website_name": "EasyRetro",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The RICE Formula: RICE = (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort How to Score",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "RICE Formula",
+        "RICE",
+        "Score"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "How do you calculate a rice score?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What is a normal rice purity score for a 20-year-old?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is 32 a bad rice purity score?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Is a rice purity score of 27 considered good?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "userpilot.com",
+       "title": "RICE Score Calculator: Prioritize Your Product Roadmap ...",
+       "url": "https://userpilot.com/blog/rice-score-calculator/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://userpilot.com \u203a blog \u203a rice-score-calculator",
+       "website_name": "Userpilot",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 7, 2026 \u2014 The RICE score formula is: (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. Sort by score. Higher RICE scores mean better value for the effort. Read more",
+       "pre_snippet": "04/07/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://userpilot.com/blog/rice-score-calculator/#:~:text=The%20RICE%20score%20formula%20is%3A,better%20value%20for%20the%20effort.",
+         "domain": "userpilot.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-07 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "riceprioritization.com",
+       "title": "RICE Prioritization Framework app",
+       "url": "https://riceprioritization.com/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://riceprioritization.com",
+       "website_name": "riceprioritization.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Use the calculator below to find your score and priority order for yours. The calculator above will use your numbers to sort your options into priority order.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Use the calculator below to find your score and priority order for yours"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "sleekplan.com",
+       "title": "RICE Score Calculator: Copy the Ranked List",
+       "url": "https://sleekplan.com/tools/rice-score-calculator",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://sleekplan.com \u203a Free tools",
+       "website_name": "Sleekplan",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "A RICE score calculator that ranks your backlog and copies out as a table. The RICE score formula RICE = (Reach x Impact x Confidence) / Effort.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "RICE = (Reach x Impact x Confidence) / Effort"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "pmtoolkit.ai",
+       "title": "Free RICE Scoring Calculator | Prioritize Features Fast",
+       "url": "https://pmtoolkit.ai/calculators/rice-scoring",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://pmtoolkit.ai \u203a Calculators \u203a Prioritization",
+       "website_name": "pmtoolkit.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "RICE Score = (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort. For example: if Reach=1000 users, Impact=2 (high), Confidence=80%, and Effort=3 person-weeks, then RICE =\u00a0...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "RICE Score = (Reach \u00d7 Impact \u00d7 Confidence) \u00f7 Effort"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "www.productplan.com",
+       "title": "RICE Scoring Model | Glossary",
+       "url": "https://www.productplan.com/glossary/rice-scoring-model",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productplan.com \u203a ... \u203a RICE Scoring Model",
+       "website_name": "ProductPlan",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The RICE scoring model is a prioritization framework designed to help product managers determine which products, features, and other initiatives to put on their\u00a0... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "RICE scoring model"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.productplan.com/glossary/rice-scoring-model#:~:text=The%20RICE%20scoring%20model%20is,items%20according%20to%20four%20factors.",
+         "domain": "www.productplan.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "getspeckled.com",
+       "title": "The RICE Prioritization Formula - Speckled",
+       "url": "https://getspeckled.com/blog/the-rice-prioritization-formula-1",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://getspeckled.com \u203a blog \u203a the-rice-prioritization-fo...",
+       "website_name": "getspeckled.com",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "We can use the formula of RICE = Reach*Impact*Confidence/Effort to score new product features, ideas, and future plans.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "RICE = Reach*Impact*Confidence/Effort"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+       "domain": "www.productlift.dev",
+       "title": "Free RICE Calculator & Scoring Template - Prioritization",
+       "url": "https://www.productlift.dev/prioritization/rice/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.productlift.dev \u203a Prioritization",
+       "website_name": "ProductLift",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Calculate your RICE score instantly. Free online RICE calculator with Reach \u00d7 Impact \u00d7 Confidence \u00f7 Effort.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 99,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "Free online RICE calculator"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 12,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Rice score calculator excel",
+        "Free rice score calculator",
+        "Rice score calculator app",
+        "Rice score calculator 2022",
+        "Rice score calculator pdf",
+        "Rice score test",
+        "Rice Purity Test",
+        "Rice score football"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
