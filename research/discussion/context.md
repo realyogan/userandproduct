@@ -778,3 +778,22 @@ sections/, pages/, css/, js/, assets/ (logo, favicon, fonts), img/, shots/, buil
 header and footer source, build_article.py, build_home.py, image and shot scripts, variants B and C and the explainer
 gallery kept for reference). All links relative within the folder, 791 checked, none broken. Old home/, article/,
 category/, sections/, pages/ folders removed. Site: http://localhost/user-and-product/research/mockups/option-1/
+Owner (10 Oct, evening): does not like the logo; back to the drawing board. The S5 four-tile mark and Inter Display
+wordmark are no longer final. Questions put to the owner before any drawing: what is wrong (mark, wordmark, colour,
+feel), what it should feel like (three words or references), mark plus name or name alone, colour open or blue.
+Owner on the logo: the mark is bland and has no presence; as an Instagram avatar it is not attractive, and alone (as
+in a thumbnail corner) it looks like a speck of dust. Next round to judge every candidate at avatar, favicon and
+thumbnail-corner size first, then the header; marks need mass, a recognisable silhouette and character. Proposed: a
+direction board of eight to twelve marks at those sizes, light and dark; originality check on the shortlist; one
+direction refined. Open: colour (blue or open), wordmark (Inter Display or open). Waiting for go.
+Owner: none of the shortlisted marks had the "oh nice" feeling. Proposed method change: the owner sends ten to fifteen
+logos from any field that gave that feeling; derive what they share as the brief; then a board of twelve genuinely
+different ideas (not variations), each with the reason it could delight; judged at avatar size first. Waiting for the
+owner's references or a go.
+Owner shared a stock mark (thick blue ring with a chunky cursor crossing it, two-tone with a lighter fold) as the kind
+of visual appeal wanted, saved at research/discussion/references/logo-round-2/; not to be used or copied, a derivative
+with the same qualities: mass, one clear idea, two-tone fold depth, works as a circle avatar. Owner asked to restore the
+deleted exploration folder for inspiration only and to start fresh without repeating it: research/mockups/logos/
+restored from the archive (1,472 files, hub at research/mockups/logos/hub.html). Round 2 started at
+research/mockups/logo-round-2/: twelve different ideas judged at avatar, favicon, thumbnail corner and header sizes,
+blue two-tone by default with three colour alternatives, wordmark kept for fair comparison.

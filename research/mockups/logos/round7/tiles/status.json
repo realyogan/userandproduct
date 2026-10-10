@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "run_id": "logos-round7-tiles",
+  "title": "Logo concepts, round 7: four tiles",
+  "state": "finished",
+  "started": "2026-10-09T13:20+05:30",
+  "updated": "2026-10-09T13:34+05:30",
+  "note": "Board at logos/round7/tiles/index.html; 144 SVGs validated; 16px checked; screenshots at 1920, 1280 and 375 (no horizontal scroll); README linked",
+  "steps": [
+    {
+      "n": 1,
+      "title": "Read boards and sources",
+      "status": "done",
+      "note": "Feeling board, owner sketch, round six board and tools read",
+      "time": "13:20"
+    },
+    {
+      "n": 2,
+      "title": "Image-aware originality search",
+      "status": "done",
+      "note": "Looked at about ninety marks: Microsoft, Windows 11 and 8, Slack, Chase, Google Photos, Dropbox, Binance, Zoho, Kentico, Trello, Mitsubishi, Columbia, sun cross and others",
+      "time": "13:25"
+    },
+    {
+      "n": 3,
+      "title": "Filled and outlined tiles",
+      "status": "done",
+      "note": "S1 to S9 filled and outlined built; drafts checked at 160, 32 and 16px",
+      "time": "13:32"
+    },
+    {
+      "n": 4,
+      "title": "Carved tiles and derivatives",
+      "status": "done",
+      "note": "S10 to S18 carved and derivatives built; rim-breaking carve dropped (hooked cross)",
+      "time": "13:32"
+    },
+    {
+      "n": 5,
+      "title": "Board, strips, screenshots",
+      "status": "done",
+      "note": "Board at logos/round7/tiles/index.html; 144 SVGs validated; 16px checked; screenshots at 1920, 1280 and 375 (no horizontal scroll); README linked",
+      "time": "13:34"
+    }
+  ]
+}
