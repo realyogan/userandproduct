@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Write a PRD That Engineers Actually Read | userandproduct</title>
+<meta name="description" content="The PRD structure I have used for fifteen years: twelve questions, six parts, acceptance lines a tester can check, and a free template.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2B46A0">
+<link rel="icon" href="../../assets/favicon/favicon.ico" sizes="48x48">
+<link rel="icon" href="../../assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../assets/favicon/apple-touch-icon-180.png">
+<script>try{var t=localStorage.getItem("uap-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}</script>
+<link rel="preload" href="../../assets/fonts/fraunces/Fraunces9pt-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter/InterDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../css/mockup.css">
+<link rel="stylesheet" href="../../css/article.css">
+<script src="../../js/mockup.js" defer></script>
+</head>
+<!-- Mockup variant B: Magazine -->
+<body class="vb">
+<a class="skip" href="#content">Skip to the article</a><header class="site-head">
+  <div class="site-head__in">
+    <a class="logo" href="../../index.html" aria-label="userandproduct home"><img class="l-light" src="../../assets/logo/lockup-light.svg" alt="userandproduct" width="236" height="30"><img class="l-dark" src="../../assets/logo/lockup-dark.svg" alt="userandproduct" width="236" height="30"></a>
+    <nav class="site-nav" aria-label="Sections"><ul><li><a href="../../index.html#latest">Articles</a></li><li><a href="../../category/index.html">Topics</a></li><li><a href="../../sections/books.html">Books</a></li><li><a href="../../sections/links.html">Links</a></li><li><a href="../../sections/tools.html">Tools</a></li><li><a href="../../sections/templates.html">Templates</a></li></ul></nav>
+    <details class="menu"><summary>Menu</summary><ul><li><a href="../../index.html#latest">Articles</a></li><li><a href="../../category/index.html">Topics</a></li><li><a href="../../sections/books.html">Books</a></li><li><a href="../../sections/links.html">Links</a></li><li><a href="../../sections/tools.html">Tools</a></li><li><a href="../../sections/templates.html">Templates</a></li></ul></details>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.3 14.6A8.5 8.5 0 0 1 9.4 3.7a8.5 8.5 0 1 0 10.9 10.9Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg></button>
+  </div>
+</header>
+<aside class="ad ad--leader" data-ad="leaderboard" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">320 &times; 100</span><span class="sz-1">728 &times; 90</span><span class="sz-2">970 &times; 90</span></div></aside>
+<main id="content">
+<article>
+  <header class="hero">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol>
+      <li><a href="../../index.html">Home</a></li><li><a href="../../category/index.html">Product</a></li><li><a href="../../category/index.html" aria-current="page">Product discovery</a></li>
+    </ol></nav>
+    <a class="cat-link" href="../../category/index.html">Product discovery</a>
+    <h1>How to Write a PRD That Engineers Actually Read</h1>
+    <p class="deck">Most product requirement documents get read once, in the kickoff, and never opened again. After fifteen years of writing them and watching engineers scroll past mine, I now answer twelve questions before I write a heading, keep the document to a few screens, and end it with lines a tester can check. Here is the structure, a worked example, and a template you can use today.</p>
+    <div class="byline">
+      <svg class="avatar" width="48" height="48" viewBox="0 0 64 64" role="img"><title>Photo of [Author Name] (placeholder)</title><circle cx="32" cy="25" r="11" fill="currentColor"/><path d="M11 56c2.5-11 11-17 21-17s18.5 6 21 17Z" fill="currentColor"/></svg>
+      <div>
+        <div>userandproduct, by <a href="#author"><strong>[Author Name]</strong></a></div>
+        <div class="when"><span><time datetime="2026-10-09">9 Oct 2026</time></span><span>9 min read</span></div>
+      </div>
+    </div>
+    <figure class="hero-fig">
+      <picture><source srcset="../../img/hero-prd-dark.png" media="(prefers-color-scheme: dark)" data-dark><img class="" src="../../img/hero-prd-light.png" width="1200" height="675" alt="Illustration: a PRD page with twelve question lines, three of them marked in blue, beside four blue tiles" fetchpriority="high" decoding="async"></picture>
+      <figcaption>Twelve questions before the first heading. Questions 7, 9 and 12 do most of the work.</figcaption>
+    </figure>
+  </header>
+  <div class="col">
+    <nav class="intoc" aria-labelledby="intoc-h"><h2 id="intoc-h">In this article</h2><ol><li><a href="#why-prds-fail">Why most PRDs fail</a></li><li><a href="#twelve-questions">The twelve questions to answer first</a></li><li><a href="#structure">The structure that works</a></li><li><a href="#worked-example">A worked example</a></li><li><a href="#acceptance">Acceptance lines and open questions</a></li><li><a href="#leave-out">What to leave out</a></li><li><a href="#template">Get the PRD template</a></li></ol></nav>
+    <div class="prose">
+<h2 id="why-prds-fail">Why most PRDs fail</h2>
+<p>I have written well over two hundred PRDs, and for the first five years most of them were read exactly once: in the kickoff meeting, on a shared screen, while I scrolled. After that the engineers worked from the tickets, the design file and whatever they remembered me saying. The document was out of date by the second sprint, and nobody noticed, because nobody opened it.</p>
+<p>That is not an engineering problem. It is a writing problem, and it usually has one of two causes.</p>
+<h3 id="written-for-approval">It was written for approval, not for building</h3>
+<p>Many PRDs are pitch decks in prose. They open with market size, competitor screenshots and a strategy paragraph, because the first reader the author had in mind was a VP who needed convincing. By the time an engineer reaches the part they need, which is what to build and how they will know it works, they are on page four and have started skimming.</p>
+<h3 id="wall-of-text">It answers questions nobody asked and skips the ones they did</h3>
+<p>The other failure is the wall of text. Every edge case the PM thought of is in there, in the order they thought of it. What is missing is the short list of decisions: what is in scope, what is not, what happens when the data is empty, who sees the error message. Engineers do not need more words. They need the decisions made, in a place they can find them.</p>
+
+<blockquote class="pull"><p>A PRD is not a record of everything you know. It is the smallest set of decisions an engineer needs to build the right thing without having to ask you.</p></blockquote>
+
+<aside class="ad ad--rect" data-ad="in-article-1" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside>
+<h2 id="twelve-questions">The twelve questions to answer first</h2>
+<p>Before I write a single heading, I answer twelve questions in plain sentences, in a scratch file. If I cannot answer one, that is the first thing I go and find out, not something I paper over in the document. Most of the PRD then writes itself from the answers.</p>
+<div class="qtable-wrap">
+<table class="qtable">
+  <caption>The twelve questions. I answer them in a scratch file before I write a single heading.</caption>
+  <thead><tr><th scope="col"><span class="vh">Number</span></th><th scope="col">Question</th><th scope="col">Why engineers care</th></tr></thead>
+  <tbody><tr><td>1</td><td>What problem are we solving, in one sentence?</td><td>It is the test for every later trade-off.</td></tr><tr><td>2</td><td>Who has this problem, and how often?</td><td>It tells them which paths are busy and which are rare.</td></tr><tr><td>3</td><td>What do they do today instead?</td><td>The workaround is the real competitor, and often half the spec.</td></tr><tr><td>4</td><td>What evidence do we have?</td><td>It separates a known need from a guess.</td></tr><tr><td>5</td><td>What does success look like, and how will we measure it?</td><td>It decides what has to be logged from day one.</td></tr><tr><td>6</td><td>What is in scope for this release?</td><td>It is the list they will estimate against.</td></tr><tr><td>7</td><td>What is explicitly out of scope?</td><td>It stops quiet scope creep in code review.</td></tr><tr><td>8</td><td>What are the main flows, step by step?</td><td>It is the skeleton for tickets and tests.</td></tr><tr><td>9</td><td>What happens when things go wrong or are empty?</td><td>Error, empty and loading states are where estimates break.</td></tr><tr><td>10</td><td>What are the constraints?</td><td>Deadlines, platforms, legal review and performance budgets.</td></tr><tr><td>11</td><td>What are the acceptance lines?</td><td>It is the definition of done a tester can check.</td></tr><tr><td>12</td><td>What is still open, and who decides?</td><td>It shows them where not to build yet.</td></tr></tbody>
+</table>
+</div>
+<p>Questions 7, 9 and 12 do most of the work. They are the ones skipped most often, and they are the ones engineers ask about in the ticket thread three weeks later, when changing course costs real time.</p>
+
+<h2 id="structure">The structure that works</h2>
+<p>Once the answers exist, the document has six parts, always in the same order. Keeping the order fixed matters more than the headings themselves: an engineer who has read one of my PRDs knows where to look in the next one.</p>
+<figure class="fig" id="fig-structure">
+  <div class="frame">
+  <svg viewBox="0 0 400 304" role="img" aria-labelledby="f1t f1d">
+    <title id="f1t">The six parts of the PRD</title>
+    <desc id="f1d">A bar chart of the six parts in order with the share of a typical four-screen PRD: problem and why 12 percent, users and evidence 10, scope 14, flows and states 30, acceptance lines 22, open questions 12. The first two parts are the why and fit on one screen; the last four describe what to build.</desc>
+    <text x="0" y="32" class="svg-tb svg-ink">1</text><text x="22" y="32" class="svg-t svg-ink">Problem and why</text><rect x="172" y="18" width="72" height="20" rx="3" class="svg-ink-3"/><text x="252" y="33" class="svg-ts svg-ink-3">12%</text><text x="0" y="74" class="svg-tb svg-ink">2</text><text x="22" y="74" class="svg-t svg-ink">Users and evidence</text><rect x="172" y="60" width="60" height="20" rx="3" class="svg-ink-3"/><text x="240" y="75" class="svg-ts svg-ink-3">10%</text><text x="0" y="116" class="svg-tb svg-ink">3</text><text x="22" y="116" class="svg-t svg-ink">Scope: in and out</text><rect x="172" y="102" width="84" height="20" rx="3" class="svg-signal"/><text x="264" y="117" class="svg-ts svg-ink-3">14%</text><text x="0" y="158" class="svg-tb svg-ink">4</text><text x="22" y="158" class="svg-t svg-ink">Flows and states</text><rect x="172" y="144" width="180" height="20" rx="3" class="svg-signal"/><text x="360" y="159" class="svg-ts svg-ink-3">30%</text><text x="0" y="200" class="svg-tb svg-ink">5</text><text x="22" y="200" class="svg-t svg-ink">Acceptance lines</text><rect x="172" y="186" width="132" height="20" rx="3" class="svg-signal"/><text x="312" y="201" class="svg-ts svg-ink-3">22%</text><text x="0" y="242" class="svg-tb svg-ink">6</text><text x="22" y="242" class="svg-t svg-ink">Open questions</text><rect x="172" y="228" width="72" height="20" rx="3" class="svg-signal"/><text x="252" y="243" class="svg-ts svg-ink-3">12%</text><rect x="0" y="282" width="14" height="14" rx="2" class="svg-ink-3"/><text x="22" y="294" class="svg-ts svg-ink-2">Why: fits on one screen</text><rect x="200" y="282" width="14" height="14" rx="2" class="svg-signal"/><text x="220" y="294" class="svg-ts svg-ink-2">What to build</text>
+  </svg>
+  </div>
+  <figcaption><b>Figure 1.</b> The six parts, always in this order, with the share of a typical four-screen PRD each one takes. The why fits on one screen; most of the length goes to flows and acceptance lines.</figcaption>
+</figure>
+<h3 id="one-screen">One screen for the why</h3>
+<p>Problem, users and evidence fit on one screen, or they are not finished. This is the part leadership reads, and it is also the part engineers need to judge edge cases on their own. If the why takes three pages, the team cannot hold it in their heads, and they stop using it to make the small calls that never reach a meeting.</p>
+<h3 id="scope-as-a-list">Scope as a list, not a story</h3>
+<p>In scope and out of scope are two short lists, side by side if the tool allows it. Each line is short enough to become a ticket title. Out of scope gets as much care as in scope, because it is the list that protects the estimate.</p>
+<p>Flows come next, written as numbered steps with the system's response on each step, then acceptance lines, then open questions. That is the whole document. For a mid-sized feature it runs three to five screens.</p>
+
+<aside class="ad ad--rect" data-ad="in-article-2" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside>
+<h2 id="worked-example">A worked example</h2>
+<p>Here is a short excerpt from a real PRD, with the product details changed. The feature let analysts in a B2B reporting tool save a set of filters and reuse it. The first draft was eleven pages. This version is four screens, and it is the one the team built from.</p>
+<div class="excerpt" role="group" aria-label="Excerpt from the saved filters PRD">
+  <p class="ex-title">Saved filters, v1 (excerpt)</p>
+  <dl>
+    <dt>Problem</dt><dd>Analysts rebuild the same five to eight filters every Monday before the weekly review. It is the most common "how do I" ticket in the reporting area.</dd>
+    <dt>In scope</dt><dd><ul><li>Save the current filters under a name.</li><li>Apply a saved filter from the filter bar.</li><li>Rename and delete your own saved filters.</li></ul></dd>
+    <dt>Out of scope</dt><dd><ul><li>Sharing saved filters with teammates (v2).</li><li>Scheduled reports.</li><li>Filters on dashboards.</li></ul></dd>
+    <dt>Empty state</dt><dd>A user with no saved filters sees "Save the filters you use most" and the Save button, nothing else.</dd>
+    <dt>Acceptance</dt><dd>Given a user has applied three filters, when they choose Save and enter a name, then the name appears in the saved list, and applying it restores all three filters exactly.</dd>
+  </dl>
+</div>
+<p>Every PRD I write opens with a few lines of front matter, so the team's tracker can read the status, the owner and the decision date without anyone opening the document:</p>
+<pre data-filename="saved-filters.prd.json"><code class="language-json">{
+  "title": "Saved filters, v1",
+  "owner": "[Author Name]",
+  "status": "In review",
+  "version": 3,
+  "decisionBy": "2026-10-23",
+  "openQuestions": 2,
+  "links": {
+    "brief": "https://wiki.example.com/briefs/saved-filters",
+    "design": "https://design.example.com/files/saved-filters"
+  }
+}</code></pre>
+<p>Notice what is not in the excerpt: no market sizing, no persona poster, no competitor screenshot. Those existed, in a separate one-page brief for leadership, and the PRD links to it in one line.</p>
+<figure class="fig" id="fig-readers">
+  <div class="frame">
+  <svg viewBox="0 0 400 326" role="img" aria-labelledby="f2t f2d">
+    <title id="f2t">Who reads which part</title>
+    <desc id="f2d">A grid of the six PRD parts against four readers. Engineers and QA read scope, flows and acceptance lines closely and the why once. Design reads most parts closely. Leads read the problem, the evidence and the open questions closely, skim scope and usually skip flows and acceptance lines.</desc>
+    <text x="196" y="22" text-anchor="middle" class="svg-ts svg-ink-2">Engineers</text><text x="256" y="22" text-anchor="middle" class="svg-ts svg-ink-2">Design</text><text x="310" y="22" text-anchor="middle" class="svg-ts svg-ink-2">QA</text><text x="364" y="22" text-anchor="middle" class="svg-ts svg-ink-2">Leads</text><line x1="0" y1="36" x2="400" y2="36" class="svg-line" stroke-width="1"/><text x="0" y="69" class="svg-t svg-ink">Problem and why</text><circle cx="196" cy="64" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><circle cx="256" cy="64" r="8" class="svg-signal"/><circle cx="310" cy="64" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><circle cx="364" cy="64" r="8" class="svg-signal"/><line x1="0" y1="84" x2="400" y2="84" class="svg-rule" stroke-width="1"/><text x="0" y="109" class="svg-t svg-ink">Users and evidence</text><circle cx="196" cy="104" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><circle cx="256" cy="104" r="8" class="svg-signal"/><circle cx="310" cy="104" r="2.5" class="svg-ink-3"/><circle cx="364" cy="104" r="8" class="svg-signal"/><line x1="0" y1="124" x2="400" y2="124" class="svg-rule" stroke-width="1"/><text x="0" y="149" class="svg-t svg-ink">Scope: in and out</text><circle cx="196" cy="144" r="8" class="svg-signal"/><circle cx="256" cy="144" r="8" class="svg-signal"/><circle cx="310" cy="144" r="8" class="svg-signal"/><circle cx="364" cy="144" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><line x1="0" y1="164" x2="400" y2="164" class="svg-rule" stroke-width="1"/><text x="0" y="189" class="svg-t svg-ink">Flows and states</text><circle cx="196" cy="184" r="8" class="svg-signal"/><circle cx="256" cy="184" r="8" class="svg-signal"/><circle cx="310" cy="184" r="8" class="svg-signal"/><circle cx="364" cy="184" r="2.5" class="svg-ink-3"/><line x1="0" y1="204" x2="400" y2="204" class="svg-rule" stroke-width="1"/><text x="0" y="229" class="svg-t svg-ink">Acceptance lines</text><circle cx="196" cy="224" r="8" class="svg-signal"/><circle cx="256" cy="224" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><circle cx="310" cy="224" r="8" class="svg-signal"/><circle cx="364" cy="224" r="2.5" class="svg-ink-3"/><line x1="0" y1="244" x2="400" y2="244" class="svg-rule" stroke-width="1"/><text x="0" y="269" class="svg-t svg-ink">Open questions</text><circle cx="196" cy="264" r="8" class="svg-signal"/><circle cx="256" cy="264" r="8" class="svg-signal"/><circle cx="310" cy="264" r="7" fill="none" class="svg-sig-stroke" stroke-width="2"/><circle cx="364" cy="264" r="8" class="svg-signal"/><line x1="0" y1="284" x2="400" y2="284" class="svg-rule" stroke-width="1"/><circle cx="8" cy="312" r="7" class="svg-signal"/><text x="22" y="316" class="svg-ts svg-ink-2">Reads closely</text><circle cx="122" cy="312" r="6" fill="none" class="svg-sig-stroke" stroke-width="2"/><text x="135" y="316" class="svg-ts svg-ink-2">Skims</text><circle cx="196" cy="312" r="2.5" class="svg-ink-3"/><text x="206" y="316" class="svg-ts svg-ink-2">Usually skips</text>
+  </svg>
+  </div>
+  <figcaption><b>Figure 2.</b> Who reads which part. The fixed order means nobody has to read the whole document to do their job.</figcaption>
+</figure><p>The grid is the reason the order works. Engineers and QA read the bottom half closely and the top half once. Leadership reads the top half and the open questions and skims the rest.</p>
+
+<h2 id="acceptance">Acceptance lines and open questions</h2>
+<h3 id="tester-can-check">Write acceptance lines a tester can check</h3>
+<p>An acceptance line describes something a person can observe, in a given state, after an action. "Saved filters should be easy to use" is a wish. "Applying a saved filter restores every filter exactly as saved, including date ranges" is a line someone can test. I use Given, When, Then when the starting state matters and a plain sentence when it does not. I aim for five to twelve lines per feature; more than that usually means the feature should be split.</p>
+<p>Success measures get the same treatment. For saved filters the measure was a query the analytics team could run from the first day of the release, written into the PRD next to the acceptance lines:</p>
+<figure class="fig fig--code">
+<pre><code class="language-sql">-- weekly share of active analysts who applied a saved filter
+SELECT date_trunc('week', e.created_at) AS week,
+       COUNT(DISTINCT e.user_id) FILTER (WHERE e.name = 'saved_filter_applied') * 100.0
+         / COUNT(DISTINCT e.user_id) AS pct_using_saved_filters
+FROM events e
+WHERE e.created_at &gt;= '2026-01-01'
+  AND e.role = 'analyst'
+GROUP BY 1
+ORDER BY 1;</code></pre>
+<figcaption>The success measure from the saved filters PRD: the weekly share of active analysts who applied a saved filter.</figcaption>
+</figure>
+<h3 id="open-questions">Keep open questions in the open</h3>
+<p>Every PRD I write ends with a short table of open questions, each with an owner and a date. After the scope lists it is the most-read part, because it tells engineers where not to build yet. Hiding an open question in a paragraph does not close it. It moves the discussion to a pull request, where it costs more.</p>
+<p>Anything nobody has decided yet is marked <code>TBD</code> in the body, never guessed. Before a review I count what is still open across every PRD in the repository:</p>
+<pre><code class="language-bash"># list every TBD left in the PRDs, with file and line, then count them
+grep -rn "TBD" docs/prd/ | sort | tee open-items.txt | wc -l</code></pre>
+
+
+<aside class="ad ad--rect" data-ad="in-article-3" aria-label="Advertisement"><span class="ad__label">Advertisements</span><div class="ad__box"><span class="sz-0">336 &times; 280</span></div></aside>
+<h2 id="leave-out">What to leave out</h2>
+<p>The fastest way to get a PRD read is to make it shorter. These are the things I take out, or move somewhere else and link:</p>
+<ul>
+  <li><strong>Market research and competitor reviews.</strong> They belong in the brief that got the project approved.</li>
+  <li><strong>Screen detail the designer owns.</strong> Link the design file; do not describe the screens in prose.</li>
+  <li><strong>Implementation choices.</strong> Say what must be true, not how to build it. The engineers will pick a better approach than the one you would have written.</li>
+  <li><strong>History.</strong> How the idea came up, who asked for it, the three earlier attempts. One line, if any.</li>
+  <li><strong>Every edge case at the same weight.</strong> Name the ones that change the estimate and leave the rest to the team and the acceptance lines.</li>
+</ul>
+<p>What remains is short, a little plain, and used every day of the build. That is the only measure of a PRD that matters.</p>
+
+    </div>
+    <section class="tpl" aria-labelledby="template">
+  <h2 id="template">Get the PRD template</h2>
+  <p>Three ways to use this structure. All free, no sign-up.</p>
+  <div class="tpl__grid">
+    <div class="tpl__part">
+      <h3>Blank template</h3>
+      <p>The six parts and the twelve questions, ready to fill in. Works in Word and Google Docs.</p>
+      <div class="btn-row"><a class="btn" href="#" download>Download .docx</a><a class="btn btn--ghost" href="#">Open in Google Docs</a></div>
+      <p class="small">Also as <a href="#">Markdown</a>.</p>
+    </div>
+    <div class="tpl__part">
+      <h3>Worked example</h3>
+      <p>The full saved-filters PRD from this article, with the answers to the twelve questions that produced it.</p>
+      <div class="btn-row"><a class="btn btn--ghost" href="#">See the worked example</a></div>
+    </div>
+    <div class="tpl__part tpl__part--wide">
+      <h3>PRD interview</h3>
+      <p class="lead">Paste this into ChatGPT or Claude. It interviews you for about 10 minutes, then drafts your PRD. You review it.</p>
+      <p>It drafts. You decide. Anything you didn't tell it is marked TBD, not made up. Already have a draft? Paste it instead and the same text checks it against the twelve questions.</p>
+      <div class="btn-row"><button class="btn" type="button" data-copy="prd-interview-text" data-copy-status="copy-status">Copy the interview</button><a class="btn btn--ghost" href="#" download>Download .txt</a></div>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+      <div class="before">
+        <h4>Before you paste</h4>
+        <ul>
+          <li>Use only the assistant your employer approves. If it allows none, use the blank template instead.</li>
+          <li>Swap customer names, revenue figures, unreleased product names and personal data for placeholders such as [Customer A] and [$X].</li>
+          <li>Turn off chat history or training where your assistant allows it.</li>
+        </ul>
+      </div>
+      <textarea id="prd-interview-text" hidden readonly>PRD interview, v1.0, by [Author Name], userandproduct.com/prd-template (CC BY 4.0)
+
+You are helping me write a product requirements document (PRD). Work in two steps.
+
+Step 1, the interview. Ask me these twelve questions one at a time, in order. Wait for my answer before you ask the next one. If an answer is vague, ask one follow-up that makes it specific. If I paste my company's PRD template, keep its headings and use these questions to fill them.
+1. What problem are we solving, in one sentence?
+2. Who has this problem, and how often?
+3. What do they do today instead?
+4. What evidence do we have?
+5. What does success look like, and how will we measure it?
+6. What is in scope for this release?
+7. What is explicitly out of scope?
+8. What are the main flows, step by step?
+9. What happens when things go wrong or are empty?
+10. What are the constraints?
+11. What are the acceptance lines?
+12. What is still open, and who decides?
+
+Step 2, the draft. Write the PRD in six parts: Problem and why, Users and evidence, Scope (in and out), Flows and states, Acceptance lines, Open questions. Keep the why to one screen. Write acceptance lines a tester can check. Mark anything I did not tell you as TBD. Do not invent facts, numbers or names.
+
+Check my draft mode: if I start by pasting an existing PRD instead, skip the interview. Check the draft against the twelve questions, list what is missing or vague, and suggest specific fixes.
+
+End the PRD with: "Structured with the PRD interview, userandproduct.com/prd-template". I may delete this line.</textarea>
+    </div>
+  </div>
+</section>
+<section class="author" id="author" aria-labelledby="author-h">
+  <svg class="avatar" width="64" height="64" viewBox="0 0 64 64" role="img"><title>Photo of [Author Name] (placeholder)</title><circle cx="32" cy="25" r="11" fill="currentColor"/><path d="M11 56c2.5-11 11-17 21-17s18.5 6 21 17Z" fill="currentColor"/></svg>
+  <div>
+    <h2 id="author-h">[Author Name]</h2>
+    <p>Fifteen years in product design and product management, shipping B2B and consumer software with teams from five people to five hundred. I write userandproduct to share the methods that held up in real teams, and the ones that did not.</p>
+    <div class="links"><a href="#">[Author Name] on LinkedIn</a><a href="#">About the author</a></div>
+  </div>
+</section>
+<section class="related" aria-labelledby="related-h">
+  <h2 id="related-h">Related</h2>
+  <ul>
+    <li><a class="rel-thumb" href="../../article.html" tabindex="-1" aria-hidden="true"><picture><source srcset="../../img/related-user-stories-dark.png" media="(prefers-color-scheme: dark)" data-dark><img class="" src="../../img/related-user-stories.png" width="600" height="338" alt="Three stacked story cards, the last one marked in blue" loading="lazy" decoding="async"></picture></a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="../../article.html">User stories that survive sprint planning</a></h3><p>Why most stories get rewritten in the room, and the three lines that stop it.</p><p class="rt">8 min read</p></div></li>
+    <li><a class="rel-thumb" href="../../article.html" tabindex="-1" aria-hidden="true"><picture><source srcset="../../img/related-discovery-plan-dark.png" media="(prefers-color-scheme: dark)" data-dark><img class="" src="../../img/related-discovery-plan.png" width="600" height="338" alt="A two-week grid with five days filled in blue" loading="lazy" decoding="async"></picture></a><div class="rel-body"><span class="cat">Product discovery</span><h3><a href="../../article.html">The discovery plan I run in the first two weeks</a></h3><p>Interviews, data pulls and one decision memo, day by day.</p><p class="rt">11 min read</p></div></li>
+    <li><a class="rel-thumb" href="../../article.html" tabindex="-1" aria-hidden="true"><picture><source srcset="../../img/related-usability-test-dark.png" media="(prefers-color-scheme: dark)" data-dark><img class="" src="../../img/related-usability-test.png" width="600" height="338" alt="Five user figures, the fifth in blue" loading="lazy" decoding="async"></picture></a><div class="rel-body"><span class="cat">UX research</span><h3><a href="../../article.html">How many users do you need for a usability test?</a></h3><p>Five is a starting point, not a rule. When to test more, and when fewer will do.</p><p class="rt">7 min read</p></div></li>
+  </ul>
+</section>
+<section class="news" id="newsletter" aria-labelledby="news-h">
+  <h2 id="news-h" class="vh">Newsletter</h2>
+  <form data-news>
+    <label for="news-email"><b>One email a month</b> with new articles and templates. Unsubscribe any time.</label>
+    <div class="field"><input id="news-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required><button class="btn" type="submit">Subscribe</button></div>
+    <p class="status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+  </div>
+</article>
+</main>
+<footer class="site-foot">
+  <div class="site-foot__in">
+    <div class="site-foot__brand"><a class="logo" href="../../index.html" aria-label="userandproduct home"><img class="l-light" src="../../assets/logo/lockup-light.svg" alt="userandproduct" width="168" height="21"><img class="l-dark" src="../../assets/logo/lockup-dark.svg" alt="userandproduct" width="168" height="21"></a><p>Practical writing on UX, product management and the business decisions between them, from fifteen years of shipping software.</p></div>
+    <nav aria-label="Domains"><h2>Domains</h2><ul><li><a href="../../category/index.html">Design</a></li><li><a href="../../category/index.html">Product</a></li><li><a href="../../category/index.html">Business</a></li></ul></nav>
+    <nav aria-label="Site sections"><h2>Sections</h2><ul><li><a href="../../index.html#latest">Articles</a></li><li><a href="../../category/index.html">Topics</a></li><li><a href="../../sections/books.html">Books</a></li><li><a href="../../sections/links.html">Links</a></li><li><a href="../../sections/tools.html">Tools</a></li><li><a href="../../sections/templates.html">Templates</a></li></ul></nav>
+    <div class="legal"><span>&copy; 2026 userandproduct</span><a href="../../pages/about.html">About</a><a href="../../pages/privacy.html">Privacy</a><a href="../../pages/advertising.html">Advertising policy</a><a href="../../pages/contact.html">Contact</a></div>
+  </div>
+</footer>
+</body>
+</html>

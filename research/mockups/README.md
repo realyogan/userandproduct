@@ -1,8 +1,11 @@
 # Mockups
 
-Plain HTML mockups of the site, settled before any WordPress work. Open the site map at
-http://localhost/user-and-product/research/mockups/ (`index.html`): every page with its link and status.
-All pages link to each other so the mockups can be clicked through as one site (owner, 10 Oct 2026).
+Plain HTML mockups of the site, settled before any WordPress work. The current design is option 1, one self-contained
+folder that serves as the whole site: http://localhost/user-and-product/research/mockups/option-1/ (site map at
+http://localhost/user-and-product/research/mockups/option-1/sitemap.html, every page with its link and status).
+All pages link to each other so the mockups can be clicked through as one site (owner, 10 Oct 2026). Brought into
+one folder on 10 Oct 2026 ("bring everything into one folder and call it option 1"), with no visual or content
+changes. A later redesign would be `option-2/` beside it.
 
 ## What is here
 
@@ -18,22 +21,35 @@ All pages link to each other so the mockups can be clicked through as one site (
   `logos/typeboard/`, so it only runs against an unpacked archive).
 - `mockup.css` and `mockup.js`: shared tokens (light, dark via `prefers-color-scheme`, and a `data-theme`
   override), the type scale, spacing, components, placeholder ad slots, the theme toggle (remembered in
-  localStorage), the contents highlight and the copy button. Every page mockup links these two files.
-- `article/`: page 2, the single article page in three variants (A Sidebar, B Magazine, C Reader) with the ad
-  rules they follow: http://localhost/user-and-product/research/mockups/article/. `article/build.py` writes the
-  three pages from one copy of the sample article; `article/shots/` holds the 375px thumbnails.
-- `home/`: page 1, the home page mockup: http://localhost/user-and-product/research/mockups/home/. Third pass 10 Oct
-  2026: no visible masthead (one visually hidden h1), the latest twelve right under the leaderboard (newest large, eleven
-  in a grid, in-feed ad in slot six, "All articles"), then four section tiles (Books, Templates, Tools, Links: a drawn
-  mark, the name in display type, one line, a mono Open link), then the footer; no Topics block, no newsletter box.
-  Hand-written `index.html` plus `home.css` on the shared `mockup.css` and `mockup.js`, shell from `placeholders.py`;
-  `home/build.py` drew the thumbnails into `home/img/`; `home/shots.py` takes the screenshots into `home/shots/` and
-  prints the overflow, ads-in-view and ad-density checks.
-- `placeholders.py`: the shared page shell (link targets, header, footer) and the placeholder pages written from
-  one template: `category/index.html`, `sections/` (articles, books, links, tools, templates) and `pages/` (about,
-  privacy, advertising, contact). It also writes the site map `index.html`, reading each page's status from disk.
-  `python placeholders.py` never overwrites a built page (placeholders carry `data-placeholder` on `<body>`); later
-  pages import `header(prefix)` and `footer(prefix)` so every page shares the same links.
+  localStorage), the contents highlight and the copy button. Kept here for the other mockup folders (the brand
+  sheet, the thumbnail board); `option-1/` carries its own copy.
+- `option-1/`: the site, design option 1: http://localhost/user-and-product/research/mockups/option-1/.
+  - `index.html`: the home page (third pass, 10 Oct 2026: one visually hidden h1, the latest twelve under the
+    leaderboard, newest large, in-feed ad in slot six, "All articles", then four section tiles, then the footer).
+    Hand-written, on `css/mockup.css` and `css/home.css`.
+  - `article.html`: the single article page, variant A (Sidebar), the chosen layout, on `css/article.css`.
+  - `category/index.html`, `sections/` (articles, books, links, tools, templates) and `pages/` (about, privacy,
+    advertising, contact): placeholder pages in the shared shell until each page is built.
+  - `sitemap.html`: every page with its status (built or placeholder), read from the files.
+  - `css/`, `js/`: the site's own copies of `mockup.css` (font paths pointed at `assets/fonts/`) and `mockup.js`,
+    plus `home.css` and `article.css`.
+  - `assets/logo/` (the two lockups the header and footer use, from `final-logo/svg/`), `assets/favicon/` (the
+    favicons the pages link, from `final-logo/favicon/`), `assets/fonts/` (only the nine `.woff2` files the css
+    loads, with their licence files).
+  - `img/`: every image the home page and the article use, plus `thumbs/` (article rail and Just published) and
+    `explainers/` (the explainer gallery); `img/README.md` records the home thumbnail styles.
+  - `shots/`: screenshots and their README (home at 375 and 1280, article A at ten viewports, the variant thumbnails).
+  - `build/`: the generators, run from `option-1/build/`. `placeholders.py` is the single source of the header,
+    footer and link map; it writes the placeholder pages and `sitemap.html` (never overwriting a built page;
+    placeholders carry `data-placeholder` on `<body>`) and copies the shared header and footer into the hand-written
+    home page. `build_article.py` writes `article.html` from one copy of the sample article, with the header and footer
+    from `placeholders.py`; `--variants` also writes the old variants B (Magazine) and C (Reader) into
+    `build/variants/`, kept for reference beside the variants comparison page (`variants/index.html`), not part of
+    the site. `build_home.py` draws the home thumbnails, `build_images.py` the article hero and Related thumbnails,
+    `figures.py` the article figures and rail thumbnails, `explainers.py` the explainer gallery
+    (`build/explainers.html`, a research page, not a site page). `shots_home.py` and `shots_article.py` take the
+    screenshots into `shots/` and print the overflow, ads-in-view and ad-density checks (XAMPP must be serving).
+    Rebuild: `python placeholders.py`, `python build_article.py`, and the image scripts only when the art changes.
 - `references/tigerdata/`: screenshots and notes on the Tiger Data article page the owner likes for the single
   article layout: [references/tigerdata/notes.md](references/tigerdata/notes.md).
 - `references/blog-thumbnails/`: the owner's 35 reference thumbnails and the "Thumbnail styles" board, which
@@ -68,10 +84,12 @@ masthead.
 ## Page list, in build order
 
 1. Home: masthead, latest articles, topics, links to the sections, newsletter (automatic, nothing hand-picked).
-   Done 10 Oct 2026, rebuilt simple the same day: [home/index.html](home/index.html) (http://localhost/user-and-product/research/mockups/home/).
+   Done 10 Oct 2026, rebuilt simple the same day: [option-1/index.html](option-1/index.html)
+   (http://localhost/user-and-product/research/mockups/option-1/).
 2. Article page: typography, reading width, the template-plus-interview block, author box, related.
-   Done 9 Oct 2026, three variants to choose from: [article/index.html](article/index.html)
-   (http://localhost/user-and-product/research/mockups/article/).
+   Done 9 Oct 2026; variant A chosen: [option-1/article.html](option-1/article.html)
+   (http://localhost/user-and-product/research/mockups/option-1/article.html). The three variants side by side are
+   kept at [option-1/build/variants/index.html](option-1/build/variants/index.html).
 3. Category page (UX research): reading-order groups as headings.
 4. Domain hub (Design).
 5. Useful links: directory listing with filters that do not create URLs.

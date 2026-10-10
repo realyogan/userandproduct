@@ -768,3 +768,13 @@ Article A tuned (10 Oct): chip removed; fluid grid: 1024 to 1199 two columns wit
 to 1279 the left rail folds into the compact contents and the right rail keeps 300 px, from 1280 three columns
 (left 200 to 244, reading 560 to 720, right 300); rail ad now 300x600; verified at ten viewports light and dark with
 screenshots and a width table in article/shots/README.md.
+Owner (10 Oct, evening): the site so far lacks a bit of character, reads like a corporate site; authority yes, but a
+slight bit of character would help; changes to come later. No major changes now. Restructure: bring every mockup page
+into one self-contained folder, research/mockups/option-1/ (home as index.html, article.html, category, sections,
+pages, own css, js, img, assets, build scripts, shots, sitemap), so a later redesign can be option-2 beside it. Move
+in progress; links fixed, no visual changes.
+Mockups moved into research/mockups/option-1/ (10 Oct): index.html (home), article.html, sitemap.html, category/,
+sections/, pages/, css/, js/, assets/ (logo, favicon, fonts), img/, shots/, build/ (placeholders.py as the single
+header and footer source, build_article.py, build_home.py, image and shot scripts, variants B and C and the explainer
+gallery kept for reference). All links relative within the folder, 791 checked, none broken. Old home/, article/,
+category/, sections/, pages/ folders removed. Site: http://localhost/user-and-product/research/mockups/option-1/

@@ -1,6 +1,5 @@
 /* userandproduct mockups: theme toggle, table-of-contents highlight, copy button,
-   collapsible anchor, newsletter demo. Plain JS, no dependencies.
-   option-1/ carries its own copy (option-1/css/mockup.css, option-1/js/mockup.js); this one is for the other mockup folders. */
+   collapsible anchor, newsletter demo. Plain JS, no dependencies. */
 (function () {
   "use strict";
   var KEY = "uap-theme";

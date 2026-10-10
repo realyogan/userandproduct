@@ -2,7 +2,7 @@
 
 Rules for every explainer illustration on userandproduct. Draft of 9 Oct 2026; written so it can become a skill.
 Generator: `research/mockups/tools/illustration.py`. Source of the palette: `references/printables-tints.md` (the
-Printables site's tile tints and dot grid). Examples: http://localhost/user-and-product/research/mockups/article/explainers.html
+Printables site's tile tints and dot grid). Examples: http://localhost/user-and-product/research/mockups/option-1/build/explainers.html
 
 ## The rules in short
 
@@ -94,4 +94,4 @@ png(svg, "fig-example.png", 1200)   # 600 for a thumbnail
 ```
 
 `palette_for(tint)` returns the derived colours and raises `TintError` for anything outside the eight. The article's
-figures and thumbnails are in `research/mockups/article/figures.py`; the gallery in `research/mockups/article/explainers.py`.
+figures and thumbnails are in `research/mockups/option-1/build/figures.py`; the gallery in `research/mockups/option-1/build/explainers.py`.
