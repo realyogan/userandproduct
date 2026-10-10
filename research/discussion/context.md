@@ -952,3 +952,10 @@ took from it" only on books actually read, labelled; honest lines for the rest (
 Owner: the book list is also a foundation for article inspiration. Ties to the "book you name" backlog door: the
 shelf list becomes its standing supply; each book-inspired piece is in our words with the owner's experience, credits
 the book, never reproduces it, and still needs the owner's seed. Candidates list to flag article potential per book.
+Books research done and committed (10 Oct): research/books/candidates-2026-10-10.md and .csv (181 books: 45 tier A,
+105 B, 31 C, across the thirteen categories and the brief's three extra shelves; titles, authors and years checked
+against Open Library and publisher pages), section-notes-2026-10-10.md (how respected shelves present books, affiliate
+disclosure practice, cover image options). Thin canons: accessibility (no tier A), design systems, UX writing, product
+analytics, AI in UX and for PMs (nothing), pricing, product operations. Eight tier-A books rest on one source and need a
+second list before the site quotes them. Owner to cut the list.
+Owner: show the 181 books as an HTML tree by domain and category with tier labels (the canon everyone names, widely recommended, good but niche), hover details and article potential. Being built at research/explainers/book-shelf-tree-2026-10-10.html.

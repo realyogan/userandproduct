@@ -65,3 +65,11 @@ short sentences, with simple charts and diagrams.
   sources with a newsroom mailbox. The campaign manager as director. 10 agents in the first build, LinkedIn writer and
   reel maker later (12). Build order to launch, a launch plan (about fifty articles, soft launch, then the drip), and a
   decisions table for the sixteen questions with a still-open list. 12 sections; no answers form.
+- [book-shelf-tree-2026-10-10.html](http://localhost/user-and-product/research/explainers/book-shelf-tree-2026-10-10.html):
+  the 181 candidate books (45 canon, 105 widely recommended, 31 good but niche) as a tree: Design, Product and Business
+  with their thirteen categories, plus a fourth branch, "Also on the shelf", for the brief's three extra shelves. Each
+  category shows its count and tier mix and opens to its books; each book line has its tier tag, an aged mark (34 books)
+  and a "2 homes" mark (43 books that could sit in a second category), with a hover or tap card (known for, for whom,
+  why it is on the list with the backing reading lists as links, the aged note, the second home and an article-potential
+  line, one per canon book). Filters for the canon only and for hiding aged books, expand and collapse all, and mapping
+  notes at the bottom. Data in `research/books/candidates-2026-10-10.csv`.

@@ -1,46 +1,46 @@
 {
   "version": 1,
-  "run_id": "books-research",
-  "title": "Books shelf candidates",
+  "run_id": "book-tree",
+  "title": "Book shelf tree",
   "state": "finished",
-  "started": "2026-10-10T19:21+05:30",
-  "updated": "2026-10-10T19:42+05:30",
-  "note": "Finished: 181 candidates (45 A, 105 B, 31 C), CSV and section notes in research/books/",
+  "started": "2026-10-10T20:05+05:30",
+  "updated": "2026-10-10T20:32+05:30",
+  "note": "Finished: book-shelf-tree-2026-10-10.html in research/explainers/",
   "steps": [
     {
       "n": 1,
-      "title": "List from knowledge",
+      "title": "Read",
       "status": "done",
-      "note": "About 230 candidates drafted",
-      "time": "19:42"
+      "note": "181 books, 16 categories and shelves, tokens read",
+      "time": "20:10"
     },
     {
       "n": 2,
-      "title": "Verify",
+      "title": "Map",
       "status": "done",
-      "note": "Open Library pass on all titles; editions checked; 20 reading lists read",
-      "time": "19:42"
+      "note": "All 181 placed; no remaps needed; 43 books flagged with a second home",
+      "time": "20:25"
     },
     {
       "n": 3,
-      "title": "Enrich",
+      "title": "Build",
       "status": "done",
-      "note": "181 books kept: 45 A, 105 B, 31 C; list backing for every A",
-      "time": "19:42"
+      "note": "Page built: four branches, 16 categories and shelves, cards, filters",
+      "time": "20:25"
     },
     {
       "n": 4,
-      "title": "Write",
+      "title": "Checks",
       "status": "done",
-      "note": "candidates md, csv and section notes written",
-      "time": "19:42"
+      "note": "181 once each; counts add to 181; keyboard ok; no overflow at 375 px; HTTP 200",
+      "time": "20:32"
     },
     {
       "n": 5,
       "title": "Finished",
       "status": "done",
-      "note": "Report sent",
-      "time": "19:42"
+      "note": "Page and README entry written",
+      "time": "20:32"
     }
   ]
 }
