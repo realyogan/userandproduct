@@ -866,3 +866,10 @@ into option-1 (lockups, favicons, logo aspect ratio in both mockup.css files) an
 source now final-logo-2; a bug fixed where the generator dropped the mark's transform and holes). Still old lockup
 baked into previously generated thumbnails in option-1; regenerate when the accent is decided. Accent question open.
 Owner: update the image generation rules (thumbnails, explainers) to the new logo and regenerate. Rollout running: skills, illustration rules, generators, option-1 images, thumbnail gallery.
+Logo rollout committed (10 Oct): thumbnail skill and references, illustration rules, thumbnail, illustration, demo
+and hero-art generators all on final-logo-2; the mark's holes are filled with the flat ground colour under a solid
+black or white lockup on every image; 54 option-1 images, 12 explainer figures, 44 gallery images and 4 demos
+regenerated with identical subjects and colours. Left as history: final-logo/, logos/, logo-2/, Logo-3/, old eval
+outputs. Open: the site accent token (#2B46A0) versus the mark's electric blue, and the rotated-square pull-quote marker
+that echoes the old tiles.
+Owner: explainer figures carry the full lockup, not the mark alone. Being applied: illustration rules and generator, lockup at a fifth of the width bottom-right, quiet strength checked for legibility, all explainer figures regenerated.

@@ -47,21 +47,29 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 
 ## Canvas, margins, lines, type
 
-- Canvas 1200 x 675 (16:9). Keep the diagram 72 units inside each edge, and the bottom-right 100 x 100 corner free
-  for the mark.
+- Canvas 1200 x 675 (16:9). Keep the diagram 72 units inside each edge, and the bottom-right corner free for the
+  lockup: nothing below y 597 to the right of x 912 (the lockup, 928 to 1168 by 613 to 643,
+  plus 16 units of clear space).
 - Lines 2.5 units (about 1.5px on screen, the Printables border) for boxes, rules and arrows; dashed 10/8 for targets;
   chart lines 4 units in highlight B. Boxes radius 4. Arrowheads 14 x 14.
 - Type: monospace only (Consolas in the export). Box labels 18 to 19 units, 16 units inside the box; notes and axis
   labels 17 to 18 units in the muted colour; thumbnails 24 to 28 units because they show at half size. Keep labels
   short (about 12 characters for a 145-unit box).
 
-## Mark
+## Lockup
 
-- Our mark, the owner's disc from the final pack (`final-logo-2/svg/mark-black.svg`, or `mark-white.svg` if a ground
-  is ever dark enough to need it; on the eight pastel tints it is always the black one), 34 units square, 32 units in
-  from the bottom and right edges, at 35% opacity (about 2.3:1 on the tint: visible, quiet, decorative). Never on the
-  diagram, never in the blue, never recoloured. The head and band are true holes in the pack file, so the generator
-  backs them with the flat tint: the dot grid never runs through the figure.
+- Every explainer figure carries the full logo, the lockup (the mark plus the "userandproduct" wordmark), not the
+  mark alone (owner, 10 Oct 2026). The same principle as the thumbnails: the solid one-colour lockup from the final
+  pack, `final-logo-2/svg/lockup-black.svg` on the eight light Printables tints, `lockup-white.svg` only if a ground
+  is ever dark. The generator reads it from the pack and picks the colour by contrast.
+- Width one fifth of the figure's width (the thumbnail rule): 240 units on the 1200 canvas, about 30 units tall.
+  Bottom-right corner, 32 units in from the bottom and right edges.
+- 60% opacity: quiet inside an article, but the wordmark still reads on the lightest tints (yellow and teal) at the
+  width the figure appears in the article column (about 720px, the lockup about 144px wide). It renders at about
+  4.8 to 5.0:1 on the tints.
+- The head and band are true holes in the pack file, so the generator backs them with the flat tint colour at full
+  opacity: the dot grid never runs through the figure.
+- Never on the diagram, never in the blue, never recoloured.
 
 ## What an illustration is not
 

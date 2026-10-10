@@ -1,53 +1,39 @@
 {
   "version": 1,
-  "run_id": "logo-rollout",
-  "title": "Logo rollout: every image rule and generator on final-logo-2",
+  "run_id": "explainer-lockup",
+  "title": "Explainer figures carry the full lockup",
   "state": "finished",
-  "started": "2026-10-10T16:32+05:30",
+  "started": "2026-10-10T16:42+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Find references",
+      "title": "Rules",
       "status": "done",
-      "note": "Path references to the old pack: illustration-rules.md (mark), mockups/README.md (history line, kept); inline old marks in illustration.py, make_demos.py, build_images.py",
-      "time": "16:33"
+      "note": "illustration-rules.md: Mark paragraph replaced by Lockup (full lockup, a fifth of the width, bottom-right, 32 units in, 60%); corner clear zone updated",
+      "time": "16:44"
     },
     {
       "n": 2,
-      "title": "Update rules",
+      "title": "Generator",
       "status": "done",
-      "note": "Thumbnail skill: negative-space rule, solid lockups only; illustration rules: final-logo-2 mark-black, 34 units, 35%",
-      "time": "16:34"
+      "note": "tools/illustration.py draws the pack's lockup-black/white with the figure backed by the flat tint; figures.py and explainers.py use it unchanged",
+      "time": "16:46"
     },
     {
       "n": 3,
-      "title": "Update generators",
+      "title": "Regenerate",
       "status": "done",
-      "note": "thumbnail.py backs the figure holes with the flat ground; illustration.py, make_demos.py and build_images.py draw the final-logo-2 mark",
-      "time": "16:36"
+      "note": "12 gallery explainers, 2 article figures (PNG + SVG), 3 figure-style Related thumbs; same content and tints",
+      "time": "16:50"
     },
     {
       "n": 4,
-      "title": "Regenerate thumbnails",
-      "status": "done",
-      "note": "23 option-1 thumbnails: 12 home (plus the featured hero), 7 rail, all with only the lockup changed",
-      "time": "16:37"
-    },
-    {
-      "n": 5,
-      "title": "Regenerate explainers, galleries and mockups",
-      "status": "done",
-      "note": "Explainers (12 + 2 figures + 3 figure thumbs), hero art (5), gallery (44 files), demos (4); shots retaken",
-      "time": "16:39"
-    },
-    {
-      "n": 6,
       "title": "Checks",
       "status": "done",
-      "note": "No old-pack references outside final-logo/, logos/, logo-2/, Logo-3/ and context.md; all pages 200, no broken images",
-      "time": "16:39"
+      "note": "Lockup reads at 60% at full size and at 720px in the article (teal, yellow); article.html and explainers.html 200, 14 and 26 images, none broken; shots_article.py rerun, no overflow",
+      "time": "16:53"
     }
   ],
-  "updated": "2026-10-10T16:39+05:30",
-  "note": "No old-pack references outside final-logo/, logos/, logo-2/, Logo-3/ and context.md; all pages 200, no broken images"
+  "updated": "2026-10-10T16:53+05:30",
+  "note": "Finished: lockup at a fifth of the width, bottom-right, 32 units in, 60%"
 }

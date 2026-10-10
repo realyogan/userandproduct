@@ -1,5 +1,5 @@
 """Explainer illustrations on the Printables tints: a pastel background with a dark dot grid, the diagram on top in
-dark ink, and our mark small and quiet in the bottom-right corner. No card, outline, border or title inside the image.
+dark ink, and our full lockup (mark and wordmark) quiet in the bottom-right corner. No card, outline, border or title inside the image.
 The same PNG is used on the light and the dark page. Rules: research/mockups/illustration-rules.md.
 Source of the palette: research/mockups/references/printables-tints.md.
 
@@ -29,16 +29,29 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 W, H = 1200, 675
-# Our mark: the owner's disc from the final pack (research/mockups/final-logo-2/svg/mark-black.svg), read from the
-# file so it never drifts from the pack. One evenodd path on the owner's 1920 canvas; the disc spans 88 to 1832.
-# Its figure (head and band) are the paths filled white in mark-solid.svg.
+# Our lockup: the owner's mark plus the "userandproduct" wordmark, the solid one-colour lockup from the final pack
+# (research/mockups/final-logo-2/svg/lockup-black.svg, or lockup-white.svg if a ground is ever dark), read from the
+# file so it never drifts from the pack. The mark is one evenodd path inside a positioning group, so its head and
+# band are true holes; MARK_FIGURE (the paths filled white in mark-solid.svg, on the same 1920 canvas) backs them.
 _PACK = Path(__file__).resolve().parent.parent / "final-logo-2" / "svg"
-_mb = (_PACK / "mark-black.svg").read_text(encoding="utf-8")
-MARK = re.search(r'<path[^>]*\sd="([^"]+)"', _mb).group(1)
-MARK_BLACK = re.search(r'fill="(#[0-9A-Fa-f]{6})"', _mb).group(1)          # #0B0B0C
-MARK_WHITE = re.search(r'fill="(#[0-9A-Fa-f]{6})"', (_PACK / "mark-white.svg").read_text(encoding="utf-8")).group(1)
+
+
+def _lockup(name):
+    t = (_PACK / name).read_text(encoding="utf-8")
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', t).group(1).split()]
+    inner = re.sub(r"^.*?<svg[^>]*>", "", t, flags=re.S).rsplit("</svg>", 1)[0]
+    inner = re.sub(r"<title>.*?</title>", "", inner, flags=re.S)
+    fill = re.search(r'fill="(#[0-9A-Fa-f]{6})"', inner).group(1)
+    return vb, inner, fill
+
+
+LOCKUP = {c: _lockup(f"lockup-{c}.svg") for c in ("black", "white")}   # black #0B0B0C, white #FFFFFF
+LOCKUP_VB = LOCKUP["black"][0]                                           # -4 -86 885.6 110.4
 MARK_FIGURE = re.findall(r'<path fill="#FFFFFF" d="([^"]+)"', (_PACK / "mark-solid.svg").read_text(encoding="utf-8"))
-MARK_X0, MARK_SPAN = 88, 1744                                              # the disc's edge and width, pack units
+# The mark alone, for the other generators that draw it on their own (build_images.py, make_demos.py): one evenodd
+# path on the owner's 1920 canvas; the disc spans 88 to 1832.
+MARK = re.search(r'<path[^>]*\sd="([^"]+)"', (_PACK / "mark-black.svg").read_text(encoding="utf-8")).group(1)
+MARK_X0, MARK_SPAN = 88, 1744
 
 # The eight Printables tints (main.css lines 72 to 79). Nothing else is allowed.
 TINTS = {
@@ -55,7 +68,9 @@ CARD = "#FDFCF8"       # Printables --card, the plain box fill
 MONO = "Consolas, 'Cascadia Mono', Menlo, monospace"
 DOT_STEP, DOT_R, DOT_O = 22, 1.9, 0.13   # about a 13px tile and a 1.1px dot when shown 720px wide (Printables: 12 to 14px, 1px)
 LABEL, NOTE, STROKE = 19, 17, 2.5        # 2.5 units is about 1.5px at 720px wide, the Printables border
-MARK_SIZE, MARK_INSET, MARK_O = 34, 32, 0.35
+# the lockup: a fifth of the figure's width (the thumbnail rule), 32 units in from the bottom and right edges, at
+# 60% (the wordmark reads on the lightest tints at the article's 720px column; checked on teal and yellow)
+LOCKUP_SHARE, LOCKUP_INSET, LOCKUP_O = 1 / 5, 32, 0.60
 
 
 class TintError(ValueError):
@@ -125,7 +140,7 @@ def palette_for(tint):
         lb -= 0.02
         b = _hex(colorsys.hls_to_rgb(h, lb, min(0.75, sat)))
     pal = dict(name=tint, bg=bg, ink=INK, muted=muted, dots=INK, dots_o=DOT_O, box=CARD, box_s=INK, rule=INK,
-               a=a, a_s=INK, b=b, b_s=INK, mark=MARK_BLACK, mark_o=MARK_O)
+               a=a, a_s=INK, b=b, b_s=INK, mark=lockup_color(bg), mark_o=LOCKUP_O)
     for key in ("ink", "muted"):
         if contrast(pal[key], bg) < 4.5:
             raise TintError(f"{key} fails 4.5:1 on {tint}.")
@@ -145,8 +160,27 @@ def report():
     return rows
 
 
-def MARK_INK_ON(p):  # the mark as it renders: the black mark at 35% over the tint
-    return mix(p["bg"], p["mark"], MARK_O)
+def lockup_color(bg):
+    """The black or the white lockup, whichever contrasts more with the ground (black on all eight tints)."""
+    return "white" if contrast("#FFFFFF", bg) > contrast(LOCKUP["black"][2], bg) else "black"
+
+
+def MARK_INK_ON(p):  # the lockup as it renders: the one-colour lockup at LOCKUP_O over the tint
+    return mix(p["bg"], LOCKUP[p["mark"]][2], LOCKUP_O)
+
+
+def lockup(bg, width=W, height=H, opacity=LOCKUP_O):
+    """The full lockup, bottom-right: a fifth of the width, LOCKUP_INSET in from the edges. The head and band are
+    backed with the flat tint at full opacity first, so the dot grid never runs through the figure, then the pack's
+    one-colour lockup at `opacity`."""
+    vb, inner, _ = LOCKUP[lockup_color(bg)]
+    w = width * LOCKUP_SHARE
+    h = w * vb[3] / vb[2]
+    x, y = width - LOCKUP_INSET - w, height - LOCKUP_INSET - h
+    tr = re.search(r'<g transform="([^"]+)"', inner).group(1)
+    backing = f'<g transform="{tr}">' + "".join(f'<path fill="{bg}" d="{d}"/>' for d in MARK_FIGURE) + "</g>"
+    return (f'<svg x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" viewBox="{" ".join(f"{v:g}" for v in vb)}">'
+            f'{backing}<g opacity="{opacity}">{inner}</g></svg>')
 
 
 # ---------- drawing ----------
@@ -208,13 +242,8 @@ def illustration(items, tint="teal", uid="il", desc=None, title=None, width=W, h
             col = c["muted"] if it.get("muted", True) else c["ink"]
             o.append(f'<text x="{it["x"]}" y="{it["y"]}" font-family="{MONO}" font-size="{it.get("size", NOTE)}" '
                      f'text-anchor="{it.get("anchor", "start")}" fill="{col}">{escape(it["text"])}</text>')
-    # the mark, bottom-right: the head and band backed with the flat tint first, so the dot grid never runs through
-    # the figure, then the pack's one-colour mark at 35%
-    s = MARK_SIZE / MARK_SPAN
-    tr = (f'translate({width - MARK_INSET - MARK_SIZE} {height - MARK_INSET - MARK_SIZE}) scale({s:.6f}) '
-          f'translate({-MARK_X0} {-MARK_X0})')
-    o.append(f'<g transform="{tr}">' + "".join(f'<path fill="{c["bg"]}" d="{d}"/>' for d in MARK_FIGURE) + '</g>')
-    o.append(f'<g transform="{tr}" opacity="{c["mark_o"]}"><path fill="{c["mark"]}" fill-rule="evenodd" d="{MARK}"/></g>')
+    # the full lockup, bottom-right, quiet (see lockup())
+    o.append(lockup(c["bg"], width, height, c["mark_o"]))
     o.append("</svg>")
     return "".join(o)
 
