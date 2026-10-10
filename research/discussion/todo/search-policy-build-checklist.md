@@ -18,8 +18,8 @@ plan it belongs to.
       sort-by-date. (Rule 10, 11)
 - [ ] Article page: one dominant `<h1>`, quiet "Updated <month year>", byline linking to the author
       page, related pieces, no date-sorted lists. (Rule 6, 11)
-- [ ] Template and tools pages designed as real pages: what it is, when to use it, how, then the
-      download. (Rule 12)
+- [ ] Tools pages designed as real pages: what it is, when to use it, how, around a working calculator or checker
+      in plain JavaScript; at least ten tools ship at launch (templates after launch). (Rule 12)
 - [ ] Books shelf entry design with room for the owner's take and a visible disclosure line. (Rule 9)
 - [ ] Figures: every diagram gets alt text plus a body-text explanation beside it; placement near the
       text it belongs to. Add to `research/mockups/illustration-rules.md`. (Rule 7)
