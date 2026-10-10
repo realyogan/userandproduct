@@ -873,3 +873,14 @@ regenerated with identical subjects and colours. Left as history: final-logo/, l
 outputs. Open: the site accent token (#2B46A0) versus the mark's electric blue, and the rotated-square pull-quote marker
 that echoes the old tiles.
 Owner: explainer figures carry the full lockup, not the mark alone. Being applied: illustration rules and generator, lockup at a fifth of the width bottom-right, quiet strength checked for legibility, all explainer figures regenerated.
+Explainer lockup applied and committed (10 Oct): full lockup a fifth of the width, bottom-right, 32 in, 60 percent
+(legible at 60 on the lightest tints, about 4.8 to 5:1), holes filled with the tint, clear zone 16 units; rules and
+illustration.py updated; 12 gallery explainers, the two article figures and three figure-style related thumbs
+regenerated.
+Owner on explainer figures (10 Oct): figures are not only flowcharts and boxes; any picture that explains (analogy
+scene as in the origin-lock explainer, object, before and after, map, sequence, matrix, chart); and the text is
+barely legible even at full size (labels were 18 to 19 units on a 1200 canvas, about 11 px in the 720 px column; the
+white text in the matrix's blue box fails). Fix in progress: a "kinds of picture" section in the rules, type floors
+of 27 units for labels and 24 for notes in Inter (not monospace), a 4.5:1 check for text on fills, new drawing
+primitives for scenes and objects, every figure regenerated, two non-diagram figures added to the gallery.
+Owner: no rules on what to draw; the illustration rules cover only the background tint, the dots, the lockup, type floors and the canvas; the picture is whatever the article demands. Passed to the builder.

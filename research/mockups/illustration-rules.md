@@ -4,6 +4,9 @@ Rules for every explainer illustration on userandproduct. Draft of 9 Oct 2026; w
 Generator: `research/mockups/tools/illustration.py`. Source of the palette: `references/printables-tints.md` (the
 Printables site's tile tints and dot grid). Examples: http://localhost/user-and-product/research/mockups/option-1/build/explainers.html
 
+The picture is whatever the article needs: a scene, an object, a chart, a diagram, anything; the rules below cover
+only the ground, the dots, the lockup and the type.
+
 ## The rules in short
 
 1. The palette is the eight Printables tints, nothing else.
@@ -11,6 +14,7 @@ Printables site's tile tints and dot grid). Examples: http://localhost/user-and-
 3. The tint comes from rotation, so neighbouring articles differ and an article always keeps its colour.
 4. Related-card thumbnails use their own article's tint.
 5. The same PNG in both themes; a pastel image on the dark page is intended.
+6. Type is Inter, labels at least 27 units and notes at least 24 units, and every text on a fill passes 4.5:1.
 
 ## The eight tints
 
@@ -45,16 +49,30 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
 - Ink-coloured dots (#1D1B16) at 13% opacity, radius 1.9 units, every 22 units, over the whole image. That is the
   Printables grid (12 to 14px tile, 1px dot, 12 to 13%) at a 1200-unit canvas shown about 720px wide.
 
-## Canvas, margins, lines, type
+## Canvas, margins, lines
 
-- Canvas 1200 x 675 (16:9). Keep the diagram 72 units inside each edge, and the bottom-right corner free for the
+- Canvas 1200 x 675 (16:9). Keep the picture 72 units inside each edge, and the bottom-right corner free for the
   lockup: nothing below y 597 to the right of x 912 (the lockup, 928 to 1168 by 613 to 643,
   plus 16 units of clear space).
 - Lines 2.5 units (about 1.5px on screen, the Printables border) for boxes, rules and arrows; dashed 10/8 for targets;
   chart lines 4 units in highlight B. Boxes radius 4. Arrowheads 14 x 14.
-- Type: monospace only (Consolas in the export). Box labels 18 to 19 units, 16 units inside the box; notes and axis
-  labels 17 to 18 units in the muted colour; thumbnails 24 to 28 units because they show at half size. Keep labels
-  short (about 12 characters for a 145-unit box).
+
+## Type
+
+- Typeface: the site's Inter, from `research/mockups/fonts/inter/`. Labels in Inter Medium (SemiBold for the one label
+  that must stand out); notes and axis labels in Inter Regular. Monospace (Consolas) only for a label that is code,
+  such as a field name or a status code. The generator turns Inter into outlines inside the SVG, so the file draws
+  the same everywhere and needs no installed font.
+- Sizes on the 1200-unit canvas: labels at least 27 units (16 px when the figure shows 720 px wide in the article),
+  notes at least 24 units (14 px). Never smaller. The generator raises any smaller size to the floor and warns, so a
+  smaller size never reaches a file.
+- Thumbnail figures (exported 600 wide, shown at about a quarter of the canvas): double the floors, labels at least
+  54 units and notes at least 48 units.
+- At most three or four words per label. A label that does not fit its shape is a spec error: enlarge the shape or
+  shorten the label, never shrink the type. The generator refuses a box label wider than its box less 16 units a side.
+- Text on a coloured fill must pass 4.5:1. The generator checks every label against its fill, picks the dark ink or
+  white, whichever passes, and if neither does it lightens or darkens the fill until one does. Notes sit on the tint
+  in ink or the muted colour, both above 5:1 on all eight tints.
 
 ## Lockup
 
@@ -69,7 +87,7 @@ passes 4.5:1. Use at most one or two highlights per image, A first.
   4.8 to 5.0:1 on the tints.
 - The head and band are true holes in the pack file, so the generator backs them with the flat tint colour at full
   opacity: the dot grid never runs through the figure.
-- Never on the diagram, never in the blue, never recoloured.
+- Never on the picture, never in the blue, never recoloured.
 
 ## What an illustration is not
 
@@ -103,6 +121,12 @@ svg = illustration(items, tint=tint, uid="fig-example", title="Short title", des
 write(svg, "fig-example.svg")
 png(svg, "fig-example.png", 1200)   # 600 for a thumbnail
 ```
+
+Besides box, arrow, rule, hrule, polyline, dot and text, the generator draws filled shapes (`circle`, `rrect`,
+`polygon`, `path`), small line glyphs from paths (`glyph`, with `GLYPHS` listing the names), number badges (`badge`)
+and a caption band (`band`). The docstring at the top of `illustration.py` lists every field. Text takes `weight`
+(`regular`, `medium`, `semibold`), `code` for monospace, and `
+` for a second line.
 
 `palette_for(tint)` returns the derived colours and raises `TintError` for anything outside the eight. The article's
 figures and thumbnails are in `research/mockups/option-1/build/figures.py`; the gallery in `research/mockups/option-1/build/explainers.py`.

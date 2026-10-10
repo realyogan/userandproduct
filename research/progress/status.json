@@ -1,39 +1,53 @@
 {
   "version": 1,
-  "run_id": "explainer-lockup",
-  "title": "Explainer figures carry the full lockup",
+  "run_id": "illustration-rules-2",
+  "title": "Explainer figures: legible type and a wider range of pictures",
   "state": "finished",
-  "started": "2026-10-10T16:42+05:30",
+  "started": "2026-10-10T16:53+05:30",
+  "updated": "2026-10-10T17:01+05:30",
+  "note": "Finished: Inter 27/24 floors as outlines, contrast checked, 17 figures regenerated, two new gallery figures",
   "steps": [
     {
       "n": 1,
       "title": "Rules",
       "status": "done",
-      "note": "illustration-rules.md: Mark paragraph replaced by Lockup (full lockup, a fifth of the width, bottom-right, 32 units in, 60%); corner clear zone updated",
-      "time": "16:44"
+      "note": "One open-season sentence (the picture is whatever the article needs); no list of kinds; new Type section",
+      "time": "16:53"
     },
     {
       "n": 2,
-      "title": "Generator",
+      "title": "Type",
       "status": "done",
-      "note": "tools/illustration.py draws the pack's lockup-black/white with the figure backed by the flat tint; figures.py and explainers.py use it unchanged",
-      "time": "16:46"
+      "note": "Inter Medium labels 27, Inter Regular notes 24, as outlines; floors raise and warn; thumbs double",
+      "time": "16:58"
     },
     {
       "n": 3,
-      "title": "Regenerate",
+      "title": "Generator",
       "status": "done",
-      "note": "12 gallery explainers, 2 article figures (PNG + SVG), 3 figure-style Related thumbs; same content and tints",
-      "time": "16:50"
+      "note": "illustration.py: Inter outlines via wordmark.FontRef, FitError, readable_on 4.5:1, circle/rrect/polygon/path/glyph/badge/band, check_contrast",
+      "time": "16:58"
     },
     {
       "n": 4,
+      "title": "Regenerate",
+      "status": "done",
+      "note": "12 gallery explainers, fig-twelve-questions and fig-where-prds-fail (PNG + SVG), 3 figure-style thumbs at double floors; no label shrunk",
+      "time": "17:01"
+    },
+    {
+      "n": 5,
+      "title": "Two new kinds",
+      "status": "done",
+      "note": "ex-ticket (analogy scene, green) and ex-prd-sheet (object, purple) added; explainers.html rebuilt",
+      "time": "17:01"
+    },
+    {
+      "n": 6,
       "title": "Checks",
       "status": "done",
-      "note": "Lockup reads at 60% at full size and at 720px in the article (teal, yellow); article.html and explainers.html 200, 14 and 26 images, none broken; shots_article.py rerun, no overflow",
-      "time": "16:53"
+      "note": "Steps, matrix, ticket, PRD sheet and both article figures read at 720px; 174 text runs, lowest 4.56:1, no fill changed; pages 200, all images 200; shots_article.py no overflow",
+      "time": "17:01"
     }
-  ],
-  "updated": "2026-10-10T16:53+05:30",
-  "note": "Finished: lockup at a fifth of the width, bottom-right, 32 units in, 60%"
+  ]
 }
