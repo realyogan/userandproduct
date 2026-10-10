@@ -59,6 +59,13 @@ changes. A later redesign would be `option-2/` beside it.
 - Tooling notes: [tooling-research-2026-10-09.md](tooling-research-2026-10-09.md) (what was considered) and
   [tooling-installed-2026-10-09.md](tooling-installed-2026-10-09.md) (what was installed, versions, font sources).
 
+Logo exploration 2 (from 10 Oct 2026, after the owner judged the four-tile mark "bland"): `logo-2/`, with its own hub at
+http://localhost/user-and-product/research/mockups/logo-2/hub.html (the brief, the rounds as cards with their status, and
+what the first exploration already tried). Round 1, ten pictorial marks with mass and a two-tone fold, judged first as
+110 px avatars and 32 px favicons: http://localhost/user-and-product/research/mockups/logo-2/round-1/ (rebuild with
+`python build.py` in `logo-2/round-1/build/`). Round 2, letterforms and monograms, is `logo-2/round-2/`.
+The first exploration stays at `logos/` (http://localhost/user-and-product/research/mockups/logos/hub.html) for reference only.
+
 The logo exploration (rounds 1 to 7, the type board, the hub, the shortlist, the final colour board with its ten
 themes, the feeling board and the reference logos, with every build script) is archived at
 `research/archive/logo-exploration-2026-10-09.zip` and shared at https://claude.ai/artifact/SzuFfTLWniQDMSeaXGt5oj.

@@ -1,39 +1,53 @@
 {
   "version": 1,
-  "run_id": "home-mockup-3",
-  "title": "Home page mockup, third pass: no masthead, no topics, section links block",
+  "run_id": "logo-2-round-1",
+  "title": "Logo exploration 2, round 1: twelve marks with mass and a fold",
   "state": "finished",
-  "started": "2026-10-10T12:27+05:30",
+  "started": "2026-10-10T13:15+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Read",
+      "title": "Brief",
       "status": "done",
-      "note": "CLAUDE.md, home page, home.css, placeholders.py, mockup.css and mockup.js read; shared shell matches placeholders.py",
-      "time": "12:27"
+      "note": "Brief read: skill, brand files, old rounds 1-7 and shortlist, reference image",
+      "time": "13:15"
     },
     {
       "n": 2,
-      "title": "Strip",
+      "title": "Ideas",
       "status": "done",
-      "note": "Masthead text, Latest heading and Topics removed; one visually hidden h1; cards start under the leaderboard",
-      "time": "12:28"
+      "note": "Ten ideas, two rockets, no letterforms (round 2)",
+      "time": "13:15"
     },
     {
       "n": 3,
-      "title": "Section links design",
+      "title": "Draw",
       "status": "done",
-      "note": "Four tiles: drawn mark, display name, one line, mono Open link; newsletter box removed (owner)",
-      "time": "12:28"
+      "note": "Ten marks drawn with true path overlaps, light and dark, three alternative colours",
+      "time": "13:15"
     },
     {
       "n": 4,
+      "title": "Board",
+      "status": "done",
+      "note": "Board and hub written: logo-2/hub.html and logo-2/round-1/index.html",
+      "time": "13:15"
+    },
+    {
+      "n": 5,
+      "title": "Sizes",
+      "status": "done",
+      "note": "Avatars 110 px (circle and rounded square), favicons 32 px and thumbs 600 rendered with resvg; favicons looked at 4x",
+      "time": "13:15"
+    },
+    {
+      "n": 6,
       "title": "Checks",
       "status": "done",
-      "note": "One hidden h1, no inline styles, tags balanced, links resolve, no overflow 375 to 1440, at most 2 ads in view, ad density 6.6 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/",
-      "time": "12:30"
+      "note": "56 SVGs valid and under 6 KB after SVGO; no stroke under 8 px at 512 (only lens tips); favicons legible; board and hub 200; no overflow at 375 or 1280",
+      "time": "13:15"
     }
   ],
-  "updated": "2026-10-10T12:30+05:30",
-  "note": "One hidden h1, no inline styles, tags balanced, links resolve, no overflow 375 to 1440, at most 2 ads in view, ad density 6.6 percent, 200 OK. Done: http://localhost/user-and-product/research/mockups/home/"
+  "note": "Done: http://localhost/user-and-product/research/mockups/logo-2/hub.html and http://localhost/user-and-product/research/mockups/logo-2/round-1/",
+  "updated": "2026-10-10T13:15+05:30"
 }

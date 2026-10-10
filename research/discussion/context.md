@@ -797,3 +797,19 @@ deleted exploration folder for inspiration only and to start fresh without repea
 restored from the archive (1,472 files, hub at research/mockups/logos/hub.html). Round 2 started at
 research/mockups/logo-round-2/: twelve different ideas judged at avatar, favicon, thumbnail corner and header sizes,
 blue two-tone by default with three colour alternatives, wordmark kept for fair comparison.
+Owner (logo): wants an app-icon feel: not everything inside a circle, but from a distance it should grab attention the
+way a round app icon or an Instagram-style rounded square does; a contained, filled, high-contrast form with mass.
+Passed to the round 2 builder: most ideas container-led (filled circle or squircle with the two-tone fold), shown at
+110 px circle and rounded square as the first test, two or three free-standing for comparison.
+Owner: add a couple of rocket-based ideas to round 2 (each with its own twist, not the generic startup rocket). Passed to the builder.
+Owner: a new logo hub for the new exploration, round by round, separate from the old one which stays for reference. Set up as research/mockups/logo-2/hub.html with round-1/ as the current board. Passed to the builder.
+Owner: the foundation stays authority and trust; character and app-icon feel must still read as a serious publication. Passed to the builder: an authority check line under every idea, the foundation first in the hub brief.
+Owner: two rounds at a time. Round 1: ten options from the owner's references (ring-and-cursor appeal, rockets,
+app-icon feel) plus original ideas. Round 2: letterform marks on U and D (taken as U with D and U with P, since the
+name is user-and-product; owner to correct). Both being built under research/mockups/logo-2/ with the new hub.
+Logo exploration 2, round 1 built (10 Oct): research/mockups/logo-2/round-1/ (ten marks: orbit, completed frame, key
+person, folder bust, breakout rocket, passenger rocket, switch, nib, bookmark, clasp; seven container-led, three free;
+two-tone blue with coral, teal and oxblood alternatives; authority check on each; old-round avoid list) and the new hub
+research/mockups/logo-2/hub.html. Main-session read: presence solved; several read as library icons (key, upright
+rocket, bookmark, switch, nib); brand ideas in the orbit, the frame, the breakout rocket, the clasp. Round 2
+(letterforms) in progress.
