@@ -959,3 +959,4 @@ disclosure practice, cover image options). Thin canons: accessibility (no tier A
 analytics, AI in UX and for PMs (nothing), pricing, product operations. Eight tier-A books rest on one source and need a
 second list before the site quotes them. Owner to cut the list.
 Owner: show the 181 books as an HTML tree by domain and category with tier labels (the canon everyone names, widely recommended, good but niche), hover details and article potential. Being built at research/explainers/book-shelf-tree-2026-10-10.html.
+Book shelf tree page built and committed: research/explainers/book-shelf-tree-2026-10-10.html (no remapping needed; 43 books flagged with a second possible home; 34 marked aged). Build script being moved into research/books/.

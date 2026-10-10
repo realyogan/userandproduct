@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Book shelf tree</title>
+<style>
+@font-face{font-family:"Satoshi";src:url("../mockups/fonts/satoshi/Satoshi-Variable.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+:root{
+  color-scheme:light;
+  --paper:#FFFFFF; --ink:#0B0B0C; --ink-2:#3A3A40; --ink-3:#62626A; --rule:#E3E3E6;
+  --signal:#2B46A0; --signal-wash:#EEF1FA; --panel:#F6F6F7; --focus:#2B46A0;
+  --a-bg:#F5EDD6; --a-ink:#6A4C00; --a-dot:#B98A12;
+  --b-bg:#E8EDFA; --b-ink:#2B46A0; --b-dot:#5B74C9;
+  --c-bg:#E5EFE8; --c-ink:#2E5A43; --c-dot:#5E9A78;
+  --shadow:0 6px 24px rgba(11,11,12,.12);
+  --font:"Satoshi",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --gutter:16px; --radius:6px;
+}
+@media (min-width:768px){:root{--gutter:40px}}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0B0B0C; --ink:#F1EEE7; --ink-2:#CFCCC5; --ink-3:#A09E97; --rule:#26262B;
+    --signal:#8EA2FF; --signal-wash:#12162A; --panel:#141416; --focus:#8EA2FF;
+    --a-bg:#2A2312; --a-ink:#E6C878; --a-dot:#C9A23A;
+    --b-bg:#161B30; --b-ink:#A9B7FF; --b-dot:#7F93F0;
+    --c-bg:#13241B; --c-ink:#92CCA8; --c-dot:#5FA57E;
+    --shadow:0 6px 24px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0B0B0C; --ink:#F1EEE7; --ink-2:#CFCCC5; --ink-3:#A09E97; --rule:#26262B;
+  --signal:#8EA2FF; --signal-wash:#12162A; --panel:#141416; --focus:#8EA2FF;
+  --a-bg:#2A2312; --a-ink:#E6C878; --a-dot:#C9A23A;
+  --b-bg:#161B30; --b-ink:#A9B7FF; --b-dot:#7F93F0;
+  --c-bg:#13241B; --c-ink:#92CCA8; --c-dot:#5FA57E;
+  --shadow:0 6px 24px rgba(0,0,0,.5);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--font);letter-spacing:.02em;overflow-wrap:break-word}
+a{color:var(--signal);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:3px}
+h1,h2,h3{margin:0;letter-spacing:-.01em;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:0 var(--gutter)}
+header.wrap{padding-top:40px;padding-bottom:8px}
+.kicker{font-size:14px;color:var(--ink-3);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+h1{font-size:clamp(32px,6vw,46px);font-weight:750;margin:8px 0 16px}
+.lead{font-size:19px;max-width:70ch;color:var(--ink-2)}
+.lead + .lead{margin-top:12px}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 0;padding:0;list-style:none}
+.stats li{background:var(--panel);border-radius:var(--radius);padding:12px 16px;min-width:120px}
+.stats b{display:block;font-size:28px;line-height:1.1}
+.stats span{font-size:14px;color:var(--ink-3)}
+.legend{margin-top:24px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;font-size:15px;color:var(--ink-2)}
+.legend .lg{display:inline-flex;align-items:center;gap:8px}
+.rule{margin-top:24px;border-left:3px solid var(--signal);background:var(--signal-wash);padding:12px 16px;border-radius:0 var(--radius) var(--radius) 0;max-width:70ch}
+
+/* tags */
+.badge,.agedm,.twom{display:inline-block;font-size:12.5px;font-weight:600;line-height:1;padding:5px 8px;border-radius:999px;white-space:nowrap;letter-spacing:.01em}
+.bA{background:var(--a-bg);color:var(--a-ink)}
+.bB{background:var(--b-bg);color:var(--b-ink)}
+.bC{background:var(--c-bg);color:var(--c-ink)}
+.agedm{border:1px dashed var(--ink-3);color:var(--ink-3);padding:4px 7px}
+.twom{border:1px solid var(--rule);color:var(--ink-3);padding:4px 7px}
+i.dA,i.dB,i.dC{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:1px}
+i.dA{background:var(--a-dot)} i.dB{background:var(--b-dot)} i.dC{background:var(--c-dot)}
+
+/* controls */
+.controls{position:sticky;top:0;z-index:30;background:var(--paper);border-bottom:1px solid var(--rule);margin-top:32px}
+.controls .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding-top:12px;padding-bottom:12px}
+.controls label{display:inline-flex;align-items:center;gap:8px;font-size:15px;cursor:pointer;min-height:32px}
+.controls input{width:18px;height:18px;accent-color:var(--signal);margin:0}
+.controls button{font:600 14px/1 var(--font);background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:var(--radius);padding:9px 12px;cursor:pointer}
+.controls button:hover{border-color:var(--ink-3)}
+.showing{font-size:14px;color:var(--ink-3);margin-left:auto}
+
+/* tree */
+main.wrap{padding-top:24px;padding-bottom:48px}
+.tree,.cats,.books{list-style:none;margin:0;padding:0}
+.dom{margin:0 0 20px}
+.dom > details > summary{font-size:24px;font-weight:750;padding:8px 0}
+summary{cursor:pointer;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"";flex:none;width:0;height:0;border-left:7px solid var(--ink-3);border-top:5px solid transparent;border-bottom:5px solid transparent;transform:translateY(-2px);transition:transform .15s}
+details[open] > summary::before{transform:translateY(-2px) rotate(90deg)}
+.cnt{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:14px;font-weight:500;color:var(--ink-3)}
+.cnt .n{font-weight:700;color:var(--ink-2);font-size:15px}
+.cnt .n::after{content:" books"}
+.mix{display:inline-flex;flex-wrap:wrap;gap:4px 10px}
+.m{white-space:nowrap}
+.dnote{font-size:15px;color:var(--ink-3);margin:0 0 8px 19px}
+.cats{margin-left:5px;border-left:1px solid var(--rule);padding-left:18px}
+.cat{position:relative;padding:2px 0}
+.cat::before{content:"";position:absolute;left:-18px;top:21px;width:12px;border-top:1px solid var(--rule)}
+.cat > details > summary{font-size:18px;font-weight:700;padding:8px 0;border-radius:var(--radius)}
+.cat > details > summary:hover .cn{color:var(--signal)}
+.books{margin:4px 0 12px 5px;border-left:1px solid var(--rule);padding-left:14px}
+.book{position:relative;border-bottom:1px solid var(--rule)}
+.book:last-child{border-bottom:0}
+.bk{all:unset;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;width:100%;padding:10px 6px;cursor:pointer;border-radius:var(--radius)}
+.bk:hover,.book.open .bk{background:var(--panel)}
+.bk:focus-visible{outline:2px solid var(--focus);outline-offset:0}
+.tt{font-weight:700;color:var(--ink)}
+.meta{font-size:14.5px;color:var(--ink-3)}
+.au::after{content:" \00b7"}
+.tags{display:inline-flex;flex-wrap:wrap;gap:6px;margin-left:auto}
+.card{display:none;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.card p + p{margin-top:8px}
+.card b{color:var(--ink)}
+.card .links a{margin-right:10px;white-space:nowrap}
+.card .pot{border-top:1px solid var(--rule);padding-top:8px}
+@media (hover:hover){
+  .book:hover .card,.book:focus-within .card{display:block;position:absolute;left:0;top:100%;z-index:20;width:min(560px,100%);box-shadow:var(--shadow)}
+}
+.book.open .card{display:block;position:static;width:auto;box-shadow:none;margin:4px 0 10px}
+.book.hidden{display:none}
+.nomatch{display:none;font-size:15px;color:var(--ink-3);padding:8px 6px}
+.books.empty .nomatch{display:block}
+
+/* notes */
+section.notes{border-top:1px solid var(--rule);padding-top:32px;margin-top:16px}
+section.notes h2{font-size:26px;font-weight:750;margin-bottom:12px}
+section.notes h3{font-size:19px;font-weight:700;margin:24px 0 8px}
+section.notes p,section.notes li{font-size:16px;color:var(--ink-2);max-width:75ch}
+section.notes ul{padding-left:20px;margin:8px 0}
+.tablewrap{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;font-size:15px;min-width:100%}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:700;color:var(--ink);background:var(--panel)}
+td:not(:first-child),th:not(:first-child){white-space:nowrap}
+#two td:nth-child(3){white-space:normal}
+.why{color:var(--ink-3);font-size:14px}
+footer.wrap{border-top:1px solid var(--rule);padding-top:20px;padding-bottom:48px;font-size:14px;color:var(--ink-3)}
+footer code,section.notes code{font-size:.92em;background:var(--panel);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+@media (max-width:600px){
+  .tags{margin-left:0;width:100%}
+  .dom > details > summary{font-size:21px}
+  .showing{margin-left:0;width:100%}
+  .controls{position:static}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <p class="kicker">Books shelf &middot; 10 October 2026</p>
+  <h1>Where each book goes</h1>
+  <p class="lead">This is every book on the shortlist, placed in the category where it would sit on the site. Open a category to see its books. Hover over a title, or tap it, to see what the book is for, who it suits, which reading lists back it and what articles it could seed.</p>
+  <p class="lead">Each book carries one of three tags. The canon is the set nearly every reading list names. Widely recommended books show up on many lists. Good but niche books are strong in one narrow corner. A dashed <span class="agedm">aged</span> mark means parts of the book have dated, though the core still holds, and <span class="twom">2 homes</span> means it could sit in a second category.</p>
+  <ul class="stats">
+    <li><b>{{N}}</b><span>books</span></li>
+    <li><b>{{A}}</b><span>the canon</span></li>
+    <li><b>{{B}}</b><span>widely recommended</span></li>
+    <li><b>{{C}}</b><span>good but niche</span></li>
+    <li><b>{{NAGED}}</b><span>marked aged</span></li>
+  </ul>
+  <div class="legend" aria-label="Legend">
+    <span class="lg"><span class="badge bA">the canon everyone names</span> tier A</span>
+    <span class="lg"><span class="badge bB">widely recommended</span> tier B</span>
+    <span class="lg"><span class="badge bC">good but niche</span> tier C</span>
+    <span class="lg"><span class="agedm">aged</span> dated in parts</span>
+    <span class="lg"><span class="twom">2 homes</span> fits two categories</span>
+  </div>
+  <p class="rule"><b>Rule:</b> one book, one home. A book that fits two places is listed once, where a reader would look first; the second home is on its card.</p>
+</header>
+
+<div class="controls" role="region" aria-label="Filters">
+  <div class="wrap">
+    <label><input type="checkbox" id="onlyA"> Show only the canon (tier A)</label>
+    <label><input type="checkbox" id="noAged"> Hide aged books</label>
+    <button type="button" id="expand">Expand all</button>
+    <button type="button" id="collapse">Collapse all</button>
+    <span class="showing" id="showing" aria-live="polite">Showing all {{N}} books</span>
+  </div>
+</div>
+
+<main class="wrap" id="main">
+<ul class="tree">
+{{TREE}}
+</ul>
+
+<section class="notes" aria-labelledby="notes-h">
+  <h2 id="notes-h">Mapping notes</h2>
+  <p>Every category in the book list already matched a site category, so no book had to be moved. The work was done when the list was made: the brief's own shelf names were folded into the thirteen categories as below. The brief's three extra shelves have no site category, so they sit in the fourth branch, "Also on the shelf".</p>
+  <h3>The brief's shelves, folded into site categories</h3>
+  <ul>
+{{SHELF}}
+  </ul>
+  <h3>Counts as placed</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Category or shelf</th><th>Books</th><th>A</th><th>B</th><th>C</th></tr></thead>
+    <tbody>{{PERCAT}}<tr><th>All</th><th>{{N}}</th><th>{{A}}</th><th>{{B}}</th><th>{{C}}</th></tr></tbody>
+  </table></div>
+  <h3>Books that could sit in two categories ({{NTWO}})</h3>
+  <p>Each is listed once, in its first home. The second home is a judgment call; if a category page later lists "further reading", these are the books to cross-link.</p>
+  <div class="tablewrap"><table id="two">
+    <thead><tr><th>Book</th><th>Placed in</th><th>Could also sit in</th></tr></thead>
+    <tbody>
+{{TWO}}
+    </tbody>
+  </table></div>
+</section>
+</main>
+
+<footer class="wrap">
+  <p>Every book, tier, description and source comes from <code>research/books/candidates-2026-10-10.csv</code> (section notes in <code>candidates-2026-10-10.md</code>). The site categories come from <code>research/seo/tree-simplified-v1.1.md</code>. The descriptions are our own words; nothing is quoted from the books. The "article potential" lines and the second homes are new on this page. A book is marked aged where the list says it is dated in parts, or its note says some examples, tools or tone have dated. The source links on each card are the reading lists the list was built from.</p>
+</footer>
+
+<script>
+(function(){
+  var books = Array.prototype.slice.call(document.querySelectorAll('.book'));
+  var onlyA = document.getElementById('onlyA'), noAged = document.getElementById('noAged');
+  var showing = document.getElementById('showing');
+  document.querySelectorAll('.books').forEach(function(ul){
+    var li = document.createElement('li'); li.className = 'nomatch'; li.textContent = 'No books here match the filters.';
+    ul.appendChild(li);
+  });
+  books.forEach(function(li){
+    var b = li.querySelector('.bk');
+    b.addEventListener('click', function(){
+      var open = li.classList.toggle('open');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    b.addEventListener('keydown', function(e){
+      if (e.key === 'Escape' && li.classList.contains('open')) { li.classList.remove('open'); b.setAttribute('aria-expanded','false'); }
+    });
+  });
+  function apply(){
+    var n = 0;
+    books.forEach(function(li){
+      var hide = (onlyA.checked && li.getAttribute('data-tier') !== 'A') || (noAged.checked && li.classList.contains('aged'));
+      li.classList.toggle('hidden', hide);
+      if (!hide) n++;
+    });
+    document.querySelectorAll('.books').forEach(function(ul){
+      ul.classList.toggle('empty', !ul.querySelector('.book:not(.hidden)'));
+    });
+    showing.textContent = n === books.length ? 'Showing all ' + n + ' books' : 'Showing ' + n + ' of ' + books.length + ' books';
+  }
+  onlyA.addEventListener('change', apply);
+  noAged.addEventListener('change', apply);
+  function setAll(open){ document.querySelectorAll('.tree details').forEach(function(d){ d.open = open; }); }
+  document.getElementById('expand').addEventListener('click', function(){ setAll(true); });
+  document.getElementById('collapse').addEventListener('click', function(){
+    document.querySelectorAll('.cat details').forEach(function(d){ d.open = false; });
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
