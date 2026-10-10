@@ -35,6 +35,7 @@ PLACEHOLDERS = [
     ("category/index.html", "Category", "Category page (coming)", "The category page is the next mockup. It will list one topic's articles, grouped under headings."),
     ("sections/articles.html", "All articles", "All articles (coming)", "Every article, newest first, a page at a time. Until then, the latest twelve are on the home page."),
     ("sections/books.html", "Books", "Books (coming)", "The books I hand to colleagues, with a note on what each one is good for."),
+    ("books/topic.html", "Books topic", "Topic page (coming)", "This topic page is next. It will hold four to six books in reading order, laid out like the product management page."),
     ("sections/links.html", "Links", "Links (coming)", "Useful sites and apps for design and product work, sorted by topic."),
     ("sections/tools.html", "Tools", "Tools (coming)", "Small calculators and checkers for everyday product work."),
     ("sections/templates.html", "Templates", "Templates (coming)", "Free templates to download, each with a worked example beside it."),
@@ -51,6 +52,7 @@ SHELL_SYNC = [("index.html", "Skip to the main content")]
 SITEMAP = [
     ("index.html", "Home", "Latest articles, topics, links to the sections."),
     ("article.html", "Article", "The sample PRD article with a right rail (variant A, the chosen layout)."),
+    ("books/product-management.html", "Books on product management", "The sample topic page: five books in reading order, each as a catalogue card."),
 ] + [(p, t, line) for p, t, _, line in PLACEHOLDERS] + [
     ("build/variants/index.html", "Article page variants", "The three single-article layouts side by side (reference, not part of the site)."),
     ("build/variants/article-b.html", "Article B, Magazine", "The same article, magazine layout (reference)."),

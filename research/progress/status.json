@@ -1,53 +1,60 @@
 {
   "version": 1,
-  "run_id": "books-plan-page",
-  "title": "Books section: the plan page",
+  "run_id": "books-mockup",
+  "title": "Books section: shelf page and sample topic page",
   "state": "finished",
-  "started": "2026-10-10T20:30+05:30",
-  "updated": "2026-10-10T20:40+05:30",
-  "note": "Finished: research/explainers/books-section-plan-2026-10-10.html",
+  "started": "2026-10-10T20:53+05:30",
   "steps": [
     {
       "n": 1,
       "title": "Read",
       "status": "done",
-      "note": "CLAUDE.md, writing style, explainer README and format, illustration rules, three source files, search-policy site layer",
-      "time": "20:32"
+      "note": "Read the mockup files, plan, book facts and house skills",
+      "time": "20:53"
     },
     {
       "n": 2,
-      "title": "Outline",
+      "title": "Direction",
       "status": "done",
-      "note": "Ten sections plus decisions box; one teal tint for all five figures; bookshop staff-card analogy",
-      "time": "20:33"
+      "note": "Direction: library green, spine-row masthead, tiles standing on shelves, catalogue-card entries",
+      "time": "20:53"
     },
     {
       "n": 3,
-      "title": "Figures",
+      "title": "Shelf page",
       "status": "done",
-      "note": "Five figures on the teal tint with dot grid and lockup: three levels, two searches, the sixteen topics chart, one topic page, the drip",
-      "time": "20:39"
+      "note": "Building the shelf page: masthead with the spine row, three shelves of topic tiles",
+      "time": "20:55"
     },
     {
       "n": 4,
-      "title": "Build",
+      "title": "Topic page",
       "status": "done",
-      "note": "books-section-plan-2026-10-10.html written",
-      "time": "20:39"
+      "note": "",
+      "time": "20:58"
     },
     {
       "n": 5,
-      "title": "Checks",
+      "title": "Wire links",
       "status": "done",
-      "note": "Tags balanced, one h1, no overflow at 375 px, no external requests, HTTP 200, banned list and model test clear",
-      "time": "20:40"
+      "note": "Shelf page and topic page built; placeholder topic page and site map entry written",
+      "time": "20:58"
     },
     {
       "n": 6,
+      "title": "Checks",
+      "status": "done",
+      "note": "Checks clear: one h1, alt and SVG titles, no overflow at 375 to 1440, no external requests, all links resolve, HTTP 200",
+      "time": "21:01"
+    },
+    {
+      "n": 7,
       "title": "Finished",
       "status": "done",
-      "note": "Finished: research/explainers/books-section-plan-2026-10-10.html",
-      "time": "20:40"
+      "note": "Finished: sections/books.html and books/product-management.html",
+      "time": "21:01"
     }
-  ]
+  ],
+  "updated": "2026-10-10T21:01+05:30",
+  "note": "Finished: sections/books.html and books/product-management.html"
 }

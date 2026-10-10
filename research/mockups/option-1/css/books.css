@@ -1,0 +1,158 @@
+/* Books section: the shelf page and the topic pages. Tokens, header, footer, buttons and crumbs come from
+   ../mockup.css. Everything here is scoped to body.bk, so the section's identity never leaks into the rest of the site.
+
+   The section's own pieces:
+   - library green, one hue beside the site blue: #0D6B5C on white 6.4:1, #5CCFB8 on the dark page 10.4:1
+   - the masthead: a pale green band whose bottom edge is a shelf, with a row of drawn spines standing on it
+   - topic tiles shaped as books standing on a shelf: a thick spine edge on the left, square at the bottom where it
+     meets the shelf board, one shelf board per group
+   - book entries as catalogue cards: an index tab with the reading position, ruled field lines, a drawn cover */
+
+.bk{
+  --bk:#0D6B5C;          /* section green: links, spine edges, tab text; 6.4:1 on white */
+  --bk-deep:#0A4F44;     /* the shelf board; 9.5:1 on white */
+  --bk-wash:#EDF5F1;     /* masthead band, index tabs; --bk on it is 5.8:1 */
+  --bk-line:#C9DED6;     /* card rules and tile outlines */
+  --bk-on:#FFFFFF;       /* text on a --bk fill */
+  --sp-a:#0D6B5C; --sp-b:#0A4F44; --sp-c:#7FB8A8; --sp-d:#1B1D1C; --sp-e:#D3E6DE; --sp-band:#EDF5F1;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .bk{
+    --bk:#5CCFB8; --bk-deep:#3E9C8A; --bk-wash:#0F1A17; --bk-line:#22362F; --bk-on:#0B0B0C;
+    --sp-a:#5CCFB8; --sp-b:#2E7D6E; --sp-c:#1D4B42; --sp-d:#CFCCC5; --sp-e:#16302A; --sp-band:#0F1A17;
+  }
+}
+:root[data-theme="dark"] .bk{
+  --bk:#5CCFB8; --bk-deep:#3E9C8A; --bk-wash:#0F1A17; --bk-line:#22362F; --bk-on:#0B0B0C;
+  --sp-a:#5CCFB8; --sp-b:#2E7D6E; --sp-c:#1D4B42; --sp-d:#CFCCC5; --sp-e:#16302A; --sp-band:#0F1A17;
+}
+@media (max-width:599px){:root{--fs-body:17px;--fs-lead:18px}}
+
+.bk{--frame:1280px}
+.bk main a{color:var(--bk)}
+.bk .btn{background:var(--bk);border-color:var(--bk);color:var(--bk-on)}
+.bk :focus-visible{outline-color:var(--bk)}
+/* the section is marked in the shared header by colour only; the markup stays the shared one */
+.bk .site-nav a[href$="sections/books.html"]{color:var(--bk);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.5em}
+.bk-in{max-width:var(--frame);margin:0 auto;padding:0 var(--gutter)}
+
+/* ---------- Masthead: pale band, spines on a shelf board ---------- */
+.bk-mast{background:var(--bk-wash);padding-top:var(--s6)}
+@media (min-width:1024px){.bk-mast{padding-top:var(--s7)}}
+.bk main .bk-mast .crumbs a{color:var(--ink-3)}
+.bk-mast__grid{display:grid;gap:var(--s5);margin-top:var(--s5);padding-bottom:var(--s6)}
+@media (min-width:960px){.bk-mast__grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:var(--s8);align-items:end;padding-bottom:var(--s7)}}
+.bk-mark{display:flex;align-items:center;gap:var(--s3)}
+.bk-mark svg{width:44px;height:44px;flex:none}
+.bk-mark__ln{fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.bk-mark__fill{fill:var(--bk)}
+.bk-mast h1{font-size:clamp(52px,calc(24px + 6vw),104px);line-height:.92;letter-spacing:-.045em}
+.bk-mast--topic h1{font-size:clamp(36px,calc(18px + 3.6vw),64px);line-height:1.04;letter-spacing:-.03em;max-width:14em}
+.bk-intro{display:flex;flex-direction:column;gap:var(--s3);max-width:36em}
+.bk-intro p{font:400 var(--fs-lead)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-2)}
+.bk-intro p:first-child{color:var(--ink)}
+.bk-mast--topic .bk-mast__grid{grid-template-columns:minmax(0,1fr);row-gap:var(--s4)}
+@media (min-width:960px){.bk-mast--topic .bk-mast__grid{grid-template-columns:minmax(0,1fr);padding-bottom:var(--s6)}}
+.bk-mast--topic .bk-intro{max-width:40em}
+
+.spines{display:block;width:100%;height:88px}
+.bk-mast--topic .spines{height:56px}
+@media (max-width:599px){.spines{height:64px}.bk-mast--topic .spines{height:44px}}
+.sp-a{fill:var(--sp-a)} .sp-b{fill:var(--sp-b)} .sp-c{fill:var(--sp-c)} .sp-d{fill:var(--sp-d)} .sp-e{fill:var(--sp-e)}
+.sp-band{fill:var(--sp-band);opacity:.75}
+.bk-board{height:10px;background:var(--bk-deep);border-bottom:3px solid color-mix(in srgb,var(--bk-deep) 55%,var(--ink))}
+
+/* ---------- Shelves of topic tiles ---------- */
+.shelves{margin-top:var(--s8)}
+.shelf+.shelf{margin-top:var(--s8)}
+.shelf__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--s1) var(--s4);margin-bottom:var(--s5)}
+.shelf__head h2{font-size:var(--fs-h2);line-height:1.1;letter-spacing:-.02em}
+.shelf__head p{font:400 var(--fs-ui)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+.shelf__row{list-style:none;margin:0;padding:0 var(--s2);display:grid;gap:var(--s4);grid-template-columns:minmax(0,1fr);
+  border-bottom:10px solid var(--bk-deep);box-shadow:0 3px 0 color-mix(in srgb,var(--bk-deep) 55%,var(--ink))}
+@media (min-width:600px){.shelf__row{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 var(--s4);gap:var(--s5)}}
+@media (min-width:1024px){.shelf__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.shelf__row li{display:flex;align-items:flex-end}
+
+/* a topic tile is a book standing on the shelf: spine edge left, rounded at the top only, square where it meets the board */
+.tt{flex:1;display:flex;flex-direction:column;gap:var(--s3);padding:var(--s3) var(--s4) var(--s5) var(--s3);
+  background:var(--paper);border:1px solid var(--bk-line);border-bottom:0;border-left:10px solid var(--bk);border-radius:3px 10px 0 0;
+  color:var(--ink);text-decoration:none;transition:transform .18s ease-out}
+.bk main a.tt{color:var(--ink)}
+.tt img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:4px;background:var(--panel)}
+.tt__name{font:var(--fw-h3) 21px/1.2 var(--font-display);letter-spacing:-.015em}
+.tt__count{font:500 var(--fs-meta)/1.3 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+.tt:hover{transform:translateY(-6px)}
+.tt:hover .tt__name{color:var(--bk);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.15em}
+.tt:focus-visible{outline:2px solid var(--bk);outline-offset:3px}
+/* phones: the thumbnail beside the name, so ten tiles stay short */
+@media (max-width:599px){
+  .tt{display:grid;grid-template-columns:116px minmax(0,1fr);column-gap:var(--s3);row-gap:var(--s1);align-items:center;padding:var(--s3)}
+  .tt img{grid-row:1/3}
+  .tt__name{font-size:18px;align-self:end}
+  .tt__count{align-self:start}
+}
+
+.bk-note{margin-top:var(--s8);padding-top:var(--s4);border-top:1px solid var(--rule);max-width:44em;
+  font:400 var(--fs-meta)/1.55 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+.bk main .bk-note a{color:var(--ink-2)}
+
+/* ---------- Topic page: the reading order ---------- */
+.order{margin-top:var(--s7)}
+.order h2,.more h2{font-size:22px;letter-spacing:-.01em}
+.order ol{list-style:none;margin:var(--s4) 0 0;padding:0;display:grid;gap:var(--s2);grid-template-columns:minmax(0,1fr)}
+@media (min-width:700px){.order ol{grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s3)}}
+.order a{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:var(--s3);align-items:baseline;height:100%;
+  padding:var(--s3) var(--s3) var(--s4);border-top:5px solid var(--c,var(--bk));background:var(--panel);border-radius:0 0 6px 6px;text-decoration:none}
+.bk main .order a{color:var(--ink)}
+.order .n{font:700 22px/1 var(--font-display);color:var(--bk);font-variant-numeric:tabular-nums}
+.order .t{font:var(--fw-h3) 16px/1.25 var(--font-display);letter-spacing:-.005em}
+.order .a{grid-column:2;font:400 13px/1.4 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3);margin-top:2px}
+.order a:hover .t{color:var(--bk);text-decoration:underline}
+
+/* ---------- A book entry: drawn cover beside a catalogue card ---------- */
+.books{margin-top:var(--s8);display:flex;flex-direction:column;gap:var(--s8)}
+.book{display:grid;gap:var(--s5);grid-template-columns:minmax(0,1fr);scroll-margin-top:24px}
+@media (min-width:860px){.book{grid-template-columns:220px minmax(0,1fr);column-gap:var(--s7);align-items:start}}
+@media (min-width:1200px){.book{grid-template-columns:240px minmax(0,860px)}}
+.cover{margin:0;max-width:160px}
+@media (min-width:860px){.cover{max-width:none;position:sticky;top:24px;padding-top:44px}}
+.cover svg{display:block;width:100%;height:auto;border-radius:2px 6px 6px 2px;box-shadow:8px 8px 0 var(--bk-line)}
+.cover figcaption{margin-top:var(--s4);font:400 12px/1.4 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+.cv-t{font-family:var(--font-display);font-weight:800;letter-spacing:-.02em}
+.cv-a{font-family:var(--font-ui);font-weight:500;letter-spacing:.01em}
+
+/* the index tab names the reading position; the card below it is ruled like a catalogue card */
+.cat{position:relative;min-width:0}
+.cat__tab{display:inline-block;padding:10px 16px 8px;background:var(--bk-wash);border:1px solid var(--bk-line);border-bottom:0;border-radius:8px 8px 0 0;
+  font:600 var(--fs-meta)/1.2 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--bk)}
+.cat__card{border:1px solid var(--bk-line);border-top:3px solid var(--bk);border-radius:0 10px 10px 10px;background:var(--paper);padding:var(--s5) var(--s5) var(--s5)}
+@media (min-width:860px){.cat__card{padding:var(--s6) var(--s6) var(--s5)}}
+.cat__card h2{font-size:clamp(28px,calc(18px + 1.6vw),40px);line-height:1.05;letter-spacing:-.03em}
+.cat__by{margin-top:var(--s2);font:500 var(--fs-ui)/1.45 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink)}
+.cat__by span{color:var(--ink-3);font-weight:400}
+.fields{margin:var(--s5) 0 0;padding:0}
+.fields>div{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s1);padding:var(--s3) 0 var(--s4);border-top:1px solid var(--bk-line)}
+@media (min-width:600px){.fields>div{grid-template-columns:11.5em minmax(0,1fr);column-gap:var(--s5)}}
+.fields dt{font:var(--fw-label) var(--fs-meta)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--bk);padding-top:3px}
+.fields dd{margin:0;font:400 var(--fs-body)/1.55 var(--font-body);letter-spacing:var(--tracking-body);color:var(--ink);max-width:36em}
+.fields .key dd{font-weight:600}
+.fields ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--s1)}
+
+/* the owner's take: a labelled block, only on books the owner has read */
+.take{margin-top:var(--s2);padding:var(--s4) var(--s5);background:var(--bk-wash);border-left:4px solid var(--bk);border-radius:0 6px 6px 0}
+.take h3{font:var(--fw-h3) 17px/1.3 var(--font-display);letter-spacing:-.005em}
+.take p{margin-top:var(--s2);font:400 var(--fs-body)/1.55 var(--font-body);letter-spacing:var(--tracking-body);color:var(--ink-2)}
+.take .slot{font-style:italic}
+.unread{margin-top:var(--s2);padding:var(--s3) 0 0;border-top:1px solid var(--bk-line);font:400 var(--fs-ui)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+
+.buy{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s5);margin-top:var(--s5);padding-top:var(--s5);border-top:1px solid var(--bk-line)}
+.buy p{flex:1 1 22em;font:400 var(--fs-meta)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-3)}
+
+/* ---------- More shelves ---------- */
+.more{margin-top:var(--s9)}
+.more .shelf__row{margin-top:var(--s5)}
+@media (min-width:1024px){.more .shelf__row{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.more__all{margin-top:var(--s5);font:600 var(--fs-ui)/1.4 var(--font-ui)}
+
+@media (prefers-reduced-motion:reduce){.tt{transition:none}.tt:hover{transform:none}}
