@@ -906,3 +906,10 @@ Committed (10 Oct): illustration generator with no accent caps (any element kind
 4.5:1 labels still enforced; adjacency notes only); rules foundation-only; SEO image names in both rule sets.
 Owner (10 Oct): use the Satoshi family from Fontshare for the mockups instead of the current type (Inter text and Fraunces). Being self-hosted under research/mockups/fonts/satoshi/ with its licence and switched in both mockup.css files; the logo wordmark (Inter Display Bold) and the figure generator's Inter unchanged for now.
 Owner: the Satoshi change is a plain font swap in the CSS only; logo, images and generators untouched; no scale retuning yet.
+Satoshi applied and committed (10 Oct): both mockup.css files load Satoshi Variable (roman and italic, 300 to 900) and
+map --font-display, --font-ui and --font-body to it; Fraunces and Inter rules left unused; preloads updated. The ITF
+Free Font License 2.0 forbids redistributing the files (including via repositories), so the font files are
+git-ignored and only the README is tracked; the GitHub repo is public. Builder's tuning notes: Satoshi's x-height is
+about 11 percent smaller than Inter's and it sets about 8 percent narrower, so body 18 px reads like 16 px (19 to 20
+px body and a 22 px deck would restore the look); small labels at 14 to 15 px look light. Owner to review the swap.
+Owner (Satoshi swap): small headings bolder (700 to 800); body paragraphs get a little letter spacing (owner liked about 0.05em in the inspector; to be set within the system). Being applied in the mockup CSS.

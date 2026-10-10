@@ -17,7 +17,7 @@
 @media (min-width:900px){.lead__link{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);column-gap:var(--s6);align-items:center}}
 .lead__text{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s3)}
 .lead__title{font:700 clamp(26px,calc(16px + 1.8vw),40px)/1.1 var(--font-display);letter-spacing:-.025em;text-wrap:balance}
-.lead__deck{font:400 var(--fs-lead)/1.5 var(--font-ui);color:var(--ink-2);max-width:32em}
+.lead__deck{font:400 var(--fs-lead)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-2);max-width:32em}
 .lead img,.card img{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel)}
 
 /* one column on phones, two from 680px, three from 1100px: each cell stays at least 300px wide, so the
@@ -46,7 +46,7 @@
 .sec__ln{fill:none;stroke:var(--ink);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .sec__ln--sig{stroke:var(--signal);stroke-width:2.6}
 .sec__name{font-size:clamp(26px,calc(18px + 1vw),32px);line-height:1.05;letter-spacing:-.025em}
-.sec__line{font:400 var(--fs-ui)/1.5 var(--font-ui);color:var(--ink-2);max-width:26em}
+.sec__line{font:400 var(--fs-ui)/1.5 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink-2);max-width:26em}
 .sec__open{margin-top:auto;padding-top:var(--s3);font:500 12px/1 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--signal)}
 .sec__open::after{content:"\2192";display:inline-block;margin-left:.4em;transition:transform .15s ease}
 .sec:hover{border-top-color:var(--signal)}

@@ -8,7 +8,7 @@
 .page{margin:0 auto;padding:0 var(--gutter)}
 .cat-link{display:inline-block;font:600 var(--fs-ui)/1.3 var(--font-ui);color:var(--signal);text-decoration:none}
 .cat-link:hover{text-decoration:underline}
-.deck{font:400 var(--fs-lead)/1.5 var(--font-ui);color:var(--ink-2);text-wrap:pretty}
+.deck{font:400 var(--fs-lead)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-2);text-wrap:pretty}
 .hero h1{font-size:var(--fs-h1);line-height:1.06;letter-spacing:-.03em}
 .hero>*+*{margin-top:var(--s4)}
 /* running text keeps a 65 to 75 character measure; figures, table and template use the full column */
@@ -17,9 +17,9 @@
 .hero .byline{margin-top:var(--s5)}
 
 /* table of contents (sidebar and inline) */
-.toc h2{font:600 var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s3)}
+.toc h2{font:var(--fw-label) var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s3)}
 .toc ol{list-style:none;margin:0;padding:0}
-.toc li a{position:relative;display:block;padding:7px 0 7px 22px;color:var(--ink-3);text-decoration:none;font:400 var(--fs-ui)/1.35 var(--font-ui)}
+.toc li a{position:relative;display:block;padding:7px 0 7px 22px;color:var(--ink-3);text-decoration:none;font:400 var(--fs-ui)/1.35 var(--font-ui);letter-spacing:var(--tracking-ui)}
 .toc li a:hover{color:var(--ink)}
 .toc li a::before{content:"";position:absolute;left:4px;top:13px;width:7px;height:7px;border-radius:1px;transform:rotate(45deg);background:var(--rule)}
 .toc li a[aria-current]{color:var(--ink);font-weight:600}
@@ -47,7 +47,7 @@
 .va .top h1{font-size:clamp(34px,calc(15.6px + 3.7vw),60px);line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
 /* .chip and .chips live in ../mockup.css (shared with the home page) */
 .byrow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--s4) var(--s5);margin-top:var(--s6)!important}
-.by{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2) var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);color:var(--ink)}
+.by{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2) var(--s3);font:400 var(--fs-ui)/1.4 var(--font-ui);letter-spacing:var(--tracking-ui);color:var(--ink)}
 .by .avatar{width:48px;height:48px}
 .by a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:.2em}
 .by a:hover{color:var(--signal);text-decoration-color:currentColor}
@@ -59,7 +59,7 @@
 /* copy confirmation: positioned below the row, so it never moves anything */
 .share-toast{position:absolute;right:0;top:calc(100% + 6px);font:500 13px/1.3 var(--font-ui);color:var(--signal);white-space:nowrap;pointer-events:none}
 .share-toast:empty{display:none}
-.share__label{font:500 14px/1 var(--mono);text-transform:uppercase;letter-spacing:.02em;color:var(--ink-2);margin-right:var(--s1)}
+.share__label{font:var(--fw-label) 14px/1 var(--mono);text-transform:uppercase;letter-spacing:.02em;color:var(--ink-2);margin-right:var(--s1)}
 .icon-btn{display:inline-grid;place-items:center;width:36px;height:36px;border:1px solid var(--rule);border-radius:4px;background:transparent;color:var(--ink);cursor:pointer;padding:0}
 .icon-btn svg{width:20px;height:20px}
 .icon-btn:hover{color:var(--signal);border-color:var(--signal)}
@@ -75,7 +75,7 @@
   background:transparent;color:var(--ink);font:500 var(--fs-ui)/1 var(--font-ui);cursor:pointer}
 .util-btn svg{width:18px;height:18px}
 .util-btn:hover{border-color:var(--signal);color:var(--signal)}
-.toc--num h2{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
+.toc--num h2{font:var(--fw-label) 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
 .toc--num li a{display:grid;grid-template-columns:2.2em 1fr;padding:7px 0;line-height:1.35}
 .toc--num li a::before{display:none}
 .toc--num .n{font:500 13px/1.6 var(--mono);color:inherit}
@@ -129,12 +129,12 @@
   .va .rail{grid-column:3}
   .va .m-only,.va .toc-m{display:none}
 }
-.rail-list h2{font:500 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:0;padding-bottom:var(--s2);border-bottom:1px solid var(--rule)}
+.rail-list h2{font:var(--fw-label) 12px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:0;padding-bottom:var(--s2);border-bottom:1px solid var(--rule)}
 .rail-list ul{list-style:none;margin:0;padding:0}
 .rail-list li{border-bottom:1px solid var(--rule)}
 /* compact list: 64px 16:9 thumbnail left of a meta-size title (72px from 1024, on the 300px rail and after the body) */
 .rail-list--compact a{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:start;padding:10px 0;
-  color:var(--ink);text-decoration:none;font:500 13px/1.3 var(--font-ui)}
+  color:var(--ink);text-decoration:none;font:600 13px/1.3 var(--font-ui);letter-spacing:var(--tracking-ui)}
 .rail-list--compact img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:3px;margin-top:2px}
 .rail-list--compact a:hover{color:var(--signal)}
 .rail-list--compact a:hover .rail-t{text-decoration:underline;text-underline-offset:.18em}
@@ -147,7 +147,7 @@
 .va .after>.tpl{margin-top:var(--s8)}
 /* Just published (was Related), Tiger Data style: label on a hairline, three large cards, thumbnail, chips, title */
 .rel2{margin-top:var(--s8)}
-.rel2__h{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);padding-bottom:var(--s3);border-bottom:1px solid var(--rule-strong)}
+.rel2__h{font:var(--fw-label) 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);padding-bottom:var(--s3);border-bottom:1px solid var(--rule-strong)}
 .rel2 ul{list-style:none;margin:var(--s5) 0 0;padding:0;display:grid;gap:var(--s6);grid-template-columns:1fr}
 @media (min-width:760px){.rel2 ul{grid-template-columns:repeat(3,1fr)}}
 .rel2 a{display:flex;flex-direction:column;gap:var(--s3);color:var(--ink);text-decoration:none}
@@ -175,7 +175,7 @@
 .vb .hero .byline{padding-top:var(--s4);border-top:1px solid var(--rule);max-width:760px}
 .vb .col{max-width:calc(760px + 2 * var(--gutter));margin:0 auto;padding:0 var(--gutter)}
 .vb .intoc{margin-top:var(--s7);padding:var(--s4) 0;border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule)}
-.vb .intoc h2{font:600 var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s2)}
+.vb .intoc h2{font:var(--fw-label) var(--fs-meta)/1.4 var(--font-ui);color:var(--ink-3);margin:0 0 var(--s2)}
 .vb .intoc ol{margin:0;padding-left:1.4em;columns:2 280px;column-gap:var(--s6);font:400 var(--fs-ui)/1.5 var(--font-ui)}
 .vb .intoc li{padding:3px 0;break-inside:avoid}
 .vb .intoc li::marker{color:var(--signal);font-weight:600}
@@ -221,7 +221,7 @@
 /* featured image: 16:9, size reserved by width/height and aspect-ratio */
 .hero-fig{margin:var(--s6) 0 0}
 .hero-fig img,.rel-thumb img{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:var(--radius);background:var(--panel)}
-.hero-fig figcaption{margin-top:var(--s3);font:400 var(--fs-meta)/1.5 var(--font-ui);color:var(--ink-3)}
+.hero-fig figcaption{margin-top:var(--s3);font:400 var(--fs-meta)/1.5 var(--font-ui);letter-spacing:var(--tracking-body);color:var(--ink-3)}
 .vb .hero-fig{margin-top:var(--s6)}
 .rel-thumb{display:block;margin-bottom:var(--s3);line-height:0}
 .vc .related li{display:grid;grid-template-columns:minmax(0,180px) 1fr;gap:var(--s4);align-items:start}
