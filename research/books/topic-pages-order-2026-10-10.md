@@ -9,35 +9,45 @@ Order weighs four things: demand, how open page one is, fit with the site's subj
 
 ## Title pattern
 
-Searches are "<topic> books" and "best <topic> books". The title tag leads with that phrase, then the angle that makes
-the page ours (what to read first, what to skip, where a book has aged). The H1 is the plain name. The meta says who
-the page is for and the promise. Site name once at the end of the title tag.
+Owner's rule (10 October 2026): titles and descriptions are based on keywords
+(`research/seo/keywords/book-topics-2026-10-10.csv`). The title tag leads with the strongest searched phrase for the
+topic ("best <topic> books", "<topic> books", or "books for <audience>" where that is what people search: books for
+entrepreneurs 1,900, books for new managers 260, books for product managers 590). A second searched phrase or the
+page's honest angle follows only if the whole tag stays at 60 characters or fewer. Audience tails nobody searches
+("for product teams", "for designers") are dropped. The meta description (about 140 to 155 characters) works in the
+main phrase and one secondary searched phrase naturally, says who the page is for and what it promises, and is unique
+per page. The H1 is the plain name using the main phrase. Site name once at the end of the title tag (not counted in
+the character counts). Where Google reports one number for a group of near-identical phrases, "same count" marks the
+second phrase: it adds wording, not new searches.
 
 ## Launch, ten pages
 
-| # | Page (H1) | Title tag | Meta description | Demand/mo | Page one | A+B books |
-|---|---|---|---|---|---|---|
-| 1 | Books on product management | Best product management books: what to read first, and what to skip | The product management books worth your time, in reading order, with who each one is for and where it has aged. | 990 | medium | 11 |
-| 2 | Books on UX design | Best UX design books, in the order to read them | UX design books for designers and product people: the classics that still hold, the ones that aged, and where to start. | 540 | open | 17 |
-| 3 | Books on UI design | Best UI design books for product teams | The UI and visual design books that teach the craft, with who should read each and which parts matter most. | 230 | most open | 6 |
-| 4 | Books on project management and delivery | Best project management books for product teams | Project management and delivery books for people who ship software: what to read first, what to skip. | 2,270 | medium | 7 |
-| 5 | Books on product metrics | Best product metrics and analytics books (and OKRs) | Books on measuring products, analytics, experiments and OKRs, with where each one's numbers have dated. | 480 | medium | 6 |
-| 6 | Books on product discovery | Best product discovery books: interviews, jobs to be done, testing ideas | The discovery books product managers and designers actually use, in reading order, and who each is for. | 20 | open | 10 |
-| 7 | Books on UX research | Best UX research books for teams without a researcher | UX research books that get you running studies: interviews, usability tests, surveys, and what to skip. | 150 | medium | 9 |
-| 8 | Books on psychology for product people | Best psychology and behavioral science books for designers and product managers | The psychology books behind good products, read for the work, with which studies held up and which did not. | 1,890 | medium | 11 |
-| 9 | Books on startups and business | Best startup and business books for product people | Business and startup books read from the product side: strategy, building, and the ones that aged. | 9,950 | open on "startup books" | 10 |
-| 10 | Books on leading product teams | Best leadership books for product leaders and managers | Leadership and management books for people who run product and design teams: what to read first, what to skip. | 24,360 | hard; the angle is the way in | 18 |
+| # | Page (H1) | Title tag (chars) | Meta description (chars) | Phrases used (searches/mo) | Demand/mo | Page one | A+B books |
+|---|---|---|---|---|---|---|---|
+| 1 | Books on product management | Best product management books: what to read first (49) | Books for product managers, in reading order: the best product management books, who each one is for, what to skip, and where each has aged. (140) | Title: best product management books 390; product management books 590. Meta: books for product managers 590 (same count as product management books); best product management books 390 | 990 | medium | 11 |
+| 2 | Books on UX design | Best UX design books, in the order to read them (47) | The best UX design books in reading order: which UX books still hold up, which have aged, and where a new designer or product person should start. (146) | Title: best UX design books 140; UX design books 390. Meta: best UX design books 140; UX books 390 (same count as UX design books) | 540 | open | 17 |
+| 3 | Books on UI design | Best UI design books: layout, type and color (44) | The best UI design books on layout, type and color, for anyone who designs screens, with the web design books that still hold up and the ones that aged. (152) | Title: best UI design books 30; UI design books 140. Meta: best UI design books 30; web design books 210 | 230 | most open | 6 |
+| 4 | Books on project management and delivery | Best project management books, from Scrum to Shape Up (53) | Project management books for people who ship software, including the agile books that hold up: which to read first, where each has aged, and what to skip. (154) | Title: best project management books 480; project management books 1,300; Scrum (scrum books 320). Meta: project management books 1,300; agile books 170 | 2,270 | medium | 7 |
+| 5 | Books on OKRs and product metrics | Best OKR books and product analytics books (42) | The best OKR books for setting goals, plus the analytics books that teach product metrics and experiments, with where each book's numbers have dated. (149) | Title: OKR books 390; best OKR books 10; product analytics books 20. Meta: best OKR books 10 (inside it, OKR books 390); analytics books 50 | 480 | medium | 6 |
+| 6 | Books on product discovery | Best product discovery books: interviews, jobs to be done (57) | Product discovery books for product managers and designers: customer interviews, jobs to be done, testing ideas, and the lean startup books that hold up. (153) | Title: product discovery books 10. Meta: product discovery books 10; lean startup books 10 | 20 | open | 10 |
+| 7 | Books on UX research | Best UX research books for running your own studies (51) | User research books for teams without a researcher: the UX research books that get you running interviews, usability tests and surveys, and what to skip. (153) | Title: best UX research books 10; UX research books 90. Meta: user research books 30; UX research books 90 | 150 | medium | 9 |
+| 8 | Books on psychology and behavioral economics | Best behavioral economics books: which studies held up (54) | Behavioral science books for people who build products: the best behavioral economics books, what each teaches, and which studies failed to replicate. (150) | Title: behavioral economics books 1,300. Meta: behavioral science books 320; behavioral economics books 1,300 | 1,890 | medium | 11 |
+| 9 | Books on business and startups | Best business books for entrepreneurs (37) | The best business books for founders and people building a product: which startup books still hold up, which have aged, and which to read first. (144) | Title: best business books 3,600; books for entrepreneurs 1,900. Meta: best business books 3,600; startup books 590 (recent months) | 9,950 | open on "startup books" | 10 |
+| 10 | Books on leadership | Best leadership books: what new managers should read first (58) | Leadership books for new managers and anyone who runs a product or design team: what to read first, what each book teaches, and what to skip. (141) | Title: best leadership books 5,400; leadership books 14,800; new managers (books for new managers 260). Meta: leadership books 14,800; books for new managers 260 | 24,360 | hard; the angle is the way in | 18 |
 
 Numbers 1 to 3 go first because they are core to the site and open; 4 to 6 are core with medium demand or strong books;
 7 to 10 carry the biggest general demand and need the angle in the title to be ours.
 
 ## After launch, two a month
 
-| Month | Pages | Why then |
-|---|---|---|
-| 1 | Books on product marketing and positioning (80/mo, 12 books); Books on growth and pricing (170/mo, 9 books) | Core subjects, stock ready, demand small |
-| 2 | Books on accessibility (420/mo, 4 books, page one hard, mixed intent); Books on product strategy (40/mo, 7 books, mixed intent) | Stock is thin or the search is muddled; a month of articles first helps |
-| 3 | Books on design systems (80/mo, 2 books now; wait until four); Books on personal effectiveness for product people (1,470/mo, 13 books, weakest fit, the angle makes it ours) | Design systems needs stock; personal development needs the angle |
+| Month | # | Page (H1) | Title tag (chars) | Meta description (chars) | Phrases used (searches/mo) | Demand, page one, stock | Why then |
+|---|---|---|---|---|---|---|---|
+| 1 | 11 | Books on product marketing and positioning | Best product marketing books, on positioning and launches (57) | The best product marketing books on positioning, launches and messaging, with the classic marketing books that still hold up and the ones that aged. (148) | Title: best product marketing books 30; product marketing books 50; marketing books 1,000 (broad). Meta: best product marketing books 30; marketing books 1,000 (broad) | 80/mo, medium, 12 books | Core subject, stock ready, demand small |
+| 1 | 12 | Books on pricing and growth | Best pricing books and product growth books (43) | Pricing books for people who price software, and the growth hacking books worth keeping: funnels, product-led growth, and where the playbooks have dated. (153) | Title: pricing books 50; best pricing books 20. Meta: pricing books 50; growth hacking books 30 | 170/mo, medium, 9 books; most "growth books" searches mean self help | Core subject, stock ready, demand small |
+| 2 | 13 | Books on accessibility | Best accessibility books for web and app design (47) | The best accessibility books for people who design and build software, with the inclusive design books worth reading and which predate current guidelines. (154) | Title: accessibility books 390. Meta: accessibility books 390; inclusive design books 10 | 420/mo, hard, 4 books; some searches mean buildings | Stock is thin; a month of articles first helps |
+| 2 | 14 | Books on product strategy | Best product strategy books, plus business strategy classics (60) | Product strategy books for product managers and leaders, with the business strategy books that hold up for product work, in the order to read them. (147) | Title: best product strategy books 10; product strategy books 20. Meta: product strategy books 20; business strategy books 480 (broad) | 40/mo, hard, 7 books; mixed meaning | The search is muddled; a month of articles first helps |
+| 3 | 15 | Books on design systems | Best design systems books, including Atomic Design (50) | Design systems books for designers and engineers who build and run one: the Atomic Design book and the others worth reading, with who each is for. (146) | Title: design systems books 70; Atomic Design (atomic design book 90). Meta: design systems books 70; atomic design book 90 | 80/mo, medium, 2 books now; opens at four | Needs stock |
+| 3 | 16 | Books on productivity | Best productivity books on focus, writing and decisions (55) | The best productivity books for people who build products, on focus, habits, writing and decisions, and which popular personal development books to skip. (153) | Title: best productivity books 590; productivity books 880. Meta: best productivity books 590; personal development books 9,900 (broad) | 1,470/mo, medium, 13 books; weakest fit | Needs the angle |
 
 ## The shelf page
 
