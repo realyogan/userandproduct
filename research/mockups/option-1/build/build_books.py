@@ -55,6 +55,16 @@ TOPICS = [
 TINTS = ["teal", "yellow", "pink", "blue", "green", "purple", "peach", "slate"]
 
 
+
+def aged_row(note):
+    """Show 'Where it has aged' only when the book has aged. A still-current book shows nothing,
+    or a 'Which edition' line when the note carries edition advice."""
+    n = note.strip()
+    if n.lower().startswith("still current"):
+        rest = n[len("still current"):].lstrip(" .").strip()
+        return f'<div><dt>Which edition</dt><dd>{escape(rest)}</dd></div>' if rest else ""
+    return f'<div><dt>Where it has aged</dt><dd>{escape(n)}</dd></div>'
+
 def tint(name):
     return TINTS[[t[0] for t in TOPICS].index(name) % len(TINTS)]
 
@@ -399,7 +409,7 @@ def book(b, p):
         <div><dt>Who it is for</dt><dd>{escape(b["for"])}</dd></div>
         <div><dt>Who can skip it</dt><dd>{escape(b["skip"])}</dd></div>
         <div class="key"><dt>The part that matters most</dt><dd>{escape(b["key"])}</dd></div>
-        <div><dt>Where it has aged</dt><dd>{escape(b["aged"])}</dd></div>
+        {aged_row(b["aged"])}
       </dl>
       {take}
       <dl class="fields">
