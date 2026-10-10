@@ -1,67 +1,60 @@
 {
   "version": 1,
-  "run_id": "books-redesign",
-  "title": "Books section: all covers, shelf redesign, topic colours",
+  "run_id": "tools-research",
+  "title": "Tool opportunities: personas, store, ideas, web scan, ranking",
   "state": "finished",
-  "started": "2026-10-10T21:11+05:30",
+  "started": "2026-10-10T22:12+05:30",
   "steps": [
     {
       "n": 1,
-      "title": "Five covers",
+      "title": "Personas",
       "status": "done",
-      "note": "Five sample covers saved locally, page points at them, no external requests",
-      "time": "21:11"
+      "note": "Fourteen personas listed with their recurring small jobs",
+      "time": "22:12"
     },
     {
       "n": 2,
-      "title": "Fetch all covers",
+      "title": "Keyword store",
       "status": "done",
-      "note": "169 of 181 covers fetched, 12 without a cover",
-      "time": "21:39"
+      "note": "Store read: 1,592 tool-intent phrases pulled; most calculator phrases have no data yet",
+      "time": "22:12"
     },
     {
       "n": 3,
-      "title": "Read design skills",
+      "title": "Ideas",
       "status": "done",
-      "note": "Read the design skills: brief-led, code-led build of a Read surface on the site's existing world",
-      "time": "21:14"
+      "note": "82 ideas written with persona, job, in and out, repeat use, phrases, build hours, nearest tool",
+      "time": "22:24"
     },
     {
       "n": 4,
-      "title": "Direction",
+      "title": "Web scan",
       "status": "done",
-      "note": "Direction: tinted topic plates with the topic's real covers standing in a staggered trio; calm auto-fill grid",
-      "time": "21:14"
+      "note": "Web scan: 22 searches, top free tool and page-one shape noted for the twenty most promising",
+      "time": "22:14"
     },
     {
       "n": 5,
-      "title": "Shelf page",
+      "title": "Rank",
       "status": "done",
-      "note": "Shelf page: tinted topic plates with real covers, renamed Recommended books",
-      "time": "21:23"
+      "note": "Scored on five marks; launch ten, second ten, folds and parks chosen",
+      "time": "22:24"
     },
     {
       "n": 6,
-      "title": "Topic page colours",
+      "title": "Write",
       "status": "done",
-      "note": "Topic page: blue tint masthead and accents, cover accents, 3D covers with settle-in motion",
-      "time": "21:23"
+      "note": "Report, CSV, paid-check list and the board written; explainers README updated",
+      "time": "22:25"
     },
     {
       "n": 7,
-      "title": "Rebuild and checks",
-      "status": "done",
-      "note": "Checks clear: one h1, alt on every image, no overflow 375 to 1440, no external requests, links resolve, HTTP 200",
-      "time": "21:41"
-    },
-    {
-      "n": 8,
       "title": "Finished",
       "status": "done",
-      "note": "Finished: shelf and topic page rebuilt with multicolour spine mastheads, covers, tints",
-      "time": "21:43"
+      "note": "Finished: 82 ideas, launch ten chosen, paid check 199 phrases about $0.23",
+      "time": "22:25"
     }
   ],
-  "note": "Finished: shelf and topic page rebuilt with multicolour spine mastheads, covers, tints",
-  "updated": "2026-10-10T21:43+05:30"
+  "note": "Finished: 82 ideas, launch ten chosen, paid check 199 phrases about $0.23",
+  "updated": "2026-10-10T22:25+05:30"
 }

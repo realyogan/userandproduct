@@ -83,3 +83,9 @@ short sentences, with simple charts and diagrams.
   candidate pool per page; a mock of one topic page; the drip and why a real change moves the date; the rules; what we
   build and a decisions box (the order, the swap of UX research in for personal development, the title angle for
   leadership, business and psychology). Five figures on the teal tint with the dot grid and the lockup.
+- [tools-opportunities-2026-10-10.html](http://localhost/user-and-product/research/explainers/tools-opportunities-2026-10-10.html):
+  the tools research for launch: the ten tools to build first as cards (who it is for, the job, what you type, what you
+  get, why they come back, the closest free tool and how ours differs, the search evidence), the second ten for the drip
+  with the folds and parks, what one tool page holds, all 82 ideas grouped by the person they serve, the fourteen personas
+  and their small jobs, how the ideas were scored, and the paid check (199 phrases, about $0.23) waiting for the owner's go.
+  Data in `research/tools/opportunities-2026-10-10.md` and `.csv`, phrases in `research/tools/paid-check-phrases-2026-10-10.csv`.
