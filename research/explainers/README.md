@@ -73,3 +73,13 @@ short sentences, with simple charts and diagrams.
   why it is on the list with the backing reading lists as links, the aged note, the second home and an article-potential
   line, one per canon book). Filters for the canon only and for hiding aged books, expand and collapse all, and mapping
   notes at the bottom. Data in `research/books/candidates-2026-10-10.csv`.
+- [books-section-plan-2026-10-10.html](http://localhost/user-and-product/research/explainers/books-section-plan-2026-10-10.html):
+  the Books section plan, a pitch for the owner to decide on. Ten numbered sections: the one-screen version; what the
+  shelf is for (honest curation: who a book is for and who should skip it, where it has aged, the owner's take only on
+  books he has read, labeled); the three levels (shelf page with intro and tiles, topic pages holding the books as
+  sections, category hubs showing three books; no page per book, no tag archives); why topic pages and not book pages;
+  the sixteen topics by demand and openness as a chart (the big three are general searches that need an angle); the
+  launch ten with title tag, meta and character counts, the two-a-month plan for the other six and the forty as the
+  candidate pool per page; a mock of one topic page; the drip and why a real change moves the date; the rules; what we
+  build and a decisions box (the order, the swap of UX research in for personal development, the title angle for
+  leadership, business and psychology). Five figures on the teal tint with the dot grid and the lockup.

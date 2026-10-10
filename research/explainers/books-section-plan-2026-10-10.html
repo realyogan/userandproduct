@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Books section plan</title>
+<style>
+/* Satoshi from the mockups folder (local file, no external request); system fonts if it is missing */
+@font-face{font-family:"Satoshi";src:url("../mockups/fonts/satoshi/Satoshi-Variable.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+/* tokens: research/mockups/mockup.css, light and dark */
+:root{
+  color-scheme:light;
+  --paper:#FFFFFF; --ink:#0B0B0C; --ink-2:#3A3A40; --ink-3:#62626A; --rule:#E3E3E6;
+  --signal:#2B46A0; --signal-ink:#FFFFFF; --signal-wash:#EEF1FA; --panel:#F6F6F7; --focus:#2B46A0;
+  --ad-line:#A2A2AA;
+  --font-ui:"Satoshi",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --tracking-body:.03em; --tracking-ui:.01em;
+  --fs-meta:14px; --fs-ui:15px; --fs-body:18px; --fs-lead:21px; --fs-h3:21px; --fs-h2:30px; --fs-h1:52px;
+  --radius:6px; --gutter:16px;
+}
+@media (min-width:768px){:root{--gutter:40px}}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0B0B0C; --ink:#F1EEE7; --ink-2:#CFCCC5; --ink-3:#A09E97; --rule:#26262B;
+    --signal:#8EA2FF; --signal-ink:#0B0B0C; --signal-wash:#12162A; --panel:#141416; --focus:#8EA2FF; --ad-line:#5A5A62;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0B0B0C; --ink:#F1EEE7; --ink-2:#CFCCC5; --ink-3:#A09E97; --rule:#26262B;
+  --signal:#8EA2FF; --signal-ink:#0B0B0C; --signal-wash:#12162A; --panel:#141416; --focus:#8EA2FF; --ad-line:#5A5A62;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);overflow-x:hidden;overflow-wrap:break-word;
+  font:400 17px/1.6 var(--font-ui);letter-spacing:var(--tracking-body);-webkit-font-smoothing:antialiased}
+@media (min-width:768px){body{font-size:var(--fs-body)}}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:var(--radius);z-index:9}
+.skip:focus{left:16px}
+.wrap{max-width:50rem;margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{font-family:var(--font-ui);line-height:1.2;letter-spacing:-.01em;margin:0;color:var(--ink);text-wrap:balance}
+h1{font-size:clamp(2rem,6vw,var(--fs-h1));font-weight:700}
+h2{font-size:clamp(1.35rem,3.6vw,var(--fs-h2));font-weight:700;margin:0 0 12px}
+h3{font-size:1.1rem;font-weight:750;margin:22px 0 8px}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:1.3em}
+li{margin:0 0 6px}
+a{color:var(--signal);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:2px}
+code{font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.86em;background:var(--panel);border:1px solid var(--rule);
+  border-radius:4px;padding:.05em .35em;overflow-wrap:anywhere;letter-spacing:0}
+.muted{color:var(--ink-3)}
+
+header.top{padding-top:40px}
+.toprow{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.theme{flex:none;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);
+  font:600 .85rem/1.3 var(--font-ui);cursor:pointer;margin-top:8px}
+.theme:hover{border-color:var(--signal);color:var(--signal)}
+.answer{font-size:var(--fs-lead);color:var(--ink-2);margin:14px 0 6px;line-height:1.5}
+.date{color:var(--ink-3);font-size:.92rem;margin:0 0 6px}
+.hand{font-weight:700;color:var(--signal);font-size:1.05rem;margin:10px 0 0}
+
+.summary{background:var(--panel);border:1px solid var(--rule);border-top:4px solid var(--signal);border-radius:var(--radius);padding:16px 20px 6px;margin:24px 0 0}
+.summary h2{font-size:1.25rem;margin:0 0 8px}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:6px 0 14px}
+@media (max-width:520px){.stats{grid-template-columns:minmax(0,1fr)}}
+.stat{background:var(--signal-wash);border-radius:var(--radius);padding:10px 14px;min-width:0}
+.stat b{display:block;font-size:1.35rem;line-height:1.2}
+.stat span{font-size:.92rem;color:var(--ink-2)}
+
+nav.toc{border:1px solid var(--rule);border-radius:var(--radius);padding:14px 20px;margin:18px 0 0}
+nav.toc h2{font-size:1rem;margin:0 0 6px}
+nav.toc ol{margin:0;padding-left:1.4em;columns:2 15rem;column-gap:24px;font-size:.98rem}
+nav.toc li{margin:2px 0;break-inside:avoid}
+
+.block{margin:48px 0 0;scroll-margin-top:16px}
+.lead{font-size:1.08rem}
+.fig{margin:18px 0}
+.fig svg.f{display:block;width:100%;height:auto;border-radius:var(--radius)}
+.fig figcaption{margin-top:10px;color:var(--ink-2);font-size:.95rem}
+.fig figcaption b{color:var(--ink)}
+@media (max-width:520px){.fig{margin-left:calc(-1 * var(--gutter));margin-right:calc(-1 * var(--gutter))}
+  .fig svg.f{border-radius:0} .fig figcaption{padding:0 var(--gutter)}}
+/* figure type: fixed colors, the tint ground is the same in both themes */
+svg.f text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;fill:#1D1B16;letter-spacing:0}
+svg.f .l{font-size:27px;font-weight:500}
+svg.f .ls{font-size:27px;font-weight:600}
+svg.f .h{font-size:30px;font-weight:700}
+svg.f .n{font-size:24px;font-weight:400;fill:#5F5B52}
+svg.f .wt{fill:#FFFFFF}
+svg.f .lk{fill:#1E6862}
+svg.f .bx{fill:#FDFCF8;stroke:#1D1B16;stroke-width:2.5}
+svg.f .ln{fill:none;stroke:#1D1B16;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+svg.f .dash{stroke-dasharray:10 8}
+svg.f .lead-ln{fill:none;stroke:#5F5B52;stroke-width:2.5;stroke-dasharray:4 6}
+svg.f .tb{fill:#85827A}
+svg.f .hA{fill:#88DDD6;stroke:#1D1B16;stroke-width:2.5}
+svg.f .hB{fill:#257E77}
+svg.f .barL{fill:#257E77}
+svg.f .barF{fill:#FDFCF8;stroke:#1D1B16;stroke-width:2.5}
+svg.f .grid{stroke:#1D1B16;stroke-opacity:.22;stroke-width:2}
+
+.irl{background:var(--panel);border-left:4px solid var(--ink-3);border-radius:0 var(--radius) var(--radius) 0;padding:12px 18px 4px;margin:14px 0}
+.irl h3{margin:0 0 6px;font-size:1rem}
+.irl ul{padding-left:1.1em}
+.rulebox{border-left:4px solid var(--signal);background:var(--signal-wash);border-radius:0 var(--radius) var(--radius) 0;padding:10px 16px;margin:18px 0 0;font-weight:600}
+.rulebox b{color:var(--signal);margin-right:6px}
+.example{border:1px dashed var(--ad-line);border-radius:var(--radius);padding:12px 16px;margin:12px 0}
+.example .tag{display:block;font-size:.8rem;font-weight:700;color:var(--ink-3);margin:0 0 6px;letter-spacing:var(--tracking-ui)}
+.example p:last-child{margin-bottom:0}
+.flag{color:var(--ink-3);font-size:.92rem}
+
+/* tables: a table on wide screens, stacked cards on phones */
+.tablebox{margin:14px 0}
+table.t{width:100%;border-collapse:collapse;font-size:.92rem;letter-spacing:var(--tracking-ui)}
+table.t th,table.t td{text-align:left;vertical-align:top;padding:9px 10px;border-top:1px solid var(--rule)}
+table.t th{font-weight:700;background:var(--panel);border-top:0}
+table.t td.num{white-space:nowrap}
+table.t .ch{color:var(--ink-3);font-size:.85rem;white-space:nowrap}
+@media (max-width:760px){
+  table.t,table.t tbody,table.t tr,table.t td{display:block;width:100%}
+  table.t thead{display:none}
+  table.t tr{border:1px solid var(--rule);border-radius:var(--radius);padding:6px 14px;margin:0 0 10px}
+  table.t td{display:grid;grid-template-columns:minmax(0,6.5rem) minmax(0,1fr);gap:10px;padding:6px 0;border-top:1px solid var(--rule)}
+  table.t td:first-child{border-top:0;display:block;font-weight:700;font-size:1.02rem}
+  table.t td::before{content:attr(data-label);font-weight:600;color:var(--ink-3)}
+  table.t td:first-child::before{content:none}
+  table.t td.num{white-space:normal}
+}
+.pool{list-style:none;padding:0;margin:0 0 14px}
+.pool li{padding:8px 0;border-top:1px solid var(--rule);margin:0}
+.pool li b{display:inline}
+.pool .c{color:var(--ink-3);font-size:.9rem}
+
+.decide{border:2px solid var(--signal);border-radius:var(--radius);padding:16px 20px 6px;margin:28px 0 0}
+.decide h2{font-size:1.25rem;margin:0 0 10px}
+.decide ol > li{margin-bottom:10px}
+footer{border-top:1px solid var(--rule);margin-top:48px;padding:22px 0 56px;font-size:.9rem;color:var(--ink-2)}
+footer ul{padding-left:1.1em}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1.9" fill="#1D1B16" fill-opacity=".13"/></pattern>
+<marker id="ah" viewBox="0 0 14 14" refX="12" refY="7" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 0L14 7L0 14z" fill="#1D1B16"/></marker>
+<symbol id="lockup" viewBox="-4 -86 885.6 110.4"><g transform="translate(-5.1 -87.1) scale(0.0584)"><path fill="#1D1B16" fill-rule="evenodd" d="M960 88a872 872 0 0 1 872 872a872 872 0 0 1-872 872a872 872 0 0 1-872-872a872 872 0 0 1 872-872ZM1595.8,1298.3c46.5-46.8,41.8-123.9-10.2-164.4-142.3-110.7-308-177.5-479-200.5h-.1c-267.4-36-547.8,35-772.4,212.3-51.6,40.8-55.8,117.6-9.3,164.1l130.3,130.3c38.5,38.5,99.6,43.6,143.5,11.2,214.8-158.6,507.6-161,720.2-6,43.8,31.9,104.4,26.8,142.6-11.7l134.5-135.4ZM1176.4,429.5l-138.2-138.2c-41.9-41.9-109.9-41.9-151.9,0l-142.2,142.2c-41.9,41.9-41.9,109.9,0,151.9l138.2,138.2c41.9,41.9,109.9,41.9,151.8,0l142.3-142.2c42-41.9,42-109.9,0-151.9Z"/></g><path fill="#1D1B16" transform="translate(142.6 0)" d="m337.2 1.1q-6.8 0-11.8-3.4q-5-3.4-7.8-9.5q-2.8-6-2.8-14q0-7.9 2.8-14q2.9-6 7.9-9.4q5-3.4 11.6-3.4q4.9 0 8.8 2q3.9 2 6.3 6.2l0.1 0l0-28.4l14.4 0l0 72.8l-14.2 0l0-7.9l-0.1 0q-2.2 4.5-6.2 6.7q-4 2.3-9 2.3zm214.4 0q-6.7 0-11.8-3.4q-5-3.4-7.8-9.5q-2.7-6-2.7-14q0-7.9 2.8-14q2.8-6 7.8-9.4q5-3.4 11.6-3.4q5 0 8.9 2q3.8 2 6.3 6.2l0 0l0-28.4l14.4 0l0 72.8l-14.2 0l0-7.9l0 0q-2.3 4.5-6.3 6.7q-3.9 2.3-9 2.3zm-174.7 19.3l0-72l14.2 0l0 7l0.1 0q2.4-4 6.4-6q3.9-2 8.9-2q6.6 0 11.6 3.4q5 3.4 7.8 9.4q2.8 6.1 2.8 14q0 8-2.8 14q-2.8 6.1-7.8 9.5q-5 3.4-11.7 3.4q-10.5 0-15-8.8l-0.1 0l0 28.1zm120.5-19.2q-7.8 0-13.7-3.4q-5.9-3.4-9.2-9.4q-3.3-6-3.3-14.1q0-8.1 3.3-14.1q3.3-6.1 9.2-9.5q5.9-3.4 13.7-3.4q7.9 0 13.8 3.4q5.8 3.4 9.1 9.5q3.3 6 3.3 14.1q0 8-3.3 14.1q-3.3 6-9.1 9.4q-5.9 3.4-13.8 3.4zm-278.4-0.3q-7.7 0-12.7-3.9q-5-3.8-5-11.6q0-5.8 2.8-9.1q2.8-3.3 7.4-4.8q4.6-1.5 9.9-2q7.1-0.7 10-1.5q2.8-0.7 2.8-3.2l0-0.3q0-2.8-2.2-4.6q-2.3-1.8-6.3-1.8q-4 0-6.5 1.9q-2.5 1.8-2.7 4.7l-13.5 0q0.5-7.9 6.6-12.6q6-4.7 16.6-4.7q10.6 0 16.4 4.7q5.8 4.7 5.8 12.9l0 35l-14.1 0l0-7.3l-0.2 0q-2 3.8-5.5 6q-3.6 2.2-9.6 2.2zm-84.9 0.3q-7.8 0-13.6-3.5q-5.8-3.5-9-9.5q-3.2-6.1-3.2-13.9q0-7.9 3.3-14q3.2-6.1 8.9-9.5q5.7-3.5 13.1-3.5q7.6 0 13.3 3.4q5.7 3.4 8.9 9.4q3.2 6 3.2 13.9l0 3.8l-36.7 0q0.2 5.7 3.4 9.2q3.2 3.4 8.8 3.4q4.2 0 7-1.8q2.8-1.8 3.8-4.8l13.1 0q-0.9 5.1-4.3 9q-3.4 3.9-8.6 6.2q-5.2 2.2-11.4 2.2zm138.8-29.9l0 28.7l-14.4 0l0-51.6l14.2 0l0 8.1q2.6-4.4 6.6-6.7q4-2.4 9.5-2.4q8.2 0 13.2 5.3q4.9 5.3 4.9 15l0 32.3l-14.4 0l0-29.6q0-5.2-2.5-7.9q-2.5-2.7-6.9-2.7q-4.5 0-7.3 2.8q-2.9 2.7-2.9 8.7zm-254.8 29.8q-8.2 0-13.1-5.3q-5-5.3-5-15.1l0-32.3l14.4 0l0 29.7q0 5.2 2.4 7.9q2.5 2.7 7.1 2.7q4.4 0 7.3-2.8q2.8-2.8 2.8-8.8l0-28.7l14.3 0l0 51.6l-14.1 0l0-8.1q-2.6 4.4-6.6 6.8q-3.9 2.4-9.5 2.4zm591.3 0q-8.2 0-13.2-5.3q-4.9-5.3-4.9-15.1l0-32.3l14.4 0l0 29.7q0 5.2 2.5 7.9q2.4 2.7 7 2.7q4.4 0 7.2-2.8q2.9-2.8 2.9-8.8l0-28.7l14.3 0l0 51.6l-14.1 0l0-8.1q-2.6 4.4-6.5 6.8q-4 2.4-9.6 2.4zm-529.4 0.2q-10.1 0-16.6-4.6q-6.6-4.6-7.3-12.9l14.2 0q0.4 3.4 2.8 5.3q2.4 1.9 6.6 1.9q4 0 6.3-1.6q2.3-1.5 2.3-3.9q0-2-1.7-3.3q-1.8-1.2-5-1.8l-9-1.8q-15.3-2.9-15.3-15q0-7.4 5.9-11.8q5.9-4.4 16-4.4q10 0 16.1 4.6q6.1 4.7 6.3 12.8l-13.4 0q0-3.1-2.4-5.2q-2.5-2-6.3-2q-3.7 0-5.8 1.6q-2.1 1.5-2.1 3.8q0 2 1.6 3.3q1.7 1.3 4.7 1.9l9.7 1.9q7.9 1.5 11.6 4.9q3.6 3.5 3.6 9.2q0 5.2-2.9 9q-2.9 3.8-8.1 6q-5.1 2.1-11.8 2.1zm593.5-0.1q-7.8 0-13.6-3.4q-5.8-3.4-9.1-9.5q-3.2-6.1-3.2-14q0-8 3.2-14.1q3.3-6.1 9.1-9.5q5.8-3.4 13.6-3.4q6.8 0 12.1 2.6q5.3 2.6 8.5 7.2q3.2 4.6 3.6 10.6l-13.9 0q-0.6-3.9-3.2-6.3q-2.6-2.5-6.9-2.5q-5.4 0-8.5 4.1q-3.1 4.2-3.1 11.3q0 7 3.1 11.1q3.1 4.2 8.5 4.2q4.3 0 6.8-2.4q2.5-2.5 3.2-6.6l14 0q-0.3 6-3.5 10.6q-3.1 4.6-8.4 7.3q-5.4 2.7-12.3 2.7zm61.5-52.8l0 11.3l-10.5 0l0 24.4q0 2.6 1.1 3.6q1 1 3.9 1l5.5 0l0 11.3l-8.4 0q-8.5 0-12.5-3.3q-4-3.3-4-10.4l0-26.6l-8.9 0l0-11.3l8.9 0l0-14l14.4 0l0 14zm-568.3 51.6l0-51.6l13.9 0l0 8.8l0.1 0q1.4-4.6 4.5-6.8q3-2.3 8.1-2.3q1.3 0 2.3 0.1q1.1 0 2 0l0 12.2q-0.8 0-2.6-0.1q-1.8-0.1-3.6-0.1q-4.5 0-7.4 3q-2.9 3.1-2.9 8.9l0 27.9zm269.9 0l0-51.6l13.9 0l0 8.8l0.1 0q1.5-4.6 4.5-6.8q3-2.3 8.1-2.3q1.3 0 2.4 0.1q1 0 1.9 0l0 12.2q-0.8 0-2.6-0.1q-1.8-0.1-3.6-0.1q-4.5 0-7.4 3q-2.9 3.1-2.9 8.9l0 27.9zm-33.9-10.6q5.2 0 8.3-4q3.2-4 3.2-11.2q0-7.3-3.2-11.2q-3.1-4-8.3-4q-5.5 0-8.8 4.2q-3.3 4.1-3.3 11q0 6.9 3.3 11q3.3 4.2 8.8 4.2zm-61.8 0q5.4 0 8.7-4.2q3.4-4.1 3.4-11q0-6.9-3.4-11q-3.3-4.2-8.7-4.2q-5.3 0-8.5 4q-3.1 3.9-3.1 11.2q0 7.2 3.1 11.2q3.2 4 8.5 4zm214.4 0q5.5 0 8.8-4.2q3.3-4.1 3.3-11q0-6.9-3.3-11q-3.3-4.2-8.8-4.2q-5.2 0-8.3 4q-3.2 3.9-3.2 11.2q0 7.2 3.2 11.2q3.1 4 8.3 4zm-57.9 0.1q5.3 0 8.5-4.1q3.2-4 3.2-11.1q0-7.3-3.2-11.3q-3.2-4.1-8.5-4.1q-5.2 0-8.4 4.1q-3.3 4-3.3 11.3q0 7.1 3.3 11.1q3.2 4.1 8.4 4.1zm-274.4 1.4q5.2 0 8.2-2.7q3.1-2.8 3.1-7l0-5.2q-1.2 0.7-4.1 1.2q-2.8 0.6-6.3 1.1q-3.7 0.6-6.3 2.1q-2.5 1.6-2.5 4.7q0 2.7 2.1 4.3q2.2 1.5 5.8 1.5zm-100.6-22.2l23 0q-0.5-4.9-3.6-7.7q-3-2.8-7.9-2.8q-4.8 0-7.9 2.8q-3 2.8-3.6 7.7z"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">Skip to the plan</a>
+
+<header class="top wrap">
+<div class="toprow">
+<h1>The Books section: the plan</h1>
+<button class="theme" type="button" id="themebtn" aria-label="Switch color theme">Theme: auto</button>
+</div>
+<p class="answer">Ten topic pages at launch, each one a short, honest list of the four to six books worth reading on one subject. One shelf page leads to them. No book gets a page of its own. Six more topic pages follow, two a month. Three calls are yours to make, listed at the end.</p>
+<p class="date">October 10, 2026. A proposal: nothing on this page is built yet.</p>
+<p class="hand">Think of the section as a small bookshop where every book on the shelf has a staff card under it.</p>
+
+<section class="summary block" id="s1" aria-labelledby="h1s">
+<h2 id="h1s">1. The one-screen version</h2>
+<ul>
+<li><b>What it is for:</b> curation. Each book gets who it is for, who should skip it, the part that matters and where it has aged. Your own take appears only on books you have read, and it is labeled.</li>
+<li><b>Three levels:</b> the shelf page (an intro and one tile per topic), the topic pages (the books as sections), and the category hubs (three books and a link).</li>
+<li><b>Topic pages, not book pages:</b> a search for a book's title is a shopping search, and the store answers it. A search like &#8220;ux books&#8221; is open, and small sites rank there.</li>
+<li><b>The launch ten,</b> in order: product management, UX design, UI design, project management, product metrics, product discovery, UX research, psychology, startups and business, leading product teams.</li>
+<li><b>The big three need an angle.</b> Leadership, business and personal development are big because the searches are general. Each title names its reader, or the page is one more list behind Harvard Business Review and the bookstores.</li>
+<li><b>Then two a month</b> for three months, until all sixteen are live. Adding a book is a real change, so the page's date moves, and that is fine with Google.</li>
+</ul>
+<div class="stats">
+<div class="stat"><b>10 pages</b><span>at launch, 16 after three months of two a month.</span></div>
+<div class="stat"><b>4 to 6 books</b><span>on each topic page. The forty from the shelf proposal are the pool to cut from.</span></div>
+<div class="stat"><b>0 book pages</b><span>and no tag or author archives. Every book lives inside one topic page.</span></div>
+<div class="stat"><b>$0.068</b><span>spent on the search data behind this plan (90 phrases, 18 page-one pulls).</span></div>
+</div>
+<p>Read sections 5 and 6 if you read nothing else: the demand data and the ten titles you are asked to approve.</p>
+<p class="rulebox"><b>Rule</b> One page per topic, four to six honest entries, and the angle in the title.</p>
+</section>
+
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#s1">The one-screen version</a></li>
+<li><a href="#s2">What the shelf is for</a></li>
+<li><a href="#s3">Three levels: shelf, topic, hub</a></li>
+<li><a href="#s4">Why topic pages and not book pages</a></li>
+<li><a href="#s5">The sixteen topics by demand</a></li>
+<li><a href="#s6">The launch ten, with titles</a></li>
+<li><a href="#s7">What one topic page holds</a></li>
+<li><a href="#s8">The drip, and why updating is fine</a></li>
+<li><a href="#s9">The rules it follows</a></li>
+<li><a href="#s10">What we build, and what you decide</a></li>
+</ol>
+</nav>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+<!-- 2 -->
+<section class="block" id="s2" aria-labelledby="h2s">
+<h2 id="h2s">2. What the shelf is for: honest curation</h2>
+<p class="lead">The shelf saves a reader from buying the wrong book. That is the whole job. The line that does it most is the one on who should skip a book.</p>
+<p>Every entry answers the same questions a good bookseller answers at the counter. Who is this for? Who will find it slow or beside the point? Which chapters matter for someone who builds products? Where has it aged: a dated tool, a benchmark from 2013, a study that did not hold up?</p>
+<p>Your own take goes only on books you have read. It sits in its own labeled box, so a reader can tell your reading apart from the general entry. On the other books, the entry says plainly where the pick comes from: &#8220;the standard reference for interview technique&#8221;, or &#8220;on most product reading lists we checked&#8221;.</p>
+<div class="example">
+<span class="tag">Two entries, side by side (shape only; the wording comes later)</span>
+<p><b>A book you have read.</b> What it covers, who it is for, who should skip it, where it has aged. Then a box headed <b>From my own reading</b>: [OWNER: what you took from it, and the chapter you would send a new PM to].</p>
+<p><b>A book you have not read.</b> The same four parts, written from the book and the lists that recommend it. No first-person line, no box.</p>
+</div>
+<p>Why the split matters: Google's raters mark down claims of personal experience that a page cannot back up. A shelf that says &#8220;I read this&#8221; on forty books would be the one thing on the site that is not true. The shelf grows honestly instead: when you read a book, its entry gains your box.</p>
+<p>The data supports a personal list. On the 12 book searches we pulled in October, practitioner lists ranked well: Ken Norton's personal site was on page one for three of them. No large design or business publication (Smashing Magazine, Nielsen Norman Group, Harvard Business Review) ranked on any.</p>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The staff card:</b> the book's entry on its topic page (covers, for whom, skip if, the part that matters, aged).</li>
+<li><b>A card signed by the owner of the shop:</b> the labeled &#8220;From my own reading&#8221; box, only on books you have read.</li>
+<li><b>An unsigned card:</b> an entry that names where the pick comes from, with no first-person line.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> Say who should skip the book. Speak in the first person only about books you have read.</p>
+</section>
+
+<!-- 3 -->
+<section class="block" id="s3" aria-labelledby="h3s">
+<h2 id="h3s">3. Three levels: shelf, topic, hub</h2>
+<p class="lead">The section has three kinds of page. Only one of them holds the books. The other two point at it.</p>
+<figure class="fig">
+<svg class="f" viewBox="0 0 1200 675" role="img" aria-labelledby="f1t">
+<title id="f1t">Three page drawings side by side. Left, the shelf: a short intro, then tiles grouped under Design, Product and Business. Middle, a topic page called Books on UX design: an intro, then four book sections, each with a cover and text. Right, a category hub for UX design: a list of articles, three book covers and a link that reads All UX design books. An arrow runs from a shelf tile to the topic page, and another from the hub's link to the topic page.</title>
+<rect width="1200" height="675" fill="#D7F0EE"/><rect width="1200" height="675" fill="url(#dots)"/>
+<text x="72" y="96" class="ls">1. The shelf</text>
+<text x="72" y="132" class="n">intro + a tile per topic</text>
+<rect x="72" y="160" width="320" height="415" rx="4" class="bx"/>
+<text x="96" y="205" class="ls">Books</text>
+<rect x="96" y="225" width="272" height="10" rx="5" class="tb"/>
+<rect x="96" y="245" width="232" height="10" rx="5" class="tb"/>
+<text x="96" y="300" class="n">Design</text>
+<rect x="96" y="314" width="80" height="50" rx="4" fill="#88DDD6" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="192" y="314" width="80" height="50" rx="4" fill="#FFE066" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="288" y="314" width="80" height="50" rx="4" fill="#EE7792" stroke="#1D1B16" stroke-width="2.5"/>
+<text x="96" y="400" class="n">Product</text>
+<rect x="96" y="414" width="80" height="50" rx="4" fill="#75A7F0" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="192" y="414" width="80" height="50" rx="4" fill="#97DD88" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="288" y="414" width="80" height="50" rx="4" fill="#A585E0" stroke="#1D1B16" stroke-width="2.5"/>
+<text x="96" y="500" class="n">Business</text>
+<rect x="96" y="514" width="80" height="44" rx="4" fill="#F9A86C" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="192" y="514" width="80" height="44" rx="4" fill="#88ACDD" stroke="#1D1B16" stroke-width="2.5"/>
+<rect x="288" y="514" width="80" height="44" rx="4" fill="#88DDD6" stroke="#1D1B16" stroke-width="2.5"/>
+<path class="ln" d="M368 339H420V300H436" marker-end="url(#ah)"/>
+
+<text x="440" y="96" class="ls">2. A topic page</text>
+<text x="440" y="132" class="n">one section per book</text>
+<rect x="440" y="160" width="320" height="415" rx="4" class="bx"/>
+<text x="464" y="205" class="ls">Books on UX design</text>
+<rect x="464" y="225" width="272" height="10" rx="5" class="tb"/>
+<rect x="464" y="245" width="200" height="10" rx="5" class="tb"/>
+<g>
+<rect x="464" y="280" width="272" height="62" rx="4" class="bx"/><rect x="476" y="288" width="34" height="46" rx="2" class="hB"/><rect x="524" y="298" width="190" height="10" rx="5" class="tb"/><rect x="524" y="318" width="140" height="10" rx="5" class="tb"/>
+<rect x="464" y="352" width="272" height="62" rx="4" class="bx"/><rect x="476" y="360" width="34" height="46" rx="2" class="hB"/><rect x="524" y="370" width="190" height="10" rx="5" class="tb"/><rect x="524" y="390" width="160" height="10" rx="5" class="tb"/>
+<rect x="464" y="424" width="272" height="62" rx="4" class="bx"/><rect x="476" y="432" width="34" height="46" rx="2" class="hB"/><rect x="524" y="442" width="190" height="10" rx="5" class="tb"/><rect x="524" y="462" width="120" height="10" rx="5" class="tb"/>
+<rect x="464" y="496" width="272" height="62" rx="4" class="bx"/><rect x="476" y="504" width="34" height="46" rx="2" class="hB"/><rect x="524" y="514" width="190" height="10" rx="5" class="tb"/><rect x="524" y="534" width="150" height="10" rx="5" class="tb"/>
+</g>
+
+<text x="808" y="96" class="ls">3. A category hub</text>
+<text x="808" y="132" class="n">three books, then a link</text>
+<rect x="808" y="160" width="320" height="415" rx="4" class="bx"/>
+<text x="832" y="205" class="ls">UX design</text>
+<text x="832" y="245" class="n">Articles</text>
+<rect x="832" y="262" width="272" height="10" rx="5" class="tb"/>
+<rect x="832" y="286" width="250" height="10" rx="5" class="tb"/>
+<rect x="832" y="310" width="262" height="10" rx="5" class="tb"/>
+<text x="832" y="365" class="n">Books</text>
+<rect x="832" y="380" width="60" height="84" rx="2" class="hB"/>
+<rect x="912" y="380" width="60" height="84" rx="2" class="hB"/>
+<rect x="992" y="380" width="60" height="84" rx="2" class="hB"/>
+<text x="832" y="512" class="n lk">All UX design books</text>
+<line x1="832" y1="518" x2="1060" y2="518" stroke="#1E6862" stroke-width="2"/>
+<path class="ln" d="M824 505H794V540H764" marker-end="url(#ah)"/>
+<rect x="928" y="613" width="240" height="30" fill="#D7F0EE"/><use href="#lockup" x="928" y="613" width="240" height="30" opacity=".6"/>
+</svg>
+<figcaption><b>Figure 1. Look at the middle page.</b> It is the only one that holds the books. The shelf's tile and the hub's link both lead to it, so each book has one home and one address.</figcaption>
+</figure>
+<p><b>The shelf page</b> opens from the Books menu at <code>/books/</code>. It has a short intro in your voice: who the shelf is for, how it is grouped, and that a page says so where a book has dated. Then come the tiles, grouped Design, Product and Business. Each tile has a code-drawn thumbnail, the topic name and the count of books. No books are listed on the shelf itself.</p>
+<p><b>A topic page</b>, such as &#8220;Books on UX design&#8221;, holds four to six books as sections, in reading order. Section 7 shows one.</p>
+<p><b>The category hubs</b> are the pages that already hold everything on a subject: its articles, and later its tools. Each hub shows that subject's top three books and links to the topic page.</p>
+<p>Two things are left out on purpose. There is no page per book (section 4 says why), and there are no tag or author archives. Those archives would be thin lists that Google indexes and nobody needs.</p>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The shop window:</b> the shelf page, with its intro and tiles.</li>
+<li><b>One shelf in the shop:</b> one topic page, with the books in reading order.</li>
+<li><b>The &#8220;also on this subject&#8221; stand by the till:</b> the three books on each category hub.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> Books live on topic pages. The shelf and the hubs only point there.</p>
+</section>
+
+<!-- 4 -->
+<section class="block" id="s4" aria-labelledby="h4s">
+<h2 id="h4s">4. Why topic pages and not book pages</h2>
+<p class="lead">A topic search is a reader asking what to read. A book-title search is a buyer looking for the book. Our pages can win the first. The store wins the second, and should.</p>
+<figure class="fig">
+<svg class="f" viewBox="0 0 1200 675" role="img" aria-labelledby="f2t">
+<title id="f2t">Two searches compared. Left, a search for a book's title, with the results drawn as Amazon, Goodreads and the publisher. Right, a search for ux books, with the top three real results: reddit.com, then two small sites, johannesippen.com and dontpaniclabs.com, highlighted. Below, forty short page shapes labeled a page per book, beside ten tall page shapes labeled a page per topic.</title>
+<rect width="1200" height="675" fill="#D7F0EE"/><rect width="1200" height="675" fill="url(#dots)"/>
+<text x="72" y="96" class="ls">Search a book&#8217;s title</text>
+<rect x="72" y="116" width="488" height="52" rx="26" class="bx"/>
+<text x="100" y="151" class="n">the book&#8217;s title</text>
+<circle cx="522" cy="138" r="10" class="ln"/><path class="ln" d="M529 145L538 154"/>
+<rect x="72" y="188" width="488" height="42" rx="4" class="bx"/><text x="90" y="219" class="l">Amazon</text>
+<rect x="72" y="240" width="488" height="42" rx="4" class="bx"/><text x="90" y="271" class="l">Goodreads</text>
+<rect x="72" y="292" width="488" height="42" rx="4" class="bx"/><text x="90" y="323" class="l">the publisher</text>
+<text x="72" y="372" class="n">the store answers it</text>
+
+<text x="640" y="96" class="ls">Search a topic</text>
+<rect x="640" y="116" width="488" height="52" rx="26" class="bx"/>
+<text x="668" y="151" class="l">ux books</text>
+<circle cx="1090" cy="138" r="10" class="ln"/><path class="ln" d="M1097 145L1106 154"/>
+<rect x="640" y="188" width="488" height="42" rx="4" class="bx"/><text x="658" y="219" class="l">reddit.com</text>
+<rect x="640" y="240" width="488" height="42" rx="4" class="hA"/><text x="658" y="271" class="l">johannesippen.com</text>
+<rect x="640" y="292" width="488" height="42" rx="4" class="hA"/><text x="658" y="323" class="l">dontpaniclabs.com</text>
+<text x="640" y="372" class="n">3 small sites on page one</text>
+
+<line x1="72" y1="400" x2="1128" y2="400" class="ln dash"/>
+<text x="72" y="448" class="ls">A page per book: 40</text>
+<g class="thin">
+<rect x="72.0" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="96.4" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="120.8" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="145.2" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="169.6" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="194.0" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="218.4" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="242.8" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="267.2" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="291.6" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="316.0" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="340.4" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="364.8" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="389.2" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="413.6" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="438.0" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="462.4" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="486.8" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="511.2" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="535.6" y="468" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="72.0" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="96.4" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="120.8" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="145.2" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="169.6" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="194.0" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="218.4" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="242.8" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="267.2" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="291.6" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="316.0" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="340.4" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="364.8" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="389.2" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="413.6" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="438.0" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="462.4" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="486.8" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="511.2" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/><rect x="535.6" y="524" width="20" height="44" rx="2" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2"/>
+</g>
+<text x="640" y="448" class="ls">A page per topic: 10</text>
+<rect x="640.0" y="468" width="40" height="110" rx="3" class="hB"/><rect x="688.8" y="468" width="40" height="110" rx="3" class="hB"/><rect x="737.6" y="468" width="40" height="110" rx="3" class="hB"/><rect x="786.4" y="468" width="40" height="110" rx="3" class="hB"/><rect x="835.2" y="468" width="40" height="110" rx="3" class="hB"/><rect x="884.0" y="468" width="40" height="110" rx="3" class="hB"/><rect x="932.8" y="468" width="40" height="110" rx="3" class="hB"/><rect x="981.6" y="468" width="40" height="110" rx="3" class="hB"/><rect x="1030.4" y="468" width="40" height="110" rx="3" class="hB"/><rect x="1079.2" y="468" width="40" height="110" rx="3" class="hB"/>
+<rect x="928" y="613" width="240" height="30" fill="#D7F0EE"/><use href="#lockup" x="928" y="613" width="240" height="30" opacity=".6"/>
+</svg>
+<figcaption><b>Figure 2. Compare the two halves.</b> On top: the title search belongs to the store, while the topic search has room for small sites. Below: forty short pages, each up against the store, or ten deep ones aimed at open searches.</figcaption>
+</figure>
+<p>The right half is real data. For &#8220;ux books&#8221; (390 searches a month in the US), three of the nine ordinary results on October 8 were small editorial sites and two were forums. The left half is our reading, not a measurement: we did not pull page one for any book title. Amazon alone sat on page one for 11 of the 12 topic searches we did pull, so on a search for the book itself, the shop has the stronger claim.</p>
+<p>The second reason is depth. Forty book pages would each say a few hundred words about one book. That is a thin page in Google's terms, and forty of them look like a page factory. Ten topic pages each hold four to six books, the reading order and the links between them. One deep page per topic is also what a reader wants: the choice between books, not a page on one.</p>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>A title search:</b> &#8220;atomic design book&#8221; is the one in our data, 90 searches a month. That reader has already chosen.</li>
+<li><b>A topic search:</b> &#8220;ux books&#8221;, &#8220;product management books&#8221;, &#8220;okr books&#8221;. That reader is choosing.</li>
+<li><b>A thin page:</b> a page with little of its own to say, made mainly to catch a search.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> Aim at the search where the reader is still choosing.</p>
+</section>
+
+<!-- 5 -->
+<section class="block" id="s5" aria-labelledby="h5s">
+<h2 id="h5s">5. The sixteen topics by demand and openness</h2>
+<p class="lead">Demand runs from 24,360 searches a month for leadership books down to 20 for product discovery. Look at the bars first, then the circles on the right.</p>
+<figure class="fig">
+<svg class="f" viewBox="0 0 1200 1136" role="img" aria-labelledby="f3t"><title id="f3t">Bar chart of monthly US searches for sixteen book topics on a log scale, with a mark for how open page one is. Leadership and teams 24,360, hard. Startups and business 9,950, open. Project management 2,270, medium. Psychology 1,890, medium. Personal development 1,470, medium, after launch. Product management 990, medium. UX design 540, open. Product metrics 480, medium. Accessibility 420, hard, after launch. UI design 230, open. Growth and pricing 170, medium, after launch. UX research 150, medium. Design systems 80, medium, after launch. Product marketing 80, medium, after launch. Product strategy 40, hard, after launch. Product discovery 20, open.</title><rect width="1200" height="1136" fill="#D7F0EE"/><rect width="1200" height="1136" fill="url(#dots)"/><text x="72" y="96" class="ls">Searches a month, US</text><text x="72" y="130" class="n">core phrases; the scale grows by ten at each line</text><text x="1100" y="130" class="n" text-anchor="middle">page one</text><line x1="450.0" y1="162" x2="450.0" y2="910" class="grid"/><text x="450.0" y="942" class="n" text-anchor="middle">10</text><line x1="579.4" y1="162" x2="579.4" y2="910" class="grid"/><text x="579.4" y="942" class="n" text-anchor="middle">100</text><line x1="708.8" y1="162" x2="708.8" y2="910" class="grid"/><text x="708.8" y="942" class="n" text-anchor="middle">1,000</text><line x1="838.3" y1="162" x2="838.3" y2="910" class="grid"/><text x="838.3" y="942" class="n" text-anchor="middle">10,000</text><text x="72" y="202" class="l">Leadership and teams</text><rect x="450" y="179" width="438.3" height="28" rx="3" class="barL"/><text x="900.3" y="202" class="l">24,360</text><circle cx="1100" cy="193" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><text x="72" y="248" class="l">Startups and business</text><rect x="450" y="225" width="388.0" height="28" rx="3" class="barL"/><text x="850.0" y="248" class="l">9,950</text><circle cx="1100" cy="239" r="13" fill="#1D1B16"/><text x="72" y="294" class="l">Project management</text><rect x="450" y="271" width="304.9" height="28" rx="3" class="barL"/><text x="766.9" y="294" class="l">2,270</text><circle cx="1100" cy="285" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 273a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="340" class="l">Psychology</text><rect x="450" y="317" width="294.6" height="28" rx="3" class="barL"/><text x="756.6" y="340" class="l">1,890</text><circle cx="1100" cy="331" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 319a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="386" class="l">Personal development</text><rect x="450" y="363" width="280.5" height="28" rx="3" class="barF"/><text x="742.5" y="386" class="l">1,470</text><circle cx="1100" cy="377" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 365a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="432" class="l">Product management</text><rect x="450" y="409" width="258.3" height="28" rx="3" class="barL"/><text x="720.3" y="432" class="l">990</text><circle cx="1100" cy="423" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 411a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="478" class="l">UX design</text><rect x="450" y="455" width="224.2" height="28" rx="3" class="barL"/><text x="686.2" y="478" class="l">540</text><circle cx="1100" cy="469" r="13" fill="#1D1B16"/><text x="72" y="524" class="l">Product metrics</text><rect x="450" y="501" width="217.6" height="28" rx="3" class="barL"/><text x="679.6" y="524" class="l">480</text><circle cx="1100" cy="515" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 503a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="570" class="l">Accessibility</text><rect x="450" y="547" width="210.1" height="28" rx="3" class="barF"/><text x="672.1" y="570" class="l">420</text><circle cx="1100" cy="561" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><text x="72" y="616" class="l">UI design</text><rect x="450" y="593" width="176.2" height="28" rx="3" class="barL"/><text x="638.2" y="616" class="l">230</text><circle cx="1100" cy="607" r="13" fill="#1D1B16"/><text x="72" y="662" class="l">Growth and pricing</text><rect x="450" y="639" width="159.2" height="28" rx="3" class="barF"/><text x="621.2" y="662" class="l">170</text><circle cx="1100" cy="653" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 641a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="708" class="l">UX research</text><rect x="450" y="685" width="152.2" height="28" rx="3" class="barL"/><text x="614.2" y="708" class="l">150</text><circle cx="1100" cy="699" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 687a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="754" class="l">Design systems</text><rect x="450" y="731" width="116.9" height="28" rx="3" class="barF"/><text x="578.9" y="754" class="l">80</text><circle cx="1100" cy="745" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 733a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="800" class="l">Product marketing</text><rect x="450" y="777" width="116.9" height="28" rx="3" class="barF"/><text x="578.9" y="800" class="l">80</text><circle cx="1100" cy="791" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M1100 779a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="72" y="846" class="l">Product strategy</text><rect x="450" y="823" width="77.9" height="28" rx="3" class="barF"/><text x="539.9" y="846" class="l">40</text><circle cx="1100" cy="837" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><text x="72" y="892" class="l">Product discovery</text><rect x="450" y="869" width="39.0" height="28" rx="3" class="barL"/><text x="501.0" y="892" class="l">20</text><circle cx="1100" cy="883" r="13" fill="#1D1B16"/><rect x="72" y="976" width="44" height="28" rx="3" class="barL"/><text x="128" y="998" class="n">launch ten</text><rect x="280" y="976" width="44" height="28" rx="3" class="barF"/><text x="336" y="998" class="n">after launch</text><circle cx="85" cy="1040" r="13" fill="#1D1B16"/><text x="110" y="1048" class="n">open</text><circle cx="215" cy="1040" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><path d="M215 1028a12 12 0 0 1 0 24z" fill="#1D1B16"/><text x="240" y="1048" class="n">medium</text><circle cx="370" cy="1040" r="12" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5"/><text x="395" y="1048" class="n">hard: few small sites in the top ten</text><rect x="928" y="1074" width="240" height="30" fill="#D7F0EE"/><use href="#lockup" x="928" y="1074" width="240" height="30" opacity=".6"/></svg>
+<figcaption><b>Figure 3. The top bars are not the best bets.</b> Leadership and business lead on searches, but leadership has one of the hardest first pages. UI design, UX design and product discovery are small and open. Filled bars are the launch ten; white bars come after launch.</figcaption>
+</figure>
+<p>Three topics are big because their searches are general: leadership, business and personal development. &#8220;leadership books&#8221; alone has 14,800 searches a month, and those readers are school principals, coaches and new managers in every trade. Harvard Business Review, Harvard, the Center for Creative Leadership and the bookstores hold that first page. For &#8220;management books&#8221;, one result in the top ten was a small or weak site.</p>
+<p>Personal development has the same problem, worse. Its wide phrases (&#8220;self help books&#8221;, 60,500 a month) are consumer shelves we will not win, and none of the top ten for &#8220;productivity books&#8221; is a small editorial site.</p>
+<p>Business is the exception among the three. &#8220;startup books&#8221; has the most open first page of the big topics: founder blogs, Hacker News and Reddit. Its reported 8,100 a month carries a spike, though. The last few months ran 590 to 880, and the ranking uses 590.</p>
+<p>So the big pages get an angle: the title names the reader. &#8220;Leadership books for product leaders and managers&#8221; is a smaller search than &#8220;leadership books&#8221;. It is one we can be the best answer for. &#8220;books for new managers&#8221; (260 a month) is the winnable corner of that topic.</p>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>Searches a month:</b> Google Ads volume for the US, 90 phrases, pulled October 10. Near-identical phrases count once.</li>
+<li><b>Open:</b> five or more small editorial, forum or video results in the top ten. <b>Medium:</b> three or four. <b>Hard:</b> two or fewer.</li>
+<li><b>Every one of the 18 first pages shows an AI overview,</b> so it does not tell topics apart. Your reasons for each pick are the part a summary cannot copy.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> A big general search needs a title that names our reader.</p>
+</section>
+
+<!-- 6 -->
+<section class="block" id="s6" aria-labelledby="h6s">
+<h2 id="h6s">6. The launch ten, with their titles</h2>
+<p class="lead">The order weighs four things: demand, how open page one is, fit with the site, and how many good books we hold. The first three are core and open. Pages 4 to 7 are core, with medium demand or strong books. Pages 8 to 10 carry the biggest general demand and lean on the angle.</p>
+<p>The title tag leads with the search phrase, then the angle. The page heading is the plain name. The meta description says who the page is for and what it promises. The site name goes once at the end of the title tag.</p>
+<div class="tablebox">
+<table class="t">
+<thead><tr><th scope="col">#</th><th scope="col">Page heading</th><th scope="col">Title tag</th><th scope="col">Meta description</th><th scope="col">Searches</th></tr></thead>
+<tbody>
+<tr><td>1. Product management</td><td data-label="Heading">Books on product management</td><td data-label="Title"><span>Best product management books: what to read first, and what to skip <span class="ch">67 chars</span></span></td><td data-label="Meta"><span>The product management books worth your time, in reading order, with who each one is for and where it has aged.</span></td><td data-label="Searches" class="num">990, medium</td></tr>
+<tr><td>2. UX design</td><td data-label="Heading">Books on UX design</td><td data-label="Title"><span>Best UX design books, in the order to read them <span class="ch">47 chars</span></span></td><td data-label="Meta"><span>UX design books for designers and product people: the classics that still hold, the ones that aged, and where to start.</span></td><td data-label="Searches" class="num">540, open</td></tr>
+<tr><td>3. UI design</td><td data-label="Heading">Books on UI design</td><td data-label="Title"><span>Best UI design books for product teams <span class="ch">38 chars</span></span></td><td data-label="Meta"><span>The UI and visual design books that teach the craft, with who should read each and which parts matter most.</span></td><td data-label="Searches" class="num">230, most open</td></tr>
+<tr><td>4. Project management</td><td data-label="Heading">Books on project management and delivery</td><td data-label="Title"><span>Best project management books for product teams <span class="ch">47 chars</span></span></td><td data-label="Meta"><span>Project management and delivery books for people who ship software: what to read first, what to skip.</span></td><td data-label="Searches" class="num">2,270, medium</td></tr>
+<tr><td>5. Product metrics</td><td data-label="Heading">Books on product metrics</td><td data-label="Title"><span>Best product metrics and analytics books (and OKRs) <span class="ch">51 chars</span></span></td><td data-label="Meta"><span>Books on measuring products, analytics, experiments and OKRs, with where each one&#8217;s numbers have dated.</span></td><td data-label="Searches" class="num">480, medium</td></tr>
+<tr><td>6. Product discovery</td><td data-label="Heading">Books on product discovery</td><td data-label="Title"><span>Best product discovery books: interviews, jobs to be done, testing ideas <span class="ch">72 chars</span></span></td><td data-label="Meta"><span>The discovery books product managers and designers actually use, in reading order, and who each is for. <span class="flag">(&#8220;actually&#8221; is on the house banned list; drop it.)</span></span></td><td data-label="Searches" class="num">20, open</td></tr>
+<tr><td>7. UX research</td><td data-label="Heading">Books on UX research</td><td data-label="Title"><span>Best UX research books for teams without a researcher <span class="ch">53 chars</span></span></td><td data-label="Meta"><span>UX research books that get you running studies: interviews, usability tests, surveys, and what to skip.</span></td><td data-label="Searches" class="num">150, medium</td></tr>
+<tr><td>8. Psychology</td><td data-label="Heading">Books on psychology for product people</td><td data-label="Title"><span>Best psychology and behavioral science books for designers and product managers <span class="ch">79 chars</span></span></td><td data-label="Meta"><span>The psychology books behind good products, read for the work, with which studies held up and which did not.</span></td><td data-label="Searches" class="num">1,890, medium</td></tr>
+<tr><td>9. Startups and business</td><td data-label="Heading">Books on startups and business</td><td data-label="Title"><span>Best startup and business books for product people <span class="ch">50 chars</span></span></td><td data-label="Meta"><span>Business and startup books read from the product side: strategy, building, and the ones that aged.</span></td><td data-label="Searches" class="num">9,950, open on &#8220;startup books&#8221;</td></tr>
+<tr><td>10. Leading product teams</td><td data-label="Heading">Books on leading product teams</td><td data-label="Title"><span>Best leadership books for product leaders and managers <span class="ch">54 chars</span></span></td><td data-label="Meta"><span>Leadership and management books for people who run product and design teams: what to read first, what to skip.</span></td><td data-label="Searches" class="num">24,360, hard</td></tr>
+</tbody>
+</table>
+</div>
+<p>Two notes on the titles. Google usually shows about 55 to 60 characters, and the site name adds about 17 more. The search phrase comes first in every title, so a cut tail costs little. Title 8, at 79 characters, loses its whole audience angle, so I would shorten it: &#8220;Best psychology books for designers and product managers&#8221; (57).</p>
+<p>The ten differ from the pure demand ranking in two places. UX research comes in, and personal development moves to month 3: its fit is the weakest of the sixteen. Product discovery comes in, and accessibility moves to month 2: discovery has almost no searches of its own, but it is core to the site and the stock is strong, while the accessibility canon is thin (four books, none that every list names).</p>
+
+<h3>After launch, two a month</h3>
+<div class="tablebox">
+<table class="t">
+<thead><tr><th scope="col">Month</th><th scope="col">Pages</th><th scope="col">Why then</th></tr></thead>
+<tbody>
+<tr><td>Month 1</td><td data-label="Pages">Product marketing and positioning (80 a month, 12 books); growth and pricing (170, 9 books)</td><td data-label="Why then">Core subjects, books ready, small demand.</td></tr>
+<tr><td>Month 2</td><td data-label="Pages">Accessibility (420, 4 books, hard page one, mixed intent); product strategy (40, 7 books, mixed intent)</td><td data-label="Why then">Thin stock or a muddled search. A month of articles first helps.</td></tr>
+<tr><td>Month 3</td><td data-label="Pages">Design systems (80, 2 books now; wait for four); personal effectiveness for product people (1,470, 13 books)</td><td data-label="Why then">Design systems needs more books. Personal development needs the angle.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>The forty, as the pool</h3>
+<p>The launch shelf proposal of forty books came before topic pages were decided. It now serves as the candidate pool: each page draws its four to six from it, then from the full candidate list. (The proposal names 38 titles.) Here is where its books land, with the stock of well-recommended candidates for each page:</p>
+<ul class="pool">
+<li><b>Product management:</b> Inspired, Empowered, Escaping the Build Trap, Working Backwards <span class="c">4 from the pool, 11 in stock</span></li>
+<li><b>UX design:</b> The Design of Everyday Things, Don&#8217;t Make Me Think, Lean UX, Information Architecture: For the Web and Beyond, Strategic Writing for UX <span class="c">5, 17 in stock</span></li>
+<li><b>UI design:</b> Refactoring UI <span class="c">1, 6 in stock; Thinking with Type is next in line</span></li>
+<li><b>Project management:</b> Shape Up, Accelerate <span class="c">2, 7 in stock</span></li>
+<li><b>Product metrics:</b> Measure What Matters, Lean Analytics (its benchmarks have dated; the page says so) <span class="c">2, 6 in stock</span></li>
+<li><b>Product discovery:</b> Continuous Discovery Habits, The Mom Test, Sprint, User Story Mapping, Competing Against Luck <span class="c">5, 10 in stock</span></li>
+<li><b>UX research:</b> Just Enough Research, Interviewing Users, Rocket Surgery Made Easy <span class="c">3, 9 in stock</span></li>
+<li><b>Psychology:</b> Thinking, Fast and Slow (with the studies that did not replicate) <span class="c">1, 11 in stock; Hooked and Nudge are next in line</span></li>
+<li><b>Startups and business:</b> The Lean Startup, The Innovator&#8217;s Dilemma <span class="c">2, 10 in stock</span></li>
+<li><b>Leading product teams:</b> High Output Management, The Making of a Manager, Radical Candor <span class="c">3, 18 in stock</span></li>
+<li><b>Later pages:</b> Obviously Awesome, Crossing the Chasm, Made to Stick (marketing); Monetizing Innovation, Hacking Growth (growth); Good Strategy Bad Strategy, Playing to Win, Outcomes Over Output (strategy); Atomic Design; Inclusive Design Patterns <span class="c">10</span></li>
+</ul>
+<p>The launch ten need 40 to 60 entries. The pool covers 28 of them, so the re-cut adds 12 to 32 from the candidate list. UI design and psychology need the most help.</p>
+<p class="rulebox"><b>Rule</b> Phrase first, then the angle, and stop before the cut.</p>
+</section>
+
+<!-- 7 -->
+<section class="block" id="s7" aria-labelledby="h7s">
+<h2 id="h7s">7. What one topic page holds</h2>
+<p class="lead">A short intro, then each book as a section with the same parts in the same order. A reader learns the shape once and scans the rest.</p>
+<figure class="fig">
+<svg class="f" viewBox="0 0 1200 980" role="img" aria-labelledby="f4t">
+<title id="f4t">A drawing of one topic page, Books on product management. At the top, the heading and a short intro. Below, one book section for Inspired by Marty Cagan, with a cover and eight parts, each labeled on the right: what it covers, who it is for, who should skip it, the part that matters, where it has dated, your take if you read it (drawn dashed), our articles that use it, and the buy link with its disclosure. Under it, a dashed outline for the next book.</title>
+<rect width="1200" height="980" fill="#D7F0EE"/><rect width="1200" height="980" fill="url(#dots)"/>
+<rect x="72" y="72" width="548" height="840" rx="4" class="bx"/>
+<text x="100" y="130" class="h">Books on product</text>
+<text x="100" y="166" class="h">management</text>
+<rect x="100" y="190" width="480" height="10" rx="5" class="tb"/>
+<rect x="100" y="210" width="440" height="10" rx="5" class="tb"/>
+<path class="lead-ln" d="M600 140H648"/><text x="660" y="150" class="ls">The plain name</text>
+<path class="lead-ln" d="M600 205H648"/><text x="660" y="215" class="l">Intro: who it is for</text>
+
+<rect x="96" y="240" width="500" height="560" rx="4" fill="#FDFCF8" stroke="#257E77" stroke-width="2.5"/>
+<rect x="116" y="262" width="70" height="100" rx="3" class="hB"/>
+<text x="206" y="300" class="ls">Inspired</text>
+<text x="206" y="336" class="n">Marty Cagan</text>
+<path class="lead-ln" d="M600 312H648"/><text x="660" y="322" class="l">Title, author, cover</text>
+
+<rect x="116" y="388" width="440" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 393H648"/><text x="660" y="403" class="l">What it covers</text>
+<rect x="116" y="440" width="360" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 445H648"/><text x="660" y="455" class="l">Who it is for</text>
+<rect x="116" y="492" width="320" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 497H648"/><text x="660" y="507" class="l">Who should skip it</text>
+<rect x="116" y="544" width="400" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 549H648"/><text x="660" y="559" class="l">The part that matters</text>
+<rect x="116" y="596" width="280" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 601H648"/><text x="660" y="611" class="l">Where it has dated</text>
+<rect x="116" y="628" width="440" height="50" rx="4" fill="none" stroke="#1D1B16" stroke-width="2.5" stroke-dasharray="10 8"/><rect x="136" y="648" width="300" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 653H648"/><text x="660" y="663" class="l">Your take, if you read it</text>
+<rect x="116" y="702" width="180" height="10" rx="5" class="hB"/><rect x="316" y="702" width="160" height="10" rx="5" class="hB"/><path class="lead-ln" d="M600 707H648"/><text x="660" y="717" class="l">Our articles that use it</text>
+<rect x="116" y="736" width="150" height="44" rx="4" class="hB"/><text x="191" y="767" class="ls wt" text-anchor="middle">Buy</text><rect x="282" y="753" width="240" height="10" rx="5" class="tb"/><path class="lead-ln" d="M600 758H648"/><text x="660" y="768" class="l">Buy link, disclosure beside it</text>
+
+<rect x="96" y="820" width="500" height="70" rx="4" fill="none" stroke="#1D1B16" stroke-width="2.5" stroke-dasharray="10 8"/>
+<text x="120" y="864" class="n">the next book, same parts</text>
+<rect x="928" y="918" width="240" height="30" fill="#D7F0EE"/><use href="#lockup" x="928" y="918" width="240" height="30" opacity=".6"/>
+</svg>
+<figcaption><b>Figure 4. Read the labels down the right.</b> That is the order of every book section. The dashed box appears only on books you have read; the disclosure sits beside the buy link, not in the footer.</figcaption>
+</figure>
+<ul>
+<li><b>What it covers:</b> the book's argument in our own words, three or four sentences.</li>
+<li><b>Who it is for:</b> the reader and the stage, such as &#8220;a PM in the first two years&#8221;.</li>
+<li><b>Who should skip it:</b> the reader who already knows it, or who needs something else.</li>
+<li><b>The part that matters:</b> the chapters a product person should read first.</li>
+<li><b>Where it has dated:</b> tools, numbers or studies that no longer hold. Left out when nothing has.</li>
+<li><b>Your take:</b> only on books you have read, in a labeled box.</li>
+<li><b>Our articles that use it:</b> links to pieces on the site that build on the book.</li>
+<li><b>The buy link:</b> marked as sponsored, with a one-line disclosure beside it.</li>
+</ul>
+<p class="rulebox"><b>Rule</b> Same parts, same order, for every book on every page.</p>
+</section>
+
+<!-- 8 -->
+<section class="block" id="s8" aria-labelledby="h8s">
+<h2 id="h8s">8. The drip, and why updating a page is fine</h2>
+<p class="lead">Ten pages go live on launch day. Two more follow each month for three months. Between those, existing pages gain books as you read them and as the re-cut fills the thin ones.</p>
+<figure class="fig">
+<svg class="f" viewBox="0 0 1200 675" role="img" aria-labelledby="f5t">
+<title id="f5t">A timeline with four stops: launch with ten pages, then two more pages in each of months 1, 2 and 3, reaching 16. Below, one page's life in three cards: a book added, and the date moves; advice rewritten, and the date moves; a typo fixed, and the date stays.</title>
+<rect width="1200" height="675" fill="#D7F0EE"/><rect width="1200" height="675" fill="url(#dots)"/>
+<text x="72" y="96" class="ls">Topic pages over three months</text>
+<line x1="100" y1="200" x2="1100" y2="200" class="ln"/>
+<circle cx="180" cy="200" r="10" fill="#1D1B16"/><text x="180" y="170" class="ls" text-anchor="middle">Launch</text>
+<circle cx="480" cy="200" r="10" fill="#1D1B16"/><text x="480" y="170" class="ls" text-anchor="middle">Month 1</text>
+<circle cx="760" cy="200" r="10" fill="#1D1B16"/><text x="760" y="170" class="ls" text-anchor="middle">Month 2</text>
+<circle cx="1040" cy="200" r="10" fill="#1D1B16"/><text x="1040" y="170" class="ls" text-anchor="middle">Month 3</text>
+<rect x="74" y="230" width="36" height="28" rx="3" class="hB"/><rect x="118" y="230" width="36" height="28" rx="3" class="hB"/><rect x="162" y="230" width="36" height="28" rx="3" class="hB"/><rect x="206" y="230" width="36" height="28" rx="3" class="hB"/><rect x="250" y="230" width="36" height="28" rx="3" class="hB"/><rect x="74" y="266" width="36" height="28" rx="3" class="hB"/><rect x="118" y="266" width="36" height="28" rx="3" class="hB"/><rect x="162" y="266" width="36" height="28" rx="3" class="hB"/><rect x="206" y="266" width="36" height="28" rx="3" class="hB"/><rect x="250" y="266" width="36" height="28" rx="3" class="hB"/><rect x="440" y="230" width="36" height="28" rx="3" class="hA"/><rect x="484" y="230" width="36" height="28" rx="3" class="hA"/><rect x="720" y="230" width="36" height="28" rx="3" class="hA"/><rect x="764" y="230" width="36" height="28" rx="3" class="hA"/><rect x="1000" y="230" width="36" height="28" rx="3" class="hA"/><rect x="1044" y="230" width="36" height="28" rx="3" class="hA"/>
+<text x="180" y="350" class="l" text-anchor="middle">10 pages</text>
+<text x="480" y="350" class="l" text-anchor="middle">+2 = 12</text>
+<text x="760" y="350" class="l" text-anchor="middle">+2 = 14</text>
+<text x="1040" y="350" class="l" text-anchor="middle">+2 = 16</text>
+
+<text x="72" y="436" class="ls">One page over time</text>
+<rect x="72" y="460" width="280" height="130" rx="4" class="bx"/>
+<text x="92" y="502" class="l">a book added</text>
+<rect x="92" y="526" width="200" height="44" rx="4" class="hB"/><text x="192" y="557" class="ls wt" text-anchor="middle">date moves</text>
+<rect x="400" y="460" width="280" height="130" rx="4" class="bx"/>
+<text x="420" y="502" class="l">advice rewritten</text>
+<rect x="420" y="526" width="200" height="44" rx="4" class="hB"/><text x="520" y="557" class="ls wt" text-anchor="middle">date moves</text>
+<rect x="728" y="460" width="280" height="130" rx="4" class="bx"/>
+<text x="748" y="502" class="l">a typo fixed</text>
+<rect x="748" y="526" width="200" height="44" rx="4" fill="#FDFCF8" stroke="#1D1B16" stroke-width="2.5" stroke-dasharray="10 8"/><text x="848" y="557" class="l" text-anchor="middle">date stays</text>
+<rect x="928" y="613" width="240" height="30" fill="#D7F0EE"/><use href="#lockup" x="928" y="613" width="240" height="30" opacity=".6"/>
+</svg>
+<figcaption><b>Figure 5. Look at the bottom row.</b> The date moves only when the page changes for the reader. A typo fix is not a reason to look newer.</figcaption>
+</figure>
+<p>Google is fine with pages that change. Its own advice is to keep a page current and update it as needed. What it warns against is a fake date: &#8220;changing the date of pages to make them seem fresh when the content has not substantially changed.&#8221;</p>
+<p>A new book on a topic page is a substantial change: a new section, a new pick in the reading order. So the page's &#8220;Updated&#8221; line moves to that month, and so does the date Google reads (the <code>dateModified</code> field). A rewritten &#8220;where it has dated&#8221; note moves it too. A fixed typo or a swapped link does not.</p>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The date on the page:</b> a quiet &#8220;Updated &lt;month year&gt;&#8221; line, equal to <code>dateModified</code>.</li>
+<li><b>Who moves it:</b> the publisher, and only for a change a reader would notice.</li>
+<li><b>A new topic page:</b> it gets its own first date on the day it goes live. Nothing is backdated.</li>
+</ul>
+</div>
+<p class="rulebox"><b>Rule</b> A real change moves the date. Nothing else does.</p>
+</section>
+
+<!-- 9 -->
+<section class="block" id="s9" aria-labelledby="h9s">
+<h2 id="h9s">9. The rules it follows</h2>
+<p class="lead">Two rulebooks apply: the search-policy rulebook and the house writing style. Here is what each one means for the shelf.</p>
+<div class="tablebox">
+<table class="t">
+<thead><tr><th scope="col">Rule</th><th scope="col">What it means on the shelf</th></tr></thead>
+<tbody>
+<tr><td>Sponsored links, disclosed</td><td data-label="On the shelf">Every buy link is marked <code>rel="sponsored"</code>, with a visible one-line disclosure beside it, not only in the footer.</td></tr>
+<tr><td>Honest about weak spots</td><td data-label="On the shelf">A recommendation that pays the site says where the book is weak. The &#8220;who should skip it&#8221; and &#8220;where it has dated&#8221; parts do that job.</td></tr>
+<tr><td>No thin pages</td><td data-label="On the shelf">No page per book, no tag or author archives, and filters never make a new address. Raters mark affiliate lists built from store content with product names swapped as Lowest, even with a disclosure.</td></tr>
+<tr><td>No reproduced text</td><td data-label="On the shelf">Every entry is in our words. No long quotes, no invented quotes, no page numbers we have not checked. Cover images only through a route the store's license allows.</td></tr>
+<tr><td>Real dates</td><td data-label="On the shelf">The date moves only for a real change (section 8). Nothing is backdated.</td></tr>
+<tr><td>First person only when true</td><td data-label="On the shelf">Your take appears only on books you have read, in its labeled box.</td></tr>
+<tr><td>House writing style</td><td data-label="On the shelf">The teacher's voice, short sentences, a plain word beside every term, nothing from the banned list. Every intro and entry goes through the checker.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="rulebox"><b>Rule</b> If a line would mislead a reader about the book or about us, it does not ship.</p>
+</section>
+
+<!-- 10 -->
+<section class="block" id="s10" aria-labelledby="h10s">
+<h2 id="h10s">10. What we build, and what you decide now</h2>
+<p class="lead">The build is small: two post types, one template, and the tiles. Your three calls come first, because the titles and the re-cut depend on them.</p>
+<h3>What we build</h3>
+<ul>
+<li><b>A book post type in the plugin.</b> One entry per book: title, author, year, topic, the eight parts and the buy link. It has no public page of its own; topic pages and hubs display it. Structure lives in the plugin, never in the theme.</li>
+<li><b>A reading-path post type in the plugin.</b> Three to five books for one situation, from the earlier plan. The type is there from the start; the paths themselves can wait until the topic pages are live.</li>
+<li><b>The shelf template</b> in the child theme: the intro, then the tiles grouped Design, Product and Business.</li>
+<li><b>A topic page layout</b> that lists its books in your order, each with the same parts.</li>
+<li><b>Three books on each category hub,</b> the top three of that topic page, with the link.</li>
+<li><b>The tiles,</b> drawn by the thumbnail generator in the house styles, one per topic page.</li>
+</ul>
+<p>The shelf, the topic pages and the hubs are indexed. Book entries, tags, filters and archives are not.</p>
+
+<aside class="decide" aria-labelledby="h-dec">
+<h2 id="h-dec">Decisions for you</h2>
+<ol>
+<li><b>The order of the ten.</b> As in section 6: product management, UX design, UI design, project management, product metrics, product discovery, UX research, psychology, startups and business, leading product teams. Approve, or move pages.</li>
+<li><b>The swap.</b> UX research in, personal development out to month 3 (and the same kind of swap for product discovery in, accessibility to month 2). My view: yes. Personal development has demand, but it is the weakest fit and none of its first ten results is a small editorial site.</li>
+<li><b>The title angle for leadership, business and psychology.</b> Keep the reader in the title (&#8220;for product leaders and managers&#8221;, &#8220;for product people&#8221;, &#8220;for designers and product managers&#8221;), or go plain and chase the head search. My view: keep the angle. The plain searches belong to Harvard Business Review and the bookstores.</li>
+</ol>
+<p class="flag">Two small fixes, yes or no: shorten title 8 to &#8220;Best psychology books for designers and product managers&#8221;, and drop &#8220;actually&#8221; from meta 6.</p>
+</aside>
+</section>
+
+</div>
+</main>
+<footer class="wrap">
+<p>Sources:</p>
+<ul>
+<li><code>research/books/topic-pages-order-2026-10-10.md</code>: the order, titles, metas and the shelf page structure.</li>
+<li><code>research/seo/keywords/book-topics-summary-2026-10-10.md</code>: demand and page-one findings (US, October 10; $0.068). Data in <code>research/seo/keywords/book-topics-2026-10-10.csv</code> and <code>research/seo/serps/book-topics-2026-10-10.csv</code>.</li>
+<li><code>research/seo/serps/phase0-books-summary-2026-10-08.md</code>: the 12 book searches of October 8 (Amazon on 11, Ken Norton's site on 3).</li>
+<li><code>research/books/launch-shelf-proposal-2026-10-10.md</code>: the forty, now the candidate pool; stock counts from <code>research/books/candidates-2026-10-10.csv</code> (well-recommended tiers).</li>
+<li>The search-policy rulebook and its site layer in <code>.claude/skills/search-policy/</code>; the house writing style.</li>
+</ul>
+<p>Character counts are for the title tag alone, before the site name. The book-title search in section 4 is a reading of intent, not a measured page one.</p>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById("themebtn"), K="ups-theme", modes=["auto","light","dark"], m="auto";
+  try{ m=localStorage.getItem(K)||"auto"; }catch(e){}
+  if(modes.indexOf(m)<0) m="auto";
+  function apply(){ if(m==="auto"){ root.removeAttribute("data-theme"); } else { root.setAttribute("data-theme",m); } btn.textContent="Theme: "+m; }
+  apply();
+  btn.addEventListener("click",function(){ m=modes[(modes.indexOf(m)+1)%3]; try{ localStorage.setItem(K,m); }catch(e){} apply(); });
+})();
+</script>
+</body>
+</html>
