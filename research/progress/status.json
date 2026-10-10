@@ -1,39 +1,53 @@
 {
   "version": 1,
-  "run_id": "thumbnail-styles",
-  "title": "Thumbnail styles board",
+  "run_id": "thumbnail-skill",
+  "title": "Thumbnail generator, gallery and skill",
   "state": "finished",
-  "started": "2026-10-09T21:25+05:30",
-  "updated": "2026-10-09T21:34+05:30",
-  "note": "Board built and linked from the mockups README; light, dark and 375px checked, no sideways scroll",
+  "started": "2026-10-09T22:10+05:30",
+  "updated": "2026-10-09T22:29+05:30",
+  "note": "Owner changes applied: kinds, bold backgrounds, schemes, lockup, eleven styles; gallery rebuilt; four evals pass",
   "steps": [
     {
       "n": 1,
-      "title": "Look at all 35",
+      "title": "Read board and tools",
       "status": "done",
-      "note": "All 35 viewed; 25 and 28 are duplicates, as are 18 and 19",
-      "time": "21:26"
+      "note": "Board, demos, tooling notes and 8 references read; icon sets vendored (89 pixel, 104 Phosphor)",
+      "time": "21:47"
     },
     {
       "n": 2,
-      "title": "Group and verdicts",
+      "title": "Generator and helpers",
       "status": "done",
-      "note": "Ten groups: six code alone, three code plus a source image, one external image tool",
-      "time": "21:30"
+      "note": "thumbnail.py: grain, square and dot grid, hard shadow, pixel upscale, Bayer dither, dot screen, palette map, mark, pick_style, checks",
+      "time": "21:54"
     },
     {
       "n": 3,
-      "title": "Demonstrations",
+      "title": "Nine styles plus photo",
       "status": "done",
-      "note": "Four demos rendered: a 0.23 s, b 0.25 s, c 0.27 s, d 0.32 s",
-      "time": "21:30"
+      "note": "Ten styles render; all ten pass the 300 px read check and type contrast",
+      "time": "21:56"
     },
     {
       "n": 4,
-      "title": "Board and checks",
+      "title": "Gallery",
       "status": "done",
-      "note": "Board built and linked from the mockups README; light, dark and 375px checked, no sideways scroll",
-      "time": "21:34"
+      "note": "gallery.html built and linked from the board and README; no sideways scroll at 375 px",
+      "time": "21:56"
+    },
+    {
+      "n": 5,
+      "title": "Skill and references",
+      "status": "done",
+      "note": "SKILL.md plus references styles, subjects, sources written",
+      "time": "21:59"
+    },
+    {
+      "n": 6,
+      "title": "Evals and checks",
+      "status": "done",
+      "note": "Owner changes applied: kinds, bold backgrounds, schemes, lockup, eleven styles; gallery rebuilt; four evals pass",
+      "time": "22:29"
     }
   ]
 }

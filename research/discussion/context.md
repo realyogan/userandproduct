@@ -449,3 +449,43 @@ the grain; the thumbnail rules must name them as a choice. Style board built at
 research/mockups/references/blog-thumbnails/index.html (ten groups, verdicts, four demonstrations); recommendation:
 flat vector default, light grid diagrams for explainer-led pieces, pixel icons for tools and templates; dithered
 photos and character drawings occasional with outside help; dark styles out of the main rotation.
+
+Thumbnail decision (owner, 9 Oct): nine code-made styles (flat vector on a square grid; flat vector on a dot grid;
+pixel icons; icon sequence; typographic cover; dark line diagram; dark glow diagram; light grid diagram; particle
+field) plus one conditional style (dithered or halftone photo, only when the owner supplies a photo). Character
+drawing dropped. Dark backgrounds allowed for thumbnails (not for explainers). Style rotates per article on its own
+cycle, independent of the tint rotation. Skill being written at .claude/skills/thumbnail-images/ with a working
+generator (research/mockups/tools/thumbnail.py) and a gallery of all ten.
+Owner correction (thumbnails): backgrounds are NOT the Printables tints (those are for explainers only); thumbnail
+colours are chosen freely per image, saturated and high-contrast in the spirit of the reference set, "contrast and
+curiosity, not clickbait"; the brand on a thumbnail is the full lockup, not the mark alone. Skill, generator and
+gallery being regenerated.
+Owner: add a bright particle-field variant (particles on a vibrant background) as a tenth code-made style; the
+photo style becomes number 11, still conditional.
+Owner: the thumbnail style pick is fit first, then rotation: classify the article by kind, keep only the styles
+that suit that kind, rotate among those, no two neighbours alike by style or colour, record the reason.
+Owner: thumbnails may use more than one colour family per image: colour schemes (mono, duo at the complement,
+trio at split-complementary or triadic, analogous), accents only on the highlight that matters, contrast computed
+on every pair, at most two accents, lockup stays black or white. Not always, but available; gallery to show it.
+Owner: multi-colour must be restrained, as in the references: mono by default, duo when one element must stand out,
+trio rarely; an accent on at most about a fifth of the subject; never on decoration; if in doubt, fewer colours.
+Thumbnail skill finished (9 Oct): eleven styles (ten code-drawn plus the conditional photo style), gallery at
+research/mockups/references/blog-thumbnails/gallery.html, generator research/mockups/tools/thumbnail.py, skill at
+.claude/skills/thumbnail-images/ with references and evals. Owner saw the gallery and corrected two things: (1) the
+dark glow diagram and the particle fields must be multicolour examples, since the gallery is what the skill draws
+from: the glow's bloom and lit part take the accent, and the particle stream carries the colour (the one exception
+to "never colour decoration"); the glow sample is duo on midnight because trio came out pink and green; (2) the
+full logo on every image, never the mark alone, large enough to read: hero lockup 220 px (18% of the width, the
+legibility anchor, "perfect"), thumb 120 px (a fifth of the width, so the thumb is the hero at half size; the first
+try at 240 px was far too large). Duo, not trio, on mid-bright grounds, where two deep accents fall under
+contrast. Owner confirmed all these decisions are captured in the skill.
+
+Council on the publishing system (9 Oct, evening): the owner asked for proposal 2 to be councilled for gaps and
+improvements before discussing its questions tomorrow. Verdict saved at
+research/discussion/council/publishing-system-2026-10-09/verdict.md (inputs beside it). Short form: the proposal
+spends ten agents on the cheap part and gives the owner's judgment ten minutes per article; rebuild around the
+owner as author in fact (agents interview, shape and check); two a week not six; prove the belt on one
+owner-written baseline plus three test pieces through plain prompts before any agent file; hard rules against
+invented first-person detail and a confidentiality check on every story; four making agents not seven; measure
+authority signals not 90-day rank; add a newsletter; park reels, the public newsroom series and the gap-map
+dataset until month six. Owner has not yet responded to the verdict.

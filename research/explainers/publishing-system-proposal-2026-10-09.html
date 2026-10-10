@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Publishing system proposal</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#1b1c1f; --ink-2:#4f5157; --muted:#73757c; --rule:#dfe1e6;
+  --blue:#2a78d6; --blue-tint:#e5effb; --orange:#eb6834; --orange-tint:#fdece4; --aqua:#1baf7a; --aqua-tint:#e1f5ed;
+  --violet:#7b5cd6; --violet-tint:#efeafb; --yellow:#c99a12; --yellow-tint:#faf2d9; --red:#c8322a;
+  --shelf:#8a8f99; --focus:#2a78d6; --warn:#b5361f; --warn-tint:#fbe7e3;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+    --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+    --violet:#9479e8; --violet-tint:#261f3a; --yellow:#d6aa2a; --yellow-tint:#332a12; --red:#e0533f;
+    --shelf:#6b6e75; --focus:#3987e5; --warn:#f08a74; --warn-tint:#3a1f1a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121212; --surface:#1a1a19; --ink:#ffffff; --ink-2:#c3c2b7; --muted:#97968e; --rule:#33332f;
+  --blue:#3987e5; --blue-tint:#1b2a3c; --orange:#d95926; --orange-tint:#3a2219; --aqua:#199e70; --aqua-tint:#16302a;
+  --violet:#9479e8; --violet-tint:#261f3a; --yellow:#d6aa2a; --yellow-tint:#332a12; --red:#e0533f;
+  --shelf:#6b6e75; --focus:#3987e5; --warn:#f08a74; --warn-tint:#3a1f1a;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);overflow-x:hidden;
+  font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-wrap:break-word}
+@media (min-width:700px){body{font-size:17px}}
+.skip{position:absolute;left:-9999px;top:8px;background:var(--surface);color:var(--ink);padding:8px 14px;border-radius:8px;z-index:9}
+.skip:focus{left:16px}
+.wrap{max-width:50rem;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;
+  line-height:1.2;letter-spacing:-0.01em;color:var(--ink);margin:0}
+h1{font-size:clamp(1.9rem,5.2vw,2.8rem);font-weight:800}
+h2{font-size:clamp(1.3rem,3.4vw,1.6rem);font-weight:760;margin:0 0 10px}
+h3{font-size:1.1rem;font-weight:720;margin:22px 0 8px}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:1.3em}
+li{margin:0 0 6px}
+a{color:var(--blue);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,.ask input:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:8px}
+code{font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.86em;background:var(--surface);border:1px solid var(--rule);
+  border-radius:4px;padding:.05em .35em;overflow-wrap:anywhere}
+.muted{color:var(--muted)}
+
+/* top */
+header.top{padding-top:40px}
+.toprow{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.theme{flex:none;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);
+  font:600 .85rem/1.3 system-ui,sans-serif;cursor:pointer;margin-top:6px}
+.theme:hover{border-color:var(--blue);color:var(--blue)}
+.answer{font-size:1.15rem;color:var(--ink-2);max-width:40rem;margin:12px 0 4px}
+.date{color:var(--muted);font-size:.92rem;margin:0 0 6px}
+.hand{font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;font-weight:700;
+  color:var(--orange);font-size:1.1rem;margin:10px 0 0}
+
+/* summary box */
+.summary{background:var(--surface);border:1px solid var(--rule);border-top:5px solid var(--blue);border-radius:14px;padding:16px 20px 6px;margin:24px 0 0}
+.summary h2{font-size:1.2rem;margin:0 0 8px}
+.summary ul{padding-left:1.2em}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:6px 0 14px}
+@media (max-width:520px){.stats{grid-template-columns:minmax(0,1fr)}}
+.stat{background:var(--blue-tint);border-radius:10px;padding:10px 14px;min-width:0}
+.stat b{display:block;font-family:ui-rounded,"SF Pro Rounded","Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;font-size:1.35rem;line-height:1.2}
+.stat span{font-size:.92rem;color:var(--ink-2)}
+
+/* toc */
+nav.toc{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 20px;margin:18px 0 0}
+nav.toc h2{font-size:1rem;margin:0 0 6px}
+nav.toc ol{margin:0;padding-left:1.4em;columns:2 15rem;column-gap:24px;font-size:.98rem}
+nav.toc li{margin:2px 0;break-inside:avoid}
+
+/* sections */
+.block{margin:40px 0 0;scroll-margin-top:16px}
+.lead{font-size:1.06rem}
+.fig{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:16px;margin:16px 0}
+.fig figcaption{margin-top:10px;color:var(--ink-2);font-size:.95rem}
+.fig figcaption b{color:var(--ink)}
+@media (max-width:520px){.fig{margin-left:-16px;margin-right:-16px;border-radius:0;border-left:0;border-right:0;padding:12px 8px}
+  .fig figcaption{padding:0 8px}}
+.irl{background:var(--aqua-tint);border-radius:12px;padding:12px 18px 4px;margin:14px 0}
+.irl h3{margin:0 0 6px;font-size:1rem}
+.irl ul{padding-left:1.1em}
+.rulebox{border-left:5px solid var(--blue);background:var(--blue-tint);border-radius:0 12px 12px 0;padding:10px 16px;margin:16px 0 0;font-weight:600}
+.rulebox b{color:var(--blue);margin-right:6px}
+.quote{border-left:3px solid var(--orange);padding:4px 0 4px 14px;margin:6px 0 14px;font-style:italic;color:var(--ink)}
+.example{background:var(--surface);border:1px dashed var(--shelf);border-radius:12px;padding:12px 16px;margin:12px 0}
+.example .tag{display:inline-block;font-size:.8rem;font-weight:700;color:var(--muted);margin:0 0 6px}
+dl.fields{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:0 14px;margin:0 0 14px;font-size:.95rem}
+dl.fields dt,dl.fields dd{padding:6px 0;border-top:1px solid var(--rule);min-width:0}
+dl.fields dt{font-weight:650}
+dl.fields dd{margin:0;color:var(--ink-2)}
+.example dl.fields{margin:0}
+@media (max-width:520px){dl.fields{grid-template-columns:minmax(0,1fr)} dl.fields dd{border-top:0;padding-top:0}}
+.kinds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 14px}
+@media (max-width:640px){.kinds{grid-template-columns:minmax(0,1fr)}}
+.kind{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;min-width:0}
+.kind b{display:block;margin:0 0 2px}
+.kind span{font-size:.93rem;color:var(--ink-2)}
+ol.sources > li{margin-bottom:12px}
+ol.steps > li{margin-bottom:8px}
+.folder{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 16px;margin:10px 0 14px;
+  font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.88rem;line-height:1.7;overflow-wrap:anywhere}
+.folder span{color:var(--muted);font-family:system-ui,sans-serif}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:700px){.two{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:14px 18px 4px;min-width:0}
+.panel h3{margin:0 0 8px}
+.panel li{font-size:.95rem}
+
+/* agents table: a table on wide screens, stacked cards on phones */
+.tablebox{margin:14px 0;overflow-x:auto}
+table.agents{width:100%;border-collapse:collapse;font-size:.9rem;background:var(--surface);border:1px solid var(--rule)}
+table.agents th,table.agents td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--rule)}
+table.agents th{font-weight:700;background:var(--bg);border-top:0}
+table.agents td:first-child{font-weight:650}
+table.agents tr.later td{color:var(--ink-2)}
+table.agents .todo{color:var(--warn);font-weight:600}
+@media (max-width:760px){
+  table.agents,table.agents tbody,table.agents tr,table.agents td{display:block;width:100%}
+  table.agents{border:0;background:none}
+  table.agents thead{display:none}
+  table.agents tr{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:6px 14px;margin:0 0 10px}
+  table.agents td{display:grid;grid-template-columns:minmax(0,6.5rem) minmax(0,1fr);gap:10px;padding:5px 0;border-top:1px solid var(--rule)}
+  table.agents td:first-child{border-top:0;display:block;font-size:1.02rem}
+  table.agents td::before{content:attr(data-label);font-weight:600;color:var(--muted)}
+  table.agents td:first-child::before{content:none}
+}
+
+/* questions */
+.ask{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--blue);border-radius:14px;padding:14px 18px}
+.ask fieldset{border:0;margin:0;padding:12px 0;border-top:1px solid var(--rule);min-width:0}
+.ask fieldset:first-of-type{border-top:0;padding-top:4px}
+.ask legend{font-weight:700;padding:0;margin:0 0 4px}
+.ask .q{font-size:.93rem;color:var(--ink-2);margin:0 0 6px}
+.ask label{display:inline-flex;align-items:center;gap:6px;margin:3px 16px 3px 0;font-size:.95rem;cursor:pointer}
+.ask input{accent-color:var(--blue);width:16px;height:16px;margin:0;flex:none}
+.ask .fine{font-size:.85rem;color:var(--muted);margin:8px 0 0}
+footer{border-top:1px solid var(--rule);margin-top:44px;padding:22px 0 56px;font-size:.9rem;color:var(--ink-2)}
+
+/* pictures */
+svg.pic{display:block;width:100%;height:auto;max-width:600px;margin:0 auto}
+svg.pic.narrow{max-width:500px}
+.pic text{fill:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:15px}
+.pic .lb{font-size:16px;font-weight:700}
+.pic .lb14{font-size:14px;font-weight:700}
+.pic .sm{font-size:14px;fill:var(--ink-2)}
+.pic .xs{font-size:12.5px;fill:var(--muted)}
+.pic .tw{fill:#ffffff;font-weight:800;font-size:14px}
+.pic .stop{fill:#ffffff;font-weight:800;font-size:10px;letter-spacing:.04em}
+.pic .warnt{fill:var(--warn);font-weight:600}
+.pic .tick{fill:var(--aqua);font-weight:800}
+.ln{fill:none;stroke:var(--ink);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.w2{stroke-width:2}
+.dash{stroke-dasharray:6 5}
+.soft{stroke:var(--muted)}
+.belt{fill:none;stroke:var(--shelf);stroke-width:8;stroke-linecap:round}
+.chev{fill:none;stroke:var(--surface);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fs{fill:var(--surface)} .fb{fill:var(--blue-tint)} .fa{fill:var(--aqua-tint)} .fo{fill:var(--orange-tint)}
+.fv{fill:var(--violet-tint)} .fy{fill:var(--yellow-tint)}
+.Fb{fill:var(--blue)} .Fa{fill:var(--aqua)} .Fo{fill:var(--orange)} .Fv{fill:var(--violet)} .Fy{fill:var(--yellow)}
+.Fred{fill:var(--red)} .Fink{fill:var(--ink)} .Fmuted{fill:var(--muted)}
+.ink{stroke:var(--ink)} .sb{stroke:var(--blue)} .sa{stroke:var(--aqua)} .so{stroke:var(--orange)} .sv{stroke:var(--violet)} .sy{stroke:var(--yellow)} .sr{stroke:var(--red)}
+.va{fill:var(--aqua);fill-opacity:.14;stroke:var(--aqua);stroke-width:2}
+.vo{fill:var(--orange);fill-opacity:.14;stroke:var(--orange);stroke-width:2}
+.vb{fill:var(--blue);fill-opacity:.14;stroke:var(--blue);stroke-width:2}
+.pp-ink{fill:var(--surface);stroke:var(--ink);stroke-width:1.6}
+.pp-a{fill:var(--aqua-tint);stroke:var(--aqua);stroke-width:1.6}
+.pp-b{fill:var(--blue-tint);stroke:var(--blue);stroke-width:1.6}
+.pp-o{fill:var(--orange-tint);stroke:var(--orange);stroke-width:1.6}
+.pp-v{fill:var(--violet-tint);stroke:var(--violet);stroke-width:1.6}
+.pp-y{fill:var(--yellow-tint);stroke:var(--yellow);stroke-width:1.6}
+.dsh{stroke-dasharray:3 3}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" class="Fink"/></marker>
+<marker id="arm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" class="Fmuted"/></marker>
+<symbol id="person" viewBox="0 0 24 40"><circle cx="12" cy="8" r="7"/><path d="M2 39V25a10 10 0 0 1 20 0v14z"/></symbol>
+</defs></svg>
+<a class="skip" href="#main">Skip to the proposal</a>
+
+<header class="top wrap">
+<div class="toprow">
+<h1>The publishing system, as a newsroom</h1>
+<button class="theme" type="button" id="themebtn" aria-label="Switch color theme">Theme: auto</button>
+</div>
+<p class="answer">A proposal for how articles get made. A small newsroom of agents finds ideas, then writes, draws and checks each piece and gets it ready. You walk in on Sunday as the publisher, make the calls and press the button.</p>
+<p class="date">October 9, 2026. A proposal for discussion: nothing on this page is built yet.</p>
+<p class="hand">Think of the system as a magazine newsroom with a weekly deadline.</p>
+
+<section class="summary" aria-labelledby="h-sum">
+<h2 id="h-sum">The one-screen version</h2>
+<p>The system is a small newsroom of agents. An agent is a program that does one job and follows a written rulebook.</p>
+<ul>
+<li>An <b>explorer</b> keeps a backlog (a list of article ideas waiting to be written) full.</li>
+<li>On Sunday you open the backlog, approve ideas, say &#8220;write six&#8221;, and give a story where one is asked for.</li>
+<li>The desks write, draw, check and prepare each article. They stop twice for your eyes.</li>
+<li>A <b>publisher</b> puts the article in WordPress and checks the live page.</li>
+<li>Adapters turn it into a LinkedIn post, and later a short video reel.</li>
+<li>An <b>analyst</b> reports what worked and feeds the explorer.</li>
+</ul>
+<div class="stats">
+<div class="stat"><b>10 agents</b><span>in the first build. 11 with reels, 12 once the analyst starts after launch.</span></div>
+<div class="stat"><b>1 to 2 hours</b><span>of your time on Sunday, plus a short review mid-week.</span></div>
+</div>
+</section>
+
+<nav class="toc" aria-label="On this page">
+<h2>On this page</h2>
+<ol>
+<li><a href="#s1">The newsroom at a glance</a></li>
+<li><a href="#s2">The backlog is the heart of the room</a></li>
+<li><a href="#s3">How the explorer finds ideas</a></li>
+<li><a href="#s4">Your Sunday</a></li>
+<li><a href="#s5">One article, station by station</a></li>
+<li><a href="#s6">Publishing, then checking the live page</a></li>
+<li><a href="#s7">Sharing it beyond the site</a></li>
+<li><a href="#s8">The learning loop</a></li>
+<li><a href="#s9">The agents, counted</a></li>
+<li><a href="#s10">What exists, and what we build next</a></li>
+<li><a href="#s11">Questions for you</a></li>
+</ol>
+</nav>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+<!-- 1 -->
+<section class="block" id="s1" aria-labelledby="h1s">
+<h2 id="h1s">1. The newsroom at a glance</h2>
+<p class="lead">Four desks sit around one board. The board holds the backlog of ideas. Work moves clockwise, and one person in the middle hands every job from desk to desk.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 440" role="img" aria-labelledby="f1t">
+<title id="f1t">Four desks around a central board. Planning sends ideas to the board, the board feeds Making, Making passes to Publishing, Publishing to Distribution, Distribution to the analyst, and the analyst back to Planning. The managing editor stands in the middle with dashed lines to the board and the desks.</title>
+<rect x="10" y="10" width="140" height="80" rx="10" class="fa sa w2"/>
+<text x="24" y="40" class="lb">Planning</text>
+<text x="24" y="62" class="sm">explorer</text>
+<rect x="300" y="10" width="170" height="195" rx="10" class="fb sb w2"/>
+<text x="314" y="38" class="lb">Making</text>
+<text x="314" y="62" class="sm">researcher</text>
+<text x="314" y="81" class="sm">writer</text>
+<text x="314" y="100" class="sm">illustrator</text>
+<text x="314" y="119" class="sm">thumbnail maker</text>
+<text x="314" y="138" class="sm">checker</text>
+<text x="314" y="157" class="sm">SEO reviewer</text>
+<text x="314" y="176" class="sm">editor</text>
+<rect x="150" y="110" width="125" height="90" rx="6" class="fs ink w2"/>
+<text x="212" y="133" text-anchor="middle" class="lb">The board</text>
+<text x="212" y="151" text-anchor="middle" class="xs">the backlog</text>
+<rect x="164" y="164" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="190" y="168" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="216" y="163" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="242" y="167" width="20" height="16" rx="2" class="fy sy"/>
+<rect x="10" y="150" width="140" height="70" rx="10" class="fy sy w2 dash"/>
+<text x="24" y="180" class="lb">Analyst</text>
+<text x="24" y="202" class="sm">after launch</text>
+<rect x="10" y="300" width="140" height="90" rx="10" class="fv sv w2"/>
+<text x="24" y="328" class="lb">Distribution</text>
+<text x="24" y="350" class="sm">LinkedIn writer</text>
+<text x="24" y="370" class="xs">reel maker, later</text>
+<rect x="330" y="300" width="140" height="90" rx="10" class="fo so w2"/>
+<text x="344" y="328" class="lb">Publishing</text>
+<text x="344" y="350" class="sm">publisher</text>
+<text x="344" y="370" class="xs">and live-page check</text>
+<path class="ln" d="M150 50H212V104" marker-end="url(#ar)"/>
+<text x="181" y="43" text-anchor="middle" class="xs">ideas</text>
+<path class="ln" d="M275 155H295" marker-end="url(#ar)"/>
+<path class="ln" d="M400 205V294" marker-end="url(#ar)"/>
+<path class="ln" d="M400 390V416H80V396" marker-end="url(#ar)"/>
+<text x="240" y="434" text-anchor="middle" class="xs">publish, then share</text>
+<path class="ln" d="M80 300V226" marker-end="url(#ar)"/>
+<path class="ln" d="M80 150V96" marker-end="url(#ar)"/>
+<path class="ln soft dash" d="M238 230L224 205M254 240L296 198M256 252L332 297M224 252L148 297"/>
+<use href="#person" x="226" y="230" width="28" height="46" class="pp-ink"/>
+<text x="240" y="300" text-anchor="middle" class="lb">Managing editor</text>
+<text x="240" y="319" text-anchor="middle" class="sm">the main session</text>
+</svg>
+<figcaption><b>Look at the middle first.</b> Every dashed line runs to the managing editor. No desk has a line to another desk except the arrow that passes finished work along.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>Planning desk:</b> the explorer, which finds and ranks ideas.</li>
+<li><b>Making desk:</b> seven agents. Researcher, writer, illustrator, thumbnail maker, checker, SEO reviewer and editor.</li>
+<li><b>Publishing desk:</b> the publisher, which puts the article into WordPress and checks the live page.</li>
+<li><b>Distribution desk:</b> the LinkedIn writer now, the reel maker later.</li>
+<li><b>Analyst:</b> reads the search results after launch and reports back to Planning.</li>
+<li><b>Managing editor:</b> the main session, the conversation you have with the assistant. It hands work between agents and runs the progress page.</li>
+</ul>
+</div>
+<p>One rule shapes the room. Agents cannot call each other directly. When the writer needs a figure, it asks the managing editor, and the managing editor sends the job to the illustrator.</p>
+<p>That is one level flatter than desks talking to desks. Every hand-off shows up in one place, the progress page, where you can see it.</p>
+<p class="rulebox"><b>Rule</b> Every hand-off passes the managing editor, so you can always see who is doing what.</p>
+</section>
+
+<!-- 2 -->
+<section class="block" id="s2" aria-labelledby="h2s">
+<h2 id="h2s">2. The backlog is the heart of the room</h2>
+<p class="lead">Every article starts as one line on the board. A dry board leaves the desks idle. A board full of weak ideas gives you weak articles. So the backlog gets two water marks and a gate.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 420" role="img" aria-labelledby="f2t">
+<title id="f2t">A bucket of ideas. The explorer pours new ideas in through a gate at the top; an idea without a learning sentence bounces off and falls out. Inside the bucket are two lines: 20 approved, keep at least this many, and 12 approved, the explorer runs again. A tap at the bottom sends approved ideas to the writers.</title>
+<rect x="10" y="10" width="120" height="46" rx="10" class="fa sa w2"/>
+<text x="70" y="39" text-anchor="middle" class="lb">Explorer</text>
+<path class="ln" d="M130 33H232Q250 33 250 52V94" marker-end="url(#ar)"/>
+<text x="185" y="25" text-anchor="middle" class="xs">new ideas</text>
+<polygon points="150,110 370,110 345,370 175,370" class="fs"/>
+<polygon points="155.3,165 364.7,165 345,370 175,370" class="fb"/>
+<path class="ln sb w2" d="M155.3 165H364.7"/>
+<polygon points="150,110 370,110 345,370 175,370" class="ln w2"/>
+<path class="ln" d="M150 104H370" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="378" y="109" class="lb">the gate</text>
+<path class="ln soft dash" d="M152 106Q122 112 108 134" marker-end="url(#arm)"/>
+<g transform="rotate(-14 76 160)">
+<rect x="40" y="140" width="72" height="40" rx="4" class="fs sr w2"/>
+<path class="ln sr" stroke-width="2.5" d="M64 150l24 20M88 150l-24 20"/>
+</g>
+<text x="76" y="212" text-anchor="middle" class="sm">no learning</text>
+<text x="76" y="230" text-anchor="middle" class="sm">sentence: out</text>
+<path class="ln dash w2" d="M159.6 210H360.4"/>
+<text x="260" y="202" text-anchor="middle" class="lb">20 approved</text>
+<text x="260" y="228" text-anchor="middle" class="xs">keep at least this many</text>
+<path class="ln dash w2" d="M167.3 290H352.7"/>
+<text x="260" y="282" text-anchor="middle" class="lb">12 approved</text>
+<text x="260" y="308" text-anchor="middle" class="xs">explorer runs again</text>
+<rect x="195" y="335" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="232" y="340" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="270" y="333" width="22" height="15" rx="2" class="fy sy"/>
+<rect x="306" y="339" width="22" height="15" rx="2" class="fy sy"/>
+<path class="ln" stroke-width="2.5" d="M347 345H420V374" marker-end="url(#ar)"/>
+<text x="470" y="334" text-anchor="end" class="xs">approved ideas out</text>
+<rect x="380" y="380" width="90" height="32" rx="8" class="fb sb w2"/>
+<text x="425" y="401" text-anchor="middle" class="lb14">writers</text>
+</svg>
+<figcaption><b>Two lines in the bucket.</b> Above the top line, all is well. Below the bottom line, the explorer goes back out for more. The gate at the top keeps out ideas that teach nothing new.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>The board</b> is a file you can open: <code>research/editorial/backlog.csv</code>, with a readable view, <code>backlog.html</code>.</li>
+<li><b>Top water mark:</b> keep at least 20 approved ideas.</li>
+<li><b>Bottom water mark:</b> when approved ideas drop below 12, the explorer runs again.</li>
+<li><b>The gate:</b> an idea without a believable learning sentence is dropped, whatever its search volume.</li>
+</ul>
+</div>
+<p>The learning sentence is the test. It reads: &#8220;the reader learns X, which the top five pages do not teach.&#8221; If the explorer cannot write that sentence honestly, the idea does not get on the board.</p>
+<p>Volume (searches a month) and difficulty (how hard it is to reach Google&#8217;s first page) put the ideas that pass in order. They never let an idea in.</p>
+<h3>What one line on the board holds</h3>
+<div class="example">
+<span class="tag">An example line, made up for this page</span>
+<dl class="fields">
+<dt>Working title</dt><dd>How to write a PRD engineers read to the end</dd>
+<dt>Reader&#8217;s question</dt><dd>How long should a PRD be?</dd>
+<dt>Learning sentence</dt><dd>The reader learns to cut a product requirements document (PRD) to one page in five sections, which the top five pages do not teach: they hand out 12-section templates.</dd>
+<dt>Needs your story</dt><dd>Yes: a PRD of yours that nobody read past page two.</dd>
+<dt>Status</dt><dd>idea</dd>
+</dl>
+</div>
+<p>Look at the learning sentence. That one line decides whether the other fields matter at all. The full list of fields:</p>
+<dl class="fields">
+<dt>Working title</dt><dd>The headline for now.</dd>
+<dt>Category</dt><dd>One of the 13 planned categories.</dd>
+<dt>Reader&#8217;s question</dt><dd>What the reader typed or asked, in their words.</dd>
+<dt>Learning sentence</dt><dd>&#8220;The reader learns X, which the top five pages do not teach.&#8221;</dd>
+<dt>Angle</dt><dd>Our way into the topic.</dd>
+<dt>Demand</dt><dd>Searches a month.</dd>
+<dt>Difficulty</dt><dd>How hard the first page is to reach.</dd>
+<dt>Trend</dt><dd>Rising, flat or falling.</dd>
+<dt>Intent</dt><dd>What the searcher wants: to learn, to compare, to get a template.</dd>
+<dt>Competitors</dt><dd>The three best pages, and what each one misses.</dd>
+<dt>Format</dt><dd>Article, explainer-led, template page, or part of a series.</dd>
+<dt>Needs your story</dt><dd>Yes or no.</dd>
+<dt>Status</dt><dd>idea, approved, writing, review, scheduled, published, killed.</dd>
+<dt>Source</dt><dd>Keyword store, competitor sitemap, reader question, gap, or you.</dd>
+</dl>
+<p class="rulebox"><b>Rule</b> No learning sentence, no place on the board. Search volume only decides the order.</p>
+</section>
+
+<!-- 3 -->
+<section class="block" id="s3" aria-labelledby="h3s">
+<h2 id="h3s">3. How the explorer finds ideas</h2>
+<p class="lead">The explorer is the reporter on the planning desk who reads the rival papers every week. It lays three things over each other and looks for the spots where they do not match.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 410" role="img" aria-labelledby="f3t">
+<title id="f3t">Three overlapping circles: what people search, what competitors wrote, and what we have. Marked spots: 1, a gap, searched but not written well by anyone; 2, a live topic, searched and written by competitors but not by us; 3, better, where all three meet because we have a story; 4, expansion, a planned category of ours that is still empty; and a cross, skip, written by competitors but not searched.</title>
+<circle cx="175" cy="140" r="105" class="va"/>
+<circle cx="305" cy="140" r="105" class="vo"/>
+<circle cx="240" cy="250" r="105" class="vb"/>
+<text x="10" y="22" class="lb">What people search</text>
+<text x="470" y="22" text-anchor="end" class="lb">What competitors wrote</text>
+<text x="240" y="382" text-anchor="middle" class="lb">What we have</text>
+<text x="240" y="401" text-anchor="middle" class="xs">our pages and your stories</text>
+<circle cx="110" cy="110" r="14" class="Fb"/><text x="110" y="115" text-anchor="middle" class="tw">1</text>
+<text x="110" y="142" text-anchor="middle" class="sm">gap</text>
+<circle cx="240" cy="82" r="14" class="Fb"/><text x="240" y="87" text-anchor="middle" class="tw">2</text>
+<text x="240" y="114" text-anchor="middle" class="sm">live topic</text>
+<circle cx="240" cy="172" r="14" class="Fb"/><text x="240" y="177" text-anchor="middle" class="tw">3</text>
+<text x="240" y="204" text-anchor="middle" class="sm">better</text>
+<rect x="190" y="262" width="100" height="62" rx="8" class="ln dash"/>
+<circle cx="240" cy="284" r="14" class="Fb"/><text x="240" y="289" text-anchor="middle" class="tw">4</text>
+<text x="240" y="315" text-anchor="middle" class="sm">expansion</text>
+<circle cx="370" cy="110" r="14" class="Fmuted"/><text x="370" y="115" text-anchor="middle" class="tw">&#215;</text>
+<text x="370" y="142" text-anchor="middle" class="sm">skip</text>
+</svg>
+<figcaption><b>Read the numbers.</b> 1, a gap: people search it and nobody answers it well. 2, a live topic: competitors wrote it, so we write it only if our learning sentence beats theirs. 3, better: they answer it badly and you have a story. 4, expansion: a planned category of ours with nothing in it yet. The cross: competitors wrote it, nobody searches it, so we skip it.</figcaption>
+</figure>
+<p>It reads six sources, cheapest first. The first five cost nothing.</p>
+<ol class="sources" type="a">
+<li><b>Our keyword store</b> (<code>research/seo/</code>). More than 200 scored phrases, each with its intent (what the searcher wants), trend, difficulty and category. We paid for this research already. Reading it is free.</li>
+<li><b>Competitor sitemaps.</b> A sitemap is a public file a site publishes that lists all its pages. We already pulled them for the competitors on our lists, in <code>research/seo/competitors/sitemaps</code>. Once a week the explorer pulls them again and compares with last week&#8217;s copy. Every new address becomes a line in &#8220;what they are writing now&#8221;, with its title read from the page. Where a competitor has an RSS feed (a site&#8217;s running list of new posts), the explorer reads that too. No paid service and no API (a paid data connection) are needed.<br>A new competitor article tells us the topic is live. We write it only if our learning sentence beats theirs.</li>
+<li><b>Our cached search results.</b> The &#8220;people also ask&#8221; questions and related searches we already stored from Google. They are reader questions in the reader&#8217;s own words.</li>
+<li><b>The live pages.</b> For each candidate idea, the explorer opens the top five pages and reads them in full. It writes down what each answers, its headings, and what is missing: no example, no numbers, no story, no template, or the wrong reader. The angle and the learning sentence come from that list.</li>
+<li><b>The coverage map.</b> Our own published list, counted per category. It shows which of the 13 categories are thin, which ones the plan said to launch first, and when to open an empty one. The explorer must give its reason in a sentence like this:
+<p class="quote">&#8220;Expanding into Product marketing because Product management now has 8 pieces and Product marketing has 0.&#8221;</p></li>
+<li><b>Your story bank</b> (<code>research/editorial/stories.md</code>), a file of the stories you have told. An idea that matches a story jumps the queue. Your stories are what make our piece different from the top five.</li>
+</ol>
+<h3>Three kinds of idea come out</h3>
+<div class="kinds">
+<div class="kind"><b>A gap</b><span>People search it. Nobody answers it well.</span></div>
+<div class="kind"><b>A better</b><span>Competitors answer it badly, and you have a story.</span></div>
+<div class="kind"><b>An expansion</b><span>A planned category with nothing in it yet.</span></div>
+</div>
+<p>Paid keyword checks, for phrases the store has never seen, run at most once a month, in one batch, under the spending cap you already set.</p>
+<p class="rulebox"><b>Rule</b> A rival&#8217;s new article tells us a topic is live. We write it only when our learning sentence beats theirs.</p>
+</section>
+
+<!-- 4 -->
+<section class="block" id="s4" aria-labelledby="h4s">
+<h2 id="h4s">4. Your Sunday</h2>
+<p class="lead">You are the publisher who walks in on Sunday. About half an hour of calls at the start. Then the desks work while you do something else, and you come back to read the drafts.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 460" role="img" aria-labelledby="f4t">
+<title id="f4t">A timeline of a Sunday. At 0:00 you open the backlog and approve or kill ideas, 10 minutes. At 0:10 you say write six. At 0:12 you give the stories asked for. At 0:30 the desks run and the progress page chimes; you are free. Later, on Sunday evening or mid-week, you read the summary and the draft and say fix or approve. Then you press publish or schedule.</title>
+<path class="ln soft" d="M95 28V440"/>
+<path d="M95 262V330" class="ln sa" stroke-width="7" stroke-dasharray="1 10"/>
+<text x="75" y="45" text-anchor="end" class="sm">0:00</text>
+<circle cx="95" cy="40" r="9" class="Fb"/>
+<text x="118" y="45" class="lb">Open the backlog</text>
+<text x="118" y="66" class="xs">approve or kill ideas: 10 minutes</text>
+<text x="75" y="110" text-anchor="end" class="sm">0:10</text>
+<circle cx="95" cy="105" r="9" class="Fb"/>
+<text x="118" y="110" class="lb">Say &#8220;write six&#8221;</text>
+<text x="118" y="131" class="xs">or any number</text>
+<text x="75" y="175" text-anchor="end" class="sm">0:12</text>
+<circle cx="95" cy="170" r="9" class="Fb"/>
+<text x="118" y="175" class="lb">Give the stories asked for</text>
+<text x="118" y="196" class="xs">a few lines or a voice note, about 10 minutes each</text>
+<text x="75" y="245" text-anchor="end" class="sm">0:30</text>
+<rect x="86" y="231" width="18" height="18" rx="3" class="Fa"/>
+<text x="118" y="245" class="lb">The desks run</text>
+<text x="118" y="266" class="xs">the progress page chimes at each stop</text>
+<text x="118" y="304" class="sm" font-style="italic">you are free</text>
+<text x="75" y="355" text-anchor="end" class="sm">later</text>
+<circle cx="95" cy="350" r="9" class="Fb"/>
+<text x="118" y="355" class="lb">Read the summary and the draft</text>
+<text x="118" y="376" class="xs">Sunday evening or mid-week: fix or approve</text>
+<text x="75" y="425" text-anchor="end" class="sm">then</text>
+<circle cx="95" cy="420" r="9" class="Fb"/>
+<text x="118" y="425" class="lb">Press publish or schedule</text>
+<text x="118" y="446" class="xs">the system never publishes on its own</text>
+</svg>
+<figcaption><b>Blue dots are you, the green square is the desks.</b> Count the blue dots: five short visits. The long dotted stretch in the middle is the work you do not have to watch.</figcaption>
+</figure>
+<ol class="steps">
+<li><b>Open the backlog page.</b> Approve or kill ideas. About 10 minutes.</li>
+<li><b>Say &#8220;write six&#8221;,</b> or any number.</li>
+<li><b>Give the stories.</b> For ideas marked &#8220;needs a story&#8221;, tell it in a few lines, or paste a voice note transcript.</li>
+<li><b>The desks run.</b> The progress page shows each step and chimes when a desk needs you.</li>
+<li><b>Read the editor&#8217;s one-page summary and the draft</b> for each article. Say fix or approve.</li>
+<li><b>Press publish or schedule.</b></li>
+</ol>
+<p class="rulebox"><b>Rule</b> The system never publishes on its own. The button is yours.</p>
+</section>
+
+<!-- 5 -->
+<section class="block" id="s5" aria-labelledby="h5s">
+<h2 id="h5s">5. One article, station by station</h2>
+<p class="lead">Each approved idea rides a belt past seven stations, the way copy moves from desk to desk in a newsroom. Two stop signs hold it for your eyes.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 345" role="img" aria-labelledby="f5t">
+<title id="f5t">A conveyor belt in two rows. Top row, left to right: researcher writes the brief, stop sign 1 (optional), writer drafts, illustrator draws figures, thumbnail maker draws the hero and thumb. The belt turns down. Bottom row, right to left: checker checks facts and links, SEO reviewer checks title and links, editor signs off, stop sign 2, and you, fix or approve. Every station writes into one folder per article.</title>
+<path class="belt" d="M14 117H462"/>
+<path class="belt" d="M462 117A14 80 0 0 1 462 277"/>
+<path class="belt" d="M462 277H14"/>
+<path class="chev" d="M58 114l4 3-4 3M298 114l4 3-4 3M418 114l4 3-4 3M412 274l-4 3 4 3M302 274l-4 3 4 3M90 274l-4 3 4 3"/>
+<rect x="10" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="57" y="71" text-anchor="middle" class="lb14">Researcher</text>
+<text x="57" y="91" text-anchor="middle" class="xs">the brief</text>
+<text x="130" y="38" text-anchor="middle" class="xs">stop 1</text>
+<path class="ln" d="M130 94V112"/>
+<polygon points="148.5,67.4 148.5,82.6 137.7,93.5 122.3,93.5 111.5,82.6 111.5,67.4 122.3,56.5 137.7,56.5" class="Fred"/>
+<text x="130" y="79" text-anchor="middle" class="stop">STOP</text>
+<text x="130" y="142" text-anchor="middle" class="xs">brief, optional</text>
+<rect x="155" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="202" y="71" text-anchor="middle" class="lb14">Writer</text>
+<text x="202" y="91" text-anchor="middle" class="xs">the draft</text>
+<rect x="260" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="307" y="71" text-anchor="middle" class="lb14">Illustrator</text>
+<text x="307" y="91" text-anchor="middle" class="xs">the figures</text>
+<rect x="365" y="45" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="412" y="65" text-anchor="middle" class="lb14">Thumbnail</text>
+<text x="412" y="82" text-anchor="middle" class="lb14">maker</text>
+<text x="412" y="99" text-anchor="middle" class="xs">hero, thumb</text>
+<rect x="365" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="412" y="226" text-anchor="middle" class="lb14">Checker</text>
+<text x="412" y="246" text-anchor="middle" class="xs">facts, links</text>
+<rect x="260" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="307" y="220" text-anchor="middle" class="lb14">SEO</text>
+<text x="307" y="237" text-anchor="middle" class="lb14">reviewer</text>
+<text x="307" y="254" text-anchor="middle" class="xs">title, links</text>
+<rect x="155" y="200" width="95" height="60" rx="8" class="fb sb w2"/>
+<text x="202" y="226" text-anchor="middle" class="lb14">Editor</text>
+<text x="202" y="246" text-anchor="middle" class="xs">signs off</text>
+<text x="130" y="193" text-anchor="middle" class="xs">stop 2</text>
+<path class="ln" d="M130 249V272"/>
+<polygon points="148.5,222.4 148.5,237.6 137.7,248.5 122.3,248.5 111.5,237.6 111.5,222.4 122.3,211.5 137.7,211.5" class="Fred"/>
+<text x="130" y="234" text-anchor="middle" class="stop">STOP</text>
+<text x="130" y="300" text-anchor="middle" class="xs">finished draft</text>
+<rect x="10" y="200" width="95" height="60" rx="8" class="fs ink w2"/>
+<text x="57" y="226" text-anchor="middle" class="lb14">You</text>
+<text x="57" y="246" text-anchor="middle" class="xs">fix or approve</text>
+<path d="M10 318h12l4 4h18v16H10z" class="fy sy" stroke-width="1.6"/>
+<text x="54" y="334" class="sm">every station writes into one folder per article</text>
+</svg>
+<figcaption><b>Follow the belt.</b> Along the top row the article gets made. Along the bottom row it gets checked. You see it at the first stop sign if you want to, and at the second every time.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>Researcher</b> writes the brief: what the top pages answer, what we will answer, the structure, the sources.</li>
+<li><b>Writer</b> drafts in the house voice from the brief and your story. The draft ends with a list of figures needed and a thumbnail request.</li>
+<li><b>Illustrator</b> draws the figures with our illustration generator, in the article&#8217;s tint (its one assigned color).</li>
+<li><b>Thumbnail maker</b> draws the hero image and the small thumbnail with our thumbnail rulebook.</li>
+<li><b>Checker</b> verifies every claim, number and link against the sources, and the text against the banned-words list.</li>
+<li><b>SEO reviewer</b> checks the title, the slug (the short web address, like <code>prd-template</code>), the headings, the first paragraph, internal links and intent against the keyword store.</li>
+<li><b>Editor</b> signs off against one question, and writes your one-page summary.</li>
+<li><b>Stop sign 1</b> comes after the brief. It is optional; you can skip it. <b>Stop sign 2</b> comes after the editor, every time.</li>
+</ul>
+</div>
+<p>Everything for one article lives in one folder:</p>
+<div class="folder">research/articles/&lt;slug&gt;/<br>
+&nbsp;&nbsp;brief.md <span>the researcher&#8217;s plan</span><br>
+&nbsp;&nbsp;draft.md <span>the writer&#8217;s draft</span><br>
+&nbsp;&nbsp;figures/ <span>the illustrator&#8217;s pictures</span><br>
+&nbsp;&nbsp;thumbnail/ <span>hero and thumb</span><br>
+&nbsp;&nbsp;checks.md <span>the checker&#8217;s findings</span><br>
+&nbsp;&nbsp;seo-review.md <span>the SEO reviewer&#8217;s notes</span><br>
+&nbsp;&nbsp;final.md <span>the signed-off article</span></div>
+<p>You can open any stage and read it. If a run stops halfway, it picks up from the last file written.</p>
+<p class="rulebox"><b>Rule</b> The editor asks one question: does it deliver the learning the backlog promised?</p>
+</section>
+
+<!-- 6 -->
+<section class="block" id="s6" aria-labelledby="h6s">
+<h2 id="h6s">6. Publishing, then checking the live page</h2>
+<p class="lead">The press room prints the issue. Then someone pulls the first copy off the press and checks it before it goes out. The publisher does both jobs.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 290" role="img" aria-labelledby="f6t">
+<title id="f6t">The finished article and its images go by WP-CLI into a WordPress draft post with category and tags, featured image, title and description, and schedule date. WordPress is marked not installed yet. Then the live page is checked under a magnifying glass for title, canonical address, alt text, Open Graph tags, broken links and speed basics.</title>
+<path d="M20 50h60l20 20v80H20z" class="fs ink" stroke-width="2"/>
+<path class="ln" d="M80 50v20h20"/>
+<path class="ln soft" d="M32 86h56M32 100h56M32 114h30"/>
+<rect x="55" y="115" width="60" height="45" rx="3" class="fb sb" stroke-width="1.6"/>
+<path d="M60 155l15-18 10 10 8-7 17 15z" class="Fb"/>
+<circle cx="102" cy="126" r="5" class="Fy"/>
+<text x="65" y="188" text-anchor="middle" class="lb14">final.md</text>
+<text x="65" y="206" text-anchor="middle" class="xs">and the images</text>
+<path class="ln" d="M124 100H170" marker-end="url(#ar)"/>
+<text x="147" y="90" text-anchor="middle" class="xs">WP-CLI</text>
+<rect x="175" y="40" width="140" height="130" rx="6" class="fs ink w2 dash"/>
+<path class="ln" d="M175 58H315"/>
+<circle cx="186" cy="49" r="3" class="Fmuted"/><circle cx="196" cy="49" r="3" class="Fmuted"/><circle cx="206" cy="49" r="3" class="Fmuted"/>
+<text x="187" y="80" class="lb14">Draft post</text>
+<text x="187" y="102" class="xs">&#8226; category, tags</text>
+<text x="187" y="119" class="xs">&#8226; featured image</text>
+<text x="187" y="136" class="xs">&#8226; title, description</text>
+<text x="187" y="153" class="xs">&#8226; schedule date</text>
+<text x="245" y="194" text-anchor="middle" class="lb14">WordPress</text>
+<text x="245" y="212" text-anchor="middle" class="xs warnt">not installed yet</text>
+<path class="ln" d="M319 100H351" marker-end="url(#ar)"/>
+<text x="335" y="90" text-anchor="middle" class="xs">live</text>
+<rect x="355" y="40" width="115" height="110" rx="6" class="fs ink w2"/>
+<path class="ln" d="M355 58H470"/>
+<rect x="367" y="68" width="70" height="10" rx="2" class="Fmuted"/>
+<path class="ln soft" d="M367 92h90M367 104h90M367 116h60"/>
+<circle cx="440" cy="126" r="19" class="fb ink" stroke-width="3" fill-opacity=".6"/>
+<path class="ln" stroke-width="5" d="M454 140l12 12"/>
+<text x="362" y="180" class="xs"><tspan class="tick">&#10003;</tspan> title</text>
+<text x="362" y="198" class="xs"><tspan class="tick">&#10003;</tspan> canonical address</text>
+<text x="362" y="216" class="xs"><tspan class="tick">&#10003;</tspan> alt text</text>
+<text x="362" y="234" class="xs"><tspan class="tick">&#10003;</tspan> Open Graph tags</text>
+<text x="362" y="252" class="xs"><tspan class="tick">&#10003;</tspan> no broken links</text>
+<text x="362" y="270" class="xs"><tspan class="tick">&#10003;</tspan> speed basics</text>
+</svg>
+<figcaption><b>Two halves.</b> Left of the second arrow the publisher sets the post. Right of it, the publisher turns checker and reads the page a visitor would see.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li>The publisher creates the draft post with WP-CLI (WordPress&#8217;s command line: setting up a post by typed commands instead of clicks). It sets the category, tags, featured image, the Rank Math title and description (what Google shows in its results) and the schedule date.</li>
+<li>Then it fetches the live page and checks the title, the canonical URL (the one official address of the page), images with alt text (a description for people who cannot see the image), Open Graph tags (what LinkedIn shows when the link is shared), broken links, and page speed basics.</li>
+</ul>
+</div>
+<p>WordPress is not installed yet. Until it is, an article&#8217;s path ends at <code>final.md</code> and the images.</p>
+<p class="rulebox"><b>Rule</b> An article is done when the live page passes its check.</p>
+</section>
+
+<!-- 7 -->
+<section class="block" id="s7" aria-labelledby="h7s">
+<h2 id="h7s">7. Sharing it beyond the site</h2>
+<p class="lead">One article becomes several pieces for other places. In a newsroom this is syndication: the same story, cut to fit another paper.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 320" role="img" aria-labelledby="f7t">
+<title id="f7t">One article fans out into three pieces: a LinkedIn post with a hook, three points and a link; a carousel of slides made from the figures; and, later, a 20 to 30 second reel with a voiceover. The first version is a ready-to-post pack that you post by hand.</title>
+<path d="M20 110h60l20 20v80H20z" class="fs ink" stroke-width="2"/>
+<path class="ln" d="M80 110v20h20"/>
+<path class="ln soft" d="M32 146h56M32 160h56M32 174h56M32 188h34"/>
+<text x="60" y="234" text-anchor="middle" class="sm">the article</text>
+<path class="ln" d="M100 160C150 160 150 55 198 55" marker-end="url(#ar)"/>
+<path class="ln" d="M100 160H198" marker-end="url(#ar)"/>
+<path class="ln dash" d="M100 160C150 160 150 258 198 258" marker-end="url(#ar)"/>
+<rect x="205" y="20" width="265" height="72" rx="8" class="fv sv w2"/>
+<circle cx="226" cy="44" r="9" class="Fv"/>
+<text x="244" y="49" class="lb">LinkedIn post</text>
+<text x="244" y="70" class="xs">hook, three points, link</text>
+<rect x="221" y="128" width="50" height="50" rx="4" class="fv sv" stroke-width="1.6"/>
+<rect x="213" y="134" width="50" height="50" rx="4" class="fv sv" stroke-width="1.6"/>
+<rect x="205" y="140" width="50" height="50" rx="4" class="fs sv" stroke-width="1.6"/>
+<path class="ln soft" d="M213 158h34M213 168h26"/>
+<text x="290" y="157" class="lb">Carousel</text>
+<text x="290" y="177" class="xs">slides from the figures</text>
+<rect x="205" y="218" width="44" height="80" rx="8" class="fs sv w2 dash"/>
+<path d="M220 245l16 13-16 13z" class="Fv"/>
+<text x="265" y="252" class="lb">Reel, later</text>
+<text x="265" y="272" class="xs">20 to 30 seconds, voiceover</text>
+<text x="240" y="315" text-anchor="middle" class="xs">first version: a ready-to-post pack, you post by hand</text>
+</svg>
+<figcaption><b>Solid lines now, dashed line later.</b> The LinkedIn post and the carousel come in the first build. The reel waits.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li><b>LinkedIn writer:</b> a post in your voice (a hook, three points, the link) and a carousel (a post of swipeable slides) built from the article&#8217;s figures. LinkedIn is the main channel.</li>
+<li><b>Reel maker, later:</b> a 20 to 30 second script, a storyboard from the figures, a voiceover, put together with code in the same look as the thumbnails.</li>
+</ul>
+</div>
+<h3>The honest limits</h3>
+<ul>
+<li>Posting by API (letting a program post for you) to LinkedIn and Instagram needs app approval and a business account. Instagram also wants the video on a public web address.</li>
+<li>So the first version makes ready-to-post packs, and you post by hand.</li>
+<li>A voiceover needs a speech service. Free ones that run on this computer sound fine for reels. Better ones cost a little per minute.</li>
+</ul>
+<p class="rulebox"><b>Rule</b> The first version prepares the post. You do the posting.</p>
+</section>
+
+<!-- 8 -->
+<section class="block" id="s8" aria-labelledby="h8s">
+<h2 id="h8s">8. The learning loop</h2>
+<p class="lead">A newsroom reads its own sales figures and plans the next issue from them. Ours reads search data and feeds the backlog.</p>
+<figure class="fig">
+<svg class="pic narrow" viewBox="0 0 480 400" role="img" aria-labelledby="f8t">
+<title id="f8t">A circle: publish, then people search and the search data shows rankings and clicks, the analyst reads it monthly and writes a report, refresh ideas go to the explorer and the backlog, and the desks write the next articles. In the middle: your fixes go into a feedback file that the desk reads next time.</title>
+<path class="ln w2" d="M310 79A140 140 0 0 1 367 141" marker-end="url(#ar)"/>
+<path class="ln w2" d="M367 259A140 140 0 0 1 310 321" marker-end="url(#ar)"/>
+<path class="ln w2" d="M170 321A140 140 0 0 1 113 259" marker-end="url(#ar)"/>
+<path class="ln w2" d="M113 141A140 140 0 0 1 170 79" marker-end="url(#ar)"/>
+<rect x="180" y="38" width="120" height="44" rx="22" class="fo so w2"/>
+<text x="240" y="66" text-anchor="middle" class="lb">Publish</text>
+<rect x="325" y="176" width="140" height="48" rx="22" class="fs ink w2"/>
+<text x="395" y="197" text-anchor="middle" class="lb14">Search data</text>
+<text x="395" y="214" text-anchor="middle" class="xs">rankings, clicks</text>
+<rect x="175" y="318" width="130" height="48" rx="22" class="fy sy w2"/>
+<text x="240" y="339" text-anchor="middle" class="lb14">Analyst</text>
+<text x="240" y="356" text-anchor="middle" class="xs">monthly report</text>
+<rect x="15" y="176" width="140" height="48" rx="22" class="fa sa w2"/>
+<text x="85" y="197" text-anchor="middle" class="lb14">Explorer</text>
+<text x="85" y="214" text-anchor="middle" class="xs">the backlog</text>
+<text x="420" y="112" text-anchor="middle" class="xs">people search</text>
+<text x="420" y="300" text-anchor="middle" class="xs">read monthly</text>
+<text x="62" y="300" text-anchor="middle" class="xs">refresh ideas</text>
+<text x="62" y="112" text-anchor="middle" class="xs">desks write</text>
+<path class="ln sb w2" d="M227 146A14 14 0 1 1 240 160" marker-end="url(#ar)"/>
+<text x="240" y="192" text-anchor="middle" class="lb">Your fixes</text>
+<text x="240" y="212" text-anchor="middle" class="sm">go into a feedback file</text>
+<text x="240" y="230" text-anchor="middle" class="sm">the desk reads next time</text>
+</svg>
+<figcaption><b>Two loops.</b> The big one turns once a month, from published pages back to new ideas. The small one in the middle turns every time you correct a draft.</figcaption>
+</figure>
+<div class="irl">
+<h3>In real life</h3>
+<ul>
+<li>After launch the analyst reads Search Console (Google&#8217;s free report on how a site does in search) once a month: what ranks, what gets clicks, what does not, what needs a refresh.</li>
+<li>It writes a short report and adds &#8220;refresh&#8221; and &#8220;follow-up&#8221; ideas to the backlog.</li>
+<li>Every correction you make goes into a feedback file for that desk, <code>research/editorial/feedback/&lt;desk&gt;.md</code>. The agent reads it before its next run.</li>
+</ul>
+</div>
+<p>The small loop is where your taste builds up. Tell the writer once that an opening is too slow, and the next draft starts faster. The same mistake does not come back.</p>
+<p class="rulebox"><b>Rule</b> Every fix you make is written down where that desk will read it next time.</p>
+</section>
+
+<!-- 9 -->
+<section class="block" id="s9" aria-labelledby="h9s">
+<h2 id="h9s">9. The agents, counted</h2>
+<p class="lead">Ten agents in the first build. The reel maker makes eleven. The analyst makes twelve, after launch.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 150" role="img" aria-labelledby="f9t">
+<title id="f9t">Twelve figures in a row: one planning agent, seven making agents, one publishing agent and one distribution agent form the first build of ten. Two dashed figures follow: the reel maker, later, and the analyst, after launch.</title>
+<use href="#person" x="14" y="30" width="22" height="36" class="pp-a"/>
+<use href="#person" x="52" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="82" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="112" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="142" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="172" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="202" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="232" y="30" width="22" height="36" class="pp-b"/>
+<use href="#person" x="276" y="30" width="22" height="36" class="pp-o"/>
+<use href="#person" x="316" y="30" width="22" height="36" class="pp-v"/>
+<use href="#person" x="370" y="30" width="22" height="36" class="pp-v dsh"/>
+<use href="#person" x="430" y="30" width="22" height="36" class="pp-y dsh"/>
+<text x="4" y="90" class="xs">Planning</text>
+<path class="ln soft" d="M52 76H254"/>
+<text x="153" y="92" text-anchor="middle" class="xs">Making: 7</text>
+<text x="287" y="90" text-anchor="middle" class="xs">Publishing</text>
+<text x="327" y="108" text-anchor="middle" class="xs">Distribution</text>
+<text x="381" y="90" text-anchor="middle" class="xs">reel maker</text>
+<text x="441" y="108" text-anchor="middle" class="xs">analyst</text>
+<path class="ln" d="M10 120V126H344V120"/>
+<text x="177" y="144" text-anchor="middle" class="sm">first build: 10</text>
+<path class="ln soft" d="M364 120V126H458V120"/>
+<text x="411" y="144" text-anchor="middle" class="sm">later: 2 more</text>
+</svg>
+<figcaption><b>The color is the desk.</b> Seven of the ten sit at the making desk, because that is where an article is made and checked.</figcaption>
+</figure>
+<div class="tablebox">
+<table class="agents">
+<thead><tr><th scope="col">Agent</th><th scope="col">Desk</th><th scope="col">Reads</th><th scope="col">Writes</th><th scope="col">Rulebook</th></tr></thead>
+<tbody>
+<tr><td data-label="Agent">1. Explorer</td><td data-label="Desk">Planning</td><td data-label="Reads">Keyword store, competitor sitemaps and feeds, stored search questions, the top five live pages, coverage map, story bank</td><td data-label="Writes"><code>backlog.csv</code>, <code>backlog.html</code></td><td data-label="Rulebook">SEO research store</td></tr>
+<tr><td data-label="Agent">2. Researcher</td><td data-label="Desk">Making</td><td data-label="Reads">The backlog line, the top five pages, keyword store</td><td data-label="Writes"><code>brief.md</code></td><td data-label="Rulebook">SEO research store</td></tr>
+<tr><td data-label="Agent">3. Writer</td><td data-label="Desk">Making</td><td data-label="Reads">The brief, your story, the writer&#8217;s feedback file</td><td data-label="Writes"><code>draft.md</code>, figure list, thumbnail request</td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">4. Illustrator</td><td data-label="Desk">Making</td><td data-label="Reads">The figure list, the draft</td><td data-label="Writes"><code>figures/</code></td><td data-label="Rulebook"><span class="todo">Illustrations (to write)</span></td></tr>
+<tr><td data-label="Agent">5. Thumbnail maker</td><td data-label="Desk">Making</td><td data-label="Reads">The thumbnail request, the title</td><td data-label="Writes"><code>thumbnail/</code></td><td data-label="Rulebook">Thumbnails</td></tr>
+<tr><td data-label="Agent">6. Checker</td><td data-label="Desk">Making</td><td data-label="Reads">The draft, the brief&#8217;s sources, the banned-words list</td><td data-label="Writes"><code>checks.md</code></td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">7. SEO reviewer</td><td data-label="Desk">Making</td><td data-label="Reads">The draft, keyword store, our published list</td><td data-label="Writes"><code>seo-review.md</code></td><td data-label="Rulebook"><span class="todo">Article SEO review (to write)</span></td></tr>
+<tr><td data-label="Agent">8. Editor</td><td data-label="Desk">Making</td><td data-label="Reads">Everything in the article folder, the backlog&#8217;s promise</td><td data-label="Writes"><code>final.md</code>, your one-page summary</td><td data-label="Rulebook">Writing style</td></tr>
+<tr><td data-label="Agent">9. Publisher</td><td data-label="Desk">Publishing</td><td data-label="Reads"><code>final.md</code>, figures, thumbnail, then the live page</td><td data-label="Writes">The WordPress draft post, a live-page check report</td><td data-label="Rulebook"><span class="todo">WordPress publishing (to write)</span></td></tr>
+<tr><td data-label="Agent">10. LinkedIn writer</td><td data-label="Desk">Distribution</td><td data-label="Reads"><code>final.md</code>, figures</td><td data-label="Writes">The post and the carousel pack</td><td data-label="Rulebook"><span class="todo">LinkedIn (to write)</span></td></tr>
+<tr class="later"><td data-label="Agent">11. Reel maker, later</td><td data-label="Desk">Distribution</td><td data-label="Reads"><code>final.md</code>, figures, the thumbnail look</td><td data-label="Writes">Script, storyboard, voiceover, video</td><td data-label="Rulebook">Written when it is built</td></tr>
+<tr class="later"><td data-label="Agent">12. Analyst, after launch</td><td data-label="Desk">Feeds Planning</td><td data-label="Reads">Search Console, our published list</td><td data-label="Writes">Monthly report, refresh and follow-up ideas in the backlog</td><td data-label="Rulebook">SEO research store</td></tr>
+</tbody>
+</table>
+</div>
+<p>The managing editor (the main session) is not on the list. It runs the room. It is not an agent file.</p>
+<p>A rulebook is the written instruction an agent loads before it works; in the system it is called a skill. Three exist today: writing style, thumbnails and the SEO research store. Four are still to write: illustrations (the rules already exist as a document), article SEO review, WordPress publishing and LinkedIn.</p>
+<p class="rulebox"><b>Rule</b> Each agent does one job and loads its own rulebook.</p>
+</section>
+
+<!-- 10 -->
+<section class="block" id="s10" aria-labelledby="h10s">
+<h2 id="h10s">10. What exists, and what we build next</h2>
+<p class="lead">A good part of the newsroom is already furnished. Seven steps finish it, one at a time, each starting with your &#8220;go&#8221;.</p>
+<figure class="fig">
+<svg class="pic" viewBox="0 0 480 300" role="img" aria-labelledby="f10t">
+<title id="f10t">A staircase of seven steps standing on a foundation labelled already built, eight parts. The steps are: 1 backlog and explorer, 2 rulebooks, 3 making desk, 4 WordPress and publisher, 5 LinkedIn pack, 6 reels, 7 analyst. A flag says you give a go before each step.</title>
+<rect x="10" y="250" width="460" height="36" rx="6" class="fa sa w2"/>
+<text x="240" y="273" text-anchor="middle" class="sm">Already built: 8 parts (listed below)</text>
+<rect x="14" y="222" width="60" height="28" class="fb sb" stroke-width="1.6"/><text x="44" y="242" text-anchor="middle" class="lb14">1</text>
+<rect x="80" y="196" width="60" height="54" class="fb sb" stroke-width="1.6"/><text x="110" y="218" text-anchor="middle" class="lb14">2</text>
+<rect x="146" y="170" width="60" height="80" class="fb sb" stroke-width="1.6"/><text x="176" y="192" text-anchor="middle" class="lb14">3</text>
+<rect x="212" y="144" width="60" height="106" class="fb sb" stroke-width="1.6"/><text x="242" y="166" text-anchor="middle" class="lb14">4</text>
+<rect x="278" y="118" width="60" height="132" class="fb sb" stroke-width="1.6"/><text x="308" y="140" text-anchor="middle" class="lb14">5</text>
+<rect x="344" y="92" width="60" height="158" class="fb sb dash" stroke-width="1.6"/><text x="374" y="114" text-anchor="middle" class="lb14">6</text>
+<rect x="410" y="66" width="60" height="184" class="fy sy dash" stroke-width="1.6"/><text x="440" y="88" text-anchor="middle" class="lb14">7</text>
+<text x="44" y="198" text-anchor="middle" class="xs">Backlog,</text><text x="44" y="213" text-anchor="middle" class="xs">explorer</text>
+<text x="110" y="187" text-anchor="middle" class="xs">Rulebooks</text>
+<text x="176" y="146" text-anchor="middle" class="xs">Making</text><text x="176" y="161" text-anchor="middle" class="xs">desk</text>
+<text x="242" y="120" text-anchor="middle" class="xs">WordPress,</text><text x="242" y="135" text-anchor="middle" class="xs">publisher</text>
+<text x="308" y="94" text-anchor="middle" class="xs">LinkedIn</text><text x="308" y="109" text-anchor="middle" class="xs">pack</text>
+<text x="374" y="83" text-anchor="middle" class="xs">Reels</text>
+<text x="440" y="57" text-anchor="middle" class="xs">Analyst</text>
+<path class="ln" d="M20 18V50"/>
+<path d="M20 18h20l-5 6 5 6H20z" class="Fo"/>
+<text x="48" y="31" class="sm">a &#8220;go&#8221; from you before each step</text>
+</svg>
+<figcaption><b>Each step stands on the one before.</b> The making desk needs the backlog and the rulebooks first. The publisher needs WordPress. The analyst needs pages that have been live for a while.</figcaption>
+</figure>
+<div class="two">
+<div class="panel">
+<h3>Already built</h3>
+<ul>
+<li>The keyword store and the topic scores</li>
+<li>The category tree</li>
+<li>Competitor lists and their sitemap pulls</li>
+<li>The writing-style rulebook</li>
+<li>The thumbnail rulebook and generator</li>
+<li>The illustration generator and its rules</li>
+<li>The progress page</li>
+<li>The article page mockup</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Build order</h3>
+<ol>
+<li>The backlog file, the editorial folder, and the explorer with the sitemap compare.</li>
+<li>The illustration rulebook and the article SEO rulebook.</li>
+<li>The making desk with its two stop signs, run once on the first article with a real story of yours.</li>
+<li>WordPress install, then the publisher and its live-page check.</li>
+<li>The LinkedIn pack.</li>
+<li>Reels.</li>
+<li>The analyst, after launch.</li>
+</ol>
+</div>
+</div>
+<p>Each step is a session or two.</p>
+<p class="rulebox"><b>Rule</b> Nothing gets built until you say go.</p>
+</section>
+
+<!-- 11 -->
+<section class="block" id="s11" aria-labelledby="h11s">
+<h2 id="h11s">11. Questions for you</h2>
+<p class="lead">Six calls before step 1. Pick an answer for each, or give a different one in our next session.</p>
+<form class="ask" onsubmit="return false">
+<fieldset><legend>1. Is six a week realistic?</legend>
+<p class="q">Each story takes you about 10 minutes. Six articles with stories is about an hour of telling.</p>
+<label><input type="radio" name="q1" value="six"> Six a week</label><label><input type="radio" name="q1" value="four"> Start with four</label><label><input type="radio" name="q1" value="three"> Start with three</label></fieldset>
+<fieldset><legend>2. Water marks of 20 and 12?</legend>
+<p class="q">Keep 20 approved ideas; refill when fewer than 12 are left.</p>
+<label><input type="radio" name="q2" value="ok"> Fine as they are</label><label><input type="radio" name="q2" value="lower"> Lower them</label><label><input type="radio" name="q2" value="higher"> Raise them</label></fieldset>
+<fieldset><legend>3. Which categories may the explorer open on its own?</legend>
+<p class="q">The rest it only proposes, and waits for you to ask.</p>
+<label><input type="radio" name="q3" value="any"> Any planned category</label><label><input type="radio" name="q3" value="launch"> Only the launch categories</label><label><input type="radio" name="q3" value="none"> None: only when I ask</label></fieldset>
+<fieldset><legend>4. Should the brief be a stop sign?</legend>
+<p class="q">A stop after the brief catches a wrong angle early. It costs you one more look per article.</p>
+<label><input type="radio" name="q4" value="both"> Stop at the brief and the draft</label><label><input type="radio" name="q4" value="draft"> Only the finished draft</label></fieldset>
+<fieldset><legend>5. How often to pull competitor sitemaps?</legend>
+<label><input type="radio" name="q5" value="weekly"> Weekly</label><label><input type="radio" name="q5" value="fortnight"> Every two weeks</label><label><input type="radio" name="q5" value="monthly"> Monthly</label></fieldset>
+<fieldset><legend>6. Should the explorer watch more than sites?</legend>
+<p class="q">A few LinkedIn voices or newsletters would show topics before they reach a sitemap.</p>
+<label><input type="radio" name="q6" value="sites"> Sites only</label><label><input type="radio" name="q6" value="news"> Sites and newsletters</label><label><input type="radio" name="q6" value="all"> Sites, newsletters and LinkedIn voices</label></fieldset>
+<p class="fine">Your choices are remembered in this browser only. Say them in our next session to apply them.</p>
+</form>
+</section>
+
+</div>
+</main>
+<footer class="wrap"><p>A proposal, built on the owner&#8217;s brief (<code>research/discussion/brd-v1-2026-10-08.md</code>) and the running record in <code>research/discussion/context.md</code>. The files named here under <code>research/editorial/</code> and <code>research/articles/</code> do not exist yet; they come with build steps 1 and 3. The water marks, the six sources and the counts are proposals, open to change through section 11.</p></footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById("themebtn"), K="ups-theme", modes=["auto","light","dark"], m="auto";
+  try{ m=localStorage.getItem(K)||"auto"; }catch(e){}
+  if(modes.indexOf(m)<0) m="auto";
+  function apply(){ if(m==="auto"){ root.removeAttribute("data-theme"); } else { root.setAttribute("data-theme",m); } btn.textContent="Theme: "+m; }
+  apply();
+  btn.addEventListener("click",function(){ m=modes[(modes.indexOf(m)+1)%3]; try{ localStorage.setItem(K,m); }catch(e){} apply(); });
+})();
+(function(){
+  var K="publishing-proposal-answers", s={};
+  try{ s=JSON.parse(localStorage.getItem(K)||"{}")||{}; }catch(e){ s={}; }
+  var ins=document.querySelectorAll('.ask input[type=radio]');
+  for(var i=0;i<ins.length;i++){ var x=ins[i]; if(s[x.name]===x.value) x.checked=true;
+    x.addEventListener("change",function(e){ s[e.target.name]=e.target.value; try{ localStorage.setItem(K,JSON.stringify(s)); }catch(err){} }); }
+})();
+</script>
+</body>
+</html>

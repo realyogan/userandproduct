@@ -1,0 +1,33 @@
+{
+  "skill_name": "thumbnail-images",
+  "evals": [
+    {
+      "id": 1,
+      "name": "prd-howto",
+      "prompt": "Make the thumbnail for our article \"How to Write a PRD That Engineers Actually Read\" (slug prd-engineers-read). Put the files in .claude/skills/thumbnail-images/evals/outputs/eval-1/.",
+      "expected_output": "Kind howto; candidates [1, 3, 4, 2]; a suitable style from the rotation; subject prd; a bright suggested background; scheme mono or duo with the accent only on the thing that matters; hero and thumb both with the full lockup in a clear corner; checks pass; kind, candidates and reason reported.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "supplied-photo",
+      "prompt": "Here's a photo for the piece \"What a Good Planning Wall Looks Like\" (slug planning-wall): research/mockups/references/blog-thumbnails/gallery/sample-photo-printables-sheet.png. It's a screenshot of a calendar page from my other site. Make the cover image. Files go in .claude/skills/thumbnail-images/evals/outputs/eval-2/.",
+      "expected_output": "Style 11 because a photo was supplied; the photo prepared first (cropped, logos, text and dates painted out); dot screen on a bright background, mono; feathered, no frame; the full lockup on the hero and the thumb; checks pass; source noted as the owner's own.",
+      "files": ["research/mockups/references/blog-thumbnails/gallery/sample-photo-printables-sheet.png"]
+    },
+    {
+      "id": 3,
+      "name": "style-cannot-carry",
+      "prompt": "Featured image for \"5 Persona Mistakes Teams Make\", slug persona-mistakes. It's our second article, so index 1. Output to .claude/skills/thumbnail-images/evals/outputs/eval-3/.",
+      "expected_output": "Kind list; candidates [1, 4, 10, 2]; the rotation gives style 4 (icon sequence), which cannot carry a persona (no 3 to 5 steps) unless real steps are supplied, so it falls to the next suitable style (10) and says so; checks pass.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "three-neighbours",
+      "prompt": "We're publishing three articles in a row, indexes 5, 6 and 7: \"Why Roadmaps Should Not Have Dates\" (slug roadmaps-without-dates), \"Reading a Retention Chart\" (slug read-a-retention-chart) and \"A Free Research Plan Template\" (slug research-plan-template). Make the thumbnail for each, in that order, into .claude/skills/thumbnail-images/evals/outputs/eval-4/.",
+      "expected_output": "Kinds opinion, data and tool; each style drawn from its kind's suitable list; no two neighbours share a style or a background; schemes restrained (mono or duo); history used in order; each pick reported with its reason.",
+      "files": []
+    }
+  ]
+}

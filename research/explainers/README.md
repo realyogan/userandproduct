@@ -24,3 +24,24 @@ short sentences, with simple charts and diagrams.
   domain cards, each line badged with the same ease icons and colors and a hover or tap card (articles, searches,
   difficulty, score range, formats, wave and everything merged into it); the AI, Careers, Templates and Tools tags, the
   parked list and the two calls for the owner. Data in `research/seo/tree-simplified-v1.1-*.csv` and `tree-simplified-v1.1.md` (v1 files kept).
+- [publishing-system-proposal-2026-10-09.html](http://localhost/user-and-product/research/explainers/publishing-system-proposal-2026-10-09.html):
+  the proposal for the publishing system, told as a magazine newsroom: a one-screen summary, then 11 numbered sections
+  with one picture each (the desks around the backlog board, the backlog bucket with its 20 and 12 water marks and the
+  learning-sentence gate, the explorer's three circles and six sources, the owner's Sunday, one article's stations with
+  two stop signs, publishing and the live-page check, LinkedIn and reels, the learning loop, the 10 to 12 agents with
+  what each reads, writes and loads, the build order) and six questions for the owner, remembered in the browser.
+- [publishing-system-proposal-2-2026-10-09.html](http://localhost/user-and-product/research/explainers/publishing-system-proposal-2-2026-10-09.html):
+  proposal 2, which replaces proposal 1 (kept as it was for comparison). Same newsroom and 11 sections, plus a fifth desk,
+  Performance: a campaign manager that, once the site is live, reads Search Console, analytics, page speed, the keyword
+  store and rival sitemaps every week, scores the site, each category and each article against its one-line expectation,
+  writes nudges with evidence, and keeps old pages current with review dates and refresh jobs that run through the
+  making desk. It proposes and never edits the site. Adds the expectation and review-date backlog fields, 12 agents
+  with the campaign manager after launch, and a seventh question (when the weekly scorecard reaches the owner).
+- [publishing-system-proposal-3-2026-10-09.html](http://localhost/user-and-product/research/explainers/publishing-system-proposal-3-2026-10-09.html):
+  proposal 3, built on proposal 2 with every agent and desk kept (12 agents, five desks, the campaign manager, refresh
+  jobs, expectation and review date). What changed is the owner's rhythm: a monthly pitch meeting started by one command
+  (`/whatsup`, a placeholder name) that gives the status and about ten pitch cards with outlines and a story slot; a two-
+  or three-day build window where the desks make the whole ready set and the publisher creates scheduled drafts in local
+  WordPress; a review week (30 to 40 minutes per draft); scheduled publishing at about two a week; and the arithmetic
+  (8 to 10 pieces a window, the first window 3 or 4). 12 sections, with a new pitch-meeting section and a build-window
+  section, and 14 questions (proposal 2's seven plus seven on the rhythm).
